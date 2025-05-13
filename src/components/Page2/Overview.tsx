@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import Documentation from "./Documentation";
 import FAQ from "./FAQ";
 import FeeStructure from "./FeeStructure";
@@ -8,6 +7,7 @@ import Registration from "./Registration";
 import Timeline from "./Timeline";
 import Why from "./Why";
 import Listicles from "./Listicles";
+import Renewal from "./Renewal";
 
 interface OverviewProps {
   overview?: { heading: string; content: string }[];
@@ -19,7 +19,7 @@ interface OverviewProps {
     paymentMethods?: string[];
     description?: string;
     feeTable?: { category: string; amount: string }[];
-  }[];  
+  }[];
   registrationTimeline?: {
     heading: string;
     description?: string;
@@ -33,7 +33,11 @@ interface OverviewProps {
     footerText?: string;
   }[];
   faq?: { question: string; answer: string }[];
-  listicles?: { category: string; documents: string[] }[]; // Added listicles prop
+  listicles?: { category: string; documents: string[] }[];
+  renewalData?: {
+    renewal: { heading: string; content: string[] }[];
+    duplicate: { heading: string; content: string[] }[];
+  };
 }
 
 const Overview: React.FC<OverviewProps> = ({
@@ -45,21 +49,42 @@ const Overview: React.FC<OverviewProps> = ({
   registrationTimeline,
   whyUs,
   faq,
-  listicles, // Added listicles prop
+  listicles,
+  renewalData,
 }) => {
   const [activeSection, setActiveSection] = useState("overview");
 
   // Dynamically generate the sections array based on available props
   const sections = [
-    overview && { id: "overview", label: "Overview" },
-    benefits && { id: "benefits", label: "Key Benefits" },
-    documentsRequired && { id: "documents", label: "Required Documents" },
-    registrationProcedure && { id: "registration", label: "Registration Steps" },
-    feesStructure && { id: "fees", label: "Pricing Plans" },
-    registrationTimeline && { id: "timeline", label: "Process Timeline" },
-    listicles && { id: "listicles", label: "Listicles" }, // Added Listicles section
-    whyUs && { id: "whyus", label: "Why Choose Us" },
-    faq && { id: "faq", label: "FAQs" },
+    overview && overview.length > 0 && { id: "overview", label: "Overview" },
+    benefits &&
+      benefits.length > 0 && { id: "benefits", label: "Key Benefits" },
+    documentsRequired &&
+      documentsRequired.length > 0 && {
+        id: "documents",
+        label: "Required Documents",
+      },
+    registrationProcedure &&
+      registrationProcedure.length > 0 && {
+        id: "registration",
+        label: "Registration Steps",
+      },
+    feesStructure &&
+      feesStructure.length > 0 && { id: "fees", label: "Pricing Plans" },
+    registrationTimeline &&
+      registrationTimeline.length > 0 && {
+        id: "timeline",
+        label: "Process Timeline",
+      },
+      listicles &&
+    listicles.length > 0 && { id: "listicles", label: "Listicles" },
+    renewalData &&
+    (renewalData.renewal.length > 0 || renewalData.duplicate.length > 0) && {
+      id: "renewal",
+      label: "Renewal & Duplicate",
+    },
+    whyUs && whyUs.length > 0 && { id: "whyus", label: "Why Choose Us" },
+    faq && faq.length > 0 && { id: "faq", label: "FAQs" },
   ].filter(Boolean); // Remove undefined entries
 
   const scrollToSection = (sectionId: string) => {
@@ -121,7 +146,7 @@ const Overview: React.FC<OverviewProps> = ({
             ))}
           </section>
         )}
-        {benefits && (
+        {benefits && benefits.length > 0 && (
           <section id="benefits">
             <h2>{benefits[0].heading}</h2>
             <p>{benefits[0].content}</p>
@@ -150,6 +175,11 @@ const Overview: React.FC<OverviewProps> = ({
         {listicles && (
           <section id="listicles">
             <Listicles listicles={listicles} />
+          </section>
+        )}
+        {renewalData && (
+          <section id="renewal">
+            <Renewal renewalData={renewalData} />
           </section>
         )}
         {whyUs && (
