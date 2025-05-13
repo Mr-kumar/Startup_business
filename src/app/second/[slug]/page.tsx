@@ -1,6 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import { pageContent, PageContentType } from '@/utils/pageContentDataSecondary';
+import Registration from '@/components/Page1/Registration';
 
 // Dynamic imports of your GST components
 const Overview       = dynamic(() => import('@/components/Page1/Overview'));
@@ -25,13 +26,15 @@ export default function GstPage({ params }: PageProps) {
 
   return (
     <div>
+      <Registration/>
       <Overview data={currentPage.overview} />
       <Features items={currentPage.features} />
       <Benefits items={currentPage.benefits} />
       <Documents data={currentPage.documents} />
       <Eligibility sections={currentPage.eligibility} />
-      <ServicesFaq services={currentPage.services} faqs={currentPage.faqs} />
       <Types data={currentPage.types} />
+      <ServicesFaq services={currentPage.services} faqs={currentPage.faqs} />
+      
     </div>
   );
 }
