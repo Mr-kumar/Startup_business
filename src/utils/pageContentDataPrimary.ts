@@ -74,6 +74,125 @@ export const pageContent: Record<string, PageContentType> = {
     description: "Get your FSSAI state food license with our expert guidance.",
     overview: [
       {
+        heading: "FSSAI State License – A Comprehensive Guide",
+        content: `The Food Safety and Standards Authority of India (FSSAI) is the apex regulatory body responsible for overseeing food safety and hygiene across the country. Operating under the Ministry of Health & Family Welfare, FSSAI enforces the provisions of the Food Safety and Standards Act, 2006 to ensure that food businesses maintain strict safety standards.\n Any Food Business Operator (FBO) in India is legally required to obtain an FSSAI State License before starting operations. Running a food business without proper FSSAI registration or license is considered a legal offense and can attract penalties.`,
+      },
+      {
+  heading: "Role of the Food Safety and Standards Authority of India (FSSAI)",
+  content: "The Food Safety and Standards Authority of India (FSSAI) plays a pivotal role in regulating and supervising food safety to protect public health across the nation. As the primary authority under the Ministry of Health & Family Welfare, FSSAI enforces food safety standards and promotes responsible food practices through a range of strategic functions:\n● Establishing regulations and guidelines for the food industry\n● Launching food safety awareness initiatives nationwide\n● Issuing instructions and compliance requirements for Food Business Operators (FBOs)\n● Setting standards for food testing laboratories\n● Collecting and analyzing data on food contaminants\n● Advising the Government of India on food-related policies and legislation\n● Operating a rapid alert system to detect and respond to food safety risks promptly"
+},
+{
+  heading: "",
+  content: "FSSAI has introduced strict regulations for proprietary food businesses, many of which previously operated without defined standards. These businesses are now required to obtain a valid FSSAI State License without exception.\nTo ensure hygiene and food safety across all stages—manufacturing, storage, distribution, and sale—FSSAI has made licensing and regulation mandatory for all FBOs. Additionally, the authority has developed an extensive information network to provide the public with accurate and timely updates related to food safety and hygiene in India."
+}
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Obtaining an FSSAI State License",
+        content: `Securing an FSSAI State License is not just a legal requirement for food businesses operating within a particular state in India—it also offers a range of strategic advantages. Some of the major benefits include:\n
+● Enhanced Brand Credibility: Builds trust and recognition among consumers, helping your business stand out in a competitive market.\n
+● Improved Business Reputation: An FSSAI license signals quality and safety, boosting your brand’s credibility and market appeal.\n
+● Customer Trust and Retention: Consumers are more likely to choose and remain loyal to a licensed food business that prioritizes safety and hygiene.\n
+● Legal Compliance and Stability: Avoid legal hassles and ensure smooth operations by meeting all state-level food safety regulations.\n
+● Adoption of Best Practices: Encourages food businesses to follow standardized safety protocols, improving overall product quality and operational efficiency.
+`,
+      },
+      {
+        heading: "Who Requires an FSSAI State License?",
+        content: `An FSSAI State License is mandatory for medium-scale food businesses operating within a single state in India. It applies to various food-related activities including manufacturing, processing, storage, distribution, and sale. If your food business meets any of the following criteria, you are required to obtain an FSSAI State License:\n
+●      Annual Turnover: Businesses operating within one state with an annual turnover exceeding Rs. 12 lakhs but below Rs. 20 crores.\n
+●      Proprietary Food Units: Facilities involved in the production or handling of proprietary food products.\n
+●      Edible Oil Production: Units engaged in vegetable oil manufacturing or processing using solvent extraction, within the above turnover range.\n
+●      Hotels: Establishments with a star rating of 4 or below.\n
+●      Dairy Operations: Units handling dairy products or milk chilling plants with a daily capacity between 500 to 50,000 liters.\n
+●      Storage Facilities: Warehouses or cold storages with a capacity of less than 50,000 metric tons per year.\n
+●      Slaughterhouses: Units processing more than 2 and up to 50 large animals, 10 to 150 small animals, or 50 to 1,000 poultry birds per day.\n
+●      Food Processing Units: All food processing or re-packing facilities handling a minimum of 100 kg/l to a maximum of 2 metric tons per day.\n
+If your business falls under any of these categories, securing an FSSAI State License is not just beneficial—it’s mandatory for legal operation and public trust.\n
+`,
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for FSSAI State License Registration",
+        content: `To apply for an FSSAI State License, food business operators must submit a set of mandatory documents as per the regulatory guidelines. These documents help verify the legitimacy and operational standards of the
+
+business. Below is a comprehensive list of documents required for FSSAI State License registration:\n
+●      Details of Key Personnel: Names, addresses, and contact information of Directors, Partners, Proprietors, or Executive Members (in case of a society).\n
+●      Photographs: Recent passport-sized photographs of the applicant.\n
+●      Identity & Address Proof: Valid government-issued ID and address proof of the individual applying for the license.\n
+●      PAN Card: A copy of the applicant’s Permanent Account Number (PAN) card.\n
+●      Proof of Business Premises:\n
+●  	Owned Property: Copy of property documents.\n
+●      Rented Property: Copy of the rent agreement along with a No Objection Certificate (NOC) from the property owner.\n
+●      Supplier Details: List of raw material suppliers associated with the business.\n
+●      Form B: Duly filled and signed application form (Form B).\n
+●      Machinery List: Detailed list of machinery and equipment installed at the business facility.\n
+●      Municipal NOC: Clearance or No Objection Certificate issued by the local municipal authority.\n
+●      Product Information: List of proposed food products and their respective food categories to be manufactured or processed.\n
+●      Import Export Code (IEC): Issued by the Directorate General of Foreign Trade (DGFT), if applicable.\n
+●      Form IX: Nomination of persons by a company along with a board resolution.\n
+●      Authorization Letter: Letter of authorization mentioning the name and address of the responsible individual.\n
+●      Food Safety Management System Plan (FSMS): A copy of the FSMS plan or certificate.\n
+Submitting these documents correctly and completely is crucial for a successful application process. It helps ensure quicker processing and regulatory compliance for your food business under the FSSAI norms.\n
+`,
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Penalties for Non-Compliance with FSSAI Regulations",
+        content: "1. Food quality not adhering to the standards of the Act - Up to ₹2,00,000 (₹25,000 for petty manufacturers)\n 2. Sale or distribution of sub-standard food - Up to ₹5,00,000\n 3. Misbranded or misleadingly labeled food - Up to ₹3,00,000\n 4. False advertising or deceptive product description - Up to ₹10,00,000\n 5. Presence of extraneous or foreign matter in food - Up to ₹1,00,000\n 6. Failure to comply with directions of Food Safety Officer - Up to ₹2,00,000\n 7. Manufacturing or processing food in unhygienic conditions - Up to ₹1,00,000.\n Note: In addition to fines, repeated or severe violations may result in license suspension or cancellation.\n Strict adherence to FSSAI regulations is essential not only for avoiding penalties but also for ensuring consumer safety and maintaining business credibility.\n Here’s a clean, SEO-friendly, and professionally rephrased version of the “Fee Structure for Obtaining FSSAI State License” section for your client’s website."
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "FSSAI State License Fee Structure",
+        description: "The cost of obtaining an FSSAI State License depends on the scale and nature of your food business operations. Applicants can pay the applicable fees via Demand Draft (DD), Treasury Challan, or Cash, as per the norms laid out by the Food Safety and Standards Authority of India.\n Below is the categorized fee structure based on the type and capacity of the food business:",
+        feeTable: [
+          {
+            category: "Small businesses",
+            amount: "2000/-",
+          },
+          {
+            category: "Medium businesses",
+            amount: "5000/-",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Obtain FSSAI State License",
+        description: "The process typically takes 6-12 weeks.",
+        steps: [
+          {
+            title: "Document Preparation",
+            duration: "1-2 weeks",
+            description: "Gather all required documents.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Us?",
+        description: ["We provide expert guidance and support."],
+        points: ["99% success rate", "Affordable pricing"],
+      },
+    ],
+    faq: [
+      {
+        question: "What is an FSSAI state license?",
+        answer: "It is a mandatory license for food businesses.",
+      },
+    ],
+    
+  },
+  "fssai-license-renewal": {
+    title: "FSSAI State License",
+    description: "Get your FSSAI state food license with our expert guidance.",
+    overview: [
+      {
         heading: "FSSAI State License - An Overview",
         content: `FSSAI (Food Safety and Standards Authority of India) regulates the food sector across India. 
                   It ensures food safety by implementing strict guidelines. 
@@ -124,19 +243,39 @@ export const pageContent: Record<string, PageContentType> = {
     registrationTimeline: [
       {
         heading: "Timeline to Obtain FSSAI State License",
-        description: "The process typically takes 6-12 weeks.",
+        description: "Obtaining an FSSAI State License is a step-by-step process that involves documentation, application, review, and inspection stages. Here’s a breakdown of the estimated timeline involved in acquiring the license:",
         steps: [
           {
-            title: "Document Preparation",
+            title: "1.Document Preparation & Initial Assessment",
             duration: "1-2 weeks",
-            description: "Gather all required documents.",
+            description: "Begin by collecting all mandatory documents, including identity/address proof, business registration certificates, and your Food Safety Management System (FSMS) plan. Conduct a preliminary check to ensure all paperwork is in place before filing.",
+          },
+          {
+            title: "2. Application Submission",
+            duration: "Up to 1 Week",
+            description: "Submit the duly filled Form B through the official FoSCoS (Food Safety Compliance System) portal or at your nearest FSSAI office. Make sure to pay the prescribed application fee.",
+          },
+          {
+            title: "3.  Application Review & Scrutiny",
+            duration: "2–3 Weeks",
+            description: "FSSAI authorities will review your application and attached documents. During this phase, they may seek clarification or request additional information.",
+          },
+          {
+            title: "4. On-Site Inspection",
+            duration: "2–4 Weeks",
+            description: "FSSAI officials may conduct a physical inspection of your premises to verify adherence to hygiene, safety, and infrastructure requirements as per FSSAI guidelines.",
+          },
+          {
+            title: "5. Grant of License",
+            duration: "1–2 Weeks",
+            description: "Following a successful inspection and final document verification, your FSSAI State License will be approved and issued.",
           },
         ],
       },
     ],
     whyUs: [
       {
-        heading: "Why Choose Us?",
+        heading: "2. Application Submission",
         description: ["We provide expert guidance and support."],
         points: ["99% success rate", "Affordable pricing"],
       },
@@ -150,95 +289,8 @@ export const pageContent: Record<string, PageContentType> = {
     
   },
 
-  "fssai-license-renewal": {
-    title: "FSSAI License Renewal",
-    description:
-      "Ensure your food business stays compliant by renewing your FSSAI license with our expert assistance.",
-    overview: [
-      {
-        heading: "FSSAI License Renewal - An Overview",
-        content: `According to the Food Safety and Standards Authority of India (FSSAI), it is mandatory for all food businesses in India to renew their FSSAI license before its expiration date. The license is typically valid for 1 to 5 years depending on the choice made at the time of registration. Failure to renew on time can lead to penalties and even suspension of the food license. Therefore, timely renewal is crucial to avoid disruptions and maintain smooth operations.`,
-      },
-    ],
-    benefits: [
-      {
-        heading: "Benefits of Renewing FSSAI License",
-        content: `- Continues legal operation of your food business without penalties
-- Maintains trust among customers with proof of compliance
-- Prevents business interruptions due to license expiration
-- Avoids hefty fines and legal actions
-- Strengthens brand reputation by showcasing adherence to food safety standards`,
-      },
-    ],   
-    registrationProcedure: [
-      {
-        heading: "Process for Renewing FSSAI License",
-        content: `- Log in to the FSSAI's FOSCOS portal.
-                  - Fill out the license renewal form and upload the necessary documents.
-                  - Pay the prescribed renewal fee.
-                  - Submit the renewal application at least 30 days before the expiration date.
-                  - The authority will verify the application and documents.
-                  - If required, an inspection of the premises may be carried out.
-                  - After successful verification, the renewed FSSAI license will be issued.`,
-      }
-    ],
-    Listicles: [
-      {
-        category: "For Basic Registration",
-        documents: [
-          "Form A signed and submitted by FBOs",
-          "Identity proof such as PAN, Aadhaar, Passport",
-          "2 passport-sized photos",
-          "NOC from local authorities",
-          "Rent agreement, if applicable",
-        ],
-      },
-      {
-        category: "For State or Central FSSAI License",
-        documents: [
-          "Duly completed Form B",
-          "Photo/address proof of key persons",
-          "Layout plan of food processing area",
-          "Director list with contact details",
-        ],
-      },
-    ],    
-    whyUs: [
-      {
-        heading: "Why Choose Corpbiz for FSSAI License Renewal?",
-        description: [
-          "Renew your FSSAI license smoothly and efficiently with Corpbiz! We take care of end-to-end support, ensuring a hassle-free experience for you.",
-          "Our team of experts assists you in document preparation, application filing, follow-ups, and securing timely approval from FSSAI authorities.",
-        ],
-        points: [
-          "Dedicated FSSAI Consultants for end-to-end assistance",
-          "Error-free and Fast Document Preparation",
-          "Quick Processing and Regular Follow-ups",
-          "Affordable and Transparent Pricing",
-          "High Success Rate in License Renewal",
-        ],
-        footerText:
-          "Trusted by 10,000+ Businesses Across India for FSSAI Compliance",
-      },
-    ],
-    faq: [
-      {
-        question: "When should I apply for FSSAI license renewal?",
-        answer:
-          "You should apply for FSSAI license renewal at least 30 days before the license expiry date.",
-      },
-      {
-        question: "What happens if I fail to renew my FSSAI license?",
-        answer:
-          "Failure to renew the license can result in a daily penalty of Rs. 100 and possible closure of the food business.",
-      },
-      {
-        question: "Is there any late fee for FSSAI license renewal?",
-        answer:
-          "Yes, a penalty of Rs. 100 per day is levied if the renewal is not filed within the stipulated timeline.",
-      },
-    ],
-  },
+  
+  
 
 //   "eating-house-license": {
 //     title: "Eating House License Registration",

@@ -9,6 +9,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openMainItem, setOpenMainItem] = useState<string | null>(null);
   const [openSubItem, setOpenSubItem] = useState<string | null>(null);
+  const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -46,6 +47,13 @@ const Header = () => {
     };
   }, [isMenuOpen]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   // Menu items data structure
   const menuItems = [
     {
@@ -55,7 +63,7 @@ const Header = () => {
           title: "FSSAI & Eating License",
           links: [
             { name: "FSSAI License", href: "/" },
-            { name: "FSSAI License Renewal", href: "/startup/fssai-renewal" },
+            { name: "FSSAI License Renewal", href: "/second/fssai-license-renewal" },
             { name: "FSSAI State License", href: "fssai-state-license" },
             { name: "Eating House License", href: "/startup/eating-house" },
             { name: "Central FSSAI License", href: "/startup/fssai-central" },
@@ -420,7 +428,7 @@ const Header = () => {
           title: "GST",
           description: "Goods and Services Tax services",
           links: [
-            { name: "GST Registration", href: "/tax/gst-registration" },
+            { name: "GST Registration", href: "/second/gst-registration" },
             { name: "GST Filing", href: "/tax/gst-filing" },
           ],
         },
