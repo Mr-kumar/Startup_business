@@ -25,12 +25,12 @@ const Registration = () => {
     '1 Month Free Return Filing'
   ];
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     setIsSubmitted(true);
     // API call would go here
