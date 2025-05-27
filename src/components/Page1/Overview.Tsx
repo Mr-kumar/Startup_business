@@ -8,13 +8,11 @@ export interface OverviewProps {
   data: {
     heading: string;
     paragraphs: string[];
-    imageUrl: string;
-    buttonText: string;
   };
 }
 
 export default function Overview({ data }: OverviewProps) {
-  const { heading, paragraphs, imageUrl, buttonText } = data;
+  const { heading, paragraphs} = data;
   const containerRef = useRef<HTMLDivElement>(null);
   
   // Enhanced mouse tracking with smoother inertia
@@ -202,7 +200,7 @@ export default function Overview({ data }: OverviewProps) {
                 <span className="absolute inset-0.5 bg-[#0a0f1a] rounded-xl transition-all duration-500 group-hover:opacity-0"></span>
                 <span className="relative z-10 flex items-center">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 font-medium text-lg group-hover:bg-gradient-to-r group-hover:from-[#77DA5A] group-hover:to-[#4ECDC4] transition-all duration-500">
-                    {buttonText}
+                  Get started with DoStartup
                   </span>
                   <motion.span 
                     className="ml-4 inline-block"
@@ -266,7 +264,7 @@ export default function Overview({ data }: OverviewProps) {
                 <div className="relative overflow-hidden rounded-[32px] h-full">
                   <div className="absolute inset-0 rounded-[32px] overflow-hidden">
                     <img 
-                      src={imageUrl} 
+                      src="https://corpbiz.io/img/img1.webp"
                       alt="" 
                       className="w-full h-full object-cover absolute blur-md opacity-30 scale-105"
                       style={{ transform: 'translateZ(10px)' }}
@@ -274,7 +272,7 @@ export default function Overview({ data }: OverviewProps) {
                   </div>
                   
                   <img 
-                    src={imageUrl} 
+                    src="https://corpbiz.io/img/img1.webp" 
                     alt="Overview Illustration" 
                     width={600} 
                     height={500} 
@@ -285,13 +283,13 @@ export default function Overview({ data }: OverviewProps) {
                   {/* Enhanced glitch effect layers */}
                   <div className="absolute inset-0 overflow-hidden rounded-[32px] opacity-0 group-hover:opacity-30 transition-opacity duration-500 pointer-events-none">
                     <img 
-                      src={imageUrl} 
+                      src="https://corpbiz.io/img/img1.webp" 
                       alt="" 
                       className="absolute inset-0 w-full h-full object-cover blur-sm"
                       style={{ transform: 'translateX(4px) translateZ(20px)', filter: 'hue-rotate(20deg)' }}
                     />
                     <img 
-                      src={imageUrl} 
+                      src="https://corpbiz.io/img/img1.webp" 
                       alt="" 
                       className="absolute inset-0 w-full h-full object-cover blur-sm"
                       style={{ transform: 'translateX(-4px) translateZ(20px)', filter: 'hue-rotate(-20deg)' }}

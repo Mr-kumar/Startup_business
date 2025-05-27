@@ -24,6 +24,8 @@ export default function GstPage({ params }: PageProps) {
     return <p>Page not found</p>;
   }
 
+
+  
   return (
     <div>
       <Registration/>

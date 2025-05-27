@@ -122,11 +122,10 @@ const Overview: React.FC<OverviewProps> = ({
             <li
               key={id}
               onClick={() => scrollToSection(id)}
-              className={`cursor-pointer px-4 py-3 rounded-lg ${
-                activeSection === id
+              className={`cursor-pointer px-4 py-3 rounded-lg ${activeSection === id
                   ? "bg-[#1D293D]/10 text-[#1D293D] font-semibold border-l-4 border-[#7DD756]"
                   : "text-gray-600 hover:bg-[#1D293D]/5 hover:text-[#1D293D]"
-              }`}
+                }`}
             >
               {label}
             </li>
@@ -137,19 +136,42 @@ const Overview: React.FC<OverviewProps> = ({
       {/* Main Content */}
       <main className="lg:w-4/5 space-y-12">
         {overview && (
-          <section id="overview">
-            {overview.map((item, index) => (
-              <div key={index}>
-                <h2>{item.heading}</h2>
-                <p>{item.content}</p>
+          <section id="overview" className="">
+            <div className="max-w-4xl mx-auto">
+              <div className="space-y-4 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+                {overview.map((item, index) => (
+                  <div
+                    key={index}
+                    className=""
+                  >
+                    <h2 className="text-2xl font-bold text-gray-800 mb-1">
+                      {item.heading}
+                    </h2>
+                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                      {item.content}
+                    </p>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </section>
         )}
         {benefits && benefits.length > 0 && (
-          <section id="benefits">
-            <h2>{benefits[0].heading}</h2>
-            <p>{benefits[0].content}</p>
+          <section id="benefits" className="">
+            <div className="max-w-4xl mx-auto">
+              <div className="space-y-8">
+                {benefits.map((item, index) => (
+                <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+                  <h2 className="text-2xl font-bold text-gray-800 mb-3">
+                    {item.heading}
+                  </h2>
+                  <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                    {item.content}
+                  </p>
+                </div>
+                ))}
+              </div>
+            </div>
           </section>
         )}
         {documentsRequired && (

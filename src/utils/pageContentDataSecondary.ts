@@ -2,8 +2,6 @@ export type PageContentType = {
   overview: {
     heading: string;
     paragraphs: string[];
-    imageUrl: string;
-    buttonText: string;
   };
   features: {
     icon: string;
@@ -12,7 +10,6 @@ export type PageContentType = {
   }[];
   benefits: {
     title: string;
-    img?: string;
     description: string;
   }[];
   documents: {
@@ -22,18 +19,26 @@ export type PageContentType = {
   };
   eligibility: { heading: string; items: string[] }[];
   services: { title: string; desc: string }[];
+  postRegistration?: {
+    heading: string;
+    paragraphs: string[];
+  };
+  foSCOS?: {
+    heading: string;
+    paragraphs: string[];
+  };
   faqs: { question: string; answer: string }[];
   types: {
     cards: { title: string; shortText: string; backText: string }[];
     roleBenefits: string[];
     differenceTable: {
-      serialNumber: string;
-      gst: string;
-      incomeTax: string;
-    }[];
+      columns: string[];
+      rows: string[][];
+    };
     timelineFees: string[];
   };
 };
+
 
 
 
@@ -47,8 +52,6 @@ export const pageContent: Record<string, PageContentType> = {
         "GST has united multiple indirect taxes into a unified system, promoting the ease of doing business and eliminating cascading tax effects.",
         "Talk to consultants at Corpbiz and enjoy easy and timely GST registration in India.",
       ],
-      imageUrl: "https://corpbiz.io/img/img1.webp",
-      buttonText: "Get started with DoStartup",
     },
     features: [
       {
@@ -73,7 +76,6 @@ export const pageContent: Record<string, PageContentType> = {
     benefits: [
       {
         title: "Regulatory Compliance",
-        img: "https://corpbiz.io/img/adv_icon1.webp",
         description:
           "GST registration safeguards interests by ensuring legal and tax compliance.",
       },
@@ -236,7 +238,7 @@ export const pageContent: Record<string, PageContentType> = {
         },
         {
           title: "Missing Return Deadlines",
-          shortText: "Don’t miss filing due dates.",
+          shortText: "Don't miss filing due dates.",
           backText: "Late filings lead to penalties.",
         },
         {
@@ -262,33 +264,16 @@ export const pageContent: Record<string, PageContentType> = {
         "Qualifies for government tenders.",
         "Boosts business credibility.",
       ],
-      differenceTable: [
-        {
-          serialNumber: "1",
-          gst: "Indirect tax on consumption",
-          incomeTax: "Direct tax on income",
-        },
-        {
-          serialNumber: "2",
-          gst: "Multi-stage tax with input credit",
-          incomeTax: "Single-level tax",
-        },
-        {
-          serialNumber: "3",
-          gst: "Filed monthly/quarterly",
-          incomeTax: "Filed annually",
-        },
-        {
-          serialNumber: "4",
-          gst: "Central & State governments",
-          incomeTax: "Central government only",
-        },
-        {
-          serialNumber: "5",
-          gst: "Mandatory above Rs. 40 Lakhs turnover",
-          incomeTax: "Above Rs. 3 Lakhs income",
-        },
-      ],
+      differenceTable: {
+        columns: ["Serial Number", "GST", "Income Tax"],
+        rows: [
+          ["1", "Indirect tax on consumption", "Direct tax on income"],
+          ["2", "Multi-stage tax with input credit", "Single-level tax"],
+          ["3", "Filed monthly/quarterly", "Filed annually"],
+          ["4", "Central & State governments", "Central government only"],
+          ["5", "Mandatory above Rs. 40 Lakhs turnover", "Above Rs. 3 Lakhs income"]
+        ]
+      },
       timelineFees: [
         "Approval timeline: 7-10 working days.",
         "Full process: approx. 30 days.",
@@ -298,7 +283,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "fssai-annual-return": {
     overview: {
       heading:
@@ -308,20 +292,18 @@ export const pageContent: Record<string, PageContentType> = {
         "As per the latest FSSAI guidelines, filing the FSSAI Annual Return must be done online, promoting greater transparency and regulatory compliance across the food sector. Timely filing of the FSSAI return is not only a legal obligation but also a sign of a responsible and compliant food business.",
         "Facing challenges in filing your FSSAI Annual Return? Connect with our experts at Ctax for professional assistance and seamless support in FSSAI Annual Return filing.",
       ],
-      imageUrl: "",
-      buttonText: "",
     },
     features: [],
     benefits: [
       {
         title: "Boosts Market Reputation",
         description:
-          "Timely FSSAI annual return filing enhances a business’s market reputation, reflecting its commitment to maintaining food safety and quality standards.",
+          "Timely FSSAI annual return filing enhances a business's market reputation, reflecting its commitment to maintaining food safety and quality standards.",
       },
       {
         title: "Increases Brand Value and Trust",
         description:
-          "A compliant business earns greater customer trust and brand loyalty. Filing the FSSAI annual return showcases a company’s adherence to food safety norms, boosting its overall brand value.",
+          "A compliant business earns greater customer trust and brand loyalty. Filing the FSSAI annual return showcases a company's adherence to food safety norms, boosting its overall brand value.",
       },
       {
         title: "Access to Government Support",
@@ -352,7 +334,7 @@ export const pageContent: Record<string, PageContentType> = {
         },
         {
           title: "Step 2: Receive Verification Code",
-          desc: "Select ‘Annual Return’ and enter the OTP sent to your registered contact details.",
+          desc: "Select 'Annual Return' and enter the OTP sent to your registered contact details.",
         },
         {
           title: "Step 3: Fill in Annual Return Forms",
@@ -427,14 +409,10 @@ export const pageContent: Record<string, PageContentType> = {
     types: {
       cards: [],
       roleBenefits: [],
-      differenceTable: [
-        {
-          serialNumber: "1",
-          gst: "Annual Return (Form D-1) – filed once per year by all FBOs (due by 31 May)",
-          incomeTax:
-            "Half-Yearly Return (Form D-2) – filed twice per year by milk-based units (due 31 Oct & 30 Apr)",
-        },
-      ],
+      differenceTable: {
+        columns: ["Serial Number", "Type", "Description"],
+        rows: []
+      },
       timelineFees: [
         "Form D-1 due by 31 May each year",
         "Form D-2 due by 31 October and 30 April",
@@ -442,4 +420,148 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
+  "fssai-license-registration": {
+    overview: {
+      heading: "FSSAI License and Registration in India – A Complete Guide",
+      paragraphs: [
+        "If you're planning to start or run a food-related business in India, obtaining an FSSAI license is a legal requirement. The Food Safety and Standards Authority of India (FSSAI) mandates this registration for all entities involved in the production, processing, packaging, distribution, and sale of food items.",
+        "An FSSAI registration not only ensures compliance with food safety regulations but also enhances your brand's credibility and consumer trust. It assures your customers that the food you offer meets the highest quality and hygiene standards. With our expert FSSAI license consultants, you can simplify the registration process and ensure full compliance with FSSAI norms—making your food business safe, reliable, and legally sound."
+      ]
+    },
+    features: [],
+
+    benefits: [
+      {
+        title: "Ensures Legal Compliance",
+        description: "FSSAI registration is mandatory under Indian law for anyone involved in the food business. Holding a valid food license confirms that your business complies with the Food Safety and Standards Act, helping you avoid hefty penalties and legal hassles."
+      },
+      {
+        title: "Builds Consumer Trust",
+        description: "Displaying the FSSAI license number on your food packaging or premises reinforces transparency and quality assurance. It builds consumer confidence in your brand and showcases your commitment to food safety."
+      },
+      {
+        title: "Enables Market Expansion",
+        description: "An FSSAI license enhances your brand's credibility, making it easier to expand into new markets—including retail chains, exports, and online food delivery platforms."
+      },
+      {
+        title: "Boosts Business Credibility",
+        description: "Having an FSSAI license signals to investors, stakeholders, and partners that your business meets industry standards for safety and hygiene."
+      },
+      {
+        title: "Promotes Better Hygiene & Quality",
+        description: "Maintaining FSSAI compliance requires strict safety and hygiene protocols, reducing contamination risks and ensuring high product quality."
+      },
+      {
+        title: "Access to Government Support",
+        description: "FSSAI-registered businesses are eligible for various government subsidies, funding schemes, and promotional support."
+      }
+    ],
+
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Application Filing",
+          desc: "Fill out Form A (Basic) or Form B (State/Central) online via FoSCoS or submit to your local Food Safety Department."
+        },
+        {
+          title: "Step 2: Document Submission",
+          desc: "Attach all mandatory documents correctly to avoid delays or rejection."
+        },
+        {
+          title: "Step 3: Application Verification",
+          desc: "FSSAI reviews your application and documents—any missing info will be flagged."
+        },
+        {
+          title: "Step 4: Premises Inspection",
+          desc: "For State/Central licenses, an officer inspects your food premises for hygiene and safety compliance."
+        },
+        {
+          title: "Step 5: License Issuance",
+          desc: "Upon successful verification and inspection, you receive your FSSAI license certificate with a unique number."
+        }
+      ],
+      violations: [
+        "Operating with an expired license",
+        "Non-compliance with hygiene standards",
+        "Misbranded or sub-standard food products"
+      ],
+      consequences: [
+        "Penalties up to ₹2 Lakhs for non-compliance",
+        "Possible license cancellation",
+        "Legal action under the Food Safety and Standards Act"
+      ]
+    },
+
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for FSSAI License",
+        items: [
+          "Annual turnover: up to ₹12 L for Basic, ₹12 L–₹20 Cr for State, above ₹20 Cr for Central",
+          "Production: up to 2 MT/day or 50,000 L/day for State; above for Central",
+          "Business type: single-state → State License; multi-state/import-export → Central License",
+          "Storage: up to 50,000 MT for State; above for Central"
+        ]
+      },
+      {
+        heading: "Who Needs an FSSAI License?",
+        items: [
+          "Manufacturers, processors, importers, exporters",
+          "Distributors, wholesalers, retailers, foodservice outlets",
+          "Restaurants, cafés, caterers, food trucks, home-based kitchens",
+          "Food delivery aggregators, transporters, logistics",
+          "Packaging, labeling units, warehouses, cold storage"
+        ]
+      }
+    ],
+
+    services: [
+      {
+        title: "Expert FSSAI Consultation",
+        desc: "Our specialists guide you through every step: documentation, application filing, inspections, and renewals."
+      }
+    ],
+
+    faqs: [
+      {
+        question: "What is FoSCoS?",
+        answer: "The Food Safety Compliance System (FoSCoS) is FSSAI's modern portal for applying, renewing, and tracking licenses digitally."
+      },
+      {
+        question: "How long does FSSAI registration take?",
+        answer: "Typically 7–60 days, depending on license type, completeness of documents, and inspection schedules."
+      },
+      {
+        question: "What documents are required?",
+        answer: "Includes Form A/B, ID proof, address proof, layout plan, FSMS plan (for Central), NOC, and business constitution proof."
+      },
+      {
+        question: "What's the difference between registration and license?",
+        answer: "Basic Registration is for turnover ≤₹12 L; State License for ₹12 L–₹20 Cr; Central License for >₹20 Cr or multi-state operations."
+      },
+      {
+        question: "How do I renew my FSSAI license?",
+        answer: "Apply for renewal via FoSCoS at least 30 days before expiry to avoid penalties."
+      }
+    ],
+
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: ["Serial Number", "Type", "Description"],
+        rows: [
+          ["1", "Basic Registration", "turnover ≤₹12 L, Form A"],
+          ["2", "Central License", "turnover >₹20 Cr or multi-state, Form B"]
+        ]
+      },
+      timelineFees: [
+        "Form A/B application",
+        "Document upload",
+        "Verification & inspection",
+        "License issuance",
+        "Annual renewal"
+      ]
+    }
+  }
+  
 };
