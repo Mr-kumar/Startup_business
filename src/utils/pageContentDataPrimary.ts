@@ -940,4 +940,134 @@ Submitting these documents correctly and completely is crucial for a successful 
       },
     ],
   },
+  "fssai-central-license": {
+    title: "FSSAI Central License: A Complete Overview",
+    description: "The Food Safety and Standards Authority of India (FSSAI) enforces food safety regulations under the Food Safety and Standards Act, 2006, monitoring every stage of the food supply chain to ensure public health and consumer protection.",
+    overview: [
+      {
+        heading: "Role & Origin of FSSAI",
+        content: `Established under the Food Safety and Standards Act, 2006, FSSAI sets and enforces food safety standards, issues mandatory licenses, advises the government on food policy, and takes legal action against adulteration and other violations.`
+      },
+      {
+        heading: "Who Needs a Central License?",
+        content: `Food Business Operators (FBOs) with annual turnover exceeding ₹20 Crores, those engaged in import/export of food products, or operating e-commerce food platforms must obtain an FSSAI Central License to operate legally in India.`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits",
+        content: `- Global Recognition: Enhances credibility nationally and internationally  
+  - Ease of Expansion: Simplifies opening new outlets and securing funding  
+  - Legal Protection: Demonstrates compliance with food safety standards  
+  - Consumer Trust: Builds confidence and market advantage`
+      }
+    ],
+    Listicles: [
+      {
+        category: "Businesses Requiring a Central License",
+        documents: [
+          "Multi-state FBOs with turnover > ₹20 Crores",
+          "Importers/exporters of food products",
+          "E-commerce platforms (Zomato, Swiggy, Amazon, Flipkart)",
+          "5-star & 7-star hotels",
+          "Nutraceuticals & health supplement manufacturers",
+          "Transporters with >100 vehicles",
+          "High-capacity dairy units (≥50,000 L solids/yr)",
+          "Vegetable oil processors (≥2 MT/day)",
+          "Slaughterhouses (50 large/150 small/1,000 poultry/day)",
+          "Meat/food processing units (≥50 kg or ≥2 MT/day)",
+          "Cold storage (≥1,000 MT capacity)",
+          "Wholesalers (turnover > ₹30 Crores)",
+          "Retailers & distributors (turnover > ₹20 Crores)"
+        ]
+      }
+    ],
+    eligibilityCriteria: [
+      {
+        heading: "Essential Criteria",
+        content: `• Annual turnover exceeding ₹20 Crores  
+  • Operations across multiple states  
+  • Production capacity beyond prescribed thresholds  
+  • Engaged in import/export or e-commerce sale of food items`
+      },
+      {
+        heading: "Special Conditions",
+        content: `• Businesses in nutraceuticals & health supplements  
+  • Transport operators with >100 vehicles  
+  • 5-star and 7-star hotels`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content: `• Form B (filled & signed)  
+  • Facility floor plan with measurements  
+  • List of key management personnel + residential proof  
+  • MOA, AOA & Certificate of Incorporation (for companies)  
+  • Partnership deed or trust deed (if applicable)  
+  • Utility bills as address proof  
+  • Food Safety Management System (FSMS) plan  
+  • List of machinery & equipment  
+  • Raw material supplier details  
+  • NOC from local authorities  
+  • Tourism certificate (for hotels)  
+  • Import Export Code (IEC)  
+  • Turnover declaration (if > ₹20 Crores)`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Process",
+        content: `1. Submit Form B to the Licensing Authority, ensuring eligibility criteria are met.  
+  2. FSSAI reviews application and documents; resolve any discrepancies.  
+  3. On-site premises inspection by FSSAI officials.  
+  4. Upon approval, receive your Central License certificate (display prominently).`
+      }
+    ],
+    renewal: {
+      heading: "Validity & Renewal",
+      content: [
+        "Valid for 1–5 years; fees increase with longer validity. Renew at least 30 days before expiry to avoid penalties.",
+        "Renewal documents: recent passport photo, government ID proof, PAN Card, address proof, land deed or rent agreement + NOC (if rented)."
+      ]
+    },
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "End-to-end assistance for all FSSAI licenses",
+          "Efficient management of paperwork and follow-ups",
+          "Real-time application tracking with full transparency"
+        ],
+        points: [
+          "Experienced licensing consultants",
+          "High success rate and timely delivery",
+          "Transparent pricing with no hidden charges"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "How can I obtain a Central FSSAI License?",
+        answer: "Submit Form B with required documents, undergo review and inspection, and receive your license upon approval."
+      },
+      {
+        question: "Who needs an FSSAI Central License?",
+        answer: "FBOs with turnover > ₹20 Crores, multi-state operators, importers/exporters, and large e-commerce food sellers."
+      },
+      {
+        question: "Can I convert my State License to Central?",
+        answer: "Yes—apply anew for the Central License once you meet the criteria."
+      },
+      {
+        question: "What are the three types of FSSAI licenses?",
+        answer: "Basic Registration for small operators, State License for medium businesses, and Central License for large/multi-state operations."
+      },
+      {
+        question: "How long does it take to get the Central License?",
+        answer: "Typically 30–60 days, depending on document completeness, verification, and inspection schedules."
+      }
+    ]
+  },
+  
 };

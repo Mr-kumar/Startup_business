@@ -562,6 +562,592 @@ export const pageContent: Record<string, PageContentType> = {
         "Annual renewal"
       ]
     }
+  },
+  "opc-registration": {
+      overview: {
+        heading: "One Person Company Registration – An Overview",
+        paragraphs: [
+          "Are you a solopreneur who wants to give wings to your entrepreneurial dreams? One Person Company registration is the best option for you. Enjoy merits such as ease of incorporation, fewer compliance needs and sole ownership and control with stress-free OPC registration.",
+          "OPC was introduced under the Companies Act, 2013, to safeguard solo entrepreneurs’ interests. Section 2(62) allows incorporation with just one director and one member, providing full control plus limited liability.",
+          "Worried about hurdles in your OPC registration path? Talk to our business consultants for quick, budget-friendly solutions."
+        ]
+      },
+  
+      features: [
+        // Tax Implications
+        {
+          icon: "💼",
+          title: "Flat Corporate Tax",
+          description: "OPCs are taxed at a flat rate of 30% under the Income Tax Act, 1961."
+        },
+        {
+          icon: "🚫",
+          title: "No Special Tax Breaks",
+          description: "OPCs get no specific tax advantages compared to other structures."
+        },
+        {
+          icon: "📊",
+          title: "Dividend Distribution Tax",
+          description: "Profits paid out as dividends incur additional dividend distribution tax."
+        },
+        {
+          icon: "🗂️",
+          title: "Separate Accounting",
+          description: "An OPC’s finances are accounted for separately from the owner’s personal books."
+        },
+        {
+          icon: "📝",
+          title: "Regular Filings",
+          description: "OPCs must file income-tax returns annually (and GST returns, if applicable)."
+        },
+  
+        // Key Features of an OPC
+        {
+          icon: "👤",
+          title: "Single Ownership",
+          description: "Managed and controlled by one individual."
+        },
+        {
+          icon: "🔖",
+          title: "Nominee Appointment",
+          description: "Nominee designated to ensure business continuity upon the owner’s demise."
+        },
+        {
+          icon: "🛡️",
+          title: "Limited Liability",
+          description: "Owner’s personal assets are protected beyond the business’s obligations."
+        },
+        {
+          icon: "🏢",
+          title: "Separate Legal Identity",
+          description: "OPC is a distinct legal entity that can enter contracts and be sued separately."
+        },
+        {
+          icon: "📋",
+          title: "Single Director Permissible",
+          description: "Can operate with just one director and one member."
+        },
+        {
+          icon: "🚫",
+          title: "Restricted Investment Powers",
+          description: "Prohibited from investing in other companies’ securities."
+        }
+      ],
+  
+      benefits: [
+        {
+          title: "Simple Incorporation Process",
+          description:
+            "Requires only one member and one nominee, and minimal capital of ₹1 Lakh."
+        },
+        {
+          title: "Access to Funding",
+          description:
+            "OPCs can raise capital from VCs, angel investors, and banks more easily than sole proprietorships."
+        },
+        {
+          title: "Fewer Compliances",
+          description:
+            "Exempt from cash flow statements and company secretary signatures on annual returns."
+        },
+        {
+          title: "Limited Liability",
+          description:
+            "Liability is capped at the shareholder’s investment, protecting personal assets."
+        },
+        {
+          title: "Easy Management",
+          description:
+            "Single-director decision-making with minute-book resolutions simplifies governance."
+        },
+        {
+          title: "Exclusive Privileges",
+          description:
+            "Enjoy exemptions and privileges not available to other private companies."
+        }
+      ],
+  
+      documents: {
+        steps: [
+          {
+            title: "Step 1: Obtain DSC & DIN",
+            desc:
+              "Get Digital Signature Certificate and apply for Director Identification Number via SPICe+."
+          },
+          {
+            title: "Step 2: Reserve Name",
+            desc:
+              "Reserve your unique company name (with “OPC” suffix) on the MCA portal."
+          },
+          {
+            title: "Step 3: Draft MoA & AoA",
+            desc:
+              "Prepare Memorandum and Articles (Forms INC-33/34), including nominee details."
+          },
+          {
+            title: "Step 4: File SPICe+ & AGILE-PRO",
+            desc:
+              "Submit incorporation forms with all mandatory documents via the FoSCoS portal."
+          },
+          {
+            title: "Step 5: Receive Incorporation Certificate",
+            desc:
+              "Get your Certificate of Incorporation from the Registrar and start operations."
+          }
+        ],
+        violations: [],
+        consequences: []
+      },
+  
+      eligibility: [
+        {
+          heading: "Eligibility Criteria for OPC",
+          items: [
+            "One shareholder & one director (nominee mandatory).",
+            "Annual turnover ≤ ₹2 crores (must convert if exceeded).",
+            "Minimum authorized capital of ₹1 lakh.",
+            "Member & nominee must be Indian residents (NRIs post-2021 eligible).",
+            "Company name must end with “OPC Private Limited.”"
+          ]
+        }
+      ],
+  
+      services: [
+        {
+          title: "End-to-End OPC Support",
+          desc:
+            "Our experts handle everything—DSC/DIN, paperwork, filings, and follow-ups for seamless incorporation & renewal."
+        }
+      ],
+  
+      faqs: [
+        {
+          question: "When must an OPC convert to a Private Limited company?",
+          answer:
+            "If annual turnover exceeds ₹2 crores or paid-up capital crosses ₹50 lakhs for three consecutive years."
+        },
+        {
+          question: "Can NRIs form an OPC?",
+          answer:
+            "Yes—post-2021 Union Budget, NRIs meeting residency criteria (≥182 days) can incorporate OPCs."
+        },
+        {
+          question: "What happens if the sole member dies?",
+          answer:
+            "The nominated individual automatically assumes ownership and operational control."
+        },
+        {
+          question: "Are OPCs taxed differently?",
+          answer:
+            "No—OPCs pay a flat corporate tax of 30%, plus additional dividend distribution tax on payouts."
+        },
+        {
+          question: "Do OPCs require annual general meetings (AGMs)?",
+          answer:
+            "No—OPCs are exempt from AGMs under the Companies Act, 2013."
+        },
+        {
+          question: "Is a DSC & DIN mandatory?",
+          answer:
+            "Yes—at least the sole director needs a DSC and DIN to sign incorporation forms."
+        },
+        {
+          question: "Are cash flow statements mandatory?",
+          answer:
+            "No—OPCs are exempt from preparing cash flow statements."
+        },
+        {
+          question: "Can an OPC invest in other companies?",
+          answer:
+            "No—OPCs cannot invest in securities of other companies."
+        },
+        {
+          question: "Which forms are used for incorporation?",
+          answer:
+            "SPICe+ (INC-32) with AGILE-PRO attachments for various licenses and registrations."
+        },
+        {
+          question: "How long does OPC registration take?",
+          answer:
+            "Typically 7–15 working days, depending on document completeness and ROC workload."
+        },
+        {
+          question: "What is Form INC-3?",
+          answer:
+            "Nominee’s consent form—mandatory to appoint a nominee in the MoA."
+        },
+        {
+          question: "Is a company secretary required?",
+          answer:
+            "Not mandatory—OPCs can operate without a company secretary but must maintain statutory records."
+        },
+        {
+          question: "What’s the validity of an OPC registration?",
+          answer:
+            "Valid for 20 years, subject to timely compliance and renewals."
+        },
+        {
+          question: "Are board meetings mandatory?",
+          answer:
+            "Yes—one board meeting per half-year with a minimum 90-day gap."
+        },
+        {
+          question: "What exemptions do OPCs enjoy?",
+          answer:
+            "No AGMs, no cash flow statements, relaxed board meeting norms, and single-director management."
+        },
+        {
+          question: "Can OPCs add partners later?",
+          answer:
+            "They must convert to Private Limited before issuing shares to new members."
+        },
+        {
+          question: "Is a DSC required for renewal?",
+          answer:
+            "Yes—the director’s DSC is needed for filing renewal returns."
+        },
+        {
+          question: "What are the ROC filing fees?",
+          answer:
+            "Fees depend on authorized capital—ranging from ₹200 to ₹1,000+ per filing."
+        },
+        {
+          question: "Who issues OPC certificates?",
+          answer:
+            "The Registrar of Companies (ROC) under the Ministry of Corporate Affairs."
+        },
+        {
+          question: "Can an OPC change its registered office?",
+          answer:
+            "Yes—file Form INC-22 with proof of new address for ROC approval."
+        },
+        {
+          question: "Is a separate PAN mandatory?",
+          answer:
+            "Yes—OPCs must obtain their own PAN for corporate tax purposes."
+        },
+        {
+          question: "Can an LLP form an OPC?",
+          answer:
+            "No—only natural persons (including NRIs) can incorporate an OPC."
+        },
+        {
+          question: "What is AGILE-PRO?",
+          answer:
+            "It’s an integrated form for GST, ESIC/EPF, and other registrations alongside company incorporation."
+        },
+        {
+          question: "Do OPCs require GST registration?",
+          answer:
+            "Yes—if turnover exceeds the GST threshold or if involved in interstate supply."
+        },
+        {
+          question: "Who issues OPC licenses at ports/airports?",
+          answer:
+            "The Central Licensing Authority issues those for units operating in ports and airports."
+        }
+      ],
+  
+      types: {
+        cards: [],
+        roleBenefits: [],
+        differenceTable: {
+          columns: [],
+          rows: []
+        },
+        timelineFees: [],
+      }
+  },
+  "partnership-firm-registration": {
+      overview: {
+        heading: "Partnership Firm Registration: A Complete Guide",
+        paragraphs: [
+          "A partnership firm is a flexible and widely adopted business structure in India, ideal for entrepreneurs seeking to collaborate. It enables two or more individuals to combine resources, skills, and expertise while sharing profits as per a mutually agreed ratio outlined in the partnership deed.",
+          "Unlike entities formed by status (e.g., Hindu Undivided Families), partnerships are established through a formal contract. While registration isn’t mandatory, obtaining a certificate from the Registrar of Partnership Firms strengthens legal credibility and operational security."
+        ]
+      },
+  
+      features: [
+        {
+          icon: "🛡️",
+          title: "Asset Protection",
+          description:
+            "Safeguard personal assets from business liabilities by registering your firm."
+        },
+        {
+          icon: "🤝",
+          title: "Dispute Resolution",
+          description:
+            "Enables partners to legally pursue claims against third parties or co-partners."
+        },
+        {
+          icon: "🔒",
+          title: "Limited Liability",
+          description:
+            "Partners’ financial responsibilities are capped at their capital contributions."
+        },
+        {
+          icon: "🚀",
+          title: "Credibility Boost",
+          description:
+            "Registration enhances trust with clients, investors, and financial institutions."
+        },
+        {
+          icon: "💰",
+          title: "Funding Access",
+          description:
+            "Registered firms attract loans and investments more easily than unregistered ones."
+        }
+      ],
+  
+      benefits: [
+        {
+          title: "Simplified Compliance",
+          description:
+            "Minimal documentation and lower costs compared to private companies; exemption from complex financial reporting."
+        },
+        {
+          title: "Tax Efficiency",
+          description:
+            "Profits are taxed at partners’ individual income-slab rates—avoiding double taxation."
+        },
+        {
+          title: "Operational Flexibility",
+          description:
+            "Full control over decision-making and profit-sharing terms without excessive regulation."
+        },
+        {
+          title: "Diverse Expertise",
+          description:
+            "Combine complementary skills of partners, fostering innovation and resilience."
+        }
+      ],
+  
+      documents: {
+        steps: [
+          {
+            title: "Draft the Partnership Deed",
+            desc:
+              "Outline terms, capital contributions, and profit-sharing ratios."
+          },
+          {
+            title: "Apply for DSC & DPIN",
+            desc:
+              "Obtain Digital Signatures and Designated Partner IDs via the MCA portal."
+          },
+          {
+            title: "Name Reservation",
+            desc:
+              "Submit a unique business name for approval with the Registrar of Firms."
+          },
+          {
+            title: "Submit Registration Forms",
+            desc:
+              "File Form A (or state-specific equivalent) with the Registrar, attaching deed and proofs."
+          },
+          {
+            title: "Post-Registration Formalities",
+            desc:
+              "Apply for PAN, TAN, and GST (if turnover exceeds ₹40 lakh)."
+          }
+        ],
+        violations: [
+          "Unregistered firms cannot sue third parties or enforce contractual rights.",
+          "Failure to file ITR or pay taxes attracts penalties and interest.",
+          "Ambiguous deed terms can lead to disputes and legal complications.",
+          "Late GST filings incur penalties and interest on unpaid tax."
+        ],
+        consequences: [
+          "Loss of legal enforcement rights",
+          "Monetary fines and interest under the Income Tax Act",
+          "Potential business disruption due to disputes",
+          "Suspension of GST registration"
+        ]
+      },
+  
+      eligibility: [
+        {
+          heading: "Who Can Register",
+          items: [
+            "Partners must be legally competent (minors excluded).",
+            "HUFs, trusts, and registered firms may join if allowed by their rules."
+          ]
+        },
+        {
+          heading: "Basic Requirements",
+          items: [
+            "Minimum 2 partners, maximum 100.",
+            "Unique business name not conflicting with existing entities.",
+            "Registered office address in India."
+          ]
+        }
+      ],
+  
+      services: [
+        {
+          title: "Expert Support",
+          desc:
+            "Our CAs and legal advisors guide you through every step—deed drafting, filings, and follow-ups."
+        },
+        {
+          title: "Quick Turnaround",
+          desc:
+            "Complete partnership firm registration within 7–10 working days."
+        },
+        {
+          title: "Affordable Pricing",
+          desc:
+            "Transparent, budget-friendly packages with no hidden costs."
+        },
+        {
+          title: "Post-Setup Assistance",
+          desc:
+            "Support for PAN, GST, MSME registration, and ongoing compliance filings."
+        }
+      ],
+  
+      faqs: [
+        {
+          question: "Is GST mandatory for partnership firms?",
+          answer:
+            "Yes—if annual turnover exceeds ₹40 lakh, GST registration and filings are mandatory."
+        },
+        {
+          question: "Can spouses be partners?",
+          answer:
+            "Yes—provided each meets legal competency requirements and is not a minor."
+        },
+        {
+          question: "How long does registration take?",
+          answer:
+            "Typically 2–3 weeks, depending on state regulations and document completeness."
+        }
+      ],
+  
+      types: {
+        cards: [],
+        roleBenefits: [],
+        differenceTable: {
+          columns: ["Aspect", "Partnership Firm", "LLP"],
+          rows: [
+            [
+              "Liability",
+              "Unlimited personal liability",
+              "Limited to capital contribution"
+            ],
+            [
+              "Registration",
+              "Optional",
+              "Mandatory"
+            ],
+            [
+              "Governance",
+              "Indian Partnership Act, 1932",
+              "LLP Act, 2008"
+            ],
+            [
+              "Max Partners",
+              "100",
+              "No limit"
+            ]
+          ]
+        },
+        timelineFees: [
+          "Registration timeline: 2–3 weeks",
+          "Government fee: state-dependent (₹500–₹2000 approx.)"
+        ]
+      }
+  },
+  "sole-proprietorship-registration": {
+    overview: {
+      heading: "Start Your Business Journey with a Sole Proprietorship",
+      paragraphs: [
+        "A sole proprietorship is one of the simplest and most common business structures in India. It’s ideal for entrepreneurs looking to start with minimal investment and compliance. In this model, a single individual owns, manages, and controls the entire business.",
+        "While it offers ease of setup and complete control, it's important to understand the registration process, benefits, and compliance obligations associated with a sole proprietorship."
+      ]
+    },
+
+    features: [
+      {
+        icon: "✅",
+        title: "Easy to Establish",
+        description:
+          "Requires minimal documentation and can often be initiated without formal registration, depending on local rules."
+      },
+      {
+        icon: "🎯",
+        title: "Complete Control",
+        description:
+          "You have full authority over all business decisions, enabling quick and flexible decision-making."
+      },
+      {
+        icon: "📉",
+        title: "Minimal Compliance",
+        description:
+          "No annual filings with MCA and no mandatory audits unless specified under tax laws."
+      },
+      {
+        icon: "💸",
+        title: "Tax Advantages",
+        description:
+          "Business income is taxed as personal income, simplifying filings and offering certain deductions."
+      },
+      {
+        icon: "🏦",
+        title: "Easy Banking",
+        description:
+          "Open a current account easily with GST or Shop & Establishment registration, enhancing credibility."
+      }
+    ],
+
+    benefits: [],
+
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Choose a Business Name",
+          desc:
+            "Select a unique name that doesn’t infringe trademarks and meets naming guidelines."
+        },
+        {
+          title: "Step 2: Obtain Registrations",
+          desc:
+            "Get GST registration, Shop & Establishment license, and/or Udyam registration based on your activities."
+        },
+        {
+          title: "Step 3: Open a Bank Account",
+          desc:
+            "Submit identity proof, address proof, and business registration certificates to open a current account."
+        }
+      ],
+      violations: [],
+      consequences: []
+    },
+
+    eligibility: [],
+
+    services: [
+      {
+        title: "End-to-End Registration Support",
+        desc:
+          "We help you select a business name, obtain all necessary registrations, and ensure compliance."
+      }
+    ],
+
+    faqs: [],
+
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: []
+      },
+      timelineFees: []
+    }
   }
+
+  
+  
   
 };

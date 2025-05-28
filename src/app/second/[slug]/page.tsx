@@ -28,8 +28,9 @@ export default function GstPage({ params }: PageProps) {
   
   return (
     <div>
-      <Registration/>
+      
       <Overview data={currentPage.overview} />
+      <Registration/>
       <Features items={currentPage.features} />
       <Benefits items={currentPage.benefits} />
       <Documents data={currentPage.documents} />

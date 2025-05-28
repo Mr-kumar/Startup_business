@@ -1,33 +1,35 @@
-'use client';
-import React, { useState } from 'react';
-import { AiFillCheckCircle, AiOutlineArrowRight } from 'react-icons/ai';
-import { FaWhatsapp, FaRegHandshake } from 'react-icons/fa';
-import { FiCheck, FiChevronDown } from 'react-icons/fi';
-import { motion, AnimatePresence } from 'framer-motion';
+"use client";
+import React, { useState } from "react";
+import { AiFillCheckCircle, AiOutlineArrowRight } from "react-icons/ai";
+import { FaWhatsapp, FaRegHandshake } from "react-icons/fa";
+import { FiCheck, FiChevronDown } from "react-icons/fi";
+import { motion, AnimatePresence } from "framer-motion";
 
-const WHATSAPP_NUMBER = '919999999999'; // Configurable WhatsApp number
+const WHATSAPP_NUMBER = "919999999999"; // Configurable WhatsApp number
 
 const Registration: React.FC = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    state: '',
+    name: "",
+    email: "",
+    phone: "",
+    state: "",
   });
   const [whatsappConsent, setWhatsappConsent] = useState(true);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [activeFeature, setActiveFeature] = useState(0);
 
   const features = [
-    'Document Preparation',
-    'Get ARN in 2-3 Days',
-    'GST Certificate',
-    'Free Expert Consultation',
-    'HSN/SAC Code Guidance',
-    '1 Month Free Return Filing',
+    "Document Preparation",
+    "Get ARN in 2-3 Days",
+    "GST Certificate",
+    "Free Expert Consultation",
+    "HSN/SAC Code Guidance",
+    "1 Month Free Return Filing",
   ];
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -37,7 +39,7 @@ const Registration: React.FC = () => {
 
     // Basic validation for phone number
     if (!/^\d{10}$/.test(formData.phone)) {
-      alert('Please enter a valid 10-digit phone number.');
+      alert("Please enter a valid 10-digit phone number.");
       return;
     }
 
@@ -68,7 +70,8 @@ const Registration: React.FC = () => {
               GST Registration Made Effortless
             </h1>
             <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-              Let our CA-certified experts handle your GST registration while you focus on your business.
+              Let our CA-certified experts handle your GST registration while
+              you focus on your business.
             </p>
 
             {/* Features Carousel */}
@@ -92,11 +95,15 @@ const Registration: React.FC = () => {
                         key={i}
                         whileHover={{ scale: 1.02 }}
                         className={`flex items-center p-3 rounded-xl ${
-                          i === activeFeature ? 'bg-[#1D293D]/5 border border-[#1D293D]/10' : ''
+                          i === activeFeature
+                            ? "bg-[#1D293D]/5 border border-[#1D293D]/10"
+                            : ""
                         }`}
                       >
                         <AiFillCheckCircle className="text-[#7DD956] text-2xl mr-3 flex-shrink-0" />
-                        <span className="text-gray-800 font-medium">{text}</span>
+                        <span className="text-gray-800 font-medium">
+                          {text}
+                        </span>
                       </motion.li>
                     ))}
                   </motion.ul>
@@ -114,8 +121,12 @@ const Registration: React.FC = () => {
           >
             <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100/50 backdrop-blur-sm relative overflow-hidden">
               <div className="relative z-10">
-                <h2 className="text-2xl font-bold text-[#1D293D] mb-2">Get Expert Assistance</h2>
-                <p className="text-gray-600 mb-6">Fill this form for a free consultation</p>
+                <h2 className="text-2xl font-bold text-[#1D293D] mb-2">
+                  Get Expert Assistance
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  Fill this form for a free consultation
+                </p>
 
                 {isSubmitted ? (
                   <motion.div
@@ -123,8 +134,12 @@ const Registration: React.FC = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     className="bg-[#7DD956]/10 p-6 rounded-xl text-center"
                   >
-                    <h3 className="text-xl font-bold text-[#1D293D] mb-2">Thank You!</h3>
-                    <p className="text-gray-600">Our expert will contact you shortly</p>
+                    <h3 className="text-xl font-bold text-[#1D293D] mb-2">
+                      Thank You!
+                    </h3>
+                    <p className="text-gray-600">
+                      Our expert will contact you shortly
+                    </p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-4">
@@ -167,10 +182,46 @@ const Registration: React.FC = () => {
                       aria-label="State"
                     >
                       <option value="">Select State</option>
-                      <option value="MH">Maharashtra</option>
+                      <option value="AN">Andaman and Nicobar Islands</option>
+                      <option value="AP">Andhra Pradesh</option>
+                      <option value="AR">Arunachal Pradesh</option>
+                      <option value="AS">Assam</option>
+                      <option value="BR">Bihar</option>
+                      <option value="CH">Chandigarh</option>
+                      <option value="CG">Chhattisgarh</option>
+                      <option value="DN">
+                        Dadra and Nagar Haveli and Daman and Diu
+                      </option>
                       <option value="DL">Delhi</option>
+                      <option value="GA">Goa</option>
+                      <option value="GJ">Gujarat</option>
+                      <option value="HR">Haryana</option>
+                      <option value="HP">Himachal Pradesh</option>
+                      <option value="JK">Jammu and Kashmir</option>
+                      <option value="JH">Jharkhand</option>
                       <option value="KA">Karnataka</option>
+                      <option value="KL">Kerala</option>
+                      <option value="LA">Ladakh</option>
+                      <option value="LD">Lakshadweep</option>
+                      <option value="MP">Madhya Pradesh</option>
+                      <option value="MH">Maharashtra</option>
+                      <option value="MN">Manipur</option>
+                      <option value="ML">Meghalaya</option>
+                      <option value="MZ">Mizoram</option>
+                      <option value="NL">Nagaland</option>
+                      <option value="OD">Odisha</option>
+                      <option value="PY">Puducherry</option>
+                      <option value="PB">Punjab</option>
+                      <option value="RJ">Rajasthan</option>
+                      <option value="SK">Sikkim</option>
+                      <option value="TN">Tamil Nadu</option>
+                      <option value="TS">Telangana</option>
+                      <option value="TR">Tripura</option>
+                      <option value="UP">Uttar Pradesh</option>
+                      <option value="UK">Uttarakhand</option>
+                      <option value="WB">West Bengal</option>
                     </select>
+
                     <div className="flex items-center space-x-2">
                       <input
                         id="whatsapp"

@@ -184,8 +184,8 @@ export default function Types({ data }: TypesProps) {
       )}
 
       {/* Comparison Table Section */}
-      {differenceTable.columns.length > 0 &&
-        differenceTable.rows.length > 0 && (
+      {differenceTable?.columns.length > 0 &&
+        differenceTable?.rows.length > 0 && (
           <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
             {/* …heading & intro… */}
             <div className="overflow-hidden rounded-3xl shadow-2xl border border-gray-200/50 backdrop-blur-sm bg-white/50 max-w-6xl mx-auto">
