@@ -1069,5 +1069,691 @@ Submitting these documents correctly and completely is crucial for a successful 
       }
     ]
   },
+  "nidhi-company-registration": {
+    title: "Nidhi Company Registration – A Quick Guide",
+    description: "A Nidhi Company is a member-based non-banking financial entity incorporated under the Companies Act, 2013 and governed by the Nidhi Rules, 2014. It promotes savings and financial discipline by accepting deposits and granting loans exclusively to its members.",
+    overview: [
+      {
+        heading: "What Is a Nidhi Company?",
+        content: `A Nidhi Company is a type of NBFC formed under Section 406 of the Companies Act, 2013, to foster a culture of savings and mutual benefit among its members.  
+  It accepts deposits and provides loans only to its members, building financial security within a close-knit community.`
+      },
+      {
+        heading: "Purpose of Nidhi Companies",
+        content: `Nidhi Companies promote responsible financial habits by accepting deposits and offering loans exclusively within their membership.  
+  Though classified as NBFCs, they are exempt from most RBI regulations, operating under a member-centric model and the Nidhi Rules, 2014.`
+      },
+      {
+        heading: "Key Requirements",
+        content: `• At least 7 members and 3 directors at incorporation  
+  • Maximum 200 members  
+  • Minimum paid-up capital of ₹10 lakhs  
+  • Net Owned Funds (NOF) of ₹20 lakhs within 120 days  
+  • Maintain ≥10% of deposits as unencumbered term deposits  
+  • NOF to deposits ratio ≤ 1:20 (excluding intangible assets & accumulated losses)  
+  • Fixed deposits ≥10% of total deposits in a nationalized bank`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Registering a Nidhi Company",
+        content: `- Simple, cost-effective formation process  
+  - Minimal RBI compliance requirements  
+  - Low financial risk: transactions only among members  
+  - Encourages savings and financial discipline  
+  - Self-reliant funding model using net-owned funds`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content: `• Photographs of promoters and members  
+  • PAN & identity proof (Aadhaar, Passport, Voter ID, or DL)  
+  • Address proof (latest utility bill or bank statement)  
+  • Business premises proof & NOC (if rented)  
+  • Property deed or rent agreement  
+  • DIR-2 consent to act as director  
+  • DSC & DIN of all directors  
+  • Director specimen signatures  
+  • Subscriber sheet signed by shareholders  
+  • Company registration questionnaire`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content: `1. Obtain DSC & DIN for directors (skip if already held).  
+  2. Draft MOA & AOA defining objectives and governance.  
+  3. Apply for name approval via SPICe+ Part A (submit 3 name options).  
+  4. File SPICe+ Part B with incorporation details and documents.  
+  5. Receive Certificate of Incorporation (COI) with CIN.  
+  6. Within 120 days, meet member (200) & NOF (₹20L) requirements.  
+  7. File Form NDH-4 to obtain formal Nidhi status (extension via Form NDH-2 if needed).`
+      },
+      {
+        heading: "Mandatory Compliance",
+        content: `• File Form NDH-1 annually within 90 days of FY end.  
+  • File Form NDH-3 (half-yearly returns) with CA/CS certificate.  
+  • Hold quarterly Board meetings & annual AGM.  
+  • File AOC-4 & MGT-7 annually.  
+  • Maintain statutory books of accounts.  
+  • File Income Tax Return by September 30 each year.  
+  • Ensure locker rental income <20% of total income.`
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Registration Fees",
+        description: "Government fees for DIN, DSC, SPICe+ filing, and statutory forms typically range from ₹10,000 to ₹15,000 (ex-GST), excluding professional charges."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Nidhi Company Registration",
+        description: "The process generally takes 30–45 days, depending on document readiness and online form approvals.",
+        totalTime: "30–45 days"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "End-to-end support for Nidhi Company incorporation",
+          "Expert handling of MCA filings and compliance",
+          "Real-time application tracking with full transparency"
+        ],
+        points: [
+          "High client satisfaction and retention",
+          "Average 4.3+ rating on Google",
+          "100+ Nidhi Companies successfully registered",
+          "Backed by 200+ experienced professionals"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is the full form of Nidhi?",
+        answer: "Nidhi means 'treasure' in Hindi, reflecting its mission of mutual benefit."
+      },
+      {
+        question: "Who regulates Nidhi Companies?",
+        answer: "They are governed by the MCA under the Companies Act, 2013 and Nidhi Rules, 2014."
+      },
+      {
+        question: "How many members are required initially?",
+        answer: "A minimum of 7 members and 3 directors are required at incorporation."
+      },
+      {
+        question: "Can a Nidhi Company operate across states?",
+        answer: "Yes, but it must comply with the ROC jurisdictional requirements and maintain a branch setup."
+      },
+      {
+        question: "What activities are prohibited?",
+        answer: "Chit funds, hire-purchase, leasing, insurance, securities trading, and transactions with non-members."
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Typically 30–45 days, subject to document accuracy and form approvals."
+      }
+    ]
+  },
+  "producer-company-registration": {
+    title: "Farmer Producer Company Registration in India – A Complete Guide",
+    description: "A Farmer Producer Company (FPC) combines the cooperative ethos with the legal advantages of a private company under the Companies Act, 2013. It empowers primary producers to collectively manage production, procurement, processing and marketing, unlocking funding, tax exemptions and market access.",
+    overview: [
+      {
+        heading: "What Is a Producer Company?",
+        content: `A Producer Company is a legal entity under the Companies Act, 2013 designed for farmers, artisans and rural producers.  
+  It enables members to jointly handle harvesting, processing, grading, pooling, marketing, procurement and sale of their produce, while enjoying shared ownership, democratic decision-making and profit distribution.`
+      },
+      {
+        heading: "Objectives of FPC Registration",
+        content: `• Collective management of agricultural activities (harvest, processing, marketing)  
+  • Access to credit, insurance and financial services for members  
+  • Educational and technical support (training, advisory services)  
+  • Fostering unity, cooperation and shared growth  
+  • Driving agricultural innovation for sustainability`
+      },
+      {
+        heading: "Legal Framework",
+        content: `• Regulated under Section 465 of the Companies Act, 2013 (and certain provisions of Part IXA of the 1956 Act)  
+  • Must adhere to objectives in Section 581B of the Companies Act, 1956  
+  • Comply with MCA filings, governance and transparency norms for FPCs`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of FPC Registration",
+        content: `1. Limited liability for members  
+  2. Eligibility for government grants, subsidies and schemes  
+  3. Distinct legal entity status for contracts and property  
+  4. Tax exemptions (up to ₹100 Cr turnover) and lower rates  
+  5. Easier access to capital via shares, debentures or bonds  
+  6. Improved market reach and pricing power  
+  7. Access to modern technologies and machinery  
+  8. Simplified bank loans and institutional funding`
+      }
+    ],
+    eligibilityCriteria: [
+      {
+        heading: "Incorporation Requirements",
+        content: `• Minimum 10 individual members (all primary producers)  
+  • At least 5 directors (⅔ must be producer-members)  
+  • Minimum paid-up capital of ₹5 lakhs  
+  • Name must end with “Producer Company Limited”  
+  • Registered office address in India  
+  • PAN and TAN for the company`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content: `• PAN & Aadhaar of all directors and members  
+  • Passport-size photographs  
+  • Proof of registered office (utility bill or rent agreement + NOC)  
+  • MoA & AoA copies  
+  • DSC & DIN for all directors  
+  • DIR-2 consent forms  
+  • Producer Certificate or registration (if pre-formed)  
+  • Subscriber sheet signed by shareholders  
+  • Company registration questionnaire`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Process",
+        content: `1. Select company type & reserve name (SPICe+ Part A)  
+  2. Obtain DIN & DSC for directors  
+  3. Draft and file MoA & AoA  
+  4. File SPICe+ Part B with incorporation details & documents  
+  5. Receive Certificate of Incorporation (COI)  
+  6. Within 120 days, meet member (≥200) & NOF (₹20 lakhs) conditions  
+  7. File Form NDH-4 for formal Nidhi status (extension via NDH-2 if needed)`
+      },
+      {
+        heading: "Mandatory Compliance",
+        content: `• Annual AGM and board meetings (min. 4 per year)  
+  • File annual returns (AOC-4, MGT-7) and NDH-1/NDH-3 as applicable  
+  • Maintain books of account and file ITR by Sept 30  
+  • Limit locker rental income <20% of total income`
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Registration Fees",
+        description: "Government fees (DIN, DSC, SPICe+ filings, NDH forms) typically range from ₹15,000 to ₹50,000, excluding professional charges."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Register",
+        description: "With complete documentation and prompt filings, FPC registration usually takes 25–30 working days.",
+        totalTime: "25–30 days"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "End-to-end FPC incorporation support",
+          "Expert handling of MCA compliance",
+          "Real-time application tracking"
+        ],
+        points: [
+          "Trusted by 5,000+ farmers & agripreneurs",
+          "75% market share in FPC registrations",
+          "Zero delays & error-free filings",
+          "Post-formation compliance support"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is the motto of Producer Company Registration?",
+        answer: "To empower farmers and producers by organizing them into a structured entity that enhances income, market access and sustainable practices."
+      },
+      {
+        question: "How long does incorporation take?",
+        answer: "Approximately 25–30 working days, depending on document readiness and approvals."
+      },
+      {
+        question: "Who governs Producer Companies?",
+        answer: "Section 465 of the Companies Act, 2013 and relevant provisions of Part IXA of the 1956 Act, under ROC oversight."
+      },
+      {
+        question: "Can cooperative societies convert to FPCs?",
+        answer: "Yes, primary producer cooperatives can convert under the Companies Act, 2013 provisions."
+      },
+      {
+        question: "What activities are prohibited?",
+        answer: "Speculative or unrelated commercial ventures not tied to primary produce are strictly forbidden."
+      }
+    ]
+  },
+  "conversion-of-sole-proprietorship": {
+    title: "Conversion of Sole Proprietorship into a Private Limited Company – An Overview",
+    description: "Many entrepreneurs start as sole proprietors due to minimal compliance, but as they scale, converting into a private limited company provides enhanced credibility, limited liability, access to funding, and perpetual succession.",
+    overview: [
+      {
+        heading: "Why Convert to a Private Limited Company?",
+        content: `A private limited company offers a separate legal identity under the Companies Act, 2013, protecting personal assets with limited liability. It enables easier fundraising, share transferability, and better governance—critical for growing businesses.`
+      },
+      {
+        heading: "Conversion Mechanism",
+        content: `Conversion involves incorporating a new private limited company, executing a formal takeover agreement to transfer assets and liabilities, mentioning the takeover in the MoA, and appointing the sole proprietor as a director with at least 50% shareholding.`
+      },
+      {
+        heading: "Basic Legal Requirements",
+        content: `• Minimum two directors and two shareholders  
+  • Unique company name approved by ROC  
+  • No minimum share capital required  
+  • Registered office with address proof or NOC  
+  • MoA must include 'takeover of sole proprietorship' objective  
+  • Filing of annual returns and financial statements with ROC  
+  • DIN & DSC for all directors`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Conversion",
+        content: `- Separate legal entity and legal recognition  
+  - Limited liability protection for shareholders  
+  - Easier access to equity funding, loans, and VC  
+  - Transferability of shares for seamless ownership changes  
+  - Corporate tax benefits and deductions  
+  - Perpetual succession irrespective of ownership changes  
+  - Ability to attract talent via ESOPs  
+  - Enhanced credibility with customers, partners, and investors`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Key Conditions for Conversion",
+        content: `• Execute a formal takeover agreement between the proprietorship and new company  
+  • MoA must state the takeover as an objective  
+  • Transfer all assets and liabilities in full  
+  • Sole proprietor to hold ≥50% shares for at least 5 years  
+  • No additional benefits beyond agreed share value`
+      },
+      {
+        heading: "Step-by-Step Conversion Process",
+        content: `1. Complete slump sale formalities to transfer business assets/liabilities  
+  2. Obtain DIN & DSC for all directors  
+  3. Reserve and approve company name via MCA (SPICe+ Part A)  
+  4. Draft MoA & AoA, including takeover clause  
+  5. File SPICe+ Part B with incorporation forms and documents  
+  6. Receive Certificate of Incorporation (COI) with CIN  
+  7. Apply for PAN & TAN for the new company  
+  8. Open/update bank account in the company’s name`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents for Directors",
+        content: `• PAN, Aadhaar or Passport (identity proof)  
+  • Address proof (bank statement, utility bill)  
+  • Recent passport-size photo  
+  • Director specimen signature  
+  • DIR-2 consent form`
+      },
+      {
+        heading: "Business Premises Documents",
+        content: `• Property deed or tax receipt (ownership proof)  
+  • Rent/lease agreement + NOC (if rented)  
+  • Recent utility bills as address proof`
+      },
+      {
+        heading: "Company Formation Documents",
+        content: `• Memorandum of Association (MoA) with takeover clause  
+  • Articles of Association (AoA)  
+  • Registered office address details  
+  • Details of directors (DIN, DSC, address, signature)`
+      }
+    ],
+    whyUs: [
+      {
+        heading: "How Dostartup Assists You",
+        description: [
+          "Customized service plans for smooth conversion",
+          "Dedicated expert handling of all filings",
+          "End-to-end support from agreement drafting to COI delivery"
+        ],
+        points: [
+          "Step-by-step legal advisory",
+          "Document review & error-free filing",
+          "Transparent pricing and real-time tracking"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Can I convert my proprietorship without selling my business?",
+        answer: "Yes—conversion is a restructuring, not a sale. Transfer is via slump sale without monetary exchange."
+      },
+      {
+        question: "Do I need to pay stamp duty on asset transfer?",
+        answer: "Stamp duty depends on state laws. Asset transfers under slump sale may attract duty—consult your state’s stamp act."
+      },
+      {
+        question: "How long must I hold shares post-conversion?",
+        answer: "The sole proprietor must retain at least 50% shareholding for a minimum of five years."
+      },
+      {
+        question: "Are licences transferable to the new company?",
+        answer: "Most licences require fresh applications in the company’s name; some may allow modification—verify with issuing authority."
+      },
+      {
+        question: "Can I continue both entities post-conversion?",
+        answer: "Technically yes, but to avoid compliance and tax complications, fully transfer operations to the new company."
+      }
+    ]
+  },
+  "indian-subsidiary-company-registration": {
+    title: "Indian Subsidiary Company Registration in India",
+    description: "An Indian Subsidiary Company is a company incorporated in India that is majorly owned or controlled by a foreign parent company, governed by the Companies Act, 2013 and relevant FEMA/SEBI regulations.",
+    overview: [
+      {
+        heading: "What Is an Indian Subsidiary Company?",
+        content: `Per Section 2(87) of the Companies Act, 2013, a company is a subsidiary if a foreign parent holds >50% equity or can appoint/remove a majority of its directors.  
+  This structure lets global businesses operate in India under a regulated, separate legal entity model.`
+      },
+      {
+        heading: "Types of Subsidiary Structures",
+        content: `• Wholly Owned Subsidiary (WOS): 100% foreign ownership (auto-route sectors only).  
+  • Partially Owned Subsidiary: 50–99% foreign shareholding with Indian partners.  
+  • Joint Venture Subsidiary: Shared control between foreign and Indian entities.  
+  • Liaison Office: Representative, non-commercial presence.  
+  • Branch Office: Commercial operations subject to RBI approval.`
+      },
+      {
+        heading: "Legal & Regulatory Framework",
+        content: `• Companies Act, 2013: Defines subsidiary control, board & reporting obligations.  
+  • SEBI LODR, 2015: Disclosure requirements for listed entities and their material subsidiaries.  
+  • FEMA: Governs FDI & repatriation.  
+  • MCA guidelines: Company incorporation & ROC compliance.`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of an Indian Subsidiary",
+        content: `- Easy market penetration in one of the fastest-growing consumer markets  
+  - Attractive FDI policies via automatic/approval routes  
+  - Perpetual succession and separate legal status  
+  - Limited liability protection for shareholders  
+  - Operational autonomy with property-holding and contracting powers`
+      }
+    ],
+    eligibilityCriteria: [
+      {
+        heading: "Eligibility Criteria",
+        content: `• ≥2 directors (≥1 resident Indian) with DIN & DSC  
+  • ≥2 shareholders (individuals or entities)  
+  • No minimum capital requirement  
+  • Foreign parent must hold ≥50% equity  
+  • RBI approval for FDI as required  
+  • Compliance with MCA & ROC regulations`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content: `• Proof of registered office (utility bill or rent agreement + NOC)  
+  • ID & address proof of directors/shareholders (PAN, passport, driver’s license, utility bill)  
+  • MoA & AoA  
+  • Parent company’s Certificate of Incorporation  
+  • Power of Attorney for authorized representative  
+  • DSCs & DINs of directors  
+  • Shareholding declarations`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content: `1. Reserve company name via SPICe+ Part A.  
+  2. Obtain DIN & DSCs for all proposed directors.  
+  3. Draft and file MoA, AoA & SPICe+ Part B with shareholding structure.  
+  4. Receive Certificate of Incorporation (COI) & CIN.  
+  5. Open a bank account in India (within ~7 days).  
+  6. Complete GSTIN, PAN, TAN, EPFO & ESIC registrations.`
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Incorporate",
+        description: "Typically 2–4 months, including name approval, documentation, and statutory clearances.",
+        totalTime: "2–4 months"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "10+ years of industry expertise",
+          "400+ in-house CAs, CSs & legal experts",
+          "99% on-time service delivery",
+          "Presence in 10,000+ PIN codes",
+          "Trusted by 100,000+ global brands",
+          "3,500+ advisors across 50+ locations"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Can a foreign parent hold 100% equity?",
+        answer: "Yes—only in sectors permitting 100% FDI via the automatic route."
+      },
+      {
+        question: "Is RBI approval always required?",
+        answer: "RBI approval is required where FDI is not permitted automatically."
+      },
+      {
+        question: "How many directors are needed?",
+        answer: "At least two directors, one of whom must be an Indian resident."
+      },
+      {
+        question: "What is the cost of registration?",
+        answer: "Typically between ₹50,000–₹1,00,000, depending on professional & government fees."
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Generally 2–4 months, depending on document preparedness and approvals."
+      }
+    ]
+  },
+  "llp-to-private-company-conversion": {
+    title: "Conversion of LLP to Private Limited Company in India – A Complete Guide",
+    description: "Convert your LLP into a Private Limited Company under Section 366 of the Companies Act, 2013. Enjoy enhanced funding options, 100% FDI, ESOPs, and limited liability while retaining your brand identity.",
+    overview: [
+      {
+        heading: "Why Convert an LLP to a Private Limited Company?",
+        content: `• Enable business expansion and attract venture capital or foreign investments  
+  • Issue equity shares and offer ESOPs to attract skilled talent  
+  • Carry forward unabsorbed losses and depreciation  
+  • Gain legal credibility and access better funding opportunities  
+  • Maintain business continuity with the same brand name  
+  • Limit liabilities strictly to unpaid share capital`
+      },
+      {
+        heading: "Legal Basis for Conversion",
+        content: `Although the LLP Act, 2008 doesn’t directly allow conversion, Section 366 of the Companies Act, 2013 and the Companies (Authorised to Register) Rules, 2014 provide the framework for LLP-to-Private Company transformation.`
+      }
+    ],
+    eligibilityCriteria: [
+      {
+        heading: "Conditions for Conversion",
+        content: `• Minimum two partners in the LLP, eligible to become directors  
+  • Unanimous approval of all partners  
+  • All statutory returns filed up to date  
+  • Publication of conversion notice in two newspapers (English & regional)  
+  • No Objection Certificate (NOC) from the LLP Registrar`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Conversion",
+        content: `• 100% FDI permitted in Private Limited Companies  
+  • No capital gains tax on conversion  
+  • Seamless transfer of losses and depreciation  
+  • Authority to offer ESOPs to employees  
+  • Enhanced ability to raise equity capital  
+  • Retain continuity with the same name + “Pvt. Ltd.” suffix`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content: `• Address proof, ID proof & passport-size photo of applicant  
+  • Copy of LLP’s latest filed returns  
+  • NOC from partners and the Registrar  
+  \n**For Form URC-1:**  
+  • List of shareholders & shareholding details  
+  • List of first directors with IDs  
+  • Directors’ affidavits under Section 164  
+  • Copy of LLP agreement & registration certificate  
+  • Share distribution & subscription statements  
+  • Audited financial statements (≤6 days old)  
+  • Newspaper advertisement of public notice`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Conversion Process",
+        content: `1. **Name Approval:** Apply on MCA portal for ROC name approval.  
+  2. **Obtain DSC & DIN:** Secure Digital Signature Certificates & Director IDs.  
+  3. **File Form URC-1:** Submit URC-1 with all documents to ROC.  
+  4. **Draft MOA & AOA:** Prepare and file Memorandum & Articles once URC-1 is approved.  
+  5. **Certificate of Incorporation:** ROC issues COI, completing the conversion.`
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "10+ years of experience in corporate conversions",
+          "3500+ expert advisors across 50+ offices",
+          "Free consultation and lowest fee plans",
+          "End-to-end compliance support"
+        ]
+      }
+    ]
+  },
+  "convert-partnership-to-privateLtd": {
+    title: "Conversion of Partnership Firm into a Private Limited Company – A Quick Guide",
+    description: "As businesses grow, converting a Partnership Firm into a Private Limited Company under the Companies Act, 2013 offers limited liability protection, enhanced credibility, perpetual succession, and easier access to capital.",
+    overview: [
+      {
+        heading: "Overview of Conversion",
+        content: `Entrepreneurs often start with a Partnership Firm for lower costs and minimal compliance.  
+  Converting to a Private Limited Company transforms it into a separate legal entity—protecting personal assets (except in fraud), enabling share-based ownership, and unlocking funding opportunities.`
+      }
+    ],
+    eligibilityCriteria: [
+      {
+        heading: "Key Requirements",
+        content: `• At least two directors and two shareholders  
+  • Registered partnership deed with the Registrar of Firms  
+  • No Objection Certificate (NOC) from all secured creditors  
+  • Unique company name ending with “Private Limited” or “Pvt. Ltd.”  
+  • Minimum capital contribution as per rules  
+  • Valid registered office address  
+  • Drafted MOA & AOA in line with company objectives`
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Conversion",
+        content: `• Separate Legal Entity with higher credibility  
+  • Limited Liability Protection for shareholders  
+  • Perpetual Succession ensuring business continuity  
+  • Easier Fundraising through share issuance  
+  • Simple Transfer of Ownership via share transfers  
+  • Tax Relief on asset transfers during conversion  
+  • Stricter Governance and Transparency under the Companies Act  
+  • Seamless Asset & Liability Transfer to the new company  
+  • Internal Control safeguarded against hostile takeovers`
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents for URC-1 (Conversion Application)",
+        content: `1. Member & Director details (names, addresses, occupations, shareholdings)  
+  2. Affidavits by first directors (Section 164(1) compliance)  
+  3. Partnership deed and registration certificate  
+  4. Statement of Assets & Liabilities by a CA (≤30 days old)  
+  5. Income Tax filings of the partnership  
+  6. Newspaper advertisement proof  
+  7. NOC from secured creditors  
+  8. Partner consents for conversion  
+  9. Share capital declaration (nominal capital, shares taken, amount paid, proposed company name)`
+      },
+      {
+        heading: "Documents for SPICe+ (Incorporation)",
+        content: `1. DIR-2 declarations (director consent)  
+  2. KYC (ID & address proof) of directors & shareholders  
+  3. NOC from property owner (if premises rented)  
+  4. Proof of business address (rent agreement/lease deed)  
+  5. Latest utility bill (≤2 months old) as address proof`
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Conversion Process",
+        content: `1. Hold partners’ meeting (¾ consent) & authorize team for conversion  
+  2. Obtain secured creditors’ NOCs  
+  3. Apply for DSC & DIN for all proposed directors  
+  4. Reserve company name via RUN form on MCA portal  
+  5. File E-Form URC-1 (within 30 days of name approval) with required documents  
+  6. Publish incorporation advertisement in two newspapers (English & vernacular)  
+  7. Draft and file MOA & AOA after URC-1 approval  
+  8. Submit SPICe+ (INC-32) with MOA, AOA, and supporting documents  
+  9. Receive Certificate of Incorporation (COI) and CIN`
+      }
+    ],
+    whyUs: [
+      {
+        heading: "How Dostartup Assists Your Conversion",
+        description: [
+          "Customized service plans to fit your budget and needs",
+          "End-to-end document review and compliance guidance",
+          "Dedicated legal advisory & step-by-step support"
+        ],
+        points: [
+          "Experts in MCA filings and conversion formalities",
+          "Real-time application tracking and updates",
+          "High success rate with seamless execution"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Can an unregistered partnership convert?",
+        answer: "No—only a partnership firm registered with the Registrar of Firms can convert under Section URC-1."
+      },
+      {
+        question: "Is NOC from creditors mandatory?",
+        answer: "Yes—written NOCs from all secured creditors are required before filing URC-1."
+      },
+      {
+        question: "How many partners are needed post-conversion?",
+        answer: "At least two directors and two shareholders must be in place for the new Private Limited Company."
+      },
+      {
+        question: "What is the timeline for conversion?",
+        answer: "Typically 30–45 days, subject to name approval, documentation, and form processing."
+      },
+      {
+        question: "Does share capital need alteration?",
+        answer: "Yes—the new company must declare its nominal share capital and shares taken in URC-1."
+      }
+    ]
+  },
+  
+  
+  
+  
+
+  
+  
+  
   
 };
