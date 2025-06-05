@@ -1145,7 +1145,881 @@ export const pageContent: Record<string, PageContentType> = {
       },
       timelineFees: []
     }
+  },
+  "mauritius-company-registration": {
+      overview: {
+        heading: "Why Choose Mauritius for Company Registration?",
+        paragraphs: [
+          "Mauritius, a thriving island nation in the Indian Ocean near Africa’s southeastern coast, has emerged as a top destination not just for tourism but for international business ventures. With its pro-business policies, strategic location, and stable political environment, Mauritius offers an ideal setting for entrepreneurs looking to expand globally.",
+          "At Ctax, we simplify the process of company registration in Mauritius, helping you take advantage of its investor-friendly ecosystem, competitive tax rates, and well-developed financial infrastructure. The country’s transparent legal system and access to multiple international trade agreements make it a preferred gateway for businesses targeting African and Asian markets.",
+          "Registering a company in Mauritius enhances your global credibility while offering flexibility, tax efficiency, and ease of doing business. Let Ctax handle the complexities so you can focus on growing your business with confidence."
+        ]
+      },
+  
+      features: [
+        {
+          icon: "💰",
+          title: "Favourable Tax Environment",
+          description:
+            "Low corporate tax rates, no capital gains tax, and extensive DTAA network make Mauritius a tax‑efficient hub."
+        },
+        {
+          icon: "🏛️",
+          title: "Stable Political & Economic Climate",
+          description:
+            "Consistent governance and strong regulation guarantee a secure platform for international operations."
+        },
+        {
+          icon: "⚡",
+          title: "Simple & Fast Incorporation",
+          description:
+            "Clear legal requirements and minimal bureaucracy allow quick company setup without delays."
+        },
+        {
+          icon: "🌍",
+          title: "Gateway to International Markets",
+          description:
+            "Strategically located between Africa, Asia, and Europe, Mauritius offers access to multiple trade agreements."
+        },
+        {
+          icon: "🏦",
+          title: "Robust Financial Services Sector",
+          description:
+            "A well‑regulated financial industry provides efficient banking, investment, and advisory solutions."
+        },
+        {
+          icon: "🏡",
+          title: "Business‑Friendly Residency Options",
+          description:
+            "Company formation opens residency routes for foreign investors, easing relocation and operations."
+        },
+        {
+          icon: "🔄",
+          title: "Flexible Business Structures",
+          description:
+            "Choose from GBCs, Authorised Companies, Domestic Companies, LLPs, and more to suit your goals."
+        },
+        {
+          icon: "⚖️",
+          title: "Reliable Legal & Regulatory Framework",
+          description:
+            "A hybrid civil/common law system ensures investor protection and transparent regulation."
+        }
+      ],
+  
+      benefits: [
+        {
+          title: "Favourable Tax Environment",
+          description:
+            "Low corporate tax, no capital gains tax, and DTAA coverage make Mauritius highly tax‑efficient."
+        },
+        {
+          title: "Stable Governance",
+          description:
+            "Consistent political and economic stability gives investors confidence in long‑term planning."
+        },
+        {
+          title: "Fast & Easy Incorporation",
+          description:
+            "Transparent requirements and minimal red tape enable quick company setup."
+        },
+        {
+          title: "Strategic Global Access",
+          description:
+            "Acts as a bridge between Africa, Asia, and Europe, enhancing market reach."
+        },
+        {
+          title: "Advanced Financial Sector",
+          description:
+            "A regulated banking and financial ecosystem supports global expansion."
+        },
+        {
+          title: "Residency & Relocation Benefits",
+          description:
+            "Company formation can unlock residency options for foreign entrepreneurs."
+        },
+        {
+          title: "Tailored Business Structures",
+          description:
+            "Multiple entity types (GBC, Authorized Company, LLP, etc.) to match diverse needs."
+        },
+        {
+          title: "Strong Legal Protection",
+          description:
+            "Transparent laws and investor safeguards foster trust and security."
+        }
+      ],
+  
+      documents: {
+        steps: [
+          {
+            title: "Minimum One Director & Shareholder",
+            desc:
+              "Must appoint at least one director and one shareholder. The same individual can fill both roles."
+          },
+          {
+            title: "Local Resident Director",
+            desc:
+              "At least one director must be a Mauritius resident to meet statutory compliance."
+          },
+          {
+            title: "Registered Office Address",
+            desc:
+              "A valid physical address in Mauritius is mandatory for official correspondence."
+          },
+          {
+            title: "Unique Company Name Approval",
+            desc:
+              "Proposed name must be distinct and approved by the Registrar of Companies."
+          },
+          {
+            title: "Company Constitution (Optional)",
+            desc:
+              "Submitting a Memorandum & Articles of Association can offer greater internal flexibility."
+          },
+          {
+            title: "Appointment of Company Secretary",
+            desc:
+              "Certain entities (e.g., GBCs) must appoint a qualified secretary."
+          },
+          {
+            title: "Corporate Bank Account",
+            desc:
+              "Opening a bank account in Mauritius is required for all financial transactions."
+          },
+          {
+            title: "TAN Registration",
+            desc:
+              "Register with the Mauritius Revenue Authority to obtain a Tax Account Number."
+          },
+          {
+            title: "FSC Licensing (If Applicable)",
+            desc:
+              "Businesses in regulated sectors must secure licenses from the Financial Services Commission."
+          },
+          {
+            title: "Annual Compliance & Record Keeping",
+            desc:
+              "Maintain accounting records and file annual returns with the Registrar to remain in good standing."
+          }
+        ],
+        violations: [],
+        consequences: []
+      },
+  
+      eligibility: [
+        {
+          heading: "Eligibility Checklist",
+          items: [
+            "At least one director and one shareholder (can be the same person).",
+            "Minimum one director must be resident in Mauritius.",
+            "Valid registered office address in Mauritius.",
+            "Unique business name, pre‑approved by the Registrar.",
+            "Appointment of company secretary if required (e.g., GBCs).",
+            "Corporate bank account opened in Mauritius.",
+            "TAN registration with the Mauritius Revenue Authority.",
+            "FSC license for regulated activities, if applicable.",
+            "Ongoing maintenance of accounting records and annual filings."
+          ]
+        }
+      ],
+  
+      services: [
+        {
+          title: "Business Structure Consultation",
+          desc:
+            "Expert advice to select the right entity (GBC, Authorised Company, Domestic Company, LLP, etc.)."
+        },
+        {
+          title: "Name Reservation & Approval",
+          desc:
+            "Assist in choosing and reserving a unique company name per Registrar guidelines."
+        },
+        {
+          title: "Document Preparation & Filing",
+          desc:
+            "Full support in preparing and submitting incorporation documents to the Registrar."
+        },
+        {
+          title: "Corporate Bank Account Setup",
+          desc:
+            "Help open a corporate bank account with top Mauritius banks for seamless financial operations."
+        },
+        {
+          title: "Tax Registration & Compliance",
+          desc:
+            "Guidance on TAN registration, VAT (if applicable), and MRA compliance."
+        },
+        {
+          title: "Annual Filing & Regulatory Compliance",
+          desc:
+            "Ongoing support for annual returns, license renewals, and financial reporting."
+        },
+        {
+          title: "Trademark Registration",
+          desc:
+            "Assistance with trademark search and registration to protect your brand."
+        },
+        {
+          title: "Yacht & Ship Registration",
+          desc:
+            "Specialized services for registering marine vessels under the Mauritius flag."
+        },
+        {
+          title: "Company Secretarial Services",
+          desc:
+            "Maintain statutory records, file resolutions, and manage board meeting documentation."
+        },
+        {
+          title: "Registered Office & Virtual Office",
+          desc:
+            "Provision of a registered office address, virtual office solutions, and domain registration."
+        }
+      ],
+  
+      faqs: [
+        {
+          question: "What are the steps involved in company registration in Mauritius?",
+          answer:
+            "Choose a business structure, reserve a company name, prepare and submit incorporation documents, open a corporate bank account, register for TAN (and VAT if required), and maintain post‑incorporation compliance."
+        },
+        {
+          question: "What types of structures are available for business setup in Mauritius?",
+          answer:
+            "Global Business Company (GBC), Authorised Company, Domestic Company, Limited Liability Partnership (LLP), Branch of a Foreign Company, Sole Proprietorship, and Freeport Company."
+        },
+        {
+          question: "Can foreign investors have 100% ownership?",
+          answer:
+            "Yes, foreign investors may hold 100% equity in most company types, making Mauritius highly attractive for international ventures."
+        },
+        {
+          question: "What tax benefits does company formation in Mauritius offer?",
+          answer:
+            "Low corporate tax rates, no capital gains tax, and extensive DTAA network. GBCs enjoy additional tax privileges."
+        },
+        {
+          question: "How long does the online registration process take?",
+          answer:
+            "Typically 3–7 working days, depending on document readiness and regulatory approvals."
+        },
+        {
+          question: "What documents are needed for company incorporation?",
+          answer:
+            "Certified passport copies, proof of address, business plan, company constitution, consent forms, registered office proof, bank reference letter, and due diligence for corporate shareholders."
+        },
+        {
+          question: "Are there minimum capital requirements?",
+          answer:
+            "Most company types have no minimum capital requirement. Specific industries or licenses may impose thresholds."
+        },
+        {
+          question: "Which cities are best for business setup in Mauritius?",
+          answer:
+            "Port Louis (capital), Ebene (Cybercity), Curepipe, Quatre Bornes, and Vacoas‑Phoenix—each offers strong infrastructure and business ecosystems."
+        },
+        {
+          question: "What post‑registration compliance is required?",
+          answer:
+            "Annual return filing, financial statement submission, TAN/VAT filings, license renewals, and FSC reporting (for regulated entities)."
+        },
+        {
+          question: "How does the legal framework support investors?",
+          answer:
+            "A hybrid civil/common law system, investor protection policies, and a well‑regulated corporate/financial sector ensure transparency and security."
+        },
+        {
+          question: "What role does the Financial Services Commission (FSC) play?",
+          answer:
+            "The FSC regulates non‑bank financial services, grants licenses to GBCs, and enforces anti‑money laundering and regulatory compliance."
+        },
+        {
+          question: "Are there restrictions on any business activities?",
+          answer:
+            "Yes—certain sectors like banking, insurance, and financial services require prior FSC approval, and some industries may restrict foreign ownership without government clearance."
+        },
+        {
+          question: "What support services are available?",
+          answer:
+            "Business advisory, corporate service providers, banking partners, compliance consultants, virtual offices, and government investment incentives via Ctax."
+        }
+      ],
+  
+      types: {
+        cards: [],
+  
+        roleBenefits: [
+          "Strategic Location for Global Trade",
+          "Low and Transparent Taxation Policies",
+          "Fast Company Formation Process",
+          "Reputation as a Trusted Financial Hub",
+          "Access to Double Taxation Avoidance Agreements",
+          "Investor-Friendly Legal System"
+        ],
+  
+        differenceTable: {
+          columns: [],
+          rows: []
+        },
+  
+        timelineFees: []
+      }
+  },
+  "dubai-company-registration": {
+      overview: {
+        heading: "Company Registration in Dubai – A Complete Guide",
+        paragraphs: [
+          "Setting up a company in Dubai offers global entrepreneurs attractive benefits, including access to over 30 free trade zones, 100% foreign ownership, and favorable tax treatment through double taxation treaties with more than 140 countries. Whether you’re looking to establish a Limited Liability Company (LLC) or a Free Zone Company, our expert team simplifies the entire process of company registration in Dubai from India.",
+          "Our specialists handle every step—from drafting the Memorandum of Association (MoA) and Articles of Association (AoA) to securing your Ejari Certificate, residence visa, Emirates ID, trade license, and Import Export Code (IEC). We also offer end-to-end accounting and bookkeeping services to ensure smooth business operations. Leave the complexities of Dubai business setup to us—our consultants ensure a fast, hassle-free registration experience so you can focus on growing your business."
+        ]
+      },
+  
+      features: [],
+  
+      benefits: [
+        {
+          title: "Quick & Seamless Registration",
+          description:
+            "Complete company formation and obtain essential licenses in as little as 15 minutes via the advanced Basher Portal."
+        },
+        {
+          title: "Strategic Global Location",
+          description:
+            "Situated at the crossroads of Asia, Europe, and Africa, Dubai serves as a premier trading hub with excellent connectivity."
+        },
+        {
+          title: "Attractive Corporate Tax Benefits",
+          description:
+            "Zero corporate tax on income up to AED 375,000 and exemptions on dividends, capital gains, interest, and royalties."
+        },
+        {
+          title: "Low VAT Rates",
+          description:
+            "Enjoy 0% VAT on exports outside the GCC, international logistics, healthcare, and education; free zones offer tax-free movement of goods."
+        },
+        {
+          title: "100% Profit Repatriation",
+          description:
+            "Fully repatriate profits and capital without branch profits tax or withholding tax—ideal for foreign companies."
+        },
+        {
+          title: "Duty-Free Imports",
+          description:
+            "Benefit from low or zero tariffs under free trade agreements with India, Singapore, Turkey, and EFTA members."
+        },
+        {
+          title: "Full Foreign Ownership",
+          description:
+            "Own 100% of your business across mainland, free zone, and offshore structures without needing a local sponsor."
+        },
+        {
+          title: "Advanced Infrastructure & Facilities",
+          description:
+            "Access cutting-edge ports, logistics hubs, smart cities, and digital connectivity for efficient operations."
+        }
+      ],
+  
+      documents: {
+        steps: [
+          {
+            title: "Identity Proofs",
+            desc:
+              "Valid ID proofs (passport, Emirates ID) for owners, directors, and shareholders for verification."
+          },
+          {
+            title: "Passport Copies",
+            desc:
+              "Clear copies of passports for all directors and shareholders to be submitted during the application."
+          },
+          {
+            title: "Memorandum of Association (MoA)",
+            desc:
+              "Notarized MoA outlining company scope, structure, and operational framework."
+          },
+          {
+            title: "Articles of Association (AoA)",
+            desc:
+              "Notarized AoA defining internal rules and responsibilities of directors and shareholders."
+          },
+          {
+            title: "Dubai Residence Visa",
+            desc:
+              "Valid residence permit or visa for the company owner and key personnel (if operating from a physical office)."
+          },
+          {
+            title: "Emirates ID",
+            desc:
+              "Copy of Emirates ID (if applicable) for identification and residency verification."
+          },
+          {
+            title: "Business Address Proof",
+            desc:
+              "Proof of Dubai-based office address or virtual address for official correspondence."
+          },
+          {
+            title: "Business Name Reservation Certificate",
+            desc:
+              "Certificate confirming reservation of the approved company name issued by the relevant authority."
+          },
+          {
+            title: "Certificate of Good Standing",
+            desc:
+              "Also known as Certificate of Good Conduct, verifies that the business or individual has no outstanding liabilities."
+          },
+          {
+            title: "Proof of Share Capital",
+            desc:
+              "Documentation showing share capital or minimum capital requirements based on business structure."
+          }
+        ],
+        violations: [],
+        consequences: []
+      },
+  
+      eligibility: [
+        {
+          heading: "Eligibility Criteria for Company Registration in Dubai",
+          items: [
+            "Unique Business Name that complies with UAE naming guidelines.",
+            "Valid passport and, if applicable, a UAE residence visa.",
+            "Emirates ID for identity verification (for residents).",
+            "Predetermined Business Capital—proof of initial investment.",
+            "Local or Virtual Business Address in Dubai for official correspondence.",
+            "Trade License from the Department of Economy & Tourism (DET) based on activity.",
+            "Import-Export Code (IEC) from Dubai Customs for international trade.",
+            "VAT Registration (if annual turnover exceeds AED 375,000).",
+            "Local Sponsor or Service Agent (for mainland setups, if required).",
+            "Corporate Bank Account opened in the UAE.",
+            "Notarized Company MoA & AoA to define structure and responsibilities.",
+            "Appointment of Professional Advisors—company secretary, chartered accountant, and auditor."
+          ]
+        }
+      ],
+  
+      services: [
+        {
+          title: "Free Pre‑Registration Consultation",
+          desc:
+            "Complimentary guidance on capital requirements, legal prerequisites, tax liabilities, and annual compliance."
+        },
+        {
+          title: "Business Name Search & Reservation",
+          desc:
+            "Thorough name availability check and reservation process to ensure compliance with regulations."
+        },
+        {
+          title: "Company Incorporation & Document Filing",
+          desc:
+            "End‑to‑end management of business registration, including application preparation and submission."
+        },
+        {
+          title: "Import‑Export Code (IEC) Assistance",
+          desc:
+            "Fast‑track registration of Import‑Export Code for seamless cross‑border trade operations."
+        },
+        {
+          title: "Ejari Certificate Procurement",
+          desc:
+            "Obtain your Ejari certificate for tenancy contracts to legally lease commercial premises."
+        },
+        {
+          title: "Trade License Acquisition",
+          desc:
+            "Secure commercial, professional, or industrial trade licenses based on your business activity."
+        },
+        {
+          title: "Business Domain Registration",
+          desc:
+            "Help secure and register a professional domain name tailored to your Dubai‑based business."
+        },
+        {
+          title: "Virtual CFO Services",
+          desc:
+            "Access expert financial leadership, including accounting, tax planning, compliance reporting, and strategic management."
+        },
+        {
+          title: "Trademark Registration in Dubai",
+          desc:
+            "Protect your brand identity with trademark search, application, and registration services in the UAE."
+        },
+        {
+          title: "Registered Agent Representation",
+          desc:
+            "Free registered agent services for the first 12 months to ensure smooth incorporation and regulatory representation."
+        },
+        {
+          title: "Corporate Tax Registration (UAE CT Number)",
+          desc:
+            "Guidance through the UAE Corporate Tax registration process, ensuring all statutory filings and payments."
+        },
+        {
+          title: "VAT Registration Support",
+          desc:
+            "Assist with VAT registration and compliance for businesses exceeding the VAT threshold."
+        }
+      ],
+  
+      faqs: [
+        {
+          question: "How do I register a company in Dubai?",
+          answer:
+            "Choose a business activity, select a jurisdiction (Mainland, Free Zone, or Offshore), reserve a trade name, prepare necessary documents, and submit your application to the relevant authority. A formation expert like Dostartup™ can simplify this process."
+        },
+        {
+          question: "How long does it take to set up a company in Dubai?",
+          answer:
+            "Typically 3–10 business days, depending on your chosen jurisdiction, business activity, and document accuracy."
+        },
+        {
+          question: "Who is eligible to register a company in Dubai?",
+          answer:
+            "Both UAE residents and foreign nationals can establish a company. Foreigners may retain 100% ownership in most free zones and certain mainland activities under current laws."
+        },
+        {
+          question: "What documents are required to form a company in Dubai?",
+          answer:
+            "A valid passport copy, recent photographs, proof of residential address, MoA/AoA, and completed application form. Additional documents vary by structure and jurisdiction."
+        },
+        {
+          question: "Is a registered agent necessary for foreign business owners?",
+          answer:
+            "Yes, foreign entrepreneurs often appoint a registered agent or local service provider, especially in free zones or offshore jurisdictions."
+        },
+        {
+          question: "Do I need a lawyer to register a business in Dubai?",
+          answer:
+            "Not mandatory, but hiring legal counsel is highly recommended to ensure compliance and avoid delays."
+        },
+        {
+          question: "Are licenses and permits required to start operations?",
+          answer:
+            "Yes, after incorporation, you must obtain relevant trade licenses and any additional permits specific to your industry."
+        },
+        {
+          question: "How can a foreigner obtain an Emirates ID?",
+          answer:
+            "Foreign nationals apply after receiving their UAE residence visa, involving a medical exam, biometric data collection, and visa documents."
+        },
+        {
+          question: "Is obtaining an Ejari certificate mandatory?",
+          answer:
+            "Yes, if operating from a physical office, you must secure an Ejari certificate to legalize your lease with the Dubai Land Department."
+        },
+        {
+          question: "What types of trade licenses are available?",
+          answer:
+            "Commercial, Professional, and Industrial licenses, each tailored to specific business activities."
+        },
+        {
+          question: "How many free zones are there in Dubai?",
+          answer:
+            "Over 30 specialized free zones catering to sectors like technology, media, finance, logistics, and healthcare."
+        },
+        {
+          question: "What business structure options exist in Dubai?",
+          answer:
+            "LLC, Sole Proprietorship, Free Zone Establishment (FZE), Free Zone Company (FZC), Branch Office, Limited Liability Partnership (LLP), Private & Public Joint Stock Companies, Civil Companies."
+        },
+        {
+          question: "Which structure is most profitable?",
+          answer:
+            "Depends on your business model. Free Zone companies are popular for full ownership and tax benefits; LLCs offer broader mainland market access."
+        },
+        {
+          question: "Can I start a business in Dubai virtually?",
+          answer:
+            "Yes—Dubai offers virtual company formation options for digital entrepreneurs and freelancers."
+        },
+        {
+          question: "Do I need a Power of Attorney (POA)?",
+          answer:
+            "Often required. A POA lets your agent act on your behalf during incorporation if you’re not present in the UAE."
+        },
+        {
+          question: "When should I renew my trade license?",
+          answer:
+            "Annually before expiration to avoid penalties or suspension. Dostartup™ sends renewal reminders to keep you compliant."
+        }
+      ],
+  
+      types: {
+        cards: [],
+  
+        roleBenefits: [],
+  
+        differenceTable: {
+          columns: [],
+          rows: []
+        },
+  
+        timelineFees: [
+          "Choose the right business structure (LLC, Sole Proprietorship, Free Zone, etc.).",
+          "Reserve a unique trade name with DET or the relevant Free Zone authority.",
+          "Decide on business location—Mainland or Free Zone, and obtain Ejari certificate if needed.",
+          "Apply for the appropriate trade license (Commercial, Professional, or Industrial).",
+          "Prepare and submit required documentation (passport copies, MoA/AoA, proof of address, etc.).",
+          "Receive your business incorporation certificate upon approval.",
+          "Obtain industry‑specific permits or operational licenses (e.g., tourism, manufacturing).",
+          "Apply for UAE residence visas for owners and key personnel (if operating a physical office).",
+          "Acquire Emirates ID for identity verification and official transactions.",
+          "Open a corporate bank account in the UAE to manage financial operations.",
+          "Register for VAT with the Federal Tax Authority if annual turnover exceeds AED 375,000.",
+          "Set up accounting and compliance systems for proper financial management and reporting."
+        ]
+      }
+  },
+  "sri-lanka-company-registration": {
+      overview: {
+        heading: "Why Global Entrepreneurs Choose Company Registration in Sri Lanka",
+        paragraphs: [
+          "Sri Lanka has emerged as a preferred destination for global entrepreneurs seeking to register a company in a strategically located and business‑friendly environment. Positioned in the heart of the Indian Ocean, the island offers seamless access to key regional and international markets, making it an ideal hub for international trade and investment.",
+          "Beyond its natural beauty and appeal to tourists, Sri Lanka provides a thriving economic landscape supported by investor‑friendly policies, attractive tax incentives, sector‑specific exemptions, and investment holidays. These benefits make it easier for foreign investors to establish a cost‑effective and profitable presence.",
+          "Entrepreneurs also gain access to a well‑educated and skilled workforce, a growing consumer base, and several free trade agreements that streamline cross‑border business operations. With a straightforward incorporation process and the expert guidance of Ctax professionals, setting up a business in Sri Lanka becomes a smooth and rewarding journey."
+        ]
+      },
+  
+      features: [],
+  
+      benefits: [
+        {
+          title: "Strategic Location",
+          description:
+            "Situated at the crossroads of major shipping routes in Asia, Sri Lanka provides direct access to regional and global markets, making it a key hub for international trade and logistics."
+        },
+        {
+          title: "Attractive Tax Incentives",
+          description:
+            "Sri Lanka offers competitive tax benefits including tax holidays, investment allowances, and sector‑specific exemptions, encouraging foreign investment and sustainable business growth."
+        },
+        {
+          title: "Skilled and Educated Workforce",
+          description:
+            "With a highly literate, English‑speaking talent pool, businesses in Sri Lanka can easily recruit skilled professionals across various industries, ensuring efficient operations and innovation."
+        },
+        {
+          title: "Business‑Friendly Environment",
+          description:
+            "Sri Lanka’s streamlined incorporation process, supported by pro‑investor regulations, makes starting a company easy and efficient, with minimal bureaucratic hurdles."
+        },
+        {
+          title: "Expanding Consumer Market",
+          description:
+            "The country’s growing middle class and evolving economic landscape offer entrepreneurs the opportunity to tap into an expanding domestic market across multiple sectors."
+        },
+        {
+          title: "Investment Protection Framework",
+          description:
+            "Foreign investors benefit from strong legal safeguards under Sri Lankan law, offering a secure and stable environment for long‑term business ventures."
+        },
+        {
+          title: "Access to Global Markets through Trade Agreements",
+          description:
+            "Sri Lanka’s network of free trade agreements with countries like India, China, and members of SAARC allows businesses to export goods with reduced tariffs and gain access to major international markets."
+        },
+        {
+          title: "Cost‑Effective Business Operations",
+          description:
+            "From affordable labor to low infrastructure and overhead costs, Sri Lanka provides an economical platform for establishing and scaling business operations."
+        }
+      ],
+  
+      documents: {
+        steps: [
+          {
+            title: "Minimum of One Director",
+            desc: "Every company must have at least one director to be legally registered."
+          },
+          {
+            title: "Name Reservation",
+            desc: "Secure a unique business name approved by the Registrar of Companies (ROC)."
+          },
+          {
+            title: "Registered Office Address",
+            desc: "A valid physical address within Sri Lanka is required as the official business location."
+          },
+          {
+            title: "At Least One Shareholder",
+            desc: "Your company must have a minimum of one shareholder, who can be local or foreign."
+          },
+          {
+            title: "No Minimum Capital Requirement",
+            desc: "Private limited companies in Sri Lanka do not require a minimum capital investment."
+          },
+          {
+            title: "Core Legal Documents",
+            desc: "Submit essential documents including the Memorandum and Articles of Association."
+          },
+          {
+            title: "Taxpayer Identification Number (TIN)",
+            desc: "Obtain a TIN from the Inland Revenue Department for tax compliance."
+          },
+          {
+            title: "Director’s Consent Form",
+            desc: "All directors must submit a signed consent form confirming their willingness to serve."
+          },
+          {
+            title: "Company Secretary Appointment",
+            desc: "Appoint a qualified company secretary, preferably a Sri Lankan resident."
+          },
+          {
+            title: "Regulatory Compliance",
+            desc: "Ensure full compliance with the Companies Act of Sri Lanka and relevant regulatory authorities."
+          }
+        ],
+        violations: [],
+        consequences: []
+      },
+  
+      eligibility: [],
+  
+      services: [
+        {
+          title: "Business Structure Consultation",
+          desc:
+            "Expert guidance to help you select the most suitable legal entity—Private Limited, Public Limited, Overseas Branch, Offshore, Sole Proprietorship, Partnership, or Joint Venture."
+        },
+        {
+          title: "Company Name Reservation Assistance",
+          desc:
+            "Fast‑tracked support for securing ROC approval of a unique and compliant business name."
+        },
+        {
+          title: "Document Drafting & Application Preparation",
+          desc:
+            "Assistance in drafting the Memorandum & Articles of Association, consent forms, and preparing complete registration documents."
+        },
+        {
+          title: "Registrar of Companies (ROC) Filing Support",
+          desc:
+            "Timely and accurate submission of incorporation forms and documents with the ROC."
+        },
+        {
+          title: "Complete Company Setup Solutions",
+          desc:
+            "End‑to‑end incorporation services for local and foreign investors, ensuring smooth registration."
+        },
+        {
+          title: "Tax, TIN & VAT Registration Services",
+          desc:
+            "Guidance on obtaining a Taxpayer Identification Number and VAT registration, plus other tax formalities."
+        },
+        {
+          title: "Corporate Bank Account Opening",
+          desc:
+            "Support in opening a business bank account with trusted local banking partners."
+        },
+        {
+          title: "Post‑Incorporation Compliance Support",
+          desc:
+            "Ongoing assistance with annual returns, financial statements, and regulatory filings to keep your company in good standing."
+        }
+      ],
+  
+      faqs: [
+        {
+          question: "How can I start a business in Sri Lanka?",
+          answer:
+            "Choose an entity type, reserve a company name with the ROC, prepare MoA & AoA, submit incorporation documents, obtain the Certificate of Incorporation, register for TIN (and VAT if required), and open a bank account."
+        },
+        {
+          question: "What are the steps for company registration in Sri Lanka?",
+          answer:
+            "1. Choose a business structure  2. Reserve a unique name  3. Prepare MoA & AoA and supporting documents  4. File application with ROC  5. Obtain Certificate of Incorporation  6. Register for tax and open a bank account."
+        },
+        {
+          question: "What is the cost of business registration in Sri Lanka?",
+          answer:
+            "Costs vary based on entity type, number of directors, and professional services. It typically includes government fees, documentation costs, and consultant fees."
+        },
+        {
+          question: "Can foreigners register a company in Sri Lanka?",
+          answer:
+            "Yes—foreign investors can fully own a Private Limited Company subject to compliance with local regulations and sector‑specific guidelines."
+        },
+        {
+          question: "Is online company registration in Sri Lanka possible?",
+          answer:
+            "Yes—registration can be completed online via the ROC portal. Consultants like Dostartup™ can streamline and expedite the process."
+        },
+        {
+          question: "How long does company registration in Sri Lanka take?",
+          answer:
+            "Typically 5–10 working days, depending on document accuracy and name approval timelines."
+        },
+        {
+          question: "What types of companies can be registered in Sri Lanka?",
+          answer:
+            "Private Limited Company, Public Limited Company, Overseas (branch) office, Offshore Company, Sole Proprietorship, Partnership Firm, and Joint Venture."
+        },
+        {
+          question: "What documents do I need for business registration in Sri Lanka?",
+          answer:
+            "Approved name reservation certificate, MoA & AoA, director/shareholder ID and address proof, director consent forms, registered office proof, TIN application, and passport copies for foreign directors."
+        },
+        {
+          question: "How do I register a company name in Sri Lanka?",
+          answer:
+            "Submit an application through the ROC portal. The name must be unique, comply with naming guidelines, and receive ROC approval before incorporation."
+        },
+        {
+          question: "Do I need a local director to register a company in Sri Lanka?",
+          answer:
+            "No—a local director is not mandatory. However, at least one director and one shareholder (who can be foreign) are required."
+        },
+        {
+          question: "What is the role of business registration agents in Sri Lanka?",
+          answer:
+            "Agents assist with documentation, name approval, ROC filings, compliance support, and ongoing advisory services to simplify registration."
+        },
+        {
+          question: "What are the tax compliance requirements after registration?",
+          answer:
+            "Obtain a TIN, register for VAT (if applicable), maintain accounting records, file annual returns, and pay corporate tax per Inland Revenue Act deadlines."
+        },
+        {
+          question: "Which are the top 5 cities for corporate registration in Sri Lanka?",
+          answer:
+            "Colombo, Kandy, Galle, Negombo, and Jaffna—each offers strong infrastructure and business ecosystems."
+        },
+        {
+          question: "Which are the top 10 sectors for investment in Sri Lanka?",
+          answer:
+            "Tourism & Hospitality, Apparel & Textiles, Agriculture & Food Processing, IT & BPM Services, Renewable Energy, Real Estate & Construction, Logistics & Transport, Education Services, Healthcare & Pharmaceuticals, and Export‑oriented Manufacturing."
+        },
+        {
+          question: "Are there any popular tourist destinations in Sri Lanka?",
+          answer:
+            "Yes: Sigiriya Rock, Ella, Yala National Park, Galle Fort, Temple of the Tooth (Kandy), Mirissa, Nuwara Eliya, Anuradhapura, Arugam Bay, and Dambulla Cave Temple."
+        }
+      ],
+  
+      types: {
+        cards: [],
+  
+        roleBenefits: [
+          "Strategic Location for Trade",
+          "Attractive Tax Incentives & Exemptions",
+          "Skilled English‑Speaking Workforce",
+          "Streamlined Incorporation Process",
+          "Expanding Domestic Consumer Market",
+          "Strong Investment Protection",
+          "Access via Free Trade Agreements",
+          "Low Operational Costs"
+        ],
+  
+        differenceTable: {
+          columns: [],
+          rows: []
+        },
+  
+        timelineFees: []
+      }
   }
+  
+  
+  
+
+  
 
   
   
