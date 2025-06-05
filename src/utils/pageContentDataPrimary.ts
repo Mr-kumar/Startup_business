@@ -875,7 +875,7 @@ Submitting these documents correctly and completely is crucial for a successful 
       {
         heading: "Timeline to Complete Registration",
         description:
-          "The process typically takes 7–10 working days, subject to document verification and ROC workload.",
+          "The process typically takes 7–10 working days, subject to document verification and ROC workload .",
         steps: [
           {
             title: "DIN & DSC Processing",
