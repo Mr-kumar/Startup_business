@@ -252,7 +252,7 @@ export default function Documents({ data }: DocumentsProps) {
         </motion.div>
       </section>
 
-      {(violations.length > 0 || consequences.length > 0) && (
+      {(violations?.length > 0 || consequences?.length > 0) && (
         <section className="py-20 px-5 sm:px-8 bg-gradient-to-br from-[#1D293D] via-[#152238] to-[#0F172A]">
           <div className="max-w-7xl mx-auto text-white">
             <SectionHeader
@@ -266,10 +266,10 @@ export default function Documents({ data }: DocumentsProps) {
               animate={inView ? "visible" : "hidden"}
               variants={staggerContainer}
             >
-              {violations.length > 0 && (
+              {violations?.length > 0 && (
                 <Card title="Penalty for Late Filing" items={violations} />
               )}
-              {consequences.length > 0 && (
+              {consequences?.length > 0 && (
                 <Card
                   title="Consequences of Non-Compliance"
                   items={consequences}

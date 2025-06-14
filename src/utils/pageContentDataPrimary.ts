@@ -2715,168 +2715,177 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
   "company-naming-guidelines": {
-  title: "Company Naming Guidelines: A Complete Legal Framework",
-  description: "Under the Companies Act, 2013, a company’s name is its official legal identity. This guide covers initial name selection, MCA approval, and the process for renaming an existing company, ensuring alignment with legal standards and long‑term branding objectives.",
-  overview: [
-    {
-      heading: "Importance of a Company Name",
-      content: `A company’s name serves as its legal identity. Under the Companies Act, 2013, naming follows strict regulations for selection, MCA approval, and any future renaming. The chosen name must comply with statutory norms while supporting branding and business goals.`
-    }
-  ],
-  Listicles: [
-    {
-      category: "Mandatory Naming Norms",
-      documents: [
-        `Entity suffix requirements:
+    title: "Company Naming Guidelines: A Complete Legal Framework",
+    description:
+      "Under the Companies Act, 2013, a company’s name is its official legal identity. This guide covers initial name selection, MCA approval, and the process for renaming an existing company, ensuring alignment with legal standards and long‑term branding objectives.",
+    overview: [
+      {
+        heading: "Importance of a Company Name",
+        content: `A company’s name serves as its legal identity. Under the Companies Act, 2013, naming follows strict regulations for selection, MCA approval, and any future renaming. The chosen name must comply with statutory norms while supporting branding and business goals.`,
+      },
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Naming Norms",
+        documents: [
+          `Entity suffix requirements:
 • Private Companies: “Private Limited” or “Pvt Ltd”
 • One Person Companies (OPC): “OPC Private Limited”
-• Public Companies: “Limited”`
-      ]
-    },
-    {
-      category: "Prohibited Name Elements",
-      documents: [
-        "Names identical or deceptively similar to existing companies or registered trademarks (including plural/singular variations)",
-        "Generic or ambiguous terms (e.g., “Textile Company Pvt Ltd”)",
-        "Personal names as prefixes (e.g., “Ankita Pvt Ltd”)",
-        "Misleading legal structure terms (e.g., LLP, Trust, HUF)",
-        "Words restricted under the Emblems and Names (Prevention of Improper Use) Act, 1950"
-      ]
-    },
-    {
-      category: "Sector‑Specific Naming Requirements",
-      documents: [
-        "For financial sector entities, the name must reflect primary business activities (e.g., “Leasing Finance Pvt Ltd”)",
-        "Chosen name must align with the Main Object Clause in the MOA"
-      ]
-    },
-    {
-      category: "Restrictions on Name Change",
-      documents: [
-        "Cannot alter name if required annual returns are not filed",
-        "Cannot alter name if in default for repayment of deposits or payment of debentures or related interest"
-      ]
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Board Meeting & Resolution",
-      content: `Issue a 7‑day notice to conduct a Board Meeting. Pass a resolution to:
+• Public Companies: “Limited”`,
+        ],
+      },
+      {
+        category: "Prohibited Name Elements",
+        documents: [
+          "Names identical or deceptively similar to existing companies or registered trademarks (including plural/singular variations)",
+          "Generic or ambiguous terms (e.g., “Textile Company Pvt Ltd”)",
+          "Personal names as prefixes (e.g., “Ankita Pvt Ltd”)",
+          "Misleading legal structure terms (e.g., LLP, Trust, HUF)",
+          "Words restricted under the Emblems and Names (Prevention of Improper Use) Act, 1950",
+        ],
+      },
+      {
+        category: "Sector‑Specific Naming Requirements",
+        documents: [
+          "For financial sector entities, the name must reflect primary business activities (e.g., “Leasing Finance Pvt Ltd”)",
+          "Chosen name must align with the Main Object Clause in the MOA",
+        ],
+      },
+      {
+        category: "Restrictions on Name Change",
+        documents: [
+          "Cannot alter name if required annual returns are not filed",
+          "Cannot alter name if in default for repayment of deposits or payment of debentures or related interest",
+        ],
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Board Meeting & Resolution",
+        content: `Issue a 7‑day notice to conduct a Board Meeting. Pass a resolution to:
 • Authorize a name availability check
-• Approve an Extraordinary General Meeting (EGM) for name change`
-    },
-    {
-      heading: "Step 2: Name Availability Check",
-      content: `Conduct a name search through:
+• Approve an Extraordinary General Meeting (EGM) for name change`,
+      },
+      {
+        heading: "Step 2: Name Availability Check",
+        content: `Conduct a name search through:
 • MCA Name Search Tool
-• Trademark Public Search Database`
-    },
-    {
-      heading: "Step 3: RUN Form Filing",
-      content: `Submit the Reserve Unique Name (RUN) application via the MCA portal.
+• Trademark Public Search Database`,
+      },
+      {
+        heading: "Step 3: RUN Form Filing",
+        content: `Submit the Reserve Unique Name (RUN) application via the MCA portal.
 • Fee: ₹1,000 (for up to 2 name options)
 • Attach Board Resolution if applicable (in case of name change)
-• Approval validity: 20 calendar days`
-    },
-    {
-      heading: "Step 4: Shareholder Approval",
-      content: `Conduct an EGM within the 20‑day approval validity period. Pass a Special Resolution to:
+• Approval validity: 20 calendar days`,
+      },
+      {
+        heading: "Step 4: Shareholder Approval",
+        content: `Conduct an EGM within the 20‑day approval validity period. Pass a Special Resolution to:
 • Approve the proposed name
-• Amend the MOA and AOA`
-    },
-    {
-      heading: "Step 5: MCA Filings",
-      content: `• File Form MGT‑14 to register the special resolution within 30 days of the EGM (attach EGM notice, revised MOA and AOA).  
-• File Form INC‑24 for Central Government approval after MGT‑14 (attach EGM minutes and Board Resolution).`
-    },
-    {
-      heading: "Step 6: Issuance of New COI",
-      content: `Upon approval, the Registrar of Companies (ROC) issues a revised Certificate of Incorporation (COI). The new name becomes effective immediately upon issuance.`
-    }
-  ],
+• Amend the MOA and AOA`,
+      },
+      {
+        heading: "Step 5: MCA Filings",
+        content: `• File Form MGT‑14 to register the special resolution within 30 days of the EGM (attach EGM notice, revised MOA and AOA).  
+• File Form INC‑24 for Central Government approval after MGT‑14 (attach EGM minutes and Board Resolution).`,
+      },
+      {
+        heading: "Step 6: Issuance of New COI",
+        content: `Upon approval, the Registrar of Companies (ROC) issues a revised Certificate of Incorporation (COI). The new name becomes effective immediately upon issuance.`,
+      },
+    ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Name Change Registration?",
         description: [
           "End‑to‑end legal assistance from name availability check to filing MGT‑14 and INC‑24",
           "Expert name vetting to ensure compliance with MCA and Trademark guidelines",
-          "Document preparation (board resolutions, EGM notices, MOA/AOA amendments) and timely filing"
+          "Document preparation (board resolutions, EGM notices, MOA/AOA amendments) and timely filing",
         ],
         points: [
           "Dedicated compliance tracker and client support portal for on‑time filings",
-          "Hassle‑free communication with the ROC for approvals, clarifications, and follow‑ups"
-        ]
-      }
+          "Hassle‑free communication with the ROC for approvals, clarifications, and follow‑ups",
+        ],
+      },
     ],
-  faq: [
-    {
-      question: "Does changing a company’s name affect its legal standing?",
-      answer: "No. The company retains all existing rights and liabilities regardless of a name change."
-    },
-    {
-      question: "What are typical reasons for renaming a company?",
-      answer: "Common reasons include rebranding, diversification of business activities, and meeting regulatory obligations."
-    },
-    {
-      question: "What is the average timeline for completing a name change?",
-      answer: "Typically 15–20 working days, though actual timelines may vary by ROC jurisdiction."
-    },
-    {
-      question: "How long is an approved name reserved by the ROC?",
-      answer: "An approved name is reserved for 20 calendar days from the date of approval."
-    }
-  ]
+    faq: [
+      {
+        question: "Does changing a company’s name affect its legal standing?",
+        answer:
+          "No. The company retains all existing rights and liabilities regardless of a name change.",
+      },
+      {
+        question: "What are typical reasons for renaming a company?",
+        answer:
+          "Common reasons include rebranding, diversification of business activities, and meeting regulatory obligations.",
+      },
+      {
+        question: "What is the average timeline for completing a name change?",
+        answer:
+          "Typically 15–20 working days, though actual timelines may vary by ROC jurisdiction.",
+      },
+      {
+        question: "How long is an approved name reserved by the ROC?",
+        answer:
+          "An approved name is reserved for 20 calendar days from the date of approval.",
+      },
+    ],
   },
   "director-removal-process": {
     title: "Director Removal Process: Legal Framework & Compliance Guide",
-    description: "Learn the legally compliant procedure to remove a company director under the Companies Act, 2013. Understand rights, resolutions, filings, and timelines to ensure governance restructuring is transparent and effective.",
+    description:
+      "Learn the legally compliant procedure to remove a company director under the Companies Act, 2013. Understand rights, resolutions, filings, and timelines to ensure governance restructuring is transparent and effective.",
     overview: [
       {
         heading: "Overview",
-        content: "Director removal is a crucial mechanism for ensuring responsible corporate governance. Under the Companies Act, 2013, directors may be removed due to non-performance, legal violations, or criminal convictions. This process ensures the company operates in a compliant, efficient, and transparent manner.\nLegal Basis: The relevant statutory provisions include Sections 169 (Removal of Director), 167 (Vacation of Office), and 168 (Resignation) of the Companies Act, 2013."
-      }
+        content:
+          "Director removal is a crucial mechanism for ensuring responsible corporate governance. Under the Companies Act, 2013, directors may be removed due to non-performance, legal violations, or criminal convictions. This process ensures the company operates in a compliant, efficient, and transparent manner.\nLegal Basis: The relevant statutory provisions include Sections 169 (Removal of Director), 167 (Vacation of Office), and 168 (Resignation) of the Companies Act, 2013.",
+      },
     ],
     benefits: [
       {
         heading: "Improved Governance",
-        content: "Enhances board accountability and operational integrity."
+        content: "Enhances board accountability and operational integrity.",
       },
       {
         heading: "Regulatory Compliance",
-        content: "Helps companies avoid penalties up to ₹5 lakh for non-compliance."
+        content:
+          "Helps companies avoid penalties up to ₹5 lakh for non-compliance.",
       },
       {
         heading: "Conflict Resolution",
-        content: "Addresses and settles boardroom disputes efficiently."
+        content: "Addresses and settles boardroom disputes efficiently.",
       },
       {
         heading: "Strategic Alignment",
-        content: "Allows restructuring of the board to align with evolving business goals."
-      }
+        content:
+          "Allows restructuring of the board to align with evolving business goals.",
+      },
     ],
     Listicles: [
       {
         category: "Eligibility to Initiate Removal",
         documents: [
           "Shareholders holding at least 1% voting power or ₹5 lakh in paid-up capital.",
-          "Exceptions: Directors appointed by the Tribunal or the Central Government are protected."
-        ]
+          "Exceptions: Directors appointed by the Tribunal or the Central Government are protected.",
+        ],
       },
       {
         category: "Types of Directors and Their Removal Methods",
         documents: [
           "Independent Director: Special resolution (75% approval)",
           "Nominee Director: Automatic removal on transaction fulfillment",
-          "Managing Director: Ordinary resolution + MGT-14 filing"
-        ]
+          "Managing Director: Ordinary resolution + MGT-14 filing",
+        ],
       },
       {
         category: "Key Legal Provisions",
         documents: [
           "Section 169(3): Right of the director to present their case.",
           "Section 169(8): Director's right to contractual dues.",
-          "Rule 79 (NCLT): Allows appeals via Form NCLT-1."
-        ]
+          "Rule 79 (NCLT): Allows appeals via Form NCLT-1.",
+        ],
       },
       {
         category: "Penalties for Delay in ROC Filings",
@@ -2885,71 +2894,2268 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "16–30 days: 2x",
           "31–180 days: 4x",
           ">180 days: 10x + compounding",
-          "Example: A standard fee of ₹1,000 becomes ₹10,000 after 180 days."
-        ]
+          "Example: A standard fee of ₹1,000 becomes ₹10,000 after 180 days.",
+        ],
       },
       {
         category: "Post-Removal Compliance",
         documents: [
           "Update company records on the MCA portal within 30 days.",
           "Notify banks, statutory bodies, and stakeholders.",
-          "Cancel or revoke the director's Digital Signature Certificate (DSC)."
-        ]
-      }
+          "Cancel or revoke the director's Digital Signature Certificate (DSC).",
+        ],
+      },
     ],
     registrationProcedure: [
       {
         heading: "Step 1: Initiation",
-        content: "• A special notice is issued by shareholders at least 28 days before the meeting.\n• The board must pass a resolution for calling an EGM within 7 days."
+        content:
+          "• A special notice is issued by shareholders at least 28 days before the meeting.\n• The board must pass a resolution for calling an EGM within 7 days.",
       },
       {
         heading: "Step 2: Approval by Shareholders",
-        content: "• Conduct an Extraordinary General Meeting (EGM) with 21 days' notice.\n• Pass an ordinary resolution by a simple majority."
+        content:
+          "• Conduct an Extraordinary General Meeting (EGM) with 21 days' notice.\n• Pass an ordinary resolution by a simple majority.",
       },
       {
         heading: "Step 3: Regulatory Filings",
-        content: "• DIR-11: Director's resignation (if applicable) – Within 30 days\n• DIR-12: Inform ROC about removal within 30 days\n• MGT-14: File resolution within 30 days\n\nAttachments Required:\n• Copy of board resolution\n• Resignation letter (if applicable)\n• Minutes of EGM"
-      }
+        content:
+          "• DIR-11: Director's resignation (if applicable) – Within 30 days\n• DIR-12: Inform ROC about removal within 30 days\n• MGT-14: File resolution within 30 days\n\nAttachments Required:\n• Copy of board resolution\n• Resignation letter (if applicable)\n• Minutes of EGM",
+      },
     ],
     faq: [
       {
         question: "Can a director be removed without their consent?",
-        answer: "Yes, through a shareholder resolution under Section 169."
+        answer: "Yes, through a shareholder resolution under Section 169.",
       },
       {
         question: "How long does the removal process take?",
-        answer: "Typically, 45–60 days, including notice periods and filings."
+        answer: "Typically, 45–60 days, including notice periods and filings.",
       },
       {
         question: "What happens to a director's shares after removal?",
-        answer: "They retain the shares unless the Articles of Association (AoA) provide for forfeiture."
+        answer:
+          "They retain the shares unless the Articles of Association (AoA) provide for forfeiture.",
       },
       {
         question: "What if the company ignores ROC notices?",
-        answer: "The company may face strike-off proceedings under Section 248(1)."
+        answer:
+          "The company may face strike-off proceedings under Section 248(1).",
       },
       {
         question: "Can directors remove other directors?",
-        answer: "No, only shareholders have the authority to remove a director."
-      }
+        answer:
+          "No, only shareholders have the authority to remove a director.",
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Director Removal Services?",
         description: [
           "We simplify the complex legal procedure of director removal with a transparent, compliant, and efficient approach tailored to your business needs.",
-          "Our experienced legal professionals ensure the process complies with the Companies Act, 2013—minimizing risks and avoiding costly penalties."
+          "Our experienced legal professionals ensure the process complies with the Companies Act, 2013—minimizing risks and avoiding costly penalties.",
         ],
         points: [
           "End-to-end assistance from notice drafting to ROC filings (DIR-11, DIR-12, MGT-14)",
           "Ready-to-use templates for resolutions, EGM notices, and resignation letters",
-          "Quick turnaround with MCA filings completed within 3–5 working days"
-        ]
-      }
-    ]
-  }
-  
-  
+          "Quick turnaround with MCA filings completed within 3–5 working days",
+        ],
+      },
+    ],
+  },
+  "nidhi-company-compliance": {
+    title: "Nidhi Company Compliance: Rules, Restrictions & ROC Filings",
+    description:
+      "Stay updated on the latest compliance mandates under the Nidhi Rules, 2014 & 2022 Amendment. Understand key filing requirements, prohibited activities, and post-incorporation obligations to maintain legal standing.",
+    overview: [
+      {
+        heading: "Overview of Nidhi Company",
+        content:
+          "A Nidhi Company is governed by Section 406 of the Companies Act, 2013, along with the Nidhi Rules, 2014, and the Nidhi (Amendment) Rules, 2022. These companies operate in the non-banking financial sector and are primarily engaged in accepting deposits from and providing loans to their members. As with any other registered entity, a Nidhi Company is required to comply with annual tax and regulatory filings as mandated by law. Though categorized as a Public Limited Company, a Nidhi Company must adhere strictly to prescribed compliance norms to avoid legal consequences.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Member-Driven Lending",
+        content:
+          "Focused financial services limited to members only, reducing risk exposure.",
+      },
+      {
+        heading: "Simple Incorporation",
+        content:
+          "Registered as a Public Limited Company with relaxed RBI oversight.",
+      },
+      {
+        heading: "Regulated Operations",
+        content:
+          "Operational boundaries clearly defined under the Nidhi Rules, ensuring compliance.",
+      },
+      {
+        heading: "Cost-Effective Financing",
+        content:
+          "Allows members access to low-interest loans and savings schemes.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Post-Incorporation Compliances for Nidhi Company",
+        documents: [
+          "A minimum of 200 members within 1 year.",
+          "Net Owned Funds (NOF) of at least ₹20 lakhs.",
+          "NOF-to-deposit ratio must not exceed 1:20.",
+          "At least 10% of deposits must be in unencumbered term deposits as per Rule 14.",
+        ],
+      },
+      {
+        category: "Prohibited Activities under Rule 6",
+        documents: [
+          "Leasing, hire purchase, and chit fund businesses.",
+          "Purchasing securities of other corporations.",
+          "Issuing preference shares, debentures, or debt instruments.",
+          "Maintaining current accounts for members.",
+          "Accepting or lending funds to non-members or body corporates.",
+          "Operating partnerships for financial activities.",
+          "Advertising for deposits in any form.",
+          "Pledging member assets or paying commissions to mobilize deposits or disburse loans.",
+          "Engaging in unrelated businesses without Regional Director's approval.",
+        ],
+      },
+      {
+        category: "Types of Compliance",
+        documents: [
+          "Annual Compliances: Routine filings like financials and returns.",
+          "Event-Based Compliances: Triggered by operational changes like director or capital structure.",
+        ],
+      },
+      {
+        category: "Key ROC Filings Under Nidhi Rules",
+        documents: [
+          "NDH-1: Return of statutory compliance within 90 days of financial year-end (via GNL-2).",
+          "NDH-2: Extension application for deposit/member requirements within 30 days of FY end (via RD-1).",
+          "NDH-3: Half-yearly return on members, deposits, and loans within 30 days (via GNL-2).",
+          "NDH-4: Application for Nidhi status within 60 days after 1 year of incorporation or as per rule.",
+          "NDH-5: Branch closure notice within 30 days, published in vernacular paper.",
+        ],
+      },
+      {
+        category: "Other Key Forms",
+        documents: [
+          "AOC-4: File financial statements within 30 days of AGM.",
+          "MGT-7: File annual return within 60 days of AGM.",
+        ],
+      },
+    ],
+    registrationProcedure: [],
+    faq: [
+      {
+        question: "Can a Nidhi Company operate like a bank?",
+        answer:
+          "No, Nidhi Companies are restricted to lending and accepting deposits only from their members and cannot operate like traditional banks.",
+      },
+      {
+        question: "Is RBI approval required to start a Nidhi Company?",
+        answer:
+          "No, RBI approval is not required, but operations must adhere to Nidhi Rules and the Companies Act.",
+      },
+      {
+        question:
+          "What if member/deposit thresholds are not met in the first year?",
+        answer:
+          "You must file NDH-2 within 30 days of financial year-end to request an extension from the Regional Director.",
+      },
+      {
+        question:
+          "Can a Nidhi Company pay commissions for mobilizing deposits?",
+        answer:
+          "No, commissions or incentives for deposit mobilization or loan disbursal are strictly prohibited.",
+      },
+      {
+        question:
+          "What happens if a Nidhi Company doesn’t get Nidhi status via NDH-4?",
+        answer:
+          "It cannot file forms like SH-7 and PAS-3 and may face regulatory restrictions.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Nidhi Company Compliance?",
+        description: [
+          "Complete assistance in all post-incorporation filings and regulatory compliance.",
+          "Expert advice on meeting NOF and member thresholds to maintain legal status.",
+          "Support for timely NDH-1, NDH-2, NDH-3, and NDH-4 filing.",
+        ],
+        points: [
+          "Experienced team for ROC filings, exemptions, and director approvals.",
+          "Streamlined document management and deadline tracking system.",
+        ],
+      },
+    ],
+  },
+  "section8-company-compliance": {
+    title: "Overview of Section 8 Company Compliance",
+    description:
+      "Section 8 Companies (non‑profits under the Companies Act, 2013) must adhere to specific annual and event‑based regulatory norms. All income is applied to their charitable objectives—no profit distribution is allowed.",
+    overview: [
+      {
+        heading: "Overview",
+        content: `Under the Companies Act, 2013, Section 8 Companies promote charitable causes (education, art, science, social welfare, etc.). Recognized as NGOs, they enjoy limited‑company status without using “Limited” in their name. All income furthers their mission; no dividends are paid to members.`,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhances Credibility",
+        content:
+          "Builds trust and improves reputation among donors, stakeholders, and regulators.",
+      },
+      {
+        heading: "Ensures Legal Protection",
+        content:
+          "Safeguards the organization from legal disputes and regulatory actions.",
+      },
+      {
+        heading: "Avoids Penalties",
+        content:
+          "Timely filings prevent fines, penalties, and potential disqualification.",
+      },
+      {
+        heading: "Builds Public Trust",
+        content:
+          "Transparent operations foster confidence among beneficiaries and the public.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Annual Compliance Documents",
+        content: `• Memorandum of Association (MoA)  
+  • Articles of Association (AoA)  
+  • Digital Signature Certificate (DSC)  
+  • Certificate of Incorporation`,
+      },
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Annual Compliances",
+        documents: [
+          "Appointment of Auditor each year",
+          "Maintenance of Statutory Registers (members, loans, charges, investments)",
+          "Preparation & filing of Financial Statements (Trading A/c, P&L, Balance Sheet)",
+          "Director’s Report filing via Form AOC‑4 (Sect. 134) + signed board minutes",
+          "Income Tax Return (ITR) by 30 September (Section 12A/80G holders)",
+          "At least two Board Meetings (max 90 days gap)",
+          "AGM by 30 September + Form MGT‑15 within 30 days",
+          "File AOC‑4 within 30 days of AGM",
+          "File MGT‑7 within 60 days of AGM (or 60 days from due date)",
+        ],
+      },
+      {
+        category: "Event‑Based Compliances",
+        documents: [
+          "Transfer or Allotment of Shares",
+          "Appointment/Resignation of Directors or Auditors",
+          "Change of Company Name",
+          "Amendment of MoA",
+          "Appointment of Key Managerial Personnel (KMP)",
+          "Receipt of Share Application Money",
+          "Alteration in Company Structure (merger, conversion)",
+        ],
+      },
+      {
+        category: "Tax Compliance Requirements",
+        documents: [
+          "Registration under Section 12A via Form 10A",
+          "Adherence to Section 11 (application of income)",
+          "80G certification via Form 10B for donor deductions",
+        ],
+      },
+      {
+        category: "Penalties for Non‑Compliance",
+        documents: [
+          "Revocation of license for fraudulent operation",
+          "Company fines: ₹10 lakh to ₹1 crore",
+          "Officer fines/imprisonment: up to ₹25 lakh or both",
+          "Fraud penalties under Section 447: stringent fines & imprisonment",
+        ],
+      },
+      {
+        category: "Due Dates for Compliance Filings",
+        documents: [
+          "AGM: On or before 30 September",
+          "Form AOC‑4: Within 30 days of AGM",
+          "Form MGT‑7: Within 60 days of AGM",
+          "Income Tax Return: On or before 30 September",
+        ],
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How Corpbiz Assists You with Section 8 Compliance",
+        content: `1. Submit Online Form: Fill in basic company details.  
+  2. Callback from Experts: Tailored guidance on your needs.  
+  3. Share Documents: Secure upload for verification.  
+  4. Track Real‑Time Progress: Stay updated at every stage.  
+  5. Receive Deliverables: Compliance filings and certificates delivered to your inbox.`,
+      },
+    ],
+    faq: [
+      {
+        question: "Can a Section 8 Company be private or public?",
+        answer:
+          "Yes, it can be registered as either Private or Public Limited, based on member count and structure.",
+      },
+      {
+        question: "Are Secretarial Standards applicable?",
+        answer:
+          "Yes. ICSI Secretarial Standards apply, with certain exemptions for Section 8 companies.",
+      },
+      {
+        question: "Penalty for not holding AGM?",
+        answer:
+          "Fines apply to company and directors, and related filings (AOC‑4, MGT‑7) may also be penalized.",
+      },
+      {
+        question: "What if Annual Return isn’t filed?",
+        answer:
+          "Late fees accrue and directors may face disqualification and legal action.",
+      },
+      {
+        question: "Can foreigners register a Section 8 Company?",
+        answer:
+          "Yes, subject to Companies Act eligibility and applicable FEMA regulations.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Corpbiz for Section 8 Compliance?",
+        description: [
+          "End‑to‑end handling of annual and event‑based filings",
+          "Expert guidance on 12A/80G registrations and tax exemptions",
+          "Real‑time tracking and timely reminders",
+        ],
+        points: [
+          "Dedicated compliance manager",
+          "Transparent pricing with no hidden fees",
+          "Complete digital support and documentation",
+        ],
+      },
+    ],
+  },
+  "change-in-registered-office-address": {
+    title: "Change in Registered Office Address",
+    description:
+      "Comprehensive guide on changing the registered office address of a Private Limited Company, including procedures, requirements, and compliance aspects.",
+    overview: [
+      {
+        heading: "Overview of the Change in Registered Office",
+        content:
+          "The registered office of a company is its official address for receiving legal and government correspondence. Any change in this address must be updated with the Registrar of Companies (ROC) within 15 days to ensure compliance with the Companies Act.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Updating Registered Office Address",
+        content:
+          "Ensures legal compliance, facilitates accurate communication with government bodies, and reflects the company's operational realities.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Address Change",
+        content:
+          "Proof of new address (e.g., utility bill not older than 2 months), No Objection Certificate (NOC) from the property owner, lease or rent agreement, and board resolution approving the change.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Annual Compliances",
+        documents: [
+          "Appointment of Auditor each year",
+          "Maintenance of Statutory Registers (members, loans, charges, investments)",
+          "Preparation & filing of Financial Statements (Trading A/c, P&L, Balance Sheet)",
+          "Director’s Report filing via Form AOC‑4 (Sect. 134) + signed board minutes",
+          "Income Tax Return (ITR) by 30 September (Section 12A/80G holders)",
+          "At least two Board Meetings (max 90 days gap)",
+          "AGM by 30 September + Form MGT‑15 within 30 days",
+          "File AOC‑4 within 30 days of AGM",
+          "File MGT‑7 within 60 days of AGM (or 60 days from due date)",
+        ],
+      },
+      {
+        category: "Event‑Based Compliances",
+        documents: [
+          "Transfer or Allotment of Shares",
+          "Appointment/Resignation of Directors or Auditors",
+          "Change of Company Name",
+          "Amendment of MoA",
+          "Appointment of Key Managerial Personnel (KMP)",
+          "Receipt of Share Application Money",
+          "Alteration in Company Structure (merger, conversion)",
+        ],
+      },
+      {
+        category: "Tax Compliance Requirements",
+        documents: [
+          "Registration under Section 12A via Form 10A",
+          "Adherence to Section 11 (application of income)",
+          "80G certification via Form 10B for donor deductions",
+        ],
+      },
+      {
+        category: "Penalties for Non‑Compliance",
+        documents: [
+          "Revocation of license for fraudulent operation",
+          "Company fines: ₹10 lakh to ₹1 crore",
+          "Officer fines/imprisonment: up to ₹25 lakh or both",
+          "Fraud penalties under Section 447: stringent fines & imprisonment",
+        ],
+      },
+      {
+        category: "Due Dates for Compliance Filings",
+        documents: [
+          "AGM: On or before 30 September",
+          "Form AOC‑4: Within 30 days of AGM",
+          "Form MGT‑7: Within 60 days of AGM",
+          "Income Tax Return: On or before 30 September",
+        ],
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Change Within the Same City, Town, or Village",
+        content:
+          "Conduct a Board Meeting to pass a resolution approving the change. File Form INC-22 with the ROC within 15 days of passing the board resolution.",
+        penalties: {
+          description: "Failure to comply may result in penalties.",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Delay in filing Form INC-22",
+              fine: "₹1,000 per day of default up to ₹1,00,000",
+            },
+          ],
+        },
+      },
+      {
+        heading:
+          "Change Within the Same State but Outside the Existing City/Town/Village",
+        content:
+          "Hold a Board Meeting to fix the date, time, and venue for an Extra-Ordinary General Meeting (EGM). Pass a special resolution at the EGM for address change. File Form MGT-14 within 30 days of passing the resolution. File Form INC-22 within 15 days of passing the resolution.",
+        penalties: {
+          description: "Non-compliance may attract penalties.",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Delay in filing Form MGT-14",
+              fine: "₹1,000 per day of default up to ₹1,00,000",
+            },
+          ],
+        },
+      },
+      {
+        heading:
+          "Change Within the Same State but from One ROC Jurisdiction to Another",
+        content:
+          "Conduct a Board Meeting and finalize the EGM schedule. Pass a special resolution at the EGM to amend the Memorandum of Association (MOA). Publish an advertisement in both English and regional language newspapers. File Form MGT-14 within 30 days of the resolution. Apply to the Regional Director using Form INC-23.",
+        penalties: {
+          description: "Delays can lead to legal complications.",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Failure to obtain Regional Director approval",
+              fine: "As prescribed under the Companies Act",
+            },
+          ],
+        },
+      },
+      {
+        heading: "Change from One State to Another",
+        content:
+          "Conduct a Board Meeting to schedule the EGM. Pass a special resolution in the EGM for shifting the registered office. Publish notices in newspapers (English and regional language). Notify affected stakeholders individually (creditors, depositors, debenture holders). File Form MGT-14 within 30 days of the resolution. Apply to the Regional Director using Form INC-23.",
+        penalties: {
+          description: "Non-adherence may result in rejection of application.",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Incomplete documentation",
+              fine: "Application may be rejected",
+            },
+          ],
+        },
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "MCA Fees for Change in Registered Address",
+        description: "Fees applicable based on the nominal share capital.",
+        feeTable: [
+          { category: "Less than ₹1,00,000", amount: "₹200" },
+          { category: "₹1,00,000 to ₹4,99,999", amount: "₹300" },
+          { category: "₹5,00,000 to ₹24,99,999", amount: "₹400" },
+          { category: "₹25,00,000 to ₹99,99,999", amount: "₹500" },
+          { category: "₹1,00,00,000 or more", amount: "₹600" },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Address Change",
+        description:
+          "Estimated timeframes for different types of address changes.",
+        steps: [
+          {
+            title: "Change Within Same City",
+            duration: "15–30 days",
+            description: "Includes board resolution and filing Form INC-22.",
+          },
+          {
+            title: "Change Within Same State (Different City)",
+            duration: "30–45 days",
+            description: "Includes EGM, special resolution, and filings.",
+          },
+          {
+            title: "Change Between States",
+            duration: "45–60 days",
+            description:
+              "Involves Regional Director approval and multiple filings.",
+          },
+        ],
+        totalTime: "15–60 days depending on the nature of change",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Our Services",
+        description: [
+          "Expert guidance throughout the address change process.",
+          "Assistance with documentation and filings.",
+          "Ensuring compliance with the Companies Act, 2013.",
+        ],
+        points: [
+          "Experienced professionals",
+          "Timely execution",
+          "Affordable pricing",
+        ],
+        footerText: "Contact us for a hassle-free address change experience.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the registered office of a company?",
+        answer:
+          "It is the official address of a company, as recorded with the Registrar of Companies (ROC), where all official communications are sent.",
+      },
+      {
+        question: "Can I change the registered office of the company?",
+        answer:
+          "Yes, a company can change its registered office address by following the procedures laid out in the Companies Act, 2013.",
+      },
+      {
+        question:
+          "How long does it take to change the registered office address?",
+        answer:
+          "The timeline varies based on the nature of the change, ranging from 15 to 60 days.",
+      },
+      {
+        question:
+          "Is it mandatory to alter the MOA and AOA under the Companies Act, 2013?",
+        answer:
+          "Alteration of the Memorandum of Association (MOA) is required when shifting the registered office to a different state.",
+      },
+      {
+        question: "Is the registered office the same as the head office?",
+        answer:
+          "Not necessarily. The registered office is the legal address for ROC communication, while the head office is where major operations occur.",
+      },
+      {
+        question: "Is changing the registered office an easy process?",
+        answer:
+          "The complexity depends on the type of change. Changes within the same city are straightforward, while inter-state changes involve more documentation and approvals.",
+      },
+      {
+        question:
+          "How to intimate the ROC about the change in registered office?",
+        answer:
+          "You must file Form INC-22 with the ROC within 15 days of the change. If the change involves a special resolution, Form MGT-14 must also be filed.",
+      },
+      {
+        question: "What documents are required under Form INC-22?",
+        answer:
+          "Proof of the new address, NOC from the property owner, lease or rent agreement, and copy of the board resolution approving the address change.",
+      },
+      {
+        question:
+          "What documents are required while finalizing a registered office address at incorporation?",
+        answer:
+          "Utility bill (not older than 2 months), property tax receipt (if applicable), NOC from the landlord, and lease or rent agreement.",
+      },
+      {
+        question: "Can two companies have the same registered address?",
+        answer:
+          "Yes, multiple companies can share the same registered office address, provided each has proper authorization and a valid.",
+      },
+    ],
+  },
+  "change-in-share-capital": {
+    title: "Change in Share Capital",
+    description:
+      "Comprehensive guidance on altering a company's share capital under the Companies Act, 2013, covering definitions, types of changes, required documents, procedures, timelines, and FAQs.",
+    overview: [
+      {
+        heading: "Overview of Change in Share Capital",
+        content:
+          "Deciding the amount of capital to invest is one of the most crucial steps during a company’s incorporation. As the business grows and seeks to scale its operations—whether in size, scope, or structure—it may require additional funding, leading to the need for increasing or altering the company’s share capital. A company can only issue shares up to the limit of its authorized share capital, defined under Section 2(8) of the Companies Act, 2013 in the Capital Clause of the Memorandum of Association (MOA). If a company needs to raise more funds than currently permitted, it must follow prescribed procedures to increase its authorized share capital before issuing shares beyond the existing limit.",
+      },
+      {
+        heading: "Meaning of Share Capital",
+        content:
+          "Share capital refers to the total capital raised by a company through the issuance of shares, representing the portion of equity funded by shareholders in exchange for ownership. It is divided into a fixed number of shares with predetermined face value. When a company decides to raise additional funds through share issuance, it must first verify its current authorized share capital in the MOA. A company cannot issue shares beyond this limit unless it officially increases the authorized share capital. If permitted by the Articles of Association (AOA), it may alter share capital by filing necessary forms and obtaining ROC approval.",
+      },
+      {
+        heading: "Meaning of Authorized Capital and Nominal Capital",
+        content:
+          "Authorized (nominal) capital is the maximum amount of share capital a company is permitted to issue, as stated in its MOA under Section 2(8) of the Companies Act, 2013. Changing share capital is governed by Sections 13, 61, and 64 of the Companies Act, 2013. To raise additional funds beyond the current authorized limit, the company must amend its MOA and follow statutory procedures, including passing resolutions and filing with the ROC.",
+      },
+      {
+        heading: "Key Characteristics of Change in Share Capital",
+        content:
+          "● Ownership Rights & Liabilities: Share capital represents a shareholder’s stake, entitling rights such as voting, dividends, and claims on assets during liquidation.  \n● Movable Property: Under the Sale of Goods Act, 1930, shares are movable property (excluded from 'goods'), transferable unless restricted by AOA.  \n● Identification by Share Numbers: Shares have unique numbers; in dematerialized form, ownership is recorded electronically.  \n● Transferability: Shares are freely transferable per AOA rules, allowing transfer of ownership among investors.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Altering Share Capital",
+        content:
+          "Altering share capital provides strategic advantages:  \n● Access to Additional Funding: Increases ability to raise capital for expansion or new projects.  \n● Flexibility in Capital Structure: Enables consolidation, subdivision, or conversion to optimize shareholding patterns and liquidity.  \n● Improved Liquidity: Sub-division or consolidation can make shares more accessible or align with market expectations.  \n● Financial Restructuring: Reduction or cancellation can adjust capital to realistic asset values and remove unpaid capital.  \n● Alignment with Business Goals: Tailors share capital structure to evolving business needs, investor preferences, or regulatory requirements.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Change in Share Capital",
+        content:
+          "When planning alterations such as increase, consolidation, sub-division, conversion, or reduction of share capital, the company must submit:  \n● Notice of Extraordinary General Meeting (EGM) with explanatory statement  \n● Certified copy of the resolution passed at the shareholders’ meeting  \n● Updated Memorandum of Association reflecting proposed change  \n● Updated Articles of Association aligned with change  \n● Board resolution authorizing alteration of MOA/AOA  \n● Shareholders’ resolution approving change in share capital  \n● Audited financial statements or balance sheets for the last three financial years  \n● Resolution approving consolidation/sub-division with detailed justification  \n● Evidence of new capital structure and classification post-change  \n● Affidavit verifying contents of petition/application  \n● Bank draft or challan confirming payment of prescribed statutory fee  \n● Executed Vakalatnama or Memorandum of Appearance, if applicable  \n● Two additional copies of the application filed  \n● Any other supporting documents as required by ROC or NCLT.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Change in Share Capital",
+        content:
+          "Step-by-Step Process:  \n1. Issue Notice for Board Meeting: Issue notice at least seven days in advance, stating agenda to alter share capital.  \n2. Convene Board Meeting: Discuss and approve proposed change via Board Resolution, subject to shareholder consent.  \n3. Schedule Shareholders’ Meeting: Fix date, time, and venue for EGM or AGM, as applicable.  \n4. Send Notice to Shareholders: Send formal notice at least 21 clear days before meeting, including explanatory statement.  \n5. Hold Shareholders’ Meeting: Conduct EGM/AGM on scheduled date; shareholders pass ordinary or special resolution approving change.  \n6. File with ROC: File necessary forms (e.g., Form SH-7 for ordinary resolution changes or Form MGT-14 for special resolutions) within 30 days of passing resolution, along with updated MOA/AOA and prescribed fees.  \nPenalty for Delay: Failure to notify ROC within 30 days may attract penalty up to ₹10,000 per day and maximum fine up to ₹5,00,000 for company or responsible officers.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure for Change in Share Capital",
+        description:
+          "ROC filing fees vary based on the company’s authorized capital and nature of alteration. Fees must be paid via bank draft or challan as per MCA schedule at time of filing forms.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Change in Share Capital",
+        description: "Typical timeline from board approval to ROC filing.",
+        steps: [
+          {
+            title: "Board Meeting and Resolutions",
+            duration: "1-2 weeks",
+            description:
+              "Issue notice, convene board meeting, and pass board resolution approving change.",
+          },
+          {
+            title: "Shareholders’ Meeting",
+            duration: "3-4 weeks",
+            description:
+              "Send 21-day notice, hold EGM/AGM, pass shareholders’ resolution.",
+          },
+          {
+            title: "ROC Filing",
+            duration: "Within 30 days of resolution",
+            description:
+              "Prepare updated MOA/AOA, file Form SH-7 and/or MGT-14 with prescribed fees.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose CorpBiz for Change in Share Capital",
+        description: [
+          "We provide end-to-end support for altering share capital under the Companies Act, 2013.",
+        ],
+        points: [
+          "Expert guidance on statutory procedures and documentation",
+          "Timely filing and compliance to avoid penalties",
+          "Tailored advice for optimal capital structure",
+          "High success rate in ROC/NCLT applications",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Change in Share Capital?",
+        answer:
+          "Any alteration made to a company’s issued, authorized, or paid-up capital, including increase, reduction, consolidation, sub-division, conversion between shares and stock, as per Companies Act, 2013.",
+      },
+      {
+        question: "Can Paid-up Capital be Increased?",
+        answer:
+          "Yes. A company can issue additional shares to existing or new shareholders by passing necessary resolutions and filing with ROC, subject to authorized capital limit.",
+      },
+      {
+        question: "Can a Company Reduce its Share Capital?",
+        answer:
+          "Yes. Reduction requires compliance with Section 66, approval from NCLT (except in certain cases like buyback or redemption of preference shares), and filing with ROC.",
+      },
+      {
+        question:
+          "What is the Difference Between Authorized Capital and Paid-up Capital?",
+        answer:
+          "Authorized Capital is the maximum share capital a company can issue as per MOA. Paid-up Capital is the amount actually received by the company from shareholders in exchange for shares issued.",
+      },
+      {
+        question: "How is Capital Raised Initially?",
+        answer:
+          "Through issuance of shares via private placement or public offering (IPO), subject to compliance with SEBI regulations if public.",
+      },
+      {
+        question: "Can a Company Spend Share Capital Directly?",
+        answer:
+          "No. Share capital represents ownership value and is used for acquiring assets or financing growth; day-to-day expenses are funded through working capital or revenue.",
+      },
+    ],
+  },
+  "change-in-struck-off-companies": {
+    title: "Revival of Struck Off Companies – Hassle-Free Restoration Services",
+    description:
+      "Guidance on restoring companies struck off the Register under the Companies Act, 2013, covering eligibility, grounds, benefits, documents, procedures, timelines, CFSS-2020 context, and FAQs.",
+    overview: [
+      {
+        heading: "Overview on Revival of Struck Off Companies",
+        content:
+          "A strike-off is removal of a company's name from the Register by the Registrar under the Companies Act, 2013, either voluntarily or compulsorily. Unlike winding up, it is a temporary closure: revival is possible up to 20 years from Gazette notification under Section 252. Eligible parties (company, director, shareholder, creditor, employee) can apply for restoration—within 3 years for compulsory strike-offs and within 20 years for voluntary strike-offs.",
+      },
+      {
+        heading: "Who Can Apply for Revival of Struck Off Companies?",
+        content:
+          "Eligible applicants under Section 252 include:  \n● The company itself (through directors or authorized representatives)  \n● Any creditor or member with financial interest  \n● Workmen or employees employed at time of strike-off",
+      },
+      {
+        heading: "Grounds for Revival of Struck Off Companies",
+        content:
+          "NCLT may restore if valid grounds are shown:  \n● Ownership of immovable property held by the company  \n● Regulatory compliance evidence (GST, Income Tax, Provident Fund, etc.)  \n● Ongoing business operations (active bank transactions or similar)  \n● Annual license renewals showing continuity  \n● Public interest and supporting evidence proving operational status",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Revival of Struck Off Companies in India",
+        content:
+          "● Creditor Recovery: Enables legal action to recover dues with interest after revival.  \n● Enforcement of Liabilities: Company and directors remain accountable for past liabilities.  \n● Avoid/Reverse Director Disqualification: Revival prevents or reverses disqualification under Section 164 for non-filing of returns.  \n● Prevent Legal Prosecution: Timely revival and compliance can avoid or withdraw prosecution recommended by ROC.  \n● Reinstatement of Directorship: Disqualified directors can resume positions post-revival and compliance.  \n● File Overdue Returns: Allows filing pending annual returns/statutory documents by paying nominal fees.  \n● Waiver of Additional Penalties: No further proceedings if overdue filings submitted within scheme’s period.  \n● Withdrawal of Prosecution: Existing legal proceedings may be withdrawn upon full compliance.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Revival of Struck Off Companies",
+        content:
+          "● Certificate of Incorporation  \n● Memorandum of Association (MOA)  \n● Audited Financial Statements from date of strike-off to support operations  \n● Bank Statements evidencing active transactions  \n● Striking Off Order issued by ROC  \n● Affidavit Verifying the Petition  \n● Board Resolution authorizing filing of revival petition  \n● Permanent Account Number (PAN) of the company  \n● Income Tax Returns for relevant period  \n● Property Documents if company owns immovable assets  \n● Memorandum of Appearance or Vakalatnama authorizing legal representative  \n● Any other supporting documents proving operational status",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Revival of Struck Off Companies",
+        content:
+          "Step-by-Step Process:  \n1. Filing the Application/Petition: File Form NCLT-9 with NCLT, along with demand draft of ₹1,000 favoring Pay and Accounts Officer, MCA.  \n2. Serving Copy of Petition: Serve copy to ROC and relevant parties at least 14 days before hearing.  \n3. Hearing by the Tribunal: NCLT hears petitioner and ROC; if satisfied revival grounds exist, may order restoration.  \n4. Order of Revival: Tribunal issues restoration order; applicant must deliver certified copy to ROC within 30 days; ROC publishes order in Official Gazette; applicant bears costs; company must comply with pending filings as directed.  \n5. Filing Form INC-28: File copy of Tribunal’s order with ROC in Form INC-28 within 30 days.  \n6. Publication in Official Gazette: ROC publishes name restoration in Gazette.  \n7. Filing of Pending Documents: Submit all overdue annual returns, financial statements, and other required documents to ROC to ensure full compliance.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure for Revival of Struck Off Companies",
+        description:
+          "Fees include NCLT filing fee (e.g., demand draft ₹1,000 for petition) and ROC filing fees for Form INC-28 and overdue documents as per MCA schedule. Exact ROC fees vary by company type and capital; payable via challan or bank draft at filing time.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Revival of Struck Off Companies",
+        description:
+          "Typical durations from petition to Gazette publication and compliance.",
+        steps: [
+          {
+            title: "Preparation and Filing Petition",
+            duration: "1-2 weeks",
+            description:
+              "Assemble documents, draft petition (Form NCLT-9), obtain demand draft, and file with NCLT.",
+          },
+          {
+            title: "Serving Petition and Scheduling Hearing",
+            duration: "2-4 weeks",
+            description:
+              "Serve ROC and stakeholders; wait for NCLT listing and hearing date.",
+          },
+          {
+            title: "NCLT Hearing and Order",
+            duration: "Depends on tribunal schedule (4-8 weeks)",
+            description:
+              "Attend hearing; obtain restoration order if grounds accepted.",
+          },
+          {
+            title: "Post-Order Filings",
+            duration: "Within 30 days of order",
+            description:
+              "File Form INC-28, deliver certified copy to ROC, publish in Gazette, then file overdue returns/statements.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Corpbiz for Revival of Struck Off Companies",
+        description: [
+          "End-to-end support for restoration under Companies Act, 2013.",
+        ],
+        points: [
+          "10+ years of expertise in legal and compliance consulting",
+          "Successfully handled 500+ struck off company revival cases",
+          "In-depth case evaluation for eligibility and grounds",
+          "Complete assistance in drafting and filing NCLT petitions",
+          "Professional representation at NCLT hearings",
+          "Expert advisory on Section 252 and related provisions",
+          "Support with ROC filings and post-revival compliance",
+          "Seamless guidance through the entire restoration process",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Under which legal provision can the ROC revive a struck-off company?",
+        answer:
+          "Under Section 252 of the Companies Act, 2013, via NCLT order or appeal.",
+      },
+      {
+        question: "What does “strike off” mean in company law?",
+        answer:
+          "Removal of a company's name from the register, rendering it inactive.",
+      },
+      {
+        question:
+          "Can any company director file an appeal to revive a struck-off company?",
+        answer:
+          "Yes, directors, shareholders, creditors, or other aggrieved parties may apply to NCLT.",
+      },
+      {
+        question:
+          "What is the limitation period for revival in case of compulsory strike-off?",
+        answer: "Within three years from date of Registrar’s order.",
+      },
+      {
+        question:
+          "What is the limitation period for revival in case of voluntary strike-off?",
+        answer:
+          "Within twenty years from date of Gazette notification of strike-off.",
+      },
+      {
+        question:
+          "Can the ROC strike off a company for non-filing of MGT-7 and AOC-4?",
+        answer:
+          "Yes, non-filing of annual returns and financial statements for three consecutive years may lead to strike-off.",
+      },
+      {
+        question:
+          "What are the common grounds for reviving a struck-off company?",
+        answer:
+          "Grounds include active operations wrongly struck off, ownership of assets, compliance evidence, or public interest.",
+      },
+      {
+        question: "What are the benefits of reviving a struck-off company?",
+        answer:
+          "Restores legal status, enables recovery of dues, enforces liabilities, reinstates directors, allows filing overdue returns, and avoids further penalties.",
+      },
+      {
+        question: "Which documents are required to file an appeal for revival?",
+        answer:
+          "Key documents: petition (Form NCLT-9), ROC strike-off order, audited financials, affidavits, bank statements, MOA, Board resolution, and other evidence of operations.",
+      },
+      {
+        question:
+          "What is the legal procedure for reviving a struck-off company?",
+        answer:
+          "File appeal under Section 252 with NCLT, serve petition, attend hearing, obtain restoration order, file Form INC-28 and overdue filings with ROC.",
+      },
+      {
+        question: "What is the time limit to submit the NCLT order to the ROC?",
+        answer:
+          "Within 30 days of receipt of certified copy of the NCLT restoration order.",
+      },
+      {
+        question: "Is publication of the NCLT order necessary after revival?",
+        answer:
+          "Yes; ROC publishes order in Official Gazette and often local newspapers to notify restoration.",
+      },
+      {
+        question:
+          "How did the Companies Fresh Start Scheme, 2020 help in reviving struck-off companies?",
+        answer:
+          "CFSS-2020 waived additional fees for delayed filings and simplified revival under Section 252/Rule 87A, aiding restoration without heavy penalties.",
+      },
+    ],
+  },
+  "change-in-directors": {
+    title: "Change in Directors",
+    description:
+      "Complete guide to appointing, resigning, and removing directors under the Companies Act, 2013, including procedures, documents, timelines, and FAQs.",
+    overview: [
+      {
+        heading: "Overview of Change in Directors",
+        content:
+          "A company cannot act on its own and must function through its directors, who manage its affairs and decision‑making. Appointed under the Companies Act, 2013, directors steer daily operations, ensure legal compliance, drive profitability, and uphold transparency. Any addition, resignation, or removal of a director must be reported by filing Form DIR‑12 with the ROC within 30 days of the board or general meeting resolution.",
+      },
+      {
+        heading: "Meaning and Legal Definition of Director",
+        content:
+          "Under Section 2(13) of the Companies Act, 1956, a director is any individual performing the functions of a director, regardless of title. The AOA of a company lays down rules on appointment, roles, retirement, and remuneration to ensure directors act within a legal framework.",
+      },
+    ],
+    benefits: [],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Director Changes",
+        content:
+          "● Certified copy of board/shareholders’ resolution  \n● Consent letter of director (Form DIR‑2)  \n● DIR‑12 attachments: resolution CTC, consent letter, appointment letter  \n● DIR‑11 resignation letter (for resignations)  \n● Special notice (for removals)  \n● Form MGT‑14 attachments (where required)  \n● Proof of DIN application (Form DIR‑3)  \n● Any other ROC‑specified supporting documents",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Appointment of a Director",
+        content:
+          "1. Obtain DIN via Form DIR‑3.  \n2. Pass board resolution in a Board Meeting.  \n3. Issue 21‑day notice for general meeting.  \n4. Pass shareholders’ resolution at GM.  \n5. Issue appointment letter.  \n6. File Form DIR‑12 within 30 days.  \n7. File Form MGT‑14 (and MBP‑1) disclosing interest.",
+      },
+      {
+        heading: "Procedure for Resignation of a Director",
+        content:
+          "1. Director submits resignation letter.  \n2. Resignation effective on receipt or specified date.  \n3. Director files Form DIR‑11 with ROC.  \n4. Company passes board resolution acknowledging resignation.  \n5. Company files Form DIR‑12 within 30 days.",
+      },
+      {
+        heading: "Procedure for Removal of a Director",
+        content:
+          "1. Shareholders pass ordinary resolution at GM.  \n2. Special notice is given by proposer.  \n3. Circulate meeting notice 7 days before GM.  \n4. Director is heard before voting.  \n5. File Form MGT‑14 within 30 days with CTC of resolution.",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Corpbiz Support for Change in Directors",
+        description: [
+          "Our experts handle end‑to‑end ROC filings for director appointments, resignations, and removals, ensuring full compliance.",
+        ],
+        points: [
+          "Complete documentation and form preparation",
+          "On‑time ROC e‑filings (DIR‑3, DIR‑11, DIR‑12, MGT‑14)",
+          "Guidance on DIN, board/EGM notices, and resolutions",
+          "Support for complex board restructurings",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Can a company remove its director without consent?",
+        answer:
+          "Yes, under Section 169 of the Companies Act, 2013 shareholders can remove a director via ordinary resolution, after giving the director an opportunity to be heard.",
+      },
+      {
+        question: "Is resignation the same as removal?",
+        answer:
+          "No. Resignation is voluntary and filed via DIR‑11; removal is involuntary, initiated by shareholders, and filed via MGT‑14.",
+      },
+      {
+        question: "What form is required to notify a director’s appointment?",
+        answer:
+          "Form DIR‑12 must be filed within 30 days of the appointment resolution.",
+      },
+      {
+        question: "What is DIN?",
+        answer:
+          "Director Identification Number (DIN) is a unique ID allotted by MCA, mandatory for any director appointment.",
+      },
+      {
+        question: "Who can be appointed as a director?",
+        answer:
+          "Any individual of sound mind, solvent, not disqualified under the Act, and holding a valid DIN.",
+      },
+    ],
+  },
+  "change-in-llp-agreement": {
+    title: "Change in LLP Agreement",
+    description:
+      "Comprehensive guide to amending your LLP Agreement under the LLP Act, 2008, covering overview, common reasons, required documents, procedures, fees, and FAQs.",
+    overview: [
+      {
+        heading: "Overview of Change in LLP Agreement",
+        content:
+          "A Limited Liability Partnership (LLP) combines benefits of a company and a partnership: partners enjoy limited liability while operating under the LLP Act, 2008. Every LLP in India must register its formal LLP Agreement with the ROC, defining roles, responsibilities, and operational structure. As your business grows or shifts—whether in activities, capital, or partner roles—you may need to amend this foundational agreement by executing a supplementary deed signed by all partners and filing it with the ROC.",
+      },
+      {
+        heading: "Perpetual Existence and Flexibility",
+        content:
+          "Unlike traditional partnerships that dissolve on a partner’s exit or death, an LLP continues seamlessly. This perpetual existence gives LLPs the flexibility to adapt over time, making periodic amendments to their agreement essential for reflecting new business objectives, capital structures, or partner arrangements.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Common Reasons for Changing an LLP Agreement",
+        content:
+          "● Change in business activities or clauses  \n● Change in capital contribution and profit‑sharing ratio  \n● Modification of partner rights and duties  \n● Alteration of key legal clauses (jurisdiction, notice periods, LLP duration)",
+      },
+      {
+        heading: "Most Common Changes in an LLP",
+        content:
+          "● General amendments to operational or legal clauses  \n● Change in LLP name (rebranding)  \n● Change in business objectives or scope  \n● Change of registered office (within same state or across states)  \n● Addition, resignation, or removal of a partner  \n● Transmission of partner rights on death  \n● Change in profit and loss sharing ratio  \n● Complete sale or transfer of LLP ownership",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Change in LLP Agreement",
+        content:
+          "● PAN card of the LLP  \n● Certificate of Incorporation  \n● Original, amended & supplementary LLP Agreement  \n● Digital Signature Certificate (DSC) of an authorized partner  \n● Any other ROC‑specified supporting documents",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Making Changes in LLP Agreement",
+        content:
+          "1. Conduct a partner meeting and pass a resolution approving the amendments.  \n2. Authorize a designated partner for MCA filing.  \n3. Draft and execute the revised LLP Agreement or supplementary deed on appropriate stamp paper.  \n4. Obtain signatures of all partners and attestation by two witnesses.  \n5. File Form 3 with the ROC within 30 days of passing the resolution, attaching the updated agreement and supporting documents.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees and Stamp Duty",
+        description:
+          "Stamp duty varies by state and nature of changes. Ensure payment of applicable stamp duty on the supplementary deed before filing. ROC filing fees apply as per MCA schedule.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for LLP Agreement Amendment",
+        description: "Typical timelines for key steps:",
+        steps: [
+          {
+            title: "Partner Resolution & Agreement Execution",
+            duration: "1–2 weeks",
+            description: "Hold meeting, pass resolution, draft & execute deed.",
+          },
+          {
+            title: "Stamp Duty Payment",
+            duration: "Varies by state",
+            description: "Pay applicable stamp duty on executed deed.",
+          },
+          {
+            title: "ROC Filing (Form 3)",
+            duration: "Within 30 days of resolution",
+            description: "File online with supporting documents.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose CorpBiz for LLP Agreement Amendments",
+        description: [
+          "End‑to‑end assistance with drafting, execution, stamping, and ROC e‑filings to ensure seamless compliance.",
+        ],
+        points: [
+          "Expert guidance on LLP Act, 2008 requirements",
+          "Timely preparation and attestation of deeds",
+          "Accurate calculation and payment of stamp duty",
+          "On‑time Form 3 filing and follow‑up with ROC",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Supplementary LLP Agreement?",
+        answer:
+          "An additional deed recording amendments to the original LLP Agreement, signed by all partners and filed with ROC.",
+      },
+      {
+        question: "How long does an LLP Agreement change take?",
+        answer:
+          "Typically completed within 15–30 working days, depending on execution, stamp duty payment, and MCA approval.",
+      },
+      {
+        question: "Are LLP amendments visible online?",
+        answer:
+          "Yes. Once Form 3 is approved, the updated agreement details appear on the MCA portal.",
+      },
+      {
+        question: "What steps are required to update my LLP Agreement?",
+        answer:
+          "Pass a partners’ resolution, draft & execute supplementary deed, pay stamp duty, then file Form 3 within 30 days.",
+      },
+      {
+        question: "What changes can be made in an LLP Agreement?",
+        answer:
+          "Common changes include business activities, capital structure, partner composition, registered office, and legal clauses.",
+      },
+      {
+        question: "Is stamp duty payable on LLP amendments?",
+        answer:
+          "Yes. Stamp duty is applicable on the supplementary deed and varies by state and nature of changes.",
+      },
+    ],
+  },
 
+  "liquidation-of-a-company": {
+    title: "Liquidation of a Company – A Complete Overview",
+    description:
+      "End‑to‑end guide to company liquidation in India under the IBC, covering modes, liquidator roles, procedures, timelines, costs, impacts, and FAQs.",
+    overview: [
+      {
+        heading: "What is Liquidation of a Company?",
+        content:
+          "Liquidation is the legal process of closing down a company and distributing its assets to clear all liabilities. Triggered by insolvency, continuous losses, or voluntary decision, it marks the formal end of the company’s existence under Indian law, ensuring assets are converted to cash, creditors paid, and any surplus returned to shareholders.",
+      },
+      {
+        heading: "How Company Liquidation Works in India",
+        content:
+          "Governed by the Insolvency and Bankruptcy Code, 2016, liquidation can be voluntary (members’ or creditors’ voluntary liquidation) or compulsory (ordered by NCLT). The process involves asset valuation, sale, claims verification, and distribution in priority order, with oversight by an appointed liquidator.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Modes of Liquidation",
+        content:
+          "● Voluntary Liquidation – Initiated by members or creditors when the business opts to close operations.  \n● Compulsory Liquidation – Ordered by NCLT due to insolvency or failed resolution plan.",
+      },
+      {
+        heading: "Role of the Liquidator",
+        content:
+          "A liquidator—often the RP—oversees asset realization, settling creditor claims, distributing surplus to shareholders, and reporting to NCLT/IBC authorities.",
+      },
+    ],
+    documentsRequired: [],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Compulsory Liquidation",
+        content:
+          "1. Application to NCLT by financial/operational creditor for CIRP (default > ₹1 lakh).  \n2. NCLT appoints Interim Resolution Professional (IRP).  \n3. Moratorium halts operations and asset transfers.  \n4. IRP verifies claims and forms CoC within 30 days.  \n5. CoC appoints or confirms RP and drafts resolution plan (180‑day window).  \n6. NCLT sanctions plan or, if failed, passes liquidation order.  \n7. Liquidator takes control, sells assets, pays creditors, and distributes surplus.",
+      },
+      {
+        heading: "Procedure for Voluntary Liquidation",
+        content:
+          "1. Directors declare solvency affidavit (MVL) or insolvency triggers CVL.  \n2. Board approves liquidation and calls GM.  \n3. Special resolution in GM to wind up and appoint liquidator.  \n4. Liquidator advertises in newspapers, invites claims.  \n5. Assets realized and claims settled within 12 months.  \n6. Liquidator files final report and applies to NCLT for dissolution.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Liquidation Costs and Fees",
+        description:
+          "IBBI regulations prescribe liquidator remuneration and process fees as a percentage of assets realized, decreasing over the course of liquidation.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeframe for Liquidation",
+        description: "Overall duration varies by complexity and mode:",
+        steps: [
+          {
+            title: "Compulsory Liquidation",
+            duration: "Several months to 2 years",
+            description:
+              "Dependent on resolution process, creditor claims, and NCLT orders.",
+          },
+          {
+            title: "Voluntary Liquidation",
+            duration: "Up to 12 months",
+            description:
+              "From declaration of solvency/insolvency to NCLT dissolution order.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust CorpBiz for Company Liquidation?",
+        description: [
+          "Our team offers expert guidance, tailored solutions, and comprehensive handling of legal, financial, and regulatory aspects to ensure a smooth, compliant liquidation.",
+        ],
+        points: [
+          "Experienced professionals in IBC and company law",
+          "Customized voluntary and compulsory liquidation support",
+          "Transparent communication and regular updates",
+          "Post‑liquidation assistance for complete closure",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What happens when liquidating a company?",
+        answer:
+          "Assets are sold, creditors paid in priority, surplus (if any) goes to shareholders, and the company is dissolved from the registry.",
+      },
+      {
+        question: "Is liquidation good or bad?",
+        answer:
+          "Liquidation is a neutral legal process; voluntary liquidation may be strategic, while compulsory liquidation follows insolvency.",
+      },
+      {
+        question: "What happens to directors during liquidation?",
+        answer:
+          "Directors lose control; they must cooperate with the liquidator and may face personal liability for wrongful acts.",
+      },
+      {
+        question: "How long does liquidation take in India?",
+        answer:
+          "Voluntary liquidation can finish within 12 months; compulsory liquidation may extend up to two years depending on complexity.",
+      },
+      {
+        question: "Who benefits from liquidation?",
+        answer:
+          "Creditors benefit first; shareholders receive any remaining funds only after debts are fully paid.",
+      },
+      {
+        question:
+          "What is the difference between voluntary and compulsory liquidation?",
+        answer:
+          "Voluntary is member/creditor‑initiated (MVL/CVL), compulsory is NCLT‑ordered following insolvency or failed resolution.",
+      },
+      {
+        question: "What is the role of the liquidator?",
+        answer:
+          "The liquidator manages asset sales, settles claims, distributes funds, and reports to NCLT/IBC authorities.",
+      },
+      {
+        question: "Can shareholders get money back?",
+        answer:
+          "Only if surplus remains after all creditor claims are settled; distribution depends on share class and remaining assets.",
+      },
+      {
+        question: "What’s the difference between insolvency and liquidation?",
+        answer:
+          "Insolvency is inability to pay debts; liquidation is the formal process of selling assets and winding up the company.",
+      },
+    ],
+  },
 
+  "agr-return-filing": {
+    title: "AGR Return Filing – A Complete Overview",
+    description:
+      "End‑to‑end guide to filing Adjusted Gross Revenue returns with the DoT’s SARAS portal, covering definitions, dispute history, filing requirements, process steps, and expert support.",
+    overview: [
+      {
+        heading: "Overview of AGR Return Filing",
+        content:
+          "Adjusted Gross Revenue (AGR) is the total revenue earned by telecom operators—including user charges and licensing fees—mandated under Section 4 of the Indian Telegraph Act. All license‑holders must file detailed AGR returns with the Controller of Communication Accounts (CCA) under the DoT to ensure regulatory compliance.",
+      },
+      {
+        heading: "Conflict Surrounding AGR Filing",
+        content:
+          "A dispute arose when DoT included non‑telecom revenues in AGR while operators argued only core telecom income should count. The Supreme Court’s 2019 ruling sided with DoT’s broader view, but a 2021 review judgment prospectively excluded non‑telecom income from AGR calculations.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Who Must File AGR Returns?",
+        content:
+          "● UL‑VNO (Virtual Network Operators)  \n● UL‑ISP (Internet Service Providers)  \n● UL‑ACS (Access Services Category B)  \n● NLD (National Long Distance) Operators  \n● ILD (International Long Distance) Operators",
+      },
+      {
+        heading: "Key Components of Adjusted Gross Revenue",
+        content:
+          "1. Entry Fee: one‑time, non‑refundable payment (capped at ₹15 crores).  \n2. Annual License Fee: 8% of AGR in year 1 (including 5% USO levy), minimum 10% of entry fee thereafter.  \n3. Spectrum Usage Charges (SUC): weighted average charge based on spectrum holdings (600 MHz–26 GHz).",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for AGR Return Filing",
+        content:
+          "● Authorization letter for company representative  \n● Certificate of Incorporation  \n● Copy of the Telecom License  \n● Audited Statement of Revenue  \n● Audit Report  \n● Copy of Books of Accounts",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Process to File AGR Returns",
+        content:
+          "1. Access the SARAS Portal and log in.  \n2. Fill AGR return details in line with DoT guidelines.  \n3. Upload supporting documents (PDFs) and financial data (.xls).  \n4. Download and print the submission for records.  \n5. Review and submit the AGR return.  \n6. Save the portal‑generated submission receipt as proof.",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Corpbiz’s End‑to‑End AGR Return Filing Services",
+        description: [
+          "Precise AGR liability calculation to minimize compliance risk.",
+          "Error‑free return preparation and submission.",
+          "Comprehensive document management and uploads.",
+          "Proactive liaison with the DoT for status updates.",
+          "Secure and prompt SARAS portal filing confirmation.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "How is the license fee for telecom operators calculated?",
+        answer:
+          "8% of AGR in the first year (including 5% USO levy), and a minimum of 10% of the entry fee from the second year onward, based on service area.",
+      },
+      {
+        question: "What file formats are accepted on the SARAS portal?",
+        answer:
+          "PDF for textual documents and .xls for financial or tabulated data.",
+      },
+      {
+        question: "Which operators must file AGR returns?",
+        answer: "UL‑VNO, UL‑ISP, UL‑ACS, NLD, and ILD license‑holders.",
+      },
+      {
+        question: "What are the main components of AGR?",
+        answer: "Entry Fee, Annual License Fee, and Spectrum Usage Charges.",
+      },
+      {
+        question: "What was the AGR dispute in India about?",
+        answer:
+          "Whether AGR should include non‑telecom revenues; Supreme Court 2019 ruling included them, 2021 review excluded non‑telecom income prospectively.",
+      },
+      {
+        question: "What happens if I don’t file an AGR return?",
+        answer:
+          "Late filing attracts heavy penalties, interest on dues, and potential suspension or cancellation of telecom licenses.",
+      },
+    ],
+  },
+
+  "form-aoc-4": {
+    title: "Form AOC-4 – A Complete Overview",
+    description:
+      "End‑to‑end guide to annual financial statement filing under the Companies Act, 2013 using Form AOC‑4 (and AOC‑4 CFS/XBRL), covering eligibility, deadlines, benefits, procedures, fees, penalties, and FAQs.",
+    overview: [
+      {
+        heading: "Overview of Form AOC-4",
+        content:
+          "Every company registered in India must file its financial statements with the RoC annually using Form AOC‑4 within 30 days of the AGM. It includes the financial statements, Board’s Report, Auditor’s Report and necessary disclosures to ensure transparency and accountability. Companies preparing consolidated statements file Form AOC‑4 CFS.",
+      },
+      {
+        heading: "Eligibility and Filing Requirements",
+        content:
+          "All companies under the Companies Act, 2013 must file AOC‑4. Those with consolidated statements use AOC‑4 CFS. Companies covered by Section 135(1) must attach CSR‑2 with AOC‑4 or AOC‑4 XBRL by March 1. XBRL filing is mandatory for listed companies, companies with paid‑up capital ≥ ₹2 crore, turnover ≥ ₹100 crore, or those following Ind AS.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Filing Form AOC‑4",
+        content:
+          "● Transparency of financial health through audited statements  \n● Effective communication with shareholders via Board’s and Auditor’s Reports  \n● Informed decision‑making by investors, lenders, and regulators",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Filing AOC‑4",
+        content:
+          "● Audited financial statements (Balance Sheet & P&L)  \n● Board’s Report  \n● Auditor’s Report  \n● CSR Report (if applicable)  \n● Statement of Subsidiaries (if any)  \n● Notes to Accounts  \n● Other disclosures as required",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Filing Procedure",
+        content:
+          "1. Pre‑fill company CIN and details on MCA portal.  \n2. Enter financial year dates and approval dates for Board’s and Auditor’s Reports.  \n3. Provide AGM details or reasons if not held.  \n4. Attach required documents (PDF/XBRL).  \n5. Review, digitally sign by authorized signatories (Director/CFO/CS/CA).  \n6. Submit within 30 days of AGM (180 days for OPCs).  \n7. Retain filing acknowledgement for records.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "AOC‑4 Filing Fees",
+        description:
+          "Government filing fee varies by authorised share capital:",
+        feeTable: [
+          {
+            category: "Less than ₹1,00,000",
+            amount: "₹200",
+          },
+          {
+            category: "₹1,00,000 to ₹4,99,999",
+            amount: "₹300",
+          },
+          {
+            category: "₹5,00,000 to ₹24,99,999",
+            amount: "₹400",
+          },
+          {
+            category: "₹25,00,000 to ₹99,99,999",
+            amount: "₹500",
+          },
+          {
+            category: "₹1,00,00,000 or more",
+            amount: "₹600",
+          },
+          {
+            category: "Company without share capital",
+            amount: "₹200",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Form AOC‑4 Due Dates for FY 2022–23",
+        description:
+          "Must be filed within 30 days of AGM; for OPCs within 180 days of FY end.",
+        steps: [
+          {
+            title: "AGM held by September 30, 2023",
+            duration: "Due by October 29, 2023",
+            description: "Standard due date within 30 days of AGM",
+          },
+          {
+            title: "OPC deadline",
+            duration: "180 days from FY end",
+            description: "Calculated as 180 days from March 31",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose CorpBiz for AOC‑4 Filing",
+        description: [
+          "Accurate pre‑fill and data entry to avoid portal errors.",
+          "Comprehensive document compilation and XBRL tagging.",
+          "Timely digital signing and submission within deadlines.",
+          "End‑to‑end support for CSR‑2, AOC‑4 CFS and XBRL filings.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Form AOC‑4?",
+        answer:
+          "Form AOC‑4 is the annual e‑form to file a company’s financial statements, Board’s Report and Auditor’s Report with the MCA under the Companies Act, 2013.",
+      },
+      {
+        question: "Who must file AOC‑4?",
+        answer:
+          "All private, public and OPCs in India. Companies with consolidated statements use AOC‑4 CFS. XBRL filing is required for specified capital, turnover or listed status.",
+      },
+      {
+        question: "What is the penalty for late filing?",
+        answer:
+          "₹100 per day until filing, plus multiplied fees for specified delays (up to 12× standard fee). Directors may face prosecution for severe delays.",
+      },
+      {
+        question: "Is CA certification mandatory?",
+        answer:
+          "Yes. The form must be certified and digitally signed by a practicing CA, CS or Cost Accountant with membership number and designation.",
+      },
+      {
+        question: "What is the due date for filing?",
+        answer:
+          "Within 30 days of the AGM; OPCs have 180 days from the end of the financial year.",
+      },
+      {
+        question: "How does AOC‑4 differ from MGT‑7?",
+        answer:
+          "AOC‑4 files financial statements; MGT‑7 files the annual return detailing shareholding, directors and other statutory information.",
+      },
+    ],
+  },
+
+  "shop-and-establishment-license": {
+    title:
+      "Shop and Establishment License – An Essential Business Registration in India",
+    description:
+      "Mandatory registration under the Shop and Establishment Act for shops, commercial establishments, restaurants, offices and other workplaces, ensuring regulated work conditions and employee protections across India.",
+    overview: [
+      {
+        heading: "Overview of Shop and Establishment License",
+        content:
+          "The Shop and Establishment License regulates working conditions, wages, holidays and employee rights in shops, cafes, restaurants, offices and other establishments under the respective State Shop and Establishment Acts. While the core provisions are uniform, specific rules vary by state.",
+      },
+      {
+        heading: "Applicability",
+        content:
+          'An "establishment" includes shops, commercial establishments, residential hotels, restaurants, theatres, warehouses and any other entity defined by the State Government. A "shop" covers premises where goods are sold or services provided, including godowns and non‑factory workplaces.',
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Obtaining a Shop and Establishment License",
+        content:
+          "1. Legal Recognition: Grants your business a formal legal identity.\n2. Business Address Proof: Validates your establishment’s address for regulatory use.\n3. Bank Account Opening: Required by banks to open current accounts in the business name.\n4. Investment & Funding: Enhances credibility for loans and investor funding.\n5. Access to Government Schemes: Enables eligibility for state and central incentives.\n6. Quick Online Process: Many states offer fully digital registration for faster compliance.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Shop and Establishment License",
+        content:
+          "Basic Documents:\n● Employer identity proof (Aadhar, PAN, Voter ID, Driving License)\n● Employer passport‑size photo\n● Cancelled cheque or bank statement with notarized affidavit\n● Photograph of premises\n● Rent agreement or utility bill (electricity/water/property tax)\n\nAdditional (By Entity Type):\n● Companies: Certificate of Incorporation, MOA & AOA\n● Partnership: Partnership Deed with partner details\n● Trusts: List of trustees\n● Co‑operative Societies: List of members & chairman details",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Offline Registration Procedure",
+        content:
+          "1. Submit prescribed application form to Chief Inspector of Labour within 30 days of starting operations, including employer name, establishment address, category and employee count.\n2. Inspector verifies and issues the License certificate for display at premises.\n3. Notify Chief Inspector in writing 15 days prior to permanent closure to cancel the registration.",
+      },
+      {
+        heading: "Online Registration Procedure",
+        content:
+          "1. Visit the state Labour Department portal and register with email/mobile.\n2. Create establishment profile: business name, employer details, employee count, address, PAN.\n3. Fill Shop & Establishment Registration – Form A and upload all supporting documents.\n4. Pay online registration fees via portal.\n5. Track application status under “Under Scrutiny.”\n6. Download the e‑License once approved.",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading:
+          "CorpBiz Process for Securing a Shop and Establishment License",
+        description: [
+          "Select a service plan and connect with our experts.",
+          "Share your business details and specific requirements.",
+          "Upload required documents securely via our platform.",
+          "We prepare and verify your application for eligibility.",
+          "We handle filing, inspections and liaison with the labour department.",
+          "Receive your digital or physical License delivered to your doorstep.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Is it necessary to obtain approval from the Labour Department?",
+        answer:
+          "Yes. All eligible businesses must register under the Shop and Establishment Act with the state Labour Department within 30 days of commencing operations.",
+      },
+      {
+        question: "What records must be maintained under the Act?",
+        answer:
+          "Employers must keep registers of employee attendance, wages, leaves, working hours, deductions, fines, and any inspection reports or notices.",
+      },
+      {
+        question: "When should employee information be submitted?",
+        answer:
+          "Employee details (joining date, wages, hours, designation) must be provided at registration and updated whenever changes occur, as per state rules.",
+      },
+      {
+        question:
+          "What is the due date for Shop and Establishment registration?",
+        answer:
+          "Registration must be completed within 30 days of starting any commercial operation.",
+      },
+      {
+        question: "What is the purpose of the License?",
+        answer:
+          "To ensure fair working conditions, compliance with labour laws, workplace safety, hygiene and employee welfare standards.",
+      },
+      {
+        question: "Is self‑registration mandatory?",
+        answer:
+          "Yes. Business owners must register online via the state labour portal or offline at the local labour office, per state regulations.",
+      },
+      {
+        question:
+          "What accounting records should be maintained post‑registration?",
+        answer:
+          "Maintain sales and purchase registers, tax invoices, salary and wage reports, utility bills, rental agreements and audit reports if applicable.",
+      },
+      {
+        question: "What key points to remember when registering?",
+        answer:
+          "Register within 30 days; gather all documents; understand state‑specific rules; prominently display the license; renew periodically.",
+      },
+      {
+        question: "What is the fundamental objective of the Act?",
+        answer:
+          "To regulate working hours, holidays, wages and safety, ensuring proper employee rights and workplace standards.",
+      },
+      {
+        question: "What is the difference between a shop and an establishment?",
+        answer:
+          "A shop is a premises where goods/services are offered. An establishment includes shops as well as offices, warehouses, restaurants, theatres and other commercial entities.",
+      },
+    ],
+  },
+
+  "trade-license": {
+    title: "Trade License – A Complete Overview",
+    description:
+      "A trade license is an official permit issued by local municipal authorities in India, granting businesses permission to operate specified activities within a designated jurisdiction. It ensures compliance with safety, health, zoning and regulatory standards.",
+    overview: [
+      {
+        heading: "What is a Trade License?",
+        content:
+          "A trade license grants permission to operate a specific type of business within a municipal area, safeguarding public health and regulating potentially hazardous activities. It is activity–specific and issued by the local municipal corporation.",
+      },
+      {
+        heading: "Why is a Trade License Required?",
+        content:
+          "Trade licenses ensure businesses operate within legal boundaries, prevent unfair practices, promote healthy competition, and enforce safety and hygiene standards to protect the community.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Objectives of a Trade License",
+        content:
+          "1. Regulatory Oversight: Monitors business activities within legal framework.  \n2. Prevention of Unfair Practices: Promotes fair competition.  \n3. Statutory Compliance: Ensures adherence to laws and reduces legal risks.  \n4. Public Health & Safety: Controls hazardous operations and enforces hygiene standards.",
+      },
+      {
+        heading: "Benefits of Trade License Registration",
+        content:
+          "1. Legal Protection & Recognition: Grants legal status and shields from penalties.  \n2. Financial Credibility & Loan Access: Improves eligibility for funding.  \n3. Customer Trust: Demonstrates compliance and safety commitment.  \n4. Business Growth: Enables partnerships, expansions and government contracts.  \n5. Environmental Compliance: Ensures adherence to safety and pollution norms.  \n6. Tax Benefits: Makes businesses eligible for local and central incentives.  \n7. Continuity & Stability: Prevents legal disruptions.  \n8. Access to Schemes & Subsidies: Unlocks government support programs.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Trade License Application",
+        content:
+          "● Proof of Identity & Business Address (Aadhar, PAN, Driving License)  \n● Certificate of Incorporation, MOA & AOA (for companies)  \n● Partnership Deed (for firms)  \n● Trust Deed (for trusts)  \n● Property Ownership Documents or Lease Agreement & NOC  \n● Cancelled Cheque & Bank Statement  \n● NOC from Adjacent Businesses  \n● NOC from Pollution Control Board & Fire Department  \n● Certified Layout/Setup Plan of Premises  \n● Khata Certificate (where applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Online Application Process",
+        content:
+          "1. Register on municipal corporation portal.  \n2. Fill trade license form with business and owner details.  \n3. Upload required documents.  \n4. Pay application fee online.  \n5. Track application using unique number.  \n6. Undergo site inspection if required.  \n7. Download approved license certificate.",
+      },
+      {
+        heading: "Offline Application Process",
+        content:
+          "1. Visit local municipal office within 30 days of starting business.  \n2. Obtain and fill prescribed application form.  \n3. Submit form with supporting documents.  \n4. Receive unique application number.  \n5. Pay license fee at designated counter.  \n6. Undergo site inspection if required.  \n7. Collect physical or digital license upon approval.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Trade License Registration Fees",
+        description:
+          "Fees vary by municipal corporation based on:  \n1. Type of Business  \n2. Location (metro vs rural)  \n3. Premises Size  \n4. Estimated Annual Revenue",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing Time",
+        description: "License issuance time varies by region:",
+        steps: [
+          {
+            title: "Metro & Urban Areas",
+            duration: "7–15 working days",
+            description: "",
+          },
+          {
+            title: "Semi‑Urban & Rural Areas",
+            duration: "30–40 working days",
+            description: "",
+          },
+        ],
+      },
+      {
+        heading: "Renewal Timeline",
+        description:
+          "Renew annually 30 days before expiry; renewal window typically January–March.",
+        steps: [],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose CorpBiz for Trade License Services",
+        description: [
+          "10+ years of experience and 99% success rate",
+          "End‑to‑end support: registration, renewal & compliance",
+          "Fast filing and expert legal & financial advice",
+          "24×7 customer support and post‑registration assistance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Trade License?",
+        answer:
+          "A trade license is a certificate issued by municipal corporations or local authorities that permits a business to operate legally within a specific jurisdiction in India.",
+      },
+      {
+        question: "What is the purpose of a Trade License?",
+        answer:
+          "To ensure that businesses comply with safety, health, and legal standards, protecting the community and ensuring fair market practices.",
+      },
+      {
+        question: "What are the different types of Trade Licenses in India?",
+        answer:
+          "Common types include Shop License, Industrial License, Food Establishment License, Healthcare License, Fire Safety Certificate, Occupation License, Pet Shop License, and Event Management License.",
+      },
+      {
+        question: "Who needs to obtain a Trade License online?",
+        answer:
+          "Any individual or entity starting a business—including retail, restaurants, factories, hospitals, educational institutes, and entertainment venues—must obtain a trade license.",
+      },
+      {
+        question: "Which authority issues Trade Licenses?",
+        answer:
+          "The Licensing Department of the respective Municipal Corporation in each state issues trade licenses.",
+      },
+      {
+        question: "What are the eligibility criteria for a Trade License?",
+        answer:
+          "Applicants must be at least 18 years old, operate legally, have no criminal convictions, and have premises in a commercially designated area.",
+      },
+      {
+        question: "What documents are required for Trade License registration?",
+        answer:
+          "ID & address proof, PAN, incorporation/deed documents, bank details, property ownership or lease agreements with NOC, pollution and fire NOCs, layout plan, and Khata certificate as applicable.",
+      },
+      {
+        question: "What is the online application process?",
+        answer:
+          "Register on the municipal portal, fill application form, upload documents, pay fees, track status, undergo inspection, and download license.",
+      },
+      {
+        question: "What is the offline application process?",
+        answer:
+          "Submit a physical form with documents at the municipal office, receive application number, pay fees, undergo inspection, and collect license.",
+      },
+      {
+        question: "How much does a Trade License cost?",
+        answer:
+          "Fees depend on business type, location, premises size, and estimated revenue, as determined by the municipal corporation.",
+      },
+      {
+        question: "How long does processing take?",
+        answer:
+          "7–15 working days in metro/urban areas; up to 30–40 working days in semi‑urban/rural areas.",
+      },
+      {
+        question: "How do I download my Trade License certificate?",
+        answer:
+          "Log into the municipal portal, navigate to the trade license section, enter your application ID or license number, and download the certificate.",
+      },
+      {
+        question: "How can I renew my Trade License?",
+        answer:
+          "Log into the municipal portal, select renewal, upload requisite documents, pay renewal fee, and download the renewed license.",
+      },
+      {
+        question: "Can a Trade License be transferred?",
+        answer:
+          "No. Trade licenses are non‑transferable; a new license must be applied for if ownership changes.",
+      },
+      {
+        question: "What happens if I operate without a Trade License?",
+        answer:
+          "You may face fines, penalties, or closure orders from municipal authorities.",
+      },
+      {
+        question: "Can I modify details on my Trade License?",
+        answer:
+          "Yes, by submitting an application with updated documents to the municipal corporation.",
+      },
+      {
+        question: "What if my application is rejected?",
+        answer:
+          "You will receive reasons for rejection, after which you can rectify issues and reapply.",
+      },
+      {
+        question: "Can I cancel my Trade License if I close my business?",
+        answer:
+          "Yes, by submitting proof of business closure to the municipal corporation for cancellation.",
+      },
+      {
+        question: "What records should be maintained post‑registration?",
+        answer:
+          "Maintain attendance, wage registers, tax invoices, utility bills, maintenance logs, and any inspection reports.",
+      },
+      {
+        question: "What is the validity of a Trade License?",
+        answer:
+          "Typically valid for one year; must be renewed annually to remain valid.",
+      },
+    ],
+  },
+
+  "music-license": {
+    title: "Music License – A Complete Overview",
+    description:
+      "A music license grants legal permission to play recorded or live music in public/commercial spaces under the Copyright Act, 1957, ensuring proper royalty payments to composers, artists, and producers.",
+    overview: [
+      {
+        heading: "What is a Music License and Why is it Important?",
+        content:
+          "Playing music in public spaces—cafés, restaurants, hotels, bars, retail stores—requires a valid music license to avoid copyright infringement. PPL issues licenses for recorded music, while IPRS licenses live performances. Section 2(p) of the Act defines musical works as compositions (excluding lyrics unless set to music).",
+      },
+      {
+        heading: "Who Needs a Music License?",
+        content:
+          "Any venue playing music publicly for commercial purposes must obtain a license. This includes cafés, restaurants, hotels, pubs, clubs, malls, cinemas, sports stadiums, corporate events, product launches, airlines, and other transport providers.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Types of Music Licenses and Their Uses",
+        content:
+          "1. Public Performance License  \n2. Synchronization License  \n3. Master License  \n4. Mechanical License  \n5. Print Rights License  \n6. Theatrical License  \nEach defines scope, duration, and permitted uses—public performances, sync with visuals, reproduction, sheet music, live theatrical productions.",
+      },
+      {
+        heading: "Key Benefits of Obtaining a Music License in India",
+        content:
+          "1. Legal Compliance: Avoids fines, penalties and prosecution.  \n2. Brand Reputation: Enhances credibility and ambiance.  \n3. Customer Engagement: Attracts patrons with live or background music.  \n4. Artist Support: Ensures composers and performers receive royalties.  \n5. Business Opportunities: Opens doors to events and promotions.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to Obtain a Music License",
+        content:
+          "● Applicant’s PAN and Aadhaar Card  \n● Business registration certificate (Incorporation/MOA/LLP agreement)  \n● GST registration certificate  \n● Proof of premises (utility bill, lease deed, NOC)  \n● Details of music usage (live, recorded, streaming)  \n● Venue specifications (area in sq. meters, seating capacity)  \n● KYC documents of authorized signatory",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Process to File for a Music License",
+        content:
+          "1. Visit the IPRS or PPL portal.  \n2. Select your license category (public performance, sync, mechanical, etc.).  \n3. Create an account with applicant and GST/PAN details.  \n4. Submit business and music‑usage information (premises, hours, devices).  \n5. Review applicable tariff and terms on the portal.  \n6. Verify via OTP sent to registered mobile/email.  \n7. Pay the licensing fee online.  \n8. Download the issued license certificate.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Music License Fees in India",
+        description:
+          "Fees vary based on premises type, size, usage hours and location. Royalties are collected by IPRS, PPL or ISRA and distributed to rights holders.",
+        feeTable: [
+          {
+            category: "IPRS Live Performance License (Metro)",
+            amount: "₹10,000 per year",
+          },
+          {
+            category: "IPRS Live Performance License (Non‑Metro)",
+            amount: "₹5,000 per year",
+          },
+          {
+            category: "Public Performance in Retail Stores",
+            amount: "₹2,500 per 5,000 sq. ft.",
+          },
+          {
+            category: "Minimum Royalty via ISRA",
+            amount: "₹3,650 per annum",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How CorpBiz Helps You Obtain a Music License",
+        description: [
+          "Choose a tailored service plan and consult our experts.",
+          "Submit queries and receive prompt guidance on license types and fees.",
+          "Upload and organize all required documents securely.",
+          "We prepare and file your application with IPRS or PPL.",
+          "Conduct preliminary eligibility screening and tariff evaluation.",
+          "Handle all procedural formalities and follow‑ups with licensing bodies.",
+          "Receive your music license certificate at your doorstep.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is IPRS?",
+        answer:
+          "IPRS (Indian Performing Rights Society) is a copyright society that licenses live performances and musical compositions, ensuring creators receive royalties.",
+      },
+      {
+        question: "How do I get permission to use copyrighted music in India?",
+        answer:
+          "Obtain a license from IPRS for live performances or PPL for recorded music by applying online, submitting documents, and paying fees.",
+      },
+      {
+        question: "Is PPL legal in India?",
+        answer:
+          "Yes. PPL (Phonographic Performance Limited) is a recognized copyright society issuing licenses for pre‑recorded music.",
+      },
+      {
+        question: "What are the categories of Music License?",
+        answer:
+          "Public Performance, Synchronization, Mechanical, Broadcasting, Interactive/Non‑Interactive Streaming, Print Rights, Master and Theatrical Licenses.",
+      },
+      {
+        question: "What documents are required for a Music License?",
+        answer:
+          "PAN, Aadhaar, GST certificate, business registration, proof of premises, music usage details, and KYC of the authorized signatory.",
+      },
+      {
+        question: "What factors determine Music License fees?",
+        answer:
+          "Premises type, streaming hours, number of songs, venue size/capacity, and business category influence the fees.",
+      },
+      {
+        question: "What is the penalty for not obtaining a music license?",
+        answer:
+          "Interest up to 30% p.a. on unpaid fees, penal charges up to ₹2 lakh from PPL/IPRS, and imprisonment (6 months–3 years) plus fines (₹50,000–₹2 lakh) under Section 63 of the Copyright Act.",
+      },
+      {
+        question: "Who can obtain a Music License?",
+        answer:
+          "Any business or individual playing music publicly—restaurants, event organizers, retail stores, hotels, radio/TV stations—must obtain a license.",
+      },
+      {
+        question: "What is a Theatrical License?",
+        answer:
+          "A license for live stage performances of copyrighted musical works in dramas, musicals or plays.",
+      },
+      {
+        question: "What are the benefits of a Music License?",
+        answer:
+          "Ensures legal compliance, protects against penalties, enhances brand image, boosts customer engagement and supports artists.",
+      },
+    ],
+  },
+
+  "health-trade-license": {
+    title: "Health Trade License – An Overview",
+    description:
+      "Mandatory permit for businesses dealing in goods or services impacting public health. Ensures compliance with hygiene and safety standards under municipal regulations.",
+    overview: [
+      {
+        heading: "Types of Health Trade Licenses",
+        content:
+          "1. Health Care License: Issued by State Municipal Corporation for healthcare sector entities.  \n2. Health Trade License: Required for establishments trading products or services that affect consumer health—restaurants, cafes, salons, gyms, laundries, cinemas, service stations and general stores.",
+      },
+      {
+        heading: "Objective",
+        content:
+          "Safeguard public health by regulating establishments dealing with food, drugs and health‑related services. Applicants must be ≥18 years old with a clean criminal record.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Obtaining a Health Trade License",
+        content:
+          "● Promotes Hygiene & Safety: Establishes structured cleanliness and safety protocols.  \n● Enhances Credibility: Signals professionalism and regulatory compliance.  \n● Builds Consumer Trust: Assures customers of health standards.  \n● Boosts Visibility: Licensed businesses gain recognition.  \n● Attracts Investors: Reduces legal risk and indicates transparency.",
+      },
+      {
+        heading: "Features of a Health Trade License",
+        content:
+          "● Municipal Approval: Authorizes lawful operations within jurisdiction.  \n● Simplifies Other Licenses: Facilitates subsequent registrations.  \n● Fundamental Business Permit: Primary document for health‑impact businesses.  \n● Limits Liability: Protects owners from penalties.  \n● Enforces Guidelines: Mandates adherence to local health regulations.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Health Trade License",
+        content:
+          "● Proof of Payment (tax/dues receipts)  \n● PAN/TAN Card  \n● Site Sanction Plan (approved layout)  \n● Premises Layout Plan  \n● Ownership Proof or Lease Agreement  \n● Utility Bills (electricity, water)  \n● Medical Certificate for applicant/staff  \n● Self‑Declaration of compliance  \n● NOC from Police and/or Fire Department  \n● Water Testing Report  \n● List of Ancillary Commodities  \n● Sewer Connection Proof",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Obtain Health Trade License",
+        content:
+          "1. Access municipal corporation portal and complete application form.  \n2. Upload required documents.  \n3. Pay government fees online.  \n4. Authorities verify premises and documents.  \n5. License is issued upon successful verification.",
+      },
+      {
+        heading: "Renewal Procedure & Penalties",
+        content:
+          "Renew at least 30 days before expiry via portal: upload existing license, ID proof, tax receipts and pay renewal fee. Late renewal invites fines or business closure.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Health Trade License Fees",
+        description:
+          "Fees determined by municipal corporation based on business type, location, premises size and risk category.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing & Renewal Timeline",
+        description:
+          "Initial issuance and renewal typically processed within 15–30 working days, varying by municipality.",
+        steps: [],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Corpbiz Services for Health Trade License",
+        description: [
+          "Select a plan and get personalized guidance.",
+          "Submit queries and required documents securely.",
+          "Application preparation and eligibility review.",
+          "End‑to‑end handling of procedural formalities.",
+          "License delivered to your doorstep.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the verification process for application?",
+        answer:
+          "After online submission, municipal authorities review documents and conduct a premises inspection before granting the license.",
+      },
+      {
+        question: "How can I submit the license fee?",
+        answer:
+          "Online via portal payment gateway (net banking, cards, UPI) or offline at designated municipal counters.",
+      },
+      {
+        question: "Can the license be revoked?",
+        answer:
+          "Yes, authorities may suspend or revoke for violations, hygiene lapses or false application information.",
+      },
+      {
+        question: "Is a Health Trade License mandatory for food businesses?",
+        answer:
+          "Yes. Restaurants, cafes, food stalls and medicine shops must obtain a Health Trade License before operations.",
+      },
+      {
+        question: "Who issues the Health Trade License?",
+        answer:
+          "The Municipal Corporation or Local Civic Body of the respective state or city.",
+      },
+      {
+        question: "Why is the license important?",
+        answer:
+          "Ensures compliance with public health norms, builds trust, avoids penalties and enables lawful operations.",
+      },
+    ],
+  },
+
+  "factory-license": {
+    title: "Factory License – An Overview",
+    description:
+      "Mandatory registration under the Factories Act, 1948 for manufacturing premises to ensure compliance with worker safety, health and welfare standards.",
+    overview: [
+      {
+        heading: "Factories Act, 1948",
+        content:
+          "Every factory employing 10+ workers with power or 20+ workers without power must register under the Act. Factories are classified as hazardous or non‑hazardous based on processes and risk to health, life or environment. Building plan approval from the Labour Department is required before licensing.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Obtaining a Factory License",
+        content:
+          "1. Ensures Employee Safety & Welfare: Mandates safety measures, healthy conditions and welfare provisions.  \n2. Special Provisions: Covers women, young persons, wages, hours, shifts and general working conditions.  \n3. Access to Benefits: Eligible for government schemes and legal protections.  \n4. Boosts Productivity: Improves morale through fair practices.  \n5. Regulates Employment Matters: Governs hours, overtime, leaves, recruitment, termination, and juvenile employment.  \n6. Promotes Equality: Ensures equal rights and benefits for all employees.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Factory License Registration",
+        content:
+          "● Form‑1: Details of factory rooms  \n● Approved factory building plan  \n● Applicant’s ID & address proof  \n● List of company directors  \n● MOA, AOA & board resolution (or partnership deed)  \n● Bank account details  \n● Proposed commencement date  \n● License fee payment receipts  \n● Land ownership or lease deeds with NOC  \n● Local authority consents  \n● Machinery & equipment details  \n● Hazardous/non‑hazardous waste info  \n● Raw material, by‑products, process flow chart  \n● Latest property/land tax receipt",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Factory License Registration",
+        content:
+          "1. Obtain approval of building plan from State Labour Dept or Chief Inspector.  \n2. Submit application (Form‑1) with factory details: process, workforce, owner/manager names, machinery.  \n3. Pay prescribed license fees.  \n4. Undergo site inspection if required.  \n5. Receive Factory License from Dept of Factories & Boilers upon verification.",
+      },
+      {
+        heading: "Renewal Process & Penalties",
+        content:
+          "Renew annually before expiry using Form‑4 (renewal) and Form‑4B (annual return) with fee challan. Late renewal incurs 10% fee penalty per month of delay.",
+      },
+      {
+        heading: "Voluntary Suspension of License",
+        content:
+          "1. Apply in writing for suspension with reasons.  \n2. Attach supporting documents and worker list with settlements.  \n3. Dept reviews application, inspects premises and suspends or cancels license.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Factory License Fees",
+        description:
+          "Fees vary by state rules, factory size, workforce and hazard classification.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing & Renewal Timeline",
+        description:
+          "Initial licensing and renewal generally completed within 15–30 working days, subject to inspection schedules.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "CorpBiz Assistance for Factory License",
+        description: [
+          "Select a tailored service plan for expert guidance.",
+          "Submit queries and required documents to our team.",
+          "We prepare and file your application and liaise with authorities.",
+          "Track status and receive your Factory License at your doorstep.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who is eligible to obtain a Factory License?",
+        answer:
+          "Any entity operating a manufacturing unit employing 10+ workers with power or 20+ workers without power under the Factories Act, 1948.",
+      },
+      {
+        question: "Where is the Factories Act applicable?",
+        answer:
+          "Across India to any premises where a manufacturing process is conducted meeting workforce thresholds, with or without power.",
+      },
+      {
+        question: "Can a factory be licensed in a residential area?",
+        answer:
+          "Only if specific zoning permissions and environmental clearances are granted by local authorities.",
+      },
+      {
+        question: "What is the validity of a Factory License?",
+        answer:
+          "Typically one year; must be renewed annually before expiry to avoid penalties.",
+      },
+      {
+        question: "What documents are required for renewal?",
+        answer:
+          "Form‑4 (renewal application), Form‑4B (annual return) and proof of renewal fee payment.",
+      },
+      {
+        question: "What are the occupier’s basic responsibilities?",
+        answer:
+          "Ensuring worker health, safety, welfare, compliance with statutes and maintenance of records.",
+      },
+      {
+        question: "When should a factory apply for a license?",
+        answer:
+          "Before commencing any manufacturing activity—ideally well ahead of planned start date.",
+      },
+      {
+        question: "How are factories classified under the Act?",
+        answer:
+          "As hazardous (risk to health, life, environment) or non‑hazardous (lower risk manufacturing).",
+      },
+      {
+        question: "What are the steps to obtain a Factory License?",
+        answer:
+          "Plan approval, Form‑1 submission, fee payment, inspection and license issuance by authority.",
+      },
+      {
+        question: "What is voluntary suspension of a license?",
+        answer:
+          "A formal process to surrender or suspend license by applying with reasons and worker settlement details.",
+      },
+    ],
+  },
+
+  "fda-certification": {
+    title: "FDA Certification – A Complete Overview",
+    description:
+      "Mandatory U.S. FDA registration and compliance process for exporting food, drugs, cosmetics, medical devices and other regulated products under the Federal Food, Drug, and Cosmetic Act.",
+    overview: [
+      {
+        heading: "Overview of FDA Certification",
+        content:
+          "The U.S. Food and Drug Administration (FDA), established in 1906, regulates food, drugs, cosmetics, medical devices, veterinary products, tobacco and radiation devices. Exporters must register facilities, comply with Current Good Manufacturing Practices (CGMP), and pass FDA inspections, documented by Form 483 and Establishment Inspection Reports (EIR), to gain market access in the United States.",
+      },
+      {
+        heading: "Additional Regulatory Bodies",
+        content:
+          "Key organizations complementing the FDA include:  \n• CDRH (Center for Devices and Radiological Health) – regulates medical devices and radiation‑emitting products.  \n• IEC (International Electrotechnical Commission) – sets global electrotechnology standards.  \n• ANSI (American National Standards Institute) – oversees U.S. voluntary consensus standards across industries.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Types of Products & Approvals",
+        content:
+          "• Food Facilities: Register with FDA; comply with CGMP; no pre‑approval of food itself.  \n• Drugs: OTC monograph drugs bypass approval; new drugs require NDA.  \n• Cosmetics: No pre‑market approval (unless making drug claims).  \n• Color Additives: Batch certification required for certain additives.  \n• Medical Devices: Class I (low risk, often 510(k)‑exempt), Class II (510(k) submissions), Class III (PMA).",
+      },
+      {
+        heading: "Key Benefits of FDA Certification",
+        content:
+          "1. Industry Impact: Global mark of safety and quality.  \n2. Consumer Confidence: Drives demand and trust.  \n3. Market Access: Enables export with Certificate of Foreign Government.  \n4. Brand Credibility: Enhances reputation among stakeholders.  \n5. Product Development: Improves processes via CGMP.  \n6. Funding Access: Attracts investors and partnerships.  \n7. Healthcare Distribution: Access to hospitals, pharmacies, and clinical trials.",
+      },
+      {
+        heading: "Extended Advantages",
+        content:
+          "• Easier Access to Investment and Funding: Many investors seek FDA‑approved products.  \n• Recognition in Medical and Healthcare Networks: Hospitals and clinics prefer FDA‑cleared products.  \n• Expansion into New Markets: CFG enables entry into Japan, Brazil, Australia, China.  \n• Process Improvement: Focus on safety and efficacy from R&D through manufacturing.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for FDA Registration",
+        content:
+          "Entry Documentation: Bill of Lading, Airway Bill, Commercial Invoice, Purchase Order.  \nCommodity‑Specific: Packing List, Growers List (for produce), Labeling Copies, Ownership Documentation, Statement of Intended Use, plus any additional product‑specific paperwork requested by FDA.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step FDA Certification Process",
+        content:
+          "1. Facility Inspection by FDA to assess CGMP compliance.  \n2. Issuance of Form 483 listing inspection observations.  \n3. Submit written response to Form 483 within 15 working days with corrective action plan.  \n4. FDA issues Establishment Inspection Report (EIR) outlining need for enforcement.  \n5. If observations are inadequate or severe, FDA issues a Warning Letter (sometimes skipping Form 483).  \n6. Respond to Warning Letter within 15 working days to avoid cancellation of licenses, import alerts, or suspension.  \n7. Complete pre‑clinical testing, IND, NDA or PMA submissions as required.  \n8. Final Approval granted once all concerns are resolved and compliance demonstrated.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "FDA‑Related Fees & Penalties",
+        description:
+          "While the FDA does not charge for inspections, manufacturers must fund compliance activities. Failure to respond timely to Form 483 or Warning Letters may trigger import alerts, license suspension, product denial, or legal action.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How CorpBiz Facilitates Your FDA Certification",
+        description: [
+          "1. Consultation with FDA regulatory experts on requirements and timelines.",
+          "2. Legal support from FDA‑savvy attorneys for application and inspections.",
+          "3. Document preparation and submission via FDA’s Electronic Submission Gateway (ESG).",
+          "4. Coordination of Form 483 responses, Warning Letter follow‑ups, and EIR debriefs.",
+          "5. Regular status updates and final delivery of certification and CFG issuance.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "When is Form 483 issued?",
+        answer:
+          "Form 483 is issued immediately after an FDA inspection to document any non‑compliance or deviations from CGMP standards.",
+      },
+      {
+        question: "What is the Establishment Inspection Report (EIR)?",
+        answer:
+          "The EIR summarizes inspection findings and indicates whether regulatory or enforcement action is required.",
+      },
+      {
+        question: "What happens if FDA issues a Warning Letter?",
+        answer:
+          "A Warning Letter requires response within 15 working days; failure may result in import alerts, license revocation or product denial.",
+      },
+      {
+        question: "What is Form 438 and how is it shared?",
+        answer:
+          "Form 438 outlines inspection discrepancies; it's provided in writing after inspection, either in person or via mail.",
+      },
+      {
+        question: "What is FDA Colour Certification?",
+        answer:
+          "FDA Colour Certification applies to color additives in foods, drugs, cosmetics, and certain devices, requiring batch certification for safety.",
+      },
+      {
+        question: "How long does FDA certification last?",
+        answer:
+          "There is no fixed validity; ongoing adherence to CGMP and readiness for re‑inspection are required to maintain certification.",
+      },
+      {
+        question: "What if I fail to provide documents to FDA?",
+        answer:
+          "Delays or absence of required documentation can lead to application rejection, penalties, or prevention of U.S. market entry.",
+      },
+      {
+        question: "Does FDA regulate tobacco products?",
+        answer:
+          "Yes. The FDA oversees manufacturing, marketing, and labeling of tobacco products to protect public health.",
+      },
+      {
+        question: "How do I submit documents to FDA?",
+        answer:
+          "Documents can be submitted electronically via the FDA Electronic Submission Gateway or mailed to the appropriate FDA office, as guided by CorpBiz experts.",
+      },
+    ],
+  },
 };
