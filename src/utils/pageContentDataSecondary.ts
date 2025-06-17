@@ -4239,7 +4239,538 @@ export const pageContent: Record<string, PageContentType> = {
       },
       timelineFees: []
     }
+  },
+
+
+  "wpc-certification-compliance": {
+    overview: {
+      heading: "WPC Certification: Mandatory Wireless Compliance in India",
+      paragraphs: [
+        "To operate a wireless device business in India, securing WPC certification is mandatory. The Wireless Planning and Coordination (WPC) Wing under the DoT issues Equipment Type Approval (ETA) and import licenses to ensure all RF devices comply with national frequency standards.",
+        "Corpbiz™ assists manufacturers and importers with WPC licenses for Bluetooth, Wi‑Fi, and other wireless devices—handling Saral Sanchar portal filings, RF testing, technical documentation, and post‑compliance coordination.",
+        "With regional offices in New Delhi, Mumbai, Chennai, Kolkata, and Guwahati, the WPC Wing manages spectrum allocation, frequency testing, and certification for legal marketing of wireless products in India."
+      ]
+    },
+  
+    features: [
+      {
+        icon: "📶",
+        title: "Device Compatibility",
+        description: "Ensures your wireless products operate on approved Indian frequency bands without interference."
+      },
+      {
+        icon: "🔒",
+        title: "National Security Compliance",
+        description: "Regulates RF devices to prevent unauthorized use and safeguard public safety."
+      },
+      {
+        icon: "⚙️",
+        title: "Frequency Management",
+        description: "Prevents signal conflicts by enforcing strict band usage per device type."
+      },
+      {
+        icon: "🏷️",
+        title: "Market Access",
+        description: "Mandatory WPC ETA certification or import license to legally sell wireless devices in India."
+      }
+    ],
+  
+    benefits: [
+      {
+        title: "Seamless Import Licensing",
+        description: "Obtain WPC import authorization for Bluetooth, Wi‑Fi, and other RF devices through a single portal."
+      },
+      {
+        title: "Equipment Type Approval",
+        description: "Secure ETA certification to demonstrate compliance with Indian RF regulations."
+      },
+      {
+        title: "Streamlined Testing",
+        description: "Use ISO/IEC 17025 lab reports to waive redundant in‑country testing post‑2021."
+      },
+      {
+        title: "Regulatory Expertise",
+        description: "Corpbiz™ coordinates with designated Indian representatives for foreign applicants."
+      }
+    ],
+  
+    documents: {
+      steps: [
+        {
+          title: "Portal Registration",
+          desc: "Register on Saral Sanchar portal to generate your WPC Import ID."
+        },
+        {
+          title: "ETA Application",
+          desc: "Submit self‑declaration and check device exemption status with Import ID."
+        },
+        {
+          title: "RF Test Report",
+          desc: "Upload lab‑accredited RF test results detailing frequency, bandwidth, and sweep specs."
+        },
+        {
+          title: "Document Submission",
+          desc: "Provide technical datasheet, IEC code, authorization letters, and mandatory documents."
+        },
+        {
+          title: "Fee Payment",
+          desc: "Pay WPC fees online via card, UPI, or digital wallets."
+        },
+        {
+          title: "Certificate Issuance",
+          desc: "Receive the WPC ETA certificate permitting legal import and sale."
+        }
+      ],
+      violations: [
+        "Device technical specifications",
+        "Authorized signatory ID & address proof",
+        "Company registration & GST certificates",
+        "RF test report from accredited lab",
+        "Authorization letter for AIR (foreign applicants)",
+        "Import‑Export Code (IEC)",
+        "Purchase order or invoice",
+        "ASTM/EN/RoHS/CE compliance reports"
+      ],
+      consequences: [
+        "Maintain records of approved frequency bands",
+        "Submit periodic updates to WPC",
+        "Notify WPC of any device modifications",
+        "Renew ETA or import license as needed"
+      ]
+    },
+  
+    eligibility: [
+      {
+        heading: "Eligibility for WPC Import License",
+        items: [
+          "Manufacturers or importers of Bluetooth, Wi‑Fi, and other RF devices",
+          "Foreign companies must appoint an Authorized Indian Representative (AIR)",
+          "Submit RF test reports from ISO/IEC 17025 labs to waive in‑India retesting",
+          "Devices must operate within India’s delicensed frequency bands",
+          "Maintain a complete technical data sheet for authority review"
+        ]
+      }
+    ],
+  
+    services: [
+      {
+        title: "Non‑Network License",
+        desc: "Import, dealer possession, and non‑dealer possession licenses for non‑network service providers."
+      },
+      {
+        title: "Network License",
+        desc: "ISP, experimental, and telecom provider licenses for mobile, DTH, and data services."
+      },
+      {
+        title: "WPC ETA Certification",
+        desc: "Equipment Type Approval for devices using unlicensed bands (e.g., Bluetooth, Wi‑Fi)."
+      }
+    ],
+  
+    faqs: [
+      {
+        question: "What are radio frequency bands?",
+        answer: "Specific frequency ranges allocated for wireless signal transmission to avoid interference."
+      },
+      {
+        question: "What is WPC Certification?",
+        answer: "Mandatory approval from the WPC Wing to import or sell wireless devices in India."
+      },
+      {
+        question: "Who issues WPC certificates?",
+        answer: "The Wireless Planning & Coordination Wing under the Department of Telecommunications."
+      },
+      {
+        question: "Can foreign companies apply?",
+        answer: "Yes, through a designated Authorized Indian Representative (AIR)."
+      },
+      {
+        question: "What is WPC ETA?",
+        answer: "Equipment Type Approval certificate for compliance with Indian RF regulations."
+      },
+      {
+        question: "Is ISO lab testing accepted?",
+        answer: "Yes—reports from ISO/IEC 17025 labs eliminate the need for in‑country retesting post‑2021."
+      },
+      {
+        question: "What is an Import ID?",
+        answer: "A unique identifier generated upon Saral Sanchar portal registration for your application."
+      },
+      {
+        question: "How long is WPC certification valid?",
+        answer: "Typically aligns with the product lifecycle; renew when significant modifications occur."
+      },
+      {
+        question: "Who needs a WPC license?",
+        answer: "All manufacturers and importers of RF or wireless devices in India."
+      }
+    ],
+  
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: []
+      },
+      timelineFees: []
+    }
+  },
+
+  "peso-certification-compliance": {
+    overview: {
+      heading: "PESO Certification: A Simplified Guide",
+      paragraphs: [
+        "PESO Certification is mandatory in India for businesses handling hazardous materials—explosives, compressed gases, petroleum, and flammable substances—under the Explosives Act (1884) and Petroleum Act (1934).",
+        "The Petroleum and Explosives Safety Organization (PESO) Wing issues licenses and Equipment Type Approval (ETA) to ensure safety standards for equipment, storage, and processes in industries like oil & gas, manufacturing, logistics, and more.",
+        "Corpbiz™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity."
+      ]
+    },
+  
+    features: [
+      {
+        icon: "📅",
+        title: "Validity & Renewal",
+        description: "Certificates are valid for 3 years with an online renewal process requiring updated documentation."
+      },
+      {
+        icon: "🔒",
+        title: "Scope of Coverage",
+        description: "Applies to explosives, gas cylinders, petroleum pipelines, flameproof equipment, fireworks, and more."
+      },
+      {
+        icon: "🌐",
+        title: "Global Alignment",
+        description: "Recognizes ATEX/IECEx test reports for imported machinery, simplifying approvals."
+      },
+      {
+        icon: "🔍",
+        title: "Random Audits",
+        description: "PESO conducts unannounced inspections to ensure ongoing compliance with safety protocols."
+      }
+    ],
+  
+    benefits: [
+      {
+        title: "Legal Compliance",
+        description: "Avoid fines, shutdowns, or legal disputes by adhering to the Explosives and Petroleum Acts."
+      },
+      {
+        title: "Operational Safety",
+        description: "Standardized protocols minimize risks of explosions, leaks, and workplace accidents."
+      },
+      {
+        title: "Market Trust",
+        description: "Certification enhances credibility, unlocking government tenders and high‑value contracts."
+      },
+      {
+        title: "Environmental Protection",
+        description: "Ensures eco‑friendly handling, reducing spills, emissions, and environmental hazards."
+      },
+      {
+        title: "Employee Welfare",
+        description: "Mandates training and emergency preparedness, prioritizing worker safety."
+      }
+    ],
+  
+    documents: {
+      steps: [
+        {
+          title: "Application Preparation",
+          desc: "Fill the PESO form and compile test reports, technical drawings, and business proofs."
+        },
+        {
+          title: "Online Submission",
+          desc: "Apply via the PESO portal with commercial details—client list, sales data, and facility records."
+        },
+        {
+          title: "Fee Payment",
+          desc: "Pay license fees according to category (₹10,000–₹50,000 for manufacturing)."
+        },
+        {
+          title: "Technical Review",
+          desc: "PESO experts verify compliance and may request clarifications on your submission."
+        },
+        {
+          title: "Factory Audit",
+          desc: "Inspectors assess high‑risk facilities (e.g., pressure vessels) for infrastructure and safety systems."
+        },
+        {
+          title: "Certificate Issuance",
+          desc: "Receive your CCOE PESO Certificate and AIR license within 30–60 days."
+        }
+      ],
+      violations: [
+        "Duly filled application form",
+        "IECEx or ATEX test reports (≤2 years old)",
+        "Product drawings and technical specifications",
+        "Trade license, ISO certificates, GST registration",
+        "Production unit video and safety audit reports",
+        "Authorization letter for AIR (foreign applicants)",
+        "Import‑Export Code (IEC) and purchase invoices"
+      ],
+      consequences: [
+        "Maintain approved safety protocols and frequency of audits",
+        "Submit modifications or updates to PESO promptly",
+        "Renew certificates every 3 years to avoid lapses",
+        "Comply with random inspection requests to retain certification"
+      ]
+    },
+  
+    eligibility: [
+      {
+        heading: "Entities Requiring PESO Certification",
+        items: [
+          "Manufacturers of explosives, fireworks, LPG regulators, oxygen cylinders, and pressure vessels",
+          "Storage facilities for petroleum, ammonium nitrate, CNG, LPG, or carbide",
+          "Transporters moving hazardous materials by road, rail, or sea",
+          "Retailers such as petrol pumps, gas agencies, and fireworks shops",
+          "Industrial units like gas bottling plants, CNG stations, and petroleum pipelines"
+        ]
+      }
+    ],
+  
+    services: [
+      {
+        title: "Manufacturing & Storage",
+        desc: "Licenses for explosives, petroleum products, LPG cylinders, oxygen plants, and ammonium nitrate storage."
+      },
+      {
+        title: "Transportation",
+        desc: "Road, rail, and marine transport licenses for hazardous materials."
+      },
+      {
+        title: "Import/Export",
+        desc: "ETA certificates and import licenses for compressed gases, explosive materials, and carbide."
+      },
+      {
+        title: "Retail Operations",
+        desc: "Licenses for petrol pumps, gas distribution agencies, and fireworks retail outlets."
+      },
+      {
+        title: "Industrial Use",
+        desc: "Approvals for pipeline purging, cylinder testing stations, and refinery maintenance."
+      }
+    ],
+  
+    faqs: [
+      {
+        question: "What is the validity of a PESO certificate?",
+        answer: "PESO certificates are valid for 3 years and must be renewed before expiry to avoid penalties."
+      },
+      {
+        question: "Is PESO certification mandatory for oxygen plants?",
+        answer: "Yes—manufacturing, storing, or distributing compressed gases like oxygen requires PESO certification."
+      },
+      {
+        question: "What is PESO?",
+        answer: "The Petroleum and Explosives Safety Organization under the DoT regulates the safe handling of explosives, petroleum, and gases."
+      },
+      {
+        question: "How long does PESO renewal take?",
+        answer: "Renewals typically process within 15–30 days if all documents are submitted correctly."
+      },
+      {
+        question: "Do I need a license to store LPG cylinders?",
+        answer: "Yes—storage units for LPG, CNG, and other compressed gases must hold a PESO license."
+      },
+      {
+        question: "Who needs PESO certification?",
+        answer: "Manufacturers, storage units, transporters, and retailers handling hazardous materials in India."
+      },
+      {
+        question: "How to apply for a cylinder testing station approval?",
+        answer: "Submit a detailed application with facility layouts, safety protocols, and technical certifications to PESO."
+      },
+      {
+        question: "Can foreign companies apply directly?",
+        answer: "Foreign firms must appoint an Authorized Indian Representative (AIR) to file on their behalf."
+      }
+    ],
+  
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: []
+      },
+      timelineFees: []
+    }
+  },
+
+  "tec-certification-compliance": {
+    overview: {
+      heading: "TEC Certification: Mandatory Telecom Equipment Approval in India",
+      paragraphs: [
+        "The Telecommunication Engineering Centre (TEC) under the Department of Telecommunications (DoT) mandates certification for telecom equipment before sale, import, or usage in India.",
+        "TEC certification ensures compliance with national safety and quality standards. The process includes Mandatory Testing and Certification of Telecom Equipment (MTCTE) and CSC certification schemes.",
+        "Corpbiz™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management."
+      ]
+    },
+  
+    features: [
+      {
+        icon: "✅",
+        title: "Standards Compliance",
+        description: "Assures telecom devices meet Indian and global safety benchmarks."
+      },
+      {
+        icon: "🔒",
+        title: "Network Protection",
+        description: "Prevents equipment-induced disruptions in telecom infrastructure."
+      },
+      {
+        icon: "📈",
+        title: "Market Legality",
+        description: "Facilitates lawful sale, import, and manufacturing under the Indian Telegraph Rules, 2017."
+      },
+      {
+        icon: "🤝",
+        title: "Customer Trust",
+        description: "Boosts product reliability and consumer confidence."
+      }
+    ],
+  
+    benefits: [
+      {
+        title: "Regulatory Compliance",
+        description: "Meets Essential Requirements (ER) for safe and lawful operation in Indian networks."
+      },
+      {
+        title: "Brand Credibility",
+        description: "Strengthens stakeholder confidence through verified safety and performance."
+      },
+      {
+        title: "Fair Competition",
+        description: "Ensures a level playing field for all market participants via uniform compliance norms."
+      },
+      {
+        title: "Wider Market Access",
+        description: "Enables legal entry and distribution across Indian telecom markets."
+      }
+    ],
+  
+    documents: {
+      steps: [
+        {
+          title: "File Application",
+          desc: "Submit your TEC application online or offline. No edits allowed post-submission."
+        },
+        {
+          title: "Document Scrutiny",
+          desc: "TEC verifies all documents; discrepancies must be corrected."
+        },
+        {
+          title: "Provide Variant Details",
+          desc: "Include model information, datasheets, BoM, and manufacturing location."
+        },
+        {
+          title: "Pay Fees",
+          desc: "Administrative and evaluation fees depend on product complexity."
+        },
+        {
+          title: "Select CAB",
+          desc: "Choose a TEC-designated Conformity Assessment Body for lab testing."
+        },
+        {
+          title: "Testing & Approval",
+          desc: "CAB conducts product testing; TEC issues certificate upon approval."
+        }
+      ],
+      violations: [
+        "Application form with technical details",
+        "Test reports from TEC-accredited labs",
+        "Compliance declarations and authorization letters",
+        "BoM, manuals, circuit/PCB diagrams",
+        "Company registration proof",
+        "ISO 9001 certification",
+        "Trademark registration (if applicable)",
+        "Authorized Indian Representative (AIR) documents for foreign OEMs"
+      ],
+      consequences: [
+        "Fines and legal penalties for non-compliance",
+        "Loss of license or market access",
+        "Heightened regulatory scrutiny",
+        "Product recall or blacklisting"
+      ]
+    },
+  
+    eligibility: [
+      {
+        heading: "Who Must Apply for TEC Certification?",
+        items: [
+          "Indian telecom equipment manufacturers",
+          "Foreign OEMs via an Authorized Indian Representative (AIR)",
+          "Importers and dealers of notified telecom devices",
+          "Entities using telecom devices under Indian Telegraph Rules, 2017"
+        ]
+      }
+    ],
+  
+    services: [
+      {
+        title: "Type Approval",
+        desc: "Certification for compliance with Generic Requirements (GR) related to telecom product safety."
+      },
+      {
+        title: "Interface Approval",
+        desc: "Approval for interoperability with Indian telecom networks as per Interface Requirements (IR)."
+      },
+      {
+        title: "Technology Approval",
+        desc: "Issued for prototypes or emerging technologies like C-DoT innovations meeting GR standards."
+      }
+    ],
+  
+    faqs: [
+      {
+        question: "What is TEC?",
+        answer: "TEC is the Telecommunication Engineering Centre under DoT that regulates telecom equipment standards in India."
+      },
+      {
+        question: "Is TEC certification mandatory?",
+        answer: "Yes, for all notified telecom products under the Indian Telegraph Rules, 2017."
+      },
+      {
+        question: "Who can issue TEC certificates?",
+        answer: "Only TEC-authorized Conformity Assessment Bodies (CABs) can conduct testing. TEC grants final certification."
+      },
+      {
+        question: "Where is testing done?",
+        answer: "In TEC-accredited labs or CABs, including those in MRA partner countries for imports."
+      },
+      {
+        question: "How long does TEC certification take?",
+        answer: "Typically 4–8 weeks depending on equipment complexity and CAB availability."
+      },
+      {
+        question: "What is the TEC Certificate Number?",
+        answer: "A unique identifier issued post-approval, valid for five years and must be displayed on products."
+      },
+      {
+        question: "What are the benefits of TEC certification?",
+        answer: "It ensures legal access to the Indian market, boosts customer trust, and avoids network issues."
+      },
+      {
+        question: "Is TEC certification needed for CSC products?",
+        answer: "Yes, Certification Scheme for Convergence (CSC) is covered under TEC for specific products like IoT gateways."
+      }
+    ],
+  
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: []
+      },
+      timelineFees: []
+    }
   }
+  
+  
+  
   
 
   

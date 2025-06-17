@@ -5042,6 +5042,126 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
+  gmpCertification: {
+    title: "GMP Certification – A Complete Overview",
+    description:
+      "Good Manufacturing Practice (GMP) certification ensures that products are consistently produced and controlled according to quality standards to minimize risks involved in pharmaceutical manufacturing.",
+    overview: [
+      {
+        heading: "Overview of GMP Certification",
+        content:
+          "Good Manufacturing Practice (GMP) Certification is a globally recognized standard that ensures the consistent quality, safety, and efficacy of pharmaceutical products. It provides a comprehensive framework for managing all aspects of manufacturing and quality control, including production processes, testing procedures, and documentation.",
+      },
+      {
+        heading: "Purpose of Good Manufacturing Practice",
+        content:
+          "The primary goal of GMP is to minimize risks associated with pharmaceutical production—such as contamination, mislabeling, and incorrect dosages—by overseeing every aspect of the manufacturing process, from raw‑material sourcing and clean environments to equipment calibration and staff training.",
+      },
+      {
+        heading: "GMP Guidelines for Certification Holders",
+        content:
+          "WHO‑GMP guidelines serve as the foundation for national and regional regulations (EU, ASEAN, PIC/S). They promote a quality‑centric approach, helping manufacturers prevent contamination, reduce errors, and adapt the standards flexibly to their specific processes while ensuring consistent product quality.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of GMP Certification",
+        content:
+          "● Enables adoption of industry best practices in production  \n● Ensures timely detection and resolution of quality issues  \n● Demonstrates compliance with national and international regulations  \n● Enhances brand credibility and consumer trust  \n● Reduces costs associated with recalls, rework, and penalties  \n● Supports global trade and export potential  \n● Lowers the frequency and duplication of regulatory inspections  \n● Drives long‑term operational efficiency and cost savings",
+      },
+      {
+        heading: "Benefits for Manufacturers & Customers",
+        content:
+          "Manufacturers gain robust quality systems and a culture of continuous improvement; customers gain assurance through in‑depth, multi‑day audits that verify a supplier’s ability to manage non‑conformities responsibly.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for GMP Certification",
+        content:
+          "● Company information: name, address, contact details  \n● Manufacturing License copy  \n● List of approved products and Site Master File (WHO TRS 823)  \n● Master Manufacturing Formula & process documentation  \n● Finished product specifications & analytical methods  \n● Stability study data (accelerated & real‑time) for ≥3 batches  \n● Process & method validation reports  \n● Personnel qualifications & regulatory approvals  \n● Equipment lists, SOPs, STPs, plant layout, water system schematic  \n● Product summary sheet (Format B)  \n● Evidence of safety & efficacy (Rule 158B, Drugs & Cosmetics Act, 1940)  \n● Undertaking of compliance with relevant Acts (1940, 1954)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Process to Obtain GMP Certification",
+        content:
+          "1. Application Submission to a recognized certification body  \n2. Review of application and eligibility  \n3. Gap analysis & fee agreement  \n4. Documentation review against GMP guidelines  \n5. Stage 1 audit (documented systems) & corrective actions  \n6. Stage 2 audit (on‑site implementation) & verification  \n7. Issuance of GMP Certificate (valid for 3 years)  \n8. Surveillance audits every 6–12 months",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Costs & Penalties",
+        description:
+          "Certification fees vary by body and scope. Non‑compliance penalties can include license suspension, production halts, fines, recalls, and legal action.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How CorpBiz Helps You Get GMP Certified",
+        description: [
+          "1. Initial consultation & requirement gathering",
+          "2. Appointment of a legal/regulatory expert",
+          "3. Documentation preparation & gap analysis",
+          "4. Audit coordination & corrective action support",
+          "5. Post‑certification compliance and audit readiness",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who issues the GMP certificate?",
+        answer:
+          "Authorized regulatory bodies (e.g., FDA or State Drug Authorities) or designated WHO‑GMP certification bodies, typically signed by a Joint Commissioner.",
+      },
+      {
+        question: "How do I get GMP certification?",
+        answer:
+          "Submit an application, undergo gap analysis, prepare documentation, complete Stage 1 & 2 audits, implement corrective actions, and receive the certificate upon compliance.",
+      },
+      {
+        question: "What are GMP guidelines?",
+        answer:
+          "International quality assurance standards covering raw materials, facilities, equipment, documentation, and personnel to ensure safe, effective, and consistent products.",
+      },
+      {
+        question: "Is GMP necessary if there is a Quality Control Laboratory?",
+        answer:
+          "Yes. GMP encompasses the entire manufacturing process, including hygiene, documentation, validations, and training, beyond QC testing.",
+      },
+      {
+        question: "What are the benefits of GMP certification?",
+        answer:
+          "Enhanced product quality and safety, regulatory compliance, export readiness, cost reduction, and stronger brand trust.",
+      },
+      {
+        question: "What is the objective of GMP?",
+        answer:
+          "To ensure consistent production of safe, high-quality pharmaceutical products while reducing risks like contamination and labeling errors.",
+      },
+      {
+        question: "What is the validity of GMP Certification?",
+        answer:
+          "Typically valid for three years, with mandatory surveillance audits every 6–12 months.",
+      },
+      {
+        question: "What is a GMP inspection?",
+        answer:
+          "An audit by regulatory or certification bodies to verify compliance of manufacturing facilities with GMP standards.",
+      },
+      {
+        question: "What is the difference between cGMP and GMP?",
+        answer:
+          "cGMP (‘current’ GMP) indicates that standards are continuously updated to reflect the latest practices and technologies.",
+      },
+      {
+        question: "Why is GMP important?",
+        answer:
+          "It protects consumer health and reinforces company credibility by ensuring products are consistently safe, effective, and high quality.",
+      },
+    ],
+  },
 
   "fda-certification": {
     title: "FDA Certification – A Complete Overview",
@@ -5158,4 +5278,327 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
+  "liquor-license": {
+    title: "Liquor License – A Complete Overview",
+    description:
+      "A liquor license is a state‑issued permit allowing the manufacture, distribution, transport, or sale of alcoholic beverages within a designated jurisdiction. Essential for restaurants, bars, hotels, and retail outlets, it ensures legal compliance with state excise regulations.",
+    overview: [
+      {
+        heading: "What Is a Liquor License?",
+        content:
+          "A liquor license is issued by the State Excise Department, granting businesses the legal authority to serve, sell, distribute, or manufacture alcoholic beverages. Each state’s laws differ—types of licenses, permissible hours, dry days, and renewal rules—but all require satisfying eligibility criteria, submitting detailed documentation, and observing regulatory processes.",
+      },
+      {
+        heading: "Key Benefits",
+        content:
+          "Offering alcohol legally enhances customer experience, increases footfall and dwell time, widens beverage offerings, unlocks special events and partnerships, and can significantly boost revenues in hospitality.",
+      },
+      {
+        heading: "Types & Eligibility",
+        content:
+          "Common license types include on‑license (on‑premise consumption), off‑license (retail sale), wholesale, club/hotel, temporary event licenses, and special permits for festivals or weddings. Applicants generally must be 21+, have no criminal record, and legally occupy the premises.",
+      },
+      {
+        heading: "Revocation & Compliance",
+        content:
+          "Licenses can be revoked or suspended for serving alcohol on dry days, selling to minors, breaching permitted hours or quantity limits, or violating any state excise rule. Maintaining compliance avoids hefty fines, legal notices, and potential business closure.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Strategic Advantages",
+        content:
+          "● Legal authorization to serve and sell alcohol  \n● Enhanced customer experience with premium beverage options  \n● Higher footfall, customer retention, and average spend  \n● Access to special events, private parties, and partnerships  \n● Expanded market opportunities and brand differentiation",
+      },
+      {
+        heading: "Checklist Before Applying",
+        content:
+          "● Verify business type eligibility (restaurant, bar, hotel, shop)  \n● Determine permitted alcohol categories (beer, wine, spirits)  \n● Confirm authorized sellers and training requirements  \n● Understand state‑specific quantity and timing limits  \n● Prepare for public notice period and objection handling  \n● Budget for license fees, security deposit, and renewal costs",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documentation",
+        content:
+          "● Applicant’s identity proof (Aadhaar, PAN, Passport)  \n● Residential and business premises address proof  \n● Notarized affidavit of possession and litigation status  \n● Physical possession certificate (DDA/NDMC/MCD)  \n● Detailed layout plan of establishment  \n● License fee payment proof and refundable security deposit receipt  \n● NOCs from Fire Department and Municipal Corporation  \n● Filled application form with business and owner details  \n● Company MOA, AOA, list of directors (if applicable)  \n● Latest ITR copy and GST registration  \n● Passport‑size photograph of authorized signatory  \n● Affidavits: no criminal background, no tax/dues default  \n● Refrigerator invoice for beverage storage",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Application Process",
+        content:
+          "1. Visit your State Excise Department portal to review license categories and download forms.  \n2. Gather, notarize, and organize all required documents.  \n3. Complete and submit the application form online or at the excise office, paying prescribed fees.  \n4. Undergo document verification and site inspection; respond to any departmental queries.  \n5. Public notice period: display notice; address objections if raised.  \n6. Final review by excise authority; upon clearance, license is granted.  \n7. Display license prominently on premises; adhere strictly to all conditions.",
+      },
+      {
+        heading: "Renewal & Validity",
+        content:
+          "Licenses are valid for one year. Renewal applications must be filed at least 30 days before expiry, with renewal fee payment proof (challan) and any updated documents. Late renewals may incur penalties or risk suspension.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees & Charges",
+        description:
+          "License and renewal fees vary widely by state, category, and premises size. Fees typically include an application charge, annual license fee, usage fee, and refundable security deposit. Consult your State Excise fee schedule for exact rates.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How CorpBiz Simplifies Licensing",
+        description: [
+          "1. End‑to‑end guidance tailored to your state and business model.",
+          "2. Strategic document preparation and cost‑effective planning.",
+          "3. Legal support from liquor‑licensing specialists.",
+          "4. Complete handling of submissions, follow‑ups, and public notice compliance.",
+          "5. Real‑time tracking and dedicated customer support until license delivery.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What activities does a liquor license cover?",
+        answer:
+          "Manufacture, distribution, transport, and sale of alcoholic beverages—either on‑premise consumption or off‑premise retail—depending on the license type.",
+      },
+      {
+        question: "Who is eligible to apply?",
+        answer:
+          "Typically individuals or businesses aged 21+, with no criminal convictions, valid occupancy rights to the premises, and compliance with local zoning laws.",
+      },
+      {
+        question: "What leads to revocation?",
+        answer:
+          "Serving on dry days, supplying to minors, operating outside permitted hours, exceeding quantity limits, or any breach of state excise regulations.",
+      },
+      {
+        question: "Can I sell liquor from home?",
+        answer:
+          "No. Sales must occur from state‑approved commercial premises following zoning and licensing norms.",
+      },
+      {
+        question: "What types of licenses exist?",
+        answer:
+          "On‑license, off‑license, wholesale, retail, club/hotel, temporary event, and special festival licenses—each with specific terms.",
+      },
+      {
+        question: "How do I renew?",
+        answer:
+          "File renewal 30 days before expiry, pay renewal and usage fees, and submit proof of payment and any updated documents.",
+      },
+      {
+        question: "Are costs uniform nationwide?",
+        answer:
+          "No. Fees are set by each State Excise Department and vary by license category, location, and business type.",
+      },
+      {
+        question: "What is a temporary license?",
+        answer:
+          "A short‑term permit for events (weddings, festivals) requiring event details, premises proof, ID documents, and payment of a nominal fee.",
+      },
+      {
+        question: "Why limit license numbers?",
+        answer:
+          "To regulate consumption, maintain public order, and align with demographic and policy objectives.",
+      },
+      {
+        question: "What if objections arise?",
+        answer:
+          "The applicant must present justifications to the excise authority during the public notice period; unresolved objections can delay or deny approval.",
+      },
+    ],
+  },
+
+
+  "ayush-license": {
+    title: "AYUSH License Made Easy – Your Gateway to the Herbal & Traditional Medicine Market",
+    description: "AYUSH—Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy—represents India’s holistic healthcare legacy. Since the Ministry of AYUSH’s establishment in 2014, all traditional medicine manufacturing, distribution, retailing, clinic operations, export and loan licensing must comply with the Drugs & Cosmetics Act, 1940 and Rules 85A–85I & 158-B.",
+    overview: [
+      {
+        heading: "What is AYUSH License?",
+        content: "An AYUSH license authorizes entities to manufacture, distribute, retail, wholesale, export, or operate clinics in Ayurvedic, Unani, Siddha, Homeopathy and other traditional products under Rules 85A–85I and 158-B of the Drugs & Cosmetics Rules, 1945."
+      },
+      {
+        heading: "Regulations Governing AYUSH Licensing",
+        content: "Rules 158-B govern Ayurvedic, Unani, Siddha manufacturing; Rules 85A–85I govern Homeopathic. All licensees must adhere to Good Manufacturing Practices (GMP), employ qualified practitioners (BAMS/BUMS/DPharm/BPharm), maintain approved premises, and comply with labeling, safety and quality norms."
+      },
+      {
+        heading: "Types of AYUSH Licenses",
+        content: "Includes Manufacturing License (Ayurveda, Unani, Siddha, Homeopathy), Retail License, Wholesale License, Export License, Product Approval License, Clinic License, and Loan License for third‑party GMP contract manufacturing."
+      },
+      {
+        heading: "Eligibility Criteria",
+        content: "Applicant must be at least 18 years old with no criminal record, operate from a GMP‑compliant facility, employ qualified technical staff (BAMS/BUMS/DPharm/BPharm), and submit evidence of premises ownership/lease, GMP certificate, product formulations, and staff credentials."
+      },
+      {
+        heading: "Timeline for AYUSH License Approval",
+        content: "Standard processing takes 20–30 working days; may extend to 60 days if additional scrutiny or documentation issues arise. Complete, accurate submissions significantly reduce delays."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Top 10 Benefits of AYUSH License",
+        content: "1. Legal authorization for manufacture, sale, export, clinic operations  \n2. Enhanced brand credibility and consumer trust  \n3. Full regulatory & GMP compliance  \n4. Market expansion across India & abroad  \n5. Eligibility for government subsidies & tax benefits  \n6. Faster online application & approvals  \n7. Access to export channels and global markets  \n8. Protection of intellectual property & formulations  \n9. Ability to host private label & contract manufacturing  \n10. Competitive advantage over unlicensed players"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Comprehensive Document Checklist",
+        content: "• Filled AYUSH application form  \n• Proof of premises (title deed/lease agreement)  \n• GMP certificate and Site Master File  \n• Detailed product dossiers (formulation, labels)  \n• Technical staff credentials (degrees, experience letters)  \n• Identity proof (PAN, Aadhaar)  \n• Company registration (Incorporation, MSME/Udyam)  \n• Layout plan, equipment list  \n• NOCs from municipal/pollution control authorities  \n• Affidavits (no criminal record, no litigation, GMP compliance)  \n• Copy of ITR and refundable security deposit proof (if applicable)"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for AYUSH License Online",
+        content: "Step 1: Visit your State AYUSH portal and select license category  \nStep 2: Upload application form and complete document checklist  \nStep 3: Pay application and statutory fees online  \nStep 4: State AYUSH department reviews compliance, premises eligibility, GMP adherence  \nStep 5: Address any queries or inspections within 7 working days  \nStep 6: AYUSH Commissioner grants license within 15–30 working days  \nStep 7: Download license certificate from portal or receive by post"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fees and Manufacturer Charges",
+        description: "• Application fee: ₹5,000–₹25,000 depending on license type  \n• Annual renewal fee: ₹3,000–₹15,000  \n• Loan license conversion charges: manufacturer’s production cost + utilities + manpower  \n• Product approval statutory fee: ₹1,000 per formulation  \n• Security deposit refundable: ₹50,000–₹2,00,000"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust Our AYUSH Consultants?",
+        description: [
+          "1. 100+ AYUSH experts across India  \n2. 10+ years regulatory experience  \n3. 20 lakh+ hours saved for clients  \n4. 75% market share in healthcare licensing  \n5. End‑to‑end online application handling  \n6. Transparent, real‑time status tracking  \n7. Personalized, state‑specific guidance"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is an AYUSH license?",
+        answer: "An official permit from the Ministry of AYUSH to manufacture, sell, distribute, export or operate clinics for Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy products."
+      },
+      {
+        question: "Who needs an AYUSH retail license?",
+        answer: "Any business selling Ayurvedic, Unani, Siddha or Homeopathic products directly to consumers must obtain a retail license."
+      },
+      {
+        question: "What qualifications are required?",
+        answer: "Manufacturing units must employ qualified practitioners (BAMS/BUMS) and pharmacists (DPharm/BPharm) per AYUSH norms."
+      },
+      {
+        question: "What is a loan license?",
+        answer: "A permit allowing third‑party GMP‑certified manufacturers to produce products under contract; requires separate application per product."
+      },
+      {
+        question: "How long is the license valid?",
+        answer: "Typically valid for 5 years, renewable upon compliance with annual inspections and fee payments."
+      },
+      {
+        question: "Can I export AYUSH products?",
+        answer: "Yes—an AYUSH export license ensures compliance with international quality standards for global market access."
+      },
+      {
+        question: "What happens if I violate terms?",
+        answer: "Non‑compliance can result in warnings, suspension/cancellation of license, fines, and legal action under Drugs & Cosmetics Act."
+      },
+      {
+        question: "Is GMP certification mandatory?",
+        answer: "Yes—manufacturing facilities must hold a valid GMP certificate under Drugs & Cosmetics Rules, 1945."
+      },
+      {
+        question: "What is the application timeline?",
+        answer: "20–30 working days for standard approval; up to 60 days if additional scrutiny or queries arise."
+      },
+      {
+        question: "How do I renew my license?",
+        answer: "Submit renewal form and fee 30 days before expiry, along with up‑to‑date compliance documents."
+      },
+      {
+        question: "Are AYUSH licenses transferable?",
+        answer: "No—licenses are non‑transferable and any change in premises or ownership requires a fresh application."
+      }
+    ]
+  },
+
+  "capexil-registration": {
+    title: "CAPEXIL Registration – An Overview",
+    description: "CAPEXIL, the Chemical and Allied Export Promotion Council of India under the Ministry of Commerce, promotes India’s chemical and allied exports. Certification enhances credibility, provides market development assistance, and is mandatory for exporters of ceramics, rubber, glass, natural stones and related products.",
+    overview: [
+      {
+        heading: "What is CAPEXIL?",
+        content: "Established in 1958, CAPEXIL is a non‑profit export promotion body under the Ministry of Commerce. It supports exporters of over 80,000 chemical and allied products through international trade fairs, market delegations, and policy advocacy to boost India’s global presence."
+      },
+      {
+        heading: "Objectives of CAPEXIL Certification",
+        content: "• Boost chemical exports with Market Development Assistance (MDA)\n• Foster business ties between Indian exporters and global buyers\n• Provide guidance to achieve international competitiveness\n• Implement promotional strategies to expand India’s export footprint"
+      },
+      {
+        heading: "Types of Membership",
+        content: "Associate Membership requires a valid IEC and suits new exporters. Ordinary Membership is open to Associate members with at least 3 years’ export experience and minimum annual export performance of ₹10 lakh (small) or ₹25 lakh (large)."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of CAPEXIL Membership",
+        content: "• Global Market Access via MDA schemes and trade fairs\n• Detailed import-export statistics and trade insights\n• Networking at buyer-seller meets, seminars, and workshops\n• Simplified export return filings (monthly/quarterly)\n• Visa facilitation for international business travel\n• Policy advocacy and liaison with Government bodies"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content: "• Company incorporation certificate, MOA/AOA, PAN details\n• Import Export Code (IEC), GST registration, cancelled cheque\n• Board resolution authorizing membership and latest annual report\n• CA-certified turnover statements for specified thresholds\n• Manufacturing license (if applicable) and self-declaration of non-blacklisted status\n• Export performance data and passport-size photographs of authorized signatories"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply Online",
+        content: "1. Register as new user on CAPEXIL portal with IEC and firm details\n2. Upload scanned copies of all required documents\n3. Pay membership fee via DD or online gateway (₹3,000–₹10,000 based on category)\n4. Receive application number after document verification\n5. Certificate issued by Ministry of Commerce upon successful review"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Membership Fees",
+        description: "• MSME Domestic Suppliers: ₹3,000\n• MSME Manufacturer‑Exporters: ₹5,000\n• Large Manufacturers/Merchant Exporters: ₹10,000\nAdditional charges apply for dual RCMC or panel registration"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup for CAPEXIL Certification?",
+        description: [
+          "1. Over 10 years of export certification expertise",
+          "2. 500+ satisfied chemical exporters supported",
+          "3. End‑to‑end assistance: documentation, filing, compliance",
+          "4. 24/7 query resolution and real‑time application tracking"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is CAPEXIL?",
+        answer: "CAPEXIL is the Chemical and Allied Export Promotion Council of India under the Ministry of Commerce, promoting exports of chemical-based and allied products."
+      },
+      {
+        question: "Is CAPEXIL membership mandatory?",
+        answer: "Yes, for exporters in notified sectors like ceramics, rubber, glassware, natural stones and related chemical products."
+      },
+      {
+        question: "How long is the certification valid?",
+        answer: "The RCMC certificate is valid for one year from date of issue and must be renewed annually via the DGFT portal."
+      },
+      {
+        question: "Can MSMEs apply at reduced fees?",
+        answer: "Yes. MSME Domestic Suppliers pay ₹3,000 and MSME Manufacturer‑Exporters pay ₹5,000."
+      },
+      {
+        question: "What products are covered?",
+        answer: "Auto tyres, glassware, plywood, rubber goods, natural stones, cement, ceramics, paints, explosives, processed minerals, animal by‑products and allied chemical products."
+      },
+      {
+        question: "How does Dostartup assist?",
+        answer: "We manage all documentation, online application, follow‑up and renewals, ensuring seamless compliance and fast approvals."
+      }
+    ]
+  },
+
+
+  
+  
+  
 };
