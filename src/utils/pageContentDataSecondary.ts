@@ -1963,87 +1963,95 @@ export const pageContent: Record<string, PageContentType> = {
     },
   },
 
-
   "usa-company-registration": {
     overview: {
       heading: "Why Choose DoStartup for Company Registration in the USA",
       paragraphs: [
         "Registering a business in the United States opens doors to the world's largest consumer economy, but navigating legal and procedural complexities can be overwhelming—especially for foreign entrepreneurs. DoStartup offers end-to-end, affordable, and hassle-free incorporation services tailored to global founders, startups, and small businesses.",
-        "From selecting the right entity to securing your EIN and U.S. business address, our tech‑enabled process and state‑specific legal expertise ensure smooth, fully compliant registration—no matter where you’re located."
-      ]
+        "From selecting the right entity to securing your EIN and U.S. business address, our tech‑enabled process and state‑specific legal expertise ensure smooth, fully compliant registration—no matter where you’re located.",
+      ],
     },
-  
+
     features: [
       {
         icon: "🚀",
         title: "End‑to‑End Service",
-        description: "We handle everything: entity selection, name reservation, EIN, registered agent, and bank account setup."
+        description:
+          "We handle everything: entity selection, name reservation, EIN, registered agent, and bank account setup.",
       },
       {
         icon: "💻",
         title: "100% Online & Paperless",
-        description: "Complete the entire process remotely without ever visiting the U.S."
+        description:
+          "Complete the entire process remotely without ever visiting the U.S.",
       },
       {
         icon: "🗺️",
         title: "State‑Specific Expertise",
-        description: "Personalized advice on choosing the best state and entity type based on your goals."
-      }
+        description:
+          "Personalized advice on choosing the best state and entity type based on your goals.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Start‑to‑Finish Support",
-        description: "From initial consultation to post‑incorporation compliance, we’re with you every step of the way."
+        description:
+          "From initial consultation to post‑incorporation compliance, we’re with you every step of the way.",
       },
       {
         title: "Quick Turnaround",
-        description: "Get your company registered in as little as 2–5 business days."
+        description:
+          "Get your company registered in as little as 2–5 business days.",
       },
       {
         title: "Affordable & Transparent",
-        description: "Transparent pricing with no hidden fees or recurring charges."
+        description:
+          "Transparent pricing with no hidden fees or recurring charges.",
       },
       {
         title: "Registered Agent & Address",
-        description: "One year of registered agent service plus a free virtual U.S. address included."
+        description:
+          "One year of registered agent service plus a free virtual U.S. address included.",
       },
       {
         title: "EIN & Bank Account Assistance",
-        description: "We help you obtain your EIN and open a U.S. business bank account remotely."
+        description:
+          "We help you obtain your EIN and open a U.S. business bank account remotely.",
       },
       {
         title: "Global Clientele",
-        description: "Trusted by entrepreneurs from over 30 countries to launch their U.S. ventures."
-      }
+        description:
+          "Trusted by entrepreneurs from over 30 countries to launch their U.S. ventures.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Free Expert Consultation",
-          desc: "Discuss your goals and choose the optimal entity and state."
+          desc: "Discuss your goals and choose the optimal entity and state.",
         },
         {
           title: "Name Reservation & Filing",
-          desc: "We check availability and file your formation documents with the Secretary of State."
+          desc: "We check availability and file your formation documents with the Secretary of State.",
         },
         {
           title: "EIN Application",
-          desc: "We apply for your Employer Identification Number with the IRS."
+          desc: "We apply for your Employer Identification Number with the IRS.",
         },
         {
           title: "Registered Agent & Address Setup",
-          desc: "Get one year of registered agent service and a virtual U.S. address with mail forwarding."
+          desc: "Get one year of registered agent service and a virtual U.S. address with mail forwarding.",
         },
         {
           title: "Bank Account Support",
-          desc: "Open a U.S. business bank account remotely through our partner network."
+          desc: "Open a U.S. business bank account remotely through our partner network.",
         },
         {
           title: "Post‑Incorporation Compliance",
-          desc: "We provide ongoing support for annual filings, licenses, and tax registrations."
-        }
+          desc: "We provide ongoing support for annual filings, licenses, and tax registrations.",
+        },
       ],
       violations: [
         "Valid passport or government‑issued ID",
@@ -2051,13 +2059,13 @@ export const pageContent: Record<string, PageContentType> = {
         "U.S. business address (we provide)",
         "Registered agent information (included)",
         "Operating agreement or corporate bylaws",
-        "EIN application authorization"
+        "EIN application authorization",
       ],
       consequences: [
-        "Delays or rejections due to missing or incorrect documents"
-      ]
+        "Delays or rejections due to missing or incorrect documents",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Eligibility Criteria",
@@ -2066,8 +2074,8 @@ export const pageContent: Record<string, PageContentType> = {
           "At least one member (LLC) or director/shareholder (Corp)",
           "Valid passport or national ID",
           "A U.S. address and registered agent (we provide)",
-          "ITIN for non‑U.S. residents (we assist with this)"
-        ]
+          "ITIN for non‑U.S. residents (we assist with this)",
+        ],
       },
       {
         heading: "Who Can Use DoStartup?",
@@ -2075,85 +2083,104 @@ export const pageContent: Record<string, PageContentType> = {
           "Individual entrepreneurs and freelancers",
           "Global startups and small businesses",
           "Non‑residents and residents alike",
-          "International businesses expanding to the U.S."
-        ]
-      }
+          "International businesses expanding to the U.S.",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "LLC (Limited Liability Company)",
-        desc: "Ideal for small to medium businesses seeking flexibility and tax efficiency."
+        desc: "Ideal for small to medium businesses seeking flexibility and tax efficiency.",
       },
       {
         title: "C‑Corporation",
-        desc: "Preferred by startups planning to raise venture capital or go public."
+        desc: "Preferred by startups planning to raise venture capital or go public.",
       },
       {
         title: "S‑Corporation",
-        desc: "Best for U.S. residents wanting pass‑through taxation."
+        desc: "Best for U.S. residents wanting pass‑through taxation.",
       },
       {
         title: "LLP/LP",
-        desc: "Suited for professional service firms and investment ventures."
+        desc: "Suited for professional service firms and investment ventures.",
       },
       {
         title: "Sole Proprietorship",
-        desc: "For freelancers or solopreneurs entering the U.S. market simply."
-      }
+        desc: "For freelancers or solopreneurs entering the U.S. market simply.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "Can a non‑resident register a U.S. company?",
-        answer: "Yes—there is no residency requirement. DoStartup enables fully remote formation for foreign nationals."
+        answer:
+          "Yes—there is no residency requirement. DoStartup enables fully remote formation for foreign nationals.",
       },
       {
         question: "LLC or C‑Corp— which is better?",
-        answer: "LLCs offer flexibility and simpler taxes; C‑Corps are preferred for venture funding. We guide you based on your goals."
+        answer:
+          "LLCs offer flexibility and simpler taxes; C‑Corps are preferred for venture funding. We guide you based on your goals.",
       },
       {
         question: "Which state should I choose?",
-        answer: "Delaware for C‑Corps, Wyoming for LLCs, Nevada for privacy. We advise on the best fit for your needs."
+        answer:
+          "Delaware for C‑Corps, Wyoming for LLCs, Nevada for privacy. We advise on the best fit for your needs.",
       },
       {
         question: "Do I need a U.S. address or phone?",
-        answer: "No—you must have a registered agent in the state, which we provide, and we supply a virtual U.S. address."
+        answer:
+          "No—you must have a registered agent in the state, which we provide, and we supply a virtual U.S. address.",
       },
       {
         question: "What is an EIN?",
-        answer: "An Employer Identification Number issued by the IRS, required for banking, hiring, and tax filings."
+        answer:
+          "An Employer Identification Number issued by the IRS, required for banking, hiring, and tax filings.",
       },
       {
         question: "How long does registration take?",
-        answer: "Typically 2–5 business days for incorporation; EIN may take a few additional days."
+        answer:
+          "Typically 2–5 business days for incorporation; EIN may take a few additional days.",
       },
       {
         question: "What are annual compliance requirements?",
-        answer: "Most states require annual reports and franchise tax filings; we offer ongoing compliance packages."
+        answer:
+          "Most states require annual reports and franchise tax filings; we offer ongoing compliance packages.",
       },
       {
         question: "Will I pay U.S. taxes?",
-        answer: "Yes—tax obligations depend on your entity type and income. We connect you with U.S. tax professionals."
-      }
+        answer:
+          "Yes—tax obligations depend on your entity type and income. We connect you with U.S. tax professionals.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: ["Aspect", "DoStartup Service", "DIY Formation"],
         rows: [
-          ["Process", "Fully managed and paperless", "Self‑file through various state portals"],
+          [
+            "Process",
+            "Fully managed and paperless",
+            "Self‑file through various state portals",
+          ],
           ["Speed", "2–5 business days", "Varies by state; often longer"],
-          ["Support", "Dedicated experts & ongoing compliance", "No professional support included"],
-          ["Pricing", "Transparent all‑in‑one packages", "Variable state and filing fees"]
-        ]
+          [
+            "Support",
+            "Dedicated experts & ongoing compliance",
+            "No professional support included",
+          ],
+          [
+            "Pricing",
+            "Transparent all‑in‑one packages",
+            "Variable state and filing fees",
+          ],
+        ],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
-
 
   "france-company-registration": {
     overview: {
@@ -2161,61 +2188,65 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Establishing a company in France provides access to Europe’s third‑largest economy, with strong markets in finance, insurance, real estate, e‑commerce, and professional services.",
         "France offers 100% foreign ownership, tax benefits via double‑taxation treaties with 120+ countries, and a strategic EU location for trade expansion.",
-        "Corpbiz™ simplifies setting up an LLC in France—drafting MOA/AOA, securing SIRENE/SIRET numbers, handling corporate tax & VAT registrations, obtaining industry licenses, and providing ongoing accounting support."
-      ]
+        "Corpbiz™ simplifies setting up an LLC in France—drafting MOA/AOA, securing SIRENE/SIRET numbers, handling corporate tax & VAT registrations, obtaining industry licenses, and providing ongoing accounting support.",
+      ],
     },
-  
+
     features: [
       {
         icon: "💰",
         title: "Tax Benefits",
-        description: "Access to DTAs with 120+ countries, 15% corporate tax for turnovers under €10 M, and VAT reverse‑charge for non‑residents."
+        description:
+          "Access to DTAs with 120+ countries, 15% corporate tax for turnovers under €10 M, and VAT reverse‑charge for non‑residents.",
       },
       {
         icon: "🌍",
         title: "EU Market Access",
-        description: "Gateway to trade in Germany, Belgium, Spain, Italy, Switzerland and beyond."
+        description:
+          "Gateway to trade in Germany, Belgium, Spain, Italy, Switzerland and beyond.",
       },
       {
         icon: "🏗️",
         title: "Robust Infrastructure",
-        description: "Advanced logistics, telecom, and tech sectors ideal for e‑commerce, freight, and IT businesses."
+        description:
+          "Advanced logistics, telecom, and tech sectors ideal for e‑commerce, freight, and IT businesses.",
       },
       {
         icon: "👥",
         title: "Tourism & Skilled Workforce",
-        description: "Over 85 M annual tourists and a pool of highly skilled professionals in finance, IT, and legal."
-      }
+        description:
+          "Over 85 M annual tourists and a pool of highly skilled professionals in finance, IT, and legal.",
+      },
     ],
-  
+
     benefits: [],
-  
+
     documents: {
       steps: [
         {
           title: "Choose Business Structure",
-          desc: "Select from LLC (SARL), SAS, SA, EURL, SNC, etc."
+          desc: "Select from LLC (SARL), SAS, SA, EURL, SNC, etc.",
         },
         {
           title: "Name Reservation",
-          desc: "Reserve your unique company name with the Trade Register (RCS)."
+          desc: "Reserve your unique company name with the Trade Register (RCS).",
         },
         {
           title: "Submit Incorporation Documents",
-          desc: "File MOA/AOA, passports, proof of address and pay registration fees at the RCS."
+          desc: "File MOA/AOA, passports, proof of address and pay registration fees at the RCS.",
         },
         {
           title: "Obtain Certificates",
-          desc: "Receive the Incorporation Certificate and SIREN/SIRET numbers."
+          desc: "Receive the Incorporation Certificate and SIREN/SIRET numbers.",
         },
         {
           title: "Publish Notice",
-          desc: "Publish incorporation notice in the Official Journal (BODACC)."
+          desc: "Publish incorporation notice in the Official Journal (BODACC).",
         },
         {
           title: "Tax & Social Registrations",
-          desc: "Register for corporate tax, VAT, URSSAF, CPAM and open a French bank account."
-        }
+          desc: "Register for corporate tax, VAT, URSSAF, CPAM and open a French bank account.",
+        },
       ],
       violations: [
         "Passport copies of directors/shareholders",
@@ -2223,7 +2254,7 @@ export const pageContent: Record<string, PageContentType> = {
         "Proof of French business address",
         "Visa or Residence Permit (if applicable)",
         "Business Name Reservation Certificate",
-        "Industry‑specific licenses & permits"
+        "Industry‑specific licenses & permits",
       ],
       consequences: [
         "Obtain KBIS Extract (proof of registration)",
@@ -2231,10 +2262,10 @@ export const pageContent: Record<string, PageContentType> = {
         "Renew trade licenses & permits yearly",
         "Submit UBO declarations",
         "Maintain VAT compliance (turnover > €85,000)",
-        "Hold annual shareholder meetings"
-      ]
+        "Hold annual shareholder meetings",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Eligibility Criteria",
@@ -2245,132 +2276,137 @@ export const pageContent: Record<string, PageContentType> = {
           "Passport copies of directors/shareholders",
           "Local representative appointed (if foreign)",
           "French corporate bank account opened",
-          "Short‑stay Schengen or long‑stay VLS‑TS visa"
-        ]
+          "Short‑stay Schengen or long‑stay VLS‑TS visa",
+        ],
       },
       {
         heading: "Director Requirements",
-        items: [
-          "Must be 18+ years old",
-          "Valid passport & digital signature"
-        ]
-      }
+        items: ["Must be 18+ years old", "Valid passport & digital signature"],
+      },
     ],
-  
+
     services: [
       {
         title: "SARL (LLC)",
-        desc: "100% foreign ownership, no minimum capital, 1+ director, limited liability, 15–25% tax rate."
+        desc: "100% foreign ownership, no minimum capital, 1+ director, limited liability, 15–25% tax rate.",
       },
       {
         title: "SAS (Simplified JSC)",
-        desc: "100% foreign ownership, no minimum capital, 1+ director, limited liability, moderate tax rate."
+        desc: "100% foreign ownership, no minimum capital, 1+ director, limited liability, moderate tax rate.",
       },
       {
         title: "SA (Public JSC)",
-        desc: "100% foreign ownership, ≥ €37,000 capital, 3+ directors, limited liability, higher tax rate."
+        desc: "100% foreign ownership, ≥ €37,000 capital, 3+ directors, limited liability, higher tax rate.",
       },
       {
         title: "EURL (Single‑Member LLC)",
-        desc: "100% foreign ownership, ≥ €1 capital, 1 director, limited liability, moderate tax rate."
+        desc: "100% foreign ownership, ≥ €1 capital, 1 director, limited liability, moderate tax rate.",
       },
       {
         title: "SNC (General Partnership)",
-        desc: "100% foreign ownership, no minimum capital, 2+ partners, unlimited liability, lower tax rate."
-      }
+        desc: "100% foreign ownership, no minimum capital, 2+ partners, unlimited liability, lower tax rate.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "Can I register a company in France from India?",
-        answer: "Yes—Corpbiz™ provides 100% online registration services for foreign entrepreneurs."
+        answer:
+          "Yes—Corpbiz™ provides 100% online registration services for foreign entrepreneurs.",
       },
       {
         question: "What’s the cheapest structure?",
-        answer: "EURL requires just €1 in capital and offers single‑member liability protection."
+        answer:
+          "EURL requires just €1 in capital and offers single‑member liability protection.",
       },
       {
         question: "How long does incorporation take?",
-        answer: "Typically 2–4 weeks with Corpbiz™’s expedited services."
-      }
+        answer: "Typically 2–4 weeks with Corpbiz™’s expedited services.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: [],
-        rows: []
+        rows: [],
       },
-      timelineFees: []
-    }
-  },  
+      timelineFees: [],
+    },
+  },
 
   "singapore-company-registration": {
     overview: {
-      heading: "Company Registration in Singapore – A Complete Guide for Foreign Entrepreneurs",
+      heading:
+        "Company Registration in Singapore – A Complete Guide for Foreign Entrepreneurs",
       paragraphs: [
         "Setting up a company in Singapore is a smart move for foreign individuals and businesses looking to establish a presence in one of Asia’s most advanced economies. Known for its strong fintech sector, import‑export trade, and electronics manufacturing industry, Singapore offers a transparent regulatory framework and a pro‑business environment.",
-        "Whether you’re registering a private limited company or an LLC, Singapore provides the ideal foundation for global growth. At [Your Client’s Brand Name], we simplify the process—drafting MoA & AoA, assisting with EntrePass visas, corporate & GST registration, trade licenses, and virtual CFO support."
-      ]
+        "Whether you’re registering a private limited company or an LLC, Singapore provides the ideal foundation for global growth. At [Your Client’s Brand Name], we simplify the process—drafting MoA & AoA, assisting with EntrePass visas, corporate & GST registration, trade licenses, and virtual CFO support.",
+      ],
     },
-  
+
     features: [
       {
         icon: "💸",
         title: "Attractive Tax Rates",
-        description: "Corporate tax from 5%–15% for first five years, plus R&D and IP deductions up to 400%."
+        description:
+          "Corporate tax from 5%–15% for first five years, plus R&D and IP deductions up to 400%.",
       },
       {
         icon: "🌐",
         title: "DTAs & GST",
-        description: "Double‑taxation treaties with 90+ countries and a low 9% GST (0% on exports)."
+        description:
+          "Double‑taxation treaties with 90+ countries and a low 9% GST (0% on exports).",
       },
       {
         icon: "🏢",
         title: "100% Foreign Ownership",
-        description: "Full foreign ownership allowed with minimal paid‑up capital requirement (SGD 1)."
+        description:
+          "Full foreign ownership allowed with minimal paid‑up capital requirement (SGD 1).",
       },
       {
         icon: "🚀",
         title: "Fast EntrePass Visa",
-        description: "EntrePass approval in under 8 weeks, renewable for 2 years—ideal for startup founders."
+        description:
+          "EntrePass approval in under 8 weeks, renewable for 2 years—ideal for startup founders.",
       },
       {
         icon: "👩‍💼",
         title: "Skilled Workforce & Infrastructure",
-        description: "Access to top‑ranked talent and advanced digital banking, fintech, and logistic ecosystems."
-      }
+        description:
+          "Access to top‑ranked talent and advanced digital banking, fintech, and logistic ecosystems.",
+      },
     ],
-  
+
     benefits: [],
-  
+
     documents: {
       steps: [
         {
           title: "Choose Business Structure",
-          desc: "Select Private Limited (Pte Ltd), LLP, LP or other entities based on your needs."
+          desc: "Select Private Limited (Pte Ltd), LLP, LP or other entities based on your needs.",
         },
         {
           title: "Reserve & Register Name",
-          desc: "Search and reserve your company name via ACRA’s BizFile+ portal (valid for 120 days)."
+          desc: "Search and reserve your company name via ACRA’s BizFile+ portal (valid for 120 days).",
         },
         {
           title: "Submit Incorporation Filing",
-          desc: "Provide MoA, AoA, director/shareholder IDs, address proof, and pay registration fees to ACRA."
+          desc: "Provide MoA, AoA, director/shareholder IDs, address proof, and pay registration fees to ACRA.",
         },
         {
           title: "Obtain UEN & Certificate",
-          desc: "Receive your Unique Entity Number and Certificate of Incorporation from ACRA."
+          desc: "Receive your Unique Entity Number and Certificate of Incorporation from ACRA.",
         },
         {
           title: "Apply Licenses & Passes",
-          desc: "Use GoBusiness to apply for trade licenses, EntrePass/Employment Pass, and industry permits."
+          desc: "Use GoBusiness to apply for trade licenses, EntrePass/Employment Pass, and industry permits.",
         },
         {
           title: "Open Bank Account & Register Taxes",
-          desc: "Open corporate bank account, register for Corporate Tax, GST, CPF and employee health insurance."
-        }
+          desc: "Open corporate bank account, register for Corporate Tax, GST, CPF and employee health insurance.",
+        },
       ],
       violations: [
         "Company Registration Application Form",
@@ -2380,7 +2416,7 @@ export const pageContent: Record<string, PageContentType> = {
         "Singpass digital identity for local agent",
         "Visa or pass documents (EntrePass/Employment Pass)",
         "Power of Attorney for foreign applicants",
-        "Certified translations for non‑English documents"
+        "Certified translations for non‑English documents",
       ],
       consequences: [
         "Appoint company secretary within 6 months",
@@ -2389,10 +2425,10 @@ export const pageContent: Record<string, PageContentType> = {
         "Submit corporate tax returns to IRAS",
         "Maintain records with ACRA at registered address",
         "Make CPF contributions for local employees",
-        "Renew licenses, passes and notify ACRA of changes"
-      ]
+        "Renew licenses, passes and notify ACRA of changes",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Eligibility Criteria",
@@ -2405,194 +2441,212 @@ export const pageContent: Record<string, PageContentType> = {
           "Registered physical or virtual Singapore address",
           "Engage a local filing agent",
           "Open corporate bank account",
-          "GST registration if turnover exceeds SGD 1 M"
-        ]
+          "GST registration if turnover exceeds SGD 1 M",
+        ],
       },
       {
         heading: "Director Requirements",
         items: [
           "At least 18 years old",
           "Valid Singapore pass or residency status",
-          "Minimum one Singapore‑resident director"
-        ]
-      }
+          "Minimum one Singapore‑resident director",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Private Limited Company (Pte Ltd)",
-        desc: "Most popular; 100% foreign‑owned, separate legal entity, limited liability."
+        desc: "Most popular; 100% foreign‑owned, separate legal entity, limited liability.",
       },
       {
         title: "Limited Liability Partnership (LLP)",
-        desc: "Flexibility of partnership with limited liability for partners."
+        desc: "Flexibility of partnership with limited liability for partners.",
       },
       {
         title: "Limited Partnership (LP)",
-        desc: "Combines general partner management with passive limited partner investment."
+        desc: "Combines general partner management with passive limited partner investment.",
       },
       {
         title: "Sole Proprietorship",
-        desc: "Simplest form; owner bears unlimited liability."
+        desc: "Simplest form; owner bears unlimited liability.",
       },
       {
         title: "Exempt Private Company (EPC)",
-        desc: "Private company with ≤20 shareholders, audit exemptions under conditions."
+        desc: "Private company with ≤20 shareholders, audit exemptions under conditions.",
       },
       {
         title: "Foreign Subsidiary",
-        desc: "Separate legal entity owned by a foreign parent; enjoys local tax benefits."
+        desc: "Separate legal entity owned by a foreign parent; enjoys local tax benefits.",
       },
       {
         title: "Branch Office",
-        desc: "Extension of foreign company; parent company fully liable."
-      }
+        desc: "Extension of foreign company; parent company fully liable.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "Why register in Singapore?",
-        answer: "Pro‑business environment, low taxes, DTAs, advanced fintech, and 100% foreign ownership."
+        answer:
+          "Pro‑business environment, low taxes, DTAs, advanced fintech, and 100% foreign ownership.",
       },
       {
         question: "How quickly can I incorporate?",
-        answer: "Usually within 1–3 business days after submitting complete documents to ACRA."
+        answer:
+          "Usually within 1–3 business days after submitting complete documents to ACRA.",
       },
       {
         question: "What is the minimum capital?",
-        answer: "Only SGD 1 paid‑up capital required for most entities."
+        answer: "Only SGD 1 paid‑up capital required for most entities.",
       },
       {
         question: "Do I need a local director?",
-        answer: "Yes—at least one director must be a Singapore citizen, PR, or valid pass holder."
+        answer:
+          "Yes—at least one director must be a Singapore citizen, PR, or valid pass holder.",
       },
       {
         question: "What visas are required?",
-        answer: "EntrePass for innovative startups; Employment Pass for professionals, both handled for you."
+        answer:
+          "EntrePass for innovative startups; Employment Pass for professionals, both handled for you.",
       },
       {
         question: "When must I register for GST?",
-        answer: "If annual turnover exceeds SGD 1 million, or voluntarily at any time."
+        answer:
+          "If annual turnover exceeds SGD 1 million, or voluntarily at any time.",
       },
       {
         question: "Do I need a company secretary?",
-        answer: "Yes—must appoint a qualified secretary within six months of incorporation."
+        answer:
+          "Yes—must appoint a qualified secretary within six months of incorporation.",
       },
       {
         question: "What are ongoing compliance needs?",
-        answer: "Annual returns, AGM, audits (if not exempt), tax filings, CPF contributions, and pass renewals."
-      }
+        answer:
+          "Annual returns, AGM, audits (if not exempt), tax filings, CPF contributions, and pass renewals.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: [],
-        rows: []
+        rows: [],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
 
   "hong-kong-company-registration": {
     overview: {
-      heading: "Company Registration in Hong Kong – A Gateway to Global Business",
+      heading:
+        "Company Registration in Hong Kong – A Gateway to Global Business",
       paragraphs: [
         "Hong Kong stands as a premier business hub with a free port, minimal customs regulations, and 0% VAT on imports and exports, creating a highly attractive trade environment.",
         "With just US$1 minimum capital you can register a Private Limited Company and benefit from a competitive corporate tax rate of 8.25% on annual profits below US$258,056.",
-        "Backed by FTAs with 21 countries and IPAs with 24 nations, Hong Kong ensures smooth cross‑border trade and robust investment protection for global entrepreneurs."
-      ]
+        "Backed by FTAs with 21 countries and IPAs with 24 nations, Hong Kong ensures smooth cross‑border trade and robust investment protection for global entrepreneurs.",
+      ],
     },
-  
+
     features: [
       {
         icon: "🚢",
         title: "Free Port & Minimal Customs",
-        description: "0% VAT on imports/exports and streamlined trade procedures for maximum efficiency."
+        description:
+          "0% VAT on imports/exports and streamlined trade procedures for maximum efficiency.",
       },
       {
         icon: "💵",
         title: "Low Minimum Capital",
-        description: "Incorporate with only US$1 and enjoy 8.25% tax on the first US$258,056 of profits."
+        description:
+          "Incorporate with only US$1 and enjoy 8.25% tax on the first US$258,056 of profits.",
       },
       {
         icon: "🤝",
         title: "Strong Trade Agreements",
-        description: "FTAs with 21 countries and IPAs with 24 nations for duty‑free trade and investment protection."
+        description:
+          "FTAs with 21 countries and IPAs with 24 nations for duty‑free trade and investment protection.",
       },
       {
         icon: "🌐",
         title: "Gateway to Mainland China",
-        description: "CEPA grants preferential access and duty‑free trade with China’s vast market."
-      }
+        description:
+          "CEPA grants preferential access and duty‑free trade with China’s vast market.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Attractive Tax Benefits",
-        description: "No VAT, no capital gains tax, and no withholding tax on foreign-sourced dividends, interest, or royalties."
+        description:
+          "No VAT, no capital gains tax, and no withholding tax on foreign-sourced dividends, interest, or royalties.",
       },
       {
         title: "Low Corporate Income Tax",
-        description: "Tiered rate of 8.25% on the first US$258,056 of profits—much lower than many major economies."
+        description:
+          "Tiered rate of 8.25% on the first US$258,056 of profits—much lower than many major economies.",
       },
       {
         title: "Double Taxation Agreements",
-        description: "DTAs with over 50 countries allow credits and exemptions to avoid double taxation."
+        description:
+          "DTAs with over 50 countries allow credits and exemptions to avoid double taxation.",
       },
       {
         title: "Global Financial Hub",
-        description: "Home to HKEX, no foreign exchange controls, with free trading in bonds, stocks, ETFs, and REITs."
+        description:
+          "Home to HKEX, no foreign exchange controls, with free trading in bonds, stocks, ETFs, and REITs.",
       },
       {
         title: "SME Support Schemes",
-        description: "Government programs like SFGS, EMF, ITF, TID, and SUCCESS offer funding and advisory services."
+        description:
+          "Government programs like SFGS, EMF, ITF, TID, and SUCCESS offer funding and advisory services.",
       },
       {
         title: "Strategic Location",
-        description: "Asia’s leading free port with world‑class legal, financial, and logistics infrastructure."
-      }
+        description:
+          "Asia’s leading free port with world‑class legal, financial, and logistics infrastructure.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Choose Business Structure",
-          desc: "Select from Private Ltd, PLC, subsidiary, branch office, sole proprietorship, GP or LP."
+          desc: "Select from Private Ltd, PLC, subsidiary, branch office, sole proprietorship, GP or LP.",
         },
         {
           title: "Name Search & Reservation",
-          desc: "Reserve a unique company name via the Companies Registry portal."
+          desc: "Reserve a unique company name via the Companies Registry portal.",
         },
         {
           title: "Submit Incorporation Application",
-          desc: "File NNC1/NNC1G form and supporting docs through e‑Registry or in person."
+          desc: "File NNC1/NNC1G form and supporting docs through e‑Registry or in person.",
         },
         {
           title: "Registry Review",
-          desc: "Companies Registry reviews for accuracy and legal compliance."
+          desc: "Companies Registry reviews for accuracy and legal compliance.",
         },
         {
           title: "Receive Certificate & UBI",
-          desc: "Obtain your Certificate of Incorporation and Unique Business Identifier."
+          desc: "Obtain your Certificate of Incorporation and Unique Business Identifier.",
         },
         {
           title: "Register UBI with IRD",
-          desc: "Record your UBI with the Inland Revenue Department for tax purposes."
+          desc: "Record your UBI with the Inland Revenue Department for tax purposes.",
         },
         {
           title: "Open Corporate Bank Account",
-          desc: "Set up a Hong Kong business bank account for operational transactions."
+          desc: "Set up a Hong Kong business bank account for operational transactions.",
         },
         {
           title: "Apply Business Licenses",
-          desc: "Obtain any required trade or industry‑specific licenses before starting."
+          desc: "Obtain any required trade or industry‑specific licenses before starting.",
         },
         {
           title: "Apply Investment/Employment Visa",
-          desc: "Foreigners secure the relevant visa to reside and operate in Hong Kong."
-        }
+          desc: "Foreigners secure the relevant visa to reside and operate in Hong Kong.",
+        },
       ],
       violations: [
         "Completed NNC1/NNC1G incorporation form",
@@ -2602,7 +2656,7 @@ export const pageContent: Record<string, PageContentType> = {
         "Consent to Act forms signed by all officers",
         "Business plan or description for bank and licensing",
         "Board resolution for corporate shareholders",
-        "Shareholder agreement (if applicable)"
+        "Shareholder agreement (if applicable)",
       ],
       consequences: [
         "Open and maintain a corporate bank account",
@@ -2614,10 +2668,10 @@ export const pageContent: Record<string, PageContentType> = {
         "Contribute to MPF and comply with labor laws",
         "Maintain Significant Controllers Register",
         "Issue share certificates within 2 months of allotment",
-        "Notify registry of changes within 15 days"
-      ]
+        "Notify registry of changes within 15 days",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Checklist for Company Registration in Hong Kong",
@@ -2629,97 +2683,103 @@ export const pageContent: Record<string, PageContentType> = {
           "Enroll employees in the MPF scheme if applicable",
           "Open a Hong Kong corporate bank account",
           "Appoint a company secretary and auditor (both ≥18 years old)",
-          "Ensure compliance with the Companies Ordinance (Cap. 622)"
-        ]
+          "Ensure compliance with the Companies Ordinance (Cap. 622)",
+        ],
       },
       {
         heading: "Director Requirements",
         items: [
           "At least one director appointed (no residency requirement)",
           "Director must be ≥18 years old",
-          "Local company secretary must be a Hong Kong resident"
-        ]
-      }
+          "Local company secretary must be a Hong Kong resident",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Private Limited Company",
-        desc: "Separate legal entity with limited liability for up to 50 shareholders."
+        desc: "Separate legal entity with limited liability for up to 50 shareholders.",
       },
       {
         title: "Public Limited Company",
-        desc: "Raise capital from public investors with no shareholder limit."
+        desc: "Raise capital from public investors with no shareholder limit.",
       },
       {
         title: "Subsidiary Company",
-        desc: "Foreign parent owns a separate legal entity enjoying local tax benefits."
+        desc: "Foreign parent owns a separate legal entity enjoying local tax benefits.",
       },
       {
         title: "Branch Office",
-        desc: "Extension of a foreign company where liability rests with the parent."
+        desc: "Extension of a foreign company where liability rests with the parent.",
       },
       {
         title: "Sole Proprietorship",
-        desc: "Single‑owner business with full personal liability."
+        desc: "Single‑owner business with full personal liability.",
       },
       {
         title: "General Partnership",
-        desc: "Two or more partners sharing management and unlimited liability."
+        desc: "Two or more partners sharing management and unlimited liability.",
       },
       {
         title: "Limited Partnership",
-        desc: "General partner manages with full liability; limited partners invest with capped liability."
-      }
+        desc: "General partner manages with full liability; limited partners invest with capped liability.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "Why register in Hong Kong?",
-        answer: "Pro‑business tax regime, no VAT or capital gains tax, DTAs, and strategic Asia‑Pacific location."
+        answer:
+          "Pro‑business tax regime, no VAT or capital gains tax, DTAs, and strategic Asia‑Pacific location.",
       },
       {
         question: "How long does incorporation take?",
-        answer: "Online applications can be approved within one hour; paper filings up to four business days."
+        answer:
+          "Online applications can be approved within one hour; paper filings up to four business days.",
       },
       {
         question: "What is a UBI?",
-        answer: "Unique Business Identifier issued at incorporation, replacing the old Business Registration Number."
+        answer:
+          "Unique Business Identifier issued at incorporation, replacing the old Business Registration Number.",
       },
       {
         question: "Is HKD 1 paid‑up capital sufficient?",
-        answer: "Yes—the legal minimum is HKD 1 for most company types."
+        answer: "Yes—the legal minimum is HKD 1 for most company types.",
       },
       {
         question: "Do I need a local director?",
-        answer: "No—directors can be foreign nationals, but you must appoint a Hong Kong resident company secretary."
+        answer:
+          "No—directors can be foreign nationals, but you must appoint a Hong Kong resident company secretary.",
       },
       {
         question: "Are offshore profits taxed?",
-        answer: "No—Hong Kong taxes only profits sourced within its territory, exempting properly documented offshore income."
+        answer:
+          "No—Hong Kong taxes only profits sourced within its territory, exempting properly documented offshore income.",
       },
       {
         question: "What post‑incorporation filings are required?",
-        answer: "Annual returns, profits tax returns, MPF contributions, AGMs, and statutory register upkeep."
+        answer:
+          "Annual returns, profits tax returns, MPF contributions, AGMs, and statutory register upkeep.",
       },
       {
         question: "Can I operate without a Hong Kong ID?",
-        answer: "Yes—foreigners can fully own and direct a company; only the secretary must be resident."
-      }
+        answer:
+          "Yes—foreigners can fully own and direct a company; only the secretary must be resident.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: [],
-        rows: []
+        rows: [],
       },
-      timelineFees: []
-    }
-  }
-  
-  ,
+      timelineFees: [],
+    },
+  },
+
   "nbfc-compliance": {
     overview: {
       heading: "Simplifying NBFC Compliance for a Stronger Financial Future",
@@ -3112,23 +3172,27 @@ export const pageContent: Record<string, PageContentType> = {
         {
           title: "Missing Utility Bill",
           shortText: "Use recent bills only",
-          backText: "Always attach a utility bill not older than 2 months, or INC‑22 will be rejected."
+          backText:
+            "Always attach a utility bill not older than 2 months, or INC‑22 will be rejected.",
         },
         {
           title: "No NOC from Owner",
           shortText: "Obtain proper NOC",
-          backText: "Failure to include a valid No Objection Certificate invalidates the filing."
+          backText:
+            "Failure to include a valid No Objection Certificate invalidates the filing.",
         },
         {
           title: "Late Filing",
           shortText: "Within 15 days mandatory",
-          backText: "Filing INC‑22 after 15 days incurs heavy penalties—file on time."
+          backText:
+            "Filing INC‑22 after 15 days incurs heavy penalties—file on time.",
         },
         {
           title: "Incorrect Form Usage",
           shortText: "Use correct INC form",
-          backText: "Form INC‑23 is required for ROC‑to‑ROC or state changes; INC‑22 alone isn’t enough."
-        }
+          backText:
+            "Form INC‑23 is required for ROC‑to‑ROC or state changes; INC‑22 alone isn’t enough.",
+        },
       ],
       roleBenefits: [],
       differenceTable: {
@@ -3152,84 +3216,90 @@ export const pageContent: Record<string, PageContentType> = {
         "MCA compliance, also known as corporate or regulatory compliance, ensures that a company adheres to all legal requirements relevant to its business operations, as mandated by local, state, or central government authorities. Staying compliant is critical to the smooth and lawful functioning of any organization.",
         "With frequent changes in corporate laws and regulatory norms, MCA compliance helps your business stay up to date and prepared. At [Your Company Name], we help you navigate these shifts with confidence and clarity.",
         "Failing to comply with statutory regulations can result in financial penalties, loss of business credibility, or even license cancellation. Compliance helps maintain your company’s integrity and fosters trust among customers and stakeholders.",
-        "MCA compliance encourages systematic record‑keeping, streamlined workflows, and timely updates of business activities. This not only helps meet legal standards but also enhances overall business efficiency and reduces operational costs."
-      ]
+        "MCA compliance encourages systematic record‑keeping, streamlined workflows, and timely updates of business activities. This not only helps meet legal standards but also enhances overall business efficiency and reduces operational costs.",
+      ],
     },
-  
+
     features: [
       {
         icon: "📋",
         title: "Dynamic Regulatory Updates",
-        description: "Stay ahead with real‑time tracking of amendments to the Companies Act, 2013, and related rules."
+        description:
+          "Stay ahead with real‑time tracking of amendments to the Companies Act, 2013, and related rules.",
       },
       {
         icon: "🏛️",
         title: "Statutory Filings",
-        description: "Ensure timely submission of key forms—DIR‑3 KYC, DPT‑3, BEN‑1, ADT‑1, AOC‑4, MGT‑7 and more."
+        description:
+          "Ensure timely submission of key forms—DIR‑3 KYC, DPT‑3, BEN‑1, ADT‑1, AOC‑4, MGT‑7 and more.",
       },
       {
         icon: "⚖️",
         title: "LLP & Company Coverage",
-        description: "Comprehensive compliance support for LLPs, Private, Public, Section 8 and One Person Companies."
-      }
+        description:
+          "Comprehensive compliance support for LLPs, Private, Public, Section 8 and One Person Companies.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Adapt to Regulatory Changes",
-        description: "Rapidly integrate amendments and notifications into your compliance calendar."
+        description:
+          "Rapidly integrate amendments and notifications into your compliance calendar.",
       },
       {
         title: "Protect Reputation",
-        description: "Avoid penalties, prosecutions, and adverse publicity through perfect statutory adherence."
+        description:
+          "Avoid penalties, prosecutions, and adverse publicity through perfect statutory adherence.",
       },
       {
         title: "Boost Efficiency",
-        description: "Automated reminders and standardized processes reduce administrative burden and costs."
-      }
+        description:
+          "Automated reminders and standardized processes reduce administrative burden and costs.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Compile KYC Filings",
-          desc: "File DIR‑3 KYC / Web KYC for all directors within six months of financial year‑end."
+          desc: "File DIR‑3 KYC / Web KYC for all directors within six months of financial year‑end.",
         },
         {
           title: "Deposit Returns",
-          desc: "Submit Form DPT‑3 by June 30 for outstanding deposits and exempted receipts."
+          desc: "Submit Form DPT‑3 by June 30 for outstanding deposits and exempted receipts.",
         },
         {
           title: "Beneficial Ownership",
-          desc: "File Form BEN‑1 to declare significant beneficial owners under Section 90."
+          desc: "File Form BEN‑1 to declare significant beneficial owners under Section 90.",
         },
         {
           title: "Auditor Intimation",
-          desc: "Use Form ADT‑1 within 15 days of AGM to notify ROC of auditor appointments."
+          desc: "Use Form ADT‑1 within 15 days of AGM to notify ROC of auditor appointments.",
         },
         {
           title: "Financial Statements",
-          desc: "File AOC‑4 (or AOC‑4 CFS) within 30 days of AGM for standalone or consolidated accounts."
+          desc: "File AOC‑4 (or AOC‑4 CFS) within 30 days of AGM for standalone or consolidated accounts.",
         },
         {
           title: "Annual Return",
-          desc: "Submit MGT‑7 (or MGT‑7A) within 60 days of AGM to report shareholding and management details."
-        }
+          desc: "Submit MGT‑7 (or MGT‑7A) within 60 days of AGM to report shareholding and management details.",
+        },
       ],
       violations: [
         "Late or non‑filing of DIR‑3 KYC",
         "Failure to submit DPT‑3 and BEN‑1 on time",
         "Audited statements not filed within AGM timelines",
-        "Annual return (MGT‑7) delayed or incomplete"
+        "Annual return (MGT‑7) delayed or incomplete",
       ],
       consequences: [
         "Penalties up to ₹100 per day per form",
         "Additional fines for repeated non‑compliance",
         "Disqualification of directors for defaults",
-        "Potential prosecution and license cancellation"
-      ]
+        "Potential prosecution and license cancellation",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Who Must File MCA Forms?",
@@ -3237,118 +3307,141 @@ export const pageContent: Record<string, PageContentType> = {
           "All companies registered under the Companies Act, 2013",
           "Limited Liability Partnerships governed by the LLP Act, 2008",
           "Section 8 (non‑profit) companies",
-          "One Person Companies (OPCs)"
-        ]
-      }
+          "One Person Companies (OPCs)",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Form Preparation & Filing",
-        desc: "Accurate drafting and e‑submission of all MCA e‑Forms with digital signatures."
+        desc: "Accurate drafting and e‑submission of all MCA e‑Forms with digital signatures.",
       },
       {
         title: "Compliance Calendar",
-        desc: "Interactive schedule of all due dates, automated reminders, and real‑time tracking."
+        desc: "Interactive schedule of all due dates, automated reminders, and real‑time tracking.",
       },
       {
         title: "Audit Readiness",
-        desc: "Organize statutory registers and board minutes to streamline your annual audit."
+        desc: "Organize statutory registers and board minutes to streamline your annual audit.",
       },
       {
         title: "LLP & OPC Support",
-        desc: "Specialized services for LLP returns (Form 11, Form 8) and OPC‑specific filings."
+        desc: "Specialized services for LLP returns (Form 11, Form 8) and OPC‑specific filings.",
       },
       {
         title: "Expert Advisory",
-        desc: "Ongoing legal guidance on corporate law changes, ROC queries, and investigation responses."
-      }
+        desc: "Ongoing legal guidance on corporate law changes, ROC queries, and investigation responses.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is DIR‑3 KYC and when is it filed?",
-        answer: "DIR‑3 KYC is the annual KYC form for all DIN‑holding directors, due within six months of the financial year‑end."
+        answer:
+          "DIR‑3 KYC is the annual KYC form for all DIN‑holding directors, due within six months of the financial year‑end.",
       },
       {
         question: "Which form reports deposits accepted by a company?",
-        answer: "Form DPT‑3 must be filed by June 30 each year for deposits and exempted sums."
+        answer:
+          "Form DPT‑3 must be filed by June 30 each year for deposits and exempted sums.",
       },
       {
         question: "What are the key LLP compliance forms?",
-        answer: "LLPs file DIR‑3 KYC, Form 11 (annual return) and Form 8 (statement of solvency) with respective due dates and late‑filing penalties."
+        answer:
+          "LLPs file DIR‑3 KYC, Form 11 (annual return) and Form 8 (statement of solvency) with respective due dates and late‑filing penalties.",
       },
       {
         question: "Which forms must Private Limited Companies file annually?",
-        answer: "They must file DPT‑3, INC‑20A, INC‑22, MSME Form I, ADT‑1, DIR‑3 KYC, DIR‑9, DIR‑12, MGT‑7, and AOC‑4 as applicable."
+        answer:
+          "They must file DPT‑3, INC‑20A, INC‑22, MSME Form I, ADT‑1, DIR‑3 KYC, DIR‑9, DIR‑12, MGT‑7, and AOC‑4 as applicable.",
       },
       {
         question: "How do public limited companies differ in MCA compliance?",
-        answer: "In addition to Private Company forms, PLCs must conduct at least two board meetings per year and file MGT‑8 certification of annual return by a company secretary."
+        answer:
+          "In addition to Private Company forms, PLCs must conduct at least two board meetings per year and file MGT‑8 certification of annual return by a company secretary.",
       },
       {
         question: "Are Section 8 and OPCs subject to the same filings?",
-        answer: "Yes—both must file AOC‑4 and MGT‑7 within AGM timelines, plus OPCs file OPC‑specific forms like MBP‑1 and DPT‑3."
+        answer:
+          "Yes—both must file AOC‑4 and MGT‑7 within AGM timelines, plus OPCs file OPC‑specific forms like MBP‑1 and DPT‑3.",
       },
       {
         question: "What penalties apply for late AGM‑linked filings?",
-        answer: "Late AOC‑4 attracts ₹100 per day; late MGT‑7 similarly ₹100 per day; auditor intimation via ADT‑1 late filing penalty is ₹25,000 or as prescribed."
+        answer:
+          "Late AOC‑4 attracts ₹100 per day; late MGT‑7 similarly ₹100 per day; auditor intimation via ADT‑1 late filing penalty is ₹25,000 or as prescribed.",
       },
       {
         question: "How can [Your Company Name] help with MCA compliance?",
-        answer: "We offer end‑to‑end e‑Form filing, real‑time compliance tracking, audit support, and legal advisory to keep you fully compliant."
-      }
+        answer:
+          "We offer end‑to‑end e‑Form filing, real‑time compliance tracking, audit support, and legal advisory to keep you fully compliant.",
+      },
     ],
-  
+
     types: {
       cards: [
         {
           title: "Corporate Compliance",
           shortText: "Form filings & statutory registers",
-          backText: "All ROC e‑Forms, board minutes, and registers maintained per the Companies Act."
+          backText:
+            "All ROC e‑Forms, board minutes, and registers maintained per the Companies Act.",
         },
         {
           title: "LLP Compliance",
           shortText: "Annual returns & solvency statements",
-          backText: "LLP Form 11, Form 8 filings under LLP Act, 2008 with partner KYC and solvency checks."
+          backText:
+            "LLP Form 11, Form 8 filings under LLP Act, 2008 with partner KYC and solvency checks.",
         },
         {
           title: "OPC Compliance",
           shortText: "Single-member company obligations",
-          backText: "OPC-specific filings like MBP‑1, DIR‑8, DPT‑3, plus standard annual returns."
+          backText:
+            "OPC-specific filings like MBP‑1, DIR‑8, DPT‑3, plus standard annual returns.",
         },
         {
           title: "Section 8 Compliance",
           shortText: "Non-profit entity filings",
-          backText: "AOC‑4 and MGT‑7 for Section 8 companies, plus additional charitable disclosures."
-        }
+          backText:
+            "AOC‑4 and MGT‑7 for Section 8 companies, plus additional charitable disclosures.",
+        },
       ],
       roleBenefits: [
         "Unified compliance framework for all entity types",
         "Automated reminders for every ROC e‑Form deadline",
         "Reduced risk of penalties and legal notices",
-        "Dedicated support for complex investigations and ROC queries"
+        "Dedicated support for complex investigations and ROC queries",
       ],
       differenceTable: {
         columns: ["Entity Type", "Key Forms", "Due Dates"],
         rows: [
-          ["Private Limited", "DPT‑3, MGT‑7, AOC‑4, ADT‑1, DIR‑3", "Jun 30, 60 days post‑AGM, 30 days post‑AGM, 15 days post‑AGM, 6 months FY‑end"],
+          [
+            "Private Limited",
+            "DPT‑3, MGT‑7, AOC‑4, ADT‑1, DIR‑3",
+            "Jun 30, 60 days post‑AGM, 30 days post‑AGM, 15 days post‑AGM, 6 months FY‑end",
+          ],
           ["LLP", "Form 11, Form 8, DIR‑3", "May 30, Oct 30, 6 months FY‑end"],
-          ["OPC", "MBP‑1, DIR‑8, DPT‑3, MGT‑7, AOC‑4", "First BM FY, first BM FY, Jun 30, 60 days post‑AGM, 30 days post‑AGM"],
+          [
+            "OPC",
+            "MBP‑1, DIR‑8, DPT‑3, MGT‑7, AOC‑4",
+            "First BM FY, first BM FY, Jun 30, 60 days post‑AGM, 30 days post‑AGM",
+          ],
           ["Section 8", "MGT‑7, AOC‑4", "60 days post‑AGM, 30 days post‑AGM"],
-          ["Public Ltd.", "INC‑20A, MGT‑7, AOC‑4, DIR‑3, ADT‑1", "180 days Inc., 60/30 days AGM, 6 months FY‑end, 15 days post‑appointment, 15 days post‑AGM"]
-        ]
+          [
+            "Public Ltd.",
+            "INC‑20A, MGT‑7, AOC‑4, DIR‑3, ADT‑1",
+            "180 days Inc., 60/30 days AGM, 6 months FY‑end, 15 days post‑appointment, 15 days post‑AGM",
+          ],
+        ],
       },
       timelineFees: [
         "Initial board & member KYC within 6 months of FY‑end",
         "Deposit returns by June 30 each year",
         "Annual returns & financials 30‑60 days post‑AGM",
         "LLP returns by May 30/Oct 30",
-        "OPC-specific and Section 8 filings per entity timelines"
-      ]
-    }
+        "OPC-specific and Section 8 filings per entity timelines",
+      ],
+    },
   },
-
 
   "mgt-7-compliance": {
     overview: {
@@ -3356,98 +3449,108 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Filing Form MGT-7 is a statutory compliance requirement for every registered company in India. As per Section 92(1) of the Companies Act, 2013 and Rule 11(1) of the Companies (Management and Administration) Rules, 2014, companies must file their annual return using Form MGT-7. This form captures key details of the company’s structure, shareholding, management, and financial position as on the close of the financial year.",
         "Submitting the MGT-7 form enables the Registrar of Companies (ROC) to maintain updated records based on the company’s declaration of accuracy. It ensures legal transparency and helps the company stay compliant with corporate governance norms.",
-        "Need help with Form MGT-7 filing? Connect with our compliance experts today for end-to-end support and hassle-free filing."
-      ]
+        "Need help with Form MGT-7 filing? Connect with our compliance experts today for end-to-end support and hassle-free filing.",
+      ],
     },
-  
+
     features: [
       {
         icon: "⚖️",
         title: "Legal Requirement",
-        description: "MGT-7 is a statutory form that must be filed annually by all eligible companies under Section 92(1)."
+        description:
+          "MGT-7 is a statutory form that must be filed annually by all eligible companies under Section 92(1).",
       },
       {
         icon: "📊",
         title: "Comprehensive Disclosure",
-        description: "Captures detailed shareholding patterns, directorship changes, financial positions, and statutory disclosures."
+        description:
+          "Captures detailed shareholding patterns, directorship changes, financial positions, and statutory disclosures.",
       },
       {
         icon: "🔏",
         title: "Digital Signature",
-        description: "Must be signed electronically by a director (and company secretary, if applicable) before submission."
+        description:
+          "Must be signed electronically by a director (and company secretary, if applicable) before submission.",
       },
       {
         icon: "✅",
         title: "Certification (MGT-8)",
-        description: "Requires certification of accuracy by a Practicing Company Secretary for certain companies under Section 92(2)."
+        description:
+          "Requires certification of accuracy by a Practicing Company Secretary for certain companies under Section 92(2).",
       },
       {
         icon: "📄",
         title: "Extract for Board’s Report (MGT-9)",
-        description: "An extract of the return to be included in the Board’s Report under Section 92(3)."
-      }
+        description:
+          "An extract of the return to be included in the Board’s Report under Section 92(3).",
+      },
     ],
-    
-  
+
     benefits: [
       {
         title: "Promotes Transparency",
-        description: "Ensures stakeholders have clear visibility into the company’s governance and compliance status."
+        description:
+          "Ensures stakeholders have clear visibility into the company’s governance and compliance status.",
       },
       {
         title: "Ensures Legal Compliance",
-        description: "Helps avoid penalties and legal issues by meeting statutory deadlines and requirements."
+        description:
+          "Helps avoid penalties and legal issues by meeting statutory deadlines and requirements.",
       },
       {
         title: "Provides Financial & Operational Insights",
-        description: "Delivers key data on shareholding, indebtedness, and management structure for analysis."
+        description:
+          "Delivers key data on shareholding, indebtedness, and management structure for analysis.",
       },
       {
         title: "Supports Ease of Doing Business",
-        description: "Enhances credibility with regulators, investors, and lenders, facilitating growth opportunities."
+        description:
+          "Enhances credibility with regulators, investors, and lenders, facilitating growth opportunities.",
       },
       {
         title: "Strengthens Corporate Governance",
-        description: "Demonstrates commitment to accountability and high governance standards."
+        description:
+          "Demonstrates commitment to accountability and high governance standards.",
       },
       {
         title: "Boosts Reputation",
-        description: "A compliant track record builds trust with market participants and regulatory bodies."
-      }
+        description:
+          "A compliant track record builds trust with market participants and regulatory bodies.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Document Preparation",
-          desc: "Collect and verify all required documents: financial statements, statutory registers, shareholder and director details, and meeting minutes."
+          desc: "Collect and verify all required documents: financial statements, statutory registers, shareholder and director details, and meeting minutes.",
         },
         {
           title: "Access MCA Portal & Fill Form",
-          desc: "Log in to the MCA portal and complete Form MGT-7 for the financial year ending March 31, entering company particulars and disclosures."
+          desc: "Log in to the MCA portal and complete Form MGT-7 for the financial year ending March 31, entering company particulars and disclosures.",
         },
         {
           title: "Upload Attachments",
-          desc: "Attach all supporting files—financials, MGT-8 (if applicable), ROC acknowledgments, and any extension approvals."
+          desc: "Attach all supporting files—financials, MGT-8 (if applicable), ROC acknowledgments, and any extension approvals.",
         },
         {
           title: "Pay Filing Fees",
-          desc: "Calculate and pay the ROC fee online based on the company’s authorized share capital."
+          desc: "Calculate and pay the ROC fee online based on the company’s authorized share capital.",
         },
         {
           title: "ROC Review & Approval",
-          desc: "Upon submission, the ROC reviews the filing and updates the company’s compliance status once approved."
-        }
+          desc: "Upon submission, the ROC reviews the filing and updates the company’s compliance status once approved.",
+        },
       ],
       violations: [],
       consequences: [
         "Late filing penalty of ₹100 per day beyond the 60‑day deadline",
         "Company‑level fines from ₹50,000 up to ₹500,000 for non‑compliance",
         "Continued daily fines until the form is filed",
-        "Possible legal action under the Companies Act, 2013"
-      ]
+        "Possible legal action under the Companies Act, 2013",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Conditions Required for Form MGT-7 Filing",
@@ -3455,8 +3558,8 @@ export const pageContent: Record<string, PageContentType> = {
           "Incorporated under the Companies Act, 2013 with electronic submission to ROC",
           "Authorized & paid‑up capital of at least ₹2 crores (or as prescribed)",
           "Annual turnover between ₹20 crores and ₹100 crores (or revised thresholds)",
-          "Not classified as an OPC or eligible Small Company (which file MGT‑7A instead)"
-        ]
+          "Not classified as an OPC or eligible Small Company (which file MGT‑7A instead)",
+        ],
       },
       {
         heading: "Who is Eligible to File Form MGT-7?",
@@ -3465,206 +3568,248 @@ export const pageContent: Record<string, PageContentType> = {
           "Holding and subsidiary companies",
           "Section 8 (non‑profit) companies",
           "Companies under Special Acts",
-          "Parent companies overseeing other entities"
-        ]
-      }
+          "Parent companies overseeing other entities",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Over a Decade of Expertise",
-        desc: "10+ years’ industry experience ensuring error‑free, efficient MGT-7 filings."
+        desc: "10+ years’ industry experience ensuring error‑free, efficient MGT-7 filings.",
       },
       {
         title: "Tailored Compliance Packages",
-        desc: "Customized filing solutions based on your company’s size, structure, and needs."
+        desc: "Customized filing solutions based on your company’s size, structure, and needs.",
       },
       {
         title: "Complete Post‑Filing Support",
-        desc: "Ongoing assistance with record‑keeping and compliance updates after submission."
+        desc: "Ongoing assistance with record‑keeping and compliance updates after submission.",
       },
       {
         title: "Hassle‑Free Documentation",
-        desc: "We handle all paperwork and portal uploads so you can focus on your business."
+        desc: "We handle all paperwork and portal uploads so you can focus on your business.",
       },
       {
         title: "Guaranteed Timely Filing",
-        desc: "We ensure your return is filed well before the deadline to avoid penalties."
+        desc: "We ensure your return is filed well before the deadline to avoid penalties.",
       },
       {
         title: "Expert Legal Guidance",
-        desc: "Continuous advisory on corporate law changes, ROC queries, and investigations."
+        desc: "Continuous advisory on corporate law changes, ROC queries, and investigations.",
       },
       {
         title: "End‑to‑End Compliance Solutions",
-        desc: "From data gathering to final ROC approval, we manage every step."
+        desc: "From data gathering to final ROC approval, we manage every step.",
       },
       {
         title: "Cost‑Effective Pricing",
-        desc: "Transparent, competitive fees with no hidden charges."
+        desc: "Transparent, competitive fees with no hidden charges.",
       },
       {
         title: "24×7 Customer Assistance",
-        desc: "Round‑the‑clock support for any compliance queries or emergencies."
-      }
+        desc: "Round‑the‑clock support for any compliance queries or emergencies.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is Form MGT-7?",
-        answer: "The annual return every eligible company must file under Section 92(1) of the Companies Act, 2013, detailing structure, shareholding, and governance."
+        answer:
+          "The annual return every eligible company must file under Section 92(1) of the Companies Act, 2013, detailing structure, shareholding, and governance.",
       },
       {
         question: "What is the difference between AOC-4 and MGT-7?",
-        answer: "AOC-4 is for financial statements; MGT-7 is for the annual return covering directors, shareholders, and governance."
+        answer:
+          "AOC-4 is for financial statements; MGT-7 is for the annual return covering directors, shareholders, and governance.",
       },
       {
         question: "Who is eligible to file Form MGT-7?",
-        answer: "All private/public limited companies except OPCs and eligible small companies (which file MGT‑7A)."
+        answer:
+          "All private/public limited companies except OPCs and eligible small companies (which file MGT‑7A).",
       },
       {
         question: "What is Form MGT-7A?",
-        answer: "A simplified annual return for OPCs and small companies (paid‑up capital ≤ ₹2 cr, turnover ≤ ₹20 cr)."
+        answer:
+          "A simplified annual return for OPCs and small companies (paid‑up capital ≤ ₹2 cr, turnover ≤ ₹20 cr).",
       },
       {
         question: "Who signs Form MGT-7?",
-        answer: "A director (and company secretary, if any) must digitally sign; certification by a practicing professional may be required."
+        answer:
+          "A director (and company secretary, if any) must digitally sign; certification by a practicing professional may be required.",
       },
       {
         question: "Is filing MGT-7 mandatory?",
-        answer: "Yes—failure to file by the deadline invites penalties and legal consequences under the Companies Act."
+        answer:
+          "Yes—failure to file by the deadline invites penalties and legal consequences under the Companies Act.",
       },
       {
         question: "Can MGT-7 be revised after filing?",
-        answer: "No—ensure all information is accurate before submission, as revisions are not permitted."
+        answer:
+          "No—ensure all information is accurate before submission, as revisions are not permitted.",
       },
       {
         question: "What are the penalties for late filing?",
-        answer: "₹100 per day delay plus company‑level fines up to ₹5 lakh and possible legal action."
-      }
+        answer:
+          "₹100 per day delay plus company‑level fines up to ₹5 lakh and possible legal action.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: ["Aspect", "Form MGT-7", "Form MGT-7A"],
         rows: [
-          ["Definition", "Standard annual return for most companies", "Simplified return for OPCs & small companies"],
-          ["Purpose", "Comprehensive disclosure of governance, shareholding, and financials", "Basic operational and financial information"],
-          ["Who Should File", "All companies except OPCs & eligible small companies", "OPCs and small companies (paid‑up ≤ ₹2 cr, turnover ≤ ₹20 cr)"],
-          ["Certification", "Requires MGT‑8 by PCS for certain companies", "Certification by CS if applicable"],
-          ["Deadline", "Within 60 days of AGM", "Within 60 days of AGM (standard: Nov 29 for FY‑end Mar 31)"]
-        ]
+          [
+            "Definition",
+            "Standard annual return for most companies",
+            "Simplified return for OPCs & small companies",
+          ],
+          [
+            "Purpose",
+            "Comprehensive disclosure of governance, shareholding, and financials",
+            "Basic operational and financial information",
+          ],
+          [
+            "Who Should File",
+            "All companies except OPCs & eligible small companies",
+            "OPCs and small companies (paid‑up ≤ ₹2 cr, turnover ≤ ₹20 cr)",
+          ],
+          [
+            "Certification",
+            "Requires MGT‑8 by PCS for certain companies",
+            "Certification by CS if applicable",
+          ],
+          [
+            "Deadline",
+            "Within 60 days of AGM",
+            "Within 60 days of AGM (standard: Nov 29 for FY‑end Mar 31)",
+          ],
+        ],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
-
 
   "spice-plus-compliance": {
     overview: {
-      heading: "SPICe+ Form: A Comprehensive Solution for Company Registration in India",
+      heading:
+        "SPICe+ Form: A Comprehensive Solution for Company Registration in India",
       paragraphs: [
         "The SPICe+ (Simplified Proforma for Incorporating Company Electronically Plus) Form is a powerful web‑based application introduced by the Ministry of Corporate Affairs in 2020 to streamline the company incorporation process in India.",
         "Designed to reduce paperwork and enhance efficiency, SPICe+ enables entrepreneurs to handle multiple registrations through a single, integrated platform—covering name reservation, incorporation, PAN, TAN, GST, EPFO, ESIC and more.",
-        "By merging several compliance procedures into one simplified process, SPICe+ (INC‑32) has become a vital tool for startups and businesses aiming for quick and hassle‑free company formation."
-      ]
+        "By merging several compliance procedures into one simplified process, SPICe+ (INC‑32) has become a vital tool for startups and businesses aiming for quick and hassle‑free company formation.",
+      ],
     },
-  
+
     features: [
       {
         icon: "🌐",
         title: "Integrated Online Platform",
-        description: "Replaces multiple forms with a single digital solution for company incorporation."
+        description:
+          "Replaces multiple forms with a single digital solution for company incorporation.",
       },
       {
         icon: "🧩",
         title: "Dual‑Part Structure",
-        description: "Part A for name reservation (RUN), Part B for incorporation and linked registrations."
+        description:
+          "Part A for name reservation (RUN), Part B for incorporation and linked registrations.",
       },
       {
         icon: "🔗",
         title: "Multi‑Service Access",
-        description: "Apply simultaneously for PAN, TAN, GST, EPFO, ESIC, professional tax, bank account, etc."
+        description:
+          "Apply simultaneously for PAN, TAN, GST, EPFO, ESIC, professional tax, bank account, etc.",
       },
       {
         icon: "📊",
         title: "User‑Friendly Dashboard",
-        description: "Track progress, make updates, and manage submissions via an intuitive interface."
+        description:
+          "Track progress, make updates, and manage submissions via an intuitive interface.",
       },
       {
         icon: "✅",
         title: "Real‑Time Data Validation",
-        description: "Instant checks during on‑screen filing to minimize errors and ensure accuracy."
+        description:
+          "Instant checks during on‑screen filing to minimize errors and ensure accuracy.",
       },
       {
         icon: "🔄",
         title: "Seamless Resubmission",
-        description: "Easily correct and resubmit forms without starting from scratch."
+        description:
+          "Easily correct and resubmit forms without starting from scratch.",
       },
       {
         icon: "🔍",
         title: "Pre‑Scrutiny & System Checks",
-        description: "Automated validations catch issues before final submission."
+        description:
+          "Automated validations catch issues before final submission.",
       },
       {
         icon: "📝",
         title: "Auto‑Generated Declarations",
-        description: "Standard declarations for first directors and subscribers are populated automatically."
+        description:
+          "Standard declarations for first directors and subscribers are populated automatically.",
       },
       {
         icon: "📑",
         title: "Section‑Based Navigation",
-        description: "Logical form sections make data entry and review straightforward."
-      }
+        description:
+          "Logical form sections make data entry and review straightforward.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Simplified Compliance Process",
-        description: "Consolidates incorporation, PAN/TAN/GST/EPFO/ESIC registrations into one application."
+        description:
+          "Consolidates incorporation, PAN/TAN/GST/EPFO/ESIC registrations into one application.",
       },
       {
         title: "Digitally Signed & Legally Valid",
-        description: "All documents are digitally signed, ensuring security, authenticity, and legal validity."
+        description:
+          "All documents are digitally signed, ensuring security, authenticity, and legal validity.",
       },
       {
         title: "Seamless Department Integration",
-        description: "Built‑in links to multiple government departments speed up approvals."
+        description:
+          "Built‑in links to multiple government departments speed up approvals.",
       },
       {
         title: "Reduced Processing Time",
-        description: "Automated workflows and combined filings enable faster company incorporation."
+        description:
+          "Automated workflows and combined filings enable faster company incorporation.",
       },
       {
         title: "Enhanced User Experience",
-        description: "On‑screen submission, intuitive navigation, and real‑time feedback simplify the process."
-      }
+        description:
+          "On‑screen submission, intuitive navigation, and real‑time feedback simplify the process.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Create SPICe+ Login",
-          desc: "Register or log in on the MCA portal and generate filing credentials."
+          desc: "Register or log in on the MCA portal and generate filing credentials.",
         },
         {
           title: "File Part A (Name Reservation)",
-          desc: "Submit company type, proposed name, class, category and get RUN approval."
+          desc: "Submit company type, proposed name, class, category and get RUN approval.",
         },
         {
           title: "File Part B (Incorporation)",
-          desc: "Enter incorporation details: address, directors, shareholders, capital, etc."
+          desc: "Enter incorporation details: address, directors, shareholders, capital, etc.",
         },
         {
           title: "Submit Linked Forms",
-          desc: "Attach eMoA, eAoA, AGILE PRO (INC‑35), URC‑1 (if conversion), INC‑9 declarations."
+          desc: "Attach eMoA, eAoA, AGILE PRO (INC‑35), URC‑1 (if conversion), INC‑9 declarations.",
         },
         {
           title: "Certificate of Incorporation",
-          desc: "Receive CIN, PAN, TAN and date of incorporation once ROC verifies submission."
-        }
+          desc: "Receive CIN, PAN, TAN and date of incorporation once ROC verifies submission.",
+        },
       ],
       violations: [
         "Electronic Memorandum of Association (eMoA)",
@@ -3678,13 +3823,13 @@ export const pageContent: Record<string, PageContentType> = {
         "Consent of nominee (INC‑3 for OPCs)",
         "Identity & address proofs (PAN, Aadhaar, passport)",
         "Form INC‑14 & INC‑15 for Section 8 companies",
-        "Estimated annual income & expenditure (Section 8)"
+        "Estimated annual income & expenditure (Section 8)",
       ],
       consequences: [
-        "Delays or rejections due to incomplete or incorrect documentation"
-      ]
+        "Delays or rejections due to incomplete or incorrect documentation",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Eligibility Criteria for SPICe+ Filing",
@@ -3694,8 +3839,8 @@ export const pageContent: Record<string, PageContentType> = {
           "Registered office owned or lawfully occupied by the applicant",
           "Consolidated challan generated for government fees (MoA, AoA, PAN, TAN)",
           "Authorized capital up to ₹15 lakhs for zero‑fee benefit",
-          "eMoA & eAoA prepared electronically"
-        ]
+          "eMoA & eAoA prepared electronically",
+        ],
       },
       {
         heading: "Who Can File SPICe+?",
@@ -3705,92 +3850,112 @@ export const pageContent: Record<string, PageContentType> = {
           "Foreign nationals or entities setting up in India",
           "Private & Public Limited Companies",
           "One Person Companies (OPC)",
-          "Producer Companies"
-        ]
-      }
+          "Producer Companies",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Name Reservation",
-        desc: "Integrated RUN service for instant company name approval."
+        desc: "Integrated RUN service for instant company name approval.",
       },
       {
         title: "Company Incorporation",
-        desc: "Unified filing for company setup—type, category, address, directors."
+        desc: "Unified filing for company setup—type, category, address, directors.",
       },
       {
         title: "DIN Allotment",
-        desc: "Automatic Director Identification Number issuance during incorporation."
+        desc: "Automatic Director Identification Number issuance during incorporation.",
       },
       {
         title: "PAN & TAN Application",
-        desc: "Embedded PAN/TAN filings with Income Tax Department."
+        desc: "Embedded PAN/TAN filings with Income Tax Department.",
       },
       {
         title: "EPFO & ESIC Registration",
-        desc: "One‑click registration for employee welfare schemes."
+        desc: "One‑click registration for employee welfare schemes.",
       },
       {
         title: "Professional Tax & Bank Account",
-        desc: "Apply for professional tax and open a corporate bank account seamlessly."
+        desc: "Apply for professional tax and open a corporate bank account seamlessly.",
       },
       {
         title: "GSTIN Allotment",
-        desc: "Integrated GST registration within the SPICe+ workflow."
-      }
+        desc: "Integrated GST registration within the SPICe+ workflow.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is the SPICe+ Form?",
-        answer: "An integrated e‑application by MCA to streamline company incorporation and multiple registrations."
+        answer:
+          "An integrated e‑application by MCA to streamline company incorporation and multiple registrations.",
       },
       {
         question: "Where do I file SPICe+?",
-        answer: "Online via the official MCA portal under the SPICe+ section."
+        answer: "Online via the official MCA portal under the SPICe+ section.",
       },
       {
         question: "Who can certify SPICe+?",
-        answer: "A CA, CS, or CMA authorized under the Companies Act, 2013."
+        answer: "A CA, CS, or CMA authorized under the Companies Act, 2013.",
       },
       {
         question: "What services does SPICe+ cover?",
-        answer: "Name reservation, incorporation, DIN, PAN, TAN, GST, EPFO, ESIC, professional tax, bank account, etc."
+        answer:
+          "Name reservation, incorporation, DIN, PAN, TAN, GST, EPFO, ESIC, professional tax, bank account, etc.",
       },
       {
         question: "Do I need INC‑22 with SPICe+?",
-        answer: "Not generally—INC‑22 is only required for changes in registered office after incorporation."
+        answer:
+          "Not generally—INC‑22 is only required for changes in registered office after incorporation.",
       },
       {
         question: "What’s the file size limit?",
-        answer: "Each attachment must not exceed 6 MB (PDF or JPG)."
+        answer: "Each attachment must not exceed 6 MB (PDF or JPG).",
       },
       {
         question: "Can I resubmit SPICe+ multiple times?",
-        answer: "Yes—ensure details are correct to avoid delays or rejections."
+        answer: "Yes—ensure details are correct to avoid delays or rejections.",
       },
       {
         question: "How does SPICe+ differ from SPICe?",
-        answer: "SPICe+ adds integrated multi‑service registrations and real‑time validation over the older SPICe form."
-      }
+        answer:
+          "SPICe+ adds integrated multi‑service registrations and real‑time validation over the older SPICe form.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: ["Aspect", "SPICe Form", "SPICe+ Form"],
         rows: [
-          ["Scope", "Basic incorporation (INC‑32)", "Incorporation + multiple registrations"],
-          ["Integration", "Limited to company setup", "PAN, TAN, GST, EPFO, ESIC, bank account, etc."],
-          ["User Experience", "Multiple separate filings", "Single unified workflow"],
+          [
+            "Scope",
+            "Basic incorporation (INC‑32)",
+            "Incorporation + multiple registrations",
+          ],
+          [
+            "Integration",
+            "Limited to company setup",
+            "PAN, TAN, GST, EPFO, ESIC, bank account, etc.",
+          ],
+          [
+            "User Experience",
+            "Multiple separate filings",
+            "Single unified workflow",
+          ],
           ["Validation", "Manual checks", "Real‑time data validation"],
-          ["Processing Time", "Longer turnaround", "Faster approvals via automation"]
-        ]
+          [
+            "Processing Time",
+            "Longer turnaround",
+            "Faster approvals via automation",
+          ],
+        ],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
 
   "agile-pro-s-compliance": {
@@ -3799,87 +3964,98 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Form AGILE PRO S is a crucial application filed with the MCA alongside SPICe+ to obtain GST, EPFO, ESIC, Profession Tax and bank account registration in one go under Rule 38(A) of the Companies (Incorporation) Rules, 2014.",
         "Designed as a single‑window system, AGILE PRO S (INC‑35) streamlines mandatory post‑incorporation registrations, reducing paperwork and accelerating business readiness.",
-        "It ensures new companies are legally compliant from day one by bundling multiple statutory filings into one integrated form."
-      ]
+        "It ensures new companies are legally compliant from day one by bundling multiple statutory filings into one integrated form.",
+      ],
     },
-  
+
     features: [
       {
         icon: "🌐",
         title: "Multi‑Service Integration",
-        description: "Consolidates GSTIN, EPFO, ESIC, Professional Tax, Shops & Establishment and bank account registrations under one application."
+        description:
+          "Consolidates GSTIN, EPFO, ESIC, Professional Tax, Shops & Establishment and bank account registrations under one application.",
       },
       {
         icon: "⚡",
         title: "Accelerated Registration",
-        description: "Enables faster operational setup by filing all mandatory post‑incorporation registrations in a single workflow."
+        description:
+          "Enables faster operational setup by filing all mandatory post‑incorporation registrations in a single workflow.",
       },
       {
         icon: "🔄",
         title: "Eliminates Redundancy",
-        description: "Minimizes repetitive data entry by integrating with SPICe+ and other MCA e‑services."
+        description:
+          "Minimizes repetitive data entry by integrating with SPICe+ and other MCA e‑services.",
       },
       {
         icon: "✅",
         title: "Regulatory Compliance Made Easy",
-        description: "Ensures statutory obligations to GST, EPFO, ESIC and other authorities are met seamlessly."
+        description:
+          "Ensures statutory obligations to GST, EPFO, ESIC and other authorities are met seamlessly.",
       },
       {
         icon: "📑",
         title: "Mandatory Proof Submission",
-        description: "Captures business address proof, KYC documents, board resolutions and declarations within the same form."
-      }
+        description:
+          "Captures business address proof, KYC documents, board resolutions and declarations within the same form.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Single‑Window Registration",
-        description: "Automatic filing for multiple services—GST, EPFO, ESIC, Professional Tax, bank account—through one form."
+        description:
+          "Automatic filing for multiple services—GST, EPFO, ESIC, Professional Tax, bank account—through one form.",
       },
       {
         title: "Integrated with SPICe+",
-        description: "Smooth name reservation and incorporation linkage saves time and effort."
+        description:
+          "Smooth name reservation and incorporation linkage saves time and effort.",
       },
       {
         title: "Boosts Operational Efficiency",
-        description: "Reduces administrative workload and speeds up business readiness."
+        description:
+          "Reduces administrative workload and speeds up business readiness.",
       },
       {
         title: "Ensures Legal Compliance",
-        description: "Meets key statutory obligations for tax, labor laws, and banking in one go."
+        description:
+          "Meets key statutory obligations for tax, labor laws, and banking in one go.",
       },
       {
         title: "Access to Government Schemes",
-        description: "Unlock eligibility for Startup India, MSME registration and other incentives immediately."
+        description:
+          "Unlock eligibility for Startup India, MSME registration and other incentives immediately.",
       },
       {
         title: "Minimizes Paperwork",
-        description: "Combines multiple registrations into a single submission to reduce documentation."
-      }
+        description:
+          "Combines multiple registrations into a single submission to reduce documentation.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Fill Out Application",
-          desc: "Download AGILE PRO S (INC‑35) after SPICe+ submission and enter registration details."
+          desc: "Download AGILE PRO S (INC‑35) after SPICe+ submission and enter registration details.",
         },
         {
           title: "Attach Supporting Documents",
-          desc: "Upload proof of business address, authorized signatory ID/KYC, board resolution, specimen signature and utility bills."
+          desc: "Upload proof of business address, authorized signatory ID/KYC, board resolution, specimen signature and utility bills.",
         },
         {
           title: "Submit Declarations",
-          desc: "File EPFO, ESIC and bank account declarations as required by respective authorities."
+          desc: "File EPFO, ESIC and bank account declarations as required by respective authorities.",
         },
         {
           title: "Sign & Pay",
-          desc: "Affix the DSC of the authorized signatory and pay government fees to finalize filing."
+          desc: "Affix the DSC of the authorized signatory and pay government fees to finalize filing.",
         },
         {
           title: "Processing & Approval",
-          desc: "MCA reviews the application and grants multiple registrations in one go."
-        }
+          desc: "MCA reviews the application and grants multiple registrations in one go.",
+        },
       ],
       violations: [
         "Proof of business address (rent agreement, utility bill)",
@@ -3888,13 +4064,13 @@ export const pageContent: Record<string, PageContentType> = {
         "Specimen signature for EPFO",
         "Utility bill for bank KYC",
         "Standard declarations for ESIC/EPFO",
-        "INC‑35 e-form correctly filled"
+        "INC‑35 e-form correctly filled",
       ],
       consequences: [
-        "Delays or rejections due to incomplete or incorrect documentation"
-      ]
+        "Delays or rejections due to incomplete or incorrect documentation",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Basic Requirements for AGILE PRO S Filing",
@@ -3902,101 +4078,120 @@ export const pageContent: Record<string, PageContentType> = {
           "Mandatory EPFO & ESIC registration applications",
           "All supporting documents prepared and verified",
           "Bank KYC norms complied for current account setup",
-          "Compliance with any state‑specific requirements"
-        ]
+          "Compliance with any state‑specific requirements",
+        ],
       },
       {
         heading: "Who Can Apply for AGILE PRO S?",
         items: [
           "Startups and SMEs during incorporation",
           "Private & Public Limited Companies",
-          "Limited Liability Partnerships (LLPs)"
-        ]
-      }
+          "Limited Liability Partnerships (LLPs)",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "GSTIN Registration",
-        desc: "Automatic application for Goods and Services Tax Identification Number."
+        desc: "Automatic application for Goods and Services Tax Identification Number.",
       },
       {
         title: "ESIC Registration",
-        desc: "Registration under the Employees’ State Insurance Act for establishments with ≥10 employees."
+        desc: "Registration under the Employees’ State Insurance Act for establishments with ≥10 employees.",
       },
       {
         title: "EPFO Registration",
-        desc: "Provident fund registration for businesses with ≥20 employees."
+        desc: "Provident fund registration for businesses with ≥20 employees.",
       },
       {
         title: "Professional Tax",
-        desc: "Professional tax registration as per state requirements."
+        desc: "Professional tax registration as per state requirements.",
       },
       {
         title: "Bank Account Opening",
-        desc: "Seamless setup of a corporate current account through partner banks."
+        desc: "Seamless setup of a corporate current account through partner banks.",
       },
       {
         title: "Shops & Establishment",
-        desc: "State‑specific Shops & Establishment registration where applicable."
+        desc: "State‑specific Shops & Establishment registration where applicable.",
       },
       {
         title: "Import‑Export Code",
-        desc: "IEC application for import/export activities via DGFT."
-      }
+        desc: "IEC application for import/export activities via DGFT.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is the AGILE PRO S Form?",
-        answer: "An MCA e‑form (INC‑35) for obtaining GST, EPFO, ESIC, Professional Tax, bank account and other registrations post–incorporation."
+        answer:
+          "An MCA e‑form (INC‑35) for obtaining GST, EPFO, ESIC, Professional Tax, bank account and other registrations post–incorporation.",
       },
       {
         question: "What does AGILE PRO S stand for?",
-        answer: "Application for GSTIN, ESIC, EPFO, Professional Tax Registration, Shops & Establishment (and bank account opening)."
+        answer:
+          "Application for GSTIN, ESIC, EPFO, Professional Tax Registration, Shops & Establishment (and bank account opening).",
       },
       {
         question: "Who must file AGILE PRO S?",
-        answer: "All newly incorporated entities seeking mandatory post‑incorporation registrations."
+        answer:
+          "All newly incorporated entities seeking mandatory post‑incorporation registrations.",
       },
       {
         question: "Is bank KYC part of AGILE PRO S?",
-        answer: "Yes—you must upload KYC documents for the authorized signatory to open the corporate bank account."
+        answer:
+          "Yes—you must upload KYC documents for the authorized signatory to open the corporate bank account.",
       },
       {
         question: "What is the file size limit?",
-        answer: "Attachments should not exceed 2 MB per document as per MCA portal guidelines."
+        answer:
+          "Attachments should not exceed 2 MB per document as per MCA portal guidelines.",
       },
       {
         question: "Can I correct and resubmit?",
-        answer: "Yes—AGILE PRO S allows seamless resubmission in case of errors."
+        answer:
+          "Yes—AGILE PRO S allows seamless resubmission in case of errors.",
       },
       {
         question: "How long for approvals?",
-        answer: "Typically processed together with SPICe+ approvals, often within a few working days."
+        answer:
+          "Typically processed together with SPICe+ approvals, often within a few working days.",
       },
       {
         question: "Difference between SPICe+ and AGILE PRO S?",
-        answer: "SPICe+ handles incorporation and name reservation; AGILE PRO S handles post‑incorporation registrations."
-      }
+        answer:
+          "SPICe+ handles incorporation and name reservation; AGILE PRO S handles post‑incorporation registrations.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: ["Aspect", "SPICe+ Form", "AGILE PRO S Form"],
         rows: [
-          ["Primary Purpose", "Company incorporation & name reservation", "Post‑incorporation statutory registrations"],
-          ["Services", "DIN, PAN, TAN, GST (optional)", "GSTIN, ESIC, EPFO, Professional Tax, bank account, etc."],
-          ["Timing", "Filed first for incorporation", "Filed immediately after SPICe+ submission"],
-          ["Focus", "Formation compliance", "Operational readiness"]
-        ]
+          [
+            "Primary Purpose",
+            "Company incorporation & name reservation",
+            "Post‑incorporation statutory registrations",
+          ],
+          [
+            "Services",
+            "DIN, PAN, TAN, GST (optional)",
+            "GSTIN, ESIC, EPFO, Professional Tax, bank account, etc.",
+          ],
+          [
+            "Timing",
+            "Filed first for incorporation",
+            "Filed immediately after SPICe+ submission",
+          ],
+          ["Focus", "Formation compliance", "Operational readiness"],
+        ],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
-
 
   "ce-certification-compliance": {
     overview: {
@@ -4004,110 +4199,119 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Obtaining the CE mark demonstrates that your product complies with EU health, safety, and environmental protection standards—mandatory for lawful distribution across the European Economic Area (EEA).",
         "The CE mark, or Conformité Européenne, acts as a passport allowing free movement of goods within the EEA and signifies conformity with all applicable EU directives and regulations.",
-        "Partner with Corpbiz™ to streamline the CE certification process and confidently enter one of the world’s most robust and business-friendly markets."
-      ]
+        "Partner with Corpbiz™ to streamline the CE certification process and confidently enter one of the world’s most robust and business-friendly markets.",
+      ],
     },
-  
+
     features: [
       {
         icon: "🔖",
         title: "Legal Market Access",
-        description: "CE marking is a legal requirement for many regulated products to enter and circulate freely within the EEA."
+        description:
+          "CE marking is a legal requirement for many regulated products to enter and circulate freely within the EEA.",
       },
       {
         icon: "⚖️",
         title: "Harmonized Standards",
-        description: "Ensures all manufacturers adhere to the same EU directives for health, safety, and environmental protection."
+        description:
+          "Ensures all manufacturers adhere to the same EU directives for health, safety, and environmental protection.",
       },
       {
         icon: "🔬",
         title: "Conformity Assessment",
-        description: "Supports both self-assessment for low-risk products and notified body evaluation where required."
+        description:
+          "Supports both self-assessment for low-risk products and notified body evaluation where required.",
       },
       {
         icon: "🛡️",
         title: "Consumer Safety",
-        description: "Protects end users by mandating rigorous testing and risk assessment before market entry."
+        description:
+          "Protects end users by mandating rigorous testing and risk assessment before market entry.",
       },
       {
         icon: "🌍",
         title: "Free Movement of Goods",
-        description: "Eliminates country-specific approvals—once CE marked, products can be sold across the entire EEA."
-      }
+        description:
+          "Eliminates country-specific approvals—once CE marked, products can be sold across the entire EEA.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Fair Competition",
-        description: "Level playing field ensuring all products meet the same mandatory EU requirements."
+        description:
+          "Level playing field ensuring all products meet the same mandatory EU requirements.",
       },
       {
         title: "Market Confidence",
-        description: "Enhances product credibility and consumer trust through demonstrated compliance."
+        description:
+          "Enhances product credibility and consumer trust through demonstrated compliance.",
       },
       {
         title: "Regulatory Protection",
-        description: "CE mark holders gain legal protection from enforcement actions when correctly certified."
+        description:
+          "CE mark holders gain legal protection from enforcement actions when correctly certified.",
       },
       {
         title: "Global Recognition",
-        description: "Widely respected outside Europe as a mark of high regulatory compliance."
-      }
+        description:
+          "Widely respected outside Europe as a mark of high regulatory compliance.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Identify Applicable Directives",
-          desc: "Determine which EU directives and harmonized standards apply to your product."
+          desc: "Determine which EU directives and harmonized standards apply to your product.",
         },
         {
           title: "Conformity Assessment",
-          desc: "Choose self-assessment or engage a notified body based on product risk classification."
+          desc: "Choose self-assessment or engage a notified body based on product risk classification.",
         },
         {
           title: "Compile Technical File",
-          desc: "Assemble product specifications, test reports, risk assessments, and design documentation."
+          desc: "Assemble product specifications, test reports, risk assessments, and design documentation.",
         },
         {
           title: "Draft EU Declaration of Conformity",
-          desc: "Formalize compliance in a signed declaration, referencing all applicable directives."
+          desc: "Formalize compliance in a signed declaration, referencing all applicable directives.",
         },
         {
           title: "Affix CE Mark",
-          desc: "Place the CE logo (minimum 5 mm height) and notified body number (if any) on the product or packaging."
-        }
+          desc: "Place the CE logo (minimum 5 mm height) and notified body number (if any) on the product or packaging.",
+        },
       ],
       violations: [
         "Product description and technical specifications",
         "Test reports verifying compliance with EU harmonized standards",
         "Risk assessment documentation",
         "Signed EU Declaration of Conformity",
-        "Notified body certificate number (if applicable)"
+        "Notified body certificate number (if applicable)",
       ],
       consequences: [
         "Market withdrawal or bans for non-compliant products",
         "Fines or legal action by EU authorities",
-        "Damage to brand reputation and customer trust"
-      ]
+        "Damage to brand reputation and customer trust",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Who Needs CE Certification?",
         items: [
           "Manufacturers, importers, or distributors of products covered by EU directives",
           "Products in categories such as medical devices, toys, PPE, electronics, machinery, and more",
-          "Low‑risk products may self‑certify; higher‑risk items require notified body involvement"
-        ]
+          "Low‑risk products may self‑certify; higher‑risk items require notified body involvement",
+        ],
       },
       {
         heading: "Key Technical Requirements",
         items: [
           "Compliance with all relevant EU directives and harmonized standards",
           "Maintenance of a complete technical file for at least 10 years post‑market placement",
-          "Signed EU Declaration of Conformity kept up to date"
-        ]
+          "Signed EU Declaration of Conformity kept up to date",
+        ],
       },
       {
         heading: "Products Eligible for CE Certification",
@@ -4121,8 +4325,8 @@ export const pageContent: Record<string, PageContentType> = {
           "Gas‑Fired Hot‑Water Boilers",
           "Lifts and Elevators",
           "Measuring Instruments",
-          "Pressure Equipment and Simple Pressure Vessels"
-        ]
+          "Pressure Equipment and Simple Pressure Vessels",
+        ],
       },
       {
         heading: "Checklist to Obtain CE Marking",
@@ -4134,113 +4338,143 @@ export const pageContent: Record<string, PageContentType> = {
           "Draft and sign the EU Declaration of Conformity",
           "Affix CE marking and notified body number (if required)",
           "Retain Declaration of Conformity and technical file for 10 years",
-          "Self‑verify low‑risk products when third‑party testing is not mandatory"
-        ]
-      }
+          "Self‑verify low‑risk products when third‑party testing is not mandatory",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Directive & Standard Mapping",
-        desc: "Identify all applicable EU directives and harmonized standards for your product category."
+        desc: "Identify all applicable EU directives and harmonized standards for your product category.",
       },
       {
         title: "Technical File Assembly",
-        desc: "Compile and review product specifications, test reports, risk assessments, and manuals."
+        desc: "Compile and review product specifications, test reports, risk assessments, and manuals.",
       },
       {
         title: "Notified Body Coordination",
-        desc: "Liaise with EU‑recognized notified bodies for required third‑party assessments."
+        desc: "Liaise with EU‑recognized notified bodies for required third‑party assessments.",
       },
       {
         title: "Declaration Drafting",
-        desc: "Prepare a precise EU Declaration of Conformity signed by authorized representatives."
+        desc: "Prepare a precise EU Declaration of Conformity signed by authorized representatives.",
       },
       {
         title: "Marking & Labeling Guidance",
-        desc: "Ensure CE logo and notified body numbers are correctly sized, proportioned, and placed."
-      }
+        desc: "Ensure CE logo and notified body numbers are correctly sized, proportioned, and placed.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is CE Certification?",
-        answer: "CE certification indicates that a product complies with EU safety, health, and environmental protection standards, allowing free movement of goods across the EEA."
+        answer:
+          "CE certification indicates that a product complies with EU safety, health, and environmental protection standards, allowing free movement of goods across the EEA.",
       },
       {
         question: "Is CE Certification valid in India?",
-        answer: "While CE marking is not mandatory in India, it enhances product credibility and is often required for exporting goods to the European market."
+        answer:
+          "While CE marking is not mandatory in India, it enhances product credibility and is often required for exporting goods to the European market.",
       },
       {
         question: "Is CE Marking accepted in the United States?",
-        answer: "CE marking is not a regulatory requirement in the U.S., but it may be recognized as a mark of product quality and safety in global markets."
+        answer:
+          "CE marking is not a regulatory requirement in the U.S., but it may be recognized as a mark of product quality and safety in global markets.",
       },
       {
         question: "Who issues CE Certification?",
-        answer: "CE certification is issued by the manufacturer or authorized representative, often with support from a notified body depending on the product category."
+        answer:
+          "CE certification is issued by the manufacturer or authorized representative, often with support from a notified body depending on the product category.",
       },
       {
         question: "When is CE Certification mandatory in Europe?",
-        answer: "CE marking is mandatory for products falling under one or more EU directives—such as electronics, medical devices, machinery, and toys—before sale in the EEA."
+        answer:
+          "CE marking is mandatory for products falling under one or more EU directives—such as electronics, medical devices, machinery, and toys—before sale in the EEA.",
       },
       {
         question: "What is the difference between ISO and CE Certification?",
-        answer: "ISO focuses on voluntary international quality and management standards; CE is a mandatory product conformity mark for the EEA."
+        answer:
+          "ISO focuses on voluntary international quality and management standards; CE is a mandatory product conformity mark for the EEA.",
       },
       {
         question: "Do medical devices require CE marking?",
-        answer: "Yes—medical devices must comply with the MDR or IVDR and bear the CE mark to be sold in the EEA."
+        answer:
+          "Yes—medical devices must comply with the MDR or IVDR and bear the CE mark to be sold in the EEA.",
       },
       {
         question: "Is CE marking required for machinery?",
-        answer: "Yes—machinery must meet the EU Machinery Directive safety requirements and carry the CE mark."
+        answer:
+          "Yes—machinery must meet the EU Machinery Directive safety requirements and carry the CE mark.",
       },
       {
         question: "What is minimal risk in CE Certification?",
-        answer: "Minimal risk products can be self-certified by the manufacturer without third-party assessment, provided they meet all relevant EU requirements."
+        answer:
+          "Minimal risk products can be self-certified by the manufacturer without third-party assessment, provided they meet all relevant EU requirements.",
       },
       {
         question: "What is a Declaration of Conformity?",
-        answer: "The EU Declaration of Conformity is a formal, signed document stating that the product meets all applicable EU directives and standards."
+        answer:
+          "The EU Declaration of Conformity is a formal, signed document stating that the product meets all applicable EU directives and standards.",
       },
       {
         question: "How do you affix the CE mark?",
-        answer: "The CE logo must be at least 5 mm high, with correct proportions, and placed visibly on the product, packaging, or accompanying documents."
+        answer:
+          "The CE logo must be at least 5 mm high, with correct proportions, and placed visibly on the product, packaging, or accompanying documents.",
       },
       {
         question: "Does CE Certification expire?",
-        answer: "CE marking itself has no expiry, but the Declaration of Conformity must be updated whenever product design or relevant legislation changes."
+        answer:
+          "CE marking itself has no expiry, but the Declaration of Conformity must be updated whenever product design or relevant legislation changes.",
       },
       {
         question: "How long must I keep the technical file?",
-        answer: "Manufacturers must retain the technical file and Declaration of Conformity for at least 10 years after the last unit is placed on the EU market."
+        answer:
+          "Manufacturers must retain the technical file and Declaration of Conformity for at least 10 years after the last unit is placed on the EU market.",
       },
       {
         question: "When is an independent assessment needed?",
-        answer: "If the applicable EU directive requires notified body involvement, a third-party assessment and body number must accompany the CE mark."
+        answer:
+          "If the applicable EU directive requires notified body involvement, a third-party assessment and body number must accompany the CE mark.",
       },
       {
         question: "How do I find a Notified Body?",
-        answer: "Use the EU’s NANDO database to locate an authorized notified body for your specific product type."
-      }
+        answer:
+          "Use the EU’s NANDO database to locate an authorized notified body for your specific product type.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: ["Aspect", "ISO Certification", "CE Certification"],
         rows: [
-          ["Purpose", "Quality and process standards", "Product compliance with EU directives"],
-          ["Scope", "Organizations across all sectors", "Products sold in the EEA"],
-          ["Assessment", "External audit by certification body", "Self‑declaration or notified body assessment"],
-          ["Voluntary vs Mandatory", "Voluntary", "Mandatory for regulated product categories"]
-        ]
+          [
+            "Purpose",
+            "Quality and process standards",
+            "Product compliance with EU directives",
+          ],
+          [
+            "Scope",
+            "Organizations across all sectors",
+            "Products sold in the EEA",
+          ],
+          [
+            "Assessment",
+            "External audit by certification body",
+            "Self‑declaration or notified body assessment",
+          ],
+          [
+            "Voluntary vs Mandatory",
+            "Voluntary",
+            "Mandatory for regulated product categories",
+          ],
+        ],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
-
 
   "wpc-certification-compliance": {
     overview: {
@@ -4248,78 +4482,86 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "To operate a wireless device business in India, securing WPC certification is mandatory. The Wireless Planning and Coordination (WPC) Wing under the DoT issues Equipment Type Approval (ETA) and import licenses to ensure all RF devices comply with national frequency standards.",
         "Corpbiz™ assists manufacturers and importers with WPC licenses for Bluetooth, Wi‑Fi, and other wireless devices—handling Saral Sanchar portal filings, RF testing, technical documentation, and post‑compliance coordination.",
-        "With regional offices in New Delhi, Mumbai, Chennai, Kolkata, and Guwahati, the WPC Wing manages spectrum allocation, frequency testing, and certification for legal marketing of wireless products in India."
-      ]
+        "With regional offices in New Delhi, Mumbai, Chennai, Kolkata, and Guwahati, the WPC Wing manages spectrum allocation, frequency testing, and certification for legal marketing of wireless products in India.",
+      ],
     },
-  
+
     features: [
       {
         icon: "📶",
         title: "Device Compatibility",
-        description: "Ensures your wireless products operate on approved Indian frequency bands without interference."
+        description:
+          "Ensures your wireless products operate on approved Indian frequency bands without interference.",
       },
       {
         icon: "🔒",
         title: "National Security Compliance",
-        description: "Regulates RF devices to prevent unauthorized use and safeguard public safety."
+        description:
+          "Regulates RF devices to prevent unauthorized use and safeguard public safety.",
       },
       {
         icon: "⚙️",
         title: "Frequency Management",
-        description: "Prevents signal conflicts by enforcing strict band usage per device type."
+        description:
+          "Prevents signal conflicts by enforcing strict band usage per device type.",
       },
       {
         icon: "🏷️",
         title: "Market Access",
-        description: "Mandatory WPC ETA certification or import license to legally sell wireless devices in India."
-      }
+        description:
+          "Mandatory WPC ETA certification or import license to legally sell wireless devices in India.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Seamless Import Licensing",
-        description: "Obtain WPC import authorization for Bluetooth, Wi‑Fi, and other RF devices through a single portal."
+        description:
+          "Obtain WPC import authorization for Bluetooth, Wi‑Fi, and other RF devices through a single portal.",
       },
       {
         title: "Equipment Type Approval",
-        description: "Secure ETA certification to demonstrate compliance with Indian RF regulations."
+        description:
+          "Secure ETA certification to demonstrate compliance with Indian RF regulations.",
       },
       {
         title: "Streamlined Testing",
-        description: "Use ISO/IEC 17025 lab reports to waive redundant in‑country testing post‑2021."
+        description:
+          "Use ISO/IEC 17025 lab reports to waive redundant in‑country testing post‑2021.",
       },
       {
         title: "Regulatory Expertise",
-        description: "Corpbiz™ coordinates with designated Indian representatives for foreign applicants."
-      }
+        description:
+          "Corpbiz™ coordinates with designated Indian representatives for foreign applicants.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Portal Registration",
-          desc: "Register on Saral Sanchar portal to generate your WPC Import ID."
+          desc: "Register on Saral Sanchar portal to generate your WPC Import ID.",
         },
         {
           title: "ETA Application",
-          desc: "Submit self‑declaration and check device exemption status with Import ID."
+          desc: "Submit self‑declaration and check device exemption status with Import ID.",
         },
         {
           title: "RF Test Report",
-          desc: "Upload lab‑accredited RF test results detailing frequency, bandwidth, and sweep specs."
+          desc: "Upload lab‑accredited RF test results detailing frequency, bandwidth, and sweep specs.",
         },
         {
           title: "Document Submission",
-          desc: "Provide technical datasheet, IEC code, authorization letters, and mandatory documents."
+          desc: "Provide technical datasheet, IEC code, authorization letters, and mandatory documents.",
         },
         {
           title: "Fee Payment",
-          desc: "Pay WPC fees online via card, UPI, or digital wallets."
+          desc: "Pay WPC fees online via card, UPI, or digital wallets.",
         },
         {
           title: "Certificate Issuance",
-          desc: "Receive the WPC ETA certificate permitting legal import and sale."
-        }
+          desc: "Receive the WPC ETA certificate permitting legal import and sale.",
+        },
       ],
       violations: [
         "Device technical specifications",
@@ -4329,16 +4571,16 @@ export const pageContent: Record<string, PageContentType> = {
         "Authorization letter for AIR (foreign applicants)",
         "Import‑Export Code (IEC)",
         "Purchase order or invoice",
-        "ASTM/EN/RoHS/CE compliance reports"
+        "ASTM/EN/RoHS/CE compliance reports",
       ],
       consequences: [
         "Maintain records of approved frequency bands",
         "Submit periodic updates to WPC",
         "Notify WPC of any device modifications",
-        "Renew ETA or import license as needed"
-      ]
+        "Renew ETA or import license as needed",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Eligibility for WPC Import License",
@@ -4347,74 +4589,83 @@ export const pageContent: Record<string, PageContentType> = {
           "Foreign companies must appoint an Authorized Indian Representative (AIR)",
           "Submit RF test reports from ISO/IEC 17025 labs to waive in‑India retesting",
           "Devices must operate within India’s delicensed frequency bands",
-          "Maintain a complete technical data sheet for authority review"
-        ]
-      }
+          "Maintain a complete technical data sheet for authority review",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Non‑Network License",
-        desc: "Import, dealer possession, and non‑dealer possession licenses for non‑network service providers."
+        desc: "Import, dealer possession, and non‑dealer possession licenses for non‑network service providers.",
       },
       {
         title: "Network License",
-        desc: "ISP, experimental, and telecom provider licenses for mobile, DTH, and data services."
+        desc: "ISP, experimental, and telecom provider licenses for mobile, DTH, and data services.",
       },
       {
         title: "WPC ETA Certification",
-        desc: "Equipment Type Approval for devices using unlicensed bands (e.g., Bluetooth, Wi‑Fi)."
-      }
+        desc: "Equipment Type Approval for devices using unlicensed bands (e.g., Bluetooth, Wi‑Fi).",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What are radio frequency bands?",
-        answer: "Specific frequency ranges allocated for wireless signal transmission to avoid interference."
+        answer:
+          "Specific frequency ranges allocated for wireless signal transmission to avoid interference.",
       },
       {
         question: "What is WPC Certification?",
-        answer: "Mandatory approval from the WPC Wing to import or sell wireless devices in India."
+        answer:
+          "Mandatory approval from the WPC Wing to import or sell wireless devices in India.",
       },
       {
         question: "Who issues WPC certificates?",
-        answer: "The Wireless Planning & Coordination Wing under the Department of Telecommunications."
+        answer:
+          "The Wireless Planning & Coordination Wing under the Department of Telecommunications.",
       },
       {
         question: "Can foreign companies apply?",
-        answer: "Yes, through a designated Authorized Indian Representative (AIR)."
+        answer:
+          "Yes, through a designated Authorized Indian Representative (AIR).",
       },
       {
         question: "What is WPC ETA?",
-        answer: "Equipment Type Approval certificate for compliance with Indian RF regulations."
+        answer:
+          "Equipment Type Approval certificate for compliance with Indian RF regulations.",
       },
       {
         question: "Is ISO lab testing accepted?",
-        answer: "Yes—reports from ISO/IEC 17025 labs eliminate the need for in‑country retesting post‑2021."
+        answer:
+          "Yes—reports from ISO/IEC 17025 labs eliminate the need for in‑country retesting post‑2021.",
       },
       {
         question: "What is an Import ID?",
-        answer: "A unique identifier generated upon Saral Sanchar portal registration for your application."
+        answer:
+          "A unique identifier generated upon Saral Sanchar portal registration for your application.",
       },
       {
         question: "How long is WPC certification valid?",
-        answer: "Typically aligns with the product lifecycle; renew when significant modifications occur."
+        answer:
+          "Typically aligns with the product lifecycle; renew when significant modifications occur.",
       },
       {
         question: "Who needs a WPC license?",
-        answer: "All manufacturers and importers of RF or wireless devices in India."
-      }
+        answer:
+          "All manufacturers and importers of RF or wireless devices in India.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: [],
-        rows: []
+        rows: [],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
 
   "peso-certification-compliance": {
@@ -4423,82 +4674,91 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "PESO Certification is mandatory in India for businesses handling hazardous materials—explosives, compressed gases, petroleum, and flammable substances—under the Explosives Act (1884) and Petroleum Act (1934).",
         "The Petroleum and Explosives Safety Organization (PESO) Wing issues licenses and Equipment Type Approval (ETA) to ensure safety standards for equipment, storage, and processes in industries like oil & gas, manufacturing, logistics, and more.",
-        "Corpbiz™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity."
-      ]
+        "Corpbiz™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity.",
+      ],
     },
-  
+
     features: [
       {
         icon: "📅",
         title: "Validity & Renewal",
-        description: "Certificates are valid for 3 years with an online renewal process requiring updated documentation."
+        description:
+          "Certificates are valid for 3 years with an online renewal process requiring updated documentation.",
       },
       {
         icon: "🔒",
         title: "Scope of Coverage",
-        description: "Applies to explosives, gas cylinders, petroleum pipelines, flameproof equipment, fireworks, and more."
+        description:
+          "Applies to explosives, gas cylinders, petroleum pipelines, flameproof equipment, fireworks, and more.",
       },
       {
         icon: "🌐",
         title: "Global Alignment",
-        description: "Recognizes ATEX/IECEx test reports for imported machinery, simplifying approvals."
+        description:
+          "Recognizes ATEX/IECEx test reports for imported machinery, simplifying approvals.",
       },
       {
         icon: "🔍",
         title: "Random Audits",
-        description: "PESO conducts unannounced inspections to ensure ongoing compliance with safety protocols."
-      }
+        description:
+          "PESO conducts unannounced inspections to ensure ongoing compliance with safety protocols.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Legal Compliance",
-        description: "Avoid fines, shutdowns, or legal disputes by adhering to the Explosives and Petroleum Acts."
+        description:
+          "Avoid fines, shutdowns, or legal disputes by adhering to the Explosives and Petroleum Acts.",
       },
       {
         title: "Operational Safety",
-        description: "Standardized protocols minimize risks of explosions, leaks, and workplace accidents."
+        description:
+          "Standardized protocols minimize risks of explosions, leaks, and workplace accidents.",
       },
       {
         title: "Market Trust",
-        description: "Certification enhances credibility, unlocking government tenders and high‑value contracts."
+        description:
+          "Certification enhances credibility, unlocking government tenders and high‑value contracts.",
       },
       {
         title: "Environmental Protection",
-        description: "Ensures eco‑friendly handling, reducing spills, emissions, and environmental hazards."
+        description:
+          "Ensures eco‑friendly handling, reducing spills, emissions, and environmental hazards.",
       },
       {
         title: "Employee Welfare",
-        description: "Mandates training and emergency preparedness, prioritizing worker safety."
-      }
+        description:
+          "Mandates training and emergency preparedness, prioritizing worker safety.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "Application Preparation",
-          desc: "Fill the PESO form and compile test reports, technical drawings, and business proofs."
+          desc: "Fill the PESO form and compile test reports, technical drawings, and business proofs.",
         },
         {
           title: "Online Submission",
-          desc: "Apply via the PESO portal with commercial details—client list, sales data, and facility records."
+          desc: "Apply via the PESO portal with commercial details—client list, sales data, and facility records.",
         },
         {
           title: "Fee Payment",
-          desc: "Pay license fees according to category (₹10,000–₹50,000 for manufacturing)."
+          desc: "Pay license fees according to category (₹10,000–₹50,000 for manufacturing).",
         },
         {
           title: "Technical Review",
-          desc: "PESO experts verify compliance and may request clarifications on your submission."
+          desc: "PESO experts verify compliance and may request clarifications on your submission.",
         },
         {
           title: "Factory Audit",
-          desc: "Inspectors assess high‑risk facilities (e.g., pressure vessels) for infrastructure and safety systems."
+          desc: "Inspectors assess high‑risk facilities (e.g., pressure vessels) for infrastructure and safety systems.",
         },
         {
           title: "Certificate Issuance",
-          desc: "Receive your CCOE PESO Certificate and AIR license within 30–60 days."
-        }
+          desc: "Receive your CCOE PESO Certificate and AIR license within 30–60 days.",
+        },
       ],
       violations: [
         "Duly filled application form",
@@ -4507,16 +4767,16 @@ export const pageContent: Record<string, PageContentType> = {
         "Trade license, ISO certificates, GST registration",
         "Production unit video and safety audit reports",
         "Authorization letter for AIR (foreign applicants)",
-        "Import‑Export Code (IEC) and purchase invoices"
+        "Import‑Export Code (IEC) and purchase invoices",
       ],
       consequences: [
         "Maintain approved safety protocols and frequency of audits",
         "Submit modifications or updates to PESO promptly",
         "Renew certificates every 3 years to avoid lapses",
-        "Comply with random inspection requests to retain certification"
-      ]
+        "Comply with random inspection requests to retain certification",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Entities Requiring PESO Certification",
@@ -4525,158 +4785,174 @@ export const pageContent: Record<string, PageContentType> = {
           "Storage facilities for petroleum, ammonium nitrate, CNG, LPG, or carbide",
           "Transporters moving hazardous materials by road, rail, or sea",
           "Retailers such as petrol pumps, gas agencies, and fireworks shops",
-          "Industrial units like gas bottling plants, CNG stations, and petroleum pipelines"
-        ]
-      }
+          "Industrial units like gas bottling plants, CNG stations, and petroleum pipelines",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Manufacturing & Storage",
-        desc: "Licenses for explosives, petroleum products, LPG cylinders, oxygen plants, and ammonium nitrate storage."
+        desc: "Licenses for explosives, petroleum products, LPG cylinders, oxygen plants, and ammonium nitrate storage.",
       },
       {
         title: "Transportation",
-        desc: "Road, rail, and marine transport licenses for hazardous materials."
+        desc: "Road, rail, and marine transport licenses for hazardous materials.",
       },
       {
         title: "Import/Export",
-        desc: "ETA certificates and import licenses for compressed gases, explosive materials, and carbide."
+        desc: "ETA certificates and import licenses for compressed gases, explosive materials, and carbide.",
       },
       {
         title: "Retail Operations",
-        desc: "Licenses for petrol pumps, gas distribution agencies, and fireworks retail outlets."
+        desc: "Licenses for petrol pumps, gas distribution agencies, and fireworks retail outlets.",
       },
       {
         title: "Industrial Use",
-        desc: "Approvals for pipeline purging, cylinder testing stations, and refinery maintenance."
-      }
+        desc: "Approvals for pipeline purging, cylinder testing stations, and refinery maintenance.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is the validity of a PESO certificate?",
-        answer: "PESO certificates are valid for 3 years and must be renewed before expiry to avoid penalties."
+        answer:
+          "PESO certificates are valid for 3 years and must be renewed before expiry to avoid penalties.",
       },
       {
         question: "Is PESO certification mandatory for oxygen plants?",
-        answer: "Yes—manufacturing, storing, or distributing compressed gases like oxygen requires PESO certification."
+        answer:
+          "Yes—manufacturing, storing, or distributing compressed gases like oxygen requires PESO certification.",
       },
       {
         question: "What is PESO?",
-        answer: "The Petroleum and Explosives Safety Organization under the DoT regulates the safe handling of explosives, petroleum, and gases."
+        answer:
+          "The Petroleum and Explosives Safety Organization under the DoT regulates the safe handling of explosives, petroleum, and gases.",
       },
       {
         question: "How long does PESO renewal take?",
-        answer: "Renewals typically process within 15–30 days if all documents are submitted correctly."
+        answer:
+          "Renewals typically process within 15–30 days if all documents are submitted correctly.",
       },
       {
         question: "Do I need a license to store LPG cylinders?",
-        answer: "Yes—storage units for LPG, CNG, and other compressed gases must hold a PESO license."
+        answer:
+          "Yes—storage units for LPG, CNG, and other compressed gases must hold a PESO license.",
       },
       {
         question: "Who needs PESO certification?",
-        answer: "Manufacturers, storage units, transporters, and retailers handling hazardous materials in India."
+        answer:
+          "Manufacturers, storage units, transporters, and retailers handling hazardous materials in India.",
       },
       {
         question: "How to apply for a cylinder testing station approval?",
-        answer: "Submit a detailed application with facility layouts, safety protocols, and technical certifications to PESO."
+        answer:
+          "Submit a detailed application with facility layouts, safety protocols, and technical certifications to PESO.",
       },
       {
         question: "Can foreign companies apply directly?",
-        answer: "Foreign firms must appoint an Authorized Indian Representative (AIR) to file on their behalf."
-      }
+        answer:
+          "Foreign firms must appoint an Authorized Indian Representative (AIR) to file on their behalf.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: [],
-        rows: []
+        rows: [],
       },
-      timelineFees: []
-    }
+      timelineFees: [],
+    },
   },
 
   "tec-certification-compliance": {
     overview: {
-      heading: "TEC Certification: Mandatory Telecom Equipment Approval in India",
+      heading:
+        "TEC Certification: Mandatory Telecom Equipment Approval in India",
       paragraphs: [
         "The Telecommunication Engineering Centre (TEC) under the Department of Telecommunications (DoT) mandates certification for telecom equipment before sale, import, or usage in India.",
         "TEC certification ensures compliance with national safety and quality standards. The process includes Mandatory Testing and Certification of Telecom Equipment (MTCTE) and CSC certification schemes.",
-        "Corpbiz™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management."
-      ]
+        "Corpbiz™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management.",
+      ],
     },
-  
+
     features: [
       {
         icon: "✅",
         title: "Standards Compliance",
-        description: "Assures telecom devices meet Indian and global safety benchmarks."
+        description:
+          "Assures telecom devices meet Indian and global safety benchmarks.",
       },
       {
         icon: "🔒",
         title: "Network Protection",
-        description: "Prevents equipment-induced disruptions in telecom infrastructure."
+        description:
+          "Prevents equipment-induced disruptions in telecom infrastructure.",
       },
       {
         icon: "📈",
         title: "Market Legality",
-        description: "Facilitates lawful sale, import, and manufacturing under the Indian Telegraph Rules, 2017."
+        description:
+          "Facilitates lawful sale, import, and manufacturing under the Indian Telegraph Rules, 2017.",
       },
       {
         icon: "🤝",
         title: "Customer Trust",
-        description: "Boosts product reliability and consumer confidence."
-      }
+        description: "Boosts product reliability and consumer confidence.",
+      },
     ],
-  
+
     benefits: [
       {
         title: "Regulatory Compliance",
-        description: "Meets Essential Requirements (ER) for safe and lawful operation in Indian networks."
+        description:
+          "Meets Essential Requirements (ER) for safe and lawful operation in Indian networks.",
       },
       {
         title: "Brand Credibility",
-        description: "Strengthens stakeholder confidence through verified safety and performance."
+        description:
+          "Strengthens stakeholder confidence through verified safety and performance.",
       },
       {
         title: "Fair Competition",
-        description: "Ensures a level playing field for all market participants via uniform compliance norms."
+        description:
+          "Ensures a level playing field for all market participants via uniform compliance norms.",
       },
       {
         title: "Wider Market Access",
-        description: "Enables legal entry and distribution across Indian telecom markets."
-      }
+        description:
+          "Enables legal entry and distribution across Indian telecom markets.",
+      },
     ],
-  
+
     documents: {
       steps: [
         {
           title: "File Application",
-          desc: "Submit your TEC application online or offline. No edits allowed post-submission."
+          desc: "Submit your TEC application online or offline. No edits allowed post-submission.",
         },
         {
           title: "Document Scrutiny",
-          desc: "TEC verifies all documents; discrepancies must be corrected."
+          desc: "TEC verifies all documents; discrepancies must be corrected.",
         },
         {
           title: "Provide Variant Details",
-          desc: "Include model information, datasheets, BoM, and manufacturing location."
+          desc: "Include model information, datasheets, BoM, and manufacturing location.",
         },
         {
           title: "Pay Fees",
-          desc: "Administrative and evaluation fees depend on product complexity."
+          desc: "Administrative and evaluation fees depend on product complexity.",
         },
         {
           title: "Select CAB",
-          desc: "Choose a TEC-designated Conformity Assessment Body for lab testing."
+          desc: "Choose a TEC-designated Conformity Assessment Body for lab testing.",
         },
         {
           title: "Testing & Approval",
-          desc: "CAB conducts product testing; TEC issues certificate upon approval."
-        }
+          desc: "CAB conducts product testing; TEC issues certificate upon approval.",
+        },
       ],
       violations: [
         "Application form with technical details",
@@ -4686,16 +4962,16 @@ export const pageContent: Record<string, PageContentType> = {
         "Company registration proof",
         "ISO 9001 certification",
         "Trademark registration (if applicable)",
-        "Authorized Indian Representative (AIR) documents for foreign OEMs"
+        "Authorized Indian Representative (AIR) documents for foreign OEMs",
       ],
       consequences: [
         "Fines and legal penalties for non-compliance",
         "Loss of license or market access",
         "Heightened regulatory scrutiny",
-        "Product recall or blacklisting"
-      ]
+        "Product recall or blacklisting",
+      ],
     },
-  
+
     eligibility: [
       {
         heading: "Who Must Apply for TEC Certification?",
@@ -4703,84 +4979,2019 @@ export const pageContent: Record<string, PageContentType> = {
           "Indian telecom equipment manufacturers",
           "Foreign OEMs via an Authorized Indian Representative (AIR)",
           "Importers and dealers of notified telecom devices",
-          "Entities using telecom devices under Indian Telegraph Rules, 2017"
-        ]
-      }
+          "Entities using telecom devices under Indian Telegraph Rules, 2017",
+        ],
+      },
     ],
-  
+
     services: [
       {
         title: "Type Approval",
-        desc: "Certification for compliance with Generic Requirements (GR) related to telecom product safety."
+        desc: "Certification for compliance with Generic Requirements (GR) related to telecom product safety.",
       },
       {
         title: "Interface Approval",
-        desc: "Approval for interoperability with Indian telecom networks as per Interface Requirements (IR)."
+        desc: "Approval for interoperability with Indian telecom networks as per Interface Requirements (IR).",
       },
       {
         title: "Technology Approval",
-        desc: "Issued for prototypes or emerging technologies like C-DoT innovations meeting GR standards."
-      }
+        desc: "Issued for prototypes or emerging technologies like C-DoT innovations meeting GR standards.",
+      },
     ],
-  
+
     faqs: [
       {
         question: "What is TEC?",
-        answer: "TEC is the Telecommunication Engineering Centre under DoT that regulates telecom equipment standards in India."
+        answer:
+          "TEC is the Telecommunication Engineering Centre under DoT that regulates telecom equipment standards in India.",
       },
       {
         question: "Is TEC certification mandatory?",
-        answer: "Yes, for all notified telecom products under the Indian Telegraph Rules, 2017."
+        answer:
+          "Yes, for all notified telecom products under the Indian Telegraph Rules, 2017.",
       },
       {
         question: "Who can issue TEC certificates?",
-        answer: "Only TEC-authorized Conformity Assessment Bodies (CABs) can conduct testing. TEC grants final certification."
+        answer:
+          "Only TEC-authorized Conformity Assessment Bodies (CABs) can conduct testing. TEC grants final certification.",
       },
       {
         question: "Where is testing done?",
-        answer: "In TEC-accredited labs or CABs, including those in MRA partner countries for imports."
+        answer:
+          "In TEC-accredited labs or CABs, including those in MRA partner countries for imports.",
       },
       {
         question: "How long does TEC certification take?",
-        answer: "Typically 4–8 weeks depending on equipment complexity and CAB availability."
+        answer:
+          "Typically 4–8 weeks depending on equipment complexity and CAB availability.",
       },
       {
         question: "What is the TEC Certificate Number?",
-        answer: "A unique identifier issued post-approval, valid for five years and must be displayed on products."
+        answer:
+          "A unique identifier issued post-approval, valid for five years and must be displayed on products.",
       },
       {
         question: "What are the benefits of TEC certification?",
-        answer: "It ensures legal access to the Indian market, boosts customer trust, and avoids network issues."
+        answer:
+          "It ensures legal access to the Indian market, boosts customer trust, and avoids network issues.",
       },
       {
         question: "Is TEC certification needed for CSC products?",
-        answer: "Yes, Certification Scheme for Convergence (CSC) is covered under TEC for specific products like IoT gateways."
-      }
+        answer:
+          "Yes, Certification Scheme for Convergence (CSC) is covered under TEC for specific products like IoT gateways.",
+      },
     ],
-  
+
     types: {
       cards: [],
       roleBenefits: [],
       differenceTable: {
         columns: [],
-        rows: []
+        rows: [],
       },
-      timelineFees: []
-    }
-  }
-  
-  
-  
+      timelineFees: [],
+    },
+  },
+
+  "msme-registration-india": {
+    overview: {
+      heading:
+        "MSME Registration in India: Udyam Compliance for Small Businesses",
+      paragraphs: [
+        "MSME (Micro, Small, and Medium Enterprises) registration is a government-backed initiative that provides businesses with access to tax benefits, financial assistance, and easier credit facilities. It is essential for SSIs and enterprises aiming for growth and support.",
+        "The process has transitioned to Udyam Registration, a simplified online system launched by the Ministry of MSME. Eligible businesses can obtain a permanent identity number via the Udyam portal.",
+        "Do Startup offers fast and expert-guided MSME registration services to help businesses unlock government incentives with minimal effort.",
+      ],
+    },
+
+    features: [
+      {
+        icon: "💰",
+        title: "Affordable Loan Access",
+        description:
+          "MSMEs can access credit at interest rates as low as 1%–1.5%.",
+      },
+      {
+        icon: "📜",
+        title: "Rebates & Subsidies",
+        description:
+          "Enjoy tax benefits, scheme subsidies, and barcode registration support.",
+      },
+      {
+        icon: "⚡",
+        title: "Electricity Discounts",
+        description: "Reduced power bills for registered MSMEs.",
+      },
+      {
+        icon: "📈",
+        title: "Priority Sector Lending",
+        description: "Easier bank loans with priority under RBI lending norms.",
+      },
+    ],
+
+    benefits: [
+      {
+        title: "Tax Relief & Subsidies",
+        description:
+          "Includes MAT credit extension, ISO fee discounts, and GST input credits.",
+      },
+      {
+        title: "Government Tender Access",
+        description:
+          "Bid on public sector contracts without security deposits.",
+      },
+      {
+        title: "Ease of Doing Business",
+        description:
+          "Online Udyam portal makes registration fast, paperless, and accessible.",
+      },
+      {
+        title: "Collateral-Free Loans",
+        description:
+          "MSME-registered businesses qualify for government-backed unsecured loans.",
+      },
+    ],
+
+    documents: {
+      steps: [
+        {
+          title: "Visit Udyam Portal",
+          desc: "Go to the official Udyam Registration website.",
+        },
+        {
+          title: "Enter Aadhaar Details",
+          desc: "Input Aadhaar for validation and identity verification.",
+        },
+        {
+          title: "Add PAN & Organisation Info",
+          desc: "Submit business type, name, and tax identification details.",
+        },
+        {
+          title: "Fill Investment & Turnover Data",
+          desc: "Provide relevant financial metrics and business activities.",
+        },
+        {
+          title: "Receive Certificate",
+          desc: "Get the MSME/Udyam Certificate via email after successful submission.",
+        },
+      ],
+      violations: [
+        "Aadhaar Number",
+        "PAN Card",
+        "GSTIN (for companies/LLPs)",
+        "Business address and bank details",
+        "Business activity description and NIC Code",
+        "Turnover and investment figures",
+        "Partnership deed or incorporation documents",
+        "Invoices and machinery purchase bills",
+      ],
+      consequences: [
+        "MSME Form 1 to be filed bi-annually with MCA",
+        "Annual ROC submission for outstanding vendor payments",
+        "Penalty if payment is delayed beyond 45 days to MSMEs",
+      ],
+    },
+
+    eligibility: [
+      {
+        heading: "Who Can Register for MSME?",
+        items: [
+          "Sole Proprietorships",
+          "HUFs and Partnership Firms",
+          "LLPs and One-Person Companies",
+          "Cooperative Societies and Associations",
+          "Any business meeting the investment & turnover criteria",
+        ],
+      },
+    ],
+
+    services: [
+      {
+        title: "MSME Udyam Registration",
+        desc: "Full guidance on the new Aadhaar-based online registration process.",
+      },
+      {
+        title: "Document Preparation",
+        desc: "Assistance with collating PAN, Aadhaar, GST, and business proofs.",
+      },
+      {
+        title: "Post-Registration Compliance",
+        desc: "Support with Form 1, outstanding payment returns, and updates.",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "Is MSME registration now Udyam registration?",
+        answer:
+          "Yes, Udyam registration has replaced the older MSME registration process.",
+      },
+      {
+        question: "Is Aadhaar mandatory for MSME registration?",
+        answer: "Yes, Aadhaar is required to register under the Udyam portal.",
+      },
+      {
+        question: "Can startups register under MSME?",
+        answer:
+          "Yes, startups can apply if they fulfill the classification criteria.",
+      },
+      {
+        question: "What is the validity of Udyam registration?",
+        answer: "It is valid for a lifetime unless canceled or updated.",
+      },
+      {
+        question: "Are traders eligible for MSME?",
+        answer:
+          "Currently, traders are excluded from MSME registration benefits.",
+      },
+      {
+        question: "What are the MSME registration charges?",
+        answer:
+          "Do Startup offers cost-effective registration with expert support.",
+      },
+      {
+        question: "Do I need separate registrations for multiple units?",
+        answer:
+          "Yes, separate registrations are required for each business unit.",
+      },
+      {
+        question: "What documents are required for MSME registration?",
+        answer:
+          "Aadhaar, PAN, GSTIN, investment/turnover details, and activity description.",
+      },
+      {
+        question: "Who can apply for MSME registration?",
+        answer: "Any small business entity that meets eligibility criteria.",
+      },
+      {
+        question: "Is MSME registration mandatory?",
+        answer:
+          "No, but it is highly beneficial due to the multiple government incentives offered.",
+      },
+    ],
+
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: ["Aspect", "MSME Registration", "Udyam Registration"],
+        rows: [
+          ["Documents", "Aadhaar & PAN", "Aadhaar only"],
+          ["Portal Integration", "Not integrated", "Fully integrated"],
+          ["Form", "Basic info", "Detailed info"],
+          [
+            "Multiple Registrations",
+            "Possible",
+            "One Aadhaar = One Registration",
+          ],
+        ],
+      },
+      timelineFees: [],
+    },
+  },
+
+  "iec-code-registration": {
+    overview: {
+      heading: "IEC Code Registration – Unlock Global Trade Opportunities",
+      paragraphs: [
+        "To legally import or export goods and services from India, Import Export Code (IEC) registration is essential. Issued by the Directorate General of Foreign Trade (DGFT), the IEC is a unique 10-digit number under the Ministry of Commerce and Industry.",
+        "With lifetime validity, the IEC simplifies customs clearance, enables foreign currency transactions, and ensures compliance with trade regulations. Do Startup offers end-to-end assistance in obtaining your IEC license quickly and affordably.",
+        "Whether you are an individual entrepreneur or a growing company, IEC registration is your gateway to explore and expand in international markets.",
+      ],
+    },
+
+    features: [
+      {
+        icon: "🌍",
+        title: "Global Market Access",
+        description:
+          "IEC enables Indian businesses to legally trade goods and services across international borders.",
+      },
+      {
+        icon: "🔒",
+        title: "Lifetime Validity",
+        description:
+          "IEC is issued once and remains valid for a lifetime—no renewal required.",
+      },
+      {
+        icon: "💳",
+        title: "Simplified Banking",
+        description:
+          "Facilitates international money transfers and foreign exchange dealings through banks.",
+      },
+      {
+        icon: "📜",
+        title: "Legal Trade Authorization",
+        description:
+          "Acts as official approval from the Government of India to conduct import/export operations.",
+      },
+    ],
+
+    benefits: [
+      {
+        title: "No Annual Compliance",
+        description:
+          "IEC has no requirement for filing returns or renewals, reducing operational burden.",
+      },
+      {
+        title: "Government Incentives",
+        description:
+          "Eligible businesses can avail DGFT and customs schemes, including export benefits and GST refunds.",
+      },
+      {
+        title: "Improved Business Credibility",
+        description:
+          "A valid IEC enhances your brand’s reliability and trust among global buyers and partners.",
+      },
+      {
+        title: "Fast Processing",
+        description:
+          "IEC applications are typically approved within 10–15 working days by DGFT.",
+      },
+    ],
+
+    documents: {
+      steps: [
+        {
+          title: "Prepare Required Documents",
+          desc: "Collect PAN, Aadhaar, address proof, bank certificate, and digital signature.",
+        },
+        {
+          title: "Register on DGFT Portal",
+          desc: "Create an account with valid mobile number and email ID to begin the process.",
+        },
+        {
+          title: "Fill IEC Application Form",
+          desc: "Enter business details and submit Form ANF-2A online.",
+        },
+        {
+          title: "Upload Documents & Pay Fees",
+          desc: "Upload scanned documents and pay the prescribed fee via DGFT portal.",
+        },
+        {
+          title: "Submit & Track Application",
+          desc: "Track your application status and receive the IEC certificate via email once approved.",
+        },
+      ],
+      violations: [
+        "Recent passport-sized photograph (3x3 cm)",
+        "PAN card of individual/business",
+        "Aadhaar card or voter ID/passport/driver’s license",
+        "Cancelled cheque of current/savings account",
+        "Business address proof: lease deed, utility bill, etc.",
+        "Digital Signature Certificate (DSC)",
+        "Self-addressed envelope for postal delivery",
+        "Valid email ID and mobile number",
+      ],
+      consequences: [
+        "Annual IEC update via DGFT portal",
+        "File GST returns for import/export activities",
+        "Pay customs duties to avoid delays or penalties",
+        "Maintain transaction records for audits",
+        "Report foreign currency transactions to bank",
+        "Respond to DGFT queries and notices promptly",
+        "Stay updated with latest DGFT trade notifications",
+      ],
+    },
+
+    eligibility: [
+      {
+        heading: "Eligibility for IEC Registration",
+        items: [
+          "Individuals undertaking import/export (business registration optional)",
+          "Sole Proprietorship, Partnership Firm, LLP, Company, HUF",
+          "PAN card (individual or business)",
+          "Functional bank account in applicant's name",
+          "Authorized signatory must apply on behalf of a registered business",
+        ],
+      },
+    ],
+
+    services: [
+      {
+        title: "Expert Consultation",
+        desc: "Our consultants assess your eligibility and guide you through the registration process.",
+      },
+      {
+        title: "Document Preparation",
+        desc: "We help ensure your application has 100% accurate and complete documentation.",
+      },
+      {
+        title: "Application Filing",
+        desc: "We file your IEC application with DGFT and manage all procedural requirements.",
+      },
+      {
+        title: "Post-Approval Support",
+        desc: "We assist with compliance, trade practices, and future IEC-related queries.",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What is IEC code?",
+        answer:
+          "A unique 10-digit code issued by DGFT, mandatory for anyone conducting international trade.",
+      },
+      {
+        question: "Why is IEC registration necessary?",
+        answer:
+          "It legitimizes cross-border trade and is required for customs clearance and foreign transactions.",
+      },
+      {
+        question:
+          "I am a textile manufacturer in Kanpur. What documents are needed?",
+        answer:
+          "You’ll need PAN, Aadhaar, address proof, bank certificate, and business proof like registration certificate or partnership deed.",
+      },
+      {
+        question: "Can I cancel my IEC registration voluntarily?",
+        answer:
+          "Yes, you can cancel your IEC registration via the DGFT portal.",
+      },
+      {
+        question: "Is DSC mandatory for IEC application?",
+        answer:
+          "Yes, a Digital Signature Certificate is generally required for filing the IEC form online.",
+      },
+      {
+        question: "How long does it take to obtain IEC registration?",
+        answer:
+          "Typically, it takes 10 to 15 working days if all documents are in order.",
+      },
+      {
+        question: "Can I apply through Do Startup?",
+        answer:
+          "Absolutely! Do Startup offers full support from application to final IEC certificate delivery.",
+      },
+    ],
+
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: {
+        columns: ["Aspect", "Details"],
+        rows: [
+          [
+            "What is the IEC Code?",
+            "A 10-digit identification number issued by DGFT for foreign trade.",
+          ],
+          [
+            "Who Needs IEC?",
+            "Individuals and entities involved in cross-border trade.",
+          ],
+          [
+            "Issuing Authority",
+            "Directorate General of Foreign Trade (DGFT), Govt. of India.",
+          ],
+          ["Validity", "Lifetime validity, no renewal needed."],
+          ["Application Process", "Online through DGFT portal."],
+          [
+            "Documents Required",
+            "PAN, Aadhaar, address proof, bank details, photos.",
+          ],
+          [
+            "Application Cost",
+            "As per DGFT norms, plus consultant fee if applicable.",
+          ],
+          ["Processing Time", "Around 10–15 days."],
+          [
+            "Post-Registration Compliance",
+            "Annual updates, GST returns, record keeping, customs duties.",
+          ],
+          [
+            "Benefits",
+            "Global market access, tax incentives, simplified trade transactions.",
+          ],
+        ],
+      },
+      timelineFees: [],
+    },
+  },
+
+  "rera-registration": {
+    overview: {
+      heading: "RERA Registration – A Complete Overview",
+      paragraphs: [
+        "Are you a real estate developer, builder, promoter, or agent involved in commercial or residential projects? If yes, securing RERA Registration is mandatory for lawful operations under the Real Estate (Regulation and Development) Act, 2016.",
+        "The RERA Act was introduced to tackle the long-standing issues in the real estate sector by introducing transparency, standardization, and accountability.",
+        "RERA registration is carried out at the state level and is essential for both project registration and agent registration in the real estate sector.",
+        "Whether you are selling, marketing, or developing a project, RERA registration empowers the concerned Authority to regulate your operations and safeguard the interests of homebuyers and investors.",
+      ],
+    },
+    features: [
+      {
+        icon: "📄",
+        title: "Mandatory Registration",
+        description:
+          "RERA registration is compulsory for developers and agents involved in projects exceeding 500 sq. meters or more than 8 units.",
+      },
+      {
+        icon: "🔍",
+        title: "Enhanced Transparency",
+        description:
+          "Ensures legal compliance, public disclosures, and trustworthy dealings in real estate transactions.",
+      },
+      {
+        icon: "⚖️",
+        title: "Legal Protection",
+        description:
+          "Provides legal remedies to buyers against defaulting developers or agents.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Timely Possession",
+        description:
+          "Developers are mandated to deliver possession on time, failing which strict penalties are levied.",
+      },
+      {
+        title: "Reputation Boost",
+        description:
+          "Registration builds credibility and showcases commitment to regulatory compliance.",
+      },
+      {
+        title: "Fraud Minimization",
+        description:
+          "RERA eliminates deceptive practices, increasing buyer confidence.",
+      },
+      {
+        title: "Consumer Protection",
+        description:
+          "Buyers receive full protection against defaults, misrepresentation, and delays.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "File the Application",
+          desc: "Submit Form A online with respective State RERA authority.",
+        },
+        {
+          title: "Attach Required Documents",
+          desc: "Submit project and promoter/agent documents including layout, agreements, and certifications.",
+        },
+        {
+          title: "Pay Applicable Fees",
+          desc: "Deposit the fees as per the rules notified by the State RERA authority.",
+        },
+        {
+          title: "Verification by Authority",
+          desc: "The authority scrutinizes the application and attached documents.",
+        },
+        {
+          title: "Receive Registration Certificate",
+          desc: "Once approved, a RERA registration number is issued within 30 days.",
+        },
+      ],
+      violations: [
+        "Penalty under Section 3 for non-registration of project.",
+        "Up to ₹10,000 per day or 5% of project cost for agent default.",
+        "Imprisonment up to 1 year for fraudulent real estate practices.",
+        "Cancellation of registration for non-compliance or misrepresentation.",
+        "Blacklisting of developers or agents violating provisions.",
+      ],
+      consequences: [
+        "Legal suits by buyers for delay or fraud.",
+        "Financial penalties and loss of registration status.",
+        "Disqualification from future real estate projects.",
+        "Mandatory refund to buyers with interest.",
+        "Permanent barring from real estate activities by authority.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for RERA Project Registration",
+        items: [
+          "Real estate projects over 500 sq. meters or more than 8 units.",
+          "Projects without a completion certificate.",
+          "Construction or modification of buildings for sale.",
+          "Land development with intention to sell.",
+          "Government authorities or housing societies involved in construction.",
+          "Holders of power of attorney developing and selling property.",
+        ],
+      },
+      {
+        heading: "Who Can Apply for RERA Agent Registration",
+        items: [
+          "Individuals over 18/19 years (varies by state).",
+          "Cleared Real Estate License Examination (if applicable).",
+          "Completed pre-licensing education/training.",
+          "Compliance with RERA marketing and ethical codes.",
+        ],
+      },
+      {
+        heading: "Documents Required for RERA Registration",
+        items: [
+          "Certificate of Incorporation, PAN, TAN, MOA, AOA (for promoters).",
+          "Project layout, sanctioned plans, and development details.",
+          "Draft sale agreements and allotment letters.",
+          "Carpet/garage area details and contractors' info.",
+          "Promoter’s affidavit/declaration.",
+          "Agent firm PAN, address proof, and bylaws.",
+          "Real estate license qualification proof (if required).",
+          "Authorized signatory details and project lists.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Expert Legal Support",
+        desc: "RERA consultants ensure complete compliance with state-specific requirements.",
+      },
+      {
+        title: "200+ Real Estate Experts",
+        desc: "A team of industry professionals for document and process management.",
+      },
+      {
+        title: "End-to-End RERA Filing",
+        desc: "From application to certificate issuance – we manage it all.",
+      },
+      {
+        title: "Document Assistance",
+        desc: "End-to-end support for document preparation and review.",
+      },
+      {
+        title: "Strong Government Liaison",
+        desc: "Connections with RERA authorities ensure fast processing.",
+      },
+      {
+        title: "Dispute Resolution",
+        desc: "Legal help for RERA-related buyer or promoter disputes.",
+      },
+      {
+        title: "Renewal Services",
+        desc: "On-time renewals to avoid penalties or revocation.",
+      },
+      {
+        title: "24/7 Customer Support",
+        desc: "Always-on helpdesk for real estate regulatory questions.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is RERA?",
+        answer:
+          "RERA is the Real Estate (Regulation and Development) Act, 2016 to regulate the real estate sector in India.",
+      },
+      {
+        question: "Is RERA registration mandatory?",
+        answer: "Yes, for eligible promoters and real estate agents.",
+      },
+      {
+        question: "How long is RERA registration valid?",
+        answer: "For the duration of the project or as per state regulations.",
+      },
+      {
+        question: "Can RERA registration be revoked?",
+        answer: "Yes, for non-compliance, misrepresentation, or fraud.",
+      },
+      {
+        question: "Is registration required for ongoing projects?",
+        answer: "Yes, if no completion certificate has been obtained.",
+      },
+      {
+        question: "Can agents operate without RERA registration?",
+        answer: "No, dealing in unregistered projects is prohibited.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Delayed Possession",
+          shortText: "Avoid delayed handover.",
+          backText:
+            "Register under RERA to guarantee timely delivery to buyers.",
+        },
+        {
+          title: "Fraudulent Agents",
+          shortText: "Verify agent credentials.",
+          backText: "Only deal with RERA-registered agents to avoid scams.",
+        },
+        {
+          title: "Dispute Risk",
+          shortText: "Avoid legal conflicts.",
+          backText:
+            "RERA compliance ensures structured redressal for disputes.",
+        },
+        {
+          title: "Illegal Projects",
+          shortText: "Ensure legality.",
+          backText:
+            "Only RERA-approved projects are allowed to advertise and sell.",
+        },
+        {
+          title: "Lack of Transparency",
+          shortText: "Ensure full disclosure.",
+          backText:
+            "Registered promoters must update project details regularly.",
+        },
+        {
+          title: "Loss of Investment",
+          shortText: "Safeguard money.",
+          backText: "Buyers get compensation if promoters default under RERA.",
+        },
+      ],
+      roleBenefits: [
+        "Improves market credibility of developers and agents.",
+        "Builds buyer confidence and trust.",
+        "Helps avoid penalties and legal action.",
+        "Simplifies access to real estate financing.",
+        "Ensures compliance with state rules and regulations.",
+      ],
+      differenceTable: {
+        columns: [
+          "S. No.",
+          "RERA Project Registration",
+          "RERA Agent Registration",
+        ],
+        rows: [
+          [
+            "1",
+            "Registering real estate projects",
+            "Registering real estate agents/brokers",
+          ],
+          [
+            "2",
+            "Ensures timely delivery and buyer protection",
+            "Promotes ethical dealings and compliance",
+          ],
+          [
+            "3",
+            "Applicable to developers and promoters",
+            "Applicable to individuals and firms",
+          ],
+          [
+            "4",
+            "Requires project, promoter, and legal documents",
+            "Requires identity, company, and license proof",
+          ],
+          [
+            "5",
+            "Focus on project development compliance",
+            "Focus on transaction records and marketing ethics",
+          ],
+          [
+            "6",
+            "Mandatory for all new/ongoing large projects",
+            "Mandatory for all intermediaries in property sales",
+          ],
+        ],
+      },
+      timelineFees: [
+        "Approval timeline: within 30 days of application.",
+        "Entire process duration: 30–45 days.",
+        "Fees vary by state and project type.",
+        "Additional charges may apply for document certification.",
+        "No central fixed fee – state rules prevail.",
+      ],
+    },
+  },
+
+  "nsic-registration": {
+    overview: {
+      heading: "NSIC Registration in India – Everything You Need to Know",
+      paragraphs: [
+        "NSIC Registration is essential for MSMEs seeking access to government tenders, financial schemes, discounted raw materials, and technical support.",
+        "The National Small Industries Corporation (NSIC), a Mini Ratna PSU under the Ministry of MSME, was established in 1955 and is ISO 9001:2015 certified. It plays a crucial role in empowering Micro, Small, and Medium Enterprises through schemes like the Single Point Registration Scheme (SPRS).",
+        "NSIC promotes MSME participation in public procurement and provides support through initiatives in marketing, finance, and technology access.",
+        "Get hassle-free NSIC Certificate support from Do Startup – your reliable compliance partner.",
+      ],
+    },
+    features: [
+      {
+        icon: "📜",
+        title: "Single Point Registration Scheme (SPRS)",
+        description:
+          "Enables MSMEs to participate in government procurement through a streamlined registration mechanism.",
+      },
+      {
+        icon: "🏛️",
+        title: "Marketing Assistance",
+        description:
+          "Support for participating in trade fairs, exhibitions, and global buyer-seller meets.",
+      },
+      {
+        icon: "🏦",
+        title: "Bank Credit Facilitation",
+        description:
+          "Helps MSMEs access financing from banks and financial institutions with reduced interest.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Tender Benefits",
+        description:
+          "Exemption from tender fee and Earnest Money Deposit (EMD) for NSIC-registered units.",
+      },
+      {
+        title: "Mandatory Procurement",
+        description:
+          "25% of government purchases are reserved for MSEs, encouraging participation.",
+      },
+      {
+        title: "Financial Assistance",
+        description:
+          "Easy and low-interest financing from banks and NBFCs for NSIC-certified MSMEs.",
+      },
+      {
+        title: "Increased Visibility",
+        description:
+          "Opportunity to showcase products in domestic and international exhibitions.",
+      },
+      {
+        title: "Raw Material Access",
+        description:
+          "Priority supply and discounted rates for essential inputs.",
+      },
+      {
+        title: "Technology Upgradation",
+        description:
+          "Access to machinery and tools through NSIC leasing or procurement schemes.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Portal Login",
+          desc: "Visit the official NSIC portal and login with Udyam credentials.",
+        },
+        {
+          title: "Application Filing",
+          desc: "Fill out the NSIC online registration form accurately.",
+        },
+        {
+          title: "Document Upload",
+          desc: "Upload all required documents based on your business structure.",
+        },
+        {
+          title: "Fee Payment",
+          desc: "Pay the government fee based on turnover and business type.",
+        },
+        {
+          title: "Verification",
+          desc: "Authorities verify your documents and conduct inspection if needed.",
+        },
+        {
+          title: "Certificate Issuance",
+          desc: "Get your NSIC Registration Certificate valid for 2 years.",
+        },
+      ],
+      violations: [
+        "Application rejection due to document discrepancy.",
+        "Non-renewal within expiry window leads to suspension.",
+        "Failure to maintain quality or update information may invite revocation.",
+        "Non-compliance with MSME or NSIC norms can result in blacklisting.",
+      ],
+      consequences: [
+        "Loss of NSIC procurement privileges.",
+        "Suspension from government tender eligibility.",
+        "Revocation of benefits like EMD exemption or tax rebate.",
+        "Financial penalties or restriction from future registration.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Who is Eligible for NSIC Registration?",
+        items: [
+          "Micro Enterprises with up to ₹25 lakh (manufacturing) or ₹10 lakh (services).",
+          "Small Enterprises with up to ₹5 crore (manufacturing) or ₹2 crore (services).",
+          "Businesses that completed one year of operations.",
+          "Entities with Udyam Registration.",
+          "New MSMEs can apply for provisional registration under SPRS.",
+        ],
+      },
+      {
+        heading: "Eligible Entity Types",
+        items: [
+          "Private and Public Limited Companies",
+          "Proprietorship Firms",
+          "Partnerships",
+          "Industrial Cooperative Societies",
+          "Hindu Undivided Families (HUFs)",
+          "LLPs",
+          "Registered Trusts",
+        ],
+      },
+      {
+        heading: "Documents Required for NSIC Registration",
+        items: [
+          "PAN Card",
+          "Udyam Registration",
+          "Audited Financial Statements (3 years)",
+          "CA-certified operational report",
+          "Ownership/rent proof of premises",
+          "List of machinery and test equipment",
+          "Banker’s report",
+          "MOA, AOA, Partnership Deed, or LLP Agreement as applicable",
+          "Board Resolution or Authorization Letter",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Simplified NSIC Filing",
+        desc: "End-to-end support from login to certificate issuance.",
+      },
+      {
+        title: "5000+ Successful Registrations",
+        desc: "Extensive MSME onboarding experience nationwide.",
+      },
+      {
+        title: "Dedicated Expert Network",
+        desc: "Access to 500+ legal and compliance professionals.",
+      },
+      {
+        title: "Low-Cost Solutions",
+        desc: "Affordable pricing with maximum value delivery.",
+      },
+      {
+        title: "24/7 Support",
+        desc: "Anytime access to compliance assistance across India.",
+      },
+      {
+        title: "Renewal & Compliance Help",
+        desc: "Stay updated and avoid penalties through our renewal service.",
+      },
+      {
+        title: "PAN-India Coverage",
+        desc: "Support available across all states and union territories.",
+      },
+      {
+        title: "Dispute & Grievance Resolution",
+        desc: "Resolve certificate issues via NSIC-authorized channels.",
+      },
+      {
+        title: "Offline/Online Process Guidance",
+        desc: "Support for both online and offline NSIC registration.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is NSIC?",
+        answer:
+          "NSIC stands for National Small Industries Corporation, a PSU under the Ministry of MSME.",
+      },
+      {
+        question: "Is Udyam registration necessary for NSIC?",
+        answer: "Yes, Udyam Registration is mandatory for applying to NSIC.",
+      },
+      {
+        question: "What is the validity of the NSIC Certificate?",
+        answer:
+          "The NSIC certificate is valid for 2 years and must be renewed on time.",
+      },
+      {
+        question: "Can a startup apply for NSIC registration?",
+        answer:
+          "Yes, startups can apply for provisional registration under SPRS.",
+      },
+      {
+        question: "What are the charges for NSIC Registration?",
+        answer:
+          "Fees vary by turnover and business type. Micro: ₹3,000+, Small: ₹5,000+ (excluding inspection/GST).",
+      },
+      {
+        question: "Does NSIC registration help in getting loans?",
+        answer:
+          "Yes, it facilitates easier bank credit for MSMEs through tie-ups with banks and NBFCs.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Incorrect Documentation",
+          shortText: "Upload only accurate and updated paperwork.",
+          backText: "Mismatched documents may delay approval.",
+        },
+        {
+          title: "Wrong Turnover Category",
+          shortText: "Choose micro or small correctly.",
+          backText: "Misclassification affects fees and eligibility.",
+        },
+        {
+          title: "Missing Udyam Registration",
+          shortText: "Ensure Udyam registration before applying.",
+          backText: "NSIC relies on Udyam verification.",
+        },
+        {
+          title: "Expired Financials",
+          shortText: "Submit latest audited reports.",
+          backText: "Outdated statements lead to rejection.",
+        },
+        {
+          title: "Lack of Plant Details",
+          shortText: "Submit machinery and location proof.",
+          backText: "Necessary for SPRS inspection.",
+        },
+        {
+          title: "Late Renewal",
+          shortText: "Apply for renewal on time.",
+          backText: "Delays result in suspension.",
+        },
+      ],
+      roleBenefits: [
+        "Boosts credibility with government buyers.",
+        "Qualifies for exclusive government tenders.",
+        "Enables access to financial schemes.",
+        "Exemption from bid and tender costs.",
+        "Enhances brand image in the public sector.",
+      ],
+      differenceTable: {
+        columns: ["Serial Number", "NSIC", "Udyam"],
+        rows: [
+          ["1", "Procurement registration", "Business identification"],
+          [
+            "2",
+            "Allows govt. tender participation",
+            "Mandatory MSME recognition",
+          ],
+          ["3", "Involves fee & inspection", "Free and self-declared"],
+          ["4", "Valid for 2 years", "Lifetime validity unless updated"],
+          [
+            "5",
+            "Detailed operational evaluation",
+            "Based on investment & turnover",
+          ],
+        ],
+      },
+      timelineFees: [
+        "Total processing time: 30–45 days.",
+        "Application submission: 1–2 weeks.",
+        "Verification & inspection: 1–3 weeks.",
+        "Issuance of certificate: 3–5 working days.",
+        "Fees start at ₹3,000 for micro units and ₹5,000 for small enterprises.",
+        "Max fee capped at ₹1,00,000 (excluding taxes).",
+      ],
+    },
+  },
+
+  "apeda-registration": {
+    overview: {
+      heading: "APEDA Registration – A Complete Overview",
+      paragraphs: [
+        "Are you a farmer, grower, food manufacturer, processor, exporter, trader, or packer involved in the production or export of agricultural or processed food items from India? If yes, then obtaining APEDA registration is a critical step for you.",
+        "The Agricultural & Processed Food Products Export Development Authority (APEDA) was set up by an Act of Parliament in 1985 to promote the export of scheduled products. To export them, businesses must register with APEDA and acquire a Registration Cum Membership Certificate (RCMC).",
+        "APEDA, under the Ministry of Commerce and Industry, provides financial aid, strategic export guidance, and industry insights—essential for tapping global markets and leveraging government export schemes.",
+      ],
+    },
+    features: [
+      {
+        icon: "✅",
+        title: "Legal Export License",
+        description:
+          "RCMC issued by APEDA is mandatory for exporting scheduled agricultural and processed food products.",
+      },
+      {
+        icon: "🌐",
+        title: "Global Market Access",
+        description:
+          "Enables exporters to participate in international trade fairs and buyer-seller meets.",
+      },
+      {
+        icon: "💸",
+        title: "Financial Assistance",
+        description:
+          "Access to export subsidies, infrastructure grants, and low-interest loans.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Regulatory Compliance",
+        description:
+          "Ensures adherence to international quality and safety standards.",
+      },
+      {
+        title: "Subsidies & Grants",
+        description:
+          "Eligible for export promotion capital goods scheme and transport subsidies.",
+      },
+      {
+        title: "Technical Guidance",
+        description:
+          "Receive training and technical support on processing, packaging, and marketing.",
+      },
+      {
+        title: "Market Intelligence",
+        description:
+          "Industry data and reports to help you adapt to changing export trends.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Visit APEDA Portal",
+          desc: "Go to the official APEDA website and click 'Register as Member'.",
+        },
+        {
+          title: "Enter IEC & Details",
+          desc: "Provide your Import-Export Code (IEC), business and contact information.",
+        },
+        {
+          title: "Upload Documents",
+          desc: "Upload IEC copy, bank certificate, account statements, cancelled cheque, and application form.",
+        },
+        {
+          title: "Pay Fee",
+          desc: "Submit ₹5,000 (plus applicable taxes) via credit/debit card or demand draft.",
+        },
+        {
+          title: "Receive Application No.",
+          desc: "Get your application number and track status online.",
+        },
+        {
+          title: "Download RCMC",
+          desc: "Upon approval, download your Registration Cum Membership Certificate.",
+        },
+      ],
+      violations: [
+        "Non-submission of correct IEC details leads to application rejection.",
+        "Delayed fee payment invalidates the application session.",
+        "Incomplete document uploads result in processing delays.",
+        "False information may attract penalties under APEDA Act.",
+        "Failure to renew lifetime updates may revoke certification.",
+      ],
+      consequences: [
+        "Denial of export license for scheduled products.",
+        "Ineligibility for APEDA subsidies and incentives.",
+        "Penalties or legal action for misrepresentation.",
+        "Blacklisting from APEDA schemes for repeated violations.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Who Must Register with APEDA?",
+        items: [
+          "Any exporter of scheduled agricultural products under APEDA Act.",
+          "Entities dealing in dairy, meat, poultry, fruits, vegetables, nuts, spices, and processed foods.",
+          "Businesses with a valid IEC issued by DGFT.",
+          "Firms, companies, cooperatives, and producer organizations exporting listed products.",
+        ],
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Duly signed APEDA application form",
+          "Copy of Import-Export Code (IEC)",
+          "Bank certificate on letterhead",
+          "Last two months’ bank statements",
+          "Cancelled cheque leaf",
+          "Digital signature for online filing",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "End-to-End Filing",
+        desc: "Complete assistance from portal login to RCMC download.",
+      },
+      {
+        title: "Expert Guidance",
+        desc: "Consultation on product schedules and export norms.",
+      },
+      {
+        title: "Document Preparation",
+        desc: "Review and validate all supporting documents.",
+      },
+      {
+        title: "Fee Handling",
+        desc: "Secure payment processing and application tracking.",
+      },
+      {
+        title: "Renewal & Updates",
+        desc: "Assistance with any data changes post-registration.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is APEDA?",
+        answer:
+          "Agricultural & Processed Food Products Export Development Authority, promoting India’s food exports.",
+      },
+      {
+        question: "Who needs APEDA registration?",
+        answer:
+          "Exporters of products listed in the First and Second Schedules of the APEDA Act.",
+      },
+      {
+        question: "What is the fee for APEDA registration?",
+        answer:
+          "₹5,000 plus applicable taxes, paid online or via demand draft.",
+      },
+      {
+        question: "Is APEDA registration renewable?",
+        answer:
+          "RCMC is lifetime valid; update only if business details change.",
+      },
+      {
+        question: "What does RCMC stand for?",
+        answer: "Registration Cum Membership Certificate issued by APEDA.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Invalid IEC",
+          shortText: "Ensure your IEC is active.",
+          backText: "An inactive IEC will block APEDA registration.",
+        },
+        {
+          title: "Incomplete Uploads",
+          shortText: "Upload all required files.",
+          backText: "Missing documents delay approval.",
+        },
+        {
+          title: "Fee Payment Issues",
+          shortText: "Confirm payment success.",
+          backText: "Failed transactions invalidate your session.",
+        },
+        {
+          title: "Wrong Product Schedule",
+          shortText: "Select correct product code.",
+          backText: "Mismatch leads to rejection.",
+        },
+        {
+          title: "Expired Bank Certificate",
+          shortText: "Use a current bank certificate.",
+          backText: "Old certificates are not accepted.",
+        },
+        {
+          title: "Signature Verification",
+          shortText: "Use valid digital signature.",
+          backText: "Unsigned forms are invalid.",
+        },
+      ],
+      roleBenefits: [
+        "Grants legal status for food exports.",
+        "Qualifies for APEDA export incentives.",
+        "Improves buyer confidence internationally.",
+        "Access to training and market data.",
+        "Facilitates smoother customs clearance.",
+      ],
+      differenceTable: {
+        columns: ["S. No.", "APEDA", "IEC Only"],
+        rows: [
+          [
+            "1",
+            "Mandatory for scheduled food exports",
+            "Mandatory for all exports",
+          ],
+          ["2", "Enables subsidy schemes", "Does not cover subsidies"],
+          ["3", "Provides RCMC certification", "Provides only IEC number"],
+          ["4", "Access to APEDA training & data", "No training support"],
+          ["5", "Lifetime validity of RCMC", "IEC validity as per DGFT"],
+        ],
+      },
+      timelineFees: [
+        "Application submission: same day.",
+        "Processing time: 7–10 working days.",
+        "Fee: ₹5,000 + applicable taxes.",
+        "No renewal required unless details change.",
+      ],
+    },
+  },
+
+  "rni-registration": {
+    overview: {
+      heading: "An Overview of RNI Registration in India",
+      paragraphs: [
+        "Planning to launch a newspaper, magazine, or periodical in India? You need an RNI (now PRGI) registration certificate under the Press and Registration of Periodicals Act, 2023.",
+        "Every publication—daily, weekly, monthly, or journal—must register with the Press Registrar General of India for legal compliance before circulation.",
+        "The PRGI certificate, governed by the Ministry of Information and Broadcasting, ensures your title is protected and your operations adhere to statutory publishing norms.",
+      ],
+    },
+    features: [
+      {
+        icon: "📜",
+        title: "Modernized Framework",
+        description:
+          "Streamlined under the PRP Act, 2023, replacing the old 1867 Act to reduce bureaucratic delays.",
+      },
+      {
+        icon: "🔒",
+        title: "Title Protection",
+        description:
+          "Secures your publication’s title from infringement or third-party claims.",
+      },
+      {
+        icon: "⚡",
+        title: "Time-Bound Processing",
+        description:
+          "Automated online workflow via Press Sewa speeds up registration and title verification.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Ease of Doing Business",
+        description:
+          "Simplified title verification and online filing improve publisher experience.",
+      },
+      {
+        title: "Transparency",
+        description:
+          "Automated status updates and clear timelines for each step.",
+      },
+      {
+        title: "Foreign Publication Clarity",
+        description:
+          "Defines rules for foreign title registration and ownership transfer.",
+      },
+      {
+        title: "Copyright Assurance",
+        description: "Legal protection for your content, masthead, and logo.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Submit Application",
+          desc: "Provide title details and Form 1 declaration via Press Sewa Portal.",
+        },
+        {
+          title: "Receive ARN",
+          desc: "Get a 10-digit Application Reference Number for tracking.",
+        },
+        {
+          title: "Pay Fee",
+          desc: "₹1,000 via Bharatkosh integrated payment gateway.",
+        },
+        {
+          title: "District Magistrate Review",
+          desc: "Within 60 days, DM issues No-Objection or comments.",
+        },
+        {
+          title: "Download Certificate",
+          desc: "On approval, PRGI issues your Registration Cum Membership Certificate.",
+        },
+      ],
+      violations: [
+        "Non-submission of title verification letter: rejection.",
+        "Incorrect Form 1 declaration: application held.",
+        "Failure to pay fee within window: session invalidated.",
+        "Incomplete supporting documents: processing delays.",
+        "Bypassing press sewa portal: non-compliance penalty.",
+      ],
+      consequences: [
+        "No legal status to publish periodicals.",
+        "Penalties under PRP Act for unregistered publishing.",
+        "Title disputes without statutory backing.",
+        "Ineligibility for government advertising rates.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Requirements for Title Registration",
+        items: [
+          "Full imprint: publisher, editor, printer, owner details.",
+          "Publication address and press location.",
+          "Issue volume, date, and page numbering.",
+          "Clear display of title on cover and internal pages.",
+        ],
+      },
+      {
+        heading: "Publishers Needing PRGI Certificate",
+        items: [
+          "Indian newspapers and journals.",
+          "Magazines, periodicals, weeklies, monthlies.",
+          "Foreign publications operating in India.",
+          "Editorial and commentary publications.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Title Verification Support",
+        desc: "Assistance with document preparation and Form 1 drafting.",
+      },
+      {
+        title: "Online Filing Assistance",
+        desc: "Guidance through each Press Sewa Portal step.",
+      },
+      {
+        title: "Fee Payment Facilitation",
+        desc: "Secure payment processing via Bharatkosh.",
+      },
+      {
+        title: "Status Tracking",
+        desc: "Real-time ARN-based tracking until certificate issue.",
+      },
+      {
+        title: "Post-Registration Compliance",
+        desc: "Help with ownership transfer, discontinuation, and annual statements.",
+      },
+      {
+        title: "Government Liaison",
+        desc: "Direct follow-up with District Magistrate and PRGI offices.",
+      },
+      {
+        title: "24/7 Support",
+        desc: "Round-the-clock helpline for publishers.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is PRGI?",
+        answer:
+          "Press Registrar General of India, previously RNI, under the PRP Act, 2023.",
+      },
+      {
+        question: "Who must register?",
+        answer:
+          "Any publisher of newspapers, magazines, or periodicals in India.",
+      },
+      {
+        question: "How much is the fee?",
+        answer: "₹1,000 payable online via Bharatkosh.",
+      },
+      {
+        question: "What’s ARN?",
+        answer: "Application Reference Number for tracking your registration.",
+      },
+      {
+        question: "Is online registration mandatory?",
+        answer: "Yes—via Press Sewa Portal as per PRP Act, 2023.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Invalid Title Format",
+          shortText: "Follow naming rules.",
+          backText: "Non-compliant titles are rejected.",
+        },
+        {
+          title: "Missing Imprint Details",
+          shortText: "Include all required names.",
+          backText: "Imprint omissions delay approval.",
+        },
+        {
+          title: "Unpaid Fee",
+          shortText: "Complete Bharatkosh payment.",
+          backText: "Unpaid fees void the application.",
+        },
+        {
+          title: "Late Submission",
+          shortText: "Apply before first issue.",
+          backText: "Delay may block publication.",
+        },
+        {
+          title: "Portal Glitches",
+          shortText: "Save progress regularly.",
+          backText: "Session timeouts lose data.",
+        },
+        {
+          title: "Wrong Declaration",
+          shortText: "Use correct Form 1.",
+          backText: "Wrong form invalidates registration.",
+        },
+      ],
+      roleBenefits: [
+        "Secures legal right to publish.",
+        "Protects title from infringement.",
+        "Ensures transparent approval timelines.",
+        "Opens access to government advertising rates.",
+        "Simplifies foreign publication procedures.",
+      ],
+      differenceTable: {
+        columns: ["S. No.", "PRB Act, 1867", "PRP Act, 2023"],
+        rows: [
+          [
+            "1",
+            "Covers books & periodicals",
+            "Excludes books & academic journals",
+          ],
+          ["2", "Manual DM approval", "Online via Press Sewa Portal"],
+          ["3", "RNI as authority", "PRGI as authority"],
+          ["4", "No appellate body", "Includes appellate mechanism"],
+          ["5", "Bureaucratic delays", "Automated, time-bound process"],
+        ],
+      },
+      timelineFees: [
+        "Application submission: immediate.",
+        "ARN issuance: same day.",
+        "DM review: up to 60 days.",
+        "Certificate issuance: within 5 days post-approval.",
+        "Registration fee: ₹1,000 via Bharatkosh.",
+        "No renewal required unless title changes.",
+      ],
+    },
+  },
+
+  "pm-wani-registration": {
+    overview: {
+      heading: "PM WANI WiFi Registration Scheme: A Complete Overview",
+      paragraphs: [
+        "PM-WANI, or Prime Minister WiFi Access Network Interface, is a flagship scheme launched on December 9, 2020, to promote public Wi-Fi networks across India in alignment with the National Digital Communications Policy, 2018.",
+        "The scheme enables small entrepreneurs and businesses to become Wi-Fi service providers without requiring a telecom license, making affordable internet widely accessible, especially in rural and underserved areas.",
+        "With over 200 PDO Aggregators, 100+ App Providers, and nearly 2.5 lakh hotspots already active, PM WANI is transforming India's digital landscape.",
+      ],
+    },
+    features: [
+      {
+        icon: "📶",
+        title: "No License Requirement",
+        description:
+          "Businesses only need to register with the Department of Telecommunications, no telecom license is required.",
+      },
+      {
+        icon: "🌐",
+        title: "Pan-India Operations",
+        description:
+          "Entities registered under PM WANI can operate across India with no geographic limitations.",
+      },
+      {
+        icon: "💼",
+        title: "Zero Master Franchise Charges",
+        description:
+          "No franchise fees, making it a cost-effective model for public Wi-Fi provisioning.",
+      },
+      {
+        icon: "📈",
+        title: "High Revenue Potential",
+        description:
+          "Entrepreneurs can monetize internet access through multiple models and user bases.",
+      },
+      {
+        icon: "👥",
+        title: "Empowers Local Vendors",
+        description:
+          "Small retail shops and startups can offer broadband services, creating employment and digital access.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Legal Compliance",
+        description:
+          "Provides a legitimate route to offer public Wi-Fi without telecom licensing complexities.",
+      },
+      {
+        title: "User Data Protection",
+        description:
+          "Data logs must be maintained and stored securely on Indian servers for transparency.",
+      },
+      {
+        title: "No Registration Fee",
+        description:
+          "The Department of Telecommunications offers the registration free of charge.",
+      },
+      {
+        title: "Boosts Digital India Mission",
+        description:
+          "Supports rural connectivity and digital inclusion goals of the government.",
+      },
+      {
+        title: "Government Coordination",
+        description:
+          "Backed by DoT, TRAI, and C-DOT for secure operations and system-level regulation.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Register on SARALSANCHAR",
+          desc: "Log in to the SARAL SANCHAR portal and create a company account for PM WANI application.",
+        },
+        {
+          title: "Fill Application (Annexure C)",
+          desc: "Select the relevant entity type (PDOA or App Provider) and complete Annexure C.",
+        },
+        {
+          title: "Upload Documents",
+          desc: "Submit documents like PAN, CIN, MoA, AoA, address proof, and promoter details.",
+        },
+        {
+          title: "Get Registration Certificate",
+          desc: "Receive DoT approval and registration certificate within 7 working days.",
+        },
+        {
+          title: "Certification by Central Registry",
+          desc: "Get system/app software certified by C-DOT for full operational readiness.",
+        },
+      ],
+      violations: [
+        "Misrepresentation or falsified documentation may lead to cancellation of registration.",
+        "Failure to safeguard user data will attract penal action from DoT.",
+        "Using foreign servers for data storage violates scheme conditions.",
+        "Offering telephone services under PM WANI is strictly prohibited.",
+        "Non-compliance with Made in India hardware usage norms can result in suspension.",
+      ],
+      consequences: [
+        "DoT can suspend or revoke registration in case of national security concerns.",
+        "Entities may be held liable for privacy breaches or user data misuse.",
+        "Failure to address complaints or display tariffs can lead to regulatory penalties.",
+        "Repeat violations can lead to permanent disqualification from the scheme.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility for PDOA Registration",
+        items: [
+          "Company registered under Companies Act, 2013",
+          "Own or manage internet infrastructure",
+          "Able to handle multiple PDOs",
+          "Develop a Wi-Fi access mobile app",
+          "Submit required information to DoT",
+        ],
+      },
+      {
+        heading: "Key Components of PM WANI Framework",
+        items: [
+          "Public Data Office (PDO)",
+          "Public Data Office Aggregator (PDOA)",
+          "App Provider",
+          "Central Registry maintained by C-DOT",
+          "WANI (Wireless Access Network Interface)",
+        ],
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Certificate of Incorporation",
+          "PAN Card and CIN",
+          "MoA and AoA",
+          "Business Address Proof",
+          "Equity and Capital Certificates",
+          "MHA Clearance (if foreign nationals involved)",
+          "Board Resolution and Authorized ID proof",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Fast-Track Registration",
+        desc: "Get DoT registration within 7 working days.",
+      },
+      {
+        title: "End-to-End Support",
+        desc: "Complete assistance from application to Central Registry approval.",
+      },
+      {
+        title: "Expert Consultation",
+        desc: "Guidance on legal and technical infrastructure compliance.",
+      },
+      {
+        title: "Document Preparation",
+        desc: "Full support in compiling and uploading required documents.",
+      },
+      {
+        title: "Regulatory Liaison",
+        desc: "Strong connections with DoT for smooth processing.",
+      },
+      {
+        title: "Indigenous Technology Promotion",
+        desc: "Helps entities comply with Made in India hardware mandates.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is PM WANI?",
+        answer:
+          "PM WANI stands for Prime Minister WiFi Access Network Interface, a government-backed public Wi-Fi initiative.",
+      },
+      {
+        question: "Is a telecom license needed for PM WANI?",
+        answer: "No, only registration with DoT is required.",
+      },
+      {
+        question: "What is the role of PDOA?",
+        answer:
+          "PDOA manages infrastructure and facilitates service between PDOs and App Providers.",
+      },
+      {
+        question: "Can an entity be both PDOA and App Provider?",
+        answer: "Yes, one entity can perform both roles under PM WANI.",
+      },
+      {
+        question: "What is the registration fee?",
+        answer: "There is no government fee for PM WANI registration.",
+      },
+      {
+        question: "What is SARALSANCHAR?",
+        answer:
+          "It is the official DoT portal for telecom and Wi-Fi related registrations.",
+      },
+      {
+        question: "What are the compliance requirements post-registration?",
+        answer:
+          "Maintain user logs for 1 year, use Indian servers, ensure tariff transparency, and use Made in India technology.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "PDO Registration",
+          shortText:
+            "Retail shops and individuals can become public Wi-Fi providers.",
+          backText: "No license required, only registration through PDOAs.",
+        },
+        {
+          title: "PDOA Registration",
+          shortText: "Companies managing PDOs register as aggregators.",
+          backText: "Responsible for compliance, app interface, and bandwidth.",
+        },
+        {
+          title: "App Provider Registration",
+          shortText:
+            "Firms offering mobile apps for Wi-Fi access must register.",
+          backText: "Facilitates user login, authentication, and billing.",
+        },
+        {
+          title: "Central Registry",
+          shortText: "Managed by C-DOT for all PM WANI registrations.",
+          backText: "Ensures interoperability and secure access.",
+        },
+      ],
+      roleBenefits: [
+        "Allows local vendors to provide internet without heavy investment.",
+        "Increases digital access in underserved areas.",
+        "Supports Digital India and rural internet goals.",
+        "Creates self-employment and income streams.",
+        "Promotes indigenous tech solutions.",
+      ],
+      differenceTable: {
+        columns: ["Aspect", "BharatNet Project", "PM WANI Project"],
+        rows: [
+          ["Year of Launch", "2011", "2020"],
+          [
+            "Objective",
+            "Broadband to Gram Panchayats",
+            "Widespread public Wi-Fi access",
+          ],
+          ["Connectivity Type", "Wired (Optical Fiber)", "Wireless (Wi-Fi)"],
+          ["Funding Model", "Government funded", "Privately operated"],
+          ["Focus Area", "Rural infrastructure", "Urban and rural hotspots"],
+        ],
+      },
+      timelineFees: [
+        "Registration certificate issued within 7 working days.",
+        "No registration or license fee charged by DoT.",
+        "PDOs may incur minimal infrastructure setup costs.",
+        "Certification by Central Registry required post-registration.",
+        "Regular compliance audits may be conducted by authorities.",
+      ],
+    },
+  },
+
+  "coconut-board-registration": {
+    overview: {
+      heading: "Coconut Board Registration – Everything You Need to Know",
+      paragraphs: [
+        "If you're operating a business related to coconut products, securing Coconut Board Registration is crucial to avail various schemes, subsidies, and incentives offered by the Coconut Development Board (CDB).",
+        "The Coconut Development Board, under the Ministry of Agriculture and Farmers’ Welfare, issues the Coconut Board Certificate to eligible businesses. Registration enables businesses to leverage growth opportunities and streamline coconut-based operations.",
+        "Coconut Board Registration is essential for businesses dealing in the manufacture, processing, export, and training of coconut-based goods. It provides legal validation, opens access to government support, and strengthens market presence.",
+      ],
+    },
+    features: [
+      {
+        icon: "✅",
+        title: "Access to Government Schemes",
+        description:
+          "Registered entities can avail various CDB subsidies, grants, and development schemes.",
+      },
+      {
+        icon: "📜",
+        title: "Legal Recognition",
+        description:
+          "Provides official recognition and authorization from the Coconut Development Board.",
+      },
+      {
+        icon: "🤝",
+        title: "Stakeholder Collaboration",
+        description:
+          "Builds trust and cooperation with CDB and related industry bodies.",
+      },
+      {
+        icon: "🏛️",
+        title: "Eligibility for Tenders",
+        description:
+          "Enables participation in tenders and government contracts related to coconut procurement and supply.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Increased Market Access",
+        description:
+          "Boosts credibility and market visibility across domestic and international platforms.",
+      },
+      {
+        title: "Export Promotion",
+        description:
+          "Facilitates RCMC for exporters and enables access to global coconut markets.",
+      },
+      {
+        title: "Financial Support",
+        description:
+          "Eligibility for loans, subsidies, and incentives related to coconut production and processing.",
+      },
+      {
+        title: "Regulatory Compliance",
+        description:
+          "Ensures alignment with government norms and CDB quality standards.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Fill Application Form",
+          desc: "Complete the RCMC application form on the CDB portal with business details.",
+        },
+        {
+          title: "Document Submission",
+          desc: "Upload MoA, AoA, financials, revenue plan, and other mandatory documents.",
+        },
+        {
+          title: "Verification & Inspection",
+          desc: "CDB will verify submitted documents and may inspect the business premises.",
+        },
+        {
+          title: "Approval & Fee Payment",
+          desc: "Once verified, pay the applicable ₹8,000 registration fee to receive the certificate.",
+        },
+      ],
+      violations: [
+        "Providing false or misleading documents.",
+        "Failure to comply with eligibility norms post-registration.",
+        "Misrepresentation of core coconut-based business operations.",
+      ],
+      consequences: [
+        "RCMC cancellation by the CDB in case of non-compliance.",
+        "Disqualification from government tenders and incentive programs.",
+        "Delisting and show-cause notices for breaching registration conditions.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Coconut Board Registration",
+        items: [
+          "Must be a company registered with the Registrar of Companies (RoC).",
+          "Authorized capital must be ₹20 lakhs or more.",
+          "Paid-up capital must be at least ₹10 lakhs.",
+          "Should have 250 shareholders or 100 CPSs or 10 CPFs.",
+          "Must have a revenue-generating business plan focused on coconut.",
+        ],
+      },
+      {
+        heading: "Entities Required to Register",
+        items: [
+          "Coconut Producer Companies (CPCs)",
+          "Coconut Processing Units",
+          "Exporters of Coconut Products",
+          "Institutions offering training in coconut-related activities",
+        ],
+      },
+      {
+        heading: "Documents Checklist",
+        items: [
+          "Memorandum of Association (MoA)",
+          "Articles of Association (AoA)",
+          "Certificate of Incorporation",
+          "Proof of paid-up capital",
+          "Annual reports and audited financials (previous year)",
+          "Certificate of Commencement of Business",
+          "Revenue-generating business plan",
+          "Demand Draft of ₹1000 to Chairman, CDB at Ernakulam",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Hassle-Free Registration",
+        desc: "Fast-track Coconut Board Certificate with expert assistance.",
+      },
+      {
+        title: "Documentation Support",
+        desc: "Complete support with preparing and filing accurate documentation.",
+      },
+      {
+        title: "Expert Guidance",
+        desc: "Consultation by industry experts for eligibility and compliance.",
+      },
+      {
+        title: "Government Liaison",
+        desc: "Assistance in correspondence with the CDB and other bodies.",
+      },
+      {
+        title: "Nationwide Coverage",
+        desc: "Pan-India services to help coconut businesses across all states.",
+      },
+      {
+        title: "Post-Approval Support",
+        desc: "Ongoing compliance help after certification.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is Coconut Board Registration?",
+        answer:
+          "It is a mandatory registration for coconut businesses to obtain a Coconut Board Certificate from the CDB.",
+      },
+      {
+        question: "Who regulates the Coconut Board?",
+        answer:
+          "The Coconut Development Board under the Ministry of Agriculture.",
+      },
+      {
+        question: "What is the fee for registration?",
+        answer:
+          "The registration fee is ₹8,000 excluding documentation charges.",
+      },
+      {
+        question: "What is the validity of the certificate?",
+        answer: "Valid for 2 years from the date of issuance.",
+      },
+      {
+        question: "What if I fail to meet eligibility post-registration?",
+        answer: "The CDB may revoke or cancel the RCMC certificate.",
+      },
+      {
+        question: "What is the full form of CDB?",
+        answer: "Coconut Development Board.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Kernel-Based Products",
+          shortText: "Products from coconut kernel.",
+          backText:
+            "Includes oil, milk, copra, desiccated coconut, virgin coconut oil, and cream.",
+        },
+        {
+          title: "Coconut Water-Based",
+          shortText: "Drinks and fermentations.",
+          backText:
+            "Includes nata-de-coco, vinegar, squash, and tender coconut water.",
+        },
+        {
+          title: "Inflorescence Products",
+          shortText: "From coconut flowers.",
+          backText: "Includes neera, palm sugar, jaggery, and flower syrup.",
+        },
+        {
+          title: "Coconut Snacks",
+          shortText: "Convenient coconut food.",
+          backText: "Includes barfi, candy, biscuits, and chocolate.",
+        },
+        {
+          title: "Shell-Based Products",
+          shortText: "Hard coconut shell goods.",
+          backText: "Includes shell powder, charcoal, and activated carbon.",
+        },
+        {
+          title: "Haustorium Products",
+          shortText: "From sprouted coconut.",
+          backText:
+            "Includes haustorium candy, ice cream, cookies, and clusters.",
+        },
+      ],
+      roleBenefits: [
+        "Ensures legal compliance for coconut businesses.",
+        "Enables access to government schemes and export incentives.",
+        "Facilitates credibility in international markets.",
+        "Boosts supply chain participation in coconut procurement.",
+        "Encourages innovation and diversification in coconut products.",
+      ],
+      differenceTable: {
+        columns: [
+          "Aspect",
+          "Coconut Board Registration",
+          "General Business Registration",
+        ],
+        rows: [
+          [
+            "Purpose",
+            "For coconut-based businesses",
+            "For all types of businesses",
+          ],
+          [
+            "Regulatory Body",
+            "Coconut Development Board",
+            "MCA or Local Authority",
+          ],
+          [
+            "Eligibility",
+            "Strict shareholder/capital criteria",
+            "Minimal criteria",
+          ],
+          ["Validity", "2 years", "Lifetime (unless changed)"],
+          [
+            "Export Benefits",
+            "Eligible for incentives",
+            "Not specific to coconut exports",
+          ],
+        ],
+      },
+      timelineFees: [
+        "Registration fee: ₹8,000 (excluding documentation charges).",
+        "Validity of RCMC certificate: 2 years.",
+        "Application processing time: 30 to 45 days.",
+        "Steps: Form filling, verification, inspection, approval.",
+        "Non-compliance can lead to revocation of certificate.",
+      ],
+    },
+  },
+
+
   
 
   
-  
-
-
-  
-  
-  
-  
-
-
 };

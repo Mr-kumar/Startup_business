@@ -5409,153 +5409,182 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-
   "ayush-license": {
-    title: "AYUSH License Made Easy – Your Gateway to the Herbal & Traditional Medicine Market",
-    description: "AYUSH—Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy—represents India’s holistic healthcare legacy. Since the Ministry of AYUSH’s establishment in 2014, all traditional medicine manufacturing, distribution, retailing, clinic operations, export and loan licensing must comply with the Drugs & Cosmetics Act, 1940 and Rules 85A–85I & 158-B.",
+    title:
+      "AYUSH License Made Easy – Your Gateway to the Herbal & Traditional Medicine Market",
+    description:
+      "AYUSH—Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy—represents India’s holistic healthcare legacy. Since the Ministry of AYUSH’s establishment in 2014, all traditional medicine manufacturing, distribution, retailing, clinic operations, export and loan licensing must comply with the Drugs & Cosmetics Act, 1940 and Rules 85A–85I & 158-B.",
     overview: [
       {
         heading: "What is AYUSH License?",
-        content: "An AYUSH license authorizes entities to manufacture, distribute, retail, wholesale, export, or operate clinics in Ayurvedic, Unani, Siddha, Homeopathy and other traditional products under Rules 85A–85I and 158-B of the Drugs & Cosmetics Rules, 1945."
+        content:
+          "An AYUSH license authorizes entities to manufacture, distribute, retail, wholesale, export, or operate clinics in Ayurvedic, Unani, Siddha, Homeopathy and other traditional products under Rules 85A–85I and 158-B of the Drugs & Cosmetics Rules, 1945.",
       },
       {
         heading: "Regulations Governing AYUSH Licensing",
-        content: "Rules 158-B govern Ayurvedic, Unani, Siddha manufacturing; Rules 85A–85I govern Homeopathic. All licensees must adhere to Good Manufacturing Practices (GMP), employ qualified practitioners (BAMS/BUMS/DPharm/BPharm), maintain approved premises, and comply with labeling, safety and quality norms."
+        content:
+          "Rules 158-B govern Ayurvedic, Unani, Siddha manufacturing; Rules 85A–85I govern Homeopathic. All licensees must adhere to Good Manufacturing Practices (GMP), employ qualified practitioners (BAMS/BUMS/DPharm/BPharm), maintain approved premises, and comply with labeling, safety and quality norms.",
       },
       {
         heading: "Types of AYUSH Licenses",
-        content: "Includes Manufacturing License (Ayurveda, Unani, Siddha, Homeopathy), Retail License, Wholesale License, Export License, Product Approval License, Clinic License, and Loan License for third‑party GMP contract manufacturing."
+        content:
+          "Includes Manufacturing License (Ayurveda, Unani, Siddha, Homeopathy), Retail License, Wholesale License, Export License, Product Approval License, Clinic License, and Loan License for third‑party GMP contract manufacturing.",
       },
       {
         heading: "Eligibility Criteria",
-        content: "Applicant must be at least 18 years old with no criminal record, operate from a GMP‑compliant facility, employ qualified technical staff (BAMS/BUMS/DPharm/BPharm), and submit evidence of premises ownership/lease, GMP certificate, product formulations, and staff credentials."
+        content:
+          "Applicant must be at least 18 years old with no criminal record, operate from a GMP‑compliant facility, employ qualified technical staff (BAMS/BUMS/DPharm/BPharm), and submit evidence of premises ownership/lease, GMP certificate, product formulations, and staff credentials.",
       },
       {
         heading: "Timeline for AYUSH License Approval",
-        content: "Standard processing takes 20–30 working days; may extend to 60 days if additional scrutiny or documentation issues arise. Complete, accurate submissions significantly reduce delays."
-      }
+        content:
+          "Standard processing takes 20–30 working days; may extend to 60 days if additional scrutiny or documentation issues arise. Complete, accurate submissions significantly reduce delays.",
+      },
     ],
     benefits: [
       {
         heading: "Top 10 Benefits of AYUSH License",
-        content: "1. Legal authorization for manufacture, sale, export, clinic operations  \n2. Enhanced brand credibility and consumer trust  \n3. Full regulatory & GMP compliance  \n4. Market expansion across India & abroad  \n5. Eligibility for government subsidies & tax benefits  \n6. Faster online application & approvals  \n7. Access to export channels and global markets  \n8. Protection of intellectual property & formulations  \n9. Ability to host private label & contract manufacturing  \n10. Competitive advantage over unlicensed players"
-      }
+        content:
+          "1. Legal authorization for manufacture, sale, export, clinic operations  \n2. Enhanced brand credibility and consumer trust  \n3. Full regulatory & GMP compliance  \n4. Market expansion across India & abroad  \n5. Eligibility for government subsidies & tax benefits  \n6. Faster online application & approvals  \n7. Access to export channels and global markets  \n8. Protection of intellectual property & formulations  \n9. Ability to host private label & contract manufacturing  \n10. Competitive advantage over unlicensed players",
+      },
     ],
     documentsRequired: [
       {
         heading: "Comprehensive Document Checklist",
-        content: "• Filled AYUSH application form  \n• Proof of premises (title deed/lease agreement)  \n• GMP certificate and Site Master File  \n• Detailed product dossiers (formulation, labels)  \n• Technical staff credentials (degrees, experience letters)  \n• Identity proof (PAN, Aadhaar)  \n• Company registration (Incorporation, MSME/Udyam)  \n• Layout plan, equipment list  \n• NOCs from municipal/pollution control authorities  \n• Affidavits (no criminal record, no litigation, GMP compliance)  \n• Copy of ITR and refundable security deposit proof (if applicable)"
-      }
+        content:
+          "• Filled AYUSH application form  \n• Proof of premises (title deed/lease agreement)  \n• GMP certificate and Site Master File  \n• Detailed product dossiers (formulation, labels)  \n• Technical staff credentials (degrees, experience letters)  \n• Identity proof (PAN, Aadhaar)  \n• Company registration (Incorporation, MSME/Udyam)  \n• Layout plan, equipment list  \n• NOCs from municipal/pollution control authorities  \n• Affidavits (no criminal record, no litigation, GMP compliance)  \n• Copy of ITR and refundable security deposit proof (if applicable)",
+      },
     ],
     registrationProcedure: [
       {
         heading: "How to Apply for AYUSH License Online",
-        content: "Step 1: Visit your State AYUSH portal and select license category  \nStep 2: Upload application form and complete document checklist  \nStep 3: Pay application and statutory fees online  \nStep 4: State AYUSH department reviews compliance, premises eligibility, GMP adherence  \nStep 5: Address any queries or inspections within 7 working days  \nStep 6: AYUSH Commissioner grants license within 15–30 working days  \nStep 7: Download license certificate from portal or receive by post"
-      }
+        content:
+          "Step 1: Visit your State AYUSH portal and select license category  \nStep 2: Upload application form and complete document checklist  \nStep 3: Pay application and statutory fees online  \nStep 4: State AYUSH department reviews compliance, premises eligibility, GMP adherence  \nStep 5: Address any queries or inspections within 7 working days  \nStep 6: AYUSH Commissioner grants license within 15–30 working days  \nStep 7: Download license certificate from portal or receive by post",
+      },
     ],
     feesStructure: [
       {
         heading: "Fees and Manufacturer Charges",
-        description: "• Application fee: ₹5,000–₹25,000 depending on license type  \n• Annual renewal fee: ₹3,000–₹15,000  \n• Loan license conversion charges: manufacturer’s production cost + utilities + manpower  \n• Product approval statutory fee: ₹1,000 per formulation  \n• Security deposit refundable: ₹50,000–₹2,00,000"
-      }
+        description:
+          "• Application fee: ₹5,000–₹25,000 depending on license type  \n• Annual renewal fee: ₹3,000–₹15,000  \n• Loan license conversion charges: manufacturer’s production cost + utilities + manpower  \n• Product approval statutory fee: ₹1,000 per formulation  \n• Security deposit refundable: ₹50,000–₹2,00,000",
+      },
     ],
     whyUs: [
       {
         heading: "Why Trust Our AYUSH Consultants?",
         description: [
-          "1. 100+ AYUSH experts across India  \n2. 10+ years regulatory experience  \n3. 20 lakh+ hours saved for clients  \n4. 75% market share in healthcare licensing  \n5. End‑to‑end online application handling  \n6. Transparent, real‑time status tracking  \n7. Personalized, state‑specific guidance"
+          "1. 100+ AYUSH experts across India  \n2. 10+ years regulatory experience  \n3. 20 lakh+ hours saved for clients  \n4. 75% market share in healthcare licensing  \n5. End‑to‑end online application handling  \n6. Transparent, real‑time status tracking  \n7. Personalized, state‑specific guidance",
         ],
-        points: []
-      }
+        points: [],
+      },
     ],
     faq: [
       {
         question: "What is an AYUSH license?",
-        answer: "An official permit from the Ministry of AYUSH to manufacture, sell, distribute, export or operate clinics for Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy products."
+        answer:
+          "An official permit from the Ministry of AYUSH to manufacture, sell, distribute, export or operate clinics for Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homeopathy products.",
       },
       {
         question: "Who needs an AYUSH retail license?",
-        answer: "Any business selling Ayurvedic, Unani, Siddha or Homeopathic products directly to consumers must obtain a retail license."
+        answer:
+          "Any business selling Ayurvedic, Unani, Siddha or Homeopathic products directly to consumers must obtain a retail license.",
       },
       {
         question: "What qualifications are required?",
-        answer: "Manufacturing units must employ qualified practitioners (BAMS/BUMS) and pharmacists (DPharm/BPharm) per AYUSH norms."
+        answer:
+          "Manufacturing units must employ qualified practitioners (BAMS/BUMS) and pharmacists (DPharm/BPharm) per AYUSH norms.",
       },
       {
         question: "What is a loan license?",
-        answer: "A permit allowing third‑party GMP‑certified manufacturers to produce products under contract; requires separate application per product."
+        answer:
+          "A permit allowing third‑party GMP‑certified manufacturers to produce products under contract; requires separate application per product.",
       },
       {
         question: "How long is the license valid?",
-        answer: "Typically valid for 5 years, renewable upon compliance with annual inspections and fee payments."
+        answer:
+          "Typically valid for 5 years, renewable upon compliance with annual inspections and fee payments.",
       },
       {
         question: "Can I export AYUSH products?",
-        answer: "Yes—an AYUSH export license ensures compliance with international quality standards for global market access."
+        answer:
+          "Yes—an AYUSH export license ensures compliance with international quality standards for global market access.",
       },
       {
         question: "What happens if I violate terms?",
-        answer: "Non‑compliance can result in warnings, suspension/cancellation of license, fines, and legal action under Drugs & Cosmetics Act."
+        answer:
+          "Non‑compliance can result in warnings, suspension/cancellation of license, fines, and legal action under Drugs & Cosmetics Act.",
       },
       {
         question: "Is GMP certification mandatory?",
-        answer: "Yes—manufacturing facilities must hold a valid GMP certificate under Drugs & Cosmetics Rules, 1945."
+        answer:
+          "Yes—manufacturing facilities must hold a valid GMP certificate under Drugs & Cosmetics Rules, 1945.",
       },
       {
         question: "What is the application timeline?",
-        answer: "20–30 working days for standard approval; up to 60 days if additional scrutiny or queries arise."
+        answer:
+          "20–30 working days for standard approval; up to 60 days if additional scrutiny or queries arise.",
       },
       {
         question: "How do I renew my license?",
-        answer: "Submit renewal form and fee 30 days before expiry, along with up‑to‑date compliance documents."
+        answer:
+          "Submit renewal form and fee 30 days before expiry, along with up‑to‑date compliance documents.",
       },
       {
         question: "Are AYUSH licenses transferable?",
-        answer: "No—licenses are non‑transferable and any change in premises or ownership requires a fresh application."
-      }
-    ]
+        answer:
+          "No—licenses are non‑transferable and any change in premises or ownership requires a fresh application.",
+      },
+    ],
   },
 
   "capexil-registration": {
     title: "CAPEXIL Registration – An Overview",
-    description: "CAPEXIL, the Chemical and Allied Export Promotion Council of India under the Ministry of Commerce, promotes India’s chemical and allied exports. Certification enhances credibility, provides market development assistance, and is mandatory for exporters of ceramics, rubber, glass, natural stones and related products.",
+    description:
+      "CAPEXIL, the Chemical and Allied Export Promotion Council of India under the Ministry of Commerce, promotes India’s chemical and allied exports. Certification enhances credibility, provides market development assistance, and is mandatory for exporters of ceramics, rubber, glass, natural stones and related products.",
     overview: [
       {
         heading: "What is CAPEXIL?",
-        content: "Established in 1958, CAPEXIL is a non‑profit export promotion body under the Ministry of Commerce. It supports exporters of over 80,000 chemical and allied products through international trade fairs, market delegations, and policy advocacy to boost India’s global presence."
+        content:
+          "Established in 1958, CAPEXIL is a non‑profit export promotion body under the Ministry of Commerce. It supports exporters of over 80,000 chemical and allied products through international trade fairs, market delegations, and policy advocacy to boost India’s global presence.",
       },
       {
         heading: "Objectives of CAPEXIL Certification",
-        content: "• Boost chemical exports with Market Development Assistance (MDA)\n• Foster business ties between Indian exporters and global buyers\n• Provide guidance to achieve international competitiveness\n• Implement promotional strategies to expand India’s export footprint"
+        content:
+          "• Boost chemical exports with Market Development Assistance (MDA)\n• Foster business ties between Indian exporters and global buyers\n• Provide guidance to achieve international competitiveness\n• Implement promotional strategies to expand India’s export footprint",
       },
       {
         heading: "Types of Membership",
-        content: "Associate Membership requires a valid IEC and suits new exporters. Ordinary Membership is open to Associate members with at least 3 years’ export experience and minimum annual export performance of ₹10 lakh (small) or ₹25 lakh (large)."
-      }
+        content:
+          "Associate Membership requires a valid IEC and suits new exporters. Ordinary Membership is open to Associate members with at least 3 years’ export experience and minimum annual export performance of ₹10 lakh (small) or ₹25 lakh (large).",
+      },
     ],
     benefits: [
       {
         heading: "Key Benefits of CAPEXIL Membership",
-        content: "• Global Market Access via MDA schemes and trade fairs\n• Detailed import-export statistics and trade insights\n• Networking at buyer-seller meets, seminars, and workshops\n• Simplified export return filings (monthly/quarterly)\n• Visa facilitation for international business travel\n• Policy advocacy and liaison with Government bodies"
-      }
+        content:
+          "• Global Market Access via MDA schemes and trade fairs\n• Detailed import-export statistics and trade insights\n• Networking at buyer-seller meets, seminars, and workshops\n• Simplified export return filings (monthly/quarterly)\n• Visa facilitation for international business travel\n• Policy advocacy and liaison with Government bodies",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for Registration",
-        content: "• Company incorporation certificate, MOA/AOA, PAN details\n• Import Export Code (IEC), GST registration, cancelled cheque\n• Board resolution authorizing membership and latest annual report\n• CA-certified turnover statements for specified thresholds\n• Manufacturing license (if applicable) and self-declaration of non-blacklisted status\n• Export performance data and passport-size photographs of authorized signatories"
-      }
+        content:
+          "• Company incorporation certificate, MOA/AOA, PAN details\n• Import Export Code (IEC), GST registration, cancelled cheque\n• Board resolution authorizing membership and latest annual report\n• CA-certified turnover statements for specified thresholds\n• Manufacturing license (if applicable) and self-declaration of non-blacklisted status\n• Export performance data and passport-size photographs of authorized signatories",
+      },
     ],
     registrationProcedure: [
       {
         heading: "How to Apply Online",
-        content: "1. Register as new user on CAPEXIL portal with IEC and firm details\n2. Upload scanned copies of all required documents\n3. Pay membership fee via DD or online gateway (₹3,000–₹10,000 based on category)\n4. Receive application number after document verification\n5. Certificate issued by Ministry of Commerce upon successful review"
-      }
+        content:
+          "1. Register as new user on CAPEXIL portal with IEC and firm details\n2. Upload scanned copies of all required documents\n3. Pay membership fee via DD or online gateway (₹3,000–₹10,000 based on category)\n4. Receive application number after document verification\n5. Certificate issued by Ministry of Commerce upon successful review",
+      },
     ],
     feesStructure: [
       {
         heading: "Membership Fees",
-        description: "• MSME Domestic Suppliers: ₹3,000\n• MSME Manufacturer‑Exporters: ₹5,000\n• Large Manufacturers/Merchant Exporters: ₹10,000\nAdditional charges apply for dual RCMC or panel registration"
-      }
+        description:
+          "• MSME Domestic Suppliers: ₹3,000\n• MSME Manufacturer‑Exporters: ₹5,000\n• Large Manufacturers/Merchant Exporters: ₹10,000\nAdditional charges apply for dual RCMC or panel registration",
+      },
     ],
     whyUs: [
       {
@@ -5564,41 +5593,3569 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "1. Over 10 years of export certification expertise",
           "2. 500+ satisfied chemical exporters supported",
           "3. End‑to‑end assistance: documentation, filing, compliance",
-          "4. 24/7 query resolution and real‑time application tracking"
+          "4. 24/7 query resolution and real‑time application tracking",
         ],
-        points: []
-      }
+        points: [],
+      },
     ],
     faq: [
       {
         question: "What is CAPEXIL?",
-        answer: "CAPEXIL is the Chemical and Allied Export Promotion Council of India under the Ministry of Commerce, promoting exports of chemical-based and allied products."
+        answer:
+          "CAPEXIL is the Chemical and Allied Export Promotion Council of India under the Ministry of Commerce, promoting exports of chemical-based and allied products.",
       },
       {
         question: "Is CAPEXIL membership mandatory?",
-        answer: "Yes, for exporters in notified sectors like ceramics, rubber, glassware, natural stones and related chemical products."
+        answer:
+          "Yes, for exporters in notified sectors like ceramics, rubber, glassware, natural stones and related chemical products.",
       },
       {
         question: "How long is the certification valid?",
-        answer: "The RCMC certificate is valid for one year from date of issue and must be renewed annually via the DGFT portal."
+        answer:
+          "The RCMC certificate is valid for one year from date of issue and must be renewed annually via the DGFT portal.",
       },
       {
         question: "Can MSMEs apply at reduced fees?",
-        answer: "Yes. MSME Domestic Suppliers pay ₹3,000 and MSME Manufacturer‑Exporters pay ₹5,000."
+        answer:
+          "Yes. MSME Domestic Suppliers pay ₹3,000 and MSME Manufacturer‑Exporters pay ₹5,000.",
       },
       {
         question: "What products are covered?",
-        answer: "Auto tyres, glassware, plywood, rubber goods, natural stones, cement, ceramics, paints, explosives, processed minerals, animal by‑products and allied chemical products."
+        answer:
+          "Auto tyres, glassware, plywood, rubber goods, natural stones, cement, ceramics, paints, explosives, processed minerals, animal by‑products and allied chemical products.",
       },
       {
         question: "How does Dostartup assist?",
-        answer: "We manage all documentation, online application, follow‑up and renewals, ensuring seamless compliance and fast approvals."
-      }
-    ]
+        answer:
+          "We manage all documentation, online application, follow‑up and renewals, ensuring seamless compliance and fast approvals.",
+      },
+    ],
+  },
+
+  "nasscom-membership": {
+    title: "NASSCOM Membership Certificate",
+    description:
+      "Joining NASSCOM—India’s premier IT‑BPM trade association—boosts your credibility, unlocks networking and policy‑making opportunities, and provides access to critical market intelligence.",
+    overview: [
+      {
+        heading: "What is NASSCOM?",
+        content:
+          "The National Association of Software and Service Companies (NASSCOM) is India’s leading trade body for the IT‑BPM sector, established in 1988 under the Ministry of Commerce. It represents over 3,000 member companies—from startups to multinationals—and drives industry growth through events, research, advocacy, and global trade facilitation.",
+      },
+      {
+        heading: "Why NASSCOM Membership Matters",
+        content:
+          "Membership signals your adherence to industry best practices, grants you a voice in policy discussions with government and regulators, and positions you at the forefront of India’s digital economy.",
+      },
+      {
+        heading: "Who Can Apply?",
+        content:
+          "Any legally registered Indian entity—startups, private/public limited companies, LLPs—engaged in IT services, software development, SaaS, tech‑enabled services, BPO/KPO, or related digital sectors with valid GST and PAN can apply.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Strong Industry Recognition",
+        content:
+          "Instantly enhance your brand’s credibility by associating with India’s top IT‑BPM trade body.",
+      },
+      {
+        heading: "Global Networking Opportunities",
+        content:
+          "Participate in national and international forums, trade fairs, and summits to build partnerships and explore new markets.",
+      },
+      {
+        heading: "Access to Market Intelligence",
+        content:
+          "Receive privileged access to NASSCOM’s proprietary research, trend reports, and white papers on technology, regulations, and market developments.",
+      },
+      {
+        heading: "Policy Advocacy",
+        content:
+          "Shape industry‑friendly regulations by contributing to NASSCOM’s policy dialogues with the Government of India.",
+      },
+      {
+        heading: "Business Growth Support",
+        content:
+          "Benefit from mentorship programs, innovation hubs, skill development initiatives, and startup acceleration platforms.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Key Documents for Application",
+        content:
+          "Certificate of Incorporation or LLP Agreement; PAN card; GST registration; brief company profile or pitch deck; audited financial statements or net‑worth declaration; founders’/directors’ ID proofs; URL of website or LinkedIn; declaration of business activities.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "DoStartup’s Seamless Process",
+        content:
+          "1. Initial Consultation & Eligibility Check: Free one‑on‑one to assess your fit and choose the right membership tier.  \n2. Document Collection & Review: We gather, format, and professionally review all required documents.  \n3. Application Filing: We submit your error‑free application and handle membership fee guidance.  \n4. Follow‑Up & Liaison: We track your application, respond to NASSCOM queries, and expedite approval.  \n5. Certificate Delivery: Receive your digital & print‑ready NASSCOM certificate, portal credentials, and directory listing.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Dedicated team of tech licensing experts with deep NASSCOM insights",
+          "Transparent, startup‑friendly pricing—no hidden charges",
+          "End‑to‑end management from paperwork to certificate delivery",
+          "Real‑time application tracking and proactive updates",
+          "Rapid turnaround through established NASSCOM channels",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the cost of NASSCOM membership?",
+        answer:
+          "Membership fees vary by annual revenue. DoStartup will provide a precise quote, including NASSCOM’s official fee plus our service charge.",
+      },
+      {
+        question: "How long does approval take?",
+        answer:
+          "With complete documentation, approval usually takes 7–14 working days. Active follow‑ups by DoStartup minimize delays.",
+      },
+      {
+        question: "Can a pre‑revenue startup apply?",
+        answer:
+          "Yes, as long as you have a registered entity (company or LLP) and valid GST/PAN, you can join.",
+      },
+      {
+        question: "Will my company be listed on the NASSCOM website?",
+        answer:
+          "Yes. Approved members receive a listing in NASSCOM’s official member directory, enhancing visibility.",
+      },
+      {
+        question: "What if my application is rejected?",
+        answer:
+          "DoStartup analyzes rejection reasons, rectifies issues or missing documents, and resubmits until successful approval.",
+      },
+      {
+        question: "Is renewal required?",
+        answer:
+          "Yes. Membership renews annually. DoStartup handles renewals and tier upgrades seamlessly.",
+      },
+    ],
+  },
+
+  "mso-license": {
+    title: "MSO License – A Complete Overview",
+    description:
+      "An MSO License is mandatory for any Multi-System Operator offering cable TV services via a Digital Addressable System (DAS). Apply online through the Ministry of Information & Broadcasting’s Broadcast Seva portal.",
+    overview: [
+      {
+        heading: "What is the MSO License?",
+        content:
+          "A Multi-System Operator (MSO) License authorizes cable television providers operating multiple cable or satellite TV systems to distribute a wide array of channels to end users through a DAS.",
+      },
+      {
+        heading: "Who is a Multi-System Operator?",
+        content:
+          "An MSO is an entity—individual, firm, society, association, or company—that aggregates multiple local cable networks or satellite feeds and delivers encrypted digital TV signals via local cable operators (LCOs) or directly to subscribers.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages of Holding an MSO License",
+        content:
+          "• Legal authorization to aggregate and distribute multiple TV channels  \n• Ability to serve large subscriber bases across regions  \n• Enhanced content‑security via encryption and DAS compliance  \n• Credibility and trust with broadcasters and regulators  \n• Opportunity to negotiate carriage agreements with national broadcasters",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Individual Applicant",
+        content:
+          "Identification proofs (Voter ID/Aadhaar, DOB certificate, PAN, ITR), ₹1 Lakh Bharat Kosh challan, residential proof, CA‑signed net worth certificate, P&L and balance sheet, authorization letter and ₹10 stamp‑paper undertaking.",
+      },
+      {
+        heading: "Existing Cable Operator",
+        content:
+          "GST & Entertainment Tax registration, list of local cable operators, ground/local channels, mandatory & satellite channels, signed broadcaster agreements.",
+      },
+      {
+        heading: "Non‑Cable Operator",
+        content:
+          "GST/Entertainment Tax registration or application receipts, provisional registration affidavit on ₹10 stamp paper, challan & fee receipt.",
+      },
+      {
+        heading: "Association or Body of Individuals",
+        content:
+          "Registration deed, member ID proofs (Voter ID/Aadhaar, DOB, PAN), CA‑certified net worth, balance sheet & P&L, ₹1 Lakh challan, authorization letter and undertakings on ₹10 stamp paper.",
+      },
+      {
+        heading: "Company Applicant",
+        content:
+          "Incorporation certificate, company PAN, directors’ PAN & DOB proofs, CA‑certified net worth, balance sheet & P&L, ₹1 Lakh challan, AOA/MOA, authorization letter, updated ITR, ₹10 stamp‑paper undertaking.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Process for Obtaining an MSO License",
+        content:
+          "1. Complete the online MSO registration form on Broadcast Seva.  \n2. Attach digital copies of all required documents.  \n3. Pay the ₹1 Lakh processing fee via Bharat Kosh and download the challan.  \n4. Prepare an undertaking on ₹10 stamp paper and provisional affidavit on ₹100 stamp paper.  \n5. Send hard copies of the challan, undertakings, affidavits, and fee receipt to the Ministry via speed post within 15 days.  \n6. Track application status on the portal and respond promptly to queries.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Expert Support from DoStartup",
+        description: [
+          "Decades of experience in government licensing processes",
+          "End‑to‑end document preparation and submission",
+          "Dedicated liaison with Ministry officials to expedite approval",
+          "Clear guidance on compliance, affidavits, and speed‑post procedures",
+          "Real‑time tracking and personalized updates",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the full form of MSO?",
+        answer: "MSO stands for Multi-System Operator.",
+      },
+      {
+        question: "When did the MSO License come into effect in India?",
+        answer:
+          "The MSO licensing framework was introduced following the Cable Television Networks (Regulation) Amendment Act, 2011, mandating Digital Addressable Systems.",
+      },
+      {
+        question: "What is the role of an MSO license in cable TV?",
+        answer:
+          "An MSO license enables lawful distribution of multiple television channels via DAS, ensuring regulatory compliance, content security, and subscriber transparency.",
+      },
+      {
+        question: "What do you mean by Multi-System Operator?",
+        answer:
+          "A Multi-System Operator is an entity that operates more than one cable or satellite TV system, aggregating channels for delivery through local networks or directly to subscribers.",
+      },
+      {
+        question: "Who can apply for the MSO license in India?",
+        answer:
+          "Any Indian citizen or entity—individual, firm, society, association, or company—meeting incorporation, financial soundness, and clean criminal record criteria can apply.",
+      },
+      {
+        question:
+          "What are the types of documents required to apply for an MSO License in India?",
+        answer:
+          "Documents vary by applicant type but generally include identity/address proofs, net worth certificates, tax registrations, affidavits, undertakings, broadcaster agreements, and company incorporation papers.",
+      },
+      {
+        question: "What is the typical process of obtaining an MSO license?",
+        answer:
+          "Visit Broadcast Seva portal, fill online form, upload documents, pay fee, send undertakings and challan via speed post within 15 days, then monitor approval and respond to queries.",
+      },
+    ],
+  },
+
+  "dot-osp-compliance": {
+    title: "DoT OSP Compliance",
+    description:
+      "Mandatory Department of Telecommunications compliance for Other Service Providers (OSPs) offering telecom‑based services like call centers, BPO/KPO, tele‑banking, and more.",
+    overview: [
+      {
+        heading: "Role of DoT OSP Compliance",
+        content:
+          "OSP registration and ongoing compliance with DoT guidelines ensures legal authorization to operate telecom‑based services—tele‑banking, e‑commerce, tele‑education, call centers, BPO/KPO—and prevents penalties or shutdowns.",
+      },
+      {
+        heading: "Mandatory Form Filing",
+        content:
+          "1. Changes in OSP Setup: Notify DoT’s Term Cell within 15 days of any change in directorship, connectivity, or infrastructure.  \n2. Annual Return Submission: File within 6 months of financial year end, including client information, turnover, net profit/loss, employee details; errors can delay processing.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Importance of Compliance Services",
+        content:
+          "Professional DoT OSP compliance services help OSPs file accurate annual returns, maintain timely updates, and handle complex legal paperwork—minimizing risk of heavy fines or service interruptions.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents",
+        content:
+          "OSP name & registration number; registered office address; company CIN (and holding company CIN if any); employee details; balance sheet; profit & loss statement; any other DoT‑specified documents.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Steps to Ensure DoT OSP Compliance",
+        content:
+          "1. Collect Documents: Gather all required paperwork and verify accuracy.  \n2. Fill Compliance Form: Complete the appropriate DoT form with correct details.  \n3. Submit & Confirm: File form and documents with the Term Cell and obtain acknowledgment receipt for future tracking.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Let DoStartup Simplify Your Compliance",
+        description: [
+          "Expert handling of form filings and document preparation",
+          "Timely submissions to DoT Term Cells with error‑free paperwork",
+          "Ongoing support for annual returns and setup changes",
+          "Minimize compliance risk and avoid heavy penalties",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is DoT compliance on the internet?",
+        answer:
+          "Telecom‑related requirements—registration, annual returns, updates—that OSPs must follow under DoT regulations.",
+      },
+      {
+        question: "Who falls under DoT OSP compliance?",
+        answer:
+          "All registered OSPs offering telecom‑based services like BPOs, call centers, tele‑education, tele‑trading, etc.",
+      },
+      {
+        question: "What are the filing requirements?",
+        answer:
+          "Notify setup changes within 15 days and file annual returns within 6 months after FY end with accurate financial and employee data.",
+      },
+      {
+        question: "What documents are needed for annual return filing?",
+        answer:
+          "OSP registration, CIN, P&L statement, balance sheet, employee records, and any other DoT‑specified paperwork.",
+      },
+      {
+        question: "What is the compliance process?",
+        answer:
+          "Gather documents → complete the form → submit to DoT Term Cell → retain acknowledgment for records.",
+      },
+      {
+        question: "Why approach DoStartup for compliance?",
+        answer:
+          "DoStartup provides expert handling, accurate paperwork, and timely submissions to minimize your compliance risks.",
+      },
+      {
+        question: "Which authority governs OSP facilities?",
+        answer:
+          "The Department of Telecommunications (DoT) under India’s Ministry of Communications.",
+      },
+    ],
+  },
+
+  "ip-1-license": {
+    title: "IP-1 License – A Complete Overview",
+    description:
+      "An IP-1 License is granted by the Department of Telecommunications to Infrastructure Providers – Category I, authorizing them to lease, rent, or sell passive telecom assets like towers, dark fiber, RoW, duct space and similar non‑electronic infrastructure.",
+    overview: [
+      {
+        heading: "Role of IP-1 License",
+        content:
+          "The IP-1 License enables companies to legally offer passive telecom infrastructure—towers, ducts, dark fiber, RoW—to licensed telecom operators, ensuring a regulated, high‑quality connectivity ecosystem across India.",
+      },
+      {
+        heading: "Areas Served by IP-1 Providers",
+        content:
+          "IP-1 License holders deal exclusively with passive components:\n● Towers for wireless coverage\n● Right of Way (RoW) for cable routes\n● Antennas and base stations as network hubs\n● Duct space for fiber installations\n● Dark fiber leasing\n● Broadband and cloud infrastructure",
+      },
+      {
+        heading: "Who Can Apply",
+        content:
+          "Eligibility is restricted to companies incorporated under the Companies Act, 2013 with a clean legal record. Foreign direct investment up to 100% is permitted, subject to FIPB approval if above 40%.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Registration Guidelines",
+        content:
+          "● Must be a Company under Companies Act, 2013\n● No cap on number of IP‑1 entrants\n● Deal only in passive assets via formal agreements\n● Notify DoT within 15 days of signing contracts or setup changes\n● DoT decision on application within 15 days",
+      },
+      {
+        heading: "Why IP‑1 Compliance Matters",
+        content:
+          "Maintaining IP‑1 compliance prevents heavy penalties, ensures uninterrupted service, and fosters trust with telecom operators through transparent, non‑discriminatory infrastructure agreements.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents for IP-1 Application",
+        content:
+          "● Licensing fee DD/Pay Order\n● Certificate of Incorporation signed by Director/CS/Auditor\n● Equity structure details and shareholder nationalities\n● MoU/Agreement for foreign promoters (if any)\n● FIPB approval (if FDI >40%)\n● Board Resolution authorizing signatory\n● MOA & AOA with business objectives\n● List of Directors with nationalities",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Application Process",
+        content:
+          "1. Download & Review Form: From the DoT portal.  \n2. Complete Application: Company name, address, signatory details, fee info, equity breakdown, company seal & signature.  \n3. Submit Offline: File at DoT Head Office, New Delhi, and get acknowledgment.  \n4. Vetting: DoT verifies documents; discrepancies may lead to rejection.  \n5. Certificate Issuance: Upon approval, receive IP‑1 License to operate.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Let DoStartup Simplify Your IP-1 License",
+        description: [
+          "Expert guidance on documentation & application filing",
+          "Timely follow‑up with DoT to expedite approval",
+          "Accurate form filling and legal review",
+          "End‑to‑end support from download to certificate delivery",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the role of the IP-1 License?",
+        answer:
+          "It permits companies to offer passive telecom infrastructure—towers, duct space, dark fiber—to licensed operators.",
+      },
+      {
+        question: "Who is an Infrastructure Provider?",
+        answer:
+          "A provider supplying non‑electronic telecom assets like towers, RoW, antennas, base stations, and ducts.",
+      },
+      {
+        question: "Why does DoT issue IP-1 Licenses?",
+        answer:
+          "To regulate passive infrastructure deployment, ensure standardization, and support telecom ecosystem growth.",
+      },
+      {
+        question: "Is an IP-1 License mandatory?",
+        answer:
+          "Yes—any entity leasing, renting or selling passive telecom assets to operators must hold an IP‑1 License.",
+      },
+      {
+        question: "What resources can IP‑1 holders provide?",
+        answer:
+          "Towers, right of way, duct space, dark fiber, antennas, base stations, and broadband infrastructure.",
+      },
+      {
+        question: "How soon does DoT decide on applications?",
+        answer:
+          "DoT communicates approval or rejection within 15 days of submission.",
+      },
+      {
+        question: "Can foreign‑owned companies apply?",
+        answer:
+          "Yes—100% FDI allowed subject to FIPB approval if equity exceeds 40%.",
+      },
+      {
+        question: "What is required after signing infrastructure agreements?",
+        answer:
+          "Submit copies of all formal agreements to DoT within 15 days of execution.",
+      },
+    ],
+  },
+
+  "hits-operator": {
+    title: "HITS Operator – A Complete Overview",
+    description:
+      "A HITS (Headend‑In‑The‑Sky) Operator delivers multi‑channel TV via satellite under MIB guidelines, using Ku/C bands to downlink, aggregate, encrypt, and uplink content for cable operators and subscribers nationwide.",
+    overview: [
+      {
+        heading: "What Is a HITS Operator?",
+        content:
+          "A HITS Operator under Ministry of Information & Broadcasting guidelines receives, decrypts, aggregates, encrypts, and uplinks TV channels via Ku and C band satellites. They serve cable operators or connect directly to subscribers via set‑top boxes.",
+      },
+      {
+        heading: "How HITS Differs from Traditional Cable",
+        content:
+          "Traditional MSOs use terrestrial headends and fiber/coax distribution. HITS replaces local headends with nationwide satellite uplink—simplifying distribution, maintaining QoS, and centralizing Subscriber Management Systems.",
+      },
+      {
+        heading: "Scope of HITS Services",
+        content:
+          "1. Content Aggregation: Purchase, decrypt, bundle, encrypt and uplink channels.\n2. Passive Infrastructure: Lease earth station, transponder, encryption tools to MSOs.\n3. Dual Service: Combine aggregation and infrastructure offerings.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Requirements to Launch HITS",
+        content:
+          "● Company incorporation under Companies Act, 2013\n● Minimum net worth of ₹10 crore\n● Compliance with FDI norms\n● MIB authorization via TRAI approval",
+      },
+      {
+        heading: "Why HITS Offers Better Coverage",
+        content:
+          "Satellite‑based distribution enables uniform QoS across geographic regions, bypassing terrestrial network limitations and ensuring rapid nationwide deployment.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents for HITS License",
+        content:
+          "● Certificate of Incorporation\n● Memorandum & Articles of Association\n● Directors’ and shareholders’ list\n● Shareholding pattern\n● Net worth certificate & audited balance sheet\n● Satellite and earth station specifications\n● Application processing fee receipt",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Licensing Process",
+        content:
+          "1. Compile required documents  \n2. Complete HITS license application form  \n3. Submit to TRAI/MIB and obtain acknowledgment  \n4. Application scrutiny and vetting  \n5. Receive Letter of Intent  \n6. Pay entry fee as per LoI  \n7. Obtain official Registration Certificate",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for HITS Compliance",
+        description: [
+          "Expert handling of MIB/TRAI documentation",
+          "Timely application submission and follow‑up",
+          "End‑to‑end legal and technical support",
+          "Deep telecom licensing and compliance expertise",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What operations can HITS operators perform?",
+        answer:
+          "They may aggregate content, provide passive infrastructure to MSOs, or offer both services under one license.",
+      },
+      {
+        question: "Which authority regulates HITS licensing?",
+        answer:
+          "The Ministry of Information & Broadcasting, via TRAI, governs HITS authorization and compliance.",
+      },
+      {
+        question: "Why is satellite used for HITS?",
+        answer:
+          "Satellites deliver uniform, nationwide coverage, overcoming terrestrial network gaps and simplifying distribution.",
+      },
+      {
+        question: "What is a Letter of Intent?",
+        answer:
+          "A formal pre approval from TRAI/MIB that precedes issuance of the final HITS Registration Certificate.",
+      },
+      {
+        question: "Can HITS begin without TRAI approval?",
+        answer:
+          "No—prior TRAI/MIB approval is mandatory before initiating any HITS operations.",
+      },
+      {
+        question: "What constitutes passive infrastructure?",
+        answer:
+          "Earth stations, transponder capacity, encryption/decryption equipment leased to MSOs under formal agreements.",
+      },
+      {
+        question: "What if HITS exceeds licensed scope?",
+        answer:
+          "Non‑compliance may lead to penalties, license suspension, or legal action by TRAI/MIB.",
+      },
+      {
+        question: "How does DoStartup assist?",
+        answer:
+          "We manage document preparation, application filing, regulatory follow‑up, and guide you to secure your HITS license smoothly.",
+      },
+    ],
+  },
+
+  "fifp-approval-telecom": {
+    title: "FIFP Approval for Telecom – A Complete Overview",
+    description:
+      "Streamline your telecom FDI approvals through the Foreign Investment Facilitation Portal (FIFP), making the process digital, transparent, and efficient.",
+    overview: [
+      {
+        heading: "What Is FIFP Approval for Telecom?",
+        content:
+          "FIFP approval is mandatory for telecom sector investments falling outside the automatic FDI route. Managed by DPIIT, MoCI, and DoT, it digitizes and accelerates foreign investment facilitation in telecom.",
+      },
+      {
+        heading: "Key Features of the FIFP Portal",
+        content:
+          "✅ Fully online FDI application and tracking  \n✅ Real‑time status updates and notifications  \n✅ Increased transparency and reduced processing time  \n✅ Support for promotional activities to attract investors  \n✅ Centralized hub for policy and regulatory changes",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Using FIFP for Telecom FDI",
+        content:
+          "• Simplified approval process boosts investor confidence  \n• Enhanced transparency with live portal updates  \n• Faster decision‑making reduces time‑to‑market  \n• Increased global FDI inflow into telecom  \n• Automated notifications keep applicants informed",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents for FIFP Application",
+        content:
+          "• Certificate of Incorporation  \n• Memorandum & Articles of Association  \n• Valid Telecom License Agreement  \n• Detailed business report of the operator  \n• FDI proposal/intent  \n• Board resolutions (investor & investee)  \n• Audited financial statements (last fiscal year)  \n• List of foreign investors and collaborators  \n• Fund flow chart  \n• JV documents (if applicable)  \n• Any previous government approvals  \n• Affidavit of information accuracy",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step FIFP Application Process",
+        content:
+          "1. Register on the FIFP portal and verify via OTP.  \n2. Log in and complete the 'License (IL‑FC)' form under 'Comprehensive Corner'.  \n3. Upload all required documents; incomplete applications are rejected.  \n4. Submit physical copies to DoT within 10 days of online submission.  \n5. Download and submit the Security Clearance Form.  \n6. Track application status and receive FIFP approval.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "FIFP Portal Fees",
+        description:
+          "There is no government filing fee for the FIFP portal. Professional service charges may apply based on engagement scope.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Approval Timeline",
+        description:
+          "FIFP approvals for telecom generally take 4–6 weeks, subject to document completeness and query resolution.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for FIFP Approval",
+        description: [
+          "Expert guidance on FDI policy and telecom regulations",
+          "End‑to‑end assistance with portal registration and form filling",
+          "Document verification to ensure application completeness",
+          "Regular follow‑ups with DPIIT, MoCI, and DoT",
+          "Timely reminders for physical submissions",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Which sectors require FIFP approval?",
+        answer:
+          "Any sector not under the automatic FDI route—telecom being one of them—requires FIFP approval.",
+      },
+      {
+        question: "Is the FIFP application fully online?",
+        answer:
+          "Yes, both application submission and document uploads are completed online via the FIFP portal.",
+      },
+      {
+        question: "Can I save and revisit my application?",
+        answer:
+          "Yes, you can save your progress and return later using your unique application number.",
+      },
+      {
+        question: "Is there a fee for filing an online application?",
+        answer:
+          "No government fee is charged; however, professional assistance may involve service fees.",
+      },
+      {
+        question: "What if I miss the hard copy submission deadline?",
+        answer:
+          "Failure to submit physical documents within 10 days will invalidate your application.",
+      },
+      {
+        question: "Can I withdraw my application?",
+        answer:
+          "Yes, you may withdraw your application through the portal before final approval is granted.",
+      },
+    ],
+  },
+
+  "halal-certification": {
+    title: "Halal Certification – A Complete Overview",
+    description:
+      "Halal Certification verifies that products and processes comply with Islamic law, ensuring they are permissible, hygienic, and free from prohibited substances across food, cosmetics, pharmaceuticals, and hospitality sectors.",
+    overview: [
+      {
+        heading: "What Is Halal?",
+        content:
+          "Halal, meaning “permissible” under Islamic law, applies to food, cosmetics, pharmaceuticals, and other goods. Certification confirms products are free from pork, alcohol, non‑Halal gelatin or enzymes, and produced under strict hygiene standards.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Halal Certification",
+        content:
+          "✅ Use of Halal Logo: Builds consumer trust and credibility.\n✅ Global Market Access: Unlocks over 2 billion Muslim consumers worldwide.\n✅ Enhanced Quality & Hygiene: Certified processes meet stringent production and sanitation standards.\n✅ Better Brand Image: Elevates reputation domestically and internationally.\n✅ Compliance Assurance: Aligns with Islamic dietary laws and consumer expectations.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Halal Certification",
+        content:
+          "• Business PAN Card\n• Address Proof\n• Application on Official Letterhead\n• Product & Raw Material List\n• Preservation Methods & Equipment Details\n• Lab Certificates for Ingredients\n• Export License (if applicable)\n• Product Samples & Packaging\n• Declarations: No Pork, No Alcohol, Halal‑certified Preservatives",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Certification Process",
+        content:
+          "1. Choose Certification Body (e.g., Halal India, HCIL, Jamiat Ulama‑i‑Hind).\n2. Select Relevant Scheme (Restaurant, Food & Beverage, Abattoir, Industrial, Warehouse).\n3. Submit Application & Documents (no fee at this stage).\n4. Undergo Technical & Shariah Audit of premises and processes.\n5. Receive Halal Certificate upon successful audit and document approval.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Simplifies Halal Certification",
+        description: [
+          "• Expert selection of certification body and scheme",
+          "• Complete documentation preparation and review",
+          "• Coordination of audit scheduling and follow‑up",
+          "• Real‑time updates until certificate delivery",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Halal Certification?",
+        answer:
+          "It confirms that products and processes comply with Islamic law, ensuring they are free from prohibited elements and produced under hygienic conditions.",
+      },
+      {
+        question: "Which industries need Halal Certification?",
+        answer:
+          "Food processing, cosmetics, pharmaceuticals, hospitality, and any sector using animal‑derived or potentially non‑Halal ingredients.",
+      },
+      {
+        question: "How can I identify Halal‑certified products?",
+        answer:
+          "Look for the official Halal logo from a recognized certification body on product packaging.",
+      },
+      {
+        question: "What is the validity of Halal Certification?",
+        answer:
+          "Typically one year, with annual renewal required by the certifying body and scheme.",
+      },
+    ],
+  },
+
+  "homologation-certificate": {
+    title: "Homologation Certification – A Complete Overview",
+    description:
+      "Homologation certification verifies that products meet India’s technical, safety, and regulatory standards, managed by ARAI for vehicles and BIS for non‑automotive goods, ensuring legal market access and quality assurance.",
+    overview: [
+      {
+        heading: "What Is Homologation?",
+        content:
+          "A formal process where products are tested and approved against Indian norms—vehicles via ARAI, and electronics, medical devices, telecom gear, industrial machinery, consumer goods, power equipment, and building materials via BIS—to ensure safety, performance, and regulatory compliance.",
+      },
+      {
+        heading: "Product Categories Requiring Homologation",
+        content:
+          "Automotive Vehicles (cars, bikes, buses, trucks), Electronic Devices (smartphones, laptops), Medical Equipment (imaging systems, surgical tools), Telecom Equipment (routers, switches), Industrial Machinery (cranes, excavators), Consumer Goods (toys, cosmetics, packaged foods), Power Equipment (generators, UPS), Building Materials (cement, steel).",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Homologation Matters",
+        content:
+          "• Regulatory Compliance: Confirms adherence to safety, crash, emission, and technical standards.\n• Legal Market Access: Mandatory for importing or selling in India, avoiding penalties and recalls.\n• Enhanced Brand Reputation: Demonstrates commitment to quality and consumer safety.\n• Consumer Trust: Certification logo reassures end‑users about product reliability.\n• Market Expansion: Enables seamless entry into India’s large and regulated markets.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents for Homologation",
+        content:
+          "• Technical Specifications: Design, dimensions, materials.\n• Accredited Test Reports: Lab results.\n• Type Approval Certificate.\n• Declaration of Conformity by Manufacturer.\n• Wiring Diagrams (for electrical products).\n• User Manual: Safety and maintenance instructions.\n• Bill of Materials.\n• Manufacturing Process Flow Chart.\n• Labelling Details: Warnings, model.\n• Environmental Compliance Certificate.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Certification Process",
+        content:
+          "1. Identify Applicable Regulations and Standards.\n2. Select Testing Agency: ARAI for vehicles or BIS for non‑automotive.\n3. Submit Product Samples for Testing (weeks to months).\n4. Receive Test Report detailing compliance status.\n5. File Application with Report, Documents, and Fees.\n6. Agency Review: Address any queries promptly.\n7. Receive Homologation Certificate and market approval.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Simplifies Homologation",
+        description: [
+          "1. Regulatory Assessment: Identify all applicable standards.",
+          "2. Documentation Support: Prepare and verify all required paperwork.",
+          "3. Testing Coordination: Liaise with ARAI/BIS labs for sample submission.",
+          "4. Application Filing: Accurate submission and fee management.",
+          "5. Follow‑Up Service: Track review and resolve agency queries.",
+          "6. Certificate Delivery: Ensure prompt issuance and handover.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is homologation certification?",
+        answer:
+          "Official approval confirming a product meets Indian safety, technical, and environmental standards.",
+      },
+      {
+        question: "Which products require homologation?",
+        answer:
+          "Vehicles, electronics, telecom devices, medical equipment, industrial machinery, consumer goods, power tools, and building materials.",
+      },
+      {
+        question: "Who issues homologation certificates in India?",
+        answer:
+          "ARAI for automotive vehicles and BIS for non‑automotive products.",
+      },
+      {
+        question: "How long does the homologation process take?",
+        answer:
+          "Typically from a few weeks to several months, depending on product type and testing complexity.",
+      },
+      {
+        question: "What is the cost of homologation?",
+        answer:
+          "Varies by product category, testing requirements, and chosen certification agency.",
+      },
+      {
+        question: "Can I sell without homologation in India?",
+        answer:
+          "No, homologation is mandatory for market entry of applicable products.",
+      },
+      {
+        question: "How often must homologation be renewed?",
+        answer:
+          "As per certificate validity—usually every few years or upon major product changes.",
+      },
+      {
+        question: "Can foreign‑certified products be sold in India?",
+        answer:
+          "No, Indian homologation is required regardless of foreign approvals.",
+      },
+      {
+        question: "What if my product fails testing?",
+        answer:
+          "Modify the product to address non‑conformities and undergo retesting.",
+      },
+      {
+        question: "Is there a fast‑track certification option?",
+        answer:
+          "Expedited processes may be available but depend on agency workload and product complexity.",
+      },
+    ],
+  },
+
+  "vehicle-type-approval-certificate": {
+    title: "Vehicle Type Approval Certificate – A Complete Overview",
+    description:
+      "The Vehicle Type Approval (VTA) Certificate verifies that a new vehicle model meets India’s safety, emission, and technical standards, and is mandatory for legal sale and registration across the country.",
+    overview: [
+      {
+        heading: "What Is Vehicle Type Approval?",
+        content:
+          "Vehicle Type Approval (VTA) is an official certification issued by government‑authorized bodies (such as ARAI or ICAT) confirming that a new vehicle model complies with all applicable safety, performance, and emission norms prescribed under Indian regulations.",
+      },
+      {
+        heading: "Why VTA Certification Matters",
+        content:
+          "• Regulatory Compliance: Ensures adherence to crash, braking, and emission standards.\n• Market Entry: Mandatory legal authorization to sell vehicles in India.\n• Consumer Safety: Guarantees vehicles are roadworthy and eco‑friendly.\n• Brand Trust: Builds consumer confidence in certified vehicle models.\n• Competitive Advantage: Certified vehicles face fewer recalls and compliance risks.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages of VTA Certification",
+        content:
+          "• Legal Market Access: Only VTA‑approved vehicles can be sold or registered in India.\n• Enhanced Brand Reputation: Certification signals quality and safety commitment.\n• Reduced Post‑Sale Issues: Certified models have fewer technical or regulatory hold‑ups.\n• Consumer Confidence: Buyers trust vehicles that meet official approval.\n• Long‑Term Compliance: Eases updates when regulations evolve.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for VTA Application",
+        content:
+          "• Completed Application Form with vehicle and manufacturer/importer details.\n• Vehicle Registration Certificate or Prototype Approval.\n• Detailed Design Specifications (engine, fuel type, transmission).\n• Accredited Test Reports (emissions, safety, braking, performance).\n• Manufacturing & Quality Control Processes documentation.\n• Import Documents (for imported models): Customs clearance, import license.\n• Certificate of Conformity from testing agency post‑evaluation.\n• Any additional agency‑specific declarations or affidavits.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step VTA Certification Process",
+        content:
+          "1. Pre‑Approval Testing: Conduct initial emissions, safety, and performance assessments.  \n2. Official Type Approval Testing: Submit prototypes for full testing at ARAI/ICAT facilities.  \n3. Documentation Compilation: Prepare and verify all forms, reports, and declarations.  \n4. Application Submission: File complete dossier with the testing agency and pay fees.  \n5. Agency Review & Queries: Respond promptly to any technical or documentation queries.  \n6. Certificate Issuance: Receive VTA Certificate upon successful compliance verification.  \n7. Post‑Approval Support: Maintain records and support modifications if regulations change.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How Do Startup Simplifies VTA Certification",
+        description: [
+          "1. End‑to‑End Guidance: Assist with testing planning and prototype selection.",
+          "2. Documentation Expertise: Compile and validate all required paperwork.",
+          "3. Agency Liaison: Coordinate submissions and follow up with ARAI/ICAT officials.",
+          "4. Timeline Management: Track testing schedules and accelerate approvals.",
+          "5. Post‑Approval Compliance: Support any future certification updates.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a VTA Certificate?",
+        answer:
+          "A Vehicle Type Approval Certificate confirms a vehicle model meets India's safety, emission, and technical standards and is essential for legal sale and registration.",
+      },
+      {
+        question: "Who needs a VTA Certificate?",
+        answer:
+          "All vehicle manufacturers and authorized importers must obtain VTA for every new model before marketing or registering it in India.",
+      },
+      {
+        question: "How long does VTA certification take?",
+        answer:
+          "The process typically takes several weeks to a few months, depending on vehicle complexity and testing agency schedules.",
+      },
+      {
+        question: "What happens if a vehicle fails VTA tests?",
+        answer:
+          "The vehicle must be modified to address non‑conformities and undergo retesting until all standards are met.",
+      },
+      {
+        question: "Is the VTA Certificate transferable?",
+        answer:
+          "No, the VTA Certificate is specific to the approved vehicle type and model configuration.",
+      },
+      {
+        question: "Can vehicles be sold without VTA?",
+        answer:
+          "No, it is illegal to sell or register any new vehicle in India without a valid VTA Certificate.",
+      },
+      {
+        question: "Who issues the VTA Certificate?",
+        answer:
+          "Certificates are issued by government‑authorized testing agencies such as ARAI or ICAT under the Department of Road Transport and Highways.",
+      },
+      {
+        question: "How much does VTA certification cost?",
+        answer:
+          "Costs vary by vehicle category, required tests, and the chosen certification agency’s fee structure.",
+      },
+      {
+        question: "Can existing models be recertified?",
+        answer:
+          "Yes, significant modifications or regulatory updates may require re‑approval and an updated VTA Certificate.",
+      },
+      {
+        question: "Why choose Do Startup for VTA?",
+        answer:
+          "We offer streamlined testing coordination, documentation support, and proactive follow‑up to secure your VTA swiftly and compliantly.",
+      },
+    ],
+  },
+
+  "imei-registration": {
+    title: "IMEI Number Registration – Protect Your Devices with Do Startup",
+    description:
+      "Every SIM‑enabled device in India must register its IMEI under DoT regulations to ensure authenticity, enable theft tracking, and facilitate legal import/export.",
+    overview: [
+      {
+        heading: "What Is IMEI Registration?",
+        content:
+          "The IMEI (International Mobile Equipment Identity) is a unique 15‑digit code for each SIM‑enabled device. Per Department of Telecommunications (DoT) rules, all manufacturers and importers must register device IMEIs before sale or import into India to prevent cloning, tampering, and unauthorized network access.",
+      },
+      {
+        heading: "Why IMEI Registration Matters",
+        content:
+          "• Theft & Loss Prevention: Registered IMEIs can be blacklisted if devices are stolen or lost.  \n• Regulatory Compliance: Mandatory under the IMEI 2022 Amendment Rules.  \n• Import/Export Facilitation: Customs clearance requires valid IMEI records.  \n• Network Security: Telecom operators block unregistered or cloned devices.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of IMEI Registration",
+        content:
+          "• Device Tracking: Unique IMEI acts as a digital fingerprint for location and recovery.  \n• Legal Market Access: Ensures only compliant devices enter India.  \n• Consumer Protection: Reduces circulation of counterfeit devices.  \n• Network Integrity: Maintains safe mobile networks by blocking unauthorized handsets.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Do Startup’s IMEI Registration Process",
+        content:
+          "1. Consultation & Eligibility Check: Assess device types and volume.  \n2. Document Preparation: Compile IMEI lists, agreements, and technical specs.  \n3. Application Filing: Submit IMEI data and forms to MSAI HQ, Delhi.  \n4. Confirmation & Allocation: Receive registration acknowledgment and IMEI approvals.  \n5. Ongoing Support: Regular audits, database updates, and compliance monitoring.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for IMEI Registration",
+        content:
+          "• Completed IMEI Registration Form with device TAC codes and model details  \n• Manufacturer/Importer Agreement on stamp paper  \n• List of IMEIs to register (export‑ready format)  \n• Technical Specifications Sheet for each device  \n• Proof of submission to MSAI HQ, Delhi",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "IMEI Registration Fees & Penalties",
+        description:
+          "Registration fees vary by device volume. Non‑compliance penalties include device blacklisting, import bans, and legal action under DoT regulations.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Complete IMEI Registration",
+        description: "Typically 2–4 weeks after document submission.",
+        steps: [
+          {
+            title: "Form Submission",
+            duration: "1 week",
+            description:
+              "Collect and submit all required documents and IMEI lists.",
+          },
+          {
+            title: "DoT Processing",
+            duration: "1–2 weeks",
+            description:
+              "MSAI reviews application, verifies IMEIs, issues acknowledgments.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for IMEI Registration",
+        description: [
+          "• 100+ IMEI compliance specialists",
+          "• 99.9% client approval rating",
+          "• End‑to‑end support from filing to post‑approval audits",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Are IMEI numbers mandatory?",
+        answer:
+          "Yes. DoT requires IMEI registration for all SIM‑enabled devices before sale or import.",
+      },
+      {
+        question: "Can IMEI be changed legally?",
+        answer:
+          "No. Altering an IMEI is illegal and punishable under Indian law.",
+      },
+      {
+        question: "Who allocates IMEIs in India?",
+        answer:
+          "The GSMA allocates TAC codes; MSAI manages IMEI registration for India.",
+      },
+      {
+        question: "What is the cost of IMEI registration?",
+        answer:
+          "Fees vary by volume and device type—contact Do Startup for a tailored quote.",
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Usually 2–4 weeks from complete submission.",
+      },
+      {
+        question: "What devices need IMEI registration?",
+        answer:
+          "All SIM‑enabled devices: mobiles, tablets, hotspots, smartwatches, dongles, GPS trackers.",
+      },
+      {
+        question: "What if a device isn’t registered?",
+        answer:
+          "Unregistered or cloned devices will be blacklisted and blocked from networks.",
+      },
+      {
+        question: "How do I submit IMEI lists?",
+        answer:
+          "Lists must be in the DoT‑prescribed CSV format and uploaded via the MSAI portal.",
+      },
+      {
+        question: "Does Do Startup handle post‑approval audits?",
+        answer:
+          "Yes. We provide regular compliance checks and database updates.",
+      },
+      {
+        question: "Where is the acknowledgment issued?",
+        answer:
+          "By MSAI HQ in New Delhi upon successful form and IMEI validation.",
+      },
+    ],
+  },
+
+  "imei-certificate-import-mobile-handsets": {
+    title: "IMEI Certificate for Import of Mobile Handsets",
+    description:
+      "All imported or domestically manufactured SIM‑enabled devices—phones, tablets, hotspots, smartwatches—must have their IMEIs registered on the Indian Counterfeit Device Restriction (ICDR) portal before entering India, per DoT’s Prevention of Tampering Rules (2022).",
+    overview: [
+      {
+        heading: "Regulatory Background",
+        content:
+          "Under the Prevention of Tampering of IMEIs Rules, 2022, every handset—new or re‑imported—requires pre‑import IMEI registration on the ICDR portal or it will be blocked at Customs and network level.",
+      },
+      {
+        heading: "Covered Devices",
+        content:
+          "Includes all GSM/CDMA/LTE/5G‑capable equipment: mobile phones, feature phones, USB dongles, MiFi devices, tablets with cellular modems, GPS trackers, wearables with SIM, and IoT modules requiring network access.",
+      },
+      {
+        heading: "Enforcement Mechanism",
+        content:
+          "Customs, DGFT, and telecom operators use the Central Equipment Identity Register (CEIR) to verify CIMR portal registrations. Unregistered IMEIs are auto‑blocked, preventing voice, SMS, and data on any Indian network.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Import & Customs Compliance",
+        content:
+          "• Avoid seizure: Pre‑registration prevents shipment holds.  \n• Faster clearances: Customs uses portal acknowledgments for expedited processing.",
+      },
+      {
+        heading: "Device Security & Anti‑theft",
+        content:
+          "• Lost device blocking: Reported IMEIs are blacklisted across all networks.  \n• Counterfeit deterrence: Only genuine devices with valid TAC codes pass authentication.",
+      },
+      {
+        heading: "Business Continuity",
+        content:
+          "• Ongoing compliance: Automatic alerts for rule changes and re‑registration requirements.  \n• Audit‑ready records: Portal logs provide verifiable proof for regulators.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Preliminary Audit",
+        content:
+          "Compile device model list, verify TAC allocations with GSMA, and map SNR ranges. Flag any reprogrammed or duplicated IMEIs for exclusion.",
+      },
+      {
+        heading: "Step 2: Documentation & Formatting",
+        content:
+          "Aggregate CSV files per the ICDR schema, prepare importer IEC, DGFT code, CHA letter, and manufacturer MOUs. Validate data integrity and checksum digits.",
+      },
+      {
+        heading: "Step 3: Portal Submission",
+        content:
+          "Log in to ICDR portal, upload IMEI batches, pay any per‑registration fees, and track upload status. Address any schema validation errors immediately.",
+      },
+      {
+        heading: "Step 4: Certificate Generation",
+        content:
+          "Upon approval, download the IMEI certificate bundle—one PDF per TAC group—bearing official DoT seals and unique acknowledgment numbers.",
+      },
+      {
+        heading: "Step 5: Post‑Import Monitoring",
+        content:
+          "Monitor CEIR logs for any blocking events, manage re‑registration for new firmware versions, and schedule annual compliance reviews.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Submission Files",
+        content:
+          "• IMEI list CSV (TAC, SNR start/end, check digits)  \n• Importer’s IEC & DGFT registration certificates  \n• Manufacturer MOU (stamped & notarized)  \n• Technical spec sheet per model  \n• CHA authorization letter",
+      },
+      {
+        heading: "Supplementary Records",
+        content:
+          "• GSMA TAC allocation confirmation  \n• Sample device certificates of conformity  \n• Internal audit trail of IMEI generation or sourcing",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Do Startup Advantage",
+        description: [
+          "• 150+ IMEI compliance experts with 5‑year average tenure",
+          "• 99.9% first‑time approval rate on ICDR portal",
+          "• White‑glove service: end‑to‑end data validation, submission, and follow‑up",
+          "• Custom dashboards for real‑time tracking and reporting",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Can imported demo units be registered on the same certificate?",
+        answer:
+          "Yes—batch‑register demo, R&D, and commercial units separately under distinct TAC codes with portfolio grouping.",
+      },
+      {
+        question: "What if a TAC code is pending with GSMA?",
+        answer:
+          "We provisionally register SNR ranges under an interim TAC and update the portal once GSMA allocates the final code.",
+      },
+      {
+        question: "Are there volume discounts?",
+        answer:
+          "Yes, per‑IMEI fees decrease in predefined volume slabs; contact us for tiered pricing details.",
+      },
+      {
+        question: "How do network operators get blackout lists?",
+        answer:
+          "DoT pushes nightly CEIR syncs to all MNOs; blocked IMEIs are auto‑denied at attachment requests.",
+      },
+      {
+        question: "Is there a revalidation requirement?",
+        answer:
+          "Only when device hardware revisions alter TAC allocations or when policy updates mandate mass re‑upload.",
+      },
+      {
+        question: "We discovered duplicate IMEIs—what next?",
+        answer:
+          "Isolate duplicates, remove from submission, and report the anomaly to GSMA and DoT for remediation.",
+      },
+      {
+        question: "Do refurbished phones need new IMEI certificates?",
+        answer:
+          "Refurbs retain original IMEIs; only record repair shop details in supplementary logs—no re‑certificate needed.",
+      },
+      {
+        question: "How long is the IMEI certificate valid?",
+        answer:
+          "Certificates remain valid indefinitely unless policy changes require re‑submission or TAC reallocation.",
+      },
+      {
+        question: "What support is provided post‑certification?",
+        answer:
+          "Ongoing helpdesk access, compliance alerts, portal change management, and annual health checks at no extra cost.",
+      },
+    ],
+  },
+
+  "imei-certificate-generation": {
+    title: "IMEI Certificate Generation with Do Startup",
+    description:
+      "Post‑registration IMEI certificate generation provides legal proof of Device IMEI registration on the ICDR portal, essential for regulatory compliance and customs clearance.",
+    overview: [
+      {
+        heading: "Platform & Expertise",
+        content:
+          "Do Startup’s AI‑powered compliance platform combines advanced automation with a global network of 50,000+ specialists to manage end‑to‑end IMEI certificate generation for smartphones, wearables, hotspots, tablets, dongles, and all SIM‑enabled devices.",
+      },
+      {
+        heading: "Certificate Significance",
+        content:
+          "An IMEI certificate contains model, TAC, SNR range, importer IEC, CHA details, and OEM info. It is mandatory for customs, DGFT, and DoT validations under the 2022 Amendment Rules.",
+      },
+      {
+        heading: "Generation Workflow",
+        content:
+          "From portal login through CSV upload to official PDF issuance bearing DoT seals, Do Startup handles all phases—data validation, form submission, fee payment, and final certificate download.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Compliance Assurance",
+        content:
+          "• 99.9% first‑time approval rate on ICDR portal  \n• Automated schema validation to eliminate format errors  \n• Real‑time tracking dashboard for submission status",
+      },
+      {
+        heading: "Operational Efficiency",
+        content:
+          "• White‑glove documentation support—no missing files  \n• Bulk IMEI processing in predefined volume slabs  \n• Tiered pricing for high‑volume registrations",
+      },
+      {
+        heading: "Security & Traceability",
+        content:
+          "• Verifiable audit trail logs for regulators  \n• Automated CEIR integration for ongoing blacklist management  \n• Instant alerts on policy updates or re‑registration mandates",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "1. Client Onboarding",
+        content:
+          "Collect project brief, importer details, and anticipated device lists. Assign a dedicated compliance manager.",
+      },
+      {
+        heading: "2. Data Preparation",
+        content:
+          "Validate GSMA TAC allocations, format IMEI CSV per ICDR schema, and compile importer IEC, DGFT, and CHA documents.",
+      },
+      {
+        heading: "3. Portal Submission",
+        content:
+          "Log into ICDR portal, upload IMEI batches, resolve any schema errors, and confirm fee payment.",
+      },
+      {
+        heading: "4. Certificate Issuance",
+        content:
+          "Download official IMEI certificate bundle—one PDF per TAC group—with DoT seals and unique acknowledgment IDs.",
+      },
+      {
+        heading: "5. Post‑Certification Support",
+        content:
+          "Provide annual health checks, portal change management, and ongoing CEIR sync monitoring at no extra cost.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Files",
+        content:
+          "• IMEI upload CSV (TAC, SNR start/end, check digit)  \n• Importer IEC & DGFT registration  \n• CHA authorization letter  \n• Manufacturer MOU (stamped & notarized)",
+      },
+      {
+        heading: "Supplementary Records",
+        content:
+          "• GSMA TAC allocation confirmation  \n• Sample device CoC certificates  \n• Internal IMEI generation audit logs",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Do Startup Advantage",
+        description: [
+          "150+ IMEI compliance experts with 5+ years’ tenure",
+          "99.9% first‑time IMEI approval rate",
+          "Custom dashboards for real‑time status tracking",
+          "Dedicated post‑certification support and alerts",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Can we generate certificates for multiple TACs in one batch?",
+        answer:
+          "Yes—Do Startup processes all TAC groups concurrently, delivering separate certificate bundles per TAC.",
+      },
+      {
+        question: "What if an IMEI batch upload fails schema validation?",
+        answer:
+          "Our platform highlights exact rows and fields in error; we correct and resubmit within SLA timelines.",
+      },
+      {
+        question: "Are there any volume‑based discounts?",
+        answer:
+          "Yes—registration fees per IMEI decrease in predefined volume slabs; contact us for a customized quote.",
+      },
+      {
+        question: "How long until I receive my IMEI certificate?",
+        answer:
+          "Typically 1–2 business days post‑successful portal upload and fee clearance.",
+      },
+      {
+        question: "Is re‑registration required after firmware updates?",
+        answer:
+          "Only if TAC allocations change; our monitoring service flags and manages any needed re‑uploads.",
+      },
+      {
+        question: "Do refurbished devices need new certificates?",
+        answer:
+          "Refurbished units retain original IMEIs; no re‑certification needed unless IMEI is altered.",
+      },
+    ],
+  },
+
+  "epf-registration": {
+    title:
+      "EPF Registration in India: Employer's Guide to Provident Fund Compliance",
+    description:
+      "Get expert assistance with Do Startup for smooth and timely EPF registration in India. Ensure social security coverage for your workforce and avoid penalties by meeting mandatory compliance under the EPF Act, 1952.",
+    overview: [
+      {
+        heading: "What is EPF?",
+        content:
+          "EPF (Employees' Provident Fund) is a retirement benefits scheme for salaried employees, where both employer and employee contribute monthly to a savings fund. It covers pension (EPS), insurance (EDLI), and financial protection during emergencies.",
+      },
+      {
+        heading: "EPF Applicability",
+        content:
+          "EPF registration is mandatory for establishments with 20 or more employees. Voluntary registration is available for businesses with fewer staff. Covered under the EPF & MP Act, 1952, it applies to all employment types—full-time, part-time, remote, or contractual.",
+      },
+      {
+        heading: "UAN (Universal Account Number)",
+        content:
+          "After successful registration, each employee receives a UAN—a lifetime identifier used for EPF tracking, fund transfer, and claims. UAN remains constant even when an employee changes jobs.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Retirement & Security",
+        content:
+          "• Long-term savings for retirement\n• Pension benefits under EPS\n• Insurance under EDLI without employee contribution",
+      },
+      {
+        heading: "Employee & Employer Advantages",
+        content:
+          "• Improved employee satisfaction and retention\n• Legal compliance and brand trust\n• Access to EPF loans and advances during emergencies",
+      },
+      {
+        heading: "Regulatory & Tax Benefits",
+        content:
+          "• Employer contributions are eligible for tax deductions\n• Helps businesses avoid penalties and maintain compliance\n• Facilitates structured wage and payroll systems",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "1. Access EPFO Portal",
+        content:
+          "Visit https://www.epfindia.gov.in and click 'Establishment Registration'.",
+      },
+      {
+        heading: "2. Register on USSP",
+        content:
+          "Sign up on the Unified Shram Suvidha Portal to begin the registration process.",
+      },
+      {
+        heading: "3. Fill EPF Application",
+        content:
+          "Select 'EPFO-ESIC Registration' and choose the EPF Act, 1952, then complete the form.",
+      },
+      {
+        heading: "4. Upload DSC & Documents",
+        content:
+          "Submit a Digital Signature Certificate (DSC) and supporting documents for authentication.",
+      },
+      {
+        heading: "5. Confirmation & UAN Allocation",
+        content:
+          "Receive registration confirmation via email. Generate UANs for employees post-registration.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents",
+        content:
+          "• PAN and Aadhaar of Proprietor/Directors\n• Certificate of Incorporation\n• Address proof (Rent Agreement/Utility Bill)\n• Cancelled Cheque or Bank Statement\n• Authorized Signatory’s DSC",
+      },
+      {
+        heading: "Optional Documents",
+        content:
+          "• GST Certificate\n• Shop and Establishment Certificate\n• MoA, AoA, or Partnership Deed\n• Trust Deed (for Trusts)",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Over 5,000 successful EPF registrations",
+          "15+ years of PF and labor compliance experience",
+          "24/7 support for UAN generation and mobile updates",
+          "5x faster registration turnaround than standard timelines",
+          "Integration support with payroll systems and compliance training",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is EPF registration and who regulates it?",
+        answer:
+          "EPF registration is the process of enrolling an organization and its employees under the Employees’ Provident Fund. It is regulated by EPFO under the EPF & MP Act, 1952.",
+      },
+      {
+        question: "Is EPF mandatory for all employees?",
+        answer:
+          "Yes, for all salaried employees earning up to ₹15,000/month. Others can join voluntarily.",
+      },
+      {
+        question: "Is UAN transferable between jobs?",
+        answer:
+          "Yes, the UAN remains the same even when employees switch jobs. It enables seamless fund transfer.",
+      },
+      {
+        question: "What is the EPF penalty for late registration?",
+        answer:
+          "Penalties range from 5% to 25% per annum depending on the delay duration—from under 2 months to over 6 months.",
+      },
+      {
+        question: "How long does EPF registration take?",
+        answer:
+          "Typically 10–15 working days if documents are submitted correctly and promptly.",
+      },
+      {
+        question: "Is EPF registration valid for life?",
+        answer:
+          "Yes, once issued, the EPF registration certificate remains valid as long as the company operates and complies with regulations.",
+      },
+      {
+        question: "Are part-time or freelance workers eligible for EPF?",
+        answer:
+          "Yes, under Section 2(f), all workers receiving wages—including part-time, remote, contractual, or freelance—are eligible.",
+      },
+      {
+        question: "What is EDLI in EPF?",
+        answer:
+          "The Employee Deposit Linked Insurance Scheme (EDLI) provides insurance to nominees of deceased employees without any premium from the employee.",
+      },
+    ],
+  },
+
+  "esi-registration": {
+    title:
+      "ESI Registration in India: Social Security Compliance for Employers",
+    description:
+      "Ensure employee welfare and legal compliance with ESI registration. Do Startup provides expert guidance and end-to-end support to help businesses register under the ESI Act, 1948 and access medical, sickness, and maternity benefits for their workforce.",
+    overview: [
+      {
+        heading: "What is ESI?",
+        content:
+          "ESI (Employees’ State Insurance) is a self-funded social security scheme regulated by the Employee State Insurance Corporation (ESIC) under the Ministry of Labour and Employment. It offers medical, disability, maternity, and unemployment benefits to employees earning ₹21,000 or less per month.",
+      },
+      {
+        heading: "Who Must Register?",
+        content:
+          "Any non-seasonal factory or establishment with 10 or more employees (or 20 in some states) earning below ₹21,000/month must register under the ESI Act. Registration must be completed within 15 days of becoming eligible.",
+      },
+      {
+        heading: "Contribution Rates",
+        content:
+          "• Employer: 3.25% of gross wages\n• Employee: 0.75% of gross wages\n• Employees earning less than ₹137/day are exempt from contributing, but employers must still contribute.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Medical Benefits",
+        content:
+          "Employees and their families receive unlimited medical care from day one of employment, including hospitalization, outpatient care, and specialist consultations.",
+      },
+      {
+        heading: "Maternity & Sickness Benefits",
+        content:
+          "• Paid maternity leave for 3 months (extendable by 1 month)\n• 70% of wages paid during medical leave up to 91 days/year",
+      },
+      {
+        heading: "Unemployment & Disability Benefits",
+        content:
+          "• Up to 1 year of unemployment benefits under Rajiv Gandhi Shramik Kalyan Yojana\n• 90% of wages paid in cases of permanent disability or death",
+      },
+      {
+        heading: "Additional Benefits",
+        content:
+          "• ₹10,000 funeral expense cover\n• Continued medical care post-retirement\n• Access to vocational training during unemployment",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "1. Sign Up on ESIC Portal",
+        content:
+          "Visit the ESIC website and create an account via the 'Employer Login' section.",
+      },
+      {
+        heading: "2. Email Confirmation",
+        content: "Receive username and password on your registered email ID.",
+      },
+      {
+        heading: "3. Fill Form-1",
+        content:
+          "Log in, select 'New Employer Registration', and fill Form-1 with employer and unit details.",
+      },
+      {
+        heading: "4. Pay Advance Contribution",
+        content:
+          "Make an advance payment for 6 months using available payment options.",
+      },
+      {
+        heading: "5. Receive Registration Certificate (C-11)",
+        content:
+          "Get your 17-digit ESIC registration number and C-11 certificate as proof of registration.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content:
+          "• Factory/Shop & Establishment Certificate\n• MOA/AOA or Partnership Deed\n• PAN of company and employees\n• Bank statement and cancelled cheque\n• Rental agreement and electricity bill\n• Copy of business license\n• Employee salary and attendance records",
+      },
+      {
+        heading: "Employee Details",
+        content:
+          "• Name, DOB, address, nominee details\n• ESIC insurance number (if available)\n• Date of appointment\n• Bank details and previous employer info",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Simplified and quick ESI registration process",
+          "Experienced professionals and compliance experts",
+          "Transparent workflow with real-time status tracking",
+          "Timely reminders and follow-ups for return filings",
+          "Post-registration support and legal advisory",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Is ESI registration mandatory?",
+        answer:
+          "Yes, ESI registration is compulsory for establishments employing 10 or more persons (or 20 in some states) earning ₹21,000/month or less.",
+      },
+      {
+        question: "What is the ESIC Code?",
+        answer:
+          "It’s a unique 17-digit registration number assigned to an employer upon successful registration with the ESIC.",
+      },
+      {
+        question: "Who is exempt from ESIC registration?",
+        answer:
+          "Entities with fewer employees than the threshold or employees earning above ₹21,000/month are exempt.",
+      },
+      {
+        question: "What is the penalty for late registration?",
+        answer:
+          "Non-compliance attracts a penalty of ₹10,000, along with potential legal action and delayed benefit access for employees.",
+      },
+      {
+        question: "How often must ESI returns be filed?",
+        answer:
+          "ESI returns must be submitted twice a year, including details like salary, attendance, Form-6, and accident records.",
+      },
+      {
+        question: "Are employers required to maintain specific records?",
+        answer:
+          "Yes, employers must keep attendance registers, wage registers, accident records, and submit monthly return challans by the 15th of every month.",
+      },
+    ],
+  },
+
+  "fieo-registration": {
+    title:
+      "FIEO Registration for Exporters – Unlock Global Trade Opportunities",
+    description:
+      "Register with the Federation of Indian Export Organisations (FIEO) through Do Startup to access export promotion schemes, government incentives, and international networking platforms, enhancing your global market reach.",
+    overview: [
+      {
+        heading: "What is FIEO?",
+        content:
+          "The Federation of Indian Export Organisations (FIEO), established in 1965 under the Ministry of Commerce and Industry, represents Indian exporters and promotes India’s exports of goods and services through trade facilitation, policy advocacy, and global networking.",
+      },
+      {
+        heading: "Objectives of FIEO Registration",
+        content:
+          "FIEO registration aims to resolve exporters’ challenges, serve as a liaison with government departments and financial institutions, and provide access to market intelligence, export incentives, and capacity-building programs.",
+      },
+      {
+        heading: "Types of Membership",
+        content:
+          "• Ordinary Membership: Entry-level for new exporters.  \n• Associate Membership: Premium tier for established exporters, with higher fees and expanded benefits.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Global Trade Access",
+        content:
+          "Exclusive invitations to international trade fairs, buyer-seller meets, and export delegations, helping you connect with global buyers and industry bodies.",
+      },
+      {
+        heading: "Policy & Compliance Support",
+        content:
+          "On-demand expert assistance for Foreign Trade Policy queries, export documentation, customs procedures, and regulatory updates.",
+      },
+      {
+        heading: "E-Commerce & Credit Benefits",
+        content:
+          "Six-month free online store on eBay, three-month access on Amazon, 10% discount on domestic/international air travel, and 10% off on CRISIL credit rating services.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "1. Online Application",
+        content:
+          "Submit the RCMC application form with your IEC, business details, product category, and Letter of Authority through Do Startup’s portal.",
+      },
+      {
+        heading: "2. Document Submission",
+        content:
+          "Provide self-attested copies of IEC, GSTIN, export turnover statements, bank statements, MOA/AOA, SSI/IEM certificates, and Export House Certificate if applicable.",
+      },
+      {
+        heading: "3. Fee Payment & Verification",
+        content:
+          "Pay the prescribed membership fee plus 18% GST (higher slab for turnover > ₹5 crore). FIEO reviews and verifies your application.",
+      },
+      {
+        heading: "4. Certificate Issuance",
+        content:
+          "Receive your 5-year Registration-cum-Membership Certificate (RCMC) upon approval, valid from April 1 of the issuance year to March 31 five years later.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content:
+          "• Completed RCMC application form  \n• IEC certificate copy  \n• GSTIN details  \n• Letter of Authority  \n• Export turnover data (last 3 years)  \n• Bank statements  \n• SSI/Industrial licence/IEM certificate (if manufacturer)  \n• MOA & AOA (for companies)  \n• Export House Certificate (if any)",
+      },
+      {
+        heading: "Additional Data",
+        content:
+          "• Foreign exchange earnings statement  \n• Declaration of exports made during the preceding financial year",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "10+ years of export consultancy experience",
+          "500+ successful FIEO registrations",
+          "99% approval rate on first submission",
+          "End-to-end documentation & filing support",
+          "Real-time application tracking & 24×7 support",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Is FIEO registration mandatory?",
+        answer:
+          "No, but it is highly recommended to obtain RCMC and access Foreign Trade Policy benefits.",
+      },
+      {
+        question: "What is RCMC?",
+        answer:
+          "Registration-cum-Membership Certificate issued by FIEO enabling exporters to claim export incentives under FTP.",
+      },
+      {
+        question: "How long is FIEO registration valid?",
+        answer:
+          "Five financial years from April 1 of the issuance year to March 31 five years later.",
+      },
+      {
+        question: "Can I export without RCMC?",
+        answer:
+          "You can export certain items, but RCMC is required to claim duty drawbacks, incentives, and other FTP benefits.",
+      },
+      {
+        question: "What are the membership fees?",
+        answer:
+          "Fees range from ₹6,250 for individual exporters to ₹93,750 for Five Star Export Houses, plus GST.",
+      },
+      {
+        question: "How long does registration take?",
+        answer:
+          "Typically 7–10 business days, subject to document completeness and verification.",
+      },
+    ],
+  },
+
+  "building-noc": {
+    title: "Building NOC – Your Complete Guide",
+    description:
+      "A Building No Objection Certificate (NOC) is a mandatory approval from local planning authorities allowing you to commence construction, alteration, or demolition of a building legally and without objections.",
+    overview: [
+      {
+        heading: "What is Building NOC?",
+        content:
+          "A Building NOC is an official clearance issued by municipal or urban development authorities confirming there are no regulatory objections to your proposed construction, re-erection, alteration, or demolition of a building.",
+      },
+      {
+        heading: "Who Can Apply?",
+        content:
+          "Applications must be submitted by a registered architect or licensed structural engineer on behalf of the property owner or developer to the relevant planning authority.",
+      },
+      {
+        heading: "Why It’s Essential",
+        content:
+          "The NOC prevents future legal disputes, ensures compliance with zoning and building bye-laws, and is a prerequisite for other approvals such as the commencement and completion certificates.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Obtaining Building NOC",
+        content:
+          "• Legal authorization to start construction  \n• Shields owners from fines and legal action  \n• Avoids project delays due to non-compliance  \n• Streamlines procurement of related permits  \n• Acts as proof of authority’s approval  \n• Ensures occupant safety and adherence to regulations",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Building NOC",
+        content:
+          "• Certified Site, Building & Layout Plans  \n• Building Plan Analysis Report  \n• Bye-law-compliant design copy  \n• Filled Checklist/Questionnaire  \n• Applicant’s ID & Address Proof  \n• Photographs of Site  \n• Architect-certified Blueprint  \n• Building Safety Certificate",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Document Collection",
+        content:
+          "Gather all required plans, reports, proofs, and certificates as per the checklist.",
+      },
+      {
+        heading: "Step 2: Online Application & Pre-Approvals",
+        content:
+          "Submit your application along with Pre-DCR drawings for land title verification, non-agricultural land use clearance, zonal clearance, and building plan approval (including IOD stages).",
+      },
+      {
+        heading: "Step 3: Offline Submission",
+        content:
+          "File the physical application and supporting documents with the planning authority’s office.",
+      },
+      {
+        heading: "Step 4: Site Inspection",
+        content: "The authority conducts a site visit and evaluation report.",
+      },
+      {
+        heading: "Step 5: Fee Payment",
+        content: "Pay prescribed government fees and obtain challans.",
+      },
+      {
+        heading: "Step 6: Blueprint Approval & Commencement Certificate",
+        content:
+          "Receive the stamped approved blueprint and the commencement certificate to begin construction.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Building NOC?",
+        description: [
+          "10+ years of real estate approvals expertise",
+          "End-to-end document preparation and filing",
+          "Fast, hassle-free processing and status tracking",
+          "24×7 support from planning and legal specialists",
+          "Transparent pricing with no hidden charges",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the purpose of a Building NOC?",
+        answer:
+          "It provides legal clearance from the local authority to proceed with construction, ensuring compliance with building regulations.",
+      },
+      {
+        question: "Do I need a Fire NOC as well?",
+        answer:
+          "Yes, high-rise and commercial buildings require a separate Fire NOC under local fire safety regulations.",
+      },
+      {
+        question: "What happens if I build without a NOC?",
+        answer:
+          "The authority may impose penalties, halt construction, or order demolition of the unauthorized structure.",
+      },
+      {
+        question: "Who issues the Completion Certificate?",
+        answer:
+          "The local municipal or planning authority issues it after a final inspection confirming adherence to approved plans.",
+      },
+      {
+        question: "How long does it take to get a Building NOC?",
+        answer:
+          "Typically 4–8 weeks, depending on local authority processes and completeness of documentation.",
+      },
+      {
+        question: "Can NOC approvals expire?",
+        answer:
+          "Yes, many authorities set validity periods; an expired NOC may require re-application or attract penalties.",
+      },
+    ],
+  },
+
+  "bocw-registration": {
+    title: "BOCW Registration – Complete Guide",
+    description:
+      "Under the Building and Other Construction Workers (BOCW) Act, 1996, establishments employing 10+ workers must register to ensure legal compliance and provide welfare benefits to construction laborers.",
+    overview: [
+      {
+        heading: "What is BOCW Registration?",
+        content:
+          "Registration under the BOCW Act, 1996 safeguards construction workers’ rights by providing access to health, safety, and social security benefits through the state-level BOCW Welfare Boards.",
+      },
+      {
+        heading: "Who Must Register?",
+        content:
+          "Any employer—principal or contractor—who has employed 10 or more construction workers on any day in the preceding 12 months must register their establishment within 60 days of commencing work.",
+      },
+      {
+        heading: "Worker Registration",
+        content:
+          "Workers aged 18–60 who have worked at least 90 days in the past year can enroll as beneficiaries to avail welfare schemes such as accident relief, pension, and healthcare.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of BOCW Registration",
+        content:
+          "• Access to health insurance, disability and maternity benefits  \n• Pension and education support for worker’s families  \n• Housing and tool grants  \n• Accident relief and funeral expenses assistance  \n• Legal compliance and protection from penalties",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents for Establishment Registration",
+        content:
+          "• Proof of employment of 10+ workers (attendance sheets)  \n• Contractor/principal employer’s identity & address proof  \n• Establishment address proof  \n• Details of projects and sites  \n• Bank account & IFSC details",
+      },
+      {
+        heading: "Documents for Worker Registration",
+        content:
+          "• Worker’s age & residence proof (self-declaration if needed)  \n• Aadhaar card (if available)  \n• Employer’s certificate confirming 90 days’ work  \n• Bank account details & nomination form",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Access State BOCW Portal",
+        content:
+          "Visit the official state BOCW website and create an employer or worker account.",
+      },
+      {
+        heading: "Step 2: Fill Application Form",
+        content:
+          "Select establishment or worker registration, complete the online form, and upload required documents.",
+      },
+      {
+        heading: "Step 3: Fee Payment",
+        content:
+          "Pay the government-prescribed fee based on worker count to generate your payment receipt.",
+      },
+      {
+        heading: "Step 4: Verification & Approval",
+        content:
+          "The authority reviews your submission and issues the BOCW Registration Certificate within 2–4 weeks.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "BOCW Registration Fees",
+        feeTable: [
+          { category: "Up to 50 workers", amount: "₹250" },
+          { category: "51–100 workers", amount: "₹500" },
+          { category: "101–300 workers", amount: "₹1,000" },
+          { category: "301–500 workers", amount: "₹2,000" },
+          { category: "Above 500 workers", amount: "₹2,500" },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for BOCW Registration",
+        description:
+          "Typically 2–4 weeks from application submission to certificate issuance, subject to state authority processing times.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for BOCW Registration?",
+        description: [
+          "100+ BOCW experts across India",
+          "End-to-end online registration support",
+          "10+ years of compliance experience",
+          "Real-time application tracking",
+          "24×7 dedicated assistance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a BOCW certificate?",
+        answer:
+          "A legal document confirming your establishment’s registration under the BOCW Act, required for employers of 10+ construction workers.",
+      },
+      {
+        question: "Who qualifies as the employer?",
+        answer:
+          "The principal employer or contractor responsible for hiring and managing construction workers.",
+      },
+      {
+        question: "Can individual workers register?",
+        answer:
+          "Yes, workers aged 18–60 with at least 90 days of work in the last 12 months can register as beneficiaries.",
+      },
+      {
+        question: "What benefits do registered workers receive?",
+        answer:
+          "Health insurance, pension, accident relief, maternity support, education aid, and other welfare payments.",
+      },
+      {
+        question: "What are the penalties for non-registration?",
+        answer:
+          "Employers face fines and potential legal action for failing to register within the prescribed 60-day period.",
+      },
+    ],
+  },
+
+  "rera-registration-for-agents": {
+    title: "RERA Registration for Agents – A Complete Guide",
+    description:
+      "Under the Real Estate (Regulation & Development) Act, 2016, all agents facilitating sale, purchase, or lease of properties in RERA-registered projects must obtain RERA agent registration to operate legally and build credibility.",
+    overview: [
+      {
+        heading: "Who Qualifies as a Real Estate Agent?",
+        content:
+          "Any individual or business entity acting as an intermediary in property transactions—earning commission through promoting, selling, or facilitating purchases or leases in RERA-registered projects—must register under RERA.",
+      },
+      {
+        heading: "Why Is RERA Agent Registration Necessary?",
+        content:
+          "RERA registration ensures only approved agents can deal in RERA-covered projects, protecting buyers from unscrupulous practices and enforcing transparency in all marketing, booking, and negotiation activities.",
+      },
+      {
+        heading: "Key Responsibilities of RERA-Registered Agents",
+        content:
+          "• Avoid promoting or selling unregistered projects  \n• Maintain accurate books of accounts and records  \n• Refrain from misleading or unfair trade practices  \n• Disclose true status of project approvals  \n• Ensure transparency in advertisements and client communications",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of RERA Agent Registration",
+        content:
+          "• Enhances professional credibility and trust  \n• Grants access to verified project layouts and approvals  \n• Builds buyer confidence through full disclosure  \n• Enables quicker resolution of client grievances  \n• Provides legal protection against heavy penalties",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for RERA Agent Registration",
+        content:
+          "• PAN Card  \n• Aadhaar Card  \n• Last 3 years’ Income Tax Returns  \n• Sample Invoice/Bill  \n• Valid Contact Details  \n• Proof of Business Address  \n• MOA & AOA (for companies) or Partnership Deed  \n• Declaration of Organization Type",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Visit State RERA Portal",
+        content:
+          "Navigate to your State Real Estate Regulatory Authority’s official website and select 'Agent Registration'.",
+      },
+      {
+        heading: "Step 2: Fill Application Form",
+        content:
+          "Complete the online registration form with accurate personal and business details.",
+      },
+      {
+        heading: "Step 3: Upload Documents & Pay Fee",
+        content:
+          "Attach all required documents and pay the prescribed registration fee as per your state’s guidelines.",
+      },
+      {
+        heading: "Step 4: Verification & Approval",
+        content:
+          "The RERA authority reviews your application. Upon successful verification, your RERA agent certificate is issued.",
+      },
+      {
+        heading: "Step 5: Certificate Delivery",
+        content:
+          "Download or receive your official RERA agent registration certificate, valid for five years.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "RERA Agent Registration Fees",
+        description:
+          "Fees vary by state and entity type. Below are common fee slabs:",
+        feeTable: [
+          {
+            category: "Individual Agents",
+            amount: "₹10,600",
+          },
+          {
+            category: "Firms/Companies",
+            amount: "₹1,00,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for RERA Agent Registration",
+        description:
+          "Typically takes 1–2 weeks, subject to state portal processing and document accuracy.",
+        steps: [
+          {
+            title: "Form Submission & Payment",
+            duration: "1–3 days",
+            description: "Complete application and fee payment.",
+          },
+          {
+            title: "Authority Verification",
+            duration: "5–10 days",
+            description:
+              "RERA authority reviews documents and processes registration.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for RERA Agent Registration?",
+        description: [
+          "10+ years of real estate compliance expertise",
+          "5,000+ agents registered successfully",
+          "End-to-end documentation and filing support",
+          "Guaranteed on-time approvals and expert liaison",
+          "24×7 dedicated customer support",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the validity of the RERA agent certificate?",
+        answer:
+          "The certificate is valid for five years from the date of issue unless revoked earlier for non-compliance.",
+      },
+      {
+        question: "Is RERA registration mandatory for all real estate agents?",
+        answer:
+          "Yes, any agent dealing in RERA-registered projects must secure RERA registration to operate legally.",
+      },
+      {
+        question: "What penalties apply for non-registration?",
+        answer:
+          "Operating without registration can attract daily fines of up to ₹10,000 and potential imprisonment for unfair trade practices.",
+      },
+      {
+        question: "Can I renew my RERA registration certificate?",
+        answer:
+          "Yes, you can apply for renewal before expiry, subject to compliance with all RERA norms.",
+      },
+      {
+        question: "Are rental transactions covered under RERA?",
+        answer:
+          "No, RERA primarily covers sale and purchase transactions; rental-only agreements are exempt unless notified otherwise.",
+      },
+    ],
+  },
+
+  "rera-registration-for-promoters": {
+    title: "RERA Registration for Promoters – A Complete Guide",
+    description:
+      "Under the Real Estate (Regulation & Development) Act, 2016, all promoters developing residential or commercial projects above prescribed thresholds must register with the State RERA authority to ensure transparency, accountability, and legal compliance.",
+    overview: [
+      {
+        heading: "Who Is a RERA Promoter?",
+        content:
+          "Any individual or entity constructing, converting, or developing buildings—including commercial complexes, residential flats, plotted developments—on freehold or leasehold land, whether directly or via power of attorney, is defined as a promoter under RERA.",
+      },
+      {
+        heading: "Why RERA for Promoters?",
+        content:
+          "Introduced to curb delays, unauthorized plan changes, and financial mismanagement, RERA holds promoters accountable, mandates timely possession, and restores buyer confidence by enforcing strict regulatory compliance.",
+      },
+      {
+        heading: "Key Functions & Duties",
+        content:
+          "• Mandatory registration of each project before marketing  \n• Upload sanctioned layout plans, specifications, and completion timelines  \n• Maintain 70% of buyer funds in a separate escrow account  \n• Obtain and furnish Completion and Occupancy Certificates  \n• Refund or compensate buyers for delays as per RERA provisions",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of RERA for Buyers",
+        content:
+          "• Accurate Project Information: Builders adhere to approved plans or face penalties  \n• Timely Delivery: Strict possession deadlines enforced by law  \n• Reduced Booking Amount: Maximum 10% payable only after sale agreement registration  \n• Mandatory Clearances: All approvals secured before launch  \n• No Marketing Without Registration: Protects buyers from unregistered schemes",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Promoter Registration",
+        content:
+          "• Details of the promoter and authorized signatory  \n• Project layout plan and sanctioned building plan  \n• Land title deed or lease agreement  \n• Approved commencement certificate  \n• Past five-year project completion history  \n• Details of sanctioned infrastructure commitments (water, sanitation, electricity)  \n• Trust deeds (if applicable) or company incorporation documents",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Apply Within 3 Months",
+        content:
+          "Submit your registration application with personal, project and past-history details to the State RERA portal within three months of its launch.",
+      },
+      {
+        heading: "Step 2: Upload Project Information",
+        content:
+          "Provide project details—layout, specifications, timelines, and infrastructure commitments—via your promoter dashboard.",
+      },
+      {
+        heading: "Step 3: Funds Escrow Compliance",
+        content:
+          "Declare and maintain at least 70% of buyer advances in a separate RERA escrow account for construction and land costs.",
+      },
+      {
+        heading: "Step 4: Verification & Approval",
+        content:
+          "State RERA authority reviews the submission. Upon compliance, your promoter registration is approved and published publicly.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "RERA Promoter Registration Fees",
+        description:
+          "Fees vary by state and project size. Typical fee ranges include:",
+        feeTable: [
+          {
+            category: "Small Projects (≤1,000 m²)",
+            amount: "₹5,000 – ₹10,000",
+          },
+          {
+            category: "Medium Projects (1,000–5,000 m²)",
+            amount: "₹10,000 – ₹25,000",
+          },
+          {
+            category: "Large Projects (>5,000 m²)",
+            amount: "₹25,000 – ₹1,00,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Approval Timeline",
+        description:
+          "RERA authority must approve or reject promoter registrations within 30 days of application, subject to document completeness.",
+        steps: [
+          {
+            title: "Form Submission & Payment",
+            duration: "1–3 days",
+            description: "Complete application and fee payment online.",
+          },
+          {
+            title: "Authority Review",
+            duration: "27 days",
+            description:
+              "State RERA reviews documents and approves registration.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "10+ years of real estate compliance expertise",
+          "End-to-end assistance from documentation to approval",
+          "Guaranteed on-time registration support",
+          "Dedicated liaison with RERA authorities",
+          "24×7 customer support for promoters",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is RERA?",
+        answer:
+          "The Real Estate (Regulation & Development) Act, 2016 regulates and promotes transparency and accountability in real estate projects.",
+      },
+      {
+        question: "Is promoter registration mandatory?",
+        answer:
+          "Yes, all eligible residential and commercial projects over 500 m² or more than 8 units must register their promoters under RERA.",
+      },
+      {
+        question: "What if a promoter fails to register?",
+        answer:
+          "Non-registration attracts penalties up to 10% of project cost or imprisonment up to 3 years.",
+      },
+      {
+        question: "Can project details be altered post-registration?",
+        answer:
+          "No, project plans cannot be changed without buyer consent and RERA authority approval.",
+      },
+      {
+        question: "How long is the registration valid?",
+        answer:
+          "Promoter registration remains valid until project completion or until revoked for non-compliance.",
+      },
+    ],
+  },
+
+  "spice-board-registration": {
+    title: "Spice Board Registration – A Complete Guide",
+    description:
+      "Under the Spice Board Act, 1986, all exporters of the 52 scheduled spices must register with the Spice Board of India to obtain the Certificate of Registration as an Exporter of Spices (CRES) before commencing export operations.",
+    overview: [
+      {
+        heading: "An Overview of the Spice Board of India",
+        content:
+          "Established on February 26, 1987 under the Spice Board Act, 1986, the Spice Board of India promotes exports of 52 scheduled spices, oversees cardamom production, and supports both large and small scale growers.",
+      },
+      {
+        heading: "Key Functions of the Spice Board",
+        content:
+          "• Domestic oversight of cardamom producers  \n• Post-harvest processing & certification  \n• Organic spice promotion  \n• Quality control & testing  \n• Export promotion, branding, R&D  \n• Support for North-Eastern spice production",
+      },
+      {
+        heading: "Export Responsibilities and Activities",
+        content:
+          "• Issue quality approvals and monitor compliance  \n• Register spice exporters  \n• Collect export/import data  \n• Enforce central spice trade policies  \n• Organize global exhibits, B2B events, and training",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Spice Board Registration Is Essential",
+        content:
+          "• Legal mandate under the Spice Board Act, 1986  \n• Enables issuance of CRES certificate  \n• Grants permission to export scheduled spices  \n• Prevents legal penalties and shipment seizure  \n• Demonstrates compliance and credibility to buyers",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Spice Board Registration",
+        content:
+          "• Filled Form-1 application  \n• Self-attested IEC copy  \n• Registration fee DD in favor of Spice Board  \n• Partnership Deed or MOA & AOA  \n• GST registration certificate  \n• Manufacturer-exporter certificate (if applicable)  \n• Applicant’s PAN copy  \n• Passport-size photo of company officer",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Register on the Spice Board Portal",
+        content:
+          "Sign up and verify your contact details using IEC, email, and phone.",
+      },
+      {
+        heading: "Step 2: Submit Application & Documents",
+        content:
+          "Provide accurate IEC details, upload all required documents, and pay the prescribed fee.",
+      },
+      {
+        heading: "Step 3: Regional Office Review",
+        content:
+          "Your regional office reviews submissions; returns for corrections if needed before forwarding to HQ.",
+      },
+      {
+        heading: "Step 4: Headquarters Approval & CRES Issuance",
+        content:
+          "HQ completes registration and issues your Certificate of Registration as Exporter of Spices (CRES).",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Spice Board Registration Fee",
+        description:
+          "One-time registration fee of ₹1,000 paid via demand draft in favor of the Spice Board of India.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Spice Board Registration",
+        description:
+          "The process typically takes 2–3 weeks from application submission to CRES certificate issuance.",
+        steps: [
+          {
+            title: "Application & Payment",
+            duration: "1–3 days",
+            description:
+              "Complete online form, upload documents, and pay fees.",
+          },
+          {
+            title: "Review & Approval",
+            duration: "10–15 days",
+            description:
+              "Regional office and HQ process and approve your application.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Your Spice Board Registration?",
+        description: [
+          "Expert guidance on Spice Board Act compliance",
+          "End-to-end document preparation and filing",
+          "Liaison with Spice Board authorities",
+          "24×7 support and real-time application tracking",
+          "Fast, hassle-free registration process",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "When was the Spice Board formed?",
+        answer:
+          "The Spice Board was established on February 26, 1987 by merging the Cardamom Board and Spices Export Promotion Council.",
+      },
+      {
+        question: "Is Spice Board registration mandatory?",
+        answer:
+          "Yes, registration is mandatory under the Spice Board Act, 1986 to export any of the 52 scheduled spices.",
+      },
+      {
+        question: "What is the registration certificate called?",
+        answer:
+          "It is called the Certificate of Registration as an Exporter of Spices (CRES).",
+      },
+      {
+        question: "What penalties apply for exporting without registration?",
+        answer:
+          "Penalties include up to one year imprisonment and/or a fine up to ₹1,000.",
+      },
+    ],
   },
 
 
-  
-  
-  
+  "guest-house-registration": {
+  title: "Guest House Registration – A Complete Guide",
+  description: "The Ministry of Tourism’s voluntary Guest House Registration Scheme ensures clean, hygienic, and upgraded budget accommodations for tourists, boosting employment, state revenue, and lodging quality.",
+  overview: [
+    {
+      heading: "Key Considerations for a Successful Guest House",
+      content: "• Effective Management: Delegate responsibilities and maintain high service standards.  \n• Catering to Guest Needs: Offer modern amenities (Wi-Fi, BBQs, pools) and act on feedback.  \n• Building a Reputation: Encourage repeat stays and manage digital marketing diligently."
+    },
+    {
+      heading: "Minimum Infrastructure Requirements",
+      content: "• At least 6 lettable rooms with ventilation and ≥6 m road access.  \n• 25% rooms with heating or AC.  \n• Western-style toilets, separate wet/dry waste disposal.  \n• Reception with phone, lighting, storage, and window coverings."
+    },
+    {
+      heading: "Safety & Services Standards",
+      content: "• Fire safety systems and CCTV in public areas.  \n• 24/7 RO/UV or branded bottled water.  \n• On-call doctor/hospital tie-up, pest control, parking, ≥60% hygiene compliance."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Benefits of Guest House Registration",
+      content: "• Legal authorization to operate and avoid penalties  \n• Enhances guest trust and marketability  \n• Streamlines obtaining other licenses (FSSAI, fire NOC)  \n• Demonstrates compliance with national tourism standards"
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "General & Site Details",
+      content: "• Guest house name, address, owner/promoter details  \n• Distance from transport hubs, roads, amenities  \n• Site plan, layout certified by local authority"
+    },
+    {
+      heading: "Facilities & Safety",
+      content: "• Area (sq. m), public spaces, eco-practices, safety features  \n• Power backup, fire-readiness certificate, CCTV plan  \n• Sanitation clearance and occupancy certificate"
+    },
+    {
+      heading: "Ownership & NOCs",
+      content: "• MoA & AoA (companies) or deed/registration (proprietorship/partnership)  \n• Fire NOC, police approval, liquor/money-changer license (if applicable)  \n• Public liability insurance and sanctioned building plans"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: Application Submission",
+      content: "Do Startup registers you on the MoT portal and completes the online application form."
+    },
+    {
+      heading: "Step 2: Document Upload & Payment",
+      content: "Upload all required certificates and pay the prescribed application fees."
+    },
+    {
+      heading: "Step 3: Site Inspection",
+      content: "HRACC inspects the property—possibly with an overnight stay—to verify compliance."
+    },
+    {
+      heading: "Step 4: Certificate Issuance",
+      content: "Upon approval, the regional director issues a two-year registration certificate."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Validity & Renewal",
+      description: "Registration is valid for five years from approval. Apply for renewal three months before expiry and report any operational changes promptly."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup?",
+      description: [
+        "10+ years of tourism and hospitality compliance expertise",
+        "Tailored consultation and document preparation",
+        "End-to-end application drafting and filing",
+        "Inspection scheduling and liaison support",
+        "Ongoing compliance and renewal assistance"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "What is a guest house?",
+      answer: "A budget lodging option like a small home, suite, or cottage for short-term stays."
+    },
+    {
+      question: "How does it differ from a hotel?",
+      answer: "Guest houses are smaller, often owner-managed, offering a more personalized stay."
+    },
+    {
+      question: "What’s the minimum room count?",
+      answer: "At least six lettable rooms are required for registration."
+    },
+    {
+      question: "Which documents are needed?",
+      answer: "Identification, sanitation & fire clearances, occupancy certificate, title documents, and NOCs."
+    },
+    {
+      question: "How long is the registration valid?",
+      answer: "The certificate is valid for five years, renewable three months before expiry."
+    }
+  ]
+},
+
+
+"barcode-registration": {
+  title: "Barcode Registration in India – A Complete Guide by Do Startup",
+  description: "GS1 India manages barcode standards and issues unique codes to businesses nationwide, enabling efficient product identification, inventory management, and supply chain transparency.",
+  overview: [
+    {
+      heading: "What is a Barcode?",
+      content: "A barcode is a machine-readable symbol composed of parallel lines and numeric digits that store product information—such as batch numbers, serial numbers, and pricing—facilitating quick data retrieval across industries."
+    },
+    {
+      heading: "Types of Barcodes",
+      content: "1. EAN-13 (13 digits; global retail standard)  \n2. UPC-A (12 digits; used in USA/UK/Australia)  \nOther industry types include Code 93, Code 39, GS1 Databar, Code 128, and ITF."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Key Benefits of Barcode Registration",
+      content: "• Efficient Inventory Management: Track products from manufacture to sale.  \n• Asset Management: Monitor assets with ease.  \n• Error-Free Operations: Automated data capture reduces mistakes.  \n• Cost-Effective & Customisable: Low implementation cost and flexible design.  \n• Authenticity & Transparency: Displays batch and serial info.  \n• Faster Checkouts & Better Decision-Making: Quick scanning and data insights.  \n• Global Standardisation: Unique codes worldwide."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Barcode Registration",
+      content: "• Request letter for barcode allotment  \n• PAN Card of business entity  \n• Audited financial statements  \n• Shop Establishment Certificate  \n• GST/VAT Registration Certificate  \n• Partnership Deed (if applicable)  \n• Company COI, MOA, AOA (if applicable)  \n• Registrar of Society certificate (if applicable)  \n• Cancelled cheque copy  \n• Product list and specifications"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: Inquiry Form",
+      content: "Submit basic business details via Do Startup’s website to initiate the barcode registration process."
+    },
+    {
+      heading: "Step 2: Document Collection",
+      content: "Provide all mandatory documents—PAN, GST, financials, establishment proof, product list, etc.—for verification."
+    },
+    {
+      heading: "Step 3: Verification & Application",
+      content: "Our experts review your documents and complete the GS1 India barcode application on your behalf."
+    },
+    {
+      heading: "Step 4: Submission to GS1 India",
+      content: "Do Startup files the verified application with GS1 India and tracks its progress."
+    },
+    {
+      heading: "Step 5: Issuance of Barcode Certificate",
+      content: "Upon successful verification and fee payment, GS1 India issues your Barcode Registration Certificate."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup?",
+      description: [
+        "Expert guidance through GS1 India processes",
+        "End-to-end document preparation and filing",
+        "Fast turnaround and real-time updates",
+        "Transparent pricing with no hidden fees",
+        "Dedicated 24×7 support"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "How are barcodes applied to products?",
+      answer: "Barcodes can be printed directly on packaging, added as pre-printed labels, or embedded in product artwork."
+    },
+    {
+      question: "Who can apply for barcode registration?",
+      answer: "Any manufacturer, exporter, wholesaler, or retailer selling physical products can apply."
+    },
+    {
+      question: "What barcode standard is used in India?",
+      answer: "India primarily uses the EAN-13 standard managed by GS1 India."
+    },
+    {
+      question: "What is a GLN?",
+      answer: "GLN stands for Global Location Number, which uniquely identifies locations like warehouses and stores."
+    }
+  ]
+},
+
+
+"world-manufacturer-identifier-wmi-code": {
+  title: "World Manufacturer Identifier (WMI) Code Registration in India – A Complete Guide by Do Startup",
+  description: "A WMI Code is the first three characters of a Vehicle Identification Number (VIN) that uniquely identifies a vehicle manufacturer worldwide. In India, WMI Codes are issued by BIS in coordination with SAE International.",
+  overview: [
+    {
+      heading: "What is a VIN?",
+      content: "A Vehicle Identification Number (VIN) is a unique 17-character alphanumeric code assigned to every motor vehicle, containing manufacturer details, model, engine specs, year and location of manufacture."
+    },
+    {
+      heading: "Structure of the VIN Code",
+      content: "• WMI – first 3 characters identifying country, manufacturer and vehicle type  \n• VDS – next 6 characters describing vehicle attributes (body style, engine)  \n• VIS – last 8 characters indicating production year, plant and serial number"
+    },
+    {
+      heading: "WMI Code Geography Breakdown",
+      content: "Ranges: 1–5 North America, S–Z Europe, A–H Africa, J–R Asia (India), 6–7 Oceania, 8–9 South America"
+    }
+  ],
+  benefits: [
+    {
+      heading: "Importance of WMI Code",
+      content: "• Ensures global recognition of the manufacturer  \n• Mandatory for valid VIN assignment  \n• Supports regulatory compliance and tracking  \n• Facilitates international vehicle trade  \n• Enables efficient recall management and after-sales service"
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for WMI Code Registration",
+      content: "• Duly signed application form with manufacturing unit details  \n• PAN and GST certificates (self-attested)  \n• Certificate of Incorporation / Partnership Deed  \n• MOA & AOA or proprietorship details  \n• Udyam Registration (if applicable)  \n• Address proof of manufacturing facility  \n• Product category/code and existing coding (if any)  \n• Tentative production commencement date  \n• Application fee receipt"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: Filing of Application",
+      content: "Do Startup assists in preparing and submitting the WMI registration application to BIS."
+    },
+    {
+      heading: "Step 2: Document Verification",
+      content: "BIS verifies submitted documents for completeness and accuracy."
+    },
+    {
+      heading: "Step 3: WMI Proposal",
+      content: "BIS proposes a unique WMI Code based on product type and location."
+    },
+    {
+      heading: "Step 4: SAE International Registration",
+      content: "The WMI proposal is forwarded to SAE International for inclusion in the global database."
+    },
+    {
+      heading: "Step 5: Confirmation Letter",
+      content: "Upon approval, SAE issues a Confirmation Letter to the manufacturer."
+    },
+    {
+      heading: "Step 6: Issuance of WMI Code",
+      content: "The manufacturer is officially assigned a WMI Code for use in VINs."
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Application Fees",
+      description: "Application fee as prescribed by BIS, payable via demand draft or online transfer."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline for WMI Code Registration",
+      description: "The process typically completes in 4–6 weeks, subject to document verification and SAE approval.",
+      steps: [
+        {
+          title: "Application & Payment",
+          duration: "1 week",
+          description: "Submission of application form and fee."
+        },
+        {
+          title: "BIS Processing",
+          duration: "2–3 weeks",
+          description: "Document verification and WMI proposal."
+        },
+        {
+          title: "SAE Approval",
+          duration: "1–2 weeks",
+          description: "Global database registration and confirmation."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup?",
+      description: [
+        "Expert liaison with BIS and SAE International",
+        "End-to-end application and documentation support",
+        "Guaranteed timelines and real-time tracking",
+        "99.9% success rate in WMI registrations",
+        "24×7 dedicated customer assistance"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "What is a WMI Code?",
+      answer: "The first three characters of a VIN that uniquely identify a vehicle manufacturer globally."
+    },
+    {
+      question: "Is WMI mandatory for all vehicle manufacturers?",
+      answer: "Yes, any entity manufacturing road-legal vehicles must obtain a WMI Code."
+    },
+    {
+      question: "Which standards govern VIN and WMI?",
+      answer: "ISO 3779 for VIN format and ISO 3780 for WMI format."
+    },
+    {
+      question: "Who issues WMI Codes in India?",
+      answer: "The Bureau of Indian Standards (BIS), in coordination with SAE International."
+    },
+    {
+      question: "How long is the WMI Code valid?",
+      answer: "It remains valid as long as the manufacturer operates under the same name and address."
+    }
+  ]
+},
+
+
+"telemarketing-registration-india": {
+  title: "Telemarketing Registration in India – Step-by-Step Guide by Do Startup",
+  description: "Telemarketing registration under TRAI/DoT is mandatory for any entity engaging in commercial tele-communications (voice or non-voice) to promote goods or services. Secure your license to operate legally, build consumer trust, and enhance brand credibility.",
+  overview: [
+    {
+      heading: "What is a Telemarketer?",
+      content: "A telemarketer is an individual or legally registered entity that sends commercial communications—via calls, SMS, or recorded messages—to inform consumers about transactions, promote products or services, or solicit business."
+    },
+    {
+      heading: "Who Can Apply?",
+      content: "• Indian citizens (18+ years)  \n• Companies under the Companies Act, 2013  \n• LLPs under the LLP Act, 2008  \n• Partnerships under the Partnership Act, 1932  \n• Sole proprietors  \nApplicants must have a clean legal record."
+    },
+    {
+      heading: "Benefits of Registration",
+      content: "• Legal authorization and avoidance of TRAI/DoT penalties  \n• Improved customer trust and brand image  \n• Higher lead generation and smoother sales  \n• Foundation for long-term business growth"
+    }
+  ],
+  benefits: [
+    {
+      heading: "Strategic Advantages",
+      content: "• Operate within the law and avoid heavy fines  \n• Leverage consumer trust for better conversion  \n• Maintain uninterrupted telecom connectivity  \n• Demonstrate credibility to partners and clients"
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Checklist of Required Documents",
+      content: "• PAN Card of the company  \n• TAN details  \n• ROC Number (for companies)  \n• Registered and corporate office address proofs  \n• Last financial year turnover statement  \n• Recent utility bills  \n• Dedicated landline number & email ID  \n• Authorized signatory’s details and ID proof"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: Company Incorporation",
+      content: "Ensure your business is incorporated under the appropriate Indian law (Companies, LLP, Partnership or Sole Proprietorship)."
+    },
+    {
+      heading: "Step 2: Document Collection",
+      content: "Gather all mandatory documents as per the checklist above."
+    },
+    {
+      heading: "Step 3: Application Filing",
+      content: "Submit Form TM-1 along with supporting documents to the TRAI/DoT portal."
+    },
+    {
+      heading: "Step 4: Fee Payment",
+      content: "Pay the prescribed registration fee via the online payment gateway."
+    },
+    {
+      heading: "Step 5: Provisional Approval",
+      content: "Receive a Provisional Telemarketing Certificate (valid for 3 months) upon preliminary verification."
+    },
+    {
+      heading: "Step 6: Final Registration",
+      content: "After compliance checks during the provisional period, the Final Telemarketing Registration Certificate is issued with a 10-year validity."
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Telemarketing Registration Fees",
+      description: "Fees are prescribed by DoT and may vary. Typically includes: provisional application fee and final registration fee.",
+      feeTable: [
+        {
+          category: "Provisional Registration",
+          amount: "As per TRAI/DoT notification"
+        },
+        {
+          category: "Final Registration",
+          amount: "As per TRAI/DoT notification"
+        }
+      ]
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Typical Timeline",
+      description: "End-to-end registration usually completes within 4–6 weeks, subject to document accuracy and compliance checks.",
+      steps: [
+        {
+          title: "Form Submission & Payment",
+          duration: "1–2 weeks",
+          description: "Application filing, fee payment, and provisional certificate issuance."
+        },
+        {
+          title: "Compliance & Final Approval",
+          duration: "3–4 weeks",
+          description: "Verification during provisional period and issuance of final certificate."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup?",
+      description: [
+        "Expert handling of TRAI/DoT procedures",
+        "End-to-end document preparation & filing",
+        "Liaison with regulators to expedite approvals",
+        "Ongoing compliance guidance throughout the license term",
+        "24×7 support for any queries or audits"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "What is a Telemarketing Certificate?",
+      answer: "It’s an official authorization from TRAI/DoT allowing entities to conduct commercial tele-communications legally in India."
+    },
+    {
+      question: "Who needs to register?",
+      answer: "Any individual or entity sending promotional calls, SMS, or recorded messages for commercial purposes."
+    },
+    {
+      question: "What is the provisional license validity?",
+      answer: "3 months from the date of issuance."
+    },
+    {
+      question: "How long is the final registration valid?",
+      answer: "10 years, subject to continued compliance."
+    },
+    {
+      question: "What happens if I operate without registration?",
+      answer: "You may face heavy fines, license suspension, or legal action under the Telecom Act."
+    },
+    {
+      question: "Can I surrender my license?",
+      answer: "Yes, by notifying DoT 30 days in advance and completing the prescribed formalities."
+    }
+  ]
+},
+
+"trusted-telecom-approval": {
+  title: "Trusted Telecom Approval – A Complete Guide",
+  description: "Mandatory certification under the National Security Directive on Telecommunication Sector (NSDTS) for Telecom Service Providers (TSPs) and vendors seeking to deploy telecom equipment in India.",
+  overview: [
+    {
+      heading: "Trusted Telecom Approval in India",
+      content: "The Government of India has enforced Trusted Telecom Approval for all Telecom Service Providers (TSPs) to ensure national security by verifying that telecom equipment is sourced from trusted vendors. This is governed under the National Security Directive on Telecommunication Sector (NSDTS), operational since June 15, 2021, and implemented via the Trusted Telecom Portal (TTP)."
+    },
+    {
+      heading: "What is the Trusted Telecom Portal?",
+      content: "The Trusted Telecom Portal (TTP), developed by C-DOT with RailTel and NSCS, allows TSPs to check whether a telecom product or vendor is listed as 'trusted'. If not listed, TSPs or vendors can submit an application for verification through the portal."
+    },
+    {
+      heading: "What is NSDTS?",
+      content: "The National Security Directive on Telecommunication Sector (NSDTS) is a strategic framework aimed at ensuring that only secure and trusted telecom hardware and software are used in Indian telecom networks. It mandates verification and approval of vendors and equipment before deployment."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Why is Trusted Telecom Approval Important?",
+      content: "• Ensures compliance with national security regulations  \n• Prevents deployment of unverified or malicious telecom equipment  \n• Mandatory for all TSPs prior to product integration  \n• Promotes accountability and transparency  \n• Non-compliance may lead to blacklisting and operational penalties"
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Trusted Telecom Certification",
+      content: "• Official request from Telecom Service Provider (TSP)  \n• Technical specifications of the product  \n• Memorandum of Association (MoA) and Articles of Association (AoA)  \n• Authorization letter from a company official  \n• Company registration and identity documents"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: TSP or Vendor Request Initiation",
+      content: "Either a TSP or vendor initiates a request for listing on the Trusted Telecom Portal by creating an account and filling the application form."
+    },
+    {
+      heading: "Step 2: Documentation Submission",
+      content: "Upload all mandatory documents including technical specs, legal identification, and authorization letters."
+    },
+    {
+      heading: "Step 3: Review by NCSC",
+      content: "The National Cyber Security Coordinator (NCSC), in consultation with the National Security Committee on Telecom (NSCT), evaluates the application and verifies the credentials."
+    },
+    {
+      heading: "Step 4: Approval & Listing",
+      content: "Upon successful verification, the product/vendor is listed as a Trusted Source on the portal, and approval is granted."
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Trusted Telecom Approval – Fee Details",
+      description: "Currently, there is no publicly disclosed standard government fee for Trusted Telecom Approval. Costs may vary depending on liaison or consultancy services availed during the application process.",
+      feeTable: [
+        {
+          category: "TSP/Vendor Application",
+          amount: "Varies (Subject to consultant or authority)"
+        }
+      ]
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline for Trusted Telecom Approval",
+      description: "Approval timelines may vary based on documentation accuracy and authority processing.",
+      steps: [
+        {
+          title: "Initial Application Submission",
+          duration: "2–5 business days",
+          description: "Vendor or TSP submits application and documents via TTP."
+        },
+        {
+          title: "Evaluation by NCSC",
+          duration: "2–4 weeks",
+          description: "Verification by authorities and multi-agency review process."
+        },
+        {
+          title: "Final Approval",
+          duration: "1–2 days",
+          description: "Listing of vendor/product on the Trusted Sources database."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup for Trusted Telecom Approval?",
+      description: [
+        "Dedicated telecom compliance experts",
+        "Liaison with TSPs and government bodies",
+        "Complete documentation assistance and submission",
+        "Faster application turnaround",
+        "End-to-end support until final listing"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "What is the purpose of NSDTS?",
+      answer: "To ensure secure procurement of telecom equipment and prevent national security risks from unauthorized vendors or products."
+    },
+    {
+      question: "What is the Trusted Telecom Portal (TTP)?",
+      answer: "An official portal allowing TSPs and vendors to request product/vendor listing and verify approval status."
+    },
+    {
+      question: "Who verifies the application for Trusted Telecom Approval?",
+      answer: "The National Cyber Security Coordinator (NCSC), with oversight from the National Security Committee on Telecom (NSCT)."
+    },
+    {
+      question: "Is Trusted Telecom Approval mandatory for all TSPs?",
+      answer: "Yes, TSPs must use only trusted products and vendors as per NSDTS guidelines."
+    },
+    {
+      question: "How can a vendor be listed on the Trusted Telecom Portal?",
+      answer: "Vendors can apply directly via the TTP by submitting relevant documentation or be nominated by a TSP."
+    },
+    {
+      question: "What is Trusted Telecom Certification (TTC)?",
+      answer: "It is the formal approval confirming that a vendor or product is compliant with NSDTS and safe for use in telecom networks."
+    },
+    {
+      question: "What equipment is covered under NSDTS?",
+      answer: "All core and access network components like routers, switches, base stations, and control elements used by TSPs."
+    }
+  ]
+},
+
+"uplinking-downlinking-permission": {
+  title: "Uplinking/Downlinking Channel Permission – A Complete Guide",
+  description: "Obtain uplinking/downlinking channel permissions from the Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal for legal satellite TV broadcasting in India.",
+  overview: [
+    {
+      heading: "What is Uplinking and Downlinking?",
+      content: "In India, broadcasters must obtain government authorization to transmit or receive TV signals via satellite. Uplinking refers to sending electronic signals from a station to a satellite, while downlinking means receiving those signals back on Earth. The permission is granted under the Uplinking and Downlinking Policy Guidelines, 2011."
+    },
+    {
+      heading: "Why is Permission Required?",
+      content: "Uplinking/downlinking permission ensures compliance with national broadcasting and security standards. It regulates content flow and infrastructure used in TV signal transmission and is legally mandatory before operating a TV channel via satellite."
+    },
+    {
+      heading: "Who Grants This License?",
+      content: "The Ministry of Information and Broadcasting (MIB) is the licensing authority. Applications are processed via the Broadcast Seva Portal, and approvals are subject to financial and technical scrutiny."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Key Benefits of Securing Uplinking/Downlinking Permission",
+      content: "• Legal authorization to broadcast satellite TV in India\n• Enables channel listing with cable and DTH operators\n• Regulatory protection for content and operations\n• Builds trust with viewers, advertisers, and partners\n• Facilitates global reach for Indian broadcasters"
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Uplinking/Downlinking Approval",
+      content: "• Certificate of Incorporation\n• Memorandum & Articles of Association (MoA & AoA)\n• List of Directors and Shareholders\n• Audited Balance Sheet\n• Board Resolution authorizing the application\n• Details of Foreign Employees (if any)\n• Equipment Specifications\n• FDI Details (if applicable)\n• 90-day Operational Report\n• Technical documents like block diagrams and schematics"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: Document Preparation",
+      content: "Compile all required documents as per MIB guidelines. Ensure accuracy to prevent delays or rejection."
+    },
+    {
+      heading: "Step 2: Application Filing on Broadcast Seva Portal",
+      content: "Apply online via the Broadcast Seva Portal. Fill in correct technical and legal details and pay the application fee."
+    },
+    {
+      heading: "Step 3: Application Scrutiny by MIB",
+      content: "The Ministry of Information and Broadcasting examines the application, assessing financial capability, legal status, and infrastructure."
+    },
+    {
+      heading: "Step 4: Issuance of Letter of Intent (LoI)",
+      content: "Upon successful evaluation, the MIB issues a Letter of Intent. The applicant must then pay the license fee and submit a Performance Bank Guarantee."
+    },
+    {
+      heading: "Step 5: Grant of Final License",
+      content: "Final permission is issued, typically valid for 5 years. Renewal requires annual fee payments and compliance review."
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Net Worth Requirements",
+      description: "Applicants must fulfill the following net worth criteria based on the type and number of channels or teleports:",
+      feeTable: [
+        {
+          category: "First Teleport",
+          amount: "₹3 Crores"
+        },
+        {
+          category: "Additional Teleport",
+          amount: "₹1 Crore"
+        },
+        {
+          category: "First Non-News TV Channel",
+          amount: "₹5 Crores"
+        },
+        {
+          category: "Additional Non-News TV Channel",
+          amount: "₹2.5 Crores"
+        },
+        {
+          category: "First News TV Channel",
+          amount: "₹20 Crores"
+        },
+        {
+          category: "Additional News TV Channel",
+          amount: "₹5 Crores"
+        }
+      ]
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline for Uplinking/Downlinking Permission",
+      description: "The licensing process typically takes 4–6 weeks, subject to document verification and MIB processing timelines.",
+      steps: [
+        {
+          title: "Document Compilation",
+          duration: "1 week",
+          description: "Prepare and collate required company and technical documents."
+        },
+        {
+          title: "Application Submission",
+          duration: "2–3 days",
+          description: "Submit application on Broadcast Seva Portal and pay fees."
+        },
+        {
+          title: "Scrutiny and LoI Issuance",
+          duration: "3–4 weeks",
+          description: "Application reviewed and Letter of Intent issued."
+        },
+        {
+          title: "Final Approval",
+          duration: "1 week",
+          description: "Submit guarantee and fee to obtain broadcasting license."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup for Uplinking/Downlinking Permission?",
+      description: [
+        "We simplify the licensing process for broadcasters in India"
+      ],
+      points: [
+        "Expertise in MIB compliance and documentation",
+        "Proven success with national broadcasters",
+        "Fast and accurate application filing",
+        "Support with financial and technical representation",
+        "End-to-end coordination with MIB authorities"
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: "Who grants uplinking/downlinking permission in India?",
+      answer: "The Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal."
+    },
+    {
+      question: "What are the financial eligibility norms?",
+      answer: "Net worth requirements range from ₹1 Cr to ₹20 Cr depending on the type of operation and number of teleports/channels."
+    },
+    {
+      question: "Is submission of an audited balance sheet mandatory?",
+      answer: "Yes, it's a mandatory part of financial assessment by MIB."
+    },
+    {
+      question: "Can a disqualified applicant reapply?",
+      answer: "No. Any entity previously disqualified is not eligible to apply again."
+    },
+    {
+      question: "What policy governs uplinking and downlinking permissions?",
+      answer: "The Uplinking and Downlinking Policy Guidelines, 2011."
+    },
+    {
+      question: "Is setting up a teleport hub mandatory for uplinking?",
+      answer: "Yes. A fully operational teleport hub is required before uplinking permissions are granted."
+    }
+  ]
+},
+
+"flipkart-seller-registration": {
+  title: "Flipkart Seller Registration – A Complete Guide",
+  description: "Register as a Flipkart seller and reach millions of customers with ease through India's leading e-commerce platform.",
+  overview: [
+    {
+      heading: "Overview on Flipkart Seller Registration",
+      content: "Flipkart seller registration is the official process through which vendors can enlist themselves as sellers on the Flipkart platform to showcase and sell their products online. This offers a smart and scalable way to reach a broader customer base without needing physical storefronts. Flipkart manages logistics such as shipping, payments, and customer service for its sellers."
+    },
+    {
+      heading: "History of Flipkart",
+      content: "Founded in 2007 by Sachin and Binny Bansal, Flipkart began as a platform for selling books. Over time, it diversified into electronics, fashion, lifestyle products, and more. It has acquired several businesses, with Myntra being one of the most significant acquisitions. Flipkart also supports sellers with tools like training and workshops to help them scale."
+    },
+    {
+      heading: "Is GST Registration Mandatory for Flipkart Seller Registration?",
+      content: "Yes. A valid GSTIN is compulsory to register as a seller on Flipkart."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Advantages of Flipkart Seller Registration",
+      content: "• Business Growth: Reach more customers across India.\n• Lower Costs: Low operational and compliance costs.\n• Transparency: A clear and straightforward business model.\n• Ease of Business: Simplified selling experience.\n• Customer Feedback: Receive valuable insights through reviews.\n• Better Marketing: Enhanced product visibility through Flipkart ads."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Minimum Requirements to Register as a Flipkart Seller",
+      content: "• GST Registration (GSTIN)\n• PAN Card (individual or business)\n• Business Registration (if not sole proprietorship)\n• Active Bank Account\n• At least one product to list\n• Active mobile number and email ID"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step 1: Register Your Business",
+      content: "Ensure your business is legally registered under a valid structure such as a sole proprietorship, partnership, LLP, or private limited company."
+    },
+    {
+      heading: "Step 2: Open a Bank Account",
+      content: "Create a current bank account in your business name to enable smooth transactions."
+    },
+    {
+      heading: "Step 3: Apply for GST",
+      content: "Obtain a valid GSTIN for tax compliance, which is mandatory for Flipkart registration."
+    },
+    {
+      heading: "Step 4: Create Flipkart Account",
+      content: "Go to seller.flipkart.com and register with necessary details such as contact info, PAN, and GSTIN."
+    },
+    {
+      heading: "Step 5: List Products",
+      content: "Upload at least 10 products with proper descriptions, images, and pricing under appropriate categories."
+    },
+    {
+      heading: "Step 6: Start Selling",
+      content: "Once products are listed, fulfill incoming orders and mark them ready for dispatch."
+    },
+    {
+      heading: "Step 7: Get Paid",
+      content: "Flipkart settles seller payments within 10–15 days after successful delivery."
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Flipkart Seller Fees and Charges",
+      description: "There are no charges for listing products on Flipkart. Fees are only applicable after a successful sale is made.",
+      feeTable: [
+        {
+          category: "Referral Fee",
+          amount: "Starts at 3% (based on product category)"
+        },
+        {
+          category: "Closing Fee",
+          amount: "Fixed fee based on selling price"
+        },
+        {
+          category: "Shipping Fee",
+          amount: "Starts from ₹30, varies by item size and delivery location"
+        }
+      ]
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline for Flipkart Seller Registration",
+      description: "The Flipkart seller account can be activated within a few hours if all documents are ready.",
+      steps: [
+        {
+          title: "Account Creation and Document Upload",
+          duration: "1 Day",
+          description: "Register your account and upload business documents including PAN, GSTIN, and bank account details."
+        },
+        {
+          title: "Product Listing and Verification",
+          duration: "1–2 Days",
+          description: "List minimum 10 products; Flipkart may verify listings before activating sales."
+        },
+        {
+          title: "Begin Selling",
+          duration: "Instant after approval",
+          description: "Start receiving and dispatching orders to customers."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup for Flipkart Seller Registration?",
+      description: [
+        "Expert support for account setup and compliance",
+        "Quick turnaround with error-free document filing",
+        "Dedicated support team for new sellers"
+      ],
+      points: [
+        "100% document accuracy",
+        "No hidden charges",
+        "Free consultation for listing strategy"
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: "Will there be a fee to list goods on Flipkart?",
+      answer: "No, listing products on Flipkart is completely free of charge."
+    },
+    {
+      question: "How many listings are required before sales start?",
+      answer: "You must list at least 10 products to begin selling on Flipkart."
+    },
+    {
+      question: "When will the buyer pay the seller?",
+      answer: "Payments are made within 10–15 days of successful delivery."
+    },
+    {
+      question: "Should I ship my items to Flipkart?",
+      answer: "No, you pack the orders and Flipkart picks them up from your location."
+    },
+    {
+      question: "What are the benefits of selling on Flipkart?",
+      answer: "Access to a wide customer base, logistics support, protection fund, and improved product visibility."
+    },
+    {
+      question: "What details are needed to register as a Flipkart seller?",
+      answer: "You need GSTIN, PAN card, bank account, contact details, and a product list."
+    },
+    {
+      question: "How is the login process completed?",
+      answer: "Login is done through seller.flipkart.com using OTP verification on your registered mobile number."
+    },
+    {
+      question: "Why sell products on Flipkart?",
+      answer: "To reach a vast online market, grow your brand, and leverage Flipkart’s logistics and technology support."
+    },
+    {
+      question: "Who is eligible to sell on Flipkart?",
+      answer: "Anyone with at least one product and valid documents like GSTIN and PAN card."
+    },
+    {
+      question: "How long does the registration process take?",
+      answer: "Usually completed within a few hours if all required documents are ready."
+    },
+    {
+      question: "Can services be sold on Flipkart?",
+      answer: "Currently, Flipkart is focused on tangible products only."
+    },
+    {
+      question: "How does Flipkart dispatch orders?",
+      answer: "Sellers pack the product, and Flipkart handles delivery to the customer."
+    },
+    {
+      question: "Do I have to pay to list my products?",
+      answer: "No, listing is free. Fees are charged only on confirmed orders."
+    }
+  ]
+},
+
+
+"sanitary-import-permit": {
+  title: "Sanitary Import Permit – A Complete Guide",
+  description: "Obtain your Sanitary Import Permit with Do Startup’s expert support to legally import animal-based products into India.",
+  overview: [
+    {
+      heading: "Sanitary Import Permit – An Overview",
+      content: "If you're involved in importing animal-based products like meat, milk items, eggs, ova, semen, embryos, or pet food, you must obtain a Sanitary Import Permit at customs. Partner with Do Startup’s experts to ensure compliance and seamless documentation.\nA Sanitary Import Permit is a certificate issued under the Ministry of Agriculture’s authority, in accordance with Sections 3 and 4 of the Livestock Importation Act, 1898. The Department of Animal Husbandry, Dairying, and Fisheries ensures that this permit helps prevent foreign animal diseases from entering India."
+    },
+    {
+      heading: "What is a Sanitary Import Permit?",
+      content: "The Sanitary Import Permit, granted under Section 3(a) of the Livestock Importation Act of 1898, permits the import of livestock and livestock products. Although not a license, it specifies hygiene and safety requirements that must be met by the exporting country prior to entry into India."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Benefits of Sanitary Import Permit Certificate",
+      content: "• Designated Entry Points: Import of animal products is only allowed through authorized seaports and airports like Delhi, Mumbai, Kolkata, Chennai, Bangalore, and Hyderabad. Fish imports can also pass through Visakhapatnam, Kochi, and Petrapole (Bangladesh border).\n• Disease Control: The permit reduces the risk of foreign diseases by ensuring hygienic product certification before entry.\n• Hygienic Assurance: Ensures animal product safety through veterinarian certification from the exporting country.\n• Financial Protection: Minimizes potential losses from disease outbreaks in imported livestock products."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Sanitary Import Permit Certificate",
+      content: "• Valid FSSAI license for importing livestock products for human use\n• FSSAI license copy\n• Product catalogue and description\n• Ingredient details for each item\n• Product process chart\n• List of items to be imported\n• Certificate of Analysis (chemical and microbiological details)\n• Intended use of imported items"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Sanitary Import Permit Online Application Process",
+      content: "1. Visit the SIP portal and choose the relevant tab\n2. Complete Form A or B and upload the required documents\n3. Make the payment via the online gateway\n4. Upon approval, download the permit directly from the portal"
+    },
+    {
+      heading: "Compliance Requirements for Sanitary Import Permit",
+      content: "• The product must comply with Codex and Indian Food Safety standards\n• Attach a valid sanitary certificate from the origin country\n• No beef or beef derivatives allowed\n• Provide necessary health certificates\n• Products must pass microbiological, chemical, and physical tests\n• Product lists must follow the standard format and quantity"
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Fees for Acquiring an Online Sanitary Import Permit",
+      description: "The government fee for a Sanitary Import Permit is ₹300 per application. Professional service fees may vary based on service providers.",
+      feeTable: [
+        {
+          category: "Government Application Fee",
+          amount: "₹300"
+        },
+        {
+          category: "Consultancy Charges (Optional)",
+          amount: "Varies by service provider"
+        }
+      ]
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline for Getting a Sanitary Import Permit Certificate",
+      description: "The permit is typically issued within 8–12 working days, subject to proper documentation and verification.",
+      steps: [
+        {
+          title: "Document Preparation & Upload",
+          duration: "1–3 days",
+          description: "Collect and upload all mandatory documents on the SIP portal."
+        },
+        {
+          title: "Application Review",
+          duration: "4–7 days",
+          description: "Authorities verify documentation, purpose, and compliance."
+        },
+        {
+          title: "Permit Issuance",
+          duration: "1–2 days",
+          description: "Upon successful approval, the permit is made available for download."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup for Sanitary Import Permit Services?",
+      description: [
+        "Comprehensive guidance from experienced consultants",
+        "Timely document review and submission",
+        "Regulatory support for smooth import clearance"
+      ],
+      points: [
+        "10+ years of expertise",
+        "Trusted by 500+ importers",
+        "99% approval success rate"
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: "What is the validity of a sanitary import permit?",
+      answer: "It ranges from 3 months to 1 year, allowing multiple consignments within the approved limit."
+    },
+    {
+      question: "What is a sanitary import permit?",
+      answer: "It is a certificate specifying sanitary norms for importing livestock products into India."
+    },
+    {
+      question: "What is a sanitary import permit in customs?",
+      answer: "A document required at customs clearance to confirm compliance with animal import health norms."
+    },
+    {
+      question: "How can I get a sanitary import permit in India?",
+      answer: "Apply online via the SIP portal, attach required documents, and complete payment."
+    },
+    {
+      question: "Why is an online sanitary import permit required?",
+      answer: "To ensure that imported animal products meet health and hygiene standards, protecting public health."
+    },
+    {
+      question: "What documents are required for the sanitary import permit?",
+      answer: "FSSAI license, product catalogue, ingredient list, usage details, process chart, and analysis certificate."
+    },
+    {
+      question: "How is the Sanitary Import Permit delivered?",
+      answer: "Approved permits are made available for download on the SIP portal."
+    },
+    {
+      question: "How will missing documents be communicated?",
+      answer: "The applicant will be notified through the SIP portal to correct and resubmit the documents."
+    },
+    {
+      question: "What is the fee for a sanitary import permit?",
+      answer: "₹300 per application, excluding any consultant’s professional fees."
+    },
+    {
+      question: "How long does it take to get a sanitary import permit certificate?",
+      answer: "Typically 8–12 working days, subject to regulatory review and documentation."
+    }
+  ]
+}
+,
+
+"npop-certification": {
+  title: "NPOP Certification – A Complete Guide",
+  description: "Achieve NPOP certification with Do Startup’s expert support to certify your organic products for domestic and export markets under the National Programme for Organic Production.",
+  overview: [
+    {
+      heading: "An Overview of NPOP Certification",
+      content: "NPOP certification is a government-backed initiative that sets benchmarks for organic cultivation, processing, and trade. It allows farmers and businesses to officially showcase their adherence to organic farming standards, catering to eco-conscious consumers and promoting sustainable agriculture."
+    },
+    {
+      heading: "What is NPOP?",
+      content: "The National Programme for Organic Production (NPOP), launched in 2001, defines standards for organic farming, systems, and certification. Aligned with global norms, it governs the use of the India Organic logo and regulates import/export under APEDA."
+    },
+    {
+      heading: "Background of NPOP in India",
+      content: "Started in 2000, NPOP enabled organic certification for farms and livestock. As of 2024, India ranks second globally in organic farmland and first in farmer count. Administered by APEDA under the Ministry of Commerce, it unlocks both domestic and international organic markets."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Benefits of NPOP Registration",
+      content: "• Boost Consumer Trust – Certified products reassure buyers of quality.\n• Market Recognition – Credibility as a certified organic supplier.\n• Eco-Friendly Practices – Promotes sustainable agriculture and biodiversity.\n• Health Assurance – Guarantees chemical-free, GMO-free products.\n• Global Market Access – Facilitates organic exports under recognized standards."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for NPOP Certification",
+      content: "• Certification body’s mandate and program statement\n• Inspection and evaluation procedures\n• Fee structure and financial details\n• Complaint and appeal handling process\n• List of certified products\n• Company registration proof\n• Memorandum of Association (MOA)\n• Audited financial statements\n• Accreditation fee receipts\n• ISO 17065 quality manual\n• SOPs, formats, and checklists\n• Authorization letter\n• Additional relevant documents"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "How to Apply for NPOP Certification",
+      content: "1. Check Eligibility – Ensure compliance with NPOP farm and production standards.\n2. Choose a Certification Body – Accredited by APEDA under NPOP.\n3. Submit Application – Provide details of farm, crops, livestock.\n4. Upload Documents – Include certification plan, inputs, SOPs, etc.\n5. Inspection & Verification – Third-party checks ensure compliance.\n6. Certification Approval – Issued on successful compliance.\n7. Annual Review – APEDA conducts yearly audits of certified units."
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "NPOP Certification Fees",
+      description: "Fees vary by certification body and scope of operation. Typically include application fee, inspection charges, and annual surveillance fees."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Validity & Timeline of NPOP Certification",
+      description: "Valid for 3 years from issuance.",
+      steps: [
+        {
+          title: "Application to Approval",
+          duration: "3–6 months",
+          description: "Includes document review, inspections, and compliance verification."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup for NPOP Certification?",
+      description: [
+        "Assisted 500+ agripreneurs",
+        "10+ years of sector expertise",
+        "99% certification success rate",
+        "End-to-end support",
+        "Affordable services",
+        "24/7 expert assistance"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "What is NPOP certification?",
+      answer: "NPOP certification assures organic production quality under a national standard governed by APEDA and the Department of Commerce."
+    },
+    {
+      question: "What is the validity of an NPOP certificate?",
+      answer: "Valid for 3 years from the issuance date."
+    },
+    {
+      question: "What is the difference between NPOP and PGS-India?",
+      answer: "NPOP is a national certification scheme for export and domestic markets; PGS-India is a participatory guarantee system for domestic trade."
+    },
+    {
+      question: "Who certifies organic food in India?",
+      answer: "Certification bodies accredited by APEDA and NAB under NPOP carry out audits and approvals."
+    },
+    {
+      question: "Who needs organic certification?",
+      answer: "Producers, processors, traders, and exporters of organic agricultural products require certification."
+    },
+    {
+      question: "What does NPOP stand for?",
+      answer: "National Programme for Organic Production."
+    }
+  ]
+},
+
+
+"drone-registration": {
+  title: "Drone Registration – A Complete Overview",
+  description: "Register your drone on India’s Digital Sky platform via Do Startup to ensure legal, safe, and compliant operations for commercial or recreational use.",
+  overview: [
+    {
+      heading: "What is Drone Registration?",
+      content: "Under DGCA’s Drone Rules, 2021, all unmanned aircraft systems (UAS) above nano category must be registered on the Digital Sky platform to obtain a Unique Identification Number (UIN) and Operator Permit (UAOP) before flight operations."
+    },
+    {
+      heading: "Categories of Drone Registration",
+      content: "• Nano Drones: ≤ 250 g\n• Micro Drones: 251 g – 2 kg\n• Small Drones: 2 – 25 kg\n• Medium Drones: 25 – 150 kg\n• Large Drones: > 150 kg"
+    },
+    {
+      heading: "Importance of Registration",
+      content: "Ensures compliance with national security directives, prevents unauthorized flights, promotes safe operations, and supports growth of India’s indigenous drone ecosystem."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Key Benefits of Drone Registration",
+      content: "• Prevent unauthorized drone flights\n• Ensure operational safety and compliance\n• Enable commercial drone services\n• Boost domestic drone manufacturing\n• Access DGCA-approved flight corridors"
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Registration",
+      content: "• Organization name & address proof\n• Company registration number & GST certificate\n• Director’s name & DIN\n• Aadhar card of one director\n• Drone specifications & photograph\n• OEM certificate & No Permission No Takeoff (NPNT) letter"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Step-by-Step Registration Process",
+      content: "1. Check OEM certificate & NPNT compliance\n2. Register on Digital Sky portal\n3. Apply for UIN and mark it on your drone\n4. Apply for UAOP (Operator Permit)\n5. Obtain Remote Pilot License from DGCA-authorized institute\n6. Install NPNT software for real-time flight permissions"
+    }
+  ],
+  feesStructure: [
+    {
+      heading: "Government Fees",
+      description: "• UIN issuance: ₹1,000\n• UAOP application: ₹25,000\n• UAOP renewal: ₹10,000"
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline to Complete Registration",
+      description: "Process typically takes a few weeks to a few months depending on document accuracy and DGCA approvals.",
+      steps: [
+        {
+          title: "Digital Sky Registration",
+          duration: "1–2 weeks",
+          description: "Portal sign-up, form filling, and UIN issuance."
+        },
+        {
+          title: "UAOP & Pilot License",
+          duration: "2–4 weeks",
+          description: "Operator permit application and remote pilot license issuance."
+        }
+      ]
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Do Startup?",
+      description: [
+        "10,000+ experts nationwide",
+        "2,000+ successful drone registrations",
+        "99% approval rate",
+        "End-to-end documentation support",
+        "Transparent pricing and timelines",
+        "24/7 compliance assistance"
+      ],
+      points: []
+    }
+  ],
+  faq: [
+    {
+      question: "Do I need a license for nano drones?",
+      answer: "No, nano drones (≤ 250 g) flown for non-commercial purposes are exempt from registration and pilot licensing."
+    },
+    {
+      question: "What is NPNT?",
+      answer: "No Permission No Takeoff (NPNT) is a mandate requiring real-time digital clearance before drone takeoff."
+    },
+    {
+      question: "How long is a UAOP valid?",
+      answer: "UAOP validity aligns with drone category and pilot license validity, typically renewable annually."
+    },
+    {
+      question: "Can I fly anywhere in India?",
+      answer: "No, flights are restricted to green zones and require DPR approval for red and yellow zones."
+    },
+    {
+      question: "How soon can I start commercial operations?",
+      answer: "After obtaining UIN, UAOP, NPNT compliance, and remote pilot license — typically within 4–6 weeks."
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
 };
