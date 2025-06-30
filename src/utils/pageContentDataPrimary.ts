@@ -7932,1230 +7932,4699 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-
   "guest-house-registration": {
-  title: "Guest House Registration – A Complete Guide",
-  description: "The Ministry of Tourism’s voluntary Guest House Registration Scheme ensures clean, hygienic, and upgraded budget accommodations for tourists, boosting employment, state revenue, and lodging quality.",
-  overview: [
-    {
-      heading: "Key Considerations for a Successful Guest House",
-      content: "• Effective Management: Delegate responsibilities and maintain high service standards.  \n• Catering to Guest Needs: Offer modern amenities (Wi-Fi, BBQs, pools) and act on feedback.  \n• Building a Reputation: Encourage repeat stays and manage digital marketing diligently."
-    },
-    {
-      heading: "Minimum Infrastructure Requirements",
-      content: "• At least 6 lettable rooms with ventilation and ≥6 m road access.  \n• 25% rooms with heating or AC.  \n• Western-style toilets, separate wet/dry waste disposal.  \n• Reception with phone, lighting, storage, and window coverings."
-    },
-    {
-      heading: "Safety & Services Standards",
-      content: "• Fire safety systems and CCTV in public areas.  \n• 24/7 RO/UV or branded bottled water.  \n• On-call doctor/hospital tie-up, pest control, parking, ≥60% hygiene compliance."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Benefits of Guest House Registration",
-      content: "• Legal authorization to operate and avoid penalties  \n• Enhances guest trust and marketability  \n• Streamlines obtaining other licenses (FSSAI, fire NOC)  \n• Demonstrates compliance with national tourism standards"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "General & Site Details",
-      content: "• Guest house name, address, owner/promoter details  \n• Distance from transport hubs, roads, amenities  \n• Site plan, layout certified by local authority"
-    },
-    {
-      heading: "Facilities & Safety",
-      content: "• Area (sq. m), public spaces, eco-practices, safety features  \n• Power backup, fire-readiness certificate, CCTV plan  \n• Sanitation clearance and occupancy certificate"
-    },
-    {
-      heading: "Ownership & NOCs",
-      content: "• MoA & AoA (companies) or deed/registration (proprietorship/partnership)  \n• Fire NOC, police approval, liquor/money-changer license (if applicable)  \n• Public liability insurance and sanctioned building plans"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Application Submission",
-      content: "Do Startup registers you on the MoT portal and completes the online application form."
-    },
-    {
-      heading: "Step 2: Document Upload & Payment",
-      content: "Upload all required certificates and pay the prescribed application fees."
-    },
-    {
-      heading: "Step 3: Site Inspection",
-      content: "HRACC inspects the property—possibly with an overnight stay—to verify compliance."
-    },
-    {
-      heading: "Step 4: Certificate Issuance",
-      content: "Upon approval, the regional director issues a two-year registration certificate."
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Validity & Renewal",
-      description: "Registration is valid for five years from approval. Apply for renewal three months before expiry and report any operational changes promptly."
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "10+ years of tourism and hospitality compliance expertise",
-        "Tailored consultation and document preparation",
-        "End-to-end application drafting and filing",
-        "Inspection scheduling and liaison support",
-        "Ongoing compliance and renewal assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is a guest house?",
-      answer: "A budget lodging option like a small home, suite, or cottage for short-term stays."
-    },
-    {
-      question: "How does it differ from a hotel?",
-      answer: "Guest houses are smaller, often owner-managed, offering a more personalized stay."
-    },
-    {
-      question: "What’s the minimum room count?",
-      answer: "At least six lettable rooms are required for registration."
-    },
-    {
-      question: "Which documents are needed?",
-      answer: "Identification, sanitation & fire clearances, occupancy certificate, title documents, and NOCs."
-    },
-    {
-      question: "How long is the registration valid?",
-      answer: "The certificate is valid for five years, renewable three months before expiry."
-    }
-  ]
-},
+    title: "Guest House Registration – A Complete Guide",
+    description:
+      "The Ministry of Tourism’s voluntary Guest House Registration Scheme ensures clean, hygienic, and upgraded budget accommodations for tourists, boosting employment, state revenue, and lodging quality.",
+    overview: [
+      {
+        heading: "Key Considerations for a Successful Guest House",
+        content:
+          "• Effective Management: Delegate responsibilities and maintain high service standards.  \n• Catering to Guest Needs: Offer modern amenities (Wi-Fi, BBQs, pools) and act on feedback.  \n• Building a Reputation: Encourage repeat stays and manage digital marketing diligently.",
+      },
+      {
+        heading: "Minimum Infrastructure Requirements",
+        content:
+          "• At least 6 lettable rooms with ventilation and ≥6 m road access.  \n• 25% rooms with heating or AC.  \n• Western-style toilets, separate wet/dry waste disposal.  \n• Reception with phone, lighting, storage, and window coverings.",
+      },
+      {
+        heading: "Safety & Services Standards",
+        content:
+          "• Fire safety systems and CCTV in public areas.  \n• 24/7 RO/UV or branded bottled water.  \n• On-call doctor/hospital tie-up, pest control, parking, ≥60% hygiene compliance.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Guest House Registration",
+        content:
+          "• Legal authorization to operate and avoid penalties  \n• Enhances guest trust and marketability  \n• Streamlines obtaining other licenses (FSSAI, fire NOC)  \n• Demonstrates compliance with national tourism standards",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "General & Site Details",
+        content:
+          "• Guest house name, address, owner/promoter details  \n• Distance from transport hubs, roads, amenities  \n• Site plan, layout certified by local authority",
+      },
+      {
+        heading: "Facilities & Safety",
+        content:
+          "• Area (sq. m), public spaces, eco-practices, safety features  \n• Power backup, fire-readiness certificate, CCTV plan  \n• Sanitation clearance and occupancy certificate",
+      },
+      {
+        heading: "Ownership & NOCs",
+        content:
+          "• MoA & AoA (companies) or deed/registration (proprietorship/partnership)  \n• Fire NOC, police approval, liquor/money-changer license (if applicable)  \n• Public liability insurance and sanctioned building plans",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Application Submission",
+        content:
+          "Do Startup registers you on the MoT portal and completes the online application form.",
+      },
+      {
+        heading: "Step 2: Document Upload & Payment",
+        content:
+          "Upload all required certificates and pay the prescribed application fees.",
+      },
+      {
+        heading: "Step 3: Site Inspection",
+        content:
+          "HRACC inspects the property—possibly with an overnight stay—to verify compliance.",
+      },
+      {
+        heading: "Step 4: Certificate Issuance",
+        content:
+          "Upon approval, the regional director issues a two-year registration certificate.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal",
+        description:
+          "Registration is valid for five years from approval. Apply for renewal three months before expiry and report any operational changes promptly.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "10+ years of tourism and hospitality compliance expertise",
+          "Tailored consultation and document preparation",
+          "End-to-end application drafting and filing",
+          "Inspection scheduling and liaison support",
+          "Ongoing compliance and renewal assistance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a guest house?",
+        answer:
+          "A budget lodging option like a small home, suite, or cottage for short-term stays.",
+      },
+      {
+        question: "How does it differ from a hotel?",
+        answer:
+          "Guest houses are smaller, often owner-managed, offering a more personalized stay.",
+      },
+      {
+        question: "What’s the minimum room count?",
+        answer: "At least six lettable rooms are required for registration.",
+      },
+      {
+        question: "Which documents are needed?",
+        answer:
+          "Identification, sanitation & fire clearances, occupancy certificate, title documents, and NOCs.",
+      },
+      {
+        question: "How long is the registration valid?",
+        answer:
+          "The certificate is valid for five years, renewable three months before expiry.",
+      },
+    ],
+  },
+
+  "barcode-registration": {
+    title: "Barcode Registration in India – A Complete Guide by Do Startup",
+    description:
+      "GS1 India manages barcode standards and issues unique codes to businesses nationwide, enabling efficient product identification, inventory management, and supply chain transparency.",
+    overview: [
+      {
+        heading: "What is a Barcode?",
+        content:
+          "A barcode is a machine-readable symbol composed of parallel lines and numeric digits that store product information—such as batch numbers, serial numbers, and pricing—facilitating quick data retrieval across industries.",
+      },
+      {
+        heading: "Types of Barcodes",
+        content:
+          "1. EAN-13 (13 digits; global retail standard)  \n2. UPC-A (12 digits; used in USA/UK/Australia)  \nOther industry types include Code 93, Code 39, GS1 Databar, Code 128, and ITF.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Barcode Registration",
+        content:
+          "• Efficient Inventory Management: Track products from manufacture to sale.  \n• Asset Management: Monitor assets with ease.  \n• Error-Free Operations: Automated data capture reduces mistakes.  \n• Cost-Effective & Customisable: Low implementation cost and flexible design.  \n• Authenticity & Transparency: Displays batch and serial info.  \n• Faster Checkouts & Better Decision-Making: Quick scanning and data insights.  \n• Global Standardisation: Unique codes worldwide.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Barcode Registration",
+        content:
+          "• Request letter for barcode allotment  \n• PAN Card of business entity  \n• Audited financial statements  \n• Shop Establishment Certificate  \n• GST/VAT Registration Certificate  \n• Partnership Deed (if applicable)  \n• Company COI, MOA, AOA (if applicable)  \n• Registrar of Society certificate (if applicable)  \n• Cancelled cheque copy  \n• Product list and specifications",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Inquiry Form",
+        content:
+          "Submit basic business details via Do Startup’s website to initiate the barcode registration process.",
+      },
+      {
+        heading: "Step 2: Document Collection",
+        content:
+          "Provide all mandatory documents—PAN, GST, financials, establishment proof, product list, etc.—for verification.",
+      },
+      {
+        heading: "Step 3: Verification & Application",
+        content:
+          "Our experts review your documents and complete the GS1 India barcode application on your behalf.",
+      },
+      {
+        heading: "Step 4: Submission to GS1 India",
+        content:
+          "Do Startup files the verified application with GS1 India and tracks its progress.",
+      },
+      {
+        heading: "Step 5: Issuance of Barcode Certificate",
+        content:
+          "Upon successful verification and fee payment, GS1 India issues your Barcode Registration Certificate.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert guidance through GS1 India processes",
+          "End-to-end document preparation and filing",
+          "Fast turnaround and real-time updates",
+          "Transparent pricing with no hidden fees",
+          "Dedicated 24×7 support",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "How are barcodes applied to products?",
+        answer:
+          "Barcodes can be printed directly on packaging, added as pre-printed labels, or embedded in product artwork.",
+      },
+      {
+        question: "Who can apply for barcode registration?",
+        answer:
+          "Any manufacturer, exporter, wholesaler, or retailer selling physical products can apply.",
+      },
+      {
+        question: "What barcode standard is used in India?",
+        answer:
+          "India primarily uses the EAN-13 standard managed by GS1 India.",
+      },
+      {
+        question: "What is a GLN?",
+        answer:
+          "GLN stands for Global Location Number, which uniquely identifies locations like warehouses and stores.",
+      },
+    ],
+  },
+
+  "world-manufacturer-identifier-wmi-code": {
+    title:
+      "World Manufacturer Identifier (WMI) Code Registration in India – A Complete Guide by Do Startup",
+    description:
+      "A WMI Code is the first three characters of a Vehicle Identification Number (VIN) that uniquely identifies a vehicle manufacturer worldwide. In India, WMI Codes are issued by BIS in coordination with SAE International.",
+    overview: [
+      {
+        heading: "What is a VIN?",
+        content:
+          "A Vehicle Identification Number (VIN) is a unique 17-character alphanumeric code assigned to every motor vehicle, containing manufacturer details, model, engine specs, year and location of manufacture.",
+      },
+      {
+        heading: "Structure of the VIN Code",
+        content:
+          "• WMI – first 3 characters identifying country, manufacturer and vehicle type  \n• VDS – next 6 characters describing vehicle attributes (body style, engine)  \n• VIS – last 8 characters indicating production year, plant and serial number",
+      },
+      {
+        heading: "WMI Code Geography Breakdown",
+        content:
+          "Ranges: 1–5 North America, S–Z Europe, A–H Africa, J–R Asia (India), 6–7 Oceania, 8–9 South America",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Importance of WMI Code",
+        content:
+          "• Ensures global recognition of the manufacturer  \n• Mandatory for valid VIN assignment  \n• Supports regulatory compliance and tracking  \n• Facilitates international vehicle trade  \n• Enables efficient recall management and after-sales service",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for WMI Code Registration",
+        content:
+          "• Duly signed application form with manufacturing unit details  \n• PAN and GST certificates (self-attested)  \n• Certificate of Incorporation / Partnership Deed  \n• MOA & AOA or proprietorship details  \n• Udyam Registration (if applicable)  \n• Address proof of manufacturing facility  \n• Product category/code and existing coding (if any)  \n• Tentative production commencement date  \n• Application fee receipt",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Filing of Application",
+        content:
+          "Do Startup assists in preparing and submitting the WMI registration application to BIS.",
+      },
+      {
+        heading: "Step 2: Document Verification",
+        content:
+          "BIS verifies submitted documents for completeness and accuracy.",
+      },
+      {
+        heading: "Step 3: WMI Proposal",
+        content:
+          "BIS proposes a unique WMI Code based on product type and location.",
+      },
+      {
+        heading: "Step 4: SAE International Registration",
+        content:
+          "The WMI proposal is forwarded to SAE International for inclusion in the global database.",
+      },
+      {
+        heading: "Step 5: Confirmation Letter",
+        content:
+          "Upon approval, SAE issues a Confirmation Letter to the manufacturer.",
+      },
+      {
+        heading: "Step 6: Issuance of WMI Code",
+        content:
+          "The manufacturer is officially assigned a WMI Code for use in VINs.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Application Fees",
+        description:
+          "Application fee as prescribed by BIS, payable via demand draft or online transfer.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for WMI Code Registration",
+        description:
+          "The process typically completes in 4–6 weeks, subject to document verification and SAE approval.",
+        steps: [
+          {
+            title: "Application & Payment",
+            duration: "1 week",
+            description: "Submission of application form and fee.",
+          },
+          {
+            title: "BIS Processing",
+            duration: "2–3 weeks",
+            description: "Document verification and WMI proposal.",
+          },
+          {
+            title: "SAE Approval",
+            duration: "1–2 weeks",
+            description: "Global database registration and confirmation.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert liaison with BIS and SAE International",
+          "End-to-end application and documentation support",
+          "Guaranteed timelines and real-time tracking",
+          "99.9% success rate in WMI registrations",
+          "24×7 dedicated customer assistance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a WMI Code?",
+        answer:
+          "The first three characters of a VIN that uniquely identify a vehicle manufacturer globally.",
+      },
+      {
+        question: "Is WMI mandatory for all vehicle manufacturers?",
+        answer:
+          "Yes, any entity manufacturing road-legal vehicles must obtain a WMI Code.",
+      },
+      {
+        question: "Which standards govern VIN and WMI?",
+        answer: "ISO 3779 for VIN format and ISO 3780 for WMI format.",
+      },
+      {
+        question: "Who issues WMI Codes in India?",
+        answer:
+          "The Bureau of Indian Standards (BIS), in coordination with SAE International.",
+      },
+      {
+        question: "How long is the WMI Code valid?",
+        answer:
+          "It remains valid as long as the manufacturer operates under the same name and address.",
+      },
+    ],
+  },
+
+  "telemarketing-registration-india": {
+    title:
+      "Telemarketing Registration in India – Step-by-Step Guide by Do Startup",
+    description:
+      "Telemarketing registration under TRAI/DoT is mandatory for any entity engaging in commercial tele-communications (voice or non-voice) to promote goods or services. Secure your license to operate legally, build consumer trust, and enhance brand credibility.",
+    overview: [
+      {
+        heading: "What is a Telemarketer?",
+        content:
+          "A telemarketer is an individual or legally registered entity that sends commercial communications—via calls, SMS, or recorded messages—to inform consumers about transactions, promote products or services, or solicit business.",
+      },
+      {
+        heading: "Who Can Apply?",
+        content:
+          "• Indian citizens (18+ years)  \n• Companies under the Companies Act, 2013  \n• LLPs under the LLP Act, 2008  \n• Partnerships under the Partnership Act, 1932  \n• Sole proprietors  \nApplicants must have a clean legal record.",
+      },
+      {
+        heading: "Benefits of Registration",
+        content:
+          "• Legal authorization and avoidance of TRAI/DoT penalties  \n• Improved customer trust and brand image  \n• Higher lead generation and smoother sales  \n• Foundation for long-term business growth",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Strategic Advantages",
+        content:
+          "• Operate within the law and avoid heavy fines  \n• Leverage consumer trust for better conversion  \n• Maintain uninterrupted telecom connectivity  \n• Demonstrate credibility to partners and clients",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Checklist of Required Documents",
+        content:
+          "• PAN Card of the company  \n• TAN details  \n• ROC Number (for companies)  \n• Registered and corporate office address proofs  \n• Last financial year turnover statement  \n• Recent utility bills  \n• Dedicated landline number & email ID  \n• Authorized signatory’s details and ID proof",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Company Incorporation",
+        content:
+          "Ensure your business is incorporated under the appropriate Indian law (Companies, LLP, Partnership or Sole Proprietorship).",
+      },
+      {
+        heading: "Step 2: Document Collection",
+        content: "Gather all mandatory documents as per the checklist above.",
+      },
+      {
+        heading: "Step 3: Application Filing",
+        content:
+          "Submit Form TM-1 along with supporting documents to the TRAI/DoT portal.",
+      },
+      {
+        heading: "Step 4: Fee Payment",
+        content:
+          "Pay the prescribed registration fee via the online payment gateway.",
+      },
+      {
+        heading: "Step 5: Provisional Approval",
+        content:
+          "Receive a Provisional Telemarketing Certificate (valid for 3 months) upon preliminary verification.",
+      },
+      {
+        heading: "Step 6: Final Registration",
+        content:
+          "After compliance checks during the provisional period, the Final Telemarketing Registration Certificate is issued with a 10-year validity.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Telemarketing Registration Fees",
+        description:
+          "Fees are prescribed by DoT and may vary. Typically includes: provisional application fee and final registration fee.",
+        feeTable: [
+          {
+            category: "Provisional Registration",
+            amount: "As per TRAI/DoT notification",
+          },
+          {
+            category: "Final Registration",
+            amount: "As per TRAI/DoT notification",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline",
+        description:
+          "End-to-end registration usually completes within 4–6 weeks, subject to document accuracy and compliance checks.",
+        steps: [
+          {
+            title: "Form Submission & Payment",
+            duration: "1–2 weeks",
+            description:
+              "Application filing, fee payment, and provisional certificate issuance.",
+          },
+          {
+            title: "Compliance & Final Approval",
+            duration: "3–4 weeks",
+            description:
+              "Verification during provisional period and issuance of final certificate.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert handling of TRAI/DoT procedures",
+          "End-to-end document preparation & filing",
+          "Liaison with regulators to expedite approvals",
+          "Ongoing compliance guidance throughout the license term",
+          "24×7 support for any queries or audits",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Telemarketing Certificate?",
+        answer:
+          "It’s an official authorization from TRAI/DoT allowing entities to conduct commercial tele-communications legally in India.",
+      },
+      {
+        question: "Who needs to register?",
+        answer:
+          "Any individual or entity sending promotional calls, SMS, or recorded messages for commercial purposes.",
+      },
+      {
+        question: "What is the provisional license validity?",
+        answer: "3 months from the date of issuance.",
+      },
+      {
+        question: "How long is the final registration valid?",
+        answer: "10 years, subject to continued compliance.",
+      },
+      {
+        question: "What happens if I operate without registration?",
+        answer:
+          "You may face heavy fines, license suspension, or legal action under the Telecom Act.",
+      },
+      {
+        question: "Can I surrender my license?",
+        answer:
+          "Yes, by notifying DoT 30 days in advance and completing the prescribed formalities.",
+      },
+    ],
+  },
+
+  "trusted-telecom-approval": {
+    title: "Trusted Telecom Approval – A Complete Guide",
+    description:
+      "Mandatory certification under the National Security Directive on Telecommunication Sector (NSDTS) for Telecom Service Providers (TSPs) and vendors seeking to deploy telecom equipment in India.",
+    overview: [
+      {
+        heading: "Trusted Telecom Approval in India",
+        content:
+          "The Government of India has enforced Trusted Telecom Approval for all Telecom Service Providers (TSPs) to ensure national security by verifying that telecom equipment is sourced from trusted vendors. This is governed under the National Security Directive on Telecommunication Sector (NSDTS), operational since June 15, 2021, and implemented via the Trusted Telecom Portal (TTP).",
+      },
+      {
+        heading: "What is the Trusted Telecom Portal?",
+        content:
+          "The Trusted Telecom Portal (TTP), developed by C-DOT with RailTel and NSCS, allows TSPs to check whether a telecom product or vendor is listed as 'trusted'. If not listed, TSPs or vendors can submit an application for verification through the portal.",
+      },
+      {
+        heading: "What is NSDTS?",
+        content:
+          "The National Security Directive on Telecommunication Sector (NSDTS) is a strategic framework aimed at ensuring that only secure and trusted telecom hardware and software are used in Indian telecom networks. It mandates verification and approval of vendors and equipment before deployment.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why is Trusted Telecom Approval Important?",
+        content:
+          "• Ensures compliance with national security regulations  \n• Prevents deployment of unverified or malicious telecom equipment  \n• Mandatory for all TSPs prior to product integration  \n• Promotes accountability and transparency  \n• Non-compliance may lead to blacklisting and operational penalties",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Trusted Telecom Certification",
+        content:
+          "• Official request from Telecom Service Provider (TSP)  \n• Technical specifications of the product  \n• Memorandum of Association (MoA) and Articles of Association (AoA)  \n• Authorization letter from a company official  \n• Company registration and identity documents",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: TSP or Vendor Request Initiation",
+        content:
+          "Either a TSP or vendor initiates a request for listing on the Trusted Telecom Portal by creating an account and filling the application form.",
+      },
+      {
+        heading: "Step 2: Documentation Submission",
+        content:
+          "Upload all mandatory documents including technical specs, legal identification, and authorization letters.",
+      },
+      {
+        heading: "Step 3: Review by NCSC",
+        content:
+          "The National Cyber Security Coordinator (NCSC), in consultation with the National Security Committee on Telecom (NSCT), evaluates the application and verifies the credentials.",
+      },
+      {
+        heading: "Step 4: Approval & Listing",
+        content:
+          "Upon successful verification, the product/vendor is listed as a Trusted Source on the portal, and approval is granted.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Trusted Telecom Approval – Fee Details",
+        description:
+          "Currently, there is no publicly disclosed standard government fee for Trusted Telecom Approval. Costs may vary depending on liaison or consultancy services availed during the application process.",
+        feeTable: [
+          {
+            category: "TSP/Vendor Application",
+            amount: "Varies (Subject to consultant or authority)",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Trusted Telecom Approval",
+        description:
+          "Approval timelines may vary based on documentation accuracy and authority processing.",
+        steps: [
+          {
+            title: "Initial Application Submission",
+            duration: "2–5 business days",
+            description:
+              "Vendor or TSP submits application and documents via TTP.",
+          },
+          {
+            title: "Evaluation by NCSC",
+            duration: "2–4 weeks",
+            description:
+              "Verification by authorities and multi-agency review process.",
+          },
+          {
+            title: "Final Approval",
+            duration: "1–2 days",
+            description:
+              "Listing of vendor/product on the Trusted Sources database.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Trusted Telecom Approval?",
+        description: [
+          "Dedicated telecom compliance experts",
+          "Liaison with TSPs and government bodies",
+          "Complete documentation assistance and submission",
+          "Faster application turnaround",
+          "End-to-end support until final listing",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the purpose of NSDTS?",
+        answer:
+          "To ensure secure procurement of telecom equipment and prevent national security risks from unauthorized vendors or products.",
+      },
+      {
+        question: "What is the Trusted Telecom Portal (TTP)?",
+        answer:
+          "An official portal allowing TSPs and vendors to request product/vendor listing and verify approval status.",
+      },
+      {
+        question: "Who verifies the application for Trusted Telecom Approval?",
+        answer:
+          "The National Cyber Security Coordinator (NCSC), with oversight from the National Security Committee on Telecom (NSCT).",
+      },
+      {
+        question: "Is Trusted Telecom Approval mandatory for all TSPs?",
+        answer:
+          "Yes, TSPs must use only trusted products and vendors as per NSDTS guidelines.",
+      },
+      {
+        question: "How can a vendor be listed on the Trusted Telecom Portal?",
+        answer:
+          "Vendors can apply directly via the TTP by submitting relevant documentation or be nominated by a TSP.",
+      },
+      {
+        question: "What is Trusted Telecom Certification (TTC)?",
+        answer:
+          "It is the formal approval confirming that a vendor or product is compliant with NSDTS and safe for use in telecom networks.",
+      },
+      {
+        question: "What equipment is covered under NSDTS?",
+        answer:
+          "All core and access network components like routers, switches, base stations, and control elements used by TSPs.",
+      },
+    ],
+  },
+
+  "uplinking-downlinking-permission": {
+    title: "Uplinking/Downlinking Channel Permission – A Complete Guide",
+    description:
+      "Obtain uplinking/downlinking channel permissions from the Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal for legal satellite TV broadcasting in India.",
+    overview: [
+      {
+        heading: "What is Uplinking and Downlinking?",
+        content:
+          "In India, broadcasters must obtain government authorization to transmit or receive TV signals via satellite. Uplinking refers to sending electronic signals from a station to a satellite, while downlinking means receiving those signals back on Earth. The permission is granted under the Uplinking and Downlinking Policy Guidelines, 2011.",
+      },
+      {
+        heading: "Why is Permission Required?",
+        content:
+          "Uplinking/downlinking permission ensures compliance with national broadcasting and security standards. It regulates content flow and infrastructure used in TV signal transmission and is legally mandatory before operating a TV channel via satellite.",
+      },
+      {
+        heading: "Who Grants This License?",
+        content:
+          "The Ministry of Information and Broadcasting (MIB) is the licensing authority. Applications are processed via the Broadcast Seva Portal, and approvals are subject to financial and technical scrutiny.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Securing Uplinking/Downlinking Permission",
+        content:
+          "• Legal authorization to broadcast satellite TV in India\n• Enables channel listing with cable and DTH operators\n• Regulatory protection for content and operations\n• Builds trust with viewers, advertisers, and partners\n• Facilitates global reach for Indian broadcasters",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Uplinking/Downlinking Approval",
+        content:
+          "• Certificate of Incorporation\n• Memorandum & Articles of Association (MoA & AoA)\n• List of Directors and Shareholders\n• Audited Balance Sheet\n• Board Resolution authorizing the application\n• Details of Foreign Employees (if any)\n• Equipment Specifications\n• FDI Details (if applicable)\n• 90-day Operational Report\n• Technical documents like block diagrams and schematics",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Document Preparation",
+        content:
+          "Compile all required documents as per MIB guidelines. Ensure accuracy to prevent delays or rejection.",
+      },
+      {
+        heading: "Step 2: Application Filing on Broadcast Seva Portal",
+        content:
+          "Apply online via the Broadcast Seva Portal. Fill in correct technical and legal details and pay the application fee.",
+      },
+      {
+        heading: "Step 3: Application Scrutiny by MIB",
+        content:
+          "The Ministry of Information and Broadcasting examines the application, assessing financial capability, legal status, and infrastructure.",
+      },
+      {
+        heading: "Step 4: Issuance of Letter of Intent (LoI)",
+        content:
+          "Upon successful evaluation, the MIB issues a Letter of Intent. The applicant must then pay the license fee and submit a Performance Bank Guarantee.",
+      },
+      {
+        heading: "Step 5: Grant of Final License",
+        content:
+          "Final permission is issued, typically valid for 5 years. Renewal requires annual fee payments and compliance review.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Net Worth Requirements",
+        description:
+          "Applicants must fulfill the following net worth criteria based on the type and number of channels or teleports:",
+        feeTable: [
+          {
+            category: "First Teleport",
+            amount: "₹3 Crores",
+          },
+          {
+            category: "Additional Teleport",
+            amount: "₹1 Crore",
+          },
+          {
+            category: "First Non-News TV Channel",
+            amount: "₹5 Crores",
+          },
+          {
+            category: "Additional Non-News TV Channel",
+            amount: "₹2.5 Crores",
+          },
+          {
+            category: "First News TV Channel",
+            amount: "₹20 Crores",
+          },
+          {
+            category: "Additional News TV Channel",
+            amount: "₹5 Crores",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Uplinking/Downlinking Permission",
+        description:
+          "The licensing process typically takes 4–6 weeks, subject to document verification and MIB processing timelines.",
+        steps: [
+          {
+            title: "Document Compilation",
+            duration: "1 week",
+            description:
+              "Prepare and collate required company and technical documents.",
+          },
+          {
+            title: "Application Submission",
+            duration: "2–3 days",
+            description:
+              "Submit application on Broadcast Seva Portal and pay fees.",
+          },
+          {
+            title: "Scrutiny and LoI Issuance",
+            duration: "3–4 weeks",
+            description: "Application reviewed and Letter of Intent issued.",
+          },
+          {
+            title: "Final Approval",
+            duration: "1 week",
+            description:
+              "Submit guarantee and fee to obtain broadcasting license.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Uplinking/Downlinking Permission?",
+        description: [
+          "We simplify the licensing process for broadcasters in India",
+        ],
+        points: [
+          "Expertise in MIB compliance and documentation",
+          "Proven success with national broadcasters",
+          "Fast and accurate application filing",
+          "Support with financial and technical representation",
+          "End-to-end coordination with MIB authorities",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who grants uplinking/downlinking permission in India?",
+        answer:
+          "The Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal.",
+      },
+      {
+        question: "What are the financial eligibility norms?",
+        answer:
+          "Net worth requirements range from ₹1 Cr to ₹20 Cr depending on the type of operation and number of teleports/channels.",
+      },
+      {
+        question: "Is submission of an audited balance sheet mandatory?",
+        answer: "Yes, it's a mandatory part of financial assessment by MIB.",
+      },
+      {
+        question: "Can a disqualified applicant reapply?",
+        answer:
+          "No. Any entity previously disqualified is not eligible to apply again.",
+      },
+      {
+        question: "What policy governs uplinking and downlinking permissions?",
+        answer: "The Uplinking and Downlinking Policy Guidelines, 2011.",
+      },
+      {
+        question: "Is setting up a teleport hub mandatory for uplinking?",
+        answer:
+          "Yes. A fully operational teleport hub is required before uplinking permissions are granted.",
+      },
+    ],
+  },
+
+  "flipkart-seller-registration": {
+    title: "Flipkart Seller Registration – A Complete Guide",
+    description:
+      "Register as a Flipkart seller and reach millions of customers with ease through India's leading e-commerce platform.",
+    overview: [
+      {
+        heading: "Overview on Flipkart Seller Registration",
+        content:
+          "Flipkart seller registration is the official process through which vendors can enlist themselves as sellers on the Flipkart platform to showcase and sell their products online. This offers a smart and scalable way to reach a broader customer base without needing physical storefronts. Flipkart manages logistics such as shipping, payments, and customer service for its sellers.",
+      },
+      {
+        heading: "History of Flipkart",
+        content:
+          "Founded in 2007 by Sachin and Binny Bansal, Flipkart began as a platform for selling books. Over time, it diversified into electronics, fashion, lifestyle products, and more. It has acquired several businesses, with Myntra being one of the most significant acquisitions. Flipkart also supports sellers with tools like training and workshops to help them scale.",
+      },
+      {
+        heading:
+          "Is GST Registration Mandatory for Flipkart Seller Registration?",
+        content:
+          "Yes. A valid GSTIN is compulsory to register as a seller on Flipkart.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Flipkart Seller Registration",
+        content:
+          "• Business Growth: Reach more customers across India.\n• Lower Costs: Low operational and compliance costs.\n• Transparency: A clear and straightforward business model.\n• Ease of Business: Simplified selling experience.\n• Customer Feedback: Receive valuable insights through reviews.\n• Better Marketing: Enhanced product visibility through Flipkart ads.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Minimum Requirements to Register as a Flipkart Seller",
+        content:
+          "• GST Registration (GSTIN)\n• PAN Card (individual or business)\n• Business Registration (if not sole proprietorship)\n• Active Bank Account\n• At least one product to list\n• Active mobile number and email ID",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Register Your Business",
+        content:
+          "Ensure your business is legally registered under a valid structure such as a sole proprietorship, partnership, LLP, or private limited company.",
+      },
+      {
+        heading: "Step 2: Open a Bank Account",
+        content:
+          "Create a current bank account in your business name to enable smooth transactions.",
+      },
+      {
+        heading: "Step 3: Apply for GST",
+        content:
+          "Obtain a valid GSTIN for tax compliance, which is mandatory for Flipkart registration.",
+      },
+      {
+        heading: "Step 4: Create Flipkart Account",
+        content:
+          "Go to seller.flipkart.com and register with necessary details such as contact info, PAN, and GSTIN.",
+      },
+      {
+        heading: "Step 5: List Products",
+        content:
+          "Upload at least 10 products with proper descriptions, images, and pricing under appropriate categories.",
+      },
+      {
+        heading: "Step 6: Start Selling",
+        content:
+          "Once products are listed, fulfill incoming orders and mark them ready for dispatch.",
+      },
+      {
+        heading: "Step 7: Get Paid",
+        content:
+          "Flipkart settles seller payments within 10–15 days after successful delivery.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Flipkart Seller Fees and Charges",
+        description:
+          "There are no charges for listing products on Flipkart. Fees are only applicable after a successful sale is made.",
+        feeTable: [
+          {
+            category: "Referral Fee",
+            amount: "Starts at 3% (based on product category)",
+          },
+          {
+            category: "Closing Fee",
+            amount: "Fixed fee based on selling price",
+          },
+          {
+            category: "Shipping Fee",
+            amount:
+              "Starts from ₹30, varies by item size and delivery location",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Flipkart Seller Registration",
+        description:
+          "The Flipkart seller account can be activated within a few hours if all documents are ready.",
+        steps: [
+          {
+            title: "Account Creation and Document Upload",
+            duration: "1 Day",
+            description:
+              "Register your account and upload business documents including PAN, GSTIN, and bank account details.",
+          },
+          {
+            title: "Product Listing and Verification",
+            duration: "1–2 Days",
+            description:
+              "List minimum 10 products; Flipkart may verify listings before activating sales.",
+          },
+          {
+            title: "Begin Selling",
+            duration: "Instant after approval",
+            description: "Start receiving and dispatching orders to customers.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Flipkart Seller Registration?",
+        description: [
+          "Expert support for account setup and compliance",
+          "Quick turnaround with error-free document filing",
+          "Dedicated support team for new sellers",
+        ],
+        points: [
+          "100% document accuracy",
+          "No hidden charges",
+          "Free consultation for listing strategy",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Will there be a fee to list goods on Flipkart?",
+        answer:
+          "No, listing products on Flipkart is completely free of charge.",
+      },
+      {
+        question: "How many listings are required before sales start?",
+        answer:
+          "You must list at least 10 products to begin selling on Flipkart.",
+      },
+      {
+        question: "When will the buyer pay the seller?",
+        answer: "Payments are made within 10–15 days of successful delivery.",
+      },
+      {
+        question: "Should I ship my items to Flipkart?",
+        answer:
+          "No, you pack the orders and Flipkart picks them up from your location.",
+      },
+      {
+        question: "What are the benefits of selling on Flipkart?",
+        answer:
+          "Access to a wide customer base, logistics support, protection fund, and improved product visibility.",
+      },
+      {
+        question: "What details are needed to register as a Flipkart seller?",
+        answer:
+          "You need GSTIN, PAN card, bank account, contact details, and a product list.",
+      },
+      {
+        question: "How is the login process completed?",
+        answer:
+          "Login is done through seller.flipkart.com using OTP verification on your registered mobile number.",
+      },
+      {
+        question: "Why sell products on Flipkart?",
+        answer:
+          "To reach a vast online market, grow your brand, and leverage Flipkart’s logistics and technology support.",
+      },
+      {
+        question: "Who is eligible to sell on Flipkart?",
+        answer:
+          "Anyone with at least one product and valid documents like GSTIN and PAN card.",
+      },
+      {
+        question: "How long does the registration process take?",
+        answer:
+          "Usually completed within a few hours if all required documents are ready.",
+      },
+      {
+        question: "Can services be sold on Flipkart?",
+        answer: "Currently, Flipkart is focused on tangible products only.",
+      },
+      {
+        question: "How does Flipkart dispatch orders?",
+        answer:
+          "Sellers pack the product, and Flipkart handles delivery to the customer.",
+      },
+      {
+        question: "Do I have to pay to list my products?",
+        answer:
+          "No, listing is free. Fees are charged only on confirmed orders.",
+      },
+    ],
+  },
+
+  "sanitary-import-permit": {
+    title: "Sanitary Import Permit – A Complete Guide",
+    description:
+      "Obtain your Sanitary Import Permit with Do Startup’s expert support to legally import animal-based products into India.",
+    overview: [
+      {
+        heading: "Sanitary Import Permit – An Overview",
+        content:
+          "If you're involved in importing animal-based products like meat, milk items, eggs, ova, semen, embryos, or pet food, you must obtain a Sanitary Import Permit at customs. Partner with Do Startup’s experts to ensure compliance and seamless documentation.\nA Sanitary Import Permit is a certificate issued under the Ministry of Agriculture’s authority, in accordance with Sections 3 and 4 of the Livestock Importation Act, 1898. The Department of Animal Husbandry, Dairying, and Fisheries ensures that this permit helps prevent foreign animal diseases from entering India.",
+      },
+      {
+        heading: "What is a Sanitary Import Permit?",
+        content:
+          "The Sanitary Import Permit, granted under Section 3(a) of the Livestock Importation Act of 1898, permits the import of livestock and livestock products. Although not a license, it specifies hygiene and safety requirements that must be met by the exporting country prior to entry into India.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Sanitary Import Permit Certificate",
+        content:
+          "• Designated Entry Points: Import of animal products is only allowed through authorized seaports and airports like Delhi, Mumbai, Kolkata, Chennai, Bangalore, and Hyderabad. Fish imports can also pass through Visakhapatnam, Kochi, and Petrapole (Bangladesh border).\n• Disease Control: The permit reduces the risk of foreign diseases by ensuring hygienic product certification before entry.\n• Hygienic Assurance: Ensures animal product safety through veterinarian certification from the exporting country.\n• Financial Protection: Minimizes potential losses from disease outbreaks in imported livestock products.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Sanitary Import Permit Certificate",
+        content:
+          "• Valid FSSAI license for importing livestock products for human use\n• FSSAI license copy\n• Product catalogue and description\n• Ingredient details for each item\n• Product process chart\n• List of items to be imported\n• Certificate of Analysis (chemical and microbiological details)\n• Intended use of imported items",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Sanitary Import Permit Online Application Process",
+        content:
+          "1. Visit the SIP portal and choose the relevant tab\n2. Complete Form A or B and upload the required documents\n3. Make the payment via the online gateway\n4. Upon approval, download the permit directly from the portal",
+      },
+      {
+        heading: "Compliance Requirements for Sanitary Import Permit",
+        content:
+          "• The product must comply with Codex and Indian Food Safety standards\n• Attach a valid sanitary certificate from the origin country\n• No beef or beef derivatives allowed\n• Provide necessary health certificates\n• Products must pass microbiological, chemical, and physical tests\n• Product lists must follow the standard format and quantity",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Acquiring an Online Sanitary Import Permit",
+        description:
+          "The government fee for a Sanitary Import Permit is ₹300 per application. Professional service fees may vary based on service providers.",
+        feeTable: [
+          {
+            category: "Government Application Fee",
+            amount: "₹300",
+          },
+          {
+            category: "Consultancy Charges (Optional)",
+            amount: "Varies by service provider",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Getting a Sanitary Import Permit Certificate",
+        description:
+          "The permit is typically issued within 8–12 working days, subject to proper documentation and verification.",
+        steps: [
+          {
+            title: "Document Preparation & Upload",
+            duration: "1–3 days",
+            description:
+              "Collect and upload all mandatory documents on the SIP portal.",
+          },
+          {
+            title: "Application Review",
+            duration: "4–7 days",
+            description:
+              "Authorities verify documentation, purpose, and compliance.",
+          },
+          {
+            title: "Permit Issuance",
+            duration: "1–2 days",
+            description:
+              "Upon successful approval, the permit is made available for download.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Sanitary Import Permit Services?",
+        description: [
+          "Comprehensive guidance from experienced consultants",
+          "Timely document review and submission",
+          "Regulatory support for smooth import clearance",
+        ],
+        points: [
+          "10+ years of expertise",
+          "Trusted by 500+ importers",
+          "99% approval success rate",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the validity of a sanitary import permit?",
+        answer:
+          "It ranges from 3 months to 1 year, allowing multiple consignments within the approved limit.",
+      },
+      {
+        question: "What is a sanitary import permit?",
+        answer:
+          "It is a certificate specifying sanitary norms for importing livestock products into India.",
+      },
+      {
+        question: "What is a sanitary import permit in customs?",
+        answer:
+          "A document required at customs clearance to confirm compliance with animal import health norms.",
+      },
+      {
+        question: "How can I get a sanitary import permit in India?",
+        answer:
+          "Apply online via the SIP portal, attach required documents, and complete payment.",
+      },
+      {
+        question: "Why is an online sanitary import permit required?",
+        answer:
+          "To ensure that imported animal products meet health and hygiene standards, protecting public health.",
+      },
+      {
+        question: "What documents are required for the sanitary import permit?",
+        answer:
+          "FSSAI license, product catalogue, ingredient list, usage details, process chart, and analysis certificate.",
+      },
+      {
+        question: "How is the Sanitary Import Permit delivered?",
+        answer:
+          "Approved permits are made available for download on the SIP portal.",
+      },
+      {
+        question: "How will missing documents be communicated?",
+        answer:
+          "The applicant will be notified through the SIP portal to correct and resubmit the documents.",
+      },
+      {
+        question: "What is the fee for a sanitary import permit?",
+        answer:
+          "₹300 per application, excluding any consultant’s professional fees.",
+      },
+      {
+        question:
+          "How long does it take to get a sanitary import permit certificate?",
+        answer:
+          "Typically 8–12 working days, subject to regulatory review and documentation.",
+      },
+    ],
+  },
+  "npop-certification": {
+    title: "NPOP Certification – A Complete Guide",
+    description:
+      "Achieve NPOP certification with Do Startup’s expert support to certify your organic products for domestic and export markets under the National Programme for Organic Production.",
+    overview: [
+      {
+        heading: "An Overview of NPOP Certification",
+        content:
+          "NPOP certification is a government-backed initiative that sets benchmarks for organic cultivation, processing, and trade. It allows farmers and businesses to officially showcase their adherence to organic farming standards, catering to eco-conscious consumers and promoting sustainable agriculture.",
+      },
+      {
+        heading: "What is NPOP?",
+        content:
+          "The National Programme for Organic Production (NPOP), launched in 2001, defines standards for organic farming, systems, and certification. Aligned with global norms, it governs the use of the India Organic logo and regulates import/export under APEDA.",
+      },
+      {
+        heading: "Background of NPOP in India",
+        content:
+          "Started in 2000, NPOP enabled organic certification for farms and livestock. As of 2024, India ranks second globally in organic farmland and first in farmer count. Administered by APEDA under the Ministry of Commerce, it unlocks both domestic and international organic markets.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of NPOP Registration",
+        content:
+          "• Boost Consumer Trust – Certified products reassure buyers of quality.\n• Market Recognition – Credibility as a certified organic supplier.\n• Eco-Friendly Practices – Promotes sustainable agriculture and biodiversity.\n• Health Assurance – Guarantees chemical-free, GMO-free products.\n• Global Market Access – Facilitates organic exports under recognized standards.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for NPOP Certification",
+        content:
+          "• Certification body’s mandate and program statement\n• Inspection and evaluation procedures\n• Fee structure and financial details\n• Complaint and appeal handling process\n• List of certified products\n• Company registration proof\n• Memorandum of Association (MOA)\n• Audited financial statements\n• Accreditation fee receipts\n• ISO 17065 quality manual\n• SOPs, formats, and checklists\n• Authorization letter\n• Additional relevant documents",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for NPOP Certification",
+        content:
+          "1. Check Eligibility – Ensure compliance with NPOP farm and production standards.\n2. Choose a Certification Body – Accredited by APEDA under NPOP.\n3. Submit Application – Provide details of farm, crops, livestock.\n4. Upload Documents – Include certification plan, inputs, SOPs, etc.\n5. Inspection & Verification – Third-party checks ensure compliance.\n6. Certification Approval – Issued on successful compliance.\n7. Annual Review – APEDA conducts yearly audits of certified units.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "NPOP Certification Fees",
+        description:
+          "Fees vary by certification body and scope of operation. Typically include application fee, inspection charges, and annual surveillance fees.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Timeline of NPOP Certification",
+        description: "Valid for 3 years from issuance.",
+        steps: [
+          {
+            title: "Application to Approval",
+            duration: "3–6 months",
+            description:
+              "Includes document review, inspections, and compliance verification.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for NPOP Certification?",
+        description: [
+          "Assisted 500+ agripreneurs",
+          "10+ years of sector expertise",
+          "99% certification success rate",
+          "End-to-end support",
+          "Affordable services",
+          "24/7 expert assistance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is NPOP certification?",
+        answer:
+          "NPOP certification assures organic production quality under a national standard governed by APEDA and the Department of Commerce.",
+      },
+      {
+        question: "What is the validity of an NPOP certificate?",
+        answer: "Valid for 3 years from the issuance date.",
+      },
+      {
+        question: "What is the difference between NPOP and PGS-India?",
+        answer:
+          "NPOP is a national certification scheme for export and domestic markets; PGS-India is a participatory guarantee system for domestic trade.",
+      },
+      {
+        question: "Who certifies organic food in India?",
+        answer:
+          "Certification bodies accredited by APEDA and NAB under NPOP carry out audits and approvals.",
+      },
+      {
+        question: "Who needs organic certification?",
+        answer:
+          "Producers, processors, traders, and exporters of organic agricultural products require certification.",
+      },
+      {
+        question: "What does NPOP stand for?",
+        answer: "National Programme for Organic Production.",
+      },
+    ],
+  },
+
+  "drone-registration": {
+    title: "Drone Registration – A Complete Overview",
+    description:
+      "Register your drone on India’s Digital Sky platform via Do Startup to ensure legal, safe, and compliant operations for commercial or recreational use.",
+    overview: [
+      {
+        heading: "What is Drone Registration?",
+        content:
+          "Under DGCA’s Drone Rules, 2021, all unmanned aircraft systems (UAS) above nano category must be registered on the Digital Sky platform to obtain a Unique Identification Number (UIN) and Operator Permit (UAOP) before flight operations.",
+      },
+      {
+        heading: "Categories of Drone Registration",
+        content:
+          "• Nano Drones: ≤ 250 g\n• Micro Drones: 251 g – 2 kg\n• Small Drones: 2 – 25 kg\n• Medium Drones: 25 – 150 kg\n• Large Drones: > 150 kg",
+      },
+      {
+        heading: "Importance of Registration",
+        content:
+          "Ensures compliance with national security directives, prevents unauthorized flights, promotes safe operations, and supports growth of India’s indigenous drone ecosystem.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Drone Registration",
+        content:
+          "• Prevent unauthorized drone flights\n• Ensure operational safety and compliance\n• Enable commercial drone services\n• Boost domestic drone manufacturing\n• Access DGCA-approved flight corridors",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content:
+          "• Organization name & address proof\n• Company registration number & GST certificate\n• Director’s name & DIN\n• Aadhar card of one director\n• Drone specifications & photograph\n• OEM certificate & No Permission No Takeoff (NPNT) letter",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content:
+          "1. Check OEM certificate & NPNT compliance\n2. Register on Digital Sky portal\n3. Apply for UIN and mark it on your drone\n4. Apply for UAOP (Operator Permit)\n5. Obtain Remote Pilot License from DGCA-authorized institute\n6. Install NPNT software for real-time flight permissions",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Government Fees",
+        description:
+          "• UIN issuance: ₹1,000\n• UAOP application: ₹25,000\n• UAOP renewal: ₹10,000",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Complete Registration",
+        description:
+          "Process typically takes a few weeks to a few months depending on document accuracy and DGCA approvals.",
+        steps: [
+          {
+            title: "Digital Sky Registration",
+            duration: "1–2 weeks",
+            description: "Portal sign-up, form filling, and UIN issuance.",
+          },
+          {
+            title: "UAOP & Pilot License",
+            duration: "2–4 weeks",
+            description:
+              "Operator permit application and remote pilot license issuance.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "10,000+ experts nationwide",
+          "2,000+ successful drone registrations",
+          "99% approval rate",
+          "End-to-end documentation support",
+          "Transparent pricing and timelines",
+          "24/7 compliance assistance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need a license for nano drones?",
+        answer:
+          "No, nano drones (≤ 250 g) flown for non-commercial purposes are exempt from registration and pilot licensing.",
+      },
+      {
+        question: "What is NPNT?",
+        answer:
+          "No Permission No Takeoff (NPNT) is a mandate requiring real-time digital clearance before drone takeoff.",
+      },
+      {
+        question: "How long is a UAOP valid?",
+        answer:
+          "UAOP validity aligns with drone category and pilot license validity, typically renewable annually.",
+      },
+      {
+        question: "Can I fly anywhere in India?",
+        answer:
+          "No, flights are restricted to green zones and require DPR approval for red and yellow zones.",
+      },
+      {
+        question: "How soon can I start commercial operations?",
+        answer:
+          "After obtaining UIN, UAOP, NPNT compliance, and remote pilot license — typically within 4–6 weeks.",
+      },
+    ],
+  },
+
+  "tds-return-filing-online": {
+    title: "TDS Return Filing Online – A Complete Guide",
+    description:
+      "Learn how to file your quarterly TDS returns online accurately and on time with DoStartup’s expert assistance.",
+    overview: [
+      {
+        heading: "What is TDS Return Filing Online?",
+        content:
+          "TDS (Tax Deducted at Source) return filing is the process where deductors submit details of the tax deducted and deposited with the Income Tax Department. It's mandatory for various payments like salary, rent, commission, professional fees, etc.\nPurpose:\n• Ensure tax collection at the income source\n• Promote transparency and prevent tax evasion",
+      },
+      {
+        heading: "What is a TDS Return?",
+        content:
+          "• A quarterly statement of all TDS transactions\n• Must be filed by the deductor (payer of income)\n• Includes information on amount paid, TDS deducted, and deposited\n• Disclosed in Form 26AS of the payee",
+      },
+      {
+        heading: "TDS Return Forms",
+        content:
+          "Form 24Q – TDS on salaries (Sec 192) – Employers\nForm 26Q – TDS on non-salary payments – Businesses\nForm 27Q – TDS on payments to NRIs/foreigners – Non-residents\nForm 27EQ – TCS (Tax Collected at Source) – Sellers under Sec 206C",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of e-TDS Return Filing Online",
+        content:
+          "• Prevents tax evasion and penalties\n• Reduces taxpayer burden\n• Convenient and time-efficient\n• Helps manage business cash flow\n• Simplifies reconciliation and refund claims",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "• TAN & PAN (deductor and deductee)\n• Challan details (CIN)\n• Form 16 / Salary certificate\n• Bank interest/passbook/FD interest certificates\n• Rent agreement\n• Income statements\n• TDS certificates",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for TDS Return Filing Online",
+        content:
+          "1. Collect documents (TAN, PAN, payment details)\n2. Select correct TDS form\n3. Prepare return in the prescribed format\n4. Validate via File Validation Utility (FVU)\n5. Generate .fvu file\n6. Submit via NSDL website or TIN Facilitation Center\n7. Receive acknowledgment",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Late Filing Penalties",
+        description:
+          "Under Section 234E, a fee of ₹200 per day applies until filing. Additionally, penalty under Section 271H may range from ₹10,000 to the TDS amount for the Assessing Officer’s discretion.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "TDS Filing Timeline",
+        description:
+          "TDS returns must be prepared, validated, and filed quarterly by the due dates to avoid penalties.",
+        steps: [
+          {
+            title: "Q1 Return",
+            duration: "1–2 weeks before 31 July 2025",
+            description:
+              "Gather Q1 data, prepare Form 24Q/26Q, and validate via FVU.",
+          },
+          {
+            title: "Q2 Return",
+            duration: "1–2 weeks before 31 Oct 2025",
+            description:
+              "Compile Q2 transactions, complete FVU checks, and submit to NSDL.",
+          },
+          {
+            title: "Q3 Return",
+            duration: "1–2 weeks before 31 Jan 2026",
+            description:
+              "Review Q3 payments, generate .fvu file, and file through TIN-NSDL portal.",
+          },
+          {
+            title: "Q4 Return",
+            duration: "1–2 weeks before 31 May 2026",
+            description:
+              "Finalize Q4 TDS details, validate returns, and submit before year-end closure.",
+          },
+        ],
+      },
+    ],
+
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Expert guidance on all TDS forms and schedules",
+          "End-to-end support from preparation to filing",
+          "Real-time tracking and timely reminders",
+        ],
+        points: [
+          "99% on-time filing success",
+          "Support across all quarters and revisions",
+          "Dedicated TDS specialists",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a TDS certificate?",
+        answer:
+          "A TDS certificate (Form 16/Form 16A) is issued by the deductor after tax deduction, showing the amount deducted and deposited.",
+      },
+      {
+        question: "How can I file a TDS return online?",
+        answer:
+          "Collect documents, select the correct form, prepare the return, validate via FVU, generate .fvu file, submit on NSDL, and receive acknowledgment.",
+      },
+      {
+        question: "What happens if a TDS return is filed late?",
+        answer:
+          "A daily fee of ₹200 under Section 234E applies, plus penalty under Section 271H up to the TDS amount.",
+      },
+      {
+        question: "Who must file TDS returns?",
+        answer:
+          "Employers, businesses, government offices, HUFs, partnerships, and anyone falling under Section 44AB provisions.",
+      },
+      {
+        question: "What is a revised TDS return?",
+        answer:
+          "A return used to correct or update filed details. Types of corrections include C1 (deductor), C2 (challan), C3 (deductee), etc.",
+      },
+      {
+        question: "Which utility is used for TDS return validation?",
+        answer:
+          "The File Validation Utility (FVU) available on the NSDL e-Gov portal.",
+      },
+      {
+        question: "Can TDS returns be revised multiple times?",
+        answer:
+          "Yes, but the system accepts only one active version of a regular TDS return at a time.",
+      },
+      {
+        question: "What is Form 27A in TDS?",
+        answer:
+          "A summary control sheet accompanying the quarterly e-TDS/TCS return, totaling amounts paid and TDS deducted.",
+      },
+      {
+        question: "How is TDS deposited?",
+        answer:
+          "Using Challan 281 through authorized banks by the 7th of the following month.",
+      },
+      {
+        question: "Is TDS refundable?",
+        answer:
+          "Yes, if deducted in excess or if total income is below the taxable limit, refund is processed after assessment.",
+      },
+    ],
+  },
+
+  "professional-tax-registration": {
+    title: "Professional Tax Registration – A Complete Guide",
+    description:
+      "Professional Tax is a state-level direct tax levied on individuals earning income through profession, employment, trade, or business, governed by respective State Legislations and deductible under Section 16(iii) of the Income Tax Act, 1961.",
+    overview: [
+      {
+        heading: "What is Professional Tax?",
+        content:
+          "Professional Tax applies to salaried employees, self-employed professionals (doctors, lawyers, consultants), business entities, and freelancers. Each State sets its own thresholds and rates under its Professional Tax Act.",
+      },
+      {
+        heading: "Types of Professional Tax Certificates",
+        content:
+          "1. Professional Tax Enrolment Certificate (PTEC) – for individuals/entities to pay their own tax.  \n2. Professional Tax Registration Certificate (PTRC) – for employers to deduct and pay tax on behalf of employees.",
+      },
+      {
+        heading: "Objective of Professional Tax",
+        content:
+          "To generate state revenue for socio-economic development, infrastructure and welfare programs, and local municipal activities.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Online Registration",
+        content:
+          "• Ensures legal compliance and avoids penalties  \n• Enables systematic tax deduction and reporting  \n• Supports government welfare schemes  \n• Enhances business credibility  \n• Simplifies audit and inspection processes",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content:
+          "• Certificate of Incorporation, PAN, MOA, AOA  \n• Address & ID proofs of partners/directors  \n• Passport-size photos  \n• Rent agreement or office NOC  \n• Bank statement and cancelled cheque  \n• Salary & attendance register  \n• Shop & Establishment Certificate  \n• Financial statements and board resolution",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Determine Applicability",
+        content:
+          "Check eligibility on your State’s commercial tax portal based on entity type and income.",
+      },
+      {
+        heading: "Step 2: Submit Application",
+        content:
+          "Apply online through the State’s Professional Tax portal by filling the prescribed form.",
+      },
+      {
+        heading: "Step 3: Upload Documents",
+        content:
+          "Attach all required documents digitally as per the checklist.",
+      },
+      {
+        heading: "Step 4: Verification",
+        content:
+          "State tax officials scrutinize the application and supporting documents.",
+      },
+      {
+        heading: "Step 5: Issuance of Certificate",
+        content:
+          "Upon approval, the Enrolment or Registration Certificate is issued online.",
+      },
+      {
+        heading: "Step 6: Periodic Return Filing",
+        content:
+          "File returns and pay tax at intervals prescribed by your State (monthly/quarterly/annual).",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Professional Tax Rates in Select States",
+        description:
+          "Monthly slabs and rates vary by State. Always verify latest rates with your State Commercial Tax Department.",
+        feeTable: [
+          {
+            category: "Gujarat – Up to ₹12,000 / ₹12,001+",
+            amount: "Nil / ₹200",
+          },
+          {
+            category: "Andhra Pradesh – Up to ₹15,000 / ₹20,001+",
+            amount: "Nil / ₹150–₹200",
+          },
+          {
+            category: "Bihar – Up to ₹3L / ₹10L+",
+            amount: "Nil / ₹1,000–₹2,500",
+          },
+          {
+            category: "Karnataka – Up to ₹15,000+",
+            amount: "Nil / ₹200",
+          },
+          {
+            category: "Maharashtra – Up to ₹10,000 / ₹10,001+",
+            amount: "Nil / ₹175–₹300",
+          },
+          {
+            category: "Madhya Pradesh – Up to ₹4L / Above",
+            amount: "Nil / ₹125–₹212",
+          },
+          {
+            category: "Mizoram – Up to ₹12,000 / Above",
+            amount: "Nil / ₹35–₹208",
+          },
+          {
+            category: "Odisha – Up to ₹3L / Above",
+            amount: "Nil / Variable",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Obtain Professional Tax Registration",
+        description:
+          "Registration and certificate issuance typically take 1–2 weeks, subject to portal processing times and document accuracy.",
+        steps: [
+          {
+            title: "Application Submission",
+            duration: "1–3 days",
+            description: "Fill and submit the online form with documents.",
+          },
+          {
+            title: "Verification",
+            duration: "3–7 days",
+            description: "State tax authority reviews and verifies.",
+          },
+          {
+            title: "Certificate Issuance",
+            duration: "1–2 days",
+            description: "Digital certificate generated upon approval.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert guidance on State-specific professional tax laws.",
+          "Complete documentation preparation and filing support.",
+          "Real-time application tracking and updates.",
+          "End-to-end compliance management to avoid penalties.",
+          "Dedicated customer support throughout the process.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who is liable to pay professional tax?",
+        answer:
+          "Salaried employees, self-employed professionals, business entities, freelancers, and employers deducting tax for their staff.",
+      },
+      {
+        question: "What are the penalties for non-compliance?",
+        answer:
+          "₹5 per day late registration, 10% penalty on unpaid tax plus 1.25% interest per month, and potential account attachment or prosecution.",
+      },
+      {
+        question: "Is professional tax refundable?",
+        answer:
+          "No, professional tax is non-refundable but deductible under Section 16(iii) of the Income Tax Act.",
+      },
+      {
+        question: "Can professional tax be paid in lump sum?",
+        answer:
+          "Some States offer composition schemes allowing lump-sum payment for a fixed period.",
+      },
+      {
+        question:
+          "When does an employer become liable to pay professional tax?",
+        answer:
+          "On the date of first salary disbursement that falls within the taxable limit.",
+      },
+      {
+        question: "Which entities are exempt from professional tax?",
+        answer:
+          "Senior citizens (65+), persons with disabilities, agricultural and textile workers, women homemakers, and those earning below threshold income.",
+      },
+      {
+        question: "Does professional tax vary by State?",
+        answer:
+          "Yes, slabs and rates differ across States; always check the latest rates with your State’s Commercial Tax Department.",
+      },
+    ],
+  },
+
+  "income-tax-return-filing": {
+    title: "Income Tax Return (ITR) Filing in India – A Complete Guide",
+    description:
+      "Income Tax Return (ITR) filing is the process by which individuals and entities declare their income earned during a financial year to the Income Tax Department of India. Filing on time ensures compliance with the Income Tax Act, 1961, enables claiming deductions under sections like 80C, 80D, and HRA, and avoids penalties.",
+    overview: [
+      {
+        heading: "What is ITR Filing?",
+        content:
+          "ITR filing is the process of declaring income, deductions, tax liability, and taxes paid or refunds due for a financial year to the Income Tax Department. The due date for most returns is July 31 following the end of the financial year (March 31). Returns are filed electronically via the Income Tax e-Filing portal.",
+      },
+      {
+        heading: "What is ITR?",
+        content:
+          "ITR (Income Tax Return) is a form through which taxpayers report total income earned, deductions claimed, tax liability, and taxes paid or refunds due. Filing ITR ensures transparency and accountability in financial declarations.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Filing ITR",
+        content:
+          "• Easy Loan Approval – Banks require ITR receipts for home, car, or personal loans.  \n• Proof of Income – Documents income for self-employed individuals.  \n• Faster Visa Processing – ITR receipts verify financial stability.  \n• Claim Tax Refunds – Overpaid taxes can be reclaimed.  \n• Carry Forward Losses – Business or capital losses can be carried forward if filed on time.  \n• Avoid Penalties – Timely filing avoids late fees and interest.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for ITR Filing Online",
+        content:
+          "• PAN & Aadhaar Card  \n• Form 16 (employer), Form 16A (TDS), Form 16C (rent TDS)  \n• Form 26AS (annual tax statement)  \n• Proof of deductions (80C–80U)  \n• Rent receipts for HRA  \n• Investment proofs (ELSS, LIC, PPF, etc.)  \n• Interest certificates (banks, post office)  \n• Home loan principal and interest statements  \n• Share trading/capital gains reports  \n• GST registration certificate (if applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Guide to File ITR Online",
+        content:
+          "1. Login to the Income Tax e-Filing portal  \n2. Enter Assessment Year & select ITR Form type  \n3. Select taxpayer status – Individual, HUF, Firm, etc.  \n4. Choose the correct ITR Form based on income profile  \n5. Fill in income, deductions, taxes paid, etc.  \n6. Validate & e-verify via Aadhaar OTP, net banking, or DSC  \n7. Submit and download acknowledgment (ITR-V)",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Types of ITR Forms in India",
+        description:
+          "Different ITR forms apply to different taxpayer categories based on income sources and entity type.",
+        feeTable: [
+          {
+            category: "ITR 1 (SAHAJ)",
+            amount:
+              "Resident individuals with income up to ₹50 lakhs from salary, one house property, and other sources",
+          },
+          {
+            category: "ITR 2",
+            amount:
+              "Individuals/HUFs not having business/profession income but with capital gains",
+          },
+          {
+            category: "ITR 3",
+            amount: "Individuals/HUFs with income from business or profession",
+          },
+          {
+            category: "ITR 4 (SUGAM)",
+            amount:
+              "Individuals, HUFs, or firms with presumptive business income up to ₹50 lakhs",
+          },
+          {
+            category: "ITR 5",
+            amount: "Firms, LLPs, AOPs, BOIs, etc.",
+          },
+          {
+            category: "ITR 6",
+            amount:
+              "Companies (excluding those claiming exemption under Section 11)",
+          },
+          {
+            category: "ITR 7",
+            amount:
+              "Trusts, political parties, educational institutions under Sections 139(4A–4D)",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to File ITR",
+        description:
+          "Most taxpayers must file by July 31. Belated returns can be filed before the end of the assessment year with late fees.",
+        steps: [
+          {
+            title: "Preparation",
+            duration: "1–3 days",
+            description: "Gather documents and Form 26AS.",
+          },
+          {
+            title: "Filing",
+            duration: "1 day",
+            description: "Complete online form and submit.",
+          },
+          {
+            title: "E-Verification",
+            duration: "Same day",
+            description: "Verify via Aadhaar OTP, net banking, or DSC.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for ITR Filing",
+        description: [
+          "Expert guidance on selecting the correct ITR form.",
+          "End-to-end assistance with document collection and e-filing.",
+          "Real-time tracking of your filing status.",
+          "Help with deductions and tax-saving strategies.",
+          "Support with e-verification and handling notices.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who is required to file an ITR?",
+        answer:
+          "Salaried and pensioned individuals, business owners, individuals with income from house property, capital gains, other sources, NRIs, firms, LLPs, companies, and institutions.",
+      },
+      {
+        question: "Can Ifile a belated return?",
+        answer:
+          "Yes, before the end of the assessment year with applicable late fees and interest.",
+      },
+      {
+        question: "What is Form 26AS?",
+        answer:
+          "A consolidated annual tax statement reflecting TDS, advance tax, and other tax credits against your PAN.",
+      },
+      {
+        question: "How can I e-verify my ITR?",
+        answer:
+          "Via Aadhaar OTP, net banking, bank ATM PIN, or Digital Signature Certificate (DSC).",
+      },
+      {
+        question: "What deductions can I claim?",
+        answer:
+          "Deductions under Section 80C (up to ₹1.5 lakhs), 80CCD(1B) (₹50,000), 80D (health insurance), 80G (donations), 80E (education loan interest), HRA, and home loan interest under Section 24(b).",
+      },
+      {
+        question: "What happens if I miss the deadline?",
+        answer:
+          "Late filing fees apply under Section 234F, interest under Section 234A, and inability to carry forward losses.",
+      },
+    ],
+  },
+
+  "sale-deed-registration": {
+    title: "Sale Deed Registration – A Complete Guide",
+    description:
+      "A sale deed is the legally binding document that transfers property ownership from seller to buyer, governed by the Registration Act, 1908. Understanding its terms, required elements, and the registration process ensures a smooth property transaction.",
+    overview: [
+      {
+        heading: "Essential Terms You Should Know",
+        content:
+          "Seller (Transferor): The current owner.  \nBuyer (Transferee): The new owner.  \nWitness: Confirms voluntary signing.  \nStamp Duty: State-levied tax on property value.  \nRegistration Fee: Government charge to record the deed.  \nTitle: Legal proof of ownership.  \nSale Price: Agreed consideration.  \nExecution: Signing or thumb impression.  \nRegistration: Validation at sub-registrar’s office.",
+      },
+      {
+        heading: "Must-Have Elements for Your Sale Deed",
+        content:
+          "Clear Property Details: Buyer/seller names, addresses, exact description.  \nPayment Terms: Advance amount, total price, mode—cheque/DD/online.  \nTransfer Timeframe: Date and handover of documents.  \nTransfer Clause: Seller clears all dues before transfer.  \nStamp Duty & Registration: Pay on correct stamp paper; unregistered deeds are invalid.",
+      },
+      {
+        heading: "Why a Sale Deed is Important",
+        content:
+          "Legal Shield: Protects against future disputes.  \nClarity: Records location, area, and terms.  \nEnforceability: Renders the agreement binding.  \nSmooth Process: Streamlines transaction steps.  \nSecure Asset: Guarantees your legal title.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Sale Deed Registration",
+        content:
+          "• Legal Authorization – Ownership legally recognized.  \n• Transparency – All terms recorded in writing.  \n• Enforceability – Courts uphold registered deeds.  \n• Protection – Prevents fraudulent claims.  \n• Asset Security – Confirms your title.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Checklist for Registration",
+        content:
+          "• Buyer & Seller IDs with PAN & photos  \n• Original title deeds & Khata/7-12 extracts  \n• Stamp duty payment receipt  \n• Registration fee receipt  \n• Two witnesses’ details & IDs  \n• Previous sale agreements (resales)  \n• Loan NOC (if mortgaged)  \n• Building/association NOC (apartments)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Quick and Easy Registration Process",
+        content:
+          "1. Book Slot – Online or at sub-registrar’s office.  \n2. Document Check – At facilitation center.  \n3. Execution – Sign and thumb-impress before registrar.  \n4. Biometric – Fingerprints and photograph captured.  \n5. Verification – Registrar inspects and approves.  \n6. Receipt – Immediate acknowledgment; deed in 15 days.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Stamp Duty & Registration Fees",
+        description:
+          "Stamp duty varies by state (e.g., Delhi: 6% for men, 4% for women).  Registration fee is a small percentage of sale price.  E-stamping available in many states.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Complete Registration",
+        description:
+          "From booking to acknowledgment typically takes 1–2 days; certified deed within 15 days.",
+        steps: [
+          {
+            title: "Appointment Booking",
+            duration: "Same day",
+            description: "Choose slot online or walk in.",
+          },
+          {
+            title: "Document Verification",
+            duration: "1–2 hours",
+            description: "Facilitation center check.",
+          },
+          {
+            title: "Execution & Registration",
+            duration: "1 day",
+            description: "Sign, biometric, approval.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "We handle your entire sale deed registration end-to-end.",
+        ],
+        points: [
+          "Fast online booking",
+          "Hassle-free document management",
+          "Expert lawyers",
+          "Transparent pricing",
+          "24/7 support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a sale deed?",
+        answer:
+          "A legal document transferring property ownership from seller to buyer.",
+      },
+      {
+        question: "Why is stamp duty paid?",
+        answer: "It is a state tax that validates your property transaction.",
+      },
+      {
+        question: "Who acts as witness?",
+        answer:
+          "Neutral parties who confirm voluntary signing by buyer and seller.",
+      },
+      {
+        question: "How do I register?",
+        answer:
+          "Book online or visit the sub-registrar’s office, submit documents, sign, and pay fees.",
+      },
+      {
+        question: "What happens if I skip registration?",
+        answer:
+          "The sale deed will not be legally enforceable and may lead to disputes.",
+      },
+    ],
+  },
+
+  "service-level-agreement": {
+    title: "Service Level Agreement (SLA) – A Complete Guide",
+    description:
+      "A Service Level Agreement (SLA) is a formal contract between a service provider and a customer that defines expectations, obligations, performance metrics, and remedies. It ensures clarity on service scope, quality, uptime, response and resolution times.",
+    overview: [
+      {
+        heading: "What Is an SLA?",
+        content:
+          "An SLA establishes the nature, quality, and scope of services a customer is entitled to receive. It aligns both parties on deliverables, performance standards, and accountability mechanisms.",
+      },
+      {
+        heading: "Types of SLAs",
+        content:
+          "1. Customer-Based SLA: Tailored to a specific customer group and covers all services provided to them.  \n2. Service-Based SLA: A standard agreement for all users of a particular service.  \n3. Multi-Level SLA: Structured into:  \n   • Corporate Level – Covers organization-wide policies.  \n   • Customer Level – Addresses needs of a specific customer segment.  \n   • Service Level – Defines metrics for individual services.",
+      },
+      {
+        heading: "Key Elements of an SLA",
+        content:
+          "• Scope of Services and Definitions  \n• Performance Metrics (uptime, response & resolution times)  \n• Duration and Renewal Terms  \n• Roles & Responsibilities of Provider and Customer  \n• Communication Protocols and Escalation Paths  \n• Confidentiality & Non-Disclosure Clauses  \n• Financial Terms (pricing, invoicing, payment schedules)  \n• Warranties, Guarantees & Service Credits  \n• Dispute Resolution & Termination Conditions  \n• Exclusions, Riders & Exit Clauses",
+      },
+      {
+        heading: "Why an SLA Is Essential",
+        content:
+          "• Ensures Transparency: Clearly states what is and isn’t included.  \n• Sets Clear Expectations: Aligns both parties on deliverables.  \n• Defines Remedies: Penalties, credits or termination rights for non-compliance.  \n• Promotes Accountability: Metrics and reporting requirements.  \n• Supports Relationship Management: Regular reviews, change management.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Core Benefits of an SLA",
+        content:
+          "• Manages Expectations: Prevents misunderstandings by specifying inclusions/exclusions.  \n• Simplifies Complex Services: Focuses on outcomes rather than technical details.  \n• Enhances Accountability: Measurable KPIs drive performance improvements.  \n• Builds Trust: Both sides agree to enforceable standards.  \n• Facilitates Dispute Resolution: Pre-agreed mechanisms reduce conflict.",
+      },
+      {
+        heading: "Additional Advantages",
+        content:
+          "• Customizable & Scalable: Can evolve with business requirements.  \n• Financial Control: Defines costs, billing cycles, and penalties.  \n• Continuous Improvement: Regular review and feedback loops.  \n• Regulatory Compliance: Helps meet industry or legal standards.  \n• Competitive Differentiator: Demonstrates professionalism to clients.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "DoStartup’s SLA Drafting & Delivery Process",
+        content:
+          "1. Submit Online Request: Provide your service details and requirements.  \n2. Consultation Call: Our experts clarify objectives, KPIs, and legal considerations.  \n3. Draft Preparation: Receive a fully customized SLA draft within 3–4 working days.  \n4. Review & Revisions: Two rounds of free revisions to refine terms.  \n5. Finalization & Delivery: Get your SLA in print-ready and editable formats.  \n6. Ongoing Support: Access advisory for amendments, renewals, and enforcement.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Your SLA?",
+        description: [
+          "We combine legal expertise with service management best practices.",
+        ],
+        points: [
+          "Top-rated legal and ITSM professionals",
+          "Rapid turnaround—draft in under five days",
+          "Two complimentary revision cycles",
+          "Transparent, fixed-fee pricing",
+          "24/7 support for amendments and queries",
+          "Template library covering multiple industries",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the purpose of an SLA?",
+        answer:
+          "An SLA formalizes service expectations, metrics, and remedies to ensure both parties share a common understanding of service delivery.",
+      },
+      {
+        question: "What should an SLA include?",
+        answer:
+          "It should cover scope, performance metrics, responsibilities, reporting, communication protocols, financial terms, warranties, and dispute resolution.",
+      },
+      {
+        question: "How do I draft an SLA?",
+        answer:
+          "Engage legal and service management experts to define your business goals, KPIs, and legal safeguards—DoStartup provides end-to-end drafting support.",
+      },
+      {
+        question: "What are the different types of SLAs?",
+        answer:
+          "SLAs can be Customer-Based, Service-Based, or Multi-Level, depending on coverage breadth and stakeholder segmentation.",
+      },
+    ],
+  },
+
+  "gift-deed": {
+    title: "Gift Deed",
+    description:
+      "Legally transfer property or valuables without any consideration using a registered Gift Deed.",
+    overview: [
+      {
+        heading: "Overview of a Gift Deed",
+        content:
+          "A Gift Deed is your legal shortcut to transferring something you love—be it property, money, or valuables—to someone you care about, without expecting anything in return. Governed by Section 122 of the Transfer of Property Act, 1882, it's the go-to method to pass on your assets purely out of affection—whether to a family member or a close friend. And yes, if it's immovable property, it must be registered under Section 17 of the Registration Act, 1908 to be legally valid. No shortcuts here!",
+      },
+      {
+        heading: "What are the Essential Clauses in a Gift Deed?",
+        content:
+          "● Clause for Consideration: It must clearly state that the gift is free—no cash, no favors, no strings attached.\n● Possession of Property: You can only gift what you already own and possess.\n● Free Consent: The donor must give the gift voluntarily.\n● Property Details: The deed should describe the property thoroughly.\n● Details of Donor and Donee: Especially important for stamp duty concessions.\n● Rights and Liabilities: Any rent collection or utility bills must be defined.\n● Rights of Donee: The donee must know whether they can lease, modify, or earn from it.\n● Delivery Clause: It should state how and when possession has been transferred.\n● Clauses for Revocation: Clearly mentioned if applicable and mutually agreed.",
+      },
+      {
+        heading: "Who Can Be a Donor or Donee?",
+        content:
+          "A donor must be mentally sound and legally capable of contracting. A donee can be anyone, including a minor (through a guardian). If the gift includes liabilities like unpaid taxes, those pass on to the donee.",
+      },
+      {
+        heading: "What Type of Properties Can Be Gifted?",
+        content:
+          "The property must be:\n● Movable or immovable\n● Tangible\n● Transferable\n● Already in existence\nNo gifting future or imaginary properties.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Register a Gift Deed?",
+        content:
+          "● Legally Valid Transfer: Prevents future disputes.\n● Transparent Documentation: Clearly defines rights and responsibilities.\n● Tax Benefits: Some gifts are exempt from income tax.\n● Easy Ownership Proof: Useful in property and financial records.\n● Immediate Effect: Once accepted and registered, the transfer is complete.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Gift Deed Registration",
+        content:
+          "● Aadhar & PAN cards (both parties)\n● Identity proof (passport, license)\n● Original Gift Deed\n● Proof of ownership (sale deed, etc.)\n● Two witnesses and their ID proofs\n● Encumbrance Certificate\n● Ready Reckoner Certificate (valuation)\n● State-specific property agreements",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Register a Gift Deed",
+        content:
+          "● Step 1: Draft the Gift Deed with details like date, place, donor/donee info, property description, signatures, and witness details.\n● Step 2: Print it on stamp paper of appropriate value as per your state.\n● Step 3: Visit the sub-registrar’s office to register it. Once registered, the gift is legally effective.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Stamp Duty for Gift Deed Registration",
+        description:
+          "Stamp duty varies by state and the relationship between the donor and donee.",
+        feeTable: [
+          { category: "Delhi", amount: "6% (men), 4% (women)" },
+          {
+            category: "Karnataka",
+            amount: "5.6% (non-family), ₹1,000–₹5,000 (family)",
+          },
+          { category: "Gujarat", amount: "4.9% of market value" },
+          { category: "Punjab", amount: "6%, free for blood relatives" },
+          {
+            category: "Rajasthan",
+            amount: "0% to 5% based on gender & relation",
+          },
+          { category: "Uttar Pradesh", amount: "7% (men), 6% (women)" },
+          {
+            category: "Maharashtra",
+            amount: "₹200 for homes/farms, 3%-5% based on relation",
+          },
+          { category: "Tamil Nadu", amount: "1% (family), 7% (others)" },
+          {
+            category: "West Bengal",
+            amount: "0.5% (family), 6% (others) + 1% surcharge if over ₹40L",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Gift Deed Registration",
+        description:
+          "Usually completed in 2–5 working days after document verification and submission.",
+        steps: [
+          {
+            title: "Draft & Review",
+            duration: "1–2 days",
+            description:
+              "Draft the Gift Deed with all clauses and verify details.",
+          },
+          {
+            title: "Stamping & Submission",
+            duration: "1 day",
+            description:
+              "Print on stamp paper and submit at the registrar’s office.",
+          },
+          {
+            title: "Registration & Collection",
+            duration: "1–2 days",
+            description:
+              "Gift Deed is signed, registered, and the certificate is collected.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup simplifies legal compliance so you can focus on what matters—gifting with peace of mind.",
+        ],
+        points: [
+          "Expert Drafting in 48 Hours",
+          "Free Consultation",
+          "End-to-End Legal Support",
+          "Stamping, Submission & Delivery",
+          "Transparent Pricing—No Hidden Costs",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Gift Deed?",
+        answer:
+          "A legal document used to transfer property or valuables voluntarily without any consideration.",
+      },
+      {
+        question: "Where is the Gift Deed defined?",
+        answer: "Under Section 122 of the Transfer of Property Act, 1882.",
+      },
+      {
+        question: "Should a Gift Deed involve any consideration?",
+        answer: "No. Even ₹1 exchanged makes it a sale, not a gift.",
+      },
+      {
+        question: "What about possession of the property?",
+        answer: "Only existing, owned, and possessed property can be gifted.",
+      },
+      {
+        question: "What are the donor’s and donee’s rights?",
+        answer:
+          "The donor relinquishes all rights, while the donee gains full ownership and associated liabilities.",
+      },
+      {
+        question: "Can a minor accept a gift?",
+        answer:
+          "Yes, through a legal guardian. They can confirm or refuse upon becoming adults.",
+      },
+      {
+        question: "Can a Gift Deed be revoked?",
+        answer:
+          "Only under mutual agreement or legal grounds like fraud or coercion as per Section 126.",
+      },
+      {
+        question: "Is acceptance required?",
+        answer: "Yes. The donee must accept the gift while the donor is alive.",
+      },
+      {
+        question: "What is a Conditional Gift Deed?",
+        answer:
+          "A gift with specific conditions agreed upon during gifting. Must be stated clearly in the deed.",
+      },
+      {
+        question: "Is Gift Deed income taxable?",
+        answer:
+          "Yes, if the gift exceeds ₹50,000 and is not exempt under relations, marriage, will, or trust clauses.",
+      },
+    ],
+  },
+
+  "residential-rental-agreement": {
+    title: "Overview of Residential Rental Agreement",
+    description:
+      "A Residential Rental Agreement is the official handshake (in writing) between a landlord and a tenant for renting a property for a set period, laying out all the ground rules—from rent and deposits to duration and maintenance.",
+    overview: [
+      {
+        heading: "When to Use a Residential Rental Agreement?",
+        content:
+          "● Landlord renting out home to tenants (monthly, yearly, or weekly)\n● Tenant plans to live in and maintain the place temporarily\n● You want clear terms on rent, security deposit, co‑signers, or repairs to avoid future disputes",
+      },
+      {
+        heading: "What is a Security Deposit?",
+        content:
+          "A refundable upfront amount (usually 2–10 months’ rent) paid by the tenant as a safety net. Landlord may deduct repair costs or unpaid bills and return the balance at lease end.",
+      },
+      {
+        heading: "Key Terms in a Rental Agreement",
+        content:
+          "● Duration: Lease term (e.g., 11 months)\n● Rent: Monthly amount, due date, grace period, late fees\n● Deposit: Amount, refund timeline, deduction conditions\n● Utilities: Responsibility for water, electricity, gas, internet\n● Repairs & Maintenance: Landlord vs tenant obligations\n● Insurance: If tenant must insure the premises\n● Use & Restrictions: Pets, guests, subletting, noise rules",
+      },
+      {
+        heading: "Essential Contents of the Agreement",
+        content:
+          "● Full names and addresses of landlord & tenant\n● Detailed description of premises (unit, floor, address)\n● Rent amount, payment mode (bank transfer, cheque), due date\n● Security deposit amount, bank details for refund\n● Termination, early exit, renewal notice period\n● Utilities and maintenance responsibilities\n● Rules on pets, guests, noise, and common areas\n● Emergency contacts and repair procedures",
+      },
+      {
+        heading: "Preventing Real Estate Frauds",
+        content:
+          "● Always pay rent via traceable methods (bank transfer)\n● Verify owner’s identity and property documents\n● Insist on written terms—no verbal promises\n● Use proper landlord name to avoid title issues\n● Conduct joint property inspections before move‑in",
+      },
+      {
+        heading: "Why Register Your Rental Agreement?",
+        content:
+          "● Legally valid if term >11 months\n● Enforceable in court for disputes\n● Prevents fraudulent re‑letting\n● Police verification evidence\n● Stamp duty compliance avoids penalties",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages of a Rental Agreement",
+        content:
+          "● Prevents disputes by documenting agreed terms\n● Provides legal proof in case of disagreements\n● Enables flexible living without ownership burdens\n● Quick occupancy—no bank loans required\n● Possible tax deductions for tenants on rent paid\n● Clear emergency repair and maintenance process",
+      },
+      {
+        heading: "Emergency & Maintenance Clarity",
+        content:
+          "● Defines process for urgent repairs\n● Allocates costs for breakdowns or damage\n● Ensures timely landlord response\n● Protects tenant safety and comfort",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content:
+          "● Aadhar or valid government‑issued ID of both parties\n● Passport (for foreign nationals)\n● Power of Attorney (if applicable)\n● Original property ownership proof (sale deed)\n● Two passport‑size photographs of tenant and landlord\n● Rental agreement printed on state‑appropriate stamp paper",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Registration & Police Verification",
+        content:
+          "● Police Verification: Required under Section 188 IPC; submit tenant’s ID and form to state police portal\n● Registration: Leases >11 months must be registered under Section 17 of Registration Act\n● Stamp Duty & Fees: Varies by state—calculate based on rent and duration\n● Steps:\n  1. Draft agreement with signatures and witnesses\n  2. Print on correct stamp paper\n  3. Submit to sub‑registrar with fees and IDs\n  4. Collect registered document and receipt",
+      },
+      {
+        heading: "Key Discussion Points Before Signing",
+        content:
+          "● Fair Market Rent: Check similar properties and Rent Control Act\n● Advance Payment: Amount and due date\n● Furnishing, painting, pet allowances and costs\n● Deposit deductions and refund conditions\n● Inspection schedules and notice period",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "● Submit basic details online or via call",
+          "● First draft delivered within 2 days",
+          "● Unlimited revisions until you’re satisfied",
+          "● We handle printing, stamping, registration",
+          "● Transparent, end‑to‑end legal support",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Residential Rental Agreement?",
+        answer:
+          "A legal contract granting a tenant the right to occupy a property for a specified period in exchange for rent.",
+      },
+      {
+        question: "What is a Security Deposit?",
+        answer:
+          "An upfront refundable sum paid by the tenant to cover damages or unpaid dues.",
+      },
+      {
+        question: "When can the landlord use part of the security deposit?",
+        answer:
+          "To repair damages beyond normal wear and tear or cover unpaid rent/utilities at lease end.",
+      },
+      {
+        question: "What does Insurance signify in a Rental Agreement?",
+        answer:
+          "Whether the tenant needs to insure the rented property and what risks are covered.",
+      },
+      {
+        question: "What are the benefits of a Rental Agreement?",
+        answer:
+          "Clarity, legal protection, dispute prevention, and potential tax benefits.",
+      },
+      {
+        question: "Is Police Verification mandatory?",
+        answer:
+          "Yes, especially for leases over 11 months, to ensure tenant’s background is clear.",
+      },
+      {
+        question: "How do I determine a fair rent?",
+        answer:
+          "Compare similar local properties and consult state Rent Control guidelines.",
+      },
+      {
+        question: "When should a Rental Agreement be registered?",
+        answer:
+          "Any lease exceeding 11 months must be registered under the Registration Act.",
+      },
+      {
+        question: "Can I pay rent in cash?",
+        answer:
+          "Avoid cash—use bank transfers or cheques for traceability and legal protection.",
+      },
+      {
+        question: "What happens if I break the lease early?",
+        answer:
+          "Review your agreement’s early termination clause—penalties or notice periods may apply.",
+      },
+      {
+        question: "Who handles minor repairs?",
+        answer:
+          "The agreement specifies maintenance division—typically tenant handles minor repairs.",
+      },
+      {
+        question: "Can I sublet the property?",
+        answer:
+          "Only if the agreement explicitly permits subletting and landlord provides written consent.",
+      },
+      {
+        question: "What if utilities stop working?",
+        answer:
+          "Follow the defined emergency repair process to have landlord address urgent issues.",
+      },
+      {
+        question: "Do I need renters’ insurance?",
+        answer:
+          "If required in your agreement—covers tenant’s belongings and liability inside the premises.",
+      },
+    ],
+  },
+
+  "commercial-rental-agreement": {
+    title: "Overview of Commercial Rental Agreement",
+    description:
+      "A Commercial Rental Agreement is a legally recognized document used to lease business premises—offices, retail, warehouses, restaurants—formalizing landlord and tenant obligations, costs, and usage rights for commercial use.",
+    overview: [
+      {
+        heading: "When to Use a Commercial Rental Agreement?",
+        content:
+          "● Leasing office space, retail stores, warehouses, factories, restaurants\n● Part of larger complexes with shared lobbies, parking, HVAC\n● Significant financial commitments requiring clear, comprehensive terms",
+      },
+      {
+        heading: "Key Queries to Address",
+        content:
+          "● Liability for fire or other damages\n● Utilities payment responsibility\n● Landlord inspection rights and notice period\n● Tenant bankruptcy as contract breach\n● Dispute resolution: court, arbitration, mediation\n● Governing law and jurisdiction\n● Eminent domain or government takeover provisions",
+      },
+      {
+        heading: "Essential Elements",
+        content:
+          "● Landlord and Tenant definitions\n● Term: Lease duration (months/years)\n● Demised Premises: Exact rentable area with layout map\n● Real Property: Entire building and common areas\n● Base Rent: Fixed monthly or annual amount\n● Operating Costs: Pro rata share of CAM, taxes, insurance\n● Security Deposit: Refundable sum for damages or defaults\n● Permitted Use: Allowed business activities and restrictions\n● Renovations: Tenant vs landlord responsibilities for upgrades",
+      },
+      {
+        heading: "Who Should Use It?",
+        content:
+          "Suitable for businesses such as offices, startups, cafes, restaurants, clinics, hotels, guesthouses, warehouses, factories, self‑storage, and mall kiosks.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages",
+        content:
+          "● Strengthens landlord‑tenant relationship with clear expectations\n● Legal protection for high‑value commercial properties\n● Preserves capital—no large upfront purchase required\n● Flexible terms compared to mortgages or loans\n● Quick occupancy without lengthy loan approvals\n● Financial safeguards against unexpected costs\n● Professional clarity fostering mutual respect",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content:
+          "● Valid government ID (Aadhar, Passport for foreigners)\n● Power of Attorney if signing for owner\n● Landlord’s property ownership proof (sale deed)\n● Tenant’s business registration or incorporation certificate\n● Government approvals or licenses required for business\n● Two passport‑size photographs\n● Stamp paper for lease (value per state)\n● MOA & AOA if the tenant is a company\n● Shareholder or dealership agreements if applicable",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Execution & Registration",
+        content:
+          "● Draft on non‑judicial stamp paper or e‑stamp per state\n● Signatures of landlord, tenant, and two witnesses\n● Each party retains a signed copy\n● Register lease >11 months at sub‑registrar with stamps, fees\n● Obtain registration certificate and receipt",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "DoStartup’s Hassle‑Free Process",
+        description: [
+          "● Share your requirements and property details",
+          "● Expert legal team drafts first version in 2 days",
+          "● Review and suggest edits until you’re satisfied",
+          "● We finalize, print, stamp, and register on your behalf",
+          "● End‑to‑end support ensures legal compliance and speed",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Commercial Rental Agreement?",
+        answer:
+          "A contract granting a tenant the right to use business premises for commercial purposes under agreed terms.",
+      },
+      {
+        question: "What is Demised Premises?",
+        answer:
+          "The specific portion of property leased to the tenant, usually shown on a layout plan.",
+      },
+      {
+        question: "What is Real Property?",
+        answer:
+          "The entire property owned by the landlord, including common areas and shared facilities.",
+      },
+      {
+        question: "What is Base Rent?",
+        answer:
+          "The fixed amount payable by the tenant monthly or annually, excluding additional charges.",
+      },
+      {
+        question: "What is Security Deposit?",
+        answer:
+          "A refundable sum held by the landlord to cover damages or defaults under the lease.",
+      },
+      {
+        question: "Does it provide legal security?",
+        answer:
+          "Yes, it legally binds both parties to their rights and obligations, enforceable in court.",
+      },
+      {
+        question: "What documents are mandatory?",
+        answer:
+          "ID proofs, property ownership documents, business registration papers, stamp paper, and MOA/AOA if applicable.",
+      },
+      {
+        question: "How to register the agreement?",
+        answer:
+          "Register leases over 11 months at the sub‑registrar by submitting signed deed, IDs, and paying stamp duty and registration fees.",
+      },
+      {
+        question: "What is the typical lease period?",
+        answer:
+          "Commercial leases range from 11 months to several years, based on business needs.",
+      },
+      {
+        question: "Is legal consultation important?",
+        answer:
+          "Yes, expert advice ensures the lease protects your interests and complies with all laws.",
+      },
+      {
+        question: "What is Gross Rental?",
+        answer:
+          "A lease where landlord covers all property expenses such as taxes, maintenance, and insurance.",
+      },
+      {
+        question: "What is Net Rental?",
+        answer:
+          "Tenant pays base rent plus some or all operating expenses (taxes, insurance, maintenance).",
+      },
+      {
+        question: "What laws apply?",
+        answer:
+          "Transfer of Property Act 1882, Registration Act 1908, and GST Act 2016 for lease taxes.",
+      },
+      {
+        question: "How to choose a location?",
+        answer:
+          "Assess visibility, customer access, competition, and operational feasibility before leasing.",
+      },
+    ],
+  },
+
+  "relinquishment-deed": {
+    title: "Overview of Relinquishment Deed",
+    description:
+      "A Relinquishment Deed enables one legal heir to voluntarily cede their share of inherited property to co‑heirs, consolidating ownership and preventing future disputes.",
+    overview: [
+      {
+        heading: "What Is a Relinquishment Deed?",
+        content:
+          "When someone dies intestate (without a will), their property is inherited by legal heirs. A Relinquishment Deed lets one heir release their share in favor of other co‑heirs, with or without payment, under Section 17 of the Registration Act, 1908.",
+      },
+      {
+        heading: "Key Components",
+        content:
+          "Includes title, date, executant (releasor) details, releasee details, full property description (survey/registration numbers), purpose of relinquishment, heirs’ shares, declaration of voluntary release, and signatures with two witnesses.",
+      },
+      {
+        heading: "Irrevocability & Legal Effect",
+        content:
+          "Once executed and registered, the deed is final and the releasor loses all rights and liabilities; the releasee gains full title. It can only be challenged on grounds of fraud, coercion, lack of consent, or mutual cancellation within three years.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits",
+        content:
+          "● Consolidates title under fewer names for easier sale or mortgage  \n● Avoids future litigation among heirs  \n● Simplifies property management  \n● Legally secures the releasee’s interest",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content:
+          "● Title deed / proof of ownership  \n● Details of all co‑owners/heirs  \n● Drafted Relinquishment Deed  \n● ID proofs (Aadhar, PAN, passport) for releasor & releasee  \n● Witness ID proofs  \n● Consideration details (if applicable)  \n● Any prior family settlement agreements",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Registration",
+        content:
+          "1. Draft deed with legal advisor on appropriate stamp paper  \n2. Submit at sub‑registrar’s office with releasor, releasee & two witnesses  \n3. Pay registration fee (₹100–₹250, state‑dependent)  \n4. Attend appointment for signatures; sub‑registrar may visit if needed  \n5. Collect registered copy (within ~1 week)",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Dostartup’s Hassle‑Free Process",
+        description: [
+          "1. You share basic details & documents online  ",
+          "2. Our experts draft the deed within 2 business days  ",
+          "3. We handle verification & scheduling at sub‑registrar’s office  ",
+          "4. You review & request edits if needed  ",
+          "5. We oversee registration and deliver your registered deed",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Relinquishment Deed?",
+        answer:
+          "A legal document where a co‑heir gives up their inherited share in property to other co‑heirs.",
+      },
+      {
+        question: "Who can be a releasor or releasee?",
+        answer:
+          "Only legal heirs who already hold a share in the intestate property can execute or receive a relinquishment.",
+      },
+      {
+        question: "Is consideration required?",
+        answer:
+          "No. It can be executed with or without payment, often motivated by love or family settlement.",
+      },
+      {
+        question: "Does it need registration?",
+        answer:
+          "Yes. Mandatory under Section 17 of the Registration Act, 1908; unregistered deeds are void.",
+      },
+      {
+        question: "Can it be revoked?",
+        answer:
+          "Once registered, it’s irrevocable unless challenged in court on grounds like fraud, coercion, or mutual cancellation within three years.",
+      },
+      {
+        question: "What happens if it’s unregistered?",
+        answer:
+          "An unregistered deed has no legal effect and cannot be enforced in court.",
+      },
+      {
+        question: "Who must sign the deed?",
+        answer:
+          "The releasor, the releasee, and at least two independent witnesses must sign before registration.",
+      },
+      {
+        question: "What property can be relinquished?",
+        answer:
+          "Only jointly inherited property shares—self‑acquired assets cannot be surrendered via this deed.",
+      },
+      {
+        question: "What grounds allow challenge?",
+        answer:
+          "Lack of free consent, fraud, coercion, or breach of agreed revocation conditions within the limitation period.",
+      },
+      {
+        question: "What is the Limitation period?",
+        answer:
+          "Challenges must be filed in civil court within three years from execution under the Limitation Act.",
+      },
+      {
+        question: "Can non‑heirs receive the relinquished share?",
+        answer:
+          "No. Transfer must be in favor of co‑owners who are legal heirs, else it may be treated as a gift.",
+      },
+      {
+        question: "What documents accompany the deed?",
+        answer:
+          "Title documents, heir details, ID proofs, draft deed, witnesses’ proofs, and any family settlement papers.",
+      },
+    ],
+  },
+
+  "probate-will": {
+    title: "Overview of Probate of Will",
+    description:
+      "Probate is the court‑certified validation of a deceased’s will, empowering the executor to administer the estate in accordance with the testator’s wishes and settle liabilities.",
+    overview: [
+      {
+        heading: "What Is Probate of a Will?",
+        content:
+          "Under Section 2(h) of the Indian Succession Act, 1925, a will is a testator’s declaration for post‑death asset distribution. Probate is the legal process by which a competent court certifies that the submitted will is genuine and grants the executor authority to administer the estate.",
+      },
+      {
+        heading: "When Is Probate Required?",
+        content:
+          "Probate is mandatory in jurisdictions formerly under the Lieutenant‑Governor of Bengal or the High Courts of Madras and Bombay (now West Bengal, Chennai, Mumbai) and for Hindu, Sikh, Jain or Buddhist testators there. It’s also essential if the will is contested, unclear, or additional legal certainty is needed.",
+      },
+      {
+        heading: "Key Advantages of a Probated Will",
+        content:
+          "● Protects the estate from unauthorized claims  \n● Enables smooth distribution to beneficiaries  \n● Provides public acknowledgment of heirs  \n● Allows creditors to present claims within 90 days  \n● Strengthens executor’s authority and legal standing",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Probate",
+        content:
+          "● Original death certificate of the testator  \n● Original or certified copy of the will  \n● Evidence of voluntary execution (no coercion/fraud)  \n● Identity proofs of executor and beneficiaries  \n● Proof of relationship (if requested)  \n● Court fee challan as per Court Fees Act  \n● Any additional documents ordered by the court",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Will Probate",
+        content:
+          "1. File probate petition with District Judge within 7 days of death, verified as per CPC.  \n2. Submit to High Court having jurisdiction over the deceased’s property.  \n3. Provide death certificate, will, affidavits; court issues public notice inviting objections for 30 days.  \n4. If no valid objections, court grants probate certificate.  \n5. Executor uses probate to distribute assets & settle liabilities.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Probate Assistance",
+        description: [
+          "1. Expert guidance on jurisdiction and document preparation  ",
+          "2. Drafting and verification of probate petition  ",
+          "3. Coordination with court registry and follow‑up  ",
+          "4. Public notice publication and objection handling support  ",
+          "5. Timely delivery of your probate certificate",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the need for probate of a will?",
+        answer:
+          "To legally empower the executor to distribute the deceased’s assets and settle liabilities in accordance with the will.",
+      },
+      {
+        question: "Under which court can I file for probate?",
+        answer:
+          "File in the District Court or High Court having jurisdiction over the location of the deceased’s property.",
+      },
+      {
+        question: "Which assets are subject to probate?",
+        answer:
+          "Assets solely owned by the deceased and expressly mentioned in the will.",
+      },
+      {
+        question: "Can a will be probated before the testator’s death?",
+        answer: "No. Probate can only occur after the death of the testator.",
+      },
+      {
+        question: "Who is called an executor?",
+        answer:
+          "The person appointed in the will to carry out the testator’s instructions and manage estate distribution.",
+      },
+      {
+        question: "Who can apply if no executor is named?",
+        answer:
+          "Any legal heir or interested party may petition the court to be appointed administrator.",
+      },
+      {
+        question: "What is meant by probate of will?",
+        answer:
+          "The legal certification of a will’s authenticity and the granting of authority to the executor.",
+      },
+      {
+        question: "Is probate required in all states of India?",
+        answer:
+          "No. Mandatory only in certain regions (West Bengal, Mumbai, Chennai) or under specific religious and legal circumstances.",
+      },
+      {
+        question: "Must a public notice be published?",
+        answer:
+          "Yes. A public notice is issued to invite objections before granting probate.",
+      },
+      {
+        question: "When should one apply for probate?",
+        answer: "After seven days have passed since the testator’s death.",
+      },
+      {
+        question: "What is the required court fee?",
+        answer:
+          "It varies by state and the estate’s value, as prescribed under the Court Fees Act.",
+      },
+      {
+        question: "Is a will valid without probate?",
+        answer:
+          "Yes, in some cases. However, probate provides legal assurance and enforceability.",
+      },
+    ],
+  },
+
+  "share-purchase-agreement": {
+    title: "Overview of Share Purchase Agreement",
+    description:
+      "A Share Purchase Agreement (SPA) is the definitive contract governing the sale and purchase of company shares, detailing rights, obligations, and the mechanics of the transfer between seller and buyer.",
+    overview: [
+      {
+        heading: "What Is a Share Purchase Agreement?",
+        content:
+          "An SPA is executed between a seller, who agrees to transfer a specified number of shares, and a buyer, who agrees to purchase them at an agreed price. It records mutual consent and triggers the share transfer process once signed.",
+      },
+      {
+        heading: "Why Is an SPA Necessary?",
+        content:
+          "By documenting each party’s rights, responsibilities and conditions precedent, the SPA ensures transparency, legal protection, and a clear framework for completing a share transaction.",
+      },
+      {
+        heading: "Key Components",
+        content:
+          "• Buyer and seller names  \n• Target company details  \n• Number, class and price of shares  \n• Conditions precedent (due diligence, approvals)  \n• Representations, warranties, indemnities  \n• Governing law and dispute resolution",
+      },
+      {
+        heading: "Difference from Shareholder Agreements",
+        content:
+          "An SPA governs the one‑off sale of shares between parties, whereas a Shareholder Agreement governs ongoing rights, obligations and governance among all shareholders and the company.",
+      },
+      {
+        heading: "Tax Implications",
+        content:
+          "• Short‑term capital gains (shares held ≤ 12 months) taxed under Section 111A.  \n• Long‑term capital gains (shares held > 12 months) taxed under Section 112.  \n• For slump sales under a Business Transfer Agreement: gains computed under Section 50B (assets minus liabilities).",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Protects Both Parties",
+        content:
+          "The SPA enshrines detailed representations, warranties and indemnities, safeguarding buyer and seller against misstatements or undisclosed liabilities.",
+      },
+      {
+        heading: "Facilitates Due Diligence",
+        content:
+          "Investors rely on the SPA to confirm findings from due diligence, ensuring business continuity and reducing post‑closing risks.",
+      },
+      {
+        heading: "Establishes Clear Exit/Entry Terms",
+        content:
+          "Defines post‑closing obligations, earn‑outs, escrow arrangements and mechanisms for resolving breaches.",
+      },
+    ],
+    procedure: [
+      {
+        heading: "DoStartup’s SPA Drafting Process",
+        content:
+          "1. Initial consultation to understand transaction scope  \n2. Draft SPA tailored to your deal terms  \n3. Share draft for feedback and revisions  \n4. Finalize within 3–4 business days  \n5. Assist with signing and closing formalities",
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Share Purchase Agreement?",
+        answer:
+          "A contract between buyer and seller outlining terms for the sale and purchase of company shares.",
+      },
+      {
+        question: "What information must an SPA include?",
+        answer:
+          "Buyer/seller details, company name, share class & quantity, price, conditions precedent, warranties, indemnities, governing law.",
+      },
+      {
+        question: "What is Due Diligence in an SPA?",
+        answer:
+          "The process by which a buyer verifies the target company’s financials, legal standing and operations before closing.",
+      },
+      {
+        question: "What are warranties and indemnities?",
+        answer:
+          "Warranties are assurances about the company’s condition; indemnities commit the seller to compensate losses from specific liabilities.",
+      },
+      {
+        question: "Can shareholders sell their shares freely?",
+        answer:
+          "Depends on pre‑emption rights and transfer restrictions in the company’s Articles and shareholder agreements.",
+      },
+      {
+        question: "Who drafts the SPA?",
+        answer:
+          "Typically legal counsel for buyer and seller—DoStartup assists in preparing a compliant, deal‑specific SPA.",
+      },
+      {
+        question: "How long does SPA drafting take?",
+        answer:
+          "With DoStartup, initial draft is ready in 3–4 business days, subject to complexity and negotiation.",
+      },
+      {
+        question: "What happens after signing an SPA?",
+        answer:
+          "Parties satisfy conditions precedent, share transfer formalities are completed, and payment is made to close the transaction.",
+      },
+    ],
+  },
+
+  "franchise-agreement": {
+    title: "Franchise Agreement",
+    description:
+      "A legally binding contract between a franchisor and franchisee granting rights to operate under an established system and trademarks in exchange for fees and revenue share.",
+    overview: [
+      {
+        heading: "Overview of Franchise Agreement",
+        content:
+          "A Franchise Agreement is a legally binding contract between the Franchisor and the Franchisee. It grants the Franchisee the authority to operate a business using the Franchisor’s established system and proprietary trademarks. Simply put, it is an arrangement where a successful business (Franchisor) provides its brand, business model, and support to another party (Franchisee) in exchange for a fee and a share of the revenue.",
+      },
+      {
+        heading: "What Does a Franchise Agreement Include?",
+        content:
+          "Before signing, the Franchise Disclosure Document (FDD) should be reviewed. It contains in-depth information such as the names of the Franchisor and Franchisee, type of franchise, Franchisor’s background, designated region and market strategy, and marketing and operational support. The Agreement itself defines commitments, fees, penalties, compensation clauses, termination provisions, and income projections.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of a Franchise Agreement",
+        content:
+          "● Business Rights and Brand Access: Grants legal rights to operate under an established name, logo, products, and marketing strategies.  \n● Brand Control: Enables the Franchisor to enforce usage rules, impose penalties, and ensure compliance with standards.",
+      },
+    ],
+    documentsRequired: [],
+    registrationProcedure: [],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Book a Free Consultation with DoStartup",
+        description: ["Get a response within 1 hour"],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Franchise Agreement?",
+        answer:
+          "A legal contract that allows a Franchisee to operate a business using the Franchisor’s brand, systems, and support.",
+      },
+      {
+        question: "What is the purpose of a Franchise Agreement?",
+        answer:
+          "To formally define the relationship and expectations between the Franchisor and Franchisee.",
+      },
+      {
+        question:
+          "What questions should be asked before becoming a Franchisee?",
+        answer:
+          "Understand financial obligations, brand expectations, support offered, territorial rights, and renewal conditions.",
+      },
+      {
+        question: "What is franchising?",
+        answer:
+          "A business model where an established brand allows a third party to operate using its name and system in exchange for fees.",
+      },
+      {
+        question:
+          "What are the benefits and responsibilities of owning a franchise?",
+        answer:
+          "Benefits include brand recognition and support; responsibilities include fee payments, operational compliance, and maintaining brand standards.",
+      },
+      {
+        question: "What is a Master Franchise Agreement?",
+        answer:
+          "An agreement granting a Franchisee rights over a larger region and the ability to appoint sub‑franchisees.",
+      },
+      {
+        question: "What role does the Consumer Protection Act, 1996 play?",
+        answer:
+          "It protects consumers by enabling complaints against Franchisor or Franchisee for unfair practices or defective products/services.",
+      },
+      {
+        question: "What should be done before signing a Franchise Agreement?",
+        answer:
+          "Review the FDD, analyze financials, understand legal obligations, and consult with a legal expert.",
+      },
+      {
+        question: "How does the Foreign Exchange Management Act, 1999 apply?",
+        answer:
+          "It regulates foreign investment and transactions for international franchises operating in India.",
+      },
+      {
+        question: "What kind of franchise opportunities can be explored?",
+        answer:
+          "Single‑unit, multi‑unit, and master franchise models across industries like food, retail, education, and fitness.",
+      },
+    ],
+  },
+
+  "shareholders-agreement": {
+    title: "Shareholders' Agreement",
+    description:
+      "A contractual arrangement among a company’s shareholders outlining rights, duties, share transfers, decision‑making, and protections under the Companies Act, 2013.",
+    overview: [
+      {
+        heading: "Overview of the Shareholders' Agreement",
+        content:
+          "A Shareholders' Agreement is a contract among a company’s shareholders that defines share transfers, shareholder rights and duties, business operations, and decision‑making processes on critical matters.",
+      },
+      {
+        heading: "Key Elements of a Shareholders' Agreement",
+        content:
+          "It typically covers rights of a shareholder (to convene meetings, vote, appoint auditors/directors, inspect records, receive financials), regulations on share transfers, financial review processes, quorum requirements, share valuation methods (asset‑, income‑, market‑based), business operations policies, shareholder liabilities, and minority protections under the Companies Act, 2013.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Drafting a Shareholders' Agreement",
+        content:
+          "● Defined Authority: Clarifies roles and status of majority/minority stakeholders.  \n● Amendment Flexibility: Allows operational changes without amending foundational documents.  \n● Minority Protection: Safeguards minority interests.  \n● Equal Access: Grants equal rights to acquire shares.  \n● Governance: Establishes clear control and decision‑making guidelines.  \n● Role Security: Protects shareholder positions.  \n● Restrictive Clauses: Controls transfer rights.  \n● Confidentiality: Remains private, unlike AOA.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Shareholders' Agreement Checklist",
+        content:
+          "● Shareholder rights  \n● Financial requirements and review process  \n● Quorum provisions  \n● Share valuation methods  \n● Operational guidelines  \n● Shareholder liabilities  \n● Minority shareholder protection",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "DoStartup's Shareholders' Agreement Process",
+        content:
+          "1. Consultation with legal expert to understand requirements.  \n2. Draft agreement upon receipt of details and payment.  \n3. First draft delivered within 2–4 business days.  \n4. Two rounds of revisions included.  \n5. Final agreement delivered and ready for use.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Why Choose DoStartup?",
+        description:
+          "DoStartup connects you with experienced corporate law professionals, provides transparent updates, and tracks your application status online.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Drafting",
+        description: "Key milestones from consultation to final agreement:",
+        steps: [
+          {
+            title: "Requirement Gathering",
+            duration: "1 business day",
+            description: "Legal expert consultation and details collection.",
+          },
+          {
+            title: "First Draft Delivery",
+            duration: "2–4 business days",
+            description: "Initial agreement drafted and shared.",
+          },
+          {
+            title: "Revision Rounds",
+            duration: "2–3 business days",
+            description: "Two rounds of feedback and updates.",
+          },
+          {
+            title: "Finalization",
+            duration: "1 business day",
+            description: "Final agreement approved and delivered.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Expert corporate law drafting and review",
+          "Confidential handling of agreements",
+          "Transparent progress tracking",
+          "Prompt support and revisions",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Shareholders' Agreement?",
+        answer:
+          "A contract defining the relationship among shareholders and governing rights, share transfers, and management.",
+      },
+      {
+        question: "What are shareholder rights?",
+        answer:
+          "Rights include voting, convening meetings, appointing auditors/directors, inspecting records, and receiving financial statements.",
+      },
+      {
+        question: "How are shares valued?",
+        answer:
+          "Using asset‑based, income‑based, or market‑based approaches as outlined in the agreement.",
+      },
+      {
+        question: "Are minority shareholders protected?",
+        answer:
+          "Yes. The agreement and Companies Act, 2013 provide rights against oppression, class action remedies, piggybacking, and director appointment.",
+      },
+      {
+        question: "Can shares be transferred freely?",
+        answer:
+          "Transfers typically require prior consent and follow restrictions like ROFO and ROFR to protect stakeholder interests.",
+      },
+      {
+        question: "Should I consult a lawyer?",
+        answer:
+          "Yes. A legal expert ensures the agreement is clear, comprehensive, and compliant with applicable laws.",
+      },
+      {
+        question: "What is a Capital Dividend Account (CDA)?",
+        answer:
+          "A CDA allows tax‑free distribution of capital dividends to shareholders for tax planning benefits.",
+      },
+      {
+        question: "What common mistakes should be avoided?",
+        answer:
+          "Avoid ambiguous clauses, missing CDA, unclear insurance ownership, improper drag‑along/tag‑along, and non‑mandatory buyouts for deceased shareholders.",
+      },
+    ],
+  },
+
+  "joint-venture-agreement": {
+    title: "Joint Venture Agreement",
+    description:
+      "A strategic collaboration contract between two or more entities combining resources, assets, IP, and manpower to achieve a common business goal, either as a new legal entity or contractual alliance.",
+    overview: [
+      {
+        heading: "Overview of Joint Venture Agreement",
+        content:
+          "A Joint Venture (JV) is a strategic collaboration between two or more entities that combine their resources to achieve a common business goal. This arrangement is formalized through a Joint Venture Agreement, which outlines the terms, responsibilities, and objectives of the alliance. A JV may involve sharing assets, intellectual property, manpower, and other resources, and may result in a new legal entity or remain a contractual collaboration.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of a Joint Venture Agreement",
+        content:
+          "● Economies of Scale: Leverage each other’s infrastructure, technology, and human capital to scale production.  \n● Reduced Cost of Production: Share operational costs and optimize resources to lower cost of goods or services.  \n● Access to New Markets: Facilitate entry into new regions by combining local expertise.  \n● Innovation and Development: Foster rapid growth and competitive edge through combined R&D and ideas.  \n● Access to Intellectual Property: Gain proprietary technologies and knowledge without full R&D investment.  \n● Joint Investment: Divide initial capital contributions to ease financial burden.  \n● Enhanced Credibility: Benefit from established goodwill by partnering with reputed brands.  \n● Shared Expertise and Know‑How: Pool technical and industry experience for mutual growth.  \n● Reduced Competition: Collaborate rather than compete to achieve common objectives.  \n● Flexibility: Customize capital, profit sharing, and operational strategies to partner goals.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Drafting a Joint Venture Agreement",
+        content:
+          "● Memorandum of Understanding (MoU) or Letter of Intent (LoI)  \n● Term Sheets outlining key terms  \n● Business Transfer Agreement (if assets transferred)  \n● Intellectual Property Transfer Agreement  \n● Technology Transfer Agreement  \n● Any additional due‑diligence or regulatory approvals",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading:
+          "How Will DoStartup Assist You with Your Joint Venture Agreement?",
+        content:
+          "1. Sign up for DoStartup’s Joint Venture service and our experts will connect to understand your requirements.  \n2. Provide strategic guidance and gather all necessary documentation.  \n3. Draft and deliver a customized Joint Venture Agreement tailored to your business needs.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Book a Free Consultation",
+        description: "Get a response within 1 hour",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "DoStartup Support for Joint Venture Agreement",
+        description: [
+          "Expert legal professionals guide you through JV structuring and documentation.",
+          "Customized agreement drafted to align with your strategic objectives.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who can enter into a Joint Venture Agreement?",
+        answer:
+          "Any individual, partnership firm, or company is eligible to form a joint venture.",
+      },
+      {
+        question: "Can an Indian and a foreign company enter into a JV?",
+        answer:
+          "Yes, subject to compliance with applicable laws, including FEMA and FDI policies.",
+      },
+      {
+        question:
+          "What is the difference between a partnership and a joint venture?",
+        answer:
+          "A partnership is a long‑term relationship, whereas a joint venture is typically project‑specific and for a defined purpose or duration.",
+      },
+      {
+        question: "When does a Joint Venture Agreement terminate?",
+        answer:
+          "It ends upon completion of its intended purpose or as per termination clauses in the agreement.",
+      },
+      {
+        question: "How long does it take to draft a Joint Venture Agreement?",
+        answer:
+          "Typically a few business days, depending on complexity and timely receipt of inputs.",
+      },
+    ],
+  },
+
+  "legal-notice": {
+    title: "Legal Notice",
+    description:
+      "A formal intimation under Section 80 of the Code of Civil Procedure, 1908, notifying an intention to initiate legal proceedings and opening a channel for amicable resolution before court filing.",
+    overview: [
+      {
+        heading: "Overview of Legal Notice",
+        content:
+          "A legal notice serves as a formal intimation to an individual or entity, expressing the intention of initiating legal proceedings against them. It communicates the grievance and offers an opportunity for negotiation to resolve the matter amicably, potentially avoiding litigation.",
+      },
+      {
+        heading: "Essentials of a Legal Notice",
+        content:
+          "Governed by Section 80 of CPC, a proper legal notice includes clear statements of facts, specific relief sought, summary of the issue with suggested resolutions, and detailed account of problems faced along with proposed solutions if settled amicably.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Sending a Legal Notice",
+        content:
+          "● Documentation: Creates formal proof of intent and grievance.  \n● Legal Pressure: Conveys seriousness and may prompt resolution.  \n● Encourages Out‑of‑Court Settlements: Offers a chance for mutual compromise.  \n● Cost‑Effective: Lower expense compared to full litigation.  \n● Eliminates Ambiguity: Sets clear timelines and expectations.  \n● Written Evidence: Serves as proof in subsequent court proceedings.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Checklist: When to Send a Legal Notice",
+        content:
+          "● Denial of ownership or access to assets  \n● Dishonoured cheques  \n● Breach of contract terms  \n● Personal disputes (divorce, custody)  \n● Intellectual property infringement  \n● Employment law violations  \n● Unlawful termination or salary disputes  \n● Any civil grievance requiring formal notice",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Draft and Send a Legal Notice",
+        content:
+          "1. Draft notice stating facts, relief sought, and response timeframe (30–60 days).  \n2. Send via registered post with AD.  \n3. Retain copy for legal reference.  \n4. Await stipulated response period.  \n5. If no response, initiate court proceedings.  \n6. Engage legal experts (e.g., Dostatup) for drafting and responses to ensure compliance.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Costs Involved in Sending a Legal Notice",
+        description:
+          "Professional drafting and service fees vary by complexity:",
+        feeTable: [
+          {
+            category: "Simple matters (e.g., cheque bounce)",
+            amount: "₹500/-",
+          },
+          {
+            category: "Standard cases",
+            amount: "₹2,500/- to ₹6,500/-",
+          },
+          {
+            category: "Complex matters",
+            amount: "Higher, depending on specifics",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Legal Notice Process",
+        description: "Typical durations:",
+        steps: [
+          {
+            title: "Drafting & Review",
+            duration: "1–2 days",
+            description: "Preparation and legal review of notice.",
+          },
+          {
+            title: "Service via Registered Post",
+            duration: "3–7 days",
+            description: "Posting and obtaining acknowledgment.",
+          },
+          {
+            title: "Response Period",
+            duration: "30–60 days",
+            description: "Time allowed for recipient to reply.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostatup for Legal Notices",
+        description: [
+          "Expert civil litigation lawyers draft precise notices with proper legal references.",
+          "Transparent pricing and professional service for drafting, serving, and responses.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Is issuing a legal notice mandatory?",
+        answer:
+          "It is mandatory under Section 80 CPC when suing a government/public officer; for private matters, it is standard practice but not always legally required.",
+      },
+      {
+        question: "Who is eligible to draft a legal notice?",
+        answer:
+          "Experienced civil litigation lawyers should draft notices; platforms like Dostatup ensure valid and tailored drafting.",
+      },
+      {
+        question: "What is the time limit to respond?",
+        answer:
+          "Typically 15–30 days for civil/contractual matters, up to 30 days for cheque bounce, or as specified in the notice.",
+      },
+      {
+        question: "What happens if there is no response?",
+        answer:
+          "Non‑response strengthens the sender’s position and allows initiation of court proceedings after the stipulated period.",
+      },
+      {
+        question: "What is a show‑cause notice?",
+        answer:
+          "A notice asking an individual to explain why action should not be taken against them, issued by authorities or employers.",
+      },
+      {
+        question: "When can a homebuyer send a legal notice under RERA?",
+        answer:
+          "For delay in possession, abandonment, refusal of handover, or RERA non‑compliance; Dostatup assists buyers in drafting such notices.",
+      },
+      {
+        question: "Can a landlord issue an eviction notice?",
+        answer:
+          "Yes, per lease terms or tenancy laws; a formal legal notice can be served to tenants refusing to vacate.",
+      },
+      {
+        question: "When can a bank issue a SARFAESI notice?",
+        answer:
+          "When a loan is NPA or overdue; banks may issue notices under SARFAESI for debt recovery.",
+      },
+      {
+        question: "What is the main purpose of a legal notice?",
+        answer:
+          "To formally inform the opposing party of intent to take legal action if issues are not resolved amicably.",
+      },
+    ],
+  },
+
+  "rera-complaint-by-dostatup": {
+    title: "RERA Complaint by Dostatup",
+    description:
+      "Guidance on filing RERA complaints under the Real Estate (Regulation and Development) Act, 2016, for registered and unregistered projects, with Dostatup’s end‑to‑end support.",
+    overview: [
+      {
+        heading: "Overview of RERA Complaint",
+        content:
+          "The Real Estate Regulatory Authority (RERA), established in 2016, protects homebuyers’ rights and ensures transparency among developers. Dostatup explains RERA’s responsibilities for promoters and buyers, enabling consumers to file complaints against builders, developers, or agents who violate the Act’s provisions, provided the project is RERA‑registered.",
+      },
+      {
+        heading: "Complaints for Registered and Unregistered Projects",
+        content:
+          "For registered projects, buyers file under Section 31 using Form A with the project registration number. If unresolved, they can approach the Appellate Tribunal within 60 days. For unregistered projects, buyers may pursue consumer court complaints, criminal complaints, or High Court petitions for refunds or compensation, while Dostatup explores alternative remedies.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Filing a RERA Complaint with Dostatup",
+        content:
+          "● Time Efficiency: Avoid lengthy court procedures.  \n● Transparency: Track complaint status online via state RERA portals.  \n● Compensation: Builders may be directed to compensate for non‑compliance or delays.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for RERA Complaint",
+        content:
+          "● RERA project registration certificate and number  \n● Completed Form A complaint form  \n● Proof of payments and agreements  \n● Any correspondence or notices served to the builder  \n● Supporting evidence of delay, defects, or violations  \n● ID and address proof of the complainant",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to File a Complaint Under RERA",
+        content:
+          "1. Visit your state’s official RERA portal and select Complaint Registration.  \n2. Fill in Form A with required personal and project details.  \n3. Attach supporting documents and pay the prescribed fee online.  \n4. Submit the complaint and note the tracking number.  \n5. Dostatup assists in drafting, reviewing, and submitting to ensure accuracy and completeness.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "RERA Complaint Filing Fees",
+        description:
+          "Nominal fee as prescribed by each state RERA authority, payable online at submission.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for RERA Complaint Resolution",
+        description: "Typical milestones:",
+        steps: [
+          {
+            title: "Complaint Acknowledgment",
+            duration: "1–3 days",
+            description:
+              "RERA assigns complaint number and acknowledges receipt.",
+          },
+          {
+            title: "Preliminary Hearing",
+            duration: "30 days",
+            description:
+              "RERA conducts initial hearing and issues interim orders if needed.",
+          },
+          {
+            title: "Final Adjudication",
+            duration: "60–90 days",
+            description:
+              "RERA issues final orders or directions to the developer.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostatup for RERA Complaints",
+        description: [
+          "Expert guidance on RERA Act compliance and state‑specific procedures.",
+          "Accurate drafting of Form A and supporting documents.",
+          "End‑to‑end assistance from complaint registration to resolution or appeal.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who can file a complaint under RERA?",
+        answer:
+          "Any homebuyer, allottee, promoter, or real estate agent can file under Section 31 using Form A.",
+      },
+      {
+        question: "Is RERA registration mandatory for projects?",
+        answer:
+          "Yes. All residential and commercial projects exceeding 500 sqm or eight apartments must register before launch.",
+      },
+      {
+        question: "What if a project is unregistered?",
+        answer:
+          "Buyers can file consumer court or criminal complaints or approach High Court for refunds or compensation.",
+      },
+      {
+        question: "How long does RERA take to resolve a complaint?",
+        answer:
+          "Typically preliminary orders in 30 days and final adjudication within 60–90 days.",
+      },
+      {
+        question: "Can I appeal a RERA order?",
+        answer:
+          "Yes. Approach the RERA Appellate Tribunal within 60 days of the original order.",
+      },
+      {
+        question: "What compensation can RERA award?",
+        answer:
+          "Direct builders to refund payments, pay interest, or compensate for delays and defects.",
+      },
+      {
+        question: "What fees are payable for filing?",
+        answer:
+          "A nominal fee as per state RERA regulations, paid online during submission.",
+      },
+      {
+        question: "What happens if a builder ignores RERA orders?",
+        answer:
+          "Non‑compliance is an offense under Section 64, punishable with up to three years’ imprisonment or a fine up to 10% of project cost.",
+      },
+      {
+        question: "Does RERA apply across India?",
+        answer:
+          "Yes. Central Act is implemented through state‑level authorities; each state may set specific rules.",
+      },
+      {
+        question: "How can Dostatup help with unregistered projects?",
+        answer:
+          "We advise on alternative remedies such as consumer court, criminal complaints, or High Court petitions.",
+      },
+    ],
+  },
+
+  "cheque-bounce-notice": {
+    title: "Cheque Bounce Notice",
+    description:
+      "Learn about the legal process and remedies available under Section 138 of the Negotiable Instruments Act for cheque dishonour.",
+    overview: [
+      {
+        heading: "Cheque Bounce Notice – An Overview",
+        content:
+          "A cheque bounce notice is a formal legal document issued by the payee when a cheque is dishonoured by the bank due to reasons like insufficient funds, signature mismatch, or account closure. Governed under Section 138 of the Negotiable Instruments Act, 1881, the notice must be issued within 30 days of receiving the Cheque Return Memo from the bank.",
+      },
+      {
+        heading: "Legal Timeline under Section 138",
+        content:
+          "1. Notice Period: Send the notice within 30 days of cheque dishonour.\n2. Payment Deadline: Drawer must pay within 15 days of receiving the notice.\n3. Filing Complaint: If unpaid, file a criminal complaint within 30 days of expiry of the 15-day period.",
+      },
+      {
+        heading: "Purpose and Consequences",
+        content:
+          "The notice serves as a final opportunity for the drawer to settle the amount before legal proceedings. Consequences include:\n● Fine up to twice the cheque amount\n● Imprisonment up to 2 years\n● Or both",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Issue a Cheque Bounce Notice",
+        content:
+          "Issuing a legally compliant notice ensures the payee can take proper legal action and improves chances of recovering the amount. It also protects the payee's legal rights and serves as evidence in court.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a Complaint",
+        content:
+          "● Copy of the legal notice sent to the drawer\n● Proof of delivery (registered post/courier receipt)\n● Original dishonoured cheque\n● Cheque return memo from the bank\n● Supporting documents for the financial liability",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Cheque Bounce Case",
+        content:
+          "1. Send a legal notice within 30 days of cheque return.\n2. Include cheque number, bank details, amount, and dishonour reason.\n3. If unpaid after 15 days, file a criminal complaint within the next 30 days.\n4. File in a competent court having territorial and financial jurisdiction.\n5. Court may issue summons and hear defence.",
+      },
+      {
+        heading: "Special Cases & Criminal Liability",
+        content:
+          "Under Sections 141 & 144 of the NI Act, company officers (e.g., directors, managers) may be held liable. For false claims (e.g., security cheques), the accused must prove non-liability.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Filing a Cheque Bounce Case",
+        description:
+          "The legal fee depends on the case complexity, location, and lawyer’s experience.",
+        feeTable: [
+          {
+            category: "Minimum professional fee",
+            amount: "₹5,000",
+          },
+          {
+            category: "May vary based on case",
+            amount: "₹5,000+",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline and Validity",
+        description:
+          "The cheque bounce case must be filed on time for legal validity.",
+        steps: [
+          {
+            title: "Notice Period",
+            duration: "Within 30 days of dishonour",
+            description: "Send legal notice to the drawer",
+          },
+          {
+            title: "Payment Deadline",
+            duration: "15 days from notice receipt",
+            description: "Drawer must make payment within this period",
+          },
+          {
+            title: "Complaint Filing",
+            duration: "Next 30 days after payment deadline",
+            description: "File complaint under Section 138",
+          },
+          {
+            title: "Case Duration",
+            duration: "6 months to 2 years",
+            description: "Varies based on court backlog and cooperation",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "We help draft legally compliant cheque bounce notices",
+          "Experienced legal experts for end-to-end case handling",
+        ],
+        points: [
+          "Fast turnaround within 1 hour",
+          "Transparent pricing",
+          "Expert legal team",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a cheque under Indian law?",
+        answer:
+          "A cheque is a negotiable instrument under Section 6 of the Negotiable Instruments Act, 1881, payable on demand and instructs a bank to pay a specified sum.",
+      },
+      {
+        question: "What are the reasons for cheque bounce?",
+        answer:
+          "Common reasons include insufficient funds, signature mismatch, expired cheque, overwriting, or closed accounts.",
+      },
+      {
+        question: "Who sends the cheque bounce notice?",
+        answer:
+          "The payee (recipient of the cheque) sends the notice under Section 138 of the NI Act.",
+      },
+      {
+        question: "Can the payee re-submit the cheque?",
+        answer:
+          "Yes, the cheque may be re-presented once if the payee chooses to.",
+      },
+      {
+        question: "Can someone be arrested for cheque bounce?",
+        answer:
+          "Yes. It is a bailable criminal offence. Courts may issue arrest warrants depending on the case.",
+      },
+      {
+        question: "What if the cheque was for security and not payment?",
+        answer:
+          "The drawer must prove the cheque was not issued to discharge a debt or liability to avoid conviction.",
+      },
+      {
+        question: "What are the types of cheques in India?",
+        answer:
+          "Bearer cheque, crossed cheque, order cheque, post-dated cheque, open cheque, traveller’s cheque, stale cheque, self-cheque.",
+      },
+    ],
+  },
+
+  "consumer-complaint": {
+    title: "Consumer Complaint in India",
+    description:
+      "Learn how to file a consumer complaint and protect your rights under the Consumer Protection Act.",
+    overview: [
+      {
+        heading: "What is a Consumer Complaint?",
+        content:
+          "A Consumer Complaint is a formal grievance filed against a seller or service provider who has supplied defective products or delivered deficient services. If the issue remains unresolved after issuing a legal notice, the complaint can be filed with the Consumer Court (Forum) to seek compensation or redressal.",
+      },
+      {
+        heading: "Who is a Consumer?",
+        content:
+          "As per the Consumer Protection Act, a consumer includes:\n● Any person who buys goods or avails services for personal use (not for resale or commercial purposes)\n● Legal heir or relative of a consumer\n● Registered voluntary organization\n● Group of consumers with a common interest\n● Legal guardian (in the case of a minor)",
+      },
+      {
+        heading: "Consumer Rights under the Consumer Protection Act",
+        content:
+          "● Right to Safety – Protection against hazardous goods/services\n● Right to be Informed – Full disclosure of product/service details\n● Right to Choose – Access to variety and freedom of choice\n● Right to be Heard – Grievances must be heard and considered\n● Right to Seek Redressal – Fair settlement and compensation\n● Right to Consumer Education – Awareness about rights\n● Right Against Unfair Trade Practices – Protection from deceptive practices",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Remedies Offered by Consumer Courts",
+        content:
+          "● Full refund of the product/service cost\n● Replacement or repair of the product\n● Compensation for loss or mental agony\n● Discontinuation of unfair trade practices\n● Reimbursement of legal costs",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a Consumer Complaint",
+        content:
+          "● Written complaint with index\n● Vakalatnama (if represented by someone else)\n● Application for delay condonation (if applicable)\n● Copies of bills, receipts, communications, etc.\n● Copy of the legal notice sent to the seller/service provider\n● Copies of the complaint (usually 5, plus one per opposite party)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to File a Consumer Complaint (Offline & Online)",
+        content:
+          "● Send a legal notice informing the seller of the grievance and desired relief\n● Wait 15 days for a response\n● Choose the appropriate consumer forum based on claim amount\n● File a formal written complaint with relevant facts and relief sought\n● Pay the court fee based on the claim value",
+      },
+      {
+        heading: "How to File a Consumer Complaint Online?",
+        content:
+          "● Visit https://consumerhelpline.gov.in\n● Register as a new user\n● Login and click on 'File Complaint'\n● Fill in the complaint form with all necessary details\n● Upload supporting documents and submit",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Court Fees for Filing a Consumer Complaint",
+        description:
+          "A court fee must be paid when submitting a consumer complaint. The exact amount depends on the value of the claim. If the case is ruled in your favor, the seller may be ordered to reimburse the legal expenses.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline for Resolving a Consumer Complaint",
+        description:
+          "Consumer complaints are usually resolved within 8 to 18 months, depending on complexity and cooperation by parties.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Your Consumer Complaint?",
+        description: [
+          "We simplify the consumer complaint process with expert support.",
+        ],
+        points: [
+          "Professional legal drafting of notices and complaints",
+          "Expert representation and filing assistance",
+          "Timely updates and process guidance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who is a Consumer?",
+        answer:
+          "A consumer is someone who buys goods or avails services for personal use and not for resale or commercial purposes.",
+      },
+      {
+        question: "What is a Consumer Complaint?",
+        answer:
+          "It is a formal grievance filed against a seller or service provider for defective goods or poor services, submitted to the consumer forum.",
+      },
+      {
+        question: "What Rights Are Provided to Consumers?",
+        answer:
+          "Consumers are entitled to safety, information, choice, redressal, education, and protection against unfair trade practices.",
+      },
+      {
+        question: "What is the Right to Be Heard?",
+        answer:
+          "Consumers can voice their concerns and seek redressal through consumer forums when rights are violated.",
+      },
+      {
+        question: "What Documents Are Required to File a Consumer Complaint?",
+        answer:
+          "Required documents include complaint copies, legal notice, proof of delivery, bills, receipts, and any communication with the seller.",
+      },
+      {
+        question: "Which Forum Should a Consumer Approach?",
+        answer:
+          "It depends on the value of goods/services and compensation claimed—District, State, or National Commission.",
+      },
+      {
+        question: "Is There a Court Fee for Filing a Consumer Complaint?",
+        answer:
+          "Yes, court fees vary based on the claim amount and can be reimbursed if the case is won.",
+      },
+      {
+        question: "Do I Need a Lawyer to File a Consumer Complaint?",
+        answer:
+          "You can file on your own, but legal assistance ensures accuracy and effectiveness.",
+      },
+      {
+        question: "What is Territorial Jurisdiction?",
+        answer:
+          "The case should be filed in a forum where the transaction occurred or where the seller conducts business.",
+      },
+      {
+        question: "How Long Does It Take to Resolve a Consumer Complaint?",
+        answer:
+          "Most cases are resolved within 8 to 18 months, but complex disputes may take longer.",
+      },
+    ],
+  },
+
+  "public-interest-litigation": {
+    title: "Public Interest Litigation (PIL)",
+    description:
+      "File a Public Interest Litigation in India with expert legal assistance.",
+    overview: [
+      {
+        heading: "Public Interest Litigation – An Overview",
+        content:
+          "Public Interest Litigation (PIL) refers to legal action initiated in a court for the protection of public interest. Unlike conventional litigation, PIL can be filed by any public-spirited citizen or even taken up by courts suo motu. The main objective is to ensure access to justice for marginalized and underrepresented groups, by holding public authorities accountable and promoting social justice through judicial review.",
+      },
+      {
+        heading: "Objectives of PIL",
+        content:
+          "● To ensure the implementation of legal obligations by the legislature and executive\n● To promote justice and welfare of common people\n● To protect group rights over individual grievances\n● To enable judicial review of public authority actions or omissions\n● To dilute the traditional locus standi rule\n● To bring legal and social reform through landmark rulings",
+      },
+      {
+        heading: "Who Can File a PIL?",
+        content:
+          "● Any Indian citizen, NGO, or group of individuals\n● The issue must relate to public interest and not personal grievances\n● Courts can also take suo motu cognizance based on letters or media reports",
+      },
+      {
+        heading: "Significance of PIL in India",
+        content:
+          "● Makes justice accessible to the underprivileged\n● Democratizes legal processes and ensures wider participation\n● Enables judicial oversight over institutions like prisons and mental homes\n● Promotes social justice and rule of law\n● Used in significant cases like entry of women in Sabarimala temple, ban on triple talaq, legalization of passive euthanasia, and decriminalization of homosexuality",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Filing a Public Interest Litigation",
+        content:
+          "● Enhances interpretation and application of laws\n● Promotes accountability of public authorities\n● Provides a legal voice to weaker sections\n● Raises awareness on social and environmental issues\n● Offers a low-cost legal remedy with minimal court fees",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a PIL",
+        content:
+          "● Identity proof and address verification of the petitioner\n● List of affected individuals and concerned officials\n● Photographic or written evidence supporting the issue\n● Any title deeds, notices, or resettlement policies (if applicable)\n● Statement detailing facts, dates, and grievance\n● Specific relief sought from the court",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Procedure to File a PIL",
+        content:
+          "● Research the issue to ensure it involves public interest\n● Gather all necessary evidence and documents\n● Consult a legal advisor or appoint an advocate\n● Draft the petition:\n  - Supreme Court: 5 sets\n  - High Court: 2 sets and serve advance copy to respondent\n● Petition must be addressed to the Chief Justice and name all parties\n● File the petition along with documents and service proof\n● Court may admit the petition, issue notices, or take suo motu cognizance",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Filing a Public Interest Litigation",
+        description:
+          "Court fees for PILs are nominal. A fee of ₹50 is payable for each respondent named in the petition. The main costs usually relate to legal documentation and representation if professional services are availed.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for PIL Filing and Resolution",
+        description:
+          "While there’s no fixed duration, PIL cases are typically resolved within a few months depending on the issue, court workload, and cooperation from parties involved.",
+        steps: [
+          {
+            title: "Drafting and Filing",
+            duration: "2-5 business days",
+            description:
+              "Involves collecting evidence, drafting the petition, and submitting it to the relevant court.",
+          },
+          {
+            title: "Court Admission and Hearing",
+            duration: "Varies",
+            description:
+              "Once admitted, hearings and rulings depend on urgency, facts, and judicial discretion.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Us for Filing Your PIL?",
+        description: [
+          "We offer end-to-end legal support and strategic advisory.",
+        ],
+        points: [
+          "Legal drafting by PIL experts",
+          "Submission within 2 working days",
+          "Ongoing updates and tracking",
+          "Cost-effective and timely services",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What does PIL stand for?",
+        answer:
+          "PIL stands for Public Interest Litigation, which allows any individual or group to seek legal remedies in the interest of the public.",
+      },
+      {
+        question: "Who has the authority to issue PIL?",
+        answer:
+          "PILs can be filed in the Supreme Court under Article 32 or in the High Courts under Article 226. Courts can also act on their own based on letters or media reports.",
+      },
+      {
+        question: "When can Public Interest Litigation be filed?",
+        answer:
+          "PIL can be filed in cases involving violation of fundamental rights, environmental concerns, non-performance by public authorities, or social injustice.",
+      },
+      {
+        question: "What is the fee for filing a PIL?",
+        answer:
+          "A nominal court fee of ₹50 per respondent is required. Legal service fees may apply if you hire a lawyer.",
+      },
+      {
+        question: "Do I need a lawyer to file a PIL?",
+        answer:
+          "While you can file a PIL independently, consulting an advocate ensures better compliance and effectiveness.",
+      },
+      {
+        question: "What are some landmark PIL cases in India?",
+        answer:
+          "Hussainara Khatoon v. State of Bihar (1979) leading to release of undertrial prisoners, and PILs on triple talaq, Sabarimala entry, and environmental pollution are examples.",
+      },
+      {
+        question: "What articles of the Constitution allow filing PIL?",
+        answer:
+          "Article 32 (Supreme Court) and Article 226 (High Court) empower citizens to file PILs.",
+      },
+      {
+        question: "Can PIL be filed for personal grievances?",
+        answer:
+          "No, PILs must relate to issues affecting the larger public and not just individual disputes.",
+      },
+    ],
+  },
+
+  "caveat-petition": {
+    title: "Caveat Petition",
+    description:
+      "File a Caveat Petition to safeguard your legal interests with DoStartup’s expert support.",
+    overview: [
+      {
+        heading: "Caveat Petition – An Overview",
+        content:
+          "A Caveat Petition is a legal mechanism that allows individuals to request the court to notify them before any action is taken against them. Derived from the Latin word 'caveat' meaning 'let a person beware', this petition is typically filed in civil and probate matters. It was introduced into Indian law under Section 148A of the Civil Procedure Code, 1908, following the 1976 amendment. Filing a caveat ensures that no ex-parte orders are passed without giving the caveator an opportunity to be heard.",
+      },
+      {
+        heading: "What is a Caveat Petition?",
+        content:
+          "A Caveat Petition is a preemptive legal application filed by someone who suspects that legal proceedings may be initiated against them in a civil matter. It acts as a safeguard by ensuring that the court informs the caveator before passing any interim or ex-parte orders. In the landmark case of Nirmal Chand v. Girindra Narayan, the court clarified that a caveat serves as a legal alert, giving the petitioner the right to be heard in anticipated legal proceedings.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Filing a Caveat Petition",
+        content:
+          "● Allows time to appoint a lawyer and prepare for the case\n● Prevents courts from passing ex-parte orders\n● Ensures regular updates and legal notifications\n● Helps reduce unnecessary legal disputes and saves costs\n● Makes interim orders unenforceable if passed without informing the caveator",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a Caveat Petition",
+        content:
+          "● Name of the court appealed from\n● Case number and cause title\n● Properly drafted vakalatnama and memo of appearance\n● Details of the impugned judgment or order\n● Proof of service to the opposite party\n● Applicable court fee\n● Authorization letter from advocate",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Procedure for Filing a Caveat Petition",
+        content:
+          "● Engage a lawyer to draft the caveat petition\n● Sign the petition and the supporting affidavit\n● Attach the impugned order if available\n● Submit vakalatnama and authorization letter\n● Provide proof of service to the opposing party\n● Attach all relevant supporting documents\n● Ensure affidavit is notarized\n● Check for format and detail compliance",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Caveat Petition Charges",
+        description:
+          "The charges may vary based on the complexity and jurisdiction of the case. Standard caveat filing charges usually start from ₹10,000. Additional charges may apply for legal drafting, renewals, or court representation.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity of a Caveat Petition",
+        description:
+          "A Caveat Petition is valid for 90 days from the date of filing. If the opposing party does not approach the court within this period, a fresh caveat must be filed for continued protection.",
+        steps: [
+          {
+            title: "Initial Filing",
+            duration: "1-2 business days",
+            description:
+              "Drafting, notarizing, and filing the petition in the appropriate court.",
+          },
+          {
+            title: "Renewal (if needed)",
+            duration: "Post 90 days",
+            description:
+              "File a new petition if the initial caveat expires without any opposing legal action.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Filing Caveat Petition?",
+        description: [
+          "We simplify your legal journey with efficient, reliable, and expert legal assistance.",
+        ],
+        points: [
+          "Expert network of civil law advocates",
+          "Successfully handled 1000+ caveat filings",
+          "Personalized legal strategies and support",
+          "Fast and accurate petition drafting",
+          "Complete end-to-end legal guidance",
+          "High-quality compliance and service standards",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Caveat?",
+        answer:
+          "A caveat is a Latin term meaning 'let a person beware'. It is a legal notice to prevent actions without informing the person who filed it.",
+      },
+      {
+        question: "What is a Caveat Petition?",
+        answer:
+          "It is a legal application filed by someone who anticipates legal action against them and wants to be heard before any order is passed.",
+      },
+      {
+        question: "Do I Need a Lawyer to File a Caveat Petition?",
+        answer:
+          "Yes, it is advisable to consult a qualified lawyer to ensure the petition is drafted and filed correctly.",
+      },
+      {
+        question: "Where Can a Caveat Petition Be Filed?",
+        answer:
+          "It can be filed in the Supreme Court, High Courts, Appellate Courts, or Civil Courts with original jurisdiction depending on the expected case.",
+      },
+      {
+        question: "When Must a Caveat Petition Be Renewed?",
+        answer:
+          "It must be renewed after 90 days if no case has been filed by the opposite party during that period.",
+      },
+      {
+        question: "Who is a Caveator?",
+        answer:
+          "A caveator is the individual filing the caveat petition to protect their legal interest and receive notice before any order is passed.",
+      },
+      {
+        question: "Can a Caveat Petition Be Cancelled?",
+        answer:
+          "Yes, it can be withdrawn or cancelled by filing a cancellation application in the court.",
+      },
+      {
+        question: "Which Law Governs Caveat Petition Notices?",
+        answer:
+          "Section 148A(3) of the Civil Procedure Code, 1908, governs the notice requirement in caveat petitions.",
+      },
+      {
+        question: "How to Draft a Caveat Petition?",
+        answer:
+          "The petition should include the caveator’s details, subject matter, relief sought, and supporting documents as per court format.",
+      },
+      {
+        question: "Who is a Caveatee?",
+        answer:
+          "The caveatee is the person or party against whom the caveat is filed, typically the one expected to initiate legal action.",
+      },
+      {
+        question: "Can a Caveat Be Filed in Criminal Cases?",
+        answer:
+          "No, caveats are only applicable in civil proceedings under the Civil Procedure Code, not in criminal matters.",
+      },
+      {
+        question: "What is the Purpose of a Caveat Petition?",
+        answer:
+          "Its purpose is to ensure the caveator is heard before any ex-parte relief or interim order is passed by the court.",
+      },
+    ],
+  },
 
 
-"barcode-registration": {
-  title: "Barcode Registration in India – A Complete Guide by Do Startup",
-  description: "GS1 India manages barcode standards and issues unique codes to businesses nationwide, enabling efficient product identification, inventory management, and supply chain transparency.",
-  overview: [
-    {
-      heading: "What is a Barcode?",
-      content: "A barcode is a machine-readable symbol composed of parallel lines and numeric digits that store product information—such as batch numbers, serial numbers, and pricing—facilitating quick data retrieval across industries."
-    },
-    {
-      heading: "Types of Barcodes",
-      content: "1. EAN-13 (13 digits; global retail standard)  \n2. UPC-A (12 digits; used in USA/UK/Australia)  \nOther industry types include Code 93, Code 39, GS1 Databar, Code 128, and ITF."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Key Benefits of Barcode Registration",
-      content: "• Efficient Inventory Management: Track products from manufacture to sale.  \n• Asset Management: Monitor assets with ease.  \n• Error-Free Operations: Automated data capture reduces mistakes.  \n• Cost-Effective & Customisable: Low implementation cost and flexible design.  \n• Authenticity & Transparency: Displays batch and serial info.  \n• Faster Checkouts & Better Decision-Making: Quick scanning and data insights.  \n• Global Standardisation: Unique codes worldwide."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Barcode Registration",
-      content: "• Request letter for barcode allotment  \n• PAN Card of business entity  \n• Audited financial statements  \n• Shop Establishment Certificate  \n• GST/VAT Registration Certificate  \n• Partnership Deed (if applicable)  \n• Company COI, MOA, AOA (if applicable)  \n• Registrar of Society certificate (if applicable)  \n• Cancelled cheque copy  \n• Product list and specifications"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Inquiry Form",
-      content: "Submit basic business details via Do Startup’s website to initiate the barcode registration process."
-    },
-    {
-      heading: "Step 2: Document Collection",
-      content: "Provide all mandatory documents—PAN, GST, financials, establishment proof, product list, etc.—for verification."
-    },
-    {
-      heading: "Step 3: Verification & Application",
-      content: "Our experts review your documents and complete the GS1 India barcode application on your behalf."
-    },
-    {
-      heading: "Step 4: Submission to GS1 India",
-      content: "Do Startup files the verified application with GS1 India and tracks its progress."
-    },
-    {
-      heading: "Step 5: Issuance of Barcode Certificate",
-      content: "Upon successful verification and fee payment, GS1 India issues your Barcode Registration Certificate."
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "Expert guidance through GS1 India processes",
-        "End-to-end document preparation and filing",
-        "Fast turnaround and real-time updates",
-        "Transparent pricing with no hidden fees",
-        "Dedicated 24×7 support"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "How are barcodes applied to products?",
-      answer: "Barcodes can be printed directly on packaging, added as pre-printed labels, or embedded in product artwork."
-    },
-    {
-      question: "Who can apply for barcode registration?",
-      answer: "Any manufacturer, exporter, wholesaler, or retailer selling physical products can apply."
-    },
-    {
-      question: "What barcode standard is used in India?",
-      answer: "India primarily uses the EAN-13 standard managed by GS1 India."
-    },
-    {
-      question: "What is a GLN?",
-      answer: "GLN stands for Global Location Number, which uniquely identifies locations like warehouses and stores."
-    }
-  ]
-},
+  "section-8-demand-notice": {
+    title: "Section 8 Demand Notice under IBC",
+    description: "Serve a demand notice to recover unpaid operational debt from a corporate debtor under Section 8 of the Insolvency and Bankruptcy Code, 2016.",
+    overview: [
+      {
+        heading: "Overview of Section 8 Demand Notice",
+        content: "Under the IBC, an operational creditor must issue a demand notice (Form 3) to a corporate debtor before initiating insolvency proceedings. The notice outlines the total unpaid amount, transaction details, due date and amount claimed. The debtor has 10 days to respond by paying or disputing the debt."
+      },
+      {
+        heading: "Key Provisions of Section 8",
+        content: "Section 8 requires the debtor to respond within 10 days with proof of payment or evidence of an existing dispute, legal or arbitration proceedings begun before notice receipt. Failure to respond allows the creditor to file for insolvency resolution under Form 5 before the NCLT."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Why Issue a Section 8 Demand Notice",
+        content: "● Provides the debtor a fair opportunity to clear dues without insolvency\n● Ensures compliance with IBC requirements\n● Preserves operational relationship before formal proceedings\n● Establishes clear record of demand for tribunal application"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Section 8 Demand Notice",
+        content: "● Invoices relating to the unpaid operational debt\n● Form 3 demand notice draft\n● Details of operational creditor and corporate debtor\n● Proof of default from information utilities (if any)\n● Any security or contract documents supporting the claim\n● Certificate of incorporation of the debtor"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Serve Section 8 Demand Notice",
+        content: "● Draft Form 3 notice with total unpaid amount, transaction details, due date and amount claimed\n● Attach relevant invoices and proof of debt\n● Serve the notice on the corporate debtor by hand or registered post\n● Debtor must respond within 10 days by payment or disputing the claim\n● If no response or dispute, file insolvency application (Form 5) before NCLT"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Demand Notice and Insolvency Application",
+        description: "Filing fee for Form 3 is nominal. Tribunal application (Form 5) fee varies with authorized share capital or debt amount.",
+        feeTable: []
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline under Section 8",
+        description: "Key timeframes for notice and subsequent insolvency proceedings:",
+        steps: [
+          {
+            title: "Notice Period",
+            duration: "10 days",
+            description: "Debtor must respond to demand notice"
+          },
+          {
+            title: "Tribunal Application",
+            duration: "Immediately after 10-day period",
+            description: "File Form 5 with NCLT if no response or dispute"
+          },
+          {
+            title: "NCLT Decision",
+            duration: "14 days",
+            description: "NCLT admits or rejects insolvency application"
+          },
+          {
+            title: "Resolution Process",
+            duration: "180 days (extendable)",
+            description: "Insolvency resolution to be completed"
+          },
+          {
+            title: "Appeal Timeline",
+            duration: "30 days",
+            description: "File appeal before NCLAT"
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Section 8 Notices",
+        description: [
+          "Expert drafting of Form 3 demand notices",
+          "Compliant service to corporate debtors",
+          "End-to-end support through insolvency application"
+        ],
+        points: [
+          "Legal expertise in IBC processes",
+          "Fast turnaround on notice preparation",
+          "Guidance through NCLT procedures"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is a Section 8 demand notice?",
+        answer: "A formal notice served by an operational creditor under Form 3 of the IBC demanding payment of unpaid operational debt."
+      },
+      {
+        question: "How long does the debtor have to respond?",
+        answer: "The corporate debtor has 10 days from notice receipt to pay the debt or dispute it with proper documentation."
+      },
+      {
+        question: "What happens if there is no response?",
+        answer: "The creditor can file an insolvency application (Form 5) before the NCLT immediately after the 10-day period."
+      },
+      {
+        question: "Who is an operational creditor?",
+        answer: "Anyone to whom an operational debt is owed, including suppliers, service providers, employees or tax authorities, as defined under Section 5(20) of the IBC."
+      },
+      {
+        question: "What must be included in the demand notice?",
+        answer: "Total unpaid amount, transaction details, due date, amount claimed, and relevant invoices supporting the debt."
+      },
+      {
+        question: "When must the insolvency process complete?",
+        answer: "The corporate insolvency resolution process must be completed within 180 days of NCLT admission, subject to one extension."
+      },
+      {
+        question: "Can the debtor appeal an NCLT decision?",
+        answer: "Yes, appeals can be filed before the NCLAT within 30 days of the decision."
+      }
+    ]
+  },
+
+  "succession-certificate": {
+    title: "Succession Certificate",
+    description: "Obtain a succession certificate to claim and manage the assets, liabilities, debts, and securities of a deceased person who died without leaving a will.",
+    overview: [
+      {
+        heading: "Overview of Succession Certificate",
+        content: "A succession certificate is a legal document issued by a civil court judge to the rightful successors of a person who died intestate (without a will). It authorizes heirs to claim the deceased’s assets, liabilities, recover debts, and transfer securities."
+      },
+      {
+        heading: "Intestate Succession Process",
+        content: "The court where the deceased last resided or held property conducts an inquiry to verify the claimant’s status. After publishing a public notice for objections and holding a hearing, the judge issues the certificate detailing the deceased, legal heirs, and all assets and liabilities."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Eligibility and Key Details",
+        content: "Eligible applicants include the spouse, children, siblings, and other legal heirs recognized under personal succession laws. The petition must state date/time of death, last residence, names and addresses of all heirs, applicant’s inheritance right, declaration of no objections, and a list of debts and securities."
+      },
+      {
+        heading: "Difference from Legal Heir Certificate",
+        content: "Unlike a legal heir certificate (issued by a Tehsildar for pension or family claims), a succession certificate (issued by a District Judge) empowers heirs to manage financial assets, debts, and securities of the deceased."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Succession Certificate",
+        content: "● Affidavit of self‑declaration by applicant\n● Identity proof and address proof of applicant and all heirs\n● Date of birth proof of heirs\n● Death certificate of the deceased (and any deceased heir)\n● Proof of deceased’s last residence\n● Copies of title deeds or property documents\n● Details of all debts, securities, and liabilities"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Obtain Succession Certificate",
+        content: "● Draft and file a petition before the District Judge, paying court fees as per estate value\n● Court issues a public notice in a local newspaper inviting objections\n● After the objection period, court holds a final hearing to verify heirs and assets\n● Judge grants the certificate; applicant may be required to submit a bond with sureties\n● Certificate is typed, attested, and handed over to the successful applicant"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Cost of Succession Certificate",
+        description: "Court fee is calculated as a percentage of the estate’s value under the Court Fees Act, 1870 and paid via judicial stamp papers. Professional fees may apply if legal assistance is engaged."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity and Revocation",
+        description: "The certificate is valid throughout India. Under Section 383 of the Indian Succession Act, it can be revoked for procedural defects, fraud, changed circumstances, or by a court order. Appeals lie to the High Court."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Succession Certificates",
+        description: [
+          "Comprehensive support in drafting petitions and compiling documents",
+          "Handling public notices, hearings, and bond formalities"
+        ],
+        points: [
+          "Expertise in personal succession and court procedures",
+          "Timely filings and representation in court",
+          "Transparent process tracking and updates"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is a succession certificate?",
+        answer: "A legal document issued by a District Judge that authorizes heirs of an intestate to claim the deceased’s assets, debts, and securities."
+      },
+      {
+        question: "How does it differ from probate?",
+        answer: "Probate validates a will as the deceased’s last testament, whereas a succession certificate applies when no will exists."
+      },
+      {
+        question: "Who can apply for it?",
+        answer: "The spouse, children, siblings, or other legal heirs of the deceased recognized under succession laws."
+      },
+      {
+        question: "What details must the petition contain?",
+        answer: "Date/time of death, last residence, names and addresses of heirs, applicant’s inheritance right, declaration of no objections, and list of assets/debts."
+      },
+      {
+        question: "Can anyone object to its issuance?",
+        answer: "Yes; the court publishes a public notice allowing any interested party to file objections within the prescribed period."
+      },
+      {
+        question: "What documents are required?",
+        answer: "Affidavit, ID and address proofs, death certificates, residence proof, title deeds, and details of debts and securities."
+      },
+      {
+        question: "How much does it cost?",
+        answer: "Court fee is a percentage of estate value under the Court Fees Act, 1870, payable via stamp papers; legal fees vary by advisor."
+      },
+      {
+        question: "What is the validity?",
+        answer: "Valid across India unless revoked by a competent court under Section 383."
+      },
+      {
+        question: "How long does the process take?",
+        answer: "Typically 4–6 months, depending on publication, objection period, and court schedule."
+      },
+      {
+        question: "Can it be revoked?",
+        answer: "Yes; on grounds of fraud, procedural defect, changed circumstances, or court order under Section 383."
+      },
+      {
+        question: "Who issues the certificate?",
+        answer: "The District Judge of the jurisdiction where the deceased last resided or owned property."
+      },
+      {
+        question: "Why is it necessary?",
+        answer: "It grants legal authority to heirs for recovering debts, transferring securities, and managing financial assets of an intestate."
+      }
+    ]
+  },
+
+  "lease-agreement-drafting": {
+    title: "Lease Agreement Drafting",
+    description: "Draft a comprehensive lease agreement under the Transfer of Property Act, 1882, outlining rights and obligations of lessor and lessee.",
+    overview: [
+      {
+        heading: "Legal Framework",
+        content: "Leases are governed by Section 105 and Chapter 5 of the Transfer of Property Act, 1882. A lease grants the lessee the right to use immovable or movable property for a defined period in exchange for rent."
+      },
+      {
+        heading: "Key Parties and Nature of Lease",
+        content: "Lessor: Owner or controller of the property.  \nLessee: Person who acquires the right to use the property.  \nThe lease conveys usage rights without transferring ownership. Lessee may maintain or alter property with permission and must keep it in good condition."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Common Terms in Lease Agreements",
+        content: "● Duration: Fixed or indefinite lease period  \n● Rent: Agreed monetary consideration  \n● Deposits: Security amount refundable after lease ends  \n● Use Terms: Conditions on permissible use  \n● Utilities: Charges for extra services  \n● Insurance: Protection for property  \n● Repairs & Maintenance: Responsibilities of lessor or lessee"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Contents of a Lease Agreement",
+        content: "● Names and details of lessor and lessee (and agents)  \n● Detailed description of the property  \n● Lease term and duration  \n● Rent amount, payment schedule, late fees, and grace period  \n● Payment method  \n● Conditions and charges for early termination  \n● Security deposit and refund terms  \n● Utility charges and usage terms  \n● Additional facilities (e.g., parking, laundry)  \n● Rules for maintaining peace and penalties for breaches"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Stages of Lease Deed Execution",
+        content: "● Negotiation of rent, duration, insurance, and terms  \n● Draft Memorandum of Understanding outlining rights and duties  \n● Title investigation and due diligence to verify ownership  \n● Draft lease deed and pay state‑specific stamp duty  \n● Execute lease deed with witnesses and register at Sub‑Registrar office  \n● Post‑registration notification for licenses and possession"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Stamp Duty and Registration Fees",
+        description: "Stamp duty rates vary by state under the Stamp Act. Registration fees apply for leases over one year under the Registration Act and differ by district."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Post‑Registration Compliance",
+        description: "After registration, notify relevant authorities of lessee’s possession to obtain any required licenses or permissions within 30 days."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Lease Agreements",
+        description: [
+          "Expert drafting under the Transfer of Property Act, 1882",
+          "State‑wise stamp duty and registration guidance"
+        ],
+        points: [
+          "Customized lease terms to suit commercial or residential needs",
+          "End‑to‑end support from negotiation through registration",
+          "Transparent process tracking and timely updates"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Who are the parties involved in a lease agreement?",
+        answer: "Lessor (property owner) and lessee (tenant) are the primary parties."
+      },
+      {
+        question: "What are the key elements of a lease agreement?",
+        answer: "Lease duration, rent amount, property description, identities of lessor and lessee, and terms of use."
+      },
+      {
+        question: "Is stamp duty mandatory for a lease agreement?",
+        answer: "Yes. Stamp duty varies by state and is mandatory under the Stamp Act."
+      },
+      {
+        question: "When must a lease be registered?",
+        answer: "Leases exceeding one year must be registered under the Registration Act to be legally valid."
+      },
+      {
+        question: "Can the lessor ask for a security deposit?",
+        answer: "Yes. The lessor may require a security deposit refundable at lease end."
+      },
+      {
+        question: "What should not be included in a lease agreement?",
+        answer: "Clauses waiving the lessee’s statutory rights or remedies should be avoided."
+      },
+      {
+        question: "How are disputes under a lease resolved?",
+        answer: "Disputes are typically resolved via arbitration or in court as per the agreement."
+      },
+      {
+        question: "What is the difference between rent and lease?",
+        answer: "A lease usually covers a longer term, while a rent agreement typically covers shorter periods."
+      }
+    ]
+  },
 
 
-"world-manufacturer-identifier-wmi-code": {
-  title: "World Manufacturer Identifier (WMI) Code Registration in India – A Complete Guide by Do Startup",
-  description: "A WMI Code is the first three characters of a Vehicle Identification Number (VIN) that uniquely identifies a vehicle manufacturer worldwide. In India, WMI Codes are issued by BIS in coordination with SAE International.",
-  overview: [
-    {
-      heading: "What is a VIN?",
-      content: "A Vehicle Identification Number (VIN) is a unique 17-character alphanumeric code assigned to every motor vehicle, containing manufacturer details, model, engine specs, year and location of manufacture."
-    },
-    {
-      heading: "Structure of the VIN Code",
-      content: "• WMI – first 3 characters identifying country, manufacturer and vehicle type  \n• VDS – next 6 characters describing vehicle attributes (body style, engine)  \n• VIS – last 8 characters indicating production year, plant and serial number"
-    },
-    {
-      heading: "WMI Code Geography Breakdown",
-      content: "Ranges: 1–5 North America, S–Z Europe, A–H Africa, J–R Asia (India), 6–7 Oceania, 8–9 South America"
-    }
-  ],
-  benefits: [
-    {
-      heading: "Importance of WMI Code",
-      content: "• Ensures global recognition of the manufacturer  \n• Mandatory for valid VIN assignment  \n• Supports regulatory compliance and tracking  \n• Facilitates international vehicle trade  \n• Enables efficient recall management and after-sales service"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for WMI Code Registration",
-      content: "• Duly signed application form with manufacturing unit details  \n• PAN and GST certificates (self-attested)  \n• Certificate of Incorporation / Partnership Deed  \n• MOA & AOA or proprietorship details  \n• Udyam Registration (if applicable)  \n• Address proof of manufacturing facility  \n• Product category/code and existing coding (if any)  \n• Tentative production commencement date  \n• Application fee receipt"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Filing of Application",
-      content: "Do Startup assists in preparing and submitting the WMI registration application to BIS."
-    },
-    {
-      heading: "Step 2: Document Verification",
-      content: "BIS verifies submitted documents for completeness and accuracy."
-    },
-    {
-      heading: "Step 3: WMI Proposal",
-      content: "BIS proposes a unique WMI Code based on product type and location."
-    },
-    {
-      heading: "Step 4: SAE International Registration",
-      content: "The WMI proposal is forwarded to SAE International for inclusion in the global database."
-    },
-    {
-      heading: "Step 5: Confirmation Letter",
-      content: "Upon approval, SAE issues a Confirmation Letter to the manufacturer."
-    },
-    {
-      heading: "Step 6: Issuance of WMI Code",
-      content: "The manufacturer is officially assigned a WMI Code for use in VINs."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Application Fees",
-      description: "Application fee as prescribed by BIS, payable via demand draft or online transfer."
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for WMI Code Registration",
-      description: "The process typically completes in 4–6 weeks, subject to document verification and SAE approval.",
-      steps: [
-        {
-          title: "Application & Payment",
-          duration: "1 week",
-          description: "Submission of application form and fee."
-        },
-        {
-          title: "BIS Processing",
-          duration: "2–3 weeks",
-          description: "Document verification and WMI proposal."
-        },
-        {
-          title: "SAE Approval",
-          duration: "1–2 weeks",
-          description: "Global database registration and confirmation."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "Expert liaison with BIS and SAE International",
-        "End-to-end application and documentation support",
-        "Guaranteed timelines and real-time tracking",
-        "99.9% success rate in WMI registrations",
-        "24×7 dedicated customer assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is a WMI Code?",
-      answer: "The first three characters of a VIN that uniquely identify a vehicle manufacturer globally."
-    },
-    {
-      question: "Is WMI mandatory for all vehicle manufacturers?",
-      answer: "Yes, any entity manufacturing road-legal vehicles must obtain a WMI Code."
-    },
-    {
-      question: "Which standards govern VIN and WMI?",
-      answer: "ISO 3779 for VIN format and ISO 3780 for WMI format."
-    },
-    {
-      question: "Who issues WMI Codes in India?",
-      answer: "The Bureau of Indian Standards (BIS), in coordination with SAE International."
-    },
-    {
-      question: "How long is the WMI Code valid?",
-      answer: "It remains valid as long as the manufacturer operates under the same name and address."
-    }
-  ]
-},
+  "will-drafting": {
+    title: "Will Drafting",
+    description: "Draft a clear and legally valid will to ensure your assets are distributed according to your wishes.",
+    overview: [
+      {
+        heading: "Overview of Will",
+        content: "A will is a legal declaration by the testator specifying how personal assets and properties should be distributed after death. It prevents disputes among heirs and ensures harmony by following the testator’s instructions exactly."
+      },
+      {
+        heading: "Parties to a Will",
+        content: "Testator: Person who makes the will.  \nBeneficiaries: Named individuals to receive assets.  \nExecutor: Appointed to carry out the will’s instructions.  \nTrustee: Manages the estate for beneficiaries.  \nLegal Guardian: Manages the shares of minor beneficiaries."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Types and Essentials of a Will",
+        content: "Privileged Will: For armed forces in active duty, with fewer formalities.  \nUnprivileged Will: All other wills requiring strict formalities.  \nEssentials: Must be a voluntary declaration, effective after death, revocable during lifetime, and specify distribution clearly."
+      },
+      {
+        heading: "Assets Covered",
+        content: "Movable and immovable assets such as real estate, bank and fixed deposits, bonds, securities, jewelry, intellectual property, art collections, insurance policies, and retirement benefits."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Details & Documents for Will Drafting",
+        content: "Identification details of testator (name, address, age, date of will).  \nDeclaration of sound mind and voluntariness.  \nNames, addresses, ages, relationships of beneficiaries.  \nExecutor, trustee, guardian details.  \nComprehensive list of all assets and their allotment.  \nTestator’s signature and date with two witness signatures."
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Will Execution",
+        content: "Draft the will meeting all essentials.  \nHave two witnesses observe and sign it.  \nOptionally register the will and have it stamped to enhance authenticity.  \nFor execution, file for probate by petitioning the court with a copy of the will and property details."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Revocation and Updates",
+        description: "A will can be revoked by destroying it, creating a new will, or by marriage. Updates require drafting a fresh will, which automatically cancels prior versions."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Will Drafting",
+        description: [
+          "Expert drafting compliant with Indian Succession Act, 1925 and related laws",
+          "Guidance on execution, registration, and probate process"
+        ],
+        points: [
+          "Customized will templates",
+          "Secure handling of sensitive information",
+          "Ongoing support for updates and probate filings"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Why is a will necessary?",
+        answer: "It ensures that your assets are distributed according to your wishes and prevents disputes among heirs."
+      },
+      {
+        question: "Who is the executor of a will?",
+        answer: "The executor is the person appointed by the testator to carry out the instructions in the will and oversee the distribution of assets."
+      },
+      {
+        question: "What happens if no executor is appointed?",
+        answer: "If no executor is appointed, the court will assign an administrator to manage the estate and distribute assets."
+      },
+      {
+        question: "If I die without making a will, who inherits my assets?",
+        answer: "Your assets will be distributed according to intestate succession laws under personal succession or the Indian Succession Act, 1925."
+      },
+      {
+        question: "What are the essential elements of a valid will?",
+        answer: "It must be in writing, made voluntarily by a testator of legal age and sound mind, signed by two witnesses, and clearly state asset distribution."
+      },
+      {
+        question: "When is the ideal time to make a will?",
+        answer: "Any time after age 18; it’s especially recommended after major life events like marriage or having children."
+      },
+      {
+        question: "What are common mistakes to avoid when drafting a will?",
+        answer: "Inaccurate asset descriptions, not revoking prior wills, omitting updates after asset changes, and failing to appoint guardians for minors."
+      },
+      {
+        question: "Is it necessary to register a will?",
+        answer: "No, registration is optional. However, a registered will can ease the probate process and strengthen authenticity."
+      },
+      {
+        question: "Can a will be changed after registration?",
+        answer: "Yes. The testator can modify the will by drafting a new one, which automatically cancels previous wills."
+      },
+      {
+        question: "What types of assets can be included in a will?",
+        answer: "Both movable and immovable assets such as real estate, bank accounts, fixed deposits, bonds, insurance policies, art, and intellectual property."
+      },
+      {
+        question: "Who can act as a witness to a will?",
+        answer: "Any person over 18 of sound mind who observes the testator signing. Ideally, witnesses should not be beneficiaries."
+      },
+      {
+        question: "Is a will valid if only one witness signs it?",
+        answer: "No. At least two witnesses must sign for the will to be legally valid."
+      },
+      {
+        question: "Can a will be updated or changed?",
+        answer: "Yes. A new will can be drafted at any time before death to update or change the previous document."
+      }
+    ]
+  },
 
 
-"telemarketing-registration-india": {
-  title: "Telemarketing Registration in India – Step-by-Step Guide by Do Startup",
-  description: "Telemarketing registration under TRAI/DoT is mandatory for any entity engaging in commercial tele-communications (voice or non-voice) to promote goods or services. Secure your license to operate legally, build consumer trust, and enhance brand credibility.",
-  overview: [
-    {
-      heading: "What is a Telemarketer?",
-      content: "A telemarketer is an individual or legally registered entity that sends commercial communications—via calls, SMS, or recorded messages—to inform consumers about transactions, promote products or services, or solicit business."
-    },
-    {
-      heading: "Who Can Apply?",
-      content: "• Indian citizens (18+ years)  \n• Companies under the Companies Act, 2013  \n• LLPs under the LLP Act, 2008  \n• Partnerships under the Partnership Act, 1932  \n• Sole proprietors  \nApplicants must have a clean legal record."
-    },
-    {
-      heading: "Benefits of Registration",
-      content: "• Legal authorization and avoidance of TRAI/DoT penalties  \n• Improved customer trust and brand image  \n• Higher lead generation and smoother sales  \n• Foundation for long-term business growth"
-    }
-  ],
-  benefits: [
-    {
-      heading: "Strategic Advantages",
-      content: "• Operate within the law and avoid heavy fines  \n• Leverage consumer trust for better conversion  \n• Maintain uninterrupted telecom connectivity  \n• Demonstrate credibility to partners and clients"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Checklist of Required Documents",
-      content: "• PAN Card of the company  \n• TAN details  \n• ROC Number (for companies)  \n• Registered and corporate office address proofs  \n• Last financial year turnover statement  \n• Recent utility bills  \n• Dedicated landline number & email ID  \n• Authorized signatory’s details and ID proof"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Company Incorporation",
-      content: "Ensure your business is incorporated under the appropriate Indian law (Companies, LLP, Partnership or Sole Proprietorship)."
-    },
-    {
-      heading: "Step 2: Document Collection",
-      content: "Gather all mandatory documents as per the checklist above."
-    },
-    {
-      heading: "Step 3: Application Filing",
-      content: "Submit Form TM-1 along with supporting documents to the TRAI/DoT portal."
-    },
-    {
-      heading: "Step 4: Fee Payment",
-      content: "Pay the prescribed registration fee via the online payment gateway."
-    },
-    {
-      heading: "Step 5: Provisional Approval",
-      content: "Receive a Provisional Telemarketing Certificate (valid for 3 months) upon preliminary verification."
-    },
-    {
-      heading: "Step 6: Final Registration",
-      content: "After compliance checks during the provisional period, the Final Telemarketing Registration Certificate is issued with a 10-year validity."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Telemarketing Registration Fees",
-      description: "Fees are prescribed by DoT and may vary. Typically includes: provisional application fee and final registration fee.",
-      feeTable: [
-        {
-          category: "Provisional Registration",
-          amount: "As per TRAI/DoT notification"
-        },
-        {
-          category: "Final Registration",
-          amount: "As per TRAI/DoT notification"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Typical Timeline",
-      description: "End-to-end registration usually completes within 4–6 weeks, subject to document accuracy and compliance checks.",
-      steps: [
-        {
-          title: "Form Submission & Payment",
-          duration: "1–2 weeks",
-          description: "Application filing, fee payment, and provisional certificate issuance."
-        },
-        {
-          title: "Compliance & Final Approval",
-          duration: "3–4 weeks",
-          description: "Verification during provisional period and issuance of final certificate."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "Expert handling of TRAI/DoT procedures",
-        "End-to-end document preparation & filing",
-        "Liaison with regulators to expedite approvals",
-        "Ongoing compliance guidance throughout the license term",
-        "24×7 support for any queries or audits"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is a Telemarketing Certificate?",
-      answer: "It’s an official authorization from TRAI/DoT allowing entities to conduct commercial tele-communications legally in India."
-    },
-    {
-      question: "Who needs to register?",
-      answer: "Any individual or entity sending promotional calls, SMS, or recorded messages for commercial purposes."
-    },
-    {
-      question: "What is the provisional license validity?",
-      answer: "3 months from the date of issuance."
-    },
-    {
-      question: "How long is the final registration valid?",
-      answer: "10 years, subject to continued compliance."
-    },
-    {
-      question: "What happens if I operate without registration?",
-      answer: "You may face heavy fines, license suspension, or legal action under the Telecom Act."
-    },
-    {
-      question: "Can I surrender my license?",
-      answer: "Yes, by notifying DoT 30 days in advance and completing the prescribed formalities."
-    }
-  ]
-},
-
-"trusted-telecom-approval": {
-  title: "Trusted Telecom Approval – A Complete Guide",
-  description: "Mandatory certification under the National Security Directive on Telecommunication Sector (NSDTS) for Telecom Service Providers (TSPs) and vendors seeking to deploy telecom equipment in India.",
-  overview: [
-    {
-      heading: "Trusted Telecom Approval in India",
-      content: "The Government of India has enforced Trusted Telecom Approval for all Telecom Service Providers (TSPs) to ensure national security by verifying that telecom equipment is sourced from trusted vendors. This is governed under the National Security Directive on Telecommunication Sector (NSDTS), operational since June 15, 2021, and implemented via the Trusted Telecom Portal (TTP)."
-    },
-    {
-      heading: "What is the Trusted Telecom Portal?",
-      content: "The Trusted Telecom Portal (TTP), developed by C-DOT with RailTel and NSCS, allows TSPs to check whether a telecom product or vendor is listed as 'trusted'. If not listed, TSPs or vendors can submit an application for verification through the portal."
-    },
-    {
-      heading: "What is NSDTS?",
-      content: "The National Security Directive on Telecommunication Sector (NSDTS) is a strategic framework aimed at ensuring that only secure and trusted telecom hardware and software are used in Indian telecom networks. It mandates verification and approval of vendors and equipment before deployment."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Why is Trusted Telecom Approval Important?",
-      content: "• Ensures compliance with national security regulations  \n• Prevents deployment of unverified or malicious telecom equipment  \n• Mandatory for all TSPs prior to product integration  \n• Promotes accountability and transparency  \n• Non-compliance may lead to blacklisting and operational penalties"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Trusted Telecom Certification",
-      content: "• Official request from Telecom Service Provider (TSP)  \n• Technical specifications of the product  \n• Memorandum of Association (MoA) and Articles of Association (AoA)  \n• Authorization letter from a company official  \n• Company registration and identity documents"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: TSP or Vendor Request Initiation",
-      content: "Either a TSP or vendor initiates a request for listing on the Trusted Telecom Portal by creating an account and filling the application form."
-    },
-    {
-      heading: "Step 2: Documentation Submission",
-      content: "Upload all mandatory documents including technical specs, legal identification, and authorization letters."
-    },
-    {
-      heading: "Step 3: Review by NCSC",
-      content: "The National Cyber Security Coordinator (NCSC), in consultation with the National Security Committee on Telecom (NSCT), evaluates the application and verifies the credentials."
-    },
-    {
-      heading: "Step 4: Approval & Listing",
-      content: "Upon successful verification, the product/vendor is listed as a Trusted Source on the portal, and approval is granted."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Trusted Telecom Approval – Fee Details",
-      description: "Currently, there is no publicly disclosed standard government fee for Trusted Telecom Approval. Costs may vary depending on liaison or consultancy services availed during the application process.",
-      feeTable: [
-        {
-          category: "TSP/Vendor Application",
-          amount: "Varies (Subject to consultant or authority)"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Trusted Telecom Approval",
-      description: "Approval timelines may vary based on documentation accuracy and authority processing.",
-      steps: [
-        {
-          title: "Initial Application Submission",
-          duration: "2–5 business days",
-          description: "Vendor or TSP submits application and documents via TTP."
-        },
-        {
-          title: "Evaluation by NCSC",
-          duration: "2–4 weeks",
-          description: "Verification by authorities and multi-agency review process."
-        },
-        {
-          title: "Final Approval",
-          duration: "1–2 days",
-          description: "Listing of vendor/product on the Trusted Sources database."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Trusted Telecom Approval?",
-      description: [
-        "Dedicated telecom compliance experts",
-        "Liaison with TSPs and government bodies",
-        "Complete documentation assistance and submission",
-        "Faster application turnaround",
-        "End-to-end support until final listing"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is the purpose of NSDTS?",
-      answer: "To ensure secure procurement of telecom equipment and prevent national security risks from unauthorized vendors or products."
-    },
-    {
-      question: "What is the Trusted Telecom Portal (TTP)?",
-      answer: "An official portal allowing TSPs and vendors to request product/vendor listing and verify approval status."
-    },
-    {
-      question: "Who verifies the application for Trusted Telecom Approval?",
-      answer: "The National Cyber Security Coordinator (NCSC), with oversight from the National Security Committee on Telecom (NSCT)."
-    },
-    {
-      question: "Is Trusted Telecom Approval mandatory for all TSPs?",
-      answer: "Yes, TSPs must use only trusted products and vendors as per NSDTS guidelines."
-    },
-    {
-      question: "How can a vendor be listed on the Trusted Telecom Portal?",
-      answer: "Vendors can apply directly via the TTP by submitting relevant documentation or be nominated by a TSP."
-    },
-    {
-      question: "What is Trusted Telecom Certification (TTC)?",
-      answer: "It is the formal approval confirming that a vendor or product is compliant with NSDTS and safe for use in telecom networks."
-    },
-    {
-      question: "What equipment is covered under NSDTS?",
-      answer: "All core and access network components like routers, switches, base stations, and control elements used by TSPs."
-    }
-  ]
-},
-
-"uplinking-downlinking-permission": {
-  title: "Uplinking/Downlinking Channel Permission – A Complete Guide",
-  description: "Obtain uplinking/downlinking channel permissions from the Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal for legal satellite TV broadcasting in India.",
-  overview: [
-    {
-      heading: "What is Uplinking and Downlinking?",
-      content: "In India, broadcasters must obtain government authorization to transmit or receive TV signals via satellite. Uplinking refers to sending electronic signals from a station to a satellite, while downlinking means receiving those signals back on Earth. The permission is granted under the Uplinking and Downlinking Policy Guidelines, 2011."
-    },
-    {
-      heading: "Why is Permission Required?",
-      content: "Uplinking/downlinking permission ensures compliance with national broadcasting and security standards. It regulates content flow and infrastructure used in TV signal transmission and is legally mandatory before operating a TV channel via satellite."
-    },
-    {
-      heading: "Who Grants This License?",
-      content: "The Ministry of Information and Broadcasting (MIB) is the licensing authority. Applications are processed via the Broadcast Seva Portal, and approvals are subject to financial and technical scrutiny."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Key Benefits of Securing Uplinking/Downlinking Permission",
-      content: "• Legal authorization to broadcast satellite TV in India\n• Enables channel listing with cable and DTH operators\n• Regulatory protection for content and operations\n• Builds trust with viewers, advertisers, and partners\n• Facilitates global reach for Indian broadcasters"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Uplinking/Downlinking Approval",
-      content: "• Certificate of Incorporation\n• Memorandum & Articles of Association (MoA & AoA)\n• List of Directors and Shareholders\n• Audited Balance Sheet\n• Board Resolution authorizing the application\n• Details of Foreign Employees (if any)\n• Equipment Specifications\n• FDI Details (if applicable)\n• 90-day Operational Report\n• Technical documents like block diagrams and schematics"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Document Preparation",
-      content: "Compile all required documents as per MIB guidelines. Ensure accuracy to prevent delays or rejection."
-    },
-    {
-      heading: "Step 2: Application Filing on Broadcast Seva Portal",
-      content: "Apply online via the Broadcast Seva Portal. Fill in correct technical and legal details and pay the application fee."
-    },
-    {
-      heading: "Step 3: Application Scrutiny by MIB",
-      content: "The Ministry of Information and Broadcasting examines the application, assessing financial capability, legal status, and infrastructure."
-    },
-    {
-      heading: "Step 4: Issuance of Letter of Intent (LoI)",
-      content: "Upon successful evaluation, the MIB issues a Letter of Intent. The applicant must then pay the license fee and submit a Performance Bank Guarantee."
-    },
-    {
-      heading: "Step 5: Grant of Final License",
-      content: "Final permission is issued, typically valid for 5 years. Renewal requires annual fee payments and compliance review."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Net Worth Requirements",
-      description: "Applicants must fulfill the following net worth criteria based on the type and number of channels or teleports:",
-      feeTable: [
-        {
-          category: "First Teleport",
-          amount: "₹3 Crores"
-        },
-        {
-          category: "Additional Teleport",
-          amount: "₹1 Crore"
-        },
-        {
-          category: "First Non-News TV Channel",
-          amount: "₹5 Crores"
-        },
-        {
-          category: "Additional Non-News TV Channel",
-          amount: "₹2.5 Crores"
-        },
-        {
-          category: "First News TV Channel",
-          amount: "₹20 Crores"
-        },
-        {
-          category: "Additional News TV Channel",
-          amount: "₹5 Crores"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Uplinking/Downlinking Permission",
-      description: "The licensing process typically takes 4–6 weeks, subject to document verification and MIB processing timelines.",
-      steps: [
-        {
-          title: "Document Compilation",
-          duration: "1 week",
-          description: "Prepare and collate required company and technical documents."
-        },
-        {
-          title: "Application Submission",
-          duration: "2–3 days",
-          description: "Submit application on Broadcast Seva Portal and pay fees."
-        },
-        {
-          title: "Scrutiny and LoI Issuance",
-          duration: "3–4 weeks",
-          description: "Application reviewed and Letter of Intent issued."
-        },
-        {
-          title: "Final Approval",
-          duration: "1 week",
-          description: "Submit guarantee and fee to obtain broadcasting license."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Uplinking/Downlinking Permission?",
-      description: [
-        "We simplify the licensing process for broadcasters in India"
-      ],
-      points: [
-        "Expertise in MIB compliance and documentation",
-        "Proven success with national broadcasters",
-        "Fast and accurate application filing",
-        "Support with financial and technical representation",
-        "End-to-end coordination with MIB authorities"
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "Who grants uplinking/downlinking permission in India?",
-      answer: "The Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal."
-    },
-    {
-      question: "What are the financial eligibility norms?",
-      answer: "Net worth requirements range from ₹1 Cr to ₹20 Cr depending on the type of operation and number of teleports/channels."
-    },
-    {
-      question: "Is submission of an audited balance sheet mandatory?",
-      answer: "Yes, it's a mandatory part of financial assessment by MIB."
-    },
-    {
-      question: "Can a disqualified applicant reapply?",
-      answer: "No. Any entity previously disqualified is not eligible to apply again."
-    },
-    {
-      question: "What policy governs uplinking and downlinking permissions?",
-      answer: "The Uplinking and Downlinking Policy Guidelines, 2011."
-    },
-    {
-      question: "Is setting up a teleport hub mandatory for uplinking?",
-      answer: "Yes. A fully operational teleport hub is required before uplinking permissions are granted."
-    }
-  ]
-},
-
-"flipkart-seller-registration": {
-  title: "Flipkart Seller Registration – A Complete Guide",
-  description: "Register as a Flipkart seller and reach millions of customers with ease through India's leading e-commerce platform.",
-  overview: [
-    {
-      heading: "Overview on Flipkart Seller Registration",
-      content: "Flipkart seller registration is the official process through which vendors can enlist themselves as sellers on the Flipkart platform to showcase and sell their products online. This offers a smart and scalable way to reach a broader customer base without needing physical storefronts. Flipkart manages logistics such as shipping, payments, and customer service for its sellers."
-    },
-    {
-      heading: "History of Flipkart",
-      content: "Founded in 2007 by Sachin and Binny Bansal, Flipkart began as a platform for selling books. Over time, it diversified into electronics, fashion, lifestyle products, and more. It has acquired several businesses, with Myntra being one of the most significant acquisitions. Flipkart also supports sellers with tools like training and workshops to help them scale."
-    },
-    {
-      heading: "Is GST Registration Mandatory for Flipkart Seller Registration?",
-      content: "Yes. A valid GSTIN is compulsory to register as a seller on Flipkart."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Advantages of Flipkart Seller Registration",
-      content: "• Business Growth: Reach more customers across India.\n• Lower Costs: Low operational and compliance costs.\n• Transparency: A clear and straightforward business model.\n• Ease of Business: Simplified selling experience.\n• Customer Feedback: Receive valuable insights through reviews.\n• Better Marketing: Enhanced product visibility through Flipkart ads."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Minimum Requirements to Register as a Flipkart Seller",
-      content: "• GST Registration (GSTIN)\n• PAN Card (individual or business)\n• Business Registration (if not sole proprietorship)\n• Active Bank Account\n• At least one product to list\n• Active mobile number and email ID"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Register Your Business",
-      content: "Ensure your business is legally registered under a valid structure such as a sole proprietorship, partnership, LLP, or private limited company."
-    },
-    {
-      heading: "Step 2: Open a Bank Account",
-      content: "Create a current bank account in your business name to enable smooth transactions."
-    },
-    {
-      heading: "Step 3: Apply for GST",
-      content: "Obtain a valid GSTIN for tax compliance, which is mandatory for Flipkart registration."
-    },
-    {
-      heading: "Step 4: Create Flipkart Account",
-      content: "Go to seller.flipkart.com and register with necessary details such as contact info, PAN, and GSTIN."
-    },
-    {
-      heading: "Step 5: List Products",
-      content: "Upload at least 10 products with proper descriptions, images, and pricing under appropriate categories."
-    },
-    {
-      heading: "Step 6: Start Selling",
-      content: "Once products are listed, fulfill incoming orders and mark them ready for dispatch."
-    },
-    {
-      heading: "Step 7: Get Paid",
-      content: "Flipkart settles seller payments within 10–15 days after successful delivery."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Flipkart Seller Fees and Charges",
-      description: "There are no charges for listing products on Flipkart. Fees are only applicable after a successful sale is made.",
-      feeTable: [
-        {
-          category: "Referral Fee",
-          amount: "Starts at 3% (based on product category)"
-        },
-        {
-          category: "Closing Fee",
-          amount: "Fixed fee based on selling price"
-        },
-        {
-          category: "Shipping Fee",
-          amount: "Starts from ₹30, varies by item size and delivery location"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Flipkart Seller Registration",
-      description: "The Flipkart seller account can be activated within a few hours if all documents are ready.",
-      steps: [
-        {
-          title: "Account Creation and Document Upload",
-          duration: "1 Day",
-          description: "Register your account and upload business documents including PAN, GSTIN, and bank account details."
-        },
-        {
-          title: "Product Listing and Verification",
-          duration: "1–2 Days",
-          description: "List minimum 10 products; Flipkart may verify listings before activating sales."
-        },
-        {
-          title: "Begin Selling",
-          duration: "Instant after approval",
-          description: "Start receiving and dispatching orders to customers."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Flipkart Seller Registration?",
-      description: [
-        "Expert support for account setup and compliance",
-        "Quick turnaround with error-free document filing",
-        "Dedicated support team for new sellers"
-      ],
-      points: [
-        "100% document accuracy",
-        "No hidden charges",
-        "Free consultation for listing strategy"
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "Will there be a fee to list goods on Flipkart?",
-      answer: "No, listing products on Flipkart is completely free of charge."
-    },
-    {
-      question: "How many listings are required before sales start?",
-      answer: "You must list at least 10 products to begin selling on Flipkart."
-    },
-    {
-      question: "When will the buyer pay the seller?",
-      answer: "Payments are made within 10–15 days of successful delivery."
-    },
-    {
-      question: "Should I ship my items to Flipkart?",
-      answer: "No, you pack the orders and Flipkart picks them up from your location."
-    },
-    {
-      question: "What are the benefits of selling on Flipkart?",
-      answer: "Access to a wide customer base, logistics support, protection fund, and improved product visibility."
-    },
-    {
-      question: "What details are needed to register as a Flipkart seller?",
-      answer: "You need GSTIN, PAN card, bank account, contact details, and a product list."
-    },
-    {
-      question: "How is the login process completed?",
-      answer: "Login is done through seller.flipkart.com using OTP verification on your registered mobile number."
-    },
-    {
-      question: "Why sell products on Flipkart?",
-      answer: "To reach a vast online market, grow your brand, and leverage Flipkart’s logistics and technology support."
-    },
-    {
-      question: "Who is eligible to sell on Flipkart?",
-      answer: "Anyone with at least one product and valid documents like GSTIN and PAN card."
-    },
-    {
-      question: "How long does the registration process take?",
-      answer: "Usually completed within a few hours if all required documents are ready."
-    },
-    {
-      question: "Can services be sold on Flipkart?",
-      answer: "Currently, Flipkart is focused on tangible products only."
-    },
-    {
-      question: "How does Flipkart dispatch orders?",
-      answer: "Sellers pack the product, and Flipkart handles delivery to the customer."
-    },
-    {
-      question: "Do I have to pay to list my products?",
-      answer: "No, listing is free. Fees are charged only on confirmed orders."
-    }
-  ]
-},
+  "mutual-divorce": {
+    title: "Mutual Consent Divorce",
+    description: "End your marriage amicably and efficiently with mutual consent divorce facilitated by DoStartup’s expert legal team.",
+    overview: [
+      {
+        heading: "Overview of Mutual Consent Divorce",
+        content: "Mutual consent divorce is a simpler, quicker, and more cost‑effective procedure in India where both spouses voluntarily agree to dissolve their marriage. With DoStartup’s guidance, you can prepare documents, comply with legal requirements, appear in court, and obtain your divorce decree with dignity and mutual respect."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Mutual Consent Divorce",
+        content: "● Saves time, money, and emotional turmoil\n● Minimizes conflict by mutual agreement on alimony, child custody, and property division\n● Faster alternative to contested divorce\n● Allows both parties to end marriage amicably"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Mutual Divorce",
+        content: "● Marriage certificate\n● Four marriage photographs\n● Address proof of both spouses\n● Income tax returns of earning spouse\n● Professional details of both parties\n● Information on movable and immovable property\n● Family background details\n● Proof of living separately for at least one year"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Mutual Consent Divorce",
+        content: "● File joint petition in family court with agreements on custody, maintenance, and property\n● First court appearance with both parties and their lawyers\n● Court reviews petition, records statements under oath, and may attempt reconciliation\n● Court grants first motion and imposes 6‑month waiting period\n● After waiting period, file second motion if no reconciliation\n● Final court hearing; if consent remains mutual and free of coercion, court issues divorce decree"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Court Fees and Professional Charges",
+        description: "Court fees vary by state and case value. DoStartup’s professional fees depend on complexity and include draft petitions, filings, and court appearances.",
+        feeTable: []
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Mutual Divorce",
+        description: "Key timeframes under the Hindu Marriage Act or Special Marriage Act:",
+        steps: [
+          {
+            title: "Separation Period",
+            duration: "1 year",
+            description: "Mandatory period of living separately before filing"
+          },
+          {
+            title: "First Motion",
+            duration: "Day of filing",
+            description: "Court records statements and grants first motion"
+          },
+          {
+            title: "Cooling‑Off Period",
+            duration: "6 months",
+            description: "Statutory waiting period (waivable by court)"
+          },
+          {
+            title: "Second Motion",
+            duration: "Within 18 months of first motion",
+            description: "File for second motion if no reconciliation"
+          },
+          {
+            title: "Final Decree",
+            duration: "Immediately after second motion",
+            description: "Court issues divorce decree"
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Mutual Divorce",
+        description: [
+          "End‑to‑end support from petition drafting to final decree",
+          "Expert guidance on alimony, custody, and property settlement"
+        ],
+        points: [
+          "Fast turnaround and streamlined process",
+          "Personalized legal advice and representation",
+          "Transparent pricing and regular updates"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is mutual consent in a divorce?",
+        answer: "Mutual consent divorce occurs when both spouses voluntarily agree to end their marriage without force or pressure."
+      },
+      {
+        question: "Where should a mutual divorce petition be filed?",
+        answer: "In the family court with jurisdiction over the area where the couple last lived together or where the marriage was solemnized."
+      },
+      {
+        question: "How long does mutual divorce take?",
+        answer: "Typically between 6 months to 2 years, depending on court schedules and whether the cooling‑off period is waived."
+      },
+      {
+        question: "Can either party withdraw the petition?",
+        answer: "Yes, either spouse can withdraw consent during the 6‑month waiting period by applying to the court."
+      },
+      {
+        question: "Is court appearance mandatory?",
+        answer: "Yes, both parties must appear in person for the first and second motions, unless exempted by the court for valid reasons."
+      },
+      {
+        question: "What if consent was obtained under coercion?",
+        answer: "The court examines voluntariness; if coercion or undue influence is proven, the decree can be invalidated."
+      },
+      {
+        question: "Is the cooling‑off period mandatory?",
+        answer: "Statutorily yes, but the family court may waive the 6‑month period if reconciliation is deemed impossible."
+      },
+      {
+        question: "How is alimony decided?",
+        answer: "By mutual agreement based on factors like marriage duration, financial status, and earning capacity; it may be lump sum or monthly."
+      },
+      {
+        question: "Can I remarry before the decree?",
+        answer: "No, remarriage before obtaining a valid divorce decree is illegal under Indian law."
+      },
+      {
+        question: "Which law governs mutual divorce?",
+        answer: "Hindu Marriage Act Section 13B for Hindus, Special Marriage Act Section 28 for civil marriages, Parsi Marriage and Divorce Act Section 32B for Parsis, and respective personal laws for others."
+      }
+    ]
+  },
 
 
-"sanitary-import-permit": {
-  title: "Sanitary Import Permit – A Complete Guide",
-  description: "Obtain your Sanitary Import Permit with Do Startup’s expert support to legally import animal-based products into India.",
-  overview: [
-    {
-      heading: "Sanitary Import Permit – An Overview",
-      content: "If you're involved in importing animal-based products like meat, milk items, eggs, ova, semen, embryos, or pet food, you must obtain a Sanitary Import Permit at customs. Partner with Do Startup’s experts to ensure compliance and seamless documentation.\nA Sanitary Import Permit is a certificate issued under the Ministry of Agriculture’s authority, in accordance with Sections 3 and 4 of the Livestock Importation Act, 1898. The Department of Animal Husbandry, Dairying, and Fisheries ensures that this permit helps prevent foreign animal diseases from entering India."
-    },
-    {
-      heading: "What is a Sanitary Import Permit?",
-      content: "The Sanitary Import Permit, granted under Section 3(a) of the Livestock Importation Act of 1898, permits the import of livestock and livestock products. Although not a license, it specifies hygiene and safety requirements that must be met by the exporting country prior to entry into India."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Benefits of Sanitary Import Permit Certificate",
-      content: "• Designated Entry Points: Import of animal products is only allowed through authorized seaports and airports like Delhi, Mumbai, Kolkata, Chennai, Bangalore, and Hyderabad. Fish imports can also pass through Visakhapatnam, Kochi, and Petrapole (Bangladesh border).\n• Disease Control: The permit reduces the risk of foreign diseases by ensuring hygienic product certification before entry.\n• Hygienic Assurance: Ensures animal product safety through veterinarian certification from the exporting country.\n• Financial Protection: Minimizes potential losses from disease outbreaks in imported livestock products."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Sanitary Import Permit Certificate",
-      content: "• Valid FSSAI license for importing livestock products for human use\n• FSSAI license copy\n• Product catalogue and description\n• Ingredient details for each item\n• Product process chart\n• List of items to be imported\n• Certificate of Analysis (chemical and microbiological details)\n• Intended use of imported items"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Sanitary Import Permit Online Application Process",
-      content: "1. Visit the SIP portal and choose the relevant tab\n2. Complete Form A or B and upload the required documents\n3. Make the payment via the online gateway\n4. Upon approval, download the permit directly from the portal"
-    },
-    {
-      heading: "Compliance Requirements for Sanitary Import Permit",
-      content: "• The product must comply with Codex and Indian Food Safety standards\n• Attach a valid sanitary certificate from the origin country\n• No beef or beef derivatives allowed\n• Provide necessary health certificates\n• Products must pass microbiological, chemical, and physical tests\n• Product lists must follow the standard format and quantity"
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Fees for Acquiring an Online Sanitary Import Permit",
-      description: "The government fee for a Sanitary Import Permit is ₹300 per application. Professional service fees may vary based on service providers.",
-      feeTable: [
-        {
-          category: "Government Application Fee",
-          amount: "₹300"
-        },
-        {
-          category: "Consultancy Charges (Optional)",
-          amount: "Varies by service provider"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Getting a Sanitary Import Permit Certificate",
-      description: "The permit is typically issued within 8–12 working days, subject to proper documentation and verification.",
-      steps: [
-        {
-          title: "Document Preparation & Upload",
-          duration: "1–3 days",
-          description: "Collect and upload all mandatory documents on the SIP portal."
-        },
-        {
-          title: "Application Review",
-          duration: "4–7 days",
-          description: "Authorities verify documentation, purpose, and compliance."
-        },
-        {
-          title: "Permit Issuance",
-          duration: "1–2 days",
-          description: "Upon successful approval, the permit is made available for download."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Sanitary Import Permit Services?",
-      description: [
-        "Comprehensive guidance from experienced consultants",
-        "Timely document review and submission",
-        "Regulatory support for smooth import clearance"
-      ],
-      points: [
-        "10+ years of expertise",
-        "Trusted by 500+ importers",
-        "99% approval success rate"
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "What is the validity of a sanitary import permit?",
-      answer: "It ranges from 3 months to 1 year, allowing multiple consignments within the approved limit."
-    },
-    {
-      question: "What is a sanitary import permit?",
-      answer: "It is a certificate specifying sanitary norms for importing livestock products into India."
-    },
-    {
-      question: "What is a sanitary import permit in customs?",
-      answer: "A document required at customs clearance to confirm compliance with animal import health norms."
-    },
-    {
-      question: "How can I get a sanitary import permit in India?",
-      answer: "Apply online via the SIP portal, attach required documents, and complete payment."
-    },
-    {
-      question: "Why is an online sanitary import permit required?",
-      answer: "To ensure that imported animal products meet health and hygiene standards, protecting public health."
-    },
-    {
-      question: "What documents are required for the sanitary import permit?",
-      answer: "FSSAI license, product catalogue, ingredient list, usage details, process chart, and analysis certificate."
-    },
-    {
-      question: "How is the Sanitary Import Permit delivered?",
-      answer: "Approved permits are made available for download on the SIP portal."
-    },
-    {
-      question: "How will missing documents be communicated?",
-      answer: "The applicant will be notified through the SIP portal to correct and resubmit the documents."
-    },
-    {
-      question: "What is the fee for a sanitary import permit?",
-      answer: "₹300 per application, excluding any consultant’s professional fees."
-    },
-    {
-      question: "How long does it take to get a sanitary import permit certificate?",
-      answer: "Typically 8–12 working days, subject to regulatory review and documentation."
-    }
-  ]
-}
-,
-
-"npop-certification": {
-  title: "NPOP Certification – A Complete Guide",
-  description: "Achieve NPOP certification with Do Startup’s expert support to certify your organic products for domestic and export markets under the National Programme for Organic Production.",
-  overview: [
-    {
-      heading: "An Overview of NPOP Certification",
-      content: "NPOP certification is a government-backed initiative that sets benchmarks for organic cultivation, processing, and trade. It allows farmers and businesses to officially showcase their adherence to organic farming standards, catering to eco-conscious consumers and promoting sustainable agriculture."
-    },
-    {
-      heading: "What is NPOP?",
-      content: "The National Programme for Organic Production (NPOP), launched in 2001, defines standards for organic farming, systems, and certification. Aligned with global norms, it governs the use of the India Organic logo and regulates import/export under APEDA."
-    },
-    {
-      heading: "Background of NPOP in India",
-      content: "Started in 2000, NPOP enabled organic certification for farms and livestock. As of 2024, India ranks second globally in organic farmland and first in farmer count. Administered by APEDA under the Ministry of Commerce, it unlocks both domestic and international organic markets."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Benefits of NPOP Registration",
-      content: "• Boost Consumer Trust – Certified products reassure buyers of quality.\n• Market Recognition – Credibility as a certified organic supplier.\n• Eco-Friendly Practices – Promotes sustainable agriculture and biodiversity.\n• Health Assurance – Guarantees chemical-free, GMO-free products.\n• Global Market Access – Facilitates organic exports under recognized standards."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for NPOP Certification",
-      content: "• Certification body’s mandate and program statement\n• Inspection and evaluation procedures\n• Fee structure and financial details\n• Complaint and appeal handling process\n• List of certified products\n• Company registration proof\n• Memorandum of Association (MOA)\n• Audited financial statements\n• Accreditation fee receipts\n• ISO 17065 quality manual\n• SOPs, formats, and checklists\n• Authorization letter\n• Additional relevant documents"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "How to Apply for NPOP Certification",
-      content: "1. Check Eligibility – Ensure compliance with NPOP farm and production standards.\n2. Choose a Certification Body – Accredited by APEDA under NPOP.\n3. Submit Application – Provide details of farm, crops, livestock.\n4. Upload Documents – Include certification plan, inputs, SOPs, etc.\n5. Inspection & Verification – Third-party checks ensure compliance.\n6. Certification Approval – Issued on successful compliance.\n7. Annual Review – APEDA conducts yearly audits of certified units."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "NPOP Certification Fees",
-      description: "Fees vary by certification body and scope of operation. Typically include application fee, inspection charges, and annual surveillance fees."
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Validity & Timeline of NPOP Certification",
-      description: "Valid for 3 years from issuance.",
-      steps: [
-        {
-          title: "Application to Approval",
-          duration: "3–6 months",
-          description: "Includes document review, inspections, and compliance verification."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for NPOP Certification?",
-      description: [
-        "Assisted 500+ agripreneurs",
-        "10+ years of sector expertise",
-        "99% certification success rate",
-        "End-to-end support",
-        "Affordable services",
-        "24/7 expert assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is NPOP certification?",
-      answer: "NPOP certification assures organic production quality under a national standard governed by APEDA and the Department of Commerce."
-    },
-    {
-      question: "What is the validity of an NPOP certificate?",
-      answer: "Valid for 3 years from the issuance date."
-    },
-    {
-      question: "What is the difference between NPOP and PGS-India?",
-      answer: "NPOP is a national certification scheme for export and domestic markets; PGS-India is a participatory guarantee system for domestic trade."
-    },
-    {
-      question: "Who certifies organic food in India?",
-      answer: "Certification bodies accredited by APEDA and NAB under NPOP carry out audits and approvals."
-    },
-    {
-      question: "Who needs organic certification?",
-      answer: "Producers, processors, traders, and exporters of organic agricultural products require certification."
-    },
-    {
-      question: "What does NPOP stand for?",
-      answer: "National Programme for Organic Production."
-    }
-  ]
-},
-
-
-"drone-registration": {
-  title: "Drone Registration – A Complete Overview",
-  description: "Register your drone on India’s Digital Sky platform via Do Startup to ensure legal, safe, and compliant operations for commercial or recreational use.",
-  overview: [
-    {
-      heading: "What is Drone Registration?",
-      content: "Under DGCA’s Drone Rules, 2021, all unmanned aircraft systems (UAS) above nano category must be registered on the Digital Sky platform to obtain a Unique Identification Number (UIN) and Operator Permit (UAOP) before flight operations."
-    },
-    {
-      heading: "Categories of Drone Registration",
-      content: "• Nano Drones: ≤ 250 g\n• Micro Drones: 251 g – 2 kg\n• Small Drones: 2 – 25 kg\n• Medium Drones: 25 – 150 kg\n• Large Drones: > 150 kg"
-    },
-    {
-      heading: "Importance of Registration",
-      content: "Ensures compliance with national security directives, prevents unauthorized flights, promotes safe operations, and supports growth of India’s indigenous drone ecosystem."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Key Benefits of Drone Registration",
-      content: "• Prevent unauthorized drone flights\n• Ensure operational safety and compliance\n• Enable commercial drone services\n• Boost domestic drone manufacturing\n• Access DGCA-approved flight corridors"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Registration",
-      content: "• Organization name & address proof\n• Company registration number & GST certificate\n• Director’s name & DIN\n• Aadhar card of one director\n• Drone specifications & photograph\n• OEM certificate & No Permission No Takeoff (NPNT) letter"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step-by-Step Registration Process",
-      content: "1. Check OEM certificate & NPNT compliance\n2. Register on Digital Sky portal\n3. Apply for UIN and mark it on your drone\n4. Apply for UAOP (Operator Permit)\n5. Obtain Remote Pilot License from DGCA-authorized institute\n6. Install NPNT software for real-time flight permissions"
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Government Fees",
-      description: "• UIN issuance: ₹1,000\n• UAOP application: ₹25,000\n• UAOP renewal: ₹10,000"
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline to Complete Registration",
-      description: "Process typically takes a few weeks to a few months depending on document accuracy and DGCA approvals.",
-      steps: [
-        {
-          title: "Digital Sky Registration",
-          duration: "1–2 weeks",
-          description: "Portal sign-up, form filling, and UIN issuance."
-        },
-        {
-          title: "UAOP & Pilot License",
-          duration: "2–4 weeks",
-          description: "Operator permit application and remote pilot license issuance."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "10,000+ experts nationwide",
-        "2,000+ successful drone registrations",
-        "99% approval rate",
-        "End-to-end documentation support",
-        "Transparent pricing and timelines",
-        "24/7 compliance assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "Do I need a license for nano drones?",
-      answer: "No, nano drones (≤ 250 g) flown for non-commercial purposes are exempt from registration and pilot licensing."
-    },
-    {
-      question: "What is NPNT?",
-      answer: "No Permission No Takeoff (NPNT) is a mandate requiring real-time digital clearance before drone takeoff."
-    },
-    {
-      question: "How long is a UAOP valid?",
-      answer: "UAOP validity aligns with drone category and pilot license validity, typically renewable annually."
-    },
-    {
-      question: "Can I fly anywhere in India?",
-      answer: "No, flights are restricted to green zones and require DPR approval for red and yellow zones."
-    },
-    {
-      question: "How soon can I start commercial operations?",
-      answer: "After obtaining UIN, UAOP, NPNT compliance, and remote pilot license — typically within 4–6 weeks."
-    }
-  ]
-}
+  "marriage-registration": {
+    title: "Marriage Registration",
+    description: "Officially register your marriage under the Hindu Marriage Act or Special Marriage Act with DoStartup’s expert assistance.",
+    overview: [
+      {
+        heading: "Overview of Marriage Registration",
+        content: "Marriage registration in India validates a secular union under the Hindu Marriage Act, 1955 (for Hindus) or the Special Marriage Act, 1954 (for others). Minimum ages are 18 for women and 21 for men. Registration can be completed online or offline."
+      },
+      {
+        heading: "Importance of a Marriage Certificate",
+        content: "A marriage certificate is legal proof of marital status required for passports, property transactions, bank accounts, insurance claims, name changes, divorces, and more. It ensures equal rights and prevents child or fraudulent marriages."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Primary Purpose and Benefits",
+        content: "● Confirms legal status and equal spousal rights under law\n● Enforces minimum age requirements to prevent child marriage\n● Provides credible proof for official and financial purposes\n● Deters fraudulent or bigamous unions"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content: "● Marriage certificate or invitation card\n● Passport‑size photographs of spouses and witnesses\n● Proof of age (birth certificates or school records)\n● Proof of address for both spouses\n● Notarized affidavit of self‑declaration\n● Details and signatures of four witnesses"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Online Registration Procedure",
+        content: "● Visit your state’s official marriage registration portal\n● Complete the online form with spouse and witness details\n● Submit electronically and note the appointment date\n● Appear at registrar’s office with originals and witnesses for verification\n● Receive marriage certificate after verification"
+      },
+      {
+        heading: "Offline Registration under Hindu Marriage Act",
+        content: "● Apply at Marriage Registrar or Tehsildar’s office within one month of marriage\n● Submit form, photographs, invitation card, ID & address proofs, affidavit\n● Both spouses and three witnesses sign in presence of registrar\n● Certificate issued upon verification"
+      },
+      {
+        heading: "Offline Registration under Special Marriage Act",
+        content: "● File notice with marriage officer of either spouse’s jurisdiction\n● Notice published for 30 days to invite objections\n● If no objections, solemnize marriage before officer with three witnesses\n● Present proofs of age, address, mental fitness, and non‑prohibited relationship\n● Marriage registered and certificate issued"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Registration",
+        description: "Fees vary by state and act. Online portals list nominal registration fees. Offline fees depend on local stamp duty and form charges.",
+        feeTable: []
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline and Validity",
+        description: "● Hindu Act: Register within one month of marriage\n● Special Act: 30‑day notice period + solemnization\n● Certificate issuance within 15–30 days post‑verification"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Marriage Registration",
+        description: [
+          "Guidance on both Hindu and Special Marriage Acts",
+          "End‑to‑end support for online and offline processes"
+        ],
+        points: [
+          "Form preparation and filing assistance",
+          "Document verification and appointment scheduling",
+          "Transparent updates until certificate delivery"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is Bigamy?",
+        answer: "Bigamy is marrying again while a previous spouse is still alive without obtaining a legal divorce, which is illegal under Indian law."
+      },
+      {
+        question: "How many wives can a Muslim male legally have?",
+        answer: "Under Muslim personal law, a Muslim man may have up to four wives simultaneously, provided he treats them equally."
+      },
+      {
+        question: "Why is marriage registration important?",
+        answer: "It provides legal proof of marriage, protects rights, and is required for official and financial matters like passports, bank accounts, and property transactions."
+      },
+      {
+        question: "What are the consequences if a marriage is not registered?",
+        answer: "Unregistered marriages may lead to legal disputes, lack of proof in court, and denial of benefits like spousal rights, inheritance, or government schemes."
+      },
+      {
+        question: "Is marriage registration compulsory?",
+        answer: "Yes. Registration under the appropriate act is mandatory to ensure legal validity and enforceability."
+      },
+      {
+        question: "What is the objection period under the Special Marriage Act?",
+        answer: "A 30‑day public notice is displayed to invite objections before solemnization can proceed."
+      },
+      {
+        question: "Where is the definition of a prohibited relationship found?",
+        answer: "Prohibited relationships are defined under Section 3(g) of the Hindu Marriage Act, 1955."
+      },
+      {
+        question: "Can marriage be registered online?",
+        answer: "Yes. Most states in India offer online marriage registration portals for convenience."
+      },
+      {
+        question: "What is the minimum legal age to solemnize a valid marriage?",
+        answer: "The minimum age is 18 years for women and 21 years for men under Indian law."
+      },
+      {
+        question: "Under which law can a non‑Hindu get their marriage registered?",
+        answer: "Non‑Hindus can register their marriage under the Special Marriage Act, 1954."
+      },
+      {
+        question: "Can an NRI register their marriage in India?",
+        answer: "Yes. NRIs can register under the Special Marriage Act or their respective personal laws."
+      },
+      {
+        question: "How long does it take to receive a marriage certificate?",
+        answer: "Typically 15–30 days after verification, depending on the state’s administrative process."
+      }
+    ]
+  }
+  
+  
+  
+  
+  
 
 
 
-
-
-
-
-
-
-
-
+  
 };

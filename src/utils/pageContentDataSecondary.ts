@@ -6990,6 +6990,468 @@ export const pageContent: Record<string, PageContentType> = {
     },
   },
 
+  "gst-return-filing": {
+    overview: {
+      heading: "An Overview of GST Return Filing",
+      paragraphs: [
+        "GST return filing is the process of reporting business transactions to the government under the Goods and Services Tax system in India. Returns must be filed monthly, quarterly, or annually based on turnover and registration category.",
+        "A GST return contains details of total purchases and sales, output tax, input tax credit, and net GST payable. Filing ensures compliance, maintains financial transparency, and helps calculate net tax liability.",
+        "Need assistance with GST filing? DoStartup expert consultants can help ensure error-free GST return submissions."
+      ]
+    },
+    features: [
+      {
+        icon: "📝",
+        title: "Comprehensive Reporting",
+        description: "Reports outward supplies, inward supplies, input tax credit, and tax liability in one dashboard."
+      },
+      {
+        icon: "⏱️",
+        title: "Timely Compliance",
+        description: "File returns within prescribed deadlines to avoid penalties."
+      },
+      {
+        icon: "🔄",
+        title: "Multiple Return Types",
+        description: "Supports all standard GSTR filings including monthly, quarterly, and annual returns."
+      }
+    ],
+    benefits: [
+      {
+        title: "Tax Transparency",
+        description: "Curb tax evasion through clear reporting of transactions."
+      },
+      {
+        title: "Input Credit Claims",
+        description: "Set off input tax credit against output liability seamlessly."
+      },
+      {
+        title: "Penalty Avoidance",
+        description: "Timely filings prevent interest and late fees."
+      },
+      {
+        title: "Business Insights",
+        description: "Track performance and creditworthiness for loans."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Obtain GSTIN",
+          desc: "Register and receive your 15-digit GST identification number."
+        },
+        {
+          title: "Login to GST Portal",
+          desc: "Sign in at gst.gov.in with your credentials."
+        },
+        {
+          title: "Select Return Type",
+          desc: "Choose the correct form (e.g., GSTR-1, 3B) based on your category."
+        },
+        {
+          title: "Enter Transaction Details",
+          desc: "Upload sales, purchase, and ITC data as per formats."
+        },
+        {
+          title: "Verify & Submit",
+          desc: "Review entries and generate ARN for your filing."
+        },
+        {
+          title: "Make Payment",
+          desc: "Pay any net tax via challan or electronic payment."
+        }
+      ],
+      violations: [
+        "Late filing results in ₹200 per day penalty (₹100 CGST + ₹100 SGST).",
+        "Interest at 18% per annum on outstanding tax dues.",
+        "Failure to file composition scheme returns invites higher penalties.",
+        "Incorrect data submission may trigger notices and audits."
+      ],
+      consequences: [
+        "Denial of input tax credit claims.",
+        "Blocked e-way bill generation for goods movement.",
+        "Restriction on export benefits and refunds.",
+        "Legal notices and potential prosecution for fraud."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Must File?",
+        items: [
+          "All GST-registered businesses",
+          "Composition scheme taxpayers",
+          "E-commerce operators",
+          "Non-resident foreign taxpayers",
+          "Entities with turnover above ₹5 crore"
+        ]
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Certificate of Incorporation or LLP agreement",
+          "PAN, MoA, AOA",
+          "Board resolution or authorization letter",
+          "Digital Signature Certificate (DSC)",
+          "GST-compliant invoices and credit/debit notes",
+          "Customer GSTIN details and HSN/SAC codes"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Automated Return Filling",
+        desc: "Upload bulk data and auto-populate GST returns."
+      },
+      {
+        title: "Error Validation",
+        desc: "Pre-submission checks to eliminate mismatches."
+      },
+      {
+        title: "Expert Review",
+        desc: "Tax consultants verify filings to ensure compliance."
+      },
+      {
+        title: "Penalty Advisory",
+        desc: "Guidance on minimizing late fees and interest."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is GST?",
+        answer: "GST (Goods and Services Tax) is a unified indirect tax introduced in India on July 1, 2017, replacing various earlier taxes like excise duty, service tax, and VAT."
+      },
+      {
+        question: "What is a GST return?",
+        answer: "A GST return is a document filed by registered taxpayers containing details of sales, purchases, tax collected and paid, used to calculate net tax liability."
+      },
+      {
+        question: "Who must file GST returns?",
+        answer: "All GST-registered entities, including those under composition scheme, e-commerce operators, non-resident taxpayers, and those with turnover above ₹5 crore."
+      },
+      {
+        question: "What are GSTR-1, GSTR-2A, and GSTR-3B?",
+        answer: "GSTR-1 reports outward supplies, GSTR-2A is an auto-drafted inward supplies statement, and GSTR-3B is a monthly self-declaration of net tax liability."
+      },
+      {
+        question: "Can GST returns be revised once filed?",
+        answer: "No, returns cannot be revised; corrections must be made in subsequent filings via the amendment section."
+      },
+      {
+        question: "What is GSTR-4?",
+        answer: "GSTR-4 is a quarterly return for taxpayers under the composition scheme."
+      },
+      {
+        question: "What is GSTR-9?",
+        answer: "GSTR-9 is the annual consolidated return summarizing all transactions for the financial year."
+      },
+      {
+        question: "What is GSTR-9C?",
+        answer: "GSTR-9C is a reconciliation statement required for businesses with turnover above ₹2 crore."
+      },
+      {
+        question: "What is GSTR-10?",
+        answer: "GSTR-10 is the final return filed upon cancellation of GST registration."
+      },
+      {
+        question: "What is GSTR-11?",
+        answer: "GSTR-11 is filed by UIN holders (e.g., foreign embassies) to report supplies received."
+      },
+      {
+        question: "What are the GST slab rates?",
+        answer: "Current GST slab rates are 0%, 0.25%, 3%, 5%, 12%, 18%, and 28%."
+      },
+      {
+        question: "What is the Composition Scheme?",
+        answer: "A simplified tax scheme for small taxpayers allowing payment of GST at a fixed rate of turnover with minimal filings."
+      },
+      {
+        question: "What are CGST, SGST, IGST, and UGST?",
+        answer: "CGST is collected by the Center, SGST by States, IGST on inter-state transactions, and UGST in Union Territories."
+      },
+      {
+        question: "Who determines GST rates?",
+        answer: "The GST Council, comprising Central and State representatives, finalizes rates based on recommendations from the Fitment Committee."
+      },
+      {
+        question: "Is monthly filing mandatory?",
+        answer: "Yes, monthly filing is mandatory for regular taxpayers unless enrolled under the QRMP Scheme for quarterly returns and monthly payments."
+      },
+      {
+        question: "Can filing frequency be changed?",
+        answer: "Yes, taxpayers can change their return filing frequency at the start of a new financial year."
+      },
+      {
+        question: "What are new GST compliances?",
+        answer: "Recent compliances include e-Way Bills for goods transport and e-Invoicing for B2B transactions to enhance transparency."
+      },
+      {
+        question: "What are the benefits of filing with DoStartup?",
+        answer: "Eliminates cascading taxes, offers expert support, ensures compliance, and streamlines the filing process for all taxpayer categories."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "GSTR-1",
+          shortText: "Sales Return",
+          backText: "Reports outward supplies monthly/quarterly."
+        },
+        {
+          title: "GSTR-3B",
+          shortText: "Summary Return",
+          backText: "Self-declaration of net tax liability every month."
+        },
+        {
+          title: "GSTR-4",
+          shortText: "Composition Return",
+          backText: "Quarterly return for composition scheme taxpayers."
+        },
+        {
+          title: "GSTR-9",
+          shortText: "Annual Return",
+          backText: "Consolidated annual filing for turnover > ₹2 crore."
+        }
+      ],
+      roleBenefits: [
+        "Collect GST from customers legally.",
+        "Claim and utilize input tax credits.",
+        "Maintain compliance to avoid penalties.",
+        "Demonstrate financial transparency to stakeholders."
+      ],
+      differenceTable: {
+        columns: ["Return Type", "Frequency", "Who Files"],
+        rows: [
+          ["GSTR-1", "Monthly/Quarterly", "Outward supplies providers"],
+          ["GSTR-3B", "Monthly", "All regular taxpayers"],
+          ["GSTR-4", "Quarterly", "Composition scheme taxpayers"],
+          ["GSTR-9", "Annually", "Turnover > ₹2 crore taxpayers"]
+        ]
+      },
+      timelineFees: [
+        "GSTR-1 due date: 11th of next month.",
+        "GSTR-3B due date: 20th of next month.",
+        "Late fee: ₹200/day (₹100 CGST + ₹100 SGST).",
+        "Interest: 18% p.a. on outstanding tax.",
+        "Annual return GSTR-9 due: 31st December post-FY."
+      ]
+    }
+  },
+
+  "legal-heir-certificate": {
+    overview: {
+      heading: "Legal Heir Certificate – An Overview",
+      paragraphs: [
+        "A Legal Heir Certificate, also known as a Waris or Survivor Certificate, is issued by local revenue authorities (Tehsildar, Mandal Officer) to establish the rightful heirs of a deceased person.",
+        "It serves as proof of relationship for claiming pensions, gratuity, provident fund, insurance, bank balances, and property transfer without a court order.",
+        "Though not governed by the Indian Succession Act directly, it is universally accepted by banks, insurers, and private entities for settlement of claims and asset distribution."
+      ]
+    },
+    features: [
+      {
+        icon: "👪",
+        title: "Heir Identification",
+        description: "Officially lists all surviving legal heirs entitled to inherit assets."
+      },
+      {
+        icon: "📜",
+        title: "Asset Transfer",
+        description: "Facilitates smooth transfer of pension, PF, gratuity, insurance and other benefits."
+      },
+      {
+        icon: "🏦",
+        title: "Widely Accepted",
+        description: "Recognized by banks, financial institutions, and government departments for claims settlement."
+      }
+    ],
+    benefits: [
+      {
+        title: "Property Transfer",
+        description: "Enables the legal transfer of movable and immovable assets to heirs."
+      },
+      {
+        title: "Insurance Claims",
+        description: "Required by insurers to release claim amounts to family members."
+      },
+      {
+        title: "Retirement Benefits",
+        description: "Essential for claiming provident fund, gratuity, and pension dues."
+      },
+      {
+        title: "Government Services",
+        description: "Used for compassionate appointment and other administrative functions."
+      },
+      {
+        title: "Legal Proceedings",
+        description: "Supports court and tribunal processes by identifying rightful heirs."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Obtain Application Form",
+          desc: "Collect and fill the Legal Heir Certificate form from the local revenue office or portal."
+        },
+        {
+          title: "Attach Documents",
+          desc: "Submit death certificate, address proof of deceased, ID and DOB proofs of heirs, affidavit, and filled form."
+        },
+        {
+          title: "Submit & Pay Fees",
+          desc: "File application at the Tehsildar's office with applicable state fee."
+        },
+        {
+          title: "Verification",
+          desc: "Revenue authority verifies documents and may conduct local enquiry."
+        },
+        {
+          title: "Certificate Issuance",
+          desc: "Upon approval, the Legal Heir Certificate is issued, usually within 15–30 days."
+        }
+      ],
+      violations: [
+        "Rejected application due to incomplete documents.",
+        "False declarations may attract legal penalties.",
+        "Non-payment of fees invalidates the application.",
+        "Incorrect heir details cause processing delays."
+      ],
+      consequences: [
+        "Delay or denial of asset transfer and claims.",
+        "Ineligibility for pension, PF, insurance settlement.",
+        "Need to reapply or appeal for certificate issuance.",
+        "Possible legal action for misrepresentation."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Can Apply?",
+        items: [
+          "Spouse, children, parents of the deceased",
+          "Siblings, grandchildren, great-grandchildren (Class II heirs)",
+          "Extended family members (if Class I heirs are unavailable)"
+        ]
+      },
+      {
+        heading: "Governing Laws",
+        items: [
+          "Indian Succession Act, 1925",
+          "Hindu Succession Act, 1956",
+          "Finance Act, 2023 (Section 165)",
+          "Relevant State Revenue Rules",
+          "Personal laws for Muslims, Christians, etc."
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "End-to-End Filing",
+        desc: "Complete support from form filling to certificate download."
+      },
+      {
+        title: "Document Assistance",
+        desc: "Review and preparation of affidavits, ID proofs, and death certificate."
+      },
+      {
+        title: "State-Specific Guidance",
+        desc: "Advice on varying procedures and fees across states."
+      },
+      {
+        title: "Application Tracking",
+        desc: "Real-time updates and follow-ups with revenue authorities."
+      },
+      {
+        title: "Duplicate Certificate",
+        desc: "Assistance in obtaining replacement if original is lost."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is the processing time?",
+        answer: "Typically 15–30 days from submission, depending on local authority."
+      },
+      {
+        question: "Is online application available?",
+        answer: "Available in select states; otherwise, apply in person at revenue office."
+      },
+      {
+        question: "What is the fee?",
+        answer: "Varies by state—usually nominal government fee as per local rules."
+      },
+      {
+        question: "Can a legal heir certificate be cancelled?",
+        answer: "It can be revoked by authority on valid objections or misrepresentation."
+      },
+      {
+        question: "How is it different from a succession certificate?",
+        answer: "Legal Heir Certificate identifies heirs for basic claims; Succession Certificate is a court order for all movable assets."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Missing Death Certificate",
+          shortText: "Obtain authenticated death cert.",
+          backText: "No certificate can be issued without original death proof."
+        },
+        {
+          title: "Incorrect Heir List",
+          shortText: "Verify all heir names.",
+          backText: "Errors in heir names delay issuance."
+        },
+        {
+          title: "Incomplete Affidavit",
+          shortText: "Use proper format.",
+          backText: "Affidavit lapses if not notarized correctly."
+        },
+        {
+          title: "Fee Payment Error",
+          shortText: "Confirm payment receipt.",
+          backText: "Invalid payment cancels application session."
+        },
+        {
+          title: "Wrong Application Form",
+          shortText: "Use updated state form.",
+          backText: "Old versions may be rejected."
+        },
+        {
+          title: "Delayed Verification",
+          shortText: "Provide local address proof.",
+          backText: "Verification hinges on accurate local info."
+        }
+      ],
+      roleBenefits: [
+        "Establishes rightful heirs for asset claims.",
+        "Clears legal roadblocks in pension and PF settlements.",
+        "Simplifies bank and insurance claim processes.",
+        "Facilitates compassionate employment benefits.",
+        "Reduces litigation by clarifying heirship."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Legal Heir Certificate", "Succession Certificate"],
+        rows: [
+          ["1", "Issued by revenue authority", "Issued by civil court"],
+          ["2", "For basic benefit claims", "For full estate distribution"],
+          ["3", "Takes ~30 days", "May take 4–5 months"],
+          ["4", "Minimal formalities", "Court petition required"],
+          ["5", "No fee standardization", "Court fees apply"]
+        ]
+      },
+      timelineFees: [
+        "Application filing: Day 1",
+        "Document verification: Days 2–15",
+        "Inspection (if any): Days 10–20",
+        "Certificate issuance: Day 15–30",
+        "State fee range: ₹50–₹500 (varies)"
+      ]
+    }
+  }
+  
+
+
+  
+  
+  
+  
+
 
   
 

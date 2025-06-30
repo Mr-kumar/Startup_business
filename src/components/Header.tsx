@@ -429,7 +429,7 @@ const Header = () => {
           description: "Goods and Services Tax services",
           links: [
             { name: "GST Registration", href: "/second/gst-registration" },
-            { name: "GST Filing", href: "/tax/gst-filing" },
+            { name: "GST Filing", href: "/second/gst-return-filing" },
           ],
         },
       ],
