@@ -11937,77 +11937,84 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-
   "section-8-demand-notice": {
     title: "Section 8 Demand Notice under IBC",
-    description: "Serve a demand notice to recover unpaid operational debt from a corporate debtor under Section 8 of the Insolvency and Bankruptcy Code, 2016.",
+    description:
+      "Serve a demand notice to recover unpaid operational debt from a corporate debtor under Section 8 of the Insolvency and Bankruptcy Code, 2016.",
     overview: [
       {
         heading: "Overview of Section 8 Demand Notice",
-        content: "Under the IBC, an operational creditor must issue a demand notice (Form 3) to a corporate debtor before initiating insolvency proceedings. The notice outlines the total unpaid amount, transaction details, due date and amount claimed. The debtor has 10 days to respond by paying or disputing the debt."
+        content:
+          "Under the IBC, an operational creditor must issue a demand notice (Form 3) to a corporate debtor before initiating insolvency proceedings. The notice outlines the total unpaid amount, transaction details, due date and amount claimed. The debtor has 10 days to respond by paying or disputing the debt.",
       },
       {
         heading: "Key Provisions of Section 8",
-        content: "Section 8 requires the debtor to respond within 10 days with proof of payment or evidence of an existing dispute, legal or arbitration proceedings begun before notice receipt. Failure to respond allows the creditor to file for insolvency resolution under Form 5 before the NCLT."
-      }
+        content:
+          "Section 8 requires the debtor to respond within 10 days with proof of payment or evidence of an existing dispute, legal or arbitration proceedings begun before notice receipt. Failure to respond allows the creditor to file for insolvency resolution under Form 5 before the NCLT.",
+      },
     ],
     benefits: [
       {
         heading: "Why Issue a Section 8 Demand Notice",
-        content: "● Provides the debtor a fair opportunity to clear dues without insolvency\n● Ensures compliance with IBC requirements\n● Preserves operational relationship before formal proceedings\n● Establishes clear record of demand for tribunal application"
-      }
+        content:
+          "● Provides the debtor a fair opportunity to clear dues without insolvency\n● Ensures compliance with IBC requirements\n● Preserves operational relationship before formal proceedings\n● Establishes clear record of demand for tribunal application",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for Section 8 Demand Notice",
-        content: "● Invoices relating to the unpaid operational debt\n● Form 3 demand notice draft\n● Details of operational creditor and corporate debtor\n● Proof of default from information utilities (if any)\n● Any security or contract documents supporting the claim\n● Certificate of incorporation of the debtor"
-      }
+        content:
+          "● Invoices relating to the unpaid operational debt\n● Form 3 demand notice draft\n● Details of operational creditor and corporate debtor\n● Proof of default from information utilities (if any)\n● Any security or contract documents supporting the claim\n● Certificate of incorporation of the debtor",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Procedure to Serve Section 8 Demand Notice",
-        content: "● Draft Form 3 notice with total unpaid amount, transaction details, due date and amount claimed\n● Attach relevant invoices and proof of debt\n● Serve the notice on the corporate debtor by hand or registered post\n● Debtor must respond within 10 days by payment or disputing the claim\n● If no response or dispute, file insolvency application (Form 5) before NCLT"
-      }
+        content:
+          "● Draft Form 3 notice with total unpaid amount, transaction details, due date and amount claimed\n● Attach relevant invoices and proof of debt\n● Serve the notice on the corporate debtor by hand or registered post\n● Debtor must respond within 10 days by payment or disputing the claim\n● If no response or dispute, file insolvency application (Form 5) before NCLT",
+      },
     ],
     feesStructure: [
       {
         heading: "Fees for Demand Notice and Insolvency Application",
-        description: "Filing fee for Form 3 is nominal. Tribunal application (Form 5) fee varies with authorized share capital or debt amount.",
-        feeTable: []
-      }
+        description:
+          "Filing fee for Form 3 is nominal. Tribunal application (Form 5) fee varies with authorized share capital or debt amount.",
+        feeTable: [],
+      },
     ],
     registrationTimeline: [
       {
         heading: "Timeline under Section 8",
-        description: "Key timeframes for notice and subsequent insolvency proceedings:",
+        description:
+          "Key timeframes for notice and subsequent insolvency proceedings:",
         steps: [
           {
             title: "Notice Period",
             duration: "10 days",
-            description: "Debtor must respond to demand notice"
+            description: "Debtor must respond to demand notice",
           },
           {
             title: "Tribunal Application",
             duration: "Immediately after 10-day period",
-            description: "File Form 5 with NCLT if no response or dispute"
+            description: "File Form 5 with NCLT if no response or dispute",
           },
           {
             title: "NCLT Decision",
             duration: "14 days",
-            description: "NCLT admits or rejects insolvency application"
+            description: "NCLT admits or rejects insolvency application",
           },
           {
             title: "Resolution Process",
             duration: "180 days (extendable)",
-            description: "Insolvency resolution to be completed"
+            description: "Insolvency resolution to be completed",
           },
           {
             title: "Appeal Timeline",
             duration: "30 days",
-            description: "File appeal before NCLAT"
-          }
-        ]
-      }
+            description: "File appeal before NCLAT",
+          },
+        ],
+      },
     ],
     whyUs: [
       {
@@ -12015,616 +12022,2555 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
         description: [
           "Expert drafting of Form 3 demand notices",
           "Compliant service to corporate debtors",
-          "End-to-end support through insolvency application"
+          "End-to-end support through insolvency application",
         ],
         points: [
           "Legal expertise in IBC processes",
           "Fast turnaround on notice preparation",
-          "Guidance through NCLT procedures"
-        ]
-      }
+          "Guidance through NCLT procedures",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is a Section 8 demand notice?",
-        answer: "A formal notice served by an operational creditor under Form 3 of the IBC demanding payment of unpaid operational debt."
+        answer:
+          "A formal notice served by an operational creditor under Form 3 of the IBC demanding payment of unpaid operational debt.",
       },
       {
         question: "How long does the debtor have to respond?",
-        answer: "The corporate debtor has 10 days from notice receipt to pay the debt or dispute it with proper documentation."
+        answer:
+          "The corporate debtor has 10 days from notice receipt to pay the debt or dispute it with proper documentation.",
       },
       {
         question: "What happens if there is no response?",
-        answer: "The creditor can file an insolvency application (Form 5) before the NCLT immediately after the 10-day period."
+        answer:
+          "The creditor can file an insolvency application (Form 5) before the NCLT immediately after the 10-day period.",
       },
       {
         question: "Who is an operational creditor?",
-        answer: "Anyone to whom an operational debt is owed, including suppliers, service providers, employees or tax authorities, as defined under Section 5(20) of the IBC."
+        answer:
+          "Anyone to whom an operational debt is owed, including suppliers, service providers, employees or tax authorities, as defined under Section 5(20) of the IBC.",
       },
       {
         question: "What must be included in the demand notice?",
-        answer: "Total unpaid amount, transaction details, due date, amount claimed, and relevant invoices supporting the debt."
+        answer:
+          "Total unpaid amount, transaction details, due date, amount claimed, and relevant invoices supporting the debt.",
       },
       {
         question: "When must the insolvency process complete?",
-        answer: "The corporate insolvency resolution process must be completed within 180 days of NCLT admission, subject to one extension."
+        answer:
+          "The corporate insolvency resolution process must be completed within 180 days of NCLT admission, subject to one extension.",
       },
       {
         question: "Can the debtor appeal an NCLT decision?",
-        answer: "Yes, appeals can be filed before the NCLAT within 30 days of the decision."
-      }
-    ]
+        answer:
+          "Yes, appeals can be filed before the NCLAT within 30 days of the decision.",
+      },
+    ],
   },
 
   "succession-certificate": {
     title: "Succession Certificate",
-    description: "Obtain a succession certificate to claim and manage the assets, liabilities, debts, and securities of a deceased person who died without leaving a will.",
+    description:
+      "Obtain a succession certificate to claim and manage the assets, liabilities, debts, and securities of a deceased person who died without leaving a will.",
     overview: [
       {
         heading: "Overview of Succession Certificate",
-        content: "A succession certificate is a legal document issued by a civil court judge to the rightful successors of a person who died intestate (without a will). It authorizes heirs to claim the deceased’s assets, liabilities, recover debts, and transfer securities."
+        content:
+          "A succession certificate is a legal document issued by a civil court judge to the rightful successors of a person who died intestate (without a will). It authorizes heirs to claim the deceased’s assets, liabilities, recover debts, and transfer securities.",
       },
       {
         heading: "Intestate Succession Process",
-        content: "The court where the deceased last resided or held property conducts an inquiry to verify the claimant’s status. After publishing a public notice for objections and holding a hearing, the judge issues the certificate detailing the deceased, legal heirs, and all assets and liabilities."
-      }
+        content:
+          "The court where the deceased last resided or held property conducts an inquiry to verify the claimant’s status. After publishing a public notice for objections and holding a hearing, the judge issues the certificate detailing the deceased, legal heirs, and all assets and liabilities.",
+      },
     ],
     benefits: [
       {
         heading: "Eligibility and Key Details",
-        content: "Eligible applicants include the spouse, children, siblings, and other legal heirs recognized under personal succession laws. The petition must state date/time of death, last residence, names and addresses of all heirs, applicant’s inheritance right, declaration of no objections, and a list of debts and securities."
+        content:
+          "Eligible applicants include the spouse, children, siblings, and other legal heirs recognized under personal succession laws. The petition must state date/time of death, last residence, names and addresses of all heirs, applicant’s inheritance right, declaration of no objections, and a list of debts and securities.",
       },
       {
         heading: "Difference from Legal Heir Certificate",
-        content: "Unlike a legal heir certificate (issued by a Tehsildar for pension or family claims), a succession certificate (issued by a District Judge) empowers heirs to manage financial assets, debts, and securities of the deceased."
-      }
+        content:
+          "Unlike a legal heir certificate (issued by a Tehsildar for pension or family claims), a succession certificate (issued by a District Judge) empowers heirs to manage financial assets, debts, and securities of the deceased.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for Succession Certificate",
-        content: "● Affidavit of self‑declaration by applicant\n● Identity proof and address proof of applicant and all heirs\n● Date of birth proof of heirs\n● Death certificate of the deceased (and any deceased heir)\n● Proof of deceased’s last residence\n● Copies of title deeds or property documents\n● Details of all debts, securities, and liabilities"
-      }
+        content:
+          "● Affidavit of self‑declaration by applicant\n● Identity proof and address proof of applicant and all heirs\n● Date of birth proof of heirs\n● Death certificate of the deceased (and any deceased heir)\n● Proof of deceased’s last residence\n● Copies of title deeds or property documents\n● Details of all debts, securities, and liabilities",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Procedure to Obtain Succession Certificate",
-        content: "● Draft and file a petition before the District Judge, paying court fees as per estate value\n● Court issues a public notice in a local newspaper inviting objections\n● After the objection period, court holds a final hearing to verify heirs and assets\n● Judge grants the certificate; applicant may be required to submit a bond with sureties\n● Certificate is typed, attested, and handed over to the successful applicant"
-      }
+        content:
+          "● Draft and file a petition before the District Judge, paying court fees as per estate value\n● Court issues a public notice in a local newspaper inviting objections\n● After the objection period, court holds a final hearing to verify heirs and assets\n● Judge grants the certificate; applicant may be required to submit a bond with sureties\n● Certificate is typed, attested, and handed over to the successful applicant",
+      },
     ],
     feesStructure: [
       {
         heading: "Cost of Succession Certificate",
-        description: "Court fee is calculated as a percentage of the estate’s value under the Court Fees Act, 1870 and paid via judicial stamp papers. Professional fees may apply if legal assistance is engaged."
-      }
+        description:
+          "Court fee is calculated as a percentage of the estate’s value under the Court Fees Act, 1870 and paid via judicial stamp papers. Professional fees may apply if legal assistance is engaged.",
+      },
     ],
     registrationTimeline: [
       {
         heading: "Validity and Revocation",
-        description: "The certificate is valid throughout India. Under Section 383 of the Indian Succession Act, it can be revoked for procedural defects, fraud, changed circumstances, or by a court order. Appeals lie to the High Court."
-      }
+        description:
+          "The certificate is valid throughout India. Under Section 383 of the Indian Succession Act, it can be revoked for procedural defects, fraud, changed circumstances, or by a court order. Appeals lie to the High Court.",
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Succession Certificates",
         description: [
           "Comprehensive support in drafting petitions and compiling documents",
-          "Handling public notices, hearings, and bond formalities"
+          "Handling public notices, hearings, and bond formalities",
         ],
         points: [
           "Expertise in personal succession and court procedures",
           "Timely filings and representation in court",
-          "Transparent process tracking and updates"
-        ]
-      }
+          "Transparent process tracking and updates",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is a succession certificate?",
-        answer: "A legal document issued by a District Judge that authorizes heirs of an intestate to claim the deceased’s assets, debts, and securities."
+        answer:
+          "A legal document issued by a District Judge that authorizes heirs of an intestate to claim the deceased’s assets, debts, and securities.",
       },
       {
         question: "How does it differ from probate?",
-        answer: "Probate validates a will as the deceased’s last testament, whereas a succession certificate applies when no will exists."
+        answer:
+          "Probate validates a will as the deceased’s last testament, whereas a succession certificate applies when no will exists.",
       },
       {
         question: "Who can apply for it?",
-        answer: "The spouse, children, siblings, or other legal heirs of the deceased recognized under succession laws."
+        answer:
+          "The spouse, children, siblings, or other legal heirs of the deceased recognized under succession laws.",
       },
       {
         question: "What details must the petition contain?",
-        answer: "Date/time of death, last residence, names and addresses of heirs, applicant’s inheritance right, declaration of no objections, and list of assets/debts."
+        answer:
+          "Date/time of death, last residence, names and addresses of heirs, applicant’s inheritance right, declaration of no objections, and list of assets/debts.",
       },
       {
         question: "Can anyone object to its issuance?",
-        answer: "Yes; the court publishes a public notice allowing any interested party to file objections within the prescribed period."
+        answer:
+          "Yes; the court publishes a public notice allowing any interested party to file objections within the prescribed period.",
       },
       {
         question: "What documents are required?",
-        answer: "Affidavit, ID and address proofs, death certificates, residence proof, title deeds, and details of debts and securities."
+        answer:
+          "Affidavit, ID and address proofs, death certificates, residence proof, title deeds, and details of debts and securities.",
       },
       {
         question: "How much does it cost?",
-        answer: "Court fee is a percentage of estate value under the Court Fees Act, 1870, payable via stamp papers; legal fees vary by advisor."
+        answer:
+          "Court fee is a percentage of estate value under the Court Fees Act, 1870, payable via stamp papers; legal fees vary by advisor.",
       },
       {
         question: "What is the validity?",
-        answer: "Valid across India unless revoked by a competent court under Section 383."
+        answer:
+          "Valid across India unless revoked by a competent court under Section 383.",
       },
       {
         question: "How long does the process take?",
-        answer: "Typically 4–6 months, depending on publication, objection period, and court schedule."
+        answer:
+          "Typically 4–6 months, depending on publication, objection period, and court schedule.",
       },
       {
         question: "Can it be revoked?",
-        answer: "Yes; on grounds of fraud, procedural defect, changed circumstances, or court order under Section 383."
+        answer:
+          "Yes; on grounds of fraud, procedural defect, changed circumstances, or court order under Section 383.",
       },
       {
         question: "Who issues the certificate?",
-        answer: "The District Judge of the jurisdiction where the deceased last resided or owned property."
+        answer:
+          "The District Judge of the jurisdiction where the deceased last resided or owned property.",
       },
       {
         question: "Why is it necessary?",
-        answer: "It grants legal authority to heirs for recovering debts, transferring securities, and managing financial assets of an intestate."
-      }
-    ]
+        answer:
+          "It grants legal authority to heirs for recovering debts, transferring securities, and managing financial assets of an intestate.",
+      },
+    ],
   },
 
   "lease-agreement-drafting": {
     title: "Lease Agreement Drafting",
-    description: "Draft a comprehensive lease agreement under the Transfer of Property Act, 1882, outlining rights and obligations of lessor and lessee.",
+    description:
+      "Draft a comprehensive lease agreement under the Transfer of Property Act, 1882, outlining rights and obligations of lessor and lessee.",
     overview: [
       {
         heading: "Legal Framework",
-        content: "Leases are governed by Section 105 and Chapter 5 of the Transfer of Property Act, 1882. A lease grants the lessee the right to use immovable or movable property for a defined period in exchange for rent."
+        content:
+          "Leases are governed by Section 105 and Chapter 5 of the Transfer of Property Act, 1882. A lease grants the lessee the right to use immovable or movable property for a defined period in exchange for rent.",
       },
       {
         heading: "Key Parties and Nature of Lease",
-        content: "Lessor: Owner or controller of the property.  \nLessee: Person who acquires the right to use the property.  \nThe lease conveys usage rights without transferring ownership. Lessee may maintain or alter property with permission and must keep it in good condition."
-      }
+        content:
+          "Lessor: Owner or controller of the property.  \nLessee: Person who acquires the right to use the property.  \nThe lease conveys usage rights without transferring ownership. Lessee may maintain or alter property with permission and must keep it in good condition.",
+      },
     ],
     benefits: [
       {
         heading: "Common Terms in Lease Agreements",
-        content: "● Duration: Fixed or indefinite lease period  \n● Rent: Agreed monetary consideration  \n● Deposits: Security amount refundable after lease ends  \n● Use Terms: Conditions on permissible use  \n● Utilities: Charges for extra services  \n● Insurance: Protection for property  \n● Repairs & Maintenance: Responsibilities of lessor or lessee"
-      }
+        content:
+          "● Duration: Fixed or indefinite lease period  \n● Rent: Agreed monetary consideration  \n● Deposits: Security amount refundable after lease ends  \n● Use Terms: Conditions on permissible use  \n● Utilities: Charges for extra services  \n● Insurance: Protection for property  \n● Repairs & Maintenance: Responsibilities of lessor or lessee",
+      },
     ],
     documentsRequired: [
       {
         heading: "Essential Contents of a Lease Agreement",
-        content: "● Names and details of lessor and lessee (and agents)  \n● Detailed description of the property  \n● Lease term and duration  \n● Rent amount, payment schedule, late fees, and grace period  \n● Payment method  \n● Conditions and charges for early termination  \n● Security deposit and refund terms  \n● Utility charges and usage terms  \n● Additional facilities (e.g., parking, laundry)  \n● Rules for maintaining peace and penalties for breaches"
-      }
+        content:
+          "● Names and details of lessor and lessee (and agents)  \n● Detailed description of the property  \n● Lease term and duration  \n● Rent amount, payment schedule, late fees, and grace period  \n● Payment method  \n● Conditions and charges for early termination  \n● Security deposit and refund terms  \n● Utility charges and usage terms  \n● Additional facilities (e.g., parking, laundry)  \n● Rules for maintaining peace and penalties for breaches",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Stages of Lease Deed Execution",
-        content: "● Negotiation of rent, duration, insurance, and terms  \n● Draft Memorandum of Understanding outlining rights and duties  \n● Title investigation and due diligence to verify ownership  \n● Draft lease deed and pay state‑specific stamp duty  \n● Execute lease deed with witnesses and register at Sub‑Registrar office  \n● Post‑registration notification for licenses and possession"
-      }
+        content:
+          "● Negotiation of rent, duration, insurance, and terms  \n● Draft Memorandum of Understanding outlining rights and duties  \n● Title investigation and due diligence to verify ownership  \n● Draft lease deed and pay state‑specific stamp duty  \n● Execute lease deed with witnesses and register at Sub‑Registrar office  \n● Post‑registration notification for licenses and possession",
+      },
     ],
     feesStructure: [
       {
         heading: "Stamp Duty and Registration Fees",
-        description: "Stamp duty rates vary by state under the Stamp Act. Registration fees apply for leases over one year under the Registration Act and differ by district."
-      }
+        description:
+          "Stamp duty rates vary by state under the Stamp Act. Registration fees apply for leases over one year under the Registration Act and differ by district.",
+      },
     ],
     registrationTimeline: [
       {
         heading: "Post‑Registration Compliance",
-        description: "After registration, notify relevant authorities of lessee’s possession to obtain any required licenses or permissions within 30 days."
-      }
+        description:
+          "After registration, notify relevant authorities of lessee’s possession to obtain any required licenses or permissions within 30 days.",
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Lease Agreements",
         description: [
           "Expert drafting under the Transfer of Property Act, 1882",
-          "State‑wise stamp duty and registration guidance"
+          "State‑wise stamp duty and registration guidance",
         ],
         points: [
           "Customized lease terms to suit commercial or residential needs",
           "End‑to‑end support from negotiation through registration",
-          "Transparent process tracking and timely updates"
-        ]
-      }
+          "Transparent process tracking and timely updates",
+        ],
+      },
     ],
     faq: [
       {
         question: "Who are the parties involved in a lease agreement?",
-        answer: "Lessor (property owner) and lessee (tenant) are the primary parties."
+        answer:
+          "Lessor (property owner) and lessee (tenant) are the primary parties.",
       },
       {
         question: "What are the key elements of a lease agreement?",
-        answer: "Lease duration, rent amount, property description, identities of lessor and lessee, and terms of use."
+        answer:
+          "Lease duration, rent amount, property description, identities of lessor and lessee, and terms of use.",
       },
       {
         question: "Is stamp duty mandatory for a lease agreement?",
-        answer: "Yes. Stamp duty varies by state and is mandatory under the Stamp Act."
+        answer:
+          "Yes. Stamp duty varies by state and is mandatory under the Stamp Act.",
       },
       {
         question: "When must a lease be registered?",
-        answer: "Leases exceeding one year must be registered under the Registration Act to be legally valid."
+        answer:
+          "Leases exceeding one year must be registered under the Registration Act to be legally valid.",
       },
       {
         question: "Can the lessor ask for a security deposit?",
-        answer: "Yes. The lessor may require a security deposit refundable at lease end."
+        answer:
+          "Yes. The lessor may require a security deposit refundable at lease end.",
       },
       {
         question: "What should not be included in a lease agreement?",
-        answer: "Clauses waiving the lessee’s statutory rights or remedies should be avoided."
+        answer:
+          "Clauses waiving the lessee’s statutory rights or remedies should be avoided.",
       },
       {
         question: "How are disputes under a lease resolved?",
-        answer: "Disputes are typically resolved via arbitration or in court as per the agreement."
+        answer:
+          "Disputes are typically resolved via arbitration or in court as per the agreement.",
       },
       {
         question: "What is the difference between rent and lease?",
-        answer: "A lease usually covers a longer term, while a rent agreement typically covers shorter periods."
-      }
-    ]
+        answer:
+          "A lease usually covers a longer term, while a rent agreement typically covers shorter periods.",
+      },
+    ],
   },
-
 
   "will-drafting": {
     title: "Will Drafting",
-    description: "Draft a clear and legally valid will to ensure your assets are distributed according to your wishes.",
+    description:
+      "Draft a clear and legally valid will to ensure your assets are distributed according to your wishes.",
     overview: [
       {
         heading: "Overview of Will",
-        content: "A will is a legal declaration by the testator specifying how personal assets and properties should be distributed after death. It prevents disputes among heirs and ensures harmony by following the testator’s instructions exactly."
+        content:
+          "A will is a legal declaration by the testator specifying how personal assets and properties should be distributed after death. It prevents disputes among heirs and ensures harmony by following the testator’s instructions exactly.",
       },
       {
         heading: "Parties to a Will",
-        content: "Testator: Person who makes the will.  \nBeneficiaries: Named individuals to receive assets.  \nExecutor: Appointed to carry out the will’s instructions.  \nTrustee: Manages the estate for beneficiaries.  \nLegal Guardian: Manages the shares of minor beneficiaries."
-      }
+        content:
+          "Testator: Person who makes the will.  \nBeneficiaries: Named individuals to receive assets.  \nExecutor: Appointed to carry out the will’s instructions.  \nTrustee: Manages the estate for beneficiaries.  \nLegal Guardian: Manages the shares of minor beneficiaries.",
+      },
     ],
     benefits: [
       {
         heading: "Types and Essentials of a Will",
-        content: "Privileged Will: For armed forces in active duty, with fewer formalities.  \nUnprivileged Will: All other wills requiring strict formalities.  \nEssentials: Must be a voluntary declaration, effective after death, revocable during lifetime, and specify distribution clearly."
+        content:
+          "Privileged Will: For armed forces in active duty, with fewer formalities.  \nUnprivileged Will: All other wills requiring strict formalities.  \nEssentials: Must be a voluntary declaration, effective after death, revocable during lifetime, and specify distribution clearly.",
       },
       {
         heading: "Assets Covered",
-        content: "Movable and immovable assets such as real estate, bank and fixed deposits, bonds, securities, jewelry, intellectual property, art collections, insurance policies, and retirement benefits."
-      }
+        content:
+          "Movable and immovable assets such as real estate, bank and fixed deposits, bonds, securities, jewelry, intellectual property, art collections, insurance policies, and retirement benefits.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Details & Documents for Will Drafting",
-        content: "Identification details of testator (name, address, age, date of will).  \nDeclaration of sound mind and voluntariness.  \nNames, addresses, ages, relationships of beneficiaries.  \nExecutor, trustee, guardian details.  \nComprehensive list of all assets and their allotment.  \nTestator’s signature and date with two witness signatures."
-      }
+        content:
+          "Identification details of testator (name, address, age, date of will).  \nDeclaration of sound mind and voluntariness.  \nNames, addresses, ages, relationships of beneficiaries.  \nExecutor, trustee, guardian details.  \nComprehensive list of all assets and their allotment.  \nTestator’s signature and date with two witness signatures.",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Procedure for Will Execution",
-        content: "Draft the will meeting all essentials.  \nHave two witnesses observe and sign it.  \nOptionally register the will and have it stamped to enhance authenticity.  \nFor execution, file for probate by petitioning the court with a copy of the will and property details."
-      }
+        content:
+          "Draft the will meeting all essentials.  \nHave two witnesses observe and sign it.  \nOptionally register the will and have it stamped to enhance authenticity.  \nFor execution, file for probate by petitioning the court with a copy of the will and property details.",
+      },
     ],
     registrationTimeline: [
       {
         heading: "Revocation and Updates",
-        description: "A will can be revoked by destroying it, creating a new will, or by marriage. Updates require drafting a fresh will, which automatically cancels prior versions."
-      }
+        description:
+          "A will can be revoked by destroying it, creating a new will, or by marriage. Updates require drafting a fresh will, which automatically cancels prior versions.",
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Will Drafting",
         description: [
           "Expert drafting compliant with Indian Succession Act, 1925 and related laws",
-          "Guidance on execution, registration, and probate process"
+          "Guidance on execution, registration, and probate process",
         ],
         points: [
           "Customized will templates",
           "Secure handling of sensitive information",
-          "Ongoing support for updates and probate filings"
-        ]
-      }
+          "Ongoing support for updates and probate filings",
+        ],
+      },
     ],
     faq: [
       {
         question: "Why is a will necessary?",
-        answer: "It ensures that your assets are distributed according to your wishes and prevents disputes among heirs."
+        answer:
+          "It ensures that your assets are distributed according to your wishes and prevents disputes among heirs.",
       },
       {
         question: "Who is the executor of a will?",
-        answer: "The executor is the person appointed by the testator to carry out the instructions in the will and oversee the distribution of assets."
+        answer:
+          "The executor is the person appointed by the testator to carry out the instructions in the will and oversee the distribution of assets.",
       },
       {
         question: "What happens if no executor is appointed?",
-        answer: "If no executor is appointed, the court will assign an administrator to manage the estate and distribute assets."
+        answer:
+          "If no executor is appointed, the court will assign an administrator to manage the estate and distribute assets.",
       },
       {
         question: "If I die without making a will, who inherits my assets?",
-        answer: "Your assets will be distributed according to intestate succession laws under personal succession or the Indian Succession Act, 1925."
+        answer:
+          "Your assets will be distributed according to intestate succession laws under personal succession or the Indian Succession Act, 1925.",
       },
       {
         question: "What are the essential elements of a valid will?",
-        answer: "It must be in writing, made voluntarily by a testator of legal age and sound mind, signed by two witnesses, and clearly state asset distribution."
+        answer:
+          "It must be in writing, made voluntarily by a testator of legal age and sound mind, signed by two witnesses, and clearly state asset distribution.",
       },
       {
         question: "When is the ideal time to make a will?",
-        answer: "Any time after age 18; it’s especially recommended after major life events like marriage or having children."
+        answer:
+          "Any time after age 18; it’s especially recommended after major life events like marriage or having children.",
       },
       {
         question: "What are common mistakes to avoid when drafting a will?",
-        answer: "Inaccurate asset descriptions, not revoking prior wills, omitting updates after asset changes, and failing to appoint guardians for minors."
+        answer:
+          "Inaccurate asset descriptions, not revoking prior wills, omitting updates after asset changes, and failing to appoint guardians for minors.",
       },
       {
         question: "Is it necessary to register a will?",
-        answer: "No, registration is optional. However, a registered will can ease the probate process and strengthen authenticity."
+        answer:
+          "No, registration is optional. However, a registered will can ease the probate process and strengthen authenticity.",
       },
       {
         question: "Can a will be changed after registration?",
-        answer: "Yes. The testator can modify the will by drafting a new one, which automatically cancels previous wills."
+        answer:
+          "Yes. The testator can modify the will by drafting a new one, which automatically cancels previous wills.",
       },
       {
         question: "What types of assets can be included in a will?",
-        answer: "Both movable and immovable assets such as real estate, bank accounts, fixed deposits, bonds, insurance policies, art, and intellectual property."
+        answer:
+          "Both movable and immovable assets such as real estate, bank accounts, fixed deposits, bonds, insurance policies, art, and intellectual property.",
       },
       {
         question: "Who can act as a witness to a will?",
-        answer: "Any person over 18 of sound mind who observes the testator signing. Ideally, witnesses should not be beneficiaries."
+        answer:
+          "Any person over 18 of sound mind who observes the testator signing. Ideally, witnesses should not be beneficiaries.",
       },
       {
         question: "Is a will valid if only one witness signs it?",
-        answer: "No. At least two witnesses must sign for the will to be legally valid."
+        answer:
+          "No. At least two witnesses must sign for the will to be legally valid.",
       },
       {
         question: "Can a will be updated or changed?",
-        answer: "Yes. A new will can be drafted at any time before death to update or change the previous document."
-      }
-    ]
+        answer:
+          "Yes. A new will can be drafted at any time before death to update or change the previous document.",
+      },
+    ],
   },
-
 
   "mutual-divorce": {
     title: "Mutual Consent Divorce",
-    description: "End your marriage amicably and efficiently with mutual consent divorce facilitated by DoStartup’s expert legal team.",
+    description:
+      "End your marriage amicably and efficiently with mutual consent divorce facilitated by DoStartup’s expert legal team.",
     overview: [
       {
         heading: "Overview of Mutual Consent Divorce",
-        content: "Mutual consent divorce is a simpler, quicker, and more cost‑effective procedure in India where both spouses voluntarily agree to dissolve their marriage. With DoStartup’s guidance, you can prepare documents, comply with legal requirements, appear in court, and obtain your divorce decree with dignity and mutual respect."
-      }
+        content:
+          "Mutual consent divorce is a simpler, quicker, and more cost‑effective procedure in India where both spouses voluntarily agree to dissolve their marriage. With DoStartup’s guidance, you can prepare documents, comply with legal requirements, appear in court, and obtain your divorce decree with dignity and mutual respect.",
+      },
     ],
     benefits: [
       {
         heading: "Advantages of Mutual Consent Divorce",
-        content: "● Saves time, money, and emotional turmoil\n● Minimizes conflict by mutual agreement on alimony, child custody, and property division\n● Faster alternative to contested divorce\n● Allows both parties to end marriage amicably"
-      }
+        content:
+          "● Saves time, money, and emotional turmoil\n● Minimizes conflict by mutual agreement on alimony, child custody, and property division\n● Faster alternative to contested divorce\n● Allows both parties to end marriage amicably",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for Mutual Divorce",
-        content: "● Marriage certificate\n● Four marriage photographs\n● Address proof of both spouses\n● Income tax returns of earning spouse\n● Professional details of both parties\n● Information on movable and immovable property\n● Family background details\n● Proof of living separately for at least one year"
-      }
+        content:
+          "● Marriage certificate\n● Four marriage photographs\n● Address proof of both spouses\n● Income tax returns of earning spouse\n● Professional details of both parties\n● Information on movable and immovable property\n● Family background details\n● Proof of living separately for at least one year",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Procedure for Mutual Consent Divorce",
-        content: "● File joint petition in family court with agreements on custody, maintenance, and property\n● First court appearance with both parties and their lawyers\n● Court reviews petition, records statements under oath, and may attempt reconciliation\n● Court grants first motion and imposes 6‑month waiting period\n● After waiting period, file second motion if no reconciliation\n● Final court hearing; if consent remains mutual and free of coercion, court issues divorce decree"
-      }
+        content:
+          "● File joint petition in family court with agreements on custody, maintenance, and property\n● First court appearance with both parties and their lawyers\n● Court reviews petition, records statements under oath, and may attempt reconciliation\n● Court grants first motion and imposes 6‑month waiting period\n● After waiting period, file second motion if no reconciliation\n● Final court hearing; if consent remains mutual and free of coercion, court issues divorce decree",
+      },
     ],
     feesStructure: [
       {
         heading: "Court Fees and Professional Charges",
-        description: "Court fees vary by state and case value. DoStartup’s professional fees depend on complexity and include draft petitions, filings, and court appearances.",
-        feeTable: []
-      }
+        description:
+          "Court fees vary by state and case value. DoStartup’s professional fees depend on complexity and include draft petitions, filings, and court appearances.",
+        feeTable: [],
+      },
     ],
     registrationTimeline: [
       {
         heading: "Timeline for Mutual Divorce",
-        description: "Key timeframes under the Hindu Marriage Act or Special Marriage Act:",
+        description:
+          "Key timeframes under the Hindu Marriage Act or Special Marriage Act:",
         steps: [
           {
             title: "Separation Period",
             duration: "1 year",
-            description: "Mandatory period of living separately before filing"
+            description: "Mandatory period of living separately before filing",
           },
           {
             title: "First Motion",
             duration: "Day of filing",
-            description: "Court records statements and grants first motion"
+            description: "Court records statements and grants first motion",
           },
           {
             title: "Cooling‑Off Period",
             duration: "6 months",
-            description: "Statutory waiting period (waivable by court)"
+            description: "Statutory waiting period (waivable by court)",
           },
           {
             title: "Second Motion",
             duration: "Within 18 months of first motion",
-            description: "File for second motion if no reconciliation"
+            description: "File for second motion if no reconciliation",
           },
           {
             title: "Final Decree",
             duration: "Immediately after second motion",
-            description: "Court issues divorce decree"
-          }
-        ]
-      }
+            description: "Court issues divorce decree",
+          },
+        ],
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Mutual Divorce",
         description: [
           "End‑to‑end support from petition drafting to final decree",
-          "Expert guidance on alimony, custody, and property settlement"
+          "Expert guidance on alimony, custody, and property settlement",
         ],
         points: [
           "Fast turnaround and streamlined process",
           "Personalized legal advice and representation",
-          "Transparent pricing and regular updates"
-        ]
-      }
+          "Transparent pricing and regular updates",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is mutual consent in a divorce?",
-        answer: "Mutual consent divorce occurs when both spouses voluntarily agree to end their marriage without force or pressure."
+        answer:
+          "Mutual consent divorce occurs when both spouses voluntarily agree to end their marriage without force or pressure.",
       },
       {
         question: "Where should a mutual divorce petition be filed?",
-        answer: "In the family court with jurisdiction over the area where the couple last lived together or where the marriage was solemnized."
+        answer:
+          "In the family court with jurisdiction over the area where the couple last lived together or where the marriage was solemnized.",
       },
       {
         question: "How long does mutual divorce take?",
-        answer: "Typically between 6 months to 2 years, depending on court schedules and whether the cooling‑off period is waived."
+        answer:
+          "Typically between 6 months to 2 years, depending on court schedules and whether the cooling‑off period is waived.",
       },
       {
         question: "Can either party withdraw the petition?",
-        answer: "Yes, either spouse can withdraw consent during the 6‑month waiting period by applying to the court."
+        answer:
+          "Yes, either spouse can withdraw consent during the 6‑month waiting period by applying to the court.",
       },
       {
         question: "Is court appearance mandatory?",
-        answer: "Yes, both parties must appear in person for the first and second motions, unless exempted by the court for valid reasons."
+        answer:
+          "Yes, both parties must appear in person for the first and second motions, unless exempted by the court for valid reasons.",
       },
       {
         question: "What if consent was obtained under coercion?",
-        answer: "The court examines voluntariness; if coercion or undue influence is proven, the decree can be invalidated."
+        answer:
+          "The court examines voluntariness; if coercion or undue influence is proven, the decree can be invalidated.",
       },
       {
         question: "Is the cooling‑off period mandatory?",
-        answer: "Statutorily yes, but the family court may waive the 6‑month period if reconciliation is deemed impossible."
+        answer:
+          "Statutorily yes, but the family court may waive the 6‑month period if reconciliation is deemed impossible.",
       },
       {
         question: "How is alimony decided?",
-        answer: "By mutual agreement based on factors like marriage duration, financial status, and earning capacity; it may be lump sum or monthly."
+        answer:
+          "By mutual agreement based on factors like marriage duration, financial status, and earning capacity; it may be lump sum or monthly.",
       },
       {
         question: "Can I remarry before the decree?",
-        answer: "No, remarriage before obtaining a valid divorce decree is illegal under Indian law."
+        answer:
+          "No, remarriage before obtaining a valid divorce decree is illegal under Indian law.",
       },
       {
         question: "Which law governs mutual divorce?",
-        answer: "Hindu Marriage Act Section 13B for Hindus, Special Marriage Act Section 28 for civil marriages, Parsi Marriage and Divorce Act Section 32B for Parsis, and respective personal laws for others."
-      }
-    ]
+        answer:
+          "Hindu Marriage Act Section 13B for Hindus, Special Marriage Act Section 28 for civil marriages, Parsi Marriage and Divorce Act Section 32B for Parsis, and respective personal laws for others.",
+      },
+    ],
   },
-
 
   "marriage-registration": {
     title: "Marriage Registration",
-    description: "Officially register your marriage under the Hindu Marriage Act or Special Marriage Act with DoStartup’s expert assistance.",
+    description:
+      "Officially register your marriage under the Hindu Marriage Act or Special Marriage Act with DoStartup’s expert assistance.",
     overview: [
       {
         heading: "Overview of Marriage Registration",
-        content: "Marriage registration in India validates a secular union under the Hindu Marriage Act, 1955 (for Hindus) or the Special Marriage Act, 1954 (for others). Minimum ages are 18 for women and 21 for men. Registration can be completed online or offline."
+        content:
+          "Marriage registration in India validates a secular union under the Hindu Marriage Act, 1955 (for Hindus) or the Special Marriage Act, 1954 (for others). Minimum ages are 18 for women and 21 for men. Registration can be completed online or offline.",
       },
       {
         heading: "Importance of a Marriage Certificate",
-        content: "A marriage certificate is legal proof of marital status required for passports, property transactions, bank accounts, insurance claims, name changes, divorces, and more. It ensures equal rights and prevents child or fraudulent marriages."
-      }
+        content:
+          "A marriage certificate is legal proof of marital status required for passports, property transactions, bank accounts, insurance claims, name changes, divorces, and more. It ensures equal rights and prevents child or fraudulent marriages.",
+      },
     ],
     benefits: [
       {
         heading: "Primary Purpose and Benefits",
-        content: "● Confirms legal status and equal spousal rights under law\n● Enforces minimum age requirements to prevent child marriage\n● Provides credible proof for official and financial purposes\n● Deters fraudulent or bigamous unions"
-      }
+        content:
+          "● Confirms legal status and equal spousal rights under law\n● Enforces minimum age requirements to prevent child marriage\n● Provides credible proof for official and financial purposes\n● Deters fraudulent or bigamous unions",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for Registration",
-        content: "● Marriage certificate or invitation card\n● Passport‑size photographs of spouses and witnesses\n● Proof of age (birth certificates or school records)\n● Proof of address for both spouses\n● Notarized affidavit of self‑declaration\n● Details and signatures of four witnesses"
-      }
+        content:
+          "● Marriage certificate or invitation card\n● Passport‑size photographs of spouses and witnesses\n● Proof of age (birth certificates or school records)\n● Proof of address for both spouses\n● Notarized affidavit of self‑declaration\n● Details and signatures of four witnesses",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Online Registration Procedure",
-        content: "● Visit your state’s official marriage registration portal\n● Complete the online form with spouse and witness details\n● Submit electronically and note the appointment date\n● Appear at registrar’s office with originals and witnesses for verification\n● Receive marriage certificate after verification"
+        content:
+          "● Visit your state’s official marriage registration portal\n● Complete the online form with spouse and witness details\n● Submit electronically and note the appointment date\n● Appear at registrar’s office with originals and witnesses for verification\n● Receive marriage certificate after verification",
       },
       {
         heading: "Offline Registration under Hindu Marriage Act",
-        content: "● Apply at Marriage Registrar or Tehsildar’s office within one month of marriage\n● Submit form, photographs, invitation card, ID & address proofs, affidavit\n● Both spouses and three witnesses sign in presence of registrar\n● Certificate issued upon verification"
+        content:
+          "● Apply at Marriage Registrar or Tehsildar’s office within one month of marriage\n● Submit form, photographs, invitation card, ID & address proofs, affidavit\n● Both spouses and three witnesses sign in presence of registrar\n● Certificate issued upon verification",
       },
       {
         heading: "Offline Registration under Special Marriage Act",
-        content: "● File notice with marriage officer of either spouse’s jurisdiction\n● Notice published for 30 days to invite objections\n● If no objections, solemnize marriage before officer with three witnesses\n● Present proofs of age, address, mental fitness, and non‑prohibited relationship\n● Marriage registered and certificate issued"
-      }
+        content:
+          "● File notice with marriage officer of either spouse’s jurisdiction\n● Notice published for 30 days to invite objections\n● If no objections, solemnize marriage before officer with three witnesses\n● Present proofs of age, address, mental fitness, and non‑prohibited relationship\n● Marriage registered and certificate issued",
+      },
     ],
     feesStructure: [
       {
         heading: "Fees for Registration",
-        description: "Fees vary by state and act. Online portals list nominal registration fees. Offline fees depend on local stamp duty and form charges.",
-        feeTable: []
-      }
+        description:
+          "Fees vary by state and act. Online portals list nominal registration fees. Offline fees depend on local stamp duty and form charges.",
+        feeTable: [],
+      },
     ],
     registrationTimeline: [
       {
         heading: "Timeline and Validity",
-        description: "● Hindu Act: Register within one month of marriage\n● Special Act: 30‑day notice period + solemnization\n● Certificate issuance within 15–30 days post‑verification"
-      }
+        description:
+          "● Hindu Act: Register within one month of marriage\n● Special Act: 30‑day notice period + solemnization\n● Certificate issuance within 15–30 days post‑verification",
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose DoStartup for Marriage Registration",
         description: [
           "Guidance on both Hindu and Special Marriage Acts",
-          "End‑to‑end support for online and offline processes"
+          "End‑to‑end support for online and offline processes",
         ],
         points: [
           "Form preparation and filing assistance",
           "Document verification and appointment scheduling",
-          "Transparent updates until certificate delivery"
-        ]
-      }
+          "Transparent updates until certificate delivery",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is Bigamy?",
-        answer: "Bigamy is marrying again while a previous spouse is still alive without obtaining a legal divorce, which is illegal under Indian law."
+        answer:
+          "Bigamy is marrying again while a previous spouse is still alive without obtaining a legal divorce, which is illegal under Indian law.",
       },
       {
         question: "How many wives can a Muslim male legally have?",
-        answer: "Under Muslim personal law, a Muslim man may have up to four wives simultaneously, provided he treats them equally."
+        answer:
+          "Under Muslim personal law, a Muslim man may have up to four wives simultaneously, provided he treats them equally.",
       },
       {
         question: "Why is marriage registration important?",
-        answer: "It provides legal proof of marriage, protects rights, and is required for official and financial matters like passports, bank accounts, and property transactions."
+        answer:
+          "It provides legal proof of marriage, protects rights, and is required for official and financial matters like passports, bank accounts, and property transactions.",
       },
       {
         question: "What are the consequences if a marriage is not registered?",
-        answer: "Unregistered marriages may lead to legal disputes, lack of proof in court, and denial of benefits like spousal rights, inheritance, or government schemes."
+        answer:
+          "Unregistered marriages may lead to legal disputes, lack of proof in court, and denial of benefits like spousal rights, inheritance, or government schemes.",
       },
       {
         question: "Is marriage registration compulsory?",
-        answer: "Yes. Registration under the appropriate act is mandatory to ensure legal validity and enforceability."
+        answer:
+          "Yes. Registration under the appropriate act is mandatory to ensure legal validity and enforceability.",
       },
       {
-        question: "What is the objection period under the Special Marriage Act?",
-        answer: "A 30‑day public notice is displayed to invite objections before solemnization can proceed."
+        question:
+          "What is the objection period under the Special Marriage Act?",
+        answer:
+          "A 30‑day public notice is displayed to invite objections before solemnization can proceed.",
       },
       {
         question: "Where is the definition of a prohibited relationship found?",
-        answer: "Prohibited relationships are defined under Section 3(g) of the Hindu Marriage Act, 1955."
+        answer:
+          "Prohibited relationships are defined under Section 3(g) of the Hindu Marriage Act, 1955.",
       },
       {
         question: "Can marriage be registered online?",
-        answer: "Yes. Most states in India offer online marriage registration portals for convenience."
+        answer:
+          "Yes. Most states in India offer online marriage registration portals for convenience.",
       },
       {
-        question: "What is the minimum legal age to solemnize a valid marriage?",
-        answer: "The minimum age is 18 years for women and 21 years for men under Indian law."
+        question:
+          "What is the minimum legal age to solemnize a valid marriage?",
+        answer:
+          "The minimum age is 18 years for women and 21 years for men under Indian law.",
       },
       {
-        question: "Under which law can a non‑Hindu get their marriage registered?",
-        answer: "Non‑Hindus can register their marriage under the Special Marriage Act, 1954."
+        question:
+          "Under which law can a non‑Hindu get their marriage registered?",
+        answer:
+          "Non‑Hindus can register their marriage under the Special Marriage Act, 1954.",
       },
       {
         question: "Can an NRI register their marriage in India?",
-        answer: "Yes. NRIs can register under the Special Marriage Act or their respective personal laws."
+        answer:
+          "Yes. NRIs can register under the Special Marriage Act or their respective personal laws.",
       },
       {
         question: "How long does it take to receive a marriage certificate?",
-        answer: "Typically 15–30 days after verification, depending on the state’s administrative process."
-      }
-    ]
-  }
-  
-  
-  
-  
-  
+        answer:
+          "Typically 15–30 days after verification, depending on the state’s administrative process.",
+      },
+    ],
+  },
+
+  "divorce-notice": {
+    title: "Divorce Notice",
+    description:
+      "Initiate divorce proceedings by serving a formal legal notice with DoStartup’s expert assistance.",
+    overview: [
+      {
+        heading: "Overview of Divorce Notice",
+        content:
+          "In India’s diverse legal landscape, either spouse may send a legal notice expressing intent to initiate divorce proceedings. This formal warning allows for reconciliation efforts before filing a petition.",
+      },
+      {
+        heading: "What is a Legal Notice for Divorce?",
+        content:
+          "A divorce notice is a formal communication by one spouse to the other, informing them of the sender’s intention to pursue divorce through legal channels and inviting a response or reconciliation.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Purpose and Advantages",
+        content:
+          "● Provides a formal opportunity to resolve disputes amicably\n● Acts as legal proof of intent and timeline\n● Can lead to negotiated settlements on alimony, custody, and property\n● Often results in faster, less contentious divorce proceedings",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Information Required to Draft Notice",
+        content:
+          "● Names and addresses of both spouses\n● Details of marital discord and grievances\n● Any prior reconciliation attempts\n● Specific demands (e.g., return home, alimony, custody)\n● Reasonable response timeframe (15–30 days)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Sending Divorce Notice",
+        content:
+          "● Engage a competent lawyer to draft the notice on official letterhead\n● Detail facts, issues, and valid grounds for divorce\n● Specify required actions and deadlines for response or reconciliation\n● Send via registered post, courier, or speed post and retain proof of delivery\n● Await reply; if none, proceed to file divorce petition, or negotiate if response received",
+      },
+      {
+        heading: "Special Notice to Spouse to Return Home",
+        content:
+          "If a spouse abandons the matrimonial home without cause, send a notice under Section 9 of the Hindu Marriage Act to seek restitution of conjugal rights before filing a petition.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Divorce Notices",
+        description: [
+          "Expert drafting and precise legal notice preparation",
+          "Secure delivery and proof of service management",
+          "Guidance through subsequent divorce petition process",
+        ],
+        points: [
+          "Rapid turnaround on notice drafting",
+          "Experienced divorce law specialists",
+          "End‑to‑end support from notice to petition filing",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What happens after a divorce notice is served?",
+        answer:
+          "The recipient should submit a written response within the specified period. If no reply, the sender may proceed to file a divorce petition.",
+      },
+      {
+        question: "Can a notice ask a wife to return home?",
+        answer:
+          "Yes. Under Section 9 of the Hindu Marriage Act, a husband can send a notice seeking restitution of conjugal rights if the wife leaves without valid reason.",
+      },
+      {
+        question: "What are common grounds for divorce?",
+        answer:
+          "Cruelty, desertion, adultery, mental disorder, seven years’ disappearance, renunciation, and other statutory grounds.",
+      },
+      {
+        question: "Is there a specific format for a divorce notice?",
+        answer:
+          "No statutory format exists. The notice should include party details, grounds, demands, and response timeline.",
+      },
+      {
+        question: "How must the notice be delivered?",
+        answer:
+          "Via registered post, courier, or speed post with proof of delivery retained by the sending lawyer.",
+      },
+      {
+        question: "Is an advocate’s signature mandatory?",
+        answer:
+          "Yes. The drafting advocate must sign the notice on their official letterhead with the date.",
+      },
+      {
+        question: "Can a divorce notice lead to settlement?",
+        answer:
+          "Often. Recipients may negotiate terms of maintenance, custody, or property division in response to the notice.",
+      },
+      {
+        question: "What if no response is received?",
+        answer:
+          "The sender may proceed to file a divorce petition in the appropriate court as outlined in the notice.",
+      },
+      {
+        question: "Which laws govern divorce notices?",
+        answer:
+          "Hindu Marriage Act (Section 9 and chapters on divorce), Special Marriage Act, Parsi Marriage & Divorce Act, Indian Divorce Act, and respective personal laws.",
+      },
+      {
+        question: "Does serving a notice guarantee reconciliation?",
+        answer:
+          "Not guaranteed, but it provides a formal opportunity for both parties to discuss and possibly resolve issues before litigation.",
+      },
+    ],
+  },
+
+  "property-registration": {
+    title: "Property Registration",
+    description:
+      "Complete legal transfer of property ownership under the Registration Act and Stamp Act with DoStartup’s expert guidance.",
+    overview: [
+      {
+        heading: "Overview of Property Registration",
+        content:
+          "Property registration in India is mandatory when purchasing land or property valued above ₹100. It transfers ownership from seller to buyer and records the transaction with the Sub‑registrar’s office, safeguarding both parties’ interests.",
+      },
+      {
+        heading: "Mandatory Registration and Governing Laws",
+        content:
+          "Under Section 17 of the Registration Act, 1908, immovable properties above ₹100 must be registered. Stamp duty under the Indian Stamp Act, 1889 is payable by the buyer based on market value; rates vary by state.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Property Registration",
+        content:
+          "● Provides clear, legally enforceable ownership records\n● Protects against fraudulent claims and land disputes\n● Enables easy property mutation and tax benefits under Section 80C\n● Government compensation for registrar errors\n● Mandatory for legal protection and financing",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content:
+          "● Passport‑size photographs of buyer and seller\n● Identity proofs (Aadhar, PAN) for both parties\n● Latest property card or title document\n● Municipal tax bill and NOC\n● Verified sale deed copy or other deed (gift, lease)\n● Certificate of completed construction (if applicable)\n● Power of attorney (if one party is represented)\n● Payment receipts for stamp duty and registration fees",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Offline Registration Process",
+        content:
+          "● Estimate property value using circle rate\n● Purchase non‑judicial stamp paper online/offline\n● Draft and print deed (sale, gift, lease) on stamp paper\n● Parties and two witnesses attend Sub‑registrar’s office with originals\n● Submit documents and pay registration charges\n● Registrar verifies and issues registration receipt",
+      },
+      {
+        heading: "Online Registration Process",
+        content:
+          "● Confirm state support for online registration\n● Register or login to the state portal\n● Fill in property, buyer, seller details and upload documents\n● Calculate and pay stamp duty, registration fee, and 1% TDS if value > ₹50 lakh\n● Obtain payment receipts and appointment slot\n● Visit office with receipts and witnesses for final verification",
+      },
+      {
+        heading: "National Generic Document Registration System (NGDRS)",
+        content:
+          "The NGDRS portal standardizes registration across states, providing same‑day document copies, market rate data, and a user‑friendly interface for transparent, efficient registration.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Stamp Duty and Registration Fees",
+        description:
+          "Stamp duty and registration fees vary by state, property value, purpose (commercial vs residential), location, gender of owner, and amenities. Typically around 1% of market value, with concessions for women.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline and Validity",
+        description:
+          "● Registration must be completed within 4 months of transaction\n● Certificate issuance usually within 15–30 days after verification\n● Unregistered property is not valid evidence and may forfeit compensation under Section 80C of the Income Tax Act",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Property Registration",
+        description: [
+          "End‑to‑end support for offline and NGDRS processes",
+          "Accurate stamp duty calculation and fee payment guidance",
+        ],
+        points: [
+          "Assistance with deed drafting and document compilation",
+          "Appointment scheduling and office liaison",
+          "Transparent updates from submission to receipt",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Where is the legal provision for property registration mentioned?",
+        answer:
+          "Under Section 17 of the Registration Act, 1908, property valued above ₹100 must be registered.",
+      },
+      {
+        question: "What does the term 'circle rate' mean?",
+        answer:
+          "Circle rate is the minimum property value fixed by the government’s revenue department for registration purposes.",
+      },
+      {
+        question: "What is the usual time frame for property registration?",
+        answer:
+          "Registration should be completed within 4 months; certificate issuance typically takes 15–30 days post‑verification.",
+      },
+      {
+        question: "What are the consequences of not registering a property?",
+        answer:
+          "Unregistered properties cannot legally prove ownership and may forfeit compensation if acquired by the government.",
+      },
+      {
+        question: "Which documents are essential for property registration?",
+        answer:
+          "Aadhar cards, photographs, property deed, NOC, title documents, municipal tax receipts, completion certificate, and power of attorney if applicable.",
+      },
+      {
+        question: "How are registration fees determined?",
+        answer:
+          "Fees depend on property value, state‑specific stamp duty rates, transaction type, location, gender concessions, and amenities.",
+      },
+      {
+        question: "Is it possible to register property online?",
+        answer:
+          "Yes. Many states use NGDRS or their own portals for online registration, though physical verification is still required.",
+      },
+      {
+        question: "Is property registration mandatory in India?",
+        answer:
+          "Yes. Any immovable property valued above ₹100 must be registered under the Registration Act.",
+      },
+      {
+        question: "Are there registration fee concessions for women?",
+        answer:
+          "Yes. Many states offer reduced stamp duty or registration charges if the property is registered in a woman’s name.",
+      },
+      {
+        question: "Is presence of parties mandatory during registration?",
+        answer:
+          "Yes. Both buyer and seller, along with two witnesses, must be physically present for final document verification.",
+      },
+      {
+        question: "Can the sub‑registrar cancel a registration application?",
+        answer:
+          "Yes. Applications may be canceled for insufficient stamp duty, missing documents, or errors at the time of registration.",
+      },
+    ],
+  },
+
+  "property-valuation": {
+    title: "Property Valuation",
+    description:
+      "Obtain accurate market value assessments of your property through certified valuation services by DoStartup’s experts.",
+    overview: [
+      {
+        heading: "Overview of Property Valuation",
+        content:
+          "Property valuation determines the current market value of real estate and movable assets by analyzing factors such as location, structure, amenities, infrastructure, and supply‑demand dynamics. Certified professionals produce detailed reports outlining observations, methodology, and valuation conclusions.",
+      },
+      {
+        heading: "Who Conducts Property Valuation",
+        content:
+          "Only licensed valuers certified by the Institution of Valuers and holding a state license may perform professional property valuations. They prepare comprehensive reports including site measurements, condition assessments, risk factors, and market comparisons.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Importance of Property Valuation",
+        content:
+          "● Sellers avoid undervaluation and buyers avoid overpaying\n● Insurers determine correct coverage amounts\n● Tenants negotiate fair rents\n● Taxpayers calculate accurate property, income, and wealth taxes\n● Homeowners assess renovation ROI\n● Lenders set loan terms and interest rates\n● Heirs resolve inheritance disputes equitably\n● Investors make informed decisions and prevent fraud",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Information Required for Valuation",
+        content:
+          "● Property address and title details\n● Site plans and floor layouts\n● Age and condition of structure\n● Details of amenities and utility connections\n● Recent sale data of comparable properties\n● Any renovation or improvement records",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Property Valuation Process",
+        content:
+          "● Engage a certified valuer and submit required property information\n● Valuer inspects the site, measures dimensions, and documents condition\n● Analyze location factors, infrastructure, demand‑supply, and amenities\n● Apply appropriate valuation method (comparison, cost, profit, residual, contractor’s)\n● Prepare detailed valuation report with methodology, observations, and final market value",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Valuation Fees",
+        description:
+          "Fees vary by property type, size, and report complexity. DoStartup connects you to professionals who charge reasonable, transparent rates based on valuation scope.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Valuation Report",
+        description:
+          "Most valuation reports are delivered within 7–14 business days of site inspection, depending on property complexity and data availability.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Valuation",
+        description: [
+          "Access certified, government‑licensed valuers",
+          "Detailed, court‑admissible valuation reports",
+        ],
+        points: [
+          "Fast scheduling of site inspections",
+          "Transparent pricing and methodology",
+          "Comprehensive support for loan, insurance, and legal use cases",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Is a valuation by a real estate agent the same as a professional valuer?",
+        answer:
+          "No. Only certified valuers produce credible reports using standardized methods; agent estimates may lack accuracy and legal standing.",
+      },
+      {
+        question: "Can property value be determined online?",
+        answer:
+          "Yes. Online platforms provide estimated valuations, but a certified valuer’s onsite report is more accurate.",
+      },
+      {
+        question: "Is getting a property valuation a wise decision?",
+        answer:
+          "Absolutely. It protects against fraud, supports fair deals, and informs financial, legal, and investment decisions.",
+      },
+      {
+        question: "Who qualifies as a valuer?",
+        answer:
+          "A valuer holds a degree from the Institution of Valuers and a state license authorizing professional valuation practice.",
+      },
+      {
+        question: "Why is property valuation important?",
+        answer:
+          "It determines accurate market value for sales, loans, insurance, tax calculation, inheritance, and investment planning.",
+      },
+      {
+        question: "What factors does a valuer consider?",
+        answer:
+          "Size, condition, design, layout, location, infrastructure, amenities, demand‑supply, and legal status.",
+      },
+      {
+        question: "Who uses valuation reports?",
+        answer:
+          "Buyers, sellers, investors, financial institutions, insurers, tenants, tax authorities, and legal professionals.",
+      },
+      {
+        question: "What is the main objective of valuation?",
+        answer:
+          "To determine the true market value of a property at a given point in time.",
+      },
+      {
+        question: "Which factor impacts valuation the most?",
+        answer:
+          "Infrastructure and location have the greatest influence on property value.",
+      },
+      {
+        question: "How can someone find a property’s market price?",
+        answer:
+          "Refer to the government’s circle rate or obtain a certified valuation report.",
+      },
+      {
+        question: "What factors are evaluated for residential use?",
+        answer:
+          "Size, number of rooms and floors, neighborhood quality, nearby amenities, and property condition.",
+      },
+      {
+        question: "Are standard valuation and lender’s valuation the same?",
+        answer:
+          "No. Lender valuations focus on loan‑security risk, while standard valuations determine general market value.",
+      },
+    ],
+  },
+
+  "property-verification": {
+    title: "Property Verification",
+    description:
+      "Ensure secure real estate transactions with thorough due diligence and title verification services by DoStartup’s experts.",
+    overview: [
+      {
+        heading: "Overview of Property Verification",
+        content:
+          "Property verification (due diligence) confirms the legal ownership and status of real estate in India by reviewing title documents, identifying encumbrances, validating seller identity, and checking tax and local authority records.",
+      },
+      {
+        heading: "Importance of Title Verification",
+        content:
+          "● Proves rightful ownership via government‑recorded title documents\n● Uncovers hidden liabilities or disputes\n● Ensures seller’s legal authority to transact\n● Protects buyers and lenders from fraud",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Document Verification",
+        content:
+          "● Confirms property is free from litigation and encumbrances\n● Streamlines collateral approval for loans\n● Protects against fraudulent resales\n● Verifies tax payment history and mutation records",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Verification",
+        content:
+          "● Title documents (sale deed, gift deed, succession certificate)\n● Encumbrance certificate\n● Bank loan approval report (if applicable)\n● Approved site plan and actual site plan\n● Property tax receipts\n● Power of Attorney (if seller is represented)\n● Registered society membership proof (if applicable)\n● Any additional deeds (relinquishment, mutation, freehold)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Property Verification",
+        content:
+          "● Collect and verify title documents at sub‑registrar’s office\n● Obtain encumbrance certificate to confirm no liabilities\n● Review approved vs actual site plans for compliance\n● Check property tax receipts and municipal dues\n● Validate bank approvals and regulatory clearances\n● Verify validity of any Power of Attorney\n● Confirm housing society registration status\n● Investigate additional documents (mutation, relinquishment)\n● Prepare detailed verification report with findings",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Verification Fees",
+        description:
+          "Fees vary by property complexity and location. DoStartup connects you with experienced professionals offering transparent, competitive rates based on the scope of verification.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Verification",
+        description: [
+          "Access to certified property lawyers and valuers",
+          "Comprehensive reports minimizing legal risks",
+        ],
+        points: [
+          "Fast turnaround tailored to your transaction timeline",
+          "Expert handling of complex title and statutory checks",
+          "End‑to‑end support from document collection to final report",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "When should property document verification be done?",
+        answer:
+          "Before leasing, purchasing, or using property as loan collateral to ensure it is legally sound and free of issues.",
+      },
+      {
+        question: "What are the benefits of property document verification?",
+        answer:
+          "It confirms no legal claims, disputes, or liabilities exist, protecting buyers from future complications.",
+      },
+      {
+        question: "What wrongful acts can a seller commit?",
+        answer:
+          "● Selling without clear title\n● Transacting property under dispute or litigation\n● Transferring property without full ownership rights",
+      },
+      {
+        question: "Is property verification mandatory in India?",
+        answer:
+          "Not legally compulsory, but highly recommended to safeguard significant investments.",
+      },
+      {
+        question: "How long does verification take?",
+        answer:
+          "Typically a few days to two weeks, depending on property complexity and documentation.",
+      },
+      {
+        question: "Can documents be verified online?",
+        answer:
+          "Yes. Many states offer online portals for title searches and encumbrance certificates.",
+      },
+      {
+        question: "Can an individual verify on their own?",
+        answer:
+          "Possible but complex; legal professionals reduce risk of overlooked issues.",
+      },
+      {
+        question: "What is a title search?",
+        answer:
+          "Review of all legal documents to confirm true ownership, involving government record checks.",
+      },
+      {
+        question: "What laws apply to verification?",
+        answer:
+          "Transfer of Property Act, 1882; Registration Act, 1908; state‑specific stamp duty and registration laws; personal succession laws for intestate cases.",
+      },
+      {
+        question: "What is a sale deed?",
+        answer:
+          "A legal document confirming transfer of ownership from seller to buyer. Authenticity must be verified.",
+      },
+      {
+        question: "What is a Power of Attorney?",
+        answer:
+          "A legal authorization allowing a representative to act on behalf of the owner in property transactions.",
+      },
+      {
+        question: "What is property verification?",
+        answer:
+          "The process of confirming rightful ownership and that the property is free from disputes and encumbrances.",
+      },
+      {
+        question: "What is the role of a lawyer in verification?",
+        answer:
+          "A lawyer examines all documents, verifies legality, uncovers risks, and ensures compliance with property laws.",
+      },
+    ],
+  },
+
+  "sexual-harassment-workplace": {
+    title: "Sexual Harassment at the Workplace",
+    description:
+      "Prevent, address, and redress workplace sexual harassment under India’s 2013 Act with DoStartup’s expert support.",
+    overview: [
+      {
+        heading: "Global and Legal Context",
+        content:
+          "Sexual harassment at work is a serious worldwide issue undermining human dignity, equality, and safety. India’s response—the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013—aligns with international conventions and mandates every employer to establish an Internal Complaints Committee (ICC) or refer to a Local Complaints Committee (LCC).",
+      },
+      {
+        heading: "Definition under the 2013 Act",
+        content:
+          "Includes any unwelcome physical contact or advances, demands for sexual favors, sexually colored remarks, showing pornography, or other unwelcome physical, verbal, or non‑verbal conduct of sexual nature at or connected with the workplace.",
+      },
+      {
+        heading: "Example Scenario",
+        content:
+          "If an assistant repeatedly makes inappropriate remarks to a new colleague, she can lodge a complaint with the ICC under the Act’s provisions.",
+      },
+      {
+        heading: "Who is an Aggrieved Woman?",
+        content:
+          "Any female—employee, domestic worker, intern, or visiting professional—who alleges sexual harassment at work, regardless of age or employment status.",
+      },
+      {
+        heading: "Who Can File a Complaint?",
+        content:
+          "The aggrieved woman herself; or with her written consent, a relative, friend, co‑worker, or authorized person if she is unable due to incapacity; her legal heirs in case of her death.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Protections and Reliefs",
+        content:
+          "● Fair, time‑bound inquiry by ICC/LCC with civil‑court powers\n● Interim measures: transfer, leave up to three months, removal of supervisory authority\n● Disciplinary action and monetary compensation if harassment is proven\n● Malicious complaints can attract action under service rules\n● Strict confidentiality of proceedings to protect all parties\n● Option for non‑monetary conciliation before inquiry",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Complaint and Inquiry Process",
+        content:
+          "● File written complaint within three months of the incident to ICC/LCC with incident details and relief sought\n● ICC investigates: summons witnesses, examines documents, follows natural justice\n● Criminal offenses are reported to police within seven days\n● If respondent or complainant misses three hearings after 15‑day notice, ICC may proceed ex‑parte",
+      },
+      {
+        heading: "Conciliation and Final Report",
+        content:
+          "● Aggrieved may opt for non‑monetary conciliation under Section 10 before inquiry\n● If conciliation succeeds, terms are recorded and matter closed\n● Inquiry concludes within 90 days; report shared within 10 days\n● ICC recommends disciplinary action, compensation recoverable as wages arrears, or closure if no harassment",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Statutory Timelines",
+        description:
+          "Complaint filing: 3 months  \nPolice report (if criminal): 7 days  \nInquiry completion: 90 days  \nReport sharing: 10 days  \nFirst‑party ex‑parte after 3 missed hearings + 15‑day notice",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "Expert drafting under the 2013 Act and Rules",
+          "Support for ICC/LCC constitution, awareness, and compliance",
+        ],
+        points: [
+          "Guidance on complaint drafting, filing, and follow‑up",
+          "Representation during inquiries and conciliation",
+          "Assistance enforcing ICC recommendations and confidentiality",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does harassment have to occur on company premises?",
+        answer:
+          "No. It includes any work‑related setting—social events, travel, client sites, training, business meals, or electronic communications.",
+      },
+      {
+        question: "What actions can an aggrieved woman take?",
+        answer:
+          "She can ask the harasser to stop, file with ICC/LCC, or lodge an FIR under relevant IPC sections.",
+      },
+      {
+        question: "What counts as unwelcome sexual behavior?",
+        answer:
+          "Any non‑invited sexual conduct—physical, verbal, or non‑verbal—that makes the woman uncomfortable.",
+      },
+      {
+        question: "What punishments can be imposed under the Act?",
+        answer:
+          "Penalties range from apology or warning to termination, community service, salary deductions, or both.",
+      },
+      {
+        question: "Is confidentiality mandatory?",
+        answer:
+          "Yes. Identities of complainant, respondent, witnesses, complaint details, and ICC/LCC proceedings must remain confidential.",
+      },
+      {
+        question: "Can FIR and workplace complaint be simultaneous?",
+        answer:
+          "Yes. Women may file an FIR and an ICC/LCC complaint concurrently.",
+      },
+      {
+        question: "Who may file if the aggrieved is unable?",
+        answer:
+          "A relative, friend, co‑worker, or any person with her written consent; legal heirs if she is deceased.",
+      },
+      {
+        question: "What is the Act’s scope?",
+        answer:
+          "Covers all workplaces—government, private, NGOs, hospitals, educational institutions, and domestic work.",
+      },
+      {
+        question: "What is ‘Quid Pro Quo’ harassment?",
+        answer:
+          "When a person in authority demands sexual favors for work benefits like promotion, salary hike, or retention.",
+      },
+      {
+        question: "What is indirect harassment?",
+        answer:
+          "Conduct creating a hostile environment—sharing inappropriate content, suggestive messages, or sexual remarks without direct targeting.",
+      },
+      {
+        question: "What if a complaint is false or malicious?",
+        answer:
+          "ICC may recommend action under service rules, but lack of proof alone does not imply malice.",
+      },
+      {
+        question: "Can allegations be criminally investigated?",
+        answer:
+          "Yes. If the complaint involves a cognizable offense, ICC reports to police and criminal investigation proceeds.",
+      },
+    ],
+  },
+  "lease-registration": {
+    title: "Lease Registration",
+    description:
+      "Ensure legal validity of lease agreements by registering leases over one year under Indian law with DoStartup’s expert assistance.",
+    overview: [
+      {
+        heading: "Overview of Lease Registration",
+        content:
+          "A lease transfers the right to use immovable property from lessor to lessee for a defined period in exchange for consideration. Under Section 105 of the Transfer of Property Act, 1882 and Section 17 of the Registration Act, 1908, leases exceeding one year must be registered to be enforceable.",
+      },
+      {
+        heading: "What is a Lease Deed?",
+        content:
+          "A lease deed is a binding document detailing terms—rent, payment schedule, security deposit, rights, obligations, and dispute resolution. Signing by both parties prevents future conflicts.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Register a Lease?",
+        content:
+          "● Grants legal sanctity and enforceability  \n● Protects lessor’s and lessee’s interests  \n● Provides valid evidence in disputes  \n● Prevents complications from unregistered agreements",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "● Lessor’s title documents (ownership proof)  \n● Property tax receipts and related papers  \n● Lease deed on appropriate stamp paper  \n● Two passport‑size photos of lessor, lessee, and each witness  \n● Address proofs of parties and witnesses  \n● Stamp duty payment proof",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Offline Registration Procedure",
+        content:
+          "● Prepare and sign lease deed with clear clauses (duration, rent, deposit, notice, dispute resolution)  \n● Submit within 4 months of execution at local sub‑registrar with parties and two witnesses (or POA)  \n● Pay state‑specific stamp duty and registration fees  \n● Receive registered lease deed; delays incur penalties",
+      },
+      {
+        heading: "Online Registration Procedure",
+        content:
+          "● Check if your state portal offers online lease registration  \n● Create user profile on official portal  \n● Enter property, party, and lease details  \n● Pay stamp duty and fees online  \n● Book sub‑registrar appointment  \n● Appear with originals and witnesses for physical verification",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees and Penalties",
+        description:
+          "Stamp duty and registration fees vary by state and lease term. Unregistered leases over one year are unenforceable under the Registration Act 1908 and Transfer of Property Act 1882.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Critical Timelines",
+        description:
+          "● Registration required within 4 months of execution  \n● Leases over one year must be registered  \n● Leases 11 months or less are exempt under Section 18 of the Registration Act",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "Expert drafting of legally compliant lease deeds",
+          "Assistance with stamp duty calculation and payment",
+        ],
+        points: [
+          "Guidance on offline and online registration",
+          "Coordination with sub‑registrar for appointments",
+          "Support through entire registration process",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is it mandatory to register a lease deed?",
+        answer:
+          "Yes. Leases exceeding 11 months must be registered under Section 17 of the Registration Act, 1908; shorter leases are exempt under Section 18.",
+      },
+      {
+        question: "What is lease deed registration?",
+        answer:
+          "The process of submitting a signed lease deed at the sub‑registrar’s office, paying stamp duty and registration fees, and obtaining a registered document.",
+      },
+      {
+        question: "What is a lease deed?",
+        answer:
+          "A legal agreement between lessor and lessee outlining terms of property possession for a specified period and rent.",
+      },
+      {
+        question:
+          "Is an arbitration clause valid in an unregistered lease deed?",
+        answer:
+          "Yes. Arbitration provisions remain enforceable under the Arbitration and Conciliation Act, 1996, even if the lease deed is unregistered.",
+      },
+      {
+        question: "What laws govern lease registration?",
+        answer:
+          "The Registration Act, 1908 and the Transfer of Property Act, 1882.",
+      },
+      {
+        question: "What should a basic lease deed include?",
+        answer:
+          "Full details of parties, lease term, rent and security deposit, notice and termination terms, renewal and sub‑leasing clauses.",
+      },
+      {
+        question:
+          "What is the difference between rent agreement and lease deed?",
+        answer:
+          "Agreements up to 11 months are rent agreements; over 11 months are lease deeds requiring registration.",
+      },
+      {
+        question: "How much stamp duty is payable?",
+        answer:
+          "Rates differ by state and are determined by the State Revenue Department.",
+      },
+      {
+        question: "What are consequences of non‑registration?",
+        answer:
+          "Unregistered leases over one year are unenforceable in court and lack legal standing.",
+      },
+      {
+        question: "What section exempts short‑term leases?",
+        answer:
+          "Section 18 of the Registration Act, 1908 exempts leases of 11 months or less.",
+      },
+      {
+        question: "What does 'lease rental' mean?",
+        answer:
+          "The monetary consideration paid by the lessee to the lessor for property use.",
+      },
+      {
+        question: "Is online registration available everywhere?",
+        answer:
+          "No. Only select states offer online systems; DoStartup can guide based on your jurisdiction.",
+      },
+    ],
+  },
+
+  "will-registration": {
+    title: "Will Registration",
+    description:
+      "Register your will under the Registration Act, 1908 with DoStartup’s expert assistance to add legal strength and avoid disputes.",
+    overview: [
+      {
+        heading: "Overview of Will Registration",
+        content:
+          "A will is a legal document declaring the testator’s intentions for asset distribution after death. Governed by the Indian Succession Act, 1925, and optionally registered under the Registration Act, 1908, registration adds credibility by presuming sound mind and genuineness.",
+      },
+      {
+        heading: "Legal Framework",
+        content:
+          "Section 17 of the Registration Act mandates registration for certain documents; Section 18 makes will registration optional but recommended. The final registered will becomes conclusive evidence of the testator’s last wishes.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Registration",
+        content:
+          "● Stronger legal standing and proof against authenticity challenges\n● Presumption of sound mental health and absence of coercion\n● Minimizes signature disputes by confirming genuineness\n● Secure storage with Registrar, retrievable only by testator or agent\n● Discourages arbitrary or emotional challenges by excluded heirs",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "● Original signed will\n● Two passport‑size photos of testator\n● Mental fitness certificate from licensed doctor\n● Photos and ID proofs of two attesting witnesses\n● Address proofs and PAN cards of testator and witnesses",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Registration",
+        content:
+          "1. Visit sub‑registrar’s office in jurisdiction of residence or property\n2. Submit original will for scrutiny\n3. Registrar verifies legal compliance\n4. Two witnesses appear with testator\n5. Pay nominal registration fee (varies by state)\n6. Receive registered copy within one week",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline",
+        description:
+          "Registration typically completes within 7–10 days of submission. The will remains retrievable from the registrar until testator’s death.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "Guidance on optimal registration strategy",
+          "Coordination with sub‑registrar for quick processing",
+        ],
+        points: [
+          "Expert review for legal compliance",
+          "Assistance with documentation and fees",
+          "Secure handling and follow‑up until delivery",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Can a person write a will in their own handwriting?",
+        answer:
+          "Yes. A holograph will handwritten by the testator is valid if signed by the testator and attested by two witnesses who observe the signing.",
+      },
+      {
+        question: "Can a testator make changes to their will?",
+        answer:
+          "Yes. Amendments are made via a codicil executed in the same manner as the original will.",
+      },
+      {
+        question: "Can a will be registered after the testator’s death?",
+        answer:
+          "Yes. If properly signed and witnessed, it may be registered posthumously by producing the original will and death certificate.",
+      },
+      {
+        question: "Are there registration charges for a will?",
+        answer:
+          "Yes. A nominal registration fee applies; no stamp duty is required on the will document itself.",
+      },
+      {
+        question: "What happens if someone dies without a will?",
+        answer:
+          "Assets are distributed according to applicable succession laws under the Indian Succession Act or personal laws based on religion.",
+      },
+      {
+        question: "What kind of property can be included?",
+        answer:
+          "Movable and immovable assets such as real estate, bank deposits, fixed deposits, stocks, bonds, and other financial instruments.",
+      },
+      {
+        question: "If a will is unsigned, is it valid?",
+        answer:
+          "No. A will must be signed by the testator and witnessed by two individuals; unsigned wills are invalid.",
+      },
+      {
+        question: "What is the minimum number of witnesses?",
+        answer:
+          "At least two witnesses over 18 years of age are required for proper execution.",
+      },
+      {
+        question: "Where is a will registered?",
+        answer:
+          "At the sub‑registrar’s office in the jurisdiction where the testator resides or where the majority of property is located.",
+      },
+      {
+        question: "Can a will be changed or cancelled?",
+        answer:
+          "Yes. A testator may revoke or replace a will at any time before death by drafting a new one.",
+      },
+      {
+        question: "Is a lawyer necessary to draft a will?",
+        answer:
+          "No, but legal advice is recommended for complex estates, foreign assets, or blended families to ensure clarity and compliance.",
+      },
+      {
+        question: "What are essential elements for registration?",
+        answer:
+          "Testator details, asset descriptions, executor appointment, beneficiary list, and signatures of testator and two witnesses.",
+      },
+      {
+        question: "What is the right age to make a will?",
+        answer:
+          "Any person 18 years or older and of sound mind may legally execute a will.",
+      },
+      {
+        question: "Who is an executor?",
+        answer:
+          "An executor is the person appointed to carry out the will’s instructions and manage asset distribution as directed.",
+      },
+    ],
+  },
+
+  "power-of-attorney": {
+    title: "Power of Attorney (PoA)",
+    description:
+      "Authorize someone to act on your behalf for property, finances, business or medical matters with DoStartup’s expert drafting, notarization, and registration support.",
+    overview: [
+      {
+        heading: "What is a Power of Attorney?",
+        content:
+          "A PoA is a legal document by which a principal (donor) appoints an agent (attorney‑in‑fact) to perform specific or broad tasks—managing property, finances, business affairs, or healthcare—when the principal is unavailable or incapacitated.",
+      },
+      {
+        heading: "Types of Power of Attorney",
+        content:
+          "Conventional (General/Limited), Durable (survives incapacity), Springing (effective upon a trigger event), and Medical PoA (healthcare decisions).",
+      },
+      {
+        heading: "Who Can Be an Agent?",
+        content:
+          "Any trustworthy adult (≥18 years) of sound mind. Multiple agents may be appointed with joint or independent authority to ensure continuity.",
+      },
+      {
+        heading: "Revocation and Duration",
+        content:
+          "The principal may revoke at any time by written notice if mentally competent. A PoA can specify an expiry date or remain effective until revoked.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages",
+        content:
+          "● Ensures uninterrupted management of affairs  \n● Customizable scope—from narrow tasks to broad durable authority  \n● Allows remote or incapacitated principals to delegate power  \n● Provides clear legal protection and avoids future disputes",
+      },
+      {
+        heading: "Dos and Don’ts for Agents",
+        content:
+          "Allowed: manage property, pay bills, operate accounts, make healthcare decisions. Not allowed: mix finances, act in self‑interest, restrict principal’s freedom, make decisions when principal is competent.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "● Principal’s and agent’s photo ID & address proofs  \n● Two witnesses’ IDs and signatures  \n● Draft PoA on state‑appropriate stamp paper  \n● Notarization certificate  \n● Embassy/consulate attestation for NRIs",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Execution and Registration",
+        content:
+          "● Draft PoA clearly naming parties, scope, duration, revocation clause  \n● Notarize document per state rules  \n● For immovable property powers: register at sub‑registrar within 4 months with parties and two witnesses (or POA)  \n● Pay state‑specific stamp duty (higher if non‑relative or property transaction)",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Stamp Duty and Fees",
+        description:
+          "Stamp duty depends on state law, relation of agent, and transaction value or compensation amount. DoStartup assists with accurate calculations and payments.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity and Timing",
+        description:
+          "PoA takes effect on signing or upon a specified condition; register immovable property PoAs within four months, else they are unenforceable in court.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "Custom PoA drafting tailored to your needs",
+          "Coordination with notaries, embassies, and sub‑registrars",
+        ],
+        points: [
+          "Transparent fees and stamp duty guidance",
+          "End‑to‑end support: drafting, notarization, registration",
+          "Expert advice on scope, revocation, and compliance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How many types of Power of Attorney are there?",
+        answer:
+          "Four main types: Conventional (General/Limited), Durable, Springing (trigger‑based), and Medical PoA.",
+      },
+      {
+        question: "What is a General Power of Attorney?",
+        answer:
+          "A PoA granting broad or specified authority for various tasks during its validity period.",
+      },
+      {
+        question: "What is a Special Power of Attorney?",
+        answer:
+          "A PoA limited to a specific act or transaction, such as selling one property.",
+      },
+      {
+        question: "Is it mandatory to register a PoA?",
+        answer:
+          "Only PoAs dealing with immovable property for over one year must be registered under the Registration Act, 1908; others may remain unregistered.",
+      },
+      {
+        question: "Can a PoA be overridden or revoked?",
+        answer:
+          "Yes. If the principal is of sound mind, they can revoke at any time by issuing written notice to the agent and relevant third parties.",
+      },
+      {
+        question: "Can a principal appoint multiple agents?",
+        answer:
+          "Yes. Multiple agents can act jointly or independently, as specified by the principal, to ensure continuity.",
+      },
+      {
+        question: "What are the risks of granting a PoA?",
+        answer:
+          "An untrustworthy agent may misuse authority—embezzlement, unauthorized transactions—and the principal remains bound by the agent’s lawful acts.",
+      },
+      {
+        question: "What documents are required for a PoA?",
+        answer:
+          "Principal’s and agent’s IDs, two witness IDs, the draft PoA on stamp paper, notarization certificate, and embassy attestation for NRIs.",
+      },
+      {
+        question: "Do witnesses need to attest a PoA?",
+        answer:
+          "Yes. At least two witnesses must sign, confirming they observed the principal’s signature.",
+      },
+      {
+        question: "Is an arbitration clause valid in an unregistered PoA?",
+        answer:
+          "Yes. Arbitration provisions are enforceable independently under the Arbitration and Conciliation Act, 1996.",
+      },
+      {
+        question: "What powers can a Medical PoA include?",
+        answer:
+          "Healthcare decisions, hospital admissions, treatment choices, and payment of medical bills when the principal is incapacitated.",
+      },
+      {
+        question: "What happens if a required PoA is unregistered?",
+        answer:
+          "It is unenforceable for immovable property transactions until duly registered.",
+      },
+      {
+        question: "Is legal consultation necessary?",
+        answer:
+          "While not mandatory, legal advice ensures proper scope, compliance, and prevents disputes—services DoStartup provides.",
+      },
+    ],
+  },
+
+  "divorce-settlement-agreement": {
+    title: "Divorce Settlement Agreement",
+    description:
+      "Formalize mutually agreed terms on child custody, maintenance, asset division and liabilities in a legally binding document with DoStartup’s expert drafting support.",
+    overview: [
+      {
+        heading: "What is a Divorce Settlement Agreement?",
+        content:
+          "A legally binding document outlining mutually agreed terms for dissolving a marriage—custody, maintenance, property division, debt allocation—without a contested court battle.",
+      },
+      {
+        heading: "When and Why to Prepare It",
+        content:
+          "Drafted before filing a mutual divorce petition to prevent misunderstandings, streamline court proceedings, and ensure a smoother, conflict‑free process.",
+      },
+      {
+        heading: "Role of Legal Experts",
+        content:
+          "Family law specialists—such as those at DoStartup—ensure comprehensive coverage of all legal aspects and compliance with Indian divorce statutes in drafting the agreement.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages",
+        content:
+          "● Amicable resolution avoiding lengthy litigation  \n● Clear allocation of custody, financial support and assets  \n● Reduces risk of future disputes  \n● Enables faster court approval and final decree  \n● Protects rights and obligations of both spouses",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "● Draft settlement agreement  \n● Marriage certificate  \n● Children’s birth certificates (if applicable)  \n● Asset/liability statements (bank statements, property deeds, loans)  \n● Income proofs for maintenance calculations  \n● IDs and address proofs for both spouses",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Drafting and Execution",
+        content:
+          "● Parties negotiate and finalize terms on custody, maintenance, asset and debt division  \n● Engage lawyers to draft a clear, enforceable agreement  \n● Both spouses sign the agreement in presence of witnesses",
+      },
+      {
+        heading: "Court Filing and Approval",
+        content:
+          "● File a joint divorce petition incorporating the agreement  \n● First motion: statements recorded under oath  \n● Six‑month cooling‑off period  \n● Second motion: court reviews and issues final decree embedding the agreement",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Legal Fees",
+        description:
+          "Professional fees vary by complexity and scope. DoStartup provides transparent, competitive packages for drafting and court filing support.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Estimated Timeline",
+        description:
+          "● Agreement drafting: 1–2 weeks  \n● Petition to second motion: minimum 6 months  \n● Final decree: typically 6–9 months from petition filing",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "Expert drafting by experienced divorce lawyers",
+          "Seamless incorporation into court petition and follow‑through",
+        ],
+        points: [
+          "Comprehensive clauses on custody, support, property, debts, Stridhan and alimony",
+          "Guidance on applicable laws (Hindu Marriage Act, Special Marriage Act, Indian Divorce Act)",
+          "Support through entire court process until decree",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Divorce Settlement Agreement?",
+        answer:
+          "A formal, legally binding document setting out mutually agreed divorce terms—custody, maintenance, asset division—to avoid contested litigation.",
+      },
+      {
+        question: "Is a settlement agreement mandatory for mutual divorce?",
+        answer:
+          "No, but DoStartup recommends it to prevent future disputes and ensure a smoother process.",
+      },
+      {
+        question: "Do I need a lawyer to draft it?",
+        answer:
+          "Not legally required, but expert drafting ensures all clauses are enforceable and compliant with laws.",
+      },
+      {
+        question: "When should I draft the agreement?",
+        answer:
+          "Before filing the mutual divorce petition, once both parties agree on key matters.",
+      },
+      {
+        question: "Can the agreement be modified later?",
+        answer:
+          "Yes, with mutual consent and court approval of the revised agreement.",
+      },
+      {
+        question: "How does it become legally binding?",
+        answer:
+          "Once signed by both spouses and incorporated into the court’s final divorce decree.",
+      },
+      {
+        question: "What if one spouse violates it?",
+        answer:
+          "The other can approach the court for enforcement or modification under contempt provisions.",
+      },
+      {
+        question: "What if I disagree with proposed terms?",
+        answer:
+          "You can renegotiate or submit counter‑proposals; DoStartup can mediate to reach fair terms.",
+      },
+      {
+        question: "Which court approves the agreement?",
+        answer:
+          "Family courts in the jurisdiction where the petition is filed—last marital residence, marriage solemnization location, or spouse’s residence.",
+      },
+      {
+        question: "Can NRIs use this agreement in India?",
+        answer:
+          "Yes. NRI spouses may execute and submit a settlement agreement, with attestations if drafted abroad.",
+      },
+      {
+        question: "What laws govern mutual divorce?",
+        answer:
+          "Hindu Marriage Act 1955 Section 13B; Special Marriage Act 1954 Section 28; Indian Divorce Act Section 10A for Christians.",
+      },
+      {
+        question: "What is Stridhan and how is it handled?",
+        answer:
+          "Stridhan—gifts to wife during marriage—remains her sole property and must be listed and excluded from division.",
+      },
+      {
+        question: "How is permanent alimony determined?",
+        answer:
+          "Based on husband’s income, wife’s needs, standard of living and customs; terms must be clearly documented.",
+      },
+      {
+        question: "What about loan repayment and debts?",
+        answer:
+          "Agreement specifies which spouse repays which loans, how mortgaged assets are handled, and debt liability allocation.",
+      },
+      {
+        question: "Should insurance and passport/visa matters be included?",
+        answer:
+          "Yes. Terms on premium payments and travel document responsibilities avoid future complications.",
+      },
+      {
+        question: "Can I draft it myself?",
+        answer:
+          "You may, but DoStartup’s legal experts ensure no details are overlooked and compliance with current regulations.",
+      },
+    ],
+  },
+
+  "hindu-marriage-act-1955": {
+    title: "Hindu Marriage Act, 1955",
+    description:
+      "Comprehensive legal framework governing Hindu marriages, divorce, maintenance, and related matters in India.",
+    overview: [
+      {
+        heading: "Introduction",
+        content:
+          "Enacted to regulate marriages among Hindus, the Act replaced personal customs with uniform rules on marriage validity, divorce, maintenance, legitimacy of children, and more.",
+      },
+      {
+        heading: "Applicability",
+        content:
+          "Applies to Hindus by birth or conversion (including Buddhists, Jains, Sikhs), and their legitimate and illegitimate children; excludes Muslims, Christians, Parsis, and Jews.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Provisions",
+        content:
+          "• Section 5: Conditions for valid marriage (age, monogamy, sound mind, prohibited relationships)\n• Section 7: Ceremonies (customs like Saptapadi)\n• Section 9: Restitution of conjugal rights\n• Section 13: Grounds for divorce (adultery, cruelty, desertion, conversion, insanity, disease, renunciation, presumption of death)\n• Section 13(2): Special grounds available to wife",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Related Hindu Laws",
+        content:
+          "• Hindu Succession Act, 1956 (inheritance)\n• Hindu Adoption and Maintenance Act, 1956 (adoption, maintenance)\n• Hindu Minority and Guardianship Act, 1956 (guardianship of minors)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Marriage Registration",
+        content:
+          "Though not mandatory under the Act, registration is recommended for legal proof and spouse rights protection; usually handled under state implementation of the Act.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Court Fees and Timelines",
+        description:
+          "Divorce petitions generally incur court‑specified filing fees; petitions under Section 14 (divorce) cannot be filed before one year of marriage without special leave.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Mandatory Waiting Period",
+        description:
+          "Section 14 imposes a one‑year cooling‑off before filing for divorce; Section 9 petitions for restitution have no statutory waiting period.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "DoStartup Support",
+        description: [
+          "Guidance on petition drafting for marriage, separation, and divorce",
+          "Advice on compliance with Conditions (Section 5) and procedures (Sections 7, 9, 13)",
+        ],
+        points: [
+          "Assistance with documentation and court filings",
+          "Expert help on maintenance and alimony claims",
+          "Support in navigating related Hindu personal laws",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Under which section are the conditions for a valid Hindu marriage?",
+        answer:
+          "Section 5 specifies age, monogamy, capacity, and prohibited relationship requirements.",
+      },
+      {
+        question: "What is maintenance pendente lite?",
+        answer:
+          "Temporary financial support awarded to a dependent spouse during the pendency of divorce or separation proceedings.",
+      },
+      {
+        question: "Difference between void and voidable marriages?",
+        answer:
+          "Void marriages are illegal from the start (bigamy, prohibited relationship); voidable marriages remain valid until annulled (underage marriage).",
+      },
+      {
+        question: "Is registration of a Hindu marriage necessary?",
+        answer:
+          "Not mandatory under the Act but strongly recommended for legal proof and use in official matters.",
+      },
+      {
+        question: "Can divorce be filed within one year of marriage?",
+        answer:
+          "Ordinarily no. Section 14 requires one year to elapse, though courts may waive this in exceptional cases.",
+      },
+      {
+        question: "What remedies does the Act provide?",
+        answer:
+          "Judicial separation, divorce (with or without maintenance), restitution of conjugal rights, and maintenance orders.",
+      },
+      {
+        question: "What is the minimum legal age for marriage?",
+        answer: "18 for bride; 21 for bridegroom.",
+      },
+      {
+        question: "What is a sapinda relationship?",
+        answer:
+          "Relation to a common ancestor within three maternal and five paternal generations; sapinda marriages are prohibited unless custom permits.",
+      },
+      {
+        question: "Can either party seek maintenance?",
+        answer:
+          "Yes. Sections 24 and 25 allow either spouse to claim maintenance or permanent alimony.",
+      },
+      {
+        question: "Who qualifies as a Hindu under this Act?",
+        answer:
+          "Followers of Hindu, Jain, Sikh, or Buddhist religions, by birth or conversion.",
+      },
+      {
+        question: "What is bigamy, and is it punishable?",
+        answer:
+          "Marrying while already married; punishable under IPC Sections 494 and 495.",
+      },
+      {
+        question: "Where is mutual divorce defined?",
+        answer:
+          "Section 13B provides for mutual consent divorce by joint petition.",
+      },
+    ],
+  },
+
+  "bail-application": {
+    title: "Bail Application",
+    description:
+      "Obtain provisional release from custody under the Code of Criminal Procedure with DoStartup’s comprehensive bail application support.",
+    overview: [
+      {
+        heading: "What Is Bail?",
+        content:
+          "Bail is the judicial release of an accused from custody on provision of sureties, ensuring their appearance in court as required. It safeguards personal liberty during legal proceedings under the CrPC.",
+      },
+      {
+        heading: "Who Grants Bail?",
+        content:
+          "Bail may be granted by the police officer for bailable offences or by a magistrate or court for bailable, non‑bailable, and anticipatory bail applications.",
+      },
+      {
+        heading: "Classification of Bail",
+        content:
+          "The CrPC distinguishes between: bailable offences (right to bail), non‑bailable offences (court’s discretion), and anticipatory bail (pre‑arrest protection).",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Seek Bail?",
+        content:
+          "● Protects fundamental right to personal liberty\n● Allows accused to prepare defense outside custody\n● Reduces hardship and stigma of detention\n● Ensures attendance at trial through surety conditions",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Details in Bail Application",
+        content:
+          "● Name and jurisdiction of court\n● CrPC section invoked (436/436A/437/438)\n● Applicant’s personal details and FIR number\n● Arrest date and police station\n● Grounds for granting bail (health, evidence, personal ties)\n● Undertaking: no absconding, no foreign travel without permission\n● Commitment to appear when summoned\n● Prayer clause requesting bail\n● Signatures of accused and legal representative",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Bail for Bailable Offences (Section 436/436A)",
+        content:
+          "File application before magistrate or police; court must grant bail as a right. If sureties cannot be furnished within seven days, release on personal bond. Under Section 436A, undertrials who have served half the maximum sentence are released on personal bond.",
+      },
+      {
+        heading: "Bail for Non‑Bailable Offences (Section 437)",
+        content:
+          "File application in magistrate’s court; court exercises discretion unless offence punishable by life or death, or accused has serious prior convictions. Exceptions include minors, women, sick or infirm persons, or weak evidence.",
+      },
+      {
+        heading: "Anticipatory Bail (Section 438)",
+        content:
+          "Apply in Sessions or High Court before arrest to seek protection. Court considers applicant’s background, risk of absconding, and potential for witness tampering. Conditions include availability for interrogation and prohibition on foreign travel without court permission.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Court Fees & Sureties",
+        description:
+          "Court fees for filing bail applications vary by state. Surety bonds require guarantors with verifiable identity and assets. DoStartup assists in calculating fees and arranging suitable sureties.",
+        feeTable: [],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timelines for Bail",
+        description:
+          "● Accused produced before magistrate within 48 hours of arrest\n● Bailable offences: bail may be granted the same day\n● Non‑bailable offences: hearing within days to weeks\n● Anticipatory bail: hearing timing depends on High/Sessions Court schedules\n● Undertrial release under Section 436A after half the maximum sentence served",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "Expert drafting under all relevant CrPC provisions",
+          "Strategic support for hearings and surety arrangements",
+        ],
+        points: [
+          "Representation before magistrate, sessions, and High Court",
+          "Guidance on bailable, non‑bailable, and anticipatory bail",
+          "Assistance with re‑applications and compliance monitoring",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "At what stage can an accused apply for bail?",
+        answer:
+          "An accused may apply for bail at any stage after arrest, once produced before a magistrate within 48 hours.",
+      },
+      {
+        question: "Is bail required in civil matters?",
+        answer:
+          "No. Bail applies exclusively to criminal proceedings under the CrPC.",
+      },
+      {
+        question: "Is surety mandatory for bail?",
+        answer:
+          "Generally yes. Courts require bonds and guarantors to secure the accused’s court attendance.",
+      },
+      {
+        question: "How long does it take to get bail?",
+        answer:
+          "For bailable offences, bail can often be granted the same day; non‑bailable and anticipatory bail depend on court schedules.",
+      },
+      {
+        question: "What law governs bail?",
+        answer: "Bail is governed by the Code of Criminal Procedure, 1973.",
+      },
+      {
+        question: "What is anticipatory bail?",
+        answer:
+          "Under Section 438, anticipatory bail protects an applicant from arrest on potential non‑bailable charges if conditions are met.",
+      },
+      {
+        question: "Can bail be re‑applied if rejected?",
+        answer:
+          "Yes. A bail application may be re‑filed in the same or a higher court on new grounds or changed circumstances.",
+      },
+      {
+        question: "What is interim bail?",
+        answer:
+          "Temporary bail granted while the main bail application is pending.",
+      },
+      {
+        question: "What is default bail?",
+        answer:
+          "Bail automatically granted when police fail to file a chargesheet within the prescribed 60 or 90 days.",
+      },
+      {
+        question: "What happens if bail conditions are violated?",
+        answer:
+          "Violating bail conditions—such as absconding or foreign travel without permission—can lead to re‑arrest.",
+      },
+      {
+        question: "Are minors eligible for bail?",
+        answer:
+          "Yes. Courts typically grant bail to minors (under 16 years) unless there is a high risk of absconding or tampering.",
+      },
+      {
+        question: "What factors determine bail amount?",
+        answer:
+          "Courts consider offence gravity, accused’s antecedents, community ties, and flight risk when setting bail amounts.",
+      },
+    ],
+  },
+
+  "judicial-separation": {
+    title: "Judicial Separation in India",
+    description:
+      "Understand judicial separation as a legal remedy allowing spouses to live apart while remaining married, offering time for reflection, resolution, or transition toward divorce.",
+    overview: [
+      {
+        heading: "Overview of Judicial Separation",
+        content:
+          "Judicial separation is a legal provision under Indian marriage laws that permits spouses to live apart without dissolving the marriage. It offers time for reconciliation, emotional clarity, or preparation for divorce, while preserving legal marital status.",
+      },
+      {
+        heading: "Understanding Judicial Separation",
+        content:
+          "Granted under Section 10 of the Hindu Marriage Act, 1955, judicial separation allows either spouse to petition the district court to live separately. The marriage remains legally intact, and this separation often precedes divorce, which requires at least one year of separate living.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Judicial Separation",
+        content:
+          "● Legal space for emotional and relational reflection\n● Potential to reconcile and avoid permanent divorce\n● Time to resolve marital disputes constructively\n● Provides relief without terminating marital rights\n● May protect spouses from forced cohabitation in cases of cruelty",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Key Petition Requirements",
+        content:
+          "● Details of marriage (date, place, rituals)\n● Confirmation of parties being Hindu\n● Personal information of both spouses\n● Current living status and address\n● Details of children (if any)\n● Grounds for seeking separation\n● Disclosure of past litigations (if any)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to File for Judicial Separation",
+        content:
+          "● Either spouse files a petition under Section 10 of the Hindu Marriage Act, 1955\n● File in the appropriate district or family court:\n  ○ Where marriage occurred\n  ○ Where spouses last lived together\n  ○ Where either party currently resides\n● Petition must follow Order VII Rule 1 of the Civil Procedure Code, 1973\n● The court examines evidence and grants judicial separation if justified",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Judicial Separation",
+        description:
+          "Court fees vary by state and complexity of the case. Additional legal costs may include drafting petitions, legal representation, and documentation. DoStartup offers transparent legal packages for complete support.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Judicial Separation",
+        description: [
+          "Experienced matrimonial legal advisors",
+          "Complete support in petition drafting and court filing",
+        ],
+        points: [
+          "Assistance with selecting proper jurisdiction",
+          "Affordable legal packages tailored to your case",
+          "Support with filing for maintenance and child custody during separation",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Can a court grant judicial separation on its own?",
+        answer:
+          "Yes, the court can grant judicial separation even if divorce was originally sought, if it deems separation more appropriate under the circumstances.",
+      },
+      {
+        question: "How can a Hindu spouse file for judicial separation?",
+        answer:
+          "Under Section 10 of the Hindu Marriage Act, 1955, either spouse can file by submitting a petition with marriage details, current status, and grounds for seeking separation.",
+      },
+      {
+        question: "Where should the petition be filed?",
+        answer:
+          "In a district or family court located where the marriage occurred, where the couple last lived together, or where either spouse currently resides.",
+      },
+      {
+        question:
+          "Why is divorce sometimes preferred over judicial separation?",
+        answer:
+          "Divorce permanently ends the marriage and allows remarriage, whereas judicial separation only suspends marital obligations.",
+      },
+      {
+        question: "What are the benefits of judicial separation over divorce?",
+        answer:
+          "● Allows time for reflection\n● Keeps marriage legally valid\n● May lead to reconciliation\n● Offers legal protection without immediate termination",
+      },
+      {
+        question: "Does judicial separation dissolve the marriage?",
+        answer:
+          "No, it only suspends marital obligations. The couple remains legally married.",
+      },
+      {
+        question: "What happens after one year of judicial separation?",
+        answer:
+          "Either spouse may file for divorce after living separately for at least one year, under Section 13(1A)(i) of the Hindu Marriage Act.",
+      },
+      {
+        question: "Can someone remarry during judicial separation?",
+        answer:
+          "No, remarriage is not legally permitted until a divorce is finalized by the court.",
+      },
+      {
+        question: "Can maintenance be claimed during judicial separation?",
+        answer:
+          "Yes, a wife is entitled to maintenance during the separation period. A court petition must be filed to claim it.",
+      },
+      {
+        question: "What is judicial separation as a form of conjugal remedy?",
+        answer:
+          "It allows a spouse—especially in cases of cruelty or harassment—to legally live separately without divorcing, and to seek child custody and financial support.",
+      },
+      {
+        question:
+          "How does judicial separation impact marital relations under the Hindu Marriage Act?",
+        answer:
+          "Spouses are relieved from cohabitation duties, but the legal bond of marriage continues. The husband remains liable for maintenance.",
+      },
+      {
+        question: "What are the disadvantages of judicial separation?",
+        answer:
+          "● Legal complexity and court procedures\n● Emotional stress\n● Delays in reaching final resolution if reconciliation fails\n● Restrictions on remarriage",
+      },
+    ],
+  },
+
+  "consulting-agreement": {
+    title: "Consulting Agreement in India",
+    description:
+      "Draft and execute professional consulting agreements with expert legal guidance.",
+    overview: [
+      {
+        heading: "Overview of Consulting Agreement",
+        content:
+          "A Consulting Agreement is a contract established between an individual or organization seeking consultancy services and the person or firm providing such services. This agreement outlines all relevant details concerning the nature of consultancy offered and the manner in which these services will be executed.\n\nConsultancy services may cover various fields such as environmental issues, governance, strategic planning, financial management, marketing strategies, and more. Under this contract, the consultant is obligated to offer their expert advice on the subject matter in exchange for a fee. This arrangement enables clients to benefit from expert insights that help grow their business and improve profitability.",
+      },
+      {
+        heading: "Need for a Consulting Agreement",
+        content:
+          "Consulting agreements are utilized whenever expert advice is required for new initiatives or to enhance existing operations within an organization. Common scenarios that necessitate consultancy include:\n\n• When the organization undertakes tasks outside their usual expertise.\n• Instead of hiring permanent employees for unfamiliar tasks, organizations often prefer engaging specialized consultants temporarily.\n• Consultants or consultancy agencies should possess focused expertise to assist with short-term projects.\n• This approach allows organizations to work on various projects flexibly while reducing long-term costs by avoiding permanent hires.\n\nTo safeguard the interests of both parties, forming a consulting agreement is recommended. This written contract ensures all terms and conditions are clearly communicated and provides remedies in case of breaches.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of a Consulting Agreement",
+        content:
+          "• Protects the rights and obligations of both parties\n• Serves as legal evidence of the agreement\n• Ensures confidentiality of sensitive business information\n• Clearly defines the consultant’s responsibilities during the contract\n• Enables enforceability in case of disputes or breach\n• Helps avoid misunderstandings by clearly setting terms",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Drafting a Consulting Agreement",
+        content:
+          "• Personal details of both parties (names, addresses, contact info)\n• Scope and nature of the consultancy work\n• Duration and timeline of the agreement\n• Fee and payment schedule\n• Confidentiality clauses and non-compete terms (if applicable)\n• Signatures of both parties\n• Dispute resolution method (optional but recommended)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Key Clauses in a Consulting Agreement",
+        content:
+          "A well-drafted consulting agreement typically includes the following clauses:\n• Identification of parties\n• Scope of work / services\n• Timeline or timeframe\n• Rights and obligations\n• Ownership or proprietary rights\n• Fees, expenses, and payment schedule\n• Communication methods\n• Governance model\n• Guidelines for escalation\n• Confidentiality\n• Non-compete\n• Enforceability\n• Liability and limitation of liability\n• Indemnification\n• Dispute resolution\n• Termination or cancellation\n• Signatures and date",
+      },
+      {
+        heading: "Step-Wise Process to Draft a Consulting Agreement",
+        content:
+          "• Identify the scope of consultancy required\n• Discuss and mutually decide the commercial terms\n• Draft agreement including all essential clauses\n• Review and finalize terms with legal assistance\n• Sign and retain copies for enforcement",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Why Choose Us?",
+        description: [
+          "DoStartup provides expert legal support for consulting agreements.",
+        ],
+        points: [
+          "Professionally drafted agreements",
+          "Customized clauses tailored to client needs",
+          "End-to-end legal assistance",
+          "Quick turnaround and affordable pricing",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What qualifications are required to become a consultant?",
+        answer:
+          "Consultants typically possess at least a graduation degree and two years of experience in relevant fields such as finance, HR, management, or business operations.",
+      },
+      {
+        question: "Is a license necessary to become a consultant?",
+        answer:
+          "Licensing is generally not mandatory unless specifically required by the client or the nature of services. Most consultants operate based on expertise and reputation.",
+      },
+      {
+        question: "Which types of consultants are most in demand?",
+        answer:
+          "Operations consultants, financial consultants, HR consultants, compliance consultants, and business strategy consultants are frequently in demand.",
+      },
+      {
+        question: "How can a consultant safeguard their rights?",
+        answer:
+          "By clearly defining deliverables, fees, timelines, and boundaries in a legally enforceable consulting agreement. Avoid starting work without a signed agreement.",
+      },
+      {
+        question: "Who qualifies as a consultant?",
+        answer:
+          "A consultant is an individual with expertise in a specific area, offering professional advice to clients or organizations. Consultants may work independently or through firms.",
+      },
+      {
+        question: "When should a consulting agreement be used?",
+        answer:
+          "Whenever an organization or individual hires an external expert or agency for strategic advice or specialized project work outside their internal capabilities.",
+      },
+      {
+        question: "Is a consulting agreement legally binding?",
+        answer:
+          "Yes. Once signed, it becomes a legally enforceable contract binding both the consultant and the client.",
+      },
+      {
+        question: "What must be included in a consulting agreement?",
+        answer:
+          "Key elements include consultant’s duties, project scope, deliverables, payment terms, confidentiality, dispute resolution, and termination clauses.",
+      },
+      {
+        question: "Who are the parties involved in a consulting agreement?",
+        answer:
+          "The consultant and the client (individual or organization) seeking consultancy services.",
+      },
+      {
+        question: "What law governs consulting agreements in India?",
+        answer:
+          "Consulting agreements in India are governed under the Indian Contract Act, 1872.",
+      },
+    ],
+  },
+
+  "tenant-eviction-notice": {
+    title: "Tenant Eviction Notice in India",
+    description:
+      "Understand the legal process and rights involved in evicting a tenant lawfully in India.",
+    overview: [
+      {
+        heading: "Overview of Tenant Eviction Notice",
+        content:
+          "Eviction is the legal process by which a landlord or property owner orders a tenant to vacate the premises for a valid reason. Landlords may issue an eviction notice for causes such as failure to pay rent, breach of lease terms, non-payment of charges, or illegal activities. Since rent laws vary by state in India, landlords must follow due legal procedures before eviction. The initial step involves serving a formal eviction notice detailing the reason and time frame for vacating the property.",
+      },
+      {
+        heading: "What are Eviction Laws in India?",
+        content:
+          "The Rent Control Act governs rental properties across India and defines the rights and duties of landlords and tenants. Rental and lease agreements work similarly by allowing possession transfer for a defined period. The Act ensures a structured rental relationship and lays out the procedures for legal eviction.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of a Tenant Eviction Notice",
+        content:
+          "• Establishes a formal legal record of eviction intent\n• Helps avoid illegal or forceful evictions\n• Provides the tenant a fair opportunity to respond or comply\n• Strengthens the landlord’s position if the case proceeds to court\n• Ensures compliance with Indian rent control laws",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Tenant Eviction",
+        content:
+          "• Copy of rental or tenancy agreement\n• Eviction notice served to the tenant\n• Rent receipts or proof of non-payment\n• Evidence of tenancy violations (e.g., property damage, illegal activity)\n• Proof of delivery of eviction notice (registered post, acknowledgment)\n• Ownership documents of the property",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Tenant Eviction in India",
+        content:
+          "• Identify valid legal grounds such as rent default, lease violation, or personal need\n• Serve a legal eviction notice to the tenant outlining the issue and expected action\n• Wait for tenant compliance – either to pay dues or vacate\n• If non-compliance continues, file an eviction petition in the Rent Control Court\n• Attend court hearings and provide necessary documentation\n• If the court issues an eviction order, seek police assistance to enforce the order if required",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Time Required for Eviction Process",
+        description:
+          "The eviction process generally takes 1 to 3 months from notice issuance to court order, depending on case complexity and tenant response.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Us for Tenant Eviction Support?",
+        description: [
+          "We offer legal expertise in drafting, serving notices, and court representation.",
+        ],
+        points: [
+          "Experienced legal professionals",
+          "Drafting and filing support",
+          "Full process handling from notice to enforcement",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "What is the difference between eviction and unlawful detainer?",
+        answer:
+          "Unlawful detainer refers to illegal occupation of property after the lease ends or terms are violated. Eviction is the legal process used to remove such occupants.",
+      },
+      {
+        question: "What is a writ of possession?",
+        answer:
+          "A writ of possession is a court order for tenant eviction and removal of belongings, executed with police assistance if needed.",
+      },
+      {
+        question: "Is self-help eviction legal in India?",
+        answer:
+          "No. Landlords must not cut utilities or forcibly evict tenants. Doing so is considered harassment and illegal under Indian law.",
+      },
+      {
+        question: "Can tenants sue landlords for self-help eviction?",
+        answer:
+          "Yes. Tenants can sue for trespass, harassment, and wrongful eviction if the landlord attempts to evict without following legal procedures.",
+      },
+      {
+        question: "Can landlords file a civil suit for eviction?",
+        answer:
+          "No. Eviction must be pursued through the Rent Control Court, not a civil suit.",
+      },
+      {
+        question: "What does eviction mean?",
+        answer:
+          "Eviction is a legal action by a landlord to remove a tenant from rented property for valid reasons such as non-payment or agreement violations.",
+      },
+      {
+        question: "What is a tenancy agreement?",
+        answer:
+          "A tenancy agreement is a legal contract between landlord and tenant outlining rental terms, obligations, and rent.",
+      },
+      {
+        question: "Who are the parties to a tenancy agreement?",
+        answer: "The landlord and the tenant are the two parties involved.",
+      },
+      {
+        question: "What actions by a tenant justify eviction?",
+        answer:
+          "Non-payment of rent, property damage, breach of agreement, or illegal use of the premises can justify an eviction notice.",
+      },
+      {
+        question: "What can a landlord do if the tenant refuses to vacate?",
+        answer:
+          "The landlord can file an eviction petition in court and enforce the order through legal means.",
+      },
+      {
+        question: "Is the security deposit refundable upon eviction?",
+        answer:
+          "It depends on court direction. If the tenant damaged the property, the landlord can deduct repair expenses from the deposit.",
+      },
+    ],
+  },
 
 
 
-  
+
+
 };
