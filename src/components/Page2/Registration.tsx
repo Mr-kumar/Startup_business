@@ -69,7 +69,7 @@ const Registration: React.FC<RegistrationProps> = ({ procedure = [] }) => {
           />
         </h1>
         <div className="space-y-3">
-          {registrationItem.content.split('\n').map((step, index) => (
+          {registrationItem?.content?.split('\n').map((step, index) => (
             <motion.p
               key={index}
               initial={{ opacity: 0 }}

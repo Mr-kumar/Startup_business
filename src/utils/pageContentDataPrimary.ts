@@ -14569,8 +14569,3192 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
+  "vendor-agreement": {
+    title: "Vendor Agreement in India",
+    description:
+      "Comprehensive guide to drafting, negotiating, and enforcing vendor agreements for the supply of goods or services.",
+    overview: [
+      {
+        heading: "Overview of Vendor Agreement",
+        content:
+          "A Vendor Agreement is a legally binding written contract that outlines the terms and conditions under which a vendor will provide goods or services to a customer. It includes key details such as the date, time, and location for delivery of goods or services. Vendor agreements help ensure mutual understanding and reduce risks by clearly stating rights and obligations.",
+      },
+      {
+        heading: "Applicable Law",
+        content:
+          "In India, vendor agreements are governed by multiple laws including the Indian Contract Act, 1872, the Consumer Protection Act for safeguarding buyers’ rights, and the GST Act which applies when goods or services are supplied and tax obligations arise.",
+      },
+      {
+        heading: "Negotiation and Drafting",
+        content:
+          "Although verbal agreements may occur between known parties, formalizing a vendor agreement in writing is essential. The process includes introducing parties, stating agreed terms and conditions, and allowing modifications before signing. It ensures clarity on financial arrangements, responsibilities, and delivery expectations.",
+      },
+      {
+        heading: "Requirement of a Vendor Agreement",
+        content:
+          "A complete vendor agreement should include party details, confirmation of a valid license (if applicable), description of products or services, tax provisions, and clear delivery schedules. It helps define the business transaction and avoid ambiguity.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages",
+        content:
+          "• Defines business transactions with written clarity\n• Increases efficiency by outlining procedures\n• Includes dispute resolution mechanisms\n• Minimizes risks related to pricing, delivery, and unforeseen events\n• Maintains professional business relationships",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Requirements",
+        content:
+          "• Names, addresses, and contact details of both parties\n• Confirmation of vendor's valid license (if applicable)\n• Scope of services or goods\n• Delivery details including time, place, and method\n• Payment terms and applicable taxes\n• Confidentiality and indemnity clauses\n• Termination and dispute resolution provisions\n• Signatures and date of agreement",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Drafting a Vendor Agreement",
+        content:
+          "• Engage a legal expert to discuss objectives and requirements\n• Provide contract details including scope, terms, and payment\n• Lawyer drafts initial agreement for review\n• Parties suggest revisions and approve final draft\n• Final agreement is signed and becomes enforceable",
+      },
+      {
+        heading: "Common Elements in a Vendor Agreement",
+        content:
+          "• Pricing: Fixed or variable as per mutual agreement\n• Delivery Terms: Schedule, location, and installment options\n• Payment Terms: Method, timelines, and penalties\n• Indemnity Clause: Liability for defective or damaged goods\n• Termination Clause: Conditions for ending the agreement\n• Warranties: Representations and guarantees by parties\n• Confidentiality: Non-disclosure of sensitive information\n• Dispute Resolution: Arbitration or mediation preferred",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Finalizing Vendor Agreement",
+        description:
+          "Vendor agreements typically take around 3 to 4 days to finalize.",
+        steps: [
+          {
+            title: "Initial Consultation",
+            duration: "1 day",
+            description: "Discuss objectives, scope, and necessary clauses.",
+          },
+          {
+            title: "Drafting Agreement",
+            duration: "2 days",
+            description: "Lawyer prepares and shares the draft agreement.",
+          },
+          {
+            title: "Review and Modifications",
+            duration: "1 day",
+            description: "Parties suggest changes and finalize the terms.",
+          },
+          {
+            title: "Signing",
+            duration: "1 day",
+            description:
+              "Both parties sign and retain copies of the agreement.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostatup?",
+        description: [
+          "Dostatup provides expert legal assistance for customized vendor agreements tailored to your business needs.",
+        ],
+        points: [
+          "Experienced legal drafting team",
+          "Quick turnaround time",
+          "Clarity in terms and protections",
+          "End-to-end support including negotiation and execution",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a vendor agreement?",
+        answer:
+          "It is a contract between parties where one party, known as the vendor, agrees to perform specified work or provide goods under mutually agreed terms in exchange for payment.",
+      },
+      {
+        question: "What is meant by Vendor Leasing?",
+        answer:
+          "Vendor Leasing refers to a partnership between a leasing company and a vendor where the leasing company offers financing options to the vendor’s customers to boost sales.",
+      },
+      {
+        question: "What is a Vendor Loan?",
+        answer:
+          "A Vendor Loan occurs when a vendor provides financial assistance to customers to purchase goods or services, to be repaid at a later date.",
+      },
+      {
+        question: "Do vendor loans carry higher interest rates?",
+        answer:
+          "Yes, vendor loans typically have higher interest rates compared to traditional loans from banks.",
+      },
+      {
+        question: "What are the key elements of a vendor agreement?",
+        answer:
+          "Key elements include pricing, delivery schedule, termination clause, confidentiality, payment terms, dispute resolution, and other mutually agreed provisions.",
+      },
+      {
+        question: "What is a vendor deposit?",
+        answer:
+          "A vendor deposit is an advance payment made by the customer before goods or services are delivered, often recorded against the final invoice.",
+      },
+      {
+        question: "What are the benefits of a vendor agreement?",
+        answer:
+          "Benefits include improved efficiency, reduced risk, enforceable obligations, and clear communication between vendor and client.",
+      },
+      {
+        question: "What is the process for drafting a vendor agreement?",
+        answer:
+          "Consult a legal expert, provide details of the transaction, review the draft agreement, request modifications, and sign the finalized version.",
+      },
+      {
+        question: "Who is a vendor?",
+        answer:
+          "A vendor is an individual or business entity that supplies goods or services as agreed upon in the vendor agreement.",
+      },
+      {
+        question: "Who is a supplier in a vendor agreement?",
+        answer:
+          "The vendor is also referred to as the supplier when supplying goods or services to the customer.",
+      },
+      {
+        question: "What is a Statement of Work?",
+        answer:
+          "A Statement of Work (SOW) is an attachment to the vendor agreement that defines scope, costs, responsibilities, and timelines for execution.",
+      },
+      {
+        question: "Is registration of a vendor agreement mandatory?",
+        answer:
+          "No, vendor agreements in India are not required to be registered. They are legally valid upon signing by both parties.",
+      },
+    ],
+  },
+
+  "license-agreement": {
+    title: "License Agreement in India",
+    description:
+      "Comprehensive guide to creating, negotiating, and managing license agreements for intellectual property.",
+    overview: [
+      {
+        heading: "Overview of License Agreement",
+        content:
+          "Under Section 52 of the Indian Easement Act, 1882, a license is permission to do something on another’s immovable property that would otherwise be unlawful and does not grant any property interest. In intellectual property, a license agreement is a written contract in which the licensor permits the licensee to use specified IP under agreed terms and conditions for a defined period.",
+      },
+      {
+        heading: "Laws Governing Licensing Agreements",
+        content:
+          "Licensing agreements are governed by multiple statutes including the Indian Contract Act, 1872, Copyright Act, 1957, Trade Marks Act, 1999, Design Act, 2000, Patents Act, 1970, Competition Act, 2002, and applicable state stamp‑duty laws.",
+      },
+      {
+        heading: "Key Elements of a Licensing Agreement",
+        content:
+          "Typical clauses include recitals, party details, tenure, scope of usage, license fee and payment schedule, force majeure, indemnification, accounting and audits, governing laws, and dispute‑resolution mechanism.",
+      },
+      {
+        heading: "Types of Licensing Agreements",
+        content:
+          "• Exclusive licensing – sole rights to the licensee\n• Non‑exclusive licensing – licensor may license others\n• Co‑exclusive licensing – limited number of licensees\n• Sole licensing – licensee has exclusive rights while licensor also retains usage",
+      },
+      {
+        heading: "Issues Covered by Licensing Agreements",
+        content:
+          "Agreements often address copyright, patents, trademarks, service marks, and trade secrets, each with specific usage rights, royalties, and quality‑control provisions.",
+      },
+      {
+        heading: "Major Concerns in Licensing",
+        content:
+          "Key concerns include fair license‑fee calculation, quality control to protect brand reputation, and clearly defined scope of usage aligned with market value.",
+      },
+      {
+        heading: "Risks of Not Having a Written Agreement",
+        content:
+          "Absence of a clear contract may lead to IP misuse, loss of revenue, confusion over rights, and difficulty enforcing legal remedies.",
+      },
+      {
+        heading: "End User Licensing Agreement (EULA)",
+        content:
+          "An EULA is a contract between software developers and users that restricts transfer of rights and protects the licensor’s IP from unauthorized copying or usage.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages of Licensing",
+        content:
+          "• Access to new markets and wider customer base\n• Monetization of unused technological assets\n• Generation of additional revenue and profit for both parties\n• Reduced risk and cost compared to full ownership transfer\n• Protection of intellectual property through contractual safeguards",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Licensing Agreement Checklist",
+        content:
+          "• Accurate party identification with registration details\n• Specific duration and renewal or termination terms\n• Proof of licensor’s ownership and right to sublicense\n• Comprehensive description of licensed IP\n• Clear definitions of technical terms\n• Detailed payment schedule and royalty formula\n• Indemnification protecting the licensor\n• Broad force‑majeure clause\n• Compliance with current and future legal requirements",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Draft a Licensing Agreement",
+        content:
+          "• Consult a legal professional to outline objectives and IP details\n• Draft clear, simple language avoiding ambiguous abbreviations\n• Incorporate all essential clauses covering scope, fees, confidentiality, dispute resolution, and termination\n• Review and negotiate terms to reflect mutual intent\n• Execute the agreement with signatures and applicable stamp duty\n• Register the agreement with relevant authorities where mandatory",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline for Finalizing a License Agreement",
+        description:
+          "Most licensing agreements can be drafted, negotiated, and signed within one to two weeks, depending on complexity and responsiveness of parties.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostatup?",
+        description: [
+          "Dostatup offers expert assistance in drafting customized licensing agreements that protect IP and align with business goals.",
+        ],
+        points: [
+          "Specialized IP legal team",
+          "Tailored clauses covering all risks",
+          "Guidance on registration and compliance",
+          "Transparent, fixed‑fee packages",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the difference between licensing and assignment?",
+        answer:
+          "Licensing grants temporary permission to use IP, while assignment permanently transfers ownership rights to the assignee.",
+      },
+      {
+        question: "Which agreement transfers full ownership of IP?",
+        answer:
+          "An assignment agreement transfers complete ownership, unlike a license agreement.",
+      },
+      {
+        question: "Who is the first owner of copyright?",
+        answer:
+          "Section 17 of the Copyright Act, 1957 states that the author of the work is the first owner of copyright.",
+      },
+      {
+        question: "Can licensors receive royalties?",
+        answer:
+          "Yes. Royalty amounts and payment methods are detailed in the licensing agreement.",
+      },
+      {
+        question: "Why is a licensing agreement important?",
+        answer:
+          "It safeguards the licensor’s IP against misuse, defines usage terms, and serves as legal evidence in case of infringement.",
+      },
+      {
+        question: "What risks exist without a licensing agreement?",
+        answer:
+          "Risks include misuse of IP, revenue loss, disputes over scope, and difficulty enforcing rights.",
+      },
+      {
+        question: "Is registration of a licensing agreement mandatory?",
+        answer:
+          "Yes. Licensing agreements must be registered with relevant authorities to ensure enforceability.",
+      },
+      {
+        question: "How are disputes resolved under a licensing agreement?",
+        answer:
+          "Disputes may be resolved through mutually agreed arbitration or by approaching a competent court with jurisdiction.",
+      },
+    ],
+  },
+
+  "legal-notice-for-defamation": {
+    title: "Legal Notice for Defamation in India",
+    description:
+      "Guide to issuing a legal notice for defamation, the laws involved, required documents, and next steps if the matter is not resolved.",
+    overview: [
+      {
+        heading: "Overview of Legal Notice for Defamation",
+        content:
+          "Defamation occurs when false statements are made with malicious intent to harm a person’s reputation. It can be libel (written) or slander (spoken). Under Section 499 of the Indian Penal Code, 1860, an aggrieved person may send a legal notice for defamation before initiating civil or criminal proceedings. The notice demands corrective action such as a public apology or compensation.",
+      },
+      {
+        heading: "Need for a Legal Notice",
+        content:
+          "Sending a legal notice serves as a pre‑litigation warning. It informs the accused of potential legal consequences and offers a chance to settle the matter amicably, preserving court time and costs.",
+      },
+      {
+        heading: "Laws Governing Defamation",
+        content:
+          "Civil defamation is pursued under the law of torts and the Code of Civil Procedure, 1908. Criminal defamation is defined under Section 499 of the Indian Penal Code with punishment under Section 500. The right to reputation is a facet of Article 21 of the Constitution, while freedom of speech under Article 19 is subject to reasonable restrictions such as defamation.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Issue a Legal Notice First?",
+        content:
+          "● Provides formal intimation and opportunity to retract or apologise\n● Establishes a written record of demands and timeline\n● May result in compensation without lengthy litigation\n● Demonstrates seriousness of the claim",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "● Proof of defamatory content (article, video, social‑media post, broadcast clip)\n● Identity proof of the aggrieved party\n● Evidence of reputational harm (loss of business, social standing, or mental anguish)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Issuing a Legal Notice",
+        content:
+          "● Engage an advocate experienced in defamation matters\n● Advocate drafts the notice on official letterhead with full party details and facts\n● Notice states defamatory acts, demands retraction or apology, and allows reasonable time to comply\n● Notice is signed by the advocate and client, then sent via registered post with acknowledgement\n● If the accused fails to comply, the aggrieved party may file a civil suit for damages or a criminal complaint before a Judicial Magistrate",
+      },
+      {
+        heading: "Key Components of a Defamation Notice",
+        content:
+          "● Advocate’s letterhead and contact details\n● Date of issuance and addresses of both parties\n● Detailed description of defamatory statements and where they were published\n● Demand for relief (public apology, retraction, or compensation)\n● Explanation of harm caused and proposed remedy\n● Signature of advocate and aggrieved party",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Timeline Considerations",
+        description:
+          "A legal notice can be prepared and dispatched within a few days. Under the Limitation Act, a defamation suit must be filed within one year from the date of the defamatory act.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "Dostartup provides end‑to‑end support for drafting defamation notices and pursuing legal remedies.",
+        ],
+        points: [
+          "Experienced defamation lawyers",
+          "Accurate drafting and timely dispatch",
+          "Strategic advice on civil and criminal options",
+          "Comprehensive litigation support if required",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is defamation?",
+        answer:
+          "Defamation is the act of harming a person’s reputation through false statements, recognised as both a civil wrong and a criminal offence in India.",
+      },
+      {
+        question:
+          "Is sending a legal notice mandatory before filing a defamation case?",
+        answer:
+          "It is not compulsory, but it is advisable as a precautionary step and may lead to amicable resolution.",
+      },
+      {
+        question: "What is the time limit to file a defamation case?",
+        answer:
+          "A defamation suit must be filed within one year from the date of publication of the defamatory statement.",
+      },
+      {
+        question: "How should one respond to a defamation notice?",
+        answer:
+          "Reply point‑wise through a lawyer, either denying allegations with justification or accepting fault and complying with the demands.",
+      },
+      {
+        question: "Can private conversations amount to defamation?",
+        answer:
+          "No. Defamation requires publication to at least one third party.",
+      },
+      {
+        question: "Are statements made in court protected?",
+        answer:
+          "Yes. Statements by witnesses under oath are privileged and cannot give rise to defamation claims.",
+      },
+      {
+        question: "What compensation can be claimed?",
+        answer:
+          "The aggrieved party may claim monetary damages for emotional, professional, or financial harm caused by the defamatory act.",
+      },
+    ],
+  },
+
+  "legal-notice-for-non-payment-of-salary": {
+    title: "Legal Notice for Non-Payment of Salary in India",
+    description:
+      "Learn how to issue a legal notice for unpaid salary, applicable laws, required documents, and further legal remedies.",
+    overview: [
+      {
+        heading: "Overview of Legal Notice for Non-Payment of Salary",
+        content:
+          "A legal notice is a formal warning sent to an employer for failing to pay salary, indicating the employee's intent to initiate legal proceedings. It outlines the grievance, relevant legal obligations, and a specified timeframe for resolution. Issued under Section 80 of the Code of Civil Procedure, 1908, it acts as a pre-litigation tool to encourage settlement and prevent unnecessary litigation.",
+      },
+      {
+        heading: "Reliefs That Can Be Claimed",
+        content:
+          "An employee may claim:\n● The total unpaid salary due\n● Interest on the delayed salary payment, if applicable",
+      },
+      {
+        heading: "Governing Laws for Salary Payment in India",
+        content:
+          "● Contract Labour (Regulation and Abolition) Act: Makes contractors and principal employers liable for salary payment.\n● Shops and Establishment Act, 1953: Mandates double wages for overtime and penalties for delayed salary.\n● Minimum Wages Act, 1948 and Payment of Wages Act, 1936: Ensure timely salary and lawful deductions.\n● Industrial Disputes Act: Section 33C provides a legal mechanism to claim unpaid wages.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Send a Legal Notice?",
+        content:
+          "● Provides a formal channel to address salary delays\n● Serves as legal proof of attempted resolution\n● Encourages out-of-court settlement\n● Offers a chance to recover dues without lengthy litigation",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "● Appointment letter\n● Employment contract\n● Bank statements showing salary non-payment\n● Details of perks or benefits offered during employment",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Sending a Legal Notice",
+        content:
+          "1. Hire an experienced employment lawyer, such as those at dostartup\n2. Share complete information and documentation\n3. Advocate drafts the legal notice covering facts, claims, and legal obligations\n4. Review and approve the draft\n5. Dispatch the notice via registered post or courier with acknowledgment",
+      },
+      {
+        heading: "What a Legal Notice Should Include",
+        content:
+          "● Advocate’s letterhead and contact info\n● Date of issuance\n● Employer and employee details\n● Summary of the grievance and violated rights\n● Legal basis and remedy demanded\n● Timeframe for resolution\n● Signatures of both advocate and employee",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Limitation Period",
+        description:
+          "A recovery suit for unpaid salary must be filed within 3 years from the date the salary became due.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "Dostartup offers specialized legal support for employment-related matters, including salary disputes.",
+        ],
+        points: [
+          "Experienced in employment and labor law",
+          "Accurate legal notice drafting",
+          "Support for alternative legal remedies",
+          "Complete guidance through recovery and litigation process",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What if the employer ignores the legal notice?",
+        answer:
+          "The employee may proceed with legal remedies such as arbitration, Labour Court petition, or complaint to the Registrar of Companies.",
+      },
+      {
+        question: "What is the maximum duration for withholding salary?",
+        answer:
+          "As per the Payment of Wages Act, salary can be withheld for up to 30 days, especially for notice period compliance or recovery of company property.",
+      },
+      {
+        question: "Can legal notice be issued for bonus or EPF dues?",
+        answer:
+          "Yes, legal notice can also be served for unpaid bonuses and Provident Fund contributions.",
+      },
+      {
+        question:
+          "What documents are required to serve a salary-related legal notice?",
+        answer:
+          "Appointment letter, employment contract, bank statements, and benefit details are needed to substantiate the claim.",
+      },
+      {
+        question: "What can be demanded in the legal notice?",
+        answer:
+          "Full unpaid salary, interest for delay, and a specific timeline for resolution can be demanded.",
+      },
+      {
+        question: "What is a legal notice for salary non-payment?",
+        answer:
+          "It is a formal written communication informing the employer of pending salary dues and potential legal consequences.",
+      },
+      {
+        question:
+          "Why is it important to send a legal notice before court action?",
+        answer:
+          "It provides a final opportunity to settle the matter amicably and serves as legal evidence of good faith by the employee.",
+      },
+      {
+        question: "Under which law is the notice sent?",
+        answer:
+          "Section 80 of the Code of Civil Procedure, 1908, governs such civil legal notices.",
+      },
+      {
+        question: "How can a lawyer help?",
+        answer:
+          "A lawyer ensures proper drafting, legal validity, and strategic positioning for stronger case outcomes.",
+      },
+      {
+        question: "Which authority helps recover unpaid salaries?",
+        answer:
+          "Labour Commissioner, Labour Court, or Registrar of Companies, depending on the type of employer.",
+      },
+      {
+        question: "What are alternate remedies if salary is unpaid?",
+        answer:
+          "Arbitration (if clause exists), Labour Commissioner complaint, or legal suit under Industrial Disputes Act.",
+      },
+      {
+        question: "What laws regulate salary payment?",
+        answer:
+          "Key laws include the Indian Contract Act, Shops and Establishments Act, Payment of Wages Act, and Industrial Disputes Act.",
+      },
+    ],
+  },
+
+  "model-approval-certificate": {
+    title: "Model Approval Certificate for Weights & Measures — At a Glance",
+    description:
+      "Summary of India’s model approval requirements under the Legal Metrology Act for weighing and measuring instruments.",
+    overview: [
+      {
+        heading: "What Counts as “Model Approval”?",
+        content:
+          "A Model Approval Certificate confirms that a specific design of weight or measure has passed prescribed laboratory tests and meets technical and metrological standards. Once granted, the model may be manufactured, imported, and sold anywhere in India, subject to verification and stamping. Exemptions include retail brass or cast‑iron weights, beam scales, length measures (except flexible tapes), and capacity measures up to 20 litres for milk, kerosene, or potable liquor.",
+      },
+      {
+        heading: "Who Must Apply?",
+        content:
+          "● Manufacturers planning to produce weighing or measuring instruments in India\n● Importers bringing such instruments into India (who must also hold a Dealer Licence to sell them)",
+      },
+      {
+        heading: "Legal Basis",
+        content:
+          "Under Section 22 of the Legal Metrology Act, 2009, every weight or measure must conform to standards set by the Department of Legal Metrology. Unless exempt, model approval must be obtained before the first unit is made or imported. The Director of Legal Metrology (Ministry of Consumer Affairs) is the approving authority.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Holding a Certificate",
+        content:
+          "● Reduces transaction costs by preventing disputes over accuracy\n● Promotes domestic and international trade through harmonised standards\n● Protects government revenue tied to excise and customs duties based on verified quantities\n● Aligns with global metrology norms to remove technical barriers\n● Builds consumer trust in products bearing the certified model mark",
+      },
+      {
+        heading: "Eligibility & Foreign Approvals",
+        content:
+          "Models must satisfy Indian metrological and safety specifications. If an identical model holds approval abroad and meets Indian standards, the Director may grant approval with or without further testing.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Document Checklist",
+        content:
+          "● Applicant’s name and address (plus overseas maker’s details if imported)\n● Brief description, class and intended use of the instrument\n● Metrological and technical specifications\n● Manufacturer’s test procedure and quality‑control plan\n● Brand/trade name and model code\n● Schematic diagrams, circuit layouts, installation drawings\n● Two photographs of the actual unit (for digital types, include PCB images)\n● User manuals, brochures and operating instructions\n● Proof of payment of prescribed fee under Rule 19\n● Any additional information to evaluate performance",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Application Process for Manufacturers",
+        content:
+          "● Collect documents and fill Form MA\n● Submit form, prescribed fee and a sample unit to the Directorate of Legal Metrology for laboratory testing\n● Receive test results; if compliant, certificate is issued",
+      },
+      {
+        heading: "Application Process for Importers",
+        content:
+          "● Assemble required documents and complete Form MA\n● Lodge application, fee and sample with the Directorate\n● After scrutiny (and tests if required), the Director issues the certificate",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Suspension & Revocation",
+        description:
+          "The Director may suspend or revoke approval if the model’s performance deviates from certified standards, the design is altered without permission, or updated regulations render it non‑compliant. No action is taken without giving the certificate holder an opportunity to be heard. Instruments made between suspension date and final order must still be verified; if errors exceed permitted limits, use is barred.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Assists",
+        description: [
+          "Expert dossier preparation to satisfy all Rule 19 requirements",
+          "End‑to‑end liaison with Central laboratory for timely testing slots",
+          "Real‑time tracking of application status on our client portal",
+          "Post‑approval services: marking guidance, licence renewals and amendments",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Is model approval mandatory for all instruments?",
+        answer:
+          "Only those not specifically exempted under the Rules require approval.",
+      },
+      {
+        question: "What is the certificate’s validity?",
+        answer:
+          "Valid indefinitely unless suspended or revoked; any design changes require fresh approval.",
+      },
+      {
+        question: "Can foreign test results be used?",
+        answer:
+          "Yes, if the Director is satisfied they meet Indian criteria; additional tests may still be ordered.",
+      },
+      {
+        question: "Does model approval replace verification stamping?",
+        answer:
+          "No. Each instrument must still undergo verification and bear the Legal Metrology seal before sale or use.",
+      },
+    ],
+  },
+
+  "lmpc-certificate": {
+    title: "LMPC Certificate for Import: A Practical Guide",
+    description:
+      "Overview of requirements, process, and benefits for obtaining a Legal Metrology Packaged Commodity certificate for pre‑packaged imports under Rule 27.",
+    overview: [
+      {
+        heading: "What Is an LMPC Certificate?",
+        content:
+          "A statutory approval confirming compliance with labelling, quantity and declaration rules for pre‑packaged goods. Issued by the Department of Consumer Affairs or State Controller, it is required before customs clearance of imports.",
+      },
+      {
+        heading: "Who Needs It?",
+        content:
+          "● Importing goods for sale in one state – apply to the State Controller of Legal Metrology\n● Importing goods for sale nationwide – apply to the Director of Legal Metrology (Central) via local Controller\n● Manufacturing or repacking imported goods – requires both Importer and Manufacturer/Packer certificates",
+      },
+      {
+        heading: "Types of LMPC Certificates",
+        content:
+          "• Importer Certificate – for entities that bring pre‑packaged items into India\n• Manufacturer/Packer Certificate – for goods that are repacked, relabelled or altered before sale",
+      },
+      {
+        heading: "Legal Basis",
+        content:
+          "Rule 27 of the Legal Metrology (Packaged Commodities) Rules, 2011 and Section 22 of the Legal Metrology Act, 2009 require model approval and LMPC certification within 90 days before first consignment.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages of Registration",
+        content:
+          "● Avoids customs delays and penalties\n● Builds consumer trust with standardised labels\n● Reduces trade barriers across states\n● Supports accurate duty assessment and government revenue\n● Cuts transaction disputes by verifying declared quantities",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Document Checklist",
+        content:
+          "● Trade/Factory/Manufacturing licence (MCD, NDMC, DDA, etc.)\n● GST/Sales‑tax registration\n● IEC (Import‑Export Code)\n● Memorandum & Articles (companies) or partnership deed (firms)\n● ID proof of proprietors/partners/directors (Aadhaar, passport, voter ID)\n● Sample packaging materials (labels, stickers, cartons)\n● Passport‑format photos of key managerial personnel\n● Affidavit of premises conformity (if no municipal licence)\n● Any additional state‑specific forms\n● Proof of payment of prescribed fee under Rule 19",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Application Process for Manufacturers",
+        content:
+          "● Collect documents and fill Form MA\n● Submit form, fee and sample unit to the Directorate of Legal Metrology\n● Receive laboratory test results; if compliant, certificate is issued",
+      },
+      {
+        heading: "Application Process for Importers",
+        content:
+          "● Assemble documents and complete Form MA\n● Lodge application, fee and sample with the Directorate\n● After scrutiny and tests if required, Director issues the certificate",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Typical Fee Range",
+        description:
+          "Government and professional charges generally fall between ₹8 999 – ₹20 999, depending on state and application complexity.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing Time",
+        description:
+          "Typical processing takes up to two months, depending on state jurisdiction, document completeness and laboratory testing slots.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Simplifies LMPC Compliance",
+        description: [
+          "Pan‑India filing support with local experts for state‑specific requirements",
+          "Real‑time application tracking on our secure platform",
+          "Document vetting and gap analysis to avoid queries",
+          "Post‑registration services: renewals, label reviews and on‑call support",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Is LMPC registration mandatory?",
+        answer:
+          "Yes, for any pre‑packaged goods entering Indian commerce unless explicitly exempted.",
+      },
+      {
+        question: "How long is the certificate valid?",
+        answer: "Valid for five years, renewable before expiry.",
+      },
+      {
+        question: "What happens if I import without an LMPC?",
+        answer:
+          "Customs clearance may be halted, goods seized and penalties (monetary and criminal) imposed.",
+      },
+      {
+        question: "Can a single LMPC cover multiple states?",
+        answer:
+          "Apply to the Central Director for nationwide operations; otherwise each state requires separate registration.",
+      },
+      {
+        question: "What are the exemptions?",
+        answer:
+          "Packs ≤ 10 g/10 ml, agricultural produce > 50 kg, restaurant/hotel fast‑food packs, drug formulations under DPCO 1995, industrial/institutional consumer packs, certain > 25 kg packs.",
+      },
+      {
+        question: "What is the application timeline?",
+        answer:
+          "Submit applications at least 90 days before first consignment; allow up to two months for processing.",
+      },
+    ],
+  },
+  "legal-metrology-dealer-licence": {
+    title: "Legal Metrology Dealer Licence — Key Facts",
+    description:
+      "Key facts about obtaining and maintaining a dealer licence under the State Legal Metrology (Enforcement) Rules, 2011 for trading weights and measures.",
+    overview: [
+      {
+        heading: "Area Requirements",
+        content:
+          "• Premises: proof of legal possession (sale deed, rent agreement, latest tax receipt or owner’s NOC) and an independent entrance separated from any residence\n• Site plan: simple layout showing sales area, storage and office space\n• Firm constitution: partnership deed, LLP agreement, MoA & AoA plus Certificate of Incorporation\n• Financial capacity: bank statement or net‑worth declaration to show business can sustain inventory and after‑sales obligations\n• Sales‑tax / GST registration: copy of registration certificate\n• Other approvals: trade licence, labour licence, professional‑tax registration, village‑panchayat NOC (if rural)",
+      },
+      {
+        heading: "Who Needs a Dealer Licence?",
+        content:
+          "Any business marketing or trading in weighing and measuring devices in India must hold a Dealer Licence. Manufacturers or importers acting as dealers need this in addition to their manufacturing or importer approvals.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Document Pack (attach to Form LD-1)",
+        content:
+          "• Identity and address proof of proprietor/directors\n• Two passport‑size photographs\n• Ownership or rent documents for the shop\n• Affidavit pledging compliance with the Legal Metrology Act & Rules\n• Model‑Approval Certificates for devices to be traded\n• Partnership deed or company incorporation papers\n• Employee appointment letters with qualification/experience proof (if any)\n• Shop & Establishment Act registration (urban areas)\n• Site plan and location sketch\n• GST, Professional‑Tax, Labour‑Licence copies\n• Trade licence (where required)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Licensing Workflow",
+        content:
+          "• Online filing of Form LD‑1 plus scans of all documents to the local Inspector of Legal Metrology\n• Inspection: inspector visits premises within ~15 working days and sends report to Assistant Controller\n• Scrutiny & recommendation: Assistant Controller reviews dossier and forwards to Controller within ~5 working days\n• Fee demand: Controller notifies applicant to pay prescribed fee online\n• Grant of licence: digital Dealer Licence issued once payment is confirmed\nNote: Separate licence required for each state where you trade.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Renewal Basics",
+        description:
+          "• Validity: 1 to 5 years (state‑specific)\n• Renewal form: LD‑2 plus original licence, GST, Professional‑Tax and Labour‑Licence copies\n• Late applications may attract additional fees or penalties",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Makes It Simple",
+        description: [
+          "Pan‑India reach: local experts in every state liaise with officials on your behalf",
+          "Document vetting & gap check to avoid queries and delays",
+          "End‑to‑end tracking: real‑time updates until licence delivery",
+          "Post‑licence support: reminders for renewals, amendments and regulatory changes",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Dealer Licence?",
+        answer:
+          "A statutory approval allowing a business to market, trade or stock for sale any weights and measures in India.",
+      },
+      {
+        question: "Who issues it?",
+        answer:
+          "The State Controller of Legal Metrology (or an authorised officer) where your shop or warehouse is located.",
+      },
+      {
+        question: "Can a dealer sell above MRP?",
+        answer:
+          "No. Charging more than the Maximum Retail Price is a punishable offence.",
+      },
+      {
+        question: "May I sell unstamped devices?",
+        answer:
+          "Absolutely not. All weights and measures must bear a valid verification stamp before sale.",
+      },
+      {
+        question: "Do importers and manufacturers need a Dealer Licence?",
+        answer:
+          "Yes, if they wish to trade or market the instruments in India. Their importer/manufacturer licences alone are not sufficient.",
+      },
+    ],
+  },
+
+  "legal-metrology-manufacturer-licence": {
+    title: "Legal Metrology Manufacturer Licence — Essentials at a Glance",
+    description:
+      "Key facts about obtaining and maintaining a manufacturer licence under the Legal Metrology (General) Rules, 2011 for producing weighing and measuring instruments in India.",
+    overview: [
+      {
+        heading: "Why Obtain the Licence?",
+        content:
+          "• Cuts transaction costs by minimising disputes over quantity and accuracy\n• Builds buyer confidence through audited, traceable manufacturing\n• Removes technical trade barriers for inter‑state and export movement\n• Secures government revenue tied to duties and taxes on verified measures",
+      },
+      {
+        heading: "Key Application Forms",
+        content:
+          "• LM‑1: fresh application for a manufacturing licence (Schedule II‑A)\n• LM‑2: renewal of an existing licence (Schedule II‑B)\n• LM‑3: licence document issued by the Controller (Schedule III)\nNote: a valid Model‑Approval Certificate is a pre‑condition; suspension or cancellation of model approval automatically suspends the manufacturer licence.",
+      },
+      {
+        heading: "Core Requirements",
+        content:
+          "• Premises: proof of legal possession (sale deed, tax receipt, rent deed or owner’s NOC) and adequate floor space vetted by Licensing Authority\n• Workshop Equipment & Testing Facilities: complete toolset, hardness testers for weighbridges, proof of purchase and calibration\n• Firm Constitution & Financial Capacity: partnership deed or MoA/AoA plus incorporation certificate and latest audited statements or net‑worth declaration\n• Utilities & Layout: sanctioned electrical load, wiring safety certificate, site plan marking storage, assembly, test and dispatch zones\n• Technical Documentation: brochures or literature showing design, specifications and tolerances",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Holding a Manufacturer Licence",
+        content:
+          "• Legal authorisation to produce, assemble and market approved instruments anywhere in India\n• Ensures all devices meet statutory performance and safety benchmarks\n• Facilitates periodic verification and stamping for consumer protection\n• Demonstrates compliance for inspections and market access",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Document Checklist (attach with Form LM‑1)",
+        content:
+          "• PAN, Aadhaar or passport and two photographs of proprietor/partners/directors\n• Proof of premises ownership or lease/NOC\n• Location map and detailed site plan\n• Model‑Approval Certificate for each device model\n• List of machinery, gauges and test weights\n• Two affidavits: undertaking to follow Legal Metrology provisions and declaration of no convictions or pending proceedings\n• GST registration, power‑load sanction letter, trademark certificate (if any)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Licensing Procedure",
+        content:
+          "• File Form LM‑1 with all enclosures and prescribed fee\n• District Nodal Officer forwards file to Legal Metrology Inspector for premises inspection\n• Inspector’s report and recommendations sent to Assistant Controller\n• Queries (if any) issued for rectification before final review\n• Controller demands licence fee once satisfied, then issues Form LM‑3\n• Typical turnaround: 30–45 days for a complete, error‑free application",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Penalties for Non‑Compliance",
+        description:
+          "Manufacturing, selling or repairing weights and measures without a valid licence attracts fines and prosecution under Sections 23 and 46 of the Act, including imprisonment for repeat offences. Verification certificates must always be displayed when demanded by inspectors.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Streamlines the Process",
+        description: [
+          "Fast onboarding—consult a compliance expert within an hour",
+          "Gap analysis and document preparation to pre‑empt inspection queries",
+          "Factory‑readiness audit so you pass on the first visit",
+          "Real‑time tracking until Form LM‑3 is delivered",
+          "Long‑term support for renewals, model approvals and labelling queries",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What does a Manufacturer Licence cover?",
+        answer:
+          "It authorises the holder to produce, assemble and market approved weighing or measuring instruments in India, subject to periodic verification.",
+      },
+      {
+        question: "Who issues the licence?",
+        answer:
+          "The Controller of Legal Metrology in the state or Union Territory where the manufacturing unit is located.",
+      },
+      {
+        question: "Can the licence be transferred?",
+        answer:
+          "No. Any change in ownership or constitution requires a fresh licence application.",
+      },
+      {
+        question: "Is a verification certificate mandatory?",
+        answer:
+          "Yes. Every individual instrument must pass initial verification and bear a valid stamp before sale.",
+      },
+      {
+        question: "May I also repair devices under a manufacturer licence?",
+        answer:
+          "No. Repairing requires a separate Repairer Licence unless endorsed by the Controller.",
+      },
+    ],
+  },
+
+  "legal-metrology-repairer-licence": {
+    title: "Legal Metrology Repairer Licence — A Clear‑Cut Guide",
+    description:
+      "Essential information on obtaining and maintaining a repairer licence under the Legal Metrology (General) Rules, 2011 for servicing weights and measures.",
+    overview: [
+      {
+        heading: "Who Is a “Repairer”?",
+        content:
+          "Defined under Section 2 of the Legal Metrology Act, 2009 as a person engaged in restoring, servicing, calibrating, cleaning, lubricating or adjusting any weight or measure governed by legal‑metrology rules.",
+      },
+      {
+        heading: "Why the Licence Is Mandatory",
+        content:
+          "• Legitimises the repair, calibration and trade of weights and measures\n• Ensures systematic calibration and traceability of instruments\n• Protects consumers from non‑standard or tampered devices\n• Provides the State with an audit trail for enforcement",
+      },
+      {
+        heading: "Common Devices Covered",
+        content:
+          "Illustrative list (see Legal Metrology General Rules, 2011 for full list):\n• Volumetric flasks, burettes, syringes, pipettes\n• Clinical thermometers, sphygmomanometers\n• Fuel dispensers, taxi‑meters, water/bulk meters\n• Steel tapes, folding scales, surveying chains\n• Reference and carat weights, standard bars",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Document Checklist",
+        content:
+          "• Passport‑size photos and ID proofs of proprietor/partners/directors\n• Proof of premises (sale deed, rent deed or owner’s NOC)\n• Trade, shop or factory registration certificates\n• GST and Professional‑Tax registration\n• List of calibration tools, test weights and purchase invoices\n• Employee list with qualification and experience certificates\n• Previous licence (for renewals)\n• Any additional documents required by State authority",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Application Process (Form LR‑1)",
+        content:
+          "1 – Prepare Form LR‑1 with applicant’s details, workshop address, list of instruments, trade registration numbers, staffing and equipment particulars\n2 – Attach required documents and fee\n3 – Submit to State Controller of Legal Metrology\n4 – Inspection by Legal Metrology officer of premises, tools and test weights\n5 – If compliant, Controller issues the Repairer Licence (valid one year, renewable up to five years)",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Penalties for Operating Without a Licence",
+        description:
+          "• Section 23 prohibits any repair activity without authorisation\n• Section 46 prescribes fine up to ₹5,000 and/or imprisonment up to one year for repeat offences\n• Manufacturers cannot repair their own instruments unless separately licensed as repairers",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Can Help",
+        description: [
+          "Fast, jargon‑free consultation with a response within one hour",
+          "Document review and gap analysis to avoid rejections",
+          "End‑to‑end filing of Form LR‑1 with fee payment",
+          "Inspection‑readiness checklist and liaison with inspectors",
+          "Renewal support and compliance alerts",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Which form is used to apply?",
+        answer:
+          "Form LR‑1 prescribed under the State Legal Metrology (Enforcement) Rules, 2011.",
+      },
+      {
+        question: "How long is the licence valid?",
+        answer:
+          "Initially valid for one year; renewable for up to a total of five years.",
+      },
+      {
+        question: "What is the application fee?",
+        answer:
+          "Each State notifies its own fee schedule; check the latest order of your State Legal Metrology Department.",
+      },
+      {
+        question: "Must repairers keep records?",
+        answer:
+          "Yes. A bound register noting every instrument received, repaired, tested and delivered is compulsory.",
+      },
+      {
+        question: "What if an inspector is denied entry?",
+        answer:
+          "Obstructing an officer attracts penalties under Section 53 of the Act, including fines and prosecution.",
+      },
+    ],
+  },
+
+  "packaged-commodity-registration": {
+    title: "Packaged Commodity Registration: A Practical Overview",
+    description:
+      "Under Rule 27 of the Legal Metrology (Packaged Commodities) Rules, 2011, packers, producers and importers must obtain registration before selling pre‑packaged goods.",
+    overview: [
+      {
+        heading: "Why Registration Matters",
+        content:
+          "Guarantees uniform application of the Legal Metrology Act and Rules; protects consumers by making key product information accessible; provides regulators a clear trail of responsibility when discrepancies arise.",
+      },
+      {
+        heading: "Types of Mandatory Registrations & Permissions",
+        content:
+          "Importer Registration: Imports packaged commodities into India (Rule 27)\nManufacturer Registration: Manufactures or applies mark to pre‑packaged goods (Rule 27)\nPacker Registration: Pre‑packages goods for retail or wholesale sale (LMPC Certificate under Rule 27)\nPermission for Shorter Address: When full address does not fit on the label (Rule 28)",
+      },
+      {
+        heading: "Essential Filing Criteria",
+        content:
+          "Premises: List every location used for packing, importing or manufacturing\nCommodity List: Specify all products covered by the registration\nFuture Changes: Report additions or deletions of premises or products for endorsement",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Key Documents (Indicative List)",
+        content:
+          "Applicant’s name and full address; details of commodities; prescribed fee per category; self‑attested identity and address proofs; passport‑size photographs; tax registrations (GST, PAN); trade, factory or manufacturing licence (or affidavit if none); memorandum & articles of association or partnership deed; any additional documents demanded by local Legal Metrology office.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Registration Process",
+        content:
+          "Application: Submit Form LMPC‑I (or state equivalent) plus fee to the Director/Controller, Legal Metrology.\nDocument Scrutiny: Officers verify form and attachments for completeness.\nInspection: Inspector visits declared premises to confirm compliance.\nReport & Recommendation: Inspector’s report forwarded to Zonal Officer/Controller.\nApproval: Controller issues certificate if satisfied or provides reasoned refusal.",
+      },
+      {
+        heading: "Permission to Use a Shorter Address",
+        content:
+          "Apply under Rule 28 when label space is limited. Demonstrate that consumers and regulators can still trace the business. Once approved, the short address may substitute the full address on all relevant labels.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Simplifies Registration",
+        description: [
+          "Rapid consultation with expert response within one hour",
+          "Document vetting for completeness and accuracy",
+          "End‑to‑end filing: application, tracking and inspection coordination",
+          "Regulatory liaison with Legal Metrology officials",
+          "Post‑registration support for label design, amendments and compliance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Which rule mandates packaged commodity registration?",
+        answer:
+          "Rule 27 of the Legal Metrology (Packaged Commodities) Rules, 2011.",
+      },
+      {
+        question: "Why is importer registration necessary?",
+        answer:
+          "To ensure only compliant packages enter India and to attach accountability to the importing entity.",
+      },
+      {
+        question: "What is an LMPC Certificate?",
+        answer:
+          "The registration granted under Rule 27 authorising packers, manufacturers or importers to market pre‑packaged commodities.",
+      },
+      {
+        question: "When is permission for a shorter address needed?",
+        answer:
+          "Whenever the full registered address will not fit on the package label but traceability must be preserved.",
+      },
+      {
+        question: "What happens if I skip registration?",
+        answer:
+          "Selling pre‑packaged goods without registration is an offence that may lead to seizure, fines and prosecution.",
+      },
+    ],
+  },
+
+  "legal-metrology-licence-renewal": {
+    title: "Legal Metrology Licence Renewal: A Concise Guide",
+    description:
+      "Understand who must renew, required information, process steps, and how to avoid lapses under the Legal Metrology Act.",
+    overview: [
+      {
+        heading: "Who Must Apply for Renewal?",
+        content:
+          "Manufacturers of weighing and measuring instruments or related devices; dealers/importers who sell or market such instruments (importers acting as dealers need both licences); repairers who clean, lubricate, calibrate, paint, or otherwise service weights and measures. Note: end-users of approved instruments do not need this licence.",
+      },
+      {
+        heading: "Information Required on the Renewal Form",
+        content:
+          "Applicant’s full name, residential and e‑mail address, contact number; existing licence number; premises address for renewal; proprietor’s father’s or spouse’s name; names of all partners or directors; category and type of weight/measure; trademark or monogram used; workshop and testing facilities; VAT/CST/Professional‑tax/Income‑tax registration numbers.",
+      },
+      {
+        heading: "Key Officials",
+        content:
+          "Assistant Controller: receives and scrutinises renewal applications, appoints inspector, issues recommendations. Controller/Deputy Controller: appellate authority, grants or rejects the renewed licence.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Licence Categories Eligible for Renewal",
+        content: "Manufacturer Licence; Dealer Licence; Repairer Licence.",
+      },
+      {
+        heading: "Why Timely Renewal Matters",
+        content:
+          "• Avoids business disruption and penalties\n• Maintains credibility with buyers, suppliers, and regulators\n• Ensures instruments remain traceable to an authorised, verified source",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Typically Requested",
+        content:
+          "• Copy of current valid licence\n• Proof of premises ownership/lease (sale deed, tax receipt, rent agreement, or owner’s NOC)\n• Lists of tools, testing equipment, and workers\n• Firm‑constitution documents (partnership deed, Memorandum & Articles, etc.)\n• Financial‑status proof (bank statement, audited accounts, or net‑worth certificate)\n• Evidence of continuous lawful possession of premises\n• Stock and sales statement since last licence period\n• Any additional state‑specific requirements",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Renewal Timeline & Process (Rule 11, LME Rules 2011)",
+        content:
+          "• Apply at least 30 days before licence expiry and pay the prescribed fee\n• Assistant Controller registers the application and appoints an inspector\n• Inspector visits premises and submits report with recommendation\n• Assistant Controller forwards report to Controller/Deputy Controller\n• Controller issues the renewed certificate or a written refusal\n• Late filing attracts an additional fee equal to 100% of the normal renewal charge",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Supports Your Renewal",
+        description: [
+          "Free initial consultation with response within one hour",
+          "Clarify eligibility, documents, and state‑specific nuances",
+          "Prepare and file the renewal application and annexures",
+          "Coordinate inspection readiness and follow‑up queries",
+          "Track status until the renewed licence is issued",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What laws govern weights & measures?",
+        answer:
+          "The Legal Metrology Act, 2009 and its allied rules including General, Packaged Commodities, Enforcement, Model Approval, National Standards, Numeration, and state‑specific regulations.",
+      },
+      {
+        question: "Is renewal compulsory?",
+        answer:
+          "Yes. A lapsed licence invalidates any manufacture, sale, or repair activity and may trigger enforcement action.",
+      },
+      {
+        question: "How long is a licence valid?",
+        answer:
+          "Typically one to five years, depending on state rules and licence category.",
+      },
+      {
+        question: "Is the licence transferable?",
+        answer:
+          "No. Any change in ownership or constitution requires fresh approval.",
+      },
+      {
+        question: "Where can I complain about measurement irregularities?",
+        answer:
+          "File a written complaint with the local Controller of Legal Metrology or use state online grievance portals.",
+      },
+    ],
+  },
+
+  "legal-metrology-compliance-and-audit": {
+    title: "Legal Metrology Compliance & Audit",
+    description:
+      "Key compliance requirements and audit procedures for packaged commodities and measuring instruments under the Legal Metrology Act.",
+    overview: [
+      {
+        heading: "Compliance Order (September 2020)",
+        content:
+          "The Deputy Director of the Legal Metrology Department directed all selling entities to follow the Legal Metrology Act, 2009 and the Packaged Commodities Rules, 2011, mandating uniform declarations on every packaged commodity.",
+      },
+      {
+        heading: "Mandatory Declarations on Packages",
+        content:
+          "• Name and address of the packer\n• Name and address of the importer\n• Name and address of the manufacturer\n• Country of origin\n• Net quantity\n• Generic or common name of the commodity\n• Date/month/year of packing, manufacture and import\n• “Best Before” or expiry date (month and year)\n• Retail sale price\n• Customer‑care contact details",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Purpose of Legal Metrology Compliance",
+        content:
+          "• Uphold uniform standards for weights and measures nationwide\n• Promote a rational metric system (metre, kilogram, litre, etc.)\n• Regulate trade and commerce in weighing and measuring devices\n• Ensure goods are sold and declared using standard units, numbers and weights",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Compliance Measures for Packaged Commodities",
+        content:
+          "• Register all packers, producers and importers as required by the Act and Rules\n• Verify and stamp each registered packaged commodity\n• Use only verified and stamped weighing/measuring instruments\n• Schedule re‑verification for continuously used instruments\n• Maintain records of licensed dealers, repairers and manufacturers\n• Verify immovable instruments on site\n• File monthly and quarterly returns on all instruments used\n• Use standard units when issuing invoices, labels, prices and advertisements\n• Use only approved models of instruments, submitting full applicant details and technical specifications",
+      },
+      {
+        heading: "Audits under Legal Metrology",
+        content:
+          "Voluntary audits – initiated by manufacturers to demonstrate internal controls; certificates renewed annually.\nMandatory audits – required to show compliance with the Act and Rules; each dispatched product must carry compliant packaging information.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Can Assist",
+        description: [
+          "Specialised support for Legal Metrology compliance and audits",
+          "Guidance on registration, verification, stamping and documentation",
+          "End‑to‑end fulfilment of every statutory requirement",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who mandates the declarations on packaged commodities?",
+        answer:
+          "The Deputy Director of Legal Metrology under the Legal Metrology Act, 2009 and Packaged Commodities Rules, 2011.",
+      },
+      {
+        question: "How are immovable weighing instruments verified?",
+        answer:
+          "They must be verified and stamped on site—they cannot be transported elsewhere.",
+      },
+      {
+        question: "Is registration compulsory for packers and importers?",
+        answer:
+          "Yes. Every entity that packs, imports, distributes, sells or delivers pre‑packaged commodities must register.",
+      },
+      {
+        question: "Is model approval of weighing instruments required?",
+        answer:
+          "Yes. Only government‑approved models may be manufactured, imported or sold.",
+      },
+      {
+        question: "What is the most critical compliance step?",
+        answer:
+          "Including all mandatory declarations on every pre‑packaged commodity offered for sale.",
+      },
+      {
+        question: "Why are audits important?",
+        answer:
+          "Audits confirm that instruments conform to statutory standards and that packaging information is accurate.",
+      },
+      {
+        question: "When are audits conducted?",
+        answer:
+          "Either voluntarily by manufacturers or compulsorily when required by law for each product batch.",
+      },
+    ],
+  },
+
+  "drug-license": {
+    title: "Drug License in India – An Overview",
+    description:
+      "Step-by-step guide to obtaining and complying with drug licensing requirements under the Drugs and Cosmetics Act.",
+    overview: [
+      {
+        heading: "What is a Drug License?",
+        content:
+          "Any business dealing with manufacturing, importing, selling, or distributing medicines, drugs, or cosmetics must hold a Drug License issued under the Drugs and Cosmetics Act by the State or Central Drug Standard Control Organization.",
+      },
+      {
+        heading: "Why is a Drug License Required?",
+        content:
+          "To ensure safe preparation, storage, and sale of drugs in medically approved quantities, protecting public health through stringent regulation.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Requirements & Advantages",
+        content:
+          "• Premises area of at least 10 sq m for retail or 15 sq m for combined wholesale and retail\n• Refrigerator or cold storage for temperature‑sensitive drugs\n• Registered pharmacist on‑site with required qualifications\n• Separate license for each business location\n• Mandatory reporting of any changes to business details to avoid suspension",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents for Online Application",
+        content:
+          "• Duly signed application form\n• Proof of fee payment (challan)\n• Identity proof (PAN, Voter ID, DL, Passport)\n• Partnership deed or MOA, AOA, COI for companies\n• Board resolution authorizing the application\n• Appointment letter of authorized signatory\n• Storage facility proof (cold storage/refrigerator)\n• Site layout plan and electricity connection details\n• Proof of premises area (10–15 sq m)",
+      },
+      {
+        heading: "Additional Documents for Registered Pharmacists",
+        content:
+          "• Diploma or degree in Pharmacy\n• Pharmacy Council registration certificate\n• Appointment letter and affidavit of the pharmacist\n• Educational qualifications (10th, 12th, Graduation)\n• Proof of minimum one year experience in drug sales or marketing",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply",
+        content:
+          "• Register online through the Drug Licensing portal based on entity and license type\n• Obtain a unique application ID upon successful registration\n• Within 15 days, submit hard copies of all required documents to the District Drug Licensing Authority",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Obtain License",
+        description:
+          "Typically takes around 30 working days, subject to regulatory review and compliance. Engaging experts can help minimise delays.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Assisted 500+ manufacturers and distributors with drug licensing",
+          "99% success rate in approvals",
+          "Coverage of 75% of the Indian medical licensing market",
+        ],
+        points: [
+          "Complete documentation and filing support",
+          "Expert guidance on compliance and renewals",
+          "End-to-end process management",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a drug license?",
+        answer:
+          "A legal permit that authorizes manufacturing, selling, or distributing drugs under the Drugs and Cosmetics Act.",
+      },
+      {
+        question: "What qualifications are required?",
+        answer:
+          "Pharmacy degree or diploma and, for wholesalers, at least one year of pharmaceutical experience.",
+      },
+      {
+        question: "Do I need separate licenses for different locations?",
+        answer:
+          "Yes, each premises where drugs are stored or sold requires its own license.",
+      },
+      {
+        question: "What is the validity of a drug license?",
+        answer:
+          "Generally valid for five years, subject to renewal and compliance with conditions.",
+      },
+      {
+        question: "What if business premises change?",
+        answer:
+          "The licensing authority must be notified immediately to avoid penalties or cancellation.",
+      },
+    ],
+  },
+
+  "retail-drug-license": {
+    title: "Retail Drug License – An Overview",
+    description:
+      "Step-by-step guide to securing and maintaining a retail drug license under the Drugs and Cosmetics Act, 1940.",
+    overview: [
+      {
+        heading: "Overview of Retail Drug License",
+        content:
+          "A Retail Drug License is mandatory for any business selling or stocking medicines, drugs, or cosmetics in India. Issued under the Drugs and Cosmetics Act, 1940 by the State Drug Control Organization, it ensures regulatory compliance, accurate record‑keeping, and mandatory notification of business changes.",
+      },
+      {
+        heading: "Why Pre‑requisites Matter",
+        content:
+          "States grant retail licences at a lower approval rate than wholesale. Key prerequisites—shop area, storage facilities, and registered pharmacist—ensure patient safety and maintain high quality standards in drug retailing.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Retail Drug License Registration",
+        content:
+          "• Legal compliance under the Drugs and Cosmetics Act, 1940\n• Business legitimacy and consumer trust\n• Regulatory control and monitoring by authorities\n• Proof of authenticity enhancing brand image",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents for Retail Drug License",
+        content:
+          "• MOA & AOA (for companies) or Partnership Deed/LLP Agreement\n• Identity proof of Director/Partner/Proprietor\n• Ownership proof or rent agreement and NOC\n• Site plan and key plan of premises\n• Board resolution copy\n• Proof of cold storage and air‑conditioning\n• Fee payment proof (challan)\n• Affidavit of no conviction (Director/Partner/Proprietor)\n• Affidavit from pharmacist/competent person\n• Cover letter with applicant details\n• Application in Form 19 with declaration\n• Applicant’s qualification certificates\n• Appointment letter and pharmacy council registration of pharmacist\n• All documents scanned in grayscale PDF format",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Registration Process",
+        content:
+          "1. Create account on the state licensing authority’s online portal\n2. Complete the application form and upload required documents\n3. Schedule and undergo inspection by the Drug Inspector\n4. Upon successful verification, the licensing authority issues the Retail Drug License",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Penalties for Non‑Compliance",
+        content:
+          "Under Section 18(c) of the Drugs and Cosmetics Act, 1940, selling drugs without a valid license can result in up to three years’ imprisonment and a minimum fine of ₹5,000.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Assists",
+        description: [
+          "Choose a suitable assistance plan",
+          "Submit queries related to retail drug licensing",
+          "Share documents with DoStartup experts",
+          "Complete necessary formalities",
+          "Receive end‑to‑end support until license issuance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "What are the basic requirements to obtain a Retail Drug License?",
+        answer:
+          "Minimum 10 sq m of shop space; adequate cold storage; registered pharmacist present during working hours.",
+      },
+      {
+        question: "Is a separate license required for each state?",
+        answer:
+          "Yes. A separate retail drug license is mandatory for each state where the business operates.",
+      },
+      {
+        question: "How should a licensed drug business maintain accounts?",
+        answer:
+          "Maintain prescribed records/forms/registers and notify authorities of any changes in operations.",
+      },
+      {
+        question: "What happens if the premises change?",
+        answer:
+          "You must inform the licensing authority immediately to avoid licence suspension or cancellation.",
+      },
+      {
+        question: "Who is eligible to apply for a Retail Drug License?",
+        answer:
+          "Any individual or entity meeting premises, storage, and personnel requirements under the Act.",
+      },
+    ],
+  },
+
+  "manufacturing-drug-license": {
+    title: "Manufacturing Drug License – An Overview",
+    description:
+      "Guide to obtaining a manufacturing drug license under the Drugs and Cosmetics Act, 1940.",
+    overview: [
+      {
+        heading: "Overview",
+        content:
+          "A Manufacturing Drug License is an official permit under the Drugs and Cosmetics Act, 1940 authorizing the manufacture of drugs, medicines, or cosmetics. Issued by the State Drug Licensing Authority or CDSCO, it ensures safety, quality, and legal compliance.",
+      },
+      {
+        heading: "Pre‑requisites",
+        content:
+          "Manufacturing unit in designated industrial area; disclosure of manufacturing activities; detailed premises layout; process description; employee count; organizational structure; plant registration or NRA approval; site information; list of products; quality‑control lab equipment; proper ventilation, water, and drainage; environmental compliance; Indian agent authorization if applicable; evaluation standards; space and storage details.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Holding a License",
+        content:
+          "• Legal recognition to manufacture drugs\n• Regulatory monitoring and transparency\n• Proof of authenticity enhancing credibility\n• Builds consumer confidence in product safety",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents",
+        content:
+          "• Board resolution by directors\n• Site plan and key plan (blueprints)\n• Proof of premises possession (rent agreement or ownership)\n• Affidavit of non‑conviction\n• Details of technical staff and laboratory\n• Letter of acceptance from approved testing laboratory",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Application Process",
+        content:
+          "1. Document Preparation: Gather and certify all required documents.\n2. Online Filing: Submit application and documents via the State Drug Licensing Authority portal and pay fees.\n3. Hard‑copy Submission (if required): Provide physical copies to the District Licensing Office.\n4. Site Inspection: Inspector verifies premises and may interview the applicant.\n5. License Issuance: Controller of Drugs issues the license with a unique registration number.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Assists",
+        description: [
+          "Select a plan for expert support",
+          "Submit queries related to manufacturing drug licensing",
+          "Share documents with DoStartup experts",
+          "Complete the application process with guidance",
+          "Receive end‑to‑end support until license issuance",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What types of drug licenses exist in India?",
+        answer:
+          "Manufacturing, Sale, Wholesale, Retail, Restricted, Loan, Import, Multi‑drug.",
+      },
+      {
+        question: "What is a Restricted Drug License?",
+        answer:
+          "A license for limited drug categories under specific conditions, often without requiring a registered pharmacist's supervision.",
+      },
+      {
+        question: "Who grants drug licenses?",
+        answer:
+          "State Drug Licensing Authorities or CDSCO under DCGI, depending on license category.",
+      },
+      {
+        question: "What is Form 11 License?",
+        answer:
+          "A license for importing small quantities of drugs for examination, testing, or analysis.",
+      },
+      {
+        question: "Who is eligible to apply?",
+        answer:
+          "Any individual or legal entity meeting regulatory requirements for manufacturing, distribution, or sale of drugs/cosmetics.",
+      },
+      {
+        question: "How is renewal handled?",
+        answer:
+          "Apply through the official portal before expiry, submit renewal documents, and pay applicable fees.",
+      },
+      {
+        question: "Is a license mandatory for medical masks?",
+        answer:
+          "Only if masks qualify as medical devices under the Drugs and Cosmetics Act.",
+      },
+      {
+        question: "What is a Subsequent Drug License?",
+        answer:
+          "A license to manufacture additional products after obtaining a primary manufacturing license.",
+      },
+      {
+        question: "Can private premises be licensed?",
+        answer:
+          "No. Manufacturing premises must be in an approved industrial area.",
+      },
+    ],
+  },
+
+  "wholesale-drug-license": {
+    title: "Wholesale Drug License – An Overview",
+    description:
+      "Guide to securing and maintaining a wholesale drug license under the Drugs and Cosmetics Act, 1940.",
+    overview: [
+      {
+        heading: "Overview",
+        content:
+          "A Wholesale Drug License permits the holder to purchase, stock, and sell drugs in bulk to retailers. Issued under the Drugs and Cosmetics Act, 1940 by the State Licensing Authority, it is mandatory for any entity dealing in distribution of drugs or cosmetics.",
+      },
+      {
+        heading: "Who Must Apply?",
+        content:
+          "Any individual, proprietorship, partnership firm, LLP, OPC or company intending to operate as a drug distributor or authorized agent for drugs or cosmetics in India must obtain this license.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Holding a Wholesale License",
+        content:
+          "• Ensures regulatory oversight and accountability in drug distribution\n• Provides legal compliance and protection against penalties\n• Establishes business credibility and consumer confidence\n• Enables lawful bulk supply to retail pharmacies",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents",
+        content:
+          "• MOA & AOA (for companies), Partnership Deed (for firms) or LLP Agreement\n• Identity proof of directors/partners/proprietors\n• Proof of premises (ownership or rent agreement) and NOC from owner\n• Site plan and key plan\n• Board resolution authorizing application\n• Proof of air-conditioning and refrigeration setup\n• Fee payment proof (challan)\n• Affidavit of no conviction\n• Affidavit from registered pharmacist or competent person\n• Cover letter with applicant details\n• Filled Form 19 and Declaration Form\n• Appointment letter, qualification and experience certificate of the competent person\n• Educational qualification certificate of the applicant",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Registration Steps",
+        content:
+          "1. Create user ID and password on the state drug licensing portal\n2. File Form 19 online, upload scanned documents, and pay government fee\n3. Undergo premises inspection by Drug Inspector\n4. Upon successful verification, Licensing Authority issues Wholesale Drug License",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing Time",
+        content:
+          "Typically 30 to 60 days from application submission to license issuance.",
+      },
+      {
+        heading: "Penalties for Non‑Compliance",
+        content:
+          "Imprisonment of 1–3 years and a fine of not less than ₹5,000 for trading without a valid license (Drugs and Cosmetics Act, 1940).",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Assists",
+        description: [
+          "Choose a plan for expert assistance",
+          "Submit queries related to wholesale licensing",
+          "Share documents with DoStartup experts",
+          "Complete all formalities with our support",
+          "Receive your license stress‑free",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "What are the essential requirements for a Wholesale Drug License?",
+        answer:
+          "Minimum 15 sq m premises, air‑conditioning, refrigeration, and a qualified pharmacist or competent person on staff.",
+      },
+      {
+        question: "Are separate licenses required for each state?",
+        answer:
+          "Yes. A separate wholesale license is mandatory for each state of operation.",
+      },
+      {
+        question: "Who qualifies as a competent person?",
+        answer:
+          "A registered pharmacist with one year of experience or an SSLC pass with four years of relevant experience.",
+      },
+      {
+        question: "How should accounts be maintained?",
+        answer:
+          "Maintain detailed records of stock, sales, purchases, and returns in compliance with the Act.",
+      },
+      {
+        question: "What operations require separate licenses?",
+        answer:
+          "Manufacturing, wholesale distribution, retail sale, loan manufacturing, import and restricted categories each require distinct licenses.",
+      },
+      {
+        question: "What address proofs are accepted?",
+        answer:
+          "Ownership documents, rent agreements, utility bills, and NOCs.",
+      },
+    ],
+  },
+
+  "cdsco-medical-device-registration": {
+    title: "CDSCO Medical Device Registration – An Overview",
+    description:
+      "End-to-end guide to CDSCO registration for medical devices, including manufacturing, import, compliance, fees, and post‑registration requirements.",
+    overview: [
+      {
+        heading: "Role of CDSCO",
+        content:
+          "The Central Drugs Standard Control Organization (CDSCO) under the DCGI regulates approval, registration and oversight of pharmaceuticals and medical devices in India.",
+      },
+      {
+        heading: "Sector Context",
+        content:
+          "India’s healthcare market was valued at $200 billion in 2023 and is projected to reach $370 billion by 2025. With over 900 pharmaceutical manufacturers, India ranks 4th globally, driving the need for robust device regulation.",
+      },
+      {
+        heading: "Regulatory Evolution",
+        content:
+          "Initially only 15 device categories were regulated; now all medical devices and IVDs require CDSCO registration or licensing to align with global benchmarks and ensure patient safety.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of CDSCO Registration",
+        content:
+          "• Legal market access for manufacturers and importers across India\n• Demonstrates compliance with national safety, efficacy and quality standards\n• Aligns with GMP and Medical Device Rules norms\n• Eligibility for government tenders and procurement",
+      },
+      {
+        heading: "Import License Advantages",
+        content:
+          "• Grants legal entry to India’s vast med‑tech market\n• Confirms adherence to Indian MDR and GMP regulations\n• Supports participation in public and private sector supply chains",
+      },
+      {
+        heading: "BIS Certification Importance",
+        content:
+          "• Ensures devices meet Indian safety and performance benchmarks\n• Boosts consumer confidence and professional trust\n• Facilitates market access and distribution\n• Includes performance testing to reduce malfunction risk",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents",
+        content:
+          "Form 40; Device and Plant Master Files; ISO 13485 and CE certificates; free sale certificate; quality assurance certificates; post‑market surveillance plan; test protocols; fee challan; declaration of authenticity.",
+      },
+      {
+        heading: "Additional Support Documents",
+        content:
+          "Regulatory certificates (FDA, CE, etc.); clinical data summaries; labeling and packaging compliance proofs; authorized agent letter for foreign manufacturers.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Registration for New Devices",
+        content:
+          "1. Classification: Determine class A–D based on risk\n2. Online Application: Submit via CDSCO SUGAM portal with Form 40 and documents\n3. Fees Payment: Pay per‑site and per‑device fees\n4. Review & Inspection: CDSCO evaluates dossier and may inspect facilities\n5. Approval: Receive registration certificate or rejection with comments",
+      },
+      {
+        heading: "Import License Process",
+        content:
+          "From Oct 2022, Class A & B and notified Class C & D need import licenses; from Oct 2023 all Class C & D require licensing. Steps mirror new device registration via MD‑14/15 forms.",
+      },
+      {
+        heading: "Voluntary Registration",
+        content:
+          "Unlisted Class C & D devices can register voluntarily online without fees to ease future compliance.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing Time & Validity",
+        description:
+          "Registration generally takes 6–9 months; licences are valid for 3 years from issuance unless revoked.",
+      },
+      {
+        heading: "Renewal & Post‑Registration",
+        description:
+          "Renew at least 9 months before expiry by updating DMF/PMF. Notify CDSCO within 3 months of any change in premises, constitution or device details.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "DoStartup’s CDSCO Services",
+        description: [
+          "Device classification and regulatory strategy",
+          "Complete dossier preparation and submission",
+          "SUGAM portal account creation and management",
+          "Indian Authorized Agent representation",
+          "Support for manufacturing, import, loan and test licences",
+          "Post‑market surveillance planning and compliance",
+          "AERB radiation device approvals",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who must register with CDSCO?",
+        answer:
+          "All domestic and foreign device manufacturers, importers, authorized agents and IVD producers.",
+      },
+      {
+        question: "Which forms are used?",
+        answer:
+          "MD‑3/5 for Class A & B manufacturing; MD‑4/6 and MD‑7/9 for loans; MD‑8/10 for Class C & D loans; MD‑14/15 for imports; MD‑16/17 for test licenses; MD‑22/23 for clinical trials; MD‑26/27 for new imports.",
+      },
+      {
+        question: "Are unnotified devices regulated?",
+        answer:
+          "Yes. All Class C & D devices require licensing from October 1, 2023; voluntary registration was available earlier.",
+      },
+      {
+        question: "What are the fee structures?",
+        answer:
+          "Class A & B: ₹5,000 per site + ₹1,000 per device; Class C & D: ₹50,000 per site + ₹1,000 per device.",
+      },
+      {
+        question: "What happens if I fail to renew?",
+        answer:
+          "Lapse may lead to penalties, revocation of licence and inability to legally market devices.",
+      },
+    ],
+  },
+
+  "cdsco-cosmetic-import-registration": {
+    title: "CDSCO Cosmetic Import Registration – An Overview",
+    description:
+      "A complete guide to importing cosmetic products in India, including eligibility, documentation, procedure, and regulatory FAQs under CDSCO.",
+    overview: [
+      {
+        heading: "What is CDSCO Cosmetic Import Registration?",
+        content:
+          "CDSCO Cosmetic Import Registration is a mandatory certification for importing cosmetic products into India under Rule 21 of the Drugs and Cosmetics Rules, 1945. It ensures imported cosmetics meet quality, safety, and efficacy standards.",
+      },
+      {
+        heading: "What is a Cosmetic?",
+        content:
+          "Cosmetics include products meant to cleanse, beautify, promote attractiveness, or alter appearance when applied to the human body. This includes their components, such as creams, powders, lotions, and perfumes.",
+      },
+      {
+        heading: "Role of CDSCO",
+        content:
+          "The CDSCO, under the Ministry of Health & Family Welfare, oversees cosmetic imports. It handles registration, quality control, complaint resolution, coordination with BIS, public inquiries, and RTI responses.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of CDSCO Cosmetic Import Registration",
+        content:
+          "• Legal authorization to import and sell cosmetics in India\n• Market expansion for foreign cosmetic brands\n• Consumer confidence in product safety and quality\n• Compliance with BIS and CDSCO regulatory standards",
+      },
+      {
+        heading: "DoStartup's Assistance",
+        content:
+          "• Expert guidance on regulatory processes\n• Technical and documentation compliance support\n• End-to-end services from classification to certification\n• Faster turnaround by avoiding delays and rejections",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents",
+        content:
+          "• Cover letter specifying application type (new, endorsement, etc.)\n• Form COS-1 with undertaking by authorized agent/importer\n• Product ingredient list with percentages\n• Safety declaration on heavy metals, banned dyes, etc.\n• Manufacturer’s license or marketing authorization\n• Free Sale Certificate (FSC)\n• Application fee payment proof (TR-6 challan)",
+      },
+      {
+        heading: "Labeling & Regulatory Documents",
+        content:
+          "• Product label with name, manufacturer, batch number, expiry, license number, etc.\n• Declaration of no animal testing\n• Non-use of hexachlorophene or heavy metals (within limits)\n• Specifications and testing protocols as per BIS/CDSCO\n• Pack insert or leaflet (if applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content:
+          "1. Classification of Product as per latest CDSCO Gazette Notification\n2. Appointment of an Authorized Indian Agent by the foreign manufacturer\n3. Filing of Form COS-1 and documents via CDSCO SUGAM portal\n4. CDSCO Review and Query Handling\n5. Issuance of CDSCO Cosmetic Import Registration Certificate",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Application Fees",
+        description:
+          "The application fee must be paid via TR-6 Challan as per CDSCO guidelines. The exact amount varies based on product categories and number of SKUs.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Registration Timeline",
+        description:
+          "The typical processing time ranges from 3 to 6 months, depending on the completeness of the application and any queries raised by CDSCO.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for CDSCO Cosmetic Registration?",
+        description: [
+          "Extensive experience in CDSCO import licensing",
+          "Streamlined documentation and compliance support",
+          "Fast-track application handling to avoid delays",
+          "PAN India presence for regulatory coordination",
+          "Trusted by cosmetic brands worldwide",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the definition of a cosmetic in India?",
+        answer:
+          "A substance intended for application to the human body for cleansing, beautifying, or altering appearance, including components used in cosmetic formulations.",
+      },
+      {
+        question: "What is the purpose of regulating cosmetic imports?",
+        answer:
+          "To ensure imported cosmetic products are safe, effective, and compliant with BIS and CDSCO standards before being sold in India.",
+      },
+      {
+        question: "Who can import cosmetics into India?",
+        answer:
+          "An authorized agent, importer, Indian subsidiary, or the foreign manufacturer itself after obtaining CDSCO registration.",
+      },
+      {
+        question: "What if my CDSCO certificate is about to expire?",
+        answer:
+          "You must apply for renewal before the expiry date by submitting updated documents and paying the applicable fee through the CDSCO SUGAM portal.",
+      },
+      {
+        question: "Who issues the Free Sale Certificate (FSC)?",
+        answer:
+          "The FSC is issued by the regulatory authority of the country of origin or the Indian Embassy in that country.",
+      },
+      {
+        question: "Is registration required for importing small R&D samples?",
+        answer:
+          "Yes, prior CDSCO approval is required even for importing small cosmetic quantities for research or testing.",
+      },
+      {
+        question: "Are cosmetics tested on animals allowed in India?",
+        answer:
+          "No, India prohibits the import of any cosmetics that have been tested on animals.",
+      },
+      {
+        question: "Who issues cosmetic manufacturing licenses in India?",
+        answer:
+          "State Licensing Authorities (SLAs), in coordination with CDSCO, issue manufacturing licenses for cosmetic products made in India.",
+      },
+    ],
+  },
+
+  "cdsco-medical-device-import-registration": {
+    title: "CDSCO Medical Device Registration – An Overview",
+    description:
+      "Comprehensive guidance on CDSCO Medical Device Registration in India including license categories, registration process, BIS certification, import requirements, classification, fees, documents, and DoStartup assistance.",
+    overview: [
+      {
+        heading: "What is CDSCO Medical Device Registration?",
+        content:
+          "CDSCO registration is mandatory for manufacturers and importers to legally distribute medical devices in India. Governed by the Central Drugs Standard Control Organization (CDSCO), this registration ensures compliance with safety, quality, and regulatory standards.",
+      },
+      {
+        heading: "Role of CDSCO in Medical Devices",
+        content:
+          "CDSCO, under the Drug Controller General of India (DCGI), regulates drugs, medical devices, and related health products. It plays a crucial role in licensing, classification, inspection, and post-market surveillance.",
+      },
+      {
+        heading: "Market Overview",
+        content:
+          "India’s healthcare sector is valued at $200 billion (2023) and projected to reach $370 billion by 2025. CDSCO helps bring the Indian medical device sector in line with global standards, previously unregulated beyond 15 categories.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of CDSCO Medical Device Registration",
+        content:
+          "• Enables legal market access across India\n• Demonstrates compliance with safety and efficacy standards\n• Required for participating in tenders and government contracts\n• Enhances brand credibility and consumer trust\n• Aligns with GMP and MDR regulations",
+      },
+      {
+        heading: "Benefits of Import License",
+        content:
+          "• Legal access to one of the world’s largest healthcare markets\n• Ensures adherence to Indian GMP and MDR norms\n• Facilitates participation in both public and private tenders",
+      },
+      {
+        heading: "Importance of BIS Certification",
+        content:
+          "• Verifies quality and safety per Indian standards\n• Boosts market access and consumer confidence\n• Includes rigorous performance testing to minimize malfunctions",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents for CDSCO Medical Device Registration",
+        content:
+          "• Form 40\n• ISO 13485 Certificate\n• CE Design Certificate\n• Free Sale Certificate (FSC)\n• Device Master File (DMF)\n• Plant Master File (PMF)\n• Quality Assurance Certificates\n• Post-Market Surveillance plan\n• Test Protocols\n• Fee Challan\n• Declaration of Authenticity",
+      },
+      {
+        heading: "Additional Requirements",
+        content:
+          "• Details of manufacturing facility and product specifications\n• Labeling and packaging compliance documentation\n• Regulatory certificates (CE, FSC, ISO)\n• Classification details (Class A/B/C/D)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content:
+          "1. **Classification**: Identify device class (A, B, C, D)\n2. **Application Submission**: Apply via CDSCO SUGAM portal with Form 40 and documents\n3. **Review & Evaluation**: CDSCO reviews safety, quality, and may inspect premises\n4. **Approval**: License granted or rejected with reasons",
+      },
+      {
+        heading: "CDSCO Medical Device Import Registration",
+        content:
+          "• **Effective Oct 1, 2022**: All notified Class A to D devices must be licensed\n• **Effective Oct 1, 2023**: Non-notified Class C & D devices also require licensing\n• Steps: Document preparation → SUGAM portal registration → Fee payment → Review and approval",
+      },
+      {
+        heading: "Voluntary Registration (For Unlisted Devices)",
+        content:
+          "• Available for unlisted Class C & D devices\n• Fully digital process via CDSCO portal\n• No registration fee\n• Helps ensure future compliance readiness",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "CDSCO Medical Device License Fees",
+        description:
+          "• Class A & B: ₹5,000 per site + ₹1,000 per device\n• Class C & D: ₹50,000 per site + ₹1,000 per device",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Processing Time and Validity",
+        description:
+          "• Time to Register: 6–9 months\n• Validity: 3 years (unless revoked)\n• Renewal: Apply at least 9 months before expiry with updated DMF and PMF (if applicable)",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "10+ years of experience in medical device regulatory consulting",
+          "Fast-track registration services via expert documentation",
+          "PAN India network with CDSCO coordination",
+          "Assistance for import, manufacturing, test, and loan licenses",
+          "Support for radiation devices (AERB approval)",
+          "Expertise in handling CDSCO SUGAM portal registration",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Who can apply for CDSCO medical device registration?",
+        answer:
+          "Domestic manufacturers, importers, foreign manufacturers (via Indian agents), Indian subsidiaries, and authorized agents can apply.",
+      },
+      {
+        question: "What are the CDSCO device classifications?",
+        answer:
+          "• Class A: Low risk (e.g., thermometers)\n• Class B: Low to moderate risk (e.g., BP monitors)\n• Class C: Moderate to high risk (e.g., orthopedic implants)\n• Class D: High risk (e.g., pacemakers)",
+      },
+      {
+        question: "What is the purpose of BIS certification?",
+        answer:
+          "BIS ensures the medical device complies with Indian safety and quality standards and is essential for consumer trust and market access.",
+      },
+      {
+        question: "What are the key CDSCO forms for registration?",
+        answer:
+          "• MD-14/15: Import license\n• MD-3/5: Manufacturing Class A & B\n• MD-4/6: Loan license Class A & B\n• MD-7/9: Manufacturing Class C & D\n• MD-8/10: Loan license Class C & D\n• MD-22/23: Clinical investigation\n• MD-26/27: Import license\n• MD-16/17: Test license",
+      },
+      {
+        question: "What is the timeline for CDSCO registration?",
+        answer:
+          "Typically, 6 to 9 months depending on application type and completeness.",
+      },
+      {
+        question: "What post-registration compliance is needed?",
+        answer:
+          "Inform CDSCO of any changes in premises or company constitution. Apply for a new license within 3 months if key details change.",
+      },
+      {
+        question: "What happens if the license expires?",
+        answer:
+          "You must renew it at least 9 months before expiry, submitting updated Plant Master File (PMF) and Device Master File (DMF).",
+      },
+      {
+        question: "Is CDSCO certification mandatory for all devices?",
+        answer:
+          "Yes, as of October 1, 2023, all medical devices must be registered with CDSCO before sale or import in India.",
+      },
+    ],
+  },
+
+  "cosmetic-manufacturing-license": {
+    title: "Cosmetic Manufacturing License – An Overview",
+    description:
+      "A comprehensive guide to obtaining a Cosmetic Manufacturing License in India under the Drugs & Cosmetics Act, 1940, including authority, eligibility, documents, process, and DoStartup assistance.",
+    overview: [
+      {
+        heading: "What is a Cosmetic Manufacturing License?",
+        content:
+          "Under Section 3(aaa) of the Drugs & Cosmetics Act, 1940, a cosmetic is defined as any article intended to be applied to the human body for cleansing, beautifying, or altering appearance. A Cosmetic Manufacturing License is mandatory for any entity involved in manufacturing such products in India and is regulated by State Licensing Authorities.",
+      },
+      {
+        heading: "Regulatory Authority",
+        content:
+          "Cosmetic manufacturing is regulated by State Licensing Authorities (SLAs) under the Drugs & Cosmetics Act, 1940. While SLAs handle domestic manufacturing, the Central Licensing Authority (CLA) regulates imports.",
+      },
+      {
+        heading: "Industry Landscape",
+        content:
+          "India’s cosmetic industry is expanding rapidly, fueled by increasing demand and widespread consumer use. The government enforces licensing and quality checks to ensure public safety and product efficacy.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of a Cosmetic Manufacturing License",
+        content:
+          "• Legally manufacture and sell cosmetics in India\n• Ensure consumer safety and regulatory compliance\n• Boost product credibility and acceptance\n• Enable exports with recognized approvals\n• Avoid penalties and operational disruptions",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents",
+        content:
+          "• Application Form COS-5\n• Power of Attorney\n• Covering Letter\n• Site Master File\n• Site Plan and Building Layout\n• Self-attested premises documents\n• Fee Payment Challan\n• List of Standard Operating Procedures (SOPs)\n• Draft product label copy",
+      },
+      {
+        heading: "Business and Staff Details",
+        content:
+          "• List of Directors/Partners/Trustees with ROC/Partnership/Trust Deed\n• Constitution details of the firm\n• Appointment letter and list of competent technical staff with qualifications, experience, and registration details\n• Section-wise list of plant and machinery\n• Manufacturing process flow chart",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Obtain the License",
+        content:
+          "1. Filing Application: Submit Form COS-5 with required documents\n2. Document Submission: Upload or email documents for review\n3. Examination: SLA reviews application and inspects premises\n4. Issuance: Upon approval, the license is granted in Form COS-8",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Retention and Fee Details",
+        description:
+          "• License remains valid indefinitely\n• Retention fee must be paid every 5 years as per 3rd Schedule to maintain validity\n• Non-payment may lead to suspension or cancellation",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline & Validity",
+        description:
+          "• License processing time varies by state and application completeness\n• Once granted, Form COS-8 license is valid perpetually with timely retention fee payments",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Extensive experience with SLA and CDSCO compliance",
+          "Competitive pricing with transparent procedures",
+          "Complete document support and drafting",
+          "Hands-on assistance from application to approval",
+          "Quick processing and timely updates",
+          "Expert regulatory consultation",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Cosmetic Registration?",
+        answer:
+          "It is the process of obtaining regulatory approval to manufacture cosmetic products intended for skin cleansing, beautification, or appearance enhancement.",
+      },
+      {
+        question: "Is a Cosmetic Manufacturing License compulsory in India?",
+        answer:
+          "Yes, any entity involved in the manufacturing of cosmetic products must obtain a Cosmetic Manufacturing License from the respective State Licensing Authority.",
+      },
+      {
+        question: "Which form is used to apply for the license?",
+        answer:
+          "Application for a Cosmetic Manufacturing License is made using Form COS-5.",
+      },
+      {
+        question: "What are the product labeling requirements?",
+        answer:
+          "Labels must include ingredients, batch number, product name, manufacturing date, expiry, directions for use, warnings, and the manufacturer’s details.",
+      },
+      {
+        question: "What qualifications are needed for technical staff?",
+        answer:
+          "They must be a registered pharmacist or hold a diploma/intermediate qualification in chemistry or a recognized equivalent.",
+      },
+      {
+        question: "How is cosmetic manufacturing regulated?",
+        answer:
+          "It is regulated under Drugs & Cosmetics Act, 1940, and Rules, 1945, requiring inspection, documentation, and license issuance by SLAs.",
+      },
+      {
+        question: "What are the penalties for non-compliance?",
+        answer:
+          "Penalties include suspension or cancellation of the license and legal action under the Drugs & Cosmetics Act, 1940.",
+      },
+    ],
+  },
+
+  "in-vitro-diagnostic-device-manufacturing-license": {
+    title: "In Vitro Diagnostic Device Manufacturing License – An Overview",
+    description:
+      "A detailed guide on obtaining a manufacturing license for in vitro diagnostic (IVD) devices in India, including classification, required forms, documents, procedure, and expert assistance by DoStartup.",
+    overview: [
+      {
+        heading: "Overview",
+        content:
+          "The Drug and Cosmetic Act, 1940, and the Rules of 1945 govern manufacturing of IVD devices such as kits, reagents, and instruments. In 2017, India mandated registration for medical devices and IVDs. Now 462 products are classified as medical devices and 250 as IVDs used for disease diagnosis, health monitoring, and treatment guidance.",
+      },
+      {
+        heading: "Classification of IVD Devices",
+        content:
+          "Medical Device Rules 2017 classify IVDs by risk: Class A (low), Class B (low-moderate), Class C (moderate-high), Class D (high). They also classify by intended use: HIV kits, HBV kits, HCV kits, blood grouping sera.",
+      },
+      {
+        heading: "Regulatory Authorities",
+        content:
+          "State Licensing Authority issues Class A & B licenses. CDSCO (central) issues Class C & D licenses under the Ministry of Health & Family Welfare.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits",
+        content:
+          "• Legal authorization to manufacture IVD devices\n• Access to public and private procurement\n• Enhanced product credibility\n• Compliance with national regulations\n• Easier export opportunities",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Forms Required",
+        content:
+          "Manufacturing License A & B: MD-3 (application), MD-5 (approval)\nLoan License A & B: MD-4, MD-6\nManufacturing License C & D: MD-7, MD-9\nLoan License C & D: MD-8, MD-9",
+      },
+      {
+        heading: "Common Documents",
+        content:
+          "Covering letter, application form, fee challan, firm constitution docs (partnership deed or MOA/AOA), list of proprietors/partners/directors, age/address proofs, site ownership/rent proof.",
+      },
+      {
+        heading: "Additional for Master File",
+        content:
+          "Declarations for manufacturing and analytical chemists, their qualifications, experience, approvals, DIC registration, SPCB consent, performance evaluation, test license copy, compliance undertaking.",
+      },
+      {
+        heading: "Additional for Loan License",
+        content:
+          "Consent letter from principal manufacturer, wholesale license of loan applicant, principal manufacturer’s valid license and product permissions.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Application Submission",
+        content:
+          "File application in specified form with CDSCO or SLA along with fees and receipt.",
+      },
+      {
+        heading: "Step 2: Application Scrutiny",
+        content:
+          "Authority reviews, raises queries, proceeds to audit when satisfactory.",
+      },
+      {
+        heading: "Step 3: Premises Audit",
+        content:
+          "Notified body audits facility; applicant addresses non-compliance; audit reports shared.",
+      },
+      {
+        heading: "Step 4: Audit Examination",
+        content: "Review of audit report for compliance.",
+      },
+      {
+        heading: "Step 5: Product Scrutiny",
+        content: "Technical review of product details and dossier.",
+      },
+      {
+        heading: "Step 6: License Grant",
+        content: "License issued upon meeting all norms.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline & Validity",
+        content:
+          "Processing may take several months. Validity and renewal depend on class and authority.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup",
+        description: [
+          "End-to-end licensing support",
+          "Expert handling of complex compliance",
+          "Timely delivery and updates",
+          "PAN India regulatory liaison",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Are IVD kits regulated in India?",
+        answer: "Yes, under Medical Device Rules 2017.",
+      },
+      {
+        question: "Where to access Medical Device Rules?",
+        answer: "On the official CDSCO website or Ministry of Health portal.",
+      },
+      {
+        question: "Who classifies IVD risk classes?",
+        answer: "CDSCO as per First Schedule, Part II.",
+      },
+      {
+        question: "What is a Test License?",
+        answer: "Permission to test IVD kits under Form MD-16/17.",
+      },
+      {
+        question: "What is the validity of a Test License?",
+        answer:
+          "Typically aligned with the application purpose; check CDSCO guidelines.",
+      },
+    ],
+  },
+
+  "in-vitro-diagnostic-device-import-license": {
+    title: "In Vitro Diagnostic Device Import License",
+    description:
+      "Obtain your IVD device import license under the New Medical Device Rules, 2017 via CDSCO’s SUGAM portal with expert guidance.",
+    overview: [
+      {
+        heading: "Overview of In Vitro Diagnostic Device Import License",
+        content:
+          "The import of In Vitro Diagnostic (IVD) devices is governed by the New Medical Device Rules, 2017. The Central Drugs Standard Control Organization (CDSCO) has developed an online platform called SUGAM for submitting applications and granting import permissions for IVD devices. Depending on the category—A, B, C, or D—the relevant application form must be submitted online through SUGAM, which acts as the central licensing authority for these products.",
+      },
+    ],
+    benefits: [
+      {
+        heading:
+          "Who Can Apply for an In Vitro Diagnostic Device Import License?",
+        content:
+          "Foreign manufacturers cannot apply directly for registration in India. They must appoint an Indian entity as their authorized agent or license holder to submit the application for the import registration of IVD devices. The authorized agent must hold either a manufacturing license for sale and distribution or a wholesale license for sale and distribution, and can apply to CDSCO for the import license. An authorized agent is any firm or organization appointed by the overseas manufacturer through a Power of Attorney to undertake imports of IVD devices into India.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Important Documents for Import License Application",
+        content:
+          "● Covering letter specifying if the application is for registration or re‑registration, including list of documents, duly signed by an authorized signatory\n● Details of the products to be imported\n● Manufacturing site details\n● Regulatory and supporting documents as per Form MD‑14\n● Power of Attorney\n● ISO 13485 Certificate\n● TR‑6 Challan (fee payment receipt)\n● GMP Certificate\n● CE Design Certificate\n● Declaration of Conformity\n● Post‑Market Surveillance (PMS) Report\n● Business License / Plant Registration Certificate\n● Audit Report\n● Constitution details of the Indian agent\n● Valid wholesale or manufacturing license of the authorized Indian agent\n● Quality certificate from the overseas manufacturer\n● Free Sale Certificate (FSC)\n● Master files including manufacturing procedures, antigen/antibody details, product composition, medical flow chart, batch release certificates, and detailed test reports",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Forms Required for Application and Permission",
+        content:
+          "Risk Class | Authority to Grant License | Application Form | Approval Form\nA, B, C & D | CDSCO | MD‑14 | MD‑15",
+      },
+      {
+        heading: "Validity of License",
+        content:
+          "The import license issued via Form MD‑15 remains valid indefinitely, provided retention fees are paid before the expiry of five years from the issue date, unless the license is suspended or cancelled by CDSCO.",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading:
+          "Process to Apply for Import License of In Vitro Diagnostic Devices",
+        description: "",
+        steps: [
+          {
+            title: "Step 1: Evaluation",
+            duration: "",
+            description:
+              "The product undergoes evaluation by the competent authority to verify compliance with the basic norms under the Medical Device Rules, 2017.",
+          },
+          {
+            title: "Step 2: Classification",
+            duration: "",
+            description:
+              "If registration is required, the IVD device is classified based on its risk category under the Medical Device Rules.",
+          },
+          {
+            title: "Step 3: Documentation",
+            duration: "",
+            description:
+              "All necessary documents as per the Medical Device Rules, 2017 must be prepared and duly signed by an authorized signatory.",
+          },
+          {
+            title: "Step 4: Appointment of Agent",
+            duration: "",
+            description:
+              "An overseas manufacturer appoints an Indian agent holding a valid manufacturing or wholesale license through a Power of Attorney.",
+          },
+          {
+            title: "Step 5: Form Filing",
+            duration: "",
+            description:
+              "The application form is generated online, completed with all required attachments.",
+          },
+          {
+            title: "Step 6: Approval by Agent",
+            duration: "",
+            description:
+              "The authorized agent reviews, approves, and submits the application.",
+          },
+          {
+            title: "Step 7: Follow‑up",
+            duration: "",
+            description:
+              "The agent may follow up with the regulatory authority to address any queries or clarifications.",
+          },
+          {
+            title: "Step 8: Grant of Approval",
+            duration: "",
+            description:
+              "If all guidelines and norms are met, the import license for the IVD device is granted.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading:
+          "DoStartup Support for In Vitro Diagnostic Device Import License",
+        description: [
+          "DoStartup has a dedicated team of regulatory and compliance experts providing end‑to‑end services for obtaining import licenses. Our experienced professionals ensure clients receive premium service despite complex compliance processes. We guarantee timely delivery of government registrations and licensing and offer comprehensive assistance throughout the registration process for smooth acquisition of In Vitro Diagnostic Device Import Licenses in India.",
+        ],
+        points: [
+          "Dedicated compliance experts",
+          "End‑to‑end support",
+          "Timely delivery",
+          "Premium service quality",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "Can any changes be made post-approval of the In Vitro Diagnostic Device?",
+        answer:
+          "Yes. As per the Sixth Schedule, changes related to manufacturing process, equipment, testing, primary packaging material, and labels can be made with prior permission from the competent authority.",
+      },
+      {
+        question:
+          "Does the central licensing authority have the power to inspect overseas manufacturing sites before granting the license?",
+        answer:
+          "Yes. CDSCO may inspect the overseas manufacturing site—directly or through designated agencies—to verify compliance with the Medical Device Rules before granting the import license.",
+      },
+      {
+        question:
+          "What documents are required if there are multiple importers?",
+        answer:
+          "Each importer must submit a separate application with the full set of documents (covering letter, Form MD‑14 attachments, Power of Attorney, ISO 13485 certificate, Free Sale Certificate, etc.) and appoint their own Indian authorized agent.",
+      },
+      {
+        question:
+          "Is it mandatory for imported IVD devices to be stocked at the warehouse mentioned in the import license application?",
+        answer:
+          "Yes. All imported IVD devices must be stored at the warehouse or premises specified in the import license to ensure traceability and compliance.",
+      },
+      {
+        question:
+          "Where are imported In Vitro Diagnostic devices typically stored?",
+        answer:
+          "Imported IVD devices are typically stored in CDSCO‑approved warehouses or temperature‑controlled facilities (cold storage) as declared in the import license application.",
+      },
+      {
+        question:
+          "Prior to the Medical Device Rules, 2017, if products were already marketed in India, do they require a license under the new rules?",
+        answer:
+          "Yes. IVD devices marketed before the 2017 rules must be registered and obtain an import license within the transition period notified by CDSCO.",
+      },
+      {
+        question:
+          "What licenses or authorizations are required from the overseas manufacturer for import licensing?",
+        answer:
+          "The overseas manufacturer must provide a valid Free Sale Certificate, ISO 13485 certificate, Declaration of Conformity, and execute a Power of Attorney appointing the Indian authorized agent.",
+      },
+    ],
+  },
+
+  "overview-of-drug-export-noc": {
+    title: "Drug Export NOC",
+    description:
+      "Obtain your No Objection Certificate (NOC) from DCGI/CDSCO’s SLA for legally exporting pharmaceutical products worldwide.",
+    overview: [
+      {
+        heading: "Overview of Drug Export NOC",
+        content:
+          "India holds a prominent position in the global pharmaceutical industry—ranking 13th in value and 3rd in volume. The country is a key supplier of generic medicines, accounting for approximately 70% of exports. To legally export medical and pharmaceutical products, Indian manufacturers must obtain a No Objection Certificate (NOC) from the Drug Controller General of India (DCGI). The State Licensing Authority (SLA) under CDSCO issues NOCs for approved, unapproved, and banned drugs (since August 20, 2018). Applications are submitted to zonal or sub‑zonal CDSCO offices.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Requirements for Drug Export NOC",
+        content:
+          "● Hold a valid drug manufacturing license (Form 25 or Form 28)\n● Provide a valid export order (case‑by‑case per order)\n● Specify manufacturing site and confirm quality control testing\n● Declare product is solely for export, no domestic diversion\n● Make records of dispatch, stock, raw materials, intermediates available for inspection\n● Confirm physical destruction of leftover export‑only stock\n● Agree to cease manufacturing/export if drug becomes prohibited\n● Submit all documents in the prescribed Common Submission Format",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Drug Export NOC",
+        content:
+          "● Covering Letter: purpose, checklist, drug details, signed by authorized signatory\n● Purchase Order: recent copy (≤6 months), signed by importer’s authority\n● Manufacturing License: copy of Form 25/28 license\n● Performa Invoice: signed invoice (required for unapproved APIs)\n● Registration Certificate: for banned drugs, from importing country’s NRA\n● Additional Supporting Documents: Aadhaar Card, Residence Proof, Age Proof, Bank Account Details (account no., IFSC/RTGS), Employer’s Certificate, Nomination Form, Dependents’ Details",
+      },
+    ],
+    registrationProcedure: [],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "DoStartup Support for Drug Export NOC",
+        description: [
+          "DoStartup offers comprehensive compliance and regulatory support to pharmaceutical manufacturers seeking export approvals. Our experienced team ensures seamless documentation, timely submissions, and effective coordination with regulatory bodies like CDSCO and SLA.",
+        ],
+        points: [
+          "Streamlining the application process",
+          "Expert consultation on compliance requirements",
+          "Timely delivery of government licenses and approvals",
+          "Managing communication with regulatory authorities",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who regulates drug export in India?",
+        answer:
+          "The Central Drugs Standard Control Organisation (CDSCO), under DCGI, regulates drug imports and exports through its zonal and sub‑zonal offices.",
+      },
+      {
+        question: "What documents are needed to obtain a Drug Export NOC?",
+        answer:
+          "You need a covering letter, purchase order, manufacturing license (Form 25/28), Performa invoice, and, if applicable, a registration certificate for banned drugs.",
+      },
+      {
+        question: "What is a No Objection Certificate (NOC)?",
+        answer:
+          "An NOC is an authorization issued by the drug regulatory authority permitting a manufacturer to export pharmaceutical products legally.",
+      },
+      {
+        question: "What is a Special Code or Neutral Code?",
+        answer:
+          "These are non‑identifying labeling codes used to protect the identity of the manufacturer/exporter or to meet importing country requirements.",
+      },
+      {
+        question:
+          "What documents are required to apply for a special or neutral code?",
+        answer:
+          "Typically: manufacturing license, product details, buyer’s request, and compliance declarations—requirements vary by importing country.",
+      },
+      {
+        question:
+          "What are the key regulations governing the export of drugs from India?",
+        answer:
+          "The Drugs and Cosmetics Act, 1940 and the Drugs and Cosmetics Rules, 1945, along with CDSCO and MoHFW guidelines.",
+      },
+      {
+        question: "Who can export medicines from India?",
+        answer:
+          "Only licensed manufacturers or traders holding valid Form 25/Form 28 licenses can apply for export permissions, including Drug Export NOCs.",
+      },
+    ],
+  },
+
+  "overview-of-dual-use-noc": {
+    title: "Dual‑Use NOC",
+    description:
+      "Obtain a No Objection Certificate (NOC) from the CDSCO Zonal Office for importing pharmaceutical substances used in non‑medicinal industries.",
+    overview: [
+      {
+        heading: "Overview of Dual‑Use NOC",
+        content:
+          "Dual‑Use refers to pharmaceutical substances serving purposes beyond medicinal applications—textiles, chemicals, food processing, cosmetics, packaging, etc. When such substances are imported for non‑pharmaceutical use or as raw material for drug synthesis, a Dual‑Use NOC from the CDSCO Zonal Office is mandatory.",
+      },
+      {
+        heading: "Introduction to CDSCO",
+        content:
+          "The Central Drugs Standard Control Organization (CDSCO) is India's national regulatory body under the Drugs and Cosmetics Act, 1940 and Rules, 1945. As Central Licensing Authority, it regulates import, manufacture, distribution of drugs via:\n● 6 Zonal Offices\n● 4 Sub‑Zonal Offices\n● 13 Port Offices\n● 7 Central Drug Testing Laboratories\nCDSCO also approves new drugs, conducts clinical trials, and convenes regulatory bodies like DCC and DTAB.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why is Dual‑Use NOC Required?",
+        content:
+          "● Ensures regulated import of substances used outside healthcare (food supplements, animal feed, cosmetics)\n● Issued by Deputy Drugs Controller at CDSCO Zonal Office\n● Required for bulk imports not intended for medical use\n● Must be presented at port office (ADC‑I/Technical Officer) for customs clearance\n● Exemptions may apply for Schedule D (Chapter III) substances under specified conditions",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Dual‑Use NOC Application",
+        content:
+          "● Covering Letter – purpose and nature of import\n● Purchase Documents – Invoice, Entry Bill, Indent, PO or Sales Contract with analysis certificates\n● High Seas Sales Agreement (if applicable)\n● Legal Undertaking on ₹100 Stamp Paper (Notarized): Annexure I for Actual User, Annexure II for Trader\n● Drug Registration Information (if registered with CDSCO)\n● Non‑Medical Use Declaration\n● Departmental Approvals/Justifications (animal feed, food additives, drug‑to‑drug conversion, cosmetics, other industrial)\n● Details of Previously Approved Quantities",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Due Diligence for Dual‑Use NOC",
+        content:
+          "● Verify drug registration under CDSCO or Indian laws\n● Check international regulatory status (e.g., vitamins may not be drugs)\n● Conduct technical assessment (Martindale Extra Pharmacopoeia or equivalent)",
+      },
+      {
+        heading: "Important Considerations for Filing Dual‑Use NOC",
+        content:
+          "● Complete applications free from discrepancies\n● Start process ≥2 months before planned import\n● Clearly indicate purpose of usage\n● Attest Master Formula Records (if applicable)\n● Note: purification/sterilization substances excluded\n● Dual‑Use NOC for Actual Users valid 1 year\n● Port officials forward with remarks; email/fax approval acceptable\n● Zonal offices retain NOC records",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup offers expert regulatory support for Dual‑Use NOCs with end‑to‑end assistance.",
+        ],
+        points: [
+          "Accurate documentation and submission",
+          "Guidance on regulatory due diligence",
+          "Liaison with CDSCO officials",
+          "Timely clearance from Port Authorities",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Dual‑Use?",
+        answer:
+          "Pharmaceutical substances also utilized in non‑medical industries such as food, cosmetics, textiles, and chemicals.",
+      },
+      {
+        question: "What is CDSCO?",
+        answer:
+          "The Central Drugs Standard Control Organization, India's national regulatory authority under the Drugs and Cosmetics Act, 1940.",
+      },
+      {
+        question: "When is a Dual‑Use NOC applicable?",
+        answer:
+          "When importing drugs for non‑pharmaceutical uses—cosmetics, food supplements, industrial processing.",
+      },
+      {
+        question: "Is due diligence mandatory for Dual‑Use NOC?",
+        answer:
+          "Yes. It confirms drug registration, legal status, and eligibility under Indian laws.",
+      },
+      {
+        question: "What is the difference between an Actual User and a Trader?",
+        answer:
+          "Actual User imports drugs for self‑use in operations; Trader imports for resale or distribution.",
+      },
+      {
+        question: "What is the validity of a Dual‑Use NOC for an Actual User?",
+        answer: "Typically valid for one year from date of issue.",
+      },
+    ],
+  },
+
+  "overview-of-cdsco-test-license": {
+    title: "CDSCO Test License",
+    description:
+      "The CDSCO Test License is a regulatory permit granted by CDSCO Zonal Offices (and in some cases HQ) for the import or manufacture of small quantities of drugs solely for testing, examination, or analysis under Section 10 of the Drugs & Cosmetics Act, 1940.",
+    overview: [
+      {
+        heading: "Overview of CDSCO Test License",
+        content:
+          "This license allows import (Form 11 or CT‑17) or local manufacture (Form 29) of small drug quantities intended only for testing or analysis. All applications must be submitted online via the CDSCO SUGAM Portal.",
+      },
+      {
+        heading: "CDSCO SUGAM Portal: A Brief Introduction",
+        content:
+          "Launched in November 2015, the SUGAM Portal digitizes the regulatory process—online submission and tracking of NOCs, permissions, licenses, registration certificates, and other approvals—ensuring transparency, efficiency, and accountability.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Conditions for Obtaining a CDSCO Test License",
+        content:
+          "● Drugs must not be imported for commercial use\n● License holder must maintain records and report to the Licensing Authority\n● Technical literature and package inserts must be submitted\n● A Drug Inspector may inspect with or without prior notice\n● Imported substances must be used strictly for testing or analysis",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading:
+          "Essential Documents for CDSCO Test License Application (Form 11)",
+        content:
+          "● Form‑12 – Application form\n● TR‑6 Challan or payment justification\n● Free Sale Certificate (FSC) from country of origin\n● Covering Letter with purpose and intent\n● Testing Protocol detailing intended tests\n● Product Brochures & Labels\n● Notarised Agreement (if third‑party testing facility used)\n● Ethics Committee Approval (if applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading:
+          "Step‑by‑Step Procedure to Obtain CDSCO Test License (Form 11)",
+        content:
+          "● Submit Form 12 with all required details via the CDSCO SUGAM Portal.\n● Gather all necessary documents; DoStartup provides guidance to ensure regulatory compliance.\n● CDSCO office evaluates the application and documents for compliance.\n● Upon successful verification, the Test License in Form 11 is granted.",
+      },
+      {
+        heading: "Scenarios Where CDSCO Test License Is Not Issued",
+        content:
+          "● Banned drugs\n● Herbal or agricultural products\n● Starting materials\n● Excipients",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Validity of Test License",
+        description:
+          "The Form 11 Test License is valid for one year from the date of issue; it cannot be renewed. A fresh application with new documentation and fees is required for further testing.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "DoStartup’s Assistance for CDSCO Test License",
+        description: [
+          "DoStartup simplifies obtaining your CDSCO Test License with end‑to‑end support and expert guidance.",
+        ],
+        points: [
+          "Plan selection based on your needs",
+          "Regulatory expert query resolution",
+          "Accurate document compilation",
+          "Complete application preparation and filing",
+          "Compliance review against Rule 33 conditions",
+          "Progress tracking with CDSCO",
+          "Hassle‑free license delivery",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Form‑11 License?",
+        answer:
+          "Under Rule 33 of the Drugs & Cosmetics Act, Form 11 permits import of small drug quantities exclusively for testing, examination, or analysis.",
+      },
+      {
+        question:
+          "How many drugs can be imported under a single Form‑11 License?",
+        answer:
+          "Quantity limits depend on the submitted testing protocol and CDSCO’s approval.",
+      },
+      {
+        question:
+          "Can drugs imported under Form 11 be used for animal studies?",
+        answer:
+          "Yes, if specified in the testing protocol—and Ethics Committee Approval is included.",
+      },
+      {
+        question: "Can a CDSCO Test License be renewed?",
+        answer:
+          "No. It’s valid for one year and cannot be renewed; a fresh application is required post‑expiry.",
+      },
+      {
+        question:
+          "Can drugs imported under Form 11 be used for commercial purposes?",
+        answer:
+          "Absolutely not. They must only be used for testing, examination, or analysis—not for sale or commercial distribution.",
+      },
+    ],
+  },
+
+  "overview-of-adc-noc": {
+    title: "ADC NOC",
+    description:
+      "Obtain an ADC No Objection Certificate for import or export of drugs and drug‑related substances under CDSCO and MoHFW regulations.",
+    overview: [
+      {
+        heading: "Overview of ADC NOC",
+        content:
+          "In international trade, the import or export of goods containing drugs or drug‑related substances requires prior approval in the form of an ADC NOC. Issued to government‑authorized manufacturers, this NOC ensures regulated movement of critical drugs overseen by CDSCO and MoHFW.",
+      },
+      {
+        heading: "Relevant Legislation Governing ADC NOC",
+        content:
+          "● Drugs and Cosmetics Act, 1940 and Rules, 1945\n● Narcotic Drugs and Psychotropic Substances Act, 1985\n● Medicinal and Toilet Preparations (Excise Duties) Act, 1956\n● Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Who Can Apply for ADC NOC?",
+        content:
+          "● Importers\n● Indian Agents\n● Foreign companies with Indian subsidiaries\n● Corporates in pharmaceutical trade\n● Exporters",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Obtaining ADC NOC",
+        content:
+          "● Covering Letter\n● ADC Sheet Format\n● Bond Declaration\n● Manufacturer’s Letterhead\n● Certificate of Analysis (batch no., mfg & expiry dates)\n● Quality Certificate\n● Invoice Copy\n● Safety Statement\n● Free Sale Certificate or FDA Report\n● Manufacturer’s Details\n● Purchase Order\n● Manufacturing License\n● Proforma Invoice\n● Registration Certificate (for banned drugs)\n● Export Order (product name & specs)\n● Special Code Number (if applicable)\n● State Licensing Authority NOC or Permission\n● Prototype Packaging Materials (labels, leaflets, cartons, codes)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Obtain ADC NOC",
+        content:
+          "● Step 1: Document Collection – Gather all necessary documents prior to filing.\n● Step 2: Application Filing – Submit prescribed format with fee and documents.\n● Step 3: Submission to Authority – File with appropriate CDSCO office.\n● Step 4: Verification – Designated officer verifies application and documents.\n● Step 5: Grant of NOC – Assistant Drug Controller issues the ADC NOC upon approval.",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "DoStartup’s Assistance with ADC NOC",
+        description: [
+          "DoStartup provides end‑to‑end support to secure your ADC NOC smoothly and timely.",
+        ],
+        points: [
+          "Plan selection to match your requirements",
+          "Query resolution with regulatory experts",
+          "Accurate document collection and formatting",
+          "Complete application preparation and filing",
+          "Eligibility check and preliminary compliance",
+          "Coordination with CDSCO for processing",
+          "Timely delivery of approved ADC NOC",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is CDSCO?",
+        answer:
+          "Central Drugs Standard Control Organisation, the national regulator for drug approval, import/export, clinical trials under MoHFW.",
+      },
+      {
+        question: "Who regulates drug import and export in India?",
+        answer:
+          "CDSCO in coordination with State Drug Authorities oversees regulation across India.",
+      },
+      {
+        question: "What is a Special or Neutral Code?",
+        answer:
+          "An identification code to protect manufacturer identity or meet importing country requirements.",
+      },
+      {
+        question: "What is Dual Use?",
+        answer:
+          "Substances used for both medical and non‑medical purposes requiring separate NOC regulation.",
+      },
+      {
+        question: "Why is Dual Use NOC granted?",
+        answer:
+          "To regulate drugs with dual‑use potential and prevent public health risks.",
+      },
+      {
+        question: "What is the validity of ADC NOC?",
+        answer:
+          "Validity varies by drug and shipment; generally valid for the specific batch or shipment applied for.",
+      },
+      {
+        question: "Who approves medical devices in India?",
+        answer:
+          "CDSCO under the Medical Device Rules, 2017, based on device classification and risk.",
+      },
+      {
+        question: "What is a Test License?",
+        answer:
+          "A Form 11 license permitting import or manufacture of small drug quantities for testing or analysis.",
+      },
+    ],
+  },
+
+  "overview-of-cdsco-drugs-import-license": {
+    title: "CDSCO Drugs Import License",
+    description:
+      "The import of drugs into India is regulated under Chapter III of the Drugs & Cosmetics Act, 1940 and Part IV of the Drugs and Cosmetics Rules, 1945. Registration certificates and import license applications are governed by Rule 24(A) and Rule 24.",
+    overview: [
+      {
+        heading: "What Qualifies as a Drug?",
+        content:
+          "Any medication for internal or external use in humans or animals; substances for diagnosis, treatment, mitigation, or prevention of disease (including repellents); non‑food substances altering body structure or function; substances for destruction of human tissue; ingredients for drug formulation (e.g., empty gelatin capsules). Both finished formulations and bulk drugs (APIs) must be registered.",
+      },
+      {
+        heading: "Who Can Apply?",
+        content:
+          "Foreign manufacturers with valid manufacturing or sale licenses and their authorized Indian agents holding wholesale or manufacturing licenses.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of CDSCO Drugs Import License",
+        content:
+          "● Ensures patient safety by preventing health hazards\n● Products undergo quality testing and certification\n● Access to the high‑demand Indian market\n● Maintains product quality standards\n● Enhances brand identity and market trust\n● Encourages global manufacturers to enter under regulated frameworks\n● On‑site inspections ensure compliant manufacturing and storage\n● Regulatory compliance secures ongoing market access",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for CDSCO Drugs Import License",
+        content:
+          "● Covering letter\n● Duly signed & sealed application form\n● Original Power of Attorney\n● Challan (fee proof)\n● Import permission copy for new drugs\n● Valid wholesale license copy\n● Company authorization letter\n● Duly signed & sealed undertaking\n● Notarized Plant Master File\n● Notarized Drug Master File\n● Notarized manufacturing license, FSC, GMP, COPP (for finished products)\n● Attested product registration certificate (CFDA/EDQM)\n● Original product label/specimen",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure to Obtain CDSCO Drugs Import License",
+        content:
+          "● Obtain Registration Certificate: apply by manufacturer or Indian agent\n● Submit Import License Application: Form 8 for non‑Schedule X, Form 8‑A for Schedule X\n● File with Licensing Authority: manufacturer or authorized agent with valid licenses and undertaking\n● Verification: Licensing Authority reviews application and documents\n● Grant of License: Import License issued, valid for 3 years (unless suspended or cancelled)",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "License Validity & Timeline",
+        description:
+          "Import License is valid for 3 years from date of issue. Typical processing time 8–12 weeks, depending on documentation completeness and CDSCO review.",
+      },
+    ],
+    whyUs: [],
+    faq: [
+      {
+        question: "How is the import of drugs into India governed?",
+        answer:
+          "By Chapter III of the Drugs & Cosmetics Act, 1940 and Part IV of the Drugs and Cosmetics Rules, 1945.",
+      },
+      {
+        question: "Which CDSCO division handles human‑use medicines?",
+        answer:
+          "The Drugs Control Division of CDSCO oversees registration and import of medicines for human use.",
+      },
+      {
+        question: "Who issues the CDSCO registration certificate?",
+        answer: "The Drugs Controller General of India (DCGI) under CDSCO.",
+      },
+      {
+        question: "What is a CDSCO import license?",
+        answer:
+          "An authorization permitting legal import of drugs after product registration and facility approval.",
+      },
+      {
+        question: "When is re‑registration required?",
+        answer:
+          "When the license is nearing expiration, there are changes in manufacturing, labeling, formulation, or new guidelines are introduced.",
+      },
+      {
+        question: "How long does it take to obtain an import license?",
+        answer:
+          "Typically 8–12 weeks, depending on documentation completeness and CDSCO’s review.",
+      },
+    ],
+  },
+
+  "insurance-company-license": {
+    title: "Insurance Company License",
+    description:
+      "An insurance company license authorizes businesses to market, sell, and manage insurance products legally under IRDAI regulations.",
+    overview: [
+      {
+        heading: "Overview of Insurance Company License",
+        content:
+          "An insurance company license is granted by the State Insurance Commissioner and is required to offer life, health, motor, disability, and workers’ compensation insurance. Separate licenses are needed in each state of operation. Prior to 1999, the industry was regulated under the Insurance Act, 1938; today IRDAI oversees licensing and renewals.",
+      },
+      {
+        heading: "Scope and Importance of IRDA License",
+        content:
+          "IRDAI regulates India’s insurance industry to protect consumer interests and ensure accountability. The licensing process includes filing an application, getting product approvals, and appointing intermediaries (agents/brokers). A Certificate of Registration from IRDA is mandatory before applying for an insurance license.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages of Holding an Insurance Company License",
+        content:
+          "● Legal authority to sell diverse insurance products\n● Consumer protection through regulated frameworks\n● Ability to appoint agents and brokers\n● Market credibility and consumer trust\n● Compliance with IRDAI mandates ensures accountability\n● Structured renewal and oversight processes",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Insurance Company License",
+        content:
+          "● Company incorporation certificate (Companies Act, 2013)\n● MOA & AOA\n● Director profiles (name, address, profession)\n● Certified annual reports of promoters (last 5 years)\n● Shareholding agreement (Indian & foreign investors)\n● Five‑year business plan (Board‑approved)\n● Proof of paid‑up capital (₹100 cr for Life/Health/General, ₹200 cr for Reinsurance)\n● Promoter affidavit of capital adequacy\n● CEO/MD/WTD compliance statement (Foreign Investment Rules, 2015)\n● FIPB approval (FDI > 26%)\n● Certified prospectus & promoter agreements\n● ₹5 lakh non‑refundable application fee\n● PCA/PCS certification of capital compliance",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Registration Application Process",
+        content:
+          "● Decide type: life, health, general, or reinsurance\n● Submit Form IRDA/R1 with required documents\n● IRDAI may seek clarifications\n● Upon provisional approval, submit Form IRDAI/R2\n● If rejected, appeal to SAT within 30 days",
+      },
+      {
+        heading: "Disqualification Criteria",
+        content:
+          "● Previous IRDAI rejection or withdrawal in last 2 years\n● Revoked prior Certificate of Registration\n● Company name missing “insurance” or “assurance”",
+      },
+      {
+        heading: "Suspension of License",
+        content:
+          "● Profit/loss computation non‑compliance\n● Bankruptcy or liquidation\n● Unauthorized business transfer\n● Violation of IRDAI directions or statutes\n● Default in claim payments (> 3 months)\n● Engaging in non‑insurance businesses\n● Breach of FEMA, PMLA, Companies Act\n● Failure to pay annual regulatory dues",
+      },
+      {
+        heading: "Renewal of IRDA License",
+        content:
+          "● Submit Form IRDA/R5 before year‑end\n● Pay ₹50,000 per insurance category + 0.2% of previous year’s gross premium (capped at ₹5 crore)\n● Late filing incurs 10% penalty\n● Payments made to IRDAI’s RBI account\n● Lost certificate duplicate via Form IRDA/R4 (₹5,000 fee)",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description: "License renewal and duplicate certificate fees",
+        feeTable: [
+          {
+            category: "Renewal (per category)",
+            amount: "₹50,000 + 0.2% gross premium (capped ₹5 crore)",
+          },
+          {
+            category: "Duplicate Certificate",
+            amount: "₹5,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Insurance Company Licensing?",
+        description: [
+          "DoStartup provides full‑spectrum assistance to secure and maintain your insurance license.",
+        ],
+        points: [
+          "End‑to‑end application assistance",
+          "Compliance with IRDAI mandates",
+          "Timely license renewals & reminders",
+          "Market strategy & growth planning",
+          "Dedicated regulatory advisors",
+          "Secure client portal for license access",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Why do insurance companies need a license?",
+        answer:
+          "To legally sell insurance products like life, health, and motor under IRDAI regulation.",
+      },
+      {
+        question: "Who governs the insurance sector in India?",
+        answer:
+          "The Insurance Regulatory and Development Authority of India (IRDAI).",
+      },
+      {
+        question: "What documents are needed to apply?",
+        answer:
+          "Company registration proof, director details, shareholding agreements, business plan, capital proofs, etc.",
+      },
+      {
+        question: "What is a reinsurance company?",
+        answer:
+          "A firm that provides insurance to other insurers to help manage risk exposure.",
+      },
+      {
+        question: "Can I start my own insurance company in India?",
+        answer:
+          "Yes, if you meet all capital, documentation, and IRDAI approval requirements.",
+      },
+      {
+        question: "How much capital is required?",
+        answer:
+          "₹100 crore for life/health/general insurance; ₹200 crore for reinsurance.",
+      },
+      {
+        question: "When was the IRDA Act passed?",
+        answer: "In 1999.",
+      },
+      {
+        question: "Is LIC part of IRDA?",
+        answer: "No. LIC is regulated by IRDAI but operates independently.",
+      },
+    ],
+  },
+
+  "insurance-web-aggregator-license": {
+    title: "Insurance Web Aggregator License",
+    description:
+      "A license issued by IRDAI for intermediaries operating online platforms that compare and share insurance product information from multiple insurers.",
+    overview: [
+      {
+        heading: "What Is an Insurance Web Aggregator License?",
+        content:
+          "An Insurance Web Aggregator is a registered intermediary operating a website to offer customers information and price comparisons on insurance products from various insurers. The license is granted under the IRDA (Insurance Web Aggregators) Regulations, 2017 by IRDAI.",
+      },
+      {
+        heading: "Key Terminologies You Should Know",
+        content:
+          "● Authorized Verifier: IRDA‑trained individual conducting telemarketing or distance marketing sales\n● Distance Marketing: Selling insurance via phone, SMS, email or other digital channels\n● Key Managerial Personnel (KMP): CEO, COO, CFO, CMO, Head of IT, Head of Technical\n● Lead: User‑submitted info expressing interest in insurance products\n● Lead Management System: Software process for handling leads end‑to‑end\n● Principal Officer: Designated individual responsible for aggregator operations",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Eligibility & Conditions",
+        content:
+          "● Company under Companies Act 2013 or LLP under LLP Act 2008\n● MoA must specify web aggregation as main objective\n● No other IRDA‑registered intermediary roles or referral agreements\n● Operational website dedicated to aggregation\n● Appointed Principal Officer with IRDA training and exam\n● No prior web aggregator rejection in last financial year",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content:
+          "● Form A (Schedule I) application\n● Company/LLP incorporation certificate\n● MoA/LLP agreement stating web aggregation objective\n● Principal Officer’s qualifications, training & exam certificate\n● Operational website URL and screenshots\n● Board resolution appointing Principal Officer\n● Non‑referral undertaking\n● Proof of paid‑up capital (₹25 lakhs minimum)\n● Net Worth certificate from CA",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for License",
+        content:
+          "● Fill Form A as per Schedule I and pay ₹10,000 application fee\n● Submit application to IRDAI via Demand Draft or online transfer\n● Await IRDAI compliance verification and policyholder interest assessment",
+      },
+      {
+        heading: "Registration Approval Process",
+        content:
+          "● IRDAI issues registration via Form E upon satisfaction\n● If cancelled, surrendered or renewal rejected, reapplication only after one year",
+      },
+      {
+        heading: "Renewal of Registration",
+        content:
+          "● Submit renewal application at least 30 days before expiry\n● Pay ₹25,000 renewal fee and provide updated documents\n● License must be valid at all times for legal operation",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description: "Mandatory fees for application and renewal",
+        feeTable: [
+          { category: "Initial application fee", amount: "₹10,000" },
+          { category: "Renewal fee", amount: "₹25,000" },
+        ],
+      },
+    ],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "How DoStartup Can Assist",
+        description: [
+          "End‑to‑end support for obtaining and maintaining your Insurance Web Aggregator License.",
+        ],
+        points: [
+          "Expert drafting and documentation",
+          "Guidance on IRDA regulations & compliance",
+          "Setup of Lead Management & grievance redressal",
+          "Capital structuring and Principal Officer training",
+          "Renewal reminders and filing assistance",
+          "Ongoing IRDA‑compliance support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How is a web aggregator different from an insurance broker?",
+        answer:
+          "A web aggregator compares policies on a platform; a broker offers personalized advice and selects products based on client profiles.",
+      },
+      {
+        question: "Do I need a website ready before applying?",
+        answer:
+          "Yes. An operational website dedicated to aggregation activities is mandatory.",
+      },
+      {
+        question: "How long is the license valid?",
+        answer:
+          "Validity is fixed; it must be renewed at least 30 days before expiry.",
+      },
+      {
+        question: "Can I surrender my Certificate of Registration?",
+        answer:
+          "Yes. Reapplication is allowed only after one year from surrender or rejection.",
+      },
+      {
+        question: "What remuneration can aggregators charge?",
+        answer:
+          "Flat fees up to ₹50,000 per product annually; no commissions for lead transfers.",
+      },
+      {
+        question: "What are the capital and net worth requirements?",
+        answer:
+          "Minimum paid‑up capital of ₹25 lakhs; net worth must not fall below this and is reviewed semi‑annually.",
+      },
+      {
+        question: "What activities are permitted?",
+        answer:
+          "Product comparison, lead sharing, online & telemarketing‑based insurance sales.",
+      },
+    ],
+  },
 
 
-
-
+    "insurance-surveyor-loss-assessor-registration": {
+      title: "Insurance Surveyor and Loss Assessor Registration",
+      description: "Get registered as an Insurance Surveyor or Loss Assessor with IRDAI to legally evaluate insurance claims in India.",
+      overview: [
+        {
+          heading: "Comprehensive Guide to Insurance Surveyor and Loss Assessor Registration in India",
+          content: "Insurance Surveyors and Loss Assessors play a vital role in evaluating and verifying insurance claims for insurance companies. To perform these duties legally, individuals or corporate entities must obtain a license from the Insurance Regulatory and Development Authority of India (IRDAI)."
+        },
+        {
+          heading: "Categories of Registration",
+          content: "● Individual Surveyors – Professionals operating independently\n● Corporate Surveyors – Registered firms or businesses licensed to assess claims"
+        }
+      ],
+      benefits: [
+        {
+          heading: "Key Responsibilities of Surveyors and Loss Assessors",
+          content: "● Investigate, analyze, and manage insurance claims\n● Provide unbiased, regulatory‑compliant reports\n● Disclose conflicts of interest\n● Maintain confidentiality and impartiality\n● Inspect and reassess insured property\n● Determine cause and extent of loss\n● Recommend actions to prevent future losses\n● Clarify admissibility of claims under policy terms\n● Assist insurers and insured with technical evaluations"
+        },
+        {
+          heading: "Why Choose DoStartup?",
+          content: "● Timely and accurate documentation\n● Compliance with IRDAI norms\n● Hassle‑free coordination\n● Professional guidance from experts"
+        }
+      ],
+      documentsRequired: [
+        {
+          heading: "Documents Required for License Application",
+          content: "● Certificate of Incorporation or Business Registration (for entities)\n● Completed Application Form\n● Passport‑size Photographs\n● PAN Card and Address Proof\n● Academic and Professional Qualification Proof\n● Mark Sheets for Surveyor Examination\n● Declaration in the prescribed format\n● Membership Certificate from a recognized institute\n● ‘Fit and Proper’ Declaration\n● Payment Proof of Application Fee"
+        }
+      ],
+      registrationProcedure: [
+        {
+          heading: "Step‑by‑Step Process to Register",
+          content: "● Collect and prepare all required documents\n● File the application with IRDAI via Form IRDAI‑2‑LF\n● IRDAI reviews and verifies the application\n● Upon approval, license is issued in Form IRDAI‑2‑LF"
+        }
+      ],
+      feesStructure: [],
+      registrationTimeline: [
+        {
+          heading: "License Validity",
+          description: "The IRDAI license is valid for three years from date of issue and specifies the authorized classes of insurance business."
+        }
+      ],
+      whyUs: [
+        {
+          heading: "Why Choose DoStartup for Surveyor Registration?",
+          description: ["We specialize in end‑to‑end IRDAI licensing support for insurance professionals."],
+          points: [
+            "Hassle‑free documentation support",
+            "Expert legal and compliance assistance",
+            "Complete coordination with IRDAI",
+            "Accelerated processing and approvals"
+          ]
+        }
+      ],
+      faq: [
+        {
+          question: "What are the main duties of an Insurance Surveyor and Loss Assessor?",
+          answer: "They assess the extent and legitimacy of insurance claims to help insurers make informed decisions."
+        },
+        {
+          question: "Why is a license necessary?",
+          answer: "It legally authorizes professionals to conduct surveys and assessments on behalf of insurers."
+        },
+        {
+          question: "What types of surveyors are there?",
+          answer: "Individual Surveyors and Corporate Surveyors."
+        },
+        {
+          question: "What are two essential eligibility requirements?",
+          answer: "Membership in a recognized institution (e.g., ICAI, ICSI) and completion of IRDAI‑mandated training/examination."
+        },
+        {
+          question: "What documents are generally required?",
+          answer: "Incorporation proof, application form, PAN, photos, qualifications, membership certificate, and fee payment proof."
+        },
+        {
+          question: "What is the validity period of the IRDA license?",
+          answer: "Three years from the date of issue."
+        },
+        {
+          question: "What form is the IRDA license issued on?",
+          answer: "Form IRDAI‑2‑LF."
+        }
+      ]
+    }
+    
 };
