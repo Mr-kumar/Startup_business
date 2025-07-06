@@ -8130,6 +8130,1505 @@ export const pageContent: Record<string, PageContentType> = {
   },
 
 
+  "trademark-registration": {
+    overview: {
+      heading: "Overview of Trademark Registration in India",
+      paragraphs: [
+        "Trademark registration gives a business the legal right to its brand name, logo, slogan, or other identifying marks. The process begins with an application to the Indian Trade Marks Registry, followed by examination, possible objections and—if everything is in order—entry of the mark on the register.",
+        "Protection lasts ten years at a time and may be renewed indefinitely. A registered trademark deters imitators, raises customer confidence and can be enforced worldwide through treaties such as the Madrid Protocol."
+      ]
+    },
+    features: [
+      {
+        icon: "™",
+        title: "Exclusive Rights",
+        description: "Nationwide monopoly on your mark’s commercial use once registered."
+      },
+      {
+        icon: "🔍",
+        title: "Legal Remedies",
+        description: "Stronger enforcement options against infringement and passing off."
+      },
+      {
+        icon: "🌎",
+        title: "International Protection",
+        description: "Access foreign registers via the Madrid Protocol for global coverage."
+      }
+    ],
+    benefits: [
+      {
+        title: "Intangible Asset",
+        description: "Your mark becomes a licensable, franchisable, and sellable property."
+      },
+      {
+        title: "Brand Trust",
+        description: "Signals professionalism and builds consumer and investor confidence."
+      },
+      {
+        title: "Market Differentiation",
+        description: "Helps your products stand out in crowded marketplaces."
+      },
+      {
+        title: "Global Expansion",
+        description: "Simplifies filing in multiple jurisdictions."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Trademark Search",
+          desc: "Ensure no identical or confusingly similar marks exist."
+        },
+        {
+          title: "File Form TM‑A",
+          desc: "Submit applicant details, mark image, class and description."
+        },
+        {
+          title: "Examination Report",
+          desc: "Registry reviews for distinctiveness and compliance."
+        },
+        {
+          title: "Objection Response",
+          desc: "File a reply within one month if there are exam objections."
+        },
+        {
+          title: "Journal Publication",
+          desc: "Mark published for four months to allow third‑party oppositions."
+        },
+        {
+          title: "Registration Certificate",
+          desc: "Issued after opposition period or successful defence."
+        }
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Should Apply?",
+        items: [
+          "Business owners, start‑ups, service providers, designers, NGOs.",
+          "Any person or entity seeking exclusive rights over a brand identifier."
+        ]
+      },
+      {
+        heading: "Application Criteria",
+        items: [
+          "Mark must be distinctive and not generic or deceptive.",
+          "Not confusingly similar to existing registered marks.",
+          "Precise specification of goods/services under 45 classes."
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Comprehensive Search",
+        desc: "In‑depth clearance search to minimize objection risk."
+      },
+      {
+        title: "Application Drafting",
+        desc: "Accurate preparation of Form TM‑A and supporting affidavits."
+      },
+      {
+        title: "Objection Handling",
+        desc: "Expert responses to examination and opposition proceedings."
+      },
+      {
+        title: "Renewal & Monitoring",
+        desc: "Ongoing watch services and timely renewal every 10 years."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a trademark?",
+        answer: "A sign, word, logo or design that identifies the source of goods or services."
+      },
+      {
+        question: "Is registration compulsory?",
+        answer: "No, but registration provides statutory protection and ® rights."
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Typically 6–18 months, depending on objections and oppositions."
+      },
+      {
+        question: "What is Form TM‑48?",
+        answer: "A power of attorney authorizing an agent to act on your behalf."
+      },
+      {
+        question: "How often renew?",
+        answer: "Every ten years, with a six‑month grace period after expiry."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Wrong Class Selection",
+          shortText: "Choosing incorrect trademark class",
+          backText: "Filing in the wrong class leaves coverage gaps and weakens protection."
+        },
+        {
+          title: "Insufficient Search",
+          shortText: "Skipping clearance search",
+          backText: "Undetected similar marks lead to objections or opposition."
+        },
+        {
+          title: "Inaccurate Specimen",
+          shortText: "Poor quality mark image",
+          backText: "Blurry or incomplete images cause application rejection."
+        },
+        {
+          title: "Missed Deadlines",
+          shortText: "Failure to respond on time",
+          backText: "Missing the one‑month reply window forfeits your application."
+        },
+        {
+          title: "Improper Use of Symbols",
+          shortText: "Misuse of ® or ™",
+          backText: "Using ® pre‑registration can incur penalties."
+        },
+        {
+          title: "Incomplete Affidavits",
+          shortText: "Lacking proof of prior use",
+          backText: "Claims of use without evidence face objection."
+        }
+      ],
+      roleBenefits: [
+        "Exclusive rights to use ® symbol.",
+        "Stronger legal remedies against infringers.",
+        "Ability to license or franchise your brand.",
+        "Enhanced brand valuation as an asset.",
+        "Facilitates foreign trademark filings."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Trademark", "Copyright"],
+        rows: [
+          ["1", "Protects brand identifiers", "Protects original works"],
+          ["2", "Requires registration", "Arises automatically"],
+          ["3", "Renew every 10 years", "Duration = author’s life + 60/70 years"],
+          ["4", "Covers goods/services classes", "Covers literary, artistic works"],
+          ["5", "Statutory ® rights", "No symbol, uses © mark"]
+        ]
+      },
+      timelineFees: [
+        "Search & filing: Day 1–3",
+        "Exam report: Day 30–60",
+        "Objection reply: Within 30 days of exam report",
+        "Publication: 4‑month opposition window",
+        "Certificate issuance: ~Day 180–540",
+        "Government fee: ₹4,500–₹9,000 per class",
+        "Renewal fee: ₹9,000 per class"
+      ]
+    }
+  },
+
+
+  "copyright-registration": {
+    overview: {
+      heading: "Copyright Registration in India – A Comprehensive Overview",
+      paragraphs: [
+        "Copyright registration grants legal protection for original literary, artistic, musical, dramatic, cinematographic, and software works under the Copyright Act, 1957.",
+        "Registration establishes ownership, enables exclusive rights to use and monetize the work, and serves as prima facie evidence in infringement actions.",
+        "Dostatup handles your end‑to‑end registration—from filing Form IV to securing the certificate—ensuring your creative assets are fully protected."
+      ]
+    },
+    features: [
+      {
+        icon: "©",
+        title: "Statutory Ownership",
+        description: "Official record of authorship and ownership in the Copyright Register."
+      },
+      {
+        icon: "🔒",
+        title: "Exclusive Rights",
+        description: "Rights to reproduce, distribute, adapt, perform, and communicate the work."
+      },
+      {
+        icon: "⏳",
+        title: "Long‑Term Protection",
+        description: "Duration: life of author + 60 years (films & sound recordings: 60 years from publication)."
+      }
+    ],
+    benefits: [
+      {
+        title: "Legal Evidence",
+        description: "Registered copyright is prima facie proof in court."
+      },
+      {
+        title: "Revenue Generation",
+        description: "Enables licensing, assignment, and royalty streams."
+      },
+      {
+        title: "Infringement Recourse",
+        description: "Allows injunctions, damages, and criminal actions against infringers."
+      },
+      {
+        title: "Public Notice",
+        description: "Registration makes your claim publicly searchable, deterring misuse."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Prepare Application",
+          desc: "Complete Form IV with author, work details, and class of work."
+        },
+        {
+          title: "Attach Documents",
+          desc: "Include identity proof, work copies, NOC (if needed), POA for agents."
+        },
+        {
+          title: "Pay Fee",
+          desc: "Submit prescribed fee online or via demand draft."
+        },
+        {
+          title: "Receive Diary Number",
+          desc: "Acknowledgment with diary number; 30‑day objection window opens."
+        },
+        {
+          title: "Respond to Objections",
+          desc: "File written replies if any objections are raised."
+        },
+        {
+          title: "Grant of Registration",
+          desc: "Upon clearance, Copyright Office issues registration certificate."
+        }
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Can Apply?",
+        items: [
+          "Original author or rightful owner of the work",
+          "Assignee, publisher or producer of the work",
+          "Joint authors under joint ownership"
+        ]
+      },
+      {
+        heading: "Works Covered",
+        items: [
+          "Literary (books, articles, scripts)",
+          "Artistic (paintings, graphics)",
+          "Musical & dramatic compositions",
+          "Cinematographic films & sound recordings",
+          "Computer software & digital content"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Work Classification",
+        desc: "Identify the correct category and form for your work."
+      },
+      {
+        title: "Document Compilation",
+        desc: "Gather ID proofs, work samples, NOCs, and POAs."
+      },
+      {
+        title: "Application Filing",
+        desc: "File Form IV, pay fees, and track diary number issuance."
+      },
+      {
+        title: "Objection Management",
+        desc: "Handle office queries and objections swiftly."
+      },
+      {
+        title: "Certificate Delivery",
+        desc: "Ensure timely receipt of the registration certificate."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is registration mandatory?",
+        answer: "No, but registration provides legal presumption of ownership and stronger enforcement."
+      },
+      {
+        question: "How long is protection?",
+        answer: "Life of author plus 60 years; films & sound recordings 60 years from publication."
+      },
+      {
+        question: "What is Form IV?",
+        answer: "The prescribed application form for copyright registration in India."
+      },
+      {
+        question: "Can I register online?",
+        answer: "Yes—through the Copyright Office portal for faster, paperless filing."
+      },
+      {
+        question: "How soon after filing is certificate granted?",
+        answer: "Typically within 7–12 months, subject to objections and workload."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Incorrect Work Type",
+          shortText: "Misclassifying your work",
+          backText: "Filing under wrong category delays processing and may cause objections."
+        },
+        {
+          title: "Poor Quality Samples",
+          shortText: "Blurry or incomplete work copies",
+          backText: "Unclear samples can lead to application rejection."
+        },
+        {
+          title: "Missing NOC",
+          shortText: "Omitting required permissions",
+          backText: "Failure to attach NOCs for publishers or joint authors stalls registration."
+        },
+        {
+          title: "Fee Miscalculation",
+          shortText: "Underpaying application fee",
+          backText: "Incomplete fee payment invalidates the application."
+        },
+        {
+          title: "Deadline Lapses",
+          shortText: "Ignoring objection window",
+          backText: "Not responding within 30 days forfeits your application."
+        },
+        {
+          title: "Incomplete POA",
+          shortText: "Invalid power of attorney",
+          backText: "Incorrect POA format invalidates agent filings."
+        }
+      ],
+      roleBenefits: [
+        "Official proof of authorship and date of creation.",
+        "Legal basis for enforcement and damages claims.",
+        "Enables licensing, assignment, and monetization.",
+        "Deters unauthorized copying and distribution."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Copyright", "Trademark"],
+        rows: [
+          ["1", "Protects creative works", "Protects brand identifiers"],
+          ["2", "Automatic on creation; registration optional", "Registration required for ® rights"],
+          ["3", "Duration = life + 60 years", "Duration = renewable every 10 years"],
+          ["4", "Forms: literary, artistic, films, software", "Forms: word, logo, sound, shape"],
+          ["5", "Enforced under Copyright Act", "Enforced under Trade Marks Act"]
+        ]
+      },
+      timelineFees: [
+        "Form IV filing & fee payment: Day 1",
+        "Diary number issuance: Day 1–2",
+        "Objection window: Days 1–30",
+        "Application examination: Days 31–180",
+        "Certificate issuance: Day 210–360",
+        "Application fee: ₹500–₹4,000 (depending on applicant type)",
+        "Offline DD mode also available"
+      ]
+    }
+  },
+
+
+
+  "copyright-disclaimer": {
+    overview: {
+      heading: "Overview of Copyright Disclaimer",
+      paragraphs: [
+        "A Copyright Disclaimer is a statement that notifies users about the copyright status of content and warns against unauthorized use, while clarifying the scope of permitted fair use under the law.",
+        "It typically appears on websites, apps, publications, and media where third‑party or user‑generated content may be displayed, providing legal protection and setting user expectations.",
+        "Dostatup helps you draft clear, legally sound copyright disclaimers tailored to your content and jurisdiction."
+      ]
+    },
+    features: [
+      {
+        icon: "⚠️",
+        title: "Legal Warning",
+        description: "Alerts users to copyright ownership and the risks of unauthorized use."
+      },
+      {
+        icon: "📜",
+        title: "Fair Use Acknowledgment",
+        description: "Specifies that certain uses (commentary, critique, education) may be permitted under Section 107 of the US Copyright Act or equivalent provisions."
+      },
+      {
+        icon: "🔒",
+        title: "Rights Reserved",
+        description: "Clearly states that all rights are retained by the content owner unless expressly licensed."
+      }
+    ],
+    benefits: [
+      {
+        title: "Risk Mitigation",
+        description: "Reduces potential liability by informing users of their obligations."
+      },
+      {
+        title: "Ownership Assertion",
+        description: "Publicly records your claim to the creative work."
+      },
+      {
+        title: "Fair Use Clarity",
+        description: "Outlines permissible uses to avoid inadvertent infringement."
+      },
+      {
+        title: "Professionalism",
+        description: "Signals that you take intellectual property seriously."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Identify Content Scope",
+          desc: "List all materials (text, images, video) that require a disclaimer."
+        },
+        {
+          title: "Draft Disclaimer Text",
+          desc: "Include © symbol, owner name, year, rights reserved, and fair use notice."
+        },
+        {
+          title: "Legal Review",
+          desc: "Have counsel vet the disclaimer for jurisdictional compliance."
+        },
+        {
+          title: "Placement & Formatting",
+          desc: "Add the disclaimer to footers, code headers, or media descriptions."
+        },
+        {
+          title: "Periodic Update",
+          desc: "Review and revise the disclaimer as content or laws change."
+        }
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Needs a Disclaimer?",
+        items: [
+          "Websites or blogs publishing third‑party content",
+          "Apps and software displaying user‑generated works",
+          "Educational materials quoting excerpts",
+          "Media platforms incorporating images, video, or audio"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Custom Drafting",
+        desc: "We draft a disclaimer tailored to your content and jurisdiction."
+      },
+      {
+        title: "Compliance Audit",
+        desc: "Review your existing notices and suggest improvements."
+      },
+      {
+        title: "Implementation Guidance",
+        desc: "Advise on optimal placement and formatting for maximum effect."
+      },
+      {
+        title: "Updates & Maintenance",
+        desc: "Keep your disclaimer current with evolving IP laws."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is a disclaimer legally binding?",
+        answer: "While not a substitute for registration, a clear disclaimer strengthens your position by warning users and clarifying permitted uses."
+      },
+      {
+        question: "Do I still need copyright registration?",
+        answer: "Yes—registration provides proof of ownership, while disclaimers manage user expectations."
+      },
+      {
+        question: "Can a disclaimer prevent all infringement?",
+        answer: "No, but it serves as a deterrent and may limit your exposure by establishing clear terms."
+      },
+      {
+        question: "Where should I place the disclaimer?",
+        answer: "Common placements include website footers, app about screens, document front pages, and media descriptions."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Vague Wording",
+          shortText: "Unclear disclaimer text",
+          backText: "Ambiguous language fails to inform users of their obligations, weakening protection."
+        },
+        {
+          title: "Missing Fair Use",
+          shortText: "No mention of fair use",
+          backText: "Omitting a fair‑use clause may expose you to unintentional infringement claims."
+        },
+        {
+          title: "Poor Placement",
+          shortText: "Hard to find",
+          backText: "Burying the disclaimer in deep pages reduces its visibility and effectiveness."
+        },
+        {
+          title: "Outdated Law",
+          shortText: "Non‑compliant text",
+          backText: "Using old statutory references can render the disclaimer obsolete after legal changes."
+        },
+        {
+          title: "Overly Broad",
+          shortText: "Too restrictive",
+          backText: "An excessively strict disclaimer may confuse users about legitimate, permissible uses."
+        },
+        {
+          title: "Formatting Errors",
+          shortText: "Broken markup",
+          backText: "HTML or CSS mistakes can hide the disclaimer or make it unreadable."
+        }
+      ],
+      roleBenefits: [
+        "Provides clear public notice of your copyright claim.",
+        "Defines permissible fair‑use activities.",
+        "Helps deter unauthorized copying or distribution.",
+        "Supports legal recourse in case of infringement."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Disclaimer", "Registration"],
+        rows: [
+          ["1", "Notices rights & warnings", "Establishes legal ownership"],
+          ["2", "Easy to implement", "Requires formal application"],
+          ["3", "Covers user expectations", "Provides prima facie evidence"],
+          ["4", "No government fee", "Fees apply as per law"],
+          ["5", "Must be updated", "Valid until renewal"]
+        ]
+      },
+      timelineFees: [
+        "Drafting & review: 1–2 days",
+        "Legal vetting: 3–5 days",
+        "Implementation: 1 day",
+        "Updates: As required",
+        "Cost: Customized per scope, starting ₹5,000"
+      ]
+    }
+  },
+
+
+
+  "copyright-licensing": {
+    overview: {
+      heading: "Copyright Licensing in India – An Overview",
+      paragraphs: [
+        "Copyright licensing is governed by the Copyright Act, 1957, and allows creators to grant others permission to use, reproduce, or distribute their works without transferring ownership.",
+        "Licenses define the scope, duration, territory, and fees for using literary, artistic, musical, or cinematographic works, as well as software and sound recordings."
+      ]
+    },
+    features: [
+      {
+        icon: "📄",
+        title: "Legal Contract",
+        description: "A written agreement specifying rights granted and restrictions."
+      },
+      {
+        icon: "⏲️",
+        title: "Defined Term",
+        description: "License duration is clearly set—fixed term or perpetual."
+      },
+      {
+        icon: "🌍",
+        title: "Territorial Scope",
+        description: "Usage rights limited to specified countries or regions."
+      },
+      {
+        icon: "💰",
+        title: "Royalty Structure",
+        description: "Fees or revenue‑share terms agreed between parties."
+      }
+    ],
+    benefits: [
+      {
+        title: "Monetization",
+        description: "Earn revenue through authorized use of your work."
+      },
+      {
+        title: "Controlled Distribution",
+        description: "Manage how and where your content is used."
+      },
+      {
+        title: "Risk Mitigation",
+        description: "Reduces infringement by defining clear usage terms."
+      },
+      {
+        title: "Collaboration",
+        description: "Enables partnerships and creative expansions."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Missing Scope Details",
+          shortText: "Unclear usage rights",
+          backText: "Omitting precise rights (e.g., digital vs print) leads to disputes."
+        },
+        {
+          title: "No Term Clause",
+          shortText: "Undefined duration",
+          backText: "Absence of term expiry can trap creators or licensees indefinitely."
+        },
+        {
+          title: "Geo Ambiguity",
+          shortText: "Vague territory",
+          backText: "Failure to specify territory risks unauthorized cross‑border use."
+        },
+        {
+          title: "Undefined Fees",
+          shortText: "Unclear payments",
+          backText: "Not detailing royalty rates or payment schedule causes conflicts."
+        },
+        {
+          title: "Lacking Termination",
+          shortText: "No exit terms",
+          backText: "Without termination clauses, parties cannot easily end the license."
+        },
+        {
+          title: "No Dispute Mechanism",
+          shortText: "Missing resolution",
+          backText: "Omitting arbitration or courts-of-law clause delays conflict resolution."
+        }
+      ],
+      roleBenefits: [
+        "Allows creators to retain ownership while monetizing works.",
+        "Gives licensees legal certainty to use content without infringement risk.",
+        "Facilitates clear revenue‑share or fee arrangements.",
+        "Supports scalability through sublicensing provisions."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Voluntary License", "Compulsory License"],
+        rows: [
+          ["1", "Granted by owner’s consent", "Mandated by Copyright Board under Section 31"],
+          ["2", "Can be exclusive or non‑exclusive", "Typically non‑exclusive"],
+          ["3", "Terms freely negotiated", "Terms set by statute or board"],
+          ["4", "Owner retains full control", "Owner’s consent bypassed under conditions"],
+          ["5", "Applies to existing & future works", "Limited to works in public interest"]
+        ]
+      },
+      timelineFees: [
+        "Drafting & negotiation: 1–5 days",
+        "Legal review: 2–7 days",
+        "Signing & execution: 1 day",
+        "Registration (optional): 15–30 days",
+        "Professional fees: Customized per scope",
+        "Government filing fee: Nil (private contract)"
+      ]
+    },
+    documents: {
+      steps: [
+        {
+          title: "Draft License Agreement",
+          desc: "Include parties, work details, rights, term, territory, fees, and termination."
+        },
+        {
+          title: "Identity Proofs",
+          desc: "Submit owner’s and licensee’s ID and address proofs."
+        },
+        {
+          title: "Work Description",
+          desc: "Provide title, category, and classification of the copyrighted work."
+        },
+        {
+          title: "Royalty Schedule",
+          desc: "Outline payment amounts, frequency, and reporting requirements."
+        },
+        {
+          title: "Signatures",
+          desc: "Get the agreement signed by both copyright owner and licensee."
+        }
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Can License?",
+        items: [
+          "Original author or copyright holder",
+          "Legal assignee or rights holder",
+          "Publisher or producer with assigned rights"
+        ]
+      },
+      {
+        heading: "Works Eligible",
+        items: [
+          "Literary, artistic, musical, dramatic works",
+          "Cinematograph films & sound recordings",
+          "Software and digital content"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Agreement Drafting",
+        desc: "Tailored license contracts covering all key terms."
+      },
+      {
+        title: "Negotiation Support",
+        desc: "Assist parties in reaching mutually acceptable terms."
+      },
+      {
+        title: "Legal Vetting",
+        desc: "Ensure compliance with the Copyright Act and related rules."
+      },
+      {
+        title: "Registration Guidance",
+        desc: "Advise on voluntary registration of license terms for public record."
+      },
+      {
+        title: "Dispute Resolution",
+        desc: "Set up arbitration or mediation mechanisms in the license."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is a license mandatory?",
+        answer: "You must license to authorize use legally; otherwise, use infringes copyright."
+      },
+      {
+        question: "Can licenses be exclusive?",
+        answer: "Yes—exclusive licenses grant sole rights to one licensee, barring all others."
+      },
+      {
+        question: "What is a compulsory license?",
+        answer: "A license granted by the Copyright Board when owner refuses reasonable terms."
+      },
+      {
+        question: "Must agreements be registered?",
+        answer: "Registration isn’t mandatory but helps in enforcement by public record."
+      },
+      {
+        question: "Can I sublicense?",
+        answer: "Only if the agreement expressly grants sublicensing rights."
+      }
+    ]
+  },
+
+
+
+
+  "copyright-objection": {
+    overview: {
+      heading: "An Overview of Copyright Objection",
+      paragraphs: [
+        "A Copyright Objection is a formal challenge to the validity, ownership, or scope of a registered copyright under the Copyright Act, 1957.",
+        "It provides a legal mechanism to dispute infringements or incorrect registrations, safeguarding creators’ exclusive rights.",
+        "Dostatup offers end‑to‑end support—from drafting objections to representing you at hearings—to resolve disputes efficiently."
+      ]
+    },
+    features: [
+      {
+        icon: "⚖️",
+        title: "Legal Challenge",
+        description: "Allows you to formally dispute a copyright registration or alleged infringement."
+      },
+      {
+        icon: "🕵️",
+        title: "Evidence Submission",
+        description: "You can submit proof of authorship, registration irregularities, or infringement."
+      },
+      {
+        icon: "⏱️",
+        title: "30‑Day Response",
+        description: "Registered owner has 30 days to reply once notified of your objection."
+      },
+      {
+        icon: "🏛️",
+        title: "Hearing & Appeal",
+        description: "Cases may proceed to hearing before the Copyright Office or IPAB appeal."
+      }
+    ],
+    benefits: [
+      {
+        title: "Protect Your Rights",
+        description: "Asserts your claim against unauthorized registrations or uses."
+      },
+      {
+        title: "Prevent Infringement",
+        description: "Stops ongoing misuse while the objection is pending."
+      },
+      {
+        title: "Formal Resolution",
+        description: "Provides an official decision to clarify ownership disputes."
+      },
+      {
+        title: "Compensation Claims",
+        description: "Enables recovery of damages if infringement is proven."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Draft Statement of Objection",
+          desc: "Clearly outline grounds—ownership dispute, infringement, or procedural error."
+        },
+        {
+          title: "Attach Evidence",
+          desc: "Provide registration certificate, work samples, authorship proof, and POA."
+        },
+        {
+          title: "Submit to Copyright Office",
+          desc: "File objection with prescribed fee and receive acknowledgment."
+        },
+        {
+          title: "Respond to Queries",
+          desc: "Answer any queries or provide additional documents if requested."
+        },
+        {
+          title: "Attend Hearing",
+          desc: "Present your case before the examiner or IPAB tribunal."
+        }
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Can Object?",
+        items: [
+          "Original author or copyright owner",
+          "Licensed user disputing misuse",
+          "Assignee or transferee of exclusive rights"
+        ]
+      },
+      {
+        heading: "Valid Grounds",
+        items: [
+          "Dispute over authorship or ownership",
+          "Allegation of substantial infringement",
+          "Procedural irregularities in registration"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Objection Drafting",
+        desc: "Prepare legally sound statements and gather supporting evidence."
+      },
+      {
+        title: "Procedure Management",
+        desc: "Handle all filings, fee payments, and office correspondence."
+      },
+      {
+        title: "Representation",
+        desc: "Advocate for you at hearings before the Copyright Office or IPAB."
+      },
+      {
+        title: "Appeal Support",
+        desc: "Assist in appeals if the initial decision is unfavorable."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a copyright objection?",
+        answer: "A formal challenge against a copyright registration or alleged infringement."
+      },
+      {
+        question: "Who may file an objection?",
+        answer: "The owner, author, licensee, or assignee of the copyrighted work."
+      },
+      {
+        question: "How long to respond?",
+        answer: "The registered owner has 30 days from notice to reply under the Act."
+      },
+      {
+        question: "Can objections be appealed?",
+        answer: "Yes—unsatisfied parties may appeal to the IPAB within 3 months."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Weak Evidence",
+          shortText: "Insufficient proof",
+          backText: "Failing to submit clear authorship or registration documents weakens the objection."
+        },
+        {
+          title: "Late Filing",
+          shortText: "Missed deadlines",
+          backText: "Objecting after the statutory period or without notice risks dismissal."
+        },
+        {
+          title: "Vague Grounds",
+          shortText: "Unclear basis",
+          backText: "Lacking specific infringement or ownership claims undermines the challenge."
+        },
+        {
+          title: "Incomplete Fees",
+          shortText: "Underpaid charges",
+          backText: "Incorrect fee payment invalidates the objection filing."
+        },
+        {
+          title: "No Representation",
+          shortText: "Skipping hearings",
+          backText: "Not appearing at scheduled hearings forfeits your right to argue the case."
+        },
+        {
+          title: "Poor Documentation",
+          shortText: "Missing attachments",
+          backText: "Omitting required proofs or POA delays or dismisses the objection."
+        }
+      ],
+      roleBenefits: [
+        "Officially assert your ownership or usage rights.",
+        "Obtain an enforceable decision to resolve disputes.",
+        "Prevent further unauthorized exploitation.",
+        "Establish a record that supports future infringement claims."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Objection", "Infringement Suit"],
+        rows: [
+          ["1", "Procedure before Copyright Office/IPAB", "Civil suit in Courts"],
+          ["2", "30‑day response window", "Follows civil procedure timelines"],
+          ["3", "Can cancel or amend registration", "Seeks damages and injunctions"],
+          ["4", "Lower filing fees", "Higher court filing costs"],
+          ["5", "Administrative remedy", "Judicial remedy"]
+        ]
+      },
+      timelineFees: [
+        "Drafting & filing: 1–3 days",
+        "Acknowledgment & notice: 7–14 days",
+        "Owner’s reply period: 30 days",
+        "Hearing scheduling: 30–60 days",
+        "Decision issuance: 90–180 days",
+        "Filing fee: ₹1,000–₹2,000"
+      ]
+    }
+  },
+
+  "patent-registration": {
+    overview: {
+      heading: "Patent Registration in India – An Overview",
+      paragraphs: [
+        "Patent registration grants inventors exclusive rights over their inventions—preventing others from making, using, or selling the invention without authorization for 20 years.",
+        "The process begins with a patentability search, followed by filing a detailed application with the Indian Patent Office, publication, examination, and—if unopposed—grant of the patent.",
+        "DoStartup leverages over a decade of IP expertise to streamline each step, ensuring robust protection and commercialization readiness for your innovations."
+      ]
+    },
+    features: [
+      {
+        icon: "🔍",
+        title: "Patent Search",
+        description: "Comprehensive novelty and prior‑art analysis to confirm patentability."
+      },
+      {
+        icon: "📝",
+        title: "Application Drafting",
+        description: "Preparation of complete specifications, claims, abstract, and drawings."
+      },
+      {
+        icon: "⚖️",
+        title: "Examination Support",
+        description: "Responding to objections and handling oppositions for smooth grant."
+      }
+    ],
+    benefits: [
+      {
+        title: "Exclusive Rights",
+        description: "20‑year monopoly to manufacture, use, or license your invention."
+      },
+      {
+        title: "Monetization",
+        description: "Generate revenue through licensing, assignments, or commercialization."
+      },
+      {
+        title: "Investment Magnet",
+        description: "Patents enhance credibility and attract investors or partners."
+      },
+      {
+        title: "Global Expansion",
+        description: "PCT and convention filings extend protection internationally."
+      }
+    ],
+    eligibility: [
+      {
+        heading: "Patentable Inventions",
+        items: [
+          "New products or processes (gadgets, chemical compositions, pharmaceuticals).",
+          "Machines and apparatus with inventive steps.",
+          "Innovative manufacturing or business methods.",
+          "Biotechnology and certain software‑related inventions."
+        ]
+      },
+      {
+        heading: "Non‑Patentable",
+        items: [
+          "Scientific theories, mathematical models, and abstract ideas.",
+          "Literary, artistic or aesthetic creations.",
+          "Natural phenomena and discoveries of known substances."
+        ]
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Conduct Patent Search",
+          desc: "Verify novelty via global patent databases."
+        },
+        {
+          title: "Draft Application",
+          desc: "Prepare specification, claims, abstract, drawings and Section 8 statement."
+        },
+        {
+          title: "File with IPO",
+          desc: "Submit provisional or complete application, forms, and fees online."
+        },
+        {
+          title: "Request Examination",
+          desc: "File Form 18 within 48 months to initiate substantive examination."
+        },
+        {
+          title: "Respond to Objections",
+          desc: "Address examination reports and any oppositions raised."
+        },
+        {
+          title: "Grant & Publication",
+          desc: "Patent granted and published in the Patent Journal."
+        }
+      ]
+    },
+    services: [
+      {
+        title: "Patentability Analysis",
+        desc: "Technical prior‑art search and freedom‑to‑operate opinion."
+      },
+      {
+        title: "Drafting & Filing",
+        desc: "End‑to‑end preparation and e‑filing of provisional/complete applications."
+      },
+      {
+        title: "Office Action Management",
+        desc: "Drafting responses to examination reports and opposition defense."
+      },
+      {
+        title: "Global Filings",
+        desc: "Assistance with PCT national phase and convention country entries."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a patent?",
+        answer: "A legal grant giving inventors exclusive rights to their invention for 20 years."
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Approximately 3–5 years, depending on examination workload and objections."
+      },
+      {
+        question: "Can I commercialize immediately?",
+        answer: "You may use ‘patent pending’ status; full enforcement rights begin upon grant."
+      },
+      {
+        question: "What fees apply?",
+        answer: "Government fees vary by applicant type and claim count; professional fees extra."
+      },
+      {
+        question: "Is international protection automatic?",
+        answer: "No—separate PCT or convention filings are required for foreign patents."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Inadequate Search",
+          shortText: "Skipping prior‑art check",
+          backText: "Fails to detect existing disclosures, risking rejection for lack of novelty."
+        },
+        {
+          title: "Vague Claims",
+          shortText: "Overly broad or unclear claims",
+          backText: "Leads to objections or narrow scope of protection."
+        },
+        {
+          title: "Deadline Miss",
+          shortText: "Missing examination request",
+          backText: "Application deemed withdrawn if Form 18 not filed in time."
+        },
+        {
+          title: "Poor Drawings",
+          shortText: "Low‑quality figures",
+          backText: "Unsuitable drawings can cause non‑compliance objections."
+        },
+        {
+          title: "Incomplete Forms",
+          shortText: "Missing declarations or forms",
+          backText: "Administrative defects delay processing or lead to refusal."
+        },
+        {
+          title: "Expired Priority",
+          shortText: "Late convention claim",
+          backText: "Loss of priority date reduces patent term or novelty."
+        }
+      ],
+      roleBenefits: [
+        "Ensures exclusive commercialization rights.",
+        "Provides legal basis for infringement actions.",
+        "Enables licensing and technology transfer.",
+        "Attracts funding and strategic partnerships."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Patent", "Copyright"],
+        rows: [
+          ["1", "Protects inventions (products/processes)", "Protects creative expression"],
+          ["2", "20‑year term from filing", "Life of author + 60 years"],
+          ["3", "Requires substantive examination", "Automatic on fixation"],
+          ["4", "Claims define scope", "Covers entire work as fixed"],
+          ["5", "Enforced via Patent Act", "Enforced via Copyright Act"]
+        ]
+      },
+      timelineFees: [
+        "Search & drafting: 1–2 weeks",
+        "Provisional filing: Day 1",
+        "Complete filing: +12 months from provisional",
+        "Examination request: ≤48 months",
+        "Response to report: Within prescribed months",
+        "Grant: ~3–5 years",
+        "Official fees: ₹1,600–₹8,000 (per applicant type)"
+      ]
+    }
+  },
+
+
+
+  "indian-patent-search": {
+    overview: {
+      heading: "An Overview of Indian Patent Search",
+      paragraphs: [
+        "Indian Patent Search examines patent databases like InPASS and the Patent Register to assess novelty, inventive step, and freedom to operate for inventions.",
+        "It is the critical first step in the patent lifecycle—informing patentability, guiding application strategy, and minimizing infringement risk.",
+        "DoStartup’s experts deliver thorough searches and actionable insights to support your IP decisions."
+      ]
+    },
+    features: [
+      {
+        icon: "🔍",
+        title: "InPASS Advanced Search",
+        description: "Keyword, IPC code, applicant and inventor name queries in India’s official patent database."
+      },
+      {
+        icon: "📑",
+        title: "Patent Register Lookup",
+        description: "Access legal status, grant dates, and full specifications of published and granted patents."
+      },
+      {
+        icon: "🌐",
+        title: "Global Coverage",
+        description: "Supplement with WIPO PATENTSCOPE, Google Patents, and USPTO to map international prior art."
+      }
+    ],
+    benefits: [
+      {
+        title: "Patentability Assessment",
+        description: "Determine novelty and inventive step before filing."
+      },
+      {
+        title: "Freedom to Operate",
+        description: "Identify third‑party patents that may block commercialization."
+      },
+      {
+        title: "Competitive Intelligence",
+        description: "Analyze rival technologies and filing trends."
+      },
+      {
+        title: "Risk Mitigation",
+        description: "Avoid costly infringement and litigation by early detection."
+      }
+    ],
+    eligibility: [
+      {
+        heading: "Who Should Conduct a Search?",
+        items: [
+          "Inventors planning a patent application",
+          "Companies evaluating R&D investments",
+          "Investors assessing IP portfolios",
+          "Law firms and patent attorneys advising clients"
+        ]
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Invention Disclosure",
+          desc: "Complete technical description, drawings, and claims outline."
+        },
+        {
+          title: "Classification Codes",
+          desc: "Identify relevant IPC/CPC codes for targeted searching."
+        },
+        {
+          title: "Pre‑existing Filings",
+          desc: "Gather any prior provisional or PCT application details."
+        }
+      ]
+    },
+    services: [
+      {
+        title: "Comprehensive Prior Art Search",
+        desc: "In‑depth review of Indian and global patent literature."
+      },
+      {
+        title: "Freedom to Operate Analysis",
+        desc: "Mapping of existing patents that may affect your product launch."
+      },
+      {
+        title: "Patentability Opinion",
+        desc: "Expert assessment of novelty, inventive step, and industrial applicability."
+      },
+      {
+        title: "Monitoring & Watch",
+        desc: "Ongoing alerts for new patent publications in your technology area."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is a patent search mandatory?",
+        answer: "No, but it is highly recommended to validate novelty and avoid infringement."
+      },
+      {
+        question: "Can I search patents myself?",
+        answer: "Yes, using InPASS, but professional analysis ensures comprehensiveness."
+      },
+      {
+        question: "How long does a search take?",
+        answer: "Typically 1–2 weeks, depending on complexity and scope."
+      },
+      {
+        question: "Does a search guarantee patentability?",
+        answer: "It informs patentability but does not replace examination by the Patent Office."
+      },
+      {
+        question: "How often should I update my search?",
+        answer: "Monitor monthly or quarterly for new filings in your field."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Keyword Overload",
+          shortText: "Too broad keywords",
+          backText: "Yields irrelevant results—narrow down with synonyms and codes."
+        },
+        {
+          title: "IPC Misclassification",
+          shortText: "Wrong patent class",
+          backText: "Misses key documents—ensure correct IPC/CPC codes are used."
+        },
+        {
+          title: "Database Gaps",
+          shortText: "Ignoring non‑patent literature",
+          backText: "Overlooks prior art in journals and technical publications."
+        },
+        {
+          title: "Single‑Jurisdiction",
+          shortText: "Only Indian patents",
+          backText: "Fails to spot global conflicts—include PCT and foreign filings."
+        },
+        {
+          title: "No Monitoring",
+          shortText: "One‑time search only",
+          backText: "Misses new publications—set up patent watch services."
+        },
+        {
+          title: "Superficial Analysis",
+          shortText: "Skipping full-text review",
+          backText: "Important details hidden in claims or descriptions can be overlooked."
+        }
+      ],
+      roleBenefits: [
+        "Supports strategic patent filing decisions.",
+        "Reduces risk of infringing third‑party rights.",
+        "Guides R&D by identifying technological gaps.",
+        "Enhances value of IP portfolio through timely updates."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Patentability Search", "Freedom to Operate Search"],
+        rows: [
+          ["1", "Checks novelty vs. prior art", "Checks third‑party rights clearance"],
+          ["2", "Focused on inventive step", "Focused on infringement risk"],
+          ["3", "Conducted pre‑filing", "Conducted pre‑launch"],
+          ["4", "Broad literature review", "Targeted patent analysis"],
+          ["5", "Advises on filing strategy", "Advises on market entry strategy"]
+        ]
+      },
+      timelineFees: [
+        "Initial scoping & k‑map: 1–2 days",
+        "Full search report: 1–2 weeks",
+        "FTO analysis: +1 week",
+        "Monitoring setup: 1 day",
+        "Fees: ₹15,000–₹50,000 depending on scope"
+      ]
+    }
+  },
+
+
+  "patent-revocation": {
+    overview: {
+      heading: "Overview of Patent Revocation in India",
+      paragraphs: [
+        "Patent revocation is the legal process to challenge and nullify a granted patent on grounds such as lack of novelty, wrongful grant, public policy conflict, or non‑working in India.",
+        "Sections 64–66 and 85 of the Patents Act, 1970 empower any interested person, the Central Government, or an infringement defendant to file petitions before IPAB or the appropriate court.",
+        "DoStartup guides clients through every step—from grounds analysis and petition drafting to representation—ensuring robust defense or attack on patent validity."
+      ]
+    },
+    features: [
+      {
+        icon: "📄",
+        title: "Grounds Analysis",
+        description: "Identify applicable revocation grounds under Sections 64, 65, 66 or 85."
+      },
+      {
+        icon: "🖋️",
+        title: "Petition Drafting",
+        description: "Prepare Form 19/Form 22 petitions with supporting evidence and pleadings."
+      },
+      {
+        icon: "⚖️",
+        title: "Representation",
+        description: "Advocate before IPAB or High Court in infringement counterclaims."
+      }
+    ],
+    benefits: [
+      {
+        title: "Market Clearance",
+        description: "Remove invalid patents to avoid pay‑to‑play royalties or injunctions."
+      },
+      {
+        title: "Cost Efficiency",
+        description: "Challenge weak patents early to reduce litigation expense."
+      },
+      {
+        title: "Public Interest",
+        description: "Ensure essential innovations are accessible and affordable."
+      },
+      {
+        title: "Portfolio Clean‑Up",
+        description: "Maintain a valid and enforceable patent portfolio."
+      }
+    ],
+    eligibility: [
+      {
+        heading: "Who Can File?",
+        items: [
+          "Any interested person or competitor",
+          "Central Government (public interest or atomic energy)",
+          "Defendant in an infringement suit via counterclaim"
+        ]
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Identify Grounds",
+          desc: "Select relevant section(s)—64 (general), 65 (atomic energy), 66 (public interest), 85 (non‑working)."
+        },
+        {
+          title: "Gather Evidence",
+          desc: "Collect prior art, TKDL references, working statements, licensing records."
+        },
+        {
+          title: "Draft Petition",
+          desc: "Prepare detailed revocation petition (Form 19/22) with affidavit and exhibits."
+        },
+        {
+          title: "File with Jurisdiction",
+          desc: "Submit to IPAB or District/High Court as appropriate."
+        },
+        {
+          title: "Attend Hearings",
+          desc: "Argue the case, respond to counter‑arguments, and present witnesses."
+        }
+      ]
+    },
+    services: [
+      {
+        title: "Grounds Evaluation",
+        desc: "Expert analysis of patent claims and statutory non‑compliance."
+      },
+      {
+        title: "Evidence Compilation",
+        desc: "Prior art search, TKDL review, working affidavit preparation."
+      },
+      {
+        title: "Petition Filing",
+        desc: "Electronic and physical filing with IPAB or courts."
+      },
+      {
+        title: "Full Litigation Support",
+        desc: "Representation through hearings, appeals, and settlement negotiations."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is patent revocation?",
+        answer: "Cancellation of a granted patent’s rights, rendering it void ab initio or prospectively."
+      },
+      {
+        question: "Which sections cover revocation?",
+        answer: "Sections 64 (general), 65 (atomic energy), 66 (public interest) and 85 (non‑working)."
+      },
+      {
+        question: "Who may file a counterclaim?",
+        answer: "A defendant in a patent infringement suit may seek revocation as a counterclaim."
+      },
+      {
+        question: "Where are petitions filed?",
+        answer: "Before IPAB (for standalone revocation) or High/District Court (as counterclaim)."
+      },
+      {
+        question: "Can government revoke patents?",
+        answer: "Yes—under Section 66 for public interest or Section 65 for atomic energy inventions."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Weak Grounds",
+          shortText: "Insufficient statutory basis",
+          backText: "Petition fails if grounds do not match Sections 64–66 or 85 criteria."
+        },
+        {
+          title: "Poor Evidence",
+          shortText: "Unsubstantiated prior art",
+          backText: "Rejection if prior art documents are outdated or irrelevant."
+        },
+        {
+          title: "Wrong Forum",
+          shortText: "Incorrect filing venue",
+          backText: "Delay or dismissal if filed outside IPAB or proper court."
+        },
+        {
+          title: "Missed Deadline",
+          shortText: "Statutory time lapses",
+          backText: "Certain revocations (e.g., Section 25 post‑grant) have strict windows."
+        },
+        {
+          title: "Incomplete Petition",
+          shortText: "Missing forms or affidavits",
+          backText: "Administrative defects can lead to abandon or return of petition."
+        },
+        {
+          title: "Ignoring TKDL",
+          shortText: "Overlooking traditional knowledge",
+          backText: "Government revokes when patent conflicts with documented TKDL entries."
+        }
+      ],
+      roleBenefits: [
+        "Invalid patents removed, reducing royalty burdens.",
+        "Strengthens freedom‑to‑operate for new products.",
+        "Clears way for generic or competing innovations.",
+        "Aligns patent estate with business objectives."
+      ],
+      differenceTable: {
+        columns: ["S. No.", "Post‑Grant Opposition", "Revocation Petition"],
+        rows: [
+          ["1", "File within 1 year of grant (Section 25)", "No time limit—any time after grant"],
+          ["2", "Handled by Controller", "Heard by IPAB or courts"],
+          ["3", "Limited grounds under Section 25(2)", "Broad grounds under Section 64–66 & 85"],
+          ["4", "Non‑litigious process", "Litigation‑style hearings & appeals"],
+          ["5", "No counterclaim in infringement", "Can be counterclaim in suit"]
+        ]
+      },
+      timelineFees: [
+        "Grounds analysis: 1–3 days",
+        "Petition drafting: 1 week",
+        "Filing & adm. fees: ₹10,000–₹25,000",
+        "First hearing: 1–3 months",
+        "Final decision: 12–18 months"
+      ]
+    }
+  }
+  
+  
+  
+  
+  
+  
+
+
     
   
   

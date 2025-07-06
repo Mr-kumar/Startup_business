@@ -17670,91 +17670,400 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
+  "insurance-surveyor-loss-assessor-registration": {
+    title: "Insurance Surveyor and Loss Assessor Registration",
+    description:
+      "Get registered as an Insurance Surveyor or Loss Assessor with IRDAI to legally evaluate insurance claims in India.",
+    overview: [
+      {
+        heading:
+          "Comprehensive Guide to Insurance Surveyor and Loss Assessor Registration in India",
+        content:
+          "Insurance Surveyors and Loss Assessors play a vital role in evaluating and verifying insurance claims for insurance companies. To perform these duties legally, individuals or corporate entities must obtain a license from the Insurance Regulatory and Development Authority of India (IRDAI).",
+      },
+      {
+        heading: "Categories of Registration",
+        content:
+          "● Individual Surveyors – Professionals operating independently\n● Corporate Surveyors – Registered firms or businesses licensed to assess claims",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Responsibilities of Surveyors and Loss Assessors",
+        content:
+          "● Investigate, analyze, and manage insurance claims\n● Provide unbiased, regulatory‑compliant reports\n● Disclose conflicts of interest\n● Maintain confidentiality and impartiality\n● Inspect and reassess insured property\n● Determine cause and extent of loss\n● Recommend actions to prevent future losses\n● Clarify admissibility of claims under policy terms\n● Assist insurers and insured with technical evaluations",
+      },
+      {
+        heading: "Why Choose DoStartup?",
+        content:
+          "● Timely and accurate documentation\n● Compliance with IRDAI norms\n● Hassle‑free coordination\n● Professional guidance from experts",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for License Application",
+        content:
+          "● Certificate of Incorporation or Business Registration (for entities)\n● Completed Application Form\n● Passport‑size Photographs\n● PAN Card and Address Proof\n● Academic and Professional Qualification Proof\n● Mark Sheets for Surveyor Examination\n● Declaration in the prescribed format\n● Membership Certificate from a recognized institute\n● ‘Fit and Proper’ Declaration\n● Payment Proof of Application Fee",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Process to Register",
+        content:
+          "● Collect and prepare all required documents\n● File the application with IRDAI via Form IRDAI‑2‑LF\n● IRDAI reviews and verifies the application\n● Upon approval, license is issued in Form IRDAI‑2‑LF",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "License Validity",
+        description:
+          "The IRDAI license is valid for three years from date of issue and specifies the authorized classes of insurance business.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Surveyor Registration?",
+        description: [
+          "We specialize in end‑to‑end IRDAI licensing support for insurance professionals.",
+        ],
+        points: [
+          "Hassle‑free documentation support",
+          "Expert legal and compliance assistance",
+          "Complete coordination with IRDAI",
+          "Accelerated processing and approvals",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question:
+          "What are the main duties of an Insurance Surveyor and Loss Assessor?",
+        answer:
+          "They assess the extent and legitimacy of insurance claims to help insurers make informed decisions.",
+      },
+      {
+        question: "Why is a license necessary?",
+        answer:
+          "It legally authorizes professionals to conduct surveys and assessments on behalf of insurers.",
+      },
+      {
+        question: "What types of surveyors are there?",
+        answer: "Individual Surveyors and Corporate Surveyors.",
+      },
+      {
+        question: "What are two essential eligibility requirements?",
+        answer:
+          "Membership in a recognized institution (e.g., ICAI, ICSI) and completion of IRDAI‑mandated training/examination.",
+      },
+      {
+        question: "What documents are generally required?",
+        answer:
+          "Incorporation proof, application form, PAN, photos, qualifications, membership certificate, and fee payment proof.",
+      },
+      {
+        question: "What is the validity period of the IRDA license?",
+        answer: "Three years from the date of issue.",
+      },
+      {
+        question: "What form is the IRDA license issued on?",
+        answer: "Form IRDAI‑2‑LF.",
+      },
+    ],
+  },
 
-    "insurance-surveyor-loss-assessor-registration": {
-      title: "Insurance Surveyor and Loss Assessor Registration",
-      description: "Get registered as an Insurance Surveyor or Loss Assessor with IRDAI to legally evaluate insurance claims in India.",
-      overview: [
-        {
-          heading: "Comprehensive Guide to Insurance Surveyor and Loss Assessor Registration in India",
-          content: "Insurance Surveyors and Loss Assessors play a vital role in evaluating and verifying insurance claims for insurance companies. To perform these duties legally, individuals or corporate entities must obtain a license from the Insurance Regulatory and Development Authority of India (IRDAI)."
-        },
-        {
-          heading: "Categories of Registration",
-          content: "● Individual Surveyors – Professionals operating independently\n● Corporate Surveyors – Registered firms or businesses licensed to assess claims"
-        }
-      ],
-      benefits: [
-        {
-          heading: "Key Responsibilities of Surveyors and Loss Assessors",
-          content: "● Investigate, analyze, and manage insurance claims\n● Provide unbiased, regulatory‑compliant reports\n● Disclose conflicts of interest\n● Maintain confidentiality and impartiality\n● Inspect and reassess insured property\n● Determine cause and extent of loss\n● Recommend actions to prevent future losses\n● Clarify admissibility of claims under policy terms\n● Assist insurers and insured with technical evaluations"
-        },
-        {
-          heading: "Why Choose DoStartup?",
-          content: "● Timely and accurate documentation\n● Compliance with IRDAI norms\n● Hassle‑free coordination\n● Professional guidance from experts"
-        }
-      ],
-      documentsRequired: [
-        {
-          heading: "Documents Required for License Application",
-          content: "● Certificate of Incorporation or Business Registration (for entities)\n● Completed Application Form\n● Passport‑size Photographs\n● PAN Card and Address Proof\n● Academic and Professional Qualification Proof\n● Mark Sheets for Surveyor Examination\n● Declaration in the prescribed format\n● Membership Certificate from a recognized institute\n● ‘Fit and Proper’ Declaration\n● Payment Proof of Application Fee"
-        }
-      ],
-      registrationProcedure: [
-        {
-          heading: "Step‑by‑Step Process to Register",
-          content: "● Collect and prepare all required documents\n● File the application with IRDAI via Form IRDAI‑2‑LF\n● IRDAI reviews and verifies the application\n● Upon approval, license is issued in Form IRDAI‑2‑LF"
-        }
-      ],
-      feesStructure: [],
-      registrationTimeline: [
-        {
-          heading: "License Validity",
-          description: "The IRDAI license is valid for three years from date of issue and specifies the authorized classes of insurance business."
-        }
-      ],
-      whyUs: [
-        {
-          heading: "Why Choose DoStartup for Surveyor Registration?",
-          description: ["We specialize in end‑to‑end IRDAI licensing support for insurance professionals."],
-          points: [
-            "Hassle‑free documentation support",
-            "Expert legal and compliance assistance",
-            "Complete coordination with IRDAI",
-            "Accelerated processing and approvals"
-          ]
-        }
-      ],
-      faq: [
-        {
-          question: "What are the main duties of an Insurance Surveyor and Loss Assessor?",
-          answer: "They assess the extent and legitimacy of insurance claims to help insurers make informed decisions."
-        },
-        {
-          question: "Why is a license necessary?",
-          answer: "It legally authorizes professionals to conduct surveys and assessments on behalf of insurers."
-        },
-        {
-          question: "What types of surveyors are there?",
-          answer: "Individual Surveyors and Corporate Surveyors."
-        },
-        {
-          question: "What are two essential eligibility requirements?",
-          answer: "Membership in a recognized institution (e.g., ICAI, ICSI) and completion of IRDAI‑mandated training/examination."
-        },
-        {
-          question: "What documents are generally required?",
-          answer: "Incorporation proof, application form, PAN, photos, qualifications, membership certificate, and fee payment proof."
-        },
-        {
-          question: "What is the validity period of the IRDA license?",
-          answer: "Three years from the date of issue."
-        },
-        {
-          question: "What form is the IRDA license issued on?",
-          answer: "Form IRDAI‑2‑LF."
-        }
-      ]
-    }
-    
+  "overview-of-patent-opposition": {
+    title: "Patent Opposition",
+    description:
+      "Patent opposition lets any person challenge a patent grant that fails novelty, inventive step or other legal criteria, preventing wrongful monopolies and frivolous claims under the Patents Act.",
+    overview: [
+      {
+        heading: "An Overview of Patent Opposition",
+        content:
+          "Patent opposition is a structured legal process under the Patents Act allowing third parties to object to the grant of a patent on grounds such as lack of novelty, non‑inventive step, insufficient disclosure, wrongful inventor attribution or misuse of traditional knowledge.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Legal Grounds for Patent Opposition",
+        content:
+          "● Applicant is not true inventor or obtained invention unlawfully\n● Invention is not patentable under law\n● Known or used in India before priority date\n● Lacks novelty, inventive step or is obvious\n● Patent specification is incomplete or unclear\n● Application contains false or misleading information\n● Incorrect or non‑disclosure of biological source/origin\n● Based on traditional knowledge",
+      },
+    ],
+    documentsRequired: [],
+    registrationProcedure: [
+      {
+        heading: "Pre‑Grant Opposition Process",
+        content:
+          "● File Form‑7(A) with detailed statement & evidence after application publication but before grant\n● Controller notifies applicant of valid representation\n● Applicant replies within three months\n● Controller may reject representation or require amendments before grant",
+      },
+      {
+        heading: "Post‑Grant Opposition Process",
+        content:
+          "● File written statement within one year of grant under Section 25(2)\n● Controller forms three‑member Opposition Board\n● Opponent submits grounds, interest & evidence\n● Patentee replies within two months (or faces revocation)\n● Opponent may seek permission to file rejoinder\n● Board reviews and submits recommendations within three months\n● Hearing is held; Controller decides to maintain, amend or revoke patent",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "Opposition Filing Deadlines",
+        description:
+          "Pre‑Grant: any time after publication and before grant\nPost‑Grant: within one year of patent grant",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Our IPR experts guide you through every step of pre‑ and post‑grant opposition to ensure timely, accurate filings and strategic positioning.",
+        ],
+        points: [
+          "Expert drafting of Form‑7(A) and oppositions",
+          "Strategic analysis of prior art and grounds",
+          "End‑to‑end procedural support",
+          "Representation at hearings if required",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a patent opposition?",
+        answer:
+          "A legal process allowing any person to object to the grant of a patent on specified grounds.",
+      },
+      {
+        question: "Who can oppose a patent?",
+        answer:
+          "Any person for pre‑grant opposition; only interested persons for post‑grant opposition.",
+      },
+      {
+        question: "What are valid grounds for opposing a patent?",
+        answer:
+          "Lack of novelty, lack of inventive step, insufficient disclosure, wrongful inventor claim, misuse of traditional knowledge, etc.",
+      },
+      {
+        question: "Can a granted patent be revoked?",
+        answer:
+          "Yes, through post‑grant opposition within one year or via court proceedings thereafter.",
+      },
+      {
+        question: "What is the deadline for pre‑grant opposition?",
+        answer:
+          "Any time after publication of the application and before grant of the patent.",
+      },
+      {
+        question: "What is the deadline for post‑grant opposition?",
+        answer: "Within one year from the date of patent grant.",
+      },
+      {
+        question: "When can a patent in India be revoked?",
+        answer:
+          "Post‑grant via opposition within one year or anytime later through court action.",
+      },
+    ],
+  },
+
+  "insurance-marketing-firm-registration": {
+    title: "Insurance Marketing Firm Registration",
+    description:
+      "Register your Insurance Marketing Firm (IMF) with IRDAI to procure, market, and facilitate insurance and select financial services in India.",
+    overview: [
+      {
+        heading:
+          "An Overview of Insurance Marketing Firm (IMF) Registration in India",
+        content:
+          "An Insurance Marketing Firm (IMF) is a distribution model introduced by IRDAI (2015, guided by the 2017 Govardhan Committee report) that partners with multiple insurers to offer insurance services under a single license.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Services Offered by an Insurance Marketing Firm",
+        content:
+          "● Solicitation and procurement of insurance policies across multiple insurers\n● Facilitation of back‑end operations with repositories, surveyors, loss assessors, TPAs\n● Marketing of financial products (mutual funds, pension products, NBFC services, postal financial instruments)",
+      },
+      {
+        heading: "Eligibility Criteria for IMF Registration",
+        content:
+          "● Legally registered firm or company\n● Appointed Principal Officer\n● Employed Financial Service Executives (FSEs) and Insurance Sales Persons (ISPs)\n● Minimum net worth: ₹5 lakhs (single branch), ₹10 lakhs (multiple branches)\n● Business name must include “Insurance Marketing Firm” or “IMF”",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents for IMF Registration in India",
+        content:
+          "● Certificate of Incorporation or Registration\n● Memorandum & Articles of Association (MOA & AOA) or LLP Agreement\n● Principal Officer’s qualification & identity proof\n● Credentials of FSE(s) and ISP(s)\n● Net worth certificate\n● Latest bank statement\n● Detailed three‑year business plan\n● Infrastructure & staffing details with photographs\n● Declaration by Principal Officer\n● Consent letters from partner insurers\n● Payment proof of registration fee",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Process to Register an Insurance Marketing Firm",
+        content:
+          "● Gather all required documents as per IRDAI guidelines\n● Submit the online application via the IRDAI portal and upload supporting documents\n● Make the prescribed registration fee payment and obtain acknowledgment number\n● IRDAI reviews and verifies the application; respond to any discrepancy notices\n● Upon successful verification, IRDAI issues the IMF registration certificate",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [
+      {
+        heading: "License Validity",
+        description:
+          "The IMF registration remains valid for the period specified by IRDAI on the certificate and must be renewed upon expiry.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for IMF Registration?",
+        description: [
+          "DoStartup provides expert IRDAI consulting and end‑to‑end support for Insurance Marketing Firm licensing.",
+        ],
+        points: [
+          "Accurate document preparation",
+          "Real‑time application tracking",
+          "Complete regulatory coordination",
+          "Transparent communication and timely approval",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is an Insurance Marketing Firm (IMF)?",
+        answer:
+          "An IMF is an IRDAI‑licensed entity authorized to procure, market, and facilitate insurance and select financial products for multiple insurers.",
+      },
+      {
+        question: "Which authority regulates IMFs in India?",
+        answer:
+          "The Insurance Regulatory and Development Authority of India (IRDAI).",
+      },
+      {
+        question: "What documents are essential for IMF registration?",
+        answer:
+          "Certificate of Incorporation, MOA & AOA (or LLP Agreement), key personnel proofs, net worth certificate, business plan, and insurer consent letters.",
+      },
+      {
+        question: "How is an IMF different from an insurance agent?",
+        answer:
+          "An IMF can partner with multiple insurers and offer a broader range of services, unlike agents who typically represent a single insurer.",
+      },
+      {
+        question: "What are two basic eligibility conditions?",
+        answer:
+          "Having a registered business entity and appointing a qualified Principal Officer with required net worth.",
+      },
+      {
+        question: "What is the typical process for IMF registration?",
+        answer:
+          "Document collection, online application submission, document upload, fee payment, IRDAI review, and certificate issuance.",
+      },
+      {
+        question: "What is the validity period of an IMF license?",
+        answer:
+          "As specified by IRDAI on the issued certificate; renewable upon expiry.",
+      },
+    ],
+  },
+
+  "insurance-self-network-platform": {
+    title: "Insurance Self-Network Platform (ISNP) Registration",
+    description:
+      "Register your Insurance Self-Network Platform (ISNP) with IRDAI to operate a certified digital insurance e-commerce portal in India.",
+    overview: [
+      {
+        heading: "Comprehensive Guide to ISNP Registration in India",
+        content:
+          "The Insurance Self-Network Platform (ISNP) is a digital initiative by the Insurance Regulatory and Development Authority of India (IRDAI) to enable regulated online insurance distribution. It allows businesses to conduct insurance transactions via a licensed e-commerce portal, ensuring legal and structured digital operations.",
+      },
+      {
+        heading: "Key Objectives of ISNP",
+        content:
+          "The ISNP promotes greater reach and affordability of insurance products. It aims to:\n● Enhance insurance penetration through digital means\n● Minimize transactional costs\n● Improve efficiency in insurance services\n● Offer a cost-effective digital infrastructure for insurers and customers",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Services Offered by a Registered ISNP",
+        content:
+          "A registered ISNP can:\n● Issue digital insurance policies\n● Register or update nominations\n● Manage assignments and endorsements\n● Handle maturity, surrenders, and cancellations\n● Organize medical tests for health or life insurance\n● Grant policy loans and execute fund switches\n● Modify policy terms and conditions\n● Collect and transfer renewal premiums\n● Update customer and policy records\n● Extend or enhance policy coverage",
+      },
+      {
+        heading: "ISNP vs Web Aggregator – Key Differences",
+        content:
+          "Scalability: ISNPs can host multiple web aggregators, while aggregators operate independently.\nIntegration: ISNPs integrate offerings from insurers and web aggregators, offering broader services and infrastructure.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Insurance Marketing Firm (IMF) Setup",
+        content:
+          "● Certificate of Incorporation\n● MOA and AOA\n● LLP Agreement (if applicable)\n● Principal Officer qualification documents\n● Financial Service Executive and Insurance Sales Person credentials\n● Net Worth Certificate\n● Bank statement\n● Three-Year Business Plan\n● Infrastructure and staff details\n● Declaration by Principal Officer\n● Infrastructure photos\n● Consent letters from insurance providers",
+      },
+    ],
+    eligibility: [
+      {
+        heading: "Who Can Register as an ISNP?",
+        content:
+          "● Must be legally registered with MCA or ROFs\n● Appoint a qualified Principal Officer\n● Employ at least one Financial Service Executive and one Insurance Sales Person\n● Net worth requirement:\n  - ₹5 lakhs for single branch\n  - ₹10 lakhs for multiple branches\n● Entity name must include 'Insurance Marketing Firm' or 'IMF'",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process for IMF",
+        content:
+          "Step 1: Organize Documentation – Compile all required and authentic documents.\nStep 2: Online Form Submission – Visit IRDAI portal and complete the application form.\nStep 3: Upload Documents – Upload all necessary files as per IRDAI format.\nStep 4: Monitor and Resolve Errors – IRDAI may request clarifications.\nStep 5: Grant of Registration – On successful verification, IRDAI issues the IMF license.",
+      },
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup provides expert, end-to-end support for IMF and ISNP registrations.",
+        ],
+        points: [
+          "End-to-end documentation and submission",
+          "Compliance checks and IRDAI guidance",
+          "Real-time application tracking",
+          "Post-registration advisory services",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is an Insurance Marketing Firm (IMF)?",
+        answer:
+          "An IMF is an IRDAI-authorized intermediary providing marketing, procurement, and distribution services for insurance products.",
+      },
+      {
+        question: "Why is an IMF license necessary?",
+        answer:
+          "It is required to legally offer insurance services and operate under IRDAI regulations in India.",
+      },
+      {
+        question: "What documents are required for IMF registration in India?",
+        answer:
+          "Certificate of incorporation, MOA, AOA, staff credentials, net worth certificate, business plan, infrastructure details, and insurer consent letters.",
+      },
+      {
+        question: "How does a corporate agent differ from an IMF?",
+        answer:
+          "Corporate agents typically partner with limited insurers. IMFs can collaborate with multiple insurers and web aggregators, offering a wider service range.",
+      },
+      {
+        question: "What is the net worth requirement for IMF registration?",
+        answer:
+          "₹5 lakhs for single-branch IMF and ₹10 lakhs for multi-branch operations.",
+      },
+      {
+        question:
+          "What is the registration process for becoming an IMF in India?",
+        answer:
+          "Document collection, online submission, uploading documents, IRDAI verification, and final approval.",
+      },
+      {
+        question: "How long is the IMF license valid?",
+        answer:
+          "The validity is specified in the IRDAI certificate and requires timely renewal for continued operation.",
+      },
+    ],
+  },
 };
