@@ -18066,4 +18066,681 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
+
+  "trademark-objection-in-india": {
+    title: "Trademark Objection in India",
+    description:
+      "A trademark objection arises when the examiner or a third party believes a pending mark conflicts with the law or existing rights. The applicant must file a reasoned reply within 30 days to avoid abandonment.",
+    overview: [
+      {
+        heading: "Overview of Trademark Objection",
+        content:
+          "Objections appear in the examination report soon after filing. They may be procedural (errors in form, applicant details, class, or power of attorney) or substantive (descriptive, misleading, offensive, or deceptively similar to an earlier mark). Resolving objections promptly preserves the application, protects the brand, and maintains credibility.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Timely Reply",
+        content:
+          "● Prevents abandonment of the application\n● Secures statutory rights and strengthens brand value\n● Blocks rival claims\n● Clears the path to journal advertisement and registration",
+      },
+      {
+        heading: "Objection vs Opposition",
+        content:
+          "Objection is raised by the examiner during examination; opposition is filed by a third party after journal publication. Both require prompt, factual replies, but opposition involves government fees and longer pleadings.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Commonly Needed",
+        content:
+          "● Power of attorney (TM‑48)\n● Examination report\n● Proof of identity and address\n● Usage evidence (invoices, ads, website screenshots)\n● Any relevant government registrations (MSME, FSSAI, etc.)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Steps to Respond to a Trademark Objection",
+        content:
+          "● Review the examination report\n● Note the 30‑day deadline\n● Collect proof of use and distinctiveness\n● Draft a concise counter‑statement addressing each point\n● File the reply online and track the matter\n● Attend hearings if summoned",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fees",
+        description:
+          "No official fee is charged for filing the objection reply itself; professional drafting fees vary with case complexity.",
+      },
+    ],
+    registrationTimeline: [],
+    whyUs: [],
+    faq: [
+      {
+        question: "Can I withdraw my trademark application if it is objected?",
+        answer:
+          "Yes; submit Form TM‑M requesting withdrawal before the mark is advertised.",
+      },
+      {
+        question: "What is a trademark objection reply?",
+        answer:
+          "A formal written defence explaining why the mark satisfies the Act, supplying missing documents, and distinguishing it from cited references.",
+      },
+      {
+        question:
+          "What is the difference between a trademark objection and opposition?",
+        answer:
+          "Objection is raised by the examiner during examination; opposition is filed by a third party after publication.",
+      },
+      {
+        question: "What documents are required for appearing in a hearing?",
+        answer:
+          "Copy of the reply, evidence of use, TM‑48 authorisation, ID proof, and any exhibits you plan to rely on.",
+      },
+      {
+        question: "What is Section 9 of the Trademark Act, 1999?",
+        answer:
+          "It lists absolute grounds that bar registration, such as lack of distinctiveness or descriptiveness.",
+      },
+      {
+        question: "When should one submit the trademark objection reply?",
+        answer: "Within 30 days of receiving the examination report.",
+      },
+      {
+        question: "What happens if I fail to respond to a trademark objection?",
+        answer: "The application is marked abandoned and cannot proceed.",
+      },
+    ],
+  },
+
+  "trademark-assignment-in-india": {
+    title: "Trademark Assignment in India",
+    description:
+      "A trademark assignment transfers all or part of the rights, title and interest in a mark from the current proprietor (assignor) to a new owner (assignee), with or without goodwill.",
+    overview: [
+      {
+        heading: "Overview of Trademark Assignment",
+        content:
+          "A trademark assignment is a written instrument by which the current proprietor transfers all or part of the rights in a trademark to a new owner. Transfers may involve registered or unregistered marks, and may include goodwill (full commercial reputation) or exclude it (use only for new or unrelated products).",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Assigning a Trademark",
+        content:
+          "Assigning a mark lets an owner monetise years of brand building, provides the buyer with a ready-made identity, preserves the intellectual-property record, supplies evidence of ownership in disputes, and speeds expansion into allied markets.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Documents Required",
+        documents: [
+          "Existing registration certificate",
+          "Identity and address proofs of both parties",
+          "Notarised deed of assignment (execution date, place, witness signatures)",
+          "Registrar directions and publicity proofs",
+          "Power of attorney (if an agent is involved)",
+          "Statement of goodwill transfer (if applicable)",
+        ],
+      },
+      {
+        category: "Statutory Restrictions",
+        documents: [
+          "Cannot create overlapping exclusive rights in identical marks for the same goods across India",
+          "Cannot divide rights regionally in a way that confuses consumers",
+        ],
+      },
+      {
+        category: "Assignment of Registered vs Unregistered Marks",
+        documents: [
+          "Section 39 allows assignment of unregistered marks, with or without goodwill",
+          "Registered marks may be assigned wholly or partly, with or without goodwill, within statutory limits",
+        ],
+      },
+      {
+        category: "Essential Clauses in an Assignment Deed",
+        documents: [
+          "Identities of assignor and assignee",
+          "Precise description of the mark",
+          "Territorial scope of use",
+          "Consideration and effective date of transfer",
+          "Warranties of ownership",
+          "Dispute-resolution venue",
+          "Signatures before a notary",
+        ],
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Procedure",
+        content:
+          "1. Draft and sign the deed of assignment (Form TM-P)\n2. File the deed with the Trade Marks Registry within three months of execution (extensions possible)\n3. If goodwill is transferred, obtain the Registrar’s direction and advertise the assignment\n4. Send advertisement and proof back to the Registry\n5. Registrar enters the assignee’s name in the register and full ownership passes",
+      },
+    ],
+    faq: [
+      {
+        question: "What constitutes a valid trademark assignment agreement?",
+        answer:
+          "A notarised document that identifies assignor and assignee, details the mark, states consideration, specifies goodwill transfer, and is executed by authorised signatories.",
+      },
+      {
+        question: "Can an unregistered trademark be assigned in India?",
+        answer:
+          "Yes. Section 39 permits assignment of unregistered marks either with or without goodwill.",
+      },
+      {
+        question: "What varieties of trademark assignments exist?",
+        answer:
+          "Assignments may be complete or partial, and each may include or exclude goodwill.",
+      },
+      {
+        question: "May an individual assign a trademark?",
+        answer:
+          "Any legal owner—individual or entity—can assign a mark, provided the deed meets statutory requirements.",
+      },
+      {
+        question: "Why is a written assignment essential?",
+        answer:
+          "It creates a definitive legal record, protects both parties, and enables the assignee to enforce the mark immediately.",
+      },
+      {
+        question: "Must the deed be notarised?",
+        answer:
+          "Notarisation is not expressly required by statute but is standard practice and accepted by the Registry as proof of execution.",
+      },
+      {
+        question: "How can someone check if a mark is already assigned?",
+        answer:
+          "Search the Trade Marks Registry online database or request an official register extract.",
+      },
+      {
+        question:
+          "Is it possible to earn revenue from a trademark after assignment?",
+        answer:
+          "Only if the deed reserves certain rights; otherwise all benefits, including royalty streams, pass to the assignee.",
+      },
+    ],
+  },
+
+  "intellectual-property-dispute": {
+    title: "Intellectual Property Dispute Services by DOstartup",
+    description:
+      "Are you facing conflicts over patents, copyrights, trademarks, or trade secrets? Get expert support from DOstartup’s IP Specialists. Our dedicated Intellectual Property Dispute services help you protect your rights and business integrity with ease.",
+    overview: [
+      {
+        heading: "An Overview of Intellectual Property Disputes",
+        content:
+          "Intellectual property disputes can be complex and damaging—legally and financially. At DOstartup, we help startups, creators, innovators, and enterprises resolve IP conflicts smoothly and effectively, ensuring rightful ownership and protection of their assets.",
+      },
+      {
+        heading: "What Is Intellectual Property?",
+        content:
+          "Intellectual Property (IP) refers to creations of the mind: inventions, literary and artistic works, designs, logos, names, and symbols used in commerce. Disputes arise when these rights are violated, often involving unauthorized use of copyrighted content, patented technologies, trademarked symbols, or confidential business information.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Choose DOstartup?",
+        content:
+          "10+ Years of Expertise in IPR & Legal Advisory\n400+ In-House Experts (CAs, CS, Legal Consultants)\n99% Timely Case Delivery\nPan-India Network Covering 10,000+ Pin Codes",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Types of Intellectual Property Rights",
+        documents: [
+          "Copyright: protection for original works of authorship (books, music, software, art)",
+          "Patent: exclusive rights for inventions, designs or processes in exchange for public disclosure",
+          "Trademark: distinctive signs, names or logos identifying goods or services",
+          "Industrial Designs: ornamental aspects of a product (shape, pattern, texture)",
+          "Geographical Indication (GI): identifies products with reputation tied to a region (e.g. Darjeeling tea)",
+          "Trade Secrets: confidential business information (formulas, methods) that confer competitive advantage",
+        ],
+      },
+      {
+        category: "Types of Intellectual Property Disputes",
+        documents: [
+          "Patent Infringement & Defences: unauthorized use of a patented invention and strategies to challenge validity",
+          "Trademark Infringement & Passing Off: unauthorized use of a registered mark causing consumer confusion",
+          "Copyright Infringement: unauthorized use of creative works requiring proof of originality and similarity",
+          "Design Rights Infringement: reproduction of protected designs without authorization",
+        ],
+      },
+      {
+        category: "Legal Framework for IP Disputes in India",
+        documents: [
+          "The Patents Act, 1970: grants inventors 20‑year exclusive rights",
+          "The Trademarks Act, 1999: regulates registration, protection, opposition and renewal",
+          "The Copyright Act, 1957: protects creative works with rights for lifetime plus 60 years",
+        ],
+      },
+      {
+        category: "Core IP Dispute Services",
+        documents: [
+          "Trademark Infringement Litigation",
+          "Copyright Infringement Resolution",
+          "Patent Dispute Strategy & Litigation",
+          "Legal Notices for IP Violations",
+          "Representation at Tribunals, Courts & Regulatory Bodies",
+          "Cease and Desist Notice Drafting",
+          "IP Risk Assessment & Due Diligence",
+          "Border Enforcement & Customs Recordation",
+          "Domain Name Disputes (e.g. Cybersquatting)",
+          "Trade Secret & Confidentiality Disputes",
+          "Opposition & Rectification Proceedings",
+          "Arbitration & Mediation of IP Disputes",
+          "Piracy & Counterfeit Goods Action",
+          "Online IP Infringement Monitoring",
+          "Contract & Licensing Dispute Handling",
+          "Geographical Indication (GI) Conflicts",
+          "IP Settlement Agreement Drafting",
+          "Full‑Scope IP Litigation & Dispute Handling",
+        ],
+      },
+    ],
+    eligibilityCriteria: [],
+    documentsRequired: [],
+    registrationProcedure: [
+      {
+        heading: "IP Dispute Litigation Process in India",
+        content:
+          "1. Pre‑Litigation Stage: initiate cease and desist notices, mediation, and negotiation to avoid court\n2. Filing an IP Lawsuit: file plaint with evidence, issuance of summons to infringer\n3. Court Procedures & Timelines: hearings, evidence submission, cross‑examination, final arguments (typically resolved within 12 months under the Commercial Courts Act, 2015)",
+      },
+      {
+        heading: "Post‑Litigation Steps",
+        content:
+          "1. Enforcement of Judgments: securing injunctions and damages; initiate contempt proceedings if needed\n2. Damages & Remedies: courts may award compensatory or punitive damages, injunctions, or destruction of infringing goods",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Role of DOstartup’s IP Dispute Lawyers",
+        description: [
+          "Legal guidance on registration, enforcement, and defense of IPR",
+          "Representation in complex litigation and appeal matters",
+          "Business‑friendly solutions aligned with startup goals",
+        ],
+        points: [
+          "Access to 24/7 IP Dispute Experts",
+          "In‑Depth Legal Research & Precedent Analysis",
+          "ADR & Settlement Support",
+          "Free Consultation with IP Experts",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Intellectual Property?",
+        answer:
+          "IP refers to creations of the human mind—innovations, literary works, music, visual art, and technology. These are legally protected to ensure ownership and innovation.",
+      },
+      {
+        question: "What are common types of IP disputes?",
+        answer:
+          "Patent, trademark, copyright, design rights, GI, and trade secret disputes are the most common.",
+      },
+      {
+        question: "Are IP rights territorial?",
+        answer:
+          "Yes. IP protection is generally territorial—valid only within the country or region of registration unless protected internationally.",
+      },
+      {
+        question: "Who manages IP rights in India?",
+        answer:
+          "The Office of the Controller General of Patents, Designs & Trademarks (CGPDTM) under the Ministry of Commerce handles IP administration.",
+      },
+      {
+        question: "What should I do if my IP is infringed?",
+        answer:
+          "Send a legal notice, gather proof, and seek legal advice immediately. DOstartup offers comprehensive support from notice drafting to litigation.",
+      },
+      {
+        question: "Can IP disputes be resolved via arbitration?",
+        answer:
+          "Yes. Many IP‑related commercial disputes, such as licensing or confidentiality breaches, can be resolved through alternative dispute resolution (ADR).",
+      },
+      {
+        question: "How do I register or enforce IP rights?",
+        answer:
+          "You can file for IP protection online or through DOstartup’s services. For enforcement, our litigation team ensures effective legal redress.",
+      },
+      {
+        question: "Can I sell or license my IP?",
+        answer:
+          "Yes. IP can be assigned, licensed, or sold, and often forms a key part of a business’s valuation.",
+      },
+    ],
+  },
+  "trademark-renewal": {
+    title: "Trademark Renewal",
+    description: "Renew your trademark and protect your brand identity with expert assistance.",
+    overview: [
+      {
+        heading: "Trademark Renewal Overview",
+        content: "In the vibrant landscape of India, trademarks have a lifespan of ten years. To retain protection, it is essential to initiate the renewal process at least six months before expiration. By submitting the renewal form (TMR) with a fee of ₹4,000, you can safeguard your brand’s identity and avoid legal complications or loss of rights.\nTimely renewal is not just a formality—it extends your legal protection for another decade. Failure to renew on time may result in loss of trademark and require a complicated restoration process. Timely action ensures your brand’s continued legal safety and integrity."
+      },
+      {
+        heading: "Protecting Trademark Rights",
+        content: "Renewing a trademark is a reaffirmation of the exclusive rights granted by its registration. Missing this crucial step could lead to loss of legal privileges and expose your brand to misuse. An active trademark is a stronghold—challengers must prove their claims against your registered right."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Trademark Renewal",
+        content: "● Legal Fortification: Empowers swift legal action against infringement.\n● Distinctive Identity: Preserves your brand’s uniqueness and prevents imitation.\n● Commercial Horizons: Enables monetization through licensing or royalty deals.\n● Extended Ownership Shield: Protects your brand from unauthorized use and strengthens goodwill.\n● Legal Peace of Mind: Reduces chances of disputes and legal challenges.\n● Brand Safety Net: Ensures continuous and uninterrupted protection.\n● Financial Rewards: Creates revenue opportunities via licensing or assignment."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents for Trademark Renewal",
+        content: "● Copy of the original trademark registration certificate.\n● Proof of active commercial use of the trademark.\n● Trademark search report confirming no similar trademarks.\n● Authorization letter (Power of Attorney), if applicable.\n● Identity and address proof of the applicant.\n● Original trademark registration application (Form TMA).\n● Documents addressing conflicting trademarks, if any."
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Trademark Renewal Procedure",
+        content: "Trademark renewal requires submission of Form TMR to the Trademark Registrar at least six months prior to expiry. If missed, renewal can still be filed within one to three months after expiry. The Registrar issues a renewal notice, but its absence doesn't negate the renewal requirement. Filing fees are ₹10,000 for offline and ₹9,000 for online (e-filing).\nA representative can file on your behalf. Upon approval, the renewal is published in the Trademark Journal. Regularly check the renewal status to avoid delays or issues."
+      },
+      {
+        heading: "Importance of the Trademark Journal",
+        content: "The Trademark Journal publishes trademarks approved by the examiner. This phase allows third parties to oppose registrations, fostering transparency and accountability in the trademark system."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Trademark Renewal Fees",
+        description: "The renewal application fees vary by mode of submission:",
+        feeTable: [
+          {
+            category: "Offline Filing",
+            amount: "₹10,000"
+          },
+          {
+            category: "Online Filing (e-filing)",
+            amount: "₹9,000"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Trademark Renewal Timeline",
+        description: "The renewal process should start six months before expiry. Restoration is allowed within one year after expiry.",
+        steps: [
+          {
+            title: "Initial Filing Window",
+            duration: "Up to 6 months before expiry",
+            description: "Ideal time to file Form TMR and avoid legal complications."
+          },
+          {
+            title: "Grace Period",
+            duration: "1 to 3 months after expiry",
+            description: "Late filing with additional conditions and risk of removal."
+          },
+          {
+            title: "Restoration Period",
+            duration: "Up to 12 months after expiry",
+            description: "Submit application under Section 25(4) to restore trademark rights."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Us?",
+        description: [
+          "We specialize in trademark renewal services that protect your brand."
+        ],
+        points: [
+          "Dedicated legal experts",
+          "Seamless document handling",
+          "Transparent pricing",
+          "99% renewal success rate"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is the validity of a registered trademark in India?",
+        answer: "A registered trademark is valid for 10 years and must be renewed to maintain legal rights."
+      },
+      {
+        question: "What happens if I forget to renew my trademark?",
+        answer: "You can restore it within 12 months after expiry by filing a restoration application and paying the prescribed fee."
+      },
+      {
+        question: "Is it mandatory to publish trademark renewals in the Trademark Journal?",
+        answer: "Yes, approved renewals are published, allowing public transparency and potential objections."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Risks of Trademark Nonrenewal",
+        documents: [
+          "Trademark may be removed from the register by the Registrar.",
+          "Registrar may publish public notices in the Trademark Journal.",
+          "Loss of exclusive legal rights and brand protection.",
+          "Negative impact on licensees or assignees of the trademark.",
+          "Reduction in brand value and goodwill.",
+          "Possibility of legal disputes or third-party claims."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  "trademark-class-finder": {
+    title: "Trademark Class Finder",
+    description: "Use the trademark class finder to determine the right classification for your brand’s products and services.",
+    overview: [
+      {
+        heading: "Unlocking the Power of Trademark Class Finder: A Strategic Advantage for Your Brand",
+        content: "Navigating the vibrant marketplace in India requires more than just a great product; it demands a robust brand identity. Enter the Trademark Class Finder—a pivotal tool designed to fortify and protect your brand’s unique essence, whether it’s a logo, name, or slogan. This innovative resource empowers businesses to seamlessly categorize their offerings within the framework of international trademark classifications."
+      },
+      {
+        heading: "Why a Trademark Class Finder Matters",
+        content: "The Trademark Class Finder acts as your brand’s personal guardian, ensuring that your intellectual property stands out amid competition. This user-friendly digital tool aligns your offerings with the correct categories in a global classification system consisting of 45 unique classes.\nFor tailored guidance, connect with the team at Dostartup—your partners in navigating the trademark landscape."
+      },
+      {
+        heading: "Delving into Trademark Classes",
+        content: "Trademark classes, based on the Nice Classification system curated by the World Intellectual Property Organization (WIPO) since 1957, are key to a successful trademark strategy. This system evolves to ensure businesses can accurately represent their products or services.\nChoosing the right trademark class using Form TM1 is crucial—not just procedural but a strategic step toward effective registration."
+      }
+    ],
+    benefits: [
+      {
+        heading: "The Advantages of Conducting a Trademark Class Analysis",
+        content: "● Minimize Conflicts: Reduces trademark infringement risks.\n● Fortify Your Brand: Provides strong coverage in important markets.\n● Expand with Confidence: Enables smoother market diversification.\n● Simplify Registration: Makes the process easier and more efficient.\n● Enhance Legal Security: Offers legal protection in appropriate categories."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documentation for Trademark Class Identification",
+        content: "● Business Registration Information\n● Product or Service Descriptions\n● Marketing Materials\n● Directors’ Identification\n● Trademark Registration Copies\n● Power of Attorney (if applicable)"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Essential Steps in Selecting Trademark Classes",
+        content: "1. Pinpoint Your Offerings: Define your product/service core.\n2. Dive into the NICE Classification: Use NICE to locate the ideal class.\n3. Conduct a Thorough Exploration: Perform trademark searches to avoid conflicts.\n4. Seek Expert Guidance: Consult a professional for reliable classification."
+      },
+      {
+        heading: "Mastering Your Trademark Management",
+        content: "● Timely Renewals: File Form TMR within six months before expiry.\n● Active Use: Regularly use your trademark to avoid cancellation.\n● Vigilant Journal Monitoring: Track the journal for third-party threats.\n● Swift Action Against Infringement: Act promptly on violations."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Detailed List of Trademark Classes for Goods",
+        documents: [
+          "Class 1 – Chemicals, fertilizers, photographic supplies",
+          "Class 2 – Paints, varnishes, lacquers, dyes",
+          "Class 3 – Cleaning preparations, cosmetics, soaps",
+          "Class 4 – Industrial oils, greases, lubricants, fuels",
+          "Class 5 – Pharmaceuticals, veterinary products, disinfectants",
+          "Class 6 – Metals, metal building materials",
+          "Class 7 – Machines, machine tools, motors",
+          "Class 8 – Hand tools, cutlery, razors",
+          "Class 9 – Scientific apparatus, electrical equipment",
+          "Class 10 – Medical apparatus, surgical instruments",
+          "Class 11 – Heating, lighting, cooling, cooking apparatus",
+          "Class 12 – Vehicles, apparatus for locomotion by land, air, water",
+          "Class 13 – Firearms, ammunition, explosives",
+          "Class 14 – Jewelry, precious metals, watches",
+          "Class 15 – Musical instruments",
+          "Class 16 – Paper products, printed materials, stationery",
+          "Class 17 – Rubber, plastics, insulation materials",
+          "Class 18 – Leather goods, luggage, bags",
+          "Class 19 – Nonmetallic building materials",
+          "Class 20 – Furniture, picture frames",
+          "Class 21 – Household utensils, glassware, porcelain",
+          "Class 22 – Ropes, nets, tents, sacks, textile fibers",
+          "Class 23 – Yarns, threads for textile use",
+          "Class 24 – Fabrics, textile goods",
+          "Class 25 – Clothing, footwear, headgear",
+          "Class 26 – Lace, embroidery, ribbons, buttons",
+          "Class 27 – Floor coverings, wall hangings",
+          "Class 28 – Games, toys, sports equipment",
+          "Class 29 – Meat, fish, poultry, preserved foods",
+          "Class 30 – Coffee, tea, spices, bakery products",
+          "Class 31 – Agricultural products, fresh fruits, vegetables",
+          "Class 32 – Nonalcoholic beverages, beers",
+          "Class 33 – Alcoholic beverages (except beers)",
+          "Class 34 – Tobacco, smokers’ articles, matches",
+          "Class 35 – Advertising, business management, administration",
+          "Class 36 – Insurance, financial services, real estate",
+          "Class 37 – Construction, repair, installation services",
+          "Class 38 – Telecommunications",
+          "Class 39 – Transportation, logistics, storage services",
+          "Class 40 – Treatment of materials, custom manufacturing",
+          "Class 41 – Education, training, entertainment services",
+          "Class 42 – Scientific and technological services, IT, research",
+          "Class 43 – Hospitality, accommodation, catering services",
+          "Class 44 – Medical, veterinary, beauty, agricultural services",
+          "Class 45 – Legal, security, personal, social services"
+        ]
+      }
+    ],
+    registrationTimeline: [],
+    feesStructure: [],
+    whyUs: [
+      {
+        heading: "Why Choose Dostartup?",
+        description: [
+          "When it comes to protecting your brand, Dostartup delivers an unmatched suite of trademark solutions tailored to your unique needs."
+        ],
+        points: [
+          "Robust brand identity protection",
+          "Streamlined trademark services",
+          "Expertise at your fingertips",
+          "Transparent and affordable pricing",
+          "24/7 dedicated client support",
+          "Innovative, user-friendly tools",
+          "Proactive alerts and reports"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is a trademark class?",
+        answer: "A trademark class is a category under which your goods or services are classified for registration purposes."
+      },
+      {
+        question: "How many trademark classes exist under the Nice Classification?",
+        answer: "There are 45 classes in total—34 for goods and 11 for services."
+      },
+      {
+        question: "Why is selecting the correct trademark class important?",
+        answer: "Correct classification ensures appropriate legal protection and avoids conflicts with existing marks."
+      },
+      {
+        question: "Can I register a trademark under multiple classes?",
+        answer: "Yes, trademarks can be registered under multiple classes based on your range of goods or services."
+      },
+      {
+        question: "Do I need expert help to choose a trademark class?",
+        answer: "Expert assistance is recommended to avoid misclassification and strengthen your trademark strategy."
+      }
+    ]
+  },
+
+
+
+  "trademark-hearing": {
+    title: "Trademark Hearing",
+    description: "Prepare for your trademark hearing with expert guidance and legal support to protect your brand identity.",
+    overview: [
+      {
+        heading: "Trademark Hearing: Your-Go-To-Guide",
+        content: "Navigating the world of trademarks can feel a bit like venturing into uncharted territory, but fear not! A trademark hearing is here to illuminate your path. Imagine standing before a Trademark Registrar—whether in person or via video call—ready to tackle the objections that have popped up during your trademark registration journey. This isn’t just any meeting; it’s a chance to defend your brand and prove its uniqueness."
+      },
+      {
+        heading: "Why the Hearing Happens",
+        content: "Trademark hearings typically spring into action when initial responses don’t quite hit the mark for the Registrar. This is where you come in—armed with evidence, ready to showcase why your trademark deserves protection.\nBoth you and the Registrar have the option to reschedule the hearing. If life gets in the way, simply submit Form TMM to postpone. Just keep in mind: if you miss the hearing repeatedly without a solid reason, your trademark application could face rejection."
+      }
+    ],
+    benefits: [
+      {
+        heading: "The Upsides of Participating",
+        content: "● Shield Against Financial Losses: Protect your hard-earned brand from potential disputes with similar trademarks.\n● Boost Your Understanding: Learn the ins and outs of trademark law, making you a more informed applicant.\n● Legal Clarity: Avoid the pitfalls of adopting trademarks that could lead to legal headaches down the road.\n● Verify Authenticity: Ensure that your trademark indeed stands out as original and credible."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Get Your Ducks in a Row",
+        content: "● Power of Attorney: Needed if you’re working with a trademark attorney.\n● Authorization Letter: This gives someone else the green light to handle the formalities for you.\n● Affidavit of Trademark Use: Showcase how you've been consistently using your trademark (e.g., business registration documents, marketing materials, and invoices).\n● Trademark Authenticity Statement: Verifies the credibility of your trademark.\n● Proof of Business Operations: Demonstrates that you are actively trading and using your trademark.\n● Notice and Hearing Report: The formal notice for your hearing.\n● Trademark Examination Report: Insight into the review of your application."
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "The Trademark Hearing Process: Step by Step",
+        content: "● Notice Receipt: You’ll receive a show cause notice signed by the Registrar.\n● Hearing Attendance: Appear on the appointed day—either in person or via video link—with your authorized representative if needed.\n● Documentation: Present your prepared documents and evidence.\n● Submission of Evidence: Submit supporting documents to the trademark office.\n● Registrar's Decision: The Registrar reviews all submissions and makes a final decision on your application."
+      }
+    ],
+    feesStructure: [],
+    registrationTimeline: [],
+    whyUs: [
+      {
+        heading: "Why Partner Up with Dostartup?",
+        description: [
+          "Trademark hearings may appear simple, but one mistake can jeopardize your brand’s legal standing."
+        ],
+        points: [
+          "Specialized legal experts for trademark objections and hearings",
+          "Proven success in resolving trademark disputes",
+          "Personalized guidance at every step",
+          "Complete documentation and filing support",
+          "Affordable legal solutions tailored to your business",
+          "Fast turnaround and proactive communication"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is a trademark hearing?",
+        answer: "A trademark hearing is a legal proceeding where you present your case to a Trademark Registrar in response to objections raised during the trademark examination process."
+      },
+      {
+        question: "When is a trademark hearing required?",
+        answer: "A hearing is scheduled when the Registrar is not satisfied with the written response to the examination report."
+      },
+      {
+        question: "Can a trademark hearing be rescheduled?",
+        answer: "Yes, you can submit Form TMM to request a postponement of your hearing date."
+      },
+      {
+        question: "What happens if I miss the trademark hearing?",
+        answer: "Repeated absences without valid reason may lead to rejection of your trademark application."
+      },
+      {
+        question: "Do I need a lawyer for a trademark hearing?",
+        answer: "It is strongly recommended to have a trademark attorney or authorized representative to present your case effectively."
+      }
+    ],
+    Listicles: []
+  }
+  
+  
+  
 };
