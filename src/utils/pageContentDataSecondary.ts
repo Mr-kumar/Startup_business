@@ -10540,4 +10540,414 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
+
+
+
+  "epr-registration": {
+    overview: {
+      heading: "EPR Registration in India – A Comprehensive Overview",
+      paragraphs: [
+        "Are you a manufacturer, importer, or brand owner dealing with electrical and electronic equipment (EEE), batteries, plastic packaging, or tires? If yes, then EPR registration with dostartup experts is essential to ensure regulatory compliance.",
+        "Extended Producer Responsibility (EPR) registration involves obtaining official approval from either the Central Pollution Control Board (CPCB) or the State Pollution Control Board (SPCB). This process helps implement EPR responsibilities under the Plastic Waste Management Rules, 2016, E‑Waste (Management) Rules, 2016, or the Environment (Protection) Act, 1986.",
+        "To specifically regulate plastic packaging, CPCB issues EPR registration certificates. All Producers, Importers, and Brand Owners (PIBOs) are required to register on the CPCB EPR Portal to fulfill their responsibilities under the plastic waste management framework.",
+        "This combined effort of both central and state authorities supports a robust system for environmental protection, with CPCB leading in plastic waste oversight. The integration of processes ensures a well‑rounded waste management strategy across the country."
+      ]
+    },
+    features: [
+      {
+        icon: "💡",
+        title: "Electrical & Electronic Equipment (EEE)",
+        description: "Covered under the E‑Waste (Management) Rules, 2016; includes computers, TVs, refrigerators, etc."
+      },
+      {
+        icon: "🛍️",
+        title: "Plastic Packaging Products",
+        description: "Regulated by the Plastic Waste Management Rules, 2016; includes single‑use and multilayer packaging."
+      },
+      {
+        icon: "🔋",
+        title: "Batteries & Accumulators",
+        description: "Managed under the Batteries (Management and Handling) Rules, 2001; covers lead‑acid, lithium, and other chemistries."
+      },
+      {
+        icon: "📦",
+        title: "Other Packaging Materials",
+        description: "Governed by applicable environmental rules for paper, glass, metal and composite packaging."
+      }
+    ],
+    benefits: [
+      {
+        title: "Efficient Waste Management",
+        description: "Ensures proper processing, recycling and disposal of plastic and electronic waste."
+      },
+      {
+        title: "Cost Optimization",
+        description: "Reduces long‑term waste processing costs through better product design and partnerships."
+      },
+      {
+        title: "Positive Brand Image",
+        description: "Boosts organizational goodwill as eco‑conscious customers prefer sustainable brands."
+      },
+      {
+        title: "Regulatory Compliance",
+        description: "Demonstrates legal adherence and avoids penalties under CPCB/SPCB norms."
+      },
+      {
+        title: "Sustainable Development",
+        description: "Conserves natural resources and promotes cleaner production practices."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Signed Application Form",
+          desc: "Duly filled and signed EPR application on the CPCB/SPCB portal."
+        },
+        {
+          title: "Detailed EPR Plan",
+          desc: "Description of collection, recycling and disposal mechanisms."
+        },
+        {
+          title: "Business Authorization",
+          desc: "Certificate of Incorporation, PAN, IEC and address proof."
+        },
+        {
+          title: "MoUs & Agreements",
+          desc: "Partnerships with recyclers, waste collectors and transporters."
+        },
+        {
+          title: "Awareness Programs",
+          desc: "Details and budget for consumer awareness and outreach."
+        },
+        {
+          title: "Compliance Reports",
+          desc: "Estimates of waste generation and evidence of past recycling performance."
+        }
+      ],
+      violations: [],
+      consequences: []
+    },
+    eligibility: [
+      {
+        heading: "Who Must Register",
+        items: [
+          "Producers, Importers and Brand Owners (PIBOs) operating in more than 2 states/UTs must apply via CPCB.",
+          "PIBOs operating in 1–2 states/UTs must apply via the respective SPCB/PCC portals."
+        ]
+      },
+      {
+        heading: "Importer-Specific Criteria",
+        items: [
+          "Products sold under your brand or original owner's name in India.",
+          "Sales made directly or through third‑party distributors."
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Portal Account Setup",
+        desc: "Registration and login credentials on the CPCB EPR portal."
+      },
+      {
+        title: "Document Preparation",
+        desc: "Compilation and digitization of all required files for upload."
+      },
+      {
+        title: "End-to-End Filing",
+        desc: "Online application, fee payment and liaison with authorities."
+      },
+      {
+        title: "Renewal & Compliance",
+        desc: "Reminders, updated submissions and performance reporting."
+      },
+      {
+        title: "Legal Advisory",
+        desc: "Expert guidance on EPR obligations under Plastic & E‑Waste Rules."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is EPR registration?",
+        answer: "A mandatory certification for Producers, Importers and Brand Owners to manage their plastic, e‑waste, battery and other waste under environmental rules."
+      },
+      {
+        question: "How long does EPR registration take?",
+        answer: "Typically 15–30 working days for issuance of the digital certificate."
+      },
+      {
+        question: "What is the validity of the certificate?",
+        answer: "Plastic packaging: 1 year; EEE: 5 years, subject to continued compliance."
+      },
+      {
+        question: "When should I renew?",
+        answer: "Apply for renewal at least 3 months before expiry, with updated documents and fees."
+      },
+      {
+        question: "Can I update my details post‑registration?",
+        answer: "Yes, registered users can modify application data anytime via the portal."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Incomplete Documentation",
+          shortText: "Missing MoUs or incomplete EPR plan.",
+          backText: "Leads to application rejection or delays."
+        },
+        {
+          title: "Wrong Category Selection",
+          shortText: "Misclassifying waste type.",
+          backText: "Causes non‑compliance with the correct rules."
+        },
+        {
+          title: "Late Renewal",
+          shortText: "Missing the 3‑month pre‑expiry window.",
+          backText: "Results in certificate lapse and penalties."
+        },
+        {
+          title: "Portal Errors",
+          shortText: "Incorrect form submissions online.",
+          backText: "Requires multiple corrections and follow‑ups."
+        },
+        {
+          title: "Incorrect Fee Payment",
+          shortText: "Underpaying or overpaying initial or annual fees.",
+          backText: "Leads to payment reconciliation issues."
+        },
+        {
+          title: "Unverified Partnerships",
+          shortText: "MOUs with non‑CPCB approved recyclers.",
+          backText: "Invalidates waste collection commitments."
+        }
+      ],
+      roleBenefits: [
+        "Shifts waste management to producers, reducing public burden.",
+        "Supports circular economy through recycling and reuse.",
+        "Enhances brand value by demonstrating environmental responsibility."
+      ],
+      differenceTable: {
+        columns: ["Feature", "EPR for E‑Waste", "EPR for Plastic Waste"],
+        rows: [
+          ["Scope", "Entire electronics lifecycle", "Packaging materials only"],
+          ["Authority", "CPCB/SPCB under E‑Waste Rules", "CPCB under PWM Rules"],
+          ["Validity", "5 years", "1 year"],
+          ["Review Body", "SPCB/PCC or CPCB", "CPCB only"],
+          ["Primary Goal", "Reduce hazardous e‑waste", "Minimize plastic pollution"]
+        ]
+      },
+      timelineFees: [
+        "Application Filing & Portal Setup: 1–2 days",
+        "Review & Approval: 15–30 working days",
+        "Certificate Issuance: digital certificate upon approval",
+        "Initial Fees: ₹5,000–₹50,000 depending on category and TPA",
+        "Annual Fee: 25% of initial registration fee"
+      ]
+    }
+  },
+
+
+
+
+
+
+  "plastic-waste-authorization": {
+    overview: {
+      heading: "Plastic Waste Authorization in India – An Overview by DoStartup",
+      paragraphs: [
+        "India is facing a growing challenge in managing plastic waste due to rapid increase in disposable plastics. The existing waste management systems often struggle to keep up.",
+        "Under the Plastic Waste Management Rules 2016, any entity involved in collecting, storing, transporting, processing or recycling plastic waste must obtain Plastic Waste Authorization from designated pollution control authorities.",
+        "Timely authorization ensures legal compliance, avoids supply chain disruptions, and supports environmental sustainability.",
+        "At DoStartup, we guide businesses through the entire authorization process for smooth compliance and fast approvals."
+      ]
+    },
+    features: [
+      {
+        icon: "✅",
+        title: "Regulated Framework",
+        description: "Ensures all plastic‑waste handlers operate under CPCB/SPCB oversight."
+      },
+      {
+        icon: "🌱",
+        title: "Environmental Protection",
+        description: "Reduces land and marine pollution through authorized disposal methods."
+      },
+      {
+        icon: "🤝",
+        title: "CSR & Grants",
+        description: "Demonstrates CSR commitment and unlocks government grants and incentives."
+      },
+      {
+        icon: "💼",
+        title: "Business Expansion",
+        description: "Taps new opportunities in recycling and waste‑management sectors."
+      }
+    ],
+    benefits: [
+      {
+        title: "Sustainable Operations",
+        description: "Adopt best practices for plastic‑waste handling and recycling."
+      },
+      {
+        title: "Legal Compliance",
+        description: "Avoid penalties under Plastic Waste Management Rules, 2016."
+      },
+      {
+        title: "Brand Reputation",
+        description: "Enhance public trust by demonstrating environmental responsibility."
+      },
+      {
+        title: "GHG Reduction",
+        description: "Minimize greenhouse gas emissions through proper waste disposal."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Consent/Approval",
+          desc: "Valid consent from CPCB/SPCB/UTPCC."
+        },
+        {
+          title: "Business Proof",
+          desc: "Certificate of Incorporation, MSME/Udyam certificate."
+        },
+        {
+          title: "Process Flowchart",
+          desc: "Manufacturing/waste flow chart with volumes."
+        },
+        {
+          title: "EPR Plan",
+          desc: "Extended Producer Responsibility action plan, if applicable."
+        },
+        {
+          title: "Testing Reports",
+          desc: "Waste characterization or ETP/emission test reports."
+        }
+      ],
+      violations: [],
+      consequences: []
+    },
+    eligibility: [
+      {
+        heading: "Who Must Apply",
+        items: [
+          "Entities collecting, storing, transporting, processing or recycling plastic waste.",
+          "Facilities with operational premises and required machinery."
+        ]
+      },
+      {
+        heading: "Key Criteria",
+        items: [
+          "Valid business registration and environmental management plan.",
+          "Annual reporting capability to SPCB/CPCB."
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Application Filing",
+        desc: "End‑to‑end online submission and fee payment support."
+      },
+      {
+        title: "Document Management",
+        desc: "Compilation, digitization and portal upload of all required documents."
+      },
+      {
+        title: "Liaison with Authorities",
+        desc: "Follow‑up with SPCB/CPCB for faster approvals."
+      },
+      {
+        title: "Renewals & Reporting",
+        desc: "Timely reminders, updated submissions and annual return support."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is Plastic Waste Authorization?",
+        answer: "A legal certificate for entities handling plastic waste under PWM Rules, 2016."
+      },
+      {
+        question: "Who issues the authorization?",
+        answer: "SPCB/UTPCC for 1–2 states; CPCB for multi‑state operations."
+      },
+      {
+        question: "How long is it valid?",
+        answer: "Initially 1 year; renewable for further three‑year periods."
+      },
+      {
+        question: "When to renew?",
+        answer: "Submit renewal at least 120 days before expiry."
+      },
+      {
+        question: "Penalties for non-compliance?",
+        answer: "Cancellation, suspension or debarment under PWM Rules, 2016."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "False Information",
+          shortText: "Submitting misleading data",
+          backText: "Leads to authorization cancellation"
+        },
+        {
+          title: "Late Renewal",
+          shortText: "Missing the 120‑day window",
+          backText: "Results in lapse and penalties"
+        },
+        {
+          title: "Incomplete Docs",
+          shortText: "Missing flowcharts or reports",
+          backText: "Causes application rejection"
+        },
+        {
+          title: "Wrong Authority",
+          shortText: "Applying to wrong board",
+          backText: "Delays approval"
+        },
+        {
+          title: "Non‑Compliance",
+          shortText: "Failing annual returns",
+          backText: "Triggers enforcement actions"
+        },
+        {
+          title: "Unauthorized Activities",
+          shortText: "Operations beyond scope",
+          backText: "Leads to legal action"
+        }
+      ],
+      roleBenefits: [
+        "Ensures environmental compliance for waste handlers",
+        "Supports circular economy through authorized recycling",
+        "Enhances CSR credentials and access to incentives"
+      ],
+      differenceTable: {
+        columns: ["Feature", "Plastic Waste Authorization", "Extended Producer Responsibility (EPR)"],
+        rows: [
+          ["Businesses Involved", "Recyclers, processors, waste managers", "Producers, importers, brand owners"],
+          ["Scope", "Authorization to handle waste", "Obligation to collect/recycle branded waste"],
+          ["Governing Rule", "PWM Rules 2016", "PWM Rules 2016 + E‑Waste Rules 2016"],
+          ["Authority", "SPCB/UTPCC/CPCB", "CPCB for multi‑state; SPCB for local"],
+          ["Primary Objective", "Regulate waste handling operations", "Ensure producer accountability"]
+        ]
+      },
+      timelineFees: [
+        "Account Setup & Application: 1–2 days",
+        "Review & Document Scrutiny: 7–15 working days",
+        "Approval & Certificate Issuance: within 30 days",
+        "Initial Fees: ₹5,000–₹50,000 depending on capacity",
+        "Renewal Fees: Same as initial; apply 120 days prior"
+      ]
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
 };

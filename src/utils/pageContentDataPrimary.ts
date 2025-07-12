@@ -18411,38 +18411,45 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
   },
   "trademark-renewal": {
     title: "Trademark Renewal",
-    description: "Renew your trademark and protect your brand identity with expert assistance.",
+    description:
+      "Renew your trademark and protect your brand identity with expert assistance.",
     overview: [
       {
         heading: "Trademark Renewal Overview",
-        content: "In the vibrant landscape of India, trademarks have a lifespan of ten years. To retain protection, it is essential to initiate the renewal process at least six months before expiration. By submitting the renewal form (TMR) with a fee of ₹4,000, you can safeguard your brand’s identity and avoid legal complications or loss of rights.\nTimely renewal is not just a formality—it extends your legal protection for another decade. Failure to renew on time may result in loss of trademark and require a complicated restoration process. Timely action ensures your brand’s continued legal safety and integrity."
+        content:
+          "In the vibrant landscape of India, trademarks have a lifespan of ten years. To retain protection, it is essential to initiate the renewal process at least six months before expiration. By submitting the renewal form (TMR) with a fee of ₹4,000, you can safeguard your brand’s identity and avoid legal complications or loss of rights.\nTimely renewal is not just a formality—it extends your legal protection for another decade. Failure to renew on time may result in loss of trademark and require a complicated restoration process. Timely action ensures your brand’s continued legal safety and integrity.",
       },
       {
         heading: "Protecting Trademark Rights",
-        content: "Renewing a trademark is a reaffirmation of the exclusive rights granted by its registration. Missing this crucial step could lead to loss of legal privileges and expose your brand to misuse. An active trademark is a stronghold—challengers must prove their claims against your registered right."
-      }
+        content:
+          "Renewing a trademark is a reaffirmation of the exclusive rights granted by its registration. Missing this crucial step could lead to loss of legal privileges and expose your brand to misuse. An active trademark is a stronghold—challengers must prove their claims against your registered right.",
+      },
     ],
     benefits: [
       {
         heading: "Advantages of Trademark Renewal",
-        content: "● Legal Fortification: Empowers swift legal action against infringement.\n● Distinctive Identity: Preserves your brand’s uniqueness and prevents imitation.\n● Commercial Horizons: Enables monetization through licensing or royalty deals.\n● Extended Ownership Shield: Protects your brand from unauthorized use and strengthens goodwill.\n● Legal Peace of Mind: Reduces chances of disputes and legal challenges.\n● Brand Safety Net: Ensures continuous and uninterrupted protection.\n● Financial Rewards: Creates revenue opportunities via licensing or assignment."
-      }
+        content:
+          "● Legal Fortification: Empowers swift legal action against infringement.\n● Distinctive Identity: Preserves your brand’s uniqueness and prevents imitation.\n● Commercial Horizons: Enables monetization through licensing or royalty deals.\n● Extended Ownership Shield: Protects your brand from unauthorized use and strengthens goodwill.\n● Legal Peace of Mind: Reduces chances of disputes and legal challenges.\n● Brand Safety Net: Ensures continuous and uninterrupted protection.\n● Financial Rewards: Creates revenue opportunities via licensing or assignment.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Required Documents for Trademark Renewal",
-        content: "● Copy of the original trademark registration certificate.\n● Proof of active commercial use of the trademark.\n● Trademark search report confirming no similar trademarks.\n● Authorization letter (Power of Attorney), if applicable.\n● Identity and address proof of the applicant.\n● Original trademark registration application (Form TMA).\n● Documents addressing conflicting trademarks, if any."
-      }
+        content:
+          "● Copy of the original trademark registration certificate.\n● Proof of active commercial use of the trademark.\n● Trademark search report confirming no similar trademarks.\n● Authorization letter (Power of Attorney), if applicable.\n● Identity and address proof of the applicant.\n● Original trademark registration application (Form TMA).\n● Documents addressing conflicting trademarks, if any.",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Trademark Renewal Procedure",
-        content: "Trademark renewal requires submission of Form TMR to the Trademark Registrar at least six months prior to expiry. If missed, renewal can still be filed within one to three months after expiry. The Registrar issues a renewal notice, but its absence doesn't negate the renewal requirement. Filing fees are ₹10,000 for offline and ₹9,000 for online (e-filing).\nA representative can file on your behalf. Upon approval, the renewal is published in the Trademark Journal. Regularly check the renewal status to avoid delays or issues."
+        content:
+          "Trademark renewal requires submission of Form TMR to the Trademark Registrar at least six months prior to expiry. If missed, renewal can still be filed within one to three months after expiry. The Registrar issues a renewal notice, but its absence doesn't negate the renewal requirement. Filing fees are ₹10,000 for offline and ₹9,000 for online (e-filing).\nA representative can file on your behalf. Upon approval, the renewal is published in the Trademark Journal. Regularly check the renewal status to avoid delays or issues.",
       },
       {
         heading: "Importance of the Trademark Journal",
-        content: "The Trademark Journal publishes trademarks approved by the examiner. This phase allows third parties to oppose registrations, fostering transparency and accountability in the trademark system."
-      }
+        content:
+          "The Trademark Journal publishes trademarks approved by the examiner. This phase allows third parties to oppose registrations, fostering transparency and accountability in the trademark system.",
+      },
     ],
     feesStructure: [
       {
@@ -18451,65 +18458,73 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
         feeTable: [
           {
             category: "Offline Filing",
-            amount: "₹10,000"
+            amount: "₹10,000",
           },
           {
             category: "Online Filing (e-filing)",
-            amount: "₹9,000"
-          }
-        ]
-      }
+            amount: "₹9,000",
+          },
+        ],
+      },
     ],
     registrationTimeline: [
       {
         heading: "Trademark Renewal Timeline",
-        description: "The renewal process should start six months before expiry. Restoration is allowed within one year after expiry.",
+        description:
+          "The renewal process should start six months before expiry. Restoration is allowed within one year after expiry.",
         steps: [
           {
             title: "Initial Filing Window",
             duration: "Up to 6 months before expiry",
-            description: "Ideal time to file Form TMR and avoid legal complications."
+            description:
+              "Ideal time to file Form TMR and avoid legal complications.",
           },
           {
             title: "Grace Period",
             duration: "1 to 3 months after expiry",
-            description: "Late filing with additional conditions and risk of removal."
+            description:
+              "Late filing with additional conditions and risk of removal.",
           },
           {
             title: "Restoration Period",
             duration: "Up to 12 months after expiry",
-            description: "Submit application under Section 25(4) to restore trademark rights."
-          }
-        ]
-      }
+            description:
+              "Submit application under Section 25(4) to restore trademark rights.",
+          },
+        ],
+      },
     ],
     whyUs: [
       {
         heading: "Why Choose Us?",
         description: [
-          "We specialize in trademark renewal services that protect your brand."
+          "We specialize in trademark renewal services that protect your brand.",
         ],
         points: [
           "Dedicated legal experts",
           "Seamless document handling",
           "Transparent pricing",
-          "99% renewal success rate"
-        ]
-      }
+          "99% renewal success rate",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is the validity of a registered trademark in India?",
-        answer: "A registered trademark is valid for 10 years and must be renewed to maintain legal rights."
+        answer:
+          "A registered trademark is valid for 10 years and must be renewed to maintain legal rights.",
       },
       {
         question: "What happens if I forget to renew my trademark?",
-        answer: "You can restore it within 12 months after expiry by filing a restoration application and paying the prescribed fee."
+        answer:
+          "You can restore it within 12 months after expiry by filing a restoration application and paying the prescribed fee.",
       },
       {
-        question: "Is it mandatory to publish trademark renewals in the Trademark Journal?",
-        answer: "Yes, approved renewals are published, allowing public transparency and potential objections."
-      }
+        question:
+          "Is it mandatory to publish trademark renewals in the Trademark Journal?",
+        answer:
+          "Yes, approved renewals are published, allowing public transparency and potential objections.",
+      },
     ],
     Listicles: [
       {
@@ -18520,55 +18535,59 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Loss of exclusive legal rights and brand protection.",
           "Negative impact on licensees or assignees of the trademark.",
           "Reduction in brand value and goodwill.",
-          "Possibility of legal disputes or third-party claims."
-        ]
-      }
-    ]
+          "Possibility of legal disputes or third-party claims.",
+        ],
+      },
+    ],
   },
-
-
-
-
-
 
   "trademark-class-finder": {
     title: "Trademark Class Finder",
-    description: "Use the trademark class finder to determine the right classification for your brand’s products and services.",
+    description:
+      "Use the trademark class finder to determine the right classification for your brand’s products and services.",
     overview: [
       {
-        heading: "Unlocking the Power of Trademark Class Finder: A Strategic Advantage for Your Brand",
-        content: "Navigating the vibrant marketplace in India requires more than just a great product; it demands a robust brand identity. Enter the Trademark Class Finder—a pivotal tool designed to fortify and protect your brand’s unique essence, whether it’s a logo, name, or slogan. This innovative resource empowers businesses to seamlessly categorize their offerings within the framework of international trademark classifications."
+        heading:
+          "Unlocking the Power of Trademark Class Finder: A Strategic Advantage for Your Brand",
+        content:
+          "Navigating the vibrant marketplace in India requires more than just a great product; it demands a robust brand identity. Enter the Trademark Class Finder—a pivotal tool designed to fortify and protect your brand’s unique essence, whether it’s a logo, name, or slogan. This innovative resource empowers businesses to seamlessly categorize their offerings within the framework of international trademark classifications.",
       },
       {
         heading: "Why a Trademark Class Finder Matters",
-        content: "The Trademark Class Finder acts as your brand’s personal guardian, ensuring that your intellectual property stands out amid competition. This user-friendly digital tool aligns your offerings with the correct categories in a global classification system consisting of 45 unique classes.\nFor tailored guidance, connect with the team at Dostartup—your partners in navigating the trademark landscape."
+        content:
+          "The Trademark Class Finder acts as your brand’s personal guardian, ensuring that your intellectual property stands out amid competition. This user-friendly digital tool aligns your offerings with the correct categories in a global classification system consisting of 45 unique classes.\nFor tailored guidance, connect with the team at Dostartup—your partners in navigating the trademark landscape.",
       },
       {
         heading: "Delving into Trademark Classes",
-        content: "Trademark classes, based on the Nice Classification system curated by the World Intellectual Property Organization (WIPO) since 1957, are key to a successful trademark strategy. This system evolves to ensure businesses can accurately represent their products or services.\nChoosing the right trademark class using Form TM1 is crucial—not just procedural but a strategic step toward effective registration."
-      }
+        content:
+          "Trademark classes, based on the Nice Classification system curated by the World Intellectual Property Organization (WIPO) since 1957, are key to a successful trademark strategy. This system evolves to ensure businesses can accurately represent their products or services.\nChoosing the right trademark class using Form TM1 is crucial—not just procedural but a strategic step toward effective registration.",
+      },
     ],
     benefits: [
       {
         heading: "The Advantages of Conducting a Trademark Class Analysis",
-        content: "● Minimize Conflicts: Reduces trademark infringement risks.\n● Fortify Your Brand: Provides strong coverage in important markets.\n● Expand with Confidence: Enables smoother market diversification.\n● Simplify Registration: Makes the process easier and more efficient.\n● Enhance Legal Security: Offers legal protection in appropriate categories."
-      }
+        content:
+          "● Minimize Conflicts: Reduces trademark infringement risks.\n● Fortify Your Brand: Provides strong coverage in important markets.\n● Expand with Confidence: Enables smoother market diversification.\n● Simplify Registration: Makes the process easier and more efficient.\n● Enhance Legal Security: Offers legal protection in appropriate categories.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Essential Documentation for Trademark Class Identification",
-        content: "● Business Registration Information\n● Product or Service Descriptions\n● Marketing Materials\n● Directors’ Identification\n● Trademark Registration Copies\n● Power of Attorney (if applicable)"
-      }
+        content:
+          "● Business Registration Information\n● Product or Service Descriptions\n● Marketing Materials\n● Directors’ Identification\n● Trademark Registration Copies\n● Power of Attorney (if applicable)",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Essential Steps in Selecting Trademark Classes",
-        content: "1. Pinpoint Your Offerings: Define your product/service core.\n2. Dive into the NICE Classification: Use NICE to locate the ideal class.\n3. Conduct a Thorough Exploration: Perform trademark searches to avoid conflicts.\n4. Seek Expert Guidance: Consult a professional for reliable classification."
+        content:
+          "1. Pinpoint Your Offerings: Define your product/service core.\n2. Dive into the NICE Classification: Use NICE to locate the ideal class.\n3. Conduct a Thorough Exploration: Perform trademark searches to avoid conflicts.\n4. Seek Expert Guidance: Consult a professional for reliable classification.",
       },
       {
         heading: "Mastering Your Trademark Management",
-        content: "● Timely Renewals: File Form TMR within six months before expiry.\n● Active Use: Regularly use your trademark to avoid cancellation.\n● Vigilant Journal Monitoring: Track the journal for third-party threats.\n● Swift Action Against Infringement: Act promptly on violations."
-      }
+        content:
+          "● Timely Renewals: File Form TMR within six months before expiry.\n● Active Use: Regularly use your trademark to avoid cancellation.\n● Vigilant Journal Monitoring: Track the journal for third-party threats.\n● Swift Action Against Infringement: Act promptly on violations.",
+      },
     ],
     Listicles: [
       {
@@ -18618,9 +18637,9 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Class 42 – Scientific and technological services, IT, research",
           "Class 43 – Hospitality, accommodation, catering services",
           "Class 44 – Medical, veterinary, beauty, agricultural services",
-          "Class 45 – Legal, security, personal, social services"
-        ]
-      }
+          "Class 45 – Legal, security, personal, social services",
+        ],
+      },
     ],
     registrationTimeline: [],
     feesStructure: [],
@@ -18628,7 +18647,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       {
         heading: "Why Choose Dostartup?",
         description: [
-          "When it comes to protecting your brand, Dostartup delivers an unmatched suite of trademark solutions tailored to your unique needs."
+          "When it comes to protecting your brand, Dostartup delivers an unmatched suite of trademark solutions tailored to your unique needs.",
         ],
         points: [
           "Robust brand identity protection",
@@ -18637,66 +18656,76 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Transparent and affordable pricing",
           "24/7 dedicated client support",
           "Innovative, user-friendly tools",
-          "Proactive alerts and reports"
-        ]
-      }
+          "Proactive alerts and reports",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is a trademark class?",
-        answer: "A trademark class is a category under which your goods or services are classified for registration purposes."
+        answer:
+          "A trademark class is a category under which your goods or services are classified for registration purposes.",
       },
       {
-        question: "How many trademark classes exist under the Nice Classification?",
-        answer: "There are 45 classes in total—34 for goods and 11 for services."
+        question:
+          "How many trademark classes exist under the Nice Classification?",
+        answer:
+          "There are 45 classes in total—34 for goods and 11 for services.",
       },
       {
         question: "Why is selecting the correct trademark class important?",
-        answer: "Correct classification ensures appropriate legal protection and avoids conflicts with existing marks."
+        answer:
+          "Correct classification ensures appropriate legal protection and avoids conflicts with existing marks.",
       },
       {
         question: "Can I register a trademark under multiple classes?",
-        answer: "Yes, trademarks can be registered under multiple classes based on your range of goods or services."
+        answer:
+          "Yes, trademarks can be registered under multiple classes based on your range of goods or services.",
       },
       {
         question: "Do I need expert help to choose a trademark class?",
-        answer: "Expert assistance is recommended to avoid misclassification and strengthen your trademark strategy."
-      }
-    ]
+        answer:
+          "Expert assistance is recommended to avoid misclassification and strengthen your trademark strategy.",
+      },
+    ],
   },
-
-
 
   "trademark-hearing": {
     title: "Trademark Hearing",
-    description: "Prepare for your trademark hearing with expert guidance and legal support to protect your brand identity.",
+    description:
+      "Prepare for your trademark hearing with expert guidance and legal support to protect your brand identity.",
     overview: [
       {
         heading: "Trademark Hearing: Your-Go-To-Guide",
-        content: "Navigating the world of trademarks can feel a bit like venturing into uncharted territory, but fear not! A trademark hearing is here to illuminate your path. Imagine standing before a Trademark Registrar—whether in person or via video call—ready to tackle the objections that have popped up during your trademark registration journey. This isn’t just any meeting; it’s a chance to defend your brand and prove its uniqueness."
+        content:
+          "Navigating the world of trademarks can feel a bit like venturing into uncharted territory, but fear not! A trademark hearing is here to illuminate your path. Imagine standing before a Trademark Registrar—whether in person or via video call—ready to tackle the objections that have popped up during your trademark registration journey. This isn’t just any meeting; it’s a chance to defend your brand and prove its uniqueness.",
       },
       {
         heading: "Why the Hearing Happens",
-        content: "Trademark hearings typically spring into action when initial responses don’t quite hit the mark for the Registrar. This is where you come in—armed with evidence, ready to showcase why your trademark deserves protection.\nBoth you and the Registrar have the option to reschedule the hearing. If life gets in the way, simply submit Form TMM to postpone. Just keep in mind: if you miss the hearing repeatedly without a solid reason, your trademark application could face rejection."
-      }
+        content:
+          "Trademark hearings typically spring into action when initial responses don’t quite hit the mark for the Registrar. This is where you come in—armed with evidence, ready to showcase why your trademark deserves protection.\nBoth you and the Registrar have the option to reschedule the hearing. If life gets in the way, simply submit Form TMM to postpone. Just keep in mind: if you miss the hearing repeatedly without a solid reason, your trademark application could face rejection.",
+      },
     ],
     benefits: [
       {
         heading: "The Upsides of Participating",
-        content: "● Shield Against Financial Losses: Protect your hard-earned brand from potential disputes with similar trademarks.\n● Boost Your Understanding: Learn the ins and outs of trademark law, making you a more informed applicant.\n● Legal Clarity: Avoid the pitfalls of adopting trademarks that could lead to legal headaches down the road.\n● Verify Authenticity: Ensure that your trademark indeed stands out as original and credible."
-      }
+        content:
+          "● Shield Against Financial Losses: Protect your hard-earned brand from potential disputes with similar trademarks.\n● Boost Your Understanding: Learn the ins and outs of trademark law, making you a more informed applicant.\n● Legal Clarity: Avoid the pitfalls of adopting trademarks that could lead to legal headaches down the road.\n● Verify Authenticity: Ensure that your trademark indeed stands out as original and credible.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Get Your Ducks in a Row",
-        content: "● Power of Attorney: Needed if you’re working with a trademark attorney.\n● Authorization Letter: This gives someone else the green light to handle the formalities for you.\n● Affidavit of Trademark Use: Showcase how you've been consistently using your trademark (e.g., business registration documents, marketing materials, and invoices).\n● Trademark Authenticity Statement: Verifies the credibility of your trademark.\n● Proof of Business Operations: Demonstrates that you are actively trading and using your trademark.\n● Notice and Hearing Report: The formal notice for your hearing.\n● Trademark Examination Report: Insight into the review of your application."
-      }
+        content:
+          "● Power of Attorney: Needed if you’re working with a trademark attorney.\n● Authorization Letter: This gives someone else the green light to handle the formalities for you.\n● Affidavit of Trademark Use: Showcase how you've been consistently using your trademark (e.g., business registration documents, marketing materials, and invoices).\n● Trademark Authenticity Statement: Verifies the credibility of your trademark.\n● Proof of Business Operations: Demonstrates that you are actively trading and using your trademark.\n● Notice and Hearing Report: The formal notice for your hearing.\n● Trademark Examination Report: Insight into the review of your application.",
+      },
     ],
     registrationProcedure: [
       {
         heading: "The Trademark Hearing Process: Step by Step",
-        content: "● Notice Receipt: You’ll receive a show cause notice signed by the Registrar.\n● Hearing Attendance: Appear on the appointed day—either in person or via video link—with your authorized representative if needed.\n● Documentation: Present your prepared documents and evidence.\n● Submission of Evidence: Submit supporting documents to the trademark office.\n● Registrar's Decision: The Registrar reviews all submissions and makes a final decision on your application."
-      }
+        content:
+          "● Notice Receipt: You’ll receive a show cause notice signed by the Registrar.\n● Hearing Attendance: Appear on the appointed day—either in person or via video link—with your authorized representative if needed.\n● Documentation: Present your prepared documents and evidence.\n● Submission of Evidence: Submit supporting documents to the trademark office.\n● Registrar's Decision: The Registrar reviews all submissions and makes a final decision on your application.",
+      },
     ],
     feesStructure: [],
     registrationTimeline: [],
@@ -18704,7 +18733,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       {
         heading: "Why Partner Up with Dostartup?",
         description: [
-          "Trademark hearings may appear simple, but one mistake can jeopardize your brand’s legal standing."
+          "Trademark hearings may appear simple, but one mistake can jeopardize your brand’s legal standing.",
         ],
         points: [
           "Specialized legal experts for trademark objections and hearings",
@@ -18712,35 +18741,2566 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Personalized guidance at every step",
           "Complete documentation and filing support",
           "Affordable legal solutions tailored to your business",
-          "Fast turnaround and proactive communication"
+          "Fast turnaround and proactive communication",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a trademark hearing?",
+        answer:
+          "A trademark hearing is a legal proceeding where you present your case to a Trademark Registrar in response to objections raised during the trademark examination process.",
+      },
+      {
+        question: "When is a trademark hearing required?",
+        answer:
+          "A hearing is scheduled when the Registrar is not satisfied with the written response to the examination report.",
+      },
+      {
+        question: "Can a trademark hearing be rescheduled?",
+        answer:
+          "Yes, you can submit Form TMM to request a postponement of your hearing date.",
+      },
+      {
+        question: "What happens if I miss the trademark hearing?",
+        answer:
+          "Repeated absences without valid reason may lead to rejection of your trademark application.",
+      },
+      {
+        question: "Do I need a lawyer for a trademark hearing?",
+        answer:
+          "It is strongly recommended to have a trademark attorney or authorized representative to present your case effectively.",
+      },
+    ],
+    Listicles: [],
+  },
+
+  "trademark-licensing": {
+    title: "Trademark Licensing in India: A Dynamic Guide",
+    description:
+      "Explore how trademark licensing lets you monetize and expand your brand under the Trade Marks Act, 1999.",
+    overview: [
+      {
+        heading: "What Is Trademark Licensing?",
+        content:
+          "Trademark licensing opens the doors for a third party to use your registered mark—logo, name, slogan—in exchange for royalties or fees, while you retain ownership and control.",
+      },
+      {
+        heading: "Legal Framework",
+        content:
+          "In India, trademark licensing is governed implicitly by 'registered user' provisions under the Trade Marks Act, 1999. Section 48 empowers the owner of a registered trademark to authorize others to use it, subject to prescribed conditions.",
+      },
+      {
+        heading: "Decoding Trademarks",
+        content:
+          "Section 2(m) defines a 'mark' as any symbol, logo, name, word, numeral, shape, packaging or combination of colors. Section 2(zb) defines a 'trademark' as a mark that distinguishes one person’s goods or services from another’s.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "The Perks of Trademark Licensing",
+        content:
+          "● Financial Windfall: Earn royalties and fees.\n● Business Horizons: Leverage licensee networks for market expansion.\n● Brand Boost: Increase visibility in new territories.\n● Popularity Surge: Enhance consumer recognition.\n● Operational Relief: Share production and distribution workload.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "How to Secure a Trademark License",
+        content:
+          "● Certified copy of the licensing agreement.\n● Affidavit detailing relationship, product/service scope, territory and usage conditions.\n● Signed Power of Attorney, if applicable.\n● Any additional documents requested by the Registrar.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Filing the License Registration",
+        content:
+          "Submit Form TMU with all required documents to the Trademark Registrar. The Registrar verifies and, upon approval, registers the licensee.",
+      },
+      {
+        heading: "Publication in Trademark Journal",
+        content:
+          "Approved registrations are published in the Trademark Journal within two months, making the license public record.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "License Cancellation Fee",
+        description:
+          "Under Section 50, a trademark license can be cancelled after notice and hearing.",
+        feeTable: [
+          {
+            category: "Cancellation Fee",
+            amount: "₹4,500 per trademark",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "License Registration Timeline",
+        description: "From submission to journal publication:",
+        steps: [
+          {
+            title: "Form TMU Submission",
+            duration: "Day 0",
+            description: "File application with registrar.",
+          },
+          {
+            title: "Verification Period",
+            duration: "Up to 60 days",
+            description: "Registrar reviews documents.",
+          },
+          {
+            title: "Journal Publication",
+            duration: "Within 2 months",
+            description: "License details appear in the Trademark Journal.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with Dostartup for Licensing?",
+        description: [
+          "We simplify every step of trademark licensing to protect and grow your brand.",
+        ],
+        points: [
+          "Rigorous trademark research and validation",
+          "Tailor-made licensing agreements",
+          "End-to-end filing and documentation support",
+          "Transparent, affordable pricing",
+          "Proactive updates and dedicated client support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who can grant a trademark license?",
+        answer:
+          "Only the owner of a registered trademark can grant a license under Section 48 of the Trade Marks Act, 1999.",
+      },
+      {
+        question: "Is a written agreement required?",
+        answer:
+          "Yes—while the Act doesn’t mandate a format, a clear written licensing agreement is essential.",
+      },
+      {
+        question: "What’s the difference between licensing and assignment?",
+        answer:
+          "Licensing grants temporary, conditional use; assignment transfers permanent ownership.",
+      },
+      {
+        question: "How long before the journal publication?",
+        answer:
+          "Licensed registrations appear in the Trademark Journal within two months of approval.",
+      },
+      {
+        question: "How do I cancel a trademark license?",
+        answer:
+          "File a cancellation petition under Section 50; a hearing will be held and a fee of ₹4,500 per trademark applies.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Trademark Licensing vs. Trademark Assignment",
+        documents: [
+          "Aspect – Licensing: temporary permission under conditions | Assignment: permanent transfer of ownership",
+          "Formality – Licensing: written agreement recommended | Assignment: deed of assignment required",
+          "Registrar's Involvement – Licensing: optional registration | Assignment: mandatory registration",
+          "Duration – Licensing: limited period | Assignment: usually permanent",
+          "Rights Transferred – Licensing: specific, limited rights | Assignment: complete, exclusive ownership",
+        ],
+      },
+    ],
+  },
+
+  "trademark-opposition": {
+    title: "Trademark Opposition",
+    description:
+      "Challenge published trademark applications and protect your brand under Section 21 of the Trade Marks Act, 1999.",
+    overview: [
+      {
+        heading: "Diving into Trademark Opposition",
+        content:
+          "Trademark opposition lets anyone—competitors, existing trademark holders, or concerned consumers—challenge a published trademark in the Trademark Journal. It safeguards against potential infringement or misuse by filing the proper notice within the statutory period.",
+      },
+      {
+        heading: "Who Can Flip the Switch?",
+        content:
+          "Under Section 21, eligible opposers include competitors protecting their turf, existing trademark owners monitoring the market, and members of the public or consumers concerned with brand integrity.",
+      },
+      {
+        heading: "What Fuels the Fire?",
+        content:
+          "Common grounds for opposition include:\n● Similarity or identity to existing marks\n● Lack of distinctiveness\n● Deceptive or overly descriptive marks\n● Bad faith applications\n● Potential to confuse consumers\n● Generic or legislatively prohibited marks\n● Violation of Emblem and Names Act\n● Offensive or inappropriate elements",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Trademark Opposition",
+        content:
+          "● Proactive Brand Protection: Stop infringing or confusing marks before they gain ground.\n● Preserve Distinctiveness: Maintain the uniqueness and value of your trademark.\n● Prevent Consumer Confusion: Ensure customers aren’t misled by similar marks.\n● Deter Potential Infringers: Signal that you will enforce your rights rigorously.\n● Strengthen Legal Position: Build a record of enforcement that aids future disputes.\n● Uphold Market Share: Protect your competitive edge and reputation.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "What You Need to Get Started",
+        content:
+          "● Notice of Opposition (Form TM‑5)\n● Details of original application (number, applicant, goods/services)\n● Name and address of opposing party\n● Proof of existing trademark rights (if applicable)\n● Authorization or Power of Attorney (if filing via representative)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Trademark Opposition",
+        content:
+          "1. Filing the Notice: Submit Form TM‑5 within four months of journal publication (plus one‑month extension) and pay fees.\n2. Counter‑Statement: Applicant files counter‑statement within two months or application is refused.\n3. Evidence & Hearing: Exchange evidence, receive hearing date one month in advance, attend hearing with your case.\n4. Appeal: If dissatisfied with Registrar’s order, appeal to the Intellectual Property Appellate Board.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Opposition Filing Timeline",
+        description: "Key time limits for opposing a trademark:",
+        steps: [
+          {
+            title: "Journal Publication",
+            duration: "Day 0",
+            description: "Trademark appears in Trademark Journal.",
+          },
+          {
+            title: "Standard Filing Period",
+            duration: "3 months",
+            description: "File TM‑5 within three months of publication.",
+          },
+          {
+            title: "Extension Period",
+            duration: "1 additional month",
+            description: "Apply for a one‑month extension to file.",
+          },
+          {
+            title: "Counter‑Statement Deadline",
+            duration: "2 months after opposition",
+            description: "Applicant must counter within two months.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category:
+          "Difference Between Trademark Objection and Trademark Opposition",
+        documents: [
+          "Filed By – Objection: Trademark examiner | Opposition: Third‑party or public",
+          "Fee Required – Objection: No fee | Opposition: Specified filing fee",
+          "Filing Period – Objection: Within one month of examination report | Opposition: Within four months of publication",
+          "Communication – Objection: Directly to applicant | Opposition: Both applicant and opposer notified",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Trademark Opposition Services by Dostartup",
+        description: [
+          "At Dostartup, we safeguard your brand by expertly managing every stage of the opposition process.",
+        ],
+        points: [
+          "Crafting meticulous opposition notices and counter‑statements",
+          "Expert representation before the Registrar",
+          "Strategic document preparation tailored to your case",
+          "Regular updates on opposition status and IPR developments",
+          "Personalized compliance management with timely alerts",
+        ],
+      },
+    ],
+    faq: [],
+    feesStructure: [],
+  },
+
+  "refurbisher-authorization": {
+    title: "Refurbisher Authorization: A Comprehensive Overview",
+    description:
+      "Secure your e-waste refurbisher authorization from the CPCB for compliant, sustainable refurbishment operations.",
+    overview: [
+      {
+        heading: "What Is Refurbisher Authorization?",
+        content:
+          "Refurbisher authorization is an official approval by the Central Pollution Control Board (CPCB) that permits the repair, reassembly, and resale of used electrical and electronic equipment (EEE) under environmental, safety, and quality norms. It promotes structured e-waste management and grants legal rights to operate in the refurbished electronics market.",
+      },
+      {
+        heading: "Who Is a Refurbisher?",
+        content:
+          "A refurbisher is an individual or business engaged in restoring used EEE to original functionality and appearance, as defined in Schedule I of the E‑Waste (Management) Rules. Refurbishers must secure registration and demonstrate installed capacity to government bodies such as District Industries Centres.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Obtaining an E‑Waste Refurbisher License",
+        content:
+          "● Legal Recognition: Authorizes refurbishing and selling of e-waste, enhancing business authenticity.\n● Quality Compliance: Ensures adherence to BIS and CRS standards.\n● Cost‑Effective Operations: Lowers costs and expands access to technology.\n● Market Edge: Builds consumer trust through regulated compliance.\n● Environmental Protection: Reduces harmful waste and fosters recycling.\n● Resource Efficiency: Promotes reuse and reduces reliance on virgin materials.\n● Product Longevity: Extends lifespan of electronic devices.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Refurbisher Registration",
+        content:
+          "● Application Form 1(a)\n● Cover Letter\n● PAN Card\n● Address Proof\n● Certificate of Incorporation\n● Business Owner ID Proof\n● Board Resolution\n● Consent to Establish and Operate\n● GST Registration\n● Affidavit affirming accuracy of information\n● Layout of business premises\n● List of associated producers\n● Proof of ownership or rental\n● MoA & AoA or Partnership Deed\n● Recycling facility details\n● Declaration on company letterhead",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for Refurbisher Authorization Online",
+        content:
+          "1. Online Application: Submit Form 1 on the CPCB portal.\n2. Document Submission: Upload all required documents and plant safety details.\n3. Application Review: CPCB evaluates for completeness and accuracy.\n4. Authorization Grant: Digital authorization issued within 30 working days if criteria are met.\n5. Facility Verification: CPCB may inspect premises within 120 working days.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Refurbisher Authorization Fees",
+        description:
+          "Fees for new and renewal applications as per E‑Waste (Management) Rules, 2022:",
+        feeTable: [
+          {
+            category: "First‑time Registration Fee",
+            amount: "₹15,000",
+          },
+          {
+            category: "Renewal Standard Fee",
+            amount: "₹7,500",
+          },
+          {
+            category: "Renewal Variable Fee",
+            amount: "₹0.625 per metric ton of refurbished e‑waste",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Key timeframes from submission to full authorization:",
+        steps: [
+          {
+            title: "Digital Authorization Issued",
+            duration: "Within 30 working days",
+            description: "CPCB grants online approval if all criteria are met.",
+          },
+          {
+            title: "Facility Inspection",
+            duration: "Within 120 working days",
+            description:
+              "CPCB may conduct on‑site verification of your premises.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Refurbishment vs. Recycling: Key Differences",
+        documents: [
+          "Definition – Recycling: Breaking down waste into raw materials | Refurbishment: Repairing and reconditioning for reuse",
+          "Purpose – Recycling: Create new products | Refurbishment: Extend product life",
+          "Suitability – Recycling: Non‑repairable items | Refurbishment: Functional items needing repair",
+          "Economic Value – Recycling: Income from raw materials | Refurbishment: Low‑cost tech alternatives",
+          "Process – Recycling: Collection → Sorting → Processing → Resale | Refurbishment: Assessment → Repair → Testing → Repackaging",
+        ],
+      },
+      {
+        category: "Categories of E‑Waste Covered",
+        documents: [
+          "IT Devices – 70% of total e‑waste",
+          "Telecom Equipment – 12%",
+          "Medical Equipment – 8%",
+          "Government & Private Sector – 75%",
+          "Household Devices – 16%",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Refurbisher Authorization?",
+        description: [
+          "DoStartup offers end‑to‑end support to secure your CPCB refurbisher authorization quickly and compliantly.",
+        ],
+        points: [
+          "99% success rate in license approvals",
+          "Coverage across 10,000+ pin codes",
+          "200+ environmental experts on standby",
+          "Complete documentation and filing support",
+          "Step‑by‑step consultation",
+          "End‑to‑end legal guidance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is refurbisher authorization?",
+        answer:
+          "An official CPCB certification permitting the repair, reassembly, and sale of used electronic equipment under e‑waste management rules.",
+      },
+      {
+        question: "What does refurbishment mean?",
+        answer:
+          "The process of cleaning, repairing, and restoring used products to working condition and quality standards.",
+      },
+      {
+        question: "What is e-waste?",
+        answer:
+          "Electronic waste comprising outdated, unused, or broken electronic devices at the end of their functional life.",
+      },
+      {
+        question: "Why is a refurbisher license required in India?",
+        answer:
+          "To comply with environmental regulations, avoid penalties, and legally refurbish and sell e-waste.",
+      },
+      {
+        question: "What are the basic requirements to become a refurbisher?",
+        answer:
+          "A waterproof facility of at least 150 sq. m., skilled workforce, refurbishing tools, and valid premises documents.",
+      },
+      {
+        question: "How can I obtain a refurbisher license?",
+        answer:
+          "Submit the application form and documents, undergo CPCB evaluation, receive digital approval, and host a facility inspection.",
+      },
+      {
+        question: "What are refurbished certified products?",
+        answer:
+          "Used electronic items restored to working condition and compliant with quality standards for resale.",
+      },
+      {
+        question: "Are refurbished products considered second‑hand?",
+        answer:
+          "Yes, as they involve the repair or restoration of used electronic goods under the refurbisher registration rules.",
+      },
+      {
+        question: "What happens if renewal is late?",
+        answer:
+          "Submit renewal at least 60 days before expiry; late renewals may incur compliance issues or penalties.",
+      },
+    ],
+  },
+
+  "pro-authorization": {
+    title: "PRO Authorization: A Comprehensive Overview",
+    description:
+      "Obtain Producer Responsibility Organisation (PRO) registration from CPCB for compliant e‑waste and plastic waste management.",
+    overview: [
+      {
+        heading: "What Is PRO Authorization?",
+        content:
+          "PRO Authorization is official approval from the Central Pollution Control Board (CPCB) for Producer Responsibility Organisations to collect and channelize end‑of‑life e‑waste and plastic waste on behalf of producers under EPR rules.",
+      },
+      {
+        heading: "Functions of PRO Certification",
+        content:
+          "PROs manage logistics for e‑waste, meet collection targets, implement take‑back schemes, set up collection mechanisms, assist producers with returns filings, and guide on EPR compliance strategy.",
+      },
+      {
+        heading: "Government Regulations",
+        content:
+          "PRO Authorization is mandated under the E‑Waste (Management) Rules, 2016 and Plastic Waste Management Rules, 2016, plus the Environment (Protection) Act, 1986, requiring producers to meet statutory collection obligations.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of PRO Authorization",
+        content:
+          "● Legal Compliance: Avoid penalties by meeting EPR obligations.\n● Sustainability Credentials: Demonstrate responsible waste management.\n● Access to Incentives: Qualify for government schemes and subsidies.\n● Enhanced Credibility: Build trust with regulators and stakeholders.\n● Operational Support: Streamline waste collection and reporting.\n● Environmental Impact: Aid in proper recycling and pollution control.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for PRO Registration",
+        content:
+          "● GST Registration Certificate\n● List of EEE or plastic items (Excel)\n● PAN Card of organization\n● KYC of authorized signatory\n● Proof of premises (rent/lease/ownership)\n● Any additional documents requested by CPCB",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "PRO Authorization Registration Process",
+        content:
+          "1. Obtain PRO application form from CPCB.\n2. Fill in details accurately.\n3. Submit application and documents online.\n4. CPCB reviews and verifies submission.\n5. Upon approval, CPCB issues PRO Authorization certificate.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Typical timeframes for PRO registration:",
+        steps: [
+          {
+            title: "CPCB Review",
+            duration: "30 days",
+            description: "CPCB evaluates application completeness.",
+          },
+          {
+            title: "Certificate Issuance",
+            duration: "Within 30 working days",
+            description: "Digital PRO certificate provided.",
+          },
+          {
+            title: "Renewal",
+            duration: "Apply 60 days before expiry",
+            description:
+              "Valid for 3 years; renewal process similar to initial application.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "PRO Categories",
+        documents: ["E‑Waste Management PRO", "Plastic Waste Management PRO"],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for PRO Authorization?",
+        description: [
+          "DoStartup simplifies your PRO certification journey with expert guidance and end‑to‑end support.",
+        ],
+        points: [
+          "200+ successful PRO Authorizations",
+          "10+ years in environmental compliance",
+          "Complete documentation support",
+          "99% success rate",
+          "Coverage across India",
+          "24/7 dedicated support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How to register for PRO Authorization?",
+        answer:
+          "Submit the PRO registration application and required documents to CPCB; upon verification, CPCB issues the certificate.",
+      },
+      {
+        question: "What documents are required?",
+        answer:
+          "GST certificate, item list, PAN, signatory KYC, and proof of premises, plus any CPCB‑requested documents.",
+      },
+      {
+        question: "Which waste streams require PRO Authorization?",
+        answer:
+          "Both e‑waste and plastic waste under their respective management rules.",
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Typically 30–60 days from submission to certificate issuance.",
+      },
+      {
+        question: "What is certificate validity?",
+        answer:
+          "PRO Authorization is valid for 3 years; renew at least 60 days before expiry.",
+      },
+      {
+        question: "Can CPCB cancel authorization?",
+        answer:
+          "Yes—failure to comply with regulations may lead CPCB to revoke the PRO certificate.",
+      },
+    ],
+  },
+
+  "e-waste-recycling-authorization": {
+    title: "E-Waste Recycling Authorization",
+    description:
+      "Obtain mandatory authorization for recycling or reprocessing waste electrical and electronic equipment under national environmental norms.",
+    overview: [
+      {
+        heading: "What Is E-Waste Recycling Authorization?",
+        content:
+          "E‑waste recycling authorization is a mandatory permit for any individual or organization engaged in recycling or reprocessing WEEE or its components, ensuring responsible handling, recycling, and reuse under the E‑Waste (Management) Rules.",
+      },
+      {
+        heading: "Regulatory Framework",
+        content:
+          "Authorizations are granted by SPCBs or CPCB under the Environmental Protection Act, Batteries Rules, E‑Waste Rules (2011 & 2022), Hazardous Wastes Rules, and CPCB guidelines. Applying online demonstrates commitment to safe and sustainable waste disposal.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Obtaining E‑Waste Recycling Authorization",
+        content:
+          "● Environmental Protection: Prevent contamination from toxic substances like mercury, lead, and cadmium.\n● Resource Conservation: Recover valuable materials and promote a circular economy.\n● CSR & Credibility: Strengthen your sustainable practices and market image.\n● Economic Advantage: Generate revenue and create skilled employment.\n● Legal Compliance: Meet all obligations under environmental regulations.\n● Innovation Support: Encourage tech-driven sustainable processes.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Authorization",
+        content:
+          "● Aadhar & PAN of recycler\n● GST and ISO certificates\n● CIN & MoA\n● Proof of premises (ownership/rent)\n● SPCB/PCC consent\n● Board declaration and due diligence documents\n● E‑Waste Rules Authorization",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Process of Obtaining Authorization",
+        content:
+          "1. Filing Application: Submit Form 4 via SPCB/PCC portal.\n2. Document Submission: Upload CTO details and signatory info.\n3. Application Review: District Environmental Engineer verifies completeness.\n4. Rectification: Correct any deficiencies and resubmit.\n5. Authorization Grant: CPCB issues authorization within 120 days.\n6. Facility Verification: CPCB may inspect within 3 months post‑approval.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description: "Fees as per E‑Waste (Management) Rules:",
+        feeTable: [
+          {
+            category: "Registration Fee",
+            amount: "₹15,000",
+          },
+          {
+            category: "Renewal Fee",
+            amount: "₹7,500",
+          },
+          {
+            category: "Additional Fee",
+            amount: "₹0.625 per MT (past 5 years)",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Typical duration from submission to grant:",
+        steps: [
+          {
+            title: "Standard Processing Time",
+            duration: "30–35 working days",
+            description:
+              "Depends on completeness of documents, inspections, and authority response.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Regulations Governing Authorization",
+        documents: [
+          "Environmental Protection Act, 1986",
+          "Batteries (Management & Handling) Rules, 2011",
+          "E‑Waste (Management & Handling) Rules, 2011",
+          "E‑Waste (Management) Rules, 2022",
+          "Hazardous & Other Wastes Rules, 2016",
+          "CPCB Guidelines",
+        ],
+      },
+      {
+        category: "Methods Involved in Authorization",
+        documents: [
+          "Collection & Transportation",
+          "Sorting",
+          "Dismantling",
+          "Shredding",
+          "Conveyor Belt Sorting",
+          "Magnetic Separation",
+          "Metallic & Non‑Metallic Separation",
+          "Water‑Based Separation",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup guides you through every step of e‑waste recycling authorization with expert support.",
+        ],
+        points: [
+          "99% success rate",
+          "500+ green entrepreneurs supported",
+          "10+ years of industry experience",
+          "End‑to‑end documentation support",
+          "Expert advisory on EPR & SPCB compliance",
+          "24/7 dedicated customer support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is EPR recycling authorization?",
+        answer:
+          "A mandatory permit issued to producers or recyclers under EPR rules to manage the lifecycle of e‑waste in compliance with environmental regulations.",
+      },
+      {
+        question: "Which laws govern e‑waste recycling authorization?",
+        answer:
+          "Environmental Protection Act, Batteries Rules 2011, E‑Waste Rules 2011 & 2022, Hazardous & Other Wastes Rules 2016, and CPCB guidelines.",
+      },
+      {
+        question: "Which state has the most authorized recyclers?",
+        answer:
+          "As of June 2024, Uttar Pradesh has the highest number of CPCB‑authorized e‑waste recyclers, followed by Karnataka and Maharashtra.",
+      },
+      {
+        question: "What are the EPR collection targets?",
+        answer:
+          "Targets are 30% of generation in years 1–2, 40% in years 3–4, 50% in years 5–6, and 70% in years 7–8 under the EPR implementation plan.",
+      },
+      {
+        question: "Is e‑waste recycling profitable?",
+        answer:
+          "Yes—authorization enables recovery and resale of valuable materials, offering strong commercial incentives.",
+      },
+      {
+        question: "Can e‑waste be imported into India?",
+        answer:
+          "No—the import of e‑waste is prohibited under Basel No. A1180 of the Hazardous & Other Wastes Rules, 2016.",
+      },
+      {
+        question: "What types of e‑waste are covered?",
+        answer:
+          "Authorized recycling covers ICT devices, consumer appliances, personal mobility devices, and small household/office electronics.",
+      },
+    ],
+  },
+
+  "epr-authorization": {
+    title: "EPR Authorization for E‑Waste",
+    description:
+      "Obtain Extended Producer Responsibility (EPR) authorization to comply with environmental obligations for e‑waste management under CPCB rules.",
+    overview: [
+      {
+        heading: "What Is EPR Authorization?",
+        content:
+          "Extended Producer Responsibility (EPR) makes producers, importers, manufacturers and brand owners accountable for the collection, treatment and disposal of e‑waste after consumer use, promoting sustainable design and circular economy practices.",
+      },
+      {
+        heading: "Policy Framework",
+        content:
+          "In India, EPR is governed by the E‑Waste Management Rules (2016 & 2022) and empowered under Rule 13(1) of the 2016 rules. CPCB issues guidelines for collection, storage, transportation, dismantling, refurbishment and recycling of e‑waste.",
+      },
+      {
+        heading: "Who Needs EPR Authorization?",
+        content:
+          "Producers, importers, manufacturers and brand owners of electrical and electronic equipment (EEE), both Indian and foreign, must obtain EPR authorization to operate legally in India.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of EPR Authorization",
+        content:
+          "● Sustainable Product Design: Encourages recyclable, eco‑friendly products.\n● Cost Sharing: Shifts waste‑management burden from government to producers.\n● Infrastructure Development: Stimulates investment in recycling facilities.\n● Global Compliance: Aligns with international EPR standards.\n● Waste Control: Ensures accountability and reduces environmental impact.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents for EPR Authorization",
+        content:
+          "● KYC of authorized signatory\n● KYC of business entity\n● Import‑Export Code (IEC)\n● Business website domain\n● Toll‑free customer care number",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Grant/Renewal/Refusal",
+        content:
+          "1. Filing Application: Submit EPR plan and documents to CPCB.\n2. Verification: CPCB/SPCB reviews within 25 working days.\n3. Evaluation: Authority assesses responsibility plan.\n4. Grant or Refusal: Authorization is issued, renewed or denied based on evaluation.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity and Renewal",
+        description: "Key timeframes for EPR authorization:",
+        steps: [
+          {
+            title: "Validity Period",
+            duration: "5 years",
+            description:
+              "EPR Authorization remains valid for five years from issuance.",
+          },
+          {
+            title: "Renewal Window",
+            duration: "120 days before expiry",
+            description:
+              "Submit renewal application at least 120 days prior to expiry.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Roles and Responsibilities Under EPR",
+        documents: [
+          "Collection: Gather e‑waste using dealers, service centers or buy‑back schemes.",
+          "Reverse Logistics: Establish frameworks for safe return of end‑of‑life products.",
+          "Safe Disposal: Send hazardous components (mercury, lead) to authorized TSDFs.",
+          "Awareness: Conduct public campaigns via ads, posters and packaging inserts.",
+          "Consumer Communication: Provide contact details via website and literature.",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup offers expert end‑to‑end assistance for seamless EPR authorization.",
+        ],
+        points: [
+          "Free consultation with response within 1 hour",
+          "Guidance on application preparation and submission",
+          "Compliance management and renewal support",
+          "Expert advisory on CPCB & SPCB guidelines",
+          "Dedicated support through entire lifecycle",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is EPR Authorization?",
+        answer:
+          "A regulatory policy making producers responsible for managing post‑consumer e‑waste under CPCB rules.",
+      },
+      {
+        question: "How can I obtain EPR Authorization?",
+        answer:
+          "Submit an application with EPR plan and documents to CPCB; upon review and approval, CPCB grants authorization.",
+      },
+      {
+        question: "Who needs EPR Authorization?",
+        answer:
+          "Producers, importers, manufacturers and brand owners of electrical and electronic equipment.",
+      },
+      {
+        question: "Is EPR mandatory?",
+        answer:
+          "Yes; operating without valid EPR Authorization risks penalties and legal action.",
+      },
+      {
+        question: "What is the validity period?",
+        answer:
+          "EPR Authorization is valid for five years; renew at least 120 days before expiry.",
+      },
+      {
+        question: "What happens if renewal is late?",
+        answer:
+          "Late renewals may incur non‑compliance penalties and operational suspension.",
+      },
+      {
+        question: "Can foreign manufacturers apply?",
+        answer:
+          "Yes; both Indian and foreign entities dealing in EEE must obtain EPR authorization.",
+      },
+    ],
+  },
+
+  "epr-post-compliance": {
+    title: "EPR Post Compliance for E‑Waste",
+    description:
+      "Fulfill your Extended Producer Responsibility post compliance obligations for e‑waste with expert support from DoStartup.",
+    overview: [
+      {
+        heading: "What Is EPR Post Compliance?",
+        content:
+          "EPR post compliance for e‑waste involves meeting ongoing obligations—reporting, recordkeeping, and awareness activities—after obtaining EPR authorization, to ensure proper collection, recycling and disposal of electronic waste under CPCB rules.",
+      },
+      {
+        heading: "Why It Matters",
+        content:
+          "Timely post compliance prevents penalties, maintains your authorization status, and demonstrates commitment to environmental stewardship and sustainable business practices.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of EPR Post Compliance",
+        content:
+          "● Environmental Protection: Ensures e‑waste is handled in an eco‑friendly manner and prevents pollution.\n● Enhanced Brand Reputation: Strengthens industry standing through visible compliance.\n● Industry Accountability: Fosters responsible practices across the electronics sector.\n● Resource Recovery: Enables recovery of valuable materials like gold, silver, copper and rare earths.\n● Legal Adherence: Aligns with Indian environmental laws to avoid penalties.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Post Compliance",
+        content:
+          "● Details of recyclers, dismantlers, collectors and PROs\n● Market‑floating product quantities\n● List of collection centres\n● Sale and purchase records\n● RoHS self‑declaration\n● Website and toll‑free number information\n● EEE codes and import quantities\n● CPCB certifications\n● Common Reporting Standard certificate\n● Agreements with recyclers, dealers and TSDFs",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "EPR Post Compliance Activities",
+        content:
+          "● Establish and operate collection centres per approved EPR plan\n● Collect and channelize e‑waste matching EEE codes\n● Maintain Form 2 records and provide during CPCB/SPCB inspections\n● File annual returns via CPCB portal (consolidated per state if multiple offices)\n● Notify CPCB within 15 days of any EPR plan changes and receive response within 60 days\n● Obtain CPCB permission before closing any facility or collection point\n● Submit annual sales data with returns and revised EPR plan if needed\n● Conduct awareness programs (media campaigns, seminars, product packaging inserts)\n● Report quarterly e‑waste collection and recycling volumes",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Challenges in EPR Post Compliance",
+        documents: [
+          "Lack of Awareness: Businesses and consumers often miss timely disposal requirements.",
+          "Informal Recycling: Unregulated practices can harm the environment.",
+          "Data Security: Sensitive data must be sanitized before e‑waste processing.",
+          "Incomplete Data: Gaps in waste generation tracking hinder planning.",
+          "Complex Reverse Logistics: Coordinating returns with multiple stakeholders.",
+        ],
+      },
+      {
+        category: "Additional Post Compliance Requirements",
+        documents: [
+          "Submit annual returns (Form 3) to SPCB/PCC and other forms (Form 6, Form 2).",
+          "Report accidents and submit destruction certificates after dismantling.",
+          "Maintain and present technical RoHS documentation upon request.",
+          "File revised EPR plan and Enclosure A self‑declarations for new products.",
+          "Ensure all collection, storage and recycling partners are CPCB‑authorized.",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup streams your EPR post compliance process with end‑to‑end support and timely alerts.",
+        ],
+        points: [
+          "99% success rate in compliance advisory",
+          "Trusted by 500+ sustainable businesses",
+          "Complete documentation organization",
+          "24/7 assistance from compliance specialists",
+          "Industry leader with 75% market share",
+          "Up to 45% reduction in compliance burden",
+          "Expert recordkeeping and filing guidance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is EPR Post Compliance for E‑Waste?",
+        answer:
+          "The ongoing fulfillment of reporting, recordkeeping, and awareness obligations by producers, importers and brand owners after obtaining EPR authorization.",
+      },
+      {
+        question: "What documents are needed?",
+        answer:
+          "Records of recyclers, collection centres, sales/purchase, RoHS declarations, CPCB certifications, and agreements with service partners.",
+      },
+      {
+        question: "How often must returns be filed?",
+        answer:
+          "Annual returns (Form 3) via SPCB/PCC portal and quarterly collection reports.",
+      },
+      {
+        question: "What if I miss a post compliance deadline?",
+        answer:
+          "Non‑compliance can lead to penalties, public notice and potential cancellation of your EPR authorization.",
+      },
+      {
+        question: "How can I create awareness?",
+        answer:
+          "Run media campaigns, public seminars, digital ads and include disposal instructions on product packaging.",
+      },
+      {
+        question: "Who enforces post compliance?",
+        answer:
+          "State Pollution Control Boards and CPCB conduct inspections, reviews and audits of compliance records.",
+      },
+    ],
+  },
+
+  "export-e-waste": {
+    title: "Export of E‑Waste",
+    description:
+      "Obtain permissions from MoEF and SPCB to export electronic waste responsibly under national and international regulations.",
+    overview: [
+      {
+        heading: "What Is E‑Waste Export?",
+        content:
+          "E‑waste export involves shipping discarded electronic items—computers, ICT equipment, audio‑video gadgets—abroad. It requires prior approval from the Ministry of Environment, Forest and Climate Change (MoEF) and the relevant State Pollution Control Board (SPCB).",
+      },
+      {
+        heading: "Regulatory Framework",
+        content:
+          "India’s e‑waste export is governed by the Hazardous Wastes (Management & Handling) Rules, 2008 and E‑Waste (Management & Handling) Rules, 2010. The Basel Convention and Customs Act 1962 also apply.",
+      },
+      {
+        heading: "Key Enforcement Agencies",
+        content:
+          "Permissions and compliance are overseen by:\n● Ministry of Environment, Forest & Climate Change (MoEF)\n● Central Pollution Control Board (CPCB)\n● State Pollution Control Boards (SPCBs)\n● Directorate General of Foreign Trade (DGFT)\n● Port & Customs Authorities",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Authorized Export",
+        content:
+          "● Resource Recovery: Monetize precious metals and plastics.\n● Legal Compliance: Avoid penalties and illegal shipment risks.\n● Environmental Safety: Ensure responsible disposal and prevent pollution.\n● International Trade: Tap global markets for e‑waste materials.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Export License",
+        content:
+          "● Export License/Permission Certificate from MoEF\n● No Objection Certificate (NOC) from MoEF\n● Consent Letter from relevant SPCB\n● Prior Informed Consent (PIC) from importing country\n● Movement Document (Form 6)\n● Records of all export consignments",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Steps to Obtain Export License",
+        content:
+          "1. Submit application of intent to MoEF.\n2. Establish physical presence in India.\n3. Obtain MoEF NOC and SPCB consent.\n4. Secure PIC from the importing country.\n5. MoEF notifies SPCB, Port and Customs authorities.\n6. Attach Form 6 with each shipment.\n7. Maintain detailed export records.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal",
+        description:
+          "MoEF NOC remains valid until SPCB consent letter expires. Renewal timelines vary by state; exporters must monitor expiry and reapply promptly.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Entities Eligible for Export License",
+        documents: [
+          "E‑Waste Producers",
+          "E‑Waste Dismantlers",
+          "E‑Waste Refurbishers",
+          "E‑Waste Manufacturers",
+          "Large‑Scale Consumers of Electronics",
+          "E‑Waste Collection Organizations",
+        ],
+      },
+      {
+        category: "Types of E‑Waste Permissible for Export",
+        documents: [
+          "Metallic & non‑dispersible metal/alloy wastes",
+          "Antimony, cadmium, lead & tellurium wastes",
+          "Galvanic sludge & pickling liquor waste",
+          "Zinc processing residues",
+          "Scrap from electrical/electronic assemblies",
+          "Clean metal scrap (rods, beams, plates)",
+          "Metal powders (titanium, tungsten, molybdenum, tantalum)",
+          "Precious metal‑bearing residues",
+          "Non‑dispersible mining wastes",
+          "Glass waste & calcium fluoride sludge",
+          "Used multifunction printers & copiers",
+        ],
+      },
+      {
+        category: "When Export Is Illegal",
+        documents: [
+          "Without central government approval",
+          "Permissions obtained by fraud or misrepresentation",
+          "Shipment details not matching movement documents",
+          "Unlawful dumping violating Basel Convention or laws",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "DoStartup simplifies your e‑waste export journey with end‑to‑end compliance support.",
+        ],
+        points: [
+          "Real‑time application monitoring",
+          "Expert guidance on MoEF & SPCB procedures",
+          "Documentation preparation and review",
+          "Seamless PIC coordination with importing country",
+          "Dedicated support through customs clearance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is e‑waste?",
+        answer:
+          "Discarded electronic devices—computers, ICT equipment, audio‑video gadgets—containing metals, plastics and precious elements.",
+      },
+      {
+        question: "Why is export approval required?",
+        answer:
+          "To ensure shipments comply with national rules and the Basel Convention, preventing illegal dumping and environmental harm.",
+      },
+      {
+        question: "Which authorities grant export permission?",
+        answer:
+          "MoEF issues the license, SPCB provides consent, and Customs enforces compliance under the Customs Act 1962.",
+      },
+      {
+        question: "How long is the MoEF NOC valid?",
+        answer:
+          "Valid until the SPCB consent letter expires; validity periods vary by state.",
+      },
+      {
+        question: "What is PIC?",
+        answer:
+          "Prior Informed Consent from the importing country’s environmental authority, required before dispatch.",
+      },
+      {
+        question: "Can any entity export e‑waste?",
+        answer:
+          "Only eligible producers, dismantlers, refurbishers, manufacturers, large‑scale consumers and collection organizations with valid permissions.",
+      },
+    ],
+  },
+
+  "epr-target-fulfilment": {
+    title: "EPR Target Fulfilment and Compliance",
+    description:
+      "Understand and meet your Extended Producer Responsibility recycling targets across plastic, e‑waste, tyres and batteries under India’s EPR framework.",
+    overview: [
+      {
+        heading: "What Are EPR Targets?",
+        content:
+          "EPR targets are annual recycling obligations—expressed as a percentage of eligible quantity—assigned to producers, importers and brand owners after successful EPR registration and return submission on the CPCB portal.",
+      },
+      {
+        heading: "Why India Needs EPR Policy",
+        content:
+          "Based on the Polluter Pays principle and international conventions (Basel, Stockholm, Rotterdam), India’s EPR policy shifts end‑of‑life waste management responsibility to producers, fostering sustainable design, enhanced recycling infrastructure and circular economy practices.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of EPR Compliance",
+        content:
+          "● Waste Reduction: Drives collection and recycling at source.\n● Circular Economy: Encourages product redesign and resource recovery.\n● Regulatory Assurance: Prevents penalties through timely target fulfilment.\n● Market Flexibility: Allows trading of EPR certificates among registered entities.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Common Documents for EPR Registration",
+        content:
+          "● Covering requisition letter\n● Lease deed or sale deed proof\n● Memorandum of Association or partnership deed\n● Facility layout plan\n● Manufacturing process flow charts\n● Water and material balance details\n● Land use classification certificate\n● Consent/NOC under Water and Air Acts\n● Any additional documents as specified by CPCB/SPCB",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "EPR Registration & Target Allocation",
+        content:
+          "1. Register on CPCB’s centralized EPR portal.\n2. Submit EPR plan and supporting documents.\n3. Upon verification, CPCB issues authorization.\n4. Targets are published annually on the portal after return submission.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "EPR Targets for Plastic Packaging Waste",
+        documents: [
+          "Register under PWM Rules 2016 and submit action plan.",
+          "Collect and recycle plastic packaging waste via ULBs or WMAs.",
+          "Incorporate recycled content in products.",
+          "Submit annual returns and proof for any purchased certificates.",
+          "2023-24 target: 100% of eligible plastic quantity.",
+        ],
+      },
+      {
+        category: "EPR Targets for E‑Waste",
+        documents: [
+          "Register under E‑Waste Rules 2022 per Schedule I categories.",
+          "2023-24 target: 60% of EEE quantity placed in market (Y–X basis).",
+          "2023-24 recycling target: 15% of sales from FY 2021-22 by weight.",
+          "Submit annual fulfilment reports on CPCB portal.",
+          "Dealer and refurbisher stakeholders must also register.",
+        ],
+      },
+      {
+        category: "EPR Targets for Waste Tyres",
+        documents: [
+          "Register under Amendment Rules 2022 per Schedule IX.",
+          "2022-23 target: 35% of tyres manufactured/imported in 2020-21.",
+          "2023-24 target: 70% of tyres manufactured/imported in 2021-22.",
+          "Post‑2024-25: 100% of tyres manufactured/imported two years prior.",
+          "Tyre importers must fulfil 100% of previous year’s imports.",
+        ],
+      },
+      {
+        category: "EPR Targets for Battery Waste",
+        documents: [
+          "Register under Battery Waste Rules 2022 on CPCB portal.",
+          "2023 recovery targets: Portable 70%, Automotive 55%, Industrial 55%, EV 70%.",
+          "Authorize recyclers/refurbishers to issue EPR certificates.",
+          "Report annual recovery on centralized portal.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How are EPR targets calculated?",
+        answer:
+          "Targets are set as a percentage of eligible quantity (Q)—based on average production, imports, pre‑consumer waste and off‑take to other brand owners—published each year on the CPCB portal.",
+      },
+      {
+        question: "Can I trade EPR certificates?",
+        answer:
+          "Yes. Entities falling short may purchase EPR certificates from registered recyclers or co‑processors through the CPCB portal.",
+      },
+      {
+        question: "What happens if I miss my EPR targets?",
+        answer:
+          "Non‑fulfilment attracts environmental compensation penalties and may lead to action by CPCB or SPCB.",
+      },
+      {
+        question: "Who enforces EPR compliance?",
+        answer:
+          "Central Pollution Control Board (CPCB) and State Pollution Control Boards (SPCBs) monitor portal submissions, conduct audits and impose penalties.",
+      },
+      {
+        question: "How often must returns be filed?",
+        answer:
+          "Annual returns are mandatory for each waste stream; plastic returns are consolidated per state if multiple offices exist.",
+      },
+    ],
+  },
+
+  "epr-battery-waste": {
+    title: "EPR for Battery Waste: An Overview",
+    description:
+      "Manage hazardous battery waste under the Battery Waste (Management) Rules, 2022 by registering and meeting collection, recycling, and refurbishment targets.",
+    overview: [
+      {
+        heading: "What Is EPR for Battery Waste?",
+        content:
+          "EPR for battery waste places responsibility on producers and importers to collect, recycle or refurbish used batteries—automotive, lithium‑ion, industrial and portable—preventing incineration or open disposal under the Battery Waste (Management) Rules, 2022.",
+      },
+      {
+        heading: "Application of the Rules",
+        content:
+          "These rules apply regardless of battery chemistry, size or application. Producers must register for EPR on the CPCB portal, meet specified targets, and work with authorized recyclers or refurbishers, under the enforcement of CPCB and SPCBs.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of EPR for Battery Waste",
+        content:
+          "● Environmental Protection: Ensures safe handling of toxic materials.\n● Green Energy Support: Encourages use of recycled materials.\n● Resource Conservation: Recovers valuable metals for reuse.\n● Compliance Assurance: Avoids penalties through certified processes.\n● Public Health: Reduces soil and water contamination from heavy metals.\n● Innovation Incentive: Drives research into safer, more recyclable battery chemistries.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents for EPR Registration",
+        content:
+          "● GST Certificate\n● Company PAN Card\n● CIN Document\n● SPCB/PCC consent for waste handling\n● IEC Certificate (for importers)\n● Board resolution authorizing EPR submission\n● Plant layout showing storage and processing units",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for EPR",
+        content:
+          "1. Submit Form 1(C) with EPR action plan and component weights.\n2. CPCB processes within 15 working days and issues certificate.\n3. Implement plan to meet annual collection/refurbishment targets.\n4. File annual returns and audit reports by June 30 each year.\n5. Respond to CPCB or SPCB notices within stipulated timelines.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal",
+        description:
+          "Certificates valid for 5 years; renew at least 60 days before expiry with returns filed by June 30. Renewal processing takes up to 15 working days.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Battery Categories Covered",
+        documents: [
+          "Automotive batteries for starters/ignition/lighting",
+          "Lithium‑ion batteries for EVs and e‑mobility",
+          "Industrial batteries for heavy machinery",
+          "Portable batteries for electronics (phones, tablets)",
+        ],
+      },
+      {
+        category: "Responsibilities of Producers",
+        documents: [
+          "Register and renew via CPCB portal",
+          "Submit detailed EPR action plan",
+          "Use minimum recycled content or export equivalent",
+          "Ensure collection targets are met annually",
+          "Issue certificates to recyclers/refurbishers",
+        ],
+      },
+      {
+        category: "Certificate Trading",
+        documents: [
+          "CPCB issues kg‑based recycling certificates to recyclers/refurbishers",
+          "Producers may trade certificates to fulfill EPR liabilities",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartup Can Help",
+        description: [
+          "We streamline your EPR battery waste registration, documentation and compliance.",
+        ],
+        points: [
+          "End‑to‑end application support",
+          "Expert review to avoid rejections",
+          "Timely certificate issuance",
+          "Renewal assistance and legal support",
+          "Dedicated WhatsApp support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is EPR for battery waste?",
+        answer:
+          "A policy requiring producers to manage end‑of‑life batteries by collecting and recycling under CPCB rules.",
+      },
+      {
+        question: "Which batteries are covered?",
+        answer:
+          "Automotive, lithium‑ion (EV), industrial and portable batteries.",
+      },
+      {
+        question: "How long is the certificate valid?",
+        answer: "Five years, with renewal 60 days before expiry.",
+      },
+      {
+        question: "Can I trade recycling certificates?",
+        answer:
+          "Yes—certificates issued by CPCB‑authorized recyclers can be exchanged to meet EPR targets.",
+      },
+    ],
+  },
+
+  "plastic-credit-scheme": {
+    title: "EPR Credits in the Plastic Recycling Industry",
+    description:
+      "Use plastic credit units under EPR to finance circular plastic systems, support recycling infrastructure and meet PWM 2022 targets through transparent trading.",
+    overview: [
+      {
+        heading: "What Is a Plastic Credit?",
+        content:
+          "A plastic credit represents a unit of plastic collected or recycled beyond business as usual. It allows producers to comply with EPR by purchasing credits instead of handling waste directly.",
+      },
+      {
+        heading: "Role of Plastic Exchange",
+        content:
+          "Plastic Exchange bridges PIBOs and compliant recyclers, enabling transparent trading of Plastic Credit Units to meet PWM 2022 obligations.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Plastic Credits",
+        content:
+          "● Incentivizes Recycling: Drives investment in recycling facilities.\n● Environmental Impact: Reduces plastic leakage and microplastics.\n● Innovation: Funds development of recyclable products.\n● Stakeholder Engagement: Unites communities, collectors and brands.\n● Infrastructure Funding: Supports new sorting and recovery centers.\n● Economic Inclusion: Integrates informal collectors into formal markets.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Compliance Under PWM 2022",
+        content:
+          "● EPR action plan and registration on the CPCB portal\n● Proof of recycled volumes for credit issuance\n● Independent audit and certification of credits\n● Documentation of collection routes and volumes\n● Third‑party validation reports",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Implementing Plastic Credit Schemes",
+        content:
+          "1. Define voluntary or compulsory scheme parameters.\n2. Issue and validate credits via third‑party auditors.\n3. Record credits on CPCB portal—enable trade and retirement.\n4. Monitor credit balance and retire credits against targets.\n5. Publish annual impact and audit reports.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Goals of Plastic Credit Scheme",
+        documents: [
+          "Increase recovery of specific packaging types",
+          "Fund infrastructure in low‑income regions",
+          "Reduce plastic leakages into the environment",
+          "Mobilize global co‑finance for local waste management",
+        ],
+      },
+      {
+        category: "Key Challenges",
+        documents: [
+          "Greenwashing risks with unregulated schemes",
+          "Need for integration with comprehensive waste systems",
+          "Balancing waste prevention and credit incentives",
+        ],
+      },
+      {
+        category: "CPCB Portal Features",
+        documents: [
+          "Credit issuance tracking",
+          "Online trading between PIBOs and recyclers",
+          "Real‑time compliance dashboards",
+          "Automated retirement against targets",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Plastic Exchange?",
+        description: [
+          "We provide a transparent marketplace for compliant plastic credits.",
+        ],
+        points: [
+          "Verified credit issuance",
+          "Direct access to recyclers",
+          "Full traceability on CPCB portal",
+          "Support for EPR export and import obligations",
+          "Competitive pricing via bulk credit purchase",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a plastic credit?",
+        answer:
+          "A unit representing plastic collected or recycled beyond business as usual.",
+      },
+      {
+        question: "How do credits support EPR?",
+        answer:
+          "Procuring credits enables producers to meet PWM 2022 recycling obligations without handling waste themselves.",
+      },
+      {
+        question: "Are credits voluntary?",
+        answer:
+          "Can be voluntary or compulsory, but must integrate with EPR to avoid greenwashing.",
+      },
+    ],
+  },
+
+  "epr-certificate-importers": {
+    title: "EPR Certificate for Importers: An Overview",
+    description:
+      "Obtain your EPR certificate to manage post‑consumer waste—plastic, e‑waste, batteries, tyres—and ensure regulatory compliance and smoother customs clearance.",
+    overview: [
+      {
+        heading: "What Is an EPR Certificate for Importers?",
+        content:
+          "A CPCB‑issued authorization demonstrating that importers manage product waste through collection, recycling or disposal under EPR guidelines, enhancing brand reputation and facilitating market entry.",
+      },
+      {
+        heading: "Why It’s Essential",
+        content:
+          "Holds importers accountable for life‑cycle waste, enforces sustainable packaging, and avoids penalties under EPR regulations.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits for Importers",
+        content:
+          "● Regulatory Compliance: Avoid fines and customs delays.\n● Brand Value: Showcase environmental responsibility.\n● Cost Savings: Optimize resource use via recycling.\n● Market Access: Enter eco‑conscious markets easily.\n● CSR Enhancement: Strengthen sustainability credentials.\n● Competitive Differentiation: Stand out in B2B procurement.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Required Documents",
+        content:
+          "● Authorized person’s PAN & Aadhar\n● GST registration\n● Import Export Code (IEC)\n● Sales history and authorization letter\n● Proof of local office or liaison office\n● BIS registration certificate (for electronics)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply",
+        content:
+          "1. Submit EPR application form with company details.\n2. CPCB reviews and issues certificate for plastic, e‑waste, battery or tyre waste management.\n3. File annual returns on EPR portal and maintain records for inspections.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Licensing Requirements",
+        documents: [
+          "EPR Authorization plan submission",
+          "IEC mandatory unless DGFT exempted",
+          "BIS registration for electronics imports",
+          "Local office proof for service address",
+        ],
+      },
+      {
+        category: "Waste Streams Covered",
+        documents: [
+          "Plastic packaging and sheets",
+          "Electrical and electronic equipment (EEE)",
+          "Batteries (portable, automotive, industrial, EV)",
+          "Waste tyres",
+        ],
+      },
+      {
+        category: "Challenges Faced",
+        documents: [
+          "Lack of awareness among stakeholders",
+          "Fragmented waste management systems",
+          "Financial constraints for SMEs",
+          "Complex multi‑agency coordination",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "We ensure fast, hassle‑free EPR certification for importers.",
+        ],
+        points: [
+          "99% success rate",
+          "300+ importers assisted",
+          "End‑to‑end documentation support",
+          "Expert guidance on CPCB processes",
+          "Dedicated WhatsApp assistance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who needs an EPR certificate?",
+        answer:
+          "Importers of products generating plastic, e‑waste, battery or tyre waste.",
+      },
+      {
+        question: "How long is the process?",
+        answer: "Typically completed within 120 days of application.",
+      },
+      {
+        question: "Can I manage multiple streams?",
+        answer:
+          "Yes—submit combined plans and documents for all applicable waste types.",
+      },
+    ],
+  },
+
+  "epr-credits-overview": {
+    title: "Overview of EPR Credits in India",
+    description:
+      "Earn and trade EPR credits—plastic, e‑waste, battery and tyre—to flexibly meet your recycling obligations under CPCB’s EPR Credit Model.",
+    overview: [
+      {
+        heading: "What Are EPR Credits?",
+        content:
+          "Credits signify fulfilled recycling and waste management obligations. Producers earn credits by recycling waste and can trade certificates with others to meet EPR targets.",
+      },
+      {
+        heading: "First EPR Credit",
+        content:
+          "Indore Municipal Corporation received the first credit after recycling eight tonnes of banned plastics, showcasing municipal EPR participation.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of EPR Credits",
+        content:
+          "● Flexibility: Producers can trade credits regionally.\n● Incentivizes Recycling: Drives infrastructure investment.\n● Innovation: Promotes eco‑friendly product design.\n● Stakeholder Engagement: Integrates informal sector and communities.\n● Transparency: Public credit balances on CPCB portal.\n● Cost Optimization: Purchase credits at market rates.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Records for Credit Management",
+        content:
+          "● Annual recycling certificates per waste category\n● Portal records of credits earned and used\n● Supporting audit reports\n● EPR credit purchase agreements\n● Proof of credit retirement against targets",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How the Credit Model Works",
+        content:
+          "1. Earn credits by recycling waste volumes beyond targets.\n2. Record credits on the CPCB portal per category.\n3. Trade or use credits to satisfy future EPR liabilities.\n4. Monitor credit market and optimize purchase timing.\n5. Report credit transactions in annual returns.",
+      },
+    ],
+
+    whyUs: [
+      {
+        heading: "How DoStartup Assists",
+        description: [
+          "We offer affordable credits, portal management and legal support for CPCB notices.",
+        ],
+        points: [
+          "Competitive credit sourcing",
+          "Annual EPR portal filings",
+          "Legal guidance on compliance inquiries",
+          "Real‑time monitoring of credit balances",
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Stakeholders",
+        documents: [
+          "Producers (manufacturers, importers, brand owners)",
+          "Recyclers and co‑processors",
+          "Informal collectors integrated via formal schemes",
+        ],
+      },
+      {
+        category: "Credit Types",
+        documents: [
+          "Plastic Waste Credits",
+          "E‑Waste Credits",
+          "Battery Waste Credits",
+          "Tyre Waste Credits",
+        ],
+      },
+      {
+        category: "Challenges",
+        documents: [
+          "Lack of awareness on credit mechanisms",
+          "Inadequate formal recycling infrastructure",
+          "Complexity integrating informal sector",
+          "State‑wise enforcement inconsistencies",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are EPR credits?",
+        answer:
+          "Certificates earned by exceeding recycling targets, tradable to meet obligations.",
+      },
+      {
+        question: "Who can trade credits?",
+        answer: "Any registered producer or recycler on the CPCB portal.",
+      },
+      {
+        question: "Which streams qualify?",
+        answer: "Plastic, e‑waste, battery and tyre waste streams.",
+      },
+      {
+        question: "How often must credits be reported?",
+        answer:
+          "Credit earnings, trades and retirements must be reported in annual returns.",
+      },
+    ],
+  },
+
+  "esdd-food-processing": {
+    title:
+      "Environmental & Social Due Diligence in the Food Processing Industry",
+    description:
+      "Conduct comprehensive ESDD—assessing environmental impacts, social risks, and regulatory compliance—for sustainable food processing operations, with support from DoStartup’s AI-driven consulting platform.",
+    overview: [
+      {
+        heading: "DoStartup’s ESDD Expertise",
+        content:
+          "DoStartup is an AI-driven platform offering legal, financial, and environmental consulting. We deliver cutting-edge environmental solutions via impact assessments and monitoring, supporting project developers and sustainable development goals.",
+      },
+      {
+        heading: "Why ESDD Matters in Food Processing",
+        content:
+          "The food processing sector is resource‑intensive—high water, energy and raw material use—and generates significant waste. ESDD optimizes resource use, enforces waste management and ethical supply chains, ensures product safety, and upholds fair labor and community welfare across farm‑to‑fork.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of ESDD",
+        content:
+          "● Supply Chain Optimization: Ethical sourcing, timely payments, and quality assurance.\n● Centralized Oversight: Unified monitoring of recipes, labeling, pricing and sourcing.\n● Enhanced Product Development: Safe, sustainable innovation aligned with nutrition standards.\n● Strategic Pricing Control: Balancing procurement costs, fair pricing models and profitability.\n● Robust Monitoring & Control: Continuous quality checks, pollution control and compliance.\n● Community Trust: Transparent disclosure and grievance redress strengthen stakeholder relationships.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content:
+          "● Environmental Impact Assessment (EIA) reports and clearances\n● Social Impact Assessment and stakeholder consultation records\n● Waste management and water balance plans\n● Energy consumption and carbon footprint analyses\n● Health & safety, labor compliance and audit reports\n● Grievance Mechanism design and log templates\n● Site layouts, remediation plans and liability assessments",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content:
+          "1. Scoping & Baseline: Define project boundaries, conduct site visits and baseline data collection.\n2. Impact Assessment: Evaluate environmental (water, air, waste) and social (labor, community) risks.\n3. Mitigation Planning: Propose technologies, processes and policies to address identified risks.\n4. Stakeholder Engagement: Hold consultations, disclose findings in local languages and formats.\n5. Monitoring System Setup: Establish KPIs, sampling protocols, analytics and reporting cadence.\n6. Grievance Mechanism: Design accessible channels for community feedback and response.\n7. Final Reporting & Clearance: Compile ESDD report, obtain regulatory approvals and integrate into project execution.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline",
+        description:
+          "ESDD engagements vary by project scope but generally follow:",
+        steps: [
+          {
+            title: "Baseline & Scoping",
+            duration: "2–4 weeks",
+            description:
+              "Data gathering, site liability assessment and stakeholder mapping.",
+          },
+          {
+            title: "Assessment & Planning",
+            duration: "4–6 weeks",
+            description:
+              "Detailed environmental and social analysis, mitigation design.",
+          },
+          {
+            title: "Engagement & Reporting",
+            duration: "2–3 weeks",
+            description:
+              "Public consultations, report finalization and clearance submissions.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Challenges in ESDD Implementation",
+        documents: [
+          "Infrastructure Gaps: Poor cold chain, storage and transport logistics.",
+          "Limited Access to Capital: SMEs lack funding for sustainable upgrades.",
+          "Weak R&D Support: Low industry‑academia collaboration and commercialization.",
+          "Raw Material Volatility: Seasonal supply impacts quality and continuity.",
+          "Fragmented Supply Chains: Unorganized networks lead to high wastage.",
+        ],
+      },
+      {
+        category: "Opportunities in Food Processing",
+        documents: [
+          "Diverse Agro‑Resource Base: Vast raw agricultural inputs for value addition.",
+          "Emerging Technologies: Biotech, IoT, material science for efficiency gains.",
+          "Global Markets: Rising demand for high‑value processed foods and exports.",
+          "Job Creation: Value‑add drives rural employment and allied services.",
+        ],
+      },
+      {
+        category: "Policy Incentives & Support",
+        documents: [
+          "GST Benefits: 0–5% on food items, 12–18% on processing machinery.",
+          "Tax Holidays: 100% profit exemption for first 5 years in notified areas.",
+          "Capital Subsidies: Viability gap funding and NABARD’s ₹2,000 cr special fund.",
+          "Priority Lending: Cold chain and agro‑processing under priority sector lending.",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Our AI‑driven platform and global network of 500+ experts deliver fast, transparent and tailored ESDD solutions to strengthen sustainability, compliance and stakeholder trust.",
+        ],
+        points: [
+          "40,000+ lawyers, attorneys and environmental specialists",
+          "500+ in‑house consultants with decades of collective experience",
+          "Global partnerships with 40,000+ auditing and law firms",
+          "AI‑powered workflows for prompt support and real‑time monitoring",
+          "Dedicated foreign investment desk with 200+ client representatives",
+          "Proven satisfaction—trusted by 30,000+ entrepreneurs worldwide",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is environmental due diligence in food processing?",
+        answer:
+          "A systematic assessment of environmental risks—waste disposal, emissions, water/energy use—and mitigation measures to ensure regulatory compliance and sustainability.",
+      },
+      {
+        question: "Why is social due diligence crucial?",
+        answer:
+          "It ensures ethical labor practices, fair wages, community welfare and stakeholder engagement, vital in rural and supply‑chain contexts.",
+      },
+      {
+        question: "Which regulations guide ESDD?",
+        answer:
+          "Key frameworks include EIA Notification, Factories Act, Water/Air Acts, labor laws, and international standards like IFC Performance Standards.",
+      },
+      {
+        question: "How can firms conduct effective EIAs?",
+        answer:
+          "By partnering with experts for site assessments, stakeholder consultations and tailored mitigation strategies, followed by regulatory submissions.",
+      },
+      {
+        question: "What certifications validate ESDD?",
+        answer:
+          "ISO 14001 for environmental management and SA 8000 for social accountability demonstrate robust ESDD practices.",
+      },
+      {
+        question: "What penalties exist for non‑compliance?",
+        answer:
+          "Fines, project shutdowns, legal action and reputational damage—avoidable through professional ESDD guidance.",
+      },
+    ],
+  },
+
+  "esdd-tobacco-industry": {
+    title: "Environmental & Social Due Diligence in the Tobacco Industry",
+    description:
+      "Implement rigorous ESDD—identifying environmental harms, social risks and regulatory gaps—across the tobacco lifecycle, with DoStartup’s AI‑driven consultancy.",
+    overview: [
+      {
+        heading: "DoStartup’s ESDD Expertise",
+        content:
+          "DoStartup delivers AI‑driven environmental and social due diligence services—including impact assessments, pollution treatment design, monitoring and sustainability planning—to help tobacco stakeholders meet compliance, manage risks and advance sustainability.",
+      },
+      {
+        heading: "Why ESDD Matters in Tobacco",
+        content:
+          "Tobacco farming and production drive deforestation, soil degradation, water and air pollution, child labor and community health risks. ESDD aligns operations with SDGs, human rights and best practices for transparency and accountability.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of ESDD",
+        content:
+          "● SDG Alignment & Human Rights: Protect communities and uphold labor standards.\n● Ecological Protection: Mitigate deforestation, soil nutrient depletion and biodiversity loss.\n● Public Health Safeguards: Address secondhand smoke impacts and support awareness campaigns.\n● Supply Chain Ethics: Prevent exploitation of smallholder farmers and child labor.\n● Risk Reduction & Resilience: Early identification of E&S liabilities and stronger governance.\n● Reputation & Market Access: Demonstrate transparency to regulators, investors and NGOs.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content:
+          "● Environmental Impact Assessment (EIA) reports and clearances\n● Social Impact Assessment and stakeholder consultation records\n● Deforestation and land‑use change data\n● Labor, health & safety audit reports\n● Water, soil and air pollution monitoring data\n● Community grievance logs and redress mechanisms\n● Remediation and rehabilitation plans\n● Regulatory compliance certificates (COTPA, pollution consents)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content:
+          "1. Scoping & Baseline: Define project scope, conduct site visits and collect baseline data.\n2. Impact Assessment: Evaluate environmental (deforestation, emissions, waste) and social (labor conditions, health) risks.\n3. Mitigation Planning: Propose avoidance, minimization, mitigation and offset measures.\n4. Stakeholder Engagement: Hold transparent consultations and release findings in local languages.\n5. Monitoring & Reporting: Establish KPIs, sampling protocols and regular reporting schedules.\n6. Grievance Mechanism: Design accessible channels and response protocols for community feedback.\n7. Final Reporting & Approvals: Compile the ESDD report for regulatory submission and project integration.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical ESDD Timeline",
+        description: "Approximate durations for key phases:",
+        steps: [
+          {
+            title: "Scoping & Baseline",
+            duration: "2–4 weeks",
+            description:
+              "Site visits, baseline data collection and stakeholder mapping.",
+          },
+          {
+            title: "Assessment & Planning",
+            duration: "4–6 weeks",
+            description:
+              "Detailed environmental and social analysis plus mitigation design.",
+          },
+          {
+            title: "Engagement & Reporting",
+            duration: "2–3 weeks",
+            description:
+              "Community consultations, final report preparation and regulatory filings.",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Challenges in ESDD",
+        documents: [
+          "Data Deficiency: Lack of reliable metrics on environmental and social impacts.",
+          "Regulatory Exploitation: Inconsistent enforcement across jurisdictions.",
+          "Farming Dependency: Economic reliance on tobacco in low‑income areas.",
+          "Public Health Burden: High disease incidence among workers and communities.",
+          "Lifecycle Risks: Cumulative impacts from cultivation through disposal.",
+        ],
+      },
+      {
+        category: "DoStartup’s Core Services",
+        documents: [
+          "Environmental & Social Impact Assessments (ESIAs)",
+          "Site Contamination & Liability Evaluations",
+          "Mitigation & Sustainability Planning",
+          "Stakeholder Consultation & Disclosure",
+          "Monitoring, Reporting & Post‑Project Reviews",
+          "Grievance Redress Mechanism Design",
+        ],
+      },
+      {
+        category: "ESDD Methodology",
+        documents: [
+          "Legal & Policy Review: COTPA 2003, Environmental and labor laws.",
+          "On‑Ground Assessment: Site visits, interviews and baseline surveys.",
+          "Risk Classification: Categorize environmental and social risks.",
+          "Mitigation Hierarchy: Avoid > Minimize > Mitigate > Offset.",
+          "Monitoring Framework: Define KPIs, sampling and analytics.",
+          "Reporting & Approvals: Prepare and submit comprehensive ESDD report.",
+        ],
+      },
+      {
+        category: "Regulatory Framework",
+        documents: [
+          "Cigarettes & Other Tobacco Products Act (COTPA), 2003",
+          "Environmental Protection Act, 1986",
+          "EIA Notification, 2006",
+          "Forest Conservation Act, 1980",
+          "Air & Water (Prevention & Control) Acts",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Our AI‑driven platform and global expert network deliver fast, transparent and tailored ESDD solutions, ensuring compliance and stakeholder trust.",
+        ],
+        points: [
+          "40,000+ environmental & legal experts",
+          "500+ in‑house consultants with deep domain expertise",
+          "AI‑powered workflows and real‑time monitoring",
+          "End‑to‑end support from assessment through clearance",
+          "Proven track record with 30,000+ clients globally",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is ESDD in the tobacco industry?",
+        answer:
+          "A structured process to identify, assess and manage environmental impacts—deforestation, pollution—and social risks—labor conditions, health hazards—throughout tobacco cultivation, production and disposal.",
+      },
+      {
+        question: "Why is ESDD critical for tobacco?",
+        answer:
+          "To mitigate ecological damage, human rights abuses and health risks, ensuring ethical and sustainable operations.",
+      },
+      {
+        question: "Which laws guide tobacco ESDD?",
+        answer:
+          "COTPA 2003, Environmental Protection Act, EIA Notification, Forest Conservation Act, Air & Water Acts, and labor regulations.",
+      },
+      {
+        question: "How long does ESDD take?",
+        answer:
+          "Typically 8–12 weeks depending on project scope, site complexity and stakeholder engagement.",
+      },
+      {
+        question: "What follows ESDD reporting?",
+        answer:
+          "Implementation of mitigation plans, regulatory submissions, continuous monitoring and periodic audits to ensure lasting compliance and impact reduction.",
+      },
+    ],
+  },
+
+  "esdd-aerospace-industry": {
+    title: "Environmental & Social Due Diligence in the Aerospace Industry",
+    description:
+      "Partner with DoStartup’s AI‑driven platform to navigate the complex ESDD landscape in aerospace—identifying environmental risks, social impacts, and governance challenges while ensuring compliance and sustainable growth.",
+    overview: [
+      {
+        heading: "DoStartup’s ESDD Expertise",
+        content:
+          "We offer comprehensive ESDD services tailored for aerospace—impact assessments, compliance frameworks, sustainability planning and technological advisory—backed by decades of in‑house experience and a global regulatory insights network.",
+      },
+      {
+        heading: "Why ESDD Matters in Aerospace",
+        content:
+          "The aerospace industry contributes nearly 2% of global CO₂ emissions and faces significant social and governance risks. Rigorous ESDD mitigates long‑term climate impacts, ensures ethical labor and procurement practices, and guards against regulatory and reputational liabilities.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Outsourcing ESDD",
+        content:
+          "● Improved Access to Investment: Strong ESG credentials attract capital.\n● Enhanced Operational Efficiency: Streamlined compliance reduces delays.\n● Cost Savings & Risk Mitigation: Early risk identification avoids fines and project stoppages.\n● Assured Regulatory Compliance: Stay ahead of evolving global and local aerospace regulations.\n● Focus on Core Innovation: Let experts manage ESDD while you concentrate on R&D and growth.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content:
+          "● Environmental Impact Assessment (EIA) reports and clearances\n● Social Impact Assessment (SIA) and stakeholder consultation records\n● Emissions data (CO₂, NOx, particulates) and resource‑use analyses\n● Waste management and water balance plans\n● Health & safety and labor compliance policies\n● Governance frameworks and anti‑corruption declarations\n● Technology and cybersecurity risk assessments\n● Grievance redress mechanism documentation",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content:
+          "1. Risk Identification: Uncover environmental, social and governance risks across operations.\n2. Risk Management: Prioritize risks and design mitigation strategies using cost‑effective resources.\n3. Vetting Existing Plans: Conduct gap analysis on your current ESDD framework and strengthen weak areas.\n4. Effective Reporting: Compile transparent, regulation‑aligned ESDD reports for stakeholders and regulators.\n5. Implementation Support: Guide integration of mitigation measures, monitoring systems and grievance mechanisms.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Engagement Timeline",
+        description:
+          "ESDD engagements generally span 8–12 weeks, depending on project scope, data availability and stakeholder engagement requirements.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Challenges in Aerospace ESDD",
+        documents: [
+          "Environmental Risks: High emissions, resource consumption and waste generation.",
+          "Social Challenges: Worker safety, ethical sourcing and diversity/inclusion needs.",
+          "Governance Risks: Corruption, opaque contracting and compliance gaps.",
+          "Technological Barriers: Need for advanced monitoring and data analytics tools.",
+        ],
+      },
+      {
+        category: "Why ESDD Is a Strategic Imperative",
+        documents: [
+          "Meet Investor Expectations: Demonstrate robust ESG performance.",
+          "Ensure Market Access: Comply with stringent aerospace regulations worldwide.",
+          "Drive Innovation: Use ESDD insights to improve materials, processes and designs.",
+          "Build Resilience: Anticipate and mitigate long‑term environmental and social risks.",
+        ],
+      },
+      {
+        category: "Aerospace Industry Growth Outlook",
+        documents: [
+          "Projected to reach USD 70 billion in India by 2030.",
+          "Passenger traffic growing >15% annually—200 million travelers handled last year.",
+          "Defense modernization and infrastructure expansion driving demand.",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Our AI‑powered consultancy platform and network of 50,000+ legal, environmental, technical and governance experts deliver end‑to‑end ESDD solutions that are timely, transparent and tailored to your aerospace needs.",
+        ],
+        points: [
+          "Global regulatory insights and best practices",
+          "AI‑driven data analytics and monitoring dashboards",
+          "400+ environmental specialists and industry veterans",
+          "Seamless integration of technical, legal and compliance services",
+          "24/7 customer support and dedicated account managers",
+          "Proven track record: 10,000+ entrepreneurs served, 99.8% satisfaction",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Environmental and Social Due Diligence (ESDD)?",
+        answer:
+          "A structured assessment process to identify and manage environmental, social and governance risks tied to aerospace operations, from emissions and resource use to labor practices and regulatory compliance.",
+      },
+      {
+        question: "Why is ESDD critical for aerospace companies?",
+        answer:
+          "Due to high emissions, complex supply chains and global regulatory scrutiny, ESDD helps mitigate climate impacts, ensure ethical labor practices and avoid fines or market access issues.",
+      },
+      {
+        question: "How long does an ESDD engagement take?",
+        answer:
+          "Typically 8–12 weeks, depending on project complexity, data availability and stakeholder consultations.",
+      },
+      {
+        question: "Can existing ESDD plans be improved?",
+        answer:
+          "Yes—DoStartup performs gap analyses on current frameworks and strengthens weak spots through targeted recommendations.",
+      },
+      {
+        question: "What regulations guide aerospace ESDD?",
+        answer:
+          "Key frameworks include national environmental laws, ICAO emissions standards, labor and health & safety regulations, and international ESG guidelines.",
+      },
+    ],
+  },
+
+  "esdd-renewable-energy-industry": {
+    title:
+      "Environmental & Social Due Diligence in the Renewable Energy Industry",
+    description:
+      "Leverage DoStartup’s specialized ESDD expertise—risk assessments, compliance strategies, data analysis and implementation support—to ensure your renewable energy projects meet stringent environmental and social standards.",
+    overview: [
+      {
+        heading: "DoStartup’s Strategic Partnership",
+        content:
+          "We guide you through every stage of ESDD compliance—from preliminary risk identification and regulatory interpretation to hands‑on implementation—freeing your team to focus on core operations.",
+      },
+      {
+        heading: "Why ESDD Matters in Renewable Energy",
+        content:
+          "Rapid sector growth brings complex environmental and social risks: ecosystem disruption, water use, community impacts and evolving regulations. Rigorous ESDD secures permits, protects reputation and accelerates sustainable development.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Outsourcing ESDD",
+        content:
+          "● Full Regulatory Compliance: Avoid fines, delays or license suspensions under India’s stringent environmental laws.\n● Enhanced Reputation: Demonstrate sustainability commitment to investors, customers and communities.\n● Investor & Customer Confidence: Strong ESG performance attracts capital and loyalty.\n● Risk Mitigation: Address ecosystem impacts, water usage and waste early.\n● Cost Efficiency: Access expert resources on‑demand without maintaining an in‑house ESDD team.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content:
+          "● Environmental Impact Assessment (EIA) reports\n● Social Impact Assessment (SIA) and consultation records\n● Biodiversity and water‑use studies\n● Land‑use and site layout plans\n● Health & safety and labor compliance policies\n● Emissions and resource consumption data\n● Grievance redress mechanism logs\n● Regulatory filings and permits",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content:
+          "1. Risk Identification & Assessment: Map environmental, social and regulatory liabilities.\n2. Risk Management & Strategy: Prioritize and design cost‑effective mitigation.\n3. Gap Analysis: Review existing ESDD plans and strengthen weak areas.\n4. Implementation Support: Integrate mitigation measures, monitoring systems and grievance mechanisms.\n5. Reporting & Submission: Prepare comprehensive ESDD reports for regulators and stakeholders.",
+      },
+    ],
+    registrationTimeline: [],
+    Listicles: [
+      {
+        category: "Challenges in ESDD Compliance",
+        documents: [
+          "Resource Limitations: Budget and manpower constraints among smaller firms.",
+          "Rapidly Changing Regulations: Difficulty keeping pace with evolving laws and standards.",
+          "Data Complexity: Identifying reliable sources and conducting in‑depth analysis.",
+          "Technological Barriers: High costs of ESDD software and training requirements.",
+        ],
+      },
+      {
+        category: "Key Offerings of Our ESDD Package",
+        documents: [
+          "Risk Identification & Assessment: Impartial evaluations of hidden environmental and social risks.",
+          "Risk Management Framework: Prioritization and cost‑effective mitigation strategies.",
+          "ESDD Planning & Strategy: Integration of due diligence into core business processes.",
+          "Gap Analysis: Detailed review of existing ESDD plans and targeted enhancements.",
+        ],
+      },
+      {
+        category: "Additional Services We Offer",
+        documents: [
+          "Expert Consultation: On‑demand guidance from industry veterans.",
+          "Documentation Support: Accurate preparation and timely submission of all compliance filings.",
+          "Customized Solutions: Tailored ESDD strategies aligned with your project goals.",
+          "Proactive Follow‑ups: Regular updates and accountability throughout the engagement.",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "As a cloud‑based consultancy with AI‑driven workflows and a network of 50,000+ experts, we deliver end‑to‑end ESDD solutions that are efficient, transparent and tailored to the renewable energy sector.",
+        ],
+        points: [
+          "Global regulatory insights and best practices",
+          "400+ in‑house environmental and social specialists",
+          "99.8% project efficiency with on‑time completion",
+          "24/7 dedicated customer support and follow‑up",
+          "Proven track record: 10,000+ entrepreneurs served",
+          "Strong partner network of 40,000+ law and audit firms",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Environmental and Social Due Diligence (ESDD)?",
+        answer:
+          "A systematic process to identify, assess and manage environmental and social risks linked to business operations or projects.",
+      },
+      {
+        question: "Why is ESDD essential in renewable energy?",
+        answer:
+          "To address ecosystem impacts, water use, community concerns and ensure compliance with stringent environmental and social regulations.",
+      },
+      {
+        question: "How is ESDD conducted?",
+        answer:
+          "Through risk mapping, stakeholder engagement, data analysis, mitigation planning and regulatory reporting, supported by expert guidance.",
+      },
+      {
+        question: "What are common ESDD challenges?",
+        answer:
+          "Limited resources, rapidly evolving laws, complex data requirements and high technology costs.",
+      },
+      {
+        question: "Can you improve existing ESDD plans?",
+        answer:
+          "Yes—DoStartup performs gap analyses and strengthens plans with targeted recommendations and implementation support.",
+      },
+    ],
+  },
+
+
+
+  "esdd-financial-banking-sector": {
+    title: "Environmental & Social Due Diligence in the Financial & Banking Sector",
+    description: "Partner with DoStartup to navigate ESDD compliance—data strategies, risk mitigation, regulatory readiness and sustainability benchmarking—for financial institutions.",
+    overview: [
+      {
+        heading: "DoStartup’s ESDD Expertise",
+        content: "We provide end-to-end environmental and social due diligence services—compliance evaluations, customized action plans and strategic implementation—tailored for banks and financial firms."
+      },
+      {
+        heading: "Why ESDD Matters in Finance",
+        content: "As ESG moves from voluntary to mandatory, financial institutions face data fragmentation, environmental crime financing risks, tech limitations and resource constraints. Rigorous ESDD builds trust, enhances resilience and meets evolving regulations."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Outsourcing ESDD",
+        content: "● Proactive Risk Management: Identify environmental and social risks early.\n● Enhanced Operational Performance: Free internal teams to focus on core business.\n● Increased Regulatory Readiness: Stay ahead of sustainability regulations.\n● Cost Savings: Access experts on-demand instead of sustaining in‑house teams.\n● Brand & Investor Confidence: Demonstrate strong ESG credentials."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content: "● Data collection frameworks and privacy compliance records\n● AML/CTF policies addressing environmental crime financing\n● Technology and cybersecurity risk assessments\n● Stakeholder engagement and grievance mechanism logs\n● ESG reporting and audit trail documents\n● Regulatory filings and compliance certificates"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content: "1. Data Strategy & Collection: Design data flows and secure accurate ESG data.\n2. Risk Identification: Map financial, environmental crime and social risks.\n3. Mitigation & Strategy: Develop controls and compliance programs.\n4. Benchmarking & Reporting: Compare against peers and prepare regulatory submissions.\n5. Ongoing Support: Monitor regulatory updates, provide real‑time insights and follow‑ups."
+      }
+    ],
+    registrationTimeline: [],
+    Listicles: [
+      {
+        category: "Key ESDD Challenges",
+        documents: [
+          "Data Fragmentation: Privacy concerns hinder ESG data collection.",
+          "Environmental Crime Financing: Money laundering linked to illegal natural resource exploitation.",
+          "Technological Barriers: Legacy systems and cybersecurity constraints.",
+          "Resource Constraints: Limited budget and expertise for comprehensive ESDD."
+        ]
+      },
+      {
+        category: "Our Core Services",
+        documents: [
+          "Data Analysis & Reporting: Expert-driven ESG data strategies and actionable insights.",
+          "Comprehensive Documentation: Accurate preparation of due diligence reports and filings.",
+          "Regulatory Compliance: Alignment with evolving environmental and social regulations.",
+          "Market Intelligence & Benchmarking: Peer comparisons and trend insights."
+        ]
+      },
+      {
+        category: "Additional Support",
+        documents: [
+          "Expert Consultation: Personalized guidance at every step.",
+          "One‑Stop Solution: Single point of contact for all ESDD needs.",
+          "Real‑Time Tracking: Monitor progress via our user-friendly platform.",
+          "Customized Solutions: Tailored ESDD strategies for your institution."
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Our AI‑powered, cloud-based platform and network of 50,000+ experts deliver efficient, transparent and tailored ESDD solutions for the financial sector."
+        ],
+        points: [
+          "Proven 99.7% project success rate",
+          "400+ in‑house environmental and social specialists",
+          "24/7 customer support and proactive follow‑ups",
+          "Strong partner network of 40,000+ law and audit firms",
+          "End‑to‑end ESDD lifecycle management"
         ]
       }
     ],
     faq: [
       {
-        question: "What is a trademark hearing?",
-        answer: "A trademark hearing is a legal proceeding where you present your case to a Trademark Registrar in response to objections raised during the trademark examination process."
+        question: "What is ESDD in banking and finance?",
+        answer: "A process evaluating environmental and social factors in financial operations and investments to ensure sustainable and responsible practices."
       },
       {
-        question: "When is a trademark hearing required?",
-        answer: "A hearing is scheduled when the Registrar is not satisfied with the written response to the examination report."
+        question: "Why is ESDD important for financial institutions?",
+        answer: "It mitigates ESG risks, prevents environmental crime financing, enhances regulatory compliance and builds stakeholder trust."
       },
       {
-        question: "Can a trademark hearing be rescheduled?",
-        answer: "Yes, you can submit Form TMM to request a postponement of your hearing date."
+        question: "How is ESDD conducted?",
+        answer: "Through data collection, risk mapping, mitigation planning, benchmarking and regulatory reporting supported by expert guidance."
       },
       {
-        question: "What happens if I miss the trademark hearing?",
-        answer: "Repeated absences without valid reason may lead to rejection of your trademark application."
+        question: "What documentation is required for ESDD?",
+        answer: "ESG data frameworks, AML/CTF policies, risk assessments, stakeholder logs, audit trails and regulatory filings."
       },
       {
-        question: "Do I need a lawyer for a trademark hearing?",
-        answer: "It is strongly recommended to have a trademark attorney or authorized representative to present your case effectively."
+        question: "Can existing ESDD programs be improved?",
+        answer: "Yes—DoStartup performs gap analyses and strengthens programs with targeted recommendations and ongoing support."
+      }
+    ]
+  },
+
+
+
+
+  "esdd-dairy-industry": {
+    title: "Environmental & Social Due Diligence in the Dairy Industry",
+    description: "Partner with DoStartup for expert ESDD services—compliance assessments, gap analysis, waste management strategies, licensing support and transparent reporting—tailored to India’s dairy sector.",
+    overview: [
+      {
+        heading: "Why ESDD Matters in Dairy",
+        content: "India’s dairy sector faces environmental challenges—land use, water consumption, GHG emissions—and social concerns around unorganized supply chains and animal welfare. Rigorous ESDD ensures sustainable growth, regulatory compliance, and strong brand reputation."
+      },
+      {
+        heading: "DoStartup’s ESDD Expertise",
+        content: "Our in‑house team offers end‑to‑end support: from compliance assessments and strategy formulation to hands‑on implementation, stakeholder communication, and real‑time regulatory updates."
       }
     ],
-    Listicles: []
-  }
+    benefits: [
+      {
+        heading: "Key Benefits of Outsourcing ESDD",
+        content: "● Improved Market Access & Brand Value: Sustainably‑certified products unlock premium markets.\n● Cost Efficiency: Access expert ESDD resources on‑demand without full‑time overhead.\n● ESG Goal Alignment: Waste reduction, resource efficiency and ethical supply chains.\n● Enhanced Operational Efficiency: Streamlined processes and reduced regulatory risk."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content: "● Supply chain mapping and stakeholder records\n● Water‑use and GHG emissions data\n● Animal welfare policies and audit logs\n● Waste management plans and recycling records\n● FSSAI and environmental permits\n● Grievance redress mechanism documentation\n● ESG and sustainability reports"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content: "1. Gap Analysis: Identify compliance and operational deficiencies.\n2. Strategy & Planning: Develop tailored ESDD plans and waste management strategies.\n3. Licensing Support: Secure FSSAI, environmental and other regulatory permits.\n4. Implementation & Monitoring: Integrate mitigation measures and track progress.\n5. Reporting & Communication: Prepare clear ESDD/ESG reports for regulators and stakeholders."
+      }
+    ],
+    registrationTimeline: [],
+    Listicles: [
+      {
+        category: "Dairy Industry Challenges",
+        documents: [
+          "Complex Supply Chains: Numerous smallholders and unorganized procurement networks.",
+          "Animal Welfare: Growing regulatory and consumer focus on humane practices.",
+          "Resource Constraints: SMEs lack budget and expertise for full‑scale ESDD.",
+          "Regulatory Complexity: Multiple licences and frequent updates across food and environmental laws."
+        ]
+      },
+      {
+        category: "Our Core Services",
+        documents: [
+          "Gap Analysis: In‑depth review of current practices vs. compliance targets.",
+          "Waste Management Strategies: Design and implement efficient, eco‑friendly solutions.",
+          "Licensing & Permits Assistance: End‑to‑end support for FSSAI, SPCB, pollution consents.",
+          "ESDD Reporting: Transparent reports to build trust with regulators and customers."
+        ]
+      },
+      {
+        category: "Extended Support",
+        documents: [
+          "Expert Consultation: Ongoing guidance from dairy and ESDD specialists.",
+          "Customized Solutions: Tailored to your scale, structure and sustainability goals.",
+          "Real‑Time Updates: Stay informed with regulatory changes and project status.",
+          "One‑Stop Partner: Single point of contact for all ESDD and compliance needs."
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Our AI‑driven, cloud-based platform and network of 50,000+ experts deliver efficient, transparent ESDD solutions tailored to the dairy sector."
+        ],
+        points: [
+          "Deep dairy and agricultural sector expertise",
+          "400+ in‑house environmental and social specialists",
+          "99.9% service success rate with on‑time delivery",
+          "24/7 dedicated customer support",
+          "Strong partner network of 40,000+ law and audit firms",
+          "End‑to‑end lifecycle management"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is ESDD?",
+        answer: "A structured assessment of environmental and social risks associated with business operations or projects."
+      },
+      {
+        question: "Why is ESDD critical in dairy?",
+        answer: "To manage GHG emissions, water use, animal welfare, waste management, and compliance with multiple regulations."
+      },
+      {
+        question: "How is ESDD conducted?",
+        answer: "Through gap analysis, strategy formulation, implementation support, monitoring, and transparent reporting."
+      },
+      {
+        question: "What documentation is required?",
+        answer: "Supply chain maps, water and emissions data, welfare policies, waste plans, licences, and ESG reports."
+      },
+      {
+        question: "Can existing ESDD plans be improved?",
+        answer: "Yes—DoStartup performs gap analyses and enhances plans with targeted recommendations and hands‑on support."
+      }
+    ]
+  },
+
+
+
+
+  "esdd-sugar-industry": {
+    title: "Environmental & Social Due Diligence in the Sugar Industry",
+    description: "DoStartup provides end‑to‑end ESDD services—risk assessments, gap analysis, licensing support, food safety audits, and real‑time monitoring—tailored to India’s sugar sector.",
+    overview: [
+      {
+        heading: "Why ESDD Matters in Sugar",
+        content: "The sugar industry faces regulatory complexity, fragmented supply chains, climatic variability and social risks among sugarcane growers. Rigorous ESDD protects against compliance failures, operational disruptions and stakeholder concerns."
+      },
+      {
+        heading: "DoStartup’s Expertise",
+        content: "Our in‑house team delivers comprehensive impact assessments, pollution‑control solutions, compliance roadmaps and actionable implementation support—ensuring you meet all environmental and social obligations."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Outsourcing ESDD",
+        content: "● Proactive Risk Mitigation: Identify environmental and social hazards early.\n● Resource Efficiency: Leverage expert support without full‑time overheads.\n● Regulatory Confidence: Stay ahead of evolving sugar‑sector regulations.\n● Enhanced Reputation: Demonstrate commitment to sustainable, ethical operations."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content: "● Sugarcane sourcing and procurement records\n● Effluent discharge and treatment data\n● Labour practice and worker safety logs\n● Community engagement and grievance mechanism files\n● Environmental and factory permits\n● Food safety audit reports\n● ESG and sustainability disclosures"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "ESDD Process Steps",
+        content: "1. Risk Assessment: Evaluate environmental and social hazards across operations.\n2. Gap Analysis: Review existing compliance measures and identify deficiencies.\n3. Licensing & Permits: Streamline acquisition and renewal of all regulatory approvals.\n4. Food Safety Audits: Ensure quality and safety standards in processing.\n5. Implementation & Monitoring: Integrate mitigation measures and track progress.\n6. Reporting & Communication: Deliver clear ESDD reports to stakeholders and regulators."
+      }
+    ],
+    registrationTimeline: [],
+    Listicles: [
+      {
+        category: "Industry Challenges",
+        documents: [
+          "Regulatory Complexity: MSPs, quotas and shifting import/export duties.",
+          "Fragmented Market: Mix of organized mills and smallholders driving cost pressures.",
+          "Climatic Variability: Erratic weather impacting cane yields and supply stability.",
+          "Social Risks: Worker safety, health conditions and community impacts in rural areas."
+        ]
+      },
+      {
+        category: "Our Core Services",
+        documents: [
+          "Risk Assessment: Severity and likelihood ranking of E&S hazards.",
+          "Gap Analysis & Plan Review: Strengthen existing ESDD documentation.",
+          "Licensing & Permits: End‑to‑end support for environmental, factory and food licenses.",
+          "Food Safety Audits: Thorough reviews to meet consumer quality expectations."
+        ]
+      },
+      {
+        category: "Extended Support",
+        documents: [
+          "Expert Consultation: Ongoing regulatory and technical guidance.",
+          "Real‑Time Dashboard: Monitor progress and updates via our digital platform.",
+          "Documentation Support: Accurate preparation and filing of all compliance reports.",
+          "Customized Solutions: Tailored to your mill size, supply chain and growth goals."
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Our AI‑driven, cloud‑based platform and network of 50,000+ specialists deliver precise, efficient ESDD solutions tailored for the sugar industry."
+        ],
+        points: [
+          "99.9% compliance success rate",
+          "400+ environmental and social experts",
+          "24/7 dedicated customer support",
+          "End‑to‑end lifecycle management",
+          "Strong network of 40,000+ law and audit firms"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What sustainability issues affect the sugar industry?",
+        answer: "Effluent discharge, solid waste generation, GHG emissions, resource depletion and community health impacts require rigorous ESDD."
+      },
+      {
+        question: "Why conduct ESDD in sugar?",
+        answer: "To mitigate environmental, social and regulatory risks—from cane sourcing to processing—and to protect financial and reputational value."
+      },
+      {
+        question: "How is ESDD carried out?",
+        answer: "Through risk assessments, gap analyses, permit management, food safety audits, implementation of mitigation measures and transparent reporting."
+      },
+      {
+        question: "What paperwork is needed?",
+        answer: "Records of sourcing, emissions, effluent treatment, labour practices, community engagement, licenses and ESG disclosures."
+      },
+      {
+        question: "Can existing ESDD programs be improved?",
+        answer: "Yes—DoStartup performs detailed reviews and provides targeted enhancements to ensure robust compliance."
+      }
+    ]
+  },
+
+
+
+
+
+
+  "esdd-iron-steel-industry": {
+  title: "Environmental & Social Due Diligence in the Iron and Steel Industry",
+  description: "Achieve sustainability, regulatory compliance, and long-term risk mitigation in the iron and steel sector through expert-led Environmental and Social Due Diligence (ESDD) services by DoStartup.",
+  overview: [
+    {
+      heading: "Why Conduct Environmental and Social Due Diligence in the Iron and Steel Industry?",
+      content: "Companies that prioritize environmental and social compliance are gaining a clear competitive edge. Investors, eco-conscious customers, and the general public are increasingly loyal to businesses that adopt sustainable practices. By ensuring compliance, companies not only meet legal obligations but also enhance their brand value and reputation simultaneously.\n\nDoStartup helps you achieve both with ease. Our dostartup solutions empower businesses to integrate Environmental and Social Due Diligence (ESDD) seamlessly into their operations, helping them meet stakeholder expectations and regulatory mandates.\n\nIf you’re ready to shift your business strategy towards sustainability, DoStartup brings deep expertise in ESDD and ESG frameworks. Our tailored services include expert guidance, documentation support, and end-to-end compliance assistance to ensure timely submissions and efficient regulatory approvals."
+    },
+    {
+      heading: "Why the Iron and Steel Industry Needs ESDD",
+      content: "Over the years, the iron and steel industry has made notable progress in curbing carbon emissions. However, much of this progress has stemmed from technological advancements in production processes—something that, while valuable, is not enough. To truly reduce the sector’s environmental footprint, more focused and comprehensive actions are needed.\n\nSteel is widely used and is also one of the most recycled materials in the world. Yet, its production is extremely energy-intensive, requiring high temperatures and abundant fossil fuel usage—primarily coal and oil. This makes the iron and steel sector a significant emitter of carbon dioxide, contributing around 6% of global greenhouse gas emissions.\n\nAs climate change concerns grow, stakeholders—including investors, regulators, and customers—are demanding more sustainable practices. To meet these demands, businesses must rethink outdated methods and invest in ESDD to make their operations future-ready and environmentally responsible."
+    },
+    {
+      heading: "The Role of the Iron and Steel Industry in India",
+      content: "India ranks as the world’s second-largest producer of crude steel, with a production output of 125.32 million tonnes in 2023 and a projected rise to 123–127 million tonnes in the coming year. The domestic steel sector has grown by more than 75% since 2008, also reflecting an 80% surge in national demand.\n\nThis growth reflects the country’s broader economic development, and the Indian government is playing an active role in promoting it. For example, the Union Budget 2023–24 allocated ₹70.15 crore (USD 8.6 million) to the Ministry of Steel. Mergers within the industry and increasing foreign investments are further driving expansion.\n\nHowever, this rapid growth raises concerns about sustainability. Reports show that steel production in India emits around 2.55 tonnes of CO₂ per tonne of steel—far higher than the global average of 1.85 tonnes. This highlights the urgent need to incorporate environmental and social due diligence to assess and manage the negative effects of production."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Why Hire ESDD Consultants for the Iron and Steel Sector?",
+      content: "The iron and steel industry plays a critical role in building a circular economy due to its high recyclability and strength. While the sector has made strides in carbon reduction, it still accounts for around 8% of global CO₂ emissions—making it one of the most energy intensive industries.\n\nAs the world moves toward decarbonization, aligning your business with ESDD norms isn’t optional—it’s imperative. Here’s how DoStartup’s dostartup solutions can help:\n\n1. Unlock Investment Opportunities\nWith rising global awareness around sustainability, investors are seeking eco-compliant portfolios. ESDD-aligned businesses present lower risks and greater adaptability—making them more attractive to funders.\n\nBy improving your ESDD metrics, DoStartup helps position your company as a top choice for green investments and global partnerships.\n\n2. Boost Reputation and Brand Loyalty\nToday, ESDD is more than a compliance checklist—it’s a credibility marker. Stakeholders respect businesses that actively disclose environmental and social metrics. This transparency builds brand loyalty, customer trust, and investor confidence.\n\nWith DoStartup, your business can stand out as a sustainability leader in the iron and steel space.\n\n3. Save on Long-Term Costs\nOutsourcing ESDD to DoStartup allows you to save the significant costs involved in hiring, training, and maintaining an internal ESG team. With access to our 400+ experts, you get premium consulting services without recurring payroll burdens.\n\nInstead of spending more, choose dostartup and spend smart—ensuring quality compliance while reducing operational overhead."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Typical ESDD Documentation",
+      content: "• Environmental Impact Assessment (EIA) reports and clearances\n• Social Impact Assessment and stakeholder consultation records\n• Emissions, waste and energy use reports\n• Labor, health & safety compliance records\n• Pollution control certificates\n• Compliance filings with Ministry of Steel and CPCB\n• Community consultation and grievance records\n• Site monitoring and audit logs"
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "ESDD Consultant Services by DoStartup – A Smarter Way Forward",
+      content: "For businesses seeking structured ESDD implementation in the iron and steel industry, DoStartup provides comprehensive, expert-driven consulting services, including:\n\n1. Risk Identification and Assessment\nThe primary aim of ESDD is to uncover potential risks before they escalate. However, internal teams often miss key red flags due to inherent bias or lack of expertise.\n\nOur dostartup experts conduct impartial, in-depth assessments to detect environmental and social risks—ensuring your business is shielded from future liabilities.\n\n2. Custom Risk Management Strategies\nIdentifying risk is just the beginning. You also need robust strategies to mitigate them. At DoStartup, we understand that complete elimination of risk is impractical, but we help build resilient risk response systems that reduce your vulnerability significantly.\n\n3. ESDD Reporting\nReporting is a crucial component of ESDD compliance. Our experienced team crafts detailed, regulator-ready ESDD reports that serve as tangible proof of your commitment to sustainable practices.\n\n4. Complete Regulatory Compliance\nFrom pollution control to labor standards, the iron and steel industry is governed by a vast array of environmental and social mandates. Our team stays updated on all changes and ensures your business remains fully compliant.\n\nWith DoStartup, you’ll never miss a regulation or deadline again."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Partner with DoStartup for ESDD Compliance?",
+      description: [
+        "When it comes to ensuring ESDD compliance, DoStartup stands out for its unmatched experience and domain expertise. Our team consists of seasoned legal, environmental, and industrial experts who have successfully assisted numerous clients in the iron and steel industry.\n\nWith a proven track record of 99.8% compliance efficiency, DoStartup keeps your business ahead of ever-evolving regulations and compliance standards. We continuously monitor changes in environmental and social regulations to ensure your business remains compliant—avoiding costly penalties and reputational harm.\n\nAt DoStartup, we uphold high ethical standards and deliver insightful, end-to-end consulting services tailored to your specific needs. We serve as a one-stop solution for companies seeking strategic advice and regulatory support, helping you navigate the complexities of environmental compliance in the iron and steel sector."
+      ],
+      points: [
+        "Renowned Cloud-Based Compliance Platform",
+        "AI-Driven and Scalable Service Delivery",
+        "99.8% Project Efficiency Track Record",
+        "A Network of 400+ Experienced ESDD Experts",
+        "Assisted Over 10,000 Entrepreneurs Across India",
+        "9% of Clients Come Through Direct Recommendations"
+      ]
+    }
+  ],
+  Listicles: [
+    {
+      category: "What Are the Roadblocks in ESDD in the Iron and Steel Industry?",
+      documents: [
+        "As climate change concerns intensify globally, the spotlight on sustainability in the iron and steel industry is growing. Integrating ESDD into this sector is essential—but not without challenges.",
+        "The iron and steel industry has historically been a major contributor to national economies and employment. However, this legacy brings with it numerous hurdles when it comes to implementing ethical and environmentally sound practices. Let’s look at some key challenges:",
+        "1. Financial Constraints\nBeing a capital-intensive industry, the iron and steel sector requires heavy investment. For instance, establishing just 1 tonne of steel-making capacity may cost around INR 7,000 crore. The high cost of financing, especially in India compared to developed nations like China or South Korea, discourages fresh investments.\n\nMaintaining an in-house team to ensure ESDD compliance can significantly add to operational expenses. That’s where dostartup services from DoStartup offer an edge—providing expert solutions without the burden of internal overheads.",
+        "2. Complicated Regulatory Landscape\nThe sector is governed by a labyrinth of environmental and social regulations that frequently change. For small and medium enterprises (SMEs), staying updated without professional help is nearly impossible. Misinterpretation of laws often results in costly legal or compliance errors.\n\nWith DoStartup on your side, you gain access to regulatory experts who help decode these evolving requirements and implement best practices with ease.",
+        "3. Lack of Reliable Data\nEffective due diligence is nearly impossible without accurate data. Unfortunately, most companies in this industry suffer from fragmented and insufficient datasets. Limited tools and technology make matters worse.\n\nOur dostartup team at DoStartup helps organizations collect, structure, and analyze data in compliance with ESDD standards—ensuring no critical insight is missed."
+      ]
+    },
+    {
+      category: "Explore Environmental and Social Due Diligence with DoStartup",
+      documents: [
+        "If you're wondering what Environmental and Social Due Diligence (ESDD) actually means, let’s first break down the term “due diligence.” At its core, due diligence refers to the process of conducting a thorough evaluation before entering any business transaction or investment. It plays a vital role in corporate strategy and decision-making, helping businesses ensure that their operations align with the required legal and regulatory standards.",
+        "With the world growing more conscious about environmental and social challenges, ESDD has emerged as a crucial subset of this process. Companies aiming to align profitability with sustainability must integrate ESDD into their operational and investment strategies.",
+        "In simple terms, Environmental and Social Due Diligence involves assessing the environmental and social impact of a company’s business activities. This enables organisations to evaluate new investments and projects by identifying potential risks and liabilities, and developing strategies to mitigate these risks before they escalate into costly problems."
+      ]
+    },
+    {
+      category: "Take the First Step Towards Sustainable Success",
+      documents: [
+        "Ready to enhance your business’s sustainability and compliance framework? Reach out to DoStartup at +91 21230 280 and let our experts guide you toward success in the iron and steel industry. Together, let’s build a greener, more responsible future for India's steel sector—one where profitability and sustainability go hand in hand."
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: "Is the steel industry eco-friendly?",
+      answer: "Yes, the steel industry can be considered eco-friendly in certain aspects. Steel is one of the most recycled materials in the world, making it a strong contributor to the circular economy. However, its production processes require significant energy, often involving high-temperature furnaces powered by fossil fuels, which can be environmentally taxing."
+    },
+    {
+      question: "How can pollution from the iron and steel industry be reduced?",
+      answer: "Pollution in the iron and steel sector can be reduced by:\n• Adopting cleaner and more efficient production methods\n• Installing advanced pollution control equipment\n• Shifting from fossil fuels to renewable and cleaner energy sources\n• Properly treating and disposing of hazardous waste\n\nDoStartup offers consulting services that help industries implement these strategies in compliance with ESDD and ESG norms."
+    },
+    {
+      question: "What are the key risks in the iron and steel industry?",
+      answer: "The iron and steel sector presents several risks, including:\n• Mechanical hazards\n• Electrical dangers\n• Exposure to toxic gases and chemicals\n• Fire and explosion hazards\n• Extreme temperature exposure\n\nDoStartup helps industries identify and mitigate these risks through thorough Environmental and Social Due Diligence (ESDD)."
+    },
+    {
+      question: "What are the environmental impacts of the steel industry?",
+      answer: "The steel industry is one of the largest consumers of energy and emitters of carbon dioxide, accounting for roughly 6% of global greenhouse gas emissions. Steel is produced in large blast furnaces, which typically use coal, oil, and other fossil fuels to catalyze chemical reactions, making it one of the most energy-intensive and polluting sectors.\n\nDoStartup offers ESG-aligned solutions to help businesses reduce their environmental footprint effectively."
+    },
+    {
+      question: "What is the carbon footprint of steel production in India?",
+      answer: "According to recent reports, India’s steel sector contributes around 12% of the country’s total emissions. On average, 2.55 tonnes of CO₂ are emitted for every tonne of steel produced in India—significantly higher than the global average of 1.85 tonnes.\n\nDoStartup provides ESDD services that help companies track, report, and reduce their carbon footprint in line with global benchmarks."
+    },
+    {
+      question: "What is the scope of Environmental and Social Due Diligence (ESDD)?",
+      answer: "Environmental and Social Due Diligence refers to the process of assessing a company's environmental practices, social policies, and associated risks. This assessment helps in:\n• Identifying red flags before investments or acquisitions\n• Evaluating compliance with environmental regulations\n• Making low-risk and sustainable business decisions\n\nDoStartup specializes in ESDD reporting, risk analysis, and strategy formulation tailored to your industry needs."
+    },
+    {
+      question: "What is the future outlook of the iron and steel industry in India?",
+      answer: "India is the second-largest producer of crude steel globally, having produced 125.32 million tonnes in 2023, with a finished steel output of 121.29 million tonnes. The sector is expected to grow by 4–7% in the coming year, reaching up to 127 million tonnes.\n\nWith the support of DoStartup’s ESDD and ESG compliance services, the industry can achieve sustainable growth while meeting regulatory and environmental standards."
+    },
+    {
+      question: "How is Environmental and Social Due Diligence (ESDD) conducted?",
+      answer: "Conducting ESDD involves the following key steps:\n1. Identifying potential environmental and social risks\n2. Defining the scope of assessment\n3. Collecting relevant and accurate data\n4. Designing risk mitigation strategies\n5. Drafting comprehensive ESDD reports\n6. Implementing the risk mitigation plans\n\nDoStartup offers expert assistance through each stage of the ESDD process, ensuring seamless compliance and strategic risk management."
+    }
+  ]
+}
+
   
+
+
+
+
   
   
 };
