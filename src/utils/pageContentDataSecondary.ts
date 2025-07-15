@@ -4,7 +4,7 @@ export type PageContentType = {
     paragraphs: string[];
   };
   features: {
-    icon: string;
+    icon?: string;
     title: string;
     description: string;
   }[];
@@ -3102,6 +3102,8 @@ export const pageContent: Record<string, PageContentType> = {
           desc: "For jurisdiction or state changes, file INC‑23 with RD and then INC‑28 post‑approval.",
         },
       ],
+      violations: [],
+      consequences: [],
     },
     eligibility: [
       {
@@ -10541,8 +10543,6 @@ export const pageContent: Record<string, PageContentType> = {
     },
   },
 
-
-
   "epr-registration": {
     overview: {
       heading: "EPR Registration in India – A Comprehensive Overview",
@@ -10550,400 +10550,446 @@ export const pageContent: Record<string, PageContentType> = {
         "Are you a manufacturer, importer, or brand owner dealing with electrical and electronic equipment (EEE), batteries, plastic packaging, or tires? If yes, then EPR registration with dostartup experts is essential to ensure regulatory compliance.",
         "Extended Producer Responsibility (EPR) registration involves obtaining official approval from either the Central Pollution Control Board (CPCB) or the State Pollution Control Board (SPCB). This process helps implement EPR responsibilities under the Plastic Waste Management Rules, 2016, E‑Waste (Management) Rules, 2016, or the Environment (Protection) Act, 1986.",
         "To specifically regulate plastic packaging, CPCB issues EPR registration certificates. All Producers, Importers, and Brand Owners (PIBOs) are required to register on the CPCB EPR Portal to fulfill their responsibilities under the plastic waste management framework.",
-        "This combined effort of both central and state authorities supports a robust system for environmental protection, with CPCB leading in plastic waste oversight. The integration of processes ensures a well‑rounded waste management strategy across the country."
-      ]
+        "This combined effort of both central and state authorities supports a robust system for environmental protection, with CPCB leading in plastic waste oversight. The integration of processes ensures a well‑rounded waste management strategy across the country.",
+      ],
     },
     features: [
       {
         icon: "💡",
         title: "Electrical & Electronic Equipment (EEE)",
-        description: "Covered under the E‑Waste (Management) Rules, 2016; includes computers, TVs, refrigerators, etc."
+        description:
+          "Covered under the E‑Waste (Management) Rules, 2016; includes computers, TVs, refrigerators, etc.",
       },
       {
         icon: "🛍️",
         title: "Plastic Packaging Products",
-        description: "Regulated by the Plastic Waste Management Rules, 2016; includes single‑use and multilayer packaging."
+        description:
+          "Regulated by the Plastic Waste Management Rules, 2016; includes single‑use and multilayer packaging.",
       },
       {
         icon: "🔋",
         title: "Batteries & Accumulators",
-        description: "Managed under the Batteries (Management and Handling) Rules, 2001; covers lead‑acid, lithium, and other chemistries."
+        description:
+          "Managed under the Batteries (Management and Handling) Rules, 2001; covers lead‑acid, lithium, and other chemistries.",
       },
       {
         icon: "📦",
         title: "Other Packaging Materials",
-        description: "Governed by applicable environmental rules for paper, glass, metal and composite packaging."
-      }
+        description:
+          "Governed by applicable environmental rules for paper, glass, metal and composite packaging.",
+      },
     ],
     benefits: [
       {
         title: "Efficient Waste Management",
-        description: "Ensures proper processing, recycling and disposal of plastic and electronic waste."
+        description:
+          "Ensures proper processing, recycling and disposal of plastic and electronic waste.",
       },
       {
         title: "Cost Optimization",
-        description: "Reduces long‑term waste processing costs through better product design and partnerships."
+        description:
+          "Reduces long‑term waste processing costs through better product design and partnerships.",
       },
       {
         title: "Positive Brand Image",
-        description: "Boosts organizational goodwill as eco‑conscious customers prefer sustainable brands."
+        description:
+          "Boosts organizational goodwill as eco‑conscious customers prefer sustainable brands.",
       },
       {
         title: "Regulatory Compliance",
-        description: "Demonstrates legal adherence and avoids penalties under CPCB/SPCB norms."
+        description:
+          "Demonstrates legal adherence and avoids penalties under CPCB/SPCB norms.",
       },
       {
         title: "Sustainable Development",
-        description: "Conserves natural resources and promotes cleaner production practices."
-      }
+        description:
+          "Conserves natural resources and promotes cleaner production practices.",
+      },
     ],
     documents: {
       steps: [
         {
           title: "Signed Application Form",
-          desc: "Duly filled and signed EPR application on the CPCB/SPCB portal."
+          desc: "Duly filled and signed EPR application on the CPCB/SPCB portal.",
         },
         {
           title: "Detailed EPR Plan",
-          desc: "Description of collection, recycling and disposal mechanisms."
+          desc: "Description of collection, recycling and disposal mechanisms.",
         },
         {
           title: "Business Authorization",
-          desc: "Certificate of Incorporation, PAN, IEC and address proof."
+          desc: "Certificate of Incorporation, PAN, IEC and address proof.",
         },
         {
           title: "MoUs & Agreements",
-          desc: "Partnerships with recyclers, waste collectors and transporters."
+          desc: "Partnerships with recyclers, waste collectors and transporters.",
         },
         {
           title: "Awareness Programs",
-          desc: "Details and budget for consumer awareness and outreach."
+          desc: "Details and budget for consumer awareness and outreach.",
         },
         {
           title: "Compliance Reports",
-          desc: "Estimates of waste generation and evidence of past recycling performance."
-        }
+          desc: "Estimates of waste generation and evidence of past recycling performance.",
+        },
       ],
       violations: [],
-      consequences: []
+      consequences: [],
     },
     eligibility: [
       {
         heading: "Who Must Register",
         items: [
           "Producers, Importers and Brand Owners (PIBOs) operating in more than 2 states/UTs must apply via CPCB.",
-          "PIBOs operating in 1–2 states/UTs must apply via the respective SPCB/PCC portals."
-        ]
+          "PIBOs operating in 1–2 states/UTs must apply via the respective SPCB/PCC portals.",
+        ],
       },
       {
         heading: "Importer-Specific Criteria",
         items: [
           "Products sold under your brand or original owner's name in India.",
-          "Sales made directly or through third‑party distributors."
-        ]
-      }
+          "Sales made directly or through third‑party distributors.",
+        ],
+      },
     ],
     services: [
       {
         title: "Portal Account Setup",
-        desc: "Registration and login credentials on the CPCB EPR portal."
+        desc: "Registration and login credentials on the CPCB EPR portal.",
       },
       {
         title: "Document Preparation",
-        desc: "Compilation and digitization of all required files for upload."
+        desc: "Compilation and digitization of all required files for upload.",
       },
       {
         title: "End-to-End Filing",
-        desc: "Online application, fee payment and liaison with authorities."
+        desc: "Online application, fee payment and liaison with authorities.",
       },
       {
         title: "Renewal & Compliance",
-        desc: "Reminders, updated submissions and performance reporting."
+        desc: "Reminders, updated submissions and performance reporting.",
       },
       {
         title: "Legal Advisory",
-        desc: "Expert guidance on EPR obligations under Plastic & E‑Waste Rules."
-      }
+        desc: "Expert guidance on EPR obligations under Plastic & E‑Waste Rules.",
+      },
     ],
     faqs: [
       {
         question: "What is EPR registration?",
-        answer: "A mandatory certification for Producers, Importers and Brand Owners to manage their plastic, e‑waste, battery and other waste under environmental rules."
+        answer:
+          "A mandatory certification for Producers, Importers and Brand Owners to manage their plastic, e‑waste, battery and other waste under environmental rules.",
       },
       {
         question: "How long does EPR registration take?",
-        answer: "Typically 15–30 working days for issuance of the digital certificate."
+        answer:
+          "Typically 15–30 working days for issuance of the digital certificate.",
       },
       {
         question: "What is the validity of the certificate?",
-        answer: "Plastic packaging: 1 year; EEE: 5 years, subject to continued compliance."
+        answer:
+          "Plastic packaging: 1 year; EEE: 5 years, subject to continued compliance.",
       },
       {
         question: "When should I renew?",
-        answer: "Apply for renewal at least 3 months before expiry, with updated documents and fees."
+        answer:
+          "Apply for renewal at least 3 months before expiry, with updated documents and fees.",
       },
       {
         question: "Can I update my details post‑registration?",
-        answer: "Yes, registered users can modify application data anytime via the portal."
-      }
+        answer:
+          "Yes, registered users can modify application data anytime via the portal.",
+      },
     ],
     types: {
       cards: [
         {
           title: "Incomplete Documentation",
           shortText: "Missing MoUs or incomplete EPR plan.",
-          backText: "Leads to application rejection or delays."
+          backText: "Leads to application rejection or delays.",
         },
         {
           title: "Wrong Category Selection",
           shortText: "Misclassifying waste type.",
-          backText: "Causes non‑compliance with the correct rules."
+          backText: "Causes non‑compliance with the correct rules.",
         },
         {
           title: "Late Renewal",
           shortText: "Missing the 3‑month pre‑expiry window.",
-          backText: "Results in certificate lapse and penalties."
+          backText: "Results in certificate lapse and penalties.",
         },
         {
           title: "Portal Errors",
           shortText: "Incorrect form submissions online.",
-          backText: "Requires multiple corrections and follow‑ups."
+          backText: "Requires multiple corrections and follow‑ups.",
         },
         {
           title: "Incorrect Fee Payment",
           shortText: "Underpaying or overpaying initial or annual fees.",
-          backText: "Leads to payment reconciliation issues."
+          backText: "Leads to payment reconciliation issues.",
         },
         {
           title: "Unverified Partnerships",
           shortText: "MOUs with non‑CPCB approved recyclers.",
-          backText: "Invalidates waste collection commitments."
-        }
+          backText: "Invalidates waste collection commitments.",
+        },
       ],
       roleBenefits: [
         "Shifts waste management to producers, reducing public burden.",
         "Supports circular economy through recycling and reuse.",
-        "Enhances brand value by demonstrating environmental responsibility."
+        "Enhances brand value by demonstrating environmental responsibility.",
       ],
       differenceTable: {
         columns: ["Feature", "EPR for E‑Waste", "EPR for Plastic Waste"],
         rows: [
           ["Scope", "Entire electronics lifecycle", "Packaging materials only"],
-          ["Authority", "CPCB/SPCB under E‑Waste Rules", "CPCB under PWM Rules"],
+          [
+            "Authority",
+            "CPCB/SPCB under E‑Waste Rules",
+            "CPCB under PWM Rules",
+          ],
           ["Validity", "5 years", "1 year"],
           ["Review Body", "SPCB/PCC or CPCB", "CPCB only"],
-          ["Primary Goal", "Reduce hazardous e‑waste", "Minimize plastic pollution"]
-        ]
+          [
+            "Primary Goal",
+            "Reduce hazardous e‑waste",
+            "Minimize plastic pollution",
+          ],
+        ],
       },
       timelineFees: [
         "Application Filing & Portal Setup: 1–2 days",
         "Review & Approval: 15–30 working days",
         "Certificate Issuance: digital certificate upon approval",
         "Initial Fees: ₹5,000–₹50,000 depending on category and TPA",
-        "Annual Fee: 25% of initial registration fee"
-      ]
-    }
+        "Annual Fee: 25% of initial registration fee",
+      ],
+    },
   },
-
-
-
-
-
 
   "plastic-waste-authorization": {
     overview: {
-      heading: "Plastic Waste Authorization in India – An Overview by DoStartup",
+      heading:
+        "Plastic Waste Authorization in India – An Overview by DoStartup",
       paragraphs: [
         "India is facing a growing challenge in managing plastic waste due to rapid increase in disposable plastics. The existing waste management systems often struggle to keep up.",
         "Under the Plastic Waste Management Rules 2016, any entity involved in collecting, storing, transporting, processing or recycling plastic waste must obtain Plastic Waste Authorization from designated pollution control authorities.",
         "Timely authorization ensures legal compliance, avoids supply chain disruptions, and supports environmental sustainability.",
-        "At DoStartup, we guide businesses through the entire authorization process for smooth compliance and fast approvals."
-      ]
+        "At DoStartup, we guide businesses through the entire authorization process for smooth compliance and fast approvals.",
+      ],
     },
     features: [
       {
         icon: "✅",
         title: "Regulated Framework",
-        description: "Ensures all plastic‑waste handlers operate under CPCB/SPCB oversight."
+        description:
+          "Ensures all plastic‑waste handlers operate under CPCB/SPCB oversight.",
       },
       {
         icon: "🌱",
         title: "Environmental Protection",
-        description: "Reduces land and marine pollution through authorized disposal methods."
+        description:
+          "Reduces land and marine pollution through authorized disposal methods.",
       },
       {
         icon: "🤝",
         title: "CSR & Grants",
-        description: "Demonstrates CSR commitment and unlocks government grants and incentives."
+        description:
+          "Demonstrates CSR commitment and unlocks government grants and incentives.",
       },
       {
         icon: "💼",
         title: "Business Expansion",
-        description: "Taps new opportunities in recycling and waste‑management sectors."
-      }
+        description:
+          "Taps new opportunities in recycling and waste‑management sectors.",
+      },
     ],
     benefits: [
       {
         title: "Sustainable Operations",
-        description: "Adopt best practices for plastic‑waste handling and recycling."
+        description:
+          "Adopt best practices for plastic‑waste handling and recycling.",
       },
       {
         title: "Legal Compliance",
-        description: "Avoid penalties under Plastic Waste Management Rules, 2016."
+        description:
+          "Avoid penalties under Plastic Waste Management Rules, 2016.",
       },
       {
         title: "Brand Reputation",
-        description: "Enhance public trust by demonstrating environmental responsibility."
+        description:
+          "Enhance public trust by demonstrating environmental responsibility.",
       },
       {
         title: "GHG Reduction",
-        description: "Minimize greenhouse gas emissions through proper waste disposal."
-      }
+        description:
+          "Minimize greenhouse gas emissions through proper waste disposal.",
+      },
     ],
     documents: {
       steps: [
         {
           title: "Consent/Approval",
-          desc: "Valid consent from CPCB/SPCB/UTPCC."
+          desc: "Valid consent from CPCB/SPCB/UTPCC.",
         },
         {
           title: "Business Proof",
-          desc: "Certificate of Incorporation, MSME/Udyam certificate."
+          desc: "Certificate of Incorporation, MSME/Udyam certificate.",
         },
         {
           title: "Process Flowchart",
-          desc: "Manufacturing/waste flow chart with volumes."
+          desc: "Manufacturing/waste flow chart with volumes.",
         },
         {
           title: "EPR Plan",
-          desc: "Extended Producer Responsibility action plan, if applicable."
+          desc: "Extended Producer Responsibility action plan, if applicable.",
         },
         {
           title: "Testing Reports",
-          desc: "Waste characterization or ETP/emission test reports."
-        }
+          desc: "Waste characterization or ETP/emission test reports.",
+        },
       ],
       violations: [],
-      consequences: []
+      consequences: [],
     },
     eligibility: [
       {
         heading: "Who Must Apply",
         items: [
           "Entities collecting, storing, transporting, processing or recycling plastic waste.",
-          "Facilities with operational premises and required machinery."
-        ]
+          "Facilities with operational premises and required machinery.",
+        ],
       },
       {
         heading: "Key Criteria",
         items: [
           "Valid business registration and environmental management plan.",
-          "Annual reporting capability to SPCB/CPCB."
-        ]
-      }
+          "Annual reporting capability to SPCB/CPCB.",
+        ],
+      },
     ],
     services: [
       {
         title: "Application Filing",
-        desc: "End‑to‑end online submission and fee payment support."
+        desc: "End‑to‑end online submission and fee payment support.",
       },
       {
         title: "Document Management",
-        desc: "Compilation, digitization and portal upload of all required documents."
+        desc: "Compilation, digitization and portal upload of all required documents.",
       },
       {
         title: "Liaison with Authorities",
-        desc: "Follow‑up with SPCB/CPCB for faster approvals."
+        desc: "Follow‑up with SPCB/CPCB for faster approvals.",
       },
       {
         title: "Renewals & Reporting",
-        desc: "Timely reminders, updated submissions and annual return support."
-      }
+        desc: "Timely reminders, updated submissions and annual return support.",
+      },
     ],
     faqs: [
       {
         question: "What is Plastic Waste Authorization?",
-        answer: "A legal certificate for entities handling plastic waste under PWM Rules, 2016."
+        answer:
+          "A legal certificate for entities handling plastic waste under PWM Rules, 2016.",
       },
       {
         question: "Who issues the authorization?",
-        answer: "SPCB/UTPCC for 1–2 states; CPCB for multi‑state operations."
+        answer: "SPCB/UTPCC for 1–2 states; CPCB for multi‑state operations.",
       },
       {
         question: "How long is it valid?",
-        answer: "Initially 1 year; renewable for further three‑year periods."
+        answer: "Initially 1 year; renewable for further three‑year periods.",
       },
       {
         question: "When to renew?",
-        answer: "Submit renewal at least 120 days before expiry."
+        answer: "Submit renewal at least 120 days before expiry.",
       },
       {
         question: "Penalties for non-compliance?",
-        answer: "Cancellation, suspension or debarment under PWM Rules, 2016."
-      }
+        answer: "Cancellation, suspension or debarment under PWM Rules, 2016.",
+      },
     ],
     types: {
       cards: [
         {
           title: "False Information",
           shortText: "Submitting misleading data",
-          backText: "Leads to authorization cancellation"
+          backText: "Leads to authorization cancellation",
         },
         {
           title: "Late Renewal",
           shortText: "Missing the 120‑day window",
-          backText: "Results in lapse and penalties"
+          backText: "Results in lapse and penalties",
         },
         {
           title: "Incomplete Docs",
           shortText: "Missing flowcharts or reports",
-          backText: "Causes application rejection"
+          backText: "Causes application rejection",
         },
         {
           title: "Wrong Authority",
           shortText: "Applying to wrong board",
-          backText: "Delays approval"
+          backText: "Delays approval",
         },
         {
           title: "Non‑Compliance",
           shortText: "Failing annual returns",
-          backText: "Triggers enforcement actions"
+          backText: "Triggers enforcement actions",
         },
         {
           title: "Unauthorized Activities",
           shortText: "Operations beyond scope",
-          backText: "Leads to legal action"
-        }
+          backText: "Leads to legal action",
+        },
       ],
       roleBenefits: [
         "Ensures environmental compliance for waste handlers",
         "Supports circular economy through authorized recycling",
-        "Enhances CSR credentials and access to incentives"
+        "Enhances CSR credentials and access to incentives",
       ],
       differenceTable: {
-        columns: ["Feature", "Plastic Waste Authorization", "Extended Producer Responsibility (EPR)"],
+        columns: [
+          "Feature",
+          "Plastic Waste Authorization",
+          "Extended Producer Responsibility (EPR)",
+        ],
         rows: [
-          ["Businesses Involved", "Recyclers, processors, waste managers", "Producers, importers, brand owners"],
-          ["Scope", "Authorization to handle waste", "Obligation to collect/recycle branded waste"],
-          ["Governing Rule", "PWM Rules 2016", "PWM Rules 2016 + E‑Waste Rules 2016"],
-          ["Authority", "SPCB/UTPCC/CPCB", "CPCB for multi‑state; SPCB for local"],
-          ["Primary Objective", "Regulate waste handling operations", "Ensure producer accountability"]
-        ]
+          [
+            "Businesses Involved",
+            "Recyclers, processors, waste managers",
+            "Producers, importers, brand owners",
+          ],
+          [
+            "Scope",
+            "Authorization to handle waste",
+            "Obligation to collect/recycle branded waste",
+          ],
+          [
+            "Governing Rule",
+            "PWM Rules 2016",
+            "PWM Rules 2016 + E‑Waste Rules 2016",
+          ],
+          [
+            "Authority",
+            "SPCB/UTPCC/CPCB",
+            "CPCB for multi‑state; SPCB for local",
+          ],
+          [
+            "Primary Objective",
+            "Regulate waste handling operations",
+            "Ensure producer accountability",
+          ],
+        ],
       },
       timelineFees: [
         "Account Setup & Application: 1–2 days",
         "Review & Document Scrutiny: 7–15 working days",
         "Approval & Certificate Issuance: within 30 days",
         "Initial Fees: ₹5,000–₹50,000 depending on capacity",
-        "Renewal Fees: Same as initial; apply 120 days prior"
-      ]
-    }
+        "Renewal Fees: Same as initial; apply 120 days prior",
+      ],
+    },
   },
-
-
-
-
-
 
   "cd-waste-recycling": {
     overview: {
@@ -10951,78 +10997,87 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "If you're aiming to build a scalable, sustainable business in waste management, starting a C&D Waste Recycling Plant could be your next strategic move. C&D Waste Recycling refers to the systematic collection, segregation, processing, and reuse of debris generated from construction, renovation, and demolition projects.",
         "As India urbanizes, the volume of construction‑related waste surges. Recycling this waste isn't just an environmental obligation—it’s an untapped business opportunity that addresses material shortages, supports circular‑economy practices, and aligns with national sustainability goals.",
-        "Construction and Demolition Waste is generated during activities like site clearance, excavation, construction, renovation, and dismantling of structures—residential, commercial, and public infrastructure alike. It includes both hazardous and non‑hazardous waste, and accounts for nearly 40% of India’s total solid waste output."
-      ]
+        "Construction and Demolition Waste is generated during activities like site clearance, excavation, construction, renovation, and dismantling of structures—residential, commercial, and public infrastructure alike. It includes both hazardous and non‑hazardous waste, and accounts for nearly 40% of India’s total solid waste output.",
+      ],
     },
     features: [
       {
         icon: "🚜",
         title: "Feed Hoppers & Pre‑Screening",
-        description: "Automated loading and trommel/disc screening to remove oversized debris and lightweight material."
+        description:
+          "Automated loading and trommel/disc screening to remove oversized debris and lightweight material.",
       },
       {
         icon: "⚙️",
         title: "Crushing & Sizing",
-        description: "High‑efficiency crushers and sizing screens break down concrete, brick, and masonry into graded aggregates."
+        description:
+          "High‑efficiency crushers and sizing screens break down concrete, brick, and masonry into graded aggregates.",
       },
       {
         icon: "🔄",
         title: "Metal & Wood Separation",
-        description: "Magnetic, eddy‑current, and air‑classification systems recover steel, rebar, and wood for reuse."
+        description:
+          "Magnetic, eddy‑current, and air‑classification systems recover steel, rebar, and wood for reuse.",
       },
       {
         icon: "💧",
         title: "Wash & Recovery Systems",
-        description: "Hydrocyclones and water‑recovery plants clean aggregates and recycle process water."
-      }
+        description:
+          "Hydrocyclones and water‑recovery plants clean aggregates and recycle process water.",
+      },
     ],
     benefits: [
       {
         title: "Sustainable Development",
-        description: "Reduces carbon footprint of infrastructure projects by reusing materials like sand and gravel."
+        description:
+          "Reduces carbon footprint of infrastructure projects by reusing materials like sand and gravel.",
       },
       {
         title: "Cost Optimization",
-        description: "Lowers procurement costs, landfill levies, and overall project expenditure through material recovery."
+        description:
+          "Lowers procurement costs, landfill levies, and overall project expenditure through material recovery.",
       },
       {
         title: "Resource Conservation",
-        description: "Diverts reusable materials from landfills, extending finite resources such as wood, cement, and steel."
+        description:
+          "Diverts reusable materials from landfills, extending finite resources such as wood, cement, and steel.",
       },
       {
         title: "Regulatory Compliance",
-        description: "Aligns operations with India’s C&D Waste Management Rules and SPCB/PCC environmental norms."
+        description:
+          "Aligns operations with India’s C&D Waste Management Rules and SPCB/PCC environmental norms.",
       },
       {
         title: "Brand Reputation",
-        description: "Demonstrates ESG commitment, boosting credibility with investors and sustainability‑focused clients."
-      }
+        description:
+          "Demonstrates ESG commitment, boosting credibility with investors and sustainability‑focused clients.",
+      },
     ],
     documents: {
       steps: [
         {
           title: "Submit Form I",
-          desc: "File your C&D Waste Recycling Plant application under the C&D Waste Management Rules, 2016 with your State Pollution Control Board."
+          desc: "File your C&D Waste Recycling Plant application under the C&D Waste Management Rules, 2016 with your State Pollution Control Board.",
         },
         {
           title: "Attach Supporting Docs",
-          desc: "Include layout plan, process flow diagram, GST/Udyam certificates, property proof, and machinery purchase receipts."
+          desc: "Include layout plan, process flow diagram, GST/Udyam certificates, property proof, and machinery purchase receipts.",
         },
         {
           title: "Pay Fees & Scrutiny",
-          desc: "Pay the prescribed SPCB consent fees; authorities will review your submission for completeness."
+          desc: "Pay the prescribed SPCB consent fees; authorities will review your submission for completeness.",
         },
         {
           title: "SPCB Site Inspection",
-          desc: "State Pollution Control Board officials will audit your premises for environmental and operational compliance."
+          desc: "State Pollution Control Board officials will audit your premises for environmental and operational compliance.",
         },
         {
           title: "Authorization Granted",
-          desc: "Upon successful inspection, receive your Consent to Establish (CTE) and Consent to Operate (CTO)."
-        }
+          desc: "Upon successful inspection, receive your Consent to Establish (CTE) and Consent to Operate (CTO).",
+        },
       ],
       violations: [],
-      consequences: []
+      consequences: [],
     },
     eligibility: [
       {
@@ -11032,104 +11087,115 @@ export const pageContent: Record<string, PageContentType> = {
           "MSME/Udyam Registration",
           "Factory License under local labor & safety laws",
           "SPCB/PCC Consent to Establish and Operate",
-          "Municipal and Occupational Health Licenses"
-        ]
+          "Municipal and Occupational Health Licenses",
+        ],
       },
       {
         heading: "Site & Facility Criteria",
         items: [
           "Minimum buffer zone from water bodies, forests, and residential areas",
           "Fencing, air‑quality monitoring, and vegetative barriers",
-          "Compliance with SPCB air, water and noise emission norms"
-        ]
-      }
+          "Compliance with SPCB air, water and noise emission norms",
+        ],
+      },
     ],
     services: [
       {
         title: "End‑to‑End Licensing",
-        desc: "We handle all applications, document collation, fee payments and follow‑ups with SPCB/PCC."
+        desc: "We handle all applications, document collation, fee payments and follow‑ups with SPCB/PCC.",
       },
       {
         title: "Turnkey Plant Design",
-        desc: "Customized layout and process‑flow diagrams to maximize throughput and compliance."
+        desc: "Customized layout and process‑flow diagrams to maximize throughput and compliance.",
       },
       {
         title: "Technology Selection",
-        desc: "Advice on the right mix of traditional and AI‑enhanced recycling equipment."
+        desc: "Advice on the right mix of traditional and AI‑enhanced recycling equipment.",
       },
       {
         title: "Regulatory Renewal",
-        desc: "Ongoing support for annual reports, consent renewals, and compliance audits."
-      }
+        desc: "Ongoing support for annual reports, consent renewals, and compliance audits.",
+      },
     ],
     faqs: [
       {
         question: "Is C&D waste recycling mandatory in India?",
-        answer: "Yes. Under the C&D Waste Management Rules, 2016, bulk waste generators must ensure disposal via authorized recyclers."
+        answer:
+          "Yes. Under the C&D Waste Management Rules, 2016, bulk waste generators must ensure disposal via authorized recyclers.",
       },
       {
         question: "What percentage of C&D waste is recycled currently?",
-        answer: "Less than 1% is officially recycled today, though policy targets aim for over 30% in major urban centers."
+        answer:
+          "Less than 1% is officially recycled today, though policy targets aim for over 30% in major urban centers.",
       },
       {
         question: "What materials can be recovered?",
-        answer: "Concrete, brick, masonry, metals, timber, plastics, glass and other inert construction debris."
+        answer:
+          "Concrete, brick, masonry, metals, timber, plastics, glass and other inert construction debris.",
       },
       {
         question: "How long does authorization take?",
-        answer: "Typically 60–90 days, including document scrutiny and site inspection by SPCB authorities."
+        answer:
+          "Typically 60–90 days, including document scrutiny and site inspection by SPCB authorities.",
       },
       {
         question: "Can demolition waste be reused directly?",
-        answer: "After proper sorting and crushing, materials like concrete and steel can re‑enter new construction."
-      }
+        answer:
+          "After proper sorting and crushing, materials like concrete and steel can re‑enter new construction.",
+      },
     ],
     types: {
       cards: [
         {
           title: "Site Clearance Failures",
           shortText: "Improper segregation",
-          backText: "Leads to contamination of recyclable streams and higher disposal costs."
+          backText:
+            "Leads to contamination of recyclable streams and higher disposal costs.",
         },
         {
           title: "Permit Lapses",
           shortText: "Expired consents",
-          backText: "Operating without SPCB CTE/CTO can invite fines and plant shutdowns."
+          backText:
+            "Operating without SPCB CTE/CTO can invite fines and plant shutdowns.",
         },
         {
           title: "Technology Mismatch",
           shortText: "Wrong equipment",
-          backText: "Reduces throughput and increases operating expenses."
-        }
+          backText: "Reduces throughput and increases operating expenses.",
+        },
       ],
       roleBenefits: [
         "Helps meet mandatory recycling targets",
         "Unlocks government subsidies for MSMEs",
         "Enhances site‑safety and worker health",
         "Improves margins through recovered‑material sales",
-        "Strengthens ESG credentials for investors"
+        "Strengthens ESG credentials for investors",
       ],
       differenceTable: {
         columns: ["Aspect", "Landfilling", "Recycling"],
         rows: [
-          ["Environmental Impact", "High (methane, leachate)", "Low (closed‑loop reuse)"],
+          [
+            "Environmental Impact",
+            "High (methane, leachate)",
+            "Low (closed‑loop reuse)",
+          ],
           ["Cost", "Rising landfill levies", "Reduced raw‑material spend"],
-          ["Regulatory Risk", "Penalties for non‑compliance", "Aligned with C&D Waste Rules"],
-          ["Resource Use", "Finite extraction", "Circular‑economy model"]
-        ]
+          [
+            "Regulatory Risk",
+            "Penalties for non‑compliance",
+            "Aligned with C&D Waste Rules",
+          ],
+          ["Resource Use", "Finite extraction", "Circular‑economy model"],
+        ],
       },
       timelineFees: [
         "Application filing to CTE: ~30 days",
         "Site inspection & CTO grant: additional 30–60 days",
         "SPCB consent fees range: ₹25,000–₹1,00,000 (state‑dependent)",
-        "Annual renewal fees and compliance report submission"
-      ]
-    }
+        "Annual renewal fees and compliance report submission",
+      ],
+    },
   },
-
-
-
-
 
   "carbon-credit-trading-scheme": {
     overview: {
@@ -11137,79 +11203,86 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "On June 26, 2023, the Ministry of Environment, Forests, and Climate Change introduced the draft Green Credit Programme Implementation Rules. Just two days later, on June 28, the Ministry of Power launched the Carbon Credit Trading Scheme (CCTS) 2023. Both programs reflect India’s strategic push toward climate responsibility through market-based mechanisms.",
         "The Bureau of Energy Efficiency (BEE), under the Ministry of Power, is leading this effort. Under the CCTS, each ton of CO₂ reduced or avoided earns a carbon credit, which can be bought, sold, or traded. This incentivizes sustainability while enabling businesses to generate measurable financial returns.",
-        "Unsure how to report carbon credits or unlock their value? DoStartup’s environmental advisors can simplify compliance and maximize your gains."
-      ]
+        "Unsure how to report carbon credits or unlock their value? DoStartup’s environmental advisors can simplify compliance and maximize your gains.",
+      ],
     },
     features: [
       {
         icon: "♻️",
         title: "Emission Reduction Pooling",
-        description: "Enables pooling of emission reduction efforts across projects and entities."
+        description:
+          "Enables pooling of emission reduction efforts across projects and entities.",
       },
       {
         icon: "📈",
         title: "Carbon Certificate Generation",
-        description: "Facilitates generation and trading of carbon credits with verified certification."
+        description:
+          "Facilitates generation and trading of carbon credits with verified certification.",
       },
       {
         icon: "💰",
         title: "Financial Returns",
-        description: "Maximizes profitability by monetizing emissions savings."
+        description: "Maximizes profitability by monetizing emissions savings.",
       },
       {
         icon: "🏭",
         title: "Mandatory Compliance",
-        description: "Obligates high GHG-emitting industries to buy credits to meet reduction targets."
+        description:
+          "Obligates high GHG-emitting industries to buy credits to meet reduction targets.",
       },
       {
         icon: "🔋",
         title: "Promotes Renewable Energy",
-        description: "Drives shift toward clean energy adoption."
-      }
+        description: "Drives shift toward clean energy adoption.",
+      },
     ],
     benefits: [
       {
         title: "Improves ESG Scores",
-        description: "Aligns operations with environmental governance norms and boosts ESG ratings."
+        description:
+          "Aligns operations with environmental governance norms and boosts ESG ratings.",
       },
       {
         title: "Incentivizes Sustainability",
-        description: "Encourages proactive climate action through tangible financial benefits."
+        description:
+          "Encourages proactive climate action through tangible financial benefits.",
       },
       {
         title: "Reduces Operational Costs",
-        description: "Emission-reduction efforts often lead to long-term cost savings."
+        description:
+          "Emission-reduction efforts often lead to long-term cost savings.",
       },
       {
         title: "Attracts Green Investors",
-        description: "Strengthens brand equity with CSR-driven investors and eco-conscious partners."
-      }
+        description:
+          "Strengthens brand equity with CSR-driven investors and eco-conscious partners.",
+      },
     ],
     documents: {
       steps: [
         {
           title: "Project Structuring",
-          desc: "Identify eligible emission-reduction activities under CCTS."
+          desc: "Identify eligible emission-reduction activities under CCTS.",
         },
         {
           title: "Project Registration",
-          desc: "Register the green project with the Bureau of Energy Efficiency (BEE)."
+          desc: "Register the green project with the Bureau of Energy Efficiency (BEE).",
         },
         {
           title: "Verification",
-          desc: "Undergo validation from an accredited verification agency."
+          desc: "Undergo validation from an accredited verification agency.",
         },
         {
           title: "Credit Issuance",
-          desc: "Upon successful verification, carbon credits are issued."
+          desc: "Upon successful verification, carbon credits are issued.",
         },
         {
           title: "Trading",
-          desc: "Sell or trade credits through approved power exchanges regulated by CERC."
-        }
+          desc: "Sell or trade credits through approved power exchanges regulated by CERC.",
+        },
       ],
       violations: [],
-      consequences: []
+      consequences: [],
     },
     eligibility: [
       {
@@ -11220,8 +11293,8 @@ export const pageContent: Record<string, PageContentType> = {
           "Waste-to-Energy Projects",
           "Direct Seeded Rice and Mulching",
           "No-till or Conservation Tillage",
-          "Crop Rotation and Cover Crops"
-        ]
+          "Crop Rotation and Cover Crops",
+        ],
       },
       {
         heading: "Top Industries That Benefit",
@@ -11229,96 +11302,108 @@ export const pageContent: Record<string, PageContentType> = {
           "Energy & Utilities",
           "Cement, Steel & Chemical Manufacturing",
           "Transport and Fleet Operations",
-          "Green Real Estate Projects"
-        ]
-      }
+          "Green Real Estate Projects",
+        ],
+      },
     ],
     services: [
       {
         title: "Expert Consultation",
-        desc: "Climate, ESG, and carbon trading specialists to guide project execution."
+        desc: "Climate, ESG, and carbon trading specialists to guide project execution.",
       },
       {
         title: "Carbon Project Structuring",
-        desc: "Design and document green initiatives for credit eligibility."
+        desc: "Design and document green initiatives for credit eligibility.",
       },
       {
         title: "End-to-End Compliance",
-        desc: "Ensure seamless registration, verification, and reporting."
+        desc: "Ensure seamless registration, verification, and reporting.",
       },
       {
         title: "Marketplace Access",
-        desc: "Get listed on power exchanges approved by CERC."
-      }
+        desc: "Get listed on power exchanges approved by CERC.",
+      },
     ],
     faqs: [
       {
         question: "What is a carbon trading scheme?",
-        answer: "It is a regulated market where carbon credits representing one ton of CO₂ reduced can be traded to offset emissions."
+        answer:
+          "It is a regulated market where carbon credits representing one ton of CO₂ reduced can be traded to offset emissions.",
       },
       {
         question: "Is carbon trading legal in India?",
-        answer: "Yes. It was formalized under the CCTS 2023 and full implementation is expected by 2025–26."
+        answer:
+          "Yes. It was formalized under the CCTS 2023 and full implementation is expected by 2025–26.",
       },
       {
         question: "Can carbon credits generate revenue?",
-        answer: "Yes. Businesses can earn and sell verified credits for financial gain."
+        answer:
+          "Yes. Businesses can earn and sell verified credits for financial gain.",
       },
       {
         question: "What are the types of carbon trading?",
-        answer: "Compliance-based (mandatory) and Voluntary (optional)."
+        answer: "Compliance-based (mandatory) and Voluntary (optional).",
       },
       {
         question: "Who are the governing bodies?",
-        answer: "BEE, CERC, Grid Controller of India, and the National Steering Committee."
-      }
+        answer:
+          "BEE, CERC, Grid Controller of India, and the National Steering Committee.",
+      },
     ],
     types: {
       cards: [
         {
           title: "Taxation on Credits",
           shortText: "Carbon credits are taxed at 18% GST in India.",
-          backText: "However, exports of credits are exempt from GST, encouraging international sales."
+          backText:
+            "However, exports of credits are exempt from GST, encouraging international sales.",
         },
         {
           title: "Penalty for Non-compliance",
           shortText: "Obligated entities must meet emission targets.",
-          backText: "Failure attracts financial penalties and compliance actions."
+          backText:
+            "Failure attracts financial penalties and compliance actions.",
         },
         {
           title: "Market Volatility",
           shortText: "Prices are market-driven.",
-          backText: "Credits trade on CERC-authorized exchanges; value fluctuates."
-        }
+          backText:
+            "Credits trade on CERC-authorized exchanges; value fluctuates.",
+        },
       ],
       roleBenefits: [
         "Access new revenue from green initiatives",
         "Gain early-mover advantage in Indian carbon markets",
         "Boost brand reputation with eco-compliance",
         "Lower indirect tax liabilities via exemptions",
-        "Qualify for global carbon market partnerships"
+        "Qualify for global carbon market partnerships",
       ],
       differenceTable: {
         columns: ["Aspect", "Compliance-Based", "Voluntary"],
         rows: [
           ["Regulation", "Mandatory, government-led", "Optional, industry-led"],
           ["Emission Limits", "Enforced by targets", "No specific limits"],
-          ["Credit Purchase", "Required for over-emitting", "Optional participation"],
-          ["Credit Sales", "Only eligible projects", "Any verified reduction project"]
-        ]
+          [
+            "Credit Purchase",
+            "Required for over-emitting",
+            "Optional participation",
+          ],
+          [
+            "Credit Sales",
+            "Only eligible projects",
+            "Any verified reduction project",
+          ],
+        ],
       },
       timelineFees: [
         "Project registration to credit issuance: 60–120 days",
         "Verification agency fees apply",
         "CERC exchange listing fees vary",
         "18% GST on carbon credit transactions",
-        "Exported credits exempt from GST"
-      ]
-    }
+        "Exported credits exempt from GST",
+      ],
+    },
   },
-
-
-
 
   "copyright-assignment": {
     overview: {
@@ -11327,89 +11412,97 @@ export const pageContent: Record<string, PageContentType> = {
         "Copyright assignment is the legal process through which ownership of copyright is transferred from one party to another under Section 196 of the Copyright Act, 1957.",
         "This transfer—whether exclusive or non‑exclusive, partial or complete—must be in writing and signed, and must clearly identify the work and the rights being assigned.",
         "Assignments allow creators to monetize, expand distribution, and shift legal responsibilities to the assignee.",
-        "DoStartup’s IP experts will guide you through every step, from drafting the agreement to registering it with the Copyright Office."
-      ]
+        "DoStartup’s IP experts will guide you through every step, from drafting the agreement to registering it with the Copyright Office.",
+      ],
     },
     features: [
       {
         icon: "✍️",
         title: "Written Agreement",
-        description: "Must be in writing and signed by the assignor to be valid."
+        description:
+          "Must be in writing and signed by the assignor to be valid.",
       },
       {
         icon: "🗺️",
         title: "Territorial Scope",
-        description: "Defines the geographical area in which the assignee can exploit the rights."
+        description:
+          "Defines the geographical area in which the assignee can exploit the rights.",
       },
       {
         icon: "⏳",
         title: "Duration",
-        description: "Specifies the length of time for which the rights are transferred."
+        description:
+          "Specifies the length of time for which the rights are transferred.",
       },
       {
         icon: "💰",
         title: "Consideration",
-        description: "Details lump‑sum payments, royalties, or other compensation to the assignor."
+        description:
+          "Details lump‑sum payments, royalties, or other compensation to the assignor.",
       },
       {
         icon: "📜",
         title: "Clear Work Description",
-        description: "Identifies the specific work or categories of works being assigned."
+        description:
+          "Identifies the specific work or categories of works being assigned.",
       },
       {
         icon: "⚖️",
         title: "Retention of Moral Rights",
-        description: "Moral rights remain with the author unless expressly waived."
-      }
+        description:
+          "Moral rights remain with the author unless expressly waived.",
+      },
     ],
     benefits: [
       {
         title: "Monetization",
-        description: "Creators earn upfront or ongoing payments through assignment."
+        description:
+          "Creators earn upfront or ongoing payments through assignment.",
       },
       {
         title: "Risk Transfer",
-        description: "Legal and financial liabilities shift to the assignee."
+        description: "Legal and financial liabilities shift to the assignee.",
       },
       {
         title: "Expanded Reach",
-        description: "Assignees leverage broader distribution networks."
+        description: "Assignees leverage broader distribution networks.",
       },
       {
         title: "Focus on Creation",
-        description: "Creators can devote time to new works while assignees handle exploitation."
-      }
+        description:
+          "Creators can devote time to new works while assignees handle exploitation.",
+      },
     ],
     documents: {
       steps: [
         {
           title: "Draft Agreement",
-          desc: "Prepare a written assignment specifying work, rights, duration, territory, and compensation."
+          desc: "Prepare a written assignment specifying work, rights, duration, territory, and compensation.",
         },
         {
           title: "Sign & Witness",
-          desc: "Obtain signatures of assignor, assignee, and two witnesses."
+          desc: "Obtain signatures of assignor, assignee, and two witnesses.",
         },
         {
           title: "Submit to Office",
-          desc: "File Form XIV and agreement with the Copyright Office along with the fee."
+          desc: "File Form XIV and agreement with the Copyright Office along with the fee.",
         },
         {
           title: "Record Creation",
-          desc: "Office reviews and records the assignment in the Register of Assignments."
-        }
+          desc: "Office reviews and records the assignment in the Register of Assignments.",
+        },
       ],
       violations: [
         "Assignment without writing or signature is void.",
         "Ambiguous scope may lead to disputes.",
         "Failure to register may hamper enforcement.",
-        "Conflicting prior assignments breach Section 19."
+        "Conflicting prior assignments breach Section 19.",
       ],
       consequences: [
         "Void assignment if unwritten or unsigned.",
         "Inability to enforce unregistered assignments.",
-        "Potential litigation for breach of contract."
-      ]
+        "Potential litigation for breach of contract.",
+      ],
     },
     eligibility: [
       {
@@ -11417,76 +11510,79 @@ export const pageContent: Record<string, PageContentType> = {
         items: [
           "Original authors or creators",
           "Legal assignees or heirs",
-          "Employers under work‑for‑hire agreements"
-        ]
+          "Employers under work‑for‑hire agreements",
+        ],
       },
       {
         heading: "Work Requirements",
         items: [
           "Original work fixed in tangible form",
           "Work must be registered or registrable",
-          "No conflicting assignments exist"
-        ]
-      }
+          "No conflicting assignments exist",
+        ],
+      },
     ],
     services: [
       {
         title: "Agreement Drafting",
-        desc: "Tailored, legally sound assignment agreements."
+        desc: "Tailored, legally sound assignment agreements.",
       },
       {
         title: "Registration Support",
-        desc: "End‑to‑end filing with the Copyright Office."
+        desc: "End‑to‑end filing with the Copyright Office.",
       },
       {
         title: "Legal Advice",
-        desc: "Expert consultation on moral rights, royalties, and more."
+        desc: "Expert consultation on moral rights, royalties, and more.",
       },
       {
         title: "Dispute Resolution",
-        desc: "Guidance on enforcement and cancellation proceedings."
-      }
+        desc: "Guidance on enforcement and cancellation proceedings.",
+      },
     ],
     faqs: [
       {
         question: "What is a copyright assignment?",
-        answer: "A legal transfer of copyright ownership from assignor to assignee."
+        answer:
+          "A legal transfer of copyright ownership from assignor to assignee.",
       },
       {
         question: "Must an assignment be registered?",
-        answer: "Registration is recommended to enforce rights but not mandatory for validity."
+        answer:
+          "Registration is recommended to enforce rights but not mandatory for validity.",
       },
       {
         question: "Can moral rights be assigned?",
-        answer: "Moral rights generally remain with the author unless expressly waived."
+        answer:
+          "Moral rights generally remain with the author unless expressly waived.",
       },
       {
         question: "How long does registration take?",
-        answer: "Typically 2–4 weeks after submission of all documents."
-      }
+        answer: "Typically 2–4 weeks after submission of all documents.",
+      },
     ],
     types: {
       cards: [
         {
           title: "Exclusive Assignment",
           shortText: "All rights transferred to the assignee.",
-          backText: "Assignor retains no exploitation rights."
+          backText: "Assignor retains no exploitation rights.",
         },
         {
           title: "Non‑Exclusive Assignment",
           shortText: "Shared rights between assignor and assignee.",
-          backText: "Assignor can exploit rights alongside the assignee."
+          backText: "Assignor can exploit rights alongside the assignee.",
         },
         {
           title: "Partial Assignment",
           shortText: "Rights limited by region, duration, or format.",
-          backText: "Specific uses or territories defined in the agreement."
-        }
+          backText: "Specific uses or territories defined in the agreement.",
+        },
       ],
       roleBenefits: [
         "Assignor: Upfront or royalty payments.",
         "Assignee: Exclusive exploitation rights.",
-        "Both: Clarity on rights and responsibilities."
+        "Both: Clarity on rights and responsibilities.",
       ],
       differenceTable: {
         columns: ["Aspect", "Copyright Licensing", "Copyright Assignment"],
@@ -11495,33 +11591,19 @@ export const pageContent: Record<string, PageContentType> = {
           ["Duration", "Limited term", "As stipulated (often permanent)"],
           ["Scope", "Specific uses", "Broader exploitation rights"],
           ["Compensation", "Royalty-based", "Lump‑sum or royalties"],
-          ["Revocability", "Generally revocable", "Difficult to revoke once executed"]
-        ]
+          [
+            "Revocability",
+            "Generally revocable",
+            "Difficult to revoke once executed",
+          ],
+        ],
       },
       timelineFees: [
         "Drafting and negotiation: 1–2 weeks.",
         "Execution and witnessing: 1 week.",
         "Office filing & registration: 2–4 weeks.",
-        "Fee: ₹1,000–₹5,000 depending on work volume."
-      ]
-    }
-  }
-  
-  
-  
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
+        "Fee: ₹1,000–₹5,000 depending on work volume.",
+      ],
+    },
+  },
 };

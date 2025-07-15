@@ -1025,13 +1025,13 @@ Submitting these documents correctly and completely is crucial for a successful 
   4. Upon approval, receive your Central License certificate (display prominently).`,
       },
     ],
-    renewal: {
+    renewal: [{
       heading: "Validity & Renewal",
       content: [
         "Valid for 1–5 years; fees increase with longer validity. Renew at least 30 days before expiry to avoid penalties.",
         "Renewal documents: recent passport photo, government ID proof, PAN Card, address proof, land deed or rent agreement + NOC (if rented).",
       ],
-    },
+    }],
     whyUs: [
       {
         heading: "Why Choose Dostartup?",
@@ -2163,21 +2163,6 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
         content: `Every registered Private Limited Company—regardless of turnover or capital—must complete annual filings (e.g., ITR, annual returns) and event‑based filings (e.g., changes in directors, share capital). Failing to comply can lead to heavy fines, director disqualification, loss of “Active” status, or even strike‑off by the RoC.`,
       },
     ],
-    Listicles: [
-      {
-        category: "Mandatory Compliance Checklist",
-        documents: [
-          "Statutory Audit Compliance: Appointment of a statutory auditor and audited financial statements every year.",
-          "Annual ROC Filings: Form MGT‑7 (Annual Return) within 60 days of the AGM; Form AOC‑4 (Financial Statements) within 30 days of the AGM.",
-          "Appointment of Auditor: First statutory auditor must be appointed within 30 days of incorporation.",
-          "Annual General Meeting (AGM): Hold within six months of financial year‑end; first AGM within nine months of first financial year‑end.",
-          "Board Meetings: Minimum of four meetings per financial year, with no more than 120 days between meetings; first board meeting within 30 days of incorporation.",
-          "Director’s Report: Prepare and file annually, disclosing financial performance, other directorships, and compliance declarations.",
-          "Income Tax Compliances: File ITR annually; pay advance tax quarterly (if applicable); conduct a tax audit if turnover exceeds ₹1 crore.",
-          "Event‑Based Filings: File applicable RoC forms for changes in share capital, director appointments/resignations, registered office address, or change of auditors.",
-        ],
-      },
-    ],
     benefits: [
       {
         heading: "Benefits of Timely Compliance",
@@ -2221,6 +2206,19 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
           "Legal action and monetary fines for non‑adherence to Companies Act or Income Tax Act provisions.",
         ],
       },
+      {
+        category: "Mandatory Compliance Checklist",
+        documents: [
+          "Statutory Audit Compliance: Appointment of a statutory auditor and audited financial statements every year.",
+          "Annual ROC Filings: Form MGT‑7 (Annual Return) within 60 days of the AGM; Form AOC‑4 (Financial Statements) within 30 days of the AGM.",
+          "Appointment of Auditor: First statutory auditor must be appointed within 30 days of incorporation.",
+          "Annual General Meeting (AGM): Hold within six months of financial year‑end; first AGM within nine months of first financial year‑end.",
+          "Board Meetings: Minimum of four meetings per financial year, with no more than 120 days between meetings; first board meeting within 30 days of incorporation.",
+          "Director’s Report: Prepare and file annually, disclosing financial performance, other directorships, and compliance declarations.",
+          "Income Tax Compliances: File ITR annually; pay advance tax quarterly (if applicable); conduct a tax audit if turnover exceeds ₹1 crore.",
+          "Event‑Based Filings: File applicable RoC forms for changes in share capital, director appointments/resignations, registered office address, or change of auditors.",
+        ],
+      }
     ],
     whyUs: [
       {
@@ -10759,7 +10757,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Defines post‑closing obligations, earn‑outs, escrow arrangements and mechanisms for resolving breaches.",
       },
     ],
-    procedure: [
+    registrationProcedure: [
       {
         heading: "DoStartup’s SPA Drafting Process",
         content:
@@ -15954,7 +15952,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     registrationTimeline: [
       {
         heading: "Penalties for Non‑Compliance",
-        content:
+        description:
           "Under Section 18(c) of the Drugs and Cosmetics Act, 1940, selling drugs without a valid license can result in up to three years’ imprisonment and a minimum fine of ₹5,000.",
       },
     ],
@@ -16140,12 +16138,12 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     registrationTimeline: [
       {
         heading: "Processing Time",
-        content:
+        description:
           "Typically 30 to 60 days from application submission to license issuance.",
       },
       {
         heading: "Penalties for Non‑Compliance",
-        content:
+        description:
           "Imprisonment of 1–3 years and a fine of not less than ₹5,000 for trading without a valid license (Drugs and Cosmetics Act, 1940).",
       },
     ],
@@ -16778,7 +16776,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     registrationTimeline: [
       {
         heading: "Timeline & Validity",
-        content:
+        description:
           "Processing may take several months. Validity and renewal depend on class and authority.",
       },
     ],
@@ -17997,7 +17995,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "● Certificate of Incorporation\n● MOA and AOA\n● LLP Agreement (if applicable)\n● Principal Officer qualification documents\n● Financial Service Executive and Insurance Sales Person credentials\n● Net Worth Certificate\n● Bank statement\n● Three-Year Business Plan\n● Infrastructure and staff details\n● Declaration by Principal Officer\n● Infrastructure photos\n● Consent letters from insurance providers",
       },
     ],
-    eligibility: [
+    eligibilityCriteria: [
       {
         heading: "Who Can Register as an ISNP?",
         content:
