@@ -10938,7 +10938,581 @@ export const pageContent: Record<string, PageContentType> = {
         "Renewal Fees: Same as initial; apply 120 days prior"
       ]
     }
+  },
+
+
+
+
+
+
+  "cd-waste-recycling": {
+    overview: {
+      heading: "Construction and Demolition Waste Recycling – An Overview",
+      paragraphs: [
+        "If you're aiming to build a scalable, sustainable business in waste management, starting a C&D Waste Recycling Plant could be your next strategic move. C&D Waste Recycling refers to the systematic collection, segregation, processing, and reuse of debris generated from construction, renovation, and demolition projects.",
+        "As India urbanizes, the volume of construction‑related waste surges. Recycling this waste isn't just an environmental obligation—it’s an untapped business opportunity that addresses material shortages, supports circular‑economy practices, and aligns with national sustainability goals.",
+        "Construction and Demolition Waste is generated during activities like site clearance, excavation, construction, renovation, and dismantling of structures—residential, commercial, and public infrastructure alike. It includes both hazardous and non‑hazardous waste, and accounts for nearly 40% of India’s total solid waste output."
+      ]
+    },
+    features: [
+      {
+        icon: "🚜",
+        title: "Feed Hoppers & Pre‑Screening",
+        description: "Automated loading and trommel/disc screening to remove oversized debris and lightweight material."
+      },
+      {
+        icon: "⚙️",
+        title: "Crushing & Sizing",
+        description: "High‑efficiency crushers and sizing screens break down concrete, brick, and masonry into graded aggregates."
+      },
+      {
+        icon: "🔄",
+        title: "Metal & Wood Separation",
+        description: "Magnetic, eddy‑current, and air‑classification systems recover steel, rebar, and wood for reuse."
+      },
+      {
+        icon: "💧",
+        title: "Wash & Recovery Systems",
+        description: "Hydrocyclones and water‑recovery plants clean aggregates and recycle process water."
+      }
+    ],
+    benefits: [
+      {
+        title: "Sustainable Development",
+        description: "Reduces carbon footprint of infrastructure projects by reusing materials like sand and gravel."
+      },
+      {
+        title: "Cost Optimization",
+        description: "Lowers procurement costs, landfill levies, and overall project expenditure through material recovery."
+      },
+      {
+        title: "Resource Conservation",
+        description: "Diverts reusable materials from landfills, extending finite resources such as wood, cement, and steel."
+      },
+      {
+        title: "Regulatory Compliance",
+        description: "Aligns operations with India’s C&D Waste Management Rules and SPCB/PCC environmental norms."
+      },
+      {
+        title: "Brand Reputation",
+        description: "Demonstrates ESG commitment, boosting credibility with investors and sustainability‑focused clients."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Submit Form I",
+          desc: "File your C&D Waste Recycling Plant application under the C&D Waste Management Rules, 2016 with your State Pollution Control Board."
+        },
+        {
+          title: "Attach Supporting Docs",
+          desc: "Include layout plan, process flow diagram, GST/Udyam certificates, property proof, and machinery purchase receipts."
+        },
+        {
+          title: "Pay Fees & Scrutiny",
+          desc: "Pay the prescribed SPCB consent fees; authorities will review your submission for completeness."
+        },
+        {
+          title: "SPCB Site Inspection",
+          desc: "State Pollution Control Board officials will audit your premises for environmental and operational compliance."
+        },
+        {
+          title: "Authorization Granted",
+          desc: "Upon successful inspection, receive your Consent to Establish (CTE) and Consent to Operate (CTO)."
+        }
+      ],
+      violations: [],
+      consequences: []
+    },
+    eligibility: [
+      {
+        heading: "Registrations & Approvals Required",
+        items: [
+          "GST Registration",
+          "MSME/Udyam Registration",
+          "Factory License under local labor & safety laws",
+          "SPCB/PCC Consent to Establish and Operate",
+          "Municipal and Occupational Health Licenses"
+        ]
+      },
+      {
+        heading: "Site & Facility Criteria",
+        items: [
+          "Minimum buffer zone from water bodies, forests, and residential areas",
+          "Fencing, air‑quality monitoring, and vegetative barriers",
+          "Compliance with SPCB air, water and noise emission norms"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "End‑to‑End Licensing",
+        desc: "We handle all applications, document collation, fee payments and follow‑ups with SPCB/PCC."
+      },
+      {
+        title: "Turnkey Plant Design",
+        desc: "Customized layout and process‑flow diagrams to maximize throughput and compliance."
+      },
+      {
+        title: "Technology Selection",
+        desc: "Advice on the right mix of traditional and AI‑enhanced recycling equipment."
+      },
+      {
+        title: "Regulatory Renewal",
+        desc: "Ongoing support for annual reports, consent renewals, and compliance audits."
+      }
+    ],
+    faqs: [
+      {
+        question: "Is C&D waste recycling mandatory in India?",
+        answer: "Yes. Under the C&D Waste Management Rules, 2016, bulk waste generators must ensure disposal via authorized recyclers."
+      },
+      {
+        question: "What percentage of C&D waste is recycled currently?",
+        answer: "Less than 1% is officially recycled today, though policy targets aim for over 30% in major urban centers."
+      },
+      {
+        question: "What materials can be recovered?",
+        answer: "Concrete, brick, masonry, metals, timber, plastics, glass and other inert construction debris."
+      },
+      {
+        question: "How long does authorization take?",
+        answer: "Typically 60–90 days, including document scrutiny and site inspection by SPCB authorities."
+      },
+      {
+        question: "Can demolition waste be reused directly?",
+        answer: "After proper sorting and crushing, materials like concrete and steel can re‑enter new construction."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Site Clearance Failures",
+          shortText: "Improper segregation",
+          backText: "Leads to contamination of recyclable streams and higher disposal costs."
+        },
+        {
+          title: "Permit Lapses",
+          shortText: "Expired consents",
+          backText: "Operating without SPCB CTE/CTO can invite fines and plant shutdowns."
+        },
+        {
+          title: "Technology Mismatch",
+          shortText: "Wrong equipment",
+          backText: "Reduces throughput and increases operating expenses."
+        }
+      ],
+      roleBenefits: [
+        "Helps meet mandatory recycling targets",
+        "Unlocks government subsidies for MSMEs",
+        "Enhances site‑safety and worker health",
+        "Improves margins through recovered‑material sales",
+        "Strengthens ESG credentials for investors"
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Landfilling", "Recycling"],
+        rows: [
+          ["Environmental Impact", "High (methane, leachate)", "Low (closed‑loop reuse)"],
+          ["Cost", "Rising landfill levies", "Reduced raw‑material spend"],
+          ["Regulatory Risk", "Penalties for non‑compliance", "Aligned with C&D Waste Rules"],
+          ["Resource Use", "Finite extraction", "Circular‑economy model"]
+        ]
+      },
+      timelineFees: [
+        "Application filing to CTE: ~30 days",
+        "Site inspection & CTO grant: additional 30–60 days",
+        "SPCB consent fees range: ₹25,000–₹1,00,000 (state‑dependent)",
+        "Annual renewal fees and compliance report submission"
+      ]
+    }
+  },
+
+
+
+
+
+  "carbon-credit-trading-scheme": {
+    overview: {
+      heading: "Carbon Credit Trading Scheme – An Overview",
+      paragraphs: [
+        "On June 26, 2023, the Ministry of Environment, Forests, and Climate Change introduced the draft Green Credit Programme Implementation Rules. Just two days later, on June 28, the Ministry of Power launched the Carbon Credit Trading Scheme (CCTS) 2023. Both programs reflect India’s strategic push toward climate responsibility through market-based mechanisms.",
+        "The Bureau of Energy Efficiency (BEE), under the Ministry of Power, is leading this effort. Under the CCTS, each ton of CO₂ reduced or avoided earns a carbon credit, which can be bought, sold, or traded. This incentivizes sustainability while enabling businesses to generate measurable financial returns.",
+        "Unsure how to report carbon credits or unlock their value? DoStartup’s environmental advisors can simplify compliance and maximize your gains."
+      ]
+    },
+    features: [
+      {
+        icon: "♻️",
+        title: "Emission Reduction Pooling",
+        description: "Enables pooling of emission reduction efforts across projects and entities."
+      },
+      {
+        icon: "📈",
+        title: "Carbon Certificate Generation",
+        description: "Facilitates generation and trading of carbon credits with verified certification."
+      },
+      {
+        icon: "💰",
+        title: "Financial Returns",
+        description: "Maximizes profitability by monetizing emissions savings."
+      },
+      {
+        icon: "🏭",
+        title: "Mandatory Compliance",
+        description: "Obligates high GHG-emitting industries to buy credits to meet reduction targets."
+      },
+      {
+        icon: "🔋",
+        title: "Promotes Renewable Energy",
+        description: "Drives shift toward clean energy adoption."
+      }
+    ],
+    benefits: [
+      {
+        title: "Improves ESG Scores",
+        description: "Aligns operations with environmental governance norms and boosts ESG ratings."
+      },
+      {
+        title: "Incentivizes Sustainability",
+        description: "Encourages proactive climate action through tangible financial benefits."
+      },
+      {
+        title: "Reduces Operational Costs",
+        description: "Emission-reduction efforts often lead to long-term cost savings."
+      },
+      {
+        title: "Attracts Green Investors",
+        description: "Strengthens brand equity with CSR-driven investors and eco-conscious partners."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Project Structuring",
+          desc: "Identify eligible emission-reduction activities under CCTS."
+        },
+        {
+          title: "Project Registration",
+          desc: "Register the green project with the Bureau of Energy Efficiency (BEE)."
+        },
+        {
+          title: "Verification",
+          desc: "Undergo validation from an accredited verification agency."
+        },
+        {
+          title: "Credit Issuance",
+          desc: "Upon successful verification, carbon credits are issued."
+        },
+        {
+          title: "Trading",
+          desc: "Sell or trade credits through approved power exchanges regulated by CERC."
+        }
+      ],
+      violations: [],
+      consequences: []
+    },
+    eligibility: [
+      {
+        heading: "Ways to Generate Carbon Credits in India",
+        items: [
+          "Renewable Energy Projects",
+          "Energy Efficiency Measures",
+          "Waste-to-Energy Projects",
+          "Direct Seeded Rice and Mulching",
+          "No-till or Conservation Tillage",
+          "Crop Rotation and Cover Crops"
+        ]
+      },
+      {
+        heading: "Top Industries That Benefit",
+        items: [
+          "Energy & Utilities",
+          "Cement, Steel & Chemical Manufacturing",
+          "Transport and Fleet Operations",
+          "Green Real Estate Projects"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Expert Consultation",
+        desc: "Climate, ESG, and carbon trading specialists to guide project execution."
+      },
+      {
+        title: "Carbon Project Structuring",
+        desc: "Design and document green initiatives for credit eligibility."
+      },
+      {
+        title: "End-to-End Compliance",
+        desc: "Ensure seamless registration, verification, and reporting."
+      },
+      {
+        title: "Marketplace Access",
+        desc: "Get listed on power exchanges approved by CERC."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a carbon trading scheme?",
+        answer: "It is a regulated market where carbon credits representing one ton of CO₂ reduced can be traded to offset emissions."
+      },
+      {
+        question: "Is carbon trading legal in India?",
+        answer: "Yes. It was formalized under the CCTS 2023 and full implementation is expected by 2025–26."
+      },
+      {
+        question: "Can carbon credits generate revenue?",
+        answer: "Yes. Businesses can earn and sell verified credits for financial gain."
+      },
+      {
+        question: "What are the types of carbon trading?",
+        answer: "Compliance-based (mandatory) and Voluntary (optional)."
+      },
+      {
+        question: "Who are the governing bodies?",
+        answer: "BEE, CERC, Grid Controller of India, and the National Steering Committee."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Taxation on Credits",
+          shortText: "Carbon credits are taxed at 18% GST in India.",
+          backText: "However, exports of credits are exempt from GST, encouraging international sales."
+        },
+        {
+          title: "Penalty for Non-compliance",
+          shortText: "Obligated entities must meet emission targets.",
+          backText: "Failure attracts financial penalties and compliance actions."
+        },
+        {
+          title: "Market Volatility",
+          shortText: "Prices are market-driven.",
+          backText: "Credits trade on CERC-authorized exchanges; value fluctuates."
+        }
+      ],
+      roleBenefits: [
+        "Access new revenue from green initiatives",
+        "Gain early-mover advantage in Indian carbon markets",
+        "Boost brand reputation with eco-compliance",
+        "Lower indirect tax liabilities via exemptions",
+        "Qualify for global carbon market partnerships"
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Compliance-Based", "Voluntary"],
+        rows: [
+          ["Regulation", "Mandatory, government-led", "Optional, industry-led"],
+          ["Emission Limits", "Enforced by targets", "No specific limits"],
+          ["Credit Purchase", "Required for over-emitting", "Optional participation"],
+          ["Credit Sales", "Only eligible projects", "Any verified reduction project"]
+        ]
+      },
+      timelineFees: [
+        "Project registration to credit issuance: 60–120 days",
+        "Verification agency fees apply",
+        "CERC exchange listing fees vary",
+        "18% GST on carbon credit transactions",
+        "Exported credits exempt from GST"
+      ]
+    }
+  },
+
+
+
+
+  "copyright-assignment": {
+    overview: {
+      heading: "An Overview of Copyright Assignment",
+      paragraphs: [
+        "Copyright assignment is the legal process through which ownership of copyright is transferred from one party to another under Section 196 of the Copyright Act, 1957.",
+        "This transfer—whether exclusive or non‑exclusive, partial or complete—must be in writing and signed, and must clearly identify the work and the rights being assigned.",
+        "Assignments allow creators to monetize, expand distribution, and shift legal responsibilities to the assignee.",
+        "DoStartup’s IP experts will guide you through every step, from drafting the agreement to registering it with the Copyright Office."
+      ]
+    },
+    features: [
+      {
+        icon: "✍️",
+        title: "Written Agreement",
+        description: "Must be in writing and signed by the assignor to be valid."
+      },
+      {
+        icon: "🗺️",
+        title: "Territorial Scope",
+        description: "Defines the geographical area in which the assignee can exploit the rights."
+      },
+      {
+        icon: "⏳",
+        title: "Duration",
+        description: "Specifies the length of time for which the rights are transferred."
+      },
+      {
+        icon: "💰",
+        title: "Consideration",
+        description: "Details lump‑sum payments, royalties, or other compensation to the assignor."
+      },
+      {
+        icon: "📜",
+        title: "Clear Work Description",
+        description: "Identifies the specific work or categories of works being assigned."
+      },
+      {
+        icon: "⚖️",
+        title: "Retention of Moral Rights",
+        description: "Moral rights remain with the author unless expressly waived."
+      }
+    ],
+    benefits: [
+      {
+        title: "Monetization",
+        description: "Creators earn upfront or ongoing payments through assignment."
+      },
+      {
+        title: "Risk Transfer",
+        description: "Legal and financial liabilities shift to the assignee."
+      },
+      {
+        title: "Expanded Reach",
+        description: "Assignees leverage broader distribution networks."
+      },
+      {
+        title: "Focus on Creation",
+        description: "Creators can devote time to new works while assignees handle exploitation."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Draft Agreement",
+          desc: "Prepare a written assignment specifying work, rights, duration, territory, and compensation."
+        },
+        {
+          title: "Sign & Witness",
+          desc: "Obtain signatures of assignor, assignee, and two witnesses."
+        },
+        {
+          title: "Submit to Office",
+          desc: "File Form XIV and agreement with the Copyright Office along with the fee."
+        },
+        {
+          title: "Record Creation",
+          desc: "Office reviews and records the assignment in the Register of Assignments."
+        }
+      ],
+      violations: [
+        "Assignment without writing or signature is void.",
+        "Ambiguous scope may lead to disputes.",
+        "Failure to register may hamper enforcement.",
+        "Conflicting prior assignments breach Section 19."
+      ],
+      consequences: [
+        "Void assignment if unwritten or unsigned.",
+        "Inability to enforce unregistered assignments.",
+        "Potential litigation for breach of contract."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Can Assign",
+        items: [
+          "Original authors or creators",
+          "Legal assignees or heirs",
+          "Employers under work‑for‑hire agreements"
+        ]
+      },
+      {
+        heading: "Work Requirements",
+        items: [
+          "Original work fixed in tangible form",
+          "Work must be registered or registrable",
+          "No conflicting assignments exist"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Agreement Drafting",
+        desc: "Tailored, legally sound assignment agreements."
+      },
+      {
+        title: "Registration Support",
+        desc: "End‑to‑end filing with the Copyright Office."
+      },
+      {
+        title: "Legal Advice",
+        desc: "Expert consultation on moral rights, royalties, and more."
+      },
+      {
+        title: "Dispute Resolution",
+        desc: "Guidance on enforcement and cancellation proceedings."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a copyright assignment?",
+        answer: "A legal transfer of copyright ownership from assignor to assignee."
+      },
+      {
+        question: "Must an assignment be registered?",
+        answer: "Registration is recommended to enforce rights but not mandatory for validity."
+      },
+      {
+        question: "Can moral rights be assigned?",
+        answer: "Moral rights generally remain with the author unless expressly waived."
+      },
+      {
+        question: "How long does registration take?",
+        answer: "Typically 2–4 weeks after submission of all documents."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Exclusive Assignment",
+          shortText: "All rights transferred to the assignee.",
+          backText: "Assignor retains no exploitation rights."
+        },
+        {
+          title: "Non‑Exclusive Assignment",
+          shortText: "Shared rights between assignor and assignee.",
+          backText: "Assignor can exploit rights alongside the assignee."
+        },
+        {
+          title: "Partial Assignment",
+          shortText: "Rights limited by region, duration, or format.",
+          backText: "Specific uses or territories defined in the agreement."
+        }
+      ],
+      roleBenefits: [
+        "Assignor: Upfront or royalty payments.",
+        "Assignee: Exclusive exploitation rights.",
+        "Both: Clarity on rights and responsibilities."
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Copyright Licensing", "Copyright Assignment"],
+        rows: [
+          ["Ownership", "Retained by licensor", "Transferred to assignee"],
+          ["Duration", "Limited term", "As stipulated (often permanent)"],
+          ["Scope", "Specific uses", "Broader exploitation rights"],
+          ["Compensation", "Royalty-based", "Lump‑sum or royalties"],
+          ["Revocability", "Generally revocable", "Difficult to revoke once executed"]
+        ]
+      },
+      timelineFees: [
+        "Drafting and negotiation: 1–2 weeks.",
+        "Execution and witnessing: 1 week.",
+        "Office filing & registration: 2–4 weeks.",
+        "Fee: ₹1,000–₹5,000 depending on work volume."
+      ]
+    }
   }
+  
+  
+  
+
+
+
+
   
   
 

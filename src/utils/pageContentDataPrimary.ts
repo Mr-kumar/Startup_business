@@ -20869,38 +20869,43 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-
-
   "esdd-financial-banking-sector": {
-    title: "Environmental & Social Due Diligence in the Financial & Banking Sector",
-    description: "Partner with DoStartup to navigate ESDD compliance—data strategies, risk mitigation, regulatory readiness and sustainability benchmarking—for financial institutions.",
+    title:
+      "Environmental & Social Due Diligence in the Financial & Banking Sector",
+    description:
+      "Partner with DoStartup to navigate ESDD compliance—data strategies, risk mitigation, regulatory readiness and sustainability benchmarking—for financial institutions.",
     overview: [
       {
         heading: "DoStartup’s ESDD Expertise",
-        content: "We provide end-to-end environmental and social due diligence services—compliance evaluations, customized action plans and strategic implementation—tailored for banks and financial firms."
+        content:
+          "We provide end-to-end environmental and social due diligence services—compliance evaluations, customized action plans and strategic implementation—tailored for banks and financial firms.",
       },
       {
         heading: "Why ESDD Matters in Finance",
-        content: "As ESG moves from voluntary to mandatory, financial institutions face data fragmentation, environmental crime financing risks, tech limitations and resource constraints. Rigorous ESDD builds trust, enhances resilience and meets evolving regulations."
-      }
+        content:
+          "As ESG moves from voluntary to mandatory, financial institutions face data fragmentation, environmental crime financing risks, tech limitations and resource constraints. Rigorous ESDD builds trust, enhances resilience and meets evolving regulations.",
+      },
     ],
     benefits: [
       {
         heading: "Key Benefits of Outsourcing ESDD",
-        content: "● Proactive Risk Management: Identify environmental and social risks early.\n● Enhanced Operational Performance: Free internal teams to focus on core business.\n● Increased Regulatory Readiness: Stay ahead of sustainability regulations.\n● Cost Savings: Access experts on-demand instead of sustaining in‑house teams.\n● Brand & Investor Confidence: Demonstrate strong ESG credentials."
-      }
+        content:
+          "● Proactive Risk Management: Identify environmental and social risks early.\n● Enhanced Operational Performance: Free internal teams to focus on core business.\n● Increased Regulatory Readiness: Stay ahead of sustainability regulations.\n● Cost Savings: Access experts on-demand instead of sustaining in‑house teams.\n● Brand & Investor Confidence: Demonstrate strong ESG credentials.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Typical ESDD Documentation",
-        content: "● Data collection frameworks and privacy compliance records\n● AML/CTF policies addressing environmental crime financing\n● Technology and cybersecurity risk assessments\n● Stakeholder engagement and grievance mechanism logs\n● ESG reporting and audit trail documents\n● Regulatory filings and compliance certificates"
-      }
+        content:
+          "● Data collection frameworks and privacy compliance records\n● AML/CTF policies addressing environmental crime financing\n● Technology and cybersecurity risk assessments\n● Stakeholder engagement and grievance mechanism logs\n● ESG reporting and audit trail documents\n● Regulatory filings and compliance certificates",
+      },
     ],
     registrationProcedure: [
       {
         heading: "ESDD Process Steps",
-        content: "1. Data Strategy & Collection: Design data flows and secure accurate ESG data.\n2. Risk Identification: Map financial, environmental crime and social risks.\n3. Mitigation & Strategy: Develop controls and compliance programs.\n4. Benchmarking & Reporting: Compare against peers and prepare regulatory submissions.\n5. Ongoing Support: Monitor regulatory updates, provide real‑time insights and follow‑ups."
-      }
+        content:
+          "1. Data Strategy & Collection: Design data flows and secure accurate ESG data.\n2. Risk Identification: Map financial, environmental crime and social risks.\n3. Mitigation & Strategy: Develop controls and compliance programs.\n4. Benchmarking & Reporting: Compare against peers and prepare regulatory submissions.\n5. Ongoing Support: Monitor regulatory updates, provide real‑time insights and follow‑ups.",
+      },
     ],
     registrationTimeline: [],
     Listicles: [
@@ -20910,8 +20915,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Data Fragmentation: Privacy concerns hinder ESG data collection.",
           "Environmental Crime Financing: Money laundering linked to illegal natural resource exploitation.",
           "Technological Barriers: Legacy systems and cybersecurity constraints.",
-          "Resource Constraints: Limited budget and expertise for comprehensive ESDD."
-        ]
+          "Resource Constraints: Limited budget and expertise for comprehensive ESDD.",
+        ],
       },
       {
         category: "Our Core Services",
@@ -20919,8 +20924,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Data Analysis & Reporting: Expert-driven ESG data strategies and actionable insights.",
           "Comprehensive Documentation: Accurate preparation of due diligence reports and filings.",
           "Regulatory Compliance: Alignment with evolving environmental and social regulations.",
-          "Market Intelligence & Benchmarking: Peer comparisons and trend insights."
-        ]
+          "Market Intelligence & Benchmarking: Peer comparisons and trend insights.",
+        ],
       },
       {
         category: "Additional Support",
@@ -20928,82 +20933,90 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Expert Consultation: Personalized guidance at every step.",
           "One‑Stop Solution: Single point of contact for all ESDD needs.",
           "Real‑Time Tracking: Monitor progress via our user-friendly platform.",
-          "Customized Solutions: Tailored ESDD strategies for your institution."
-        ]
-      }
+          "Customized Solutions: Tailored ESDD strategies for your institution.",
+        ],
+      },
     ],
     whyUs: [
       {
         heading: "Why Partner with DoStartup?",
         description: [
-          "Our AI‑powered, cloud-based platform and network of 50,000+ experts deliver efficient, transparent and tailored ESDD solutions for the financial sector."
+          "Our AI‑powered, cloud-based platform and network of 50,000+ experts deliver efficient, transparent and tailored ESDD solutions for the financial sector.",
         ],
         points: [
           "Proven 99.7% project success rate",
           "400+ in‑house environmental and social specialists",
           "24/7 customer support and proactive follow‑ups",
           "Strong partner network of 40,000+ law and audit firms",
-          "End‑to‑end ESDD lifecycle management"
-        ]
-      }
+          "End‑to‑end ESDD lifecycle management",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is ESDD in banking and finance?",
-        answer: "A process evaluating environmental and social factors in financial operations and investments to ensure sustainable and responsible practices."
+        answer:
+          "A process evaluating environmental and social factors in financial operations and investments to ensure sustainable and responsible practices.",
       },
       {
         question: "Why is ESDD important for financial institutions?",
-        answer: "It mitigates ESG risks, prevents environmental crime financing, enhances regulatory compliance and builds stakeholder trust."
+        answer:
+          "It mitigates ESG risks, prevents environmental crime financing, enhances regulatory compliance and builds stakeholder trust.",
       },
       {
         question: "How is ESDD conducted?",
-        answer: "Through data collection, risk mapping, mitigation planning, benchmarking and regulatory reporting supported by expert guidance."
+        answer:
+          "Through data collection, risk mapping, mitigation planning, benchmarking and regulatory reporting supported by expert guidance.",
       },
       {
         question: "What documentation is required for ESDD?",
-        answer: "ESG data frameworks, AML/CTF policies, risk assessments, stakeholder logs, audit trails and regulatory filings."
+        answer:
+          "ESG data frameworks, AML/CTF policies, risk assessments, stakeholder logs, audit trails and regulatory filings.",
       },
       {
         question: "Can existing ESDD programs be improved?",
-        answer: "Yes—DoStartup performs gap analyses and strengthens programs with targeted recommendations and ongoing support."
-      }
-    ]
+        answer:
+          "Yes—DoStartup performs gap analyses and strengthens programs with targeted recommendations and ongoing support.",
+      },
+    ],
   },
-
-
-
 
   "esdd-dairy-industry": {
     title: "Environmental & Social Due Diligence in the Dairy Industry",
-    description: "Partner with DoStartup for expert ESDD services—compliance assessments, gap analysis, waste management strategies, licensing support and transparent reporting—tailored to India’s dairy sector.",
+    description:
+      "Partner with DoStartup for expert ESDD services—compliance assessments, gap analysis, waste management strategies, licensing support and transparent reporting—tailored to India’s dairy sector.",
     overview: [
       {
         heading: "Why ESDD Matters in Dairy",
-        content: "India’s dairy sector faces environmental challenges—land use, water consumption, GHG emissions—and social concerns around unorganized supply chains and animal welfare. Rigorous ESDD ensures sustainable growth, regulatory compliance, and strong brand reputation."
+        content:
+          "India’s dairy sector faces environmental challenges—land use, water consumption, GHG emissions—and social concerns around unorganized supply chains and animal welfare. Rigorous ESDD ensures sustainable growth, regulatory compliance, and strong brand reputation.",
       },
       {
         heading: "DoStartup’s ESDD Expertise",
-        content: "Our in‑house team offers end‑to‑end support: from compliance assessments and strategy formulation to hands‑on implementation, stakeholder communication, and real‑time regulatory updates."
-      }
+        content:
+          "Our in‑house team offers end‑to‑end support: from compliance assessments and strategy formulation to hands‑on implementation, stakeholder communication, and real‑time regulatory updates.",
+      },
     ],
     benefits: [
       {
         heading: "Key Benefits of Outsourcing ESDD",
-        content: "● Improved Market Access & Brand Value: Sustainably‑certified products unlock premium markets.\n● Cost Efficiency: Access expert ESDD resources on‑demand without full‑time overhead.\n● ESG Goal Alignment: Waste reduction, resource efficiency and ethical supply chains.\n● Enhanced Operational Efficiency: Streamlined processes and reduced regulatory risk."
-      }
+        content:
+          "● Improved Market Access & Brand Value: Sustainably‑certified products unlock premium markets.\n● Cost Efficiency: Access expert ESDD resources on‑demand without full‑time overhead.\n● ESG Goal Alignment: Waste reduction, resource efficiency and ethical supply chains.\n● Enhanced Operational Efficiency: Streamlined processes and reduced regulatory risk.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Typical ESDD Documentation",
-        content: "● Supply chain mapping and stakeholder records\n● Water‑use and GHG emissions data\n● Animal welfare policies and audit logs\n● Waste management plans and recycling records\n● FSSAI and environmental permits\n● Grievance redress mechanism documentation\n● ESG and sustainability reports"
-      }
+        content:
+          "● Supply chain mapping and stakeholder records\n● Water‑use and GHG emissions data\n● Animal welfare policies and audit logs\n● Waste management plans and recycling records\n● FSSAI and environmental permits\n● Grievance redress mechanism documentation\n● ESG and sustainability reports",
+      },
     ],
     registrationProcedure: [
       {
         heading: "ESDD Process Steps",
-        content: "1. Gap Analysis: Identify compliance and operational deficiencies.\n2. Strategy & Planning: Develop tailored ESDD plans and waste management strategies.\n3. Licensing Support: Secure FSSAI, environmental and other regulatory permits.\n4. Implementation & Monitoring: Integrate mitigation measures and track progress.\n5. Reporting & Communication: Prepare clear ESDD/ESG reports for regulators and stakeholders."
-      }
+        content:
+          "1. Gap Analysis: Identify compliance and operational deficiencies.\n2. Strategy & Planning: Develop tailored ESDD plans and waste management strategies.\n3. Licensing Support: Secure FSSAI, environmental and other regulatory permits.\n4. Implementation & Monitoring: Integrate mitigation measures and track progress.\n5. Reporting & Communication: Prepare clear ESDD/ESG reports for regulators and stakeholders.",
+      },
     ],
     registrationTimeline: [],
     Listicles: [
@@ -21013,8 +21026,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Complex Supply Chains: Numerous smallholders and unorganized procurement networks.",
           "Animal Welfare: Growing regulatory and consumer focus on humane practices.",
           "Resource Constraints: SMEs lack budget and expertise for full‑scale ESDD.",
-          "Regulatory Complexity: Multiple licences and frequent updates across food and environmental laws."
-        ]
+          "Regulatory Complexity: Multiple licences and frequent updates across food and environmental laws.",
+        ],
       },
       {
         category: "Our Core Services",
@@ -21022,8 +21035,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Gap Analysis: In‑depth review of current practices vs. compliance targets.",
           "Waste Management Strategies: Design and implement efficient, eco‑friendly solutions.",
           "Licensing & Permits Assistance: End‑to‑end support for FSSAI, SPCB, pollution consents.",
-          "ESDD Reporting: Transparent reports to build trust with regulators and customers."
-        ]
+          "ESDD Reporting: Transparent reports to build trust with regulators and customers.",
+        ],
       },
       {
         category: "Extended Support",
@@ -21031,15 +21044,15 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Expert Consultation: Ongoing guidance from dairy and ESDD specialists.",
           "Customized Solutions: Tailored to your scale, structure and sustainability goals.",
           "Real‑Time Updates: Stay informed with regulatory changes and project status.",
-          "One‑Stop Partner: Single point of contact for all ESDD and compliance needs."
-        ]
-      }
+          "One‑Stop Partner: Single point of contact for all ESDD and compliance needs.",
+        ],
+      },
     ],
     whyUs: [
       {
         heading: "Why Partner with DoStartup?",
         description: [
-          "Our AI‑driven, cloud-based platform and network of 50,000+ experts deliver efficient, transparent ESDD solutions tailored to the dairy sector."
+          "Our AI‑driven, cloud-based platform and network of 50,000+ experts deliver efficient, transparent ESDD solutions tailored to the dairy sector.",
         ],
         points: [
           "Deep dairy and agricultural sector expertise",
@@ -21047,67 +21060,75 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "99.9% service success rate with on‑time delivery",
           "24/7 dedicated customer support",
           "Strong partner network of 40,000+ law and audit firms",
-          "End‑to‑end lifecycle management"
-        ]
-      }
+          "End‑to‑end lifecycle management",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is ESDD?",
-        answer: "A structured assessment of environmental and social risks associated with business operations or projects."
+        answer:
+          "A structured assessment of environmental and social risks associated with business operations or projects.",
       },
       {
         question: "Why is ESDD critical in dairy?",
-        answer: "To manage GHG emissions, water use, animal welfare, waste management, and compliance with multiple regulations."
+        answer:
+          "To manage GHG emissions, water use, animal welfare, waste management, and compliance with multiple regulations.",
       },
       {
         question: "How is ESDD conducted?",
-        answer: "Through gap analysis, strategy formulation, implementation support, monitoring, and transparent reporting."
+        answer:
+          "Through gap analysis, strategy formulation, implementation support, monitoring, and transparent reporting.",
       },
       {
         question: "What documentation is required?",
-        answer: "Supply chain maps, water and emissions data, welfare policies, waste plans, licences, and ESG reports."
+        answer:
+          "Supply chain maps, water and emissions data, welfare policies, waste plans, licences, and ESG reports.",
       },
       {
         question: "Can existing ESDD plans be improved?",
-        answer: "Yes—DoStartup performs gap analyses and enhances plans with targeted recommendations and hands‑on support."
-      }
-    ]
+        answer:
+          "Yes—DoStartup performs gap analyses and enhances plans with targeted recommendations and hands‑on support.",
+      },
+    ],
   },
-
-
-
 
   "esdd-sugar-industry": {
     title: "Environmental & Social Due Diligence in the Sugar Industry",
-    description: "DoStartup provides end‑to‑end ESDD services—risk assessments, gap analysis, licensing support, food safety audits, and real‑time monitoring—tailored to India’s sugar sector.",
+    description:
+      "DoStartup provides end‑to‑end ESDD services—risk assessments, gap analysis, licensing support, food safety audits, and real‑time monitoring—tailored to India’s sugar sector.",
     overview: [
       {
         heading: "Why ESDD Matters in Sugar",
-        content: "The sugar industry faces regulatory complexity, fragmented supply chains, climatic variability and social risks among sugarcane growers. Rigorous ESDD protects against compliance failures, operational disruptions and stakeholder concerns."
+        content:
+          "The sugar industry faces regulatory complexity, fragmented supply chains, climatic variability and social risks among sugarcane growers. Rigorous ESDD protects against compliance failures, operational disruptions and stakeholder concerns.",
       },
       {
         heading: "DoStartup’s Expertise",
-        content: "Our in‑house team delivers comprehensive impact assessments, pollution‑control solutions, compliance roadmaps and actionable implementation support—ensuring you meet all environmental and social obligations."
-      }
+        content:
+          "Our in‑house team delivers comprehensive impact assessments, pollution‑control solutions, compliance roadmaps and actionable implementation support—ensuring you meet all environmental and social obligations.",
+      },
     ],
     benefits: [
       {
         heading: "Key Benefits of Outsourcing ESDD",
-        content: "● Proactive Risk Mitigation: Identify environmental and social hazards early.\n● Resource Efficiency: Leverage expert support without full‑time overheads.\n● Regulatory Confidence: Stay ahead of evolving sugar‑sector regulations.\n● Enhanced Reputation: Demonstrate commitment to sustainable, ethical operations."
-      }
+        content:
+          "● Proactive Risk Mitigation: Identify environmental and social hazards early.\n● Resource Efficiency: Leverage expert support without full‑time overheads.\n● Regulatory Confidence: Stay ahead of evolving sugar‑sector regulations.\n● Enhanced Reputation: Demonstrate commitment to sustainable, ethical operations.",
+      },
     ],
     documentsRequired: [
       {
         heading: "Typical ESDD Documentation",
-        content: "● Sugarcane sourcing and procurement records\n● Effluent discharge and treatment data\n● Labour practice and worker safety logs\n● Community engagement and grievance mechanism files\n● Environmental and factory permits\n● Food safety audit reports\n● ESG and sustainability disclosures"
-      }
+        content:
+          "● Sugarcane sourcing and procurement records\n● Effluent discharge and treatment data\n● Labour practice and worker safety logs\n● Community engagement and grievance mechanism files\n● Environmental and factory permits\n● Food safety audit reports\n● ESG and sustainability disclosures",
+      },
     ],
     registrationProcedure: [
       {
         heading: "ESDD Process Steps",
-        content: "1. Risk Assessment: Evaluate environmental and social hazards across operations.\n2. Gap Analysis: Review existing compliance measures and identify deficiencies.\n3. Licensing & Permits: Streamline acquisition and renewal of all regulatory approvals.\n4. Food Safety Audits: Ensure quality and safety standards in processing.\n5. Implementation & Monitoring: Integrate mitigation measures and track progress.\n6. Reporting & Communication: Deliver clear ESDD reports to stakeholders and regulators."
-      }
+        content:
+          "1. Risk Assessment: Evaluate environmental and social hazards across operations.\n2. Gap Analysis: Review existing compliance measures and identify deficiencies.\n3. Licensing & Permits: Streamline acquisition and renewal of all regulatory approvals.\n4. Food Safety Audits: Ensure quality and safety standards in processing.\n5. Implementation & Monitoring: Integrate mitigation measures and track progress.\n6. Reporting & Communication: Deliver clear ESDD reports to stakeholders and regulators.",
+      },
     ],
     registrationTimeline: [],
     Listicles: [
@@ -21117,8 +21138,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Regulatory Complexity: MSPs, quotas and shifting import/export duties.",
           "Fragmented Market: Mix of organized mills and smallholders driving cost pressures.",
           "Climatic Variability: Erratic weather impacting cane yields and supply stability.",
-          "Social Risks: Worker safety, health conditions and community impacts in rural areas."
-        ]
+          "Social Risks: Worker safety, health conditions and community impacts in rural areas.",
+        ],
       },
       {
         category: "Our Core Services",
@@ -21126,8 +21147,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Risk Assessment: Severity and likelihood ranking of E&S hazards.",
           "Gap Analysis & Plan Review: Strengthen existing ESDD documentation.",
           "Licensing & Permits: End‑to‑end support for environmental, factory and food licenses.",
-          "Food Safety Audits: Thorough reviews to meet consumer quality expectations."
-        ]
+          "Food Safety Audits: Thorough reviews to meet consumer quality expectations.",
+        ],
       },
       {
         category: "Extended Support",
@@ -21135,45 +21156,1163 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Expert Consultation: Ongoing regulatory and technical guidance.",
           "Real‑Time Dashboard: Monitor progress and updates via our digital platform.",
           "Documentation Support: Accurate preparation and filing of all compliance reports.",
-          "Customized Solutions: Tailored to your mill size, supply chain and growth goals."
-        ]
-      }
+          "Customized Solutions: Tailored to your mill size, supply chain and growth goals.",
+        ],
+      },
     ],
     whyUs: [
       {
         heading: "Why Partner with DoStartup?",
         description: [
-          "Our AI‑driven, cloud‑based platform and network of 50,000+ specialists deliver precise, efficient ESDD solutions tailored for the sugar industry."
+          "Our AI‑driven, cloud‑based platform and network of 50,000+ specialists deliver precise, efficient ESDD solutions tailored for the sugar industry.",
         ],
         points: [
           "99.9% compliance success rate",
           "400+ environmental and social experts",
           "24/7 dedicated customer support",
           "End‑to‑end lifecycle management",
-          "Strong network of 40,000+ law and audit firms"
+          "Strong network of 40,000+ law and audit firms",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What sustainability issues affect the sugar industry?",
+        answer:
+          "Effluent discharge, solid waste generation, GHG emissions, resource depletion and community health impacts require rigorous ESDD.",
+      },
+      {
+        question: "Why conduct ESDD in sugar?",
+        answer:
+          "To mitigate environmental, social and regulatory risks—from cane sourcing to processing—and to protect financial and reputational value.",
+      },
+      {
+        question: "How is ESDD carried out?",
+        answer:
+          "Through risk assessments, gap analyses, permit management, food safety audits, implementation of mitigation measures and transparent reporting.",
+      },
+      {
+        question: "What paperwork is needed?",
+        answer:
+          "Records of sourcing, emissions, effluent treatment, labour practices, community engagement, licenses and ESG disclosures.",
+      },
+      {
+        question: "Can existing ESDD programs be improved?",
+        answer:
+          "Yes—DoStartup performs detailed reviews and provides targeted enhancements to ensure robust compliance.",
+      },
+    ],
+  },
+
+  "esdd-iron-steel-industry": {
+    title:
+      "Environmental & Social Due Diligence in the Iron and Steel Industry",
+    description:
+      "Achieve sustainability, regulatory compliance, and long-term risk mitigation in the iron and steel sector through expert-led Environmental and Social Due Diligence (ESDD) services by DoStartup.",
+    overview: [
+      {
+        heading:
+          "Why Conduct Environmental and Social Due Diligence in the Iron and Steel Industry?",
+        content:
+          "Companies that prioritize environmental and social compliance are gaining a clear competitive edge. Investors, eco-conscious customers, and the general public are increasingly loyal to businesses that adopt sustainable practices. By ensuring compliance, companies not only meet legal obligations but also enhance their brand value and reputation simultaneously.\n\nDoStartup helps you achieve both with ease. Our dostartup solutions empower businesses to integrate Environmental and Social Due Diligence (ESDD) seamlessly into their operations, helping them meet stakeholder expectations and regulatory mandates.\n\nIf you’re ready to shift your business strategy towards sustainability, DoStartup brings deep expertise in ESDD and ESG frameworks. Our tailored services include expert guidance, documentation support, and end-to-end compliance assistance to ensure timely submissions and efficient regulatory approvals.",
+      },
+      {
+        heading: "Why the Iron and Steel Industry Needs ESDD",
+        content:
+          "Over the years, the iron and steel industry has made notable progress in curbing carbon emissions. However, much of this progress has stemmed from technological advancements in production processes—something that, while valuable, is not enough. To truly reduce the sector’s environmental footprint, more focused and comprehensive actions are needed.\n\nSteel is widely used and is also one of the most recycled materials in the world. Yet, its production is extremely energy-intensive, requiring high temperatures and abundant fossil fuel usage—primarily coal and oil. This makes the iron and steel sector a significant emitter of carbon dioxide, contributing around 6% of global greenhouse gas emissions.\n\nAs climate change concerns grow, stakeholders—including investors, regulators, and customers—are demanding more sustainable practices. To meet these demands, businesses must rethink outdated methods and invest in ESDD to make their operations future-ready and environmentally responsible.",
+      },
+      {
+        heading: "The Role of the Iron and Steel Industry in India",
+        content:
+          "India ranks as the world’s second-largest producer of crude steel, with a production output of 125.32 million tonnes in 2023 and a projected rise to 123–127 million tonnes in the coming year. The domestic steel sector has grown by more than 75% since 2008, also reflecting an 80% surge in national demand.\n\nThis growth reflects the country’s broader economic development, and the Indian government is playing an active role in promoting it. For example, the Union Budget 2023–24 allocated ₹70.15 crore (USD 8.6 million) to the Ministry of Steel. Mergers within the industry and increasing foreign investments are further driving expansion.\n\nHowever, this rapid growth raises concerns about sustainability. Reports show that steel production in India emits around 2.55 tonnes of CO₂ per tonne of steel—far higher than the global average of 1.85 tonnes. This highlights the urgent need to incorporate environmental and social due diligence to assess and manage the negative effects of production.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Hire ESDD Consultants for the Iron and Steel Sector?",
+        content:
+          "The iron and steel industry plays a critical role in building a circular economy due to its high recyclability and strength. While the sector has made strides in carbon reduction, it still accounts for around 8% of global CO₂ emissions—making it one of the most energy intensive industries.\n\nAs the world moves toward decarbonization, aligning your business with ESDD norms isn’t optional—it’s imperative. Here’s how DoStartup’s dostartup solutions can help:\n\n1. Unlock Investment Opportunities\nWith rising global awareness around sustainability, investors are seeking eco-compliant portfolios. ESDD-aligned businesses present lower risks and greater adaptability—making them more attractive to funders.\n\nBy improving your ESDD metrics, DoStartup helps position your company as a top choice for green investments and global partnerships.\n\n2. Boost Reputation and Brand Loyalty\nToday, ESDD is more than a compliance checklist—it’s a credibility marker. Stakeholders respect businesses that actively disclose environmental and social metrics. This transparency builds brand loyalty, customer trust, and investor confidence.\n\nWith DoStartup, your business can stand out as a sustainability leader in the iron and steel space.\n\n3. Save on Long-Term Costs\nOutsourcing ESDD to DoStartup allows you to save the significant costs involved in hiring, training, and maintaining an internal ESG team. With access to our 400+ experts, you get premium consulting services without recurring payroll burdens.\n\nInstead of spending more, choose dostartup and spend smart—ensuring quality compliance while reducing operational overhead.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical ESDD Documentation",
+        content:
+          "• Environmental Impact Assessment (EIA) reports and clearances\n• Social Impact Assessment and stakeholder consultation records\n• Emissions, waste and energy use reports\n• Labor, health & safety compliance records\n• Pollution control certificates\n• Compliance filings with Ministry of Steel and CPCB\n• Community consultation and grievance records\n• Site monitoring and audit logs",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading:
+          "ESDD Consultant Services by DoStartup – A Smarter Way Forward",
+        content:
+          "For businesses seeking structured ESDD implementation in the iron and steel industry, DoStartup provides comprehensive, expert-driven consulting services, including:\n\n1. Risk Identification and Assessment\nThe primary aim of ESDD is to uncover potential risks before they escalate. However, internal teams often miss key red flags due to inherent bias or lack of expertise.\n\nOur dostartup experts conduct impartial, in-depth assessments to detect environmental and social risks—ensuring your business is shielded from future liabilities.\n\n2. Custom Risk Management Strategies\nIdentifying risk is just the beginning. You also need robust strategies to mitigate them. At DoStartup, we understand that complete elimination of risk is impractical, but we help build resilient risk response systems that reduce your vulnerability significantly.\n\n3. ESDD Reporting\nReporting is a crucial component of ESDD compliance. Our experienced team crafts detailed, regulator-ready ESDD reports that serve as tangible proof of your commitment to sustainable practices.\n\n4. Complete Regulatory Compliance\nFrom pollution control to labor standards, the iron and steel industry is governed by a vast array of environmental and social mandates. Our team stays updated on all changes and ensures your business remains fully compliant.\n\nWith DoStartup, you’ll never miss a regulation or deadline again.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup for ESDD Compliance?",
+        description: [
+          "When it comes to ensuring ESDD compliance, DoStartup stands out for its unmatched experience and domain expertise. Our team consists of seasoned legal, environmental, and industrial experts who have successfully assisted numerous clients in the iron and steel industry.\n\nWith a proven track record of 99.8% compliance efficiency, DoStartup keeps your business ahead of ever-evolving regulations and compliance standards. We continuously monitor changes in environmental and social regulations to ensure your business remains compliant—avoiding costly penalties and reputational harm.\n\nAt DoStartup, we uphold high ethical standards and deliver insightful, end-to-end consulting services tailored to your specific needs. We serve as a one-stop solution for companies seeking strategic advice and regulatory support, helping you navigate the complexities of environmental compliance in the iron and steel sector.",
+        ],
+        points: [
+          "Renowned Cloud-Based Compliance Platform",
+          "AI-Driven and Scalable Service Delivery",
+          "99.8% Project Efficiency Track Record",
+          "A Network of 400+ Experienced ESDD Experts",
+          "Assisted Over 10,000 Entrepreneurs Across India",
+          "9% of Clients Come Through Direct Recommendations",
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category:
+          "What Are the Roadblocks in ESDD in the Iron and Steel Industry?",
+        documents: [
+          "As climate change concerns intensify globally, the spotlight on sustainability in the iron and steel industry is growing. Integrating ESDD into this sector is essential—but not without challenges.",
+          "The iron and steel industry has historically been a major contributor to national economies and employment. However, this legacy brings with it numerous hurdles when it comes to implementing ethical and environmentally sound practices. Let’s look at some key challenges:",
+          "1. Financial Constraints\nBeing a capital-intensive industry, the iron and steel sector requires heavy investment. For instance, establishing just 1 tonne of steel-making capacity may cost around INR 7,000 crore. The high cost of financing, especially in India compared to developed nations like China or South Korea, discourages fresh investments.\n\nMaintaining an in-house team to ensure ESDD compliance can significantly add to operational expenses. That’s where dostartup services from DoStartup offer an edge—providing expert solutions without the burden of internal overheads.",
+          "2. Complicated Regulatory Landscape\nThe sector is governed by a labyrinth of environmental and social regulations that frequently change. For small and medium enterprises (SMEs), staying updated without professional help is nearly impossible. Misinterpretation of laws often results in costly legal or compliance errors.\n\nWith DoStartup on your side, you gain access to regulatory experts who help decode these evolving requirements and implement best practices with ease.",
+          "3. Lack of Reliable Data\nEffective due diligence is nearly impossible without accurate data. Unfortunately, most companies in this industry suffer from fragmented and insufficient datasets. Limited tools and technology make matters worse.\n\nOur dostartup team at DoStartup helps organizations collect, structure, and analyze data in compliance with ESDD standards—ensuring no critical insight is missed.",
+        ],
+      },
+      {
+        category:
+          "Explore Environmental and Social Due Diligence with DoStartup",
+        documents: [
+          "If you're wondering what Environmental and Social Due Diligence (ESDD) actually means, let’s first break down the term “due diligence.” At its core, due diligence refers to the process of conducting a thorough evaluation before entering any business transaction or investment. It plays a vital role in corporate strategy and decision-making, helping businesses ensure that their operations align with the required legal and regulatory standards.",
+          "With the world growing more conscious about environmental and social challenges, ESDD has emerged as a crucial subset of this process. Companies aiming to align profitability with sustainability must integrate ESDD into their operational and investment strategies.",
+          "In simple terms, Environmental and Social Due Diligence involves assessing the environmental and social impact of a company’s business activities. This enables organisations to evaluate new investments and projects by identifying potential risks and liabilities, and developing strategies to mitigate these risks before they escalate into costly problems.",
+        ],
+      },
+      {
+        category: "Take the First Step Towards Sustainable Success",
+        documents: [
+          "Ready to enhance your business’s sustainability and compliance framework? Reach out to DoStartup at +91 21230 280 and let our experts guide you toward success in the iron and steel industry. Together, let’s build a greener, more responsible future for India's steel sector—one where profitability and sustainability go hand in hand.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is the steel industry eco-friendly?",
+        answer:
+          "Yes, the steel industry can be considered eco-friendly in certain aspects. Steel is one of the most recycled materials in the world, making it a strong contributor to the circular economy. However, its production processes require significant energy, often involving high-temperature furnaces powered by fossil fuels, which can be environmentally taxing.",
+      },
+      {
+        question:
+          "How can pollution from the iron and steel industry be reduced?",
+        answer:
+          "Pollution in the iron and steel sector can be reduced by:\n• Adopting cleaner and more efficient production methods\n• Installing advanced pollution control equipment\n• Shifting from fossil fuels to renewable and cleaner energy sources\n• Properly treating and disposing of hazardous waste\n\nDoStartup offers consulting services that help industries implement these strategies in compliance with ESDD and ESG norms.",
+      },
+      {
+        question: "What are the key risks in the iron and steel industry?",
+        answer:
+          "The iron and steel sector presents several risks, including:\n• Mechanical hazards\n• Electrical dangers\n• Exposure to toxic gases and chemicals\n• Fire and explosion hazards\n• Extreme temperature exposure\n\nDoStartup helps industries identify and mitigate these risks through thorough Environmental and Social Due Diligence (ESDD).",
+      },
+      {
+        question: "What are the environmental impacts of the steel industry?",
+        answer:
+          "The steel industry is one of the largest consumers of energy and emitters of carbon dioxide, accounting for roughly 6% of global greenhouse gas emissions. Steel is produced in large blast furnaces, which typically use coal, oil, and other fossil fuels to catalyze chemical reactions, making it one of the most energy-intensive and polluting sectors.\n\nDoStartup offers ESG-aligned solutions to help businesses reduce their environmental footprint effectively.",
+      },
+      {
+        question: "What is the carbon footprint of steel production in India?",
+        answer:
+          "According to recent reports, India’s steel sector contributes around 12% of the country’s total emissions. On average, 2.55 tonnes of CO₂ are emitted for every tonne of steel produced in India—significantly higher than the global average of 1.85 tonnes.\n\nDoStartup provides ESDD services that help companies track, report, and reduce their carbon footprint in line with global benchmarks.",
+      },
+      {
+        question:
+          "What is the scope of Environmental and Social Due Diligence (ESDD)?",
+        answer:
+          "Environmental and Social Due Diligence refers to the process of assessing a company's environmental practices, social policies, and associated risks. This assessment helps in:\n• Identifying red flags before investments or acquisitions\n• Evaluating compliance with environmental regulations\n• Making low-risk and sustainable business decisions\n\nDoStartup specializes in ESDD reporting, risk analysis, and strategy formulation tailored to your industry needs.",
+      },
+      {
+        question:
+          "What is the future outlook of the iron and steel industry in India?",
+        answer:
+          "India is the second-largest producer of crude steel globally, having produced 125.32 million tonnes in 2023, with a finished steel output of 121.29 million tonnes. The sector is expected to grow by 4–7% in the coming year, reaching up to 127 million tonnes.\n\nWith the support of DoStartup’s ESDD and ESG compliance services, the industry can achieve sustainable growth while meeting regulatory and environmental standards.",
+      },
+      {
+        question:
+          "How is Environmental and Social Due Diligence (ESDD) conducted?",
+        answer:
+          "Conducting ESDD involves the following key steps:\n1. Identifying potential environmental and social risks\n2. Defining the scope of assessment\n3. Collecting relevant and accurate data\n4. Designing risk mitigation strategies\n5. Drafting comprehensive ESDD reports\n6. Implementing the risk mitigation plans\n\nDoStartup offers expert assistance through each stage of the ESDD process, ensuring seamless compliance and strategic risk management.",
+      },
+    ],
+  },
+
+  "esdd-environmental-social-due-diligence": {
+    title: "Environmental and Social Due Diligence (ESDD)",
+    description:
+      "Ensure sustainable business practices with expert ESDD services tailored for the agricultural equipment and solar energy sectors.",
+    overview: [
+      {
+        heading:
+          "Why Invest in ESDD in the Agricultural Equipment Manufacturing Industry?",
+        content:
+          "Environmental and Social Due Diligence (ESDD) in the agricultural equipment manufacturing industry plays a vital role in advancing modern, efficient agricultural tools. This sector forms a crucial part of India's small-scale manufacturing landscape. ESDD enables assessment of current production capabilities, market demand, potential technology transitions, and sustainability practices. It also supports better employee health and safety, improving business resilience and operational efficiency.\n\nDoStartup provides tailored, impactful ESDD solutions including environmental impact assessments, pollution treatment infrastructure, environmental monitoring, and budget-conscious implementation—helping protect both the business and the environment.",
+      },
+      {
+        heading: "Why is ESDD Needed in Agricultural Equipment Manufacturing?",
+        content:
+          "Despite high demand, uncertainties remain around the types and specifications of agricultural equipment required due to the industry's vast scale and environmental footprint. Machinery heavily influences agricultural productivity, making it essential to ensure environmental and social responsibility.\n\nThe sector faces numerous environmental and social risks, which can cause financial setbacks. ESDD is critical in identifying these risks, improving operational efficiency, compliance, and aligning with sustainability goals. From global corporations to local producers, ESDD helps standardize practices and fosters responsible growth.",
+      },
+      {
+        heading:
+          "Navigating Through ESDD in Agricultural Equipment Manufacturing Industry",
+        content:
+          "India is a global leader in agricultural machinery manufacturing, including tractors, irrigation pumps, threshers, and agro-processing tools. However, implementing ESDD is challenging due to the sector’s diverse players—village artisans, unorganized units, SMEs, and government-run corporations. Climate change, reduced arable land, and declining yields further stress the need for sustainable manufacturing practices.\n\nESDD ensures long-term economic viability by addressing environmental and social challenges, especially for small-scale units that rely heavily on hands-on design and government support.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ESDD in Agricultural Equipment Manufacturing",
+        content:
+          "● Increased Productivity & Efficiency: Smart, automated machinery enhances yield while reducing pesticide and fertilizer use.\n● Time Savings: Mechanization saves time, allowing farmers to focus on strategic decisions.\n● Enhanced Precision: ESDD-backed equipment ensures accurate and safe operations.\n● Cost Reduction: Initial investments in ESDD reduce future compliance and penalty costs.\n● Transparency & Accountability: Public-friendly reports allow stakeholder engagement and feedback.",
+      },
+      {
+        heading: "Benefits of ESDD in the Solar Energy Sector",
+        content:
+          "● Fulfilled CSR Obligations: Demonstrates responsible business operations.\n● Financial Sustainability: Ensures long-term viability through ESG-aligned strategies.\n● Enhanced Brand Value: Builds market credibility.\n● Legal Compliance: Reduces risk of penalties and project delays.\n● Community Engagement: Ensures social acceptance and stakeholder alignment.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "ESDD Consultant Services by DoStartup",
+        content:
+          "● Environmental & Social Assessments and Management Systems\n● Community Engagement and Training\n● Monitoring and Reporting\n● Labor and Working Condition Compliance\n● Health, Safety, and Risk Management\n● Pollution Prevention and Resource Efficiency\n● Hazardous Waste Monitoring\n● Emergency Preparedness and Response\n● Greenhouse Gas Emission Tracking\n● Pesticide Use Management\n● Community Health and Safety\n● Resettlement Planning and Compensation",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Challenges in Conducting ESDD",
+        content:
+          "1. Resource Constraints: SMEs may lack the expertise or funds to execute ESDD fully.\n2. Equipment Reliability: Without ESDD, consistent quality can't be ensured.\n3. Financial Limitations: Initial ESDD costs are investments that prevent regulatory penalties.\n4. Standardization Issues: Emission and safety standards are often lacking.\n5. Organizational Conflicts: Internal resistance can obstruct ESDD implementation.",
+      },
+      {
+        heading: "DoStartup's Approach",
+        content:
+          "DoStartup simplifies ESDD with customized, scalable solutions. Our structured services include site assessments, ESG integration, risk monitoring, and end-to-end documentation—all supported by domain experts and AI-driven efficiency.",
+      },
+    ],
+    feesStructure: [],
+    renewal: [
+      {
+        heading: "Ongoing Support",
+        content: [
+          "DoStartup provides post-evaluation audits, compliance checks, and ongoing monitoring.",
+          "24/7 access to ESG experts, field consultants, and legal partners ensures continuous support.",
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for ESDD Implementation",
+        description:
+          "Timeframes vary by project size and sector, typically ranging from 4 to 12 weeks.",
+        steps: [
+          {
+            title: "Initial Assessment",
+            duration: "1 week",
+            description: "Preliminary evaluation of E&S risks.",
+          },
+          {
+            title: "Detailed Study",
+            duration: "2-4 weeks",
+            description: "On-ground inspection and stakeholder consultation.",
+          },
+          {
+            title: "Report and Mitigation Plan",
+            duration: "1-2 weeks",
+            description: "Finalizing report with risk mitigation strategies.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "Technology-enabled service platform for MSMEs and large corporations alike.",
+        ],
+        points: [
+          "500+ industry experts",
+          "5,000+ auditing/legal firm partners",
+          "20,000+ clients served",
+          "AI-powered service delivery",
+          "99.8% customer recommendation rate",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is ESDD in manufacturing?",
+        answer:
+          "It is the evaluation of environmental and social impacts of business operations to ensure sustainable and compliant growth.",
+      },
+      {
+        question: "Why is ESDD important in the solar industry?",
+        answer:
+          "ESDD ensures solar projects are compliant, community-aligned, and environmentally sustainable, improving investor confidence.",
+      },
+      {
+        question: "What regulations apply to ESDD?",
+        answer:
+          "BIS standards, ISO 14001, ISO 26000, and IFC Guidelines are commonly followed.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Businesses Requiring a Central License",
+        documents: [
+          "Multi-state FBOs with turnover > ₹20 Crores",
+          "Importers/exporters of food products",
+          "E-commerce platforms (Zomato, Swiggy, Amazon, Flipkart)",
+          "5-star & 7-star hotels",
+          "Nutraceuticals & health supplement manufacturers",
+          "Transporters with >100 vehicles",
+          "High-capacity dairy units (≥50,000 L solids/yr)",
+          "Vegetable oil processors (≥2 MT/day)",
+          "Slaughterhouses (50 large/150 small/1,000 poultry/day)",
+          "Meat/food processing units (≥50 kg or ≥2 MT/day)",
+          "Cold storage (≥1,000 MT capacity)",
+          "Wholesalers (turnover > ₹30 Crores)",
+          "Retailers & distributors (turnover > ₹20 Crores)",
+        ],
+      },
+    ],
+  },
+
+  "esdd-furniture-fixtures": {
+    title:
+      "Environmental & Social Due Diligence in the Furniture and Fixtures Industry",
+    description:
+      "DoStartup offers comprehensive ESDD services—risk identification, ESMS setup, policy drafting, compliance support, social impact assessments, and transparent reporting—tailored to India’s furniture and fixtures sector.",
+    overview: [
+      {
+        heading: "Why Conduct ESDD in the Furniture and Fixtures Industry?",
+        content:
+          "Incorporating Environmental and Social Due Diligence (ESDD) into the business strategies of the furniture and fixtures industry—alongside financial reporting—enables smarter, more responsible decision-making. With the growing global demand for sustainable manufacturing practices, there has been a marked shift in the industry toward adopting environmentally sound production processes. As a result, investments in ESDD parameters have significantly increased. If you're looking to enter or expand within the furniture and fixtures sector, it is essential to integrate ESDD or ESG considerations into your strategy from the outset.",
+      },
+      {
+        heading: "DoStartup’s ESDD Services for Furniture and Fixtures",
+        content:
+          "DoStartup supports enterprises by offering in-depth insights and actionable solutions, helping them meet environmental and social compliance requirements efficiently. As a recognized ESDD consultant for the furniture and fixtures industry across India, we deliver innovative sustainability solutions through environmental assessments, media monitoring, and cost-effective implementation of impact mitigation plans.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Conducting ESDD",
+        content:
+          "1. Enhanced Stakeholder Engagement: Builds transparent communication channels with communities, employees, and regulators, strengthening trust and facilitating smoother project execution.\n2. Ensured Regulatory Compliance: Meets legal obligations on emissions, discharges, fire hazards, and workplace safety within a reasonable budget.\n3. Stronger Brand Reputation: Signals accountability and sustainability, attracting both investors and consumers and giving a competitive edge.\n4. Resource Efficiency: Outsourcing ESDD to specialists like DoStartup lets companies focus on core operations while optimizing human and natural resource usage.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "DoStartup’s ESDD Consultant Services",
+        content:
+          "• Risk Identification and Cost Estimation: Detect potential environmental and social risks, estimate associated costs, and establish a baseline for conditions.\n• Assistance in Establishing ESMS: Set up a robust Environmental & Social Management System with policies, tools, and procedures for ongoing compliance and risk mitigation.\n• Drafting Procedures and Policies: Implement protocols for chemical handling, waste management, energy efficiency, and resource conservation aligned with legal standards.\n• Legal and Regulatory Compliance: Align with ISO 14001 and other relevant certifications to avoid fines and reputational damage.\n• Social Impact Assessment: Conduct detailed assessments and advise on OHS measures, including PPE protocols and machine safety audits.\n• Customized, Transparent Solutions: Tailor every ESDD package with stakeholder‑friendly reporting throughout the project lifecycle.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Challenges in Conducting ESDD",
+        content:
+          "1. Unoptimized Resource Allocation: Growing operational complexity leads to duplicated tasks, time constraints, and data mismanagement, making timely ESDD difficult.\n2. High Production Costs: Adding internal ESDD teams or protocols increases expenses for SMEs unless cost‑efficient external assistance is sought.\n3. Lack of Technical Infrastructure: Outdated or insufficient technology and cybersecurity concerns block effective digital ESG solutions.",
+      },
+    ],
+    registrationTimeline: [],
+    Listicles: [],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Continuous access to expert ESG and ESDD consultants",
+          "500+ industry professionals with extensive experience",
+          "Over 5,000 partner auditing and legal firms",
+          "Trusted by 20,000+ entrepreneurs nationwide",
+          "AI‑enabled service platform ensuring on‑time delivery",
+          "8% client recommendation rate consistency maintained",
+        ],
+        points: [
+          "Expert, scalable ESDD solutions",
+          "Proven track record in furniture sector",
+          "Transparent pricing and reporting",
+          "End‑to‑end lifecycle support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the furniture industry sustainability standard?",
+        answer:
+          "The ANSI/BIFMA e3 Furniture Sustainability Standard lays out comprehensive criteria for sustainable manufacturing and product stewardship.",
+      },
+      {
+        question:
+          "What environmental impacts are linked to the furniture industry?",
+        answer:
+          "Key impacts include biodiversity loss, greenhouse gas emissions, soil and groundwater contamination from hazardous substances, and occupational health risks.",
+      },
+      {
+        question: "Why is quality control essential in furniture ESDD?",
+        answer:
+          "Quality control ensures final products meet design and safety standards, maintaining customer satisfaction, reducing waste, and protecting worker health.",
+      },
+      {
+        question: "How can furniture be made environmentally friendly?",
+        answer:
+          "By using renewable or recycled materials, minimizing energy use and emissions during production, and designing furniture for repair, reuse, and recycling.",
+      },
+      {
+        question:
+          "What does Environmental and Social Due Diligence (ESDD) mean?",
+        answer:
+          "ESDD refers to identifying, evaluating, and managing environmental and social risks linked to business operations, including sourcing, manufacturing, and workforce conditions.",
+      },
+    ],
+  },
+
+  "esg-strategies": {
+    title: "Environment, Social and Governance (ESG) Strategies",
+    description:
+      "DOstartup helps businesses design and implement ESG strategies that align with compliance goals, stakeholder expectations, and long-term profitability through expert-led frameworks, internal controls, and global reporting standards.",
+    overview: [
+      {
+        heading: "What is ESG?",
+        content:
+          "ESG stands for Environmental, Social, and Governance—three key dimensions that guide ethical, sustainable, and socially conscious business practices. ESG criteria help businesses assess and improve how they impact the planet (Environment), interact with people (Social), and operate internally (Governance). For investors and conscious stakeholders, ESG performance is a critical indicator of a company’s long-term value and resilience.",
+      },
+      {
+        heading: "The 3 Pillars of ESG",
+        content:
+          '🔹 Environment ("E"): Includes energy use, emissions, pollution, waste, and natural resource consumption. Evaluates climate impact, deforestation, biodiversity, and water usage.\n🔹 Social ("S"): Examines employee well-being, labor practices, diversity, health and safety, human rights, and community engagement.\n🔹 Governance ("G"): Covers internal structures, board diversity, ethics, executive compensation, anti-corruption, tax strategies, and transparency.',
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why ESG Matters",
+        content:
+          "● Builds long-term resilience and profitability\n● Enhances reputation among clients, partners, and regulators\n● Attracts ESG-conscious investors\n● Supports global sustainability goals and regulatory alignment",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Common ESG Topics Covered",
+        content:
+          "● Environment: Climate change, emissions, air/water pollution, biodiversity, deforestation, waste, water scarcity\n● Social: Customer satisfaction, labor standards, gender diversity, human rights, data privacy, community relations\n● Governance: Board composition, audit committee, anti-corruption, executive pay, political contributions, whistleblower policies",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Steps to Build an ESG Strategy",
+        content:
+          "1. Define Company-Specific Strategy: Tailor ESG frameworks to reflect operations and values.\n2. Set Clear, Top-Down Goals: Leadership-driven broad sustainability vision.\n3. Conduct Materiality Assessment: Focus on stakeholder-relevant issues.\n4. Involve Independent Experts: Add credibility via external assessments.\n5. Engage Stakeholders: Include voices from employees to communities.\n6. Budget & Cost Analysis: Assess implementation vs. inaction costs.\n7. Build a Dedicated ESG Team: Recruit or train internal governance teams.\n8. Third-Party Verification: Ensure ESG actions are independently audited.\n9. Strengthen Supply Chain: Use global frameworks like UN SDGs for supplier ESG alignment.\n10. Make ESG Dynamic: Regular audits and updates to adapt strategies.",
+      },
+    ],
+    registrationTimeline: [],
+    Listicles: [
+      {
+        category: "Internal Audit & ESG Control",
+        documents: [
+          "Internal Audit: Planning, monitoring, performance review, risk identification and assurance.",
+          "Internal Control: Establish reliable ESG data systems for compliance and decision-making.",
+          "Governance Model: Builds accountability, strategic ESG resource allocation, and internal audit-backed improvement.",
+        ],
+      },
+      {
+        category: "Reporting & Monitoring Frameworks We Use",
+        documents: [
+          "GRI (Global Reporting Initiative)",
+          "SASB (Sustainability Accounting Standards Board)",
+          "TCFD (Task Force on Climate-related Financial Disclosures)",
+          "IIRC (International Integrated Reporting Council)",
+        ],
+      },
+      {
+        category: "Role of DOstartup in Your ESG Journey",
+        documents: [
+          "Regulatory compliance",
+          "ESG reporting accuracy",
+          "Internal and external audit readiness",
+          "Training and awareness programs",
+          "ESG policy and culture integration",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DOstartup?",
+        description: [
+          "With over 10+ years of experience, a team of 400+ in-house CAs, CS, and lawyers, and a 99% SLA delivery rate, DOstartup supports ESG strategy across 10,000+ pin codes in India.",
+        ],
+        points: [
+          "Expert-led planning to execution support",
+          "Tailored ESG framework implementation",
+          "Lifecycle cost-benefit ESG analysis",
+          "Third-party verification and transparency",
+          "Automated compliance workflows",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are ESG criteria?",
+        answer:
+          "ESG criteria are standards used to evaluate a company’s ethical impact and sustainability performance across environmental, social, and governance aspects.",
+      },
+      {
+        question: "What is ESG Investing?",
+        answer:
+          "ESG investing involves choosing investments based not only on financial returns but also on how companies manage ESG risks and opportunities.",
+      },
+      {
+        question: "What are the types of ESG strategies?",
+        answer:
+          "Strategies include integration into business models, risk management, impact investing, sustainable finance, green procurement, and stakeholder engagement.",
+      },
+      {
+        question: "What is the MSCI ESG Rating?",
+        answer:
+          "It assesses a company’s resilience to ESG risks compared to peers using a rule-based scoring methodology.",
+      },
+      {
+        question: "What is Green Investing?",
+        answer:
+          "A form of ESG investing focused on sustainability—like renewable energy, carbon reduction, and waste minimization.",
+      },
+      {
+        question: "What are ESG Transparency Tools?",
+        answer:
+          "These platforms track, measure, and report ESG metrics using frameworks like GRI, SASB, and TCFD.",
+      },
+      {
+        question: "Why is ESG important?",
+        answer:
+          "Strong ESG practices reduce risk, improve trust, attract capital, and support long-term viability.",
+      },
+      {
+        question: "What is SRI?",
+        answer:
+          "SRI (Socially Responsible Investing) covers ESG and other ethical investing filters like faith-based and local development investments.",
+      },
+      {
+        question: "What is the aim of Impact Investing?",
+        answer:
+          "To generate measurable environmental and social impact alongside financial returns.",
+      },
+    ],
+  },
+
+  "risk-assessment": {
+    title: "Risk Assessment",
+    description:
+      "For complete compliance assurance of all risks associated with Environmental Clearance and adherence to applicable laws – with strategic support from DoStartup. 15+ Years of Combined Industry Experience, Dedicated Team of 500+ Legal, Compliance, and Environmental Experts, 99.2% On-Time Delivery Rate, Serving Clients Across 12,000+ PIN Codes in India",
+    overview: [
+      {
+        heading: "Overview of Risk Assessment",
+        content:
+          "Risk Assessment is a systematic approach to identifying and evaluating potential hazards that could impact individuals involved in a proposed project as well as the surrounding population and environment. This process requires a thorough understanding of failure likelihood, accident scenarios, population vulnerability, and environmental exposure risks.\n\nRisk analysis typically revolves around the most realistic and potentially severe scenarios, especially in sectors requiring Environmental Clearance (EC). While eliminating all risks is nearly impossible, proper protocols, engineering controls, and employee training significantly reduce risk levels.\n\nAt DoStartup, we support businesses with end-to-end Risk Assessment services—including documentation, legal compliance, expert consultations, and technical assessments—to meet regulatory and operational safety standards effectively.",
+      },
+      {
+        heading: "Role of Risk Assessment",
+        content:
+          "Accidents, whether isolated or sequential, form the basis of risk. An effective risk assessment includes:\n\nIdentifying potential threat areas\n\nRecognizing representative failure modes or accident types\n\nVisualizing consequences such as fire, explosion, or toxic exposure\n\nEstimating damage potential and impact zones\n\nOffering mitigation strategies for worst-case scenarios\n\nDeveloping a robust Disaster Management Plan (DMP)\n\nCreating a site-specific Emergency Response Plan and Occupational Health & Safety (OHS) Plan",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documentation on Assessment",
+        content:
+          "Maintaining comprehensive records of the assessment process and control measures is critical. These documents often become regulatory requirements and must be preserved for a defined period to ensure audit readiness and legal defensibility.\n\nHazards Related to Business Practices\nRisk Assessment extends beyond physical harm. At DoStartup, we also consider hazards stemming from business operations, such as:\n\nChemical exposure\n\nMechanical failure\n\nErgonomic strain\n\nFire and explosion hazards\n\nLegal or compliance liabilities\n\nEach risk is categorized and documented with:\n\nA clear risk category\n\nDegree of risk (low/medium/high with description)\n\nImplemented policies and control measures\n\nDate of review completion\n\nFollow-up requirements and timeline",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Process in Risk Assessment",
+        content:
+          "All risk assessments at DoStartup are conducted by trained professionals and compliance consultants, involving supervisors and operational leads for greater accuracy.\n\nHere’s how we approach the process:\n\nIdentify potential hazards\n\nAssess severity and probability of resulting harm (accident or illness)\n\nConsider regular operations as well as non-routine situations like breakdowns, maintenance, or natural events\n\nReview health and safety data including SDS, technical manuals, test results, and past incidents\n\nUnderstand legal obligations under applicable jurisdiction\n\nUse the Risk Control Hierarchy to determine actionable steps\n\nRe-assess post-controls to ensure adequate risk reduction\n\nMonitor the implemented controls for effectiveness\n\nDocument all stages of assessment and mitigation\n\nKey Considerations:\n\nWorker exposure level and duration\n\nWorkplace conditions and layout\n\nMachinery, materials, and tool handling methods\n\nExternal activity interactions (e.g., cleaners, vendors, site visitors)\n\nLifecycle stage of the product or process\n\nPersonnel training, readiness, and skill\n\nAnticipated worker reactions in emergency or system-failure situations",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Statistics",
+        documents: [
+          "15+ Years of Combined Industry Experience",
+          "Dedicated Team of 500+ Legal, Compliance, and Environmental Experts",
+          "99.2% On‑Time Delivery Rate",
+          "Serving Clients Across 12,000+ PIN Codes in India",
+        ],
+      },
+      {
+        category: "Requirement Section for Risk Assessment",
+        documents: [
+          "Manufacturer’s product information, technical specifications, and instructions",
+          "Previous on-site experience and worker observations",
+          "Applicable laws, industry standards, and best practices",
+          "Safety Data Sheets (SDS), research findings, and regulatory publications",
+          "Results from environmental or workplace exposure tests",
+          "Inputs from certified health and safety professionals",
+          "Incident history (injuries, near misses, illnesses)",
+          "Process observation and task walkthroughs",
+          "Workplace layout and environmental conditions",
+          "Worker competencies, exposure frequency, and task complexity",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Partner with DoStartup?",
+        description: [
+          "Complete compliance assurance for Environmental Clearance risks",
+          "500+ experts in legal, compliance, and environmental domains",
+          "End‑to‑end documentation, technical and legal support",
+          "99.2% on‑time delivery and pan‑India coverage",
+        ],
+        points: [
+          "Tailored risk assessment protocols",
+          "Robust Disaster Management and Emergency Response planning",
+          "Stakeholder‑driven hazard identification",
+          "Monitoring and continuous improvement",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How to identify if the hazard will cause harm?",
+        answer:
+          "To evaluate the potential for harm:\nRefer to product manuals or SDS from manufacturers\n\nSpeak with experienced site personnel\n\nConsult legal regulations and compliance frameworks\n\nBenchmark against industry best practices\n\nAssess the work environment conditions\n\nReview historical data like past incidents or near misses",
+      },
+      {
+        question: "How are risks prioritized?",
+        answer:
+          "Risks are prioritized based on:\nSeverity of the potential consequence (e.g., injury, fatality, environmental damage)\n\nLikelihood of occurrence\n\nExposure frequency\n\nRegulatory urgency\nThis is often done using a risk matrix (Low, Medium, High, Extreme).",
+      },
+      {
+        question: "What are the methods of hazard control?",
+        answer:
+          "Hazards are controlled using the Hierarchy of Controls:\nElimination – remove the hazard\n\nSubstitution – replace it with something safer\n\nEngineering Controls – isolate people from the hazard\n\nAdministrative Controls – change how people work\n\nPersonal Protective Equipment (PPE) – last line of defense",
+      },
+      {
+        question: "How is Risk Assessment done?",
+        answer:
+          "The standard process involves:\nHazard identification\n\nRisk analysis and evaluation\n\nControl implementation\n\nMonitoring and reassessment\nThis is executed through audits, inspections, data reviews, and expert interviews.",
+      },
+      {
+        question: "Why does maximum risk assessment fail?",
+        answer:
+          "Common causes of failure include:\nIncomplete hazard identification\n\nInaccurate probability or severity estimation\n\nIgnored non-routine tasks\n\nPoor documentation and follow-up\n\nLack of skilled assessors or stakeholder involvement",
+      },
+      {
+        question: "When should a risk assessment be taken up?",
+        answer:
+          "Risk assessments should be conducted:\nBefore launching any new project or process\n\nDuring significant operational changes\n\nAfter any accident or incident\n\nPeriodically, as part of routine compliance and safety reviews",
+      },
+      {
+        question: "Who should take up risk assessment?",
+        answer:
+          "Risk assessments must be undertaken by:\nQualified Safety Officers\n\nEnvironmental Consultants\n\nSite Engineers and Supervisors\n\nCompliance Professionals\nDoStartup provides a cross-functional team of experts including legal advisors, technical engineers, and environmental auditors to ensure an accurate and regulatory-compliant Risk Assessment.",
+      },
+    ],
+  },
+
+  "supply-chain-human-rights-esdd": {
+    title: "Supply Chain Human Rights & Environmental Due Diligence",
+    description:
+      "Build an ethical and future-ready business with integrated Human Rights and Environmental Due Diligence. Let DoStartup help you lead responsibly across supply chains.",
+    overview: [
+      {
+        heading: "Overview",
+        content:
+          "In 2011, the United Nations Human Rights Council unanimously endorsed the UN Guiding Principles on Business and Human Rights (UNGPs), establishing the concept of Human Rights Due Diligence (HRDD). These principles call upon businesses to proactively identify, prevent, mitigate, and account for potential or existing adverse human rights impacts arising from their operations—including their supply chains.\n\nAmid evolving global regulations, companies are now compelled to adopt mandatory human rights and environmental due diligence frameworks. These frameworks are vital for managing risks such as climate change impacts, forced labour, and low supply chain traceability.",
+      },
+      {
+        heading: "What is Human Rights Due Diligence?",
+        content:
+          "Human Rights Due Diligence (HRDD) involves a proactive, continuous process to:\n- Identify potential or existing human rights risks\n- Prevent and mitigate violations\n- Take remedial action when violations occur\n- Ensure transparency in reporting and performance\n\nDespite the UNGPs being non-binding, their ethical implications are powerful. Yet, many businesses lack meaningful HRDD measures or fail to implement them effectively—often resulting in direct or indirect contributions to human rights violations.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Common Human Rights Violations in Supply Chains",
+        content:
+          " Labour Rights Violations:\nMillions of workers across global supply chains suffer from unsafe working conditions, below-minimum wages, forced overtime, sexual harassment, exposure to hazardous substances, and lack of maternity leave or grievance redressal. Migrant labourers in engineering and construction often face the highest risk.\n\n Child Labour:\nApproximately 160 million children globally are engaged in child labour, with half in hazardous work. Common in agriculture, mining, apparel, and leather processing sectors.\n\n Right to Health & Environmental Hazards:\nToxic waste from industries such as leather tanneries or mining contaminates air and water, leading to chronic illnesses, mercury poisoning, and livelihood loss.\n\n Violation of Land, Water, and Food Rights:\nLarge-scale land acquisitions for agribusiness, mining, and industrial projects displace communities and restrict access to clean water, housing, and food.\n\n Humanitarian Law Violations:\nIn conflict regions, businesses can be complicit in violations of international humanitarian law through operations or partnerships.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "What Should Human Rights Due Diligence Include?",
+        content:
+          "A comprehensive HRDD framework must cover:\n- Adopting a clear human rights policy embedded into all business functions\n- Identifying and assessing actual and potential human rights risks\n- Preventing and mitigating serious human rights violations\n- Verifying actions taken to address risks\n- Publicly disclosing HRDD efforts and results\n- Providing access to effective remedy for impacted individuals\n- Conducting regular environmental and HRDD audits across the supply chain",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Dostartup Assistance in HRDD and Environmental Audits",
+        content:
+          "Dostartup offers end-to-end support in building and implementing strong Human Rights and Environmental Due Diligence processes. Our services include:\n- Risk assessment and mapping across supply chains\n- Unannounced and expert-led human rights audits\n- Tailored HRDD policy frameworks\n- Whistleblower protection systems\n- Reporting and transparency consultation\n- Remediation mechanisms and compliance support",
+      },
+    ],
+    registrationTimeline: [],
+    Listicles: [
+      {
+        category: "Why Human Rights Safeguards Are Often Absent",
+        documents: [
+          "Weak or Absent Human Rights Policies: Lack of clear policies, contract clauses, and integration into core functions.",
+          "Inadequate Risk Assessment and Monitoring: Limited supplier visibility and lack of on-ground risk evaluation.",
+          "Failure to Prevent or Mitigate Risks: No supplier contract enforcement or employee training programs.",
+          "Ineffective or Superficial Third-Party Auditing: Checklists replace in-depth evaluations, missing critical insights.",
+          "Lack of Transparency and Public Reporting: Absence of public disclosures diminishes stakeholder trust.",
+          "Inadequate Remediation: No compensation, stakeholder engagement, or systemic review after violations.",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup?",
+        description: [
+          "10+ Years of Experience with 400+ In-House CAs, CS, and Lawyers. Serving 10,000+ PIN codes with a 99% SLA Delivery Rate.",
+        ],
+        points: [
+          "End-to-end support in HRDD policy creation, audit, and remediation",
+          "Transparent reporting consultation and grievance redressal systems",
+          "Expert guidance aligned with UNGPs and global ESG frameworks",
+          "Unannounced audits and supply chain traceability enhancements",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is HRDD?",
+        answer:
+          "HRDD is a continuous process to identify, prevent, mitigate, and remedy human rights violations across operations and supply chains.",
+      },
+      {
+        question: "What are common HR violations in supply chains?",
+        answer:
+          "Forced labour, unsafe work environments, wage theft, child labour, land grabs, and environmental degradation.",
+      },
+      {
+        question: "Why do most companies fail at HRDD?",
+        answer:
+          "Lack of policy integration, superficial audits, poor monitoring, no whistleblower systems, and ineffective remediation.",
+      },
+      {
+        question: "How does DoStartup support HRDD?",
+        answer:
+          "We help with policy drafting, risk mapping, audits, training, reporting, and remediation—tailored to business and regulatory needs.",
+      },
+    ],
+  },
+
+  "environmental-due-diligence": {
+    title: "Environmental Due Diligence (EDD) Services in India",
+    description:
+      "Ensure seamless environmental compliance for your startup or business venture with DOstartup’s expert Environmental Due Diligence services.",
+    overview: [
+      {
+        heading: "Environmental Due Diligence Services in India: An Overview",
+        content:
+          "At DOstartup, our Environmental Due Diligence (EDD) services empower startups and businesses to ensure full compliance with India’s environmental regulations and embrace sustainable business practices. Our comprehensive EDD services include detailed business evaluations that identify environmental impacts, risks, and liabilities to safeguard your venture’s future.\n\nOur EDD offerings—ranging from site assessments to regulatory compliance audits—are designed to help startups implement robust environmental management systems, mitigate risks, and maintain a reputable, legally compliant standing in the market.",
+      },
+      {
+        heading: "What is Environmental Due Diligence?",
+        content:
+          "Environmental Due Diligence (EDD), also called corporate sustainability due diligence, is a critical assessment process that evaluates a business’s environmental risks and liabilities. It aligns businesses with mandates set by environmental protection agencies to ensure compliance with environmental laws.\n\nFor startups and ventures, EDD is indispensable to making informed operational decisions, managing potential liabilities, and avoiding costly legal and financial penalties. It also helps identify contamination issues and environmental hazards that could impact human health and the ecosystem.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Environmental Due Diligence Services",
+        content:
+          "● Regulatory Compliance: Avoid penalties and legal issues by adhering to mandatory environmental laws.\n● Risk Management: Identify and address environmental liabilities before they escalate.\n● Legal Protection: Shield your business from lawsuits and fines related to environmental non-compliance.\n● Boost Business Reputation: Demonstrate your commitment to environmental responsibility, enhancing brand goodwill.\n● Operational Efficiency: Optimize resource use through sustainable management practices.\n● Investment Opportunities: Open doors to eco-conscious investors and global markets.\n● Stakeholder Trust: Build confidence with customers, partners, and regulators.\n● Promote Sustainability: Align your business with responsible corporate behavior.\n● Health & Safety: Safeguard your workforce and local communities.\n● Informed Decision-Making: Enable strategic planning based on comprehensive environmental insights.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Environmental Due Diligence in India",
+        content:
+          "● Environmental reports (site assessments, monitoring, remediation plans)\n● Inventory of chemicals and hazardous materials\n● Property records (deeds, surveys, tax assessments)\n● Regulatory permits and compliance documentation\n● Historical land-use data and geologic/hydrologic reports\n● Financial statements related to the property or project",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Environmental Due Diligence in India",
+        content:
+          "● Phase I: Preliminary Assessment\n  - Data Inspection: Analyze existing environmental data for compliance status.\n  - Surveys & Interviews: Engage stakeholders to collect insights on environmental conditions.\n  - Site Assessment: Conduct physical inspection to detect contamination or hazards.\n  - Reporting: Prepare findings and recommendations to mitigate risks.\n\n● Phase II: Detailed Investigation\n  - Review Phase I findings in depth.\n  - Prepare a comprehensive budget to address environmental issues.\n\n● Phase III: Risk Mitigation\n  - Implement strategies to manage contamination, water, and air pollution.\n  - Introduce technologies and systems for ongoing environmental compliance.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Typical duration from submission to grant:",
+        steps: [
+          {
+            title: "Standard Processing Time",
+            duration: "30–35 working days",
+            description:
+              "Depends on completeness of documents, inspections, and authority response.",
+          },
+        ],
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description:
+          "EDD fees vary depending on the scope and complexity of the project:",
+        feeTable: [
+          {
+            category: "Basic Review Fee",
+            amount: "₹25,000 – ₹50,000",
+          },
+          {
+            category: "Detailed Site Assessment",
+            amount: "₹75,000 – ₹2,00,000",
+          },
+          {
+            category: "Annual EDD Review (Optional)",
+            amount: "₹40,000 – ₹1,00,000",
+          },
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Components of Environmental Due Diligence",
+        documents: [
+          "Environmental Site Assessment (ESA)",
+          "Environmental Impact Assessment (EIA)",
+          "Liability Assessment",
+          "Regulatory Compliance Review",
+        ],
+      },
+      {
+        category: "Sectors Requiring Corporate Sustainability Due Diligence",
+        documents: [
+          "Manufacturing (chemicals, pharmaceuticals, textiles, automotive)",
+          "Real Estate & Construction",
+          "Mining & Extraction",
+          "Energy & Power Generation",
+          "Waste Management & Recycling",
+          "Transport & Logistics",
+          "Hospitality & Eco-Tourism",
+        ],
+      },
+      {
+        category: "Examples of Recognized Environmental Conditions",
+        documents: [
+          "Historic gas stations with underground tanks",
+          "Car repair shops handling solvents and hazardous chemicals",
+          "Dry-cleaning operations with solvent contamination",
+          "Foundries and large-scale industrial plants",
+          "Prior environmental releases affecting property",
+        ],
+      },
+      {
+        category: "Laws Governing Environmental Due Diligence",
+        documents: [
+          "Environment (Protection) Act, 1986",
+          "Air (Prevention and Control of Pollution) Act, 1981",
+          "Water (Prevention and Control of Pollution) Act, 1974",
+          "Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016",
+          "National Green Tribunal Act, 2010",
+          "Coastal Regulation Zone (CRZ) Notification, 2011",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust DOstartup for Environmental Due Diligence Audit?",
+        description: [
+          "Our expert team helps mitigate environmental risks while ensuring legal compliance for businesses across industries.",
+        ],
+        points: [
+          "Network of 500+ environmental experts",
+          "20+ years of combined experience in business advisory",
+          "Supported 1000+ startups and ventures with EDD audits",
+          "Early identification of environmental risks to prevent costly issues",
+          "End-to-end assistance from initial assessment to risk mitigation",
+          "Outstanding 99.4% client retention rate",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Environmental due diligence?",
+        answer:
+          "It is a comprehensive process to assess a business’s compliance with environmental laws, identify risks, and implement sustainable practices.",
+      },
+      {
+        question: "Why is Environmental due diligence important?",
+        answer:
+          "It helps businesses avoid legal penalties, manage risks, attract investment, and build a strong reputation.",
+      },
+      {
+        question: "What does an Environmental due diligence process involve?",
+        answer:
+          "Phases include data inspection, site assessment, risk analysis, and mitigation strategy formulation.",
+      },
+      {
+        question: "What are the benefits of Environmental due diligence?",
+        answer:
+          "Benefits include regulatory compliance, risk management, legal protection, operational efficiency, and enhanced stakeholder trust.",
+      },
+      {
+        question:
+          "Which businesses need to follow Environmental due diligence in India?",
+        answer:
+          "Industries such as manufacturing, real estate, mining, energy, waste management, transport, and hospitality require EDD.",
+      },
+      {
+        question:
+          "What happens once the Environmental due diligence study is complete?",
+        answer:
+          "A detailed report with findings and recommendations is provided for risk mitigation and compliance planning.",
+      },
+      {
+        question: "How long does an Environmental due diligence process take?",
+        answer:
+          "Typically 30 days to 6 months, depending on project size and complexity.",
+      },
+      {
+        question: "What is an example of environmental due diligence?",
+        answer:
+          "Assessing contamination risks at a former industrial site before property acquisition.",
+      },
+      {
+        question: "What are the 4 P's of due diligence?",
+        answer: "Purpose, Preparation, Process, and Performance.",
+      },
+      {
+        question: "What is the environmental due diligence policy?",
+        answer:
+          "A corporate guideline outlining how environmental risks are assessed and managed.",
+      },
+      {
+        question: "What are the three types of diligence?",
+        answer: "Legal, financial, and environmental due diligence.",
+      },
+      {
+        question: "What are the phases of environmental due diligence?",
+        answer:
+          "Phase I (preliminary assessment), Phase II (detailed investigation), Phase III (risk mitigation).",
+      },
+      {
+        question: "What is the scope of environmental due diligence?",
+        answer:
+          "Includes site assessment, regulatory compliance, risk identification, and management.",
+      },
+      {
+        question:
+          "What are the laws governing the Environmental Due Diligence Procedure?",
+        answer:
+          "Key laws include Environment Protection Act, Air and Water Acts, Wildlife Protection Act, Forest Conservation Act, among others.",
+      },
+    ],
+  },
+
+  "new-lead-acid-battery-import-license": {
+    title: "New Lead Acid Battery Import License",
+    description:
+      "To legally import new lead acid batteries into India, businesses must obtain a valid Import License from the CPCB under environmental regulations. DOstartup guides you end‑to‑end—from documentation through approval—with expert support.",
+    overview: [
+      {
+        heading: "What Are Lead Acid Batteries?",
+        content:
+          "Lead acid batteries are a cost‑effective energy storage solution comprising lead and lead oxide electrodes immersed in sulfuric acid. Energy is released via a reversible chemical reaction yielding lead sulphate and water. Improper handling or disposal can cause soil and groundwater contamination.",
+      },
+      {
+        heading: "Who Grants the Import License?",
+        content:
+          "Under Rule 5 of the Batteries (Management & Handling) Rules, 2001 (amended 2010), the CPCB issues licenses for new lead acid battery imports. This authority was delegated by the MoEF effective May 4, 2010.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for a New Import License",
+        content:
+          "1. Apply online via the CPCB portal.\n2. Submit a hard copy on company letterhead including:\n   • Form I\n   • Form II\n   • Form III (quantity in MT)\n   • IEC Certificate (attested copy)\n3. License applies to the IEC address.\n4. HWMD Division In‑charge issues registration.\n5. If previously registered with MoEF, surrender old certificate before CPCB application.",
+      },
+    ],
+    renewal: [
+      {
+        heading: "Renewal of License",
+        content: [
+          "No hard copy required—apply via BRMS portal 45 days before expiry.",
+          "Ensure half‑yearly returns are filed (online or hard copy).",
+          "Delayed filings require affidavit and undertaking to submit past returns.",
+          "Renewal valid for 1 year; non‑compliance may lead to non‑renewal.",
+        ],
+      },
+    ],
+    Listicles: [
+      {
+        category: "License Cancellation & Reactivation",
+        documents: [
+          "Cancellation triggers: Failure to file returns for over a year.",
+          "Notice of non‑compliance issued by CPCB/SPCB.",
+          "Cancellation approved by Member Secretary.",
+          "Reactivation granted upon Member Secretary approval with fresh letter.",
+        ],
+      },
+      {
+        category: "DOstartup’s End‑to‑End Support",
+        documents: [
+          "Eligibility check and licensing guidance",
+          "Document preparation & verification",
+          "Online application filing",
+          "Liaison with CPCB for smooth processing",
+          "Compliance advisory to avoid cancellation risks",
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DOstartup?",
+        description: [
+          "10+ years of regulatory expertise",
+          "400+ in‑house CAs, CS, and legal experts",
+          "99% SLA-based delivery assurance",
+          "Pan‑India coverage across 10,000+ pincodes",
+        ],
+        points: [
+          "Fast, compliant licensing process",
+          "Dedicated CPCB liaison support",
+          "End‑to‑end documentation management",
+          "Expert compliance risk mitigation",
+        ],
+      },
+    ],
+  },
+
+  "lithium-ion-battery-import-license": {
+    title: "Lithium-Ion Battery Import License",
+    description: "DOstartup offers expert assistance for obtaining Lithium-Ion Battery Import License from CPCB with full compliance support and fast processing across India.",
+    overview: [
+      {
+        heading: "Start Importing Lithium-Ion Batteries with a Valid CPCB License",
+        content: "To import lithium-ion batteries into India, businesses must acquire a Lithium-Ion Battery Import License issued by the Central Pollution Control Board (CPCB). These batteries are widely used in electronic devices, EVs, and aerospace applications due to their fast-charging and eco-efficient nature. At DOstartup, we help you obtain your license swiftly and stay compliant with environmental laws—end-to-end support, zero hassle."
+      },
+      {
+        heading: "Why Choose DOstartup?",
+        content: "● 10+ Years of Licensing & Compliance Expertise\n● 400+ In-House Legal & Technical Experts (CAs, CS, Lawyers)\n● 99% SLA Delivery Rate Across India\n● 10,000+ Pincodes Service Reach"
+      },
+      {
+        heading: "What Are Lithium-Ion Batteries?",
+        content: "A lithium-ion battery is a type of secondary (rechargeable) battery that uses lithium-ion movement between electrodes to store and release energy. They are widely used in:\n● Cell phones\n● Electric vehicles (EVs)\n● Aerospace systems\n● Military applications\n\nCompared to other types, lithium-ion batteries offer:\n✔️ Quick charging\n✔️ Long lifespan\n✔️ Enhanced safety\n✔️ Lower environmental impact"
+      },
+      {
+        heading: "Primary vs. Secondary Batteries – Know the Difference",
+        content: "Primary batteries (e.g., Zinc Carbon, Alkaline) are single-use and non-rechargeable, while secondary batteries (e.g., Lead Acid, Lithium-ion) are rechargeable and more sustainable."
+      },
+      {
+        heading: "Lithium-Ion Battery Import in India – Market Snapshot",
+        content: "India is among the top global importers of lithium-ion batteries:\n📦 175M units (2016)\n📦 313M units (2017)\n📦 712M units (2018)\n📦 450M units (2019)\n🔺 Import value rose from ₹2,600 crore to ₹6,500 crore in 2019\n🔌 Major Import Sources: China, Japan, South Korea\n🏭 China leads the global lithium battery market with ~75% of cell manufacturing capacity"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Getting Licensed with DOstartup",
+        content: "● Full regulatory compliance\n● Quick turnaround time\n● Support with renewals and updates\n● End-to-end documentation and filing\n● Advisory for environmental and legal compliance"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for License",
+        content: "● PAN Card\n● IEC Certificate\n● BIS Certificate\n● Half-Yearly Returns\n● Industrial License (if applicable)"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Get a Lithium-Ion Battery Import License?",
+        content: "Step-by-Step Process:\n● Visit the BRMS Portal\n● Click on “New Importer Registration”\n● Fill in application details and submit\n● Receive login credentials (User ID & Password)\n● Submit the following to CPCB:\n  - Hard copy of application on company letterhead\n  - Printout of Form II & Form III\n  - Self-attested IEC Certificate\n● CPCB will dispatch the license post approval\n📌 Note: The license will be issued to the corporate/branch address mentioned on your IEC certificate."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Typical duration from submission to grant:",
+        steps: [
+          {
+            title: "Standard Processing Time",
+            duration: "20–30 working days",
+            description: "Depends on CPCB workload, documentation accuracy, and applicant compliance status."
+          }
+        ]
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description: "As prescribed under CPCB battery rules:",
+        feeTable: [
+          {
+            category: "New Registration Fee",
+            amount: "₹10,000"
+          },
+          {
+            category: "Renewal Fee",
+            amount: "₹5,000"
+          }
+        ]
+      }
+    ],
+    Listicles: [
+      {
+        category: "Reasons for License Suspension or Cancellation",
+        documents: [
+          "Failure to submit half-yearly returns",
+          "Delayed compliance reporting",
+          "Violation of CPCB regulations",
+          "Importing unapproved battery types"
+        ]
+      },
+      {
+        category: "How DOstartup Helps",
+        documents: [
+          "Step-by-step licensing guidance",
+          "Document preparation and validation",
+          "Filing and CPCB follow-up",
+          "Renewal and amendment assistance",
+          "Advisory on battery-related compliance"
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust DOstartup?",
+        description: [
+          "We simplify the CPCB licensing journey with expert teams and end-to-end support tailored for lithium-ion battery importers."
+        ],
+        points: [
+          "400+ in-house compliance experts",
+          "10,000+ pincode coverage",
+          "99% on-time delivery rate",
+          "PAN India legal and technical support"
         ]
       }
     ],
     faq: [
       {
-        question: "What sustainability issues affect the sugar industry?",
-        answer: "Effluent discharge, solid waste generation, GHG emissions, resource depletion and community health impacts require rigorous ESDD."
+        question: "What is a Lithium-Ion Battery Import License?",
+        answer: "It is an official registration issued by CPCB to legally import lithium-ion batteries into India."
       },
       {
-        question: "Why conduct ESDD in sugar?",
-        answer: "To mitigate environmental, social and regulatory risks—from cane sourcing to processing—and to protect financial and reputational value."
+        question: "Who issues the import license?",
+        answer: "The Central Pollution Control Board (CPCB), under the Ministry of Environment, Forest and Climate Change."
       },
       {
-        question: "How is ESDD carried out?",
-        answer: "Through risk assessments, gap analyses, permit management, food safety audits, implementation of mitigation measures and transparent reporting."
+        question: "What is the validity of the license?",
+        answer: "Typically valid for one year and renewable annually based on compliance records."
       },
       {
-        question: "What paperwork is needed?",
-        answer: "Records of sourcing, emissions, effluent treatment, labour practices, community engagement, licenses and ESG disclosures."
+        question: "Can I renew my license online?",
+        answer: "Yes, through the BRMS Portal, at least 45 days before the expiry date."
       },
       {
-        question: "Can existing ESDD programs be improved?",
-        answer: "Yes—DoStartup performs detailed reviews and provides targeted enhancements to ensure robust compliance."
+        question: "What happens if I miss return filing?",
+        answer: "CPCB may cancel or suspend the license. Reinstatement requires an affidavit and compliance explanation."
       }
     ]
   },
@@ -21181,126 +22320,217 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
 
 
 
+  "lead-acid-battery-recycling-registration": {
+    title: "Lead Acid Battery Recycling Registration",
+    description: "Proper registration under the Batteries (Management & Handling) Rules, 2001 is essential to ensure safe recycling of used lead acid batteries and prevent environmental contamination.",
+    overview: [
+      {
+        heading: "Overview of Recycling Registration",
+        content: "Lead acid batteries operate with lead and lead oxide electrodes in sulfuric acid. After use, they become hazardous waste. Recycling registration with the MoEFCC ensures your facility meets technical and environmental safeguards to handle spent batteries safely."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Why Recycle Lead Acid Batteries?",
+        content: "● 98% recyclability: Lead, plastic, and sulfuric acid are reusable\n● Eco‑friendly: Reduces toxic waste and pollution\n● Energy‑efficient: Recycled materials feed back into new batteries\n● Worker safety: Regulated processes minimize health hazards"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content: "● Completed Form VI\n● Consent under Water Act & Air Act\n● Hazardous Waste Authorization (2008/2016)\n● District Industries Centre registration\n● Proof of installed recycling capacity (SPCB/DIC)"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Registration Process",
+        content: "1. Submit Form VI with all required consents and proofs to MoEFCC (or designated agency).\n2. Facility inspection by MoEFCC officer to verify technical infrastructure and environmental safeguards.\n3. Upon verification, registration is granted and valid for two years."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Typical duration from application to grant:",
+        steps: [
+          { title: "Document Review", duration: "10–15 days", description: "MoEFCC verifies submitted forms and capacity proofs" },
+          { title: "Site Inspection", duration: "10–20 days", description: "Technical and environmental safeguards are checked on-site" },
+          { title: "Certificate Issuance", duration: "5–10 days", description: "Registration certificate valid for two years is issued" }
+        ]
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description: "Government fees for recycling registration:",
+        feeTable: [
+          { category: "Initial Registration", amount: "₹15,000" },
+          { category: "Renewal (biennial)", amount: "₹10,000" }
+        ]
+      }
+    ],
+    Listicles: [
+      {
+        category: "Renewal & Compliance",
+        documents: [
+          "Submit Form VI for renewal before expiry",
+          "File annual returns in Form VII to SPCB",
+          "Maintain records of batteries collected and processed",
+          "Mark recovered lead as 'Recycled'"
+        ]
+      },
+      {
+        category: "Cancellation Conditions",
+        documents: [
+          "Non‑submission of annual returns",
+          "Violation of operating or environmental conditions",
+          "Opportunity given to respond before any cancellation",
+          "Right to appeal to MoEFCC upon adverse order"
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DOstartup?",
+        description: [
+          "10+ years in environmental compliance",
+          "400+ in‑house CAs, CSs, and legal experts",
+          "99% SLA‑based delivery rate",
+          "Pan‑India coverage across 10,000+ pincodes"
+        ],
+        points: [
+          "End‑to‑end application and renewal support",
+          "Facility audit preparation and advisory",
+          "Compliance tracking and alert system",
+          "Dedicated MoEFCC liaison"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Who must register?",
+        answer: "Any business engaged in recycling used lead acid batteries must register with MoEFCC."
+      },
+      {
+        question: "What is the validity of registration?",
+        answer: "Registrations are valid for two years and renewable based on compliance."
+      },
+      {
+        question: "Can registration be suspended?",
+        answer: "Yes, for non‑compliance with rules or conditions after due notice."
+      },
+      {
+        question: "What happens after suspension?",
+        answer: "You may file an appeal to MoEFCC with supporting documentation."
+      },
+      {
+        question: "Is Form VII mandatory?",
+        answer: "Yes, annual returns in Form VII must be submitted to the SPCB each year."
+      }
+    ]
+  },
 
 
-  "esdd-iron-steel-industry": {
-  title: "Environmental & Social Due Diligence in the Iron and Steel Industry",
-  description: "Achieve sustainability, regulatory compliance, and long-term risk mitigation in the iron and steel sector through expert-led Environmental and Social Due Diligence (ESDD) services by DoStartup.",
-  overview: [
-    {
-      heading: "Why Conduct Environmental and Social Due Diligence in the Iron and Steel Industry?",
-      content: "Companies that prioritize environmental and social compliance are gaining a clear competitive edge. Investors, eco-conscious customers, and the general public are increasingly loyal to businesses that adopt sustainable practices. By ensuring compliance, companies not only meet legal obligations but also enhance their brand value and reputation simultaneously.\n\nDoStartup helps you achieve both with ease. Our dostartup solutions empower businesses to integrate Environmental and Social Due Diligence (ESDD) seamlessly into their operations, helping them meet stakeholder expectations and regulatory mandates.\n\nIf you’re ready to shift your business strategy towards sustainability, DoStartup brings deep expertise in ESDD and ESG frameworks. Our tailored services include expert guidance, documentation support, and end-to-end compliance assistance to ensure timely submissions and efficient regulatory approvals."
-    },
-    {
-      heading: "Why the Iron and Steel Industry Needs ESDD",
-      content: "Over the years, the iron and steel industry has made notable progress in curbing carbon emissions. However, much of this progress has stemmed from technological advancements in production processes—something that, while valuable, is not enough. To truly reduce the sector’s environmental footprint, more focused and comprehensive actions are needed.\n\nSteel is widely used and is also one of the most recycled materials in the world. Yet, its production is extremely energy-intensive, requiring high temperatures and abundant fossil fuel usage—primarily coal and oil. This makes the iron and steel sector a significant emitter of carbon dioxide, contributing around 6% of global greenhouse gas emissions.\n\nAs climate change concerns grow, stakeholders—including investors, regulators, and customers—are demanding more sustainable practices. To meet these demands, businesses must rethink outdated methods and invest in ESDD to make their operations future-ready and environmentally responsible."
-    },
-    {
-      heading: "The Role of the Iron and Steel Industry in India",
-      content: "India ranks as the world’s second-largest producer of crude steel, with a production output of 125.32 million tonnes in 2023 and a projected rise to 123–127 million tonnes in the coming year. The domestic steel sector has grown by more than 75% since 2008, also reflecting an 80% surge in national demand.\n\nThis growth reflects the country’s broader economic development, and the Indian government is playing an active role in promoting it. For example, the Union Budget 2023–24 allocated ₹70.15 crore (USD 8.6 million) to the Ministry of Steel. Mergers within the industry and increasing foreign investments are further driving expansion.\n\nHowever, this rapid growth raises concerns about sustainability. Reports show that steel production in India emits around 2.55 tonnes of CO₂ per tonne of steel—far higher than the global average of 1.85 tonnes. This highlights the urgent need to incorporate environmental and social due diligence to assess and manage the negative effects of production."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Why Hire ESDD Consultants for the Iron and Steel Sector?",
-      content: "The iron and steel industry plays a critical role in building a circular economy due to its high recyclability and strength. While the sector has made strides in carbon reduction, it still accounts for around 8% of global CO₂ emissions—making it one of the most energy intensive industries.\n\nAs the world moves toward decarbonization, aligning your business with ESDD norms isn’t optional—it’s imperative. Here’s how DoStartup’s dostartup solutions can help:\n\n1. Unlock Investment Opportunities\nWith rising global awareness around sustainability, investors are seeking eco-compliant portfolios. ESDD-aligned businesses present lower risks and greater adaptability—making them more attractive to funders.\n\nBy improving your ESDD metrics, DoStartup helps position your company as a top choice for green investments and global partnerships.\n\n2. Boost Reputation and Brand Loyalty\nToday, ESDD is more than a compliance checklist—it’s a credibility marker. Stakeholders respect businesses that actively disclose environmental and social metrics. This transparency builds brand loyalty, customer trust, and investor confidence.\n\nWith DoStartup, your business can stand out as a sustainability leader in the iron and steel space.\n\n3. Save on Long-Term Costs\nOutsourcing ESDD to DoStartup allows you to save the significant costs involved in hiring, training, and maintaining an internal ESG team. With access to our 400+ experts, you get premium consulting services without recurring payroll burdens.\n\nInstead of spending more, choose dostartup and spend smart—ensuring quality compliance while reducing operational overhead."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Typical ESDD Documentation",
-      content: "• Environmental Impact Assessment (EIA) reports and clearances\n• Social Impact Assessment and stakeholder consultation records\n• Emissions, waste and energy use reports\n• Labor, health & safety compliance records\n• Pollution control certificates\n• Compliance filings with Ministry of Steel and CPCB\n• Community consultation and grievance records\n• Site monitoring and audit logs"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "ESDD Consultant Services by DoStartup – A Smarter Way Forward",
-      content: "For businesses seeking structured ESDD implementation in the iron and steel industry, DoStartup provides comprehensive, expert-driven consulting services, including:\n\n1. Risk Identification and Assessment\nThe primary aim of ESDD is to uncover potential risks before they escalate. However, internal teams often miss key red flags due to inherent bias or lack of expertise.\n\nOur dostartup experts conduct impartial, in-depth assessments to detect environmental and social risks—ensuring your business is shielded from future liabilities.\n\n2. Custom Risk Management Strategies\nIdentifying risk is just the beginning. You also need robust strategies to mitigate them. At DoStartup, we understand that complete elimination of risk is impractical, but we help build resilient risk response systems that reduce your vulnerability significantly.\n\n3. ESDD Reporting\nReporting is a crucial component of ESDD compliance. Our experienced team crafts detailed, regulator-ready ESDD reports that serve as tangible proof of your commitment to sustainable practices.\n\n4. Complete Regulatory Compliance\nFrom pollution control to labor standards, the iron and steel industry is governed by a vast array of environmental and social mandates. Our team stays updated on all changes and ensures your business remains fully compliant.\n\nWith DoStartup, you’ll never miss a regulation or deadline again."
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Partner with DoStartup for ESDD Compliance?",
-      description: [
-        "When it comes to ensuring ESDD compliance, DoStartup stands out for its unmatched experience and domain expertise. Our team consists of seasoned legal, environmental, and industrial experts who have successfully assisted numerous clients in the iron and steel industry.\n\nWith a proven track record of 99.8% compliance efficiency, DoStartup keeps your business ahead of ever-evolving regulations and compliance standards. We continuously monitor changes in environmental and social regulations to ensure your business remains compliant—avoiding costly penalties and reputational harm.\n\nAt DoStartup, we uphold high ethical standards and deliver insightful, end-to-end consulting services tailored to your specific needs. We serve as a one-stop solution for companies seeking strategic advice and regulatory support, helping you navigate the complexities of environmental compliance in the iron and steel sector."
-      ],
-      points: [
-        "Renowned Cloud-Based Compliance Platform",
-        "AI-Driven and Scalable Service Delivery",
-        "99.8% Project Efficiency Track Record",
-        "A Network of 400+ Experienced ESDD Experts",
-        "Assisted Over 10,000 Entrepreneurs Across India",
-        "9% of Clients Come Through Direct Recommendations"
-      ]
-    }
-  ],
-  Listicles: [
-    {
-      category: "What Are the Roadblocks in ESDD in the Iron and Steel Industry?",
-      documents: [
-        "As climate change concerns intensify globally, the spotlight on sustainability in the iron and steel industry is growing. Integrating ESDD into this sector is essential—but not without challenges.",
-        "The iron and steel industry has historically been a major contributor to national economies and employment. However, this legacy brings with it numerous hurdles when it comes to implementing ethical and environmentally sound practices. Let’s look at some key challenges:",
-        "1. Financial Constraints\nBeing a capital-intensive industry, the iron and steel sector requires heavy investment. For instance, establishing just 1 tonne of steel-making capacity may cost around INR 7,000 crore. The high cost of financing, especially in India compared to developed nations like China or South Korea, discourages fresh investments.\n\nMaintaining an in-house team to ensure ESDD compliance can significantly add to operational expenses. That’s where dostartup services from DoStartup offer an edge—providing expert solutions without the burden of internal overheads.",
-        "2. Complicated Regulatory Landscape\nThe sector is governed by a labyrinth of environmental and social regulations that frequently change. For small and medium enterprises (SMEs), staying updated without professional help is nearly impossible. Misinterpretation of laws often results in costly legal or compliance errors.\n\nWith DoStartup on your side, you gain access to regulatory experts who help decode these evolving requirements and implement best practices with ease.",
-        "3. Lack of Reliable Data\nEffective due diligence is nearly impossible without accurate data. Unfortunately, most companies in this industry suffer from fragmented and insufficient datasets. Limited tools and technology make matters worse.\n\nOur dostartup team at DoStartup helps organizations collect, structure, and analyze data in compliance with ESDD standards—ensuring no critical insight is missed."
-      ]
-    },
-    {
-      category: "Explore Environmental and Social Due Diligence with DoStartup",
-      documents: [
-        "If you're wondering what Environmental and Social Due Diligence (ESDD) actually means, let’s first break down the term “due diligence.” At its core, due diligence refers to the process of conducting a thorough evaluation before entering any business transaction or investment. It plays a vital role in corporate strategy and decision-making, helping businesses ensure that their operations align with the required legal and regulatory standards.",
-        "With the world growing more conscious about environmental and social challenges, ESDD has emerged as a crucial subset of this process. Companies aiming to align profitability with sustainability must integrate ESDD into their operational and investment strategies.",
-        "In simple terms, Environmental and Social Due Diligence involves assessing the environmental and social impact of a company’s business activities. This enables organisations to evaluate new investments and projects by identifying potential risks and liabilities, and developing strategies to mitigate these risks before they escalate into costly problems."
-      ]
-    },
-    {
-      category: "Take the First Step Towards Sustainable Success",
-      documents: [
-        "Ready to enhance your business’s sustainability and compliance framework? Reach out to DoStartup at +91 21230 280 and let our experts guide you toward success in the iron and steel industry. Together, let’s build a greener, more responsible future for India's steel sector—one where profitability and sustainability go hand in hand."
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "Is the steel industry eco-friendly?",
-      answer: "Yes, the steel industry can be considered eco-friendly in certain aspects. Steel is one of the most recycled materials in the world, making it a strong contributor to the circular economy. However, its production processes require significant energy, often involving high-temperature furnaces powered by fossil fuels, which can be environmentally taxing."
-    },
-    {
-      question: "How can pollution from the iron and steel industry be reduced?",
-      answer: "Pollution in the iron and steel sector can be reduced by:\n• Adopting cleaner and more efficient production methods\n• Installing advanced pollution control equipment\n• Shifting from fossil fuels to renewable and cleaner energy sources\n• Properly treating and disposing of hazardous waste\n\nDoStartup offers consulting services that help industries implement these strategies in compliance with ESDD and ESG norms."
-    },
-    {
-      question: "What are the key risks in the iron and steel industry?",
-      answer: "The iron and steel sector presents several risks, including:\n• Mechanical hazards\n• Electrical dangers\n• Exposure to toxic gases and chemicals\n• Fire and explosion hazards\n• Extreme temperature exposure\n\nDoStartup helps industries identify and mitigate these risks through thorough Environmental and Social Due Diligence (ESDD)."
-    },
-    {
-      question: "What are the environmental impacts of the steel industry?",
-      answer: "The steel industry is one of the largest consumers of energy and emitters of carbon dioxide, accounting for roughly 6% of global greenhouse gas emissions. Steel is produced in large blast furnaces, which typically use coal, oil, and other fossil fuels to catalyze chemical reactions, making it one of the most energy-intensive and polluting sectors.\n\nDoStartup offers ESG-aligned solutions to help businesses reduce their environmental footprint effectively."
-    },
-    {
-      question: "What is the carbon footprint of steel production in India?",
-      answer: "According to recent reports, India’s steel sector contributes around 12% of the country’s total emissions. On average, 2.55 tonnes of CO₂ are emitted for every tonne of steel produced in India—significantly higher than the global average of 1.85 tonnes.\n\nDoStartup provides ESDD services that help companies track, report, and reduce their carbon footprint in line with global benchmarks."
-    },
-    {
-      question: "What is the scope of Environmental and Social Due Diligence (ESDD)?",
-      answer: "Environmental and Social Due Diligence refers to the process of assessing a company's environmental practices, social policies, and associated risks. This assessment helps in:\n• Identifying red flags before investments or acquisitions\n• Evaluating compliance with environmental regulations\n• Making low-risk and sustainable business decisions\n\nDoStartup specializes in ESDD reporting, risk analysis, and strategy formulation tailored to your industry needs."
-    },
-    {
-      question: "What is the future outlook of the iron and steel industry in India?",
-      answer: "India is the second-largest producer of crude steel globally, having produced 125.32 million tonnes in 2023, with a finished steel output of 121.29 million tonnes. The sector is expected to grow by 4–7% in the coming year, reaching up to 127 million tonnes.\n\nWith the support of DoStartup’s ESDD and ESG compliance services, the industry can achieve sustainable growth while meeting regulatory and environmental standards."
-    },
-    {
-      question: "How is Environmental and Social Due Diligence (ESDD) conducted?",
-      answer: "Conducting ESDD involves the following key steps:\n1. Identifying potential environmental and social risks\n2. Defining the scope of assessment\n3. Collecting relevant and accurate data\n4. Designing risk mitigation strategies\n5. Drafting comprehensive ESDD reports\n6. Implementing the risk mitigation plans\n\nDoStartup offers expert assistance through each stage of the ESDD process, ensuring seamless compliance and strategic risk management."
-    }
-  ]
-}
-
+  "scrap-battery-import-registration": {
+    title: "Registration for Scrap Battery Import",
+    description: "All importers of scrap batteries must register under the Batteries (Management and Handling) Rules, 2001 and Hazardous Waste Rules to ensure safe handling and environmental compliance. DOstartup guides you through every step.",
+    overview: [
+      {
+        heading: "Why Registration Matters",
+        content: "Scrap batteries contain lead, mercury, and corrosive acids that pose serious health and environmental risks if mishandled. Prior registration ensures safe import, transport, and recycling under India’s environmental laws."
+      },
+      {
+        heading: "Applicable Legal Framework",
+        content: "• Batteries (Management and Handling) Rules, 2001 (Rule 5 delegated to CPCB)\n• Hazardous and Other Wastes (Management and Transboundary Movement) Rules\nNon-compliance may lead to penalties, import denial, and legal action under the Environment Protection Act."
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Procedure",
+        content: "1. Apply to the SPCB (licensed recyclers only) with full documentation.\n2. SPCB forwards application and recommendations to MoEF within 30 days.\n3. Submit authenticated NOC from exporting authority.\n4. MoEF or SPCB issues import permission."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Authorization Timeline",
+        description: "Typical time from application to permission:",
+        steps: [
+          { title: "SPCB Review & Forwarding", duration: "30 days", description: "Assessment and recommendation to MoEF" },
+          { title: "NOC Processing", duration: "15–20 days", description: "Verification of export-country consent" },
+          { title: "Final Clearance", duration: "10–15 days", description: "Issuance of import registration" }
+        ]
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure",
+        description: "Government-prescribed fees for scrap battery import registration:",
+        feeTable: [
+          { category: "Application Fee", amount: "₹5,000" },
+          { category: "Renewal Fee (annual)", amount: "₹3,000" }
+        ]
+      }
+    ],
+    Listicles: [
+      {
+        category: "India’s Top Scrap Battery Sources",
+        documents: [
+          "USA: USD 106.5 M (11.91%)",
+          "Malaysia: USD 72.89 M (8.15%)",
+          "UAE: USD 66.81 M (7.47%)",
+          "Singapore: USD 53.39 M (5.97%)",
+          "Netherlands: USD 50.49 M (5.65%)",
+          "Thailand: USD 51.25 M (5.73%)",
+          "Germany: USD 46.23 M (5.17%)",
+          "South Korea: USD 40 M (4.47%)",
+          "Turkey: USD 35.07 M (3.92%)",
+          "Canada: USD 32.85 M (3.67%)"
+        ]
+      },
+      {
+        category: "Key Compliance Requirements",
+        documents: [
+          "Maintain import records in Form 3",
+          "File annual return in Form 4 with SPCB",
+          "Ensure labeling and transport as per environmental rules"
+        ]
+      },
+      {
+        category: "DOstartup’s Service Offerings",
+        documents: [
+          "Application filing with SPCB & MoEF",
+          "Complete documentation preparation",
+          "Legal advisory on compliance",
+          "Liaison with authorities for approvals",
+          "Renewal and audit support"
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust DOstartup?",
+        description: [
+          "10+ years of environmental compliance expertise",
+          "400+ in-house CAs, CSs & legal experts",
+          "99% SLA-based delivery rate",
+          "Pan-India coverage across 10,000+ pincodes"
+        ],
+        points: [
+          "End-to-end registration support",
+          "Expert handling of SPCB/MoEF processes",
+          "Proactive compliance tracking",
+          "Dedicated legal and technical liaison"
+        ]
+      }
+    ]
+  }
+  
+  
+  
+  
   
 
 
 
 
-  
-  
+
 };
