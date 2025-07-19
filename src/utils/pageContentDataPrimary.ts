@@ -1025,13 +1025,15 @@ Submitting these documents correctly and completely is crucial for a successful 
   4. Upon approval, receive your Central License certificate (display prominently).`,
       },
     ],
-    renewal: [{
-      heading: "Validity & Renewal",
-      content: [
-        "Valid for 1–5 years; fees increase with longer validity. Renew at least 30 days before expiry to avoid penalties.",
-        "Renewal documents: recent passport photo, government ID proof, PAN Card, address proof, land deed or rent agreement + NOC (if rented).",
-      ],
-    }],
+    renewal: [
+      {
+        heading: "Validity & Renewal",
+        content: [
+          "Valid for 1–5 years; fees increase with longer validity. Renew at least 30 days before expiry to avoid penalties.",
+          "Renewal documents: recent passport photo, government ID proof, PAN Card, address proof, land deed or rent agreement + NOC (if rented).",
+        ],
+      },
+    ],
     whyUs: [
       {
         heading: "Why Choose Dostartup?",
@@ -2218,7 +2220,7 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
           "Income Tax Compliances: File ITR annually; pay advance tax quarterly (if applicable); conduct a tax audit if turnover exceeds ₹1 crore.",
           "Event‑Based Filings: File applicable RoC forms for changes in share capital, director appointments/resignations, registered office address, or change of auditors.",
         ],
-      }
+      },
     ],
     whyUs: [
       {
@@ -22186,46 +22188,56 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
 
   "lithium-ion-battery-import-license": {
     title: "Lithium-Ion Battery Import License",
-    description: "DOstartup offers expert assistance for obtaining Lithium-Ion Battery Import License from CPCB with full compliance support and fast processing across India.",
+    description:
+      "DOstartup offers expert assistance for obtaining Lithium-Ion Battery Import License from CPCB with full compliance support and fast processing across India.",
     overview: [
       {
-        heading: "Start Importing Lithium-Ion Batteries with a Valid CPCB License",
-        content: "To import lithium-ion batteries into India, businesses must acquire a Lithium-Ion Battery Import License issued by the Central Pollution Control Board (CPCB). These batteries are widely used in electronic devices, EVs, and aerospace applications due to their fast-charging and eco-efficient nature. At DOstartup, we help you obtain your license swiftly and stay compliant with environmental laws—end-to-end support, zero hassle."
+        heading:
+          "Start Importing Lithium-Ion Batteries with a Valid CPCB License",
+        content:
+          "To import lithium-ion batteries into India, businesses must acquire a Lithium-Ion Battery Import License issued by the Central Pollution Control Board (CPCB). These batteries are widely used in electronic devices, EVs, and aerospace applications due to their fast-charging and eco-efficient nature. At DOstartup, we help you obtain your license swiftly and stay compliant with environmental laws—end-to-end support, zero hassle.",
       },
       {
         heading: "Why Choose DOstartup?",
-        content: "● 10+ Years of Licensing & Compliance Expertise\n● 400+ In-House Legal & Technical Experts (CAs, CS, Lawyers)\n● 99% SLA Delivery Rate Across India\n● 10,000+ Pincodes Service Reach"
+        content:
+          "● 10+ Years of Licensing & Compliance Expertise\n● 400+ In-House Legal & Technical Experts (CAs, CS, Lawyers)\n● 99% SLA Delivery Rate Across India\n● 10,000+ Pincodes Service Reach",
       },
       {
         heading: "What Are Lithium-Ion Batteries?",
-        content: "A lithium-ion battery is a type of secondary (rechargeable) battery that uses lithium-ion movement between electrodes to store and release energy. They are widely used in:\n● Cell phones\n● Electric vehicles (EVs)\n● Aerospace systems\n● Military applications\n\nCompared to other types, lithium-ion batteries offer:\n✔️ Quick charging\n✔️ Long lifespan\n✔️ Enhanced safety\n✔️ Lower environmental impact"
+        content:
+          "A lithium-ion battery is a type of secondary (rechargeable) battery that uses lithium-ion movement between electrodes to store and release energy. They are widely used in:\n● Cell phones\n● Electric vehicles (EVs)\n● Aerospace systems\n● Military applications\n\nCompared to other types, lithium-ion batteries offer:\n✔️ Quick charging\n✔️ Long lifespan\n✔️ Enhanced safety\n✔️ Lower environmental impact",
       },
       {
         heading: "Primary vs. Secondary Batteries – Know the Difference",
-        content: "Primary batteries (e.g., Zinc Carbon, Alkaline) are single-use and non-rechargeable, while secondary batteries (e.g., Lead Acid, Lithium-ion) are rechargeable and more sustainable."
+        content:
+          "Primary batteries (e.g., Zinc Carbon, Alkaline) are single-use and non-rechargeable, while secondary batteries (e.g., Lead Acid, Lithium-ion) are rechargeable and more sustainable.",
       },
       {
         heading: "Lithium-Ion Battery Import in India – Market Snapshot",
-        content: "India is among the top global importers of lithium-ion batteries:\n📦 175M units (2016)\n📦 313M units (2017)\n📦 712M units (2018)\n📦 450M units (2019)\n🔺 Import value rose from ₹2,600 crore to ₹6,500 crore in 2019\n🔌 Major Import Sources: China, Japan, South Korea\n🏭 China leads the global lithium battery market with ~75% of cell manufacturing capacity"
-      }
+        content:
+          "India is among the top global importers of lithium-ion batteries:\n📦 175M units (2016)\n📦 313M units (2017)\n📦 712M units (2018)\n📦 450M units (2019)\n🔺 Import value rose from ₹2,600 crore to ₹6,500 crore in 2019\n🔌 Major Import Sources: China, Japan, South Korea\n🏭 China leads the global lithium battery market with ~75% of cell manufacturing capacity",
+      },
     ],
     benefits: [
       {
         heading: "Benefits of Getting Licensed with DOstartup",
-        content: "● Full regulatory compliance\n● Quick turnaround time\n● Support with renewals and updates\n● End-to-end documentation and filing\n● Advisory for environmental and legal compliance"
-      }
+        content:
+          "● Full regulatory compliance\n● Quick turnaround time\n● Support with renewals and updates\n● End-to-end documentation and filing\n● Advisory for environmental and legal compliance",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for License",
-        content: "● PAN Card\n● IEC Certificate\n● BIS Certificate\n● Half-Yearly Returns\n● Industrial License (if applicable)"
-      }
+        content:
+          "● PAN Card\n● IEC Certificate\n● BIS Certificate\n● Half-Yearly Returns\n● Industrial License (if applicable)",
+      },
     ],
     registrationProcedure: [
       {
         heading: "How to Get a Lithium-Ion Battery Import License?",
-        content: "Step-by-Step Process:\n● Visit the BRMS Portal\n● Click on “New Importer Registration”\n● Fill in application details and submit\n● Receive login credentials (User ID & Password)\n● Submit the following to CPCB:\n  - Hard copy of application on company letterhead\n  - Printout of Form II & Form III\n  - Self-attested IEC Certificate\n● CPCB will dispatch the license post approval\n📌 Note: The license will be issued to the corporate/branch address mentioned on your IEC certificate."
-      }
+        content:
+          "Step-by-Step Process:\n● Visit the BRMS Portal\n● Click on “New Importer Registration”\n● Fill in application details and submit\n● Receive login credentials (User ID & Password)\n● Submit the following to CPCB:\n  - Hard copy of application on company letterhead\n  - Printout of Form II & Form III\n  - Self-attested IEC Certificate\n● CPCB will dispatch the license post approval\n📌 Note: The license will be issued to the corporate/branch address mentioned on your IEC certificate.",
+      },
     ],
     registrationTimeline: [
       {
@@ -22235,10 +22247,11 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           {
             title: "Standard Processing Time",
             duration: "20–30 working days",
-            description: "Depends on CPCB workload, documentation accuracy, and applicant compliance status."
-          }
-        ]
-      }
+            description:
+              "Depends on CPCB workload, documentation accuracy, and applicant compliance status.",
+          },
+        ],
+      },
     ],
     feesStructure: [
       {
@@ -22247,14 +22260,14 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
         feeTable: [
           {
             category: "New Registration Fee",
-            amount: "₹10,000"
+            amount: "₹10,000",
           },
           {
             category: "Renewal Fee",
-            amount: "₹5,000"
-          }
-        ]
-      }
+            amount: "₹5,000",
+          },
+        ],
+      },
     ],
     Listicles: [
       {
@@ -22263,8 +22276,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Failure to submit half-yearly returns",
           "Delayed compliance reporting",
           "Violation of CPCB regulations",
-          "Importing unapproved battery types"
-        ]
+          "Importing unapproved battery types",
+        ],
       },
       {
         category: "How DOstartup Helps",
@@ -22273,88 +22286,109 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Document preparation and validation",
           "Filing and CPCB follow-up",
           "Renewal and amendment assistance",
-          "Advisory on battery-related compliance"
-        ]
-      }
+          "Advisory on battery-related compliance",
+        ],
+      },
     ],
     whyUs: [
       {
         heading: "Why Trust DOstartup?",
         description: [
-          "We simplify the CPCB licensing journey with expert teams and end-to-end support tailored for lithium-ion battery importers."
+          "We simplify the CPCB licensing journey with expert teams and end-to-end support tailored for lithium-ion battery importers.",
         ],
         points: [
           "400+ in-house compliance experts",
           "10,000+ pincode coverage",
           "99% on-time delivery rate",
-          "PAN India legal and technical support"
-        ]
-      }
+          "PAN India legal and technical support",
+        ],
+      },
     ],
     faq: [
       {
         question: "What is a Lithium-Ion Battery Import License?",
-        answer: "It is an official registration issued by CPCB to legally import lithium-ion batteries into India."
+        answer:
+          "It is an official registration issued by CPCB to legally import lithium-ion batteries into India.",
       },
       {
         question: "Who issues the import license?",
-        answer: "The Central Pollution Control Board (CPCB), under the Ministry of Environment, Forest and Climate Change."
+        answer:
+          "The Central Pollution Control Board (CPCB), under the Ministry of Environment, Forest and Climate Change.",
       },
       {
         question: "What is the validity of the license?",
-        answer: "Typically valid for one year and renewable annually based on compliance records."
+        answer:
+          "Typically valid for one year and renewable annually based on compliance records.",
       },
       {
         question: "Can I renew my license online?",
-        answer: "Yes, through the BRMS Portal, at least 45 days before the expiry date."
+        answer:
+          "Yes, through the BRMS Portal, at least 45 days before the expiry date.",
       },
       {
         question: "What happens if I miss return filing?",
-        answer: "CPCB may cancel or suspend the license. Reinstatement requires an affidavit and compliance explanation."
-      }
-    ]
+        answer:
+          "CPCB may cancel or suspend the license. Reinstatement requires an affidavit and compliance explanation.",
+      },
+    ],
   },
-
-
-
 
   "lead-acid-battery-recycling-registration": {
     title: "Lead Acid Battery Recycling Registration",
-    description: "Proper registration under the Batteries (Management & Handling) Rules, 2001 is essential to ensure safe recycling of used lead acid batteries and prevent environmental contamination.",
+    description:
+      "Proper registration under the Batteries (Management & Handling) Rules, 2001 is essential to ensure safe recycling of used lead acid batteries and prevent environmental contamination.",
     overview: [
       {
         heading: "Overview of Recycling Registration",
-        content: "Lead acid batteries operate with lead and lead oxide electrodes in sulfuric acid. After use, they become hazardous waste. Recycling registration with the MoEFCC ensures your facility meets technical and environmental safeguards to handle spent batteries safely."
-      }
+        content:
+          "Lead acid batteries operate with lead and lead oxide electrodes in sulfuric acid. After use, they become hazardous waste. Recycling registration with the MoEFCC ensures your facility meets technical and environmental safeguards to handle spent batteries safely.",
+      },
     ],
     benefits: [
       {
         heading: "Why Recycle Lead Acid Batteries?",
-        content: "● 98% recyclability: Lead, plastic, and sulfuric acid are reusable\n● Eco‑friendly: Reduces toxic waste and pollution\n● Energy‑efficient: Recycled materials feed back into new batteries\n● Worker safety: Regulated processes minimize health hazards"
-      }
+        content:
+          "● 98% recyclability: Lead, plastic, and sulfuric acid are reusable\n● Eco‑friendly: Reduces toxic waste and pollution\n● Energy‑efficient: Recycled materials feed back into new batteries\n● Worker safety: Regulated processes minimize health hazards",
+      },
     ],
     documentsRequired: [
       {
         heading: "Documents Required for Registration",
-        content: "● Completed Form VI\n● Consent under Water Act & Air Act\n● Hazardous Waste Authorization (2008/2016)\n● District Industries Centre registration\n● Proof of installed recycling capacity (SPCB/DIC)"
-      }
+        content:
+          "● Completed Form VI\n● Consent under Water Act & Air Act\n● Hazardous Waste Authorization (2008/2016)\n● District Industries Centre registration\n● Proof of installed recycling capacity (SPCB/DIC)",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Registration Process",
-        content: "1. Submit Form VI with all required consents and proofs to MoEFCC (or designated agency).\n2. Facility inspection by MoEFCC officer to verify technical infrastructure and environmental safeguards.\n3. Upon verification, registration is granted and valid for two years."
-      }
+        content:
+          "1. Submit Form VI with all required consents and proofs to MoEFCC (or designated agency).\n2. Facility inspection by MoEFCC officer to verify technical infrastructure and environmental safeguards.\n3. Upon verification, registration is granted and valid for two years.",
+      },
     ],
     registrationTimeline: [
       {
         heading: "Authorization Timeline",
         description: "Typical duration from application to grant:",
         steps: [
-          { title: "Document Review", duration: "10–15 days", description: "MoEFCC verifies submitted forms and capacity proofs" },
-          { title: "Site Inspection", duration: "10–20 days", description: "Technical and environmental safeguards are checked on-site" },
-          { title: "Certificate Issuance", duration: "5–10 days", description: "Registration certificate valid for two years is issued" }
-        ]
-      }
+          {
+            title: "Document Review",
+            duration: "10–15 days",
+            description: "MoEFCC verifies submitted forms and capacity proofs",
+          },
+          {
+            title: "Site Inspection",
+            duration: "10–20 days",
+            description:
+              "Technical and environmental safeguards are checked on-site",
+          },
+          {
+            title: "Certificate Issuance",
+            duration: "5–10 days",
+            description:
+              "Registration certificate valid for two years is issued",
+          },
+        ],
+      },
     ],
     feesStructure: [
       {
@@ -22362,9 +22396,9 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
         description: "Government fees for recycling registration:",
         feeTable: [
           { category: "Initial Registration", amount: "₹15,000" },
-          { category: "Renewal (biennial)", amount: "₹10,000" }
-        ]
-      }
+          { category: "Renewal (biennial)", amount: "₹10,000" },
+        ],
+      },
     ],
     Listicles: [
       {
@@ -22373,8 +22407,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Submit Form VI for renewal before expiry",
           "File annual returns in Form VII to SPCB",
           "Maintain records of batteries collected and processed",
-          "Mark recovered lead as 'Recycled'"
-        ]
+          "Mark recovered lead as 'Recycled'",
+        ],
       },
       {
         category: "Cancellation Conditions",
@@ -22382,9 +22416,9 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Non‑submission of annual returns",
           "Violation of operating or environmental conditions",
           "Opportunity given to respond before any cancellation",
-          "Right to appeal to MoEFCC upon adverse order"
-        ]
-      }
+          "Right to appeal to MoEFCC upon adverse order",
+        ],
+      },
     ],
     whyUs: [
       {
@@ -22393,80 +22427,101 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "10+ years in environmental compliance",
           "400+ in‑house CAs, CSs, and legal experts",
           "99% SLA‑based delivery rate",
-          "Pan‑India coverage across 10,000+ pincodes"
+          "Pan‑India coverage across 10,000+ pincodes",
         ],
         points: [
           "End‑to‑end application and renewal support",
           "Facility audit preparation and advisory",
           "Compliance tracking and alert system",
-          "Dedicated MoEFCC liaison"
-        ]
-      }
+          "Dedicated MoEFCC liaison",
+        ],
+      },
     ],
     faq: [
       {
         question: "Who must register?",
-        answer: "Any business engaged in recycling used lead acid batteries must register with MoEFCC."
+        answer:
+          "Any business engaged in recycling used lead acid batteries must register with MoEFCC.",
       },
       {
         question: "What is the validity of registration?",
-        answer: "Registrations are valid for two years and renewable based on compliance."
+        answer:
+          "Registrations are valid for two years and renewable based on compliance.",
       },
       {
         question: "Can registration be suspended?",
-        answer: "Yes, for non‑compliance with rules or conditions after due notice."
+        answer:
+          "Yes, for non‑compliance with rules or conditions after due notice.",
       },
       {
         question: "What happens after suspension?",
-        answer: "You may file an appeal to MoEFCC with supporting documentation."
+        answer:
+          "You may file an appeal to MoEFCC with supporting documentation.",
       },
       {
         question: "Is Form VII mandatory?",
-        answer: "Yes, annual returns in Form VII must be submitted to the SPCB each year."
-      }
-    ]
+        answer:
+          "Yes, annual returns in Form VII must be submitted to the SPCB each year.",
+      },
+    ],
   },
-
 
   "scrap-battery-import-registration": {
     title: "Registration for Scrap Battery Import",
-    description: "All importers of scrap batteries must register under the Batteries (Management and Handling) Rules, 2001 and Hazardous Waste Rules to ensure safe handling and environmental compliance. DOstartup guides you through every step.",
+    description:
+      "All importers of scrap batteries must register under the Batteries (Management and Handling) Rules, 2001 and Hazardous Waste Rules to ensure safe handling and environmental compliance. DOstartup guides you through every step.",
     overview: [
       {
         heading: "Why Registration Matters",
-        content: "Scrap batteries contain lead, mercury, and corrosive acids that pose serious health and environmental risks if mishandled. Prior registration ensures safe import, transport, and recycling under India’s environmental laws."
+        content:
+          "Scrap batteries contain lead, mercury, and corrosive acids that pose serious health and environmental risks if mishandled. Prior registration ensures safe import, transport, and recycling under India’s environmental laws.",
       },
       {
         heading: "Applicable Legal Framework",
-        content: "• Batteries (Management and Handling) Rules, 2001 (Rule 5 delegated to CPCB)\n• Hazardous and Other Wastes (Management and Transboundary Movement) Rules\nNon-compliance may lead to penalties, import denial, and legal action under the Environment Protection Act."
-      }
+        content:
+          "• Batteries (Management and Handling) Rules, 2001 (Rule 5 delegated to CPCB)\n• Hazardous and Other Wastes (Management and Transboundary Movement) Rules\nNon-compliance may lead to penalties, import denial, and legal action under the Environment Protection Act.",
+      },
     ],
     registrationProcedure: [
       {
         heading: "Step-by-Step Procedure",
-        content: "1. Apply to the SPCB (licensed recyclers only) with full documentation.\n2. SPCB forwards application and recommendations to MoEF within 30 days.\n3. Submit authenticated NOC from exporting authority.\n4. MoEF or SPCB issues import permission."
-      }
+        content:
+          "1. Apply to the SPCB (licensed recyclers only) with full documentation.\n2. SPCB forwards application and recommendations to MoEF within 30 days.\n3. Submit authenticated NOC from exporting authority.\n4. MoEF or SPCB issues import permission.",
+      },
     ],
     registrationTimeline: [
       {
         heading: "Authorization Timeline",
         description: "Typical time from application to permission:",
         steps: [
-          { title: "SPCB Review & Forwarding", duration: "30 days", description: "Assessment and recommendation to MoEF" },
-          { title: "NOC Processing", duration: "15–20 days", description: "Verification of export-country consent" },
-          { title: "Final Clearance", duration: "10–15 days", description: "Issuance of import registration" }
-        ]
-      }
+          {
+            title: "SPCB Review & Forwarding",
+            duration: "30 days",
+            description: "Assessment and recommendation to MoEF",
+          },
+          {
+            title: "NOC Processing",
+            duration: "15–20 days",
+            description: "Verification of export-country consent",
+          },
+          {
+            title: "Final Clearance",
+            duration: "10–15 days",
+            description: "Issuance of import registration",
+          },
+        ],
+      },
     ],
     feesStructure: [
       {
         heading: "Fee Structure",
-        description: "Government-prescribed fees for scrap battery import registration:",
+        description:
+          "Government-prescribed fees for scrap battery import registration:",
         feeTable: [
           { category: "Application Fee", amount: "₹5,000" },
-          { category: "Renewal Fee (annual)", amount: "₹3,000" }
-        ]
-      }
+          { category: "Renewal Fee (annual)", amount: "₹3,000" },
+        ],
+      },
     ],
     Listicles: [
       {
@@ -22481,16 +22536,16 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Germany: USD 46.23 M (5.17%)",
           "South Korea: USD 40 M (4.47%)",
           "Turkey: USD 35.07 M (3.92%)",
-          "Canada: USD 32.85 M (3.67%)"
-        ]
+          "Canada: USD 32.85 M (3.67%)",
+        ],
       },
       {
         category: "Key Compliance Requirements",
         documents: [
           "Maintain import records in Form 3",
           "File annual return in Form 4 with SPCB",
-          "Ensure labeling and transport as per environmental rules"
-        ]
+          "Ensure labeling and transport as per environmental rules",
+        ],
       },
       {
         category: "DOstartup’s Service Offerings",
@@ -22499,9 +22554,9 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "Complete documentation preparation",
           "Legal advisory on compliance",
           "Liaison with authorities for approvals",
-          "Renewal and audit support"
-        ]
-      }
+          "Renewal and audit support",
+        ],
+      },
     ],
     whyUs: [
       {
@@ -22510,25 +22565,790 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
           "10+ years of environmental compliance expertise",
           "400+ in-house CAs, CSs & legal experts",
           "99% SLA-based delivery rate",
-          "Pan-India coverage across 10,000+ pincodes"
+          "Pan-India coverage across 10,000+ pincodes",
         ],
         points: [
           "End-to-end registration support",
           "Expert handling of SPCB/MoEF processes",
           "Proactive compliance tracking",
-          "Dedicated legal and technical liaison"
+          "Dedicated legal and technical liaison",
+        ],
+      },
+    ],
+  },
+
+  "ngo-registration-india": {
+    title: "NGO Registration in India – Your First Step to Making a Difference",
+    description:
+      "Looking to register your NGO and drive positive change? At DoStartup.in, we help you establish your NGO under the right legal structure so you can build credibility, access funding, and maximize your impact.",
+    overview: [
+      {
+        heading: "What is an NGO?",
+        content:
+          "An NGO (Non‑Governmental Organization) is a non‑profit, voluntary group working for social welfare, education, healthcare, the environment, art, or any charitable purpose. NGOs reinvest all earnings and donations into their mission, focusing solely on social betterment without any profit motive.",
+      },
+      {
+        heading: "Why Register Your NGO?",
+        content:
+          "Registering your NGO is essential for: gaining legal recognition and credibility; attracting donations and funding (including government and CSR grants); availing tax exemptions under Indian law; ensuring operational transparency and accountability; and protecting your NGO’s assets, brand, and interests.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Types of NGO Registration in India",
+        documents: [
+          "Trust – Indian Trusts Act, 1882 (Min. 2 trustees; trust deed, ID/address proofs, photos, NOC)",
+          "Society – Societies Registration Act, 1860 (Min. 7 members; memorandum, by‑laws, ID/address proofs, photos, NOC)",
+          "Section 8 Company – Companies Act, 2013 (Min. 2 directors; MoA, AoA, board resolutions, ID/address proofs, photos, NOC)",
+        ],
+      },
+      {
+        category: "Fundraising Options After Registration",
+        documents: [
+          "Individual Donations via personal networks",
+          "Crowdfunding Platforms",
+          "Grants from government and international bodies",
+          "Corporate Partnerships and CSR funds",
+          "Events & Campaigns",
+          "Social Media Engagement",
+        ],
+      },
+      {
+        category: "NGO Registration Fees & Timelines",
+        documents: [
+          "Trust: ₹7,299 – 15–20 working days",
+          "Society: ₹7,299 – 20–25 working days",
+          "Section 8 Company: ₹7,299 – 10–14 working days",
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Common Documents for All Types",
+        content:
+          "• ID and address proofs of trustees/members/directors\n• Passport‑size photographs\n• No Objection Certificate from property owner\n• Registered office proof\n• Trust deed / Memorandum of Association / Articles of Association and by‑laws\n• Board resolutions (for Section 8 companies)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Register an NGO – Step‑by‑Step",
+        content:
+          "1. Choose NGO Type: Trust, Society, or Section 8 Company\n2. Select a Unique Name: Not similar to existing NGOs\n3. Draft Key Documents: Trust deed, MoA, AoA, by‑laws\n4. Form Governing Body: Appoint trustees, members, or directors\n5. Gather Documents: ID/address proofs, photos, NOC\n6. Apply to Authority: Registrar of Trusts/Societies/Companies\n7. Receive Certificate: Official NGO status\n8. Apply for Tax Exemptions: Obtain 12A/80G (and FCRA, if needed)",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "NGO Registration Fees",
+        feeTable: [
+          { category: "Trust", amount: "₹7,299" },
+          { category: "Society", amount: "₹7,299" },
+          { category: "Section 8 Company", amount: "₹7,299" },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timelines",
+        description: "Expected duration for each type of registration process.",
+        steps: [
+          {
+            title: "Trust Registration",
+            duration: "15–20 working days",
+            description:
+              "Processing by the Registrar of Trusts, including deed verification and approval.",
+          },
+          {
+            title: "Society Registration",
+            duration: "20–25 working days",
+            description:
+              "Review of memorandum and by‑laws by the Registrar of Societies and issuance of certificate.",
+          },
+          {
+            title: "Section 8 Company Registration",
+            duration: "10–14 working days",
+            description:
+              "Approval of MoA and AoA by ROC, director verification, and certificate issuance.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup.in for NGO Registration?",
+        description: [
+          "Expert Guidance: 200+ experienced consultants nationwide",
+        ],
+        points: [
+          "1,000+ NGOs Registered: Proven expertise",
+          "End‑to‑End Support: From documentation to tax exemption",
+          "Funding Assistance: Help secure grants and CSR funding",
+          "Widest Coverage: Registration services across India",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is an NGO and how do I register?",
+        answer:
+          "An NGO is a non‑profit group registered as a Trust, Society, or Section 8 Company following due legal procedure.",
+      },
+      {
+        question: "Do NGOs get tax benefits?",
+        answer:
+          "Yes, with proper registration and certifications (12A, 80G, and FCRA for foreign funds) donors and the NGO receive exemptions.",
+      },
+      {
+        question: "Do NGOs pay GST?",
+        answer:
+          "GST applies only to certain activities; most charitable operations are exempt.",
+      },
+      {
+        question: "How can NGOs raise funds?",
+        answer:
+          "Through donations, grants, events, CSR partnerships, crowdfunding, and social media campaigns.",
+      },
+      {
+        question: "Is NGO registration mandatory?",
+        answer: "For legal recognition, tax exemption, and fundraising, yes.",
+      },
+    ],
+  },
+
+  "12a-80g-registration": {
+    title: "12A and 80G Registration – Secure Tax Benefits for Your NGO",
+    description:
+      "Looking to maximize your NGO’s impact and unlock tax advantages? DoStartup.in offers end-to-end assistance for 12A and 80G registration in India, helping charitable organizations gain tax exemption and build trust with donors.",
+    overview: [
+      {
+        heading: "Why 12A and 80G Registration Matters",
+        content:
+          "12A Registration grants your NGO income tax exemption, allowing you to devote more resources to charitable activities. 80G Registration empowers your donors to claim tax deductions on their contributions, boosting fundraising potential and credibility.",
+      },
+      {
+        heading: "Who Can Apply for 12A and 80G Registration?",
+        content:
+          "Charitable Trusts, Registered Societies, Section 8 Companies, Educational and Medical Institutions, and Public Religious Organizations are eligible to apply.",
+      },
+      {
+        heading: "Eligibility Criteria",
+        content:
+          "Must be registered as a Trust, Society, or Section 8 Company; must engage solely in charitable or religious activities; all income and funds must be used for public benefit; must maintain regular accounting, audits, and compliance; and for 80G, beneficiaries cannot be restricted by caste or religion.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Benefits of 12A & 80G Registration",
+        documents: [
+          "Tax Exemption: NGOs pay zero income tax on charitable earnings",
+          "Donor Tax Deductions: Donors get up to 50% deduction under 80G",
+          "Improved Credibility: Trusted by donors, partners, and agencies",
+          "Easier Fundraising: More attractive to donors and CSR funds",
+          "Access to Grants: Eligible for government schemes and grants",
+          "Long-term Sustainability: Ensures ongoing funding and support",
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for 12A & 80G Registration",
+        content:
+          "• Trust Deed/Society/Section 8 Registration Certificate\n• Memorandum & Articles of Association (for Section 8 companies)\n• PAN card of NGO\n• Address proof & bank statement\n• List of Trustees/Members/Directors\n• Last 3 years’ audited financial statements (if applicable)\n• Details of activities carried out\n• NOC from property owner (if office is rented)\n• FCRA Registration (if applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "12A & 80G Registration Process (Online)",
+        content:
+          "1. NGO Formation & Registration: Register as a Trust, Society, or Section 8 Company\n2. Document Preparation: Gather all required documents\n3. Application Filling: Complete Form 10A online via the Income Tax portal\n4. Submission: Upload documents and submit Form 10A\n5. Scrutiny & Inspection: Tax authorities may inspect your NGO’s activities\n6. Registration Certificate: Upon approval, receive 12A and 80G certificates\n7. Renewal: Provisional registration valid for 3 years, regular registration for 5 years",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal",
+        description:
+          "12A & 80G provisional registration is valid for 3 years. Regular registration must be renewed every 5 years to continue receiving tax benefits.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup.in?",
+        description: [
+          "Dedicated NGO compliance experts",
+          "Transparent, affordable fee structure",
+          "Seamless, fully guided registration process",
+          "Nationwide support and documentation",
+          "Free consultation for all new users",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is 12A registration and why is it needed?",
+        answer:
+          "12A registration is issued by the Income Tax Department and grants tax exemption to NGOs on income used for charitable purposes.",
+      },
+      {
+        question: "What is 80G registration?",
+        answer:
+          "80G registration allows donors to claim tax deductions on contributions made to your NGO, encouraging greater support.",
+      },
+      {
+        question: "Can an NGO apply for 80G without 12A?",
+        answer:
+          "No, valid 12A registration is mandatory before applying for 80G registration.",
+      },
+      {
+        question: "What is the validity period for 12A and 80G registration?",
+        answer:
+          "Provisional registration is valid for 3 years. Regular registration must be renewed every 5 years.",
+      },
+      {
+        question: "Who is eligible for 12A and 80G registration?",
+        answer:
+          "Charitable Trusts, Societies, and Section 8 Companies that work for public benefit.",
+      },
+      {
+        question: "What documents are required for 12A and 80G registration?",
+        answer:
+          "NGO registration certificate, PAN card, address proof, trust deed or MoA/AoA, bank statement, list of trustees/directors, and audited accounts.",
+      },
+      {
+        question: "How to apply for 12A and 80G registration online?",
+        answer:
+          "Use Form 10A on the Income Tax portal with all required documents.",
+      },
+      {
+        question: "What is the fee for 12A and 80G registration?",
+        answer:
+          "DoStartup.in offers affordable packages. Government fees are standard as per IT Department rules.",
+      },
+      {
+        question: "Is renewal required for 12A and 80G registration?",
+        answer:
+          "Yes, renewal must be done before the expiration of each registration period.",
+      },
+      {
+        question: "Are all donations eligible under 80G?",
+        answer:
+          "Only donations to NGOs with valid 80G registration and compliance under Income Tax law qualify.",
+      },
+    ],
+  },
+
+  "section8-company-registration": {
+    title:
+      "Section 8 Company Registration – Empower Social Impact with Legal Trust",
+    description:
+      "Set your vision on making a difference? Register your Section 8 Company with DoStartup.in for smooth, reliable, and expert‑guided incorporation—built for founders prioritizing social good over profit.",
+    overview: [
+      {
+        heading: "Why Choose Section 8 Company Registration?",
+        content:
+          "A Section 8 Company is a recognized non‑profit entity under the Companies Act, 2013. It’s built to advance charitable objectives—like education, art, science, social welfare, sports, research, or the environment—without distributing profits to its members. All income is used to further your mission.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Benefits",
+        documents: [
+          "Legal Recognition: Eligible for grants, CSR funds, government schemes",
+          "Tax Exemption: Donations qualify for 80G; company enjoys relief under 12A",
+          "Limited Liability: Directors/members liable only up to investment",
+          "Perpetual Existence: Continues despite leadership changes",
+          "Increased Credibility: Trusted by donors, collaborators, authorities",
+          "Access to Funding: Qualifies for domestic and foreign grants",
+        ],
+      },
+      {
+        category: "Who Can Register",
+        documents: [
+          "Minimum two directors/shareholders (at least one Indian resident)",
+          "Individuals, companies, or HUFs with charitable objectives",
+          "Purpose aligned with social welfare, education, research, environment",
+          "Profits must be used strictly for organizational objectives",
+        ],
+      },
+      {
+        category: "Section 8 vs Trust vs Society",
+        documents: [
+          "Legal Framework: Companies Act, 2013 vs Indian Trusts Act, 1882 vs Societies Act, 1860",
+          "Document Needed: MoA & AoA vs Trust Deed vs MoA & Rules/Bylaws",
+          "Governing Body: Board of Directors vs Trustees vs Governing Council",
+          "Minimum Members: 2 Directors/Shareholders vs 2 Trustees vs 7 Members",
+          "Grant Eligibility: High vs Limited vs Limited",
+          "Transparency & Compliance: High vs Low vs Medium",
+        ],
+      },
+      {
+        category: "Fees & Timeline",
+        documents: [
+          "Fees: ₹20,000–₹25,000 (inclusive of DSC, DIN, name approval, govt. fee, documentation)",
+          "Timeline: 15–20 working days (if documents are ready)",
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "PAN & Aadhar of all directors/members; passport‑sized photographs; address proof (utility bill/bank statement); DIN & DSC of directors; MoA & AoA; proof of registered office (rent agreement/ownership proof & NOC); board resolution (if applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Registration Process",
+        content:
+          "1. Name Approval: Get unique company name approved by MCA\n2. Obtain DSC & DIN: Secure Digital Signature Certificates and Director Identification Numbers\n3. Draft MoA & AoA: Define objectives and rules\n4. Apply for License: Submit INC‑12 and documents to obtain Section 8 license\n5. File Incorporation Forms: Complete SPICe+ (INC‑32) for incorporation\n6. Certification: Receive Certificate of Incorporation & CIN\n7. Post‑Incorporation Compliance: Apply for PAN, TAN, 12A, 80G and maintain statutory compliance",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal",
+        description:
+          "Continual compliance required; apply for 12A/80G post‑incorporation and renew licenses as per Income Tax norms.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Register with DoStartup.in?",
+        description: [
+          "10+ years of experience in NGO & startup registrations",
+          "3,500+ expert advisors (CAs, CS, lawyers)",
+          "Coverage across 10,000+ Indian pin codes",
+          "End‑to‑end assistance from documentation to post‑registration compliance",
+          "1 lakh+ happy clients with 4.9/5 satisfaction rating",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Section 8 Company?",
+        answer:
+          "A non‑profit organization under the Companies Act, 2013, established for charitable, social, educational, or similar purposes without profit distribution.",
+      },
+      {
+        question: "Why choose Section 8 over Trust or Society?",
+        answer:
+          "Offers greater credibility, limited liability, eligibility for international grants, and stricter compliance—ideal for large‑scale NGOs.",
+      },
+      {
+        question: "How many directors are required?",
+        answer:
+          "Minimum two directors and two shareholders; one director must be an Indian resident.",
+      },
+      {
+        question: "Can a foreign national be a director?",
+        answer: "Yes, provided there is at least one resident Indian director.",
+      },
+      {
+        question: "Is a registered office address required?",
+        answer:
+          "Yes—valid proof (rent agreement, NOC, utility bill) must be provided.",
+      },
+      {
+        question: "What annual compliances are mandatory?",
+        answer:
+          "Annual filings, board meetings, statutory registers, and financial statements submissions to ROC.",
+      },
+      {
+        question: "Can Section 8 Companies accept foreign donations?",
+        answer: "Yes, after obtaining FCRA registration.",
+      },
+    ],
+  },
+
+  "society-registration-india": {
+    title:
+      "Society Registration in India – Fast, Legal & Reliable with DoStartup.in",
+    description:
+      "Ready to make a social impact? Register your society in India quickly and compliantly with DoStartup.in. We provide expert guidance, complete documentation, and step‑by‑step assistance for society registration—giving your organization the legal foundation to grow.",
+    overview: [
+      {
+        heading: "Why Register a Society?",
+        content:
+          "A registered society enjoys legal recognition, improved credibility, and access to grants or donations. Whether you’re working in education, arts, welfare, science, or culture, society registration is the essential first step for a structured, transparent, and sustainable community organization.",
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Benefits of Society Registration",
+        documents: [
+          "Legal Status: Own assets, enter contracts, take legal action",
+          "Perpetual Existence: Continues despite membership changes",
+          "Limited Liability: Protects members’ personal assets",
+          "Access to Funding: Eligible for government grants, donations, CSR support",
+          "Tax Benefits: Eligible for 12A/80G exemption",
+          "Public Trust: Builds credibility with donors and partners",
+          "Good Governance: Transparent rules and structured decision‑making",
+        ],
+      },
+      {
+        category: "Who Can Register a Society?",
+        documents: [
+          "Minimum 7 members required",
+          "Indian nationals (some states allow limited foreign members)",
+          "Open to individuals, companies, or other registered societies",
+        ],
+      },
+      {
+        category: "Society vs Trust vs Section 8 Company",
+        documents: [
+          "Law: Societies Act, 1860 vs Trusts Act, 1882 vs Companies Act, 2013",
+          "Minimum Members: 7 vs 2 vs 2 Directors",
+          "Document: MoA & Rules vs Trust Deed vs MoA & AoA",
+          "Transparency & Compliance: Medium vs Low vs High",
+          "Grant/CSR Preference: Medium vs Low vs High",
+          "Annual Compliance: Medium vs Low vs High",
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Society Registration",
+        content:
+          "• PAN card of all members\n• Address proof (Aadhaar, utility bill, passport, DL, etc.)\n• Passport‑sized photographs\n• Proof of registered office (rent agreement/NOC/utility bill)\n• Memorandum of Association (MoA) & Rules/Bylaws\n• Covering letter stating the objective\n• List of governing body members with signatures\n• Declaration from President/Secretary",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Process for Society Registration",
+        content:
+          "1. Consultation: Expert assessment of your goals and eligibility.\n2. Name Selection: Choose a unique name, not already registered or trademarked.\n3. Drafting MoA & Rules: Prepare and notarize the society’s constitution.\n4. Documentation: Collect and organize all required papers.\n5. Filing Application: Submit documents to the State Registrar of Societies.\n6. Government Review: Registrar examines application and supporting documents.\n7. Issuance of Certificate: Receive the Society Registration Certificate upon approval.\n8. Post‑Registration Compliance: Open bank account, maintain accounts, file annual returns, and renew as needed.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline",
+        description:
+          "Registration usually takes 30–45 days, depending on state procedures and document readiness.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Register Your Society with DoStartup.in?",
+        description: [
+          "10+ years’ experience in NGO & society registration",
+          "3,500+ expert advisors including CAs, CS, and lawyers",
+          "Nationwide service across 10,000+ pin codes",
+          "Transparent process with real‑time updates and affordable fees",
+          "Free expert consultation for all new clients",
+          "Post‑registration compliance and tax exemption support (12A/80G)",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How many people are needed to form a society in India?",
+        answer:
+          "A minimum of 7 members are required for society registration, all of whom must be Indian citizens.",
+      },
+      {
+        question: "Can family members be part of the same society?",
+        answer:
+          "Yes, family members can be included, but it is recommended to include unrelated persons for better compliance and credibility.",
+      },
+      {
+        question: "Is society registration mandatory?",
+        answer:
+          "Registration is optional but highly recommended. Only registered societies can own property, open a bank account, or take legal action in their name.",
+      },
+      {
+        question: "What is the validity of society registration?",
+        answer:
+          "Registration is generally valid for five years, after which renewal is required (varies by state).",
+      },
+      {
+        question: "Can I register a society online?",
+        answer:
+          "Yes, many states support online registration via their Registrar’s portal. Our team can assist you with the process.",
+      },
+      {
+        question: "What tax benefits does a registered society receive?",
+        answer:
+          "Charitable societies can apply for 12A and 80G registrations for income tax exemption and donor deductions.",
+      },
+      {
+        question: "What documents are needed for registration?",
+        answer:
+          "Key documents include PAN, address proof, member photographs, MoA, rules and regulations, NOC from landlord, and a cover letter.",
+      },
+      {
+        question: "How long does it take to register a society?",
+        answer:
+          "The process typically takes 30–45 days, depending on state procedures and document readiness.",
+      },
+      {
+        question:
+          "Can a society be converted into a trust or Section 8 company?",
+        answer:
+          "No, but you can dissolve a society and transfer assets to a new entity if needed.",
+      },
+      {
+        question: "How do I check the status of my society registration?",
+        answer:
+          "You can check online via the Registrar of Societies’ website using your application or registration number.",
+      },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+  "12ab-registration-india": {
+    title: "12AB Registration in India",
+    description: "Get Tax-Exempt Status for Your NGO or Trust with DoStartup.in. Are you a charitable organization or trust aiming to unlock government and CSR funding, donor trust, and complete income tax exemption? With 12AB Registration (under the Income Tax Act, 1961), your NGO, society, trust, or Section 8 Company can claim a host of benefits, including official recognition, credibility, and financial sustainability.",
+    overview: [
+      {
+        heading: "What is 12AB Registration?",
+        content: "12AB Registration is a mandatory requirement for all charitable and religious institutions in India seeking tax exemption on their income. Introduced by the Finance Act, 2020, 12AB replaced earlier provisions (12A/12AA) to promote better governance, digital record-keeping, and streamlined compliance. All previously registered organizations under Section 12A, 12AA, 10(23C), or 80G must migrate to 12AB to continue their exemptions. New NGOs and charitable trusts must apply for fresh registration directly under Section 12AB."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Why is 12AB Registration Important?",
+        documents: [
+          "Mandatory for Tax Benefits: NGOs/trusts must have 12AB registration to claim income tax exemption.",
+          "Eligibility for 80G Certificate: Only 12AB-registered organizations can offer tax benefits to donors under 80G.",
+          "Essential for CSR & Govt. Funding: Most funders, including CSR and government grants, require 12AB certification.",
+          "Boosts Transparency & Donor Trust: Registration increases organizational credibility and public trust.",
+          "Facilitates Digital Records: Promotes an electronic, government-accessible database for compliance and transparency."
         ]
+      },
+      {
+        category: "Who Needs 12AB Registration?",
+        documents: [
+          "A Trust (Public or Private) operating for charitable or religious purposes",
+          "A Registered Society under the Societies Registration Act, 1860",
+          "A Section 8 Company under the Companies Act, 2013",
+          "Any NGO previously registered under 12A, 12AA, 80G, or 10(23C)",
+          "Any new charitable or religious institution seeking tax exemption"
+        ]
+      },
+      {
+        category: "Eligibility Criteria",
+        documents: [
+          "Registered as a Trust, Society, or Section 8 Company",
+          "Has defined charitable, religious, or social welfare objectives",
+          "Complies with all applicable laws (e.g., Societies Act, Trusts Act, Companies Act)",
+          "Maintains proper books of accounts and transparency in operations",
+          "Not involved in profit-sharing or personal benefit to members"
+        ]
+      },
+      {
+        category: "Features & Benefits of 12AB Registration",
+        documents: [
+          "Full Tax Exemption: Exempt income from charitable/religious activities from tax under Sections 10 & 11",
+          "Donor Confidence: Only 12AB-registered entities can offer 80G deduction to donors",
+          "Access to Funding: Unlock government schemes, international grants, and CSR funding",
+          "Credibility: Boosts trust with donors, beneficiaries, and authorities",
+          "Efficient Compliance: Easy renewals and reporting through a digital government system"
+        ]
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for 12AB Registration",
+        content: "• Certificate of Incorporation / Trust Deed / Registration Certificate\n• PAN Card of the organization\n• Address proof of registered office\n• Trust/Society/Board Resolution\n• List of Trustees/Directors/Board Members with ID & address proofs\n• Annual Activity Reports for past 2 years or since inception\n• Audited financials for last 3 years (if available)\n• Details of welfare activities and projects\n• Donor list (if applicable)\n• Proof of welfare activity or social impact"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "12AB Registration Process – Step by Step",
+        content: "1. Preparation: Gather all required documents and financial records.\n2. Online Application: Login to Income Tax e-filing portal and submit Form 10A.\n3. Upload Documents: Attach scanned copies of supporting documents.\n4. Application Review: By the Principal Commissioner or Commissioner of Income Tax.\n5. Clarifications: Respond to any department queries.\n6. Field Visit (if needed): Department may inspect premises in rare cases.\n7. Approval: Receive your 12AB Registration Certificate (5 years regular / 3 years provisional).\n8. Renewal: Apply at least 6 months before expiry."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity of 12AB Registration",
+        description: "Standard Registration: 5 years (renewable)\nProvisional Registration: 3 years (for new NGOs)\nRenewal is mandatory before 6 months of expiry"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup.in for 12AB Registration?",
+        description: [
+          "Expert Guidance: 10+ years’ experience, 3500+ CA/CS/Lawyer experts",
+          "Full Support: End-to-end assistance—from eligibility check to approval",
+          "Fast Turnaround: Streamlined process and expert documentation",
+          "Affordable Pricing: Transparent fees with no hidden charges",
+          "Trusted by 1 Lakh+ NGOs: Proven success with pan-India presence"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is 12AB registration, and who should apply?",
+        answer: "12AB registration is mandatory for all charitable trusts, societies, and NGOs wishing to claim income tax exemption. Both new and previously registered organizations under 12A/12AA/80G/10(23C) must apply."
+      },
+      {
+        question: "How do I apply for 12AB registration?",
+        answer: "Apply online by filling Form 10A on the Income Tax portal and uploading all required documents."
+      },
+      {
+        question: "What is the validity period for 12AB registration?",
+        answer: "Regular registration is valid for 5 years; provisional registration for new organizations is valid for 3 years."
+      },
+      {
+        question: "Can an NGO hold 12AA and 12AB certificates at the same time?",
+        answer: "No. 12AB supersedes 12AA. All previous certificates must be renewed under the new 12AB regime."
+      },
+      {
+        question: "What if my 12AB registration expires or is cancelled?",
+        answer: "Your organization will lose its tax-exempt status and become ineligible for related benefits. Renewal or re-application is required to restore status."
+      },
+      {
+        question: "What documents are needed for the application?",
+        answer: "Trust deed, registration certificate, PAN, address proof, activity and financial reports, board resolution, and ID/address proof for all board members."
+      },
+      {
+        question: "Is the process for 12AB registration manual or online?",
+        answer: "It is entirely online through the official Income Tax India e-filing portal."
+      },
+      {
+        question: "How long does the process take?",
+        answer: "Generally, approval is issued within 3 months of complete application submission."
+      },
+      {
+        question: "Can I apply for 80G registration together with 12AB?",
+        answer: "Yes, both can be applied for simultaneously via the online portal."
+      },
+      {
+        question: "What is the difference between provisional and regular 12AB registration?",
+        answer: "Provisional registration (3 years) is for new organizations yet to start full activities; regular registration (5 years) is for established NGOs with proven track record."
+      }
+    ]
+  },
+
+  "design-registration-renewal-restoration": {
+    title: "Design Registration Renewal & Restoration Services",
+    description: "Protect your industrial designs and maintain your market edge with professional Design Registration Renewal and Restoration services from DoStartup.in. Our experienced team ensures your designs stay secure, helping you avoid loss of rights and prevent unauthorized use by competitors.",
+    overview: [
+      {
+        heading: "Why Renew or Restore Your Design Registration?",
+        content: "In the fast-paced business world, securing your industrial designs isn’t just an option—it’s essential for long-term growth and innovation. Whether it’s the unique shape, pattern, or visual appearance of your products, registered design rights empower you to stop others from copying or misusing your original work. Renewal and restoration ensure your rights stay protected and your business retains its competitive advantage."
+      },
+      {
+        heading: "Legal Framework",
+        content: "Design registration in India is governed by the Designs Act, 2000 and its rules. The law provides the basis for renewal and restoration eligibility for two-dimensional, three-dimensional, or combined feature designs."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Key Benefits of Design Registration Renewal & Restoration",
+        documents: [
+          "Continuous Legal Protection: Keeps your design protected from infringement for as long as possible.",
+          "Safeguard Against Loss of Rights: Avoid forfeiting your exclusive design rights due to missed deadlines.",
+          "Enhanced IP Value: Maintains and even increases the valuation of your intellectual property.",
+          "Cost-Effective Process: Renewal is much less expensive than registering a completely new design.",
+          "Restoration Option: If a registration lapses, you can restore it within six months and reclaim your rights."
+        ]
+      },
+      {
+        category: "Eligibility & Pre-Requisites",
+        documents: [
+          "Hold a registered design that is still within the renewal or restoration window.",
+          "Ensure the design is original and not previously published.",
+          "Confirm the design is not offensive or contrary to public order.",
+          "Have documentation showing prior registration and proof of ownership.",
+          "File for restoration within six months from expiry if missed the renewal deadline."
+        ]
+      },
+      {
+        category: "Cancellation of Registration",
+        documents: [
+          "Failure to pay renewal fees",
+          "Non-use for over five years",
+          "Invalidity (if found to be previously published or lacking novelty)"
+        ]
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Needed",
+        content: "• Prescribed renewal or restoration application forms\n• Copy of the registered design certificate\n• Representation of the design (clear images/drawings)\n• Statement of novelty and originality\n• Power of Attorney (if using an agent)\n• Priority document (for foreign applicants)"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Process",
+        content: "1. Assessment & Planning: Review existing registration and strategize renewal/restoration.\n2. Application Preparation: Complete and verify all necessary forms and documents.\n3. Submission & Authority Follow-Up: File with the government office and track status.\n4. Completion & Confirmation: Receive confirmation of renewal/restoration."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity Period",
+        description: "A design registration in India is valid for 10 years from the date of filing, with the option to renew once for an additional 5 years. Timely renewal is essential."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup.in?",
+        description: [
+          "End-to-End Expertise: Complete support from assessment to submission and follow-up.",
+          "Proactive Alerts: Timely reminders so you never miss renewal deadlines.",
+          "Transparent Pricing: No hidden costs—only genuine professional service.",
+          "Seasoned Advisors: Access to IP experts, CAs, and legal consultants nationwide."
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is design registration renewal?",
+        answer: "It’s the process of extending the legal protection of a registered design by paying the renewal fee before expiry."
+      },
+      {
+        question: "How long is a design registration valid in India?",
+        answer: "The initial validity is 10 years, extendable by another 5 years upon renewal."
+      },
+      {
+        question: "What is design restoration?",
+        answer: "Restoration allows you to revive a lapsed design registration by applying within six months of its expiry."
+      },
+      {
+        question: "What documents are needed for renewal or restoration?",
+        answer: "The registration certificate, design representations, filled application forms, and supporting statements."
+      },
+      {
+        question: "Is there a penalty for late renewal?",
+        answer: "Late renewal isn’t allowed, but you can apply for restoration within six months with an additional fee."
+      },
+      {
+        question: "Can a restored design be challenged?",
+        answer: "Yes, restored designs may be subject to objections if eligibility conditions are not met."
+      },
+      {
+        question: "Is the renewal process online?",
+        answer: "Most filings can be completed online through the official intellectual property portal."
+      },
+      {
+        question: "Can a design registration be modified?",
+        answer: "No, material modifications are not allowed. For changes, a fresh registration is needed."
+      },
+      {
+        question: "Can I transfer ownership during renewal?",
+        answer: "Yes, ownership can be updated during the renewal or restoration process, subject to legal documentation."
+      },
+      {
+        question: "What happens if I miss both renewal and restoration deadlines?",
+        answer: "You lose all rights to the design and must file for a new registration."
+      },
+      {
+        question: "Is a lawyer required for renewal/restoration?",
+        answer: "Not mandatory, but professional assistance ensures a smooth, error-free process."
+      },
+      {
+        question: "Why should I renew my design registration?",
+        answer: "Renewing maintains exclusive rights, enhances your business value, and prevents competitors from exploiting your design."
       }
     ]
   }
   
   
-  
-  
-  
-
-
-
-
-
 };

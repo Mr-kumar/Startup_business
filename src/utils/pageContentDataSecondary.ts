@@ -23,10 +23,6 @@ export type PageContentType = {
     heading: string;
     paragraphs: string[];
   };
-  foSCOS?: {
-    heading: string;
-    paragraphs: string[];
-  };
   faqs: { question: string; answer: string }[];
   types: {
     cards: { title: string; shortText: string; backText: string }[];
@@ -11606,4 +11602,1550 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
+
+  "fcra-registration": {
+    overview: {
+      heading: "FCRA Registration – Open Your NGO to Global Funding",
+      paragraphs: [
+        "FCRA stands for the Foreign Contribution Regulation Act. It governs Indian NGOs, trusts, societies, and Section 8 companies that wish to receive foreign donations.",
+        "FCRA registration is issued by the Ministry of Home Affairs and ensures transparency, accountability, and national security when accepting overseas contributions.",
+        "With DoStartup’s end‑to‑end support, you can unlock international funding, boost credibility, and stay fully compliant with Indian law."
+      ]
+    },
+    services:[],
+    features: [
+      {
+        icon: "🌐",
+        title: "Legal Access to Foreign Funds",
+        description: "Accept overseas donations for charitable, social, educational, cultural, or religious activities."
+      },
+      {
+        icon: "🏆",
+        title: "Global Recognition",
+        description: "Build trust with international donors and funding agencies."
+      },
+      {
+        icon: "💸",
+        title: "Tax Exemptions",
+        description: "Eligible for 12A and 80G benefits on foreign contributions."
+      },
+      {
+        icon: "📈",
+        title: "Sustained Growth",
+        description: "Secure long‑term foreign funding to scale up your projects."
+      },
+      {
+        icon: "🎖️",
+        title: "Government Grant Eligibility",
+        description: "Access certain Indian government schemes that require FCRA status."
+      }
+    ],
+    benefits: [
+      {
+        title: "Enhanced Credibility",
+        description: "FCRA status signals strong governance and financial probity."
+      },
+      {
+        title: "Broader Donor Base",
+        description: "Tap into global foundations, corporates, and individual philanthropists."
+      },
+      {
+        title: "Regulatory Compliance",
+        description: "Meets stringent MHA norms for foreign fund utilization."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Assess Eligibility",
+          desc: "Verify 3‑year track record, ₹15 lakhs core spending, 12A registration, and clean legal record."
+        },
+        {
+          title: "Prepare Documents",
+          desc: "Gather registration certificate, MoA/Trust Deed, activity reports, audited accounts, IDs, affidavits, and bank details."
+        },
+        {
+          title: "Online Application",
+          desc: "Register and submit Form FC‑3A/FC‑3B at fcraonline.nic.in, upload PDFs, and pay the fee."
+        },
+        {
+          title: "Verification & Review",
+          desc: "MHA examines your submission and may request clarifications."
+        },
+        {
+          title: "Certificate Issuance",
+          desc: "Receive your FCRA license—Permanent (5 years) or Prior Permission for specific projects."
+        }
+      ],
+      violations: [
+        "Accepting foreign funds without FCRA registration.",
+        "Using funds for unapproved purposes.",
+        "Failure to maintain FCRA‑designated bank account.",
+        "Non‑submission of annual FC‑4 returns."
+      ],
+      consequences: [
+        "Suspension or cancellation of FCRA license.",
+        "Seizure of foreign contributions and assets.",
+        "Monetary penalties and legal prosecution."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Organizational Criteria",
+        items: [
+          "Registered under Societies/Trusts/Section 8 Company Acts",
+          "Minimum 3 years of proven social work",
+          "At least ₹15 lakhs spent on core activities over past 3 years"
+        ]
+      },
+      {
+        heading: "Regulatory Requirements",
+        items: [
+          "12A income‑tax registration",
+          "Dedicated FCRA bank account at SBI New Delhi",
+          "No involvement in prohibited activities or benami arrangements"
+        ]
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Permanent Registration",
+          shortText: "Valid for 5 years, renewable",
+          backText: "For NGOs active ≥3 years with strong track records."
+        },
+        {
+          title: "Prior Permission",
+          shortText: "Project‑specific approval",
+          backText: "For one‑time or short‑term foreign funding needs."
+        }
+      ],
+      roleBenefits: [
+        "NGO Leadership: Stable access to global grants.",
+        "Finance Teams: Simplified accounting and audit processes.",
+        "Program Managers: Predictable funding for project planning."
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Permanent Registration", "Prior Permission"],
+        rows: [
+          ["Validity", "5 years (renewable)", "Duration of approved project"],
+          ["Eligibility", "≥3 years’ work + ₹15 L core spend", "Any registered NGO/project"],
+          ["Renewal", "Required every 5 years", "Not applicable"],
+          ["Use Cases", "Ongoing programs", "Specific initiatives"]
+        ]
+      },
+      timelineFees: [
+        "Application processing: 2–3 months",
+        "Permanent registration fee: ₹10,000",
+        "Prior permission fee: ₹10,000",
+        "Renewal fee: ₹10,000",
+        "Professional services from DoStartup: bespoke pricing"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is FCRA registration?",
+        answer: "Legal approval from MHA allowing Indian NGOs to accept and use foreign contributions."
+      },
+      {
+        question: "Who is eligible to apply?",
+        answer: "NGOs, trusts, societies, Section 8 companies with ≥3 years’ activity and ₹15 L core spend."
+      },
+      {
+        question: "What bank account is mandatory?",
+        answer: "A dedicated FCRA account at SBI, New Delhi Main Branch."
+      },
+      {
+        question: "How long is the certificate valid?",
+        answer: "Permanent registration: 5 years; Prior Permission: for the project’s duration."
+      },
+      {
+        question: "What returns must be filed?",
+        answer: "Annual Form FC‑4 within 6 months of financial year‑end."
+      },
+      {
+        question: "What if we miss renewal?",
+        answer: "Your FCRA license may be suspended or canceled; re‑apply as per MHA rules."
+      },
+      {
+        question: "Can political parties register?",
+        answer: "No—political entities and certain individuals are barred under FCRA."
+      },
+      {
+        question: "Is professional help needed?",
+        answer: "While optional, expert guidance from DoStartup ensures faster, error‑free approval."
+      }
+    ]
+  },
+
+
+  "12aa-registration": {
+    overview: {
+      heading: "12AA Registration in India – Your Gateway to Tax Exemption for NGOs",
+      paragraphs: [
+        "Is documentation complexity slowing down your 12AA registration? DoStartup.in simplifies the process! Our experts guide you from paperwork to approval—minimizing errors, avoiding rejections, and ensuring timely certification.",
+        "12AA Registration (now 12AB) under the Income Tax Act, 1961, is essential for trusts, societies, and non-profit organizations to secure income tax exemption.",
+        "With 12AA registration, your organization can maximize resources, attract more donations, and build credibility—while fulfilling all compliance requirements set by Indian law."
+      ]
+    },
+    features: [
+      {
+        icon: "📜",
+        title: "Tax Exemption",
+        description: "Enjoy full exemption on income earned from charitable or religious activities."
+      },
+      {
+        icon: "🎁",
+        title: "Encourage Donations",
+        description: "Donors get tax benefits, motivating more contributions and boosting fundraising."
+      },
+      {
+        icon: "🌍",
+        title: "Access to Foreign Funding",
+        description: "Eligible for FCRA registration to receive legal foreign donations."
+      },
+      {
+        icon: "✅",
+        title: "Credibility & Transparency",
+        description: "Undergoes government scrutiny, boosting donor and stakeholder trust."
+      },
+      {
+        icon: "🏛️",
+        title: "Government Grants Eligibility",
+        description: "Registered NGOs can access public funds and benefit from official schemes."
+      },
+      {
+        icon: "👩‍⚕️",
+        title: "Recruitment Advantage",
+        description: "Tax-exempt status helps attract qualified professionals for impactful growth."
+      }
+    ],
+    benefits: [
+      {
+        title: "Tax-Free Income",
+        description: "Income applied toward charitable activities is fully exempt from tax."
+      },
+      {
+        title: "Enhanced Donor Confidence",
+        description: "Donors are more likely to contribute when assured of tax benefits."
+      },
+      {
+        title: "Foreign Contributions Access",
+        description: "Helps NGOs become eligible for FCRA registration."
+      },
+      {
+        title: "Compliance with Law",
+        description: "Ensures adherence to regulatory norms and builds long-term sustainability."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Document Preparation",
+          desc: "Gather all required documents and prepare audited accounts."
+        },
+        {
+          title: "Application Filing",
+          desc: "Fill out and submit Form 10A with supporting paperwork to the Income Tax Department."
+        },
+        {
+          title: "Verification",
+          desc: "Authorities review documents and may seek clarifications or schedule a field visit."
+        },
+        {
+          title: "Approval & Certificate Issuance",
+          desc: "Upon satisfaction, the Commissioner grants 12AA registration and issues a certificate."
+        },
+        {
+          title: "Ongoing Compliance",
+          desc: "Maintain records and file annual returns to retain tax-exempt status."
+        }
+      ],
+      violations: [
+        "Misuse of funds or deviation from charitable objectives.",
+        "Non-compliance with annual filing requirements.",
+        "Failure to maintain proper books and records.",
+        "Use of income for non-charitable purposes.",
+        "Fraudulent or misleading representation in application."
+      ],
+      consequences: [
+        "Cancellation of 12AA registration by the Income Tax Department.",
+        "Loss of tax-exempt status for the organization.",
+        "Taxation of all income at applicable rates.",
+        "Ineligibility for donor tax deductions.",
+        "Disqualification from foreign funding and government schemes."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for 12AA Registration",
+        items: [
+          "Entity must be a registered trust, society, or Section 8 company.",
+          "Primary objective should be charitable or religious in nature.",
+          "Must provide a clear mission and comply with legal requirements.",
+          "Proof of activities and proper financial records are necessary."
+        ]
+      },
+      {
+        heading: "Types of Eligible Entities",
+        items: [
+          "Charitable Trusts (public or private)",
+          "Registered Societies",
+          "Section 8 Companies",
+          "NGOs",
+          "Cooperative Societies (with charitable purpose)"
+        ]
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Trust Deed (for trusts) / MoA (for societies) / MoA & AoA (for Section 8 companies)",
+          "PAN card of the organization",
+          "Address proof (utility bill, bank statement)",
+          "Audited financials for the past 3 years (if applicable)",
+          "Details of activities conducted",
+          "List of trustees/directors/members",
+          "Income & expenditure statements"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "End-to-End Documentation",
+        desc: "Assistance in preparing, verifying, and compiling necessary documents."
+      },
+      {
+        title: "Form Filing & Submission",
+        desc: "Expert filing of Form 10A with the Income Tax Department."
+      },
+      {
+        title: "Post-Registration Support",
+        desc: "Ongoing compliance and filing guidance after registration."
+      },
+      {
+        title: "Error-Free Filing",
+        desc: "Minimize risk of rejection by ensuring accurate submissions."
+      },
+      {
+        title: "Legal Advisory",
+        desc: "Expert consultation on 12AA legal provisions and updates."
+      },
+      {
+        title: "Transparent Pricing",
+        desc: "Affordable service fees with no hidden costs."
+      },
+      {
+        title: "Dedicated Customer Support",
+        desc: "Support team available for queries and follow-up."
+      },
+      {
+        title: "Expert Network",
+        desc: "Access to 3500+ legal and tax advisors across India."
+      },
+      {
+        title: "Trusted by NGOs",
+        desc: "Trusted by 98% of NGOs and 50+ DoStartup branch offices nationwide."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is the validity of a 12AA certificate?",
+        answer: "The 12AA registration is valid for the organization’s lifetime but must be renewed as per latest guidelines and can be canceled for non-compliance."
+      },
+      {
+        question: "Which organizations are eligible for 12AA registration?",
+        answer: "Registered trusts, societies, Section 8 companies, and NGOs involved in charitable or religious activities."
+      },
+      {
+        question: "How do I obtain a 12AA certificate?",
+        answer: "Submit Form 10A online with required documents to the Income Tax Department; after verification and approval, you’ll receive the certificate."
+      },
+      {
+        question: "What is the difference between 12A and 12AA registration?",
+        answer: "12A refers to initial eligibility for tax exemption; 12AA is the procedural step granting official registration after compliance and verification."
+      },
+      {
+        question: "What is Form 10A?",
+        answer: "Form 10A is the application form for 12AA/12AB registration, submitted online with supporting documents."
+      },
+      {
+        question: "What records are needed for 12AA registration?",
+        answer: "Trust deed or MoA, PAN, audited accounts, activity details, member list, and address proof."
+      },
+      {
+        question: "What is the tax exemption limit under 12AA?",
+        answer: "All income applied to charitable or religious purposes is exempt, but income used for non-charitable purposes is taxable."
+      },
+      {
+        question: "What happens if a trust does not register under 12A/12AA?",
+        answer: "Without 12AA, any surplus income of the trust or NGO becomes fully taxable."
+      },
+      {
+        question: "Who requires a 12AA certificate for a trust or NGO?",
+        answer: "Any trust, society, or Section 8 company seeking to claim tax exemption on income from donations or activities."
+      },
+      {
+        question: "Can 12AA registration be canceled?",
+        answer: "Yes, the certificate can be canceled for violation of objectives, misuse of funds, or non-compliance with regulatory requirements."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Incomplete Documentation",
+          shortText: "Avoid missing documents.",
+          backText: "Ensure trust deed, financials, and member details are all in order."
+        },
+        {
+          title: "Wrong Form Selection",
+          shortText: "Use Form 10A.",
+          backText: "Incorrect form usage can delay or reject application."
+        },
+        {
+          title: "Non-Compliance Post Approval",
+          shortText: "Maintain compliance.",
+          backText: "File annual returns and maintain proper records post-registration."
+        },
+        {
+          title: "Activity Mismatch",
+          shortText: "Ensure alignment with objectives.",
+          backText: "Only charitable/religious activities qualify under 12AA."
+        }
+      ],
+      roleBenefits: [
+        "Helps secure legal tax exemption.",
+        "Encourages donations through donor benefits.",
+        "Enables eligibility for foreign contributions.",
+        "Builds trust among stakeholders and donors.",
+        "Facilitates participation in government schemes and grants."
+      ],
+      differenceTable: {
+        columns: ["Serial Number", "12AA Registration", "Non-Registered Entity"],
+        rows: [
+          ["1", "Tax-exempt on eligible income", "Taxed on all income"],
+          ["2", "Eligible for FCRA and government grants", "Not eligible for foreign or public funding"],
+          ["3", "Enhanced trust among donors", "Less credible in fundraising"],
+          ["4", "Donor tax deductions allowed", "No tax benefit for donors"],
+          ["5", "Formal compliance and reporting", "No structured reporting obligations"]
+        ]
+      },
+      timelineFees: [
+        "Approval timeline: 2-3 months (depending on case complexity).",
+        "Form 10A must be filed online with attachments.",
+        "No government fees for filing Form 10A.",
+        "Service charges vary by provider and documentation status.",
+        "Fees influenced by number of documents and legal consultation needed."
+      ]
+    }
+  },
+
+
+
+  "trust-registration": {
+    overview: {
+      heading: "Trust Registration in India – Fast, Reliable, and Compliant",
+      paragraphs: [
+        "Ready to make a lasting impact through charity, education, or social welfare? DoStartup.in offers expert guidance for hassle-free trust registration anywhere in India.",
+        "1000+ trusts registered | Rs 2500+ crore assets managed | 3500+ experts nationwide",
+        "Trust registration is the process of legally creating a trust—a special entity formed to manage assets for charitable, religious, or private purposes—under the Indian Trusts Act, 1882. A trust deed outlines the mission, powers, and roles of trustees and beneficiaries, setting a transparent framework for managing property and donations."
+      ]
+    },
+    features: [
+      {
+        icon: "🏛️",
+        title: "Legal Status & Asset Protection",
+        description: "Registered trusts enjoy legal recognition, making it easy to own assets, open bank accounts, and enter contracts."
+      },
+      {
+        icon: "📜",
+        title: "Tax Benefits",
+        description: "Access tax exemptions under Section 12A & 80G of the Income Tax Act."
+      },
+      {
+        icon: "🤝",
+        title: "Trust & Transparency",
+        description: "Registration builds donor confidence, attracts grants, and ensures smooth compliance."
+      },
+      {
+        icon: "💼",
+        title: "Efficient Asset Management",
+        description: "Simplifies family inheritance, wealth planning, and charitable distribution."
+      },
+      {
+        icon: "🛡️",
+        title: "Safeguard Interests",
+        description: "Shields trustees and beneficiaries against future disputes or claims."
+      }
+    ],
+    benefits: [
+      {
+        title: "Legal Recognition",
+        description: "Registered trusts are legal entities with formal rights to own and manage assets."
+      },
+      {
+        title: "Tax Exemptions",
+        description: "Eligibility for Section 12A and 80G exemptions boosts savings and donor confidence."
+      },
+      {
+        title: "Dispute Prevention",
+        description: "Structured framework prevents internal conflicts among trustees or beneficiaries."
+      },
+      {
+        title: "Funding Access",
+        description: "Eligible to receive government grants and corporate donations (CSR)."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Draft the Trust Deed",
+          desc: "Include objectives, details of trustees/beneficiaries, and operational clauses."
+        },
+        {
+          title: "Collect All Documents",
+          desc: "Gather IDs, address proofs, and property documents."
+        },
+        {
+          title: "Apply Online",
+          desc: "Submit application and upload documents via the state/national registration portal."
+        },
+        {
+          title: "Pay the Registration Fee",
+          desc: "As applicable in your state."
+        },
+        {
+          title: "Verification",
+          desc: "Registrar reviews documents and may request clarifications."
+        },
+        {
+          title: "Get Certificate",
+          desc: "On approval, you’ll receive a legal trust registration certificate."
+        }
+      ],
+      violations: [
+        "Using trust property for personal benefit.",
+        "Operating outside the objectives of the trust deed.",
+        "Non-maintenance of proper financial records.",
+        "Failure to comply with tax filing requirements.",
+        "Disputes among trustees affecting operations."
+      ],
+      consequences: [
+        "Loss of tax-exempt status under 12A/80G.",
+        "Trust registration can be revoked by authorities.",
+        "Ineligibility for government and CSR funding.",
+        "Legal liability of trustees in case of fraud.",
+        "Court intervention or dissolution of trust."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Trust Registration",
+        items: [
+          "Minimum 2 trustees required (no upper limit).",
+          "Purpose must be charitable, religious, or for defined beneficiaries.",
+          "Must create a Trust Deed on appropriate stamp paper.",
+          "Name must comply with the Emblems & Names Act and not infringe trademarks.",
+          "Settlor and trustees must be legally competent adults (18+)."
+        ]
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Trust Deed (on stamp paper of prescribed value)",
+          "Passport-sized photos of settlor and trustees",
+          "PAN cards and ID proof (Aadhaar, Voter ID, Passport, DL)",
+          "Address proof (utility bill, bank statement)",
+          "NOC from property owner (if required)",
+          "Details of trust’s registered office"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Trust Deed Drafting",
+        desc: "Professionally crafted deeds tailored to your purpose and structure."
+      },
+      {
+        title: "Online Registration Support",
+        desc: "Assistance with portal filing and state-specific procedures."
+      },
+      {
+        title: "PAN & Compliance Filing",
+        desc: "Help with PAN application, 12A, and 80G registration."
+      },
+      {
+        title: "Expert Legal Advice",
+        desc: "Consultation on legal structuring, trustee roles, and asset protection."
+      },
+      {
+        title: "Affordable Pricing",
+        desc: "No hidden costs. Transparent packages for every budget."
+      },
+      {
+        title: "Nationwide Assistance",
+        desc: "Available across India with localized legal expertise."
+      },
+      {
+        title: "Post-Registration Compliance",
+        desc: "Filing, audits, and ITR assistance to keep you compliant."
+      },
+      {
+        title: "Dedicated Support",
+        desc: "24/7 helpdesk and status tracking for your application."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a trust?",
+        answer: "A trust is a legal entity where trustees manage assets or property for the benefit of beneficiaries, guided by the terms of a trust deed."
+      },
+      {
+        question: "Who can register a trust in India?",
+        answer: "Any Indian citizen (18+), or group of adults, can create a trust for charitable, religious, or private purposes."
+      },
+      {
+        question: "What are the tax benefits of trust registration?",
+        answer: "Registered charitable trusts can apply for Section 12A and 80G to get tax exemptions and enable donors to claim tax deductions."
+      },
+      {
+        question: "How many trustees are required to form a trust?",
+        answer: "A minimum of two trustees is required; there’s no maximum limit."
+      },
+      {
+        question: "What documents are needed for trust registration?",
+        answer: "Trust deed, photos, PAN & ID proof, address proof, NOC (if property is rented), and proof of registered office."
+      },
+      {
+        question: "Can NRIs or foreign nationals create a trust in India?",
+        answer: "Yes, NRIs and foreign nationals can be trustees, subject to legal guidelines."
+      },
+      {
+        question: "Can a trust operate in multiple states?",
+        answer: "Yes, a trust registered in one state can carry out activities across India, provided the trust deed permits."
+      },
+      {
+        question: "What is the difference between a trustee and a beneficiary?",
+        answer: "Trustees manage and administer the trust’s assets; beneficiaries receive the benefits from the trust."
+      },
+      {
+        question: "Can a trust be dissolved or cancelled?",
+        answer: "Yes, trusts can be dissolved for violation of deed, completion of purpose, mutual agreement, or by court order."
+      },
+      {
+        question: "Is trust registration mandatory in India?",
+        answer: "Registration is not compulsory for all trusts but is highly recommended for legal protection, asset ownership, and tax benefits."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Public Trust",
+          shortText: "Charitable or religious purpose",
+          backText: "Created for public benefit; eligible for tax exemptions and grants."
+        },
+        {
+          title: "Private Trust",
+          shortText: "For family/inheritance",
+          backText: "Formed to manage assets for specific individuals or families."
+        },
+        {
+          title: "Revocable/Irrevocable Trusts",
+          shortText: "Flexible or permanent",
+          backText: "Revocable trusts can be modified; irrevocable ones are fixed post-creation."
+        },
+        {
+          title: "Fixed/Living Trusts",
+          shortText: "Specific or lifetime-based",
+          backText: "Fixed trusts allocate fixed shares; living trusts are active during settlor’s life."
+        }
+      ],
+      roleBenefits: [
+        "Ensures smooth inheritance and asset transfer",
+        "Provides tax planning for high-value estates",
+        "Enables structured charity and philanthropy",
+        "Protects family wealth from legal claims",
+        "Grants access to CSR, NGO, and donor funding"
+      ],
+      differenceTable: {
+        columns: ["Serial Number", "Registered Trust", "Unregistered Trust"],
+        rows: [
+          ["1", "Legal recognition with asset ownership", "No legal status for ownership"],
+          ["2", "Eligible for tax benefits", "Not eligible for exemptions"],
+          ["3", "Trust deed is legally enforceable", "Trust deed holds no legal weight"],
+          ["4", "Can open bank accounts and receive grants", "Restricted access to funding"],
+          ["5", "Higher transparency and credibility", "Low donor confidence and compliance issues"]
+        ]
+      },
+      timelineFees: [
+        "Processing time: 4–8 weeks depending on registrar and location.",
+        "Stamp duty cost depends on state regulations (Rs 500 – Rs 1000 typical).",
+        "Government registration fee: state-specific (Rs 1000 – Rs 3000).",
+        "DoStartup service charges start from Rs 4999 (inclusive of consultation and filing).",
+        "Post-registration: PAN, 12A, and 80G filing may involve additional fees."
+      ]
+    }
+  },
+
+
+
+
+
+
+
+  "trust-annual-compliance": {
+    overview: {
+      heading: "Simplify Your Trust’s Annual Compliance – Accurate, Timely, and Hassle-Free Solutions",
+      paragraphs: [
+        "Struggling to keep up with annual compliance for your trust? DoStartup.in’s team of expert advisors and CAs streamline the process, ensuring that your trust stays fully compliant with Indian legal requirements—helping you avoid penalties and build long-term credibility.",
+        "Efficient Turnaround: 10X faster compliance solutions for over 1,000+ trusts, including those registered under Section 80G.",
+        "Pan-India Support: 50+ offices, 3,500+ compliance experts.",
+        "Google & Trustpilot 5-Star Rated.",
+        "43,000+ Happy Clients.",
+        "Free Consultation & Personalized Compliance Plans."
+      ]
+    },
+    features: [
+      {
+        icon: "✅",
+        title: "Legal Protection",
+        description: "Avoids penalties, cancellation, or legal action by staying up-to-date with statutory filings."
+      },
+      {
+        icon: "💸",
+        title: "Tax Benefits",
+        description: "Maintains eligibility for tax exemptions under Section 12A/12AB and 80G of the Income Tax Act."
+      },
+      {
+        icon: "📈",
+        title: "Enhanced Credibility",
+        description: "Builds confidence with donors, partners, and financial institutions."
+      },
+      {
+        icon: "📊",
+        title: "Smooth Operations",
+        description: "Ensures financial discipline, regular audits, and transparency in all trust activities."
+      },
+      {
+        icon: "🏛️",
+        title: "Access to Funding",
+        description: "Keeps your trust eligible for government grants and CSR funding."
+      },
+      {
+        icon: "🤝",
+        title: "Beneficiary Satisfaction",
+        description: "Promotes trustworthiness and organizational accountability."
+      }
+    ],
+    benefits: [
+      {
+        title: "Avoid Legal Complications",
+        description: "Stay protected from penalties, cancellation of registration, and scrutiny by regulatory bodies."
+      },
+      {
+        title: "Ensure Funding Eligibility",
+        description: "Remain eligible for government schemes, CSR funds, and foreign contributions."
+      },
+      {
+        title: "Retain Tax-Exempt Status",
+        description: "Maintain your 12A, 12AB, and 80G registrations through timely filings."
+      },
+      {
+        title: "Boost Donor Confidence",
+        description: "Transparent and compliant organizations are more attractive to donors."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Collect & Organize Documents",
+          desc: "Gather trust deed, PAN, audited accounts, list of trustees, and relevant certificates."
+        },
+        {
+          title: "Accounting & Bookkeeping",
+          desc: "Update financial transactions, ledgers, and receipts."
+        },
+        {
+          title: "Statutory Audit",
+          desc: "Appoint a Chartered Accountant for annual audit if required."
+        },
+        {
+          title: "File ITR-7",
+          desc: "Submit ITR-7 along with the audit report (Form 10B) to the Income Tax Department."
+        },
+        {
+          title: "File TDS and GST Returns",
+          desc: "Submit quarterly/annual returns as applicable and issue certificates."
+        },
+        {
+          title: "Submit FCRA Returns",
+          desc: "File FCRA returns to MHA if receiving foreign funds."
+        },
+        {
+          title: "Publication (If Required)",
+          desc: "Publish annual accounts in a local newspaper if income exceeds ₹1 crore."
+        },
+        {
+          title: "Renewals/Registrations",
+          desc: "Update or renew 80G, 12A/12AB, or FCRA certificates if due."
+        }
+      ],
+      violations: [
+        "Failure to file ITR-7 on time.",
+        "Not conducting or submitting statutory audit.",
+        "Missing or incorrect TDS/GST/FCRA filings.",
+        "Non-maintenance of minutes or board resolutions.",
+        "Operating outside charitable objectives."
+      ],
+      consequences: [
+        "Penalties and interest on delayed filings.",
+        "Loss of tax exemptions under 12A/80G.",
+        "Rejection of donor contributions from tax deduction eligibility.",
+        "Cancellation of FCRA registration.",
+        "Ineligibility for future grants and funding."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Needs to Comply",
+        items: [
+          "Public trusts",
+          "Private trusts",
+          "Public-cum-private trusts",
+          "Charitable or religious trusts",
+          "NGOs operating as trusts",
+          "Trusts with 12A/80G registration",
+          "Trusts receiving foreign contributions",
+          "Trusts registered for GST/TDS/PAN"
+        ]
+      },
+      {
+        heading: "Documents Checklist",
+        items: [
+          "Trust Deed (Registered Copy)",
+          "PAN Card of the Trust",
+          "List of Trustees (with Name, Address, Aadhaar)",
+          "Audit Report prepared by a Chartered Accountant (CA)",
+          "Balance Sheet & Income-Expenditure Statement",
+          "Receipts & Payments Account",
+          "Contribution Calculation Sheet",
+          "Membership Certificate of CA (ICAI)",
+          "Affidavit by Trustees",
+          "Office Address Proof/NOC from Landlord",
+          "Supporting documents for FCRA, GST, TDS as applicable"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Expert Consultation",
+        desc: "10+ years’ experience in trust compliance and regulatory matters."
+      },
+      {
+        title: "Efficient Paperwork",
+        desc: "Streamlined documentation and CA-backed audit reports."
+      },
+      {
+        title: "Pan-India Reach",
+        desc: "Services available in all states and union territories."
+      },
+      {
+        title: "Customized Solutions",
+        desc: "Tailored compliance plans for your trust’s unique needs."
+      },
+      {
+        title: "Peace of Mind",
+        desc: "Avoid missed deadlines and legal hassles with proactive support."
+      },
+      {
+        title: "Transparent Pricing",
+        desc: "No hidden charges—get value for every rupee spent."
+      },
+      {
+        title: "24/7 Client Support",
+        desc: "Our team is always available to resolve your queries."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is annual compliance for a trust?",
+        answer: "Annual compliance includes filing ITR, audited accounts, GST/TDS/FCRA returns (if applicable), and meeting other statutory requirements each year."
+      },
+      {
+        question: "Who must file annual returns for a trust?",
+        answer: "All registered trusts, whether public or private, must file annual returns if they meet the prescribed income or registration thresholds."
+      },
+      {
+        question: "What is the due date for trust ITR filing?",
+        answer: "The ITR for trusts (Form ITR-7) is usually due by September 30th of the assessment year."
+      },
+      {
+        question: "Is audit mandatory for all trusts?",
+        answer: "Audit is mandatory if the total income exceeds the basic exemption limit as per the Income Tax Act, 1961."
+      },
+      {
+        question: "What is Form 10B?",
+        answer: "Form 10B is the audit report to be submitted along with ITR-7 for trusts subject to audit."
+      },
+      {
+        question: "What if a trust does not file annual compliance?",
+        answer: "Non-compliance attracts penalties, loss of tax exemption, and even cancellation of registration."
+      },
+      {
+        question: "Is annual compliance required for trusts with 80G/12A/12AB registration?",
+        answer: "Yes, such trusts must strictly follow annual compliance to retain tax benefits and registrations."
+      },
+      {
+        question: "What are the consequences of delayed filings?",
+        answer: "Late filing may lead to hefty penalties, legal action, and loss of trust credibility."
+      },
+      {
+        question: "Do trusts receiving foreign funds have special compliance needs?",
+        answer: "Yes, they must file FCRA annual returns and comply with additional reporting requirements."
+      },
+      {
+        question: "Can DoStartup.in help with FCRA, GST, and TDS filings for trusts?",
+        answer: "Absolutely! Our experts handle all aspects of trust compliance, including FCRA, GST, TDS, and more."
+      },
+      {
+        question: "How can I get a compliance checklist for my trust?",
+        answer: "Contact DoStartup.in for a free compliance audit and a personalized checklist for your trust."
+      },
+      {
+        question: "How do I renew or update my trust’s 80G, 12A, or FCRA registration?",
+        answer: "Our team manages renewals and updates for all statutory registrations to keep your trust fully compliant."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Public Trusts",
+          shortText: "Serving the public good",
+          backText: "Charitable organizations like schools, hospitals, and temples."
+        },
+        {
+          title: "Private Trusts",
+          shortText: "Serving specific families",
+          backText: "Trusts created for private or family benefit."
+        },
+        {
+          title: "Public-cum-Private Trusts",
+          shortText: "Dual benefit trusts",
+          backText: "Serve both public charitable purposes and private beneficiaries."
+        },
+        {
+          title: "Charitable/Religious Trusts",
+          shortText: "Registered under 80G/12A",
+          backText: "Eligible for tax exemption and public donations."
+        }
+      ],
+      roleBenefits: [
+        "Avoids penalties and legal notices from IT or MCA.",
+        "Maintains eligibility for tax exemption and foreign funds.",
+        "Ensures credibility and transparency for all stakeholders.",
+        "Supports funding, CSR, and donor retention.",
+        "Protects the trust from cancellation or disqualification."
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Compliant Trust", "Non-Compliant Trust"],
+        rows: [
+          ["Legal Status", "Legally valid and active", "Risk of cancellation and penalties"],
+          ["Tax Benefits", "Eligible for 80G/12AB", "Loses tax exemption benefits"],
+          ["Funding Access", "Eligible for CSR and grants", "Ineligible for institutional funding"],
+          ["Donor Trust", "High credibility", "Reduced donor confidence"],
+          ["Operations", "Smooth and audit-ready", "Disruptions due to non-compliance"]
+        ]
+      },
+      timelineFees: [
+        "Document collection and bookkeeping: 1 week",
+        "Audit completion: 7–10 days (after financials are ready)",
+        "ITR and Form 10B filing: Before Sept 30 (AY)",
+        "FCRA/GST/TDS returns: As per due dates",
+        "Fee varies based on services required and size of trust"
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+  "ngo-darpan-registration": {
+    overview: {
+      heading: "NGO Darpan Registration in India – Secure More Funding, Credibility & Government Partnerships",
+      paragraphs: [
+        "Are you an NGO looking to boost your access to government schemes, grants, and CSR funds? DoStartup.in’s specialists help you navigate the complete NGO Darpan registration process—enabling you to unlock new growth opportunities and build trust with donors and government agencies.",
+        "NGO Darpan is an official portal managed by NITI Aayog, connecting NGOs and voluntary organizations (VOs) with various Indian Government Ministries and Departments. Darpan registration is highly recommended—and increasingly required—for any NGO wishing to receive central or state grants, participate in government projects, or access CSR funds.",
+        "Darpan (meaning 'mirror') acts as a central repository, fostering transparency, accountability, and streamlined communication between NGOs and government agencies. It helps maintain a verified database of NGOs, ensures better monitoring, and increases the efficiency of grant disbursement."
+      ]
+    },
+    features: [
+      {
+        icon: "🏛️",
+        title: "Government Recognition",
+        description: "Mandatory for most government and CSR funding in India."
+      },
+      {
+        icon: "🌐",
+        title: "FCRA Prerequisite",
+        description: "Required for NGOs seeking foreign contributions (FCRA registration)."
+      },
+      {
+        icon: "📚",
+        title: "Centralized Information Repository",
+        description: "Ensures up-to-date records of all registered NGOs."
+      },
+      {
+        icon: "🔍",
+        title: "Improved Transparency",
+        description: "Promotes accountability and transparency in funding and operations."
+      },
+      {
+        icon: "🤝",
+        title: "Collaboration Opportunities",
+        description: "Facilitates networking with other NGOs, government bodies, and corporates."
+      },
+      {
+        icon: "📈",
+        title: "Automated Reporting",
+        description: "Easy online submission of annual reports, financial statements, and project updates."
+      },
+      {
+        icon: "💸",
+        title: "CSR & Multi-State Support",
+        description: "Attracts funding from national and international donors, PSUs, and large companies."
+      }
+    ],
+    benefits: [
+      {
+        title: "Direct Access to Government Grants",
+        description: "Only Darpan-registered NGOs can apply for most government schemes, grants, and funding opportunities."
+      },
+      {
+        title: "Enhanced Credibility",
+        description: "Registration increases your trustworthiness with ministries, donors, and CSR partners."
+      },
+      {
+        title: "Tax Benefits",
+        description: "Darpan-registered NGOs are eligible for 12A and 80G tax exemptions."
+      },
+      {
+        title: "Priority in CSR Funding",
+        description: "Many corporates and PSUs require Darpan registration for CSR tie-ups."
+      },
+      {
+        title: "Up-to-Date Notifications",
+        description: "Get real-time updates about new government initiatives, programs, and grant opportunities."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Document Preparation",
+          desc: "Gather all required documents, board member info, area of activity, and funding details."
+        },
+        {
+          title: "Sign Up on Darpan Portal",
+          desc: "Visit NGO Darpan Portal, create your user profile, and verify via OTP."
+        },
+        {
+          title: "Online Application Filing",
+          desc: "Enter organizational details, office bearers, registration particulars, areas of work, and funding history."
+        },
+        {
+          title: "Upload Documents",
+          desc: "Attach scanned copies of the required documents for verification."
+        },
+        {
+          title: "Submission & Departmental Review",
+          desc: "Submit the application for validation by NITI Aayog and relevant ministries."
+        },
+        {
+          title: "Issuance of Unique ID (UIN)",
+          desc: "Upon approval, receive a Unique Identification Number (Darpan ID) for your NGO. Use this UIN to apply for government schemes, FCRA, and CSR opportunities."
+        }
+      ],
+      violations: [
+        "Failure to update NGO details after changes in board or structure.",
+        "Not uploading annual reports or audited accounts on time.",
+        "Using grants for unapproved or unrelated activities.",
+        "Submitting false or misleading information during registration.",
+        "Non-compliance with FCRA or government grant terms."
+      ],
+      consequences: [
+        "Blacklisting from NGO Darpan portal and grant databases.",
+        "Ineligibility for CSR and government funding.",
+        "Potential cancellation of FCRA registration.",
+        "Loss of credibility with donors and partners.",
+        "Legal action for misuse or misreporting of funds."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Eligible Entities",
+        items: [
+          "Charitable Trusts",
+          "Registered Societies",
+          "Section 8 Companies (Non-profit under Companies Act, 2013)",
+          "Voluntary Organizations (VOs)",
+          "Civil Society Organizations (CSOs)",
+          "Charitable Associations",
+          "Other not-for-profit entities legally registered in India"
+        ]
+      },
+      {
+        heading: "Key Office Bearers Required",
+        items: [
+          "Chairman / President",
+          "Secretary / Chief Functionary",
+          "Treasurer / Financial Trustee",
+          "All Governing Body Members"
+        ]
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Registration Certificate of the NGO",
+          "PAN Card of NGO & all board members",
+          "Aadhaar Card of Office Bearers / Trustees",
+          "List of all Trustees / Directors",
+          "Copy of Trust Deed, Society MoA, or Section 8 Incorporation Certificate",
+          "Proof of registered office address",
+          "Details of grants / donations received (last 5 years, if applicable)",
+          "Area of activities & sources of funds",
+          "Contact person’s details & email ID"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "End-to-End Documentation",
+        desc: "We assist in document collection, review, and compliance formatting."
+      },
+      {
+        title: "Online Portal Setup",
+        desc: "Help in creating and verifying NGO profile on the official portal."
+      },
+      {
+        title: "Expert Filing",
+        desc: "Accurate input of organizational and compliance data."
+      },
+      {
+        title: "Compliance Advisory",
+        desc: "Guidance on annual uploads, amendments, and government notifications."
+      },
+      {
+        title: "Multi-Registration Support",
+        desc: "Seamless coordination with 12A, 80G, CSR, and FCRA processes."
+      },
+      {
+        title: "Dedicated Consultant",
+        desc: "Personal advisor for timely assistance and document tracking."
+      },
+      {
+        title: "Post-Approval Services",
+        desc: "Help with Darpan UIN usage, grant tracking, and future updates."
+      },
+      {
+        title: "Free Consultation Call",
+        desc: "Get expert advice before you even begin—no upfront commitment."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is NGO Darpan registration?",
+        answer: "It’s an online government registration that connects NGOs with ministries, enables access to grants, and is required for most government and CSR funding in India."
+      },
+      {
+        question: "Is Darpan registration mandatory for NGOs?",
+        answer: "While not mandatory for registration, it’s essential for applying for most government schemes, grants, and FCRA registration."
+      },
+      {
+        question: "Who can register on NGO Darpan?",
+        answer: "Any Indian NGO—Trust, Society, Section 8 Company, or voluntary group—can register if legally recognized."
+      },
+      {
+        question: "What documents are required for Darpan registration?",
+        answer: "You’ll need your registration certificate, PAN, board member Aadhaar, trust deed/MoA, area of activity, funding details, and address proof."
+      },
+      {
+        question: "Can I register an NGO on Darpan for free?",
+        answer: "Yes, the Darpan registration process is completely free and online."
+      },
+      {
+        question: "Is NGO Darpan needed for FCRA registration?",
+        answer: "Yes, a Darpan UIN is required before applying for or renewing FCRA registration."
+      },
+      {
+        question: "What is the Unique ID (UIN) from Darpan?",
+        answer: "It’s a special identification number provided to your NGO after successful Darpan registration, needed for funding and compliance."
+      },
+      {
+        question: "Is Darpan registration compulsory for 12A/80G or opening a bank account?",
+        answer: "Darpan is not required for 12A/80G or basic bank accounts, but is needed for government and CSR grants, and increasingly for compliance."
+      },
+      {
+        question: "How long does Darpan registration take?",
+        answer: "Typically, it takes 7–15 working days, subject to document accuracy and verification speed."
+      },
+      {
+        question: "What if my NGO’s details change?",
+        answer: "Update your Darpan portal profile immediately and provide revised documents to maintain compliance."
+      },
+      {
+        question: "How do NGO workers get paid?",
+        answer: "Salaries/stipends are paid from grants, donations, or project funds received by the NGO, as per its bylaws."
+      },
+      {
+        question: "Can Darpan-registered NGOs collaborate internationally?",
+        answer: "Yes, but FCRA registration is required to receive foreign contributions or partner with overseas entities."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Missed Deadlines",
+          shortText: "Avoid blacklisting.",
+          backText: "Upload returns and documents on time to stay compliant."
+        },
+        {
+          title: "Incorrect Document Format",
+          shortText: "File correctly.",
+          backText: "Ensure scanned documents are legible and meet portal requirements."
+        },
+        {
+          title: "Board Member Mismatch",
+          shortText: "Consistency matters.",
+          backText: "Names and IDs must match official NGO filings."
+        },
+        {
+          title: "Not Updating Changes",
+          shortText: "Stay current.",
+          backText: "Update your Darpan profile if structure or trustees change."
+        }
+      ],
+      roleBenefits: [
+        "Required for accessing CSR and government grants.",
+        "Mandatory step for FCRA approval.",
+        "Promotes operational transparency and donor trust.",
+        "Simplifies communication with ministries and agencies.",
+        "Ensures long-term legal recognition of NGO activities."
+      ],
+      differenceTable: {
+        columns: ["Aspect", "NGO Darpan Registration", "Section 8 Company"],
+        rows: [
+          ["Legal Structure", "Trust/Society/VO/NPO", "Registered under Companies Act"],
+          ["Government Grants", "Mandatory for funding", "Must also register on Darpan"],
+          ["Tax Exemption", "12A/80G available", "12A/80G available"],
+          ["Governance", "Various state acts", "Companies Act, 2013"],
+          ["International Work", "Limited without FCRA", "FCRA allowed after approval"]
+        ]
+      },
+      timelineFees: [
+        "Typical registration time: 7–15 working days.",
+        "Darpan registration is completely free of cost.",
+        "Requires accurate documentation and Aadhaar-linked verification.",
+        "No government fee involved—only professional service charges (if any).",
+        "Timely updates and renewals help maintain funding eligibility."
+      ]
+    }
+  },
+
+
+
+
+  "gi-registration": {
+    overview: {
+      heading: "Geographical Indication (GI) Registration in India – Protect Your Product’s Legacy",
+      paragraphs: [
+        "Worried about copycats misusing your region’s iconic product name? Safeguard your unique product’s legacy and market value with DoStartup.in’s expert Geographical Indication (GI) Registration services. Our in-house IP team boasts a 99% approval rate, with end-to-end support from application filing to opposition management and renewal.",
+        "A Geographical Indication (GI) is a distinctive sign used on products that have a specific geographical origin and possess qualities, reputation, or characteristics inherent to that location. GI registration provides legal protection against misuse, boosts market recognition, and preserves the unique heritage of your product—be it tea, sarees, spices, crafts, or agricultural produce.",
+        "In India, GI is governed by the Geographical Indications of Goods (Registration & Protection) Act, 1999. Once registered, only authorized users in the identified region can use the GI tag, helping fight fakes, enhance product value, and promote local economic growth."
+      ]
+    },
+    features: [
+      {
+        icon: "⚖️",
+        title: "Legal Protection",
+        description: "Prevents unauthorized usage, imitation, or counterfeiting of the GI-tagged product."
+      },
+      {
+        icon: "📈",
+        title: "Brand Value & Marketing",
+        description: "Transforms your product into a recognized brand, attracting higher profits and market demand."
+      },
+      {
+        icon: "🔒",
+        title: "Authenticity & Trust",
+        description: "Certifies the origin, quality, and traditional know-how of your goods."
+      },
+      {
+        icon: "💰",
+        title: "Premium Pricing",
+        description: "GI products command premium rates due to their exclusive reputation."
+      },
+      {
+        icon: "🌎",
+        title: "Export Boost",
+        description: "GI tags support global marketing and open up international trade opportunities."
+      },
+      {
+        icon: "🏡",
+        title: "Supports Local Communities",
+        description: "Encourages sustainable economic growth in the region and protects traditional livelihoods."
+      },
+      {
+        icon: "🎨",
+        title: "Cultural Preservation",
+        description: "Safeguards the legacy, history, and heritage crafts of your community."
+      }
+    ],
+    benefits: [
+      {
+        title: "IP Protection",
+        description: "Provides legal protection and exclusive rights over GI-tagged products."
+      },
+      {
+        title: "Marketing Edge",
+        description: "Enhances visibility, consumer trust, and commercial appeal in domestic and international markets."
+      },
+      {
+        title: "Monopoly Advantage",
+        description: "Only authorized producers in the designated area can use the GI tag."
+      },
+      {
+        title: "Consumer Confidence",
+        description: "Assures buyers of authenticity, quality, and traceability."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Eligibility Check",
+          desc: "Confirm product meets GI criteria under Section 2(1)(e) of the Act."
+        },
+        {
+          title: "Application Filing",
+          desc: "Submit GI application with product statement and evidence."
+        },
+        {
+          title: "Documentation",
+          desc: "Include maps, production details, inspection plans, and legal proof."
+        },
+        {
+          title: "Examination",
+          desc: "Registry reviews documents and may raise objections."
+        },
+        {
+          title: "Show Cause Notice",
+          desc: "Respond to any objections within the deadline with clarifications."
+        },
+        {
+          title: "Publication",
+          desc: "Accepted applications published in the GI Journal for public notice."
+        },
+        {
+          title: "Opposition Handling",
+          desc: "Respond to any oppositions with a counter-statement and supporting evidence."
+        },
+        {
+          title: "Registration & Certification",
+          desc: "Receive the GI registration certificate after successful scrutiny."
+        },
+        {
+          title: "Renewal & Restoration",
+          desc: "Renew every 10 years or restore within 6 months of expiry with fee."
+        }
+      ],
+      violations: [
+        "Use of a registered GI by unauthorized producers.",
+        "Using misleading, deceptive, or generic GI indications.",
+        "Filing a false or fraudulent GI application.",
+        "Failure to maintain quality standards defined in the GI application."
+      ],
+      consequences: [
+        "Rejection of GI application.",
+        "Removal of GI from the registry.",
+        "Fines and penalties under the Act.",
+        "Loss of legal protection and branding rights.",
+        "Civil/criminal action against misuse."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Who Can Apply for GI Registration?",
+        items: [
+          "Associations of persons or producers",
+          "Registered organizations, authorities, or cooperatives representing producers’ interests",
+          "Any legally established entity representing producers in the region"
+        ]
+      },
+      {
+        heading: "Non-Eligible GIs",
+        items: [
+          "Generic names no longer linked to a location",
+          "Misleading or confusing indications",
+          "Names that offend public order or morality",
+          "False or religiously sensitive indications"
+        ]
+      },
+      {
+        heading: "Documents Required",
+        items: [
+          "Duly filled Form GI-1 application",
+          "Statement of case showing uniqueness and geographical link",
+          "Maps, photos, historical records, control methods",
+          "Authorization letter or Power of Attorney",
+          "Details about quality inspection infrastructure",
+          "Certified copy of foreign registration (if applicable)"
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "GI Application Filing",
+        desc: "End-to-end preparation and submission of GI application and documentation."
+      },
+      {
+        title: "Show Cause Replies",
+        desc: "Draft and file timely responses to registry objections."
+      },
+      {
+        title: "Opposition Management",
+        desc: "Handle counter-statements and legal responses if application is opposed."
+      },
+      {
+        title: "Evidence Preparation",
+        desc: "Collate historical, geographical, and cultural proof supporting the GI."
+      },
+      {
+        title: "Expert Consultation",
+        desc: "1:1 guidance with experienced IP lawyers throughout the process."
+      },
+      {
+        title: "Portfolio Management",
+        desc: "Support for renewal, restoration, and long-term GI compliance."
+      }
+    ],
+    faqs: [
+      {
+        question: "What is a Geographical Indication (GI)?",
+        answer: "A GI is a sign used on products with a specific geographical origin and qualities or reputation linked to that location."
+      },
+      {
+        question: "How long is a GI registration valid?",
+        answer: "10 years from the date of registration, renewable indefinitely every 10 years."
+      },
+      {
+        question: "Who can apply for a GI?",
+        answer: "Associations, cooperatives, or authorities representing producers in a specific region."
+      },
+      {
+        question: "What documents are needed for GI registration?",
+        answer: "Application form, case statement, proof of origin, inspection details, authorization letter, and supporting documents."
+      },
+      {
+        question: "What happens if there’s an opposition to my GI application?",
+        answer: "You must respond with a counter-statement and possibly attend a hearing. If successful, your GI gets registered."
+      },
+      {
+        question: "Can a GI registration be restored if expired?",
+        answer: "Yes, apply within 6 months of expiry with payment of restoration fee."
+      },
+      {
+        question: "What are examples of GI products in India?",
+        answer: "Darjeeling Tea, Basmati Rice, Banarasi Sarees, Kolhapuri Chappals, Kanjivaram Sarees, etc."
+      },
+      {
+        question: "What is the difference between a trademark and a GI?",
+        answer: "A trademark identifies a producer; a GI identifies a product from a specific location with inherent qualities."
+      },
+      {
+        question: "Can I use a GI tag for export purposes?",
+        answer: "Yes, GI enhances global credibility and protects product identity in international markets."
+      },
+      {
+        question: "What if my product is not from the registered region?",
+        answer: "Only producers from the designated region can legally use the GI tag."
+      },
+      {
+        question: "Is online GI registration mandatory?",
+        answer: "Yes, most procedures are processed online for efficiency and transparency."
+      },
+      {
+        question: "Can a GI be cancelled or removed?",
+        answer: "Yes, for reasons like non-renewal, loss of product quality, or fraudulent filing."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Generic Naming Risk",
+          shortText: "Avoid common names.",
+          backText: "Use only names with clear geographic linkage and cultural value."
+        },
+        {
+          title: "Incomplete Evidence",
+          shortText: "Include robust proof.",
+          backText: "Missing historical or geographic data weakens your application."
+        },
+        {
+          title: "Opposition Handling",
+          shortText: "Prepare for challenges.",
+          backText: "A strong counter-statement and evidence may be required."
+        },
+        {
+          title: "Non-Renewal",
+          shortText: "Renew on time.",
+          backText: "Avoid GI lapse by renewing every 10 years or restoring within 6 months."
+        }
+      ],
+      roleBenefits: [
+        "Provides legal exclusivity for your product",
+        "Enhances product’s brand and export potential",
+        "Drives regional employment and economic growth",
+        "Boosts investor and buyer trust",
+        "Preserves local art, craft, and food heritage"
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Trademark", "Geographical Indication (GI)"],
+        rows: [
+          ["Ownership", "Belongs to an individual or company", "Belongs to a group of producers"],
+          ["Coverage", "Applies to goods/services from a business", "Applies to region-specific products"],
+          ["Function", "Distinguishes producer", "Identifies origin and quality"],
+          ["Transferability", "Can be sold/licensed", "Cannot be transferred or licensed"],
+          ["Duration", "10 years, renewable", "10 years, renewable indefinitely"]
+        ]
+      },
+      timelineFees: [
+        "GI registration process typically takes 12–18 months.",
+        "Initial validity: 10 years from registration.",
+        "Renewal required every 10 years.",
+        "Restoration possible within 6 months of lapse (with fees).",
+        "Professional fees depend on product complexity and required legal support."
+      ]
+    }
+  }
+  
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+
+
 };
