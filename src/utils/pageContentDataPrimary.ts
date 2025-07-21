@@ -40,9 +40,96 @@ export type whyUs = {
   footerText?: string;
 };
 
+export type who = {
+  heading?: string;
+  description?: string[];
+  points?: string[];
+  footerText?: string;
+};
+
 export type faq = { question: string; answer: string };
 
+export type ClassifiedIndustries = {
+  category: string;
+  documents?: string[];
+};
+
+export type Guidelines = {
+  category: string;
+  documents?: string[];
+};
+
+export type Regulations = {
+  category: string;
+  documents?: string[];
+};
+
+export type ProductRequire = {
+  category: string;
+  documents?: string[];
+};
+
+export type Structure = {
+  category: string;
+  documents?: string[];
+};
+
+export type RoleOfHydrogeologist = {
+  category: string;
+  documents?: string[];
+};
+
+export type Need = {
+  category: string;
+  documents?: string[];
+};
+
+export type Process = {
+  category: string;
+  documents?: string[];
+};
+
+export type Authority = {
+  category: string;
+  documents?: string[];
+};
+
+export type EPR = {
+  category: string;
+  documents?: string[];
+};
+
+export type Validity = {
+  category: string;
+  documents?: string[];
+};
+
+export type Business = {
+  category: string;
+  documents?: string[];
+};
+
 export type Listicles = {
+  category: string;
+  documents?: string[];
+};
+
+export type Categories = {
+  category: string;
+  documents?: string[];
+};
+
+export type Challenges = {
+  category: string;
+  documents?: string[];
+};
+
+export type Services = {
+  category: string;
+  documents?: string[];
+};
+
+export type Productlist = {
   category: string;
   documents?: string[];
 };
@@ -66,11 +153,29 @@ export type PageContentType = {
   benefits?: benefits[];
   documentsRequired?: documentsRequired[];
   Listicles?: Listicles[];
+  Categories?: Categories[];
+  Challenges?: Challenges[];
+  ClassifiedIndustries?: ClassifiedIndustries[];
+  Guidelines?: Guidelines[];
+  Regulations?: Regulations[];
+  ProductRequire?: ProductRequire[];
+  Structure?: Structure[];
+  services?: Services[];
+  Productlist?: Productlist[];
   registrationProcedure?: registrationProcedure[];
   feesStructure?: feesStructure[];
+  RoleOfHydrogeologist?: RoleOfHydrogeologist[];
+  Need?: Need[];
+  Process?: Process[];
+  Authority?: Authority[];
+  EPR?: EPR[];
+  Validity?: Validity[];
+  Business?: Business[];
   registrationTimeline?: registrationTimeline[];
   whyUs?: whyUs[];
+  who?: who[];
   faq?: faq[];
+  clauses?: { title: string; description: string }[];
   renewal?: renewal[];
   duplicate?: duplicate[];
   licensesRequired?: { heading: string; content: string }[];
@@ -82,6 +187,7 @@ export type PageContentType = {
   informationRequired?: { heading: string; content: string }[];
   applicationProcedure?: { heading: string; content: string }[];
 };
+
 export const pageContent: Record<string, PageContentType> = {
   "eating-house-license": {
     title: "Eating House License Registration",
@@ -1025,13 +1131,15 @@ Submitting these documents correctly and completely is crucial for a successful 
   4. Upon approval, receive your Central License certificate (display prominently).`,
       },
     ],
-    renewal: {
-      heading: "Validity & Renewal",
-      content: [
-        "Valid for 1–5 years; fees increase with longer validity. Renew at least 30 days before expiry to avoid penalties.",
-        "Renewal documents: recent passport photo, government ID proof, PAN Card, address proof, land deed or rent agreement + NOC (if rented).",
-      ],
-    },
+    renewal: [
+      {
+        heading: "Validity & Renewal",
+        content: [
+          "Valid for 1–5 years; fees increase with longer validity. Renew at least 30 days before expiry to avoid penalties.",
+          "Renewal documents: recent passport photo, government ID proof, PAN Card, address proof, land deed or rent agreement + NOC (if rented).",
+        ],
+      },
+    ],
     whyUs: [
       {
         heading: "Why Choose Dostartup?",
@@ -2209,17 +2317,6 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
 • Income Tax Return (ITR) Filing Fees  
 • GST and TDS Return Filing Charges  
 • Legal and Professional Fees (CA/CS/legal advisors)`,
-      },
-    ],
-    Listicles: [
-      {
-        category: "Penalties for Non‑Compliance",
-        documents: [
-          "Heavy late fees for delayed ROC filings (Form MGT‑7, AOC‑4, etc.) and tax returns (ITR, GST, TDS).",
-          "Disqualification of directors for failure to file annual returns within prescribed deadlines.",
-          "Loss of “Active” status and potential strike‑off by the Registrar of Companies.",
-          "Legal action and monetary fines for non‑adherence to Companies Act or Income Tax Act provisions.",
-        ],
       },
     ],
     whyUs: [
@@ -4004,7 +4101,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "liquidation-of-a-company": {
     title: "Liquidation of a Company – A Complete Overview",
     description:
@@ -4137,7 +4233,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "agr-return-filing": {
     title: "AGR Return Filing – A Complete Overview",
     description:
@@ -4226,7 +4321,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "form-aoc-4": {
     title: "Form AOC-4 – A Complete Overview",
     description:
@@ -4361,7 +4455,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "shop-and-establishment-license": {
     title:
       "Shop and Establishment License – An Essential Business Registration in India",
@@ -4478,7 +4571,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "trade-license": {
     title: "Trade License – A Complete Overview",
     description:
@@ -4673,7 +4765,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "music-license": {
     title: "Music License – A Complete Overview",
     description:
@@ -4809,7 +4900,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "health-trade-license": {
     title: "Health Trade License – An Overview",
     description:
@@ -4919,7 +5009,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "factory-license": {
     title: "Factory License – An Overview",
     description:
@@ -5042,7 +5131,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-  gmpCertification: {
+  "gmp-Certification": {
     title: "GMP Certification – A Complete Overview",
     description:
       "Good Manufacturing Practice (GMP) certification ensures that products are consistently produced and controlled according to quality standards to minimize risks involved in pharmaceutical manufacturing.",
@@ -5162,7 +5251,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "fda-certification": {
     title: "FDA Certification – A Complete Overview",
     description:
@@ -5408,7 +5496,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "ayush-license": {
     title:
       "AYUSH License Made Easy – Your Gateway to the Herbal & Traditional Medicine Market",
@@ -5536,7 +5623,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "capexil-registration": {
     title: "CAPEXIL Registration – An Overview",
     description:
@@ -5631,7 +5717,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "nasscom-membership": {
     title: "NASSCOM Membership Certificate",
     description:
@@ -5740,7 +5825,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "mso-license": {
     title: "MSO License – A Complete Overview",
     description:
@@ -5849,7 +5933,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "dot-osp-compliance": {
     title: "DoT OSP Compliance",
     description:
@@ -5937,7 +6020,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "ip-1-license": {
     title: "IP-1 License – A Complete Overview",
     description:
@@ -6040,7 +6122,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "hits-operator": {
     title: "HITS Operator – A Complete Overview",
     description:
@@ -6143,7 +6224,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "fifp-approval-telecom": {
     title: "FIFP Approval for Telecom – A Complete Overview",
     description:
@@ -6241,7 +6321,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "halal-certification": {
     title: "Halal Certification – A Complete Overview",
     description:
@@ -6309,7 +6388,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "homologation-certificate": {
     title: "Homologation Certification – A Complete Overview",
     description:
@@ -6414,7 +6492,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "vehicle-type-approval-certificate": {
     title: "Vehicle Type Approval Certificate – A Complete Overview",
     description:
@@ -6518,7 +6595,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "imei-registration": {
     title: "IMEI Number Registration – Protect Your Devices with Do Startup",
     description:
@@ -6646,7 +6722,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "imei-certificate-import-mobile-handsets": {
     title: "IMEI Certificate for Import of Mobile Handsets",
     description:
@@ -6785,7 +6860,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "imei-certificate-generation": {
     title: "IMEI Certificate Generation with Do Startup",
     description:
@@ -6909,7 +6983,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "epf-registration": {
     title:
       "EPF Registration in India: Employer's Guide to Provident Fund Compliance",
@@ -7044,7 +7117,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "esi-registration": {
     title:
       "ESI Registration in India: Social Security Compliance for Employers",
@@ -7173,7 +7245,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "fieo-registration": {
     title:
       "FIEO Registration for Exporters – Unlock Global Trade Opportunities",
@@ -7293,7 +7364,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "building-noc": {
     title: "Building NOC – Your Complete Guide",
     description:
@@ -7405,7 +7475,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "bocw-registration": {
     title: "BOCW Registration – Complete Guide",
     description:
@@ -7528,7 +7597,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "rera-registration-for-agents": {
     title: "RERA Registration for Agents – A Complete Guide",
     description:
@@ -7669,7 +7737,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "rera-registration-for-promoters": {
     title: "RERA Registration for Promoters – A Complete Guide",
     description:
@@ -7809,7 +7876,6 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
   "spice-board-registration": {
     title: "Spice Board Registration – A Complete Guide",
     description:
@@ -7931,1231 +7997,10056 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-
-
   "guest-house-registration": {
-  title: "Guest House Registration – A Complete Guide",
-  description: "The Ministry of Tourism’s voluntary Guest House Registration Scheme ensures clean, hygienic, and upgraded budget accommodations for tourists, boosting employment, state revenue, and lodging quality.",
-  overview: [
-    {
-      heading: "Key Considerations for a Successful Guest House",
-      content: "• Effective Management: Delegate responsibilities and maintain high service standards.  \n• Catering to Guest Needs: Offer modern amenities (Wi-Fi, BBQs, pools) and act on feedback.  \n• Building a Reputation: Encourage repeat stays and manage digital marketing diligently."
-    },
-    {
-      heading: "Minimum Infrastructure Requirements",
-      content: "• At least 6 lettable rooms with ventilation and ≥6 m road access.  \n• 25% rooms with heating or AC.  \n• Western-style toilets, separate wet/dry waste disposal.  \n• Reception with phone, lighting, storage, and window coverings."
-    },
-    {
-      heading: "Safety & Services Standards",
-      content: "• Fire safety systems and CCTV in public areas.  \n• 24/7 RO/UV or branded bottled water.  \n• On-call doctor/hospital tie-up, pest control, parking, ≥60% hygiene compliance."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Benefits of Guest House Registration",
-      content: "• Legal authorization to operate and avoid penalties  \n• Enhances guest trust and marketability  \n• Streamlines obtaining other licenses (FSSAI, fire NOC)  \n• Demonstrates compliance with national tourism standards"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "General & Site Details",
-      content: "• Guest house name, address, owner/promoter details  \n• Distance from transport hubs, roads, amenities  \n• Site plan, layout certified by local authority"
-    },
-    {
-      heading: "Facilities & Safety",
-      content: "• Area (sq. m), public spaces, eco-practices, safety features  \n• Power backup, fire-readiness certificate, CCTV plan  \n• Sanitation clearance and occupancy certificate"
-    },
-    {
-      heading: "Ownership & NOCs",
-      content: "• MoA & AoA (companies) or deed/registration (proprietorship/partnership)  \n• Fire NOC, police approval, liquor/money-changer license (if applicable)  \n• Public liability insurance and sanctioned building plans"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Application Submission",
-      content: "Do Startup registers you on the MoT portal and completes the online application form."
-    },
-    {
-      heading: "Step 2: Document Upload & Payment",
-      content: "Upload all required certificates and pay the prescribed application fees."
-    },
-    {
-      heading: "Step 3: Site Inspection",
-      content: "HRACC inspects the property—possibly with an overnight stay—to verify compliance."
-    },
-    {
-      heading: "Step 4: Certificate Issuance",
-      content: "Upon approval, the regional director issues a two-year registration certificate."
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Validity & Renewal",
-      description: "Registration is valid for five years from approval. Apply for renewal three months before expiry and report any operational changes promptly."
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "10+ years of tourism and hospitality compliance expertise",
-        "Tailored consultation and document preparation",
-        "End-to-end application drafting and filing",
-        "Inspection scheduling and liaison support",
-        "Ongoing compliance and renewal assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is a guest house?",
-      answer: "A budget lodging option like a small home, suite, or cottage for short-term stays."
-    },
-    {
-      question: "How does it differ from a hotel?",
-      answer: "Guest houses are smaller, often owner-managed, offering a more personalized stay."
-    },
-    {
-      question: "What’s the minimum room count?",
-      answer: "At least six lettable rooms are required for registration."
-    },
-    {
-      question: "Which documents are needed?",
-      answer: "Identification, sanitation & fire clearances, occupancy certificate, title documents, and NOCs."
-    },
-    {
-      question: "How long is the registration valid?",
-      answer: "The certificate is valid for five years, renewable three months before expiry."
-    }
-  ]
-},
+    title: "Guest House Registration – A Complete Guide",
+    description: "The Ministry of Tourism’s voluntary Guest House Registration Scheme ensures clean, hygienic, and upgraded budget accommodations for tourists, boosting employment, state revenue, and lodging quality.",
+    overview: [
+      {
+        heading: "Key Considerations for a Successful Guest House",
+        content: "• Effective Management: Delegate responsibilities and maintain high service standards.  \n• Catering to Guest Needs: Offer modern amenities (Wi-Fi, BBQs, pools) and act on feedback.  \n• Building a Reputation: Encourage repeat stays and manage digital marketing diligently."
+      },
+      {
+        heading: "Minimum Infrastructure Requirements",
+        content: "• At least 6 lettable rooms with ventilation and ≥6 m road access.  \n• 25% rooms with heating or AC.  \n• Western-style toilets, separate wet/dry waste disposal.  \n• Reception with phone, lighting, storage, and window coverings."
+      },
+      {
+        heading: "Safety & Services Standards",
+        content: "• Fire safety systems and CCTV in public areas.  \n• 24/7 RO/UV or branded bottled water.  \n• On-call doctor/hospital tie-up, pest control, parking, ≥60% hygiene compliance."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Guest House Registration",
+        content: "• Legal authorization to operate and avoid penalties  \n• Enhances guest trust and marketability  \n• Streamlines obtaining other licenses (FSSAI, fire NOC)  \n• Demonstrates compliance with national tourism standards"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "General & Site Details",
+        content: "• Guest house name, address, owner/promoter details  \n• Distance from transport hubs, roads, amenities  \n• Site plan, layout certified by local authority"
+      },
+      {
+        heading: "Facilities & Safety",
+        content: "• Area (sq. m), public spaces, eco-practices, safety features  \n• Power backup, fire-readiness certificate, CCTV plan  \n• Sanitation clearance and occupancy certificate"
+      },
+      {
+        heading: "Ownership & NOCs",
+        content: "• MoA & AoA (companies) or deed/registration (proprietorship/partnership)  \n• Fire NOC, police approval, liquor/money-changer license (if applicable)  \n• Public liability insurance and sanctioned building plans"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Application Submission",
+        content: "Do Startup registers you on the MoT portal and completes the online application form."
+      },
+      {
+        heading: "Step 2: Document Upload & Payment",
+        content: "Upload all required certificates and pay the prescribed application fees."
+      },
+      {
+        heading: "Step 3: Site Inspection",
+        content: "HRACC inspects the property—possibly with an overnight stay—to verify compliance."
+      },
+      {
+        heading: "Step 4: Certificate Issuance",
+        content: "Upon approval, the regional director issues a two-year registration certificate."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal",
+        description: "Registration is valid for five years from approval. Apply for renewal three months before expiry and report any operational changes promptly."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "10+ years of tourism and hospitality compliance expertise",
+          "Tailored consultation and document preparation",
+          "End-to-end application drafting and filing",
+          "Inspection scheduling and liaison support",
+          "Ongoing compliance and renewal assistance"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is a guest house?",
+        answer: "A budget lodging option like a small home, suite, or cottage for short-term stays."
+      },
+      {
+        question: "How does it differ from a hotel?",
+        answer: "Guest houses are smaller, often owner-managed, offering a more personalized stay."
+      },
+      {
+        question: "What’s the minimum room count?",
+        answer: "At least six lettable rooms are required for registration."
+      },
+      {
+        question: "Which documents are needed?",
+        answer: "Identification, sanitation & fire clearances, occupancy certificate, title documents, and NOCs."
+      },
+      {
+        question: "How long is the registration valid?",
+        answer: "The certificate is valid for five years, renewable three months before expiry."
+      }
+    ]
+  },
+  "barcode-registration": {
+    title: "Barcode Registration in India – A Complete Guide by Do Startup",
+    description: "GS1 India manages barcode standards and issues unique codes to businesses nationwide, enabling efficient product identification, inventory management, and supply chain transparency.",
+    overview: [
+      {
+        heading: "What is a Barcode?",
+        content: "A barcode is a machine-readable symbol composed of parallel lines and numeric digits that store product information—such as batch numbers, serial numbers, and pricing—facilitating quick data retrieval across industries."
+      },
+      {
+        heading: "Types of Barcodes",
+        content: "1. EAN-13 (13 digits; global retail standard)  \n2. UPC-A (12 digits; used in USA/UK/Australia)  \nOther industry types include Code 93, Code 39, GS1 Databar, Code 128, and ITF."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Barcode Registration",
+        content: "• Efficient Inventory Management: Track products from manufacture to sale.  \n• Asset Management: Monitor assets with ease.  \n• Error-Free Operations: Automated data capture reduces mistakes.  \n• Cost-Effective & Customisable: Low implementation cost and flexible design.  \n• Authenticity & Transparency: Displays batch and serial info.  \n• Faster Checkouts & Better Decision-Making: Quick scanning and data insights.  \n• Global Standardisation: Unique codes worldwide."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Barcode Registration",
+        content: "• Request letter for barcode allotment  \n• PAN Card of business entity  \n• Audited financial statements  \n• Shop Establishment Certificate  \n• GST/VAT Registration Certificate  \n• Partnership Deed (if applicable)  \n• Company COI, MOA, AOA (if applicable)  \n• Registrar of Society certificate (if applicable)  \n• Cancelled cheque copy  \n• Product list and specifications"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Inquiry Form",
+        content: "Submit basic business details via Do Startup’s website to initiate the barcode registration process."
+      },
+      {
+        heading: "Step 2: Document Collection",
+        content: "Provide all mandatory documents—PAN, GST, financials, establishment proof, product list, etc.—for verification."
+      },
+      {
+        heading: "Step 3: Verification & Application",
+        content: "Our experts review your documents and complete the GS1 India barcode application on your behalf."
+      },
+      {
+        heading: "Step 4: Submission to GS1 India",
+        content: "Do Startup files the verified application with GS1 India and tracks its progress."
+      },
+      {
+        heading: "Step 5: Issuance of Barcode Certificate",
+        content: "Upon successful verification and fee payment, GS1 India issues your Barcode Registration Certificate."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert guidance through GS1 India processes",
+          "End-to-end document preparation and filing",
+          "Fast turnaround and real-time updates",
+          "Transparent pricing with no hidden fees",
+          "Dedicated 24×7 support"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "How are barcodes applied to products?",
+        answer: "Barcodes can be printed directly on packaging, added as pre-printed labels, or embedded in product artwork."
+      },
+      {
+        question: "Who can apply for barcode registration?",
+        answer: "Any manufacturer, exporter, wholesaler, or retailer selling physical products can apply."
+      },
+      {
+        question: "What barcode standard is used in India?",
+        answer: "India primarily uses the EAN-13 standard managed by GS1 India."
+      },
+      {
+        question: "What is a GLN?",
+        answer: "GLN stands for Global Location Number, which uniquely identifies locations like warehouses and stores."
+      }
+    ]
+  },
+  "world-manufacturer-identifier-wmi-code": {
+    title: "World Manufacturer Identifier (WMI) Code Registration in India – A Complete Guide by Do Startup",
+    description: "A WMI Code is the first three characters of a Vehicle Identification Number (VIN) that uniquely identifies a vehicle manufacturer worldwide. In India, WMI Codes are issued by BIS in coordination with SAE International.",
+    overview: [
+      {
+        heading: "What is a VIN?",
+        content: "A Vehicle Identification Number (VIN) is a unique 17-character alphanumeric code assigned to every motor vehicle, containing manufacturer details, model, engine specs, year and location of manufacture."
+      },
+      {
+        heading: "Structure of the VIN Code",
+        content: "• WMI – first 3 characters identifying country, manufacturer and vehicle type  \n• VDS – next 6 characters describing vehicle attributes (body style, engine)  \n• VIS – last 8 characters indicating production year, plant and serial number"
+      },
+      {
+        heading: "WMI Code Geography Breakdown",
+        content: "Ranges: 1–5 North America, S–Z Europe, A–H Africa, J–R Asia (India), 6–7 Oceania, 8–9 South America"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Importance of WMI Code",
+        content: "• Ensures global recognition of the manufacturer  \n• Mandatory for valid VIN assignment  \n• Supports regulatory compliance and tracking  \n• Facilitates international vehicle trade  \n• Enables efficient recall management and after-sales service"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for WMI Code Registration",
+        content: "• Duly signed application form with manufacturing unit details  \n• PAN and GST certificates (self-attested)  \n• Certificate of Incorporation / Partnership Deed  \n• MOA & AOA or proprietorship details  \n• Udyam Registration (if applicable)  \n• Address proof of manufacturing facility  \n• Product category/code and existing coding (if any)  \n• Tentative production commencement date  \n• Application fee receipt"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Filing of Application",
+        content: "Do Startup assists in preparing and submitting the WMI registration application to BIS."
+      },
+      {
+        heading: "Step 2: Document Verification",
+        content: "BIS verifies submitted documents for completeness and accuracy."
+      },
+      {
+        heading: "Step 3: WMI Proposal",
+        content: "BIS proposes a unique WMI Code based on product type and location."
+      },
+      {
+        heading: "Step 4: SAE International Registration",
+        content: "The WMI proposal is forwarded to SAE International for inclusion in the global database."
+      },
+      {
+        heading: "Step 5: Confirmation Letter",
+        content: "Upon approval, SAE issues a Confirmation Letter to the manufacturer."
+      },
+      {
+        heading: "Step 6: Issuance of WMI Code",
+        content: "The manufacturer is officially assigned a WMI Code for use in VINs."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Application Fees",
+        description: "Application fee as prescribed by BIS, payable via demand draft or online transfer."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for WMI Code Registration",
+        description: "The process typically completes in 4–6 weeks, subject to document verification and SAE approval.",
+        steps: [
+          {
+            title: "Application & Payment",
+            duration: "1 week",
+            description: "Submission of application form and fee."
+          },
+          {
+            title: "BIS Processing",
+            duration: "2–3 weeks",
+            description: "Document verification and WMI proposal."
+          },
+          {
+            title: "SAE Approval",
+            duration: "1–2 weeks",
+            description: "Global database registration and confirmation."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert liaison with BIS and SAE International",
+          "End-to-end application and documentation support",
+          "Guaranteed timelines and real-time tracking",
+          "99.9% success rate in WMI registrations",
+          "24×7 dedicated customer assistance"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is a WMI Code?",
+        answer: "The first three characters of a VIN that uniquely identify a vehicle manufacturer globally."
+      },
+      {
+        question: "Is WMI mandatory for all vehicle manufacturers?",
+        answer: "Yes, any entity manufacturing road-legal vehicles must obtain a WMI Code."
+      },
+      {
+        question: "Which standards govern VIN and WMI?",
+        answer: "ISO 3779 for VIN format and ISO 3780 for WMI format."
+      },
+      {
+        question: "Who issues WMI Codes in India?",
+        answer: "The Bureau of Indian Standards (BIS), in coordination with SAE International."
+      },
+      {
+        question: "How long is the WMI Code valid?",
+        answer: "It remains valid as long as the manufacturer operates under the same name and address."
+      }
+    ]
+  },
+  "telemarketing-registration-india": {
+    title: "Telemarketing Registration in India – Step-by-Step Guide by Do Startup",
+    description: "Telemarketing registration under TRAI/DoT is mandatory for any entity engaging in commercial tele-communications (voice or non-voice) to promote goods or services. Secure your license to operate legally, build consumer trust, and enhance brand credibility.",
+    overview: [
+      {
+        heading: "What is a Telemarketer?",
+        content: "A telemarketer is an individual or legally registered entity that sends commercial communications—via calls, SMS, or recorded messages—to inform consumers about transactions, promote products or services, or solicit business."
+      },
+      {
+        heading: "Who Can Apply?",
+        content: "• Indian citizens (18+ years)  \n• Companies under the Companies Act, 2013  \n• LLPs under the LLP Act, 2008  \n• Partnerships under the Partnership Act, 1932  \n• Sole proprietors  \nApplicants must have a clean legal record."
+      },
+      {
+        heading: "Benefits of Registration",
+        content: "• Legal authorization and avoidance of TRAI/DoT penalties  \n• Improved customer trust and brand image  \n• Higher lead generation and smoother sales  \n• Foundation for long-term business growth"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Strategic Advantages",
+        content: "• Operate within the law and avoid heavy fines  \n• Leverage consumer trust for better conversion  \n• Maintain uninterrupted telecom connectivity  \n• Demonstrate credibility to partners and clients"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Checklist of Required Documents",
+        content: "• PAN Card of the company  \n• TAN details  \n• ROC Number (for companies)  \n• Registered and corporate office address proofs  \n• Last financial year turnover statement  \n• Recent utility bills  \n• Dedicated landline number & email ID  \n• Authorized signatory’s details and ID proof"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Company Incorporation",
+        content: "Ensure your business is incorporated under the appropriate Indian law (Companies, LLP, Partnership or Sole Proprietorship)."
+      },
+      {
+        heading: "Step 2: Document Collection",
+        content: "Gather all mandatory documents as per the checklist above."
+      },
+      {
+        heading: "Step 3: Application Filing",
+        content: "Submit Form TM-1 along with supporting documents to the TRAI/DoT portal."
+      },
+      {
+        heading: "Step 4: Fee Payment",
+        content: "Pay the prescribed registration fee via the online payment gateway."
+      },
+      {
+        heading: "Step 5: Provisional Approval",
+        content: "Receive a Provisional Telemarketing Certificate (valid for 3 months) upon preliminary verification."
+      },
+      {
+        heading: "Step 6: Final Registration",
+        content: "After compliance checks during the provisional period, the Final Telemarketing Registration Certificate is issued with a 10-year validity."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Telemarketing Registration Fees",
+        description: "Fees are prescribed by DoT and may vary. Typically includes: provisional application fee and final registration fee.",
+        feeTable: [
+          {
+            category: "Provisional Registration",
+            amount: "As per TRAI/DoT notification"
+          },
+          {
+            category: "Final Registration",
+            amount: "As per TRAI/DoT notification"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline",
+        description: "End-to-end registration usually completes within 4–6 weeks, subject to document accuracy and compliance checks.",
+        steps: [
+          {
+            title: "Form Submission & Payment",
+            duration: "1–2 weeks",
+            description: "Application filing, fee payment, and provisional certificate issuance."
+          },
+          {
+            title: "Compliance & Final Approval",
+            duration: "3–4 weeks",
+            description: "Verification during provisional period and issuance of final certificate."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "Expert handling of TRAI/DoT procedures",
+          "End-to-end document preparation & filing",
+          "Liaison with regulators to expedite approvals",
+          "Ongoing compliance guidance throughout the license term",
+          "24×7 support for any queries or audits"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is a Telemarketing Certificate?",
+        answer: "It’s an official authorization from TRAI/DoT allowing entities to conduct commercial tele-communications legally in India."
+      },
+      {
+        question: "Who needs to register?",
+        answer: "Any individual or entity sending promotional calls, SMS, or recorded messages for commercial purposes."
+      },
+      {
+        question: "What is the provisional license validity?",
+        answer: "3 months from the date of issuance."
+      },
+      {
+        question: "How long is the final registration valid?",
+        answer: "10 years, subject to continued compliance."
+      },
+      {
+        question: "What happens if I operate without registration?",
+        answer: "You may face heavy fines, license suspension, or legal action under the Telecom Act."
+      },
+      {
+        question: "Can I surrender my license?",
+        answer: "Yes, by notifying DoT 30 days in advance and completing the prescribed formalities."
+      }
+    ]
+  },
+  "trusted-telecom-approval": {
+    title: "Trusted Telecom Approval – A Complete Guide",
+    description: "Mandatory certification under the National Security Directive on Telecommunication Sector (NSDTS) for Telecom Service Providers (TSPs) and vendors seeking to deploy telecom equipment in India.",
+    overview: [
+      {
+        heading: "Trusted Telecom Approval in India",
+        content: "The Government of India has enforced Trusted Telecom Approval for all Telecom Service Providers (TSPs) to ensure national security by verifying that telecom equipment is sourced from trusted vendors. This is governed under the National Security Directive on Telecommunication Sector (NSDTS), operational since June 15, 2021, and implemented via the Trusted Telecom Portal (TTP)."
+      },
+      {
+        heading: "What is the Trusted Telecom Portal?",
+        content: "The Trusted Telecom Portal (TTP), developed by C-DOT with RailTel and NSCS, allows TSPs to check whether a telecom product or vendor is listed as 'trusted'. If not listed, TSPs or vendors can submit an application for verification through the portal."
+      },
+      {
+        heading: "What is NSDTS?",
+        content: "The National Security Directive on Telecommunication Sector (NSDTS) is a strategic framework aimed at ensuring that only secure and trusted telecom hardware and software are used in Indian telecom networks. It mandates verification and approval of vendors and equipment before deployment."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Why is Trusted Telecom Approval Important?",
+        content: "• Ensures compliance with national security regulations  \n• Prevents deployment of unverified or malicious telecom equipment  \n• Mandatory for all TSPs prior to product integration  \n• Promotes accountability and transparency  \n• Non-compliance may lead to blacklisting and operational penalties"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Trusted Telecom Certification",
+        content: "• Official request from Telecom Service Provider (TSP)  \n• Technical specifications of the product  \n• Memorandum of Association (MoA) and Articles of Association (AoA)  \n• Authorization letter from a company official  \n• Company registration and identity documents"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: TSP or Vendor Request Initiation",
+        content: "Either a TSP or vendor initiates a request for listing on the Trusted Telecom Portal by creating an account and filling the application form."
+      },
+      {
+        heading: "Step 2: Documentation Submission",
+        content: "Upload all mandatory documents including technical specs, legal identification, and authorization letters."
+      },
+      {
+        heading: "Step 3: Review by NCSC",
+        content: "The National Cyber Security Coordinator (NCSC), in consultation with the National Security Committee on Telecom (NSCT), evaluates the application and verifies the credentials."
+      },
+      {
+        heading: "Step 4: Approval & Listing",
+        content: "Upon successful verification, the product/vendor is listed as a Trusted Source on the portal, and approval is granted."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Trusted Telecom Approval – Fee Details",
+        description: "Currently, there is no publicly disclosed standard government fee for Trusted Telecom Approval. Costs may vary depending on liaison or consultancy services availed during the application process.",
+        feeTable: [
+          {
+            category: "TSP/Vendor Application",
+            amount: "Varies (Subject to consultant or authority)"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Trusted Telecom Approval",
+        description: "Approval timelines may vary based on documentation accuracy and authority processing.",
+        steps: [
+          {
+            title: "Initial Application Submission",
+            duration: "2–5 business days",
+            description: "Vendor or TSP submits application and documents via TTP."
+          },
+          {
+            title: "Evaluation by NCSC",
+            duration: "2–4 weeks",
+            description: "Verification by authorities and multi-agency review process."
+          },
+          {
+            title: "Final Approval",
+            duration: "1–2 days",
+            description: "Listing of vendor/product on the Trusted Sources database."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Trusted Telecom Approval?",
+        description: [
+          "Dedicated telecom compliance experts",
+          "Liaison with TSPs and government bodies",
+          "Complete documentation assistance and submission",
+          "Faster application turnaround",
+          "End-to-end support until final listing"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is the purpose of NSDTS?",
+        answer: "To ensure secure procurement of telecom equipment and prevent national security risks from unauthorized vendors or products."
+      },
+      {
+        question: "What is the Trusted Telecom Portal (TTP)?",
+        answer: "An official portal allowing TSPs and vendors to request product/vendor listing and verify approval status."
+      },
+      {
+        question: "Who verifies the application for Trusted Telecom Approval?",
+        answer: "The National Cyber Security Coordinator (NCSC), with oversight from the National Security Committee on Telecom (NSCT)."
+      },
+      {
+        question: "Is Trusted Telecom Approval mandatory for all TSPs?",
+        answer: "Yes, TSPs must use only trusted products and vendors as per NSDTS guidelines."
+      },
+      {
+        question: "How can a vendor be listed on the Trusted Telecom Portal?",
+        answer: "Vendors can apply directly via the TTP by submitting relevant documentation or be nominated by a TSP."
+      },
+      {
+        question: "What is Trusted Telecom Certification (TTC)?",
+        answer: "It is the formal approval confirming that a vendor or product is compliant with NSDTS and safe for use in telecom networks."
+      },
+      {
+        question: "What equipment is covered under NSDTS?",
+        answer: "All core and access network components like routers, switches, base stations, and control elements used by TSPs."
+      }
+    ]
+  },
+  "uplinking-downlinking-permission": {
+    title: "Uplinking/Downlinking Channel Permission – A Complete Guide",
+    description: "Obtain uplinking/downlinking channel permissions from the Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal for legal satellite TV broadcasting in India.",
+    overview: [
+      {
+        heading: "What is Uplinking and Downlinking?",
+        content: "In India, broadcasters must obtain government authorization to transmit or receive TV signals via satellite. Uplinking refers to sending electronic signals from a station to a satellite, while downlinking means receiving those signals back on Earth. The permission is granted under the Uplinking and Downlinking Policy Guidelines, 2011."
+      },
+      {
+        heading: "Why is Permission Required?",
+        content: "Uplinking/downlinking permission ensures compliance with national broadcasting and security standards. It regulates content flow and infrastructure used in TV signal transmission and is legally mandatory before operating a TV channel via satellite."
+      },
+      {
+        heading: "Who Grants This License?",
+        content: "The Ministry of Information and Broadcasting (MIB) is the licensing authority. Applications are processed via the Broadcast Seva Portal, and approvals are subject to financial and technical scrutiny."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Securing Uplinking/Downlinking Permission",
+        content: "• Legal authorization to broadcast satellite TV in India\n• Enables channel listing with cable and DTH operators\n• Regulatory protection for content and operations\n• Builds trust with viewers, advertisers, and partners\n• Facilitates global reach for Indian broadcasters"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Uplinking/Downlinking Approval",
+        content: "• Certificate of Incorporation\n• Memorandum & Articles of Association (MoA & AoA)\n• List of Directors and Shareholders\n• Audited Balance Sheet\n• Board Resolution authorizing the application\n• Details of Foreign Employees (if any)\n• Equipment Specifications\n• FDI Details (if applicable)\n• 90-day Operational Report\n• Technical documents like block diagrams and schematics"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Document Preparation",
+        content: "Compile all required documents as per MIB guidelines. Ensure accuracy to prevent delays or rejection."
+      },
+      {
+        heading: "Step 2: Application Filing on Broadcast Seva Portal",
+        content: "Apply online via the Broadcast Seva Portal. Fill in correct technical and legal details and pay the application fee."
+      },
+      {
+        heading: "Step 3: Application Scrutiny by MIB",
+        content: "The Ministry of Information and Broadcasting examines the application, assessing financial capability, legal status, and infrastructure."
+      },
+      {
+        heading: "Step 4: Issuance of Letter of Intent (LoI)",
+        content: "Upon successful evaluation, the MIB issues a Letter of Intent. The applicant must then pay the license fee and submit a Performance Bank Guarantee."
+      },
+      {
+        heading: "Step 5: Grant of Final License",
+        content: "Final permission is issued, typically valid for 5 years. Renewal requires annual fee payments and compliance review."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Net Worth Requirements",
+        description: "Applicants must fulfill the following net worth criteria based on the type and number of channels or teleports:",
+        feeTable: [
+          {
+            category: "First Teleport",
+            amount: "₹3 Crores"
+          },
+          {
+            category: "Additional Teleport",
+            amount: "₹1 Crore"
+          },
+          {
+            category: "First Non-News TV Channel",
+            amount: "₹5 Crores"
+          },
+          {
+            category: "Additional Non-News TV Channel",
+            amount: "₹2.5 Crores"
+          },
+          {
+            category: "First News TV Channel",
+            amount: "₹20 Crores"
+          },
+          {
+            category: "Additional News TV Channel",
+            amount: "₹5 Crores"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Uplinking/Downlinking Permission",
+        description: "The licensing process typically takes 4–6 weeks, subject to document verification and MIB processing timelines.",
+        steps: [
+          {
+            title: "Document Compilation",
+            duration: "1 week",
+            description: "Prepare and collate required company and technical documents."
+          },
+          {
+            title: "Application Submission",
+            duration: "2–3 days",
+            description: "Submit application on Broadcast Seva Portal and pay fees."
+          },
+          {
+            title: "Scrutiny and LoI Issuance",
+            duration: "3–4 weeks",
+            description: "Application reviewed and Letter of Intent issued."
+          },
+          {
+            title: "Final Approval",
+            duration: "1 week",
+            description: "Submit guarantee and fee to obtain broadcasting license."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Uplinking/Downlinking Permission?",
+        description: [
+          "We simplify the licensing process for broadcasters in India"
+        ],
+        points: [
+          "Expertise in MIB compliance and documentation",
+          "Proven success with national broadcasters",
+          "Fast and accurate application filing",
+          "Support with financial and technical representation",
+          "End-to-end coordination with MIB authorities"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Who grants uplinking/downlinking permission in India?",
+        answer: "The Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal."
+      },
+      {
+        question: "What are the financial eligibility norms?",
+        answer: "Net worth requirements range from ₹1 Cr to ₹20 Cr depending on the type of operation and number of teleports/channels."
+      },
+      {
+        question: "Is submission of an audited balance sheet mandatory?",
+        answer: "Yes, it's a mandatory part of financial assessment by MIB."
+      },
+      {
+        question: "Can a disqualified applicant reapply?",
+        answer: "No. Any entity previously disqualified is not eligible to apply again."
+      },
+      {
+        question: "What policy governs uplinking and downlinking permissions?",
+        answer: "The Uplinking and Downlinking Policy Guidelines, 2011."
+      },
+      {
+        question: "Is setting up a teleport hub mandatory for uplinking?",
+        answer: "Yes. A fully operational teleport hub is required before uplinking permissions are granted."
+      }
+    ]
+  },
+  "flipkart-seller-registration": {
+    title: "Flipkart Seller Registration – A Complete Guide",
+    description: "Register as a Flipkart seller and reach millions of customers with ease through India's leading e-commerce platform.",
+    overview: [
+      {
+        heading: "Overview on Flipkart Seller Registration",
+        content: "Flipkart seller registration is the official process through which vendors can enlist themselves as sellers on the Flipkart platform to showcase and sell their products online. This offers a smart and scalable way to reach a broader customer base without needing physical storefronts. Flipkart manages logistics such as shipping, payments, and customer service for its sellers."
+      },
+      {
+        heading: "History of Flipkart",
+        content: "Founded in 2007 by Sachin and Binny Bansal, Flipkart began as a platform for selling books. Over time, it diversified into electronics, fashion, lifestyle products, and more. It has acquired several businesses, with Myntra being one of the most significant acquisitions. Flipkart also supports sellers with tools like training and workshops to help them scale."
+      },
+      {
+        heading: "Is GST Registration Mandatory for Flipkart Seller Registration?",
+        content: "Yes. A valid GSTIN is compulsory to register as a seller on Flipkart."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Flipkart Seller Registration",
+        content: "• Business Growth: Reach more customers across India.\n• Lower Costs: Low operational and compliance costs.\n• Transparency: A clear and straightforward business model.\n• Ease of Business: Simplified selling experience.\n• Customer Feedback: Receive valuable insights through reviews.\n• Better Marketing: Enhanced product visibility through Flipkart ads."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Minimum Requirements to Register as a Flipkart Seller",
+        content: "• GST Registration (GSTIN)\n• PAN Card (individual or business)\n• Business Registration (if not sole proprietorship)\n• Active Bank Account\n• At least one product to list\n• Active mobile number and email ID"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step 1: Register Your Business",
+        content: "Ensure your business is legally registered under a valid structure such as a sole proprietorship, partnership, LLP, or private limited company."
+      },
+      {
+        heading: "Step 2: Open a Bank Account",
+        content: "Create a current bank account in your business name to enable smooth transactions."
+      },
+      {
+        heading: "Step 3: Apply for GST",
+        content: "Obtain a valid GSTIN for tax compliance, which is mandatory for Flipkart registration."
+      },
+      {
+        heading: "Step 4: Create Flipkart Account",
+        content: "Go to seller.flipkart.com and register with necessary details such as contact info, PAN, and GSTIN."
+      },
+      {
+        heading: "Step 5: List Products",
+        content: "Upload at least 10 products with proper descriptions, images, and pricing under appropriate categories."
+      },
+      {
+        heading: "Step 6: Start Selling",
+        content: "Once products are listed, fulfill incoming orders and mark them ready for dispatch."
+      },
+      {
+        heading: "Step 7: Get Paid",
+        content: "Flipkart settles seller payments within 10–15 days after successful delivery."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Flipkart Seller Fees and Charges",
+        description: "There are no charges for listing products on Flipkart. Fees are only applicable after a successful sale is made.",
+        feeTable: [
+          {
+            category: "Referral Fee",
+            amount: "Starts at 3% (based on product category)"
+          },
+          {
+            category: "Closing Fee",
+            amount: "Fixed fee based on selling price"
+          },
+          {
+            category: "Shipping Fee",
+            amount: "Starts from ₹30, varies by item size and delivery location"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Flipkart Seller Registration",
+        description: "The Flipkart seller account can be activated within a few hours if all documents are ready.",
+        steps: [
+          {
+            title: "Account Creation and Document Upload",
+            duration: "1 Day",
+            description: "Register your account and upload business documents including PAN, GSTIN, and bank account details."
+          },
+          {
+            title: "Product Listing and Verification",
+            duration: "1–2 Days",
+            description: "List minimum 10 products; Flipkart may verify listings before activating sales."
+          },
+          {
+            title: "Begin Selling",
+            duration: "Instant after approval",
+            description: "Start receiving and dispatching orders to customers."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Flipkart Seller Registration?",
+        description: [
+          "Expert support for account setup and compliance",
+          "Quick turnaround with error-free document filing",
+          "Dedicated support team for new sellers"
+        ],
+        points: [
+          "100% document accuracy",
+          "No hidden charges",
+          "Free consultation for listing strategy"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Will there be a fee to list goods on Flipkart?",
+        answer: "No, listing products on Flipkart is completely free of charge."
+      },
+      {
+        question: "How many listings are required before sales start?",
+        answer: "You must list at least 10 products to begin selling on Flipkart."
+      },
+      {
+        question: "When will the buyer pay the seller?",
+        answer: "Payments are made within 10–15 days of successful delivery."
+      },
+      {
+        question: "Should I ship my items to Flipkart?",
+        answer: "No, you pack the orders and Flipkart picks them up from your location."
+      },
+      {
+        question: "What are the benefits of selling on Flipkart?",
+        answer: "Access to a wide customer base, logistics support, protection fund, and improved product visibility."
+      },
+      {
+        question: "What details are needed to register as a Flipkart seller?",
+        answer: "You need GSTIN, PAN card, bank account, contact details, and a product list."
+      },
+      {
+        question: "How is the login process completed?",
+        answer: "Login is done through seller.flipkart.com using OTP verification on your registered mobile number."
+      },
+      {
+        question: "Why sell products on Flipkart?",
+        answer: "To reach a vast online market, grow your brand, and leverage Flipkart’s logistics and technology support."
+      },
+      {
+        question: "Who is eligible to sell on Flipkart?",
+        answer: "Anyone with at least one product and valid documents like GSTIN and PAN card."
+      },
+      {
+        question: "How long does the registration process take?",
+        answer: "Usually completed within a few hours if all required documents are ready."
+      },
+      {
+        question: "Can services be sold on Flipkart?",
+        answer: "Currently, Flipkart is focused on tangible products only."
+      },
+      {
+        question: "How does Flipkart dispatch orders?",
+        answer: "Sellers pack the product, and Flipkart handles delivery to the customer."
+      },
+      {
+        question: "Do I have to pay to list my products?",
+        answer: "No, listing is free. Fees are charged only on confirmed orders."
+      }
+    ]
+  },
+  "sanitary-import-permit": {
+    title: "Sanitary Import Permit – A Complete Guide",
+    description: "Obtain your Sanitary Import Permit with Do Startup’s expert support to legally import animal-based products into India.",
+    overview: [
+      {
+        heading: "Sanitary Import Permit – An Overview",
+        content: "If you're involved in importing animal-based products like meat, milk items, eggs, ova, semen, embryos, or pet food, you must obtain a Sanitary Import Permit at customs. Partner with Do Startup’s experts to ensure compliance and seamless documentation.\nA Sanitary Import Permit is a certificate issued under the Ministry of Agriculture’s authority, in accordance with Sections 3 and 4 of the Livestock Importation Act, 1898. The Department of Animal Husbandry, Dairying, and Fisheries ensures that this permit helps prevent foreign animal diseases from entering India."
+      },
+      {
+        heading: "What is a Sanitary Import Permit?",
+        content: "The Sanitary Import Permit, granted under Section 3(a) of the Livestock Importation Act of 1898, permits the import of livestock and livestock products. Although not a license, it specifies hygiene and safety requirements that must be met by the exporting country prior to entry into India."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Sanitary Import Permit Certificate",
+        content: "• Designated Entry Points: Import of animal products is only allowed through authorized seaports and airports like Delhi, Mumbai, Kolkata, Chennai, Bangalore, and Hyderabad. Fish imports can also pass through Visakhapatnam, Kochi, and Petrapole (Bangladesh border).\n• Disease Control: The permit reduces the risk of foreign diseases by ensuring hygienic product certification before entry.\n• Hygienic Assurance: Ensures animal product safety through veterinarian certification from the exporting country.\n• Financial Protection: Minimizes potential losses from disease outbreaks in imported livestock products."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Sanitary Import Permit Certificate",
+        content: "• Valid FSSAI license for importing livestock products for human use\n• FSSAI license copy\n• Product catalogue and description\n• Ingredient details for each item\n• Product process chart\n• List of items to be imported\n• Certificate of Analysis (chemical and microbiological details)\n• Intended use of imported items"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Sanitary Import Permit Online Application Process",
+        content: "1. Visit the SIP portal and choose the relevant tab\n2. Complete Form A or B and upload the required documents\n3. Make the payment via the online gateway\n4. Upon approval, download the permit directly from the portal"
+      },
+      {
+        heading: "Compliance Requirements for Sanitary Import Permit",
+        content: "• The product must comply with Codex and Indian Food Safety standards\n• Attach a valid sanitary certificate from the origin country\n• No beef or beef derivatives allowed\n• Provide necessary health certificates\n• Products must pass microbiological, chemical, and physical tests\n• Product lists must follow the standard format and quantity"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fees for Acquiring an Online Sanitary Import Permit",
+        description: "The government fee for a Sanitary Import Permit is ₹300 per application. Professional service fees may vary based on service providers.",
+        feeTable: [
+          {
+            category: "Government Application Fee",
+            amount: "₹300"
+          },
+          {
+            category: "Consultancy Charges (Optional)",
+            amount: "Varies by service provider"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Getting a Sanitary Import Permit Certificate",
+        description: "The permit is typically issued within 8–12 working days, subject to proper documentation and verification.",
+        steps: [
+          {
+            title: "Document Preparation & Upload",
+            duration: "1–3 days",
+            description: "Collect and upload all mandatory documents on the SIP portal."
+          },
+          {
+            title: "Application Review",
+            duration: "4–7 days",
+            description: "Authorities verify documentation, purpose, and compliance."
+          },
+          {
+            title: "Permit Issuance",
+            duration: "1–2 days",
+            description: "Upon successful approval, the permit is made available for download."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for Sanitary Import Permit Services?",
+        description: [
+          "Comprehensive guidance from experienced consultants",
+          "Timely document review and submission",
+          "Regulatory support for smooth import clearance"
+        ],
+        points: [
+          "10+ years of expertise",
+          "Trusted by 500+ importers",
+          "99% approval success rate"
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "What is the validity of a sanitary import permit?",
+        answer: "It ranges from 3 months to 1 year, allowing multiple consignments within the approved limit."
+      },
+      {
+        question: "What is a sanitary import permit?",
+        answer: "It is a certificate specifying sanitary norms for importing livestock products into India."
+      },
+      {
+        question: "What is a sanitary import permit in customs?",
+        answer: "A document required at customs clearance to confirm compliance with animal import health norms."
+      },
+      {
+        question: "How can I get a sanitary import permit in India?",
+        answer: "Apply online via the SIP portal, attach required documents, and complete payment."
+      },
+      {
+        question: "Why is an online sanitary import permit required?",
+        answer: "To ensure that imported animal products meet health and hygiene standards, protecting public health."
+      },
+      {
+        question: "What documents are required for the sanitary import permit?",
+        answer: "FSSAI license, product catalogue, ingredient list, usage details, process chart, and analysis certificate."
+      },
+      {
+        question: "How is the Sanitary Import Permit delivered?",
+        answer: "Approved permits are made available for download on the SIP portal."
+      },
+      {
+        question: "How will missing documents be communicated?",
+        answer: "The applicant will be notified through the SIP portal to correct and resubmit the documents."
+      },
+      {
+        question: "What is the fee for a sanitary import permit?",
+        answer: "₹300 per application, excluding any consultant’s professional fees."
+      },
+      {
+        question: "How long does it take to get a sanitary import permit certificate?",
+        answer: "Typically 8–12 working days, subject to regulatory review and documentation."
+      }
+    ]
+  },
+  "npop-certification": {
+    title: "NPOP Certification – A Complete Guide",
+    description: "Achieve NPOP certification with Do Startup’s expert support to certify your organic products for domestic and export markets under the National Programme for Organic Production.",
+    overview: [
+      {
+        heading: "An Overview of NPOP Certification",
+        content: "NPOP certification is a government-backed initiative that sets benchmarks for organic cultivation, processing, and trade. It allows farmers and businesses to officially showcase their adherence to organic farming standards, catering to eco-conscious consumers and promoting sustainable agriculture."
+      },
+      {
+        heading: "What is NPOP?",
+        content: "The National Programme for Organic Production (NPOP), launched in 2001, defines standards for organic farming, systems, and certification. Aligned with global norms, it governs the use of the India Organic logo and regulates import/export under APEDA."
+      },
+      {
+        heading: "Background of NPOP in India",
+        content: "Started in 2000, NPOP enabled organic certification for farms and livestock. As of 2024, India ranks second globally in organic farmland and first in farmer count. Administered by APEDA under the Ministry of Commerce, it unlocks both domestic and international organic markets."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of NPOP Registration",
+        content: "• Boost Consumer Trust – Certified products reassure buyers of quality.\n• Market Recognition – Credibility as a certified organic supplier.\n• Eco-Friendly Practices – Promotes sustainable agriculture and biodiversity.\n• Health Assurance – Guarantees chemical-free, GMO-free products.\n• Global Market Access – Facilitates organic exports under recognized standards."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for NPOP Certification",
+        content: "• Certification body’s mandate and program statement\n• Inspection and evaluation procedures\n• Fee structure and financial details\n• Complaint and appeal handling process\n• List of certified products\n• Company registration proof\n• Memorandum of Association (MOA)\n• Audited financial statements\n• Accreditation fee receipts\n• ISO 17065 quality manual\n• SOPs, formats, and checklists\n• Authorization letter\n• Additional relevant documents"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Apply for NPOP Certification",
+        content: "1. Check Eligibility – Ensure compliance with NPOP farm and production standards.\n2. Choose a Certification Body – Accredited by APEDA under NPOP.\n3. Submit Application – Provide details of farm, crops, livestock.\n4. Upload Documents – Include certification plan, inputs, SOPs, etc.\n5. Inspection & Verification – Third-party checks ensure compliance.\n6. Certification Approval – Issued on successful compliance.\n7. Annual Review – APEDA conducts yearly audits of certified units."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "NPOP Certification Fees",
+        description: "Fees vary by certification body and scope of operation. Typically include application fee, inspection charges, and annual surveillance fees."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Timeline of NPOP Certification",
+        description: "Valid for 3 years from issuance.",
+        steps: [
+          {
+            title: "Application to Approval",
+            duration: "3–6 months",
+            description: "Includes document review, inspections, and compliance verification."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup for NPOP Certification?",
+        description: [
+          "Assisted 500+ agripreneurs",
+          "10+ years of sector expertise",
+          "99% certification success rate",
+          "End-to-end support",
+          "Affordable services",
+          "24/7 expert assistance"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "What is NPOP certification?",
+        answer: "NPOP certification assures organic production quality under a national standard governed by APEDA and the Department of Commerce."
+      },
+      {
+        question: "What is the validity of an NPOP certificate?",
+        answer: "Valid for 3 years from the issuance date."
+      },
+      {
+        question: "What is the difference between NPOP and PGS-India?",
+        answer: "NPOP is a national certification scheme for export and domestic markets; PGS-India is a participatory guarantee system for domestic trade."
+      },
+      {
+        question: "Who certifies organic food in India?",
+        answer: "Certification bodies accredited by APEDA and NAB under NPOP carry out audits and approvals."
+      },
+      {
+        question: "Who needs organic certification?",
+        answer: "Producers, processors, traders, and exporters of organic agricultural products require certification."
+      },
+      {
+        question: "What does NPOP stand for?",
+        answer: "National Programme for Organic Production."
+      }
+    ]
+  },
+  "drone-registration": {
+    title: "Drone Registration – A Complete Overview",
+    description: "Register your drone on India’s Digital Sky platform via Do Startup to ensure legal, safe, and compliant operations for commercial or recreational use.",
+    overview: [
+      {
+        heading: "What is Drone Registration?",
+        content: "Under DGCA’s Drone Rules, 2021, all unmanned aircraft systems (UAS) above nano category must be registered on the Digital Sky platform to obtain a Unique Identification Number (UIN) and Operator Permit (UAOP) before flight operations."
+      },
+      {
+        heading: "Categories of Drone Registration",
+        content: "• Nano Drones: ≤ 250 g\n• Micro Drones: 251 g – 2 kg\n• Small Drones: 2 – 25 kg\n• Medium Drones: 25 – 150 kg\n• Large Drones: > 150 kg"
+      },
+      {
+        heading: "Importance of Registration",
+        content: "Ensures compliance with national security directives, prevents unauthorized flights, promotes safe operations, and supports growth of India’s indigenous drone ecosystem."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Drone Registration",
+        content: "• Prevent unauthorized drone flights\n• Ensure operational safety and compliance\n• Enable commercial drone services\n• Boost domestic drone manufacturing\n• Access DGCA-approved flight corridors"
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Registration",
+        content: "• Organization name & address proof\n• Company registration number & GST certificate\n• Director’s name & DIN\n• Aadhar card of one director\n• Drone specifications & photograph\n• OEM certificate & No Permission No Takeoff (NPNT) letter"
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content: "1. Check OEM certificate & NPNT compliance\n2. Register on Digital Sky portal\n3. Apply for UIN and mark it on your drone\n4. Apply for UAOP (Operator Permit)\n5. Obtain Remote Pilot License from DGCA-authorized institute\n6. Install NPNT software for real-time flight permissions"
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Government Fees",
+        description: "• UIN issuance: ₹1,000\n• UAOP application: ₹25,000\n• UAOP renewal: ₹10,000"
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Complete Registration",
+        description: "Process typically takes a few weeks to a few months depending on document accuracy and DGCA approvals.",
+        steps: [
+          {
+            title: "Digital Sky Registration",
+            duration: "1–2 weeks",
+            description: "Portal sign-up, form filling, and UIN issuance."
+          },
+          {
+            title: "UAOP & Pilot License",
+            duration: "2–4 weeks",
+            description: "Operator permit application and remote pilot license issuance."
+          }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose Do Startup?",
+        description: [
+          "10,000+ experts nationwide",
+          "2,000+ successful drone registrations",
+          "99% approval rate",
+          "End-to-end documentation support",
+          "Transparent pricing and timelines",
+          "24/7 compliance assistance"
+        ],
+        points: []
+      }
+    ],
+    faq: [
+      {
+        question: "Do I need a license for nano drones?",
+        answer: "No, nano drones (≤ 250 g) flown for non-commercial purposes are exempt from registration and pilot licensing."
+      },
+      {
+        question: "What is NPNT?",
+        answer: "No Permission No Takeoff (NPNT) is a mandate requiring real-time digital clearance before drone takeoff."
+      },
+      {
+        question: "How long is a UAOP valid?",
+        answer: "UAOP validity aligns with drone category and pilot license validity, typically renewable annually."
+      },
+      {
+        question: "Can I fly anywhere in India?",
+        answer: "No, flights are restricted to green zones and require DPR approval for red and yellow zones."
+      },
+      {
+        question: "How soon can I start commercial operations?",
+        answer: "After obtaining UIN, UAOP, NPNT compliance, and remote pilot license — typically within 4–6 weeks."
+      }
+    ]
+  },
+  "iso-registration": {
+    title: "ISO Registration",
+    description: "Do you want ISO Registration to boost your brand’s credibility? Our experts help you obtain ISO Certification to meet global standards, ensure quality, and build lasting trust with your customers.",
+    overview: [
+      {
+        heading: "ISO Certification – An Overview",
+        content: "ISO Certification is a globally recognized standard that validates an organization’s ability to consistently deliver quality products and services. It fosters innovation and supports international trade by ensuring safety, efficiency, and regulatory compliance.\n \n ISO certification confirms that a company's management system meets the standards set by the International Organization for Standardization. It boosts credibility among stakeholders, supports consistent improvement, and promotes high operational standards.",
+      },
+      {
+        heading: "Each ISO certificate covers specific domains like:",
+        content: "• Management Systems\n• Production Processes\n• Services and Documentation"
+      },
+      {
+        heading: "Key Prerequisites for ISO Registration",
+        content: "• Secure the relevant ISO 9001 certification.\n• Choose a reliable ISO certifying agency.\n• Understand customer expectations.\n• Focus on outcome-driven service delivery."
+      },
+      {
+        heading: "Common Types of ISO Certifications",
+        content: "• ISO 9001:2015 – Quality Management Systems\n• ISO 14001 – Environmental Management\n• ISO 10012 – Measurement Management\n• OHSAS 18001 – Occupational Health & Safety\n• ISO 20000 – IT Service Management\n• ISO 22000 – Food Safety\n• ISO 27001 – Information Security\n• ISO 31000 – Risk Management\n• ISO 13485 – Medical Devices\n• ISO 17025 – Testing and Calibration Labs\n• ISO 11135 – Sterilization\n• ISO 26000 – Social Responsibility\n• CE Mark\n• ISO 50001 – Energy Management\n• HALAL Certification\n• GMP – Good Manufacturing Practices"
+      },
+      {
+        heading: "Key Principles of ISO 9001:2015",
+        content: "• Leadership commitment\n• Customer-centric focus\n• Process-driven strategy\n• Employee engagement\n• Continual improvement\n• Structured management\n• Evidence-based decisions\n• Reliable supplier partnerships"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of ISO Certification",
+        content: "• Boosts Operational Efficiency\n • Improves Global Market Reach\n • Enhances Customer Satisfaction\n • Strengthens Global Credibility\n • Ensures High Product Standards\n • Assists in Securing Government Tenders\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Required Documents for ISO Certification",
+        documents: [
+          "Identity & Address Proof (Aadhaar + PAN)",
+          "Passport-size photos",
+          "Utility/Electricity bill",
+          "Rent Agreement or Sale Deed",
+          "Certificate of Incorporation, MOA, and AOA (for companies)"
+        ],
+      },
+      {
+        category: "ISO Audit Types",
+        documents: [
+          "Internal Audit – Done by trained in-house or external teams",
+          "Supplier Audit – Conducted by lead auditors",
+          "Certification Audit – Performed by ISO-accredited certification bodies"
+        ],
+      },
+      {
+        category: "Do Startup Assistance for ISO Certification",
+        documents: [
+          "Choose the right ISO Plan",
+          "Ask your ISO queries",
+          "Submit documents to Do Startup experts",
+          "Application drafting and filing",
+          "Initial screening",
+          "Full procedural support",
+          "Receive your ISO Certificate hassle-free"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Registration Process",
+        content:
+          "1. Select ISO Type – Choose the certification based on your business needs.\n2. Submit Application – Provide organization details and responsibilities.\n3. Document Submission – Submit quality manuals and operational policies.\n4. Initial Quality Review – Registrar evaluates your system for gaps.\n5. Prepare Action Plan – Address identified gaps with corrective actions.\n6. Registrar Audit – On-site audit to verify implementation. Minor non-compliances can be fixed; major non-compliances must be resolved before continuation.\n7. Get Certified – Once compliant, the ISO Certificate is issued."
+      }
+    ],
+    faq: [
+      {
+        question: "What is the cost of ISO Certification?",
+        answer: "It depends on your organization’s size and operational complexity."
+      },
+      {
+        question: "Can I choose any ISO accreditation?",
+        answer: "Yes, as per your business needs and eligibility."
+      },
+      {
+        question: "Can start-ups apply for ISO certification?",
+        answer: "Absolutely, even new businesses can be ISO certified."
+      },
+      {
+        question: "What is the validity of an ISO Certificate?",
+        answer: "Typically valid for 3 years, with annual audits."
+      },
+      {
+        question: "What does ISO 9001 mean?",
+        answer: "It represents Quality Management System standards."
+      },
+      {
+        question: "Why is ISO Certification important?",
+        answer: "It builds credibility, quality assurance, and global acceptance."
+      },
+      {
+        question: "Can ISO Certification be transferred?",
+        answer: "Yes, under specific conditions and through proper channels."
+      },
+      {
+        question: "What is ISO Accreditation?",
+        answer: "It is a formal recognition of an organization’s competence to perform certification."
+      },
+      {
+        question: "Can the ISO Certificate be renewed?",
+        answer: "Yes, through recertification after validity ends."
+      },
+      {
+        question: "What is ISO 27001?",
+        answer: "It defines best practices for Information Security Management Systems (ISMS)."
+      }
+    ],
+  },
+  "iso-certification-14001-ems": {
+    title: "ISO 14001 EMS",
+    description: "ISO 14001 ems is applicable to any type of organization despite its activity or sector. Dostartup guides you in framing specific goals for your organization to meet environment-friendly goals.",
+    overview: [
+      {
+        heading: "Overview of ISO 14001 EMS Certification",
+        content: "Earlier, environmental protection in the corporate world was mainly limited to onsite impact checks for regulatory compliance. Today, the ISO 14001 Environmental Management System (EMS) promotes proactive sustainability, making all employees conscious of eco-friendly practices and minimizing environmental harm.\nISO 14001 EMS is a globally accepted standard that provides a framework for building a comprehensive Environmental Management System across all business sectors and sizes."
+      },
+      {
+        heading: "What is ISO?",
+        content: "ISO (International Organization for Standardization) is a global body creating standards to help businesses and governments achieve consistency, quality, and efficiency."
+      },
+      {
+        heading: "Objective of ISO 14001 EMS",
+        content: "The goal of ISO 14001 EMS is to help organizations protect the environment while aligning their operations with sustainable practices. This includes:\n• Preventing or minimizing environmental impact\n• Meeting regulatory obligations\n• Improving eco-performance\n• Managing environmental lifecycle from design to disposal\n• Gaining financial and operational benefits\n• Sharing environmental info with interested stakeholders\n\nNote: This standard does not change legal requirements but complements them."
+      },
+      {
+        heading: "Criteria for ISO 14001 EMS Certification",
+        content: "Key criteria include:\n• Commitment to environmental sustainability\n• Strategic planning with goals and targets\n• Effective implementation (training, documentation, communication)\n• Monitoring & reviewing plans\n• EMS performance evaluation and continuous improvement\n\nOrganizations can meet these criteria through in-house management or certified environmental software designed to align with ISO 14001 guidelines."
+      },
+      {
+        heading: "Prerequisites for ISO 14001 EMS Registration",
+        content: "To apply for ISO 14001 EMS Certification, an organization must:\n• Meet relevant environmental laws and regulations\n• Identify significant environmental aspects\n• Review current eco-practices\n• Analyze past environmental incidents"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 14001 EMS Certification",
+        content: "• Encourages reduce, reuse, recycle principles\n• Lowers environmental impact of business operations\n• Proves CSR compliance\n• Promotes eco-conscious brand image\n• Builds public trust and credibility\n• Increases staff awareness of environmental responsibility\n• Reduces pollution and waste\n• Ensures legal compliance\n• Boosts marketability, sustainability, and profitability\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Documents for ISO 14001 EMS",
+        documents: [
+          "EMS Scope & Policy",
+          "Risk & Opportunity Assessments",
+          "Environmental Aspects & Impacts",
+          "Compliance Documents",
+          "Environmental Goals & Plans",
+          "Emergency Preparedness Plans",
+          "Staff Qualification Records",
+          "Communication Logs",
+          "Internal Audit & Management Review Reports"
+        ],
+      },
+      {
+        category: "Optional but Important Documents",
+        documents: [
+          "Procedure for Context & Stakeholder Analysis",
+          "Environmental Risk Evaluation Procedure",
+          "Training & Competency Guidelines",
+          "Internal Audit & Communication Procedures",
+          "Corrective Action Procedure"
+        ],
+      },
+      {
+        category: "What Does ISO 14001 EMS Include?",
+        documents: [
+          "Follows a high-level structure for integration with other ISO management systems",
+          "Allows integration with quality, health, and financial systems",
+          "Flexible for any organization",
+          "Methods to demonstrate conformity: Self-declaration, Third-party verification, Certification by an external body",
+          "Relevant stakeholders: customers, employees, regulators, investors, NGOs, local communities"
+        ],
+      },
+      {
+        category: "Do Startup Assistance for ISO 14001 EMS",
+        documents: [
+          "Choose a plan for expert support",
+          "Ask ISO 14001 EMS queries",
+          "Submit required documents to Do Startup",
+          "Clear screening process",
+          "Complete procedural formalities",
+          "Get your ISO 14001 EMS certification smoothly"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "ISO 14001 EMS Certification Process",
+        content:
+          "1. Internal Audit: Check EMS processes internally.\n2. Management Review: Evaluate EMS strategy and results.\n3. Corrective Actions: Identify and address gaps.\n4. Training: Educate staff on EMS practices.\n5. Design & Documentation: Update manuals and records.\n6. EMS Improvement: Implement and refine systems.\n7. Audit by Registrar: External assessment of compliance.\n8. Certification: Upon successful audit, ISO 14001 EMS Certificate is issued.\n\nNote: EMS Certifications are valid for 3 years, subject to surveillance audits."
+      }
+    ],
+    faq: [
+      {
+        question: "What is EMS?",
+        answer: "An Environmental Management System (EMS) helps businesses manage and reduce their environmental impact."
+      },
+      {
+        question: "What is the purpose of ISO 14001?",
+        answer: "To help organizations improve their environmental performance and comply with legal standards."
+      },
+      {
+        question: "What are the benefits of ISO 14001 Certification?",
+        answer: "It improves eco-efficiency, compliance, brand image, and reduces environmental risks."
+      },
+      {
+        question: "Who should get ISO 14001 EMS Certification?",
+        answer: "Any organization aiming to adopt sustainable practices and demonstrate environmental responsibility."
+      },
+      {
+        question: "Who are interested parties in ISO 14001?",
+        answer: "Entities affected by or interested in your EMS — like regulators, customers, NGOs, and employees."
+      },
+      {
+        question: "What’s new in ISO 14001:2015?",
+        answer: "It includes leadership involvement, lifecycle perspective, and performance evaluation."
+      },
+      {
+        question: "What is the validity of ISO 14001 EMS Certification?",
+        answer: "Three years, with periodic surveillance audits."
+      }
+    ],
+  },
+  "iso-22000-certification-fsms": {
+    title: "ISO 22000 FSMS",
+    description: "DoStartup is here to assist you in obtaining ISO 22000 fsms for your organisation to ensure that being producer of food items, you are managing the food safety of products and well-being of consumers.",
+    overview: [
+      {
+        heading: "Overview of ISO 22000 FSMS",
+        content: "Food safety is a critical global concern, and all food producers, regardless of size or product, must ensure the safety of their offerings to protect consumer health. ISO 22000 outlines the requirements for a Food Safety Management System (FSMS). Developed by the International Organization for Standardization (ISO), ISO 22000 tackles food safety by addressing risks from food-borne contaminants at any point in the food supply chain. Managing these hazards requires collaboration across all stakeholders in the chain."
+      },
+      {
+        heading: "Core Elements of ISO 22000 FSMS",
+        content: "ISO 22000 FSMS includes the following core elements:\n• Interactive communication\n• System management\n• Prerequisite programs (PRPs)\n• Hazard Analysis and Critical Control Point (HACCP) principles\nISO 22000 is compatible with ISO 9001 for smoother integration. It combines HACCP principles with auditable requirements and PRPs to control potential food safety hazards effectively. Through comprehensive hazard analysis, the standard helps identify, evaluate, and manage risks specific to food processes and facilities."
+      },
+      {
+        heading: "Global Recognition and Certification",
+        content: "ISO 22000 is recognized globally under the Global Food Safety Initiative (GFSI) and is a part of the Food Safety Systems Certification (FSSC) Scheme FS22000.\n\nISO 22000 Certification verifies that an organization implements proper food safety principles throughout its operations. The key advantages include:\n• Builds trust between consumers and food producers\n• Protects the food supply chain's integrity\n• Helps consumers identify safe products\n• Serves as an effective marketing tool\n• Enables better pricing opportunities"
+      },
+      {
+        heading: "ISO 22000 Series",
+        content: "The ISO 22000 Series includes:\n• ISO 22000: FSMS requirements for all organizations in the food chain\n• ISO 22001: Application of ISO 9001:2000 in food & beverage industry\n• ISO/TS 22002: PRPs on food safety\n• ISO/TS 22003: FSMS audits and certification bodies\n• ISO/TS 22004: FSMS application guidance\n• ISO 22005: Feed/food traceability and system design\n• ISO 22006: QMS for crop production"
+      },
+      {
+        heading: "Components of ISO 22000 FSMS",
+        content: "• Scope: Ensures legal food safety requirements are met\n• Normative Reference: Glossary of ISO terms\n• Terms: Standardized definitions aligned with ISO 9001\n• Food Safety Management System: Development, implementation, and documentation\n• Management Responsibility: Leadership, delegation, goal-setting, and communication\n• Resource Management: Budgeting, staffing, training, and infrastructure\n• Product Realization: GMP, HACCP, PRPs, traceability, recalls, hygiene\n• Validation & Verification: Scientific evaluation and system audits"
+      },
+      {
+        heading: "Prerequisites for ISO 22000 FSMS",
+        content: "To implement ISO 22000 FSMS, organizations should have:\n• Hygiene & housekeeping\n• Pest control management\n• Control of visitors and contractors\n• Maintenance procedures\n• Cleaning management\n• Distribution processes\n• Hygiene & metal/glass policies\n• Foreign body control\n• Allergen control & procedures\n• Knife & tool handling\n• First aid material control\n• Food defense protocols"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 22000 FSMS",
+        content: "• Compliance with ISO 22000 principles\n• Enhanced food safety and quality assurance\n• Streamlined food safety performance\n• Lower costs from recalls or withdrawals\n• Effective hazard prevention and risk reduction\n• Better pre-requisite program management\n• Increased resource efficiency and traceability\n• Improved market competitiveness and brand value\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Documents for ISO 22000 FSMS Certification",
+        documents: [
+          "Business registration proof",
+          "Company letterhead with address",
+          "GST or sales/purchase invoices",
+          "Business description and scope",
+          "Legal obligation documentation",
+          "Human & technical resources list",
+          "Organizational structure and outsourced process info",
+          "Management system consultancy records"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "ISO 22000 FSMS Certification Process",
+        content:
+          "Stage 1 Audit:\n• Reviews FSMS design, documentation, and scope\n• Confirms management system's readiness\n• Validates internal audits and legal compliance\n• Max six months gap allowed before Stage 2\n\nStage 2 Audit:\n• Verifies full implementation of FSMS\n• Confirms regulatory and policy compliance\n• Assesses food safety goals and results\n\nCertification:\n• Final audit report reviewed and approved\n• Certification issued by authorized personnel"
+      }
+    ],
+    faq: [
+      {
+        question: "What is the full form of ISO?",
+        answer: "International Organization for Standardization"
+      },
+      {
+        question: "Is ISO an independent organisation?",
+        answer: "Yes, ISO is an independent, non-governmental international body."
+      },
+      {
+        question: "What is ISO 22000 FSMS?",
+        answer: "A global standard for managing food safety across the entire supply chain."
+      },
+      {
+        question: "What is the purpose of ISO 22000 FSMS?",
+        answer: "To ensure safe food handling from production to consumption."
+      },
+      {
+        question: "What are the components of ISO 22000 FSMS?",
+        answer: "Scope, definitions, FSMS system, management, resources, product realization, and verification."
+      },
+      {
+        question: "What documents are required for ISO 22000 FSMS Certification?",
+        answer: "Business registration, scope, legal compliance details, and process-related records."
+      },
+      {
+        question: "What is HACCP?",
+        answer: "Hazard Analysis and Critical Control Points, a systematic approach to food safety risk management."
+      }
+    ],
+  },
+  "iso-9001-2015-certification-quality-management-systems": {
+    title: "ISO 9001 2015 Certification",
+    description: "Get your iSO 9001 2015 Certification with DoStartup. Our experts will help you in obtaining iSO 9001 2015 Certificate without any hassle.",
+    overview: [
+      {
+        heading: "Overview of ISO 9001:2015",
+        content:
+          "ISO 9001:2015 is a globally recognized standard for developing, maintaining, and implementing a Quality Management System (QMS). Introduced in September 2015, it provides a framework for organizations to consistently deliver products and services that meet customer and regulatory expectations, fostering efficiency and satisfaction. A QMS under ISO 9001:2015 encompasses resources, culture, processes, and assets that support customer satisfaction and business effectiveness. The standard offers guiding principles for optimizing processes, meeting compliance requirements, and expanding into ISO-demanding markets."
+      },
+      {
+        heading: "Fundamental Mission of ISO",
+        content:
+          "The core mission of ISO is to offer universal standards, specifications, and units of measurement to businesses worldwide. ISO promotes trade and innovation by ensuring all sectors operate under a unified framework. Key initiatives include enhancing organizational efficiency, promoting Good Standardization Practices (GSP), aligning with WTO TBT Agreement, connecting public policy with standardization, focusing on risk management and sustainability, and involving all relevant stakeholders in standard development."
+      },
+      {
+        heading: "Importance of ISO 9001 Certification",
+        content:
+          "ISO 9001 Certification assures customers that your QMS is built on ISO’s 7 core management principles. It is widely used as a base for other sector-specific standards, such as ISO 13485 (medical devices) or AS9100 (aerospace). ISO 9001 certification remains stable worldwide, even during global recessions, and helps organizations gain in-depth knowledge and credibility."
+      },
+      {
+        heading: "What Is a Quality Management System (QMS)?",
+        content:
+          "A QMS is a structured system of policies, objectives, and processes aimed at achieving quality goals. ISO 9001:2015 provides a flexible, risk-based framework to build, monitor, and improve your quality system. It is compatible with other ISO standards due to its high-level structure."
+      },
+      {
+        heading: "Enhancements in ISO 9001:2015",
+        content:
+          "ISO 9001:2015 introduces enhancements such as an emphasis on process-based approaches and risk management, a focus on the needs of interested parties, and context analysis for quality assurance."
+      }
+    ],
+    clauses: [
+      {
+        title: "Clause 1: Scope",
+        description:
+          "The clause defines the scope of the ISO 9001:2015 standard and the scope of this standard comprises specifying requirements for a Quality Management System of any organisation."
+      },
+      {
+        title: "Clause 2: Normative References",
+        description:
+          "The supporting standard referenced in this standard is indispensable for its application is ISO 9001:2015, which covers fundamentals & terminology."
+      },
+      {
+        title: "Clause 3: Terms & Definitions",
+        description:
+          "Terminology used throughout this standard comes directly from ISO 9000:2015, QMS – Vocabulary & Fundamentals."
+      },
+      {
+        title: "Clause 4: Context of the Organisation",
+        description:
+          "When you are implementing a Quality Manual System, the 1st step is to align your business objectives & intent with the QMS. Know the external & internal issues, needs & expectations of interested parties, QMS scope & its processes."
+      },
+      {
+        title: "Clause 5: Leadership",
+        description:
+          "This clause covers leadership responsibility. Top management must demonstrate leadership & commitment, establish & communicate a quality policy and ensure effective implementation."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Documents for ISO 9001:2015 Certification",
+        documents: [
+          "QMS Scope",
+          "Quality Policy",
+          "Quality Objectives",
+          "Supplier evaluation criteria"
+        ],
+      },
+      {
+        category: "Mandatory Records for ISO 9001:2015 Certification",
+        documents: [
+          "Employee training, skills, and qualifications",
+          "Non-conformance logs",
+          "Product/service review records",
+          "Internal audit program results",
+          "Management review findings",
+          "Customer property records",
+          "Acceptance criteria documentation"
+        ],
+      },
+      {
+        category: "Conditional Records (Clause-Dependent)",
+        documents: [
+          "Calibration logs",
+          "Design & development records",
+          "Equipment maintenance reports"
+        ],
+      },
+      {
+        category: "Non-Mandatory Documents for ISO 9001:2015 Implementation",
+        documents: [
+          "Risk & opportunity management procedures",
+          "Sales and warehousing procedures",
+          "Internal audit and document control processes",
+          "Competency & training guidelines",
+          "Context assessment documentation",
+          "Service provision and customer feedback processes"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "ISO 9001:2015 Certification Procedure",
+        content:
+          "Step 1: Internal Audit\n• Evaluate your QMS processes to ensure compliance.\n\nStep 2: Management Review\n• Leadership reviews system data to make informed decisions.\n\nStep 3: Corrective Actions\n• Address issues found during audits and document resolutions.\n\nCertification Stages:\n• Documentation Review – Certification body reviews compliance documents.\n• Main Audit – On-site audit checks conformity of business operations and documents.\n\nDo Startup Support for ISO 9001:2015:\n• Choose an Expert Plan\n• Submit ISO 9001 Queries\n• Upload Required Documents\n• Fulfill All Screening Criteria\n• Complete the Certification Procedure\n• Get Your ISO 9001 Certification with Do Startup"
+      }
+    ],
+    faq: [
+      {
+        question: "What is ISO 9001?",
+        answer: "ISO 9001 is the world’s most used standard for Quality Management Systems (QMS), helping ensure consistent quality and outcomes."
+      },
+      {
+        question: "Who should get ISO 9001 Certification?",
+        answer: "Any organization aiming to improve its quality, credibility, and customer satisfaction."
+      },
+      {
+        question: "How much does ISO 9001 Certification cost?",
+        answer: "Costs vary by business size and scope. Do Startup offers custom plans to fit your budget."
+      },
+      {
+        question: "Does ISO 9001 require a management representative?",
+        answer: "No, it is no longer mandatory under ISO 9001:2015, but having one improves implementation."
+      },
+      {
+        question: "What’s the difference between retained and maintained info?",
+        answer: "\"Retained\" refers to records; \"maintained\" refers to documents that may be updated."
+      },
+      {
+        question: "Who created ISO 9001?",
+        answer: "The International Organization for Standardization (ISO) through its technical committee."
+      },
+      {
+        question: "Difference between ISO 9001, ISO 9001:2015, and ISO 9000?",
+        answer: "ISO 9001 is the standard with requirements; ISO 9001:2015 is the latest version; ISO 9000 covers definitions and concepts supporting ISO 9001."
+      }
+    ],
+  },
+  "iso-50001-energy-management": {
+    title: "ISO 50001 Energy Management Certification",
+    description: "DoStartup is here to assist you in obtaining iSO 50001 Energy Management Certification for your organisation to manage energy and provides requirements for a systematic, data-driven and fact-based pro..",
+    overview: [
+      {
+        heading: "Overview of ISO 50001 Energy Management",
+        content:
+          "ISO 50001 Energy Management is a globally recognized standard that helps organizations implement an energy management system (EnMS) to use energy more efficiently and effectively. First introduced in 2011 and updated in 2018, ISO 50001:2018 provides a modern framework for enhancing energy efficiency across public and private sector organizations. It aligns closely with ISO 9001 (QMS) and ISO 14001 (EMS), making integration easier through its modular structure. Getting certified to ISO 50001 demonstrates a company’s dedication to improving energy management practices, setting an industry example, and complying with relevant legal and regulatory requirements."
+      },
+      {
+        heading: "What Is an Energy Management System (EnMS)?",
+        content:
+          "An Energy Management System (EnMS) is a structured process that helps businesses optimize energy use, reduce costs, and boost productivity. It involves developing an energy policy, setting measurable energy goals, creating action plans to achieve targets, and monitoring and reviewing progress. The ISO 50001 standard follows the Plan-Do-Check-Act (PDCA) cycle to enable continual improvement in energy performance."
+      },
+      {
+        heading: "Primary Objective of ISO 50001 Energy Management",
+        content:
+          "The key goal of ISO 50001 is to improve energy efficiency and identify opportunities for energy savings. A structured energy management system enables organizations to reduce energy consumption and costs, lower carbon emissions, identify efficiency potential, enhance environmental sustainability, and gain competitive and branding advantages."
+      },
+      {
+        heading: "Structure of ISO 50001 Energy Management",
+        content:
+          "ISO 50001 shares the high-level structure of other ISO standards (ISO 9001 & ISO 14001), making integration seamless. It consists of 10 major components: Scope, Terms & Definitions, Context of the Organization, Leadership, Planning, Support, Operation, Performance Evaluation, Improvement, and Normative References."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 50001 Energy Management",
+        content: "• Monitor and measure energy use\n• Reduce carbon footprint and meet environmental targets\n• Mitigate risks related to energy supply\n• Demonstrate energy efficiency in tenders and contracts\n• Lower energy bills and optimize energy consumption\n"
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "ISO 50001 and the PDCA Approach",
+        description: "ISO 50001 is based on the Plan-Do-Check-Act (PDCA) cycle for ongoing improvement in energy management.",
+        steps: [
+          {
+            title: "Phase 1: Plan",
+            duration: "",
+            description: "Assign top-level responsibility, form an energy team, draft and communicate an energy policy, identify significant energy uses (SEUs), and prioritize actions.",
+          },
+          {
+            title: "Phase 2: Do",
+            duration: "",
+            description: "Implement energy action plans and initiate performance improvements.",
+          },
+          {
+            title: "Phase 3: Check",
+            duration: "",
+            description: "Monitor, audit, and evaluate progress against objectives.",
+          },
+          {
+            title: "Phase 4: Act",
+            duration: "",
+            description: "Take corrective action, led by management, for continuous improvement.",
+          },
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "ISO 50001 Requirements for Certification",
+        content: `To meet ISO 50001 standards, organizations must prepare and maintain the following key documents and records:\n
+● Energy Policy: A formal document outlining the organization's commitment to energy management and improvement.\n
+● Energy Objectives & Targets: Clearly defined, measurable energy goals aligned with the energy policy.\n
+● Energy Data Records: Documentation of collected and analyzed energy consumption and usage data.\n
+● Monitoring & Measurement Records: Evidence of ongoing monitoring, measurement, and review of energy performance indicators.\n
+● Management Review Reports: Records of periodic reviews of the energy management system and policy effectiveness.\n
+● Continual Improvement Plans: Documentation of actions taken to improve energy performance and update objectives.\n
+Maintaining these documents is essential for demonstrating compliance and achieving ISO 50001 certification.`,
+      },
+    ],
+    clauses: [
+      {
+        title: "Pre-Assessment Service",
+        description:
+          "An optional initial review of your current energy management system against ISO 50001 standards. This step helps identify improvement areas before the official audit process begins."
+      },
+      {
+        title: "Implementation of Controls",
+        description:
+          "A two-stage assessment to check your organization's preparedness for ISO 50001 certification. If any gaps are found, Do Startup guides you in resolving them to ensure compliance before the final audit."
+      },
+      {
+        title: "Certification",
+        description:
+          "After successful assessment and verification, your ISO 50001 Certificate is issued. The certificate is valid for 3 years, confirming your compliance with ISO 50001 standards."
+      },
+      {
+        title: "Why Choose Do Startup?",
+        description:
+          "Do Startup offers expert support, real-time progress tracking, and seamless communication throughout the ISO 50001 certification process. The dedicated team ensures a smooth, hassle-free experience for all legal and energy certification needs."
+      }
+    ],
+    faq: [
+      {
+        question: "What is ISO 50001?",
+        answer: "ISO 50001 is an international standard that offers a framework for managing and improving energy use within organizations."
+      },
+      {
+        question: "What is EMS?",
+        answer: "An Energy Management System (EMS) is a set of processes that helps businesses improve energy efficiency and reduce consumption."
+      },
+      {
+        question: "Can I get ISO 50001 without ISO 14001 certification?",
+        answer: "Yes. ISO 50001 is independent and doesn’t require prior ISO 14001 certification."
+      },
+      {
+        question: "Why should a company get ISO 50001 certified?",
+        answer: "Certification boosts energy savings, reduces environmental impact, and strengthens compliance and marketability."
+      },
+      {
+        question: "What are the main features of ISO 50001?",
+        answer: "Key features include a structured approach to energy management, data-driven planning, continual improvement, and measurable outcomes."
+      },
+      {
+        question: "Difference between ISO 50001 and ISO 14001?",
+        answer: "ISO 50001 focuses solely on energy management, while ISO 14001 targets overall environmental performance."
+      },
+      {
+        question: "What is the goal of an energy audit?",
+        answer: "To identify inefficiencies and find opportunities for reducing energy usage and costs."
+      },
+      {
+        question: "What is the biggest challenge in sustaining ISO 50001?",
+        answer: "Maintaining employee engagement and consistent top-level management support over time."
+      }
+    ],
+  },
+  "iso-20000-certification": {
+    title: "ISO 20000 Certification",
+    description: "If your organisation wants to become ISO 20000 certified, contact DoStartup. Our experts will help you in obtaining ISO 20000 Certification without any hassle.",
+    overview: [
+      {
+        heading: "Overview of ISO 20000",
+        content:
+          "ISO 20000 is a globally recognized standard for IT Service Management (ITSM), jointly developed by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). Originally based on BS 15000, developed by BSI Group, ISO/IEC 20000 was revised in 2011 and again in 2018 to align with current industry needs. While it draws heavily from ITIL, ISO 20000 is compatible with other frameworks such as the Microsoft Operations Framework and ISACA's COBIT. To become an international standard, ISO 20000 had to receive approval from a majority of ISO member countries. \n ISO 20000 Certification ensures that IT departments align their service management processes with global best practices and business objectives. It offers a global benchmark for evaluating service delivery, performance, and process effectiveness.",
+      },
+      {
+        heading: "Significance of ISO 20000 Certification",
+        content:
+          "• Assists organizations in enhancing IT performance and increasing revenue. \n • Helps in conducting gap analysis and implementing targeted improvements. \n • Facilitates continuous policy development and strategic goal setting. \n • Clarifies the applicability and scope of service management. \n • Guides the use of technologies and tools to implement and maintain SMS (Service Management System). \n • Encourages development and application of a structured service management plan with defined goals and policies."
+      },
+      {
+        heading: "Key Sections of ISO 20000",
+        content:
+          "To achieve ISO 20000 certification, organizations must address several key areas:",
+      },
+      {
+        heading: "",
+        content:
+          "• Design & Development of New or Altered Services: Involves designing new or modified IT services and planning their transition into operation.\n• Resolution Management: Covers incident and service request handling, as well as problem management to restore normal service quickly.\n• Service Management System (SMS) Requirements: Focuses on establishing, reviewing, and documenting the SMS, resource planning, and managing third-party processes.\n• Control Processes: Encompasses configuration, change, and deployment management to ensure stable IT environments.\n• Service Delivery: Includes IT budgeting and accounting, ensuring service availability and continuity, and reporting on security and performance.\n• Relationship Processes: Involves managing supplier and business relationships to support effective service delivery."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 20000 Certification",
+        content:
+          "• Cost Control: Improved budgeting accuracy and reduced IT expenditure.\n" +
+          "• Competitive Edge: Faster issue resolution and enhanced IT strategy development.\n" +
+          "• Customer Satisfaction: Better internal and external service delivery.\n" +
+          "• Process Integration: Aligns IT services with business goals.\n" +
+          "• Continuous Improvement: Encourages innovation and customer-driven process updates.\n"
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Steps to Achieve ISO 20000 Certification",
+        description: "A structured approach to implementing and maintaining ISO 20000 certification for IT service management.",
+        steps: [
+          {
+            title: "Awareness Creation",
+            duration: "",
+            description: "Educate staff on the benefits and practices of service management."
+          },
+          {
+            title: "Defining Certification Scope",
+            duration: "",
+            description: "Choose the applicable services or departments to be included in the certification."
+          },
+          {
+            title: "Initial Assessment",
+            duration: "",
+            description: "Identify gaps between current practices and ISO 20000 standards."
+          },
+          {
+            title: "Audit Preparation",
+            duration: "",
+            description: "Address identified gaps using checklists and documented processes."
+          },
+          {
+            title: "External Audit",
+            duration: "",
+            description: "Undergo an audit conducted by a registered certification body."
+          },
+          {
+            title: "Certification Maintenance",
+            duration: "",
+            description: "Renew ISO 20000 certification every 3 years to ensure ongoing compliance."
+          }
+        ]
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential ISO 20000:2018 Documents & Records",
+        content: `To comply with ISO 20000:2018, organizations must prepare and maintain the following key documents and records:\n
+● SMS Scope & Management Plan: Defines the boundaries and management approach for the Service Management System (SMS).\n
+● Service Continuity and Availability Requirements: Documentation of plans and requirements to ensure uninterrupted and available IT services.\n
+● Risk Assessments: Records of identified risks, evaluations, and mitigation strategies related to IT service delivery.\n
+● Change & Incident Procedures: Documented processes for managing changes and responding to incidents.\n
+● Service-Level Agreements (SLAs): Agreements outlining service expectations, metrics, and responsibilities.\n
+● Information Security and Service Catalogues: Documentation of security controls and a catalogue of available IT services.\n
+`,
+      },
+      {
+        heading: "Mandatory Records:",
+        content: `● Change Requests and Configurations: Logs of all change requests and configuration items.\n
+● Service Complaints and Incidents: Records of reported service issues and their resolution.\n
+● Training Records: Documentation of staff training and competency.\n
+● Internal Audit Results and Corrective Actions: Evidence of audit findings and actions taken to address nonconformities.\n
+● Service Monitoring Outcomes: Reports and data on service performance and monitoring activities.\n
+Maintaining these documents and records is essential for demonstrating compliance and achieving ISO 20000 certification.`,
+      },
+    ],
+    faq: [
+      {
+        question: "What is ISO 20000:2018?",
+        answer: "It’s a standard that defines minimum requirements for a Service Management System (SMS) to deliver IT services of defined quality."
+      },
+      {
+        question: "What is the main objective of ISO 20000?",
+        answer: "To ensure consistent, high-quality IT service delivery aligned with business needs."
+      },
+      {
+        question: "What are the core requirements of ISO 20000?",
+        answer: "Documented SMS, service continuity plans, risk management, SLA management, and continual improvement."
+      },
+      {
+        question: "Who should get ISO 20000 certified?",
+        answer: "IT service providers, data centers, MSPs, and companies with large in-house IT operations."
+      },
+      {
+        question: "How is ISO 20000 different from ISO 9001?",
+        answer: "ISO 9001 focuses on general quality management; ISO 20000 is specific to IT service management."
+      },
+      {
+        question: "Can any organization apply for ISO 20000?",
+        answer: "Yes, as long as they provide IT services and can implement the standard's requirements."
+      },
+      {
+        question: "How does ISO 20000 differ from ITIL?",
+        answer: "ITIL is a best-practice framework; ISO 20000 is a certifiable standard based on those practices."
+      }
+    ],
+  },
+  "iso-31000-certification": {
+    title: "ISO 31000 Certification",
+    description: "ISO 31000 certification For efficient risk management and strategic planning, get iSO 31000 Certification from DoStartup.",
+    overview: [
+      {
+        heading: "Overview of ISO 31000",
+        content:
+          "ISO 31000 is a globally accepted standard that outlines the principles and guidelines for effective risk management across all types of organizations—public, private, or community-based. Whether managing communication, strategic planning, or operations, ISO 31000 Certification by Do Startup can help enhance operational performance, strengthen governance, and build stakeholder trust while minimizing potential losses. This standard supports improved health and safety outcomes, proactive decision-making, and a risk-aware culture. Unlike industry-specific standards, ISO 31000 introduces key innovations such as defining risk appetite, a new definition of risk focused on uncertainty’s impact on objectives, a structured risk framework, and strategic alignment of risk management with organizational decisions."
+      },
+      {
+        heading: "ISO 31000 Framework Structure",
+        content:
+          "ISO 31000 comprises six main components: Design (create a tailored risk strategy), Leadership (top management leads risk adoption), Improvement (continuous framework upgrades), Evaluation (assess risk strategy effectiveness), Implementation (integrate risk management into core processes with measurable goals), and Integration (apply risk controls across functions without obstructing daily operations)."
+      },
+      {
+        heading: "Key Clauses of ISO 31000",
+        content:
+          "Risk Management Principles: Integrate risk management across all processes, consider human and cultural factors, support ongoing improvement, create and protect organizational value, stay adaptable and inclusive, address uncertainty clearly, and be dynamic and responsive to change."
+      },
+      {
+        heading: "Risk Management Framework & Process",
+        content:
+          "ISO 31000 emphasizes that the success of risk management depends on a solid framework that embeds risk management throughout the organization, ensures effective reporting and use of risk-related information, and supports decision-making at all levels. The risk management process must be part of the company culture, fit the organization’s structure and goals, and include key activities such as consultation & communication (keeping stakeholders informed) and establishing context (defining objectives, scope, and internal/external factors influencing risk)."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 31000 Certification",
+        content:
+          "• Boost Profitability: Eliminate unnecessary risks and reduce financial impact.\n" +
+          "• Proactive Risk Handling: Shift from reactive to preventive strategies.\n" +
+          "• Standardized Approach: Identify, assess, and mitigate risk through consistent methods.\n" +
+          "• Proven Efficiency: Globally recognized and widely used.\n" +
+          "• Cultural Impact: Instills a risk-aware mindset in your workforce.\n"
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "How to Implement ISO 31000",
+        content: `Every organization must follow a customized approach, but ISO outlines 3 essential steps:\n
+● Define Business Objectives: Align your risk strategy with your company’s goals.\n
+● Assess Existing Governance: Use your current structure to assign risk roles.\n
+● Evaluate Commitment: Understand the resources you’re ready to allocate.\n
+`,
+      },
+      {
+        heading: "Consultation & Communication",
+        content: `Keep stakeholders engaged and informed at every phase to enhance awareness and facilitate smart decisions.`,
+      },
+      {
+        heading: "Context, Criteria & Scope",
+        content: `Tailor the implementation to your organization by understanding internal and external environments. Define criteria that align with your policies and goals and adjust them as needed.`,
+      },
+    ],
+    faq: [
+      {
+        question: "What is ISO 31000?",
+        answer: "It’s an international risk management standard offering principles and a framework for managing uncertainty in businesses."
+      },
+      {
+        question: "What is the purpose of ISO 31000?",
+        answer: "To support organizations in proactively identifying and managing risks that affect business goals."
+      },
+      {
+        question: "What are the stages in risk assessment?",
+        answer: "Risk Identification, Risk Analysis, and Risk Evaluation."
+      },
+      {
+        question: "What are the components of the ISO 31000 framework?",
+        answer: "Design, Leadership, Implementation, Integration, Evaluation, and Improvement."
+      },
+      {
+        question: "What is the risk appetite?",
+        answer: "It refers to the level of risk an organization is willing to accept in pursuit of its objectives."
+      }
+    ],
+  },
+  "iso-13485-certification": {
+    title: "ISO 13485 Certification",
+    description: "DoStartup is here to assist you in getting ISO 13485 certification to ensure that you comply with the International Standards set for Quality Management systems for the development, production, instal.",
+    overview: [
+      {
+        heading: "Overview of ISO 13485 Certification",
+        content:
+          "In the medical device industry, safety and quality are non-negotiable. ISO 13485 Certification defines the requirements for a Quality Management System (QMS) specific to organizations involved in the design, production, storage, distribution, servicing, and related services of medical devices. This standard also applies to suppliers and external providers involved in these processes. ISO 13485 is based on ISO 9001 (earlier version) and provides internationally accepted guidelines for QMS. Although released after ISO 9001’s major update, ISO 13485 does not align with ISO 9001:2015, as the changes in ISO 9001 were considered unnecessary for the medical device sector. Recognized globally, ISO 13485 Certification validates compliance with regulatory and quality expectations and is often required through third-party certification for manufacturers, developers, and service providers in the healthcare space."
+      },
+      {
+        heading: "Structure of ISO 13485",
+        content:
+          "This standard is divided into eight sections: The first three are introductory, while the last five are mandatory QMS components: Quality Management System, Management Responsibility, Resource Management, Product Realisation, and Measurement, Analysis, and Improvement."
+      },
+      {
+        heading: "Key Revisions in ISO 13485",
+        content:
+          "ISO 13485:2016 replaces ISO 13485:2003 and 13485:2012. It was published on March 1, 2016, and is aligned with ISO 9001:2008, not ISO 9001:2015. The standard is managed by ISO Technical Committee 210 to ensure relevance and accuracy."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 13485 Certification",
+        content:
+          "• Internationally recognized QMS standard (EN ISO 13485)\n" +
+          "• Broader product and market access\n" +
+          "• Easier transition into specialized certifications\n" +
+          "• Clear insights into QMS performance\n" +
+          "• Greater regulatory compliance\n" +
+          "• Identification of risk and non-compliance areas\n" +
+          "• Trusted certification and reporting\n" +
+          "• Strong foundation for future growth\n" +
+          "• Better understanding of device-specific requirements\n"
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Prerequisites for ISO 13485 Certification",
+        content: `To qualify, your organization must meet:\n
+• General Requirements: Full adherence to ISO 13485 standard, documented procedures, risk assessment, monitoring, and compliance (including when outsourcing), and effective operations tracking.\n
+• Documentation Requirements: Maintain a Quality Manual & Policy, medical device file, control plans, management review reports, training procedures, and protocols for design, risk, and purchasing.\n
+• Management Responsibility: Demonstrate commitment to regulations, customer focus, strategic planning, delegation, communication, and periodic reviews.\n
+• Resource Management: Ensure skilled staff, infrastructure, equipment, succession planning, and regulatory support.\n
+• Product Realisation: Plan, document, and validate every step from concept to production and testing.\n
+• Measurement, Analysis, and Improvement: Address complaints, conduct audits, and drive continuous improvement.\n`
+      },
+      {
+        heading: "Documents Required for ISO 13485 Certification",
+        content: `Organizations must prepare documentation for:\n
+• Regulatory roles and responsibilities\n
+• Quality Manual, Policies, and Objectives\n
+• Design and development files, plans, and changes\n
+• Risk management and control records\n
+• Traceability, product cleanliness, and installation verification\n
+• Audit reports, internal reviews, and calibration records\n
+• Customer feedback and complaint handling\n
+• Preventive and corrective action plans\n`
+      },
+      {
+        heading: "Procedure to Obtain ISO 13485 Certification",
+        content: `To get certified with Do Startup, follow these four steps:\n
+1. Optional Preliminary Audit: Site inspection and documentation review to evaluate readiness.\n
+2. Stage I Audit: On-site assessment of business eligibility and QMS documentation.\n
+3. Stage II Audit: In-depth evaluation of real-time QMS implementation and efficiency.\n
+4. Certification: Issuance of official ISO 13485 Certificate after full compliance.\n`
+      },
+      {
+        heading: "Do Startup’s Role in ISO 13485 Certification",
+        content: `Let Do Startup make your ISO 13485 journey simple:\n
+• Choose a service plan\n
+• Share your queries and requirements\n
+• Submit necessary documents\n
+• Meet all pre-certification criteria\n
+• Complete certification formalities\n
+• Receive your certificate with full support!\n`
+      }
+    ],
+    faq: [
+      {
+        question: "What is the purpose of ISO 13485?",
+        answer: "To ensure medical device manufacturers comply with quality and safety standards and applicable regulations."
+      },
+      {
+        question: "What is the latest version of ISO 13485?",
+        answer: "ISO 13485:2016 is the current version."
+      },
+      {
+        question: "Who is eligible for ISO 13485 Certification?",
+        answer: "Any organization involved in the lifecycle of medical devices—design, development, production, storage, servicing, or support."
+      },
+      {
+        question: "What is ISO?",
+        answer: "ISO stands for International Organization for Standardization, which develops global standards for various sectors."
+      },
+      {
+        question: "What are ISO 13485 requirements?",
+        answer: "Documented QMS, management commitment, regulatory compliance, risk management, product traceability, and continual improvement."
+      },
+      {
+        question: "Does ISO issue ISO 13485 certificates?",
+        answer: "No, ISO develops the standards. Certificates are issued by authorized third-party certification bodies."
+      }
+    ],
+  },
+  "iso-21101-2014-certification": {
+    title: "ISO 21101:2014 Certification",
+    description: "DoStartup will assist you in maintaining all the compliance measures in regard to the Safety Management System for the adventure tourism activity providers outlined for ISO 21101:2014 certification.",
+    overview: [
+      {
+        heading: "Overview of ISO 21101:2014 Certification",
+        content:
+          "The ISO 21101:2014 Certification defines a Safety Management System for adventure tourism activity providers. It aims to improve safety performance, meet safety expectations for both participants and staff, showcase safe practices, and ensure compliance with legal obligations. These standards are suitable for all service providers, regardless of their size, geography, or cultural context."
+      },
+      {
+        heading: "Adventure Tourism Safety Standards",
+        content:
+          "ISO 21101:2014 sets minimum requirements for Safety Management Systems (SMS) and communications in adventure tourism. It applies across various types of adventure activities and ensures safe operations.\n" +
+          "It guides adventure tourism providers in managing operations as per safety standards.\n" +
+          "The supporting ISO/TR 21102:2014 outlines basic competency levels required for staff managing adventure tourism activities."
+      },
+      {
+        heading: "Purpose of ISO 21101:2014 Certification in Adventure Tourism",
+        content:
+          "The International Organisation for Standardisation (ISO), a global federation of national standards bodies, developed ISO 21101 to help adventure tourism operators plan, communicate, and deliver safe, enjoyable, and well-managed activities. This is essential in a fast-growing global industry."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 21101:2014 Certification",
+        content:
+          "• Reduces risks and boosts safety for participants and staff\n" +
+          "• Ensures regulatory compliance\n" +
+          "• Improves market access opportunities\n" +
+          "• Provides an internationally recognized safety framework\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Requirements of ISO 21101:2014 Certification",
+        documents: [
+          "Management Commitment",
+          "Understanding Participant Needs and Legal Expectations",
+          "Identification of Internal & External Risks",
+          "Defined Roles & Responsibilities",
+          "Risk Management Process",
+          "Staff Training & Awareness",
+          "Supplier & Vendor Control",
+          "Hazard Identification",
+          "Incident Reporting and Handling",
+          "Emergency Response Planning",
+          "Use of Personal Protective Equipment (PPE)",
+          "Resource Allocation",
+          "Communication & Documentation",
+          "Monitoring & Safety Measurement"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for ISO 21101:2014 Certification",
+        content: "1. Optional Preliminary Audit – Voluntary site visit and document review to assess readiness for certification.\n2. Audit - Stage I – Initial evaluation based on audit results, documentation, and business practices to determine certification eligibility.\n3. Audit - Stage II – On-site assessment of Safety Management System performance and compliance with ISO standards.\n4. Grant of Certificate – Upon verified compliance, receive formal certification confirming your SMS meets ISO 21101:2014 standards.\n\nWhy Choose Do Startup?\nDo Startup provides end-to-end legal and certification support, connecting you with field experts for ISO 21101:2014 compliance. Our team ensures fast, seamless guidance throughout your certification journey.\n\nSteps with Do Startup:\n- Buy a Certification Plan\n- Ask Questions About ISO 21101 Maintenance\n- Submit Required Documents\n- Get Help with Application Preparation\n- Meet All Eligibility Criteria\n- Complete the Certification Process\nLet Do Startup fulfill all your legal and regulatory needs."
+      }
+    ],
+    faq: [
+      {
+        question: "What is ISO?",
+        answer: "ISO stands for International Organisation for Standardisation, a global body that develops standards to ensure safety, quality, and compliance."
+      },
+      {
+        question: "What is the necessity of ISO Standards?",
+        answer: "They ensure consistent safety, quality, and efficiency across industries."
+      },
+      {
+        question: "Who established ISO Standards?",
+        answer: "They are created by ISO technical committees, made up of experts from member countries."
+      },
+      {
+        question: "What do adventure tourism providers need for ISO 21101:2014?",
+        answer: "They must establish a safety management system, identify hazards, train staff, and ensure regulatory compliance."
+      },
+      {
+        question: "Where are ISO Standards applicable?",
+        answer: "They are recognized and applicable worldwide, across industries and sectors."
+      },
+      {
+        question: "Who can apply for ISO 21101:2014 Certification?",
+        answer: "Any adventure tourism provider, regardless of size or location, can apply if they meet the safety and operational criteria."
+      },
+      {
+        question: "Why is Safety Management important in ISO 21101:2014?",
+        answer: "It minimizes risk, enhances trust, and ensures participant safety—making it critical to adventure tourism success."
+      }
+    ],
+  },
+  "iso-37001-2016-certification": {
+    title: "ISO 37001:2016 Certification",
+    description: "DoStartup will guide you by providing assistance in regard to complying with the requirements stated in ISO 37001:2016 Certification for the establishment, implementation, maintenance, review and..",
+    overview: [
+      {
+        heading: "Overview of ISO 37001:2016 Certification",
+        content:
+          "The ISO 37001:2016 Certification outlines the requirements and guidelines for establishing, implementing, maintaining, reviewing, and improving an Anti-Bribery Management System (ABMS). This system can function independently or be integrated into a broader management system. The standard is focused solely on bribery prevention—helping organisations detect, prevent, and respond to bribery-related incidents with structured compliance measures and guidance. It does not cover fraud, cartels, money laundering, or other forms of corruption, though organisations may choose to extend their ABMS to address these issues. Its flexible, generic structure allows adoption by any organisation—public, private, or non-profit—regardless of size, structure, or sector."
+      },
+      {
+        heading: "Scope of ISO 37001:2016 Certification",
+        content:
+          "This certification applies to: \n -bribery in public, private, and non-profit sectors; \n -bribery by or of the organisation; \n -bribery by staff or representatives acting for the organisation; \n -bribery involving business associates; \n -bribery in organisational activities; \n -and both direct and indirect bribery (including third-party involvement)."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 37001:2016 Certification",
+        content:
+          "• Establishes a global benchmark for anti-bribery systems\n" +
+          "• Demonstrates commitment to bribery prevention to stakeholders\n" +
+          "• Provides legal evidence of anti-bribery measures in investigations\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Compliance Requirements Under ISO 37001:2016",
+        documents: [
+          "An official Anti-Bribery Policy",
+          "Leadership commitment and assigned responsibilities",
+          "Clear policy communication to staff and partners",
+          "Appointment of a monitoring body",
+          "Employee training and background checks",
+          "Bribery risk assessments",
+          "Due diligence for business associates",
+          "Financial and non-financial control mechanisms",
+          "Reporting, audits, and internal investigations",
+          "Ongoing corrective actions and improvements"
+        ],
+      },
+      {
+        category: "Documents Required for ISO 37001:2016 Certification",
+        documents: [
+          "ISO 37001:2016 Manual",
+          "System procedures and process approach",
+          "Anti-bribery policy",
+          "Exhibits and sample forms",
+          "Audit checklist (blank & filled samples)"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for ISO 37001:2016 Certification",
+        content: `1. Preliminary Audit (Optional) – Voluntary site inspection to assess preparedness for the main certification audit.
+2. Audit – Stage I – Initial assessment to check document readiness and compliance status.
+3. Audit – Stage II – On-site evaluation of actual implementation and effectiveness of your Anti-Bribery Management System.
+4. Certification Grant – Official ISO certification issued upon successful audit and compliance.`
+      }
+    ],
+    faq: [
+      {
+        question: "What is the full form of ISO?",
+        answer: "ISO stands for International Organisation for Standardisation."
+      },
+      {
+        question: "What is ISO 37001:2016 Certification?",
+        answer: "It’s a global standard outlining requirements for an Anti-Bribery Management System."
+      },
+      {
+        question: "What is the purpose of ISO 37001:2016 Certification?",
+        answer: "To help organisations detect, prevent, and respond to bribery effectively."
+      },
+      {
+        question: "Are there any Normative References in ISO 37001:2016?",
+        answer: "Yes, these provide context and definitions for applying the standard correctly."
+      },
+      {
+        question: "What is the importance of Clause 4?",
+        answer: "Clause 4 defines the context of the organisation and ensures that the ABMS is tailored to its operations and risks."
+      },
+      {
+        question: "What policies and guidelines are covered under ISO 37001:2016?",
+        answer: "It includes anti-bribery policy, leadership roles, risk assessments, controls, reporting, and continual improvement."
+      },
+      {
+        question: "Why is Clause 5 important?",
+        answer: "Clause 5 outlines the leadership’s role, accountability, and the necessity of commitment to anti-bribery practices."
+      }
+    ],
+  },
+  "iso-27001-isms-certification": {
+    title: "ISO 27001 ISMS Certification",
+    description: "DoStartup is here to guide you in obtaining ISO 27001 ISMS certification to ensure that you comply with Indian Standards.",
+    overview: [
+      {
+        heading: "Overview of ISO 27001 ISMS Certification",
+        content:
+          "ISO 27001 ISMS Certification is essential for organisations looking to implement, maintain, or upgrade their Information Security Management System (ISMS). It ensures alignment with established information security goals and policies. The certification includes elements like risk assessments, access control, data classification, physical and technical safeguards, procedures, and reporting frameworks. This ISO standard serves as a structured set of policies and procedures, enabling organisations of all sizes and industries to secure their data efficiently and cost-effectively through a certified ISMS."
+      },
+      {
+        heading: "Why is ISO 27001 ISMS Certification Important?",
+        content:
+          "ISO 27001 Certification proves to customers, partners, and stakeholders that your organisation's data security meets international standards. It’s a widely recognised and trusted framework for managing information security risk. Not having a certified ISMS can result in major financial and reputational losses. ISO 27001 is a core component of modern IT governance and compliance frameworks."
+      },
+      {
+        heading: "Meaning of ISMS",
+        content:
+          "ISMS (Information Security Management System) is a set of rules your organisation implements to: \n - identify existing and potential data risks \n - continuously monitor and improve controls \n - set clear goals for information protection \n - apply security measures and risk responses \n - meet expectations of stakeholders \n - manage and monitor risk treatment procedures."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 27001 ISMS Certification",
+        content:
+          "• Reduces Information Security Risks: Helps protect sensitive data from breaches and cyber threats\n" +
+          "• Saves Time & Money: Ready-to-implement controls reduce incident response costs\n" +
+          "• Enhances Reputation & Builds Trust: Certified ISMS shows you are committed to data protection\n" +
+          "• Competitive Edge: Certification sets you apart from competitors without it\n" +
+          "• Meets Legal Compliance: Helps satisfy legal, regulatory, and contractual security obligations\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Mandatory Documents Required for ISO 27001 ISMS Certification",
+        documents: [
+          "ISMS Scope",
+          "Information Security Policy & Objectives",
+          "Risk Assessment Report",
+          "Risk Treatment Methodology & Plan",
+          "Incident Response Procedure",
+          "Legal & Regulatory Requirements",
+          "Security Role Definitions",
+          "Supplier Security Policy",
+          "Asset Inventory",
+          "Business Continuity Procedures",
+          "Statement of Applicability",
+          "Operating IT Procedures"
+        ],
+      },
+      {
+        category: "Mandatory Records for ISO 27001 ISMS Certification",
+        documents: [
+          "Monitoring & Measurement Logs",
+          "Management Review Records",
+          "Audit Results",
+          "Training & Skill Records",
+          "Logs of Security Incidents and User Activity",
+          "Corrective Action Reports"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for ISO 27001 ISMS Certification",
+        content: `1. Documentation Review – Do Startup evaluates your company records and documentation for ISO 27001 compliance.
+2. On-Site Audit – Assessment of your operations and procedures against ISO 27001 standards.
+3. Gap Closure – Implement corrective actions based on audit findings to achieve compliance.
+4. Certification Issued – Receive your official ISO 27001 ISMS Certification upon meeting all requirements.
+5. Surveillance Audits – Annual audits ensure ongoing compliance and certification validity.
 
+Do Startup Assistance Process:
+• Choose a Plan for Expert Guidance
+• Ask Questions About ISO 27001 Certification
+• Submit Required Documents
+• Complete Initial Screening
+• Fulfill All Certification Steps
+• Receive Full-Service Support from Do Startup`
+      }
+    ],
+    faq: [
+      {
+        question: "What are ISO 27001 Standards?",
+        answer: "They define the requirements for implementing an Information Security Management System (ISMS) to manage data risks securely."
+      },
+      {
+        question: "What is ISMS?",
+        answer: "A system of processes, policies, and controls that manage information risks and protect sensitive data."
+      },
+      {
+        question: "What is the difference between ISMS & ISO 27001?",
+        answer: "ISMS is the system itself; ISO 27001 is the standard that specifies how to implement it."
+      },
+      {
+        question: "Is ISO 27001 Certification worth it?",
+        answer: "Yes. It improves data security, enhances reputation, and ensures compliance with legal standards."
+      },
+      {
+        question: "What are the domains of ISO 27001 Certification?",
+        answer: "They include risk management, access control, incident response, asset management, compliance, and business continuity."
+      }
+    ],
+  },
+  "iso-16001-certification": {
+    title: "ISO 16001 Certification",
+    description: "DoStartup is here to guide you in obtaining ISO 16001 certification to ensure that you comply with ISO 16001 standards to improve your efficiency.",
+    overview: [
+      {
+        heading: "Overview of ISO 16001 Certification",
+        content:
+          "ISO 16001:2017 outlines the essential requirements and testing procedures for evaluating the performance of Object Detection Systems (ODSs) and Visibility Aids (VAs) used on earth-moving machinery. It covers aspects such as:"
+      },
+      {
+        heading: "",
+        content:
+          "• Detection and visibility of objects and individuals in the detection area \n" +
+          "• Visual and audible alerts to operators and individuals in the detection zone \n" +
+          "• System reliability and performance \n" +
+          "• Environmental compatibility and system integration \n"
+      },
+      {
+        heading: "",
+        content:
+          "This certification applies to machines defined in ISO 6165 and helps improve operator visibility using mirrors, ODSs, and VAs, especially when ergonomic limitations hinder direct sight. These systems alert operators to any person or object in the machine’s path—particularly during reverse operations. However, no system is foolproof, and users must be aware of both benefits and limitations as specified in the ISO standards."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Prerequisites for ISO 16001 Certification",
+        content:
+          "• General Requirements: \n - Test for detection zone boundaries \n - specification of test bodies \n - evaluation process for test outcomes \n - object detection/false signal evaluation\n" +
+          "• ODS and VA Components: \n - Installation and placement of system parts \n - operator station monitors \n - ODS alert devices (visual and audible) \n - and machine-mounted external warnings\n" +
+          "• System Operation Requirements: \n - System activation during engine start or from standby \n - detection time and self-monitoring capability, alert disable functions \n - environmental/electromagnetic compatibility\n" +
+          "• Additional Requirements: \n - Object Detection System (sensors, alerts, evaluation units) \n - Visibility Aid (camera, monitor) \n - detection zone and test objects \n - system standby \n - job site integration \n - alert range\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Primary Documentation Required for ISO 16001 Certification",
+        documents: [
+          "System function overview",
+          "Shape and size of detection area based on operational/environmental factors",
+          "Job-site organisation guidance for ODSs and VAs",
+          "Operating limitations due to weather/topography",
+          "Maintenance and activation procedures",
+          "System control description",
+          "Safe usage instructions and malfunction protocols",
+          "Required regulatory certifications",
+          "Performance check routines"
+        ],
+      },
+      {
+        category: "Supplementary Information for ISO 16001 Certification",
+        documents: [
+          "Operational limits and mounting instructions",
+          "Installation and assembly guides",
+          "Instructions for system verification",
+          "Connection guidelines with other components",
+          "Regional compliance certifications (e.g., RF tests)",
+          "Electrical supply specifications"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for ISO 16001 Certification",
+        content: `1. Optional Preliminary Audit – Conduct a voluntary inspection and document review to assess certification readiness.
+2. Audit – Stage I – Evaluate eligibility via on-site audit, document analysis, and business review.
+3. Audit – Stage II – Conduct detailed on-site assessment to examine the application of standards and efficiency.
+4. Certification – Receive your ISO 16001 Certificate once all compliance criteria are successfully met.
 
-"barcode-registration": {
-  title: "Barcode Registration in India – A Complete Guide by Do Startup",
-  description: "GS1 India manages barcode standards and issues unique codes to businesses nationwide, enabling efficient product identification, inventory management, and supply chain transparency.",
-  overview: [
-    {
-      heading: "What is a Barcode?",
-      content: "A barcode is a machine-readable symbol composed of parallel lines and numeric digits that store product information—such as batch numbers, serial numbers, and pricing—facilitating quick data retrieval across industries."
-    },
-    {
-      heading: "Types of Barcodes",
-      content: "1. EAN-13 (13 digits; global retail standard)  \n2. UPC-A (12 digits; used in USA/UK/Australia)  \nOther industry types include Code 93, Code 39, GS1 Databar, Code 128, and ITF."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Key Benefits of Barcode Registration",
-      content: "• Efficient Inventory Management: Track products from manufacture to sale.  \n• Asset Management: Monitor assets with ease.  \n• Error-Free Operations: Automated data capture reduces mistakes.  \n• Cost-Effective & Customisable: Low implementation cost and flexible design.  \n• Authenticity & Transparency: Displays batch and serial info.  \n• Faster Checkouts & Better Decision-Making: Quick scanning and data insights.  \n• Global Standardisation: Unique codes worldwide."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Barcode Registration",
-      content: "• Request letter for barcode allotment  \n• PAN Card of business entity  \n• Audited financial statements  \n• Shop Establishment Certificate  \n• GST/VAT Registration Certificate  \n• Partnership Deed (if applicable)  \n• Company COI, MOA, AOA (if applicable)  \n• Registrar of Society certificate (if applicable)  \n• Cancelled cheque copy  \n• Product list and specifications"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Inquiry Form",
-      content: "Submit basic business details via Do Startup’s website to initiate the barcode registration process."
-    },
-    {
-      heading: "Step 2: Document Collection",
-      content: "Provide all mandatory documents—PAN, GST, financials, establishment proof, product list, etc.—for verification."
-    },
-    {
-      heading: "Step 3: Verification & Application",
-      content: "Our experts review your documents and complete the GS1 India barcode application on your behalf."
-    },
-    {
-      heading: "Step 4: Submission to GS1 India",
-      content: "Do Startup files the verified application with GS1 India and tracks its progress."
-    },
-    {
-      heading: "Step 5: Issuance of Barcode Certificate",
-      content: "Upon successful verification and fee payment, GS1 India issues your Barcode Registration Certificate."
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "Expert guidance through GS1 India processes",
-        "End-to-end document preparation and filing",
-        "Fast turnaround and real-time updates",
-        "Transparent pricing with no hidden fees",
-        "Dedicated 24×7 support"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "How are barcodes applied to products?",
-      answer: "Barcodes can be printed directly on packaging, added as pre-printed labels, or embedded in product artwork."
-    },
-    {
-      question: "Who can apply for barcode registration?",
-      answer: "Any manufacturer, exporter, wholesaler, or retailer selling physical products can apply."
-    },
-    {
-      question: "What barcode standard is used in India?",
-      answer: "India primarily uses the EAN-13 standard managed by GS1 India."
-    },
-    {
-      question: "What is a GLN?",
-      answer: "GLN stands for Global Location Number, which uniquely identifies locations like warehouses and stores."
-    }
-  ]
-},
+Do Startup Assistance Process:
+• Choose an Expert Assistance Plan
+• Submit queries related to ISO 16001
+• Share all required documents with Do Startup experts
+• Pass initial document screening
+• Complete all certification steps
+• Receive full support from Do Startup for end-to-end certification`
+      }
+    ],
+    faq: [
+      {
+        question: "What does ISO refer to?",
+        answer: "ISO stands for the International Organisation for Standardisation, a global body that develops and publishes standards."
+      },
+      {
+        question: "What are the aspects covered by ISO 16001?",
+        answer: "It covers object detection, operator warnings, system reliability, and environmental compatibility for earth-moving machinery."
+      },
+      {
+        question: "What is the real focus of ISO 16001 Certification?",
+        answer: "To improve operational safety through effective object detection and visibility systems."
+      },
+      {
+        question: "What is the contribution of ISO 16001 standards?",
+        answer: "It enhances machine safety, operator awareness, and system reliability."
+      },
+      {
+        question: "ISO 16001:2017 is an updated version of which standard?",
+        answer: "It is an update to the previous ISO standard governing detection and visibility systems for earth-moving equipment."
+      },
+      {
+        question: "When was ISO 16001:2017 published?",
+        answer: "The latest version was published in the year 2017."
+      },
+      {
+        question: "What are the safety test methods under ISO 16001?",
+        answer: "It includes tests for detection zones, false alerts, system reliability, and activation functionality."
+      }
+    ],
+  },
+  "iso-39001-certification": {
+    title: "ISO 39001 Certification",
+    description: "Are you looking to improve road traffic safety with ISO 39001 Certification? Get DoStartup expert guidance to meet your certification needs and save time.",
+    overview: [
+      {
+        heading: "Overview of ISO 39001 Certification",
+        content:
+          "If your organization is involved in any aspect of road traffic systems—such as vehicle fleet operations, infrastructure planning, public transport, education, or government—obtaining ISO 39001 Certification can be a strategic advantage.\n" +
+          "ISO 39001 is the International Standard for Road Traffic Safety Management Systems (RTSMS). It supports the implementation of road safety policies and action plans to help reduce serious injuries and fatalities due to road traffic incidents. This certification confirms that your safety management systems are aligned with your organizational policies and objectives."
+      },
+      {
+        heading: "What is ISO 39001 Standard?",
+        content: "ISO 39001:2012 provides a framework for developing and enforcing a road traffic safety policy and integrating action plans that aim to prevent fatalities and injuries from road accidents. It helps organizations reduce road traffic risks by establishing legal compliance and effective RTSMS objectives. \n" +
+          "The standard is flexible, applicable to all types and sizes of organizations, and promotes safer travel through a structured two-stage certification process."
+      },
+      {
+        heading: "Who Can Apply for ISO 39001 Certification?",
+        content: "The ISO 39001 Certification is applicable to both public and private sector organizations involved in road transport or those affected by road traffic risks. Eligible entities include:" +
+          "• Companies operating vehicle fleets \n" +
+          "• Any organization regardless of size or location \n" +
+          "• Entities involved in the road traffic system \n" +
+          "• Transport operators like bus or taxi services \n" +
+          "• Parking lot or highway operators \n"
+      },
+      {
+        heading: "",
+        content:
+          "🚀 Apply for ISO 39001 Certification with expert guidance from Do Startup and help reduce road-related accidents."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of ISO 39001 Certification",
+        content:
+          "• Enhances Organizational Safety: Achieve internal safety goals and promote social responsibility.\n" +
+          "• Policy Compliance: Ensure operations align with internal RTS policies and objectives.\n" +
+          "• Performance Parameter Identification: Identify safety performance indicators to manage road-related hazards.\n" +
+          "• Boosts Customer Confidence: Increase trust through reduced complaints and strong regulatory compliance.\n" +
+          "• Cost Reduction: Lower expenses on vehicle repair and insurance due to improved efficiency.\n" +
+          "• Competitive Edge: Position your organization ahead of competitors by showcasing road safety commitment.\n"
+      },
+    ],
+    Listicles: [
+      {
+        category: "Key Factors for ISO 39001 Certification Eligibility",
+        documents: [
+          "Commitment to road safety",
+          "Leadership involvement and system improvement",
+          "Business integration of RTSMS",
+          "Compliance with applicable laws",
+          "Employee training and competency",
+          "Improved road safety outcomes",
+          "System maintenance and continuous improvement",
+          "Conformance with ISO 39001 standards"
+        ],
+      },
+      {
+        category: "Validity of ISO 39001 Certification",
+        documents: [
+          "Certification is valid for 3 years",
+          "Annual surveillance audits to monitor compliance",
+          "Full system re-certification audit every 3 years"
+        ],
+      },
+      {
+        category: "Fee Structure for ISO 39001 Certification",
+        documents: [
+          "Fees vary based on location, business size, and audit complexity",
+          "Includes application review and audit planning",
+          "Certification audit fees",
+          "Report review and certificate issuance"
+        ],
+      },
+      {
+        category: "Timeline for ISO 39001 Certification",
+        documents: [
+          "Implementation time ranges from 3 to 6 months",
+          "Depends on business size and RTSMS complexity"
+        ],
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for ISO 39001 Certification",
+        content: `1. Optional Preliminary Audit – Evaluate current RTSMS practices and identify gaps in compliance with ISO standards.
+2. Documentation Preparation – Develop essential documents, policies, and records to support RTSMS.
+3. Initial Audit – Stage I – Assess the system’s readiness, identify issues, and implement corrective actions.
+4. Initial Audit – Stage II – An accredited certifier conducts a full audit to confirm compliance with ISO 39001.
+5. Certification Decision – Once your organization passes the audit, ISO 39001 Certification is granted.
 
+Do Startup Assistance Process:
+• Choose an Expert Assistance Plan
+• Submit queries related to ISO 39001
+• Share all required documents with Do Startup experts
+• Pass initial document screening
+• Complete all certification steps
+• Receive full support from Do Startup for end-to-end certification`
+      }
+    ],
+    faq: [
+      {
+        question: "What is Road Traffic Safety Management?",
+        answer: "It’s a management system addressing road crashes and incidents impacting road users' safety."
+      },
+      {
+        question: "What are the objectives of obtaining ISO 39001 Certification?",
+        answer: "To reduce injuries and fatalities through structured road safety systems."
+      },
+      {
+        question: "What documents are required for obtaining ISO 39001 Certification?",
+        answer: "Manuals, SOPs, compliance checklists, risk plans, and personnel details."
+      },
+      {
+        question: "What is the basis of the ISO 39001 Certification process?",
+        answer: "Two-stage audits assessing RTSMS performance and documentation."
+      },
+      {
+        question: "When was ISO 39001 published, and by whom?",
+        answer: "Published in 2012 by the International Organisation for Standardisation (ISO)."
+      },
+      {
+        question: "What is the validity of ISO 39001 Certificates?",
+        answer: "Valid for 3 years with annual surveillance and a re-certification audit."
+      }
+    ],
+  },
+  "legal-advisory-services": {
+    title: "Legal Advisory Services",
+    description: "Legal Advisory services are gaining popularity in the Indian legal market. Outsourcing of these services has certainly become one of the growing trends in the legal profession. It lightens the workl.",
+    overview: [
+      {
+        heading: "Overview of Legal Advisory Services",
+        content:
+          "In today’s fast-evolving legal landscape, legal advisory services are essential for businesses of all sizes. Outsourcing these services is now a strategic move—especially in India’s dynamic and compliance-heavy ecosystem. DOstartup delivers comprehensive, expert-led legal advisory solutions tailored to modern business needs, combining legal depth with practical business understanding."
+      },
+      {
+        heading: "Why Legal Advisory Services Matter",
+        content:
+          "With constantly changing business rules, government mandates, and tax systems, staying legally compliant is critical for business survival and growth. DOstartup’s legal advisory services cover corporate structuring, M&A compliance, employment law, litigation support, and regulatory risk assessment—ensuring your business remains competitive, compliant, and future-ready."
+      },
+      {
+        heading: "Our Expertise & Reach",
+        content:
+          "• 10+ Years of Experience\n• 400+ In-House Experts (CAs, CS, Lawyers)\n• 10,000+ Pincode Network in India\n• 99% SLA Delivery Rate"
+      },
+      {
+        heading: "How DOstartup Supports Your Business",
+        content:
+          "We support your business at every stage—from initial due diligence to expansion planning—with pragmatic, efficient, and legally sound guidance. Whether it’s company incorporation, regulatory filings, M&A, or litigation, our team makes legal compliance less complex and more impactful."
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Benefits of Outsourcing Legal Advisory to DOstartup",
+        "content": "• Access to Cutting-Edge Legal Tech & Research Tools: Our clients benefit from modern tech-enabled legal research, contract automation, cloud-based document storage, and advanced compliance software—ensuring secure, streamlined legal operations.\n" +
+          "• Cost-Effective Legal Strategy: Hiring and training an in-house legal team is expensive and time-consuming. DOstartup gives you access to seasoned legal professionals without long-term overheads, reducing your operational costs significantly.\n" +
+          "• Expert-Led Support: We offer access to a handpicked team of specialists—ensuring expert input across employment laws, contracts, tax compliance, and industry-specific legalities. You save time and gain peace of mind.\n" +
+          "• 24/7 Delivery Support: Our global service delivery model ensures quicker turnaround times, especially for clients managing multi-jurisdictional business. The India-US time advantage helps accelerate project completion.\n" +
+          "• Scalable and Flexible Engagement: Focus on your core business while we handle legal complexity. With hybrid teams and flexible plans, we scale legal support as your business grows."
+      }
+    ],
+    Listicles: [
+      {
+        "category": "What Is a Legal Advisor?",
+        "documents": [
+          "A legal advisor is a licensed law professional who provides legal counsel to organizations.",
+          "At DOstartup, our advisors assist in areas such as contract law, mergers, labor issues, regulatory compliance, compensation claims, and corporate growth planning.",
+          "They act as your legal partners—guiding you through critical decisions and conflict resolution."
+        ]
+      },
+      {
+        "category": "Duties & Skills of a Legal Advisor",
+        "documents": [
+          "Core Responsibilities:",
+          "- Drafting and negotiating contracts, NDAs, employment agreements, and vendor documents.",
+          "- Ensuring adherence to corporate, labor, and industry-specific laws.",
+          "- Handling employee grievances, regulatory notices, and compliance checks.",
+          "Core Skills:",
+          "- Drafting & reviewing contracts",
+          "- Legal compliance analysis",
+          "- Conflict resolution under employment law",
+          "- Risk and policy assessments",
+          "Advanced Skills:",
+          "- Familiarity with corporate finance & commercial law",
+          "- Proficiency in tools like MS Word, Excel, Adobe Acrobat",
+          "- Strong negotiation and leadership abilities"
+        ]
+      },
+      {
+        "category": "DOstartup’s Legal Advisory Coverage",
+        "documents": [
+          "✅ Corporate Law",
+          "- Incorporation (Private, LLP, OPC, etc.)",
+          "- NDAs, confidentiality, anti-corruption, and privacy policies",
+          "- Legal due diligence, conversion, winding-up, and regularization",
+          "- Foreign investment compliance",
+          "- Corporate compliance audits and risk advisory",
+          "✅ Dispute Resolution",
+          "- Civil and commercial litigation",
+          "- Public interest litigation",
+          "- Employment and tax-related litigation",
+          "- Arbitration services",
+          "✅ Employment Law",
+          "- Hiring, onboarding, contract structuring",
+          "- Workforce policy audits",
+          "- Downsizing, transformation consulting",
+          "- Global mobility advisory",
+          "- Compensation and benefits structuring",
+          "✅ Mergers & Acquisitions",
+          "- NDA & due diligence",
+          "- Legal structuring & compliance",
+          "- Anti-trust and regulatory clearance",
+          "- Post-merger integration",
+          "✅ Regulatory Compliance",
+          "- Financial crime & business integrity audits",
+          "- Antitrust and fair competition policies",
+          "- Sectoral compliance (insurance, public law, etc.)",
+          "- Investigations and enforcement risk reviews",
+          "✅ Real Estate Law",
+          "- Legal due diligence and property title verification",
+          "- Lease, sublease & property development contracts",
+          "- Dispute resolution & registration",
+          "- Financing and syndication legalities"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "What challenges does a Legal Advisor face?",
+        "answer": "Legal advisors are expected to have broad knowledge across multiple fields of law. One major challenge is managing expectations when clients seek expert opinions across unrelated legal domains. Advisors also deal with high-stakes decisions and legal risk management for the company."
+      },
+      {
+        "question": "What are the key skills a legal advisor needs?",
+        "answer": "A legal advisor must possess contract expertise, deep knowledge of corporate and employment law, analytical thinking, excellent communication, and a command over legal compliance tools."
+      },
+      {
+        "question": "What makes a successful lawyer?",
+        "answer": "A successful lawyer combines legal acumen with emotional intelligence, negotiation skills, ethical practice, and the ability to offer timely and practical solutions."
+      },
+      {
+        "question": "What type of personality should a legal advisor have?",
+        "answer": "Resilience, critical thinking, discretion, attention to detail, and problem-solving are must-have traits. They should also be proactive and collaborative."
+      },
+      {
+        "question": "What are the core responsibilities of a legal advisor?",
+        "answer": "Drafting and reviewing legal documents, ensuring regulatory compliance, handling employment issues, offering legal risk advice, and assisting with transactions."
+      },
+      {
+        "question": "What legal services does DOstartup offer for M&A?",
+        "answer": "We provide end-to-end M&A support—NDA creation, due diligence, legal structuring, merger clearance, compliance integration, and post-acquisition legal roadmap."
+      },
+      {
+        "question": "How long does a consultation take?",
+        "answer": "Initial consultations are generally 20–30 minutes. For specific legal matters, sessions can extend based on complexity."
+      },
+      {
+        "question": "What should one consider before becoming a legal advisor?",
+        "answer": "Strong foundation in law, continuous learning, business understanding, and the ability to handle high-pressure advisory situations."
+      },
+      {
+        "question": "How does DOstartup support businesses in employment law?",
+        "answer": "We assist with everything from employee contracts to global mobility compliance, policy structuring, and dispute resolution—ensuring a legally sound workforce."
+      },
+      {
+        "question": "How do legal advisory services prove cost-effective?",
+        "answer": "You save on permanent salaries, infrastructure, and training costs. Plus, outsourcing ensures faster turnaround and quality assurance from professionals."
+      },
+      {
+        "question": "How does DOstartup assist with regulatory compliance?",
+        "answer": "From financial crime audits to sectoral regulatory frameworks, we help businesses comply with evolving norms and reduce legal exposure."
+      },
+      {
+        "question": "How does DOstartup help with corporate law matters?",
+        "answer": "We offer complete corporate legal support—company incorporation, compliance filings, foreign investment handling, and restructuring services."
+      }
+    ]
+  },
+  "gst-advisory-services": {
+    title: "GST Advisory Services",
+    description: "We provide a host of GST advisory services such as covering the impact of GST on the business of clients, examining different market scenarios of business models, etc",
+    overview: [
+      {
+        "heading": "Overview: GST & Its Business Impact",
+        "content": "Launched on 1st July 2017, the Goods and Services Tax (GST) redefined India's indirect tax landscape. As a destination-based, multi-stage tax, GST is charged only on the value addition at each point in the supply chain. Whether you're a startup, SME, or large enterprise, GST has far-reaching implications on supply chains and logistics, pricing strategies, IT infrastructure and ERP systems, accounting and compliance, and legal documentation. Our goal at DOstartup is to make this transition and its ongoing demands seamless and strategic for your business."
+      },
+      {
+        "heading": "Dostartup's GST Advisory Expertise",
+        "content": "We provide end-to-end GST strategy and implementation through:\n• Impact Analysis & Strategic Modeling: Evaluate fiscal implications, identify impact areas, and provide custom tax modeling.\n• Transition & Compliance Management: Assist in GST migration, credit mapping, and redesigning tax-compliant processes.\n• IT & System Integration Support: Review ERP systems, define GST triggers, and conduct compliance testing.\n• Anti-Profiteering Advisory: Analyze pricing changes and represent before authorities if required.\n• Training & Capacity Building: Offer on-site/online sessions for teams and vendors."
+      },
+      {
+        "heading": "Eligibility for GST Registration",
+        "content": "According to Sections 22 to 30 of the CGST Act, 2017:\n• Service providers: Must register if turnover exceeds ₹20 lakh (₹10 lakh in NE states).\n• Goods suppliers: Must register if turnover exceeds ₹40 lakh (₹20 lakh in NE states).\nMandatory Registration applies to:\n- Businesses in interstate trade\n- E-commerce operators\n- Exporters of services\n- Casual taxable persons/non-residents"
+      },
+      {
+        "heading": "Documents Required for GST Registration",
+        "content": "• PAN of the business entity\n• Identity and address proof of promoters/directors\n• Proof of business address (rent agreement/ownership)\n• Bank account details\n• Digital signature (for companies and LLPs)"
+      },
+      {
+        "heading": "GST Rates in India",
+        "content": "GST is levied under various slabs:\n• Standard rates: 5%, 12%, 18%, and 28%\n• Special rates:\n- 3% for gold\n- 0.25% for rough precious/semi-precious stones"
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Benefits of GST Registration",
+        "content": "• Eliminates tax-on-tax (cascading effect): GST removes the cascading effect of taxes by allowing seamless credit of taxes paid at earlier stages in the supply chain.\n" +
+          "• Increases input tax credit eligibility: Businesses can claim credit for taxes paid on inputs across the entire supply chain, reducing overall tax liability.\n" +
+          "• Eases interstate business transactions: GST simplifies interstate trade by replacing multiple state taxes with a single, unified tax system.\n" +
+          "• Enables participation in the e-commerce ecosystem: GST registration is mandatory for e-commerce sellers, allowing businesses to tap into online marketplaces.\n" +
+          "• Brings transparency to unorganized sectors: The digital nature of GST compliance brings greater accountability and formalization to previously informal sectors."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is GSTIN?",
+        "answer": "GSTIN stands for Goods and Services Tax Identification Number, a 15-digit unique ID provided to every GST-registered business."
+      },
+      {
+        "question": "When should a business apply for multiple GST registrations?",
+        "answer": "When a business operates in more than one state or has multiple verticals within the same state, separate registrations are required."
+      },
+      {
+        "question": "Is GST mandatory for interstate purchases?",
+        "answer": "Yes. Any business making interstate supplies of goods/services must be registered under GST, regardless of turnover."
+      },
+      {
+        "question": "Can we have two trade names under the same GST number?",
+        "answer": "No. Each GSTIN corresponds to a single legal entity and trade name. Multiple brands can be run under one GSTIN, but for legal clarity, different GSTINs are advisable."
+      },
+      {
+        "question": "What are the three types of GST?",
+        "answer": "CGST – Central GST (levied by Central Government)\nSGST – State GST (levied by State Government)\nIGST – Integrated GST (for interstate or export/import transactions)"
+      },
+      {
+        "question": "On which products is GST not applicable?",
+        "answer": "Currently, alcohol for human consumption, petrol, diesel, aviation turbine fuel (ATF), and natural gas are outside GST."
+      },
+      {
+        "question": "Can a proprietor have two firms under GST?",
+        "answer": "Yes, a single proprietor can operate multiple firms, but each must be registered separately under GST, depending on location or business nature."
+      },
+      {
+        "question": "What is the Composition Scheme under GST?",
+        "answer": "It is a simplified tax scheme for small taxpayers with turnover up to ₹1.5 crore (₹75 lakhs for NE states) to pay tax at a fixed rate and file quarterly returns."
+      },
+      {
+        "question": "What is the difference between legal name and trade name in GST?",
+        "answer": "Legal name – Name as per PAN/official records\nTrade name – Name under which business is conducted (brand name)"
+      },
+      {
+        "question": "Why is there no GST on petrol?",
+        "answer": "Petroleum products are currently kept outside GST to protect states' revenue. They are still taxed under the VAT and Excise Duty regime."
+      },
+      {
+        "question": "Is an advocate providing interstate supply under Reverse Charge liable for registration?",
+        "answer": "No. Services provided by advocates fall under Reverse Charge Mechanism (RCM); thus, they are not required to register unless providing other taxable supplies."
+      },
+      {
+        "question": "What does 'not liable to tax under Section 23' mean?",
+        "answer": "It refers to persons exempt from GST registration, like agriculturists or those making entirely non-taxable/nil-rated supplies."
+      },
+      {
+        "question": "Is separate registration required for trading and manufacturing by the same entity in one state?",
+        "answer": "No. As long as both activities are under the same PAN and location, one registration is sufficient."
+      },
+      {
+        "question": "What is the GST formula?",
+        "answer": "GST Amount = (Original Cost × GST Rate) / 100\nFinal Price = Original Cost + GST Amount"
+      },
+      {
+        "question": "Is GST part of the MRP?",
+        "answer": "Yes. MRP is the final retail price that includes all taxes, including GST."
+      }
+    ]
+  },
+  "pharma-consultancy-services": {
+    title: "Comprehensive Pharma Consulting Tailored for Modern India",
+    description: "At DOstartup, our Pharma Consultancy Services empower pharmaceutical businesses—from startups to established industry leaders—with strategic insights and actionable guidance to stay compliant, competitive, and innovative. Whether you need support with regulatory filings, market research, clinical trials, or full-spectrum product development, our experts are equipped to navigate India’s evolving pharmaceutical landscape with precision.",
+    overview: [
+      {
+        "heading": "Pharma Consultancy Services – At a Glance",
+        "content": "India's pharmaceutical industry is booming, projected to reach USD 100 billion by 2025, with a CAGR of over 22.4%. However, this rapid growth comes with complex regulatory, operational, and intellectual property challenges. DOstartup's Pharma Consultants are experienced advisors who bring clarity and compliance to every stage of your pharmaceutical journey—from idea to international market.\n\nWe support pharmaceutical businesses across:\n• Regulatory compliance (India + global)\n• Clinical trials and product approvals\n• Manufacturing and facility audits\n• Intellectual property strategy\n• Market research and go-to-market planning\n• Product formulation and supply chain structuring"
+      },
+      {
+        "heading": "What is a Pharma Consultant?",
+        "content": "A pharma consultant is a domain expert or firm that helps pharmaceutical companies navigate compliance laws, operational bottlenecks, R&D processes, and market entry challenges. At DOstartup, our consultants are backed by legal, financial, and healthcare professionals to ensure 360° support—whether you're launching a new drug or scaling globally."
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Benefits of GST Registration",
+        "content": "• Eliminates tax-on-tax (cascading effect): GST removes the cascading effect of taxes by allowing seamless credit of taxes paid at earlier stages in the supply chain.\n" +
+          "• Increases input tax credit eligibility: Businesses can claim credit for taxes paid on inputs across the entire supply chain, reducing overall tax liability.\n" +
+          "• Eases interstate business transactions: GST simplifies interstate trade by replacing multiple state taxes with a single, unified tax system.\n" +
+          "• Enables participation in the e-commerce ecosystem: GST registration is mandatory for e-commerce sellers, allowing businesses to tap into online marketplaces.\n" +
+          "• Brings transparency to unorganized sectors: The digital nature of GST compliance brings greater accountability and formalization to previously informal sectors."
+      }
+    ],
+    services: [
+      {
+        "category": "Regulatory Compliance and Approvals",
+        "documents": [
+          "CDSCO approvals",
+          "Clinical trial authorizations",
+          "Product licenses",
+          "Pricing regulations",
+          "Documentation management",
+          "Adverse event reporting",
+          "Labelling rules",
+          "Pharmacovigilance"
+        ]
+      },
+      {
+        "category": "Market Research & Competitive Analysis",
+        "documents": [
+          "Demand gap identification",
+          "New formulation positioning",
+          "Pricing & distribution strategies",
+          "Competitor pipeline tracking"
+        ]
+      },
+      {
+        "category": "Clinical Trials Management",
+        "documents": [
+          "Protocol design",
+          "Regulatory submissions",
+          "Ethical approvals",
+          "Site selection",
+          "Participant recruitment",
+          "ICH-GCP compliance"
+        ]
+      },
+      {
+        "category": "Pharmaceutical Manufacturing Advisory",
+        "documents": [
+          "Facility setup & design",
+          "SOP development",
+          "Equipment qualification",
+          "Regulatory inspection readiness"
+        ]
+      },
+      {
+        "category": "Strategic Pharma Marketing",
+        "documents": [
+          "Launch campaigns",
+          "Brand positioning",
+          "Digital pharma strategies",
+          "Pricing strategies",
+          "Salesforce effectiveness",
+          "KOL engagement"
+        ]
+      },
+      {
+        "category": "Product Development Strategy",
+        "documents": [
+          "Formulation & excipient planning",
+          "Dossier preparation",
+          "Packaging & shelf-life strategy",
+          "IP protection",
+          "Patent filing"
+        ]
+      },
+      {
+        "category": "International Regulatory Compliance Support",
+        "documents": [
+          "Country-wise regulatory strategy",
+          "CTD/eCTD submissions",
+          "Regulatory audit readiness",
+          "Ongoing compliance management"
+        ]
+      },
+      {
+        "category": "Why Pharma Companies Choose DOstartup",
+        "documents": [
+          "Cross-functional expertise",
+          "Time-bound service with 99% SLA compliance",
+          "Tailored plans for startups, SMEs, and large manufacturers",
+          "End-to-end global compliance support",
+          "Fully managed documentation process"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "What qualifications are required to become a pharma consultant in India?",
+        "answer": "While no fixed certification is mandated, pharma consultants usually have degrees in Pharmacy, Medicine, Chemistry, or Biotechnology, along with experience in regulatory affairs, clinical trials, or manufacturing."
+      },
+      {
+        "question": "How do pharma consultants charge for their services?",
+        "answer": "Consultants may charge on a per-project basis, retainer model, or hourly depending on the complexity, regulatory involvement, and geographical scope of the assignment."
+      },
+      {
+        "question": "Do pharma consultants work with both large and small companies?",
+        "answer": "Yes. At DOstartup, we work with emerging pharma startups, CROs, and major pharmaceutical manufacturers, customizing our advisory to suit the scale and scope of operations."
+      },
+      {
+        "question": "Can pharma consultants help with product development?",
+        "answer": "Absolutely. We assist with formulation design, clinical trial design, compliance roadmap, manufacturing readiness, and IP protection—ensuring the product is market-ready."
+      },
+      {
+        "question": "How do consultants stay up-to-date with changing regulations?",
+        "answer": "DOstartup's consultants regularly engage with regulatory authorities, subscribe to international compliance journals, and participate in training and policy briefings from CDSCO, WHO, USFDA, and other global regulators."
+      },
+      {
+        "question": "Can pharma consultants help with global compliance and approvals?",
+        "answer": "Yes. We specialize in international market entry, supporting CTD/eCTD submissions, EU GMP certifications, USFDA audits, and liaisoning with global health agencies."
+      },
+      {
+        "question": "Do consultants only serve Indian clients?",
+        "answer": "No. While based in India, DOstartup also supports foreign pharmaceutical companies looking to enter the Indian market or set up compliant manufacturing units under the Make in India initiative."
+      },
+      {
+        "question": "Are pharma consultants licensed or certified?",
+        "answer": "While there is no national licensing body in India for pharma consultants, our team includes registered pharmacists, certified clinical research professionals, and regulatory affairs specialists."
+      },
+      {
+        "question": "How long does a typical engagement last?",
+        "answer": "Engagements can range from a few weeks for standalone regulatory filings to 6–12 months or more for clinical trial oversight or international approvals."
+      },
+      {
+        "question": "Can consultants help with market research?",
+        "answer": "Yes. Our dedicated pharma market analysts offer quantitative and qualitative insights, enabling evidence-backed decisions on product strategy, pricing, and target markets."
+      }
+    ]
+  },
+  "premium-business-templates": {
+    title: "Premium Business Templates",
+    description: "Premium business templates predominantly falls into 11 categories, which follows the overall world's high business standards. ",
+    overview: [
+      {
+        "heading": "Overview of Premium Business Templates",
+        "content": "DoStartup's Premium Business Templates are your one-stop solution for crafting a wide array of business and contractual documents that safeguard your company's interests. To operate efficiently and professionally, your business processes must run smoothly—and that's exactly what our Premium Business Templates are designed to support. Backed by a seasoned team of Chartered Accountants, Company Secretaries, Cost Accountants, and Legal Experts, these templates help streamline your documentation with quality and ease."
+      },
+      {
+        "heading": "Template Collection Features",
+        "content": "We've curated an extensive collection of high-impact templates to elevate your business. Whether you're in construction, finance, consultancy, or any other sector, our professionally drafted templates are essential assets for building solid business relationships. These templates are mobile-responsive and available in both multi-page and single-page formats—perfect for launching a new project or revamping existing materials."
+      },
+      {
+        "heading": "Key Features",
+        "content": "• Fully customizable and easy to use\n• Time-saving and cost-effective\n• Professionally structured by experts\n• Compatible with Microsoft Word\n• Optimized for seamless electronic signature integration"
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Who Can Benefit from Premium Business Templates?",
+        "content": "This comprehensive package is thoughtfully designed for:\n" +
+          "• Company Secretaries: Streamline corporate documentation and compliance processes\n" +
+          "• Human Resource Managers: Access ready-to-use employment contracts and HR policies\n" +
+          "• Entrepreneurs and Start-Up Founders: Jumpstart operations with professional legal templates\n" +
+          "• Legal Advisors and Lawyers: Save time with pre-drafted legal document frameworks\n" +
+          "• Chartered and Cost Accountants: Standardize financial agreements and reporting templates\n" +
+          "• Business Owners and Employees: Ensure professional documentation across all operations\n\n" +
+          "DoStartup's Premium Business Templates include over 500 professionally drafted formats tailored to meet diverse global business needs."
+      }
+    ],
+    Listicles: [
+      {
+        "category": "Why Choose DoStartup's Premium Business Templates?",
+        "documents": [
+          "Simplify Document Creation: No need to start from scratch for every new project. Our templates form the foundation of professional documents—just add your business specifics.",
+          "Improve Workflow Efficiency: From faster document creation to quicker deal closures, these templates streamline team workflows and save valuable hours.",
+          "Increase Compliance and Professionalism: All templates follow standard legal formats ensuring clear communication and reducing errors.",
+          "Legally Vetted and Secure: Each template is crafted by professionals, ensuring legal soundness and business standards compliance.",
+          "Fully Customizable: Personalize every document with logos, icons, visuals or hyperlinks to suit your branding goals.",
+          "Seamless e-Signature Integration: Accelerate approvals and client onboarding with built-in electronic signature support."
+        ]
+      },
+      {
+        "category": "What's Included in the Premium Business Templates Package?",
+        "documents": [
+          "✅ Accounting and Finance Templates:",
+          "- Agreements and formats for CA/CS/HRs",
+          "- Invoice templates for businesses",
+          "- Resolutions, letters, forms, and notices",
+          "- Quotation samples (including COVID-19 formats)",
+          "✅ Board Resolution Formats:",
+          "- Approvals, amendments, appointments, terminations",
+          "- Contributions, MOA/AOA updates",
+          "✅ Marketing Templates:",
+          "- Marketing budgets, email strategies, media kits",
+          "- Reports, plans, checklists, and flowcharts",
+          "✅ MIS Templates:",
+          "- Attendance sheets, sales/income reports",
+          "- Cash flows, SOPs, estimations, payrolls",
+          "✅ Planning & Development Templates:",
+          "- Training schedules, audits, L&D assets",
+          "- Business plans, communication flowcharts",
+          "✅ Start-Up Templates:",
+          "- Capital estimations, business roadmaps",
+          "- Pitch decks, organizational charts",
+          "✅ Agreement Templates:",
+          "- NDAs, tenancy, purchase/service agreements",
+          "- COVID-19-specific legal formats",
+          "✅ Business Templates:",
+          "- Business plans, appraisal forms",
+          "- Notices, letters, reimbursement forms",
+          "✅ Legal Templates & Notices:",
+          "- Power of Attorney, service agreements",
+          "- Litigation letters, recovery notices",
+          "✅ Quotation Templates:",
+          "- Audits, repairs, catering, web/events",
+          "- Consulting, machinery, products",
+          "✅ Survey Templates (5 Categories):",
+          "- Customer, HR, Market Research surveys",
+          "- Academic and Community Surveys",
+          "- Evaluation forms, feedback templates"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "Why are Premium Business Templates efficient?",
+        "answer": "They are professionally drafted, customizable, and ready to use—saving time, money, and effort while meeting modern business demands."
+      },
+      {
+        "question": "What is included in the Premium Business Templates Package?",
+        "answer": "Over 500+ templates across accounting, legal, HR, startup, planning, marketing, and more."
+      },
+      {
+        "question": "What are the key benefits of using Premium Business Templates?",
+        "answer": "Time savings, professional formatting, legal reliability, and increased workflow efficiency."
+      },
+      {
+        "question": "Do I need a lawyer to use these templates?",
+        "answer": "No. While each template is legally sound, you can always reach out for a legal consultation included in the package."
+      },
+      {
+        "question": "How long does it take to receive my Premium Business Templates?",
+        "answer": "Within two business days after your information is submitted."
+      }
+    ]
+  },
+  "human-resource-templates": {
+    title: "Human Resource Templates",
+    description: "DoStartup Survey Human resource templates will help you get one step closer to creating your perfect survey",
+    overview: [
+      {
+        "heading": "Overview of Human Resource Templates",
+        "content": "DoStartup’s Human Resource Templates are designed to help you create a wide range of professional HR documents such as forms, policies, rules, surveys, and more—ensuring your HR functions operate smoothly and efficiently. This comprehensive package includes everything from job application forms, employee information forms, leave of absence forms, and time-off request forms, to employee evaluation forms and much more. The package also covers HR surveys, exit interview templates, employee incident report forms, staffing and recruitment plans, and a full suite of policies, rules, acknowledgments, and miscellaneous HR forms. With this collection, you gain access to expertly crafted templates that streamline your day-to-day HR operations. All templates are ready-to-use and individually customizable, created by a team of HR professionals, Chartered Accountants, Company Secretaries, Cost Accountants, and Legal Advisors—ensuring quality and compliance."
+      },
+      {
+        "heading": "Why Use Human Resource Templates?",
+        "content": "HR departments manage a broad range of responsibilities, from recruitment and onboarding to employee evaluations and terminations. Without structured tools, tracking and managing these processes can become overwhelming. That’s where DoStartup’s HR templates come in. Today’s progressive organizations understand that HR management is not just about hiring and firing—it's about strategic human asset planning, fostering a strong work culture, and enhancing employee engagement. With DoStartup’s HR Templates, you’ll be able to streamline your HR lifecycle while reducing paperwork and increasing compliance. Our package includes over 100 HR templates that are fully customizable and provide an efficient starting point for various HR tasks—allowing you to focus on strategy and execution instead of document creation from scratch."
+      },
+      {
+        "heading": "How DoStartup’s Human Resource Templates Can Help You",
+        "content": "Whether you're building an HR department or managing an existing one, DoStartup's templates will help you:\n• Save time with ready-to-use formats\n• Maintain a professional appearance\n• Ensure consistency and compliance across documents\n• Simplify internal reviews and employee requests\n• Reduce paper-based processes and miscommunication\n• Work seamlessly without needing IT support\nOur HR templates are ideal for HR managers, but they also benefit Company Secretaries, Entrepreneurs, Lawyers, Chartered and Cost Accountants, and Business Owners."
+      },
+      {
+        "heading": "Key Features of DoStartup Human Resource Templates",
+        "content": "• Professionally Drafted by Legal and HR Experts\n• 100% Customizable for your business needs\n• Compatible with Microsoft Office & Google Docs\n• Ready to Print and Use Immediately\n• e-Signature Enabled for seamless workflows\n• Saves Time, Effort, and Resources\n• Improves Workflow and Reduces Document Errors"
+      },
+      {
+        "heading": "How to Use DoStartup’s Human Resource Templates",
+        "content": "Just like a field trip checklist simplified packing in childhood, our HR templates simplify your business documentation. Follow these steps:\n1. Select a Template based on your HR requirement\n2. Add a Title aligned with your document objective\n3. Clearly Define the Parties and Terms\n4. Customize Clauses, such as compensation, time-off, and severability\n5. Finalize, Print, or Digitally Sign the Document\nThese templates offer a clear starting point while allowing you full flexibility to tailor each document to your needs."
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Benefits of Using DoStartup HR Templates",
+        "content": "Building or managing an HR department takes strategic effort. With DoStartup’s HR Templates, you can:\n" +
+          "• Kickstart with structured job profiles\n" +
+          "• Build an efficient staffing and recruitment plan\n" +
+          "• Set up proper salary and compensation documents\n" +
+          "• Track time off, expenses, and performance easily\n" +
+          "• Establish clear company culture and apparel guidelines\n" +
+          "• Manage training, development, and travel policies\n" +
+          "• Create a strong employer brand identity\n" +
+          "• Boost team productivity and streamline workflows\n" +
+          "• Digitally sign documents and eliminate paperwork\n" +
+          "• Monitor HR processes with real-time visibility"
+      }
+    ],
+    Listicles: [
+      {
+        "category": "What’s Included in DoStartup’s Human Resource Template Package?",
+        "documents": [
+          "COVID-19 Related Documentation",
+          "Job Application Forms",
+          "Employee Information Forms",
+          "Leave of Absence Forms",
+          "Time-Off Request Forms",
+          "Employee Evaluation Forms",
+          "HR Surveys and Exit Interviews",
+          "Employee Incident Reports",
+          "Return to Work Forms",
+          "Acknowledgment Forms",
+          "Workplace Rules and Policies",
+          "Staffing/Recruitment Plans",
+          "Suitable for all industries and business sizes—from startups to large corporations"
+        ]
+      },
+      {
+        "category": "Legal Advisory & Support",
+        "documents": [
+          "Free legal consultation included with every package",
+          "Assistance with customizing templates to match your company structure and applicable labor laws",
+          "First draft delivered within two business days of sharing requirements",
+          "Fast revisions for changes or adjustments"
+        ]
+      },
+      {
+        "category": "DoStartup Human Resource Templates Plan",
+        "documents": [
+          "Monitor document engagement and status in real-time",
+          "Assign approval hierarchies and user roles",
+          "Add custom legal clauses and corporate branding",
+          "Streamline onboarding, evaluations, and other HR processes",
+          "Save time, reduce costs, and improve employee lifecycle management"
+        ]
+      },
+      {
+        "category": "Get Started with DoStartup’s Human Resource Templates",
+        "documents": [
+          "Book your free consultation today",
+          "Get a response within 1 hour!",
+          "Submit your Name, Email Address, Mobile Number, and State",
+          "Gain access to the complete HR template package",
+          "Receive a complimentary legal consultation with your submission"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "Why are DoStartup’s Human Resource Templates effective?",
+        "answer": "They are professionally structured, easy to customize, and compatible with all office software—saving you hours of document drafting."
+      },
+      {
+        "question": "What types of templates are included?",
+        "answer": "Over 100 templates, including job applications, surveys, policies, incident reports, and staffing plans."
+      },
+      {
+        "question": "Will I need a lawyer to use these templates?",
+        "answer": "Not necessarily. While the templates are legally compliant, we recommend consulting our legal team for any specific customizations."
+      },
+      {
+        "question": "Who prepares these templates?",
+        "answer": "They are created by a team of HR professionals, lawyers, Chartered Accountants, and legal experts to ensure compliance and professionalism."
+      }
+    ]
+  },
+  "eco-mark-scheme-certification": {
+    title: "Eco Mark Certification in India",
+    description: "Worried about the environmental impact of your products? Enjoy the stress-free Eco Mark Certification journey and take first step towards sustainability.",
+    "overview": [
+      {
+        "heading": "Overview of Eco Mark Certification",
+        "content": "Eco Mark Certification is a voluntary eco-labeling initiative launched by the Bureau of Indian Standards (BIS) in 1991. It aims to promote environmentally responsible products by recognizing those that meet specific ecological criteria throughout their life cycle—from production to disposal. This certification, overseen by BIS, is designed to encourage sustainable manufacturing practices and guide consumers in making eco-conscious choices."
+      },
+      {
+        "heading": "Eligible Products for Eco Mark",
+        "content": "Products eligible for Eco Mark are assessed based on their impact on air, water, soil, and natural resources like energy. Categories include food items, textiles, paints, packaging materials, and more. By aligning with these standards, manufacturers demonstrate their commitment to sustainability while consumers gain awareness of environmentally friendly alternatives."
+      },
+      {
+        "heading": "Objectives of the Eco Mark Scheme",
+        "content": "The Eco Mark Scheme is designed to:\n• Promote eco-friendly manufacturing practices.\n• Encourage sustainable consumption habits.\n• Minimize environmental pollution and resource depletion.\n• Inspire innovation in green technologies across industries.\n• Raise awareness among consumers about eco-conscious choices.\n• Define environmental benchmarks for various product segments.\n• Support public health by lowering pollution levels.\n• Contribute to India’s sustainable development objectives."
+      },
+      {
+        "heading": "How Dostartup Can Help",
+        "content": "Let Dostartup be your trusted partner in obtaining the Eco Mark Certification. Our team of experienced consultants will simplify the process and reduce your sustainability concerns, making it easier for your company to align with environmentally friendly practices."
+      }
+    ],
+    "Productlist": [
+      {
+        "category": "Food Products",
+        "documents": [
+          "Organic Food",
+          "Packaged Snacks",
+          "Beverages",
+          "Dairy Products"
+        ]
+      },
+      {
+        "category": "Batteries",
+        "documents": [
+          "Rechargeable Batteries",
+          "Environmentally Friendly Dry Cells"
+        ]
+      },
+      {
+        "category": "Furniture",
+        "documents": [
+          "Sustainable Wood Furniture",
+          "Recycled Material Furniture"
+        ]
+      },
+      {
+        "category": "Pharmaceuticals",
+        "documents": [
+          "Eco-friendly Packaging for Medicines",
+          "Natural Pharmaceuticals"
+        ]
+      },
+      {
+        "category": "Soaps and Detergents",
+        "documents": [
+          "Biodegradable Soaps",
+          "Eco-friendly Laundry Detergents"
+        ]
+      },
+      {
+        "category": "Pulp and Paper Products",
+        "documents": [
+          "Recycled Paper Products",
+          "Sustainable Paper"
+        ]
+      },
+      {
+        "category": "Packaging Materials",
+        "documents": [
+          "Eco-friendly Packaging",
+          "Recyclable Packaging"
+        ]
+      },
+      {
+        "category": "Paints and Coatings",
+        "documents": [
+          "Non-toxic Paints",
+          "Low-VOC Paints"
+        ]
+      },
+      {
+        "category": "Leather Goods",
+        "documents": [
+          "Eco-friendly Leather Products",
+          "Sustainable Leather Accessories"
+        ]
+      },
+      {
+        "category": "Plastic Products",
+        "documents": [
+          "Recyclable Plastics",
+          "Biodegradable Plastics"
+        ]
+      },
+      {
+        "category": "Textiles and Garments",
+        "documents": [
+          "Organic Cotton Clothes",
+          "Recycled Fabric Garments"
+        ]
+      },
+      {
+        "category": "Electronics and Electrical Appliances",
+        "documents": [
+          "Energy-efficient Electronics",
+          "Recyclable Electrical Appliances"
+        ]
+      },
+      {
+        "category": "Cosmetics and Personal Care Items",
+        "documents": [
+          "Natural Cosmetics",
+          "Biodegradable Personal Care Products"
+        ]
+      },
+      {
+        "category": "Agricultural Equipment",
+        "documents": [
+          "Eco-friendly Farm Tools",
+          "Sustainable Agricultural Machinery"
+        ]
+      },
+      {
+        "category": "Building Materials",
+        "documents": [
+          "Eco-friendly Cement",
+          "Sustainable Tiles"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits for Manufacturers from Eco Mark Certification",
+        "content": "For Manufacturers:\n" +
+          "• Showcases commitment to sustainability and enhances brand value.\n" +
+          "• Opens access to domestic and international eco-conscious markets.\n" +
+          "• Increases customer goodwill and brand recognition.\n" +
+          "• Ensures adherence to environmental norms, reducing regulatory risks.\n" +
+          "• Reduces operational costs by encouraging resource efficiency and waste minimization."
+      },
+      {
+        "heading": "Benefits for Products with Eco Mark Certification",
+        "content": "For Products:\n" +
+          "• Enhances product credibility and earns consumer trust.\n" +
+          "• Boosts product value, allowing better market positioning.\n" +
+          "• Helps consumers easily identify and select green products.\n" +
+          "• Assures minimal ecological impact during production and use.\n" +
+          "• Aligns with India's broader climate and sustainability objectives."
+      },
+      {
+        "heading": "Why Eco Mark Certification Matters",
+        "content": "Eco Mark is not just a label—it represents a product’s commitment to environmental stewardship. Here's why it’s important:\n" +
+          "• Promotes Green Manufacturing: Encourages adoption of sustainable and low emission production techniques.\n" +
+          "• Raises Consumer Awareness: Educates customers on choosing products that are safer for the planet.\n" +
+          "• Increases Resource Efficiency: Motivates industries to use water, energy, and materials more responsibly.\n" +
+          "• Reduces Waste and Emissions: Limits the use of toxic components and cuts down pollution across the product life cycle.\n" +
+          "• Strengthens Brand Credibility: Certified products gain loyalty from environmentally aware customers.\n" +
+          "• Fosters Green Innovation: Supports the development of eco-friendly technologies and materials.\n" +
+          "• Supports Legal Compliance: Aids in meeting national and global environmental standards.\n" +
+          "• Encourages Circular Economy: Promotes use of recyclable, reusable materials and eco-friendly packaging.\n" +
+          "• Improves Public Health: Reduces the usage of harmful chemicals, improving safety for consumers.\n" +
+          "• Aligns with Global Goals: Contributes to India’s commitments under agreements like the Paris Climate Accord and UN SDGs."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Eco Mark Certification",
+        "content":
+          "To apply for Eco Mark Certification, manufacturers must ensure their products:\n" +
+          "• Conform to BIS quality standards.\n" +
+          "• Have minimal negative environmental impact throughout their lifecycle.\n" +
+          "• Are manufactured using energy-efficient processes.\n" +
+          "• Contain non-toxic, biodegradable materials.\n" +
+          "• Emit little or no pollutants.\n" +
+          "• Are made with recyclable or renewable resources.\n" +
+          "• Include eco-friendly packaging.\n" +
+          "• Comply with applicable environmental and legal norms."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Application & Business Identification",
+        "content":
+          "- Completed application form\n" +
+          "- Certificate of Incorporation (if applicable)\n" +
+          "- Product and environmental impact details"
+      },
+      {
+        "heading": "Manufacturing & Process Documentation",
+        "content":
+          "- Manufacturing process details with sustainability measures\n" +
+          "- Lab test reports\n" +
+          "- Legal and environmental compliance documents"
+      },
+      {
+        "heading": "Regulatory Compliance & Additional Documents",
+        "content":
+          "- MOA and AOA (if applicable)\n" +
+          "- No Objection Certificate (NOC) from State Pollution Control Board\n" +
+          "- Additional documents, if requested"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Registration Process",
+        "content": "Step 1: Application Submission: Submit the completed application and supporting documents. (2–4 Weeks) \n" +
+          "Step 2: Review of Application: The certifying authority evaluates the submission and may request additional details. (4–6 Weeks)\n" +
+          "Step 3: On-Site Evaluation: Inspectors visit the manufacturing site to verify adherence to environmental standards. (4–6 Weeks)\n" +
+          "Step 4: Assessment Report: Findings are documented and shared with the applicant. (2–4 Weeks)\n" +
+          "Step 5: Final Decision: Authorities evaluate the report and decide on certification. (3–4 Weeks)\n" +
+          "Step 6: Issuance of Certificate: After approval, the Eco Mark certification is granted. (2 Weeks)\n" +
+          "Step 7: Post-Certification Compliance: Periodic audits and reviews ensure continued compliance.\n"
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Dostartup for Eco Mark Certification?",
+        "description": [
+          "Over 10 years of industry knowledge in Eco Mark licensing",
+          "500+ certified products guided successfully through the process",
+          "1000+ satisfied clients helped with streamlined certification",
+          "In-depth expertise in Eco Mark standards and compliance strategies",
+          "Our certified products have reached 1 million+ green consumers",
+          "30% lower risk of non-compliance with our proactive support"
+        ],
+        "points": [
+          "Expert guidance through the entire Eco Mark certification process",
+          "High success rate in obtaining Eco Mark certification",
+          "Personalized support at every step",
+          "Dedicated customer assistance for queries and updates"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Eco Mark certification?",
+        "answer": "Eco Mark certification is a label granted by the Bureau of Indian Standards (BIS) to products that meet specific environmental criteria. It represents a product’s eco-friendly nature and supports the adoption of sustainable production and consumption practices."
+      },
+      {
+        "question": "How can I apply for Eco Mark certification online?",
+        "answer": "To apply online for Eco Mark certification:\n1. Visit the BIS official website.\n2. Fill out the prescribed application form.\n3. Upload all the required documents.\n4. Wait for the BIS to evaluate your application and conduct necessary assessments. For a hassle-free experience, you can reach out to Dostartup, your trusted partner in sustainability certifications."
+      },
+      {
+        "question": "Who issues the Eco Mark License?",
+        "answer": "The Bureau of Indian Standards (BIS) is the competent authority responsible for issuing the Eco Mark license. BIS ensures the product meets the required sustainability and environmental benchmarks."
+      },
+      {
+        "question": "How do I identify the Eco Mark logo and symbol?",
+        "answer": "The Eco Mark logo features a green earthen pot, symbolizing eco-consciousness, tradition, and sustainability. This mark confirms that a product adheres to BIS’s environmental standards and is certified under the Eco Mark Scheme."
+      },
+      {
+        "question": "What is the Eco Mark application process?",
+        "answer": "The application process includes:\n• Submitting the application form to BIS\n• Providing all necessary documentation\n• Undergoing product testing and evaluation\n• Ensuring full compliance with environmental criteria."
+      },
+      {
+        "question": "Is it possible to get Eco Mark registration online?",
+        "answer": "Yes, Eco Mark certification can be obtained through the online application process provided by BIS. Applicants must complete the form, attach the necessary documents, and follow the evaluation process. For streamlined assistance, consider partnering with Dostartup."
+      },
+      {
+        "question": "Which authority issues Eco Mark Scheme Certification in India?",
+        "answer": "The Bureau of Indian Standards (BIS) is the sole authority responsible for awarding the Eco Mark Scheme Certification after assessing product compliance with predefined environmental standards."
+      },
+      {
+        "question": "When did Eco Mark start in India?",
+        "answer": "The Eco Mark scheme was introduced in 1991 by the BIS to recognize products that reduce environmental impact and support sustainability efforts."
+      },
+      {
+        "question": "Is Eco Mark compulsory?",
+        "answer": "No, the Eco Mark scheme is voluntary. However, it is highly recommended for businesses aiming to promote their eco-friendly credentials and stand out in the sustainable market. Dostartup can assist you in exploring these benefits."
+      },
+      {
+        "question": "What are the benefits of the Eco Mark?",
+        "answer": "Eco Mark-certified products are perceived as safe, sustainable, and environmentally responsible. The certification enhances brand credibility, boosts consumer trust, and promotes green purchasing behaviors among environmentally conscious customers."
+      },
+      {
+        "question": "Who administers the Eco Mark scheme?",
+        "answer": "The Eco Mark scheme is administered by the Bureau of Indian Standards (BIS), India’s official standards-setting organization."
+      },
+      {
+        "question": "What is the Eco Mark scheme registration process?",
+        "answer": "The Eco Mark registration process includes:\n• Filing the application\n• Product inspection and testing\n• Fulfillment of environmental compliance requirements\nFor expert guidance through the process, connect with Dostartup."
+      },
+      {
+        "question": "What is the validity of the Eco Mark license?",
+        "answer": "The Eco Mark license is valid for one year. After this period, a product must undergo a reassessment to renew the certification based on updated environmental standards."
+      },
+      {
+        "question": "How long does it take to receive Eco Mark certification?",
+        "answer": "The typical duration to obtain Eco Mark certification ranges from 3 to 6 months, depending on the complexity of the product evaluation and testing process."
+      },
+      {
+        "question": "What is the fee to get Eco Mark registration in India?",
+        "answer": "The government application fee for Eco Mark registration starts from INR 500. However, additional testing and consultancy charges may vary depending on the product. Dostartup can provide detailed insights and transparent fee structures."
+      },
+      {
+        "question": "Which are the industries that pursue Eco Mark Certification?",
+        "answer": "Industries actively seeking Eco Mark certification include:\n• Electronics & Appliances – Batteries, lighting, and electrical goods\n• Consumer Goods – Soaps, detergents, cosmetics, packaging, textiles, food items\n• Agriculture & Food Processing – Organic produce, sustainable farming tools\n• Construction & Building Materials – Adhesives, paints, cement, insulation materials\nFor end-to-end support in your Eco Mark journey, choose Dostartup – your sustainable business partner."
+      }
+    ]
+  },
+  "bis-crs-registration": {
+    title: "BIS CRS Registration in India",
+    description: "Unlock global markets with ease! Register for BIS CRS effortlessly with DoStartup's seamless compliance and expert guidance. Elevate your business to new heights. Start now for a borderless tomorrow.",
+    "overview": [
+      {
+        "heading": "Overview of BIS CRS Certification",
+        "content": "The Compulsory Registration Scheme (CRS) is governed under the BIS (Conformity Assessment) Regulations, 2018, Scheme-II. Initiated by the Ministry of Electronics & Information Technology (MeitY) in 2012, this scheme mandates manufacturers to obtain a BIS CRS Certificate before introducing electronic products into the Indian market. The scheme is based on self-declaration of conformity by manufacturers and has seen significant growth in the number of registrations over recent years."
+      },
+      {
+        "heading": "History and Expansion of BIS CRS",
+        "content": "In October 2012, MeitY issued the Electronics & Information Technology Goods (Requirement of Compulsory Registration) Order, initially covering 15 product categories. Further additions were made in November 2014 (15 new categories), October 2016 (Indian language support standards for mobile phones), and August 2017 (13 additional product categories). Moreover, in September 2017, the Ministry of New and Renewable Energy expanded the list under the Solar Photovoltaics Order by including five more products."
+      },
+      {
+        "heading": "Understanding the Compulsory Registration Scheme (CRS)",
+        "content": "The CRS was designed by MeitY to ensure safety and standardization for IT and electronic products. Currently, 76 products fall under the CRS mandate. All manufacturers, importers, and distributors of these products must obtain BIS CRS Registration. Applicants are required to test their products in BIS-recognized laboratories, and upon successful compliance, they are permitted to self-declare conformity and affix the Standard Mark."
+      },
+      {
+        "heading": "What is BIS Certification in India?",
+        "content": "BIS registration is mandatory for specified products before they can be sold in the Indian market. Depending on the product, manufacturers must either obtain BIS CRS registration or BIS certification (ISI mark) under the Foreign Manufacturers Certification Scheme (FMCS). This certification ensures that products meet safety, quality, and reliability standards defined by Indian Standards (IS)."
+      },
+      {
+        "heading": "How Dostartup Can Help",
+        "content": "Let Dostartup be your trusted partner in obtaining BIS CRS Certification. Our team of experienced consultants will guide you through the entire registration process, helping you ensure compliance and successfully meet all regulatory requirements."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Application & Business Identification",
+        "content": "- Manufacturer’s business license\n- Filled application form\n- Authorisation letter (if signed by someone other than head of the facility)"
+      },
+      {
+        "heading": "Manufacturing & Process Documentation",
+        "content": "- ISO Certificate of the manufacturer\n- Nomination letter of AIR (for foreign applicants)\n- Testing documents (CCL and CDF forms)"
+      },
+      {
+        "heading": "Regulatory Compliance & Additional Documents",
+        "content": "- Test Report from BIS-recognized lab\n- Trademark Certificate & Authorization Letter (if applicable)\n- Product manual undertaking"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Registration Process",
+        "content": "Step 1: Identify the applicable ISI standard for the product\n" +
+          "Step 2: Submit product samples to a BIS-accredited lab for testing\n" +
+          "Step 3: Submit the application along with test reports and documents\n" +
+          "Step 4: BIS reviews the documents and test reports\n" +
+          "Step 5: Receive BIS CRS Certificate upon approval\n"
+      },
+      {
+        "heading": "Validity of BIS CRS Registration",
+        "content": "The certificate is valid for two years and can be renewed if the product and standards remain unchanged."
+      },
+      {
+        "heading": "E-Labelling Guidelines under BIS CRS",
+        "content": "• Packaging must contain a physical label, even if the device has an e-label.\n" +
+          "• For bulk packaging, an adhesive label on the box is acceptable.\n" +
+          "• E-label data must be secure and uneditable by third parties.\n" +
+          "• Label info must be accessible without special tools or access codes and viewable in four or fewer steps.\n" +
+          "• Electronic manuals must also display regulatory information.\n" +
+          "• Instructions to access BIS compliance data must be provided in product literature or website.\n" +
+          "• The Standard Mark in e-label must strictly follow BIS formatting."
+      },
+      {
+        "heading": "Dostatup: Your Trusted Partner for BIS CRS Certification",
+        "content": "1. Expert Guidance: Dostatup’s team of specialists stays updated with the latest BIS and CRS regulations, offering precise and experienced-based advice throughout your certification journey.\n" +
+          "2. Accredited Services: As a recognized and reliable service provider, Dostatup ensures all procedures are aligned with BIS requirements, providing clients with assurance and legal certainty.\n" +
+          "3. Streamlined Processes: Dostatup eliminates unnecessary delays and complications through its streamlined and efficient certification processes, saving time, cost, and effort for clients.\n" +
+          "4. Tailored Solutions: Understanding that each business has unique needs, Dostatup provides customized certification solutions tailored to your specific products and market goals.\n" +
+          "5. End-to-End Support: From initial documentation to final approval, Dostatup offers complete support during every step of the BIS CRS registration process.\n" +
+          "For hassle-free, accurate, and timely BIS CRS Certification, partner with Dostatup — your gateway to regulatory compliance and market success in India. Let Dostatup handle the complexities, so you can focus on your innovations."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is BIS CRS registration?",
+        "answer": "The Bureau of Indian Standards (BIS) registers products under its certification program, allowing manufacturers to claim that their products comply with Indian Standards. Once registered, manufacturers can display the Bureau’s Standard Mark on their products."
+      },
+      {
+        "question": "How can I register with the Bureau of Indian Standards?",
+        "answer": "Log in to the BIS portal and submit a Test Request. Next, have your product tested at a BIS accredited laboratory. Once the lab issues the test report, review it carefully. Use this confirmed test report to apply online within ninety days of the report’s issuance, submitting all required documents. Dostatup can assist in streamlining this registration process."
+      },
+      {
+        "question": "Is BIS registration mandatory?",
+        "answer": "In most cases, BIS registration is voluntary. However, the Central Government has mandated BIS registration for certain products to ensure conformity with Indian Standards, due to safety, quality, and regulatory reasons."
+      },
+      {
+        "question": "Can I import products into India without a BIS certificate?",
+        "answer": "No. For imported goods entering India, a BIS certificate is mandatory. This certification ensures the product’s reliability, safety, and compliance with Indian regulations and standards."
+      },
+      {
+        "question": "What does CRS mean in BIS certification?",
+        "answer": "CRS stands for the Compulsory Registration Scheme, introduced by the Ministry of Electronics and Information Technology (MeitY) specifically for electronic and IT products."
+      },
+      {
+        "question": "What is the BIS Compulsory Registration Scheme (CRS)?",
+        "answer": "The BIS CRS authorizes manufacturers of specified products to use the Standard BIS Mark and a unique registration number. This scheme is based on the manufacturer’s self-declaration that their products meet the prescribed standards."
+      },
+      {
+        "question": "What is BIS registration under the CRS of MeitY?",
+        "answer": "Under this scheme, BIS registers manufacturers who declare their products conform to Indian Standards. Once registered, the Bureau notifies them about the authorized use of the Standard Mark."
+      },
+      {
+        "question": "What is the Bureau of Indian Standards (BIS)?",
+        "answer": "BIS is India’s national standards body responsible for the development, implementation, and quality certification of standards, labeling, and related issues concerning products."
+      },
+      {
+        "question": "How long is BIS registration valid?",
+        "answer": "Initially, BIS certification under Scheme-I is valid for up to two years. To renew, an application along with the applicable fee and necessary documents must be submitted before expiry."
+      },
+      {
+        "question": "Is BIS certification required for a smartwatch?",
+        "answer": "Yes. According to IS 13252 Part 1, smartwatches must be registered under BIS and also obtain Wireless Planning & Coordination (WPC) approvals for wireless connectivity."
+      },
+      {
+        "question": "How many products are covered under the CRS scheme?",
+        "answer": "Currently, the scheme covers a total of seventy-six products."
+      },
+      {
+        "question": "Does the Compulsory Registration Order (CRO) apply to spare parts of notified products?",
+        "answer": "No, the CRO does not apply to spare parts used in the manufacture of finished goods. The registration requirement is only applicable to the finished products."
+      },
+      {
+        "question": "For any assistance with BIS registration or compliance under the CRS, who can help?",
+        "answer": "For any assistance with BIS registration or compliance under the CRS, you can rely on Dostatup to guide you through the entire process smoothly and efficiently."
+      }
+    ]
+  },
+  "bis-lab-recognition-scheme": {
+    title: "BIS LAB Recognition Scheme",
+    description: "The BIS Lab Recognition Scheme is dedicated to having sufficient facilities available along with the already established BIS Labs to assist if the functioning of Conformity Assessment Schemes.",
+    "overview": [
+      {
+        "heading": "Overview of the BIS Lab Recognition Scheme",
+        "content": "The Bureau of Indian Standards (BIS) serves as India’s national standards body, initially established under the BIS Act, 1986, and now operating under the updated BIS Act, 2016. BIS is committed to safeguarding consumer interests through various Conformity Assessment Schemes for goods and services. Manufacturers can obtain the ISI Mark for their products via the Product Certification Scheme, where certification is required under Indian Standards. For certain products, the Compulsory Registration Scheme (CRS) enables producers to declare their product conformity through BIS-recognized laboratories."
+      },
+      {
+        "heading": "Purpose of the BIS Laboratory Recognition Scheme (LRS)",
+        "content": "As it is not feasible for BIS to establish its own testing facilities for every product category, the Laboratory Recognition Scheme (LRS) was introduced. The goal is to ensure sufficient accredited testing labs, both in India and internationally, to support BIS’s Conformity Assessment Schemes."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Eco Mark Certification",
+        "content":
+          "To apply for Eco Mark Certification, manufacturers must ensure their products:\n" +
+          "• Conform to BIS quality standards.\n" +
+          "• Have minimal negative environmental impact throughout their lifecycle.\n" +
+          "• Are manufactured using energy-efficient processes.\n" +
+          "• Contain non-toxic, biodegradable materials.\n" +
+          "• Emit little or no pollutants.\n" +
+          "• Are made with recyclable or renewable resources.\n" +
+          "• Include eco-friendly packaging.\n" +
+          "• Comply with applicable environmental and legal norms."
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Submission Procedure for BIS Lab Recognition",
+        "content": "Step 1: Application Submission: Labs must provide the following documents along with the application form:\n" +
+          "• Legal identity proof\n" +
+          "• Company incorporation certificate and MoA (if applicable)\n" +
+          "• Partnership deed (if any)\n" +
+          "• Chartered Accountant certification\n" +
+          "• Registration under the Shop & Establishment Act\n" +
+          "• GST registration\n" +
+          "• Government notification certifying the lab’s status as a legal entity\n" +
+          "• Proof of recognition as a government laboratory (if applicable)\n" +
+          "• Address and ownership verification documents\n" +
+          "• Certifications from Municipal Corporation, Drug Controller, Pollution Board, etc.\n" +
+          "• Rent agreement (if applicable)\n" +
+          "• Accreditation certificate\n" +
+          "• List of applicable Indian Standards and product names\n" +
+          "• Organization chart and personnel details\n" +
+          "• Lab layout and reference material list\n" +
+          "• Monthly testing capacity for each IS standard (BIS format)\n" +
+          "• Undertakings regarding ethical conduct, impartiality, and testing capability\n" +
+          "• Other relevant documents as needed\n" +
+          "Step 2: Verification Process by BIS: BIS verifies the application and supporting documents, which includes:\n" +
+          "• Accepting the applicable fee after document review\n" +
+          "• Evaluating all submitted information\n" +
+          "• Providing feedback within 10 days, including any correction or clarification required\n" +
+          "• Assigning a unique reference number for the application\n" +
+          "Step 3: Rejection Process: If deficiencies are not corrected or documents resubmitted on time, BIS may initiate the rejection process.\n" +
+          "• A Rejection Notice is issued, allowing a 14-day response period.\n" +
+          "• Rejected applications cannot transfer fees to new applications.\n" +
+          "Step 4: Audit Process: A physical audit is scheduled by BIS.\n" +
+          "• Audit and travel expenses for BIS officials must be paid in advance by the lab.\n" +
+          "• Mandatory presence of the Quality Manager and Technical Manager is required during the audit.\n" +
+          "• Sample testing and staff competence evaluation will be conducted.\n" +
+          "Step 5: Grant of BIS Lab Recognition: Once all conditions are met, BIS issues the recognition valid for 3 years.\n" +
+          "• Recognition fee must be paid within 14 days of notification; failure results in rejection.\n" +
+          "• A unique OSL Code is allotted to the lab.\n" +
+          "Step 6: Suspension of BIS Recognition: Recognition can be suspended for breach of terms, failure to comply with recognition requirements, or other irregularities.\n" +
+          "• Suspension lasts a maximum of 3 months, extendable only in justified cases.\n" +
+          "• Upon compliance, BIS may lift the suspension.\n" +
+          "Step 7: BIS Lab Recognition for Foreign Laboratories: Foreign labs must meet additional criteria such as establishing a liaison office in India, bearing the full cost of BIS officials' travel, and more."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does a laboratory need BIS Lab Recognition (LRS)?",
+        "answer": "Setting up testing infrastructure for every product under BIS is not economically viable. Therefore, BIS introduced the Laboratory Recognition Scheme (LRS) to authorize external laboratories to carry out Conformity Testing under BIS norms. Dostatup assists labs in preparing for this recognition with expert guidance."
+      },
+      {
+        "question": "What is ISO/IEC 17025?",
+        "answer": "ISO/IEC 17025 is an international standard that specifies the general requirements for the competence of testing and calibration laboratories. It ensures that laboratories provide accurate, consistent, and valid results in testing and sampling."
+      },
+      {
+        "question": "How many audits can BIS conduct?",
+        "answer": "Once a lab’s application and documents are approved, a mandatory audit is conducted. During the renewal stage, BIS may choose to waive the audit if satisfied with the previous performance. However, BIS retains the full authority to perform surprise audits or inspections at any time, without prior notice. Dostatup helps labs remain compliant and audit-ready throughout the recognition cycle."
+      },
+      {
+        "question": "What happens if documents are not submitted or corrected on time?",
+        "answer": "If a lab fails to submit or correct necessary documents, BIS issues a 14-day notice for compliance. If the lab does not respond within this timeframe or fails to rectify errors, the application rejection process is initiated."
+      },
+      {
+        "question": "What is the fee for BIS Lab Recognition registration?",
+        "answer": "The registration fee for BIS LRS depends on the product category and the scope of testing involved. The exact fee is communicated by BIS after submission of the complete application and required documentation. Dostatup can help estimate and clarify fee structures in advance."
+      },
+      {
+        "question": "What is an OSL Code?",
+        "answer": "OSL (Outside Laboratory) Code is a unique identifier assigned by BIS to laboratories located outside India that receive BIS recognition. It helps in tracking and managing test results from internationally recognized labs."
+      },
+      {
+        "question": "Is the BIS LRS process for foreign laboratories the same as for Indian labs?",
+        "answer": "Yes, the core process is similar, but foreign laboratories must fulfill additional conditions, such as:\n• Establishing a liaison office in India.\n• Bearing travel and accommodation expenses for BIS auditors.\n• Ensuring test certificates conform to ISO/IEC 17025.\n• Signing a legal agreement with BIS, accepting all terms and conditions.\nDostatup offers specialized support for foreign labs to meet these unique BIS requirements effectively."
+      }
+    ]
+  },
+  "hallmark-registration": {
+    title: "Hallmark Registration",
+    description: "Are you a manufacturer or a seller of gold and silver jewellery? Contact DoStartup experts for hallmark registration and confirm the purity of your product.",
+    "overview": [
+      {
+        "heading": "Overview of Hallmark Registration in India",
+        "content": "In India, gold holds cultural and financial significance, especially among women. It has long been considered a secure and reliable investment during uncertain times. To protect consumers from adulteration and ensure that jewellers maintain the purity of jewellery, the Bureau of Indian Standards (BIS) launched the Jewellers Registration Scheme. BIS introduced the Gold Hallmarking Scheme in 2000 and the Silver Hallmarking Scheme in 2005. According to this scheme, BIS Hallmark Registration is mandatory for manufacturing or selling gold and silver jewellery. Since the purity of gold cannot be determined by visual inspection, hallmarking assures consumers of the authenticity and fineness of their jewellery. With Dostatup, you can secure your Hallmark Registration with expert legal and procedural support."
+      },
+      {
+        "heading": "What is Hallmarking?",
+        "content": "Hallmarking is the official process of accurately determining and certifying the precious metal content (like gold or silver) in a jewellery item. Hallmarks serve as legal marks of purity and are widely accepted internationally. The main purpose of the hallmarking system is to:\n• Protect the public against adulteration.\n• Ensure that manufacturers meet legal standards of purity.\nIn India, both gold and silver jewellery are covered under the BIS hallmarking system. Dostatup can help ensure your jewellery complies with these standards."
+      }
+    ],
+    "who": [
+      {
+        "heading": "Significance of Hallmark Registration Certification",
+        "description": [
+          "Enhances credibility and trust among customers.",
+          "Offers a quality assurance label for your jewellery products.",
+          "Adds market value to your jewellery pieces.",
+          "Provides legal protection in case of disputes.",
+          "Strengthens brand recognition and expands business potential with Dostatup’s support."
+        ],
+        "points": [
+          "Gold hallmarking assures consumers of product authenticity.",
+          "A BIS-recognized certificate increases customer confidence.",
+          "Higher resale value due to certified purity.",
+          "Legal safeguard for manufacturers and jewellers."
+        ]
+      },
+      {
+        "heading": "Understanding the BIS Hallmark Symbols",
+        "description": [
+          "Old Method of Hallmarking Gold",
+          "New Method of Hallmarking"
+        ],
+        "points": [
+          "BIS Mark/Logo: Indicates that a BIS-recognised lab has tested and confirmed the product's purity.",
+          "Purity Grade: Shows the purity in Karats (e.g., 22KT) or Fineness (e.g., 916 for 22KT).",
+          "Assaying and Hallmarking Centre’s Mark: Indicates the centre where purity was tested and certified.",
+          "Jeweller's Mark: The unique code or logo of the certified jeweller.",
+          "Year of Marking: Represented by an alphabet assigned to each year (e.g., 'A' for 2000).",
+          "New Method of Hallmarking (2019): Includes a Unique Identification Number (HUID), BIS Hallmark, and the purity of the metal."
+        ]
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Documents Required for Hallmark Registration",
+        "documents": [
+          "Certificate of Incorporation (with MoA for companies)",
+          "Registered Partnership Deed",
+          "CA Certificate (for proprietorship)",
+          "GST Certificate",
+          "Sale/Lease/Rent Agreement",
+          "Property Tax Receipt",
+          "IT Assessment Order",
+          "Aadhaar, PAN, Passport, Voter ID, Driving License, or Govt-issued ID",
+          "Aadhar-based eVerification or e-Sign",
+          "Location map from nearest landmark",
+          "Previous year's GST returns",
+          "For new firms: Estimated turnover and commitment to submit future GST returns"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step-by-Step Process for BIS Hallmark Registration",
+        "content": "Step 1: Document Preparation\n" +
+          "With Dostatup, all necessary documents will be gathered and reviewed for accuracy.\n" +
+          "Step 2: Online Application Filing\n" +
+          "Dostatup files your application online on your behalf through the official BIS portal.\n" +
+          "Step 3: Inspection by BIS\n" +
+          "Once the application is submitted, BIS may conduct an on-site inspection to validate the claims.\n" +
+          "Step 4: Certificate Issuance\n" +
+          "After successful inspection, BIS will issue the Hallmark Registration Certificate, which Dostatup will deliver to you."
+      },
+      {
+        "heading": "Why Choose Dostatup?",
+        "content": "Dostatup and its experienced legal consultants will guide you through every step of the hallmark registration process—from document preparation to certification—ensuring full compliance with BIS regulations."
+      },
+      {
+        "heading": "Book Your Free Consultation with Dostatup",
+        "content": "Ready to elevate your jewellery business with authenticity and trust? Contact Dostatup today and get BIS Hallmark Registration."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Hallmarking?",
+        "answer": "Hallmarking refers to the precise determination and official certification of the precious metal content—such as gold or silver—in articles made from these metals. It serves as a guarantee of purity for consumers."
+      },
+      {
+        "question": "Which metals are hallmarked in India?",
+        "answer": "In India, hallmarking is currently applicable to two precious metals: gold and silver. These metals must be certified for their fineness as per BIS standards."
+      },
+      {
+        "question": "Who regulates and manages the Hallmarking Scheme in India?",
+        "answer": "The Bureau of Indian Standards (BIS) is the official authority responsible for operating and monitoring the Hallmarking Scheme across the country."
+      },
+      {
+        "question": "Are hallmarking charges based on the weight of the jewellery?",
+        "answer": "No, hallmarking charges are applied per article, regardless of the weight of the jewellery. Whether a piece is heavy or light, the same charge is applicable."
+      },
+      {
+        "question": "What does 'purity grade' mean in hallmarking?",
+        "answer": "Purity in gold is measured in Karats (KT) and also by the Fineness Number. For example, 24KT represents the purest form of gold, and its fineness number is 999."
+      },
+      {
+        "question": "What is the objective of the Hallmarking Scheme?",
+        "answer": "The key goal of the Hallmarking Scheme is to protect consumers from fraud or misrepresentation by ensuring that gold and silver products meet legal purity standards. It enforces trust and transparency in the jewellery industry."
+      },
+      {
+        "question": "How can Dostatup help with Hallmark Registration?",
+        "answer": "If you’re a jeweller or hallmarking centre looking to get certified, Dostatup is here to assist you with the complete BIS Hallmark Registration process—from document preparation to final approval."
+      }
+    ]
+  },
+  "assaying-and-hallmarking-centre": {
+    title: "Assaying and Hallmarking Centre",
+    description: "Allow DoStartup to act on your behalf and obtain the Recognition for assaying and Hallmarking Centres in one go.",
+    "overview": [
+      {
+        "heading": "Overview of Assaying and Hallmarking Centres",
+        "content": "The Government of India has made consistent efforts to mandate hallmarking of gold and silver jewellery. A hallmark certifies the actual gold or silver content in jewellery or other precious articles. The BIS Hallmark is an official certification process in India that assures consumers of the purity of gold or silver jewellery being sold. To ensure accurate testing and certification, jewellery is assessed at BIS-approved Assaying and Hallmarking Centres (AHCs) located across India. These centres are governed by the Bureau of Indian Standards (BIS), which outlines the procedures for granting, renewing, suspending, and cancelling the recognition of such centres."
+      },
+      {
+        "heading": "What Are Assaying and Hallmarking Centres?",
+        "content": "Assaying and Hallmarking Centres (AHCs) are authorised facilities that individually test jewellery items to verify compliance with established purity standards. These centres certify gold in 14K, 18K, and 22K, silver in six grades, and 24K for gold coins and medallions. Only after the jewellery is tested and hallmarked by an AHC can it be officially considered as purity-certified."
+      },
+      {
+        "heading": "Why Are Assaying and Hallmarking Centres Important?",
+        "content": "AHCs play a crucial role in ensuring the credibility of jewellery purity claims. When a jeweller registers and submits items for hallmarking through an online process, every step—right from the receipt of the article to the dispatch of the hallmarked product—is timestamped. This provides complete transparency and traceability for all stakeholders."
+      },
+      {
+        "heading": "Which Articles Cannot Be Tested at AHCs?",
+        "content": "Certain articles are exempt from testing and hallmarking at Assaying and Hallmarking Centres:\n• Jewellery weighing less than 2 grams\n• Items meant for export, conforming to foreign specifications\n• Jewellers with annual turnover below ₹40 lakhs\n• Articles crafted using Polki, Jadau, and Kundan techniques"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Establishment Proof",
+        "content":
+          "- Certificate of Registration with MoA (for Companies)\n" +
+          "- Registered Partnership Deed (for Partnership Firms)\n" +
+          "- CA Certificate (for Proprietorship Firms)"
+      },
+      {
+        "heading": "Address Proof",
+        "content":
+          "- GST Certificate / Income Tax Assessment / Trade License / Rent Agreement / Property Tax Receipt / Sale or Lease Deed"
+      },
+      {
+        "heading": "Identity Proof of Applicant",
+        "content":
+          "- Aadhaar-based e-signature or self-certified ID (Aadhaar, Passport, DL, PAN, Voter ID, or Government-issued photo ID)"
+      },
+      {
+        "heading": "Other Documents",
+        "content":
+          "- Premises location map from the nearest landmark\n" +
+          "- Affidavit-cum-Undertaking\n" +
+          "- Quality Manual prepared based on the BIS-provided Generic Quality Manual"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Procedure to Get BIS Recognition for AHCs",
+        "content": "Step 1: Submit the application online with all required documents.\n" +
+          "Step 2: BIS conducts a detailed inspection of the applicant’s facility.\n" +
+          "Step 3: Officials review all documents and inspect compliance.\n" +
+          "Step 4: If found satisfactory, recognition is granted by BIS.\n"
+      },
+      {
+        "heading": "Conditions for Rejection of AHC Applications",
+        "content": "• The applicant is involved in a misuse of hallmark or any violation under Sections 14 or 15 of the BIS Act, 2016.\n" +
+          "• A prosecution case is pending under Section 29 of the BIS Act.\n" +
+          "• In the case of a conviction under Section 29, recognition will not be granted for one year from the date of conviction."
+      },
+      {
+        "heading": "Guidelines for Setting Up On-Site Centres (OSCs)",
+        "content": "• An AHC may operate a maximum of 5 OSCs, each within 100 km of the parent AHC.\n" +
+          "• AHCs hallmarking over 500 articles per day are required to establish an OSC in uncovered districts.\n" +
+          "• OSCs must have all facilities like an AHC except fire assay capabilities.\n" +
+          "• The parent AHC is responsible for fire assay of items received at OSCs.\n" +
+          "• Detailed methodology for sample dispatch and reporting must be submitted to the BIS Regional Office.\n" +
+          "• OSCs must appoint a Quality Manager, with overall supervision handled by the parent AHC’s manager.\n" +
+          "• Applications must be made to the relevant BIS Regional Office if OSCs are outside the AHC’s original region.\n" +
+          "• No application or renewal fee is required for OSCs. Their recognition is automatically renewed along with the parent AHC.\n" +
+          "• In case of suspension or de-recognition of the parent AHC, all its OSCs lose recognition automatically.\n" +
+          "• BIS may suspend OSC operations if standards are not met, but the parent AHC will be given a chance to respond.\n" +
+          "• AHCs must include OSC-wise performance in the regular reports to BIS."
+      },
+      {
+        "heading": "Get Recognition for Your AHC with Dostatup",
+        "content": "Recognising an Assaying and Hallmarking Centre involves thorough paperwork and strong technical understanding of BIS standards. With Dostatup, you benefit from:\n" +
+          "• Expert handling of all documentation\n" +
+          "• Seamless application filing on your behalf\n" +
+          "• Consistent follow-ups with BIS\n" +
+          "• Full end-to-end support\n" +
+          "Let Dostatup help you simplify the recognition process and get your Assaying and Hallmarking Centre approved faster and more efficiently."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Hallmarking?",
+        "answer": "Hallmarking is a formal system that ensures the accurate assessment and official certification of the precious metal content—like gold or silver—in jewellery and other related items."
+      },
+      {
+        "question": "What is an Assaying & Hallmarking Centre (AHC)?",
+        "answer": "An Assaying and Hallmarking Centre is a BIS-authorised laboratory that verifies the purity of gold jewellery. Only laboratories licensed by the Bureau of Indian Standards (BIS) are permitted to test and certify jewellery for hallmarking."
+      },
+      {
+        "question": "How Many Hallmarking Centres Exist in India?",
+        "answer": "Currently, approximately 950 BIS-recognised Assaying and Hallmarking Centres are operational across various states and cities in India."
+      },
+      {
+        "question": "Is Hallmarking Mandatory?",
+        "answer": "Yes, hallmarking of gold jewellery has been made mandatory by the Government of India to ensure transparency and consumer protection."
+      },
+      {
+        "question": "What’s the Key Difference Between a Hallmarking Centre and a Jewellery Showroom?",
+        "answer": "• At a Hallmarking Centre, jewellery is tested and hallmarked for purity using BIS standards and technology.\n• A jewellery showroom, on the other hand, is a retail outlet where the already hallmarked jewellery is made available for sale to consumers."
+      },
+      {
+        "question": "Can Individuals Get Their Jewellery Tested at an AHC?",
+        "answer": "Yes, individuals can get their hallmarked gold or silver jewellery tested for purity at any BIS authorised Assaying & Hallmarking Centre, subject to applicable testing charges."
+      },
+      {
+        "question": "What is the Main Objective of the Hallmarking Scheme?",
+        "answer": "The primary goal of the Hallmarking Scheme is to protect consumers from fraud and misrepresentation in the purity of gold or silver articles. Additionally, it supports India's aspiration to become a trusted and leading hub in the global gold market."
+      },
+      {
+        "question": "Why Choose Dostatup?",
+        "answer": "At Dostatup, we assist jewellers, entrepreneurs, and institutions in:\n• Setting up and registering Assaying & Hallmarking Centres\n• Providing guidance for BIS approvals and licensing\n• Managing all necessary documentation and compliance\n• Offering ongoing support and consultation for hallmarking operations\nDostatup is your trusted partner in navigating the hallmarking ecosystem with ease, expertise, and efficiency."
+      }
+    ]
+  },
+  "bis-crs-certification-for-power-banks": {
+    title: "BIS CRS Certification for Power Banks",
+    description: "Power banks contain lithium-ion batteries, which can be hazardous. Get BIS certification for power banks and ensure they meet safety and reliability standards.",
+    "overview": [
+      {
+        "heading": "Overview of BIS CRS Certification for Power Banks",
+        "content": "Power Banks are portable energy storage devices used to charge electronic gadgets such as smartphones, Bluetooth headsets, and other USB-powered devices. They act as backup charging sources and are highly popular due to their convenience."
+      },
+      {
+        "heading": "Introduction to BIS CRS Certification for Power Banks",
+        "content": "The Bureau of Indian Standards (BIS), under its Compulsory Registration Scheme (CRS), has made it mandatory for power banks to comply with specific quality standards before being sold, imported, or exported in India. As per the official Gazette Notification, power banks are classified under Scheme II of CRS. On May 13, 2015, BIS implemented IS 13252 (Part 1): 2010, which defines the essential safety and performance standards for power banks used in portable applications. It is illegal to manufacture, distribute, or sell power banks in India without obtaining BIS CRS Certification."
+      },
+      {
+        "heading": "What is BIS CRS?",
+        "content": "Initially introduced in 2012 by the Ministry of Electronics and Information Technology (MeitY) (formerly known as DeitY) in collaboration with BIS, the Compulsory Registration Scheme ensures that only certified electronic goods enter the Indian market. The purpose is to uphold safety, quality, and reliability in electronics, including power banks."
+      },
+      {
+        "heading": "Why is BIS CRS Certification Required for Power Banks?",
+        "content": "Getting BIS CRS Certification through Dostatup ensures that the power banks meet safety, reliability, and quality standards. Certification helps avoid faulty products that can cause:\n• Explosions due to overcharging\n• Reduced lifespan of connected devices\n• Electrical faults leading to circuit failures\n• Damage to charging ports\n• Safety hazards for consumers"
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of BIS CRS Certification for Power Banks",
+        "content": "Power banks certified by BIS offer the following advantages:\n• Smooth entry into the Indian market\n• Avoidance of legal penalties or regulatory fines\n• Guarantee of quality-tested and BIS-compliant products\n• Improved customer trust and product reliability\n• Enhanced brand reputation and credibility\n• Competitive edge in the electronics market\n• Conformity with Indian regulatory standards"
+      },
+      {
+        "heading": "Special Clauses for Foreign Manufacturers",
+        "content": "Foreign manufacturers must appoint an Authorised Indian Representative (AIR) to proceed with BIS registration. The AIR must comply with BIS norms. The following scenarios guide the appointment of an AIR:\n1. If the foreign manufacturer has a liaison office in India – it must act as the AIR.\n2. If no liaison office exists, but the trademark owner is Indian – the trademark owner becomes the AIR.\n3. If neither a liaison office nor an Indian trademark owner exists – an independent Indian entity must be nominated as the AIR.\nDostatup offers expert services to help foreign brands select and register an AIR in compliance with BIS rules."
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Procedure for BIS CRS Certification – Indian Manufacturers",
+        "content": "Indian manufacturers seeking certification can follow these steps with support from Dostatup:\n1. Submit the application and necessary documents to BIS.\n2. Documents are reviewed, and a site inspection is scheduled.\n3. BIS officials conduct a physical inspection and collect product samples.\n4. Samples are tested in a BIS-recognized lab.\n5. If the product complies with standards, certification is granted."
+      },
+      {
+        "heading": "Procedure for BIS CRS Certification – Foreign Manufacturers",
+        "content": "Foreign manufacturers can follow the process below, facilitated by Dostatup:\n1. Appoint a BIS-compliant Authorised Indian Representative (AIR).\n2. Submit the application and relevant documents.\n3. Send sample products to a BIS-approved lab for testing.\n4. Submit unaltered test results and inspection reports to BIS.\n5. Upon satisfactory evaluation, BIS grants the CRS certificate."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Dostatup – Your Partner in BIS CRS Certification",
+        "description": [
+          "The following compliance measures must be ensured for successful registration:\n• Testing must be done in a valid and approved BIS lab.\n• Labs must not be suspended or under inspection.\n• Product shipment to labs must be arranged efficiently by the manufacturer.\n• All documents must be notarized and signed by the manufacturer, brand owner, and AIR.\n• CDF and CCL must be completed accurately.\n• Test reports are valid for only 90 days and must be submitted before expiry.\n• Document preparation must be completed before sample testing.\n• Registration is typically approved within 15 to 60 days post submission.\n" +
+          "At Dostatup, we offer complete support for:\n• Document Preparation\n• BIS Lab Coordination\n• AIR Appointment for Foreign Brands\n• Technical Consultation\n• Certification Management from Start to Finish\nWhether you’re a domestic or foreign power bank manufacturer, Dostatup ensures hassle-free, fast, and compliant BIS CRS Certification services tailored to your needs."
+        ],
+        "points": []
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does BIS stand for?",
+        "answer": "BIS is the acronym for the Bureau of Indian Standards, the national standards body of India responsible for product certification, standardization, and quality control."
+      },
+      {
+        "question": "What is the full form of CRS?",
+        "answer": "CRS stands for Compulsory Registration Scheme, introduced by BIS to ensure mandatory certification for certain electronic goods, including power banks."
+      },
+      {
+        "question": "Under which scheme are Power Banks classified for BIS CRS Certification?",
+        "answer": "According to the official Gazette Notification issued by BIS, Power Banks are categorized under Scheme II of the Compulsory Registration Scheme (CRS). Dostatup assists in navigating this scheme for smooth certification."
+      },
+      {
+        "question": "Why is BIS CRS Certification necessary for Power Banks?",
+        "answer": "The primary objective of the BIS CRS Certification Scheme for power banks is to enforce regulatory compliance before any product is launched in the Indian market. It ensures that only certified and safe power banks reach consumers. Dostatup helps brands achieve this compliance seamlessly."
+      },
+      {
+        "question": "What is the key benefit of obtaining BIS CRS Certification for Power Banks?",
+        "answer": "BIS CRS Certification ensures that power banks sold in the Indian market are safe, reliable, and of assured quality. It protects consumers and enhances brand trust. Dostatup supports manufacturers in securing this critical certification."
+      },
+      {
+        "question": "What are CDF and CCL in the context of BIS Certification?",
+        "answer": "• CDF (Construction Data Form): A form where all technical and construction details of the product are recorded.\n• CCL (Critical Component List): A detailed list outlining each essential component used in the product.\nBoth forms must be filled accurately. Dostatup provides expert guidance on filling these forms correctly."
+      },
+      {
+        "question": "How long is the BIS-recognized lab test report valid?",
+        "answer": "The validity of a BIS test report is 90 days (three months) from the date of issue. The report must be submitted to BIS before it expires for the certification process to proceed. Dostatup ensures timely testing and submission to avoid delays."
+      },
+      {
+        "question": "How can Dostatup help with BIS CRS Certification?",
+        "answer": "Dostatup offers expert consultation, document preparation, lab coordination, and AIR appointment services to ensure a seamless BIS CRS Certification process for power banks. Whether you’re a domestic or foreign manufacturer, we guide you every step of the way."
+      }
+    ]
+  },
+  "agmark-registration": {
+    title: "AGMARK Registration",
+    description: "Do you want your agricultural products to compete more effectively in the international market? Get seamless DoStartup support for AGMARK certification.",
+    "overview": [
+      {
+        "heading": "Overview of the AGMARK License",
+        "content": "In India, providing quality assurance for agricultural products—especially those meant for mass consumption—is crucial. One of the most significant quality certifications for such products is the AGMARK License, a mark issued by the Government of India. This certification ensures that agricultural commodities meet specific standards of quality and safety for consumers."
+      },
+      {
+        "heading": "What is the AGMARK License?",
+        "content": "The AGMARK License—short for Agricultural Mark License—is a certification mark that assures the quality of agricultural products in India. It serves as a third-party guarantee for agriculture-based goods, ensuring consumers receive products that meet predefined national standards. This certification was first introduced in 1934 by Archibald MacDonald Livingstone, then an authorized officer of the Agricultural and Marketing Advisory under the Government of India. The primary aim was to safeguard local farmers from exploitation by intermediaries such as buyers, traders, or dealers."
+      },
+      {
+        "heading": "Role of the Directorate of Marketing and Inspection (DMI)",
+        "content": "The Directorate of Marketing and Inspection (DMI) is the central authority responsible for establishing agricultural grading standards in India. Agriculture is a vital sector in India, both economically and as a source of livelihood. As one of the largest exporters of agricultural produce globally, India requires a robust certification system like AGMARK to ensure product authenticity and quality. DMI ensures that grading standards comply with WTO norms, maintaining equality and transparency. If any product bearing the AGMARK is found non-compliant, the producer is obligated to replace it free of cost."
+      },
+      {
+        "heading": "Objective of the AGMARK License",
+        "content": "The core objective of the AGMARK License is to ensure unadulterated, high-quality agricultural products for both domestic use and export purposes. It applies to:\n• Agricultural and horticultural commodities\n• Food and beverages, either fully or partially processed from agricultural inputs"
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for AGMARK License",
+        "content": "To be eligible for an AGMARK License, an applicant must:\n• Possess the required infrastructure for processing agricultural commodities.\n• Have access to or ownership of a DMI-approved laboratory for grading and marking.\nUpon meeting the eligibility conditions, applicants can apply for a Certificate of Authorisation from the relevant DMI office. The verification process typically takes 30 to 40 days."
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Documents Required for AGMARK License",
+        "documents": [
+          "Partnership or proprietorship deed (as applicable)",
+          "Memorandum of Association (MoA) and Articles of Association (AoA)",
+          "Premises layout with approved dimensions",
+          "Self-attested declarations on INR 100 stamp paper:",
+          "• Proof of premises ownership",
+          "• Ownership of the Trade Brand Label (TBL)",
+          "• Commitment to use TBL only for AGMARK-compliant products",
+          "• Use of food-grade packaging material",
+          "• Consent letter from premises owner if rented/leased",
+          "Copy of each TBL per commodity",
+          "Medical fitness certificate for employees from a registered practitioner",
+          "List of chemicals and instruments used in the lab",
+          "Consent letter from approved laboratory (if applicable)",
+          "Foodgrain Storage License (for grain-based items like wheat, rice, pulses, etc.)",
+          "License from the State Drug Controller (for grading castor oil)",
+          "FSSAI registration certificate"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "AGMARK License Registration Process",
+        "content": "The steps to register for an AGMARK License are:\n1. Obtain and fill Form-A from the DMI office to apply for the Certificate of Authorisation.\n2. Submit the completed application form with all required documents and applicable fees (grading charges, processing fees, etc.) via demand draft.\n3. Attach the Consent Letter from the approved lab with Form A-3 if applicable.\n4. Ensure that all raw materials and processed products are tested by a licensed chemist before packaging.\n5. For renewal, fill and submit Form A-4 with the renewal fee."
+      },
+      {
+        "heading": "Consumer Complaint Process",
+        "content": "If a consumer is dissatisfied with an AGMARK-certified product, a complaint can be filed with the Agricultural Marketing Adviser. The complaint should include:\n• AGMARK label\n• Serial and lot numbers\n• Packaging and expiration dates\n• Trade Brand\n• Name and address of the authorized packager and seller\nIf the complaint is validated, the packager is required to replace the product free of cost."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Can Dostatup Help?",
+        "description": [
+          "Dostatup is a trusted platform offering comprehensive legal and compliance support, including assistance with AGMARK License registration.",
+          "With Dostatup, clients benefit from:\n• End-to-end support in document preparation and submission\n• Expert consultation for eligibility verification and procedural guidance\n• Faster response times and a simplified approach to compliance\n• Transparent communication tailored to the client’s legal and regulatory needs",
+          "Whether you're a farmer, trader, or agri-business enterprise, Dostatup ensures a smooth and hassle-free experience in obtaining your AGMARK License."
+        ],
+        "points": [
+          "Select a service plan for expert assistance",
+          "Submit queries related to AGMARK License",
+          "Share your documents with Dostatup experts",
+          "Application preparation and submission by professionals",
+          "Fulfill all eligibility and documentation requirements",
+          "Complete the procedural steps",
+          "Receive your AGMARK License with confidence"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the AGMARK License?",
+        "answer": "The AGMARK License, short for Agricultural Mark License, is a certification mark provided by the Government of India. It serves as a third-party quality assurance for agricultural products produced and consumed within India, ensuring they meet established quality standards."
+      },
+      {
+        "question": "Why is the AGMARK License necessary?",
+        "answer": "For agricultural products sold in bulk—especially those meant for human consumption—quality assurance is crucial. The AGMARK License guarantees that these products meet government-approved standards, thereby protecting consumers and enhancing product credibility in the marketplace."
+      },
+      {
+        "question": "Why is the AGMARK License important in India?",
+        "answer": "Agriculture is a major contributor to India’s economy and one of the country's primary sources of livelihood. Given India's status as one of the world's top agricultural exporters, the AGMARK License is essential for verifying the authenticity and quality of agricultural products. Its standards are aligned with World Trade Organisation (WTO) norms."
+      },
+      {
+        "question": "Who introduced the AGMARK License?",
+        "answer": "The AGMARK system was introduced in 1934 by Archibald MacDonald Livingstone, who was an official under the Agricultural and Marketing Advisory Committee of the Government of India. His vision was to protect local farmers and prevent exploitation by traders, dealers, and buyers."
+      },
+      {
+        "question": "What laws and regulations govern the AGMARK License?",
+        "answer": "The AGMARK License is governed by the Agricultural Produce (Grading and Marking) Act, 1937, which was amended in 1986. It is also mandated under the Food Safety and Standards (Prohibition and Restriction on Sales) Regulations, 2011. The standards currently apply to over 222 commodities, including cereals, pulses, vegetable oils, and semi-processed agricultural goods."
+      },
+      {
+        "question": "What is the objective of issuing an AGMARK License?",
+        "answer": "The primary objective of the AGMARK License is to ensure high-quality, unadulterated agricultural products for both domestic consumption and export. It applies to:\n• Agricultural and horticultural produce\n• Food and beverages, whether fully or partially processed from agricultural sources."
+      },
+      {
+        "question": "What is DMI?",
+        "answer": "The Directorate of Marketing and Inspection (DMI) is the central agency in India responsible for setting and maintaining the grading standards for agricultural products, both at the central and state levels."
+      },
+      {
+        "question": "What role does DMI play in issuing the AGMARK License?",
+        "answer": "The DMI sets the required standards that agricultural products must meet to qualify for the AGMARK License. If any non-compliance is found in AGMARK-certified goods, the producer must replace the product at no cost to the consumer."
+      },
+      {
+        "question": "How long does it take to get the AGMARK License?",
+        "answer": "Once all eligibility criteria are met and the application is submitted, the verification process takes approximately 30 to 40 days, after which the Certificate of Authorisation is issued by the concerned DMI office."
+      },
+      {
+        "question": "Where can consumers file complaints about AGMARK-certified products?",
+        "answer": "If a consumer is dissatisfied with an AGMARK-certified product, they can file a complaint with the Agricultural Marketing Adviser. The complaint must include details such as the AGMARK label, serial and lot numbers, packaging/expiry dates, trade brand, and the name and address of the seller and packager."
+      },
+      {
+        "question": "What happens after a consumer complaint is filed?",
+        "answer": "If the complaint is verified as valid, prompt action is taken against the responsible packager, who is also obligated to replace the product free of cost to the consumer."
+      },
+      {
+        "question": "How Can Dostatup Help with Your AGMARK License?",
+        "answer": "Dostatup simplifies the entire process of obtaining the AGMARK License—from document collection to submission and final approval. Whether you're a farmer, processor, or trader, Dostatup ensures:\n• Expert guidance on eligibility and documentation\n• Streamlined preparation and submission of the application\n• Quick response and end-to-end legal support\nWith Dostatup, navigating agricultural compliance is transparent, efficient, and stress-free. Dostatup – Helping You Grow with Confidence in Agriculture and Trade."
+      }
+    ]
+  },
+  "bis-certification-for-toys": {
+    title: "BIS Certification for Toys",
+    description: "Are you a toy manufacturer making toys for children under the age of 14? Get BIS certification for toys from the place of your comfort without any stress.",
+    "overview": [
+      {
+        "heading": "Overview of BIS Certification for Toys",
+        "content": "The Department for Promotion of Industry and Internal Trade (DPIIT) under the Ministry of Commerce and Industry issued the Toys (Quality Control) Order, effective from 1st September 2020. This order lays down mandatory guidelines for maintaining specific standards issued by the Bureau of Indian Standards (BIS). For the manufacture of toys, BIS grants a license under Scheme I and Scheme II of the BIS (Conformity Assessment) Regulations, 2018, allowing manufacturers to use the ISI Mark on their products."
+      },
+      {
+        "heading": "Eligibility and Application",
+        "content": "Indian manufacturers seeking BIS Certification for toys must apply for Conformity Assessment and Product Certification. Foreign manufacturers are required to apply under the Foreign Manufacturers Certification Scheme (FMCS) to ensure compliance with Indian standards before importing toys into India."
+      },
+      {
+        "heading": "Mandatory Certification",
+        "content": "As per the Toys (Quality Control) Order 2020, it is compulsory for all toys produced for children under 14 years of age to obtain BIS Certification. Both electric and non-electric toys must bear the ISI Mark. Toys lacking this certification are prohibited from sale anywhere in India."
+      },
+      {
+        "heading": "ISI Mark and FMCS Explained",
+        "content": "The Indian Standards Institute (ISI) certification scheme, authorized by BIS, guarantees that products sold in the Indian market comply with national safety and quality standards. The Foreign Manufacturer Certification Scheme (FMCS) ensures that imported toys meet these same standards. Toys imported without FMCS certification are not permitted in the Indian market."
+      },
+      {
+        "heading": "Categories of Toys Under BIS Certification",
+        "content": "• Non-Electric Toys: These are toys that do not require electricity to function, such as rattles, dolls, and puzzles. The primary standard applicable to non-electric toys is IS 9873 (Part 1): 2019.\n• Electric Toys: These require electricity for at least one function, examples include electric car models, electric dolls, and drones. The relevant standard for electric toys is IS 15644:2006.\nManufacturers must apply for BIS Certification based on the product category. If multiple types of toys are produced, separate applications are required for each category. BIS testing follows the applicable primary and secondary standards including IS 9873 Parts 2, 3, 4, 7, and 9."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of BIS Certification for Toys",
+        "content": "• Protects manufacturers from legal penalties related to non-compliance.\n• Demonstrates that products are tested and certified according to required safety guidelines.\n• Builds consumer confidence by ensuring product safety.\n• Provides a competitive advantage in domestic and international markets.\n• Confirms adherence to high-quality standards.\n• Facilitates easier acceptance in the global toy market."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Basic Requirements for BIS Certification for Toys",
+        "content": "- Samples submitted for testing must conform to applicable primary and secondary BIS standards such as IS 9873 Parts 1, 2, 3, 4, 7, and 9.\n- Separate applications must be made if certification is needed for both electric and non-electric toys.\n- For manufacturers with multiple production units, a separate license is required for each manufacturing site, as per Scheme I of Schedule II of BIS (Conformity Assessment) Regulations, 2018.\n- The certification order does not apply to distributors or marketers who do not manufacture toys.\n- Testing facilities must comply with IS 9873 (Part 1):2019 for non-electric toys and IS 15644:2006 for electric toys.\n- BIS mandates a scheme of inspection and testing with defined frequency; in-house testing can be outsourced to BIS-recognized laboratories.\n- Artisans registered with the Development Commissioner (Handicrafts) are exempt from these provisions."
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Documents Required for BIS Certification for Toys",
+        "documents": [
+          "Applicant’s identity proof",
+          "Manufacturing process flow chart",
+          "Detailed list of raw materials used",
+          "Factory layout with nearby landmarks",
+          "Details of machinery used",
+          "Description of plant layout",
+          "Adequate testing facilities information",
+          "Quality control parameters and records",
+          "Test reports from BIS-recognized laboratories",
+          "Product photographs",
+          "Undertaking letter",
+          "Factory registration documents",
+          "Completed application form signed by authorized personnel"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "BIS Certification Application Procedure",
+        "content": "The steps to apply for BIS Certification for toys are:\n1. Submit the application form along with the required self-attested documents to BIS.\n2. BIS evaluates the documents and conducts a physical factory inspection if documents are satisfactory.\n3. Samples are collected by BIS personnel for third-party testing in BIS-recognized laboratories.\n4. Upon satisfactory test results and inspection report, BIS grants the Certification allowing use of the ISI Mark on the toy."
+      },
+      {
+        "heading": "FMCS Certification Procedure for Foreign Manufacturers",
+        "content": "The procedure for FMCS Certification for foreign manufacturers is:\n1. Submit a completed application form with all necessary documents.\n2. Pay the prescribed fee for processing.\n3. BIS officials conduct a physical inspection of the foreign manufacturing facility.\n4. Samples are collected and tested in BIS-recognized labs.\n5. Once compliance with BIS standards is confirmed, the FMCS certification process begins.\n6. The applicant pays the minimum marking fee upfront for FMCS certification issuance.\n7. An agreement, indemnity bond, and performance bank guarantee (in USD) are signed and submitted post-approval.\n8. Upon meeting all standards, the FMCS Certification is issued, allowing the foreign manufacturer to apply the ISI Mark on products exported to India."
+      },
+      {
+        "heading": "How Dostatup Supports Your BIS Certification Journey",
+        "content": "Dostatup offers expert assistance throughout the BIS Certification process for toys, whether domestic or foreign manufacturers. From documentation to liaison with BIS officials and testing labs, Dostatup ensures your compliance process is smooth and efficient. Trust Dostatup to help you achieve certification and gain market access with confidence."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the definition of BIS?",
+        "answer": "BIS stands for Bureau of Indian Standards, which is the National Standards Authority established by the Government of India. BIS is responsible for promoting the coordinated development of production, import, export, and trade activities in India by ensuring adherence to standardization, quality certification, and marking requirements for goods and services, along with related matters."
+      },
+      {
+        "question": "What is the definition of ISI?",
+        "answer": "ISI refers to the Indian Standards Institute, a government body established to formulate standards aimed at fostering commercial growth and maintaining product quality in the industrial sector. The ISI Mark Certification Scheme operates under the authority of BIS."
+      },
+      {
+        "question": "What is the definition of FMCS?",
+        "answer": "FMCS stands for Foreign Manufacturers Certification Scheme, a certification framework introduced under the BIS Act, 2016, and enacted in 2000. It authorizes foreign manufacturers to obtain licenses for importing their certified products into India."
+      },
+      {
+        "question": "What is the minimum age limit specified by BIS for mandatory BIS Certification of toys?",
+        "answer": "BIS mandates that all toys manufactured specifically for children below the age of fourteen must obtain BIS Certification before being sold in India."
+      },
+      {
+        "question": "How are toys classified for BIS Certification eligibility?",
+        "answer": "Toys eligible for BIS Certification are classified into two categories:\n• Non-Electric Toys\n• Electric Toys"
+      },
+      {
+        "question": "What was the objective behind the 'Toys (Quality Control) Order' notification?",
+        "answer": "The 'Toys (Quality Control) Order' issued by BIS on 1st September 2020 enforces the mandatory requirement for all electric and non-electric toys to obtain the BIS ISI Mark Certification before sale or distribution in India."
+      },
+      {
+        "question": "Which BIS Schemes are applicable for issuing BIS Certification for Toys?",
+        "answer": "For granting licenses for toy manufacturing, BIS issues the ISI Mark based on Scheme I and Scheme II of the BIS (Conformity Assessment) Regulations, 2018."
+      },
+      {
+        "question": "How Dostatup Can Help:",
+        "answer": "At Dostatup, we guide manufacturers and importers through the BIS Certification process, including compliance with BIS schemes and FMCS. Trust Dostatup to streamline your certification journey with expert support and hassle-free documentation."
+      }
+    ]
+  },
+  "fmcs-bis-certification": {
+    title: "FMCS BIS Certification  ",
+    description: "Are you a foreign manufacturer with a deep desire to sell your products in India? Get FMCS BIS certification with our experts to save your time and effort.",
+    "overview": [
+      {
+        "heading": "Overview of FMCS BIS Certification",
+        "content": "FMCS, or Foreign Manufacturers Certification Scheme, is a regulatory scheme managed by the Bureau of Indian Standards (BIS) under Scheme-I of Schedule-II, as per the Conformity Assessment Regulations, 2018 and the BIS Act, 2016. This scheme enables foreign manufacturers to obtain a BIS license, allowing them to use the Standard Mark (ISI Mark) on products that meet Indian Standards. This scheme is applicable to all product categories except Electronics and IT Goods notified by the Ministry of Electronics and Information Technology (MeitY). The primary aim is to ensure that only safe, high-quality, and reliable products are made available to Indian consumers."
+      },
+      {
+        "heading": "Who Needs FMCS BIS Certification?",
+        "content": "FMCS BIS Certification is required for manufacturing units located outside India that intend to export and sell products in the Indian market. These foreign manufacturers must undergo a factory audit to demonstrate compliance with BIS standards. Without this certification, foreign manufacturers cannot legally sell their regulated products in India."
+      },
+      {
+        "heading": "What is the BIS Standard Mark?",
+        "content": "The BIS Standard Mark, also known as the ISI Mark, signifies that a product complies with the relevant Indian Standards set by BIS. To use the ISI Mark, a product must pass thorough evaluations and documentation checks. The ISI Mark builds consumer trust by confirming that the product has been manufactured according to BIS safety and quality benchmarks."
+      },
+      {
+        "heading": "Why FMCS BIS Certification is Crucial in India",
+        "content": "Obtaining an FMCS BIS Certificate is mandatory for specific products before they can be sold in India. Without it, manufacturers face legal prohibitions from entering the Indian market. Though the process is complex and lengthy, Dostatup simplifies it by managing every step—liaising with BIS officers, ensuring documentation accuracy, and expediting factory audits."
+      },
+      {
+        "heading": "List of Products Requiring FMCS BIS Certification",
+        "content":
+          "Household Electrical Items\n" +
+          "Batteries\n" +
+          "Food Products\n" +
+          "Oil Pressure Stoves\n" +
+          "Automotive Components\n" +
+          "Valves, Cylinders & Regulators\n" +
+          "Medical Devices\n" +
+          "Steel & Iron Products\n" +
+          "Electrical Transformers & Motors\n" +
+          "Capacitors\n" +
+          "Fertilizers, Chemicals, Textiles & Polymers\n" +
+          "Kitchen Appliances\n" +
+          "LPG Domestic Water Heaters\n" +
+          "Air Conditioners & Components\n" +
+          "Plugs, Socket-Outlets, Meters\n" +
+          "Float Glass & Transparent Sheet Glass\n" +
+          "Electric and Non-Electric Toys\n" +
+          "Pressure Cookers\n" +
+          "Rubber Hoses for LPG\n" +
+          "Aluminum Foil\n" +
+          "Woven Sacks & Butterfly Valves\n" +
+          "Bicycle Reflectors\n" +
+          "Paper & Cattle Feed\n" +
+          "Automotive Wheel Rims\n" +
+          "Footwear\n" +
+          "Punch Tools\n" +
+          "Helmets for Two-Wheelers\n" +
+          "Cast Iron Pipes\n" +
+          "Flux Cored Electrodes\n" +
+          "Sewing Machines\n" +
+          "Water Treatment Systems\n" +
+          "Jute Bags\n" +
+          "All Varieties of Cement"
 
-"world-manufacturer-identifier-wmi-code": {
-  title: "World Manufacturer Identifier (WMI) Code Registration in India – A Complete Guide by Do Startup",
-  description: "A WMI Code is the first three characters of a Vehicle Identification Number (VIN) that uniquely identifies a vehicle manufacturer worldwide. In India, WMI Codes are issued by BIS in coordination with SAE International.",
-  overview: [
-    {
-      heading: "What is a VIN?",
-      content: "A Vehicle Identification Number (VIN) is a unique 17-character alphanumeric code assigned to every motor vehicle, containing manufacturer details, model, engine specs, year and location of manufacture."
-    },
-    {
-      heading: "Structure of the VIN Code",
-      content: "• WMI – first 3 characters identifying country, manufacturer and vehicle type  \n• VDS – next 6 characters describing vehicle attributes (body style, engine)  \n• VIS – last 8 characters indicating production year, plant and serial number"
-    },
-    {
-      heading: "WMI Code Geography Breakdown",
-      content: "Ranges: 1–5 North America, S–Z Europe, A–H Africa, J–R Asia (India), 6–7 Oceania, 8–9 South America"
-    }
-  ],
-  benefits: [
-    {
-      heading: "Importance of WMI Code",
-      content: "• Ensures global recognition of the manufacturer  \n• Mandatory for valid VIN assignment  \n• Supports regulatory compliance and tracking  \n• Facilitates international vehicle trade  \n• Enables efficient recall management and after-sales service"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for WMI Code Registration",
-      content: "• Duly signed application form with manufacturing unit details  \n• PAN and GST certificates (self-attested)  \n• Certificate of Incorporation / Partnership Deed  \n• MOA & AOA or proprietorship details  \n• Udyam Registration (if applicable)  \n• Address proof of manufacturing facility  \n• Product category/code and existing coding (if any)  \n• Tentative production commencement date  \n• Application fee receipt"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Filing of Application",
-      content: "Do Startup assists in preparing and submitting the WMI registration application to BIS."
-    },
-    {
-      heading: "Step 2: Document Verification",
-      content: "BIS verifies submitted documents for completeness and accuracy."
-    },
-    {
-      heading: "Step 3: WMI Proposal",
-      content: "BIS proposes a unique WMI Code based on product type and location."
-    },
-    {
-      heading: "Step 4: SAE International Registration",
-      content: "The WMI proposal is forwarded to SAE International for inclusion in the global database."
-    },
-    {
-      heading: "Step 5: Confirmation Letter",
-      content: "Upon approval, SAE issues a Confirmation Letter to the manufacturer."
-    },
-    {
-      heading: "Step 6: Issuance of WMI Code",
-      content: "The manufacturer is officially assigned a WMI Code for use in VINs."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Application Fees",
-      description: "Application fee as prescribed by BIS, payable via demand draft or online transfer."
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for WMI Code Registration",
-      description: "The process typically completes in 4–6 weeks, subject to document verification and SAE approval.",
-      steps: [
-        {
-          title: "Application & Payment",
-          duration: "1 week",
-          description: "Submission of application form and fee."
-        },
-        {
-          title: "BIS Processing",
-          duration: "2–3 weeks",
-          description: "Document verification and WMI proposal."
-        },
-        {
-          title: "SAE Approval",
-          duration: "1–2 weeks",
-          description: "Global database registration and confirmation."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "Expert liaison with BIS and SAE International",
-        "End-to-end application and documentation support",
-        "Guaranteed timelines and real-time tracking",
-        "99.9% success rate in WMI registrations",
-        "24×7 dedicated customer assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is a WMI Code?",
-      answer: "The first three characters of a VIN that uniquely identify a vehicle manufacturer globally."
-    },
-    {
-      question: "Is WMI mandatory for all vehicle manufacturers?",
-      answer: "Yes, any entity manufacturing road-legal vehicles must obtain a WMI Code."
-    },
-    {
-      question: "Which standards govern VIN and WMI?",
-      answer: "ISO 3779 for VIN format and ISO 3780 for WMI format."
-    },
-    {
-      question: "Who issues WMI Codes in India?",
-      answer: "The Bureau of Indian Standards (BIS), in coordination with SAE International."
-    },
-    {
-      question: "How long is the WMI Code valid?",
-      answer: "It remains valid as long as the manufacturer operates under the same name and address."
-    }
-  ]
-},
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Key Requirements for FMCS BIS Certification",
+        "content":
+          "The manufacturing facility must be located outside India.\n" +
+          "The applicant must agree to the terms and conditions of BIS licensing.\n" +
+          "The manufacturing unit must have an in-house lab and testing equipment.\n" +
+          "The product must conform to applicable Indian Standard Specifications (ISS).\n" +
+          "The applicant must comply with SIT (Scheme of Inspection and Testing).\n" +
+          "All relevant machinery and testing infrastructure must be available at the facility.\n" +
+          "The applicant must agree to pay the annual marking fee."
 
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Documents Required for FMCS BIS Certification",
+        "documents": [
+          "Company Registration & Factory License",
+          "Manufacturing Process Flowchart",
+          "Business License & ISO Certificate (translated to English if required)",
+          "Product Test Reports conforming to Indian Standards",
+          "Nomination Letter and Undertakings",
+          "Product Drawings and Specifications (if applicable)",
+          "Raw Materials List & Test Certificates",
+          "Existing Product Certifications (if any)",
+          "List of Testing Equipment with Calibration Certificates"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "BIS Certification Application Procedure",
+        "content": "The steps to apply for BIS Certification for toys are:\n1. Submit the application form along with the required self-attested documents to BIS.\n2. BIS evaluates the documents and conducts a physical factory inspection if documents are satisfactory.\n3. Samples are collected by BIS personnel for third-party testing in BIS-recognized laboratories.\n4. Upon satisfactory test results and inspection report, BIS grants the Certification allowing use of the ISI Mark on the toy."
+      },
+      {
+        "heading": "FMCS Certification Procedure for Foreign Manufacturers",
+        "content": "The procedure for FMCS Certification for foreign manufacturers is:\n1. Submit a completed application form with all necessary documents.\n2. Pay the prescribed fee for processing.\n3. BIS officials conduct a physical inspection of the foreign manufacturing facility.\n4. Samples are collected and tested in BIS-recognized labs.\n5. Once compliance with BIS standards is confirmed, the FMCS certification process begins.\n6. The applicant pays the minimum marking fee upfront for FMCS certification issuance.\n7. An agreement, indemnity bond, and performance bank guarantee (in USD) are signed and submitted post-approval.\n8. Upon meeting all standards, the FMCS Certification is issued, allowing the foreign manufacturer to apply the ISI Mark on products exported to India."
+      },
+      {
+        "heading": "How Dostatup Supports Your BIS Certification Journey",
+        "content": "Dostatup offers expert assistance throughout the BIS Certification process for toys, whether domestic or foreign manufacturers. From documentation to liaison with BIS officials and testing labs, Dostatup ensures your compliance process is smooth and efficient. Trust Dostatup to help you achieve certification and gain market access with confidence."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Can Dostatup Help?",
+        "description": [
+          "Dostatup is a trusted platform offering comprehensive legal and compliance support, including assistance with FMCS BIS Certification.",
+          "With Dostatup, clients benefit from:\n• End-to-end support in document preparation and submission\n• Expert consultation for eligibility verification and procedural guidance\n• Faster response times and a simplified approach to compliance\n• Transparent communication tailored to the client’s legal and regulatory needs",
+          "Whether you're a foreign manufacturer looking to enter the Indian market or seeking to streamline the FMCS BIS Certification process, Dostatup ensures a smooth and hassle-free experience."
+        ],
+        "points": [
+          "Identify whether your product falls under BIS jurisdiction",
+          "Assist in setting up in-house testing facilities if unavailable",
+          "Coordinate with BIS-recognized labs for sample testing",
+          "Provide end-to-end documentation, technical evaluation, and audit preparation",
+          "Act as your compliance guide to navigate complex BIS procedures smoothly",
+          "Ensure fast and seamless certification approval with Dostatup experts"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is FMCS?",
+        "answer": "FMCS stands for Foreign Manufacturers Certification Scheme. It is governed by the Bureau of Indian Standards (BIS) under Scheme-I of Schedule-II as per the Conformity Assessment Regulations, 2018 and the BIS Act, 2016. This scheme allows foreign manufacturers to obtain a BIS License for affixing the ISI Mark on products that comply with Indian Standards."
+      },
+      {
+        "question": "Who requires BIS Certification for importing into India?",
+        "answer": "Only foreign manufacturers whose production facilities are located outside India and who intend to sell their products in the Indian market are eligible and required to obtain BIS Certification under the FMCS scheme."
+      },
+      {
+        "question": "What is the validity of FMCS BIS Certification?",
+        "answer": "The initial validity of an FMCS BIS License is one year. It can be renewed for a period of one or two years, based on the applicant’s preference and payment of the applicable renewal fees."
+      },
+      {
+        "question": "Can I submit a single application for the same product manufactured at different locations?",
+        "answer": "No. A separate application must be submitted for each product and each factory location. BIS treats every manufacturing site independently for certification purposes."
+      },
+      {
+        "question": "Can an importer apply for the License on behalf of the manufacturer?",
+        "answer": "No. Only the foreign manufacturer is eligible to apply for the FMCS BIS License. Importers or third-party entities cannot submit applications on their behalf."
+      },
+      {
+        "question": "Is it mandatory to nominate an AIR (Authorised Indian Representative) for FMCS Certification?",
+        "answer": "Yes, nominating an Authorised Indian Representative (AIR) is mandatory for all foreign manufacturers. The AIR acts as the local contact point in India and is responsible for coordinating with BIS and ensuring compliance."
+      },
+      {
+        "question": "How can I obtain an FMCS BIS License and ISI Mark in India?",
+        "answer": "To obtain the FMCS BIS License and use the ISI Mark, you can reach out to Dostatup. Our experienced team at Dostatup will assist you throughout the certification process—from application filing and documentation to factory audits and final approval—making the entire procedure smooth and hassle-free."
+      }
+    ]
+  },
+  "development-planning-implementation-of-csr-strategy": {
+    title: "Development, Planning and Implementation of CSR Strategy",
+    description: "For planning, developing, and implementing an effective CSR Policy for your company, get your CSR Strategy with the assistance of DoStartUp!",
+    "overview": [
+      {
+        "heading": "Overview of CSR Strategy",
+        "content": "A Corporate Social Responsibility (CSR) Strategy is an organisation’s overarching plan to design, implement, and optimise its social impact efforts. A well-defined CSR strategy ensures alignment with business objectives, provides a framework to track Key Performance Indicators (KPIs), and demonstrates how chosen initiatives contribute to both societal good and business success. As CSR becomes increasingly embedded in business strategies, it has been shown to enhance customer loyalty, employee engagement, brand value, and overall financial performance. This guide, powered by Dostatup, covers the benefits, requirements, and process of developing and implementing a successful CSR strategy."
+      },
+      {
+        "heading": "What Can a CSR Strategy Do for Your Company?",
+        "content": "An effective CSR strategy can help you determine the right approach, streamline implementation, and measure outcomes. Nearly half of consumers expect companies to lead by example in contributing to a better world—not just by selling products, but by creating positive change. Businesses today also carry increasing social, environmental, and ethical responsibilities."
+      },
+      {
+        "heading": "CSR Core Categories",
+        "content": "CSR generally falls into four core categories:\n1. Environmental Responsibility\n2. Ethical Responsibility\n3. Financial Responsibility\n4. Philanthropic Responsibility"
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Developing & Implementing a CSR Strategy",
+        "content": "• Enhanced ability to attract and retain talent\n• Increased brand visibility\n• Stronger brand reputation and public trust\n• Greater customer loyalty and engagement\n• Improved financial performance and stakeholder relations"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for CSR Strategy Development and Execution",
+        "content": "• CSR Project name and detailed strategy\n• Credentials of the implementing agency (e.g., Trust/Society/Section 8 Company)\n• Valid registration certificate\n• Organisation’s brief profile\n• Tax exemption certificates (80G/12A/35AC/FCRA, if applicable)\n• Confirmation of empanelment with National CSR Hub or other authorities\n• Proof of eligibility to carry out proposed CSR activities\n• Confirmation that activities are covered under Companies Act, 2013\n• Any similar proposals submitted to other PSUs\n• Impact assessment reports (if any)\n• Awards, achievements, and case studies\n• PAN card and bank account details (including a cancelled cheque)\n• TDS exemption certificate (if available)\n• Clear project objectives and location (with Google/Wiki map links)\n• Baseline survey and need assessment report\n• Defined outcomes and expected social impact\n• Status of necessary regulatory approvals/NOCs\n• Proposed action plan and visibility strategy for REC (with logo/name)\n• Detailed project scope of work\n• Estimated number of target beneficiaries (gender-wise)\n• Implementation roadmap with timelines and milestones\n• Evaluation and monitoring criteria\n• Project team leader details with CV and contact info\n• Declaration of no pending legal or criminal disputes\n• Declaration of non-blacklisting by any government entity"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "CSR Strategy Development & Implementation Procedure",
+        "content": "The steps to develop and implement a CSR strategy are:\n1. Define the concept of CSR for your business, considering its cultural context and stakeholder expectations.\n2. Understand the social benefits of CSR and secure internal support by showcasing its impact on the business and community.\n3. Get internal approval for the CSR program by ensuring management's alignment and commitment to financial and human resource investment.\n4. Set clear goals by developing CSR objectives and Key Performance Indicators (KPIs) to measure the impact of your strategy.\n5. Conduct a current CSR assessment to evaluate any existing CSR efforts, identify strengths, gaps, and opportunities for improvement.\n6. Research new CSR initiatives that align with your brand values and employee interests.\n7. Launch your CSR campaign by communicating effectively with key stakeholders such as employees, shareholders, local communities, customers, and the media.\n8. Monitor and manage your CSR efforts for long-term success by tracking progress against goals, gathering stakeholder insights, assessing community needs, and encouraging employee participation."
+      },
+      {
+        "heading": "How Dostatup Supports Your CSR Strategy Development",
+        "content": "Dostatup offers expert support throughout the CSR strategy development process. From identifying stakeholders and aligning CSR goals with business values, to launching campaigns and ensuring compliance, Dostatup helps you drive impact and achieve measurable outcomes. Our services include documentation, legal compliance, strategic planning, and impact measurement, ensuring your CSR efforts deliver both business success and social value."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is a CSR Strategy?",
+        "answer": "A Corporate Social Responsibility (CSR) Strategy is a comprehensive plan that guides every aspect of your organisation’s CSR efforts. It plays a critical role in aligning CSR activities with broader business objectives and ensures your social impact initiatives stay focused and effective."
+      },
+      {
+        "question": "Who Creates the Corporate Social Responsibility Strategy?",
+        "answer": "CSR strategies are typically developed by office managers, human resources teams, or a dedicated CSR department. These departments coordinate strategic planning, sustainability efforts, and performance monitoring—often with the expert support of CSR consultants like Dostatup, who help streamline and strengthen implementation."
+      },
+      {
+        "question": "How is CSR Integrated into a CSR Strategy?",
+        "answer": "CSR can be embedded into your overall business strategy in multiple ways, depending on your organisation's priorities. When developing a CSR strategy with guidance from Dostatup, consider aligning it with your key business goals—such as enhancing social impact, increasing employee engagement, improving customer loyalty, or supporting community development."
+      },
+      {
+        "question": "Who Needs a Corporate Social Responsibility Strategy?",
+        "answer": "Any business that meets the following financial thresholds is required to comply with CSR provisions under Section 135 of the Companies Act, 2013:\n• Companies with a net worth of ₹500 crores or more\n• Companies with a turnover of ₹1,000 crores or more\n• Companies with a net profit of ₹5 crores or more\nIf your business falls under any of these categories, it's time to create a structured CSR strategy. Dostatup can assist in ensuring compliance and effective planning."
+      },
+      {
+        "question": "Who is Responsible for Deciding the CSR Strategy?",
+        "answer": "Responsibility for defining and managing CSR varies by organisation. Some companies have a dedicated CSR department, while others assign these responsibilities to the HR, marketing, or communications teams. Regardless of the department, aligning CSR goals with overall business objectives is key—and Dostatup is here to help your team design a customised approach."
+      },
+      {
+        "question": "How Can a CSR Strategy Be Implemented Effectively?",
+        "answer": "To successfully implement your CSR strategy:\n• Develop a CSR framework aligned with your long-term business goals\n• Break down your CSR plan into quarterly milestones\n• Train your employees to ensure they understand and support the CSR efforts\nDostatup recommends involving your workforce at every stage, as internal awareness and participation significantly contribute to a strategy’s success."
+      },
+      {
+        "question": "What if a Company Hasn't Completed Three Financial Years?",
+        "answer": "Even if a company hasn’t completed three full financial years since incorporation, the CSR provisions still apply if it meets any of the criteria outlined in Section 135(1) of the Companies Act. In such cases, the company must spend at least 2% of the average net profits made during the immediately preceding financial year(s). Dostatup provides expert guidance in assessing your eligibility and planning compliance-ready CSR strategies even for newly incorporated companies."
+      }
+    ]
+  },
+  "fema-compliance": {
+    title: "FEMA Compliance",
+    description: "Confused by FEMA compliance? We make it easy for you! Our DoStartup team ensures a smooth process, keeping your business compliant without stress.",
+    "overview": [
+      {
+        "heading": "Overview of FEMA Compliance",
+        "content": "The Foreign Exchange Management Act (FEMA), enacted in 1999, plays a crucial role in regulating the movement of funds between India and international markets. FEMA not only governs foreign exchange transactions but also sets forth mandatory compliance standards that businesses must adhere to. Adhering to FEMA compliance facilitates seamless cross-border trade, boosts foreign investment, promotes financial transparency, and maintains the balance of payments. With increasing globalization and international business expansion, the significance of FEMA filings has grown. It ensures adherence to investment and sectoral caps and helps avoid penalties from non-compliance. For companies engaging in foreign dealings, staying compliant with FEMA is essential for streamlined operations and efficient regulatory management."
+      },
+      {
+        "heading": "Why is FEMA Compliance Necessary?",
+        "content": "FEMA compliance is mandatory for any business involved in external trade, foreign payments, or cross-border investments in India. It aligns with India’s liberalized foreign exchange policy, regulated by the Reserve Bank of India (RBI). Ensuring compliance with FEMA enhances transparency in global financial transactions, prevents legal issues, and strengthens operational trust. Moreover, adhering to FEMA regulations enhances your business’s reputation on the international stage by demonstrating robust governance and commitment to legal standards. This is particularly critical for enterprises engaging in global investments and trade."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Key Benefits of FEMA Compliance in India",
+        "content": "• Enhanced Credibility with International Investors\n• Seamless International Transactions\n• Legal Safeguards and Risk Minimization\n• Access to Global Investment Opportunities"
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility for FEMA Compliance Services",
+        "content": "• Indian Resident Individuals\n• Non-Resident Indians (NRIs)\n• Indian Companies & LLPs\n• Foreign Companies\n• NRI-owned Companies\n• Proprietorships and Partnerships\n• Foreign Institutional Investors\n• High Net-Worth Individuals"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for FEMA Compliance",
+        "content": "• Certificate of Incorporation\n• Memorandum & Articles of Association\n• Board Resolution\n• Last Audited Financial Statements\n• Identity & Address Proofs of Investor/Investee\n• Shareholding Patterns (Pre & Post Investment)\n• Affidavit Declaration by the Investee\n• JV or Shareholder Agreement (if any)\n• Downstream Investment Intimation\n• FIPB/SIA/RBI Approvals (if applicable)\n• Foreign Inward Remittance Certificate (FIRC)\n• High Court Order (in case of restructuring)\n• Approved Valuation Certificate"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "CSR Strategy Development & Implementation Procedure",
+        "content": "The steps to develop and implement a CSR strategy are:\n1. Define the concept of CSR for your business, considering its cultural context and stakeholder expectations.\n2. Understand the social benefits of CSR and secure internal support by showcasing its impact on the business and community.\n3. Get internal approval for the CSR program by ensuring management's alignment and commitment to financial and human resource investment.\n4. Set clear goals by developing CSR objectives and Key Performance Indicators (KPIs) to measure the impact of your strategy.\n5. Conduct a current CSR assessment to evaluate any existing CSR efforts, identify strengths, gaps, and opportunities for improvement.\n6. Research new CSR initiatives that align with your brand values and employee interests.\n7. Launch your CSR campaign by communicating effectively with key stakeholders such as employees, shareholders, local communities, customers, and the media.\n8. Monitor and manage your CSR efforts for long-term success by tracking progress against goals, gathering stakeholder insights, assessing community needs, and encouraging employee participation."
+      },
+      {
+        "heading": "How Dostatup Supports Your CSR Strategy Development",
+        "content": "Dostatup offers expert support throughout the CSR strategy development process. From identifying stakeholders and aligning CSR goals with business values, to launching campaigns and ensuring compliance, Dostatup helps you drive impact and achieve measurable outcomes. Our services include documentation, legal compliance, strategic planning, and impact measurement, ensuring your CSR efforts deliver both business success and social value."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose FEMA Compliance with DoStartup?",
+        "description": [
+          "DoStartup is a leading platform specializing in FEMA compliance services, helping businesses navigate the complexities of foreign exchange regulations.",
+          "With DoStartup, clients benefit from:\n• 99% Success Rate in FEMA regulatory filings\n• Time-saving and cost-effective solutions\n• Personalized consultation and document support\n• Real-time updates and 24/7 support\n• Post-compliance support with RBI",
+          "Whether you're seeking help with FEMA regulatory filings or managing ongoing compliance, DoStartup ensures an efficient and hassle-free experience."
+        ],
+        "points": [
+          "99% Success Rate in FEMA regulatory filings",
+          "Time-saving and cost-effective solutions",
+          "Expert team of FEMA specialists for complete compliance management",
+          "Over ₹15 Lakh saved for clients through efficient handling",
+          "500+ Successful cases handled with expert guidance",
+          "Personalized consultation & documentation support",
+          "Real-time updates & 24/7 support to ensure you're always in the loop",
+          "Post-compliance support with RBI to assist with any ongoing needs"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is FEMA Compliance?",
+        "answer": "Adherence to FEMA 1999 regulations governing foreign exchange and international investments in India."
+      },
+      {
+        "question": "What is the full form of FEMA?",
+        "answer": "Foreign Exchange Management Act."
+      },
+      {
+        "question": "What are the penalties for non-compliance?",
+        "answer": "Up to 3 times the transaction amount or ₹2,00,000, plus ₹5,000/day for continuing violations."
+      },
+      {
+        "question": "What are the benefits of FEMA compliance?",
+        "answer": "Improved investor trust, legal protection, and access to foreign capital."
+      },
+      {
+        "question": "What is Form FC-GPR?",
+        "answer": "A mandatory form for reporting the issuance of shares to foreign investors."
+      },
+      {
+        "question": "Who are authorized dealers under FEMA?",
+        "answer": "Banks authorized by the RBI to deal in foreign exchange."
+      },
+      {
+        "question": "Why was FERA replaced by FEMA?",
+        "answer": "To shift focus from control to management of foreign exchange in a liberalized economy."
+      },
+      {
+        "question": "Who regulates FEMA compliance in India?",
+        "answer": "The Reserve Bank of India and the Central Government."
+      },
+      {
+        "question": "What do FEMA compliance services include?",
+        "answer": "Advisory, documentation, filing, reporting, RBI approvals, and post-compliance support."
+      }
+    ]
+  },
+  "liaison-office-registration-india": {
+    title: "Liaison Office Registration",
+    description: "Running a foreign company but looking for a temporary office in India?",
+    "overview": [
+      {
+        "heading": "Liaison Office Registration",
+        "content": "A liaison office, also known as a representative office, serves as a key channel of communication between a foreign parent company and Indian stakeholders. Foreign companies register liaison offices in India to assess market potential and support business opportunities without engaging in direct commercial activities. These offices serve as a link between the Indian market and the international parent organization. Their primary objectives include promoting import/export relations, fostering technical and financial collaborations, conducting market research, and collecting feedback from Indian consumers. Liaison offices are highly valued by foreign investors as they offer a strategic way to explore the Indian market with minimal financial, legal, and operational obligations."
+      },
+      {
+        "heading": "Permitted Activities of a Liaison Office in India",
+        "content": "Liaison offices can: \n● Establish robust communication between the foreign parent company and entities in India to facilitate business prospects. \n● Promote import and export relations between India and the parent company’s country. \n● Initiate technical and financial collaborations with Indian businesses. \n● Represent the foreign parent organization in India."
+      },
+      {
+        "heading": "Key Considerations Before Registering a Liaison Office in India",
+        "content": "1. Net Worth Requirement: The parent foreign entity must demonstrate a positive track record for the last three consecutive years and possess a net worth exceeding USD 50,000, verified by a certified auditor. \n2. No Revenue Generation Permitted: A liaison office is not authorized to generate income in India. All operational expenses are financed by the foreign parent company. \n3. Naming & Additional Office Approval: The liaison office must operate under the same name as the foreign parent company. For every new liaison office opened, separate approval must be obtained from the Reserve Bank of India (RBI) along with a valid business justification. \n4. Tax Obligations in India: Even though the liaison office does not earn income, it is still subject to income tax regulations enforced by Indian tax authorities."
+      },
+      {
+        "heading": "RBI Approval Routes for Liaison Office Setup",
+        "content": "1. Automatic Route: Under this route, no prior approval from the RBI or Government of India is necessary. This applies to sectors where 100% Foreign Direct Investment (FDI) is permitted and the applicant company is from a country that does not share a land border with India. \n2. Approval Route: This applies in the following scenarios: \n   a. If the applicant is based in or is a citizen of countries such as Pakistan, China, Sri Lanka, Iran, Afghanistan, Bangladesh, Hong Kong, or Macau, and proposes to open a liaison/branch/project office in Jammu & Kashmir, North-Eastern states, or Andaman & Nicobar Islands. \n   b. If the applicant operates in sectors such as Private Security, Telecom, Defence, and Information & Broadcasting. \n   c. If the applicant is a Non-Governmental Organization (NGO)."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Liaison Office Registration in India",
+        "content": "• It does not engage in any income-generating activity within India.\n• The parent company has a net worth of at least USD 50,000.\n• The company has a proven operational record for the past three years."
+      },
+      {
+        "heading": "Drafting Required Documents and Government Forms",
+        "content": "Once all documents are collected, the next step is preparing the necessary forms and declarations, including:\n• Board Resolution for setting up the liaison office\n• Declaration of FDI eligibility and fund sources\n• Statement of proposed activities and office location\n• Statement on the activities of the parent company\n• Form FNC (application to RBI)\n• Letter of Comfort from the Parent Company"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for Liaison Office Registration in India",
+        "content": "From the Foreign Parent Company:\n• Certificate of Incorporation or Company Registration\n• Memorandum and Articles of Association\n• Complete list of Directors\n• Complete list of Shareholders\n• Net Worth Certificate attested by a Certified Public Accountant (CPA)\n• Audited Financial Statements for the past three years\n• Banker’s Report for the Applicant Company\n\nFrom the Authorized Representative:\n• Five Passport-size Photographs\n• Five Copies of Passport\n• Business Visa with Immigration Entry Stamp\n• Five Copies of National ID Card\n• Address Proof (Bank Statement, Utility Bills, etc.)\n• Board Resolution for appointing the Authorized Representative\n• Power of Attorney in favor of the Authorized Representative"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step-by-Step Liaison Office Registration Process in India",
+        "content": "The steps to register a liaison office in India are:\n1. Filing Application with RBI through AD Bank: The foreign company must submit Form FNC through its Authorized Dealer (AD) Bank to the Reserve Bank of India (RBI). The AD Bank acts as the intermediary for all RBI-related communication.\n2. KYC Verification by Parent Company’s Banker: The parent company’s banker is requested to verify documents through SWIFT-based communication. Once verified, the application proceeds to the RBI. Additional documents may be requested based on RBI’s discretion.\n3. RBI Approval for Liaison Office Setup: The AD Bank processes and forwards the application for RBI’s review. Cases falling outside the automatic route are prioritized under this policy.\n4. Company Registration with the Registrar of Companies (RoC): Upon receiving RBI approval, the liaison office is registered with the RoC. The foreign direct investment must be credited to the office’s bank account within 180 days, with prior intimation to the bank.\n5. PAN, TAN & Bank Account Opening: Once a Permanent Account Number (PAN) is issued by the Income Tax Department, the liaison office can open a bank account and obtain a Tax Deduction and Collection Account Number (TAN) for complying with TDS regulations.\n6. GST Registration & Import Export Code (IEC): Post bank account activation, a cheque copy is used to apply for GST registration and IEC, enabling further regulatory compliance."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What activities can a liaison office of a foreign company undertake in India?",
+        "answer": "A liaison office may engage in business communication, market research, import/export promotion, and fostering collaborations. It cannot conduct commercial operations or earn income in India."
+      },
+      {
+        "question": "What is the income tax rate applicable to liaison offices?",
+        "answer": "The liaison office is subject to income tax norms, even though it doesn’t generate income."
+      },
+      {
+        "question": "Who can establish a liaison office in India?",
+        "answer": "Any foreign company with a valid operational record and net worth of over USD 50,000 may apply."
+      },
+      {
+        "question": "Which countries require RBI’s prior approval for liaison office setup?",
+        "answer": "Companies from China, Pakistan, Bangladesh, Sri Lanka, Iran, Afghanistan, Hong Kong, and Macau require approval and cannot register under the automatic route."
+      },
+      {
+        "question": "Who grants approval for liaison office setup?",
+        "answer": "The Reserve Bank of India (RBI) grants approval, either directly or via Authorized Dealer Banks."
+      },
+      {
+        "question": "How can a foreign company set up a liaison office in India?",
+        "answer": "By submitting Form FNC via an AD Bank, complying with documentation requirements, and securing RBI approval."
+      },
+      {
+        "question": "What documents are needed to open a liaison office in India?",
+        "answer": "Key documents include Incorporation Certificate, MoA, AoA, Director and Shareholder details, net worth certificate, and KYC documents of the Authorized Representative."
+      },
+      {
+        "question": "What is the process to file the Annual Activity Certificate (AAC)?",
+        "answer": "The AAC must be submitted annually to the RBI and Income Tax Department, detailing the activities undertaken by the liaison office during the financial year."
+      }
+    ]
+  },
+  "branch-office-registration-india": {
+    title: "Branch Office Registration",
+    description: "Are you running a foreign company and aiming to expand your business operations in India? Get your branch office registration with DoStartup experts.",
+    "overview": [
+      {
+        "heading": "Branch Office Registration",
+        "content": "India, being one of the world’s largest consumer markets and a fast-growing global economy, stands out as a prime location for international companies seeking to expand. Foreign corporations are increasingly opting for branch office registration in India to establish a commercial footprint and extend their operations. The Reserve Bank of India (RBI) is the key authority overseeing branch office approvals. This setup is regulated under Section 6(6) of the Foreign Exchange Management Act (FEMA), 1999, along with the RBI Master Directions, which lay down the governance structure, compliance requirements, and reporting obligations. Registering a branch office in India grants a foreign company the legal capacity to conduct business in India, performing activities similar to those undertaken by the parent entity overseas. However, direct manufacturing activities are not permitted—though such operations can be subcontracted to local manufacturers."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Branch Office Setup in India",
+        "content": "• A net worth of over $100,000, verified through audited financials.\n• A profit-making track record for the preceding five financial years.\n• Engagement in any of the approved business activities allowed for branch offices."
+      },
+      {
+        "heading": "Approved Activities of a Branch Office in India",
+        "content": "• Import and export of goods.\n• Providing professional or consultancy services.\n• Conducting market research in areas where the parent company is involved.\n• Promoting technical or financial collaborations with Indian companies.\n• Acting as a buying/selling agent for the parent company.\n• Offering IT services and software development in India.\n• Providing technical support for products supplied by the parent organization.\n• Operating as an authorized agent for foreign airline or shipping companies in India."
+      },
+      {
+        "heading": "Key Points to Note Before Branch Office Registration",
+        "content": "• Net Worth Criteria: The foreign parent company must show a profitable record over the past five years and maintain a net worth exceeding $100,000, as supported by its audited financial statement.\n• Profit Repatriation: Profits earned in India can be remitted to the parent company after tax obligations are fulfilled and financial statements are audited.\n• Branch Office Naming: The name of the branch office must be identical to the parent company.\n• Indian Taxation: A 40% income tax rate applies to profits made by the branch office, with applicable surcharges. GST is also levied on the supply of goods and services.\n• Registration Timeline: Generally takes around 3 to 4 weeks, subject to variation based on specific cases.\n• Annual Compliance: The branch office must comply with statutory filings under the Ministry of Corporate Affairs, Registrar of Companies (ROC), and Income Tax Department."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for Branch Office Registration in India",
+        "content": "From the Parent Company:\n• Certificate of Incorporation\n• Memorandum of Association (MoA)\n• Articles of Association (AoA)\n• Detailed profiles of directors and key executives\n• Shareholding structure\n• Net worth certificate from a Certified Public Accountant (CPA)\n• Audited financial statements for the past five years\n• A report from the foreign banker\n\nFor Indian Office Address:\n• 5 passport-size photos\n• 5 copies of the passport\n• Copy of business visa with immigration stamp\n• 5 copies of national identity card\n• Address proof (utility bill or bank statement)\n• Power of Attorney in the name of the Authorized Representative (AR)\n• Board resolution appointing the AR\n\nDrafting Government Forms & Legal Documents:\n• Board resolution for branch office setup\n• Declaration on FDI eligibility and source of funding\n• Declaration of proposed business activity and its location\n• Declaration about the parent company's activities and business presence\n• Form FNC (application form for RBI)\n• Letter of comfort from the holding entity"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Branch Office Registration Process in India",
+        "content": "1. Application Filing via AD Bank: The application (Form FNC) is filed through an Authorized Dealer (AD) Category I Bank to the RBI. The AD bank acts as an intermediary for all communication.\n\n2. Special Cases Requiring Prior RBI Approval: Prior RBI approval is needed if:\n   - The company is registered in, or the applicant is a citizen of: Pakistan, China, Iran, Afghanistan, Bangladesh, Sri Lanka, Hong Kong, or Macau and is applying to open a branch office in Jammu & Kashmir, Andaman and Nicobar Islands, or the North-Eastern region.\n   - The business falls under: Telecom, Private Security, Defence, Information & Broadcasting.\n   - The applicant is a Non-Governmental Organization (NGO).\n\n3. KYC Verification by Parent Company’s Banker: The foreign banker is contacted for swift-based verification of submitted documents. Once validated, the application is processed further. RBI or AD Bank may request additional documentation.\n\n4. Post-Approval Steps: ROC Registration: After RBI approval, a filing is made with ROC in Form FC-1 within 30 days. If an Indian director is involved, a DIN (Director Identification Number) is required. The digital signature of the AR is mandatory for e-filing.\n\n5. PAN & Tax Deduction Number: The Income Tax Department issues a PAN (Permanent Account Number) and Tax Deduction Account Number (TAN) to the branch office, enabling bank account operations and TDS compliance."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the requirements for setting up a branch office in India?",
+        "answer": "A foreign company must demonstrate a five-year profit record and adequate capital resources backed by a certified financial statement."
+      },
+      {
+        "question": "Which countries require prior RBI approval to register a branch office in India?",
+        "answer": "Entities from Pakistan, China, Iran, Afghanistan, Bangladesh, Sri Lanka, Hong Kong, and Macau, or those wishing to operate in sensitive regions, need explicit RBI approval."
+      },
+      {
+        "question": "What is the applicable income tax rate for a branch office?",
+        "answer": "A 40% income tax rate applies, with additional surcharges."
+      },
+      {
+        "question": "What business activities are allowed for a branch office?",
+        "answer": "Permitted activities include consulting, market research, export/import, technical support, and acting as a local agent for the foreign parent."
+      },
+      {
+        "question": "Is a branch office considered a separate legal entity?",
+        "answer": "No, it is not a separate legal person; it functions as an extension of the foreign parent."
+      },
+      {
+        "question": "What is involved in the drafting of government forms and documents?",
+        "answer": "This includes preparing declarations, board resolutions, Form FNC, and various compliance forms essential for registration."
+      }
+    ]
+  },
+  "project-office-registration": {
+    title: "Project Office Registration",
+    description: "Thinking of representing a foreign company’s interests in a project and ensuring legal compliance? Reach out to us for no-stress project office registration.",
+    "overview": [
+      {
+        "heading": "Project Office Registration",
+        "content": "India’s rapidly growing economy presents numerous opportunities for foreign entities, and one such option is the registration of a Project Office. The Reserve Bank of India (RBI) permits foreign parent companies to establish a project office in India for executing specific projects. This setup allows the overseas parent company to represent its business interests during project execution. However, to establish a project office, the foreign company must have an active contractual agreement with an Indian entity—either from the private or government sector. Additionally, the activities performed by the Project Office must remain within the scope defined in the contract. Project Office establishment and compliance are regulated under Section 6(6) of the Foreign Exchange Management Act (FEMA), 1999. The RBI has the sole authority to approve applications, while compliance with the Companies Act, 2013 requires the foreign company to register with the Registrar of Companies (ROC)."
+      },
+      {
+        "heading": "Investment Entry Routes for Setting Up a Project Office in India",
+        "content": "1. Reserve Bank Route: If the foreign company's core business activity is in a sector where 100% FDI is allowed under the automatic route, then the application can be processed through the Reserve Bank route. 2. Government Route: If the FDI is not permitted up to 100% automatically, the foreign entity must apply under the Government Route. The RBI collaborates with the Ministry of Finance to process such applications, especially for NGOs, Non-Profits, Government Bodies, etc."
+      },
+      {
+        "heading": "Key Requirements for Project Office Registration",
+        "content": "• Formal Contract: A legally binding agreement must exist between the foreign and Indian company detailing the project scope. • Approval from Authorities: The project must be cleared and approved by competent Indian authorities. • Funding from Foreign Source: Ideally, the project must be funded via inward remittance from the foreign parent or through a multilateral/international financial institution. • Indian Funding (if applicable): If the project lacks foreign funding, then the Indian partner must secure a term loan from a recognized bank or financial institution in India."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for Project Office Registration in India",
+        "content": "Documents Required for RBI Approval:\n• Certificate of Incorporation (COI)\n• MOA and AOA (attested by Indian Embassy/Notary)\n• Audited Balance Sheet of the parent company\n• Board Resolution expressing intent to establish a project office in India\n• Proof of project funding from a financial institution or via international funding agencies\n• Banker’s report verifying the parent company’s business relationship\n• Authority letter from the parent company naming the Indian representative\n• Passport and residence proof of the authorized signatory\n• Letter confirming the intent to open a bank account in India\n• Full details of project-related activities\n\nDocuments Required for ROC Filing:\n• RBI approval letter\n• MOA & AOA (Notarized)\n• Notarized COI\n• Notarized Power of Attorney for accepting notices on behalf of the company\n• Complete Director details\n• KYC of shareholders with over 10% equity"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Project Office Registration Process in India",
+        "content": "1. Legalisation of Documents: Foreign company documents (COI, MOA, AOA, Board Resolutions) must be legalized via the Indian Embassy or apostilled as per the Hague Convention.\n\n2. Application Filing through AD Bank: The application (Form FNC) is submitted to the RBI via an Authorized Dealer (AD) Bank. AD banks serve as the main communication bridge between RBI and the applicant.\n\n3. KYC Verification from Parent Company’s Bank: A SWIFT-based verification request is sent to the foreign banker. Upon confirmation, the application moves forward. The RBI or AD Bank may request additional documentation if needed.\n\n4. RBI Approval: Once verified, the RBI grants approval for establishing the Project Office in India.\n\n5. ROC Registration: After RBI approval, an application is filed with the Registrar of Companies (ROC) within 30 days. This includes DIN (Director Identification Number) and Digital Signature Certificate (DSC) for filing statutory forms.\n\n6. PAN, TAN & Bank Account: The Income Tax Department issues a PAN (Permanent Account Number) and TAN (Tax Deduction Account Number). After PAN is obtained, the Project Office can open a bank account in India.\n\n7. Other Registrations: Once operational, the project office may need additional registrations such as:\n   - GST (Goods and Services Tax)\n   - Professional Tax\n   - Provident Fund (PF)\n   - Employee State Insurance Corporation (ESIC)"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is a Project Office?",
+        "answer": "A Project Office is a temporary place of business established by a foreign company in India to execute a specific project assigned by a government or private entity. All mandatory approvals from RBI and ROC must be obtained before starting operations."
+      },
+      {
+        "question": "What documents are required for RBI?",
+        "answer": "Key documents include COI, attested MOA/AOA, board resolutions, funding proofs, and the authorized representative's passport and address proof."
+      },
+      {
+        "question": "What are the investment entry routes for a project office?",
+        "answer": "There are two routes: the Reserve Bank Route (for sectors with 100% FDI allowed) and the Government Route (for restricted sectors and NGOs)."
+      },
+      {
+        "question": "What is the process of registering a project office?",
+        "answer": "The process includes legalizing documents, applying through an AD Bank to RBI, obtaining KYC verification, registering with ROC, and securing PAN, TAN, and other licenses."
+      },
+      {
+        "question": "What is submitted to the ROC?",
+        "answer": "You need to submit RBI approval, MOA, AOA, COI, POA, KYC documents, and director/shareholder information."
+      },
+      {
+        "question": "Can a Liaison Office be converted into a Branch Office?",
+        "answer": "If an LO is converted into a BO, certain things like PAN and bank account may remain unchanged with proper approval."
+      },
+      {
+        "question": "Are Project Offices required to report to local police?",
+        "answer": "In certain sensitive regions or countries, reporting to police authorities may be required."
+      },
+      {
+        "question": "Can Project Offices maintain multiple bank accounts?",
+        "answer": "Generally, a single INR account is permitted unless special approval is obtained."
+      },
+      {
+        "question": "What are the permissible debits and credits to the Project Office account?",
+        "answer": "Permissible transactions include project-related expenses and remittances, but are subject to RBI rules."
+      }
+    ]
+  },
+  "fire-department-noc-in-india": {
+    title: "Fire Department NOC",
+    description: "Do you wish to get fire department NOC for your residential, educational, or high-risk building? Our experts ensure Compliance with fire safety standards.",
+    "overview": [
+      {
+        "heading": "Why is FCC Certification Necessary in India?",
+        "content": "If you're trading or planning to trade in electronic devices, obtaining an FCC Certification is crucial. The FCC (Federal Communications Commission) mark is placed on electronic equipment to indicate compliance with electromagnetic radiation standards set by the FCC. It confirms that the manufacturer has met necessary authorization procedures. The FCC logo is globally recognized and assures customers of a product’s electromagnetic safety."
+      },
+      {
+        "heading": "What is FCC Certification?",
+        "content": "The FCC Certification ensures electronic products meet EMI and RF standards required by U.S. law. Electronic devices intended for the U.S. market must pass FCC compliance testing, ensuring safe usage and minimal interference. Products undergo laboratory testing approved by the FCC to verify adherence to technical criteria, confirming the product’s safety and reliability."
+      },
+      {
+        "heading": "Types of FCC Certification",
+        "content": "FCC guidelines categorize devices as either: 1. Intentional Radiators: Devices designed to emit RF intentionally. 2. Unintentional Radiators: Devices unintentionally emitting RF during normal operation. FCC also classifies computer systems into: 1. Class A Rating: Office-use computers. 2. Class B Rating: Home-use electronics (subjected to stricter testing)."
+      },
+      {
+        "heading": "Products Needing FCC Certification in India",
+        "content": "FCC Certification typically applies to: 1. Mobile Phones 2. Remote Controls 3. Land Mobile Radios 4. Wireless Medical Devices 5. Cordless Phones 6. Walkie-Talkies 7. Power Adapters 8. Telecommunications and IT Equipment 9. Bluetooth Devices 10. Wireless Networking Equipment. Some products might qualify for exemptions but still require strict adherence to documentation, labeling, and handling guidelines."
+      },
+      {
+        "heading": "Objectives of FCC Registration",
+        "content": "FCC Certification acts as a gateway to the U.S. market, enhancing consumer confidence by verifying that products: 1. Pose no risk of interference with other devices. 2. Maintain safe RF exposure levels. Non-certified electronic goods may face penalties, fines, or recalls."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of FCC Certification and Consulting by DoStartUp in India",
+        "content": "• Product Safety Assurance: Validates that electronic devices are safe and radiation emissions are within permissible limits.\n• Enhanced Market Access: Enables entry into the lucrative U.S. and global markets, boosting consumer trust.\n• Quality Assurance: Confirms device reliability through rigorous testing and compliance.\n• Increased Efficiency: Certified products have a competitive edge, attracting informed consumers.\n• Legal Compliance: Ensures adherence to international and U.S. regulations, protecting against legal issues.\n• Performance Enhancement: Demonstrates product reliability and safe performance."
+      },
+      {
+        "heading": "How DoStartUp Supports FCC Certification",
+        "content": "Navigating FCC Certification can be challenging. DoStartUp simplifies the process by offering:\n• Expert Guidance: Experienced consultants clarify FCC requirements and eligibility.\n• Documentation Assistance: Help preparing all required FCC authorization documents.\n• Testing Coordination: Organizing pre-compliance tests to identify issues early.\n• Application Support: Assistance in accurately completing FCC forms.\n• Regulatory Compliance: Staying updated with FCC regulations to maintain continuous compliance."
+      },
+      {
+        "heading": "FCC Authorization and Testing Process",
+        "content": "The FCC authorization includes three pathways:\n• Verification: For Part 15 electrical devices (e.g., wireless alarm systems).\n• Declaration of Conformity: For Part 18 industrial, scientific, and medical equipment.\n• FCC Certification: Highest scrutiny, required for products likely to disrupt communication channels."
+      },
+      {
+        "heading": "Who Grants FCC Certification?",
+        "content": "The FCC, an independent U.S. regulatory body established under the Communications Act of 1934, authorizes electronic equipment. The Telecommunications Certification Body (TCB) handles certification, providing permanent approval unless significant product modifications occur."
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Documents Required for FCC Certification in India",
+        "documents": [
+          "PAN Card copy",
+          "Passport-sized photograph",
+          "Address Proof (e.g., Voter ID)",
+          "Sales/Purchase Invoice (two copies)",
+          "Complete Material List",
+          "Manufacturing Process documentation",
+          "Radiation Test Readings",
+          "Technical Specifications",
+          "System Manuals and Procedures",
+          "Additional documents as applicable per product type"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Steps to Obtain FCC Certification",
+        "content": "1. Selection and Design: Choose suitable RF frequencies and develop the product per FCC guidelines.\n\n2. Development Testing: Conduct internal or third-party pre-compliance tests.\n\n3. FCC Registration: Obtain an FCC Registration Number (FRN) online.\n\n4. Official FCC Testing: Collaborate with an FCC-registered lab for formal testing.\n\n5. Submission and Approval: Submit production models for final tests, receiving certification and market approval."
+      },
+      {
+        "heading": "FCC Regulations and Testing Standards",
+        "content": "FCC testing standards include parts: FCC Part 11, 15, 18, 22, 24, 90, 95. Compliance is mandatory for devices emitting frequencies above 9 kHz to prevent harmful interference."
+      },
+      {
+        "heading": "Market Demand for FCC Compliance",
+        "content": "FCC compliance is mandatory for electronic devices in the U.S. and European markets, ensuring electromagnetic radiation safety. FCC-certified devices boost customer confidence and meet essential sales channel requirements like Amazon."
+      },
+      {
+        "heading": "Why Choose DoStartUp’s FCC Consultant Services?",
+        "content": "At DoStartUp, we specialize in licenses, compliance, and registrations, offering professional FCC consultancy. We emphasize:\n• Timely resolution and superior customer experience.\n• Customized solutions after detailed needs assessment.\n• Robust support in fulfilling your regulatory obligations efficiently."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is FCC certification mandatory in India?",
+        "answer": "No, FCC certification is not mandatory in India. It is specifically required for electronic products intended for the U.S. market. However, obtaining FCC certification can enhance credibility and marketability globally, including in India."
+      },
+      {
+        "question": "What is the need to get FCC Certification in India?",
+        "answer": "FCC Certification is primarily needed if you're manufacturing or exporting electronic products to the U.S. market. It ensures compliance with electromagnetic interference (EMI) and radio frequency (RF) regulations. It increases product acceptance, boosts consumer confidence, and opens international market opportunities."
+      },
+      {
+        "question": "What is the FCC equivalent in India?",
+        "answer": "The FCC’s Indian equivalent is the Bureau of Indian Standards (BIS). BIS certification, along with Wireless Planning and Coordination (WPC) certification, regulates electronic and telecommunication equipment sold within India."
+      },
+      {
+        "question": "Is FCC certification good?",
+        "answer": "Yes, FCC Certification is beneficial as it assures consumers and regulatory bodies that electronic devices meet established EMI and RF safety standards. It also significantly increases global market access and enhances product reputation."
+      },
+      {
+        "question": "What does FCC certification mean?",
+        "answer": "FCC Certification indicates an electronic device has passed rigorous testing according to Federal Communications Commission standards and is safe for public use. It ensures minimal electromagnetic interference and safe radiation emission levels."
+      },
+      {
+        "question": "What is FCC certification required for?",
+        "answer": "FCC Certification is required for electronic devices intended for sale or distribution in the United States, particularly those capable of emitting radio frequencies, ensuring they adhere to electromagnetic compatibility (EMC) standards."
+      },
+      {
+        "question": "What necessary papers are required for FCC certification?",
+        "answer": "Typically, documents required include:\n• Copy of PAN Card\n• Passport-sized photograph\n• Address Proof (e.g., Voter ID)\n• Sales/Purchase invoice copies\n• Comprehensive material list\n• Manufacturing process documentation\n• Radiation test reports\n• Technical specification documentation\n• System manual and procedures\n• Additional documents based on the specific product."
+      },
+      {
+        "question": "What types of devices or products require FCC Certification?",
+        "answer": "Products commonly requiring FCC Certification include:\n• Mobile phones\n• Remote controls\n• Telecommunication equipment\n• Bluetooth devices\n• Wireless networking equipment\n• IT equipment\n• Wireless medical devices\n• Electronic equipment emitting RF intentionally or unintentionally."
+      },
+      {
+        "question": "How frequently should products be re-certified or reviewed?",
+        "answer": "FCC Certification is generally permanent once issued unless significant modifications affecting electromagnetic emissions or RF characteristics occur. Re-certification may be necessary following substantial changes in device configuration or design."
+      },
+      {
+        "question": "How long does it typically take to receive FCC Certification in India?",
+        "answer": "FCC Certification typically takes approximately 4–6 weeks, depending on the complexity of the product, documentation completeness, and lab testing schedules."
+      },
+      {
+        "question": "How are devices classified under FCC regulations?",
+        "answer": "The FCC classifies devices into:\n• Intentional Radiators: Devices designed to emit radio frequencies intentionally (e.g., Wi-Fi routers).\n• Unintentional Radiators: Devices unintentionally emitting radio frequencies during operation (e.g., computers, TVs).\n\nAdditionally, equipment is categorized into:\n• Class A: Industrial or office environments (less stringent).\n• Class B: Residential environments (more stringent)."
+      }
+    ]
+  },
+  "delhi-pollution-control-committee-authorization": {
+    title: "Delhi Pollution Control Committee Authorization",
+    description: "Get Delhi Pollution Control Committee Authorization for your business with Corpbiz experts. Ensure compliance with environmental and DPCC standards.",
+    "overview": [
+      {
+        "heading": "Introduction to Delhi Pollution Control Committee Authorization",
+        "content": "The Delhi Pollution Control Committee (DPCC) issues a license known as the DPCC License, which ensures environmental compliance for businesses. DPCC Authorization is governed by the Ministry of Environment, Forest & Climate Change (MoEF&CC). This authorization functions as a No Objection Certificate (NOC), verifying that both existing and upcoming businesses will not harm the environment."
+      },
+      {
+        "heading": "Regulatory Framework for DPCC Authorization",
+        "content": "DPCC was established on 01.06.1991 following a notification dated 15.03.1991 by the Central Pollution Control Board (CPCB). Under Section 4(4) of the Water Act and Section 6 of the Air Act, CPCB delegated its powers to DPCC for Delhi. DPCC enforces environmental laws and pollution control measures in the National Capital Territory of Delhi."
+      },
+      {
+        "heading": "Industry Classification Under DPCC",
+        "content": "DPCC classifies industries based on their pollution potential into four categories: White Category (Least Polluting), Green Category, Orange Category, and Red Category (Most Polluting). The classification helps in determining the regulatory requirements each industry must follow."
+      },
+      {
+        "heading": "White Category (Pollution Index: 0–20)",
+        "content": "Introduced in 2016, the White Category includes industries with minimal pollution impact. These industries do not require consent certificates due to their environmentally safe operations."
+      },
+      {
+        "heading": "Green Category (Pollution Index: 21–40)",
+        "content": "Industries falling under this category must obtain consent to establish and operate from DPCC. Though less polluting, these industries still need regulatory oversight."
+      },
+      {
+        "heading": "Orange Category (Pollution Index: 41–59)",
+        "content": "Orange Category industries cannot begin operations without receiving DPCC consent. They must submit consent for both establishment and operation, similar to the Green Category."
+      },
+      {
+        "heading": "Red Category (Pollution Index: Above 60)",
+        "content": "Industries under this category are considered highly polluting. They are prohibited in eco-sensitive zones and include those dealing in chemicals, mining, automobiles, and biomedical waste."
+      },
+      {
+        "heading": "H-Category (Subcategory of Red)",
+        "content": "H(a) and H(b) sub-categories within the Red Category represent hazardous, large-scale industries, which are strictly prohibited from operating in Delhi’s jurisdiction."
+      },
+      {
+        "heading": "Entities That Require DPCC Authorization",
+        "content": "The following entities must secure DPCC Authorization: Traders, Manufacturing Units, Solid Waste Management Entities, Health Care Establishments, E-Waste Handlers, Battery Waste Handlers, Biomedical Waste Generators, Plastic Waste Managers."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Key Benefits of Obtaining DPCC Authorization",
+        "content": "• Promotes Sustainable Development: Balances economic growth with environmental protection and social equity.\n• Natural Resource Conservation: Prevents depletion of water and air quality through proactive control.\n• Efficient Waste Management: Enforces proper waste disposal, recycling, and pollution control practices.\n• Public Awareness: Educates the community on eco-friendly alternatives like paper bags, CFLs, and public transport.\n• Regulatory Compliance: Ensures adherence to the Master Plan Delhi 2021 and environmental guidelines.\n• Eco-Friendly Operations: Encourages energy-saving practices such as solar lighting, CNG usage, and low-energy equipment installations."
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Documents Required for FCC Certification in India",
+        "documents": [
+          "PAN Card copy",
+          "Passport-sized photograph",
+          "Address Proof (e.g., Voter ID)",
+          "Sales/Purchase Invoice (two copies)",
+          "Complete Material List",
+          "Manufacturing Process documentation",
+          "Radiation Test Readings",
+          "Technical Specifications",
+          "System Manuals and Procedures",
+          "Additional documents as applicable per product type"
+        ]
+      }
+    ],
+    "ClassifiedIndustries": [
+      {
+        "category": "Red Category - Consent to Establish and Operate/Renewal",
+        "documents": [
+          "Application Form",
+          "Consent Fee",
+          "Signed Undertaking",
+          "CA Certificate",
+          "Detailed Manufacturing Process with flowchart",
+          "Product and raw material list with daily quantities",
+          "DG Set Noise Report (within 6 months)",
+          "ETP/STP Report (if applicable, within 6 months)",
+          "Stack Monitoring Report (if applicable, within 6 months)",
+          "CETP Membership Proof",
+          "Power Bill & Water Connection Proof",
+          "PAN Card",
+          "Authorization Letter (except for proprietorship)",
+          "CGWA/DC Permission/DJB Registration",
+          "MSME/SSI Certificate (if any)",
+          "Proof of MPD 2021 Compliance",
+          "Restaurant/Dhaba/Hotel/Banquet: Sewer connection proof",
+          "FSSAI License (for tobacco-based units)",
+          "Petrol Pumps: Approved layout plan, dealership letter, MPD compliance",
+          "Proof of Establishment Date",
+          "Any additional order/direction by DPCC"
+        ]
+      },
+      {
+        "category": "Green Category - Consent to Establish",
+        "documents": [
+          "Application Form",
+          "Consent Fee",
+          "Signed Undertaking",
+          "Project Report: Activities, investment, workers, water use, pollution control, etc.",
+          "Layout Plan with dimensions",
+          "Proof of land ownership/rent deed",
+          "PAN Card",
+          "Authorization Letter",
+          "MPD 2021 Compliance (longitude and latitude)"
+        ]
+      },
+      {
+        "category": "Green Category - Consent to Operate/Renewal",
+        "documents": [
+          "Application Form",
+          "Consent Fee",
+          "Signed Undertaking",
+          "CA Certificate",
+          "DG Set Noise Report (not older than 6 months)",
+          "CETP Membership Proof",
+          "Power and Water Connection Bills",
+          "PAN Card",
+          "Authorization Letter"
+        ]
+      },
+      {
+        "category": "Orange Category - Consent to Establish",
+        "documents": [
+          "Application Form",
+          "Consent Fee",
+          "Signed Undertaking",
+          "Project Report with details like activities, water consumption, pollution control",
+          "Layout Plan",
+          "Proof of land ownership/rent deed",
+          "PAN Card",
+          "Authorization Letter",
+          "MPD 2021 Compliance (longitude and latitude)"
+        ]
+      },
+      {
+        "category": "Orange Category - Consent to Operate / Renewal under DPCC",
+        "documents": [
+          "Application Form",
+          "Payment of Consent Fee",
+          "Duly signed Undertaking in the prescribed format",
+          "Certificate from a Chartered Accountant (in reference to Column 5 of the consent form)",
+          "Detailed Manufacturing Process with a Flow Chart",
+          "List of Raw Materials, Final Products, and By-products along with their maximum daily quantity",
+          "Noise Monitoring Report (for D.G. Sets, if any) issued by a DPCC-empanelled laboratory, not older than six months",
+          "Effluent Testing Report from ETP/STP by a DPCC-empanelled laboratory, not older than six months (if applicable)",
+          "Stack Emission Monitoring Report from a DPCC-empanelled laboratory, not older than six months (if applicable)",
+          "Proof of CETP Membership with the unit’s name and address, if CETP is available",
+          "Latest Electricity/Power Bill for the connection used",
+          "Municipal Water Connection Proof (if applicable)",
+          "PAN Card of the Industrial Unit / Proprietor / HCU issued by the Income Tax Department (excluding Govt.-owned / PSU agencies)",
+          "Original Authorization Letter (except for individual proprietorships)",
+          "Permission/Registration from CGWA/DJB/DC, if any",
+          "SSI/MSME Registration Certificate (if applicable)",
+          "For RESDH Sector (Restaurants, Eateries, Sweet Shops, Dhabas, Hotels, Banquet Halls/Party Lawns): Proof of Drainage Connection to Municipal/Delhi Jal Board Sewer System from relevant authorities (DJB/MCD/NDMC/DCB) OR a Self-Certified Undertaking affirming proper sewer connection (if the unit is in a sewered area)",
+          "Valid Food Safety Department License (for units using tobacco as a raw material)"
+        ]
+      },
+      {
+        "category": "White Category - Documents Required for DPCC",
+        "documents": [
+          "Application for Consent with Undertaking (Annexure-A format)"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Verification of Business Activity",
+        "content": "Industries must first verify their business operations. Based on this, they are categorized accordingly.\n\n• White Category industries can submit their documents online and later provide a signed hard copy of the undertaking to DPCC.\n• Green & Orange Categories must verify whether the site is listed in an industrial area. If it is, documents should be submitted online via the official DPCC portal."
+      },
+      {
+        "heading": "Step 2: Submission of SDM Letter",
+        "content": "• If the site falls under a redevelopment zone, an SDM or Industry Assessment Letter must be provided.\n• If the site is not under redevelopment, DPCC refusal consent must be submitted."
+      },
+      {
+        "heading": "Step 3: Online Document Submission",
+        "content": "After verification, industries must upload essential documents online."
+      },
+      {
+        "heading": "Step 4: Undertaking / CTE Generation",
+        "content": "• White Category: DPCC Undertaking is generated.\n• Green/Orange Categories: DPCC CTE (Consent to Establish) Application is generated."
+      },
+      {
+        "heading": "Step 5: Hard Copy Submission",
+        "content": "The applicant must submit a signed hard copy of the DPCC Undertaking or CTE application. DPCC then issues the CTE certificate."
+      },
+      {
+        "heading": "Step 6: Pollution Control Device Check",
+        "content": "If pollution control equipment is required, industries must install appropriate devices. DPCC will evaluate and monitor their functionality."
+      },
+      {
+        "heading": "Step 7: DPCC CTO Application Generation and Submission",
+        "content": "After the initial steps, the Consent to Operate (CTO) application is generated. It must be submitted with signatures. Once verified, the CTO certificate is issued."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for UPPCB NOC?",
+        "description": [
+          "Helped 300+ businesses obtain UPPCB NOCs",
+          "Leading consultant with 70% market share in environmental compliance",
+          "10+ years of expertise",
+          "End-to-end support—from documentation to final approval",
+          "Legal & compliance assistance at every step"
+        ],
+        "points": [
+          "NOC delivered right to your doorstep",
+          "Real-time progress tracking"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the purpose of UPPCB?",
+        "answer": "To regulate and reduce air and water pollution across Uttar Pradesh through rules and monitoring systems."
+      },
+      {
+        "question": "Who needs UPPCB consent?",
+        "answer": "Industries with pollution potential, including healthcare, manufacturing, and waste management units."
+      },
+      {
+        "question": "How does UPPCB monitor pollution?",
+        "answer": "Through air/water quality assessments, inspections, and enforcement actions."
+      },
+      {
+        "question": "What’s the validity of a UPPCB certificate?",
+        "answer": "Generally 5 to 10 years, depending on the industry category."
+      },
+      {
+        "question": "What is a pollution control officer?",
+        "answer": "An official responsible for enforcing environmental laws and monitoring pollution control compliance."
+      }
+    ]
+  },
+  "NOC-Pollution-Control-Board": {
+    title: "NOC Pollution Control Board",
+    description: "Have you implemented pollution prevention and control measures for your business? Secure NOC pollution control board with DoStartup and stay compliant.",
+    "overview": [
+      {
+        "heading": "Introduction to NOC Pollution Control Board",
+        "content": "Securing an NOC from the Pollution Control Board is a mandatory prerequisite before launching any industrial activity. In today’s era, environmental sustainability is a major concern. Industries must ensure they do not disrupt the ecological balance. The Pollution Control Board was established to monitor and regulate air and water pollution standards. It serves as a regulatory body that addresses pollution-related concerns and frequently issues guidelines and policies to manage environmental hazards."
+      },
+      {
+        "heading": "Pollution Control Board NOC Issuance",
+        "content": "While issuing an NOC, the Pollution Control Board offers expert recommendations on matters related to preventing and controlling water and air pollution, as well as enhancing air quality."
+      },
+      {
+        "heading": "Why It’s Essential to Obtain Pollution Control Board NOC",
+        "content": "To upgrade industrial operations or increase air and water pollution levels, it is essential—under the Water (Prevention and Control of Pollution) Act, 1974 and the Air (Prevention and Control of Pollution) Act, 1981—to obtain a Pollution Control Board NOC. Renewal of the Consent to Operate (CTO) after its expiry is mandatory for entrepreneurs."
+      },
+      {
+        "heading": "Consultation Services for NOC",
+        "content": "Are you encountering challenges in obtaining an NOC from the Pollution Control Board? Speak to the consultants at Do Startup today and get your certificate hassle-free, from the comfort of your home."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Pollution Control Board NOC",
+        "content": "• Facilitates Sustainable Development: Enforces pollution control to support sustainable industrial growth.\n• Natural Resource Conservation: Helps conserve air and water quality through strict regulations.\n• Encourages Effective Waste Management: Promotes best practices in waste disposal and recycling.\n• Promotes Environmental Awareness: Increases consumer awareness of environmental issues and sustainable practices.\n• Prerequisite for Other Licenses: Serves as a key requirement for obtaining additional licenses and clearances.\n• Ensures Regulatory Compliance: Mandates adherence to environmental compliance standards across industries.\n• Grants CTE and CTO: Provides both Consent to Establish (CTE) and Consent to Operate (CTO) for businesses."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Personal & Business Identification",
+        "content":
+          "- ID and address proof of the authorized signatory\n- PAN Card (for Company/Partnership entities)\n- Authorization letter (not required for sole proprietorships)"
+      },
+      {
+        "heading": "Establishment & Infrastructure",
+        "content":
+          "- Factory License\n- Trade License\n- Unit registration proof\n- Site layout plan\n- Utility and electricity bills\n- Satellite imagery of the industry/project site"
+      },
+      {
+        "heading": "Compliance & Regulatory Certificates",
+        "content":
+          "- CA-certified total project cost statement\n- NOC compliance report\n- Completion certificate for Effluent Treatment Plant (ETP) or additional pollution control measures\n- Environmental Statement (for renewal or expansion)"
+      },
+      {
+        "heading": "For Effluent/Sewage Treatment Plants",
+        "content":
+          "- Technical reports on ETP/STP\n- ETP/STP layout diagrams\n- Treated wastewater test reports (for renewal/expansion)\n- Water consent condition compliance report\n- Water Cess return filings (if applicable)"
+      },
+      {
+        "heading": "For Air Pollution Control",
+        "content":
+          "- Specifications of pollution control equipment\n- Monitoring facility schematic (with pothole and ladder diagram)\n- Emission analysis reports (for renewal/expansion)\n- Compliance with air consent norms"
+      },
+      {
+        "heading": "For Hazardous Waste Management",
+        "content":
+          "- Details of secured landfill/incinerator (if applicable)\n- List of hazardous wastes generated\n- Compliance with existing waste authorization"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "How to Obtain Pollution Control Board NOC",
+        "content":
+          "1. Application Submission: Fill out the appropriate state pollution control board application form available on their official website (e.g., Delhi Pollution Control Committee) with all required documents.\n" +
+          "2. Required Details: Include information like:\n- Pollution control measures\n- Project site details\n- Registrations from the industry department, etc.\n" +
+          "3. Submission to Authority: Submit the application to:\n- General Manager\n- District Industrial Centre\n- Regional Officers / Member Secretary of the State Pollution Control Board\n" +
+          "4. Response Timeline: The board is required to respond within 4 months.\n" +
+          "5. Inspection & Verification: The authority inspects the premises, and based on findings, either approves or rejects the application.\n" +
+          "6. Issuance of NOC: If accepted, the Pollution Control Board issues the NOC; otherwise, the applicant is notified with reasons for rejection."
 
-"telemarketing-registration-india": {
-  title: "Telemarketing Registration in India – Step-by-Step Guide by Do Startup",
-  description: "Telemarketing registration under TRAI/DoT is mandatory for any entity engaging in commercial tele-communications (voice or non-voice) to promote goods or services. Secure your license to operate legally, build consumer trust, and enhance brand credibility.",
-  overview: [
-    {
-      heading: "What is a Telemarketer?",
-      content: "A telemarketer is an individual or legally registered entity that sends commercial communications—via calls, SMS, or recorded messages—to inform consumers about transactions, promote products or services, or solicit business."
-    },
-    {
-      heading: "Who Can Apply?",
-      content: "• Indian citizens (18+ years)  \n• Companies under the Companies Act, 2013  \n• LLPs under the LLP Act, 2008  \n• Partnerships under the Partnership Act, 1932  \n• Sole proprietors  \nApplicants must have a clean legal record."
-    },
-    {
-      heading: "Benefits of Registration",
-      content: "• Legal authorization and avoidance of TRAI/DoT penalties  \n• Improved customer trust and brand image  \n• Higher lead generation and smoother sales  \n• Foundation for long-term business growth"
-    }
-  ],
-  benefits: [
-    {
-      heading: "Strategic Advantages",
-      content: "• Operate within the law and avoid heavy fines  \n• Leverage consumer trust for better conversion  \n• Maintain uninterrupted telecom connectivity  \n• Demonstrate credibility to partners and clients"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Checklist of Required Documents",
-      content: "• PAN Card of the company  \n• TAN details  \n• ROC Number (for companies)  \n• Registered and corporate office address proofs  \n• Last financial year turnover statement  \n• Recent utility bills  \n• Dedicated landline number & email ID  \n• Authorized signatory’s details and ID proof"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Company Incorporation",
-      content: "Ensure your business is incorporated under the appropriate Indian law (Companies, LLP, Partnership or Sole Proprietorship)."
-    },
-    {
-      heading: "Step 2: Document Collection",
-      content: "Gather all mandatory documents as per the checklist above."
-    },
-    {
-      heading: "Step 3: Application Filing",
-      content: "Submit Form TM-1 along with supporting documents to the TRAI/DoT portal."
-    },
-    {
-      heading: "Step 4: Fee Payment",
-      content: "Pay the prescribed registration fee via the online payment gateway."
-    },
-    {
-      heading: "Step 5: Provisional Approval",
-      content: "Receive a Provisional Telemarketing Certificate (valid for 3 months) upon preliminary verification."
-    },
-    {
-      heading: "Step 6: Final Registration",
-      content: "After compliance checks during the provisional period, the Final Telemarketing Registration Certificate is issued with a 10-year validity."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Telemarketing Registration Fees",
-      description: "Fees are prescribed by DoT and may vary. Typically includes: provisional application fee and final registration fee.",
-      feeTable: [
-        {
-          category: "Provisional Registration",
-          amount: "As per TRAI/DoT notification"
-        },
-        {
-          category: "Final Registration",
-          amount: "As per TRAI/DoT notification"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Typical Timeline",
-      description: "End-to-end registration usually completes within 4–6 weeks, subject to document accuracy and compliance checks.",
-      steps: [
-        {
-          title: "Form Submission & Payment",
-          duration: "1–2 weeks",
-          description: "Application filing, fee payment, and provisional certificate issuance."
-        },
-        {
-          title: "Compliance & Final Approval",
-          duration: "3–4 weeks",
-          description: "Verification during provisional period and issuance of final certificate."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "Expert handling of TRAI/DoT procedures",
-        "End-to-end document preparation & filing",
-        "Liaison with regulators to expedite approvals",
-        "Ongoing compliance guidance throughout the license term",
-        "24×7 support for any queries or audits"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is a Telemarketing Certificate?",
-      answer: "It’s an official authorization from TRAI/DoT allowing entities to conduct commercial tele-communications legally in India."
-    },
-    {
-      question: "Who needs to register?",
-      answer: "Any individual or entity sending promotional calls, SMS, or recorded messages for commercial purposes."
-    },
-    {
-      question: "What is the provisional license validity?",
-      answer: "3 months from the date of issuance."
-    },
-    {
-      question: "How long is the final registration valid?",
-      answer: "10 years, subject to continued compliance."
-    },
-    {
-      question: "What happens if I operate without registration?",
-      answer: "You may face heavy fines, license suspension, or legal action under the Telecom Act."
-    },
-    {
-      question: "Can I surrender my license?",
-      answer: "Yes, by notifying DoT 30 days in advance and completing the prescribed formalities."
-    }
-  ]
-},
+      },
+      {
+        "heading": "Penalties for Non-Compliance with Pollution Control Board Regulations",
+        "content":
+          "Violation of provisions under Rule 25(2) of Hazardous Waste Rules, 2008 can attract financial penalties for both the occupier and operator.\n" +
+          "Under Section 15 of Environment Protection Act, 1986, penalties include:\n" +
+          "1. Imprisonment for up to 6 months (extendable to 5 years)\n" +
+          "2. Fine up to ₹1 lakh or both\n" +
+          "3. Continued violation: ₹5,000 fine per day\n" +
+          "4. If violation persists beyond 1 year of conviction: imprisonment up to 7 years"
 
-"trusted-telecom-approval": {
-  title: "Trusted Telecom Approval – A Complete Guide",
-  description: "Mandatory certification under the National Security Directive on Telecommunication Sector (NSDTS) for Telecom Service Providers (TSPs) and vendors seeking to deploy telecom equipment in India.",
-  overview: [
-    {
-      heading: "Trusted Telecom Approval in India",
-      content: "The Government of India has enforced Trusted Telecom Approval for all Telecom Service Providers (TSPs) to ensure national security by verifying that telecom equipment is sourced from trusted vendors. This is governed under the National Security Directive on Telecommunication Sector (NSDTS), operational since June 15, 2021, and implemented via the Trusted Telecom Portal (TTP)."
-    },
-    {
-      heading: "What is the Trusted Telecom Portal?",
-      content: "The Trusted Telecom Portal (TTP), developed by C-DOT with RailTel and NSCS, allows TSPs to check whether a telecom product or vendor is listed as 'trusted'. If not listed, TSPs or vendors can submit an application for verification through the portal."
-    },
-    {
-      heading: "What is NSDTS?",
-      content: "The National Security Directive on Telecommunication Sector (NSDTS) is a strategic framework aimed at ensuring that only secure and trusted telecom hardware and software are used in Indian telecom networks. It mandates verification and approval of vendors and equipment before deployment."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Why is Trusted Telecom Approval Important?",
-      content: "• Ensures compliance with national security regulations  \n• Prevents deployment of unverified or malicious telecom equipment  \n• Mandatory for all TSPs prior to product integration  \n• Promotes accountability and transparency  \n• Non-compliance may lead to blacklisting and operational penalties"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Trusted Telecom Certification",
-      content: "• Official request from Telecom Service Provider (TSP)  \n• Technical specifications of the product  \n• Memorandum of Association (MoA) and Articles of Association (AoA)  \n• Authorization letter from a company official  \n• Company registration and identity documents"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: TSP or Vendor Request Initiation",
-      content: "Either a TSP or vendor initiates a request for listing on the Trusted Telecom Portal by creating an account and filling the application form."
-    },
-    {
-      heading: "Step 2: Documentation Submission",
-      content: "Upload all mandatory documents including technical specs, legal identification, and authorization letters."
-    },
-    {
-      heading: "Step 3: Review by NCSC",
-      content: "The National Cyber Security Coordinator (NCSC), in consultation with the National Security Committee on Telecom (NSCT), evaluates the application and verifies the credentials."
-    },
-    {
-      heading: "Step 4: Approval & Listing",
-      content: "Upon successful verification, the product/vendor is listed as a Trusted Source on the portal, and approval is granted."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Trusted Telecom Approval – Fee Details",
-      description: "Currently, there is no publicly disclosed standard government fee for Trusted Telecom Approval. Costs may vary depending on liaison or consultancy services availed during the application process.",
-      feeTable: [
-        {
-          category: "TSP/Vendor Application",
-          amount: "Varies (Subject to consultant or authority)"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Trusted Telecom Approval",
-      description: "Approval timelines may vary based on documentation accuracy and authority processing.",
-      steps: [
-        {
-          title: "Initial Application Submission",
-          duration: "2–5 business days",
-          description: "Vendor or TSP submits application and documents via TTP."
-        },
-        {
-          title: "Evaluation by NCSC",
-          duration: "2–4 weeks",
-          description: "Verification by authorities and multi-agency review process."
-        },
-        {
-          title: "Final Approval",
-          duration: "1–2 days",
-          description: "Listing of vendor/product on the Trusted Sources database."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Trusted Telecom Approval?",
-      description: [
-        "Dedicated telecom compliance experts",
-        "Liaison with TSPs and government bodies",
-        "Complete documentation assistance and submission",
-        "Faster application turnaround",
-        "End-to-end support until final listing"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is the purpose of NSDTS?",
-      answer: "To ensure secure procurement of telecom equipment and prevent national security risks from unauthorized vendors or products."
-    },
-    {
-      question: "What is the Trusted Telecom Portal (TTP)?",
-      answer: "An official portal allowing TSPs and vendors to request product/vendor listing and verify approval status."
-    },
-    {
-      question: "Who verifies the application for Trusted Telecom Approval?",
-      answer: "The National Cyber Security Coordinator (NCSC), with oversight from the National Security Committee on Telecom (NSCT)."
-    },
-    {
-      question: "Is Trusted Telecom Approval mandatory for all TSPs?",
-      answer: "Yes, TSPs must use only trusted products and vendors as per NSDTS guidelines."
-    },
-    {
-      question: "How can a vendor be listed on the Trusted Telecom Portal?",
-      answer: "Vendors can apply directly via the TTP by submitting relevant documentation or be nominated by a TSP."
-    },
-    {
-      question: "What is Trusted Telecom Certification (TTC)?",
-      answer: "It is the formal approval confirming that a vendor or product is compliant with NSDTS and safe for use in telecom networks."
-    },
-    {
-      question: "What equipment is covered under NSDTS?",
-      answer: "All core and access network components like routers, switches, base stations, and control elements used by TSPs."
-    }
-  ]
-},
+      },
+      {
+        "heading": "Who Must Obtain Pollution Control Board NOC?",
+        "content":
+          "Manufacturing Units\n" +
+          "Traders\n" +
+          "Battery Waste Management Facilities\n" +
+          "Healthcare Establishments\n" +
+          "Plastic Waste Processing Units\n" +
+          "E-waste and Solid Waste Handlers\n" +
+          "Bio-medical Waste Processing Units\n" +
+          "Hazardous Waste Management Entities"
 
-"uplinking-downlinking-permission": {
-  title: "Uplinking/Downlinking Channel Permission – A Complete Guide",
-  description: "Obtain uplinking/downlinking channel permissions from the Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal for legal satellite TV broadcasting in India.",
-  overview: [
-    {
-      heading: "What is Uplinking and Downlinking?",
-      content: "In India, broadcasters must obtain government authorization to transmit or receive TV signals via satellite. Uplinking refers to sending electronic signals from a station to a satellite, while downlinking means receiving those signals back on Earth. The permission is granted under the Uplinking and Downlinking Policy Guidelines, 2011."
-    },
-    {
-      heading: "Why is Permission Required?",
-      content: "Uplinking/downlinking permission ensures compliance with national broadcasting and security standards. It regulates content flow and infrastructure used in TV signal transmission and is legally mandatory before operating a TV channel via satellite."
-    },
-    {
-      heading: "Who Grants This License?",
-      content: "The Ministry of Information and Broadcasting (MIB) is the licensing authority. Applications are processed via the Broadcast Seva Portal, and approvals are subject to financial and technical scrutiny."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Key Benefits of Securing Uplinking/Downlinking Permission",
-      content: "• Legal authorization to broadcast satellite TV in India\n• Enables channel listing with cable and DTH operators\n• Regulatory protection for content and operations\n• Builds trust with viewers, advertisers, and partners\n• Facilitates global reach for Indian broadcasters"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Uplinking/Downlinking Approval",
-      content: "• Certificate of Incorporation\n• Memorandum & Articles of Association (MoA & AoA)\n• List of Directors and Shareholders\n• Audited Balance Sheet\n• Board Resolution authorizing the application\n• Details of Foreign Employees (if any)\n• Equipment Specifications\n• FDI Details (if applicable)\n• 90-day Operational Report\n• Technical documents like block diagrams and schematics"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Document Preparation",
-      content: "Compile all required documents as per MIB guidelines. Ensure accuracy to prevent delays or rejection."
-    },
-    {
-      heading: "Step 2: Application Filing on Broadcast Seva Portal",
-      content: "Apply online via the Broadcast Seva Portal. Fill in correct technical and legal details and pay the application fee."
-    },
-    {
-      heading: "Step 3: Application Scrutiny by MIB",
-      content: "The Ministry of Information and Broadcasting examines the application, assessing financial capability, legal status, and infrastructure."
-    },
-    {
-      heading: "Step 4: Issuance of Letter of Intent (LoI)",
-      content: "Upon successful evaluation, the MIB issues a Letter of Intent. The applicant must then pay the license fee and submit a Performance Bank Guarantee."
-    },
-    {
-      heading: "Step 5: Grant of Final License",
-      content: "Final permission is issued, typically valid for 5 years. Renewal requires annual fee payments and compliance review."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Net Worth Requirements",
-      description: "Applicants must fulfill the following net worth criteria based on the type and number of channels or teleports:",
-      feeTable: [
-        {
-          category: "First Teleport",
-          amount: "₹3 Crores"
-        },
-        {
-          category: "Additional Teleport",
-          amount: "₹1 Crore"
-        },
-        {
-          category: "First Non-News TV Channel",
-          amount: "₹5 Crores"
-        },
-        {
-          category: "Additional Non-News TV Channel",
-          amount: "₹2.5 Crores"
-        },
-        {
-          category: "First News TV Channel",
-          amount: "₹20 Crores"
-        },
-        {
-          category: "Additional News TV Channel",
-          amount: "₹5 Crores"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Uplinking/Downlinking Permission",
-      description: "The licensing process typically takes 4–6 weeks, subject to document verification and MIB processing timelines.",
-      steps: [
-        {
-          title: "Document Compilation",
-          duration: "1 week",
-          description: "Prepare and collate required company and technical documents."
-        },
-        {
-          title: "Application Submission",
-          duration: "2–3 days",
-          description: "Submit application on Broadcast Seva Portal and pay fees."
-        },
-        {
-          title: "Scrutiny and LoI Issuance",
-          duration: "3–4 weeks",
-          description: "Application reviewed and Letter of Intent issued."
-        },
-        {
-          title: "Final Approval",
-          duration: "1 week",
-          description: "Submit guarantee and fee to obtain broadcasting license."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Uplinking/Downlinking Permission?",
-      description: [
-        "We simplify the licensing process for broadcasters in India"
-      ],
-      points: [
-        "Expertise in MIB compliance and documentation",
-        "Proven success with national broadcasters",
-        "Fast and accurate application filing",
-        "Support with financial and technical representation",
-        "End-to-end coordination with MIB authorities"
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "Who grants uplinking/downlinking permission in India?",
-      answer: "The Ministry of Information and Broadcasting (MIB) via the Broadcast Seva Portal."
-    },
-    {
-      question: "What are the financial eligibility norms?",
-      answer: "Net worth requirements range from ₹1 Cr to ₹20 Cr depending on the type of operation and number of teleports/channels."
-    },
-    {
-      question: "Is submission of an audited balance sheet mandatory?",
-      answer: "Yes, it's a mandatory part of financial assessment by MIB."
-    },
-    {
-      question: "Can a disqualified applicant reapply?",
-      answer: "No. Any entity previously disqualified is not eligible to apply again."
-    },
-    {
-      question: "What policy governs uplinking and downlinking permissions?",
-      answer: "The Uplinking and Downlinking Policy Guidelines, 2011."
-    },
-    {
-      question: "Is setting up a teleport hub mandatory for uplinking?",
-      answer: "Yes. A fully operational teleport hub is required before uplinking permissions are granted."
-    }
-  ]
-},
+      },
+      {
+        "heading": "Timeline for Obtaining Pollution Control Board NOC",
+        "content": "The average timeframe for acquiring a Pollution Control Board NOC is 90 to 120 days, extendable in case of regulatory delays."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for the Pollution Control Board NOC?",
+        "description": [
+          "Helped 500+ entrepreneurs obtain NOC",
+          "75% market share in compliance services",
+          "10+ years of experience in NOC procedures",
+          "Complete documentation support",
+          "End-to-end assistance with 24x7 customer support"
+        ],
+        "points": [
+          "NOC delivered right to your doorstep",
+          "Real-time progress tracking"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the NOC Pollution Control Board?",
+        "answer": "It’s a certificate issued by the respective Pollution Control Board in compliance with CPCB norms."
+      },
+      {
+        "question": "What is CPCB?",
+        "answer": "Central Pollution Control Board – the apex body for pollution regulation in India."
+      },
+      {
+        "question": "What types of NOCs are issued by the Pollution Control Board?",
+        "answer": "● Consent to Establish (CTE) ● Consent to Operate (CTO)"
+      },
+      {
+        "question": "How are industries categorized by CPCB?",
+        "answer": "Industries are classified into Red, Orange, Green, and White based on pollution potential."
+      },
+      {
+        "question": "What information must be included in the NOC application?",
+        "answer": "● Site details ● Pollution control plans ● Industrial registrations"
+      },
+      {
+        "question": "What are the key functions of the Pollution Control Board?",
+        "answer": "Monitoring pollution levels, issuing guidelines, processing NOC, ensuring compliance."
+      },
+      {
+        "question": "How long does it take to get a response on NOC?",
+        "answer": "Generally, within 4 months."
+      },
+      {
+        "question": "When should one renew the Pollution Control Board certificate?",
+        "answer": "Before the current Consent to Operate expires."
+      },
+      {
+        "question": "What is the validity period of the NOC?",
+        "answer": "Depends on industry type and state regulations."
+      },
+      {
+        "question": "Is it possible to get an exemption from the Pollution Control Board NOC?",
+        "answer": "Only certain low-risk industries in the 'White Category' are exempt under CPCB norms."
+      }
+    ]
+  },
+  "e-waste-license-for-dismantling": {
+    title: "E-waste License for Dismantling",
+    description: "Do you wish to start Dismantling E-Waste but are not sure about the licensing requirements? Connect with DoStartUp to obtain E-waste License for Dismantling.",
+    "overview": [
+      {
+        "heading": "Introduction to E-Waste License for Dismantling",
+        "content": "If you are a dismantler committed to safeguarding human health and the environment from the harmful effects of hazardous waste, obtaining an E-Waste License for Dismantling is essential. Electronic waste, including devices like mobile phones and computers, contains toxic substances such as lead, nitrogen, chromium, and PBC. Improper disposal of these products poses serious risks to humans and wildlife alike. Hence, effective E-Waste Management is crucial—this involves collecting e-waste, dismantling it properly, and recycling it to prevent pollution and support environmental sustainability."
+      },
+      {
+        "heading": "What is E-Waste Management?",
+        "content": "E-Waste refers to discarded electronic items such as computers, mobile phones, and televisions. This waste is highly hazardous to the environment. Therefore, proper collection, dismantling, and recycling are critical. E-Waste Management encompasses the safe collection, recycling, recovery of materials, and environmentally responsible disposal of electronic waste."
+      },
+      {
+        "heading": "Who is Eligible to Obtain an E-Waste License for Dismantling?",
+        "content": "The following entities can apply for an E-Waste License for Dismantling: Individuals, Registered societies, Organizations, Designated agencies, Companies, Associations."
+      },
+      {
+        "heading": "Understanding E-Waste Dismantling",
+        "content": "An E-Waste Dismantling License authorizes a business to break down electronic waste into components for easier recycling. The dismantling process involves crushing, destroying, burning, and melting discarded electronic materials, with some plastic recovery involved."
+      },
+      {
+        "heading": "What is the E-Waste License for the Dismantling Process?",
+        "content": "The process involves manual segregation of components, returning usable parts to authorized refurbishers. Parts like aluminum and steel without hazardous elements go to authorized recyclers, while hazardous components are sent to licensed e-waste recyclers."
+      },
+      {
+        "heading": "Role of Dismantlers Holding an E-Waste License for Dismantling",
+        "content": "Key responsibilities include: De-dusting and manual dismantling, Opening electrical equipment carefully using tools like screwdrivers, pliers, and wire cutters, Segregating and separating components physically on dismantling tables equipped with dust extraction systems meeting factory air quality standards, Collecting dismantled components in designated boxes, Ensuring workers use proper tools and personal protective equipment such as goggles, masks, gloves, helmets, and gumboots, Safely handling and storing batteries, plastics, external electrical cables, printed circuit boards, toner cartridges, and other hazardous items for transportation to authorized recyclers, Managing leaks of compressor oils, coolant gases (CFCs, HCFCs), and mercury safely, containing spills with absorbents before disposal at hazardous waste facilities."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Holding an E-Waste License for Dismantling",
+        "content": "• Conservation of natural resources\n• Prevention of pollution caused by toxic substances\n• Generation of business and employment opportunities\n• Promotion of environmental sustainability\n• Encouragement for consumers to adopt eco-friendly practices"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Personal & Business Identification",
+        "content":
+          "- Aadhaar card of the authorized person\n- PAN card of the authorized person"
+      },
+      {
+        "heading": "Establishment & Infrastructure",
+        "content":
+          "- Factory license or trade license\n- Electricity bill of the unit location\n- Layout or site plan"
+      },
+      {
+        "heading": "For Companies",
+        "content":
+          "- Memorandum of Association (for companies)\n- Board resolution appointing the authorized person"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "How to Apply for an E-Waste License for Dismantling",
+        "content":
+          "1. File Application with SPCB: Submit an application to the concerned State Pollution Control Board.\n" +
+          "2. Obtain Prerequisite Licenses: Secure necessary licenses such as ISO certification, NOC from SPCB, company incorporation documents, and GST registration.\n" +
+          "3. Submit Application and Documents: Provide all required documentation with the application.\n" +
+          "4. Verification and Inspection: Authorities verify documents and inspect the premises for compliance.\n" +
+          "5. Grant of License: Upon satisfactory verification and inspection, the E-Waste License for Dismantling is issued."
+      },
+      {
+        "heading": "Timeline to Secure E-Waste License for Dismantling",
+        "content": "The process generally takes 3 to 6 months, subject to potential regulatory delays."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Trust Do Startup for Your E-Waste License for Dismantling?",
+        "description": [
+          "Over 10 years of experience in e-waste licensing",
+          "More than 150 successful e-waste license procurements",
+          "A 99% success rate in securing dismantling and recycling licenses",
+          "24/7 dedicated support to resolve all your queries",
+          "Comprehensive documentation assistance",
+          "End-to-end support from application to license issuance"
+        ],
+        "points": [
+          "E-waste license delivered right to your doorstep",
+          "Real-time progress tracking"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is e-waste dismantling?",
+        "answer": "It is the process of breaking down end-of-life electronic equipment into recyclable components."
+      },
+      {
+        "question": "Why is an e-waste license for dismantling important?",
+        "answer": "It ensures environmentally safe dismantling and recycling processes."
+      },
+      {
+        "question": "What is manual dismantling?",
+        "answer": "Physically separating parts of electronic devices using hand tools."
+      },
+      {
+        "question": "How to separate e-waste after obtaining the dismantling license?",
+        "answer": "Components are segregated manually and transferred to authorized recyclers or refurbishers."
+      },
+      {
+        "question": "How is e-waste disposed of in India?",
+        "answer": "Through licensed dismantlers and recyclers following government guidelines."
+      },
+      {
+        "question": "Why dismantle equipment after getting an e-waste license?",
+        "answer": "To safely extract reusable materials and prevent environmental harm."
+      },
+      {
+        "question": "What is the purpose of disassembly?",
+        "answer": "To facilitate recycling by separating components."
+      },
+      {
+        "question": "What challenges exist in dismantling e-waste?",
+        "answer": "Handling hazardous materials safely and managing waste effectively."
+      },
+      {
+        "question": "Which e-waste products require dismantling?",
+        "answer": "All end-of-life electronic devices."
+      },
+      {
+        "question": "Is dismantling e-waste mandatory?",
+        "answer": "Yes, as per government regulations to ensure safe waste management."
+      }
+    ]
+  },
+  "phase-ii-soil-and-groundwater-investigations": {
+    title: "Phase II Soil and Groundwater Investigations",
+    description: "Uncover hidden risks before they become a problem! Get assistance in your Phase II soil and groundwater investigations with DoStartUp today!",
+    "overview": [
+      {
+        "heading": "Phase II Soil and Groundwater Investigations – An Overview",
+        "content": "Phase II Soil and Groundwater Investigations, also known as Phase II Environmental Site Assessments (ESA), are critical for assessing environmental risks related to a property. These assessments are typically initiated when a Phase I ESA reveals Recognized Environmental Conditions (RECs). The main objective is to identify and measure contamination in soil and groundwater, refine site characterization, and evaluate potential risks to human health, the environment, and property development. The process includes geophysical surveys, drilling, utility clearance, and laboratory testing, all performed following strict standards such as ASTM guidelines. Certified experts prepare detailed reports with findings and recommendations, ensuring compliance with environmental regulations. Key advantages include early detection of environmental hazards, optimized project planning, regulatory adherence, and improved community and environmental health. These investigations are vital for sustainable development by supporting informed decision-making that balances economic growth with ecological preservation."
+      },
+      {
+        "heading": "What is a Phase II Environmental Site Assessment?",
+        "content": "A Phase II Environmental Site Assessment identifies recognized environmental conditions (RECs) or potential subsurface impacts at a site. Presence of a REC or contamination can reduce property value. Stakeholders conduct Phase II subsurface investigations to minimize liability and future remediation costs. This involves testing soil gas, groundwater, and soil to detect environmental contaminants."
+      },
+      {
+        "heading": "When is a Phase II Limited Subsurface Investigation Needed?",
+        "content": "Buyers or stakeholders may opt for a Phase II limited subsurface investigation during due diligence when the REC identified in Phase I ESA is minor or localized. Unlike a full-scale Phase II ESA, this limited study confirms the presence of pollutants in specific areas or media (soil, groundwater, air, etc.) with fewer samples. This approach is cost-effective and efficient, allowing immediate concerns to be addressed without a comprehensive investigation. It helps buyers assess if the REC poses risks beyond their tolerance and whether a full-scale Phase II investigation is warranted."
+      },
+      {
+        "heading": "Applicable Situations for Soil and Groundwater Investigations",
+        "content": "Phase I and Phase II investigations are commonly required in commercial real estate transactions for: 1. Property Acquisition – To assess environmental risks before purchase. 2. Property Sale – To disclose existing environmental concerns before selling. 3. Property Refinancing – To ensure compliance with environmental laws for lenders. 4. Property Reinsurance – To verify environmental conditions for insurance."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Phase II Soil and Groundwater Investigations",
+        "content": "• Environmental and Health Assessment: Detecting contamination though full extent might need further evaluation for cleanup planning.\n• Cost and Time Efficiency: Further testing can reduce costs and speed project timelines.\n• Improved Project Acceptance: Helps avoid legal issues, ensures compliance, and enhances performance.\n• Cost Savings: Clear contamination data reduces treatment and cleanup expenses."
+      },
+      {
+        "heading": "Community Benefits of Groundwater and Soil Investigation",
+        "content": "• Cleaner local environment, improving forests, water, agriculture, and urban areas.\n• Enhanced public health by reducing contamination risks.\n• Biodiversity conservation supporting ecosystems.\n• Lower natural resource consumption promoting sustainability.\n• Fewer disputes over resource use.\n• Greater community knowledge and pride in environmental stewardship."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Phase I Environmental Site Assessment and Plans",
+        "content": "- Phase I Environmental Site Assessment Report\n- Sampling and Analysis Plan (SAP)\n- Health and Safety Plan (HASP)"
+      },
+      {
+        "heading": "Sample and Laboratory Documentation",
+        "content": "- Sample Custody Forms\n- Laboratory Analysis Results"
+      },
+      {
+        "heading": "Risk Assessment and Regulatory Approvals",
+        "content": "- Risk Assessment Report\n- Remediation Strategy and Regulatory Approvals"
+      },
+      {
+        "heading": "Execution and Monitoring Documentation",
+        "content": "- Execution and Monitoring Plan\n- Continuous Monitoring Reports"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Procedure for Phase II Soil and Groundwater Investigations",
+        "content":
+          "1. Site Data Review & Scope Design: Geologists and engineers customize investigation scope per site specifics, varying by land use and contamination type.\n" +
+          "2. Permit Acquisition: Environmental drilling permits are required; compliance avoids fines and requires proper closure reports.\n" +
+          "3. Fieldwork Coordination: Includes site walks, geophysical surveys, drilling, utility clearance, sampling, and proper borehole abandonment. Safety plans are mandatory.\n" +
+          "4. Geophysical Surveys & Utility Clearance: Used to detect underground tanks, power lines, and contamination extent.\n" +
+          "5. Data Compilation & Risk Assessment: Lab results and field data are analyzed against contamination thresholds; vapor intrusion models assess risks.\n" +
+          "6. Review & Final Report: Findings, methodologies, and recommendations are compiled into a certified professional report adhering to EPA and ASTM standards."
+      },
+      {
+        "heading": "Timeframe for Phase II Investigations",
+        "content": "• Sample collection typically occurs within 14 days after decision.\n• Lab analysis takes about 7 days.\n• Final report delivery generally takes around 4 weeks."
+      },
+      {
+        "heading": "Cost of Phase II Soil and Groundwater Investigations",
+        "content": "Costs vary depending on:\n• Laboratory tests required\n• Sampling methods\n• Need for underground utility identification\n• Extent of monitoring\n• Depth of investigation\n• Site-specific conditions\nEach project’s cost depends on these factors."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for Soil and Groundwater Investigations?",
+        "description": [
+          "Over 1000 successful Phase I and II investigations completed",
+          "Network of 200+ environmental experts and geologists",
+          "Cost savings of over ₹1 Crore for clients through efficient investigations",
+          "99.5% accuracy rate in delivering reports",
+          "End-to-end support for Phase II investigations",
+          "More than 10 years of expertise in subsurface assessments",
+          "24/7 support for coordination and compliance",
+          "Comprehensive compliance management solutions"
+        ],
+        "points": [
+          "Phase II investigations delivered with expert precision",
+          "Real-time support and updates"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the structure of a Phase II Soil and Groundwater Investigation?",
+        "answer": "A Phase II investigation typically involves a review of site data, permit acquisition, fieldwork coordination (geophysical surveys, drilling, utility clearance), data compilation, risk assessment, and preparation of a final report with findings and recommendations."
+      },
+      {
+        "question": "Do I need an Environmental Site Assessment before Phase II investigations?",
+        "answer": "Yes, a Phase I Environmental Site Assessment (ESA) is often required to identify Recognized Environmental Conditions (RECs) and determine the need for a Phase II investigation."
+      },
+      {
+        "question": "What does a Phase II ground investigation involve?",
+        "answer": "Phase II ground investigations involve collecting soil, groundwater, and gas samples, conducting laboratory analysis, assessing contamination levels, and evaluating risks to human health and the environment."
+      },
+      {
+        "question": "What triggers a Phase II Environmental Site Assessment?",
+        "answer": "A Phase II ESA is typically triggered when a Phase I ESA identifies potential environmental risks, such as contamination or hazardous substances, that require further investigation to assess their extent and impact."
+      },
+      {
+        "question": "What is the purpose of Phase II Soil and Groundwater Investigations?",
+        "answer": "The purpose of Phase II investigations is to assess and measure contamination in soil and groundwater, evaluate potential risks to human health and the environment, and help inform cleanup and remediation plans."
+      },
+      {
+        "question": "Is soil gas sampling with vapor pins effective for Phase II investigations?",
+        "answer": "Yes, soil gas sampling using vapor pins is an effective method for detecting volatile organic compounds (VOCs) and assessing vapor intrusion risks in Phase II investigations."
+      }
+    ]
+  },
+  "consent-for-establishment-cfe-from-spcb": {
+    title: "Consent to Establish from Pollution Control Board",
+    description: "Are you working on new industrial and development projects? If yes, secure consent to establish from pollution control board with DoStartUp experts.",
+    "overview": [
+      {
+        "heading": "Consent to Establish from Pollution Control Board – A Detailed Overview",
+        "content": "Consent to Establishment (CTE) from the Pollution Control Board, also known as Consent for Establishment from the State Pollution Control Board (SPCB), is a mandatory environmental clearance required for controlling industrial discharges, including air pollutants, wastewater, and noise emissions. Industries are classified into Red (high pollution), Orange (moderate pollution), and Green (low pollution) categories based on the level of pollution they generate. In some states, there is also a White Category, which exempts certain industries from needing formal NOCs but still requires a basic application submission containing business details. The State Pollution Control Boards (SPCBs) and Pollution Control Committees (PCCs), under the Water (Prevention and Control of Pollution) Act and the Air (Prevention and Control of Pollution) Act, oversee such industrial setups. Entrepreneurs must obtain a Consent to Establish before initiating operations and later apply for Consent to Operate (CTO) to begin functioning."
+      },
+      {
+        "heading": "Why is Consent for Establishment from SPCB Necessary?",
+        "content": "Before commencing construction or operation of an industrial unit, businesses must acquire Consent to Establish from the SPCB under the Water Act and/or Air Act provisions. This environmental approval ensures the unit aligns with pollution prevention and control norms. The SPCBs are responsible for issuing CTE in respective states, while PCCs carry out the same duties in Union Territories. Acquiring this certificate is a critical compliance step for any new industrial activity and must be completed alongside other statutory approvals. It ensures alignment with the country’s environmental protection regulations."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Consent to Establish from Pollution Control Board",
+        "content": "• Regulatory Adherence: CTE from the SPCB ensures your unit complies with environmental laws and avoids legal liabilities.\n• Promotes Sustainable Development: Encourages industries to operate in an environmentally responsible manner.\n• Protects Health & Safety: Ensures that the facility does not pose health or safety threats to workers or nearby populations.\n• Enhances Corporate Reputation: A CTE certificate showcases a company's commitment to environmental sustainability, boosting brand image.\n• Financial Accessibility: Having a CTE can aid in securing loans and financial assistance, as it is often a prerequisite."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Site and Project Documentation",
+        "content": "- Site/Location Plan of the Industrial Unit\n- Detailed Project Report: Raw materials, manufacturing process, products, capital investment (land, building, machinery), water consumption and sources"
+      },
+      {
+        "heading": "Land Ownership and Pollution Control Measures",
+        "content": "- Land Ownership Documents: Registration deed, lease deed, or rent agreement\n- Details of Pollution Control Measures (Air/Water)"
+      },
+      {
+        "heading": "Business and Partnership Documentation",
+        "content": "- MOA or Partnership Deed"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Procedure to Obtain Consent for Establishment",
+        "content":
+          "1. Submission of CFE Application: Apply online via the SPCB’s OCMMS portal or submit offline at the regional office with all required documents and applicable fees.\n" +
+          "2. Review and Forwarding of Application: After submission, the application undergoes document scrutiny. Green Category industries are typically evaluated at the Regional Office level.\n" +
+          "3. Issuance of Pollution NOC: Post-scrutiny, and if applicable, after site inspection, the file is forwarded to the approving authority. The process generally takes up to 120 days. A provisional CTE may be granted in some instances.\n" +
+          "Note: Receiving or renewing CTE does not prevent SPCB from acting against violations. SPCB may revoke the consent if there is non-compliance with CTE terms or relevant environmental laws."
+      },
+      {
+        "heading": "Extension of Consent to Establish",
+        "content":
+          "If a project is not completed within the original validity period of the CTE, an extension must be applied for. This process may involve industry self-certification.\n" +
+          "For auto-renewals, apply through the OCMMS portal 30 to 90 days before expiry (as per respective board guidelines), attach required documents and NOC fees.\n" +
+          "CTE renewal is generally granted if there is no change in production processes, products, raw materials, or capital investment. SPCB will review pollution load to confirm alignment with the original application. The renewed certificate is valid only for a limited time and subject to applicable Environmental Clearance (EC)."
+      }
+    ],
+    "feesStructure": [
+      {
+        "heading": "Karnataka SPCB Consent to Establish Fee Structure",
+        "description": "The fees for obtaining a Consent to Establish (CTE) vary depending on the capital investment of the industrial unit. Below is the categorized fee structure based on the unit’s investment:",
+        "feeTable": [
+          {
+            "category": "Up to ₹1 Lakh",
+            "amount": "₹400/year"
+          },
+          {
+            "category": "₹1–5 Lakhs",
+            "amount": "₹1,000/year"
+          },
+          {
+            "category": "₹5–10 Lakhs",
+            "amount": "₹3,000/year"
+          },
+          {
+            "category": "₹10–25 Lakhs",
+            "amount": "₹4,000/year"
+          },
+          {
+            "category": "₹25–50 Lakhs",
+            "amount": "₹6,000/year"
+          },
+          {
+            "category": "₹50 Lakhs–1 Crore",
+            "amount": "₹12,000/year"
+          },
+          {
+            "category": "₹1–5 Crores",
+            "amount": "₹30,000/year"
+          },
+          {
+            "category": "₹5–10 Crores",
+            "amount": "₹40,000/year"
+          },
+          {
+            "category": "₹10–25 Crores",
+            "amount": "₹60,000/year"
+          },
+          {
+            "category": "₹25–50 Crores",
+            "amount": "₹1,00,000/year"
+          },
+          {
+            "category": "₹50–100 Crores",
+            "amount": "₹1,50,000/year"
+          },
+          {
+            "category": "₹100–250 Crores",
+            "amount": "₹2,50,000/year"
+          },
+          {
+            "category": "₹250–500 Crores",
+            "amount": "₹4,00,000/year"
+          },
+          {
+            "category": "₹500–1,000 Crores",
+            "amount": "₹7,00,000/year"
+          },
+          {
+            "category": "₹1,000–2,500 Crores",
+            "amount": "₹10,00,000/year"
+          },
+          {
+            "category": "Above ₹2,500 Crores",
+            "amount": "₹12,50,000/year"
+          }
+        ]
+      },
+      {
+        "heading": "Timeline for Obtaining Consent to Establish",
+        "description": "Typically, it takes 100 to 120 days from application submission to receive the certificate. However, delays can occur. Consult the experts at Do Startup for efficient and timely approval of CTE from the Pollution Control Board.",
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for Consent to Establish from SPCB?",
+        "description": [
+          "500+ Successful Projects Secured",
+          "99% Success Rate in CTE Acquisition",
+          "Saved Crores in Setup Costs for Eco-Friendly Businesses",
+          "Over 25,00,000+ Hours Saved for Clients",
+          "Expert Documentation Support",
+          "24/7 Dedicated Client Assistance",
+          "Ties with 20+ Regulatory Bodies",
+          "End-to-End Application Support"
+        ],
+        "points": [
+          "CTE acquisition with expert guidance",
+          "Real-time progress tracking and updates"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Consent to Operate?",
+        "answer": "It is the permit allowing operation of a unit emitting pollutants, as mandated by Section 21 of the Air Act, 1981."
+      },
+      {
+        "question": "Is CTE mandatory?",
+        "answer": "Yes, it is compulsory before initiating any construction or industrial setup."
+      },
+      {
+        "question": "What is the full form of PCB Consent?",
+        "answer": "Pollution Control Board Consent."
+      },
+      {
+        "question": "What is the validity period of a CTE?",
+        "answer": "Usually 3 to 5 years, extendable based on project type."
+      },
+      {
+        "question": "How to apply for CTE?",
+        "answer": "Online via the respective SPCB’s OCMMS portal or offline."
+      },
+      {
+        "question": "Difference between CTE and CTO?",
+        "answer": "CTE is required before establishment, CTO before operations."
+      },
+      {
+        "question": "Who handles consent management in India?",
+        "answer": "SPCBs and PCCs."
+      },
+      {
+        "question": "When to apply for extension of CTE?",
+        "answer": "30–90 days prior to its expiry."
+      },
+      {
+        "question": "How to write to the Pollution Control Board?",
+        "answer": "Draft a formal application including project details and justification, attach necessary documents, and submit via prescribed format."
+      }
+    ]
+  },
+  "license-for-charging-station-in-up": {
+    title: "Charging Station License in UP",
+    description: "Are you looking to acquire an EV charging station license in UP? Get Corpbiz expert assistance and experience a bunch of joy with stress-free licensing.",
+    "overview": [
+      {
+        "heading": "An Overview of Charging Station License in UP",
+        "content": "Are you planning to set up an electric vehicle (EV) charging station in Uttar Pradesh (UP)? If yes, you’re in the right place! Our expert team at Do Startup ensures a smooth and hassle-free approval process for obtaining a charging station license in UP. The charging station license in UP is mandatory for establishing an electric vehicle charging station in Uttar Pradesh. Setting up such an electric power station is highly beneficial, as UP is the largest consumer market in India. Public and private charging station establishment and licensing are permitted under the Ministry of Power’s 2018 guidelines. These regulations accelerate electric vehicle adoption across India by promoting affordable tariffs for EV owners and charging station operators."
+      },
+      {
+        "heading": "What is an EV Charging Station?",
+        "content": "EV charging stations provide the infrastructure where electric vehicle batteries are charged. These facilities supply the required electrical power and supporting infrastructure to meet the increasing EV demand in the State. By establishing more charging stations, the Uttar Pradesh government aims to serve a growing base of electric vehicle users and promote greener transportation solutions statewide. Additionally, EV charging stations present lucrative business opportunities, encouraging investors to accelerate the adoption of electric vehicle charging infrastructure."
+      },
+      {
+        "heading": "Types of EV Charging Stations That Require Licensing in UP",
+        "content": "EV charging stations in UP are classified based on ownership and charging capabilities:\n\nBased on Ownership:\n● Public Charging Stations: Located outside residences, typically at street sides, shopping centers, government facilities, parking lots, petrol pumps, highways, metro stations, etc.\n● Semi-Public Charging Stations: Accessible to specific groups, such as residents or visitors at apartment complexes, offices, gated communities, malls, hospitals, universities, and government buildings.\n● Private Charging Stations: Domestic or private charging units intended for individual use, found in homes or dedicated parking in apartments/offices.\n\nBased on Charging Capabilities:\n● Level 1 Charging Station: Basic 120V AC charging, slow charging suitable for homes/offices, taking 8-12 hours to fully charge an EV.\n● Level 2 Charging Station: Uses 240V AC power, standard charging in commercial/residential parking spaces, compatible with all EVs, charging takes 4-6 hours.\n● Level 3 Charging Station: Rapid DC charging with 480V, found in public places like petrol pumps, charges EVs up to 80% in 20-30 minutes, ideal for buses and commercial vehicles."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Advantages of Charging Station License in UP",
+        "content": "• Profitable Business Opportunity: Growing EV demand in UP makes this a lucrative venture.\n• Government Support: Licensed businesses benefit from government incentives and rebates promoting EV adoption.\n• Low Competition: Early entrants can secure a strong foothold with minimal competition.\n• Environmental Impact & CSR: Demonstrates commitment to sustainability and corporate social responsibility.\n• Cost-Effective & Convenient: Licensing leads to better footfall and revenue growth."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for EV Charging Station License in UP",
+        "content": "- Install charging hubs with one or more kiosks featuring chargers approved by international/local standards\n- Partner with at least one online Network Service Provider (NSP) for advance booking capabilities\n- Provide battery switching options for standalone EV batteries\n- Captive charging infrastructure must cater to 100% internal use with required chargers or NSP tie-ups\n- Installation of 33/11 KV cables, transformers, and substation equipment\n- Stations must be spaced: one per 3x3 km grid, one every 25 km on highways/roads, and fast charging stations every 100 km for long-range and heavy-duty EVs\n- Comply with performance standards set by the Ministry of Power and Central Electricity Board"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Authorized Personnel and Company Identification",
+        "content": "- KYC of authorized person\n- KYC of company signatory\n- Aadhar card of authorized signatory\n- PAN card of authorized signatory"
+      },
+      {
+        "heading": "Land and Location Documents",
+        "content": "- Sale deed/lease deed/rent agreement of land\n- Topographic map\n- Land map"
+      },
+      {
+        "heading": "Business Registration and Compliance",
+        "content": "- GST registration certificate"
+      }
+    ],
+    "Guidelines": [
+      {
+        "category": "Guidelines on Electric Charging Station License in UP ",
+        "documents": [
+          "Charging allowed at residences and offices using existing electricity connections.",
+          "State government sets a ceiling for charging service fees.",
+          "Single-part tariff on public EV charging electricity supply applicable until March 31, 2025.",
+          "Public EV charging stations have open access to electricity providers."
+        ]
+      },
+      {
+        "category": "Connectivity and Power Supply",
+        "documents": [
+          "Electricity boards must grant new EV charging connections within 7 days (metro areas), 15 days (municipal areas), and 30 days (rural areas).",
+          "The Electricity Distribution Board is responsible for handling connectivity requests.",
+          "Power supply can be granted directly from generating/supply companies.",
+          "Private office/residential public charging setups are facilitated by DISCOMS."
+        ]
+      },
+      {
+        "category": "Licensing Authority",
+        "documents": [
+          "The Central or State Nodal Agency, appointed by the Ministry of Power or State Government, oversees EV charging infrastructure deployment and license issuance in Uttar Pradesh (UP).",
+          "The Bureau of Energy Efficiency (BEE), under the Ministry of Power, implements the ‘Charging Infrastructure for Electric Vehicles - Guidelines and Standards’ for licensing."
+        ]
+      },
+      {
+        "category": "Market Size",
+        "documents": [
+          "Uttar Pradesh is witnessing rapid EV adoption for a sustainable environment.",
+          "REIL and EESL have approved 207 charging stations under the FAME II scheme, implemented by UPEIDA and NOIDA.",
+          "The UP government targets over 2 lakh EV charging and swapping stations to promote eco-friendly growth.",
+          "India aims for 50 million EVs by 2030, requiring approximately 1.32 million charging stations—about 400,000 chargers annually."
+        ]
+      },
+      {
+        "category": "Recent Updates",
+        "documents": [
+          "In March 2023, the government sanctioned ₹8,000 crores under the FAME India Scheme Phase II to establish approximately 7,432 public fast-charging EV stations across India.",
+          "According to the Ministry of Housing and Urban Affairs (MoHUA), India’s EV charging ecosystem is poised for significant growth, ensuring convenient vehicle recharging and travel."
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "How to Apply for EV Charging Station License in UP",
+        "content": "1. Submit an online application on the Ministry of Power, UP portal to register for a charging station license.\n2. Receive application acknowledgment for EV infrastructure setup.\n3. Land/site inspection by authorities for transfer certificate issuance.\n4. Pay prescribed government fees post-inspection.\n5. Receive charging station license to install EV electricity infrastructure in UP."
+      }
+    ],
+    "registrationTimeline": [
+      {
+        "heading": "Timeline to Obtain Charging Station License in Uttar Pradesh",
+        "description": "The process typically takes about 3 to 6 months, but may extend due to regulatory or procedural delays.",
+        "steps": [
+          {
+            "title": "Business Prerequisite Fulfillment",
+            "duration": "2-4 weeks",
+            "description": "Secure land lease or ownership, define tariff structures, revenue models, and adhere to required business prerequisites."
+          },
+          {
+            "title": "Compliance with Technical Standards",
+            "duration": "2-4 weeks",
+            "description": "Ensure compliance with safety protocols, technical standards, and DISCOM guidelines."
+          },
+          {
+            "title": "Application and Approvals",
+            "duration": "4-8 weeks",
+            "description": "Submit application to nodal agency and obtain necessary approvals from electricity boards and regulatory bodies."
+          },
+          {
+            "title": "Installation and Setup",
+            "duration": "4-6 weeks",
+            "description": "Install equipment, connect to power supply, and perform initial testing and validation."
+          }
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for Consent to Establish from SPCB?",
+        "description": [
+          "500+ Successful Projects Secured",
+          "99% Success Rate in CTE Acquisition",
+          "Saved Crores in Setup Costs for Eco-Friendly Businesses",
+          "Over 25,00,000+ Hours Saved for Clients",
+          "Expert Documentation Support",
+          "24/7 Dedicated Client Assistance",
+          "Ties with 20+ Regulatory Bodies",
+          "End-to-End Application Support"
+        ],
+        "points": [
+          "CTE acquisition with expert guidance",
+          "Real-time progress tracking and updates"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Consent to Operate?",
+        "answer": "It is the permit allowing operation of a unit emitting pollutants, as mandated by Section 21 of the Air Act, 1981."
+      },
+      {
+        "question": "Is CTE mandatory?",
+        "answer": "Yes, it is compulsory before initiating any construction or industrial setup."
+      },
+      {
+        "question": "What is the full form of PCB Consent?",
+        "answer": "Pollution Control Board Consent."
+      },
+      {
+        "question": "What is the validity period of a CTE?",
+        "answer": "Usually 3 to 5 years, extendable based on project type."
+      },
+      {
+        "question": "How to apply for CTE?",
+        "answer": "Online via the respective SPCB’s OCMMS portal or offline."
+      },
+      {
+        "question": "Difference between CTE and CTO?",
+        "answer": "CTE is required before establishment, CTO before operations."
+      },
+      {
+        "question": "Who handles consent management in India?",
+        "answer": "SPCBs and PCCs."
+      },
+      {
+        "question": "When to apply for extension of CTE?",
+        "answer": "30–90 days prior to its expiry."
+      },
+      {
+        "question": "How to write to the Pollution Control Board?",
+        "answer": "Draft a formal application including project details and justification, attach necessary documents, and submit via prescribed format."
+      }
+    ]
+  },
+  "uttar-pradesh-pollution-control-board": {
+    title: "Uttar Pradesh Pollution Control Board",
+    description: "Looking for easy Uttar Pradesh Pollution Control Board approval? Get expert support to ensure compliance with Uttar Pradesh environmental regulations.",
+    "overview": [
+      {
+        "heading": "An Overview of Uttar Pradesh Pollution Control Board (UPPCB)",
+        "content": "The Uttar Pradesh Pollution Control Board (UPPCB) is a statutory body responsible for enforcing environmental laws and regulations across the state. Established on February 3, 1975, under the Water (Prevention and Control of Pollution) Act, the board was renamed following the enactment of the Air (Prevention and Control of Pollution) Act in 1981, officially becoming the UPPCB on July 13, 1982. With 25 regional offices throughout Uttar Pradesh, UPPCB oversees environmental compliance and plays a vital role in promoting sustainable industrial development. For fast and reliable assistance in obtaining UPPCB approvals, connect with our professionals at Do Startup."
+      },
+      {
+        "heading": "What is Consent to Establish (CTE)?",
+        "content": "Consent to Establish (CTE) is a mandatory No Objection Certificate (NOC) issued by the UPPCB. Businesses must obtain CTE before commencing operations to ensure environmental regulations are met during the construction and setup phases. The UPPCB conducts site inspections to verify adherence to pollution control measures before granting the certificate."
+      },
+      {
+        "heading": "Objectives of the Uttar Pradesh Pollution Control Board",
+        "content": "The UPPCB aims to monitor and reduce environmental pollution in the state. Its primary objectives include:\n● Monitoring and reducing air and water pollution\n● Educating industries and factories on pollution control standards\n● Establishing environmental testing research centers\n● Implementing the Ganga Action Plan to reduce river pollution\n● Guiding industries to minimize emissions and comply with environmental norms"
+      },
+      {
+        "heading": "Industry Categories under UPPCB",
+        "content": "UPPCB classifies industries based on their Pollution Index (PI):\n\n1. White Category:\n● PI: 0–20\n● Non-polluting industries\n● Exempt from CTE/CTO\n\n2. Green Category:\n● PI: 21–40\n● Moderate pollution industries\n● Require both Consent to Establish (CTE) and Consent to Operate (CTO)\n\n3. Orange Category:\n● PI: 41–59\n● High-polluting industries\n● Mandatory to secure CTE and CTO\n\n4. Red Category:\n● PI: Above 60\n● Severely polluting industries\n● Restricted in eco-sensitive or protected areas"
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Obtaining UPPCB NOC",
+        "content": "• Sustainable Development: Promotes balanced economic and ecological growth.\n• Conservation: Prevents overuse of natural resources and maintains air/water quality.\n• Waste Management: Encourages efficient waste disposal and recycling.\n• Public Awareness: Promotes eco-conscious behaviors like reduced firecracker use and increased use of public transport.\n• Regulatory Compliance: Ensures businesses follow environmental and healthcare guidelines.\n• Eco-Friendly Workspaces: Encourages the use of renewable energy and sustainable practices."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for UPPCB NOC/CTE",
+        "content": "- Entities requiring Consent to Establish (CTE)/No Objection Certificate (NOC) from UPPCB include:\n  ● Manufacturing Units\n  ● Healthcare Establishments\n  ● Import/Export Traders\n  ● E-Waste, Solid Waste, Hazardous Waste, and Battery Waste Handlers\n  ● Plastic and Biomedical Waste Managers\n\n- Specific industries that must obtain approval from UPPCB:\n  ● Bone Mills\n  ● Dairy Plants\n  ● Slaughterhouses\n  ● Food Processing Units\n  ● Detergent Manufacturers\n  ● Meat Processors\n  ● Stone Crushers"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Company and Identity Documents",
+        "content": "- Requisition Letter\n- PAN & Aadhar Cards\n- MOA/AOA or Partnership Deed"
+      },
+      {
+        "heading": "Land and Site-Related Documents",
+        "content": "- Land Ownership/Rent Agreement\n- Site Layout & Design Plan\n- Land Use Certificate"
+      },
+      {
+        "heading": "Technical and Operational Details",
+        "content": "- Manufacturing Process Details\n- Water & Wastewater Balance Sheet\n- STP/ETP Proposals\n- Air Pollution Control Plan\n- MSDS Sheets"
+      },
+      {
+        "heading": "Legal and Environmental Compliance",
+        "content": "- Chartered Accountant Certificate\n- Groundwater Clearance\n- Local Body Water Connection Certificate\n- Environmental Clearance from MoEF\n- Valid Pollution Board Consent"
+      },
+      {
+        "heading": "Healthcare-Specific Requirements",
+        "content": "- Biomedical Waste Agreement (for medical setups)\n- Medical Council Certificate (for clinics/hospitals)"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "How to Apply for UPPCB NOC/CTE",
+        "content": "1. Submit Common Application Form with supporting documents.\n2. Submit documents to the District Industrial Centre or UPPCB Office.\n3. Pay applicable fee as per UPPCB guidelines.\n4. Undergo site inspection conducted by UPPCB officials.\n5. Receive NOC/CTE within 90 days from the submission of the inspection report."
+      },
+      {
+        "heading": "Key Functions of UPPCB",
+        "content": "● Issuance of environmental adequacy certificates and NOCs\n● Consent issuance under Water and Air Acts\n● Pollution assessment and water cess collection\n● Ambient air and surface water quality monitoring\n● Implementation of biomedical and hazardous waste rules\n● Legal enforcement against polluters\n● Environmental awareness campaigns\n● Development of pollution control technologies\n● Emergency planning for hazardous storage units"
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for UPPCB NOC?",
+        "description": [
+          "Helped 300+ businesses obtain UPPCB NOCs",
+          "Leading consultant with 70% market share in environmental compliance",
+          "10+ years of expertise in the field",
+          "End-to-end support—from documentation to final approval",
+          "Real-time progress tracking throughout the process",
+          "Comprehensive legal & compliance assistance",
+          "NOC delivered directly to your doorstep"
+        ],
+        "points": [
+          "Streamlined NOC acquisition with full-service support",
+          "Trusted partner for UPPCB approvals and regulatory navigation"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the purpose of UPPCB?",
+        "answer": "To regulate and reduce air and water pollution across Uttar Pradesh through rules and monitoring systems."
+      },
+      {
+        "question": "Who needs UPPCB consent?",
+        "answer": "Industries with pollution potential, including healthcare, manufacturing, and waste management units."
+      },
+      {
+        "question": "How does UPPCB monitor pollution?",
+        "answer": "Through air and water quality assessments, inspections, and enforcement actions."
+      },
+      {
+        "question": "What’s the validity of a UPPCB certificate?",
+        "answer": "Generally 5 to 10 years, depending on the industry category."
+      },
+      {
+        "question": "What is a pollution control officer?",
+        "answer": "An official responsible for enforcing environmental laws and monitoring pollution control compliance."
+      }
+    ]
+  },
+  "cgwa-noc-water-boring": {
+    title: "Central Ground Water Authority NOC",
+    description: "Ignoring the Central Ground Water Authority NOC requirements could cost you more than you think! Secure your CGWA NOC with DoStartup expert guidance.",
+    "overview": [
+      {
+        "heading": "An Overview of Central Ground Water Authority (CGWA) NOC",
+        "content": "The Central Ground Water Authority (CGWA) was constituted by the Government of India under the Environment (Protection) Act, 1986. It plays a crucial role in overseeing and regulating the country's groundwater resources. A primary responsibility of CGWA is the issuance of a Central Ground Water Authority No Objection Certificate (NOC), ensuring that groundwater extraction is sustainable and responsible. The authority operates by implementing regulatory actions, advisories, notifications, and specific directions tailored to different scenarios."
+      },
+      {
+        "heading": "What is a Central Ground Water Authority NOC?",
+        "content": "A Central Ground Water Authority NOC is an essential certification that verifies whether a project or activity involving groundwater extraction (for domestic, industrial, or commercial use) aligns with CGWA's regulatory framework. Obtaining a CGWA NOC is mandatory for any party planning to extract groundwater beyond the established threshold. This NOC confirms that the proposed extraction will not negatively impact environmental balance, public health, or safety. It also ensures that community rights are protected and that groundwater is used in a sustainable and accountable manner."
+      },
+      {
+        "heading": "Importance and Role of CGWA NOC",
+        "content": "The CGWA NOC promotes sustainable groundwater initiatives such as rainwater harvesting, artificial groundwater recharge, and demand-side water management. These practices are integral to preserving and optimizing groundwater use throughout the nation."
+      }
+    ],
+    "Guidelines": [
+      {
+        "category": "Regulations Governing CGWA NOC",
+        "documents": [
+          "Water is a State subject under the Indian Constitution, but both Central and State governments share responsibility for groundwater regulation.",
+          "CGWA is empowered under Section 3(3) of the Environment Protection Act, 1986, functioning under directives from the Hon'ble Supreme Court.",
+          "CGWA is responsible for regulation, control, and sustainable development of groundwater across the country.",
+          "CGWA currently governs groundwater management in 20 states and union territories.",
+          "In other regions, NOCs are issued by State Ground Water Authorities (SGWAs) or their designated counterparts."
+        ]
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Generic Documents for CGWA NOC",
+        "content": "- Proposal for rainwater harvesting or groundwater recharge as per the Model Building Bye Laws by the Ministry of Housing and Urban Affairs\n- Completion certificate from relevant authorities (for infrastructure or commercial water use projects)\n- Water requirement details as per National Building Code\n- Affidavit on water availability/non-availability\n- Impact assessment report (if dewatering is involved)\n- CIN certificate for private/public limited companies\n- AOA/MOA of the company\n- MSME certificate\n- GST registration certificate\n- PAN Card of the company\n- Board resolution/declaration for an authorized signatory\n- Aadhar card of the authorized signatory\n- Consent to Establish/Operate from the State Pollution Control Board\n- Factory License\n- Latest electricity bill\n- Industrial area allotment letter or valid rent agreement\n- Detailed business layout plan\n- Boring diameter\n- Horsepower of pump or motor\n- Rooftop area (sq. ft)\n- Open, paved, and green area specifications"
+      },
+      {
+        "heading": "Documents Required for CGWA NOC for Infrastructure Projects",
+        "content": "- State Government Agency's approval letter (Consent to Establish)\n- Referral letters from:\n  ○ Ministry of Environment, Forest & Climate Change (MoEF&CC)\n  ○ State Pollution Control Board (SPCB)\n  ○ State Level Expert Appraisal Committee (SEAC)\n  ○ State Level Environment Impact Assessment Authority (SLEIAA)\n  ○ Urban/Rural Development Authority (if others are not applicable)\n- Completion certificate from competent authority\n- Approved water supply plan (if involving a water supply agency)\n- Computation of water requirements as per CPHEEO norms\n- Non-availability certificate from the water supply agency\n- Flow diagram indicating:\n  ○ Water sources\n  ○ Supply quantum from public agencies\n  ○ Water requirement\n  ○ Water recycling & reuse"
+      },
+      {
+        "heading": "Documents Required for CGWA NOC for Water Boring (Industries)",
+        "content": "- Referral letter from MoEF&CC/SPCB/SEAC/SLEIAA/BIS/FSSAI stating the actual water requirement\n- Valid Consent to Operate\n- Schematic diagram showing water sourcing, usage, and recycling\n- Certificate of water availability/non-availability\n- Local authority consent (Panchayat/Municipality/ULB)\n- Hydrogeological report and recharge plan (mandatory for:\n  ○ 500 m³/day in safe/semi-critical zones\n  ○ 200 m³/day in critical/overexploited zones)"
+      },
+      {
+        "heading": "Documents Required for CGWA NOC for Mining Projects",
+        "content": "- Referral letter from MoEF&CC/SPCB/SEAC/SLEIAA\n- Geo-tagged mine lease map\n- Land ownership/lease document\n- Mining plan approved by competent government authority\n- Groundwater condition report for core and buffer zones (with dewatering impact assessment per Annexure IV)"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Steps to Get CGWA NOC",
+        "content": "1. Check Eligibility\n  ○ Visit the CGWA portal and complete the eligibility form with information about your industry, water type, and project details.\n2. Register as a New User\n  ○ Provide necessary credentials (name, email, ID/address proof) to receive login credentials.\n3. Submit Required Documents\n  ○ Upload documents relevant to your segment and water usage for NOC processing.\n4. Obtain CGWA NOC\n  ○ Get the NOC and commence responsible water extraction."
+      },
+      {
+        "heading": "Post CGWA NOC Application Process",
+        "content": "1. Track Application\n  ○ Check application status via the CGWA portal using the login credentials.\n2. Download NOC\n  ○ Once approved, download the certificate and verify your company’s name on the CGWA’s NOC issuance list."
+      },
+      {
+        "heading": "Renewal of CGWA NOC",
+        "content": "● Applicants must initiate renewal before the current NOC expires.\n● A compliance report is necessary for renewal.\n● The renewal will reflect any changes in area category.\n● Certain unachievable original conditions may be relaxed by the concerned authority."
+      },
+      {
+        "heading": "Compliance Obligations After Obtaining CGWA NOC",
+        "content": "● Install Digital Water Meter: Must be installed after boring; monthly readings to be submitted annually.\n● Wastewater Reuse: Companies should prioritize recycling and clearly show usage in diagrams.\n● Artificial Recharge Measures: Required for:\n  ○ 500 m³/day in safe/semi-critical areas,\n  ○ 200 m³/day in critical/overexploited areas.\n● Water Quality Testing: Conduct tests in April/May and November through NABL-accredited labs, and submit reports annually to CGWB."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for UPPCB NOC?",
+        "description": [
+          "Helped 300+ businesses obtain UPPCB NOCs",
+          "Leading consultant with 70% market share in environmental compliance",
+          "10+ years of expertise in the field",
+          "End-to-end support—from documentation to final approval",
+          "Real-time progress tracking throughout the process",
+          "Comprehensive legal & compliance assistance",
+          "NOC delivered directly to your doorstep"
+        ],
+        "points": [
+          "Streamlined NOC acquisition with full-service support",
+          "Trusted partner for UPPCB approvals and regulatory navigation"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How can I obtain an NOC from the Central Ground Water Authority (CGWA)?",
+        "answer": "To secure a CGWA NOC, you need to first verify your eligibility as per the CGWA guidelines. Then, register as a new applicant on the CGWA’s official portal. After registration, upload all required documents accurately. Once submitted, your application will be reviewed by the Authority, and if found compliant, a CGWA NOC certificate will be issued."
+      },
+      {
+        "question": "Why is a CGWA NOC necessary?",
+        "answer": "A No Objection Certificate from CGWA is essential for anyone intending to extract groundwater for commercial, industrial, infrastructure, or mining purposes. It ensures that groundwater abstraction is done sustainably, without depleting natural resources or harming the environment. It is also a mandatory legal requirement to avoid penalties and ensure regulatory compliance."
+      },
+      {
+        "question": "What is the Central Ground Water Authority (CGWA)?",
+        "answer": "The Central Ground Water Authority is a regulatory body constituted under the Environment (Protection) Act, 1986 by the Government of India. Its main role is to oversee the development, management, and regulation of groundwater resources across the country. CGWA ensures that groundwater extraction activities follow environmental guidelines and sustainable practices."
+      },
+      {
+        "question": "Why is sustainable groundwater management important after obtaining CGWA NOC?",
+        "answer": "Sustainable groundwater use is crucial even after receiving a CGWA NOC because continued over-extraction can lead to resource depletion, land subsidence, and ecological imbalances. Post-NOC, the applicant must follow water conservation measures such as artificial recharge, water reuse, and rainwater harvesting to maintain long-term environmental sustainability and stay compliant with CGWA norms."
+      },
+      {
+        "question": "What is the procedure to get a Central Ground Water NOC for groundwater abstraction?",
+        "answer": "The procedure includes: 1. Verifying eligibility based on industry type and project location. 2. Registering on the CGWA online portal. 3. Uploading necessary documentation, including technical and legal proofs. 4. Submitting the application for review. 5. Awaiting assessment and final approval from CGWA."
+      },
+      {
+        "question": "Are there any exemptions from obtaining a CGWA NOC?",
+        "answer": "Yes, certain categories are exempt from obtaining CGWA NOC. These include: Individuals extracting water for personal/domestic use, agricultural usage not for commercial farming, and projects located in notified safe zones with adequate municipal water supply. It’s recommended to consult with Do Startup to verify if your project qualifies for exemption."
+      },
+      {
+        "question": "What are the functions and powers of the Central Ground Water Authority (CGWA)?",
+        "answer": "CGWA holds the authority to: regulate groundwater abstraction and issue NOCs; direct installation of monitoring mechanisms; enforce penalties for illegal water extraction; promote water conservation strategies like artificial recharge and rainwater harvesting; issue directions and take action under Sections 3 and 5 of the Environment (Protection) Act, 1986."
+      },
+      {
+        "question": "What documents are required for submitting the CGWA NOC application online?",
+        "answer": "The documents typically required include: business registration documents (CIN, GST, MSME); layout plans and water usage diagrams; rainwater harvesting proposal; affidavits, authorization letters, and technical specifications of borewells/pumps; previous environmental clearances or consent from pollution control boards. Do Startup can help you prepare and validate all required documents to avoid application rejections."
+      },
+      {
+        "question": "When is a Central Ground Water NOC certificate mandatory?",
+        "answer": "A CGWA NOC certificate is mandatory when any individual, organization, or entity intends to extract groundwater for industrial production, commercial operations, infrastructure development, or mining/dewatering activities. Failure to obtain a CGWA NOC before commencing groundwater extraction may result in strict legal action and penalties."
+      },
+      {
+        "question": "What is the process for renewal of CGWA NOC?",
+        "answer": "The NOC from CGWA is valid for a limited duration (usually 2 to 5 years). The renewal must be applied for before the expiry of the existing certificate. The process includes: submitting a compliance report of the previous NOC period; updating any changes in groundwater use or project status; revalidating recharge structures and water metering installations. Do Startup can assist you in renewing your NOC without delays or non-compliance risks."
+      },
+      {
+        "question": "Is there a provision for extension of Central Ground Water NOC?",
+        "answer": "Yes, there is a provision to apply for an extension of CGWA NOC in specific cases, such as project delays or continued groundwater needs under the same operational terms. The applicant must provide a justification along with relevant documentation and compliance history to seek an extension. Approval is at the discretion of the Authority based on compliance and environmental impact."
+      }
+    ]
+  },
+  "state-pollution-control-board-spcb-noc": {
+    title: "State Pollution Control Board (SPCB) - NOC",
+    description: "Industries are required to obtain the NOC from the Pollution control department before starting their business. Contact DoStartUp and get assistance in obtaining the NOC from the pollution control.",
+    "overview": [
+      {
+        "heading": "An Overview of State Pollution Control Board (SPCB) NOC",
+        "content": "Any individual or entity planning to operate or establish an industrial plant or project must obtain a Consent to Operate (CTO) from the State Pollution Control Board (SPCB). According to Section 25 of the Water (Prevention and Control of Pollution) Act, 1974, setting up any outlet requires compliance with environmental provisions. Similarly, operating an industrial plant requires adherence to Section 21 of the Air (Prevention and Control of Pollution) Act, 1981."
+      },
+      {
+        "heading": "Types of NOC under SPCB",
+        "content": "The clearance board mandates two main types of No Objection Certificates (NOC): Consent to Establish (CTE) and Consent to Operate (CTO)."
+      },
+      {
+        "heading": "Consent to Establish (CTE)",
+        "content": "The Consent to Establish is essential for starting or setting up any manufacturing or processing industry. This consent acts as the initial clearance for industries that may cause air, water, or noise pollution."
+      },
+      {
+        "heading": "Consent to Operate (CTO)",
+        "content": "The Consent to Operate ensures that industries adhere to environmental regulations during operations. All operating units must obtain this consent from the respective SPCB to legally run their operations."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria to Obtain NOC from SPCB",
+        "content": "- The area must be demarcated for industrial use.\n- Industries must not exceed ₹1 crore in plant and machinery value.\n- Hosiery units should not have machinery exceeding ₹2 crores.\n- The industry must not release any form of pollution.\n- There should be no discharge of toxic or hazardous waste from the industrial unit."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required to Obtain NOC from SPCB",
+        "content": "- Layout plan of the facility, showing sewage and effluent treatment structures and emission points.\n- Details of the DG set with specifications and capacity.\n- A detailed process flow chart.\n- Analytical reports on solid waste, hazardous waste, effluent, and fuel gases.\n- Information on air and water pollution control equipment installed.\n- Air quality and emission reports.\n- Demand Draft for the prescribed fee in the name of the respective SPCB.\n- Water usage and budgeting details.\n- Diagrammatic representation of the monitoring system.\n- Emission analysis and testing reports."
+      },
+      {
+        "heading": "Government Fee and Time Period for NOC",
+        "content": "- **Red Category Industries**: Valid for 5 years (First 3 years after application + Last 2 years before third year ends).\n- **Orange Category Industries**: Valid for 10 years (First 4 years after application + Next 3 years before fourth year ends + Final 3 years before seventh year ends)."
+      },
+      {
+        "heading": "Types of Industries Requiring Mandatory CTO/CTE from SPCB",
+        "content": "- Battery Waste Management Industries\n- Manufacturing Units\n- Healthcare Facilities\n- Solid Waste Management Units\n- Plastic Waste Processing Units\n- Biomedical Waste Facilities\n- E-waste Management Companies\n- Plastic Waste Recyclers\n- Refurbishing Units\n- Hotels and Hospitality Industry"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Steps to Obtain NOC from SPCB",
+        "content": "1. Submit Required Documents\n  ○ Submit necessary documents, forms, and prescribed fees online through the Consent Management and Monitoring System.\n2. Trial Production Consent\n  ○ Consent to Operate (CTO) is mandatory even for trial production under environmental laws.\n3. Inspection by Authorized Officer\n  ○ An authorized officer carries out an inspection before the NOC is granted.\n4. Verification of Pollution Control Measures\n  ○ For first CTO under the Water Act, 1974 or Air Act, 1981, and Hazardous Waste Authorization, the competent authority will verify the pollution control measures established during Consent to Establish (CTE).\n5. Second Inspection\n  ○ After approval, a second inspection is conducted within 3 months to ensure compliance with environmental norms.\n6. Validity of License\n  ○ If the unit meets the standards, the license remains valid.\n7. Non-Compliance\n  ○ Non-compliance will result in revocation of the license."
+      },
+      {
+        "heading": "Validity Period of CTO",
+        "content": "● Red Category Industries: 5 years\n● Orange Category Industries: 10 years"
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Do Startup Can Help with SPCB NOC?",
+        "description": [
+          "End-to-end paperwork support",
+          "Professional consultation",
+          "Application filing assistance",
+          "Liaison with SPCB authorities",
+          "Complete NOC delivery",
+          "Regular compliance monitoring"
+        ],
+        "points": [
+          "Comprehensive support from documentation to NOC delivery",
+          "Expert guidance on navigating the SPCB NOC process"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Consent to Operate?",
+        "answer": "Consent to Operate (CTO) is a legal permit allowing industries to carry out manufacturing or processing operations under environmental laws."
+      },
+      {
+        "question": "What is Consent to Establish?",
+        "answer": "CTE is the initial approval required to set up any industrial unit likely to cause environmental impact."
+      },
+      {
+        "question": "What is the difference between CTE and CTO?",
+        "answer": "CTE is needed before starting construction or installation; CTO is required to begin operations."
+      },
+      {
+        "question": "How to apply for a pollution NOC?",
+        "answer": "Pollution NOC can be applied online via the respective SPCB’s portal by submitting all necessary documents and fees."
+      },
+      {
+        "question": "How to get Consent to Establish from the Pollution Control Board?",
+        "answer": "You must apply through the online system of the State Pollution Control Board with all required documents, project details, and fees."
+      }
+    ]
+  },
+  "environmental-impact-assessment-eia": {
+    title: "Environmental Impact Assessment",
+    description: "Is your project ready for a sustainable future? Start your Environmental Impact Assessment today and ensure your impact on the environment is positive!",
+    "overview": [
+      {
+        "heading": "Environmental Impact Assessment (EIA) – A Complete Overview by Do Startup",
+        "content": "Are you involved in mining, industrial, thermal or nuclear power projects? Or part of infrastructure development? If yes, conducting an Environmental Impact Assessment (EIA) is essential to ensure that your project aligns with environmental norms and sustainability goals. EIA is a critical requirement for securing Environmental Clearance (EC), which evaluates the possible environmental consequences of a project before it begins. To proceed with any such project, submission of a comprehensive EIA Report and an Environmental Management Plan (EMP) is mandatory. If you're struggling to get your EIA conducted efficiently, consult the experts at Do Startup for smooth execution of your Environmental Impact Assessment process."
+      },
+      {
+        "heading": "Regulatory Framework for Environmental Impact Assessment in India",
+        "content": "India's regulatory system for EIA ensures that environmental considerations are legally integrated into project planning. The Department of Environment, established in 1974, enforces key environmental legislation such as: • Wildlife Protection Act, 1972 • Water (Prevention and Control of Pollution) Act, 1974 • Forest (Conservation) Act, 1980 • Air (Prevention and Control of Pollution) Act, 1981 • Environment (Protection) Act, 1986"
+      },
+      {
+        "heading": "What is Environmental Impact Assessment (EIA)?",
+        "content": "EIA is a planning and management tool used to analyze the potential ecological effects of a proposed development. It ensures that decision-makers account for environmental risks before project approval, encouraging measures to avoid, reduce, or offset negative effects. As per the EIA Notification dated 14th September 2006 and amendments under the Ministry of Environment, Forest, and Climate Change (MoEFCC), obtaining EC is compulsory for all new or expanding industries."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Benefits of Conducting an Environmental Impact Assessment",
+        "content": "• Ensures compliance with legal environmental requirements\n• Identifies environmental risks and liabilities early on\n• Builds stakeholder confidence and project transparency\n• Encourages environmentally conscious decision-making\n• Preserves natural ecosystems and biodiversity\n• Facilitates sustainable and socially responsible development\n• Promotes community involvement and public feedback\n• Enhances environmental and social awareness"
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for Environmental Impact Assessment",
+        "content": "- Project Information: Name, location, and detailed site analysis.\n- Activity Details: Land use, water consumption, waste generation.\n- Resource Usage: Natural resources required during project phases.\n- Hazardous Substances: Materials with environmental or safety risks.\n- Pollution Metrics: Emission and pollution control strategies.\n- Emissions & Effects: Details on noise, light, heat, and vibration.\n- Risk Assessment: Accident probability and safety protocols.\n- Cumulative Impact: Long-term or linked environmental effects.\n- Sensitive Areas: Proximity to ecological or cultural sensitive zones.\n- Supporting Documents:\n  - Site layout plan\n  - Machinery installation proof\n  - Land ownership documents\n  - Authorized signatory ID\n  - Test reports and mitigation evidence\n  - Utility connection proofs"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Steps to Apply for Environmental Impact Assessment (EIA) in India",
+        "content": "1. Screening: Determines whether a full or partial EIA is needed.\n2. Scoping: Identifies significant environmental aspects and legal parameters.\n3. Impact Assessment: Detailed study of potential impacts and alternatives.\n4. Environmental Impact Statement (EIS): Comprehensive report including the Environmental Management Plan (EMP).\n5. Review: Expert and public feedback evaluated against project scope.\n6. Decision: Approval or rejection, with possible conditions.\n7. Monitoring: Ongoing evaluation of mitigation measures post-approval."
+      },
+      {
+        "heading": "Is Environmental Impact Assessment (EIA) Mandatory in India?",
+        "content": "Yes. Under the Environment Protection Act, 1986, conducting an EIA is mandatory for 29 project categories involving an investment of ₹50 crore or more. This ensures that all developmental activities are carried out responsibly, keeping environmental safety a top priority. A well-prepared EIA report ensures regulatory compliance and reduces long-term environmental damage. Because of the complexity and legal implications involved, Do Startup strongly recommends involving experienced professionals to handle your EIA accurately and effectively."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for Your Environmental Impact Assessment?",
+        "description": [
+          "100+ NABET-accredited EIA and ESG consultants",
+          "Extensive experience securing licenses from various regulatory authorities",
+          "Leading the market with a 75% industry share",
+          "Start-to-finish guidance—from planning to EC acquisition",
+          "Reliable support for Environmental and Social Impact Assessment (ESIA)",
+          "Trusted partner for complete EIA solutions in India"
+        ],
+        "points": [
+          "Comprehensive EIA solutions with expert consultation and guidance",
+          "Unmatched experience in securing environmental clearances"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Environmental Social Impact Assessment (ESIA)?",
+        "answer": "ESIA examines both environmental and social consequences of a proposed project, ensuring sustainable development by offering mitigation strategies and alternative approaches."
+      },
+      {
+        "question": "What is Environmental Impact Assessment (EIA)?",
+        "answer": "EIA is a formal study that assesses the environmental consequences of a proposed project before it begins."
+      },
+      {
+        "question": "What are the five stages of EIA?",
+        "answer": "• Screening\n• Scoping\n• Impact Assessment\n• Reporting\n• Review and Decision-making"
+      },
+      {
+        "question": "What is the main purpose of EIA?",
+        "answer": "To identify and reduce environmental risks before a project’s implementation."
+      },
+      {
+        "question": "When did EIA start in India?",
+        "answer": "The EIA process was introduced in 1994, later formalized under the EIA Notification 2006."
+      },
+      {
+        "question": "Who is responsible for EIA in India?",
+        "answer": "The Ministry of Environment, Forest, and Climate Change (MoEFCC) oversees EIA implementation."
+      },
+      {
+        "question": "What is Strategic Environmental Assessment (SEA)?",
+        "answer": "SEA evaluates policies, plans, or programs for environmental sustainability, broader than project-level EIA."
+      },
+      {
+        "question": "What are EIA’s shortcomings?",
+        "answer": "• Delays due to bureaucratic hurdles\n• Quality concerns in report preparation\n• Inadequate public participation at times"
+      },
+      {
+        "question": "What are the advantages of EIA?",
+        "answer": "• Risk identification\n• Improved planning\n• Legal compliance\n• Environmental preservation"
+      },
+      {
+        "question": "Is EIA only applicable to developed countries?",
+        "answer": "No, EIA is a universal tool for all nations, especially vital for sustainable development in developing economies like India."
+      }
+    ]
+  },
+  "hydrogeological-survey-report": {
+    title: "Hydrogeological Survey Report",
+    description: "Need a comprehensive Hydrogeological Survey Report for your project? Get accurate groundwater analysis and DoStartup expert guidance to ensure compliance.",
+    "overview": [
+      {
+        "heading": "Hydrogeological Survey Report: An Overview",
+        "content": "A Hydrogeological Survey Report investigates the subsurface hydrologic and geologic conditions of a particular area. It assesses water-bearing formations and rock filtration capacity, playing a vital role in managing groundwater operational structures effectively. This survey helps analyze local geology, geomorphology, drainage patterns, aquifer characteristics, and well yield. The gathered data supports the creation of detailed hydrogeological maps, enabling improved groundwater management and sustainable resource development."
+      },
+      {
+        "heading": "What is a Hydrogeological Survey Report?",
+        "content": "A Hydrogeological Survey Report provides comprehensive insights into an area's subsurface water and geological features. It studies local geology, geomorphology, drainage networks, and aquifer properties to guide groundwater resource management."
+      }
+    ],
+    "ProductRequire": [
+      {
+        "category": "Projects Requiring Hydrogeological Survey Reports",
+        "documents": [
+          "Coal, Bauxite, Lignite Mining",
+          "Natural Gas, Petroleum (Crude Oil) Mining",
+          "Chromite, Copper, Gold Mining",
+          "Lead, Manganese, Zinc Mining",
+          "Limestone, Magnesite, Phosphorite Mining",
+          "Diamond Mining"
+        ]
+      },
+      {
+        "category": "Importance of Hydrogeological Survey Report in India",
+        "documents": [
+          "Provides Critical Data: Offers information on groundwater availability, quality, and movement.",
+          "Supports Decision-Making: Helps identify suitable well locations, manage groundwater use, and develop protection strategies.",
+          "Identifies Risks: Detects potential contamination, over-extraction, and depletion threats.",
+          "Aids Resource Management: Assists in managing aquifer recharge, quality, and characteristics.",
+          "Ensures Regulatory Compliance: Aligns with Central Ground Water Board (CGWB) requirements.",
+          "Minimizes Contamination Risks: Identifies contamination sources and suggests mitigation.",
+          "Enhances Borehole Success: Recommends optimal borehole locations and construction methods."
+        ]
+      },
+      {
+        "category": "Types of Hydrogeological Surveys",
+        "documents": [
+          "Small-Scale (1:1,000,000 to 1:500,000): Preliminary surveys for unstudied regions.",
+          "Medium-Scale (1:200,000 to 1:100,000): Detailed mapping of water-bearing structures.",
+          "Large-Scale (1:50,000 and above): Focused studies during engineering and operational planning phases, including drilling and groundwater assessment."
+        ]
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for Hydrogeological Survey Report",
+        "content": "- Project goals and scope.\n- Data collection documentation.\n- Site and geological overview.\n- Hydrogeologic settings.\n- Surface features and seismic activity.\n- Sources, figures, and data tables.\n- Groundwater impact assessment.\n- Field data and lab test results.\n- Hypotheses, conclusions, and recommendations."
+      }
+    ],
+    "Structure": [
+      {
+        "category": "Structural Framework of a Hydrogeological Survey Report",
+        "documents": [
+          "Title and Introduction",
+          "Signature Page",
+          "Table of Contents, Figures, and Appendices",
+          "Hydrogeologic System Description",
+          "Data Collection Methods",
+          "Groundwater Use and Development Analysis",
+          "Hydrogeologic Evaluation",
+          "Numerical Models (if applicable)",
+          "Water Quality Results",
+          "Recommendations",
+          "Report Limitations",
+          "References and Appendices"
+        ]
+      },
+      {
+        "category": "Scope & Components in India",
+        "documents": [
+          "Groundwater quality and quantity assessment",
+          "Borehole design and construction guidelines",
+          "Environmental risk analysis",
+          "Hydrogeological mapping and database creation"
+        ]
+      }
+    ],
+    "RoleOfHydrogeologist": [
+      {
+        "category": "Role of Hydrogeologist",
+        "documents": [
+          "Conduct site inspections",
+          "Locate groundwater",
+          "Prepare surveys",
+          "Design rainwater harvesting structures",
+          "Model groundwater flow",
+          "Perform aquifer testing",
+          "Supervise borewell design and water sampling"
+        ]
+      },
+      {
+        "category": "Fees & Timeline",
+        "documents": [
+          "Fees depend on land area and survey complexity",
+          "Reports take 3 to 6 months to complete"
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup?",
+        "description": [
+          "Extensive experience with 250+ projects",
+          "High success rate in report filing and preparation",
+          "Expert team knowledgeable in environmental regulations",
+          "Use of advanced technology for accurate data",
+          "Efficient coordination ensuring timely report delivery",
+          "Compliance with CGWB and Ministry of Jal Shakti standards",
+          "Diverse industry experience: mining, construction, agriculture, government"
+        ],
+        "points": [
+          "Comprehensive support with expert consultation and reliable service",
+          "Proven track record in delivering successful projects across diverse industries"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the purpose of a Hydrogeological Survey Report?",
+        "answer": "To summarize geological and hydrogeological features, aiding sustainable project development and minimizing environmental impact."
+      },
+      {
+        "question": "What is Hydrogeology?",
+        "answer": "The study of groundwater distribution, movement, and quality."
+      },
+      {
+        "question": "Who must prepare a Hydrogeological Survey Report?",
+        "answer": "Industries and projects affecting groundwater, especially mining."
+      },
+      {
+        "question": "What are the types of Hydrogeological Surveys in India?",
+        "answer": "Small, medium, and large-scale surveys based on project requirements."
+      },
+      {
+        "question": "Why conduct Hydrogeological Surveys?",
+        "answer": "To assess groundwater potential, quality, and manage resources sustainably."
+      },
+      {
+        "question": "To whom is the report submitted?",
+        "answer": "Typically to the Central Ground Water Board or other regulatory bodies."
+      },
+      {
+        "question": "What is the role of CGWB?",
+        "answer": "Oversees groundwater management and regulatory compliance."
+      }
+    ]
+  },
+  "half-yearly-environmental-compliance": {
+    title: "Half-Yearly Environmental Compliance",
+    description: "To comply with environmental legislation and approvals and to maintain business accreditation, get your environmental compliance report with the assistance of DoStartUp.",
+    overview: [
+      {
+        "heading": "Half-Yearly Environmental Compliance Report: An Overview",
+        "content": "All businesses must comply with environmental laws and regulations to operate sustainably. As per the Ministry of Environment and Forests (MoEF) notification dated September 14, 2006, project proponents are required to submit Half-Yearly Environmental Compliance Reports to confirm adherence to environmental clearance conditions. These reports are typically submitted twice a year, by June 1st and December 1st, to the regional office of MoEF&CC and relevant regulatory authorities. The Half-Yearly Environmental Compliance Report helps authorities monitor whether projects meet environmental standards and maintain necessary approvals. It also ensures that companies comply with their environmental responsibilities, preventing legal issues such as fines, penalties, suspension of permits, and reputational damage."
+      },
+      {
+        "heading": "What is a Half-Yearly Environmental Compliance Report?",
+        "content": "The Half-Yearly Environmental Compliance Report is a document submitted by businesses to demonstrate their compliance with environmental clearance conditions. It is submitted twice a year and helps regulatory authorities track the project's environmental impact and ensure adherence to environmental laws."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Importance of Half-Yearly Environmental Compliance",
+        "content": "Half-Yearly Environmental Compliance Reports offer numerous benefits that help businesses maintain regulatory adherence, improve corporate responsibility, and mitigate risks. Some of the major advantages include:\n\n" +
+          "● Regulatory Adherence: Ensures businesses meet all environmental laws, rules, and permit conditions.\n" +
+          "● Corporate Responsibility: Builds a culture of environmental accountability within organizations.\n" +
+          "● Risk Management: Helps identify and address environmental issues before inspections or violations occur.\n" +
+          "● Operational Continuity: Maintains good standing with authorities, potentially shortening approval and renewal processes.\n" +
+          "● Resource Optimization: Supports efficient allocation of resources for environmental management."
+      }
+    ],
+    documentsRequired: [
+      {
+        "heading": "Key Requirements for Half-Yearly Environmental Compliance Report",
+        "content": "- Obtain all necessary environmental clearances and permits before project initiation.\n- Include approvals like Consent to Establish/Operate from State Pollution Control Boards.\n- Compliance with National Building Code safety measures and wildlife clearances (NBWL).\n- Address water usage, rainwater harvesting, groundwater recharge, solid waste, sewage treatment, energy use, air quality, noise control, topsoil management, and emergency preparedness.\n- Submit environmental statements annually, as per Environment (Protection) Rules, 1986.\n- Publish project details in local newspapers as required.\n- Comply with other statutory regulations including Forest Conservation Act, Water and Air Pollution Control Acts, and Public Liability Insurance Act."
+      },
+      {
+        "heading": "Documentation Needed for Report Preparation",
+        "content": "- Environmental clearance certificates.\n- Pollution control board consents.\n- Safety approvals (fire, structural).\n- Environmental management plans and monitoring cell details.\n- Records of energy, water, air quality, and waste management compliance.\n- Copies of legal clearances under various environmental acts.\n- Proof of public notification and annual environmental statements."
+      }
+    ],
+    whyUs: [
+      {
+        "heading": "Choose Do Startup for Half-Yearly Environmental Compliance Report Assistance",
+        "description": [
+          "Expert guidance with over 100+ qualified EIA and ESG consultants across India",
+          "Help businesses obtain timely clearances and maintain compliance",
+          "Efficiently integrate environmental management into core business goals",
+          "Cost-effective and reliable support for environmental compliance"
+        ],
+        "points": [
+          "Timely compliance assistance with expert consultation",
+          "Proven ability to streamline environmental management for businesses"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "What is an Environmental Compliance Program?",
+        "answer": "It is a system that provides businesses with tools and processes to meet environmental regulations, including SOPs, compliance calendars, employee training, and regular reporting."
+      },
+      {
+        "question": "Why are regulatory and environmental compliance important to businesses?",
+        "answer": "Compliance avoids fines, protects the environment, and enhances corporate reputation while ensuring smooth business operations."
+      },
+      {
+        "question": "How can Half-Yearly Environmental Compliance aid businesses?",
+        "answer": "It ensures timely adherence to legal requirements, helps manage environmental risks, and maintains operational licenses."
+      },
+      {
+        "question": "What is the process for environmental compliance?",
+        "answer": "It involves obtaining clearances, monitoring environmental parameters, submitting compliance reports, and maintaining documentation as per regulations."
+      },
+      {
+        "question": "Can Environment Clearance be revoked?",
+        "answer": "Yes, non-compliance or violations can lead to suspension or revocation of environmental clearances by regulatory authorities."
+      },
+      {
+        "question": "Why integrate environmental compliance with business performance goals?",
+        "answer": "It promotes sustainable growth, reduces risks, improves resource efficiency, and aligns environmental responsibility with corporate success."
+      }
+    ]
+  },
+  "wildlife-conservation-plan": {
+    title: "Wildlife Conservation Plan",
+    description: "Choose DoStartup for transparent Wildlife Conservation Planning and streamline your Environment Clearance and other approval processes for your project.",
+    "overview": [
+      {
+        "heading": "Overview of Wildlife Conservation Plan (WCP)",
+        "content": "A Wildlife Conservation Plan (WCP), also called a Wildlife Management Plan, is essential for biodiversity management and wildlife protection within and around project areas. Its primary goal is to maintain a stress-free habitat that supports resident wildlife and meets their basic needs, even amid development activities. WCPs rely on sustainable and scientific management of natural resources to safeguard wildlife from harmful human impacts while allowing for responsible development."
+      }
+    ],
+    "Need": [
+      {
+        "category": "Importance of Wildlife Conservation Planning",
+        "documents": [
+          "Human-wildlife conflicts arise due to habitat fragmentation and degradation caused by unregulated development.",
+          "Conservation of flora and fauna is mandatory in ecologically sensitive zones near project sites (buffer zones).",
+          "Wildlife Conservation Plans are required as part of Environmental Clearance (EC) compliance under MoEF&CC.",
+          "Necessary when project areas fall near protected areas such as Wildlife Sanctuaries, National Parks, Biosphere Reserves, Wildlife Corridors, and Tiger and Elephant Reserves (existing or proposed)."
+        ]
+      },
+      {
+        "category": "Key Indian Wildlife Conservation Initiatives",
+        "documents": [
+          "Project Tiger",
+          "Project Elephant",
+          "Sea Turtle Conservation Project",
+          "Project Vulture",
+          "Crocodile Conservation Project",
+          "Project Dolphin",
+          "SAWEN (South Asia Wildlife Enforcement Network)",
+          "Captive Breeding Programs"
+        ]
+      }
+    ],
+    "Process": [
+      {
+        "category": "Importance of Wildlife Conservation Planning",
+        "documents": [
+          "The WCP primarily assesses the current status of flora, fauna, and habitat within the project area and a 10 km buffer zone.",
+          "Conservation of flora and fauna is mandatory in ecologically sensitive zones near project sites (buffer zones).",
+          "Wildlife Conservation Plans are required as part of Environmental Clearance (EC) compliance under MoEF&CC.",
+          "The WCP forms a vital part of the Environmental Clearance (EC) process and forest diversion approvals, ensuring projects do not harm wildlife and their habitats."
+        ]
+      },
+      {
+        "category": "Key Aspects of Wildlife Conservation Plan (WCP)",
+        "documents": [
+          "Introduction: Includes background, objectives, scope, project area’s topography, wildlife movement, infrastructure, and relevant laws.",
+          "Project Impact and Conservation Plan: Includes an environmental impact assessment covering soil, vegetation, water regimes, and wildlife.",
+          "Mitigation Strategies: Includes compensatory afforestation, prevention of faunal mortality, green shelterbelts, muck-dump management, habitat restoration, and noise control.",
+          "Management and Implementation Plan: Outlines conservation measures, environmental management, monitoring, and interim reviews."
+        ]
+      },
+      {
+        "category": "Application Process for WCP Approval",
+        "documents": [
+          "The project proponent must submit the WCP to the Deputy Conservator of Forest (DCF) with required documents.",
+          "Documents include project proponent details, location, cost, buffer zone, activities, list of ecologically sensitive areas, species involved, and flora/fauna lists from field surveys.",
+          "After authentication by DCF, documents are forwarded to the Chief Wildlife Warden (CWLW) for final approval."
+        ]
+      },
+      {
+        "category": "Significance of WCP in Environmental Clearance",
+        "documents": [
+          "Under the Environment Protection Act, 1986, and MoEF&CC notifications (14th September 2006), obtaining a WCP is mandatory for projects near protected areas.",
+          "The WCP ensures the project does not harm wildlife and habitats, making it essential for obtaining environmental clearance."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What factors are studied in the impact area?",
+        "answer": "Population demographics (villages, households, sex ratio, literacy) and percentage of Scheduled Tribes and Scheduled Castes."
+      },
+      {
+        "question": "What contributes to the Total Cumulative Score for Environmental Parameters?",
+        "answer": "Combination of ecological, social, and physical factors."
+      },
+      {
+        "question": "What are major threats posed by projects to wildlife?",
+        "answer": "Habitat loss, pollution, disturbance, and increased human-wildlife conflict."
+      },
+      {
+        "question": "What is a RET species?",
+        "answer": "Rare, Endangered, and Threatened species requiring special protection."
+      },
+      {
+        "question": "What land-use factors are analyzed?",
+        "answer": "Types of vegetation, land cover patterns, human settlements, and water bodies."
+      },
+      {
+        "question": "What is wildlife species assessment?",
+        "answer": "Survey and documentation of fauna presence, population status, and behavior."
+      },
+      {
+        "question": "What does muck-dump management involve?",
+        "answer": "Safe disposal and restoration of soil and waste materials from project sites to minimize ecological damage."
+      },
+      {
+        "question": "What must be investigated in the project area?",
+        "answer": "Flora and fauna diversity, habitat conditions, ecological sensitivities, and human impact."
+      }
+    ]
+  },
+  "consent-for-operation-cfo": {
+    title: "Consent for Operation (CFO)",
+    description: "For Consent for Operation for your company, get your Pollution NOC with the assistance of DoStartup.",
+    overview: [
+      {
+        "heading": "Overview of Consent for Operation (CFO) from SPCB",
+        "content": "Consent for Operation (CFO), also known as Consent to Operate (CTO), is a mandatory environmental clearance that industrial units must obtain before commencing their operations. As per Section 25/26 of the Water Act, 1974 and Section 21 of the Air Act, 1981, industries with the potential to pollute air or water must apply for this Pollution No Objection Certificate (NOC) from the respective State Pollution Control Board (SPCB) or Pollution Control Committee (PCC)."
+      }
+    ],
+    Process: [
+      {
+        "category": "Consent for Operation (CFO) Approval Procedure",
+        "documents": [
+          "Submission of Online Application and Fee: Most states use the Online Consent Management and Monitoring System (OCMMS) to streamline applications and renewals for Consent to Establish (CTE) and CFO.",
+          "Application Scrutiny: The application is initially checked by a Section Officer and then reviewed by Senior Scientific Officers or Environmental Engineers for recommendations.",
+          "Site Inspection: An expert Inspecting Officer visits the site with the owner or authorized representative to verify the facility and pollution control measures. Inspection includes sample collection for effluent and emission testing.",
+          "Issuance or Rejection of CFO: Based on inspection findings and compliance, the Chairman or Member Secretary of the SPCB approves or rejects the consent as per delegated powers."
+        ]
+      }
+    ],
+    Authority: [
+      {
+        "category": "Approving Authorities for CFO by Category",
+        "documents": [
+          "Green category: \nAll sizes – \nApproving Authority: Environment Engineer, \n Office Location: Regional Office",
+          "Orange category: \nUp to ₹1 Cr – \nApproving Authority: Environment Engineer, \nOffice Location: Regional Office",
+          "Orange category: \nAbove ₹1 Cr – \nApproving Authority: Joint Chief Environmental Engineer, \nOffice Location: Zonal Office",
+          "Red category: \nWithout Environment Clearance – \nApproving Authority: Joint Chief Environmental Engineer, \nOffice Location: Zonal Office",
+          "Red category: \nWith EC, < ₹5 Cr investment – \nApproving Authority: Joint Chief Environmental Engineer, \nOffice Location: Zonal Office"
+        ]
+      }
+    ],
+    documentsRequired: [
+      {
+        "heading": "Documents Required for CFO Application Under Air Act",
+        "content": "- Site Plan and Index\n- Topographic Map\n- Process Flow Sheets\n- Air Pollution Control Device Details\n- Ambient Air Quality Report\n- Copy of Consent for Establishment (CFE)\n- List of Raw Materials with quantities\n- Material Safety Data Sheets (MSDS) for chemical industries"
+      },
+      {
+        "heading": "Documents Required for CFO Application Under Water Act",
+        "content": "- Water Pollution Control Device Details\n- Process Flow Diagram with Inputs and Outputs\n- Site Location Map and Local Authority Site Clearance\n- Water Usage and Balance Details\n- Boiler and Steam Generation Certificates\n- Wastewater Third-Party Analysis Reports (NABL/MoEF Accredited)"
+      }
+    ],
+    Validity: [
+      {
+        "category": "Validity of Consent for Operation (CFO)",
+        "documents": [
+          "Red category: \nAll scales – \nValidity Period: 5 years",
+          "Orange category: \nLarge, Medium – \nValidity Period: 10 years",
+          "Orange category: \nMicro scale – \nValidity Period: 10 years",
+          "Green category: \nAll scales – \nValidity Period: 15 years",
+          "Renewal is mandatory before expiry to ensure continuous compliance."
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "What are the primary concerns during CFO application?",
+        "answer": "The SPCB evaluates environmental impacts on air, water, and soil, reviews pollution management plans, and checks compliance with state and central regulations."
+      },
+      {
+        "question": "What is the purpose of a feasibility report?",
+        "answer": "It assesses whether the proposed project can comply with environmental norms and operate sustainably without causing undue harm."
+      },
+      {
+        "question": "What is the role of the Central Ground Water Authority (CGWA) in CFO?",
+        "answer": "CGWA provides clearance related to groundwater extraction when the project involves groundwater use."
+      },
+      {
+        "question": "Which sectors require additional documents during CFO application?",
+        "answer": "Industries handling plastic waste, e-waste, hazardous waste, biomedical waste, etc., require special authorizations and documents."
+      },
+      {
+        "question": "What are the pollution criteria for effluent discharge?",
+        "answer": "Parameters such as pH, TSS, BOD, COD, Oil & Grease must meet the prescribed limits during inspection and monitoring."
+      },
+      {
+        "question": "What are the pollution criteria for air emissions?",
+        "answer": "Emissions of PM10, NOx, and other pollutants must be controlled within limits defined by the SPCB after pollution control treatment."
+      },
+      {
+        "question": "Are there businesses exempt from obtaining CFO?",
+        "answer": "Yes, certain white category (non-polluting) industries may be exempt but still require site clearance from local authorities."
+      }
+    ]
+  },
+  "extended-producer-responsibility": {
+    title: "Extended Producer Responsibility",
+    description: "Get your Extended Producer Responsibility (EPR) Authorization hassle-free, with the help of DoStartup.",
+    overview: [
+      {
+        "heading": "Overview of Extended Producer Responsibility (EPR)",
+        "content": "Extended Producer Responsibility (EPR) can be applied through several frameworks, including product take-back mandates, economic and market-based tools, regulatory and performance standards, and information-driven instruments. EPR systems offer diverse environmental, social, and economic advantages—such as enhanced waste collection and management, increased reuse and recycling rates, promotion of eco-friendly product design, financial support for waste handling, improved quality of secondary raw materials, employment generation, and minimization of health risks from mismanaged waste."
+      },
+      {
+        "heading": "Objective of Extended Producer Responsibility",
+        "content": "Extended Producer Responsibility (EPR) is a policy approach designed to hold producers financially accountable for their products across various life-cycle stages, particularly for recycling, take-back, and disposal. It incorporates the 'polluter pays principle,' commonly applied to waste streams such as packaging, batteries, and consumer electronics."
+      },
+      {
+        "heading": "Fact Check: What EPR Is and Isn't",
+        "content": "- EPR is not Corporate Social Responsibility (CSR) – it’s an integral part of sustainable business operations.\n- EPR marks a strategic shift – from reactive end-of-life waste management to proactive pollution prevention.\n- EPR is a product-based policy – impacts are predetermined, promoting accountability across the lifecycle.\n- EPR formalizes the waste sector – by implementing standard financial and environmental protocols."
+      }
+    ],
+    "Business": [
+      {
+        "category": "EPR and Business Involvement",
+        "documents": [
+          "By adopting Extended Producer Responsibility, businesses contribute significantly to a circular economy, mitigating environmental impacts and supporting sustainable waste management infrastructure—especially in developing regions lacking adequate systems.",
+          "Participating in EPR schemes enables businesses to:\n- Meet national recycling and waste collection mandates\n- Transition to circular, competitive business models\n- Reduce costs through efficient end-of-life product recycling\n- Strengthen the waste management and recycling sector—known for high employment potential",
+          "Voluntary adoption of EPR also showcases a company’s proactive stance toward environmental responsibility.",
+          "The implementation of EPR policies is influenced by global regulatory dynamics, especially in response to rising concerns over cross-border waste trade."
+        ]
+      },
+      {
+        "category": "EPR and Government Responsibility",
+        "documents": [
+          "National and local governments play a vital role in shaping and promoting EPR by:\n- Creating and enforcing EPR legislation\n- Coordinating among stakeholders—businesses, waste managers, the informal sector, and the public\n- Facilitating smooth and transparent EPR implementation",
+          "For governments, EPR can be cost-effective. It shifts the financial burden of waste management from public authorities to the producers, thus enhancing efficiency in achieving recycling, reuse, and waste reduction goals under a circular economy model."
+        ]
+      }
+    ],
+    "Regulations": [
+      {
+        "category": "Current EPR Regulations in India",
+        "documents": [
+          "Lead Acid Batteries: Battery Waste Management Rules, 2022",
+          "Electronic Waste: E-Waste Management Rules, 2022",
+          "Plastic Packaging: Plastic Waste Management (Amendment) Rules, 2022",
+          "Solid Waste: Solid Waste Management (Amendment) Rules, 2020",
+          "Hazardous Waste (Tyres, Used Oil): Hazardous and Other Wastes (Management and Transboundary Movement) Amendment Rules, 2022",
+          "Construction and Demolition Waste: Construction and Demolition Waste Management Rules, 2016",
+          "Biomedical Waste: Bio-Medical Waste Management Rules, 2016"
+        ]
+      }
+    ],
+    "Challenges": [
+      {
+        "category": "Challenges in Implementing EPR in India",
+        "documents": [
+          "Lack of Awareness: Most producers, consumers, and authorities lack clarity about their EPR responsibilities, delaying effective implementation.",
+          "Inadequate Collection and Segregation Systems: Efficient waste segregation and collection are fundamental to EPR success but are often underdeveloped or missing.",
+          "Financial Limitations: EPR implementation involves investing in recycling facilities, collection centers, and awareness programs, which can burden small and medium-sized enterprises.",
+          "Regulatory Complexity: Varying regulations across jurisdictions, combined with enforcement challenges, make compliance difficult for businesses and regulatory agencies alike."
+        ]
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for Battery Waste EPR Registration",
+        "content": "- Company GST Certificate\n- Company PAN Card\n- CIN Document\n- SPCB/PCC Consents (Air/Water/Hazardous Waste)\n- Import Export Certificate (for importers)\n- DIC Registration (if applicable)"
+      },
+      {
+        "heading": "Documents Required for EPR Registration for E-Waste",
+        "content": "- Trade/Company Name\n- Legal Name\n- Mobile Number\n- Official Email ID\n- CIN/Incorporation Certificate (if available)\n- GST\n- IEC (if available)\n- PAN of Company (if available)\n- PAN of Authorized Person\n- Postal Address (should match supporting documents like Self-Declaration, GST, IEC)\n- Authorized Person’s Name, Address, Email ID, and Contact Number\n- List of Electrical and Electronic Equipment (EEE) with corresponding codes"
+      },
+      {
+        "heading": "Documents Required for EPR Registration for Plastic Waste",
+        "content": "- GST, CIN, IEC (for importers)\n- PAN/Aadhaar of Authorized Person\n- DIC Registration (if applicable)\n- Process Flow Diagram (for producers)\n- SPCB/PCC Consent (for production units)\n- Authorized Signatory Signature\n- Covering Letter\n- Additional relevant information (if any)"
+      },
+      {
+        "heading": "Documents Required for EPR Registration for Solid Waste",
+        "content": "- Local body site clearance\n- Environmental Clearance proof\n- Consent to establish\n- Agreement with municipal authority\n- Project investment & return details"
+      },
+      {
+        "heading": "Documents Required for EPR Registration for Bio-Medical Waste",
+        "content": "- Submit Form II for new/renewal authorization to the SPCB/PCC\n- After verification, authorization is issued with a unique number\n- Annual Report Requirements include: Quantity generated, Details of handling & disposal, Training records, Pre-treatment documentation, Record of recyclable materials"
+      },
+      {
+        "heading": "Documents Required for EPR Registration for Construction & Demolition (C&D) Waste",
+        "content": "- PAN of Authorized Signatory\n- GST Certificate\n- Site Layout Plan\n- Machinery Details\n- Ownership Proof / Lease Agreement\n- Factory/Trade License"
+      },
+      {
+        "heading": "Documents Required for EPR Registration for Tyre Waste",
+        "content": "- Company Name\n- Corporate Office Address\n- Email ID\n- Mobile Number\n- Company PAN\n- GST & IEC\n- CIN (optional)\n- Year of Establishment\n- Authorized Person’s Name, Designation, Mobile, Email\n- Aadhaar of Authorized Person"
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Environmental Benefits of Extended Producer Responsibility (EPR)",
+        "content": "Promotes recycling, eco-friendly design, and circular economy principles."
+      },
+      {
+        "heading": "Social Benefits of Extended Producer Responsibility (EPR)",
+        "content": "Reduces health risks from improper disposal; encourages the polluter-pays principle."
+      },
+      {
+        "heading": "Economic Benefits of Extended Producer Responsibility (EPR)",
+        "content": "Cuts costs of raw materials by promoting recycled alternatives; lowers government burden."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Can Do Startup Assist You?",
+        "description": [
+          "Maintaining record-keeping and reporting compliance",
+          "Fast-track processing of EPR authorizations",
+          "Preparation of necessary documentation",
+          "Providing expert advisory services",
+          "Delivering cost-effective, sustainable EPR solutions"
+        ],
+        "points": []
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is EPR?",
+        "answer": "Extended Producer Responsibility (EPR) makes producers responsible for the lifecycle of their products, especially post-consumer disposal."
+      },
+      {
+        "question": "Why is EPR important?",
+        "answer": "It helps manage waste sustainably and supports circular economy goals."
+      },
+      {
+        "question": "How does EPR work?",
+        "answer": "Manufacturers must collect and recycle their product waste, often via third-party agencies or self-compliance models."
+      },
+      {
+        "question": "Which products are covered under EPR?",
+        "answer": "Electrical, electronic items, plastic packaging, tyres, solid waste, biomedical waste, and more."
+      },
+      {
+        "question": "Does EPR promote recycling?",
+        "answer": "Yes, by creating an obligation for manufacturers to ensure waste collection and recycling."
+      },
+      {
+        "question": "Is EPR a global concept?",
+        "answer": "Yes, EPR is implemented worldwide in various sectors to promote producer responsibility."
+      },
+      {
+        "question": "Who needs EPR compliance?",
+        "answer": "Manufacturers, importers, brand owners, and recyclers."
+      },
+      {
+        "question": "Are there penalties for non-compliance?",
+        "answer": "Yes, CPCB may levy environmental compensation for breaches."
+      },
+      {
+        "question": "How can businesses comply?",
+        "answer": "By registering on the CPCB portal, following documentation protocols, and submitting regular compliance reports."
+      }
+    ]
+  },
+  "soil-testing": {
+    title: "Soil Testing- Taking Samples and Testing",
+    description: "Worried about soil fertility and productivity? Schedule a call with a professional for soil testing services to maximize your agricultural potential!",
+    overview: [
+      {
+        "heading": "Overview of Soil Testing",
+        "content": "Are you operating in sectors such as construction, renewable energy, environmental sustainability, or agriculture? If yes, then you’re in the right place. Let Do Startup experts handle your soil testing requirements with precision and efficiency. Soil Testing is a scientific chemical analysis method used to quickly assess soil fertility and nutrient levels. It plays a vital role in evaluating various agricultural parameters such as chemical composition, pH balance, salinity, toxicity, and soil biota. Routine soil testing is not just beneficial for farmers—it is equally important for key stakeholders across the agribusiness value chain, including agri-cooperatives, crop insurance companies, financial institutions, input providers, and commodity traders. The main goal of soil testing is to differentiate nutrient-deficient zones from nutrient-rich areas while analyzing how various elements interact in a balanced environment to promote plant growth. Connect with our environmental consultants today and carry out reliable and seamless soil testing for your next project."
+      },
+      {
+        "heading": "Historical Background of Soil Testing Service in India",
+        "content": "The journey of soil testing in India began in 1955–56 with the establishment of 16 soil testing laboratories under the Intensive Agricultural District Programme (IADP) in selected districts. As of now, there are 661 soil testing laboratories, including 120 mobile vans, capable of analyzing up to 7.2 million soil samples annually. Under the XI Plan of the National Project on Management of Soil Health and Fertility, it is proposed to set up around 500 stationary and 250 mobile labs to strengthen this initiative further."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Determination of Soil Types",
+        "content": "Soil testing helps identify the soil type capable of providing essential nutrients for optimal crop growth."
+      },
+      {
+        "heading": "Improved Soil Health",
+        "content": "It provides in-depth insight into soil conditions such as pH levels, organic content, texture, and overall health."
+      },
+      {
+        "heading": "Enhanced Crop Yields",
+        "content": "By identifying nutrient imbalances or deficiencies, soil testing allows farmers to fine-tune fertilization practices and boost crop production."
+      },
+      {
+        "heading": "Environmental Protection",
+        "content": "It minimizes the risks of nutrient runoff, thus helping to prevent water pollution and other environmental concerns."
+      },
+      {
+        "heading": "Measurement of Water Table",
+        "content": "Soil testing aids in evaluating soil properties like salinity, water logging frequency, water table levels, and soil management history."
+      },
+      {
+        "heading": "Preparation of Soil Fertility Maps",
+        "content": "Soil testing laboratories provide essential data that help generate soil fertility maps, showing the distribution of nitrogen, phosphorus, and potassium across Indian soils."
+      },
+      {
+        "heading": "Determining Soil Characteristics",
+        "content": "Through scientific testing, soil properties—such as external features and environmental factors—can be accurately analyzed to ensure informed decision-making."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Soil Testing in India",
+        "content": "- Conduct pre-plant media assessments to identify potential pH issues, nutrient shortages, or excess salts—especially important for those preparing their own growth media.\n- Carry out media testing periodically throughout the growing season to manage nutrients and salt concentrations.\n- Use appropriate interpretive data relevant to the specific testing method to avoid misinterpretation.\n- Take samples within 2 hours of fertilization or on the same day, while removing slow-release fertilizer granules.\n- Gather samples from diverse crops, especially if grown in greenhouses.\n- Compare normal and problematic plants if any issue is observed.\n- Follow all soil sampling protocols carefully.\n- Avoid comparing test results from different laboratories as testing procedures can vary."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Checklist: Who Needs to Conduct Soil Testing?",
+        "content": "- Farmers and Agriculturists\n- Construction and Infrastructure Developers\n- Environmentalists and Researchers\n- Industrialists and Mining Operators\n- Horticulture and Plantation Managers"
+      },
+      {
+        "heading": "Materials Required for Soil Testing",
+        "content": "- Ring with 7 to 10 cm diameter\n- Wooden block\n- Flat-bladed knife\n- Soil auger or soil probe\n- Hand trowel or shovel\n- Tensiometer\n- pH meter\n- Conductivity meter\n- Calibration solutions\n- Filter paper\n- Impermeable plastic sheets\n- Sealable paper bags\n- Paraffin wax\n- Oven dryer\n- Weighing scale\n- Microwave or oven"
+      }
+    ],
+    "Process": [
+      {
+        "category": "Soil Testing",
+        "documents": [
+          "Locate a Soil Testing Laboratory: Entities looking to conduct soil testing must begin by locating a nearby or extension office that offers detailed information about certified soil testing laboratories in the region.",
+          "Collect Soil Samples for Testing: Soil samples must be collected using reliable sampling techniques such as grid sampling or zone-based sampling, ensuring accurate test results.",
+          "Submit Samples for Expert Analysis: Once samples are collected, they must be submitted to an accredited state-run or private soil testing laboratory. Many local labs offer basic soil testing services at no cost.",
+          "Perform Laboratory Analysis: The laboratory will use scientific analytical methods to evaluate the physical characteristics, nutrient levels, and other vital soil parameters.",
+          "Review the Soil Test Report: After the analysis, it is crucial to carefully review the soil test report which contains details about soil fertility, nutrient concentrations, pH level, and improvement recommendations.",
+          "Implement Soil Test Recommendations: Based on the test results, appropriate conservation or stabilization techniques must be adopted. This may include adjusting fertilization or applying bioremediation methods specific to industry requirements."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is a soil test?",
+        "answer": "A soil test is a scientific procedure used to analyze the chemical properties of the soil to determine its fertility and suitability for agricultural, construction, or environmental use."
+      },
+      {
+        "question": "What are the different methods used for soil testing?",
+        "answer": "Soil testing can be performed using a variety of techniques such as physical, chemical, and biological analyses. These include tests to determine soil texture, structure, moisture content, organic matter, nutrient levels, and contamination presence. Do Startup offers expert assistance in selecting the right soil testing methods based on the specific agricultural or construction needs."
+      },
+      {
+        "question": "What is the step-by-step process of soil testing?",
+        "answer": "The process of soil testing typically involves collecting representative soil samples, air drying them, grinding and sieving to remove debris, and then analyzing the samples in a certified laboratory. At Do Startup, we ensure that the entire soil testing process is carried out accurately to obtain reliable results."
+      },
+      {
+        "question": "What is meant by soil pH?",
+        "answer": "Soil pH refers to the acidity or alkalinity level of the soil, measured on a scale of 0 to 14. It affects nutrient availability and microbial activity. A pH of 7 is neutral; lower values indicate acidity, and higher values signify alkalinity. Do Startup provides soil pH testing as part of a comprehensive soil health analysis."
+      },
+      {
+        "question": "What is the ideal pH range for soil?",
+        "answer": "The best pH range for most agricultural soils lies between 6.0 and 7.5. This range promotes optimal nutrient availability and microbial activity. Do Startup helps determine the correct pH level for your soil and recommends amendments if needed."
+      },
+      {
+        "question": "Why is soil testing crucial in today’s scenario?",
+        "answer": "With rising concerns about declining soil fertility, overuse of fertilizers, and environmental degradation, soil testing has become essential for sustainable agriculture and land management. Do Startup supports farmers, builders, and industries in making informed decisions through advanced soil testing services."
+      },
+      {
+        "question": "What constitutes a good soil test report?",
+        "answer": "A comprehensive soil test report includes detailed analysis of macro and micronutrients, pH, electrical conductivity, organic carbon content, and recommendations for fertilizer or soil amendment. Do Startup delivers easy-to-understand soil test reports that help optimize productivity and soil health."
+      },
+      {
+        "question": "What is the main goal of conducting soil testing?",
+        "answer": "The primary objective of soil testing is to assess the nutrient status and chemical composition of soil to guide proper fertilization and improve crop yield or land use. Do Startup ensures that soil testing supports precise land management and resource optimization."
+      },
+      {
+        "question": "What are the common laboratory tests done on soil?",
+        "answer": "Lab tests for soil commonly include: pH and electrical conductivity (EC) test, Organic matter analysis, NPK (Nitrogen, Phosphorus, Potassium) content, Micronutrient levels (zinc, iron, manganese, etc.), and Texture and bulk density. Do Startup offers these lab tests through certified facilities with accurate reporting."
+      },
+      {
+        "question": "What is soil analysis?",
+        "answer": "Soil analysis refers to the scientific examination of soil samples to evaluate their nutrient content, pH, salinity, and overall fertility. It plays a vital role in determining the suitability of soil for agriculture, construction, or landscaping. Do Startup provides detailed soil analysis to promote informed decision-making."
+      },
+      {
+        "question": "What are the various types of soil testing?",
+        "answer": "The types of soil testing include: Geotechnical testing (for construction), Agricultural testing (for farming), Environmental testing (for contamination), and Soil fertility testing. Do Startup customizes soil testing packages based on your specific requirements and application."
+      },
+      {
+        "question": "What is the underlying principle behind soil testing?",
+        "answer": "The principle of soil testing is to evaluate the soil’s ability to supply essential nutrients to plants or support structural loads. It involves using standardized methods to assess fertility, contamination, or stability. Do Startup adheres to best practices and scientific protocols in every soil test."
+      },
+      {
+        "question": "What is the Atterberg Limit Test in soil testing?",
+        "answer": "The Atterberg Limit Test is a geotechnical method to determine the critical water contents of fine-grained soils, namely the Liquid Limit, Plastic Limit, and Shrinkage Limit. This test helps classify soil consistency and plasticity. Do Startup includes Atterberg Limit testing for construction and civil engineering assessments."
+      },
+      {
+        "question": "What insights can soil testing provide?",
+        "answer": "Soil testing reveals key information such as nutrient deficiencies, toxic elements, pH levels, and soil structure, enabling efficient land use planning. Do Startup helps clients leverage soil testing insights for better yield, safety, and sustainability."
+      }
+    ]
+  },
+  "authorized-vehicle-scrapping-facility-avsf": {
+    title: "Authorized Vehicle Scrapping Facility (AVSF)",
+    description: "Set up your Authorized Vehicle Scrapping Facility (AVSF) with DoStartUp. Expert assistance for hassle-free registration, compliance, and documentation to start your business.",
+    "overview": [
+      {
+        "heading": "Overview of Authorized Vehicle Scrapping Facility (AVSF)",
+        "content": "The Central Government has issued comprehensive guidelines for establishing and operating Authorized Vehicle Scrapping Facilities (AVSFs) in India. These facilities cater to vehicles that are no longer valid under the Motor Vehicles Act or those voluntarily sent for scrapping by owners. The AVSF model promotes eco-friendly vehicle disposal and a compliant vehicle dismantling ecosystem. Authorization for setting up an AVSF is granted by the respective State or Union Territory (UT) government."
+      },
+      {
+        "heading": "Key Terminologies Related to Authorized Vehicle Scrapping Facility",
+        "content": "Understanding the following terms is essential when dealing with vehicle scrapping: \n\n● Authorized Scrapper: A legal person, company, firm, society, or trust operating an Authorized Vehicle Scrapping Facility. \n● Authorized Vehicle Scrapping Facility (AVSF): A government-authorized setup for scrapping and dismantling vehicles as per the official guidelines. \n● Deposit Certificate: Issued by the AVSF to certify the transfer of vehicle ownership from the registered owner to the authorized scrapper. \n● Vehicle Scrapping Certificate: Issued by the AVSF confirming the final scrapping of a vehicle. The scrapper must retain this certificate. \n● Scrapping Yard: A designated area where dismantled vehicle parts are stored and processed."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Vehicles Eligible for Scrapping under AVSF Norms",
+        "content": "Vehicles eligible for scrapping under AVSF norms include: \n\n● Vehicles with expired registration certificates. \n● Vehicles lacking a valid fitness certificate. \n● Vehicles damaged due to fire, accident, natural disasters, or other calamities, self-declared as scrap by the owner. \n● Vehicles classified as obsolete, surplus, or beyond repair by the Central or State Government. \n● Vehicles used in specific projects like mining or highways that have surpassed their utility. \n● Test and manufacturing-defective vehicles. \n● Vehicles that are auctioned, impounded, or abandoned."
+      },
+      {
+        "heading": "Eligibility Criteria for AVSF Authorization",
+        "content": "Entities seeking authorization to set up an AVSF must meet the following criteria: \n\n● The facility must be owned and operated by a legally recognized entity—individual, firm, trust, or society—as per applicable laws. \n● The applicant must have a valid Certificate of Incorporation, GST registration, and PAN. \n● Must either possess or apply for an establishment license. \n● Must meet technical standards for collection and dismantling centers, as outlined by the Pollution Control Board. Required equipment and trained staff should be available. \n● Must commit to obtaining quality certifications within 12 months of operation. \n● The facility must have an approved layout plan, a building plan, and an environmental management strategy. \n● AVSF must be securely integrated with the VAHAN vehicle registration database and possess necessary IT security certifications. \n● Additionally, AVSFs must verify the identity of the individual surrendering the vehicle and retain a copy for at least six months."
+      },
+      {
+        "heading": "Validity & Renewal of AVSF Authorization",
+        "content": "The authorization to operate an Authorized Vehicle Scrapping Facility is valid for 10 years and can be renewed for an additional 10 years. However, the authorization is non-transferable."
+      }
+    ],
+    registrationProcedure: [
+      {
+        "heading": "Step 1: Vehicle Submission",
+        "content": "The authorized owner or their representative must submit the vehicle with necessary documentation to the AVSF."
+      },
+      {
+        "heading": "Step 2: Identity and Legality Verification",
+        "content": "AVSF will verify the identity and legality of the vehicle and its owner."
+      },
+      {
+        "heading": "Step 3: VAHAN Database Update",
+        "content": "Vehicle details will be updated in the VAHAN database, and an online scrapping request will be submitted to the Regional Transport Office (RTO)."
+      },
+      {
+        "heading": "Step 4: Certificate of Deposit",
+        "content": "A Certificate of Deposit is issued to the owner, which may be used to claim benefits or incentives on purchasing a new vehicle, as per government policies."
+      },
+      {
+        "heading": "Step 5: Residual Value Compensation",
+        "content": "The AVSF will compensate the owner for the scrapped vehicle's residual value."
+      },
+      {
+        "heading": "Step 6: Digital Scrapping Certificate",
+        "content": "Upon completion, a digital scrapping certificate will be issued."
+      },
+      {
+        "heading": "Step 7: Scrapping Yard and Collection Centers",
+        "content": "AVSFs must have scrapping yards and collection centers for proper dismantling and de-pollution of End-of-Life Vehicles (ELVs)."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Do Startup Can Help You Set Up an Authorized Vehicle Scrapping Facility",
+        "description": [
+          "At Do Startup, we offer complete assistance in establishing an Authorized Vehicle Scrapping Facility. From document filing to regulatory approvals, our expert team handles everything while you stay focused on your core objectives. Connect with Do Startup today for a free consultation."
+        ],
+        "points": [
+          "Trusted by over 100,000+ clients worldwide",
+          "Rated 4.9+ stars by more than 43,297 satisfied customers",
+          "Access to top 3% industry professionals",
+          "100% client satisfaction guaranteed"
+        ]
+      }
+    ]
+  },
+  "how-to-start-treatment-storage-disposal-facility-tsdf": {
+    title: "TSDF Facility Services",
+    description: "Learn how to start a Treatment, Storage, and Disposal Facility (TSDF) with CorpBiz. We provide expert guidance on compliance, licensing, and setup for safe waste management.",
+    "overview": [
+      {
+        "heading": "Overview of TSDF Facility Services",
+        "content": "TSDF stands for Treatment, Storage, and Disposal Facilities. These facilities are responsible for managing hazardous waste through systematic collection, transportation, storage, treatment, and disposal using environmentally safe practices. The treatment process involves methods like incineration or oxidation to alter the hazardous waste’s nature and chemical structure. The storage function ensures waste is safely kept until it can be treated or permanently disposed of, and the disposal typically takes place in a secure landfill engineered to protect surface water and groundwater from contamination. TSDF facilities work closely with waste generators and transporters to ensure proper hazardous waste management. These facilities are subject to stricter regulations than those imposed on waste generators or transporters."
+      },
+      {
+        "heading": "Why Is Hazardous Waste Treatment Necessary?",
+        "content": "Hazardous waste contains toxic, reactive, flammable, or corrosive substances that pose serious risks to human health and the environment. Therefore, proper treatment and disposal are essential before any discharge into nature. The treatment methods may include chemical, biological, or physical processes to neutralize the waste's harmful properties."
+      },
+      {
+        "heading": "Types of TSDF Facility Services",
+        "content": "● Transport\n● Storage\n● Treatment\n● Disposal"
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Criteria for Hazardous Waste Storage in TSDF Facilities",
+        "content": "● Separate sections must be designated for flammable, ignitable, reactive, and non-compatible wastes. \n● There should be a minimum 15-meter gap between different storage sheds. \n● Containers must be constructed or lined with non-reactive materials. \n● Cotton should be used instead of water for cleaning leaks or spills."
+      },
+      {
+        "heading": "Criteria for Transporting Hazardous Waste in TSDF Facilities",
+        "content": "● Containers must maintain structural integrity for at least six months. \n● Containers should not break, leak, or deteriorate during transit. \n● Waste should not react with the container material. \n● Each container must clearly indicate the waste contents. \n● Containers must be labeled with \"HAZARDOUS WASTE\" in a common language like Hindi or English. \n● Emergency contact numbers must be clearly displayed. \n● Labels must include: \n  ○ Waste code number \n  ○ Type of waste \n  ○ Source of origin (name, address, and phone number of the generator) \n  ○ Hazardous property (e.g., ignitable, corrosive, toxic) with corresponding symbol (e.g., red square with flame)"
+      },
+      {
+        "heading": "Criteria for Treating Hazardous Waste in TSDF Facilities",
+        "content": "● The plant must be equipped with adequate machinery. \n● Treatment must involve physical, chemical, and biological processes depending on the nature of the hazardous waste."
+      },
+      {
+        "heading": "Criteria for Disposal of Hazardous Waste",
+        "content": "● Hazardous waste must be disposed of in secure landfills. \n● Landfill sites must be isolated from human settlements. \n● Proper boundaries and fencing must be maintained around the landfill."
+      },
+      {
+        "heading": "Licenses Required to Establish a TSDF Plant",
+        "content": "● Environmental clearance from both central and state governments. \n● Hazardous waste authorization. \n● Compliance with gaseous emissions standards for hazardous waste incinerators. \n● Adherence to DG Set norms related to: \n  ○ Noise pollution \n  ○ Effluent discharge \n  ○ Surface and groundwater quality \n  ○ Ambient air quality \n● General guidelines for contaminant discharge into the environment."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Personal & Business Identification",
+        "content": "- GST Certificate\n- Certificate of Incorporation\n- Aadhar card of the authorized signatory\n- PAN card of the authorized signatory"
+      },
+      {
+        "heading": "Establishment & Infrastructure",
+        "content": "- Layout Plan\n- Topo Map\n- Rent Agreement"
+      },
+      {
+        "heading": "Compliance & Regulatory Certificates",
+        "content": "- Water Bill\n- Details of Pollution Control Equipment"
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Do Startup Can Help You Set Up a TSDF Facility",
+        "description": [
+          "Do Startup offers complete assistance in setting up a TSDF facility. Our team ensures a smooth, hassle-free process, including:",
+          "● Drafting and managing agreements related to TSDF",
+          "● Comprehensive documentation support",
+          "● Expert consultation throughout the application process",
+          "● End-to-end service delivery",
+          "● Prompt acquisition of required licenses and authorizations"
+        ],
+        "points": [
+          "Trusted by over 100,000+ clients worldwide",
+          "Rated 4.9+ stars by more than 43,297 satisfied customers",
+          "Access to top 3% industry professionals",
+          "100% client satisfaction guaranteed"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Incinerable Waste?",
+        "answer": "Any combustible material with a calorific value of 2000 kcal/kg or higher qualifies as incinerable waste, suitable for burning in an incinerator. Materials with low calorific values are generally not ideal for incineration and may be recyclable instead."
+      },
+      {
+        "question": "What Can Be Incinerated?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What is a TSDF Facility?",
+        "answer": "A TSDF facility is a government-approved infrastructure that handles the safe and compliant treatment, storage, and disposal of hazardous waste."
+      },
+      {
+        "question": "How Many TSDFs Exist in India?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What Is the Search Radius Range While Selecting TSDF?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What Are the Four Types of Hazardous Waste?",
+        "answer": "The four common types of hazardous waste include: \n● Ignitable \n● Corrosive \n● Reactive \n● Toxic"
+      }
+    ]
+  },
+  "icat-certification": {
+    title: "iCAT Certification",
+    description: "iCAT is facilitating quality services to the industry in all the sectors of automotive and non-automotive development like Noise Vibration, Powertrain, and Harshness, Fatigue, Component, Tyre and..",
+    "overview": [
+      {
+        "heading": "Overview of iCAT Certification",
+        "content": "iCAT, or the International Centre for Automotive Technology, is India's premier Homologation and Testing Centre established under the NATRiP initiative by the Government of India. It is one of the authorized agencies notified under CMV Rule No. 126 for issuing Conformity of Production (COP) Certificates and Type Approval Certificates (TAC). The iCAT headquarters is based in Manesar, Gurgaon, Haryana, and is recognized as a world-class automotive certification provider. The centre operates under the National Automotive Testing and R&D Infrastructure Project (NATRiP) backed by the Government of India. To obtain iCAT Certification, applicants must adhere to all specified iCAT standards. Various industries, especially the automobile sector, utilize iCAT certification to validate product quality and authenticity."
+      },
+      {
+        "heading": "What is iCAT?",
+        "content": "iCAT stands for the International Centre for Automotive Technology and offers certification for all types of vehicles after evaluating parameters like emissions, power, performance, and more. Possessing iCAT Certification assures both the Government and consumers that your vehicle is reliable, safe, and manufactured using quality materials. Established in 2006, iCAT delivers advanced services in both automotive and non-automotive domains."
+      },
+      {
+        "heading": "iCAT Certification Service Domains",
+        "content": "iCAT offers testing, validation, and design solutions across various industries such as: \n● Automotive \n● Railways \n● Defence \n● Consumer Electronics and IT Products \n● Aviation \n● General Lighting, and many more."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for iCAT Certification?",
+        "description": [
+          "Do Startup simplifies the iCAT Certification process for businesses from diverse sectors by offering expert assistance in securing iCAT Approvals efficiently. Our professionals not only manage the required documentation but also provide advisory support to align your products with iCAT compliance standards. Whether you're pursuing certification for EVs or other vehicle types, Do Startup is your trusted partner for obtaining iCAT Certification."
+        ],
+        "points": [
+          "Trusted by over 100,000+ clients worldwide",
+          "Rated 4.9+ stars by more than 43,297 satisfied customers",
+          "Access to top 3% industry professionals",
+          "100% client satisfaction guaranteed"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is an iCAT Certificate?",
+        "answer": "iCAT is India's leading Homologation & Testing Centre, established under the NATRiP initiative by the Government of India."
+      },
+      {
+        "question": "What is Homologation Certification?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What kind of testing activities are conducted at iCAT?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What is NATRiP?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What is the homologation number?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "What is the difference between homologation and type approval?",
+        "answer": "[Content not provided, assumed placeholder]"
+      },
+      {
+        "question": "Who has the authority to issue vehicle quality certificates?",
+        "answer": "[Content not provided, assumed placeholder]"
+      }
+    ]
+  },
+  "leed-zero-water-certification": {
+    title: "Get LEED Zero Water Certification",
+    description: "Obtain LEED Zero Water Certification for your projects around the world with the help of our 400+ LEED Consultants",
+    "overview": [
+      {
+        "heading": "Overview of LEED Zero Water Certification",
+        "content": "LEED Zero Water Certification is specifically designed for buildings and is most relevant for companies and enterprises engaged in the construction and building sectors. This certification assesses water use—a resource that is rapidly becoming scarce globally. LEED has emerged as a widely accepted rating system in the construction industry to evaluate building performance, especially concerning water usage, energy efficiency, and carbon emissions. The LEED Zero Water Certificate is awarded to businesses within the construction industry that undertake exceptional building projects promoting a sustainable and regenerative future. Multiple categories of LEED Zero Certifications exist, and acquiring them ensures that your buildings comply with modern environmental standards. LEED Zero Water is one of the key certifications within this framework."
+      },
+      {
+        "heading": "Why You Need LEED Zero Certification",
+        "content": "The global construction industry is transitioning toward sustainable practices. Consequently, businesses are expected to minimize their reliance on non-renewable resources and improve their carbon footprint by constructing buildings that meet LEED (Leadership in Energy and Environmental Design) standards. LEED Certification—awarded by the U.S. Green Building Council (USGBC)—demonstrates a company's dedication to sustainability and adherence to high environmental performance benchmarks. Securing a LEED Zero Water Certification enhances your operational efficiency while reducing negative environmental impact. It offers benefits to property managers and building owners who aim to cut operating costs."
+      },
+      {
+        "heading": "Who Needs LEED Zero Water Certification?",
+        "content": "LEED Zero Water Certification is specifically designed for businesses within the construction sector. It is most relevant for companies and enterprises engaged in the construction and building industries, especially those committed to sustainability and reducing water usage. The certification validates that the building project minimizes its water consumption and manages water resources sustainably."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Environmental Benefits",
+        "content": "• LEED Zero Certification acknowledges buildings that achieve net-zero status in water usage, carbon emissions, energy consumption, and waste management.\n• Projects earn LEED points through strategies that reduce emissions, promote renewable energy, and minimize waste.\n• Boosts eco-friendly development and reinforces environmental responsibility within the construction industry."
+      },
+      {
+        "heading": "Tax Benefits",
+        "content": "• LEED Zero Certification may qualify businesses for tax incentives, particularly in regions promoting green building practices.\n• Financial perks support broader policies encouraging sustainable development goals (SDGs) and environmentally responsible construction investments."
+      },
+      {
+        "heading": "ESG Compliance",
+        "content": "• LEED Certification aligns with Environmental, Social, and Governance (ESG) criteria, supporting regulatory compliance.\n• Attracts ESG-conscious investors and stakeholders.\n• Aids in environmental remediation and increases appeal to potential occupants or buyers."
+      },
+      {
+        "heading": "Increased Resale Value",
+        "content": "• Government regulations and market demand are increasing interest in sustainable buildings.\n• LEED Zero-certified projects are more attractive to investors and buyers, boosting resale value.\n• Future market trends will prioritize investment in LEED-certified properties due to their long-term environmental and economic value."
+      }
+    ],
+    "Categories": [
+      {
+        "category": "Categories of LEED Zero Certification",
+        "documents": [
+          "LEED Zero Carbon Certification: Recognizes buildings with net-zero carbon emissions over the past year. Promotes energy efficiency, renewable energy use, and reduced greenhouse gas emissions.",
+          "LEED Zero Energy Certification: Awarded to buildings that maintain net-zero energy use over 12 months by using renewable sources and minimizing overall energy consumption.",
+          "LEED Zero Water Certification: Acknowledges buildings that achieve net-zero potable water use over the previous year by maximizing water reuse and returning water to its original source.",
+          "LEED Zero Waste Certification: Based on the TRUE (Total Resource Use and Efficiency) rating system, this certifies buildings that divert 90%+ non-hazardous solid waste from landfills over a year."
+        ]
+      },
+      {
+        "category": "A Guide to LEED Zero Water Certification",
+        "documents": [
+          "Reduce potable water consumption",
+          "Conserve water quality and increase availability",
+          "Reduce offsite wastewater treatment",
+          "Increase onsite water use (e.g., rainwater harvesting)",
+          "Recharge aquifers",
+          "Match water quality with usage needs"
+        ]
+      },
+      {
+        "category": "Our LEED Zero Water Certification Services",
+        "documents": [
+          "Achieving net-zero water usage requires operational, maintenance, and usage pattern considerations.",
+          "With LEED Consultants from Do Startup, you can simplify the path to certification."
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for LEED Zero Water Certification?",
+        "description": [
+          "Do Startup streamlines the LEED Zero Water Certification process for businesses by offering expert support in navigating the complex requirements. We manage the full registration process, assist with documentation, and provide expert consultation to ensure your project meets the necessary compliance standards. Whether you're aiming for LEED certification for a new building or renovation, Do Startup is your trusted partner for a smooth certification journey."
+        ],
+        "points": [
+          "Expert guidance through the full LEED registration process with USGBC",
+          "Comprehensive documentation assistance to meet LEED Zero Water standards",
+          "Strategic consultation to ensure compliance and avoid application rejection",
+          "Thorough reporting and data analysis to meet one-year performance criteria",
+          "Complete support throughout the LEED Zero Water Certification process"
+        ]
+      }
+    ],
+    "Process": [
+      {
+        "category": "Step-by-Step Guide to Obtain LEED Zero Water Certificate",
+        "documents": [
+          "Verify Eligibility: Ensure your building meets the required LEED criteria.",
+          "Collect Data: Compile potable water usage data over the past year.",
+          "Analyze Offsite Water Sources: Report reclaimed or municipal water usage.",
+          "Gather Onsite Water Details: Include rainwater harvesting, runoff, and stream recovery.",
+          "Track Water Reuse: Report onsite treated wastewater reused on the project."
+        ]
+      },
+      {
+        "category": "Get LEED Zero Water Certification with Do Startup!",
+        "documents": [
+          "Do Startup provides end-to-end support for licensing, permits, registrations, and environmental certifications.",
+          "Specialized LEED consultants ensure all your LEED Zero Water Certification requirements are met with precision and efficiency.",
+          "Tailored services, transparent pricing, and quick turnaround times to help you achieve LEED compliance.",
+          "With advanced automation and an experienced team, Do Startup delivers best-in-class support for your certification process."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the full form of LEED?",
+        "answer": "Leadership in Energy and Environmental Design."
+      },
+      {
+        "question": "What is LEED Zero Water?",
+        "answer": "A certification for buildings achieving net-zero potable water use over a year."
+      },
+      {
+        "question": "Who grants the LEED Zero Water Certification?",
+        "answer": "The U.S. Green Building Council (USGBC)."
+      },
+      {
+        "question": "When should you register for LEED certification?",
+        "answer": "Ideally, during the planning or early construction stages."
+      },
+      {
+        "question": "What are the goals of the Water Efficiency category?",
+        "answer": "To reduce water usage and promote sustainable water practices."
+      },
+      {
+        "question": "Is LEED India the same as IGBC?",
+        "answer": "No, IGBC offers its own rating systems, though similar to LEED."
+      },
+      {
+        "question": "Who certifies green buildings in India?",
+        "answer": "USGBC and IGBC (Indian Green Building Council)."
+      },
+      {
+        "question": "What are the 4 levels of LEED Zero certification?",
+        "answer": "Carbon, Energy, Water, and Waste."
+      },
+      {
+        "question": "What is GBCI?",
+        "answer": "Green Business Certification Inc., the organization that administers LEED certifications."
+      }
+    ]
+  },
+  "green-building-certification": {
+    title: "Green Building Certification",
+    description: "Ready to make your building more sustainable and meet environmental standards? Get your Green Building Certification today with DoStartUp!",
+    "overview": [
+      {
+        "heading": "Overview of Green Building Certification in India",
+        "content": "Green Building Certification acknowledges structures that implement sustainable construction techniques and environmentally responsible practices. This certification is awarded by authorized bodies and is based on parameters outlined in the IGBC Green New Buildings rating system. These parameters include energy efficiency, water conservation, waste management, and the reduction of fossil fuel usage. In India, green building certifications play a crucial role in promoting sustainable infrastructure and aligning with long-term environmental goals. According to the United Nations Environment Programme (UNEP), buildings account for nearly 40% of global energy usage and one-third of greenhouse gas emissions."
+      },
+      {
+        "heading": "What is a Green Building?",
+        "content": "As defined by the World Green Building Council, a green building is one that is designed, constructed, and operated to reduce or eliminate adverse impacts on the environment. These buildings not only mitigate environmental damage but also offer positive benefits such as conserving natural resources and enhancing quality of life. Green buildings adopt responsible practices throughout their lifecycle, including planning, design, construction, operation, maintenance, renovation, and demolition. In India, green-certified buildings enjoy various government benefits such as tax incentives, easier loan access, environmental advantages, and state-level subsidies."
+      },
+      {
+        "heading": "Understanding the Concept of Green Building",
+        "content": "The core concept behind green buildings is to use locally available, natural materials while designing for maximum energy efficiency and minimal water usage. The ultimate goal is to reduce carbon emissions and enhance the well-being of occupants through naturally comfortable environments. This is achieved by lowering both operational and embodied carbon emissions, using renewable energy sources, and reducing non-biodegradable waste. To comply with IGBC standards, buildings must incorporate key features like sustainable landscaping, efficient waste management, eco-friendly materials, water conservation mechanisms, energy-efficient systems, integration of renewable energy sources, and adequate natural ventilation and daylight."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Green Building Certification in India",
+        "content": "- Sustainable Design: Ensure that the project maintains ecological balance without disrupting the natural environment.\n- Efficient Water Usage: Implement water-saving techniques like stormwater harvesting and protect local hydro-ecosystems.\n- Energy Efficiency: Minimize the carbon footprint by incorporating renewable energy technologies such as solar panels and energy-efficient appliances.\n- Indoor Environmental Quality: Provide good indoor air quality, thermal comfort, natural daylight, and proper ventilation.\n- Sustainable Materials: Reduce reliance on non-renewable resources by using recyclable and environmentally friendly construction materials."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Tangible Benefits",
+        "content": "• 20%–30% reduction in energy consumption\n• 30%–50% water savings from day one of occupancy"
+      },
+      {
+        "heading": "Intangible Benefits",
+        "content": "• Enhanced air quality\n• Improved health and wellness\n• Better daylight and natural ventilation\n• Enhanced security and resource conservation"
+      },
+      {
+        "heading": "Tax Benefits",
+        "content": "• Developers can claim 100% depreciation on green building assets under the Income Tax Act."
+      },
+      {
+        "heading": "Loan & Fast-Track Approvals",
+        "content": "• Access low-interest loans from IREDA and benefit from expedited permits and inspections."
+      },
+      {
+        "heading": "State-Level Subsidies",
+        "content": "• States offer financial support, including tax rebates and incentives for renewable energy and green construction."
+      },
+      {
+        "heading": "Environmental Advantages",
+        "content": "• Promotes net-zero energy goals\n• Reduces waste and emissions\n• Supports sustainable development initiatives"
+      }
+    ],
+    "Process": [
+      {
+        "category": "Indian Green Building Council (IGBC) Certification Process",
+        "documents": [
+          "Submit documents that demonstrate compliance with IGBC standards.",
+          "IGBC verifies via document reviews and site visits.",
+          "Certification is awarded based on performance and sustainability metrics."
+        ]
+      },
+      {
+        "category": "Why Get Green Building Certified?",
+        "documents": [
+          "Green building certification enhances the ecological, financial, and social value of a structure.",
+          "Raises property resale value.",
+          "Reduces long-term maintenance costs.",
+          "Ensures climate adaptability.",
+          "Encourages use of verified green products.",
+          "Promotes consistency in sustainable design and construction."
+        ]
+      }
+    ],
+    "feesStructure": [
+      {
+        "heading": "IGBC Green Building Certification Fee Structure",
+        "description": "The cost of obtaining IGBC Green Building Certification depends on the project size and membership status. Below is the categorized fee structure for registration, pre-certification, and certification fees based on membership:",
+        "feeTable": [
+          {
+            "category": "Registration Fee (IGBC Members)",
+            "amount": "₹25,000"
+          },
+          {
+            "category": "Registration Fee (Non-Members)",
+            "amount": "₹30,000"
+          },
+          {
+            "category": "Pre-certification Fee (≤ 20,000 sq.m) - Founding Members",
+            "amount": "₹2,00,000"
+          },
+          {
+            "category": "Pre-certification Fee (≤ 20,000 sq.m) - Annual Members",
+            "amount": "₹2,25,000"
+          },
+          {
+            "category": "Pre-certification Fee (≤ 20,000 sq.m) - Non-Members",
+            "amount": "₹2,50,000"
+          },
+          {
+            "category": "Certification Fee (≤ 5,000 sq.m) - Founding Members",
+            "amount": "₹1,80,000"
+          },
+          {
+            "category": "Certification Fee (≤ 5,000 sq.m) - Annual Members",
+            "amount": "₹1,90,000"
+          },
+          {
+            "category": "Certification Fee (≤ 5,000 sq.m) - Non-Members",
+            "amount": "₹2,00,000"
+          }
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for Green Building Certification in India?",
+        "description": [
+          "Do Startup’s dedicated team ensures a smooth, compliant, and cost-effective certification experience. We streamline the green building certification process, manage documentation, and offer expert consultation to ensure your project meets national standards. With over a decade of experience and 2,000+ green building certifications secured, Do Startup is your trusted partner for efficient and seamless certification."
+        ],
+        "points": [
+          "2,000+ Green Building Certifications Secured",
+          "10+ Years of Industry Expertise",
+          "100% Compliance with National Standards",
+          "Competitive, Transparent Pricing",
+          "Fast-track Certification Support",
+          "Access to Tax and Financial Benefits",
+          "End-to-End Assistance and Expert Consultation",
+          "Time-saving, Seamless Process",
+          "Technology-driven Client Management System"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the Indian Green Building Council Certification?",
+        "answer": "IGBC is India’s premier certification authority promoting sustainable building through a structured rating system."
+      },
+      {
+        "question": "What are the certification levels in IGBC?",
+        "answer": "Best Practices, Silver, Gold, and Platinum—based on sustainability performance."
+      },
+      {
+        "question": "What is Green Building Certification?",
+        "answer": "A formal recognition awarded to buildings adopting sustainable construction and operational practices."
+      },
+      {
+        "question": "What is LEED Certification?",
+        "answer": "An international green building certification system that verifies environmental performance."
+      },
+      {
+        "question": "Who grants Green Building Certification in India?",
+        "answer": "IGBC, GRIHA, and other authorized bodies under government-recognized frameworks."
+      },
+      {
+        "question": "What are the 7 criteria for LEED?",
+        "answer": "Sustainable sites, water efficiency, energy use, materials and resources, indoor environmental quality, location and transport, innovation."
+      },
+      {
+        "question": "What is BREEAM?",
+        "answer": "Building Research Establishment Environmental Assessment Method—UK-based sustainability standard."
+      },
+      {
+        "question": "What is IGBC’s full form?",
+        "answer": "Indian Green Building Council."
+      },
+      {
+        "question": "What is the goal of the IGBC rating system?",
+        "answer": "To encourage energy efficiency, sustainability, and environmentally responsible construction."
+      },
+      {
+        "question": "What does LEED stand for?",
+        "answer": "Leadership in Energy and Environmental Design."
+      }
+    ]
+  },
+  "pefc-certification": {
+    title: "PEFC Certification",
+    description: "Is your business involved in the supply chain of forest-based products? If so, let DoStartup consultants guide you through the PEFC certification process.",
+    "overview": [
+      {
+        "heading": "Overview of PEFC Certification in India",
+        "content": "PEFC Certification in India, managed by the Network for Certification and Conservation of Forests (NCCF), provides verified evidence of sustainable forest management (SFM). It allows forest owners and managers to showcase eco-friendly practices and supports compliance with international regulations like the EU Timber Regulation (EUTR), US Lacey Act, and Australian Illegal Logging Prohibition Regulation. PEFC operates through two processes: Sustainable Forest Management and Chain of Custody (CoC) certification, helping businesses meet sustainability goals."
+      },
+      {
+        "heading": "What is PEFC?",
+        "content": "PEFC (Programme for the Endorsement of Forest Certification) is a global non-profit alliance founded in 1999 that endorses national forest certification systems. It promotes sustainable forest management (SFM) through independent third-party certification and maintains a centralized database of certified entities, logo users, and certified products. PEFC emphasizes environmental, social, and economic sustainability while preserving forest biodiversity. It is the world's largest source of certified sustainable forest products."
+      },
+      {
+        "heading": "Purpose of PEFC Certification in India",
+        "content": "The purpose of PEFC certification in India is to encourage responsible forest management and a verified chain of custody for wood-based products. PEFC certification supports national bodies in setting localized sustainability standards based on regional needs. Organizations that earn PEFC certification comply with stringent sustainability criteria and demonstrate their commitment to responsible environmental practices."
+      }
+    ],
+    "Categories": [
+      {
+        "category": "Types of PEFC Certification in India",
+        "documents": [
+          "PEFC Forest Management Certification (FMC): Validates responsible forest management practices, including biodiversity protection, soil and water conservation, and the welfare of local communities.",
+          "PEFC Chain of Custody Certification (CoC): Ensures traceability of certified materials throughout the supply chain, from procurement and production to sales and recordkeeping."
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Tangible Benefits",
+        "content": "• Helps businesses meet customer demand for sustainable products\n• Demonstrates eco-friendly practices as proof of sustainability"
+      },
+      {
+        "heading": "Promoting Responsible Business Practices",
+        "content": "• Reinforces ethical business operations and supports regional economic growth through sustainable practices."
+      },
+      {
+        "heading": "Sustainable Forest Management",
+        "content": "• Aligns forest and product management with global environmental, social, and economic standards, ensuring compliance with sustainability norms."
+      },
+      {
+        "heading": "Global Product Recognition",
+        "content": "• Boosts trust in certified forest products, enabling access to international markets and expanding global business opportunities."
+      },
+      {
+        "heading": "Market Size of PEFC Certification",
+        "content": "• PEFC is the world’s largest forest certification system, covering 28,800+ certified companies globally and benefiting 20,000+ organizations with chain of custody certification."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for PEFC Certification",
+        "content": "- Forest owners and managers: Eligible to manage and certify forest resources.\n- Manufacturers and suppliers: Must demonstrate sustainable sourcing of forest products.\n- Retailers and distributors: Must trace and verify the sustainable origin of forest products.\n- Wood procurement and forestry-related industries: Must adhere to sustainability practices in sourcing, processing, and distribution."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Forest Management & Supply Chain Documents",
+        "content":
+          "- Forest management plan\n- Supply chain and traceability records\n- Environmental and social policy documents\n- Internal audits and supporting documents\n- Client’s name and registered address\n- Sustainable management policies\n- CoC and labeling documentation\n- Any additional required records"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Understand and Comply with PEFC Standards",
+        "content": "Begin by reviewing PEFC’s certification requirements and ensuring your practices align with them."
+      },
+      {
+        "heading": "Step 2: Contact the National PEFC Office",
+        "content": "Reach out to the NCCF or another PEFC-accredited certification body for guidance."
+      },
+      {
+        "heading": "Step 3: Submit the Application Form",
+        "content": "Send the completed form and required documents to the certification body."
+      },
+      {
+        "heading": "Step 4: Pre-Assessment of Forest Management",
+        "content": "NCCF conducts a pre-assessment to evaluate existing practices."
+      },
+      {
+        "heading": "Step 5: Conduct Internal Audit",
+        "content": "The certification body performs an internal audit to identify and fix any gaps."
+      },
+      {
+        "heading": "Step 6: Schedule the Certification Audit",
+        "content": "A full audit is conducted to assess compliance with PEFC standards."
+      },
+      {
+        "heading": "Step 7: Receive PEFC Certification",
+        "content": "Post-audit, you'll sign a logo/trademark agreement and receive your PEFC certificate."
+      },
+      {
+        "heading": "Step 8: Use of PEFC Label",
+        "content": "Apply the PEFC label to certified products to promote your commitment to sustainability."
+      }
+    ],
+    "Validity": [
+      {
+        "category": "Validity of PEFC Certification",
+        "documents": [
+          "PEFC certificates are valid for up to 5 years, subject to annual surveillance audits.",
+          "Renewal requires a re-certification audit."
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for PEFC Certification in India?",
+        "description": [
+          "Partnering with Do Startup ensures a hassle-free certification experience, backed by industry expertise and end-to-end support."
+        ],
+        "points": [
+          "50+ successful PEFC certifications completed",
+          "Nationwide network of 500+ environmental experts",
+          "10+ years of sustainability consulting experience",
+          "Deep knowledge of PEFC standards and procedures",
+          "Services across 10,000+ pin codes in India",
+          "Expert audit and documentation assistance",
+          "Globally recognized for promoting sustainable forestry",
+          "Transparent, affordable, and efficient certification services"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is PEFC certification?",
+        "answer": "A voluntary certification system covering Sustainable Forest Management (SFM) and Chain of Custody (CoC) for wood-based products."
+      },
+      {
+        "question": "What does PEFC stand for?",
+        "answer": "Programme for the Endorsement of Forest Certification."
+      },
+      {
+        "question": "What’s the difference between PEFC and FSC?",
+        "answer": "PEFC is bottom-up and locally driven, while FSC is more top-down and environmentally focused."
+      },
+      {
+        "question": "What does 70% PEFC certification mean?",
+        "answer": "It means at least 70% of the material in the product comes from PEFC-certified sources."
+      },
+      {
+        "question": "Is PEFC trustworthy?",
+        "answer": "Yes, PEFC is globally recognized and widely trusted for ensuring sustainability and traceability in forest product supply chains."
+      },
+      {
+        "question": "What is the PEFC logo?",
+        "answer": "A registered trademark used to indicate that products are PEFC-certified and sustainably sourced."
+      }
+    ]
+  },
+  "fsc-certification": {
+    title: "FSC Certification",
+    description: "Are you using forest-based raw materials in your business? Get FSC Certification with DoStartup experts to demonstrate your commitment to sustainable forestry.",
+    "overview": [
+      {
+        "heading": "Overview of FSC Certification in India",
+        "content": "FSC Certification in India ensures that forest-based products are sourced from responsibly managed forests, meeting international sustainability benchmarks. Whether you are a forest owner, manufacturer, or retailer, FSC certification helps showcase your commitment to sustainable forestry, biodiversity preservation, and minimizing environmental impact. With over a decade of expertise, Do Startup assists businesses in navigating the FSC certification process, ensuring compliance and promoting responsible forest management."
+      },
+      {
+        "heading": "What is FSC?",
+        "content": "FSC (Forest Stewardship Council) is an international non-profit organization established to promote responsible forest management. Founded in 1993, FSC sets standards for managing forests sustainably while considering environmental, social, and economic factors. The FSC certification ensures that products, including timber and non-timber items, are sourced from forests that meet these rigorous sustainability standards. FSC certification is widely recognized and helps businesses operate legally and ethically."
+      },
+      {
+        "heading": "Purpose of FSC Certification in India",
+        "content": "The purpose of FSC certification in India is to ensure that forests are managed sustainably and responsibly, protecting their environmental, social, and economic values. FSC-certified products meet international sustainability and compliance standards, enabling businesses to stay competitive in global markets that demand certified, eco-friendly products. By obtaining FSC certification, businesses can demonstrate their commitment to responsible forestry and enhance their marketability in an increasingly sustainability-conscious world."
+      }
+    ],
+    "Categories": [
+      {
+        "category": "Types of FSC Certification in India",
+        "documents": [
+          "Forest Management (FM) Certification: Ensures sustainable forestry practices, promoting biodiversity, resource protection, and local community support while fulfilling product demand responsibly.",
+          "Chain of Custody (CoC) Certification: Tracks the journey of FSC-certified materials through processing, manufacturing, and distribution to ensure transparency and supply chain integrity.",
+          "Controlled Wood Certification: Allows limited blending of non-certified wood under strict FSC guidelines, ensuring materials do not come from illegal, unsustainable, or harmful sources.",
+          "Group Certification: Designed for small forest owners or communities, this cost-effective certification encourages collective responsibility for sustainable forest management.",
+          "Project Certification: Supports responsible sourcing of forest materials for temporary or one-time projects, intended for construction companies or single-use projects."
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Market Recognition",
+        "content": "• Builds eco-conscious brand identity, helping businesses gain global credibility and customer trust."
+      },
+      {
+        "heading": "Access to Premium Markets",
+        "content": "• Certified products can easily access global markets, catering to sustainability-focused customers worldwide."
+      },
+      {
+        "heading": "Environmental Conservation",
+        "content": "• FSC-certified businesses help preserve biodiversity, reduce deforestation, and promote water and forest conservation."
+      },
+      {
+        "heading": "Legal Compliance",
+        "content": "• Aligns operations with international forestry regulations, ensuring seamless global trade and reduced legal risks."
+      },
+      {
+        "heading": "Improved Community Relations",
+        "content": "• Promotes fair wages, safe working conditions, and community involvement in forestry decisions."
+      },
+      {
+        "heading": "Reduced Environmental Footprint",
+        "content": "• Sustainable forestry practices lower carbon emissions, protect habitats, and reduce ecological degradation."
+      },
+      {
+        "heading": "Consumer Trust",
+        "content": "• FSC labeling assures consumers of ethical sourcing and builds trust in eco-conscious products."
+      },
+      {
+        "heading": "Competitive Advantage",
+        "content": "• Certified businesses stand out in a crowded market by emphasizing sustainability and responsibility."
+      },
+      {
+        "heading": "Higher Profitability",
+        "content": "• FSC-certified products often command premium pricing, improving profit margins and ensuring supply chain continuity."
+      },
+      {
+        "heading": "Corporate Social Responsibility (CSR)",
+        "content": "• Supports long-term sustainability goals, enhancing stakeholder confidence and aligning businesses with CSR mandates."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for FSC Certification",
+        "content": "- Forest Managers: Must use sustainable forestry practices and comply with FSC standards.\n- Manufacturers: Must source raw materials from certified FSC suppliers.\n- Supply Chain Participants: Must follow FSC Chain of Custody (CoC) guidelines to ensure traceability.\n- Smallholders: Can apply through group certification, promoting collective responsibility.\n- Controlled Wood Users: Must comply with FSC sourcing rules to ensure ethical sourcing of materials.\n- Compliant Stakeholders: Must meet environmental and social standards set by FSC."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Forest Management & Supply Chain Documents",
+        "content": "- Forest Management Plan (biodiversity, sustainability strategies)\n- Land Ownership Proof (legal forest access/rights)\n- Environmental Impact Assessment (impact & mitigation strategy)\n- Community & Worker Policies (wages, safety, rights)\n- Supply Chain Records (CoC traceability documents)\n- Controlled Wood Risk Assessment\n- Operational Reports (production, inventory, and sales data)\n- Audit Reports (if previously certified)"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Understand FSC Requirements",
+        "content": "Familiarize yourself with FSC standards for sustainable forest management and supply chain integrity."
+      },
+      {
+        "heading": "Step 2: Select Certification Type",
+        "content": "Choose from FM, CoC, Controlled Wood, Group, or Project certification based on your business model."
+      },
+      {
+        "heading": "Step 3: Hire an FSC Consultant",
+        "content": "Work with Do Startup’s FSC experts to simplify the certification process and accelerate approval."
+      },
+      {
+        "heading": "Step 4: Compile Required Documents",
+        "content": "Gather all compliance documents, including management plans and risk assessments."
+      },
+      {
+        "heading": "Step 5: Select an FSC-Accredited Body",
+        "content": "Choose a certification body authorized by FSC to conduct audits and issue certificates."
+      },
+      {
+        "heading": "Step 6: Initial Assessment",
+        "content": "Conduct a pre-audit to identify and fix any compliance gaps."
+      },
+      {
+        "heading": "Step 7: Certification Audit",
+        "content": "Undergo a detailed audit by an FSC-accredited body to verify compliance with FSC benchmarks."
+      },
+      {
+        "heading": "Step 8: Receive Certification",
+        "content": "Post successful audit, receive the FSC certificate and label for your products."
+      },
+      {
+        "heading": "Step 9: Annual Surveillance Audits",
+        "content": "Meet annual FSC compliance audits to maintain certification validity."
+      },
+      {
+        "heading": "Step 10: Renew FSC Certification",
+        "content": "Ensure timely renewal before certificate expiry to avoid disruptions in certification."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose Do Startup for FSC Certification in India?",
+        "description": [
+          "Partnering with Do Startup gives you a competitive advantage and expert guidance through every stage of the FSC certification process."
+        ],
+        "points": [
+          "Supported 2000+ businesses globally with FSC certification",
+          "Saved 18+ lakh hours for forest operators and retailers",
+          "Provide deep insight into FSC standards and compliance",
+          "Help formulate sustainability strategies aligned with FSC",
+          "Ensure fast and accurate documentation and submissions",
+          "Conduct gap analysis to improve compliance",
+          "Organize staff training programs for sustainability best practices",
+          "Prepare audit reports to ease the certification process",
+          "Reduce risk of certification rejection by up to 30%"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the full form of FSC?",
+        "answer": "FSC stands for Forest Stewardship Council."
+      },
+      {
+        "question": "Who provides FSC certification in India?",
+        "answer": "Accredited FSC certification bodies approved by the FSC."
+      },
+      {
+        "question": "Why is FSC certification important for businesses?",
+        "answer": "It promotes sustainable practices, legal compliance, and global recognition."
+      },
+      {
+        "question": "How does FSC certification protect forests?",
+        "answer": "By enforcing guidelines that reduce illegal logging and deforestation."
+      },
+      {
+        "question": "What types of products are FSC-certified?",
+        "answer": "Timber, paper, bamboo, textiles, non-timber goods, and more."
+      },
+      {
+        "question": "What documents are required for FSC certification?",
+        "answer": "Forest management plans, environmental assessments, CoC records, and more."
+      },
+      {
+        "question": "Who can apply for FSC certification?",
+        "answer": "Forest owners, manufacturers, retailers, smallholders, and supply chain entities."
+      },
+      {
+        "question": "What does '100% FSC-certified' mean?",
+        "answer": "All raw materials used come from FSC-certified forests."
+      },
+      {
+        "question": "What is FSC timber certification?",
+        "answer": "Certification that confirms wood is sourced sustainably and legally."
+      },
+      {
+        "question": "How do businesses manage responsible forestry?",
+        "answer": "Through sustainable planning, compliance, and engagement with local communities."
+      }
+    ]
+  },
+  "epr-authorization-for-plastic-waste-management": {
+    title: "EPR Authorization for Plastic Waste Management",
+    description: "EPR authorization is necessary to deal in plastic waste management. Connect with us today to secure EPR Authorization from the concerned authority.",
+    "overview": [
+      {
+        "heading": "Overview of EPR Authorization for Plastic Waste Management",
+        "content": "Plastic waste is one of the most pressing environmental challenges facing India today. To address this, the Indian government introduced the Plastic Waste Management Rules in 2011, later revamped in 2016. A central feature of these regulations is the Extended Producer Responsibility (EPR) Authorization. It mandates that businesses involved in the production, import, use, or sale of plastic products and packaging take responsibility for the end-of-life management of plastic waste. At DOstartup, we simplify the EPR Authorization process, helping your business stay compliant while contributing to a greener future."
+      },
+      {
+        "heading": "Why EPR Authorization Matters",
+        "content": "Unmanaged plastic waste leads to severe environmental degradation, public health issues, and logistical problems in waste management. EPR is a strategic approach that shifts the burden of plastic waste management from public authorities to producers, ensuring accountability across the product lifecycle. It encourages sustainable practices, improves recycling rates, and reduces the ecological footprint of plastic use."
+      },
+      {
+        "heading": "Who Needs EPR Authorization?",
+        "content": "EPR Authorization is mandatory for several categories of entities dealing with plastic: Producers of plastic products, Importers of plastic packaging or goods, Brand Owners using plastic for packaging, Plastic Waste Traders, and Manufacturers & Recyclers of plastic materials. These entities must register with the State Pollution Control Board (SPCB) or the Pollution Control Committee (PCC) in their respective Union Territories to ensure legal compliance with the Plastic Waste Management Rules."
+      }
+    ],
+    "Authority": [
+      {
+        "category": "Why Unregulated Plastic Waste is Harmful",
+        "documents": [
+          "Air pollution: Emissions of harmful gases during incineration",
+          "Soil infertility: Due to microplastics in landfills",
+          "Water contamination: Through drain and river blockage",
+          "Urban flooding: Littered plastics choking drainage systems",
+          "Toxic chemical release: Including dioxins, furans, benzene, and styrene",
+          "Operational challenges: For landfills and waste treatment facilities"
+        ]
+      },
+      {
+        "category": "What is EPR (Extended Producer Responsibility)?",
+        "documents": [
+          "EPR is a government-backed policy that mandates producers and brand owners to take responsibility for the collection, recycling, or disposal of plastic waste generated from their products after consumer use.",
+          "It shifts the environmental cost of disposal from the public sector to the private sector."
+        ]
+      }
+    ],
+    "Regulations": [
+      {
+        "category": "Duties of Local Bodies under EPR Compliance",
+        "documents": [
+          "Set up and manage infrastructure for plastic waste collection, segregation, processing, and disposal.",
+          "May engage external agencies or producers for operations."
+        ]
+      },
+      {
+        "category": "Duties of Gram Panchayats under EPR Compliance",
+        "documents": [
+          "Manage plastic waste in rural areas through designated channels.",
+          "Ensure no open burning or unregulated disposal occurs.",
+          "Facilitate stakeholder awareness."
+        ]
+      },
+      {
+        "category": "Duties of Producers, Importers, and Brand Owners under EPR Compliance",
+        "documents": [
+          "Must formulate and implement EPR plans within 6 months of regulation publication.",
+          "Maintain records of raw material suppliers.",
+          "Register with the SPCB or PCC before manufacturing or using plastic materials.",
+          "Phase out non-recyclable and non-energy recoverable multilayer plastics.",
+          "Note: No producer can manufacture or use plastic packaging materials post six months of rule publication without valid registration."
+        ]
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Documents Required for EPR Authorization",
+        "content": "- Company signatory’s KYC\n- Authorized signatory’s KYC\n- Consent letter or NOC from State Pollution Control Board\n- Active business website domain\n- Valid toll-free number"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Document Collection & Review",
+        "content": "Gather and verify all required documents to ensure they meet the compliance criteria set by CPCB/SPCB."
+      },
+      {
+        "heading": "Step 2: Filing with SPCB/CPCB",
+        "content": "Submit the application and required documents to the appropriate State or Central Pollution Control Board."
+      },
+      {
+        "heading": "Step 3: Form Submission & Liaising",
+        "content": "Coordinate with regulatory authorities to respond to any requests or additional information requirements."
+      },
+      {
+        "heading": "Step 4: Monitoring Objections or Clarifications",
+        "content": "Track the application status and address any objections or queries raised by the board."
+      },
+      {
+        "heading": "Step 5: Final Authorization Certificate Issuance",
+        "content": "Upon approval, receive the EPR Authorization certificate from CPCB/SPCB, enabling compliant operations."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DOstartup for EPR Authorization?",
+        "description": [
+          "With our experienced team of legal and environmental compliance experts, we offer comprehensive support to simplify your EPR Authorization process."
+        ],
+        "points": [
+          "Expert Filing & Representation",
+          "End-to-End Documentation Support",
+          "Transparent Process Management",
+          "Pan-India Service Reach"
+        ]
+      }
+    ],
+  },
+  "epr-post-compliance-plastic-waste": {
+    title: "EPR Post Compliance – Plastic Waste",
+    description: "After receiving the EPR Authorisation for plastic waste management, every producer, brand owner, Importers, recyclers, plastic trader, and plastic manufacturer should meet certain EPR post",
+    "overview": [
+      {
+        "heading": "EPR Post Compliance – Plastic Waste",
+        "content": "Once you’ve received your EPR Authorization for plastic waste management, compliance doesn’t stop there. Every Producer, Importer, Brand Owner (PIBO), Recycler, Plastic Trader, and Plastic Manufacturer must continue to fulfill key post-compliance responsibilities under the Plastic Waste Management framework."
+      },
+      {
+        "heading": "Why DOstartup?",
+        "content": "✅ 10+ Years Industry Experience\n\n✅ 400+ In-House CAs, CS & Legal Experts\n\n✅ 99% On-Time Compliance Delivery\n\n✅ Service Reach Across 10,000+ Indian PIN Codes"
+      },
+      {
+        "heading": "Understanding Plastic Waste Management",
+        "content": "India generates massive plastic waste every day. If not managed responsibly, this waste creates environmental hazards, choking landfills, polluting oceans, and affecting health. To control this, the Indian government introduced the Plastic Waste (Management and Handling) Rules, 2011, and later, the Plastic Waste Management Rules, 2016. These rules aim to:\n- Promote recycling and reuse through circular economy principles\n- Allocate waste management duties to urban local bodies, gram panchayats, waste generators, and brand owners\n- Ensure responsible disposal and encourage innovation in waste handling\n\nKey responsibilities under these rules include:\n- Recyclable plastic must be sent to authorized recyclers\n- Non-recyclables should be used in road construction, energy recovery, or waste-to-oil initiatives\n- Thermoset plastic must be processed as per CPCB guidelines\n- Waste processing by-products must be managed per the Solid Waste Management Rules, 2000"
+      },
+      {
+        "heading": "Plastic Waste Management Rules, 2016 – Snapshot",
+        "content": "Applies to plastic bags, packaging, multi-layered plastics, and brand owners. Waste generators must now segregate plastic at the source, hand it over, and pay user fees. Introduced Extended Producer Responsibility (EPR) – shifting the responsibility of managing end-of-life products back to the producer."
+      }
+    ],
+    "EPR": [
+      {
+        "category": "What is EPR (Extended Producer Responsibility)?",
+        "documents": [
+          "Extended Producer Responsibility (EPR) makes it legally binding for producers to collect and process plastic waste generated by their products.",
+          "Rooted in the “Polluter Pays” principle, EPR ensures that companies are not just selling products—but taking ownership of the environmental impact.",
+          "Under EPR, producers must:",
+          "- Design a plastic waste management action plan",
+          "- Collaborate with municipalities or private recyclers",
+          "- Submit half-yearly progress reports and sales data",
+          "- Maintain thorough documentation for audits and compliance"
+        ]
+      },
+      {
+        "category": "EPR Post Compliance – What Needs to Be Done",
+        "documents": [
+          "1. Half-Yearly Report Submission: Every PIBO must submit a state-wise report within 15 days of each half-year. This includes:",
+          "- Plastic waste collected, processed, and recycled",
+          "- Supporting documentary evidence from recyclers or processors",
+          "- Proof of compliance with EPR targets",
+          "2. Sales Data Reporting: Submit detailed product sales information to the relevant State Pollution Control Board (SPCB) or Pollution Control Committee (PCC) for traceability and reporting alignment."
+        ]
+      }
+    ],
+    "Regulations": [
+      {
+        "category": "Duties of Producers under EPR Compliance",
+        "documents": [
+          "Create and submit an EPR Action Plan to CPCB/SPCB, detailing plastic types, quantities, and collection strategy",
+          "Implement the plan via internal teams or tie-ups with local bodies/recyclers",
+          "Keep full records for quarterly and annual reports"
+        ]
+      },
+      {
+        "category": "Duties of Local Bodies under EPR Compliance",
+        "documents": [
+          "Set up systems for collection, segregation, storage, transportation, recycling",
+          "Channel recyclable plastic to authorized recyclers",
+          "Ensure zero open burning, community awareness, and involvement of civil societies"
+        ]
+      },
+      {
+        "category": "Duties of Gram Panchayats under EPR Compliance",
+        "documents": [
+          "Manage rural waste through segregation, transportation, and proper disposal",
+          "Send recyclables only to registered units",
+          "Conduct community awareness programs"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Registration of Entities",
+        "content": "All entities in the plastic supply and recycling chain must be registered."
+      },
+      {
+        "heading": "Step 2: Stakeholder Registration Requirements",
+        "content": "Producers/Brand Owners: Register with SPCB/PCC (or CPCB if operating in 2+ states).\nRecyclers/Processors: Must register with SPCB or PCC before starting operations.\nManufacturers: Must register if producing raw plastic for others to use."
+      },
+      {
+        "heading": "Step 3: Standard Operating Procedure (SOP)",
+        "content": "Manufacturers and sellers must submit six-monthly reports with details of raw material purchases and sales of plastic products. These are verified by SPCB/PCC and forwarded to CPCB."
+      },
+      {
+        "heading": "Step 4: Annual Report Filing",
+        "content": "All recyclers and processors must file an annual plastic waste report to the local body (copy to SPCB/PCC) by 30th April each year."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How DOstartup Helps",
+        "description": [
+          "From registration to reporting, DOstartup simplifies compliance with expert guidance and streamlined processes."
+        ],
+        "points": [
+          "Choose a Plan – Pick the right package for your business",
+          "Submit Queries – Ask anything on SOP, EPR, Registration",
+          "Share Documents – Provide basic business and waste-related data",
+          "Application Drafting – We prepare, verify, and submit your application",
+          "End-to-End Compliance – We ensure your filings are accurate and on time"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is EPR?",
+        "answer": "Extended Producer Responsibility means the producer of plastic goods must ensure the environmentally sound management of plastic waste generated by their products—even after the products are sold."
+      },
+      {
+        "question": "Who is considered a manufacturer?",
+        "answer": "A manufacturer is any person or entity that produces plastic materials used in packaging, carry bags, multilayered plastics, or plastic components for sale or use."
+      },
+      {
+        "question": "What are the different categories of plastics?",
+        "answer": "Plastics are generally categorized into:\n- Recyclable Plastics (e.g., PET, HDPE)\n- Non-recyclable Plastics (e.g., multi-layered packaging)\n- Thermoset Plastics (e.g., bakelite, epoxy)\nEach type needs to be handled differently under compliance rules."
+      },
+      {
+        "question": "What are the modes of utilizing plastic waste?",
+        "answer": "Plastic waste can be:\n- Recycled through authorized facilities\n- Used in road construction\n- Converted into fuel or energy\n- Processed into new packaging or materials"
+      },
+      {
+        "question": "Who are the enforcing authorities?",
+        "answer": "CPCB (Central Pollution Control Board),\nSPCBs (State Pollution Control Boards),\nPCCs (Pollution Control Committees),\nUrban Local Bodies (ULBs) and Gram Panchayats in local areas."
+      },
+      {
+        "question": "Who is responsible for plastic waste management?",
+        "answer": "Responsibility lies with:\n- Producers, Importers, Brand Owners\n- Plastic manufacturers and recyclers\n- Urban Local Bodies, Gram Panchayats, and Bulk Consumers"
+      },
+      {
+        "question": "What is an action plan for Urban Local Bodies (ULBs)?",
+        "answer": "ULBs must draft and implement an action plan covering collection, segregation, recycling, awareness drives, disposal mechanisms, and engagement with recyclers and civil society."
+      }
+    ]
+  },
+  "plastic-waste-recycling-plant-pwm-setup": {
+    title: "Plastic Waste Recycling Plant Setup",
+    description: "Looking for a plastic waste recycling plant setup in India? Contact DoStartUp to transform plastic waste into an eco-friendly business opportunity!",
+    "overview": [
+      {
+        "heading": "Transform Plastic Waste into a Profitable & Sustainable Business with DoStartup",
+        "content": "Looking to establish a plastic waste recycling plant in India? At DoStartup, we simplify every step of the process—from planning to regulatory compliance—ensuring a smooth setup experience. With over 100+ successful plant setups and a leading 75% market share, we help eco-entrepreneurs turn waste into opportunity."
+      },
+      {
+        "heading": "Plastic Waste Recycling Plant Setup",
+        "content": "A plastic waste recycling plant is a specialized facility that processes discarded plastic into reusable materials and products. With India facing an escalating plastic waste crisis, such facilities are not just environmentally critical but also commercially viable—particularly in packaging, construction, manufacturing, and consumer goods sectors. At DoStartup, we assist businesses in setting up compliant, cost-effective, and scalable recycling plants that contribute to sustainable energy use, resource conservation, and green economic growth."
+      },
+      {
+        "heading": "What is Plastic Waste Recycling?",
+        "content": "Plastic recycling involves collecting, sorting, cleaning, and converting used plastics into new, usable forms—such as pellets, containers, bottles, and packaging materials. This eco-conscious process:\n- Reduces landfill waste\n- Minimizes environmental pollution\n- Lowers demand for new plastic production\n- Complies with national waste management laws\n\nA valid plastic waste recycling plant license is mandatory before starting operations."
+      },
+      {
+        "heading": "Why Register a Plastic Waste Recycling Plant?",
+        "content": "Establishing a registered recycling facility unlocks environmental, social, and business benefits:\n\n✅ Waste Reduction\n- Decreases the volume of plastic waste ending up in landfills or the environment.\n\n✅ Natural Resource Conservation\n- Cuts down on fossil fuel use and raw material consumption.\n\n✅ Boosts Corporate Social Responsibility (CSR)\n- Improves brand value and aligns with sustainability mandates.\n\n✅ Reduces Toxic Emissions\n- Mitigates the release of harmful gases from untreated waste.\n\n✅ Promotes Economic Development\n- Generates employment and fosters entrepreneurship.\n\n✅ Saves Energy\n- Uses significantly less energy compared to manufacturing virgin plastic."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Eligibility Criteria for Plant Setup",
+        "content": "- Land: Approx. 700–800 sq. ft. (based on plant capacity)\n- Utilities: Stable electricity, water supply, and basic equipment\n- Labor: A team of 12–15 skilled and unskilled workers\n- Raw Materials: Consistent supply of recyclable plastics\n- Machinery: Includes granulators, shredders, extruders, separators, conveyors, etc."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Personal & Business Identification",
+        "content": "- Request letter detailing industry type and activities\n- PAN & Aadhaar of the authorized signatory\n- Company MOA (for Pvt./Public Ltd. firms)"
+      },
+      {
+        "heading": "Establishment & Infrastructure",
+        "content": "- Land ownership/lease/rent proof\n- Utility bill (electricity/water)\n- Factory layout plan with waste yard\n- Topography sketch showing water bodies, roads, and dwellings"
+      },
+      {
+        "heading": "Compliance & Regulatory Certificates",
+        "content": "- Process and wastewater balance sheet\n- Zoning/Land use clearance\n- STP (Sewage Treatment Plant) proposal"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Conduct Market Research",
+        "content": "Assess demand, regional competition, and supplier networks."
+      },
+      {
+        "heading": "Step 2: Draft a Business Plan",
+        "content": "Include investment, operational costs, profitability estimates, and expansion goals."
+      },
+      {
+        "heading": "Step 3: Choose a Suitable Location",
+        "content": "Based on accessibility, zoning permissions, and utility availability."
+      },
+      {
+        "heading": "Step 4: Ensure Legal Compliance",
+        "content": "Fulfill environmental, labor, and municipal laws."
+      },
+      {
+        "heading": "Step 5: Secure Licenses & Permits",
+        "content": "Includes CPCB/SPCB approvals, factory license, and EPR authorization."
+      },
+      {
+        "heading": "Step 6: Complete Business Registration",
+        "content": "Formalize your entity and register under applicable regulatory frameworks."
+      },
+      {
+        "heading": "Recyclable vs Non-Recyclable Plastics",
+        "content": "Recyclable Plastics: PET, HDPE, LDPE, PP, PS, PVC. Non-Recyclable Plastics: Thermoset Plastics, Laminated & Multilayer Plastics, Styrofoam, Polycarbonate, Nylon, Bakelite, Melamine, PUF, Bioplastics."
+      },
+      {
+        "heading": "Plastic Recycling Process",
+        "content": "Plastic Collection: Sourced from homes, businesses, institutions. Sorting: Based on type, color, thickness—done manually or via machines. Washing: Removes labels, oils, and contaminants. Shredding: Reduces plastic size into flakes or chips. Plastic Identification: Categorized by density and melting point. Melting & Pelletizing: Turned into small pellets via extrusion. Compounding: Pellets are processed into usable plastic for manufacturers. Quality Control: Ensures compliance with safety and application standards. Packaging & Distribution: Ready-to-use recycled plastic is shipped to industries."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Industries Benefiting from Recycling Plants",
+        "content": "Recycling plants contribute to various industries by reducing environmental impact and providing raw materials for production. Some key industries benefiting include:\n\n- Packaging & Consumer Goods\n- Construction & Infrastructure\n- Automotive & Electronics\n- Textile & Furniture\n- Pharmaceutical & Healthcare\n- Hospitality & Agriculture"
+      },
+      {
+        "heading": "Difference: Plastic Waste vs E-waste Recycling",
+        "content": "Recycling processes differ significantly between plastic waste and electronic waste (e-waste). Below is a comparison:\n\n| Aspect               | Plastic Recycling                | E-waste Recycling                |\n|----------------------|----------------------------------|----------------------------------|\n| Focus                | Reuses plastic polymers          | Recovers metals & elements       |\n| Goal                 | Reduce pollution, reuse plastic  | Safe disposal, recover value     |\n| Law                  | Plastic Waste Management Rules, 2016 | E-Waste Management Rules, 2022   |\n| Recycled Items       | PET, HDPE, PVC, LDPE             | Computers, phones, batteries     |\n| Method               | Sorting, shredding, melting      | Dismantling, safe disposal       |"
+      },
+      {
+        "heading": "Required Licenses for Plant Setup",
+        "content": "To establish a plastic recycling plant, the following licenses and certifications are required:\n\n- Certificate of Incorporation (Private, Public, LLP, or Proprietorship)\n- GST Registration\n- SPCB/PCC No Objection Certificate\n- Factory License\n- Import Export Code (if importing equipment/material)"
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DoStartup?",
+        "description": [
+          "With over 10 years of experience, DOstartup has become a trusted partner for recycling plant setups, providing end-to-end support to ensure compliance and operational success."
+        ],
+        "points": [
+          "10+ Years of Experience – Assisted in setting up 100+ recycling units across India.",
+          "99% Approval Success Rate – Trusted by startups, SMEs, and large industries.",
+          "End-to-End Compliance Support – From paperwork to factory registration, handled by experts.",
+          "Real-Time Progress Tracking – Transparent updates and timeline alerts on your application.",
+          "24/7 Expert Assistance – Support team available anytime to guide you."
+        ]
+      }
+    ]
+  },
+  "plastic-waste-processors-authorisation": {
+    title: "Plastic Waste Processors Authorisation",
+    description: "Aiming to become a plastic waste processor and minimize the environmental impact of plastic waste? Get plastic waste processors authorisation with us.",
+    "overview": [
+      {
+        "heading": "Plastic Waste Processors Authorisation",
+        "content": "Become a certified Plastic Waste Processor and contribute to responsible plastic disposal and recycling. Secure your authorisation with DOstartup’s expert assistance. ✅ 10+ Years of Experience ✅ 400+ In-House CAs, CSs & Legal Experts ✅ 99% SLA Delivery ✅ 10,000+ Pincode Coverage Across India"
+      },
+      {
+        "heading": "Plastic Waste Processors Authorisation (PWP Registration)",
+        "content": "If your business handles recycling, co-processing, plastic-to-oil, or plastic-to-energy activities, obtaining Plastic Waste Processor Authorisation (PWP Registration) is mandatory under the latest CPCB guidelines. As per notifications from the Central Pollution Control Board (CPCB) under the Ministry of Environment, Forest and Climate Change (MoEF&CC), all plastic waste processors must register on the Centralised EPR Portal and comply with Extended Producer Responsibility (EPR) norms. DOstartup simplifies the complex authorisation process—let our experts help you meet compliance standards seamlessly."
+      },
+      {
+        "heading": "Who is a Plastic Waste Processor?",
+        "content": "A Plastic Waste Processor (PWP) includes:\n- Recyclers\n- Entities using plastic waste for energy generation\n- Plastic-to-oil processors\n- Industries involved in composting using plastic waste\n\nThey handle the transformation of plastic waste into reusable formats or safe disposals like sanitary blocks, energy fuel, or industrial raw material."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Key Benefits of Plastic Waste Processors Authorisation",
+        "content": "Plastic Waste Processors Authorisation provides several strategic benefits, such as:\n\n- Enables conversion of plastic waste into fuel from non-recyclable materials like textile waste, non-recyclable papers, etc.\n- Reduces carbon footprint in comparison to fossil fuels.\n- Economical waste disposal solution.\n- Enables treatment of diverse material types, including difficult-to-recycle waste.\n- Fuels produced can be customized for various applications (e.g., transport, industrial heating).\n- Promotes legal and compliant operation under the EPR framework."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Personal & Business Identification",
+        "content": "- Aadhar or PAN Card of Authorized Person\n- PAN & TIN Details\n- Certificate of Incorporation"
+      },
+      {
+        "heading": "Establishment & Infrastructure",
+        "content": "- Manufacturing Process Flow Diagram\n- Geo-tagged Photos of Plant (Production, Storage, Dispatch)\n- Geo-tagged Equipment Photos\n- Site/Layout Plan\n- Water Bill\n- Electricity Bill\n- Land & Tax Documents\n- Date of Commencement"
+      },
+      {
+        "heading": "Compliance & Regulatory Certificates",
+        "content": "- Consent Certificates (Air & Water Acts) from SPCB/PCC\n- Hazardous Waste Authorisation from SPCB/PCC\n- Occupational Safety Documentation\n- Pollution Control Measures\n- Waste Classification Test Report\n- Disaster Management Plan (Onsite/Offsite)\n- Authorisation Letter\n- Factory/Trade License\n- Water Usage Breakdown\n- Effluent Treatment Plant Diagram\n- Processing Unit Department Certificate\n- Municipality/Unit License\n- Air Pollution Control Details"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: EPR Authorisation Process",
+        "content": "As per the Plastic Waste Management Rules, 2016:\n- Collect and arrange the required documents.\n- Submit the application through the Centralised EPR Portal of CPCB.\n- SPCB/PCC authorities review and validate documents.\n- Application is processed within 15 days.\n- If no action is taken within the stipulated timeline, auto-registration may occur."
+      },
+      {
+        "heading": "Step 2: Consent Certificate (CTE & CTO) Process",
+        "content": "Before setup:\n- Apply for Consent to Establish (CTE) under the Air & Water Acts via your State Pollution Control Board (SPCB).\nAfter setup:\n- Apply for Consent to Operate (CTO).\nProcess:\n- Submit application with documents to SPCB/PCC.\n- Site inspection by designated authority.\n- Inspection report analysis.\n- Certificate is issued based on findings."
+      },
+      {
+        "heading": "Step 3: Factory License Process",
+        "content": "Mandatory for all plastic processing units.\nSteps:\n- Submit application with layout plans, MoA, AoA, and other required documents.\n- Site inspection by Labour Department’s Chief Inspector.\n- License approval based on inspection."
+      },
+      {
+        "heading": "Step 4: Compliance Requirements under PWM Rules",
+        "content": "All Plastic Waste Processors must:\n- Be registered via CPCB's centralised EPR portal.\n- Only associate with CPCB-registered PIBOs.\n- Issue verified plastic waste processing certificates to ensure EPR target fulfillment.\n- Upload accurate data on plastic waste collected, processed, and sold (with GST details).\n- Participate in EPR credit exchange with PIBOs.\n- File Annual Returns by 30th June for each financial year.\n- Not deal in banned Single-Use Plastic (SUP) items.\n- Operate within approved capacity; excess is not eligible for PWB certificates.\n- Follow all PWM Rules, including CTO and pollution control requirements.\n- Ensure all submitted information is true—misrepresentation may lead to 1-year debarment."
+      },
+      {
+        "heading": "Step 5: Role of Pollution Control Boards (SPCB/CPCB)",
+        "content": "SPCB/CPCB are responsible for:\n- Registering PWPs, PIBOs, and others involved in plastic waste management.\n- Inspecting and auditing facilities.\n- Publishing annual compliance status of non-compliant PIBOs.\n- Analyzing municipal waste to monitor plastic content bi-annually.\n- Collecting processing and annual return fees."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DOstartup for PWP Authorisation?",
+        "description": [
+          "With over 10 years of environmental compliance expertise, DOstartup has become a trusted partner for Plastic Waste Processor (PWP) Authorisation, providing end-to-end support to ensure compliance and operational success."
+        ],
+        "points": [
+          "10+ Years of Environmental Compliance Expertise – Assisted 300+ Plastic Waste Processors across India.",
+          "99% Success Rate in Obtaining Authorisation – Trusted by businesses nationwide.",
+          "End-to-End Documentation, Filing & Liaison Support – We handle everything from paperwork to liaising with authorities.",
+          "Expert Legal and Environmental Consultants – Our team ensures full compliance with legal and environmental standards."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who is a Plastic Waste Processor?",
+        "answer": "A PWP is an individual or entity that recycles or processes plastic waste into reusable forms like fuel, oil, or energy. This includes recyclers, waste-to-energy converters, and industrial composters."
+      },
+      {
+        "question": "Is Plastic Waste Processor Authorisation mandatory?",
+        "answer": "Yes. As per CPCB guidelines and Plastic Waste Management Rules, all PWPs must register on the Centralised EPR Portal."
+      },
+      {
+        "question": "What are the benefits of PWP Authorisation?",
+        "answer": "Enables legal operations, access to EPR credit exchange, facilitates safe and compliant waste processing, helps meet national environmental targets, and adds credibility to business."
+      },
+      {
+        "question": "What law governs PWP Registration?",
+        "answer": "The Plastic Waste Management (PWM) Rules, 2016, regulated by the MoEF&CC and implemented via CPCB."
+      },
+      {
+        "question": "What is the full form of PWP?",
+        "answer": "Plastic Waste Processor."
+      },
+      {
+        "question": "What are the responsibilities of Plastic Waste Processors?",
+        "answer": "Operate within permitted capacity, issue verified processing certificates, file timely annual returns, ensure safe and compliant waste disposal, and stay compliant with PWM Rules."
+      },
+      {
+        "question": "How long does it take to get PWP registration?",
+        "answer": "Typically 15–30 days, depending on documentation and regulatory processes."
+      },
+      {
+        "question": "Which industries need plastic waste processing?",
+        "answer": "Packaging, FMCG, Logistics, Retail, Manufacturing, and Plastic recycling and conversion units."
+      },
+      {
+        "question": "Is plastic waste processing still needed after registration?",
+        "answer": "Yes. Registration is the first step. Ongoing processing, compliance, certification issuance, and reporting remain mandatory."
+      }
+    ]
+  },
+  "epr-fulfilment-plastic-waste-management": {
+    title: "EPR Fulfilment For Plastic Waste Management",
+    description: "Get your EPR Fulfilment in Plastic Waste Management done with the help of DoStartUp.",
+    "overview": [
+      {
+        "heading": "EPR Fulfilment for Plastic Waste Management in India",
+        "content": "Streamline your EPR obligations with expert support from DoStartup. 🏆 10+ Years of Industry Experience 👨‍⚖️ 400+ In-House Experts (CAs, CS, Lawyers) 📦 Pan-India Presence – 10,000+ Pin Codes ⚡ 99% SLA Delivery Rate"
+      },
+      {
+        "heading": "What is EPR in Plastic Waste Management?",
+        "content": "Extended Producer Responsibility (EPR) is a mandatory environmental policy that makes Producers, Importers, and Brand Owners (PIBOs) responsible for the collection, recycling, and proper disposal of plastic packaging waste they introduce into the market. Under the Plastic Waste Management Rules, PIBOs must:\n- Minimize plastic waste generation\n- Ensure proper collection, segregation, and recycling\n- File annual returns and EPR compliance reports\n- Fulfil targets based on plastic categories and usage"
+      },
+      {
+        "heading": "Who Must Fulfil EPR Obligations?",
+        "content": "The following entities are mandated to fulfil EPR obligations under PWM Rules:\n- Producers (P): Entities manufacturing or importing plastic packaging materials\n- Importers (I): Entities importing products with plastic packaging\n- Brand Owners (BO): Including marketplaces, supermarkets, or retail chains (excluding micro & small enterprises)\n- Plastic Waste Processors (PWPs): Excluding cement kilns and road construction entities"
+      }
+    ],
+    "Need": [
+      {
+        "category": "Annual Return Requirements for Plastic Waste",
+        "documents": [
+          "All registered Plastic Waste Processors must file Annual Returns by April 30 each year for the previous fiscal.",
+          "Disclose state-wise & category-wise plastic waste processed.",
+          "Ensure data matches the PIBOs’ submissions.",
+          "Risk debarment for up to 5 years in case of false or misleading submissions."
+        ]
+      },
+      {
+        "category": "Plastic Waste Collection Guidelines for PIBOs",
+        "documents": [
+          "PIBOs are responsible for setting up and maintaining waste collection infrastructure, which may include Collection Points and Material Recovery Facilities (MRFs).",
+          "Regular collection aligned with geography and waste volume.",
+          "Engagement with local bodies and public waste collectors.",
+          "Verified handover of waste to registered recyclers or for approved end-use."
+        ]
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Personal & Business Identification",
+        "content": "- Legal & Trade Name (as per GST) - Mandatory\n- Type of Business and Company Size (Micro/Small/Medium/Large) with proof\n- Registered Address & PAN of Company - Validated via the CPCB Portal\n- CIN (for registered companies) - Verified on the Portal\n- Authorized Person Details (Name, Mobile, PAN) - Aadhaar optional"
+      },
+      {
+        "heading": "Establishment & Infrastructure",
+        "content": ""
+      },
+      {
+        "heading": "Compliance & Regulatory Certificates",
+        "content": ""
+      }
+    ],
+    "Challenges": [
+      {
+        "category": "Challenges in EPR Fulfilment for Plastic Waste",
+        "documents": [
+          "Informal Collection Networks: Lack of source-level segregation & reliance on waste pickers",
+          "Limited Recycling Facilities: Most centralized; few near rural or remote zones",
+          "Low-Value Plastics: Sachets, films, composites are difficult & costly to collect and recycle",
+          "Infrastructure Gaps: Inadequate tracking, monitoring, and enforcement systems"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Key Benefits of Plastic Waste Processors Authorisation",
+        "content": "Plastic Waste Processors Authorisation provides several strategic benefits, such as:\n\n- Enables conversion of plastic waste into fuel from non-recyclable materials like textile waste, non-recyclable papers, etc.\n- Reduces carbon footprint in comparison to fossil fuels.\n- Economical waste disposal solution.\n- Enables treatment of diverse material types, including difficult-to-recycle waste.\n- Fuels produced can be customized for various applications (e.g., transport, industrial heating).\n- Promotes legal and compliant operation under the EPR framework."
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Register on CPCB’s Centralized EPR Portal",
+        "content": "The first step in fulfilling EPR obligations is registering on CPCB’s Centralized EPR Portal."
+      },
+      {
+        "heading": "Step 2: Determine EPR Targets",
+        "content": "Calculate the EPR targets based on category & sales data to understand the quantity of plastic waste you need to manage."
+      },
+      {
+        "heading": "Step 3: Setup Recycling, Reuse, End-of-life Disposal Systems",
+        "content": "Implement the necessary systems to handle recycling, reuse, and disposal of plastic waste according to the targets."
+      },
+      {
+        "heading": "Step 4: Upload Annual Reports & Recycling Certificates",
+        "content": "Submit your annual reports and recycling certificates by April 30 each year to comply with EPR requirements."
+      },
+      {
+        "heading": "Step 5: Submit Final Returns",
+        "content": "Ensure the final returns are submitted via the portal by June 30 to complete your EPR fulfilment process."
+      },
+      {
+        "heading": "Step 6: Stay Updated with Amendments",
+        "content": "Regularly monitor and update your processes to comply with any ongoing amendments in the Plastic Waste Management (PWM) Rules."
+      }
+    ],
+    "registrationTimeline": [
+      {
+        "heading": "Timeline of Plastic Waste Management Regulations",
+        "description": "The evolution of plastic waste management regulations in India has been a phased process. Below is a breakdown of key milestones and their corresponding timelines:",
+        "steps": [
+          {
+            "title": "1. Recycled Plastics Usage Rules (1998)",
+            "duration": "1 Year",
+            "description": "The first set of regulations aimed at managing recycled plastics came into effect, focusing on recycling processes and usage of recycled plastics in various industries."
+          },
+          {
+            "title": "2. Various Iterations of Plastics Manufacture and Waste Management Rules (1999–2011)",
+            "duration": "12 Years",
+            "description": "During this period, multiple amendments were made to improve the plastics manufacturing process and waste management, including guidelines for the disposal of plastic waste."
+          },
+          {
+            "title": "3. Plastic Waste Management Rules, 2016",
+            "duration": "1 Year",
+            "description": "A significant milestone, these rules introduced Extended Producer Responsibility (EPR) for producers, importers, and brand owners (PIBOs), making them responsible for the entire lifecycle of plastic waste."
+          },
+          {
+            "title": "4. Multiple Amendments Enhancing Scope & Enforcement of EPR Compliance (2018–2022)",
+            "duration": "4 Years",
+            "description": "The regulations were continuously enhanced to broaden the scope of EPR compliance, making it more stringent and providing more clarity on obligations for waste management, recycling, and disposal."
+          }
+        ]
+      }
+    ],
+    "Categories": [
+      {
+        "category": "Plastic Packaging Categories (As per PWM Rules, 2016)",
+        "documents": [
+          "Polyethylene Terephthalate (PET): A widely used plastic for bottles, containers, and packaging films.",
+          "High-Density Polyethylene (HDPE): Commonly used in milk jugs, detergent bottles, and plastic bags.",
+          "Polyvinyl Chloride (PVC): Used in pipes, flooring, and some food packaging.",
+          "Low-Density Polyethylene (LDPE): Typically used for plastic bags, wraps, and containers.",
+          "Polypropylene (PP): Used in food containers, straws, and packaging materials.",
+          "Polystyrene (PS): Found in disposable cutlery, packaging materials, and some foam products.",
+          "Multi-layered Materials (ABS, PPO, PC): A mix of plastics used in complex packaging products that combine different material properties."
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Can DoStartup Help?",
+        "description": [
+          "We offer end-to-end support for smooth and compliant EPR fulfilment, ensuring your business stays compliant with all regulations."
+        ],
+        "points": [
+          "Expert Advisory – Dedicated EPR consultants to guide you through every step.",
+          "Portal Registration & Compliance – We handle CPCB registrations, EPR action plans, and return filings.",
+          "Document & Reporting Management – From PAN to recycling data, we collect and verify every detail.",
+          "Real-Time Updates – Track your progress, deadlines, and receive reminders via our user interface."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is EPR in the context of plastic waste?",
+        "answer": "EPR stands for Extended Producer Responsibility. It holds producers responsible for managing the plastic packaging waste generated from their products throughout its lifecycle."
+      },
+      {
+        "question": "Why is EPR important in India?",
+        "answer": "It helps reduce plastic pollution, promote recycling, and build a circular economy by assigning clear accountability to plastic-producing entities."
+      },
+      {
+        "question": "Who needs to comply with EPR in India?",
+        "answer": "All Producers, Importers, and Brand Owners (PIBOs) who introduce plastic packaging or plastic-packaged goods into the Indian market."
+      },
+      {
+        "question": "How does the EPR process work?",
+        "answer": "Register on CPCB’s portal → Set targets → Collect & recycle plastic waste → Submit annual returns & recycling certificates."
+      },
+      {
+        "question": "What are the penalties for non-compliance?",
+        "answer": "Entities providing false information or failing to meet targets may be debarred from operations for 5 years and face legal action by CPCB or SPCBs."
+      },
+      {
+        "question": "What is the role of recycling facilities in EPR?",
+        "answer": "Recycling facilities handle the final processing of collected waste. Only registered recyclers are recognized for EPR certificate validation."
+      },
+      {
+        "question": "Are consumers part of EPR fulfilment?",
+        "answer": "Yes, indirectly. Consumers must segregate waste, avoid littering, and support responsible consumption and recycling practices."
+      },
+      {
+        "question": "How do I know if my company is required to register?",
+        "answer": "If your company deals with plastic packaging or packaged goods, you are most likely obligated under EPR rules."
+      },
+      {
+        "question": "Can DoStartup help file my annual return?",
+        "answer": "Absolutely. We manage your entire EPR lifecycle, including registration, return filing, document collection, and CPCB coordination."
+      },
+      {
+        "question": "What types of plastics are covered under EPR?",
+        "answer": "From PET bottles to multilayered sachets – all primary, secondary, and tertiary plastic packaging falls under the scope."
+      },
+      {
+        "question": "What’s the deadline for filing EPR returns?",
+        "answer": "April 30: Return submission by PWPs and PIBOs. June 30: Final annual filing with CPCB/SPCB."
+      }
+    ]
+  },
+  "ngo-project-report": {
+    title: "NGO Project Report",
+    description: "Are you looking for expert assistance in getting your NGO project report ready? Contact DoStartup team and get an error-free, in-depth report in no time.",
+    overview: [
+      {
+        "heading": "Purpose of Project Reports for NGOs",
+        "content": "NGOs prepare Project Reports to help both the organization and its donors track whether project activities and updates align with the planned objectives. These reports also reflect the financial status of the project and any additional resource needs. Beneficiaries can also assess how effectively funds are being utilized to serve the intended purpose. In addition, these reports enable government authorities to monitor the legality and effectiveness of the NGO’s operations."
+      },
+      {
+        "heading": "Importance of Project Reports",
+        "content": "Project reports are essential in tracking the progress of NGO projects and ensuring that both financial and operational targets are met. They help NGOs and donors monitor the alignment of activities with the planned goals. Beneficiaries can assess the proper use of funds, while government authorities ensure legal compliance and the effectiveness of the NGO’s activities."
+      },
+      {
+        "heading": "Who Benefits from Project Reports?",
+        "content": "The following stakeholders benefit from project reports:\n- NGOs: Helps track project progress and resource utilization\n- Donors: Provides a clear picture of the project's alignment with objectives and financial health\n- Beneficiaries: Can assess how effectively the funds are being utilized for their benefit\n- Government Authorities: Monitors the legality and effectiveness of the NGO’s operations"
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Monthly Progress Report (MPR)",
+        "content": "• Details monthly progress on project implementation, fund utilization, and impact tracking. Prepared and submitted every month throughout the project lifecycle."
+      },
+      {
+        "heading": "Quarterly Report (QR)",
+        "content": "• Prepared every three months, this report assesses project performance, highlights critical issues, and tracks impact indicators."
+      },
+      {
+        "heading": "Half-Yearly Report (HYR)",
+        "content": "• This bi-annual report updates donors and stakeholders on project status and financials, often including requests for continued or additional funding. It must adhere to the terms specified in agreements with donors."
+      },
+      {
+        "heading": "Annual Report (AR)",
+        "content": "• An overview of all activities and programs undertaken over the past year. It provides insights into an NGO's overall performance and future direction."
+      },
+      {
+        "heading": "Project Completion Report (PCR)",
+        "content": "• Submitted within 2–3 months of project completion. This consolidated report summarizes project objectives, execution, financials, and outcomes, following the donor’s specified format."
+      },
+      {
+        "heading": "Project Evaluation Report (PER)",
+        "content": "• Prepared based on periodic reviews, evaluating performance either at the formative stage or post-completion as per the donor agreement."
+      },
+      {
+        "heading": "Project Monitoring Report (PMR)",
+        "content": "• Submitted monthly to stakeholders, this report keeps them informed of implementation updates and any challenges faced during execution."
+      },
+      {
+        "heading": "Program/Field Report",
+        "content": "• Prepared after each event (e.g., training sessions, workshops, seminars) and shared with participants, sponsors, and resource persons."
+      },
+      {
+        "heading": "Budget Comparison Report",
+        "content": "• Compares planned budgets with actual expenditures, highlighting variances and providing lessons for better financial planning in future projects."
+      }
+    ],
+    Listicles: [
+      {
+        "category": "Documents Required for NGO Project Reports",
+        "documents": [
+          "NGO Registration Certificate (e.g., Memorandum of Association or Trust Deed)",
+          "Rules and Regulations or Trust Deed",
+          "Financial Statements and Balance Sheets for the last 3 years",
+          "Annual Reports of past 3 years",
+          "NGO PAN Card",
+          "Bank account details",
+          "Registration under Sections 12A and 80G of the Income Tax Act, 1961"
+        ]
+      }
+    ],
+    Regulations: [
+      {
+        "category": "When is an NGO Project Report Required?",
+        "documents": [
+          "To apply for funding from donors",
+          "To demonstrate legal and ethical project operations",
+          "To update stakeholders and donors on project progress",
+          "To provide clarity on financial performance and budgets",
+          "To document programs conducted, shared with participants and partners"
+        ]
+      },
+      {
+        "category": "Donor Agencies That Require NGO Project Reports",
+        "documents": [
+          "Government Funding Agencies: NGOs that have been in operation for over 3 years can seek larger grants from government ministries. Younger NGOs may receive short-term funding for specific projects.",
+          "Foreign Donors: NGOs registered under the Foreign Contribution Regulation Act (FCRA) can receive funds from foreign donors, with prior FCRA approval for newly formed NGOs.",
+          "Corporate Social Responsibility (CSR) Funding: Corporates must donate a portion of their profits to social causes. NGOs registered under Section 12A and 80G of the Income Tax Act are preferred."
+        ]
+      },
+      {
+        "category": "Structure for Drafting an NGO Project Report",
+        "documents": [
+          "Title of the Report",
+          "Table of Contents",
+          "Executive Summary / Abstract",
+          "Introduction",
+          "Main Body (objectives, methodology, financials, implementation, etc.)",
+          "Conclusion",
+          "Summary and recommendations"
+        ]
+      },
+      {
+        "category": "Key Considerations While Drafting a Project Report",
+        "documents": [
+          "Include Photographs from project activities like camps, training, and workshops",
+          "Use Graphs and Tables to illustrate financial data and progress metrics",
+          "Define Technical Terms and abbreviations clearly",
+          "Avoid Figurative or Ambiguous Language",
+          "Ensure Final Formatting includes page numbers, section headers, visual aids, etc.",
+          "Complete the Report Early to allow time for review and feedback"
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        "heading": "How Can DoStartup Help?",
+        "description": [
+          "DoStartup provides dedicated support for NGOs in preparing professionally structured and compliant Project Reports. We connect you with domain experts who understand the specific legal, financial, and compliance needs of NGOs."
+        ],
+        "points": [
+          "Choose a Support Plan to get started",
+          "Submit Queries related to NGO Project Report preparation",
+          "Provide Required Documents to DoStartup experts",
+          "Receive Application Support for all necessary filings and reports",
+          "Meet All Eligibility and Compliance Criteria",
+          "Complete the Process with End-to-End Guidance",
+          "Fulfill all Legal Requirements with DoStartup's Expert Assistance"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "Why do Non-Governmental Organisations need to prepare an NGO Project Report?",
+        "answer": "NGOs are required to prepare project reports to help both the organisation and donors monitor whether the activities and updates are aligned with the project plan. These reports also provide insights into the project's financial status and highlight any additional requirements."
+      },
+      {
+        "question": "What are the benefits of preparing an NGO Project Report?",
+        "answer": "NGO Project Reports enable beneficiaries to verify whether funds are being used appropriately to meet the intended objectives. Additionally, these reports allow government bodies to assess the legal and transparent functioning of NGOs."
+      },
+      {
+        "question": "What are the different types of NGO Project Reports?",
+        "answer": "NGO Project Reports are categorized based on the project’s progress and monitoring needs. Common types include:\n- Monthly Progress Report\n- Quarterly Report\n- Half-Yearly Report\n- Project Completion Report\n- Project Evaluation Report\n- Project Monitoring Report\n- Program Report\n- Budget Comparison Report"
+      },
+      {
+        "question": "What are the two categories of the Project Evaluation Report?",
+        "answer": "Project Evaluation Reports are generally divided into:\n- Reports submitted after the completion of the project\n- Reports submitted during the formative stages of the project"
+      },
+      {
+        "question": "What is the purpose of the Budget Comparison Report?",
+        "answer": "This report compares the original budget plan with the actual financial expenditures, helping to assess whether the project is being managed within its financial limits."
+      },
+      {
+        "question": "When is it necessary to submit an NGO Project Report?",
+        "answer": "NGO Project Reports are essential in the following situations:\n- When seeking funding for a project\n- For legal monitoring of the NGO's operations\n- To provide updates on ongoing project progress\n- To share information with event participants, sponsors, and resource persons\n- To analyze and explain financial statements and budget plans"
+      },
+      {
+        "question": "What are the key points to consider when drafting an NGO Project Report?",
+        "answer": "Important elements to consider include:\n- Including photographs that show program execution\n- Incorporating graphs and tables for data clarity\n- Defining terms and abbreviations clearly\n- Avoiding figurative or vague language\n- Finalizing proper formatting and layout\n- Preparing the report in advance and seeking constructive feedback"
+      },
+      {
+        "question": "Who are the potential donor agencies that require NGO Project Reports?",
+        "answer": "Donor agencies that typically require regular NGO project reports include:\n- Government funding agencies\n- International or foreign funding organizations\n- Corporates providing CSR (Corporate Social Responsibility) funds\nThese reports help donor agencies track project progress, ensure legal compliance, and stay informed about the project's financial health."
+      }
+    ]
+  },
+  "ngo-accounting": {
+    title: "NGO Accounting",
+    description: "All registered NGOs should maintain a system for recording and submitting all types of financial transactions made by them to implement projects and run their organisation.",
+    "overview": [
+      {
+        "heading": "NGO Accounting Overview",
+        "content": "An NGO (Non-Governmental Organization) exists to serve a social purpose, not to generate profit. NGO Accounting is the system used to record and report all financial transactions related to such activities. It involves selecting the right accounting method, staying compliant with tax laws, and accurately preparing financial statements. Since NGOs receive funds through donations and contributions without expecting returns, their accounting practices are tailored to reflect their mission-driven operations. Unlike for-profit entities, NGOs focus on keeping administrative costs low, so most of the funds go directly into social programs and services. They also enjoy tax exemptions, making their financial reporting requirements unique."
+      },
+      {
+        "heading": "Key Financial Statements in NGO Accounting",
+        "content": "• Statement of Financial Position\n• Statement of Activities\n• Statement of Functional Expenses"
+      },
+      {
+        "heading": "Methods of Accounting Used in NGOs",
+        "content": "NGOs may adopt either of the following accounting methods:\n- Cash Accounting Method: Records income and expenses only when cash is exchanged.\n- Accrual Accounting Method: Records income and expenses when the transaction takes place, not when the cash is received or paid. This method offers more accurate and complete financial reporting."
+      },
+      {
+        "heading": "Components of NGO Accounting",
+        "content": "NGO accounting differs significantly from regular business accounting in the following ways:\n- Donations: Can be general (used for any purpose) or specific (used only for the donor-specified objective).\n- Program-Based Accounting: Separate accounting is done for each welfare program to track surplus or deficit.\n- Net Assets vs. Equity: NGOs don’t have shareholders, so instead of equity, the net assets are reported.\n- Statement of Activities: Replaces the profit and loss statement in for-profit firms.\n- Functional Expense Statement: Categorizes expenses by function and fund, showing transparency in fund usage."
+      },
+      {
+        "heading": "Basis of NGO Accounting",
+        "content": "NGO accounting is built upon specific foundational practices:\n- Based on historical accounting with periodic asset revaluation.\n- Accrual-based reporting for donations, grants, and revenues.\n- Grants and donations are treated as non-operating income and reported separately.\n- In-kind contributions are recognized through journal entries, supported by formal documents (agreements, MoUs, letters, etc.).\n- A standard documentation flow is followed: Expense → Voucher → Cash Book → Ledger → Trial Balance → Final Accounts."
+      },
+      {
+        "heading": "Fund Accounting in NGOs",
+        "content": "Fund accounting allows NGOs to organize and control donations based on restrictions:\n- Restricted Funds: Used only for designated projects.\n- Temporarily Restricted Funds: Can be used for specific purposes within a defined time frame.\n- Unrestricted Funds: Also called the Annual Fund, these can be used as needed by the organization."
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Enables accurate tracking of program-specific expenditures",
+        "content": "• Enables precise monitoring of expenditures related to specific programs, ensuring financial accountability and efficient use of resources."
+      },
+      {
+        "heading": "Promotes transparency and builds trust with donors and regulators",
+        "content": "• By maintaining clear and transparent financial records, NGO accounting fosters trust with donors, regulators, and stakeholders, demonstrating proper fund usage."
+      },
+      {
+        "heading": "Encourages detailed reporting and resource optimization",
+        "content": "• Detailed financial reporting allows NGOs to optimize resource allocation, making sure funds are used effectively for their intended purposes."
+      },
+      {
+        "heading": "Higher risk of fraud due to complexity and dependency on internal controls",
+        "content": "• Due to the complexity of financial systems and the dependency on internal controls, NGOs face a higher risk of fraud if proper safeguards are not in place."
+      },
+      {
+        "heading": "Risk of incomplete reporting if grants or donations are not properly recorded",
+        "content": "• If grants or donations are not properly recorded or tracked, there is a risk of incomplete or inaccurate reporting, leading to compliance issues or mismanagement of funds."
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Books and Documents Maintained by NGOs",
+        "documents": [
+          "Cash/Bank vouchers and books",
+          "Petty cash summary",
+          "Journal vouchers and general ledger",
+          "Fixed asset register",
+          "Attendance register and grant budget documents",
+          "Utilisation certificates",
+          "Donation receipt records",
+          "Advance payment and cancelled cheque registers",
+          "Bank mandates, agreements, contracts, and bills"
+        ]
+      },
+      {
+        "category": "Key NGO Accounting Reports",
+        "documents": [
+          "Budget: Annual planning document based on previous years and fundraising expectations.",
+          "Statement of Financial Position: The NGO’s balance sheet, showing assets and liabilities.",
+          "Statement of Activities: Tracks all revenue and expenses and net asset changes.",
+          "Statement of Functional Expenses: Breaks down expenses by function—administration, programs, and fundraising.",
+          "Statement of Cash Flows: Shows how cash is generated and used across operating, investing, and financing activities.",
+          "Form 990: Annual tax return for tax-exempt NGOs to ensure legal compliance."
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "How Can DoStartup Help?",
+        "description": [
+          "DoStartup has a dedicated team of accounting experts to manage your NGO’s financials professionally and in compliance with the law."
+        ],
+        "points": [
+          "Choose a Plan – Get expert assistance tailored for your NGO.",
+          "Ask Your Questions – Clear any doubts with our professionals.",
+          "Eligibility Check – We ensure you meet all criteria before we begin.",
+          "Full Compliance Action – From data review to filings, we handle it all.",
+          "Delivery – Accurate reports, clear compliance, and complete peace of mind."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is an NGO?",
+        "answer": "An NGO (Non-Governmental Organization) is a non-profit entity established to serve social, cultural, environmental, or humanitarian causes. Its main objective is to meet the needs of society rather than earn profits."
+      },
+      {
+        "question": "What is the purpose of NGO Accounting?",
+        "answer": "NGO accounting focuses on accountability rather than profitability. It ensures that all funds are properly tracked and used for their intended purposes, reflecting transparency and responsibility in financial management."
+      },
+      {
+        "question": "What are the tax benefits for NGOs?",
+        "answer": "NGOs enjoy income tax exemptions on the funds they receive. However, to avail of these benefits, an NGO must be registered with the Income Tax Department under relevant sections such as 12A and 80G of the Income Tax Act."
+      },
+      {
+        "question": "What is an NGO Financial Management Policy?",
+        "answer": "An NGO financial management policy is a formal manual outlining the accounting procedures, internal controls, and financial systems followed by the NGO. It ensures systematic handling of funds, compliance with statutory requirements, and effective governance."
+      },
+      {
+        "question": "Who is responsible for managing an NGO’s finances?",
+        "answer": "The Board of Directors or Governing Body of the NGO typically appoints a Finance Committee responsible for overseeing the organization's financial operations and ensuring proper utilization of funds."
+      },
+      {
+        "question": "What is the importance of an accounting trail?",
+        "answer": "An accounting trail provides a transparent record of financial transactions. It helps in verifying expenses, preventing fraud, and ensuring accountability in all financial activities undertaken by the NGO."
+      },
+      {
+        "question": "Can an NGO operating in multiple locations maintain location-wise books of accounts?",
+        "answer": "Yes, an NGO with operations in multiple locations can and should maintain separate books of accounts for each location. This practice improves clarity and helps in tracking program-wise or region-wise expenses more efficiently."
+      },
+      {
+        "question": "Are an NGO's financial statements available to the public?",
+        "answer": "Yes. NGOs are required to submit financial statements to the Income Tax Department or other statutory bodies. These statements are often publicly accessible, either through regulatory agencies or upon request, to promote transparency."
+      },
+      {
+        "question": "What do the Statement of Activities and Statement of Financial Position refer to?",
+        "answer": "The Statement of Activities is similar to an Income Statement, showing revenues and expenses. The Statement of Financial Position is the NGO’s Balance Sheet, detailing assets, liabilities, and net assets at a specific date."
+      },
+      {
+        "question": "Need expert assistance with NGO Accounting?",
+        "answer": "DoStartup offers end-to-end accounting, compliance, and advisory solutions tailored for NGOs. From registration to fund management, our professionals help you stay legally compliant and financially transparent."
+      }
+    ]
+  },
+  "ngo-income-tax-advisory": {
+    title: "NGO Income Tax Advisory",
+    description: "Wondering how to meet income tax compliance needs for your NGO? Talk to our experts and experience the best NGO income tax advisory services.",
+    "overview": [
+      {
+        "heading": "NGO Income Tax Advisory Overview",
+        "content": "DoStartup’s NGO income tax advisory assists organizations in meeting complex tax compliance requirements. Our customized solutions help NGOs effortlessly navigate tax regulations, optimize liabilities, and ensure financial transparency. By partnering with DoStartup, obtaining compliance certificates becomes efficient and hassle-free. We connect you with expert tax professionals and simplify legal complexities with timely guidance and transparent communication."
+      },
+      {
+        "heading": "Services You Get",
+        "content": "• Strategic Tax Planning\n• Tax Document Preparation & Filing\n• 12A & 80G Registration Support\n• Procedural Compliance Assistance\n• Ongoing Monitoring & Evaluation"
+      },
+      {
+        "heading": "About NGO Income Tax Advisory",
+        "content": "NGOs, while often exempt from income tax, must follow specific reporting and procedural rules. Non-compliance can result in penalties or adherence issues. DoStartup’s advisory services guide NGOs through income tax planning, compliance, benefits, audit preparation, and regulatory updates, helping them remain transparent and effective. Registered public charitable trusts and NGOs can benefit from tax exemptions under Sections 11, 12, 12A, 12AA, 12AB, 80G, and others—DoStartup ensures you maintain full compliance and retain these benefits while avoiding legal pitfalls."
+      }
+    ],
+    "Challenges": [
+      {
+        "category": "Common Challenges We Solve",
+        "documents": [
+          "Tax Compliance Burden: NGOs often struggle to keep up with tax rules and deadlines, risking penalties. DoStartup ensures full adherence and smooth filings.",
+          "Documentation Management: Accurate organization and submission of audit records, returns, and registrations are time-consuming. We streamline your document workflow flawlessly.",
+          "Complex 12A & 80G Registrations: We handle every step—from paperwork and verification to follow-up—to secure valuable tax exemptions efficiently.",
+          "Changing Regulatory Landscape: Tax laws frequently evolve. DoStartup keeps you updated and ensures compliance with the latest requirements.",
+          "Multiple Overlapping Rules: We offer consolidated expertise to comply with all regulations — central, state, income tax, and charity laws — on time and accurately."
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Enhanced Tax Efficiency",
+        "content": "• Optimizes tax strategies to ensure NGOs can efficiently manage their tax obligations while maximizing available exemptions and deductions."
+      },
+      {
+        "heading": "Regulatory Compliance",
+        "content": "• Ensures adherence to relevant tax laws, making sure NGOs comply with income tax regulations, 12A & 80G, and other statutory requirements."
+      },
+      {
+        "heading": "Reduced Admin Burden",
+        "content": "• Streamlines administrative processes related to tax filing, document preparation, and compliance, allowing NGOs to focus on their core mission."
+      },
+      {
+        "heading": "Time & Cost Savings",
+        "content": "• Helps NGOs save time and reduce costs by handling tax filing, compliance tasks, and registrations efficiently."
+      },
+      {
+        "heading": "Clarity on Tax Exemptions & Deductions",
+        "content": "• Provides clear guidance on available tax exemptions and deductions, helping NGOs make informed decisions and benefit from financial advantages."
+      },
+      {
+        "heading": "Maximum Tax Benefit",
+        "content": "• Maximizes tax exemptions, deductions, and benefits under sections like 12A & 80G, ensuring NGOs optimize their financial standing."
+      },
+      {
+        "heading": "NGO-Focused Tax Expertise",
+        "content": "• Provides specialized expertise tailored to the unique financial needs and tax regulations of NGOs, ensuring compliance and optimal tax management."
+      },
+      {
+        "heading": "Customized Advisory Approach",
+        "content": "• Offers personalized advisory services to meet the specific tax needs of each NGO, ensuring a solution that aligns with their goals and operations."
+      },
+      {
+        "heading": "Risk Mitigation",
+        "content": "• Helps NGOs mitigate financial risks by providing expert guidance on compliance, tax planning, and regulatory changes."
+      },
+      {
+        "heading": "Dedicated Support Team",
+        "content": "• A dedicated team of experts provides continuous support, ensuring that your NGO’s tax and compliance matters are always addressed promptly."
+      },
+      {
+        "heading": "End-to-End Service Portfolio",
+        "content": "• From tax planning to filing, 12A & 80G registration, and ongoing compliance monitoring, DoStartup provides a full range of tax advisory services."
+      },
+      {
+        "heading": "Regulatory Changes Alerts",
+        "content": "• Keeps your NGO informed about the latest regulatory changes and helps you adapt to new tax laws and requirements seamlessly."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DoStartup?",
+        "description": [
+          "DoStartup offers expert knowledge in NGO tax laws and charitable regulations, providing tailored solutions to meet your organization’s specific needs. We prioritize client satisfaction through proactive help and transparent communication."
+        ],
+        "points": [
+          "Expert Knowledge in NGO tax laws and charitable regulations.",
+          "Tailored Solutions designed to your organization’s specific needs.",
+          "Dedicated Support from experienced professionals.",
+          "Client Satisfaction is our priority—through proactive help and transparent communication."
+        ]
+      },
+      {
+        "heading": "Our Core Services",
+        "description": [
+          "DoStartup provides a range of services to help your NGO stay compliant, efficient, and tax-exempt."
+        ],
+        "points": [
+          "Eligibility Review – Ensuring your NGO qualifies for tax exemptions.",
+          "Form/Registration Handling – Expert assistance with 12A, 80G, and other filings.",
+          "Professional Advisory – Guidance from tax experts on strategy and compliance.",
+          "Procedural Compliance – Timely submission of reports, audits, and returns.",
+          "Document Management – Control and verification of essential paperwork.",
+          "Monitoring & Updates – Ongoing tracking against law changes and audit readiness."
+        ]
+      },
+      {
+        "heading": "What Sets DoStartup Apart",
+        "description": [
+          "DoStartup stands out for its proven track record with NGOs, transparent pricing, and use of cutting-edge technology."
+        ],
+        "points": [
+          "Proven Track Record with NGOs across India.",
+          "Fully Transparent Pricing—no hidden fees.",
+          "Cutting-Edge Technology & AI Tools for efficiency.",
+          "Tailored, Client-Centric Solutions."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the income tax regulations applicable to NGOs?",
+        "answer": "NGOs registered under Section 12A are eligible for complete exemption from income tax. Furthermore, those with an 80G certificate attract more donations due to donor tax benefits. NGOs without these registrations are liable to pay taxes at regular rates."
+      },
+      {
+        "question": "How can an NGO file its income tax return?",
+        "answer": "NGOs are required to file their income tax return using Form ITR-7. This return must be filed electronically within the time limit specified under Section 139(1) and must be verified through digital signature or other prescribed methods."
+      },
+      {
+        "question": "Which income tax section deals specifically with donations to NGOs?",
+        "answer": "Section 80G of the Income Tax Act provides tax deductions for donations made to NGOs, as well as to state and central government relief funds and charitable institutions."
+      },
+      {
+        "question": "What is the maximum tax exemption allowed for donations to NGOs?",
+        "answer": "Donations made to eligible NGOs or charitable funds qualify for deductions under Section 80G, which can be either 50% or 100% of the donation amount, depending on the recipient organization's registration status."
+      },
+      {
+        "question": "Do NGOs need to undergo a tax audit?",
+        "answer": "Yes, as per the Income Tax (Third Amendment) Rules, 2023, charitable trusts and NGOs must submit a tax audit report (Form 10B) if they are registered under Section 12A or approved under Section 10(23C)."
+      },
+      {
+        "question": "How can Indian NGOs reduce their tax burden?",
+        "answer": "Indian tax laws encourage charitable donations. Donations made to NGOs registered under Section 80G are tax-deductible, allowing individuals or businesses to lower their taxable income while supporting social causes."
+      },
+      {
+        "question": "Are NGOs exempt from GST?",
+        "answer": "NGOs, including charitable and religious trusts, are generally subject to the same GST rates as other entities. However, services related to religion, spirituality, or yoga may be exempt from GST when provided by registered NGOs."
+      },
+      {
+        "question": "What are the benefits of having an 80G certificate?",
+        "answer": "An 80G certificate encourages more donors by allowing them to claim a 50% tax deduction on the donated amount. This not only boosts fundraising but also enhances the credibility of the NGO."
+      },
+      {
+        "question": "How is Form 80G different from Form 12A?",
+        "answer": "Form 12A provides the NGO with tax exemption on its income, while Form 80G allows donors to claim tax deductions for their contributions. Both certificates serve different purposes and are crucial for NGO operations."
+      },
+      {
+        "question": "What advantages does the 12A certificate offer?",
+        "answer": "NGOs registered under Section 12A are exempt from paying income tax on their surplus income. This exemption is offered because these organizations function for public welfare and not for profit-making."
+      },
+      {
+        "question": "When is an audit mandatory for an NGO’s financial accounts?",
+        "answer": "If an NGO receives donations exceeding INR 2,50,000 in a financial year and wants to claim exemptions under Sections 12A or 80G, it must get its accounts audited by a qualified professional."
+      }
+    ]
+  },
+  "ngo-csr-consultancy": {
+    title: "NGO CSR Consultancy",
+    description: "DoStartup offers CSR consultancy for non governmental organizations. DoStartup's proven track record of successfully providing CSR consulting to 100+ NGOs demonstrates its dedication to promote sustai.",
+    "overview": [
+      {
+        "heading": "NGO CSR Consultancy Overview",
+        "content": "DoStartup’s CSR consultancy helps NGOs align their mission with CSR opportunities through expert guidance and customized solutions. We support NGOs in enhancing their impact, reach, and compliance by connecting them with corporate partners and ensuring they meet legal, financial, and operational requirements. Our end-to-end approach ensures a smooth and efficient process, allowing NGOs to maximize funding and collaborations with corporate donors."
+      },
+      {
+        "heading": "What We Offer",
+        "content": "• Expert Consultation on CSR Alignment\n• Streamlined Processes for CSR Engagement\n• Customized Strategies to Maximize Outreach, Funding, and Impact\n• Legal, Financial, and Operational Compliance Support\n• Enhanced Collaboration Between NGOs and Corporate Donors"
+      },
+      {
+        "heading": "Understanding CSR for NGOs",
+        "content": "CSR (Corporate Social Responsibility) is a legal obligation under Section 135 of the Companies Act, 2013, requiring companies with:\n- Net worth of ₹500 Cr or more\n- Turnover of ₹1,000 Cr or more\n- Net profit of ₹5 Cr or more\n...to spend 2% of their average net profit on CSR activities. A CSR Committee must be established by these companies to oversee compliance and implementation."
+      },
+      {
+        "heading": "Our Consultancy Services Include",
+        "content": "• Legal and Financial Compliance Services\n• Expert Compliance Guidance\n• CSR-1 Application Filing & Documentation\n• Procedural Support for 12A, 80G, FCRA\n• Regular Monitoring and Evaluation\n• Donor and Corporate Networking Support"
+      }
+    ],
+    "Challenges": [
+      {
+        "category": "Challenges NGOs Face in CSR Consultancy in India",
+        "documents": [
+          "Complex Compliances: NGOs must meet various legal and operational compliances before engaging in CSR activities. These can be time-consuming and tedious. DoStartup ensures complete compliance with expert legal guidance.",
+          "Tedious Registrations: Registrations like 12A, 80G, and other NGO-specific credentials are essential. DoStartup streamlines the registration process for smooth onboarding.",
+          "Lack of Networking: Many NGOs struggle to find corporate donors aligned with their mission. DoStartup offers a vast donor network and assists in aligning donor goals with NGO missions.",
+          "Difficulty in Matching Funders with Mission: Finding CSR funders who resonate with the NGO’s objectives can be difficult. DoStartup bridges this gap with targeted matchmaking and strategic insights.",
+          "Complicated Application Process: CSR funding requires several formal applications. DoStartup helps simplify this process with expert assistance in documentation, submissions, and follow-ups."
+        ]
+      }
+    ],
+    "services": [
+      {
+        "category": "Benefits of NGO CSR Consultancy",
+        "documents": [
+          "Access to Funding & Support: Connect with potential CSR donors and get expert advice on fund utilization.",
+          "Advocacy Platform: Expand your visibility and outreach to broader audiences.",
+          "Collaborative Opportunities: Easily collaborate with social initiatives aligned to your mission.",
+          "Enhanced Credibility: CSR collaborations boost your public image and attract future partnerships.",
+          "Networking Benefits: Grow your professional network with access to corporate and sector-specific stakeholders.",
+          "Sustainable Growth: Get support in strategy building, resource management, and impact assessment for long-term success."
+        ]
+      },
+      {
+        "category": "Why DoStartup is India’s Top Platform for NGO CSR Consultancy",
+        "documents": [
+          "Successfully guided thousands of NGOs in India",
+          "Network of 50,000+ legal, finance, and compliance professionals",
+          "Decades of combined experience in NGO CSR consultancy",
+          "Prompt support through AI-driven systems",
+          "99.9% client satisfaction rate",
+          "Customized consultancy to fit your NGO's unique needs",
+          "Transparent, client-first approach",
+          "Regular updates and progress tracking"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Access to Funding & Support",
+        "content": "• Connect with potential CSR donors and get expert advice on fund utilization."
+      },
+      {
+        "heading": "Advocacy Platform",
+        "content": "• Expand your visibility and outreach to broader audiences."
+      },
+      {
+        "heading": "Collaborative Opportunities",
+        "content": "• Easily collaborate with social initiatives aligned to your mission."
+      },
+      {
+        "heading": "Enhanced Credibility",
+        "content": "• CSR collaborations boost your public image and attract future partnerships."
+      },
+      {
+        "heading": "Networking Benefits",
+        "content": "• Grow your professional network with access to corporate and sector-specific stakeholders."
+      },
+      {
+        "heading": "Sustainable Growth",
+        "content": "• Get support in strategy building, resource management, and impact assessment for long-term success."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DoStartup?",
+        "description": [
+          "DoStartup offers expert knowledge in NGO tax laws and charitable regulations, providing tailored solutions to meet your organization’s specific needs. We prioritize client satisfaction through proactive help and transparent communication."
+        ],
+        "points": [
+          "India’s No.1 Legal and Compliance Platform for NGOs.",
+          "Over 100,000 happy customers.",
+          "10,000+ professionals in our network.",
+          "Recognized among Asia’s Top 10 Consulting Firms.",
+          "Technology-driven platform with automated workflows.",
+          "Personalized, client-centric approach."
+        ]
+      },
+      {
+        "heading": "Our Core Services",
+        "description": [
+          "DoStartup provides a range of services to help your NGO stay compliant, efficient, and tax-exempt."
+        ],
+        "points": [
+          "Eligibility Review – Ensuring your NGO qualifies for tax exemptions.",
+          "Form/Registration Handling – Expert assistance with 12A, 80G, and other filings.",
+          "Professional Advisory – Guidance from tax experts on strategy and compliance.",
+          "Procedural Compliance – Timely submission of reports, audits, and returns.",
+          "Document Management – Control and verification of essential paperwork.",
+          "Monitoring & Updates – Ongoing tracking against law changes and audit readiness."
+        ]
+      },
+      {
+        "heading": "What Sets DoStartup Apart",
+        "description": [
+          "DoStartup stands out for its proven track record with NGOs, transparent pricing, and use of cutting-edge technology."
+        ],
+        "points": [
+          "Proven Track Record with NGOs across India.",
+          "Fully Transparent Pricing—no hidden fees.",
+          "Cutting-Edge Technology & AI Tools for efficiency.",
+          "Tailored, Client-Centric Solutions."
+        ]
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "Essential NGO Registrations for CSR Funding",
+        "content": "- 80G Registration: Gives 50% tax exemption to CSR donor companies. Required for donors to claim deductions under the Income Tax Act.\n- 12A Registration: Provides income tax exemption to NGOs. Mandatory for all CSR-recipient organizations.\n- NGO Registration: Mandatory for legal recognition and eligibility for CSR funding.\n- FCRA Registration: Needed to receive CSR funds from foreign corporations. Requires 3 years of NGO operation."
+      },
+      {
+        "heading": "CSR Form CSR-1: Gateway to CSR Funding",
+        "content": "- Companies may carry out CSR initiatives directly or through registered entities, including:\n  - Section 8 Companies\n  - Registered public trusts\n  - Registered societies\n- Entities must file Form CSR-1 with the Ministry of Corporate Affairs to be eligible for CSR contributions."
+      },
+      {
+        "heading": "CSR-1 Required Documents",
+        "content": "- NGO PAN Card\n- Contact Information\n- Details of Governing Body\n- Registration Certificate\n- Digital Signature of Authorized Person\n- PAN of Authorized Signatory\n- 12A and 80G Certificates\n- CSR Policy and Reports\n- Other Supporting Documents"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Fill the Inquiry Form",
+        "content": "Complete the inquiry form to get started with DoStartup's CSR consultancy process."
+      },
+      {
+        "heading": "Step 2: Get a Callback from Experts",
+        "content": "Once the form is submitted, expect a callback from one of DoStartup's CSR experts for an initial consultation."
+      },
+      {
+        "heading": "Step 3: Track Your Application Progress",
+        "content": "Stay informed about the progress of your CSR application through DoStartup's real-time tracking system."
+      },
+      {
+        "heading": "Step 4: Submit All Required Documents",
+        "content": "Submit the necessary documents, including 12A, 80G certificates, and other required CSR-related paperwork."
+      },
+      {
+        "heading": "Step 5: Receive Deliverables Promptly",
+        "content": "Receive your CSR-related deliverables within the stipulated time frame, ensuring a smooth and efficient process."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which nonprofits are eligible to apply for CSR?",
+        "answer": "Public trusts registered under Section 12A and 80G of the Income Tax Act, 1961, or companies incorporated under Section 8 of the Companies Act and operational for at least three years, are eligible to apply for Corporate Social Responsibility (CSR) funding."
+      },
+      {
+        "question": "Can a newly established NGO apply for CSR?",
+        "answer": "Yes, a newly formed NGO can apply for CSR funding, provided it meets certain criteria. First, the NGO must register with the Registrar of Companies (ROC). Once registered, it can proceed to file Form CSR-1 with the Ministry of Corporate Affairs (MCA) to be eligible for CSR support."
+      },
+      {
+        "question": "What are the benefits of NGO registration for CSR?",
+        "answer": "By registering for CSR, NGOs can access funding and support from businesses for their developmental and social initiatives. As per the Companies Act, 2013, eligible companies are mandated to allocate a specific portion of their profits toward CSR activities."
+      },
+      {
+        "question": "Is 80G registration mandatory for CSR eligibility?",
+        "answer": "Although Sections 12AA and 12AB are not mandatory for CSR-1 registration with the MCA, it is highly recommended that NGOs obtain valid registrations under Sections 80G and 12A before applying. Therefore, 80G is considered essential for CSR registration."
+      },
+      {
+        "question": "Do CSR regulations apply to non-profits?",
+        "answer": "Yes, CSR is a mechanism through which non-profits (NGOs) receive financial and other assistance from the corporate sector. Under the Companies Act, 2013, eligible companies are required to spend 2% of their average net profits on CSR activities, including support to NGOs."
+      },
+      {
+        "question": "What does CSR mean for an NGO?",
+        "answer": "For NGOs, CSR represents a strategic opportunity to receive both financial and resource-based support from businesses for projects aligned with social, environmental, or community-focused goals. This includes a mandated contribution of 2% of eligible companies' average net profits."
+      },
+      {
+        "question": "How can an NGO receive CSR funding?",
+        "answer": "To secure CSR funding, NGOs must first identify potential corporate donors aligned with their mission. They should prepare a comprehensive proposal including the project details, action plan, funding requirements, and expected impact. A well-structured application enhances the chances of receiving CSR support."
+      }
+    ]
+  },
+  "ngo-csr-1-filing": {
+    title: "NGO CSR-1 Filing",
+    description: "Without filing Form CSR-1, an NGO cannot get CSR funds from corporates. Let, DoStartup handle your NGO CSR-1 Filing for you!",
+    "overview": [
+      {
+        "heading": "Form CSR-1 Overview",
+        "content": "Form CSR-1 is a mandatory registration form for NGOs seeking Corporate Social Responsibility (CSR) funding. This form is prescribed by the Ministry of Corporate Affairs (MCA) under the Registration of Entities for Undertaking CSR Activities initiative. It is compulsory for all NGOs to register with the Central Government through Form CSR-1 in order to receive CSR funds from companies and corporations. This registration helps ensure transparency and effective monitoring of CSR expenditure across India. The legal framework for CSR-1 filing is governed by Section 135 of the Companies Act, 2013 and the Companies (Corporate Social Responsibility Policy) Rules, 2014."
+      },
+      {
+        "heading": "What We Offer",
+        "content": "• Expert Consultation on CSR Alignment\n• Streamlined Processes for CSR Engagement\n• Customized Strategies to Maximize Outreach, Funding, and Impact\n• Legal, Financial, and Operational Compliance Support\n• Enhanced Collaboration Between NGOs and Corporate Donors"
+      },
+      {
+        "heading": "Understanding CSR for NGOs",
+        "content": "CSR (Corporate Social Responsibility) is a legal obligation under Section 135 of the Companies Act, 2013, requiring companies with:\n- Net worth of ₹500 Cr or more\n- Turnover of ₹1,000 Cr or more\n- Net profit of ₹5 Cr or more\n...to spend 2% of their average net profit on CSR activities. A CSR Committee must be established by these companies to oversee compliance and implementation."
+      },
+      {
+        "heading": "Our Consultancy Services Include",
+        "content": "• Legal and Financial Compliance Services\n• Expert Compliance Guidance\n• CSR-1 Application Filing & Documentation\n• Procedural Support for 12A, 80G, FCRA\n• Regular Monitoring and Evaluation\n• Donor and Corporate Networking Support"
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Enhances public image and trustworthiness of NGOs",
+        "content": "• By ensuring proper CSR-1 filing, NGOs enhance their public image and gain trust from both corporate donors and the general public."
+      },
+      {
+        "heading": "Simplifies the process of undertaking CSR activities",
+        "content": "• CSR-1 filing streamlines the process for NGOs to participate in CSR activities by ensuring they are officially recognized and eligible for CSR funds."
+      },
+      {
+        "heading": "Builds credibility and goodwill among corporate donors",
+        "content": "• NGOs that file CSR-1 gain credibility and foster positive relationships with corporate donors, helping them secure more funding opportunities."
+      },
+      {
+        "heading": "Facilitates smooth CSR funding with minimal legal complications",
+        "content": "• With CSR-1 registration, NGOs reduce legal complexities and make it easier for companies to donate, ensuring smooth CSR funding operations."
+      }
+    ],
+    "eligibilityCriteria": [
+      {
+        "heading": "Essential Criteria",
+        "content": "• Be registered under Section 8 of the Companies Act, 2013, or have valid registration under Section 12A and 80G of the Income Tax Act, 1961\n• Be a Section 8 Company, a registered society, or a registered trust working under the authority of the Central or State Government\n• Be established under an Act of Parliament or State Legislature\n• Have a minimum of three years’ experience in undertaking charitable activities"
+      },
+      {
+        "heading": "Contents Required in Form CSR-1",
+        "content": "• Nature and legal structure of the NGO\n• CIN/Registration Number\n• State of incorporation\n• Address and contact email\n• PAN of the NGO\n• Details of trustees, board members, or secretaries\n• Certification from a practicing professional (CA, CS, or CMA)"
+      },
+      {
+        "heading": "Important Points to Remember",
+        "content": "• A practicing professional must have a valid engagement letter before certifying Form CSR-1\n• All attached documents must be verified from original or certified records\n• The form must be signed by authorized representatives of the NGO\n• All required fields and attachments must be accurately completed\n• False or misleading certification is punishable under Section 448 of the Companies Act, 2013"
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Choose a Plan Tailored to Your Needs",
+        "content": "Select a CSR-1 filing plan that best suits your NGO's needs and objectives."
+      },
+      {
+        "heading": "Step 2: Expert Consultation",
+        "content": "Get expert consultation regarding eligibility criteria, documentation requirements, and the filing process."
+      },
+      {
+        "heading": "Step 3: Share Required Documents with Our Team",
+        "content": "Provide all the necessary documents, such as PAN, registration certificates, 12A and 80G orders, and other supporting papers."
+      },
+      {
+        "heading": "Step 4: Draft & File CSR-1 Application",
+        "content": "DoStartup will prepare and file the CSR-1 application on your behalf, ensuring complete accuracy and compliance."
+      },
+      {
+        "heading": "Step 5: Preliminary Checks for Admissibility and Compliance",
+        "content": "We will conduct preliminary checks to ensure that your NGO meets all necessary legal requirements before submitting the application."
+      },
+      {
+        "heading": "Step 6: Timely Submission and Coordination with Professionals",
+        "content": "DoStartup ensures timely submission of the CSR-1 application and coordination with professional experts like CA, CS, or CMA for verification."
+      },
+      {
+        "heading": "Step 7: Receive CSR Registration Number Hassle-Free",
+        "content": "Once the CSR-1 form is successfully filed, the Ministry of Corporate Affairs (MCA) will issue a unique CSR Registration Number for your NGO."
+      },
+      {
+        "heading": "Step 8: Unlock CSR Opportunities with Seamless Compliance",
+        "content": "With DoStartup's assistance, NGOs can unlock CSR funding opportunities and maintain smooth compliance for future CSR activities."
+      }
+    ],
+    "documentsRequired": [
+      {
+        "heading": "PAN Card of the NGO",
+        "content": "Ensure that the NGO has a valid PAN Card for CSR-1 filing."
+      },
+      {
+        "heading": "Email ID and Mobile Number",
+        "content": "Provide the NGO's official email ID and mobile number for communication purposes."
+      },
+      {
+        "heading": "List of NGO Members/Trustees/Directors",
+        "content": "Include a list of trustees, directors, or members associated with the NGO."
+      },
+      {
+        "heading": "Registration Certificate",
+        "content": "Upload the official registration certificate of the NGO."
+      },
+      {
+        "heading": "Copy of Valid 12A and 80G Orders",
+        "content": "Provide a copy of the valid 12A and 80G registration orders for the NGO."
+      },
+      {
+        "heading": "NGO Darpan ID (if applicable)",
+        "content": "If applicable, include the NGO's Darpan ID for transparency and verification."
+      },
+      {
+        "heading": "Signed Authorization from NGO Representative",
+        "content": "Attach a signed authorization letter from the NGO's authorized representative."
+      },
+      {
+        "heading": "Trust Deed or Society Memorandum (as applicable)",
+        "content": "Provide the Trust Deed or Memorandum of Society, depending on the legal structure of the NGO."
+      },
+      {
+        "heading": "Company CSR Policy, CSR Report, Sustainability Report",
+        "content": "Submit the CSR policy, report, and sustainability reports of the company the NGO is partnering with (if applicable)."
+      },
+      {
+        "heading": "Details of Subsidiaries and Related Entities",
+        "content": "Provide details of any subsidiaries or related entities that the NGO works with for CSR activities."
+      },
+      {
+        "heading": "Signatures of Authorized Persons and Practicing Professionals",
+        "content": "Ensure that the form is signed by authorized NGO representatives and the practicing professional (CA, CS, or CMA)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does CSR stand for?",
+        "answer": "CSR stands for Corporate Social Responsibility, as outlined under Section 135 of the Companies Act, 2013."
+      },
+      {
+        "question": "What is Form CSR-1?",
+        "answer": "Form CSR-1 is a registration form that NGOs or implementing agencies must file in order to receive CSR funding from companies or corporates."
+      },
+      {
+        "question": "How is Form CSR-1 referred to by the Ministry of Corporate Affairs (MCA)?",
+        "answer": "The MCA refers to Form CSR-1 as the 'Registration of Entities for undertaking CSR Activities.'"
+      },
+      {
+        "question": "What are the two main parts of Form CSR-1?",
+        "answer": "Form CSR-1 consists of the following two sections:\n- Details of the NGO seeking to carry out CSR activities\n- Certification by a practicing professional (such as a CA, CS, or CMA)"
+      },
+      {
+        "question": "What is the checklist for filing Form CSR-1 for NGOs?",
+        "answer": "Eligible NGOs must be one of the following:\n- A Section 8 Company\n- A registered public charitable trust\n- A society registered under Section 12A and 80G of the Income Tax Act, 1961"
+      },
+      {
+        "question": "What are the key benefits of filing Form CSR-1?",
+        "answer": "Some common benefits include:\n- Improved public image\n- Enhanced trust and goodwill\n- Smoother execution of CSR activities\n- Fewer legal complications in securing corporate funds"
+      },
+      {
+        "question": "What are the Companies (Corporate Social Responsibility Policy) Amendment Rules, 2021?",
+        "answer": "These amendment rules introduced enhanced monitoring and reporting requirements for CSR spending. They also mandate that Form CSR-1 be certified by qualified professionals like Chartered Accountants (CAs), Company Secretaries (CSs), or Certified Management Accountants (CMAs)."
+      },
+      {
+        "question": "What does CSR compliance mean?",
+        "answer": "Under Rule 3 of the Companies (CSR Policy) Rules, 2014, every company—including holding, subsidiary, or foreign companies with operations in India—must comply with CSR requirements if they meet the eligibility criteria under Section 135 of the Companies Act."
+      },
+      {
+        "question": "What is CSR implementation?",
+        "answer": "According to Rule 4 of the CSR Policy Rules, 2014 (amended in 2021), a company may implement CSR activities on its own or through eligible third-party entities, such as registered NGOs or implementing agencies."
+      },
+      {
+        "question": "How can DoStartup assist with CSR-1 filing?",
+        "answer": "DoStartup provides end-to-end support for CSR-1 filing by:\n- Offering expert guidance\n- Collecting and verifying necessary documents\n- Preparing and submitting the form\n- Ensuring compliance with eligibility and legal requirements"
+      }
+    ]
+  },
+  "conversion-of-private-limited-to-public-limited": {
+    title: "Conversion of Private Limited to Public Limited",
+    description: "Need to convert your private limited company to a public limited one? DoStartUp offers expert guidance to streamline the process efficiently. Without Visit Govt Department!",
+    "overview": [
+      {
+        "heading": "Convert Your Private Limited Company to a Public Limited Company",
+        "content": "Ready to scale your business? Convert your Private Limited Company to a Public Limited Company with DoStartup.in and access new funding avenues, greater credibility, and growth opportunities—all without visiting government offices!"
+      },
+      {
+        "heading": "Why Convert Your Private Limited Company to Public Limited?",
+        "content": "As your business expands, converting to a public limited company allows you to:\n• Raise funds from the public via shares or debentures\n• Remove restrictions on share transfers\n• Enjoy unlimited member capacity\n• Access stock exchange listings and build brand value\n• Attract large investors and boost credibility\n• Enhance business transparency and regulatory compliance"
+      }
+    ],
+    "benefits": [
+      {
+        "heading": "Easy Fundraising",
+        "content": "• Raise capital through IPOs, FPOs, or by issuing shares and debentures to the general public."
+      },
+      {
+        "heading": "Wider Shareholder Base",
+        "content": "• No maximum limit on shareholders."
+      },
+      {
+        "heading": "Improved Liquidity",
+        "content": "• Shares become freely transferable, subject to SEBI and Companies Act rules."
+      },
+      {
+        "heading": "Enhanced Market Reputation",
+        "content": "• Listed companies enjoy greater trust among investors and customers."
+      },
+      {
+        "heading": "Continued Limited Liability",
+        "content": "• Liability of shareholders stays limited even after conversion."
+      },
+      {
+        "heading": "Deposit Acceptance",
+        "content": "• Public companies can accept deposits as per Companies Act, 2013."
+      }
+    ],
+    "Listicles": [
+      {
+        "category": "Minimum Requirements for Conversion",
+        "documents": [
+          "Minimum 3 Directors (at least 1 must be Indian resident)",
+          "Minimum 7 Shareholders",
+          "DSC for one director and DIN for all directors",
+          "No minimum paid-up capital (as per Companies Amendment Act 2015)",
+          "Director and shareholder can be the same person"
+        ]
+      },
+      {
+        "category": "Essential Documents Needed",
+        "documents": [
+          "PAN Card & ID Proof (Directors and Shareholders)",
+          "Passport (for Foreign Nationals/NRIs)",
+          "Address Proof (Utility Bill/Bank Statement)",
+          "Passport-size photographs (Directors/Shareholders)",
+          "Proof of Registered Office (Utility Bill/Lease/NOC)",
+          "Copy of latest audited financial statements",
+          "Board & shareholder resolutions",
+          "Existing Certificate of Incorporation, MoA, and AoA",
+          "Rent/Lease Agreement (if office is rented)",
+          "NOC from landlord (if applicable)",
+          "ITR for previous year (if any)"
+        ]
+      }
+    ],
+    "registrationProcedure": [
+      {
+        "heading": "Step 1: Convene Board Meeting",
+        "content": "Approve the proposal for conversion and fix the date for the Extraordinary General Meeting (EGM)."
+      },
+      {
+        "heading": "Step 2: Hold EGM & Pass Special Resolutions",
+        "content": "Alter the Memorandum and Articles of Association to remove 'Private' restrictions, approve the name change, and adopt amended documents."
+      },
+      {
+        "heading": "Step 3: File Resolutions & Forms with ROC",
+        "content": "File Form MGT-14 within 30 days of the EGM and Form INC-27 within 15 days, along with the necessary attachments."
+      },
+      {
+        "heading": "Step 4: Increase Directors/Members (if needed)",
+        "content": "Ensure the company has at least 3 directors and 7 shareholders as required for a public limited company."
+      },
+      {
+        "heading": "Step 5: Update Company Name",
+        "content": "Remove 'Private' from the company name upon ROC approval and obtain a fresh Certificate of Incorporation."
+      },
+      {
+        "heading": "Step 6: Post-Conversion Compliance",
+        "content": "Update bank account, PAN, business licenses, and stationery. Notify relevant authorities, clients, and vendors. Comply with SEBI and listing regulations if applicable."
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DoStartup.in?",
+        "description": [
+          "DoStartup.in provides expert-led, seamless services to help businesses convert to public limited companies without the hassle of visiting government offices. With a trusted network and transparent approach, we ensure end-to-end support throughout the process."
+        ],
+        "points": [
+          "Expert Guidance: 10+ years’ experience with 3500+ CA/CS/Lawyer professionals",
+          "100,000+ Satisfied Clients: Nationwide network and track record",
+          "Quick, Online & Hassle-Free: No government office visits required",
+          "Transparent Pricing: No hidden fees",
+          "End-to-End Support: From documentation to ROC approval, and after-conversion compliance",
+          "Free Consultation: Get started with an expert call"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is it mandatory to change the company name after conversion?",
+        "answer": "Yes. The word 'Private' must be removed from the name after approval by ROC."
+      },
+      {
+        "question": "How many directors and shareholders are required?",
+        "answer": "A minimum of 3 directors and 7 shareholders."
+      },
+      {
+        "question": "What forms need to be filed with the ROC?",
+        "answer": "Form MGT-14 (for special resolution) and INC-27 (for conversion)."
+      },
+      {
+        "question": "Will my old Certificate of Incorporation be valid?",
+        "answer": "No, you’ll receive a new Certificate of Incorporation after conversion."
+      },
+      {
+        "question": "Do I need a new PAN or GST registration post-conversion?",
+        "answer": "You must update the PAN and GST details to reflect the new name; fresh registration is not needed."
+      },
+      {
+        "question": "Can a private company convert to a public company with only 2 directors?",
+        "answer": "No, you must appoint at least 3 directors before conversion."
+      },
+      {
+        "question": "Do I need to inform banks and other authorities after conversion?",
+        "answer": "Yes, all stakeholders, including banks and tax authorities, must be informed and documents updated."
+      },
+      {
+        "question": "Is SEBI registration necessary for all public limited companies?",
+        "answer": "SEBI registration is needed only if you plan to list shares on a stock exchange."
+      },
+      {
+        "question": "What happens to the existing MoA and AoA?",
+        "answer": "They must be amended to reflect the new status and comply with public limited company requirements."
+      },
+      {
+        "question": "Can shareholders freely transfer their shares after conversion?",
+        "answer": "Yes, shares of a public limited company are freely transferable."
+      },
+      {
+        "question": "How long does the conversion process take?",
+        "answer": "Generally, 3–6 weeks after all documents are in order."
+      },
+      {
+        "question": "Why choose DoStartup.in for conversion services?",
+        "answer": "We handle the full process online—documentation, filings, expert advice, and post-conversion compliance—ensuring a smooth and speedy transition."
+      }
+    ]
+  },
+  "web-development-services": {
+    title: "Website Development Services",
+    description: "Boost your business visibility through expert website development services with a professional & experienced team at DoStartUp!",
+    overview: [
+      {
+        "heading": "Website Development",
+        "content": "• Custom-Built Websites: Tailored for your business objectives—corporate sites, landing pages, e-commerce, portfolios, and more.\n• Modern Tech Stack: HTML5, CSS3, JavaScript, React, Next.js, Node.js, Angular, PHP, Python, and CMS solutions like WordPress and Shopify.\n• Mobile-First & SEO-Optimized: Fast loading, fully responsive, and designed for top Google rankings.\n• UX/UI Excellence: User-centric layouts, intuitive navigation, interactive elements, and conversion-focused design.\n• Web App Solutions: Complex web apps for internal operations, portals, dashboards, and workflow automation."
+      },
+      {
+        "heading": "App Development",
+        "content": "• Native & Cross-Platform Apps: Android, iOS, and hybrid apps using React Native, Flutter, and custom frameworks.\n• Prototyping & MVP Launch: From concept wireframes to full launch, including user testing and performance optimization.\n• API Integrations: Seamless connection to payment gateways, CRMs, third-party SaaS, and legacy systems.\n• Continuous Maintenance: Bug fixes, feature enhancements, app store management, analytics, and updates."
+      },
+      {
+        "heading": "In-House Coding & Tech Consulting",
+        "content": "• Full-Stack Expertise: From frontend interfaces to backend databases, cloud hosting, and security protocols.\n• Custom Solutions: APIs, enterprise software, automation, business intelligence, and tailored SaaS development.\n• Agile & Transparent: Direct access to our developers, project dashboards, and real-time progress tracking."
+      },
+      {
+        "heading": "Social Media Marketing & Digital Growth",
+        "content": "• Social Media Management: Content creation, daily posting, community engagement across Instagram, Facebook, LinkedIn, Twitter, and YouTube.\n• Creative Campaigns: Visual storytelling, short-form video, influencer collaborations, and contests.\n• Performance Marketing: Targeted ad campaigns (Google Ads, Meta, LinkedIn), analytics, and retargeting.\n• Online Reputation: Brand building, review management, and crisis communication strategies.\n• SEO & Content Writing: Blog creation, keyword optimization, link-building, and authority-building articles."
+      }
+    ],
+    benefits: [
+      {
+        "heading": "One-Stop Digital Partner",
+        "content": "• From coding to content, everything managed by our expert in-house team."
+      },
+      {
+        "heading": "Custom-Tailored Solutions",
+        "content": "• No “one size fits all”—all strategies are aligned with your industry and business goals."
+      },
+      {
+        "heading": "Future-Ready & Scalable",
+        "content": "• We build solutions that grow with your business, supporting new features, integrations, and user bases."
+      },
+      {
+        "heading": "Secure & Compliant",
+        "content": "• Advanced security measures, data privacy protocols, and compliance with industry standards."
+      },
+      {
+        "heading": "Transparent Processes",
+        "content": "• Clear pricing, regular progress updates, and project documentation."
+      },
+      {
+        "heading": "High Conversion Rates",
+        "content": "• Sites and apps are engineered for user engagement and lead generation."
+      },
+      {
+        "heading": "Lifetime Support Options",
+        "content": "• From hosting and maintenance to new features and upgrades, we’re always a call away."
+      }
+    ],
+    Process: [
+      {
+        "category": "Our Process",
+        "documents": [
+          "Discovery & Strategy: Understand your goals, competition, and target market. Create a strategic roadmap.",
+          "Design & Prototyping: Wireframes, mockups, and interactive demos to refine your vision.",
+          "Development: Coding by experienced in-house developers using best-in-class tech stacks.",
+          "Testing & QA: Rigorous device/browser testing, speed optimization, and bug fixes.",
+          "Launch: Seamless deployment with SEO and analytics setup.",
+          "Growth: Ongoing support, feature updates, digital marketing, and performance reviews."
+        ]
+      },
+      {
+        "category": "Frontend",
+        "documents": ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "Angular", "Vue"]
+      },
+      {
+        "category": "Backend",
+        "documents": ["Node.js", "Python", "PHP", "Java", "Go", ".NET"]
+      },
+      {
+        "category": "Mobile",
+        "documents": ["Android (Java)", "iOS (Swift)", "React Native", "Flutter"]
+      },
+      {
+        "category": "CMS/E-commerce",
+        "documents": ["WordPress", "Shopify", "Magento", "WooCommerce"]
+      },
+      {
+        "category": "Cloud & Tools",
+        "documents": ["AWS", "Azure", "Google Cloud", "Docker", "Git", "CI/CD", "Cybersecurity Tools"]
+      }
+    ],
+    whyUs: [
+      {
+        "heading": "Why Choose DoStartup.in?",
+        "description": [
+          "DoStartup.in is a one-stop destination for digital transformation, offering in-house expertise across design, development, and marketing. We’re trusted by thousands of businesses for delivering fast, reliable, and scalable web and app solutions."
+        ],
+        "points": [
+          "Proven Track Record: 1000+ successful website and app projects, from startups to established brands",
+          "Complete In-House Team: All coding, design, QA, and marketing handled internally—no third-party vendors",
+          "Full-Spectrum Digital Services: From web and mobile solutions to branding and viral marketing campaigns",
+          "Fast Turnaround, Ongoing Support: Agile project management ensures timely delivery and continuous maintenance",
+          "Trusted by 40,000+ Happy Clients: Verified reviews on Google, Trustpilot, and social platforms"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "How does the project process work?",
+        "answer": "We start with a consultation, then design, develop, test, and launch your project, keeping you informed at every step."
+      },
+      {
+        "question": "Will my website be mobile-optimized and SEO-friendly?",
+        "answer": "Every project is built for speed, mobile usability, and high search engine rankings."
+      },
+      {
+        "question": "What coding languages and frameworks do you use?",
+        "answer": "We use the latest web technologies, including React, Next.js, Angular, Node.js, Python, WordPress, Shopify, and more."
+      },
+      {
+        "question": "Can you integrate payment gateways and third-party services?",
+        "answer": "Yes, we can integrate e-commerce, CRMs, ERPs, payment systems, APIs, and more."
+      },
+      {
+        "question": "What about cybersecurity and data protection?",
+        "answer": "Security is built into every project—SSL, firewalls, GDPR compliance, secure coding, and regular audits."
+      },
+      {
+        "question": "Do you offer post-launch support?",
+        "answer": "Yes, we offer ongoing maintenance, backups, updates, and on-demand technical support."
+      },
+      {
+        "question": "How do you handle social media and digital marketing?",
+        "answer": "We offer strategic content, campaign management, paid ads, SEO, influencer marketing, and real-time analytics."
+      },
+      {
+        "question": "What is the cost and timeline for a typical project?",
+        "answer": "Prices and timelines depend on scope. Simple websites may start at 2 weeks, complex apps may take 1–3 months. Contact us for a free, custom quote."
+      },
+      {
+        "question": "Why choose an in-house team over freelancers or outsourcing?",
+        "answer": "With DoStartup.in, you get consistent quality, direct communication, better accountability, and faster turnaround—all under one roof."
+      }
+    ]
+  },
+  "carbon-credit-accounting": {
+    title: "Carbon Credit Accounting",
+    description: "Are you looking to align your carbon credit accounting with global sustainability goals? Let our DoStartUp experts simplify the process for carbon credit accounting.",
+    overview: [
+      {
+        "heading": "What is Carbon Credit Accounting?",
+        "content": "Carbon credit accounting is a systematic approach to track, measure, and report greenhouse gas (GHG) emissions and the reductions achieved by your business or project. Each carbon credit represents one metric ton of CO₂ or its equivalent GHG emissions either avoided or removed from the atmosphere. Businesses can use these credits to offset their carbon footprint, trade on carbon markets, or meet mandatory or voluntary compliance goals."
+      },
+      {
+        "heading": "Why Carbon Credit Accounting Matters",
+        "content": "• Unlocks new revenue opportunities from carbon trading and offsets.\n• Demonstrates climate leadership to investors, regulators, and customers.\n• Ensures regulatory compliance with Indian and global carbon standards.\n• Supports sustainable growth and corporate social responsibility (CSR) targets.\n• Facilitates entry into international supply chains prioritizing low-carbon suppliers.\n• Enables precise monitoring, verification, and transparency for sustainability reports."
+      },
+      {
+        "heading": "Key Approaches to Carbon Credit Accounting",
+        "content": "• Emission Inventories: Collect and analyze emission data across operations, logistics, and supply chains.\n• Activity Data & Emission Factors: Calculate emissions per activity (e.g., fuel use, production, logistics) using approved emission factors.\n• Bottom-Up Analysis: Track emissions at the source – ideal for manufacturing and industrial setups.\n• Top-Down Approach: Estimate emissions from wider organizational or national data.\n• Remote Sensing & Satellite Tools: Leverage satellite data for land use, deforestation, and afforestation tracking.\n• Life Cycle Assessment (LCA): Assess emissions and impacts at every stage of your product or service.\n• Carbon Offsetting & Removals: Quantify and account for reductions via renewable energy, reforestation, or carbon capture initiatives."
+      },
+      {
+        "heading": "Leading Standards & Frameworks We Follow",
+        "content": "• Greenhouse Gas Protocol (GHG)\n• ISO 14064 Standard\n• Science Based Targets Initiative (SBTi)\n• National Action Plan on Climate Change (NAPCC)\n• Corporate Accounting & Reporting Standard (CAR) by IASB"
+      }
+    ],
+    benefits: [
+      {
+        "heading": "Access to Global Carbon Markets",
+        "content": "• Access to global carbon markets."
+      },
+      {
+        "heading": "Better Risk Management and Regulatory Compliance",
+        "content": "• Better risk management and regulatory compliance."
+      },
+      {
+        "heading": "Stronger CSR and ESG Credentials",
+        "content": "• Stronger CSR and ESG credentials."
+      },
+      {
+        "heading": "Improved Investment Attractiveness",
+        "content": "• Improved investment attractiveness."
+      },
+      {
+        "heading": "Data-Driven Climate Strategy and Reporting",
+        "content": "• Data-driven climate strategy and reporting."
+      },
+      {
+        "heading": "Competitive Advantage in B2B Procurement",
+        "content": "• Competitive advantage in B2B procurement."
+      }
+    ],
+    Process: [
+      {
+        "category": "Step-by-Step Process: Carbon Credit Accounting with DoStartup.in",
+        "documents": [
+          "Scope & Project Assessment: We review your operations to determine the relevant scope (Scope 1, 2, 3) for carbon accounting.",
+          "Data Collection: Gather activity data and necessary documentation from your business processes.",
+          "Emission Quantification: Calculate your GHG emissions using international protocols and India’s regulatory requirements.",
+          "Verification & Validation: Third-party or internal audits for transparency and credibility.",
+          "Credit Certification & Issuance: Facilitate the registration, certification, and issuance of carbon credits via accredited registries.",
+          "Trading, Offsetting, or Retirement: Support in trading credits on voluntary or compliance markets, or retiring credits to offset your business footprint."
+        ]
+      }
+    ],
+    Challenges: [
+      {
+        "category": "Common Challenges in Carbon Credit Accounting",
+        "documents": [
+          "Data Complexity: Integrating data from multiple operations and suppliers.",
+          "Regulatory Uncertainty: Navigating changing standards in India and abroad.",
+          "Verification Hurdles: Ensuring credible, audit-ready documentation.",
+          "Market Volatility: Pricing and trading carbon credits effectively.",
+          "Alignment with Global Goals: Meeting Paris Agreement, SDG, or client targets.",
+          "Our experts guide you through every challenge, from documentation to credit realization."
+        ]
+      },
+      {
+        "category": "How DoStartup.in Makes Carbon Credit Accounting Easy",
+        "documents": [
+          "Streamlined data collection & reporting tools",
+          "Risk management strategies for project uncertainties",
+          "Access to a global network of verification partners",
+          "Customized dashboards for carbon footprint and offset tracking",
+          "Real-time support by environmental and compliance experts",
+          "Comprehensive project advisory – from afforestation to renewable energy"
+        ]
+      },
+      {
+        "category": "Timeline for Carbon Credit Accounting",
+        "documents": [
+          "Typically, the end-to-end carbon credit accounting process—from initial assessment to credit issuance—takes 6 months to 1 year, depending on project size, verification needs, and standards chosen."
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        "heading": "Why Trust DoStartup.in for Carbon Credit Accounting?",
+        "description": [
+          "DoStartup.in combines extensive industry experience with a broad consulting network and dedicated experts to provide reliable, timely, and accessible carbon credit accounting services."
+        ],
+        "points": [
+          "10+ Years’ Proven Experience",
+          "400+ In-House Legal & Environmental Experts",
+          "99% On-Time Delivery",
+          "100,000+ Clients Served",
+          "Consulting Network Across 10,000+ Indian Pin Codes",
+          "50+ Branch Locations for Easy Access",
+          "Free Initial Consultation",
+          "4.9/5 Google & Trustpilot Ratings",
+          "Dedicated Project Advisors"
+        ]
+      }
+    ],
+    faq: [
+      {
+        "question": "What is carbon credit accounting?",
+        "answer": "Carbon credit accounting is the process of quantifying, recording, and reporting the reductions of CO₂ or other GHG emissions to create carbon credits for trading or compliance."
+      },
+      {
+        "question": "Who needs carbon credit accounting?",
+        "answer": "Businesses, industries, project developers, and any organization looking to monetize emission reductions or meet sustainability targets."
+      },
+      {
+        "question": "How are carbon credits generated?",
+        "answer": "By implementing projects that reduce, remove, or avoid greenhouse gas emissions—such as renewable energy, energy efficiency, reforestation, or methane capture."
+      },
+      {
+        "question": "What are the major frameworks for carbon credit accounting?",
+        "answer": "GHG Protocol, ISO 14064, SBTi, and India’s NAPCC are some leading frameworks."
+      },
+      {
+        "question": "How are carbon credits priced?",
+        "answer": "Prices vary based on project type, location, certification, and market demand."
+      },
+      {
+        "question": "What’s the difference between carbon credits, allowances, and offsets?",
+        "answer": "Credits represent verified emissions reductions. Allowances are government permits to emit a set amount. Offsets are purchased to compensate for unavoidable emissions."
+      },
+      {
+        "question": "How can my business benefit from carbon credits?",
+        "answer": "Earn revenue through credit sales, improve ESG scores, gain access to new markets, and comply with regulations."
+      },
+      {
+        "question": "How can I ensure transparency and avoid greenwashing?",
+        "answer": "Use internationally recognized frameworks, maintain audit trails, and engage verified third-party validation."
+      },
+      {
+        "question": "Can small and medium businesses participate?",
+        "answer": "Absolutely! Projects of all sizes can generate and benefit from carbon credits with proper accounting and documentation."
+      },
+      {
+        "question": "What are the risks in carbon credit projects?",
+        "answer": "Data errors, verification failures, regulatory changes, or market fluctuations—our team helps mitigate all such risks."
+      },
+      {
+        "question": "How do I start carbon credit accounting with DoStartup.in?",
+        "answer": "Contact us for a free assessment—our advisors will guide you step by step."
+      },
+      {
+        "question": "How long do carbon credits last?",
+        "answer": "Credits typically have a lifespan defined by the issuing registry, usually 5–10 years, after which they may be retired or need renewal."
+      }
+    ]
 
-"flipkart-seller-registration": {
-  title: "Flipkart Seller Registration – A Complete Guide",
-  description: "Register as a Flipkart seller and reach millions of customers with ease through India's leading e-commerce platform.",
-  overview: [
-    {
-      heading: "Overview on Flipkart Seller Registration",
-      content: "Flipkart seller registration is the official process through which vendors can enlist themselves as sellers on the Flipkart platform to showcase and sell their products online. This offers a smart and scalable way to reach a broader customer base without needing physical storefronts. Flipkart manages logistics such as shipping, payments, and customer service for its sellers."
-    },
-    {
-      heading: "History of Flipkart",
-      content: "Founded in 2007 by Sachin and Binny Bansal, Flipkart began as a platform for selling books. Over time, it diversified into electronics, fashion, lifestyle products, and more. It has acquired several businesses, with Myntra being one of the most significant acquisitions. Flipkart also supports sellers with tools like training and workshops to help them scale."
-    },
-    {
-      heading: "Is GST Registration Mandatory for Flipkart Seller Registration?",
-      content: "Yes. A valid GSTIN is compulsory to register as a seller on Flipkart."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Advantages of Flipkart Seller Registration",
-      content: "• Business Growth: Reach more customers across India.\n• Lower Costs: Low operational and compliance costs.\n• Transparency: A clear and straightforward business model.\n• Ease of Business: Simplified selling experience.\n• Customer Feedback: Receive valuable insights through reviews.\n• Better Marketing: Enhanced product visibility through Flipkart ads."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Minimum Requirements to Register as a Flipkart Seller",
-      content: "• GST Registration (GSTIN)\n• PAN Card (individual or business)\n• Business Registration (if not sole proprietorship)\n• Active Bank Account\n• At least one product to list\n• Active mobile number and email ID"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step 1: Register Your Business",
-      content: "Ensure your business is legally registered under a valid structure such as a sole proprietorship, partnership, LLP, or private limited company."
-    },
-    {
-      heading: "Step 2: Open a Bank Account",
-      content: "Create a current bank account in your business name to enable smooth transactions."
-    },
-    {
-      heading: "Step 3: Apply for GST",
-      content: "Obtain a valid GSTIN for tax compliance, which is mandatory for Flipkart registration."
-    },
-    {
-      heading: "Step 4: Create Flipkart Account",
-      content: "Go to seller.flipkart.com and register with necessary details such as contact info, PAN, and GSTIN."
-    },
-    {
-      heading: "Step 5: List Products",
-      content: "Upload at least 10 products with proper descriptions, images, and pricing under appropriate categories."
-    },
-    {
-      heading: "Step 6: Start Selling",
-      content: "Once products are listed, fulfill incoming orders and mark them ready for dispatch."
-    },
-    {
-      heading: "Step 7: Get Paid",
-      content: "Flipkart settles seller payments within 10–15 days after successful delivery."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Flipkart Seller Fees and Charges",
-      description: "There are no charges for listing products on Flipkart. Fees are only applicable after a successful sale is made.",
-      feeTable: [
-        {
-          category: "Referral Fee",
-          amount: "Starts at 3% (based on product category)"
-        },
-        {
-          category: "Closing Fee",
-          amount: "Fixed fee based on selling price"
-        },
-        {
-          category: "Shipping Fee",
-          amount: "Starts from ₹30, varies by item size and delivery location"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Flipkart Seller Registration",
-      description: "The Flipkart seller account can be activated within a few hours if all documents are ready.",
-      steps: [
-        {
-          title: "Account Creation and Document Upload",
-          duration: "1 Day",
-          description: "Register your account and upload business documents including PAN, GSTIN, and bank account details."
-        },
-        {
-          title: "Product Listing and Verification",
-          duration: "1–2 Days",
-          description: "List minimum 10 products; Flipkart may verify listings before activating sales."
-        },
-        {
-          title: "Begin Selling",
-          duration: "Instant after approval",
-          description: "Start receiving and dispatching orders to customers."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Flipkart Seller Registration?",
-      description: [
-        "Expert support for account setup and compliance",
-        "Quick turnaround with error-free document filing",
-        "Dedicated support team for new sellers"
-      ],
-      points: [
-        "100% document accuracy",
-        "No hidden charges",
-        "Free consultation for listing strategy"
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "Will there be a fee to list goods on Flipkart?",
-      answer: "No, listing products on Flipkart is completely free of charge."
-    },
-    {
-      question: "How many listings are required before sales start?",
-      answer: "You must list at least 10 products to begin selling on Flipkart."
-    },
-    {
-      question: "When will the buyer pay the seller?",
-      answer: "Payments are made within 10–15 days of successful delivery."
-    },
-    {
-      question: "Should I ship my items to Flipkart?",
-      answer: "No, you pack the orders and Flipkart picks them up from your location."
-    },
-    {
-      question: "What are the benefits of selling on Flipkart?",
-      answer: "Access to a wide customer base, logistics support, protection fund, and improved product visibility."
-    },
-    {
-      question: "What details are needed to register as a Flipkart seller?",
-      answer: "You need GSTIN, PAN card, bank account, contact details, and a product list."
-    },
-    {
-      question: "How is the login process completed?",
-      answer: "Login is done through seller.flipkart.com using OTP verification on your registered mobile number."
-    },
-    {
-      question: "Why sell products on Flipkart?",
-      answer: "To reach a vast online market, grow your brand, and leverage Flipkart’s logistics and technology support."
-    },
-    {
-      question: "Who is eligible to sell on Flipkart?",
-      answer: "Anyone with at least one product and valid documents like GSTIN and PAN card."
-    },
-    {
-      question: "How long does the registration process take?",
-      answer: "Usually completed within a few hours if all required documents are ready."
-    },
-    {
-      question: "Can services be sold on Flipkart?",
-      answer: "Currently, Flipkart is focused on tangible products only."
-    },
-    {
-      question: "How does Flipkart dispatch orders?",
-      answer: "Sellers pack the product, and Flipkart handles delivery to the customer."
-    },
-    {
-      question: "Do I have to pay to list my products?",
-      answer: "No, listing is free. Fees are charged only on confirmed orders."
-    }
-  ]
-},
+  },
+  "leed-zero-carbon-certification": {
+    title: "Get LEED Zero Carbon Certification for Your Projects Now",
+    description: "Secure LEED Zero Carbon Certification and Achieve Net Zero Carbon Emissions with the help of our 400+ LEED Consultants",
+    overview: [
+      {
+        "heading": "What is LEED and LEED Zero Carbon Certification?",
+        "content": "LEED is the world’s most widely used green building rating system, recognizing best practices in energy, water, waste, and indoor environment quality. LEED Zero Carbon takes it further—certifying that your building achieves net-zero carbon emissions over a 12-month period by balancing emitted and avoided/offset carbon."
+      },
+      {
+        "heading": "Why Pursue LEED Zero Carbon Certification?",
+        "content": "• Reduce energy and resource consumption, lowering costs.\n• Attract Investors & Tenants: Meet ESG (Environmental, Social, and Governance) goals and increase building appeal.\n• Market Recognition: Gain access to global green building networks and incentives.\n• Demonstrates your commitment to climate leadership and operational savings.\n• Certification is awarded by the U.S. Green Building Council (USGBC)."
+      },
+      {
+        "heading": "Benefits of Getting LEED Zero Carbon Certification",
+        "content": "• Boosted Brand Value: Showcase your leadership in sustainable construction.\n• Operational Savings\n• Future-Proof Compliance: Be prepared for emerging regulations and market expectations.\n• Tax Benefits & Higher Resale Value: Many regions incentivize green-certified properties."
+      },
+      {
+        "heading": "Who Should Apply for LEED Zero Carbon Certification?",
+        "content": "• Real Estate Developers & Builders\n• Corporate Campus Owners\n• Institutional and Commercial Property Managers\n• Green Building Project Leaders\n• Portfolio Managers targeting net-zero standards\n• Any organization planning to create or upgrade projects with a focus on carbon neutrality"
+      },
+      {
+        "heading": "Types of LEED Zero Certifications",
+        "content": "• LEED Zero Carbon: For projects that achieve net-zero carbon emissions\n• LEED Zero Energy: For projects that balance energy use with renewable energy production\n• LEED Zero Water: For buildings with zero potable water consumption\n• LEED Zero Waste: For facilities diverting 100% of waste from landfills"
+      },
+      {
+        "heading": "Why Choose DoStartup.in for Your LEED Zero Carbon Journey?",
+        "content": "• End-to-End Consulting: From project feasibility to full certification\n• Documentation & Compliance: We handle all paperwork and regulatory submissions\n• Data Compilation & Analysis: Accurate tracking of carbon, energy, water, and waste data\n• Expert Audit & Preparation: Comprehensive preparation for GBCI and USGBC reviews\n• Project Management: Dedicated advisors guide you at every step\n• Cost-Effective Solutions: Competitive pricing with transparent billing"
+      },
+      {
+        "heading": "Our LEED Zero Carbon Certification Process",
+        "content": "• Project Assessment & Feasibility\n• Registration with USGBC\n• Gap Analysis & Strategy Development\n• Onsite Data Collection & Monitoring\n• Documentation Preparation\n• Application Submission\n• Third-Party Verification & Audit\n• Certification Achievement & Ongoing Support\n• Typical Timeline: 6–12 months (varies by project size and complexity)"
+      }
+    ],
+    "Process": [
+      {
+        "category": "Our LEED Zero Carbon Certification Process",
+        "documents": [
+          "Project Assessment & Feasibility: We assess the project's feasibility and identify the necessary steps for achieving LEED Zero Carbon certification.",
+          "Registration with USGBC: We handle the registration process with the US Green Building Council (USGBC).",
+          "Gap Analysis & Strategy Development: We perform a gap analysis and develop a tailored strategy to close any gaps between your current practices and LEED Zero Carbon requirements.",
+          "Onsite Data Collection & Monitoring: We gather and monitor the necessary data on-site, including carbon, energy, water, and waste data.",
+          "Documentation Preparation: We prepare the necessary documentation and ensure compliance with all required standards.",
+          "Application Submission: We submit the application for certification to the relevant authorities.",
+          "Third-Party Verification & Audit: We assist with third-party verification and audit processes to ensure credibility.",
+          "Certification Achievement & Ongoing Support: We help you achieve certification and provide continuous support to maintain compliance."
+        ]
+      }
+    ],
+    "Challenges": [
+      {
+        "category": "Key Challenges We Help You Overcome",
+        "documents": [
+          "Navigating complex LEED requirements and documentation: We help simplify the LEED certification process and ensure all required documentation is in place.",
+          "Ensuring ongoing compliance with new green building standards: Our experts stay updated on the latest regulations and ensure your project maintains compliance.",
+          "Integrating renewable energy and carbon offset strategies: We guide you in implementing effective renewable energy solutions and carbon offset plans.",
+          "Managing timelines and costs for large-scale projects: We help you optimize project timelines and control costs to stay on track.",
+          "Avoiding 'greenwashing'—ensuring your certification is credible and robust: We ensure your certification process is transparent and aligned with the true goals of sustainability."
+        ]
+      },
+      {
+        "category": "Why Green Buildings?",
+        "documents": [
+          "India is rapidly advancing in sustainable construction—ranking among the top countries for net zero buildings. LEED Zero Carbon Certification is now a market differentiator for developers and building owners looking to attract global attention, higher valuations, and sustainable tenants."
+        ]
+      }
+    ],
+    "whyUs": [
+      {
+        "heading": "Why Choose DoStartup.in for Your LEED Zero Carbon Journey?",
+        "description": [
+          "DoStartup.in provides end-to-end consulting for your LEED Zero Carbon journey, guiding you through the entire process—from project feasibility to full certification."
+        ],
+        "points": [
+          "End-to-End Consulting: From project feasibility to full certification",
+          "Documentation & Compliance: We handle all paperwork and regulatory submissions",
+          "Data Compilation & Analysis: Accurate tracking of carbon, energy, water, and waste data",
+          "Expert Audit & Preparation: Comprehensive preparation for GBCI and USGBC reviews",
+          "Project Management: Dedicated advisors guide you at every step",
+          "Cost-Effective Solutions: Competitive pricing with transparent billing"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does LEED stand for?",
+        "answer": "LEED stands for Leadership in Energy and Environmental Design—a global green building rating system."
+      },
+      {
+        "question": "What is LEED Zero Carbon Certification?",
+        "answer": "It is an advanced green building certification verifying that your building has achieved net-zero carbon emissions over the past 12 months."
+      },
+      {
+        "question": "Who can apply for LEED Zero Carbon Certification?",
+        "answer": "Any commercial, institutional, or residential project committed to operational carbon neutrality can pursue certification."
+      },
+      {
+        "question": "What are the main benefits for businesses?",
+        "answer": "Lower operational costs, enhanced market value, access to tax incentives, compliance with ESG requirements, and recognition as a sustainability leader."
+      },
+      {
+        "question": "Is LEED Zero Carbon recognized internationally?",
+        "answer": "Yes, it’s awarded by USGBC and accepted worldwide, opening global business opportunities."
+      },
+      {
+        "question": "How is net zero carbon achieved in buildings?",
+        "answer": "By reducing emissions through design and operations, maximizing energy efficiency, and offsetting remaining emissions with credible carbon credits."
+      },
+      {
+        "question": "How long does certification take?",
+        "answer": "Typically 6–12 months, depending on project size and preparedness."
+      },
+      {
+        "question": "Can older buildings get LEED Zero Carbon certified?",
+        "answer": "Yes—both new and existing buildings can qualify by meeting the performance and documentation standards."
+      },
+      {
+        "question": "What is the cost of LEED Zero Carbon Certification?",
+        "answer": "Costs vary by project scope and services required; schedule a free consultation for an accurate estimate."
+      },
+      {
+        "question": "Do I need ongoing recertification?",
+        "answer": "Yes, recertification is recommended every 1–3 years to maintain status and performance."
+      },
+      {
+        "question": "Can LEED Zero be integrated with other green building certifications?",
+        "answer": "Absolutely! LEED Zero can complement existing LEED ratings and other sustainability programs."
+      },
+      {
+        "question": "How do I get started with DoStartup.in?",
+        "answer": "Book a free call or fill out the contact form—our experts will guide you step-by-step!"
+      }
+    ]
 
-
-"sanitary-import-permit": {
-  title: "Sanitary Import Permit – A Complete Guide",
-  description: "Obtain your Sanitary Import Permit with Do Startup’s expert support to legally import animal-based products into India.",
-  overview: [
-    {
-      heading: "Sanitary Import Permit – An Overview",
-      content: "If you're involved in importing animal-based products like meat, milk items, eggs, ova, semen, embryos, or pet food, you must obtain a Sanitary Import Permit at customs. Partner with Do Startup’s experts to ensure compliance and seamless documentation.\nA Sanitary Import Permit is a certificate issued under the Ministry of Agriculture’s authority, in accordance with Sections 3 and 4 of the Livestock Importation Act, 1898. The Department of Animal Husbandry, Dairying, and Fisheries ensures that this permit helps prevent foreign animal diseases from entering India."
-    },
-    {
-      heading: "What is a Sanitary Import Permit?",
-      content: "The Sanitary Import Permit, granted under Section 3(a) of the Livestock Importation Act of 1898, permits the import of livestock and livestock products. Although not a license, it specifies hygiene and safety requirements that must be met by the exporting country prior to entry into India."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Benefits of Sanitary Import Permit Certificate",
-      content: "• Designated Entry Points: Import of animal products is only allowed through authorized seaports and airports like Delhi, Mumbai, Kolkata, Chennai, Bangalore, and Hyderabad. Fish imports can also pass through Visakhapatnam, Kochi, and Petrapole (Bangladesh border).\n• Disease Control: The permit reduces the risk of foreign diseases by ensuring hygienic product certification before entry.\n• Hygienic Assurance: Ensures animal product safety through veterinarian certification from the exporting country.\n• Financial Protection: Minimizes potential losses from disease outbreaks in imported livestock products."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Sanitary Import Permit Certificate",
-      content: "• Valid FSSAI license for importing livestock products for human use\n• FSSAI license copy\n• Product catalogue and description\n• Ingredient details for each item\n• Product process chart\n• List of items to be imported\n• Certificate of Analysis (chemical and microbiological details)\n• Intended use of imported items"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Sanitary Import Permit Online Application Process",
-      content: "1. Visit the SIP portal and choose the relevant tab\n2. Complete Form A or B and upload the required documents\n3. Make the payment via the online gateway\n4. Upon approval, download the permit directly from the portal"
-    },
-    {
-      heading: "Compliance Requirements for Sanitary Import Permit",
-      content: "• The product must comply with Codex and Indian Food Safety standards\n• Attach a valid sanitary certificate from the origin country\n• No beef or beef derivatives allowed\n• Provide necessary health certificates\n• Products must pass microbiological, chemical, and physical tests\n• Product lists must follow the standard format and quantity"
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Fees for Acquiring an Online Sanitary Import Permit",
-      description: "The government fee for a Sanitary Import Permit is ₹300 per application. Professional service fees may vary based on service providers.",
-      feeTable: [
-        {
-          category: "Government Application Fee",
-          amount: "₹300"
-        },
-        {
-          category: "Consultancy Charges (Optional)",
-          amount: "Varies by service provider"
-        }
-      ]
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline for Getting a Sanitary Import Permit Certificate",
-      description: "The permit is typically issued within 8–12 working days, subject to proper documentation and verification.",
-      steps: [
-        {
-          title: "Document Preparation & Upload",
-          duration: "1–3 days",
-          description: "Collect and upload all mandatory documents on the SIP portal."
-        },
-        {
-          title: "Application Review",
-          duration: "4–7 days",
-          description: "Authorities verify documentation, purpose, and compliance."
-        },
-        {
-          title: "Permit Issuance",
-          duration: "1–2 days",
-          description: "Upon successful approval, the permit is made available for download."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for Sanitary Import Permit Services?",
-      description: [
-        "Comprehensive guidance from experienced consultants",
-        "Timely document review and submission",
-        "Regulatory support for smooth import clearance"
-      ],
-      points: [
-        "10+ years of expertise",
-        "Trusted by 500+ importers",
-        "99% approval success rate"
-      ]
-    }
-  ],
-  faq: [
-    {
-      question: "What is the validity of a sanitary import permit?",
-      answer: "It ranges from 3 months to 1 year, allowing multiple consignments within the approved limit."
-    },
-    {
-      question: "What is a sanitary import permit?",
-      answer: "It is a certificate specifying sanitary norms for importing livestock products into India."
-    },
-    {
-      question: "What is a sanitary import permit in customs?",
-      answer: "A document required at customs clearance to confirm compliance with animal import health norms."
-    },
-    {
-      question: "How can I get a sanitary import permit in India?",
-      answer: "Apply online via the SIP portal, attach required documents, and complete payment."
-    },
-    {
-      question: "Why is an online sanitary import permit required?",
-      answer: "To ensure that imported animal products meet health and hygiene standards, protecting public health."
-    },
-    {
-      question: "What documents are required for the sanitary import permit?",
-      answer: "FSSAI license, product catalogue, ingredient list, usage details, process chart, and analysis certificate."
-    },
-    {
-      question: "How is the Sanitary Import Permit delivered?",
-      answer: "Approved permits are made available for download on the SIP portal."
-    },
-    {
-      question: "How will missing documents be communicated?",
-      answer: "The applicant will be notified through the SIP portal to correct and resubmit the documents."
-    },
-    {
-      question: "What is the fee for a sanitary import permit?",
-      answer: "₹300 per application, excluding any consultant’s professional fees."
-    },
-    {
-      question: "How long does it take to get a sanitary import permit certificate?",
-      answer: "Typically 8–12 working days, subject to regulatory review and documentation."
-    }
-  ]
-}
-,
-
-"npop-certification": {
-  title: "NPOP Certification – A Complete Guide",
-  description: "Achieve NPOP certification with Do Startup’s expert support to certify your organic products for domestic and export markets under the National Programme for Organic Production.",
-  overview: [
-    {
-      heading: "An Overview of NPOP Certification",
-      content: "NPOP certification is a government-backed initiative that sets benchmarks for organic cultivation, processing, and trade. It allows farmers and businesses to officially showcase their adherence to organic farming standards, catering to eco-conscious consumers and promoting sustainable agriculture."
-    },
-    {
-      heading: "What is NPOP?",
-      content: "The National Programme for Organic Production (NPOP), launched in 2001, defines standards for organic farming, systems, and certification. Aligned with global norms, it governs the use of the India Organic logo and regulates import/export under APEDA."
-    },
-    {
-      heading: "Background of NPOP in India",
-      content: "Started in 2000, NPOP enabled organic certification for farms and livestock. As of 2024, India ranks second globally in organic farmland and first in farmer count. Administered by APEDA under the Ministry of Commerce, it unlocks both domestic and international organic markets."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Benefits of NPOP Registration",
-      content: "• Boost Consumer Trust – Certified products reassure buyers of quality.\n• Market Recognition – Credibility as a certified organic supplier.\n• Eco-Friendly Practices – Promotes sustainable agriculture and biodiversity.\n• Health Assurance – Guarantees chemical-free, GMO-free products.\n• Global Market Access – Facilitates organic exports under recognized standards."
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for NPOP Certification",
-      content: "• Certification body’s mandate and program statement\n• Inspection and evaluation procedures\n• Fee structure and financial details\n• Complaint and appeal handling process\n• List of certified products\n• Company registration proof\n• Memorandum of Association (MOA)\n• Audited financial statements\n• Accreditation fee receipts\n• ISO 17065 quality manual\n• SOPs, formats, and checklists\n• Authorization letter\n• Additional relevant documents"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "How to Apply for NPOP Certification",
-      content: "1. Check Eligibility – Ensure compliance with NPOP farm and production standards.\n2. Choose a Certification Body – Accredited by APEDA under NPOP.\n3. Submit Application – Provide details of farm, crops, livestock.\n4. Upload Documents – Include certification plan, inputs, SOPs, etc.\n5. Inspection & Verification – Third-party checks ensure compliance.\n6. Certification Approval – Issued on successful compliance.\n7. Annual Review – APEDA conducts yearly audits of certified units."
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "NPOP Certification Fees",
-      description: "Fees vary by certification body and scope of operation. Typically include application fee, inspection charges, and annual surveillance fees."
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Validity & Timeline of NPOP Certification",
-      description: "Valid for 3 years from issuance.",
-      steps: [
-        {
-          title: "Application to Approval",
-          duration: "3–6 months",
-          description: "Includes document review, inspections, and compliance verification."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup for NPOP Certification?",
-      description: [
-        "Assisted 500+ agripreneurs",
-        "10+ years of sector expertise",
-        "99% certification success rate",
-        "End-to-end support",
-        "Affordable services",
-        "24/7 expert assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "What is NPOP certification?",
-      answer: "NPOP certification assures organic production quality under a national standard governed by APEDA and the Department of Commerce."
-    },
-    {
-      question: "What is the validity of an NPOP certificate?",
-      answer: "Valid for 3 years from the issuance date."
-    },
-    {
-      question: "What is the difference between NPOP and PGS-India?",
-      answer: "NPOP is a national certification scheme for export and domestic markets; PGS-India is a participatory guarantee system for domestic trade."
-    },
-    {
-      question: "Who certifies organic food in India?",
-      answer: "Certification bodies accredited by APEDA and NAB under NPOP carry out audits and approvals."
-    },
-    {
-      question: "Who needs organic certification?",
-      answer: "Producers, processors, traders, and exporters of organic agricultural products require certification."
-    },
-    {
-      question: "What does NPOP stand for?",
-      answer: "National Programme for Organic Production."
-    }
-  ]
-},
-
-
-"drone-registration": {
-  title: "Drone Registration – A Complete Overview",
-  description: "Register your drone on India’s Digital Sky platform via Do Startup to ensure legal, safe, and compliant operations for commercial or recreational use.",
-  overview: [
-    {
-      heading: "What is Drone Registration?",
-      content: "Under DGCA’s Drone Rules, 2021, all unmanned aircraft systems (UAS) above nano category must be registered on the Digital Sky platform to obtain a Unique Identification Number (UIN) and Operator Permit (UAOP) before flight operations."
-    },
-    {
-      heading: "Categories of Drone Registration",
-      content: "• Nano Drones: ≤ 250 g\n• Micro Drones: 251 g – 2 kg\n• Small Drones: 2 – 25 kg\n• Medium Drones: 25 – 150 kg\n• Large Drones: > 150 kg"
-    },
-    {
-      heading: "Importance of Registration",
-      content: "Ensures compliance with national security directives, prevents unauthorized flights, promotes safe operations, and supports growth of India’s indigenous drone ecosystem."
-    }
-  ],
-  benefits: [
-    {
-      heading: "Key Benefits of Drone Registration",
-      content: "• Prevent unauthorized drone flights\n• Ensure operational safety and compliance\n• Enable commercial drone services\n• Boost domestic drone manufacturing\n• Access DGCA-approved flight corridors"
-    }
-  ],
-  documentsRequired: [
-    {
-      heading: "Documents Required for Registration",
-      content: "• Organization name & address proof\n• Company registration number & GST certificate\n• Director’s name & DIN\n• Aadhar card of one director\n• Drone specifications & photograph\n• OEM certificate & No Permission No Takeoff (NPNT) letter"
-    }
-  ],
-  registrationProcedure: [
-    {
-      heading: "Step-by-Step Registration Process",
-      content: "1. Check OEM certificate & NPNT compliance\n2. Register on Digital Sky portal\n3. Apply for UIN and mark it on your drone\n4. Apply for UAOP (Operator Permit)\n5. Obtain Remote Pilot License from DGCA-authorized institute\n6. Install NPNT software for real-time flight permissions"
-    }
-  ],
-  feesStructure: [
-    {
-      heading: "Government Fees",
-      description: "• UIN issuance: ₹1,000\n• UAOP application: ₹25,000\n• UAOP renewal: ₹10,000"
-    }
-  ],
-  registrationTimeline: [
-    {
-      heading: "Timeline to Complete Registration",
-      description: "Process typically takes a few weeks to a few months depending on document accuracy and DGCA approvals.",
-      steps: [
-        {
-          title: "Digital Sky Registration",
-          duration: "1–2 weeks",
-          description: "Portal sign-up, form filling, and UIN issuance."
-        },
-        {
-          title: "UAOP & Pilot License",
-          duration: "2–4 weeks",
-          description: "Operator permit application and remote pilot license issuance."
-        }
-      ]
-    }
-  ],
-  whyUs: [
-    {
-      heading: "Why Choose Do Startup?",
-      description: [
-        "10,000+ experts nationwide",
-        "2,000+ successful drone registrations",
-        "99% approval rate",
-        "End-to-end documentation support",
-        "Transparent pricing and timelines",
-        "24/7 compliance assistance"
-      ],
-      points: []
-    }
-  ],
-  faq: [
-    {
-      question: "Do I need a license for nano drones?",
-      answer: "No, nano drones (≤ 250 g) flown for non-commercial purposes are exempt from registration and pilot licensing."
-    },
-    {
-      question: "What is NPNT?",
-      answer: "No Permission No Takeoff (NPNT) is a mandate requiring real-time digital clearance before drone takeoff."
-    },
-    {
-      question: "How long is a UAOP valid?",
-      answer: "UAOP validity aligns with drone category and pilot license validity, typically renewable annually."
-    },
-    {
-      question: "Can I fly anywhere in India?",
-      answer: "No, flights are restricted to green zones and require DPR approval for red and yellow zones."
-    },
-    {
-      question: "How soon can I start commercial operations?",
-      answer: "After obtaining UIN, UAOP, NPNT compliance, and remote pilot license — typically within 4–6 weeks."
-    }
-  ]
-}
-
-
-
-
-
-
-
-
-
-
-
+  },
 };

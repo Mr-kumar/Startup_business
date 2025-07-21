@@ -1962,7 +1962,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "usa-company-registration": {
     overview: {
       heading: "Why Choose DoStartup for Company Registration in the USA",
@@ -2181,7 +2180,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "france-company-registration": {
     overview: {
       heading: "Company Registration in France – A Comprehensive Guide",
@@ -2335,7 +2333,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "singapore-company-registration": {
     overview: {
       heading:
@@ -2537,7 +2534,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "hong-kong-company-registration": {
     overview: {
       heading:
@@ -2779,7 +2775,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "nbfc-compliance": {
     overview: {
       heading: "Simplifying NBFC Compliance for a Stronger Financial Future",
@@ -3026,7 +3021,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "change-registered-office": {
     overview: {
       heading: "Change in Registered Office Address – Complete Guide",
@@ -3208,7 +3202,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "mca-compliance": {
     overview: {
       heading: "A Complete Guide to MCA Compliance",
@@ -3442,7 +3435,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "mgt-7-compliance": {
     overview: {
       heading: "Form MGT-7 Filing – Annual Return Compliance for Companies",
@@ -3691,7 +3683,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "spice-plus-compliance": {
     overview: {
       heading:
@@ -3957,7 +3948,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "agile-pro-s-compliance": {
     overview: {
       heading: "What is Form AGILE PRO S? – A Comprehensive Guide",
@@ -4192,7 +4182,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "ce-certification-compliance": {
     overview: {
       heading: "CE Certification: Your Gateway to the European Market",
@@ -4475,7 +4464,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "wpc-certification-compliance": {
     overview: {
       heading: "WPC Certification: Mandatory Wireless Compliance in India",
@@ -4667,7 +4655,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "peso-certification-compliance": {
     overview: {
       heading: "PESO Certification: A Simplified Guide",
@@ -4866,7 +4853,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "tec-certification-compliance": {
     overview: {
       heading:
@@ -5052,7 +5038,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "msme-registration-india": {
     overview: {
       heading:
@@ -5249,7 +5234,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "iec-code-registration": {
     overview: {
       heading: "IEC Code Registration – Unlock Global Trade Opportunities",
@@ -5467,7 +5451,6 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
-
   "rera-registration": {
     overview: {
       heading: "RERA Registration – A Complete Overview",
@@ -5746,7 +5729,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "nsic-registration": {
     overview: {
       heading: "NSIC Registration in India – Everything You Need to Know",
@@ -6024,7 +6006,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "apeda-registration": {
     overview: {
       heading: "APEDA Registration – A Complete Overview",
@@ -6249,7 +6230,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "rni-registration": {
     overview: {
       heading: "An Overview of RNI Registration in India",
@@ -6475,7 +6455,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "pm-wani-registration": {
     overview: {
       heading: "PM WANI WiFi Registration Scheme: A Complete Overview",
@@ -6730,7 +6709,6 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
   "coconut-board-registration": {
     overview: {
       heading: "Coconut Board Registration – Everything You Need to Know",
@@ -6989,9 +6967,972 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
-
-  
-
-  
+  "iso-45001-certification": {
+    overview: {
+      heading: "ISO 45001 Certification – An Overview",
+      paragraphs: [
+        "ISO 45001 is an international certification issued by the International Organization for Standardization (ISO) — an independent, non-governmental body that develops standards across various sectors, including Occupational Health and Safety Management Systems (OHSMS). ISO 45001 Certification is designed to enhance workplace safety, minimize occupational hazards, and promote healthier working environments by aligning organizations with global safety benchmarks.",
+        "This standard replaces OHSAS 18001 and incorporates guidelines from the International Labour Organization (ILO), along with various national frameworks. It is a part of a broader Safety Management System (SMS), supporting companies in formulating safety policies that prevent injuries and promote overall employee well-being. The ISO 45001 certification cost may vary depending on factors like company size, number of employees, and operational complexity.",
+        "Achieving ISO 45001 Certification demonstrates your company’s commitment to occupational health and safety. It promotes a proactive risk management approach, enhances internal safety culture, and reinforces your dedication to employee welfare. This commitment builds trust among stakeholders, clients, and your workforce, setting your brand apart as a responsible and safety-conscious entity.",
+        "Additionally, ISO 45001 certification unlocks new business opportunities, as many clients and partners now prefer to associate with companies that value worker safety. It’s not just about compliance—it’s a strategic step toward business growth with a strong safety foundation."
+      ],
+    },
+    benefits: [
+      {
+        title: "Reduced Operating Costs",
+        description:
+          "Fewer incidents and robust health policies lower legal liabilities, insurance expenses, and operational disruptions.",
+      },
+      {
+        title: "Improved Stakeholder Relationships",
+        description:
+          "Prioritizing health and safety builds trust, loyalty, and long-term collaboration with employees, customers, and suppliers.",
+      },
+      {
+        title: "Legal Compliance",
+        description:
+          "Ensures your organization meets current health and safety laws, reducing the risk of penalties and improving efficiency.",
+      },
+      {
+        title: "Enhanced Risk Management",
+        description:
+          "Facilitates effective identification, evaluation, and mitigation of workplace risks, minimizing losses and downtime.",
+      },
+      {
+        title: "Business Credibility & Market Recognition",
+        description:
+          "ISO 45001 certification strengthens your brand image and attracts clients who value safety and responsibility.",
+      },
+      {
+        title: "Customer Safety and Satisfaction",
+        description:
+          "Demonstrates your commitment to health and safety, increasing customer trust and retention.",
+      },
+      {
+        title: "Corporate Social Responsibility (CSR)",
+        description:
+          "Supports CSR initiatives and highlights your dedication to ethical, employee-focused business practices.",
+      },
+    ],
+    features: [
+      {
+        icon: "✅",
+        title: "Strong safety culture",
+        description:
+          "Registered entities can avail various CDB subsidies, grants, and development schemes.",
+      },
+      {
+        icon: "📜",
+        title: "Reduced operational risks",
+        description:
+          "Provides official recognition and authorization from the Coconut Development Board.",
+      },
+      {
+        icon: "🤝",
+        title: "Enhanced health protections",
+        description:
+          "Builds trust and cooperation with CDB and related industry bodies.",
+      },
+      {
+        icon: "🏛️",
+        title: "Focus on worker well-being",
+        description:
+          "Enables participation in tenders and government contracts related to coconut procurement and supply.",
+      },
+      {
+        icon: "🏛️",
+        title: "Lower insurance premiums",
+        description:
+          "Enables participation in tenders and government contracts related to coconut procurement and supply.",
+      },
+      {
+        icon: "🏛️",
+        title: "Stronger stakeholder trust",
+        description:
+          "Enables participation in tenders and government contracts related to coconut procurement and supply.",
+      },
+      {
+        icon: "🏛️",
+        title: "Proactive safety management",
+        description:
+          "Enables participation in tenders and government contracts related to coconut procurement and supply.",
+      }
+    ],
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for ISO 45001 Certification",
+        items: [
+          "A documented Occupational Health & Safety Management System (OH&SMS) in place.",
+          "Demonstrated leadership commitment and active participation of workers.",
+          "Processes for risk identification, hazard assessment, and proactive risk management.",
+          "Compliance with all applicable legal obligations and organization-wide safety training.",
+        ],
+      },
+      {
+        heading: "ISO 45001 Certification Audit Checklist",
+        items: [
+          "Comprehensive understanding of the organization and its operational structure.",
+          "Awareness of stakeholder needs and expectations.",
+          "Clearly defined OH&S scope, objectives, and policies.",
+          "Active leadership involvement and enforcement of safety policies.",
+          "Assigned responsibilities and accountability at all organizational levels.",
+          "Transparent communication, consultation, and worker representation mechanisms.",
+        ],
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "ISO 45001 Certification Registration Process",
+          desc: "Initiate the registration process with an accredited certification body for ISO 45001.",
+        },
+        {
+          title: "Preliminary Audit",
+          desc: "The Occupational Health and Safety (OH&S) Management System and its documentation are reviewed to identify any possible non-conformities.",
+        },
+        {
+          title: "On-site Audit",
+          desc: "Evaluate the implementation and effectiveness of the OH&SMS through interviews, site observations, and document review to ensure compliance with ISO 45001 standards.",
+        },
+        {
+          title: "Addressing Non-conformities",
+          desc: "Any non-conformities found during the audit are highlighted, and corrective actions must be taken based on detailed feedback.",
+        },
+        {
+          title: "Certificate Issuance",
+          desc: "Once all compliance criteria are met, the accredited body issues the ISO 45001 certificate.",
+        },
+        {
+          title: "Surveillance Audits",
+          desc: "Annual audits are conducted to maintain compliance and ensure continuous improvement.",
+        },
+        {
+          title: "Recertification Audit",
+          desc: "At the end of the three-year certification period, a recertification audit is conducted to renew the ISO 45001 certification.",
+        }
+      ],
+      violations: [],
+      consequences: [],
+    },
+    services: [],
+    faqs: [
+      {
+        question: "What is ISO 45001 certification?",
+        answer: "It is a global health and safety standard designed to reduce workplace risks and promote safe working environments.",
+      },
+      {
+        question: "What are the 7 elements of ISO 45001?",
+        answer: "Context of the organization, Leadership, Planning, Support, Operation, Performance evaluation, Improvement.",
+      },
+      {
+        question: "What is the difference between ISO 14001 and 45001?",
+        answer: "ISO 14001 focuses on the environment, while ISO 45001 targets occupational health and safety.",
+      },
+      {
+        question: "What is the full form of ISO?",
+        answer: "International Organization for Standardization.",
+      },
+      {
+        question: "What is the objective of ISO 45001?",
+        answer: "To safeguard employees by proactively identifying risks and promoting safe workplace practices.",
+      },
+      {
+        question: "Who needs ISO 45001 certification?",
+        answer: "Organizations of any size or sector prioritizing employee safety.",
+      },
+      {
+        question: "What is the ISO 45001 certification cost?",
+        answer: "Cost varies by company size, scope, and existing safety systems.",
+      },
+      {
+        question: "Does ISO 45001 replace other certifications?",
+        answer: "No, but it complements other ISO standards like ISO 14001 or 9001.",
+      },
+      {
+        question: "Is ISO certification mandatory?",
+        answer: "No, it's voluntary but highly recommended for safety-driven businesses.",
+      },
+      {
+        question: "How long is ISO 45001 valid?",
+        answer: "The certificate is valid for three years, subject to annual surveillance audits.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [
+        "In-depth understanding of ISO 45001 standards",
+        "Boost auditing and assessment capabilities.",
+        "Strengthen credibility and reduce risks.",
+        "Contribute to workplace safety efforts.",
+        "Deliver detailed audit reports and insights.",
+        "Gain global recognition and improve career prospects.",
+      ],
+      differenceTable: {
+        columns: [
+          "Aspect",
+          "ISO 14001",
+          "ISO 45001",
+        ],
+        rows: [
+          [
+            "Focus",
+            "Environmental Performance",
+            "Occupational Health and Safety",
+          ],
+          [
+            "System",
+            "Environmental Management System",
+            "OH&S Management System",
+          ],
+          [
+            "Controls",
+            "Environmental impact mitigation",
+            "Workplace stress, hours, harassment",
+          ],
+          [
+            "Objective",
+            "Minimize environmental damage",
+            "Maximize employee health and safety",
+          ],
+        ],
+      },
+      timelineFees: [],
+    },
+  },
+  "isi-mark-certification": {
+    "overview": {
+      "heading": "ISI Mark Certification",
+      "paragraphs": [
+        "The Indian Standards Institute (ISI) mark, issued by the Bureau of Indian Standards (BIS), acts as a seal of quality assurance for products sold within India. It is granted only to those products that undergo rigorous testing and inspections and meet BIS-prescribed standards and compliances.",
+        "An ISI mark is a clear indication that a product adheres to BIS’s stringent quality and safety regulations. Products bearing the ISI certification are seen as reliable, safe, and trustworthy—earning the confidence of consumers in the marketplace."
+      ]
+    },
+    "benefits": [
+      {
+        "title": "Quality Assurance",
+        "description": "ISI certification assures consumers of a product’s high quality, as it meets strict manufacturing and safety standards set by BIS."
+      },
+      {
+        "title": "Consumer Confidence",
+        "description": "The ISI mark fosters trust. Consumers prefer ISI-marked products due to their perceived safety, performance, and reliability—ultimately boosting brand loyalty."
+      },
+      {
+        "title": "Market Access",
+        "description": "For many product categories, ISI certification is legally required to be sold in the Indian market."
+      },
+      {
+        "title": "Competitive Advantage",
+        "description": "Products bearing the ISI mark stand out with a distinct edge in the marketplace over uncertified alternatives."
+      },
+      {
+        "title": "Reduced Legal Liability",
+        "description": "Certified products have undergone thorough checks, minimizing the likelihood of safety failures and liability issues."
+      },
+      {
+        "title": "Regulatory Compliance",
+        "description": "Having an ISI mark ensures legal sale within India and eases regulatory burdens for manufacturers."
+      },
+      {
+        "title": "Export Facilitation",
+        "description": "Products with ISI certification are recognized internationally for quality and compliance, easing entry into global markets."
+      },
+      {
+        "title": "Consumer Safety",
+        "description": "The ISI mark guarantees that the product has been verified for safety and quality, helping customers make informed choices."
+      },
+      {
+        "title": "Quality Control",
+        "description": "The certification drives manufacturers to maintain consistent quality, improving overall production standards."
+      },
+      {
+        "title": "Brand Reputation",
+        "description": "Products with ISI marks gain stronger brand credibility and customer acceptance, improving market positioning."
+      },
+      {
+        "title": "Scope of the ISI Certificate",
+        "description": "Electrical appliances \n" +
+          "Consumer goods\n" +
+          "Building materials\n" +
+          "Automotive components"
+      }
+    ],
+    features: [
+    ],
+    eligibility: [
+    ],
+    "documents": {
+      "steps": [
+        {
+          "title": "Duly Filled Application Form V",
+          "desc": "The completed application form that outlines your request for ISI Mark certification."
+        },
+        {
+          "title": "Application and License Fees",
+          "desc": "The requisite application and licensing fees must be submitted as part of the certification process."
+        },
+        {
+          "title": "Address Proof of Manufacturing Unit",
+          "desc": "Proof of the physical address where the manufacturing unit is located."
+        },
+        {
+          "title": "GST & MSME Certificates",
+          "desc": "Proof of GST registration and MSME certificate (if applicable)."
+        },
+        {
+          "title": "Trademark Certificate",
+          "desc": "Provide a certificate that demonstrates the product or company holds a registered trademark."
+        },
+        {
+          "title": "Manufacturing Capacity Details",
+          "desc": "Details about the manufacturing capacity of the unit, including production volumes."
+        },
+        {
+          "title": "Supplier Details and Raw Material Test Reports",
+          "desc": "Information about suppliers and test reports of raw materials used in manufacturing."
+        },
+        {
+          "title": "Factory Layout and Location Map",
+          "desc": "A detailed layout of the factory along with a map showing its location."
+        },
+        {
+          "title": "Packaging and Storage Details",
+          "desc": "Details on how the product is packaged and stored to ensure compliance with ISI standards."
+        },
+        {
+          "title": "In-house Test Equipment List",
+          "desc": "A list of test equipment available within the factory for product testing."
+        },
+        {
+          "title": "Quality Control Staff Qualifications",
+          "desc": "Details about the qualifications and experience of the quality control staff."
+        },
+        {
+          "title": "Organizational Structure",
+          "desc": "A document describing the organizational structure, including key management roles."
+        },
+        {
+          "title": "MoA/AoA (for companies), Partnership Deed (for firms)",
+          "desc": "Memorandum of Association (MoA) and Articles of Association (AoA) for companies, or the Partnership Deed for firms."
+        },
+        {
+          "title": "Authorization Letter",
+          "desc": "A letter authorizing a representative to submit and manage the application for ISI certification on behalf of the company."
+        },
+        {
+          "title": "Factory Test Report",
+          "desc": "A test report from the factory, confirming the compliance of products with ISI standards."
+        }
+      ],
+      "violations": [],
+      "consequences": []
+    },
+    services: [],
+    "faqs": [
+      {
+        "question": "What is an ISI Certificate?",
+        "answer": "The ISI certificate, which stands for the Indian Standards Institute mark, is issued by the Bureau of Indian Standards (BIS). It serves as a symbol of quality and compliance, indicating that a product meets the standards, regulations, and safety norms prescribed by BIS. The ISI mark builds trust among consumers and confirms product reliability."
+      },
+      {
+        "question": "What is the validity of the ISI Mark Certification?",
+        "answer": "The ISI certificate remains valid for one year from the date of issue. Manufacturers must renew it annually by adhering to BIS compliance standards. Renewal ensures that the product continues to meet the required quality parameters set by BIS."
+      },
+      {
+        "question": "How long does it take to obtain an ISI Certificate in India?",
+        "answer": "The time frame for receiving an ISI certificate from BIS is typically 60 to 90 working days. However, depending on factors such as documentation, testing procedures, and factory inspection timelines, the process may extend up to 180 days. With DoStartup, this process is handled efficiently to minimize delays."
+      },
+      {
+        "question": "Who issues the ISI Certificate in India?",
+        "answer": "The Bureau of Indian Standards (BIS) is the sole authority responsible for issuing ISI certificates to manufacturers who meet the specified quality and regulatory requirements under Indian law."
+      },
+      {
+        "question": "Who can apply for an ISI Certificate in India?",
+        "answer": "Any manufacturer operating in India or abroad, provided they meet all BIS-mandated standards and compliance norms, can apply for an ISI certificate. DoStartup assists businesses of all sizes in preparing for and completing this process smoothly."
+      },
+      {
+        "question": "What should you do if you find a fake or duplicate ISI mark?",
+        "answer": "If you identify a product with a duplicate or counterfeit ISI mark, you must immediately report the issue to BIS. Reporting helps ensure consumer protection and enforcement of quality standards."
+      },
+      {
+        "question": "What is mandatory ISI registration?",
+        "answer": "Certain products under the BIS mandate require compulsory ISI registration to be legally sold in the Indian market. Products failing to obtain this certification cannot be marketed or distributed. DoStartup helps manufacturers navigate this process effortlessly and legally."
+      },
+      {
+        "question": "What are the penalties for misuse of the ISI mark?",
+        "answer": "Manufacturers found misusing the ISI mark or using it without proper certification can face legal consequences, including a fine of up to INR 50,000 or imprisonment of up to one year, or both. With DoStartup, businesses ensure compliance and avoid such penalties."
+      }
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [
+      ],
+      differenceTable: {
+        columns: [],
+        rows: [],
+      },
+      timelineFees: [],
+    },
+  },
+  "environmental-clearance": {
+    overview: {
+      "heading": "Environmental Clearance (EC) – A Complete Overview",
+      "paragraphs": [
+        "Environmental Clearance (EC) is the statutory approval required for initiating certain notified projects in India. This clearance ensures that proposed development activities are environmentally sustainable and compliant with government norms.",
+        "The Ministry of Environment, Forest and Climate Change (MoEFCC) is the central authority responsible for granting EC to projects classified under Category A, while State Environmental Impact Assessment Authorities (SEIAAs) handle Category B projects at the state level.",
+        "Before any site development begins, the project proponent must secure an Environmental Clearance Certificate. Additionally, the MoEFCC must make a decision within 105 days of receiving the final Environmental Impact Assessment (EIA) and Environmental Management Plan (EMP) reports."
+      ]
+    },
+    features: [
+      {
+        "icon": "🌱",
+        "title": "Balancing Development & Environment",
+        "description": "EC ensures a balanced approach to economic development while protecting natural resources and ecosystems."
+      },
+      {
+        "icon": "🌍",
+        "title": "Boosting Environmental Performance",
+        "description": "Environmental Clearance supports sustainable practices, enhancing overall environmental outcomes through responsible development."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Legal Compliance",
+        "description": "Projects with valid EC are in compliance with environmental laws, minimizing legal risks and regulatory violations."
+      },
+      {
+        "icon": "👥",
+        "title": "Encouraging Public Involvement",
+        "description": "The EC process includes mechanisms like public hearings that improve transparency and stakeholder engagement."
+      },
+      {
+        "icon": "💰",
+        "title": "Economic Sustainability",
+        "description": "Environmental Clearance helps foster economic benefits by encouraging eco-friendly, long-term project planning."
+      },
+      {
+        "icon": "💧",
+        "title": "Conservation of Resources",
+        "description": "By mitigating environmental damage, EC promotes resource conservation and ecological balance."
+      }
+    ],
+    benefits: [
+      {
+        "title": "Balancing Development & Environment",
+        "description": "EC ensures a balanced approach to economic development while protecting natural resources and ecosystems."
+      },
+      {
+        "title": "Boosting Environmental Performance",
+        "description": "Environmental Clearance supports sustainable practices, enhancing overall environmental outcomes through responsible development."
+      },
+      {
+        "title": "Legal Compliance",
+        "description": "Projects with valid EC are in compliance with environmental laws, minimizing legal risks and regulatory violations."
+      },
+      {
+        "title": "Encouraging Public Involvement",
+        "description": "The EC process includes mechanisms like public hearings that improve transparency and stakeholder engagement."
+      },
+      {
+        "title": "Economic Sustainability",
+        "description": "Environmental Clearance helps foster economic benefits by encouraging eco-friendly, long-term project planning."
+      },
+      {
+        "title": "Conservation of Resources",
+        "description": "By mitigating environmental damage, EC promotes resource conservation and ecological balance."
+      }
+    ],
+    documents: {
+      "steps": [
+        {
+          "title": "Cover Letter",
+          "desc": "A letter introducing the project and seeking clearance."
+        },
+        {
+          "title": "Detailed Project Proposal or Feasibility Report",
+          "desc": "A comprehensive description of the project and its feasibility, including environmental considerations."
+        },
+        {
+          "title": "Environmental Impact Assessment (EIA) Report",
+          "desc": "A report assessing the potential environmental impacts of the project."
+        },
+        {
+          "title": "Site Plan and Location Maps",
+          "desc": "Maps indicating the project site, including details about land acquisition."
+        },
+        {
+          "title": "Local Authority Consent",
+          "desc": "Consent from the local authorities for the project's development."
+        },
+        {
+          "title": "Details of the Project Proponent",
+          "desc": "Information about the entity or individual proposing the project."
+        },
+        {
+          "title": "Public Hearing Report",
+          "desc": "A report on public consultations or hearings conducted for the project."
+        },
+        {
+          "title": "Environmental Management Plan (EMP)",
+          "desc": "A plan detailing measures to mitigate environmental impacts during the project's life cycle."
+        },
+        {
+          "title": "Registered Address Proof of the Applicant Entity",
+          "desc": "Proof of the registered address of the applicant entity or individual."
+        },
+        {
+          "title": "Personal Details of the Authorized Applicant",
+          "desc": "Personal identification details of the individual authorized to apply for clearance."
+        },
+        {
+          "title": "Terms of Reference (ToR), Previous EC, and Certified Compliance Reports",
+          "desc": "If applicable, include the Terms of Reference, previous Environmental Clearances, and compliance reports."
+        },
+        {
+          "title": "Any Other Relevant Information",
+          "desc": "Any additional information pertinent to the project or required by the authorities."
+        }
+      ],
+      violations: [],
+      consequences: [],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Checklist for Filing GST Registration",
+        items: [
+          "Businesses with turnover over INR 40 Lakhs (INR 20 Lakhs for special states).",
+          "Service providers with turnover over INR 20 Lakhs (INR 10 Lakhs for special states).",
+          "Businesses previously under old tax structures must migrate.",
+          "Non-residents supplying taxable services in India require registration.",
+        ],
+      },
+      {
+        heading: "Other Entities Eligible to Apply",
+        items: [
+          "Inter-state goods suppliers.",
+          "Reverse charge liable entities.",
+          "Input service distributors.",
+          "E-commerce operators.",
+        ],
+      },
+      {
+        heading: "Documents Required for GST Registration Online",
+        items: [
+          "PAN Card",
+          "Aadhar Card",
+          "Company Registration Certificate",
+          "Identity & Address Proof",
+          "Photographs",
+          "Business Address Proof",
+          "Bank Statement",
+          "Digital Signature Certificate",
+          "Lease Agreement",
+          "Authorization Letter",
+        ],
+      },
+    ],
+    services: [
+      {
+        "title": "Application Submission",
+        "desc": "Submit the EC application in Form 1 along with Supplementary Form 1A after finalizing the project site."
+      },
+      {
+        "title": "Application Screening",
+        "desc": "The SEAC evaluates the application to determine whether a detailed EIA study is necessary for Category B projects."
+      },
+      {
+        "title": "Scoping",
+        "desc": "Prepare and submit the Terms of Reference (ToR) highlighting key environmental concerns to SEAC or EAC."
+      },
+      {
+        "title": "Public Consultation",
+        "desc": "Conduct public hearings and stakeholder engagements to gather feedback from local communities."
+      },
+      {
+        "title": "Appraisal by Expert Committee",
+        "desc": "The EAC or SEAC reviews the application, EIA report, and public consultation outcomes to recommend whether to grant EC."
+      },
+      {
+        "title": "Forest Clearance",
+        "desc": "Obtain clearance under the Forest Conservation Act, 1980 if required for the project."
+      },
+      {
+        "title": "Wildlife Clearance",
+        "desc": "Ensure wildlife clearance under the Wildlife Protection Act, 1972 from the National Board for Wildlife (NBWL)."
+      },
+      {
+        "title": "Coastal Regulation Zone (CRZ) Clearance",
+        "desc": "Obtain CRZ clearance as per the 2011 Notification for projects in coastal areas."
+      },
+      {
+        "title": "Central Ground Water Authority (CGWA) NOC",
+        "desc": "Get the NOC from CGWA if the project involves groundwater extraction."
+      },
+      {
+        "title": "Fire Department NOC",
+        "desc": "Ensure obtaining the NOC from the Fire Department as part of the safety protocol."
+      },
+      {
+        "title": "Distance from Forest Boundary Certificate",
+        "desc": "Provide a certificate indicating the distance from the forest boundary for the project."
+      },
+      {
+        "title": "Airport Authority of India (AAI) Height Clearance NOC",
+        "desc": "Obtain the NOC from AAI if the project exceeds specific height limits near airports."
+      },
+      {
+        "title": "National Highway Authority of India (NHAI) NOC",
+        "desc": "Secure the NOC from NHAI for projects near national highways."
+      }
+    ],
+    faqs: [
+      {
+        "question": "What is the validity period of an environmental clearance?",
+        "answer": "10 years for River Valley projects, 30 years for mini-projects, and 5 years for other projects."
+      },
+      {
+        "question": "What is the primary objective of environmental clearance?",
+        "answer": "To ensure development projects do not adversely affect the environment."
+      },
+      {
+        "question": "How can I submit a proposal for EC?",
+        "answer": "Submit Form 1 and 1A along with relevant documents through the prescribed online platform."
+      },
+      {
+        "question": "Which types of projects require an EIA?",
+        "answer": "Large-scale industrial, infrastructure, mining, and river valley projects."
+      },
+      {
+        "question": "Where is EC required?",
+        "answer": "Projects falling under Category A or B as per the EIA Notification 2006."
+      },
+      {
+        "question": "What laws govern environmental clearance in India?",
+        "answer": "Environment Protection Act, Forest Conservation Act, Wildlife Protection Act, and EIA Notification."
+      },
+      {
+        "question": "What are the steps for environmental clearance?",
+        "answer": "Application > Screening > Scoping > Public Consultation > Appraisal > Grant or Rejection."
+      },
+      {
+        "question": "What is Category A and B in EC classification?",
+        "answer": "Category A: High impact projects assessed by MoEF&CC. Category B: Lower impact, assessed by SEAC/SEIAA."
+      },
+      {
+        "question": "What are the 6 stages of environmental policy?",
+        "answer": "Problem Identification, Policy Formulation, Policy Adoption, Implementation, Evaluation, and Revision."
+      },
+      {
+        "question": "Who grants the EC certificate?",
+        "answer": "Ministry of Environment, Forest and Climate Change (MoEF&CC) or SEIAA (State Environmental Impact Assessment Authority)."
+      }
+    ],
+    types: {
+      "cards": [
+        {
+          "title": "Consent to Establish (CTE)",
+          "shortText": "Obtain approval before beginning construction.",
+          "backText": "CTE is necessary before setting up the project."
+        },
+        {
+          "title": "Consent to Operate (CTO)",
+          "shortText": "Apply for consent before commencing operations.",
+          "backText": "CTO is required to begin industrial operations."
+        },
+        {
+          "title": "Half-Yearly Certified EC Compliance Reports",
+          "shortText": "Submit certified compliance reports every 6 months.",
+          "backText": "Provide documentation of ongoing compliance with EC."
+        },
+        {
+          "title": "Voluntary Green Building Certification",
+          "shortText": "Optional certification for sustainable building practices.",
+          "backText": "Shows commitment to environmental sustainability."
+        },
+        {
+          "title": "Grant/Rejection of EC",
+          "shortText": "Approval or rejection within 45 days.",
+          "backText": "The competent authority makes a decision after committee recommendation."
+        },
+        {
+          "title": "Transferability of EC",
+          "shortText": "EC can be transferred to another entity.",
+          "backText": "Valid EC certificates can be transferred during their validity period."
+        }
+      ],
+      "roleBenefits": [
+        "Ensures legal compliance with environmental regulations.",
+        "Promotes sustainable development practices.",
+        "Minimizes environmental risks and hazards.",
+        "Improves social and community relations through consultations.",
+        "Boosts project credibility and acceptance."
+      ],
+      "differenceTable": {
+        "columns": ["Serial Number", "EC Grant", "EC Renewal"],
+        "rows": [
+          ["1", "Approval granted after detailed assessment", "Renewal based on compliance reports"],
+          ["2", "Requires full EIA and public consultation", "Submission of half-yearly compliance reports"],
+          ["3", "Decision within 45 days after committee recommendation", "Renewal timeline varies based on project type"],
+          ["4", "Subject to forest, wildlife, and other clearances", "Valid for 5 to 30 years depending on project type"],
+          ["5", "Can be transferred to another entity", "Transferable within validity period with application"]
+        ]
+      },
+      "timelineFees": [
+        "Grant/Rejection Decision: 45 days post committee recommendation.",
+        "EC Validity Period: 5 to 30 years based on project type.",
+        "Transfer Process: Available during EC validity period.",
+        "Fees: Government does not charge direct online fees for EC.",
+        "Additional fees may apply based on project nature and state policies."
+      ]
+    },
+  },
+  "social-impact-assessment": {
+    "overview": {
+      "heading": "Social Impact Assessment",
+      "paragraphs": [
+        "Social Impact Assessment (SIA) is a systematic process to analyze, monitor, and manage the social consequences—both intended and unintended—of planned projects or interventions. In India, SIA is conducted as part of the Environmental Impact Assessment (EIA) process but still requires more focused attention to address social factors comprehensively.",
+        "SIA plays a crucial role in project planning, especially for Resettlement Action Plans (RAPs), by assessing the socioeconomic effects on individuals and communities displaced or affected by development projects. The insights from SIA help design mitigation strategies and monitor their implementation to minimize adverse impacts.",
+        "Social impact refers to the changes or effects that an individual, organization, or initiative has on society and its members. It extends beyond typical EIA concerns like demographics or employment, including cultural shifts in societal values, norms, and relationships."
+      ]
+    },
+    features: [],
+    "benefits": [
+      {
+        "title": "Legal Compliance",
+        "description": "Helps meet regulatory requirements related to social aspects of development."
+      },
+      {
+        "title": "Informed Decision-Making",
+        "description": "Provides valuable insights for planning and implementing projects responsibly."
+      },
+      {
+        "title": "Mitigation of Negative Effects",
+        "description": "Enables the formulation of measures to reduce harm and enhance benefits."
+      },
+      {
+        "title": "Builds Consumer and Community Trust",
+        "description": "Enhances credibility and reputation among stakeholders."
+      },
+      {
+        "title": "Supports Market Expansion",
+        "description": "Facilitates acceptance and smoother project execution."
+      },
+      {
+        "title": "Upholds Professional Values",
+        "description": "Ensures fairness, equity, accountability, and respect for human rights."
+      },
+      {
+        "title": "Empowers Vulnerable Groups",
+        "description": "Focuses on improving conditions for women, minorities, and marginalized populations."
+      },
+      {
+        "title": "Complements Economic & Technical Models",
+        "description": "Adds social dimensions to standard development frameworks."
+      },
+      {
+        "title": "Government Support",
+        "description": "Strengthens relations with regulatory bodies."
+      },
+      {
+        "title": "Risk Management",
+        "description": "Identifies social risks and guides mitigation strategies."
+      },
+      {
+        "title": "Understand Impacted Parties",
+        "description": "Gain detailed knowledge about affected individuals and communities."
+      },
+      {
+        "title": "Identify Social Impacts",
+        "description": "Assess positive and negative social consequences of the project."
+      },
+      {
+        "title": "Formulate Mitigation Measures",
+        "description": "Develop strategies to reduce adverse effects and maximize benefits."
+      },
+      {
+        "title": "Support Monitoring",
+        "description": "Establish frameworks for ongoing social impact tracking and reporting."
+      },
+      {
+        "title": "Engage Stakeholders",
+        "description": "Maintain continuous community and stakeholder involvement."
+      },
+      {
+        "title": "Consider Workforce and Housing Impacts",
+        "description": "Evaluate effects on workers and local accommodation."
+      },
+      {
+        "title": "Analyze Health and Well-being",
+        "description": "Assess community health implications."
+      },
+      {
+        "title": "Review Local Business Effects",
+        "description": "Consider impacts on local economies and procurement."
+      }
+    ],
+    "documents": {
+      "steps": [
+        {
+          "title": "Project Proposal and Description",
+          "desc": "A detailed description of the project including its objectives, scope, and expected outcomes."
+        },
+        {
+          "title": "Site Plan or Project Layout",
+          "desc": "A map or design showing the project layout and its placement on the site."
+        },
+        {
+          "title": "Equipment Installation Proofs",
+          "desc": "Documentation or evidence proving the installation of necessary equipment for the project."
+        },
+        {
+          "title": "Identification of Signatories",
+          "desc": "Information identifying the individuals who will sign off on project documents and reports."
+        },
+        {
+          "title": "Quality Test Reports",
+          "desc": "Reports that provide evidence of the quality of materials, equipment, or methods used in the project."
+        },
+        {
+          "title": "Evidence of Mitigation Measures",
+          "desc": "Documentation proving the implementation of mitigation strategies to address potential negative impacts."
+        },
+        {
+          "title": "Utilities Connection Evidence (Electricity, Water)",
+          "desc": "Proof that the necessary utilities (electricity, water, etc.) have been secured for the project."
+        },
+        {
+          "title": "Environmental and Social Impact Assessment Reports",
+          "desc": "Reports evaluating the potential environmental and social impacts of the project."
+        },
+        {
+          "title": "Government Census and Land Records",
+          "desc": "Relevant census and land documentation from government authorities to support the project."
+        },
+        {
+          "title": "Administrative and NGO Documents",
+          "desc": "Documentation from government agencies or non-governmental organizations (NGOs) involved in the project."
+        }
+      ],
+      "violations": [],
+      "consequences": []
+    },
+    "eligibility": [
+      {
+        "heading": "Role and Importance of Social Impact Assessment",
+        "items": [
+          "Mandatory for food-related and other businesses to ensure social equity.",
+          "Promotes sustainable, equitable community development and empowerment.",
+          "Builds social capital by strengthening trust and networks.",
+          "Proactively identifies opportunities and risks to optimize project outcomes.",
+          "Supports stakeholders in defining development goals and maximizing benefits.",
+          "Provides a basis for mitigation strategies to minimize harm and enhance positives."
+        ]
+      },
+      {
+        "heading": "Principles of Social Impact Assessment",
+        "items": [
+          "Lifecycle Focused: Considers impacts throughout the entire project lifecycle.",
+          "Reasonable Scope: Aligns project scope with social environment sensitivity.",
+          "Participatory: Inclusive, respectful, and engages local knowledge and affected communities.",
+          "Rigorous: Comprehensive and objective analysis with updated community data.",
+          "Effective Management: Integrates measures to enhance benefits and reduce harm.",
+          "Adaptive: Continuously monitors and adjusts management strategies.",
+          "No Coercion: Ensures voluntary participation without undue pressure."
+        ]
+      },
+      {
+        "heading": "Examples of Socio-economic Impact Assessments in India",
+        "items": [
+          "Hydroelectric Dams: Narmada River Valley Development Project",
+          "Thermal Power: Dahanu Thermal Power Station",
+          "Railways: Konkan Railway Project",
+          "Ports: Vadhavan Ports, JSW Port at Nandgaon",
+          "Renewable Energy: Tamil Nadu Renewable Energy Project",
+          "Smart Cities: Ahmedabad Smart City, Karnataka Upper Bhadra Project"
+        ]
+      }
+    ],
+    services: [
+      {
+        "title": "Application Submission",
+        "desc": "Submit the EC application in Form 1 along with Supplementary Form 1A after finalizing the project site."
+      },
+      {
+        "title": "Application Screening",
+        "desc": "The SEAC evaluates the application to determine whether a detailed EIA study is necessary for Category B projects."
+      },
+      {
+        "title": "Scoping",
+        "desc": "Prepare and submit the Terms of Reference (ToR) highlighting key environmental concerns to SEAC or EAC."
+      },
+      {
+        "title": "Public Consultation",
+        "desc": "Conduct public hearings and stakeholder engagements to gather feedback from local communities."
+      },
+      {
+        "title": "Appraisal by Expert Committee",
+        "desc": "The EAC or SEAC reviews the application, EIA report, and public consultation outcomes to recommend whether to grant EC."
+      },
+      {
+        "title": "Forest Clearance",
+        "desc": "Obtain clearance under the Forest Conservation Act, 1980 if required for the project."
+      },
+      {
+        "title": "Wildlife Clearance",
+        "desc": "Ensure wildlife clearance under the Wildlife Protection Act, 1972 from the National Board for Wildlife (NBWL)."
+      },
+      {
+        "title": "Coastal Regulation Zone (CRZ) Clearance",
+        "desc": "Obtain CRZ clearance as per the 2011 Notification for projects in coastal areas."
+      },
+      {
+        "title": "Central Ground Water Authority (CGWA) NOC",
+        "desc": "Get the NOC from CGWA if the project involves groundwater extraction."
+      },
+      {
+        "title": "Fire Department NOC",
+        "desc": "Ensure obtaining the NOC from the Fire Department as part of the safety protocol."
+      },
+      {
+        "title": "Distance from Forest Boundary Certificate",
+        "desc": "Provide a certificate indicating the distance from the forest boundary for the project."
+      },
+      {
+        "title": "Airport Authority of India (AAI) Height Clearance NOC",
+        "desc": "Obtain the NOC from AAI if the project exceeds specific height limits near airports."
+      },
+      {
+        "title": "National Highway Authority of India (NHAI) NOC",
+        "desc": "Secure the NOC from NHAI for projects near national highways."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is SIA?",
+        "answer": "Social Impact Assessment evaluates the social effects of projects, helping understand how they impact communities and people."
+      },
+      {
+        "question": "Why is SIA necessary?",
+        "answer": "SIA is necessary to ensure socially sustainable, equitable development by identifying potential positive and negative impacts on the community."
+      },
+      {
+        "question": "Is SIA mandatory in India?",
+        "answer": "Yes, SIA is mandatory in India, especially under the Land Acquisition Act, 2013, to assess social impacts before project approval."
+      },
+      {
+        "question": "What tools are used in SIA?",
+        "answer": "Common tools used in SIA include surveys, interviews, Randomized Controlled Trials (RCT), Propensity Score Matching (PSM), and Social Capital Method (SCM)."
+      },
+      {
+        "question": "What are the social impact types?",
+        "answer": "Social impacts can be both positive and negative, affecting the community in various ways such as economic changes, social relationships, and health outcomes."
+      }
+    ],
+    types: {
+      "cards": [],
+      "roleBenefits": [],
+      "differenceTable": {
+        "columns": [],
+        "rows": []
+      },
+      "timelineFees": []
+    },
+  }
 };
