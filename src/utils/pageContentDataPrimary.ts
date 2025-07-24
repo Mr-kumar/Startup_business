@@ -5042,7 +5042,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-  gmpCertification: {
+  "gmpCertification": {
     title: "GMP Certification – A Complete Overview",
     description:
       "Good Manufacturing Practice (GMP) certification ensures that products are consistently produced and controlled according to quality standards to minimize risks involved in pharmaceutical manufacturing.",
@@ -13943,7 +13943,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "hindu-marriage-act-1955": {
+  "hindu-marriage-act": {
     title: "Hindu Marriage Act, 1955",
     description:
       "Comprehensive legal framework governing Hindu marriages, divorce, maintenance, and related matters in India.",
@@ -15734,7 +15734,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "legal-metrology-compliance-and-audit": {
+  "legal-metrology-compliance-audit": {
     title: "Legal Metrology Compliance & Audit",
     description:
       "Key compliance requirements and audit procedures for packaged commodities and measuring instruments under the Legal Metrology Act.",
@@ -16976,7 +16976,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "overview-of-drug-export-noc": {
+  "drug-export-noc": {
     title: "Drug Export NOC",
     description:
       "Obtain your No Objection Certificate (NOC) from DCGI/CDSCO’s SLA for legally exporting pharmaceutical products worldwide.",
@@ -17059,7 +17059,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "overview-of-dual-use-noc": {
+  "dual-use-noc": {
     title: "Dual‑Use NOC",
     description:
       "Obtain a No Objection Certificate (NOC) from the CDSCO Zonal Office for importing pharmaceutical substances used in non‑medicinal industries.",
@@ -17150,7 +17150,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "overview-of-cdsco-test-license": {
+  "cdsco-test-license": {
     title: "CDSCO Test License",
     description:
       "The CDSCO Test License is a regulatory permit granted by CDSCO Zonal Offices (and in some cases HQ) for the import or manufacture of small quantities of drugs solely for testing, examination, or analysis under Section 10 of the Drugs & Cosmetics Act, 1940.",
@@ -17251,7 +17251,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "overview-of-adc-noc": {
+  "adc-noc": {
     title: "ADC NOC",
     description:
       "Obtain an ADC No Objection Certificate for import or export of drugs and drug‑related substances under CDSCO and MoHFW regulations.",
@@ -17351,7 +17351,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "overview-of-cdsco-drugs-import-license": {
+  "cdsco-drugs-import-license": {
     title: "CDSCO Drugs Import License",
     description:
       "The import of drugs into India is regulated under Chapter III of the Drugs & Cosmetics Act, 1940 and Part IV of the Drugs and Cosmetics Rules, 1945. Registration certificates and import license applications are governed by Rule 24(A) and Rule 24.",
@@ -17863,7 +17863,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "insurance-marketing-firm-registration": {
+  "insurance-marketing-firm": {
     title: "Insurance Marketing Firm Registration",
     description:
       "Register your Insurance Marketing Firm (IMF) with IRDAI to procure, market, and facilitate insurance and select financial services in India.",
@@ -19452,7 +19452,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "epr-authorization": {
+  "epr-authorization-e-waste": {
     title: "EPR Authorization for E‑Waste",
     description:
       "Obtain Extended Producer Responsibility (EPR) authorization to comply with environmental obligations for e‑waste management under CPCB rules.",
