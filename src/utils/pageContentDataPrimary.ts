@@ -47,8 +47,6 @@ export type Listicles = {
   documents?: string[];
 };
 
-export type pentalies = {};
-
 export type renewal = {
   heading: string;
   content: string[];

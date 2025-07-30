@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { motion } from "framer-motion";
-import { FaPhoneAlt, FaWhatsapp, FaStar, FaRegStar } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp} from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 
 const TalkToExpert: React.FC = () => {
