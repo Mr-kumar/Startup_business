@@ -65,148 +65,20 @@ const Header = () => {
             { name: "FSSAI License", href: "/" },
             { name: "FSSAI License Renewal", href: "/second/fssai-license-renewal" },
             { name: "FSSAI State License", href: "fssai-state-license" },
-            { name: "Eating House License", href: "/startup/eating-house" },
-            { name: "Central FSSAI License", href: "/startup/fssai-central" },
-            {
-              name: "FSSAI Annual Return",
-              href: "/startup/fssai-annual-return",
-            },
-            {
-              name: "FSSAI Product Approval",
-              href: "/startup/fssai-product-approval",
-            },
-            { name: "Food Recycling License", href: "/startup/food-recycling" },
-            { name: "FPO Mark Certification", href: "/startup/fpo-mark" },
           ],
         },
         {
           title: "Business Registration",
           links: [
             {
-              name: "Company Registration",
-              href: "/startup/company-registration",
-            },
-            { name: "LLP Registration", href: "/startup/llp-registration" },
-            {
-              name: "Public Limited Company Registration",
-              href: "/startup/public-limited",
-            },
-            { name: "One Person Company Registration", href: "/startup/opc" },
-            {
-              name: "Partnership Firm Registration",
-              href: "/startup/partnership",
-            },
-            {
-              name: "Sole Proprietorship Registration",
-              href: "/startup/sole-proprietorship",
-            },
-            { name: "Nidhi Company Registration", href: "/startup/nidhi" },
-            {
-              name: "Producer Company Registration",
-              href: "/startup/producer",
-            },
-            {
-              name: "Sole Proprietorship to Pvt. Ltd. Company",
-              href: "/startup/prop-to-pvt",
-            },
-            {
               name: "Conversion of Pvt. Ltd. to Public Limited",
               href: "/conversion-of-private-limited-to-public-limited",
-            },
-            {
-              name: "Indian Subsidiary Company Registration",
-              href: "/startup/indian-subsidiary",
-            },
-            {
-              name: "Conversion of LLP to Private Company",
-              href: "/startup/llp-to-pvt",
-            },
-            {
-              name: "Partnership Firm into Pvt. Ltd. Company",
-              href: "/startup/partnership-to-pvt",
-            },
-            {
-              name: "Carbon Black Manufacturing",
-              href: "/startup/carbon-black",
-            },
-            { name: "Green Hydrogen Plant", href: "/startup/green-hydrogen" },
-            { name: "Green Ammonia Plant", href: "/startup/green-ammonia" },
-            {
-              name: "Synthetic Rubber Business",
-              href: "/startup/synthetic-rubber",
-            },
-            {
-              name: "Paper and Paperboard Packaging Industry",
-              href: "/startup/paper-packaging",
-            },
-            { name: "Fermentation Industry", href: "/startup/fermentation" },
-            {
-              name: "Renewable Energy Business",
-              href: "/startup/renewable-energy",
             },
           ],
         },
         {
           title: "Secretarial Compliances",
-          links: [
-            {
-              name: "Winding Up of Private Limited Company",
-              href: "/startup/winding-up",
-            },
-            {
-              name: "Closing a Limited Liability Partnership",
-              href: "/startup/llp-closing",
-            },
-            {
-              name: "Annual Compliance of a Pvt. Ltd. Company",
-              href: "/startup/annual-compliance",
-            },
-            { name: "Annual Filing for LLP", href: "/startup/llp-filing" },
-            {
-              name: "Event Based Compliances in a Company",
-              href: "/startup/event-based",
-            },
-            { name: "Change in Object Clause", href: "/startup/change-object" },
-            {
-              name: "Appointment and Resignation of Directors",
-              href: "/startup/directors-change",
-            },
-            { name: "Change in Name Clause", href: "/startup/change-name" },
-            { name: "Removal of Director", href: "/startup/remove-director" },
-            {
-              name: "Nidhi Company Compliance",
-              href: "/startup/nidhi-compliance",
-            },
-            {
-              name: "Section 8 Company Compliance",
-              href: "/startup/section8-compliance",
-            },
-            { name: "NBFC Compliance", href: "/startup/nbfc-compliance" },
-            {
-              name: "Change in Registered Office",
-              href: "/startup/change-office",
-            },
-            {
-              name: "Change in Share Capital",
-              href: "/startup/change-capital",
-            },
-            {
-              name: "Revival of Struck Off Companies",
-              href: "/startup/revival",
-            },
-            { name: "MCA Compliance", href: "/startup/mca-compliance" },
-            { name: "Change in Directors", href: "/startup/change-directors" },
-            {
-              name: "Change in LLP Agreement",
-              href: "/startup/change-llp-agreement",
-            },
-            { name: "Liquidation of Company", href: "/startup/liquidation" },
-            { name: "AGR-Return Filing", href: "/startup/agr-return" },
-            { name: "Form AOC-4", href: "/startup/aoc-4" },
-            { name: "Form MGT-7", href: "/startup/mgt-7" },
-            { name: "SPICe+ Form", href: "/startup/spice-plus" },
-            { name: "AGILE PRO S", href: "/startup/agile-pro-s" },
-          ],
+          links: [],
         },
         {
           title: "IT Services",
@@ -217,147 +89,28 @@ const Header = () => {
         {
           title: "NGO",
           links: [
-            { name: "NGO Registration", href: "/startup/winding-up" },
-            { name: "80G and 12A Registration", href: "/startup/llp-closing" },
-            { name: "Section 8 Company Registration", href: "/startup/annual-compliance" },
-            { name: "Society Registration", href: "/startup/llp-filing" },
-            { name: "FCRA Registration", href: "/startup/event-based"},
-            { name: "12AA Registration", href: "/startup/change-object" },
-            { name: "Trust Registration", href: "/startup/directors-change" },
-            { name: "12AB Registration", href: "/startup/change-name" },
-            { name: "Strike off Section 8 Companies", href: "/startup/remove-director" },
             { name: "NGO CSR-1 Filing", href: "/ngo-csr-1-filing" },
             { name: "NGO CSR Consultancy", href: "/ngo-csr-consultancy" },
             { name: "NGO Income Tax Advisory", href: "/ngo-income-tax-advisory" },
             { name: "NGO Accounting", href: "/ngo-accounting"},
             { name: "NGO Project Report", href: "/ngo-project-report" },
-            { name: "Trust Annual Compliance", href: "/startup/revival" },
-            { name: "NGO Darpan Registration", href: "/startup/mca-compliance" },
-            { name: "80G Registration", href: "/startup/change-directors" },
             
           ],
         },
         {
           title: "IT Services",
           links: [
-            {
-              name: "Web Development Company",
-              href: "/startup/web-development",
-            },
           ],
         },
         {
           title: "Government Licenses",
           links: [
-            {
-              name: "Shop & Establishment License",
-              href: "/startup/shop-license",
-            },
-            { name: "CE Certification", href: "/startup/ce-certification" },
-            { name: "PSARA License", href: "/startup/psara" },
-            { name: "Trade License", href: "/startup/trade-license" },
-            { name: "Music License", href: "/startup/music-license" },
-            { name: "Health Trade License", href: "/startup/health-license" },
-            { name: "Factory License", href: "/startup/factory-license" },
-            { name: "FDA Certification", href: "/startup/fda-certification" },
-            { name: "GMP Certification", href: "/startup/gmp-certification" },
-            { name: "Liquor License", href: "/startup/liquor-license" },
-            { name: "AYUSH License", href: "/startup/ayush-license" },
-            { name: "WPC Certification", href: "/startup/wpc-certification" },
-            { name: "PESO Certification", href: "/startup/peso-certification" },
-            { name: "CAPEXIL Certificate", href: "/startup/capexil" },
-            { name: "TEC Certification", href: "/startup/tec-certification" },
-            { name: "NASSCOM Membership", href: "/startup/nasscom" },
-            { name: "MSO License", href: "/startup/mso-license" },
-            { name: "DOT OSP Compliance", href: "/startup/dot-osp" },
-            { name: "IP-1 License in India", href: "/startup/ip1-license" },
-            { name: "HITS Operator", href: "/startup/hits-operator" },
-            {
-              name: "FIFP Approval for Telecom",
-              href: "/startup/fifp-telecom",
-            },
-            {
-              name: "Halal Certification",
-              href: "/startup/halal-certification",
-            },
-            {
-              name: "Homologation Certificate in India",
-              href: "/startup/homologation",
-            },
-            {
-              name: "Vehicle Type Approval Certificate in India",
-              href: "/startup/vehicle-type-approval",
-            },
-            {
-              name: "IMEI Number Registration",
-              href: "/startup/imei-registration",
-            },
-            {
-              name: "IMEI Certificate for Import of Mobile Handsets",
-              href: "/startup/imei-certificate",
-            },
-            {
-              name: "IMEI Certificate Generation",
-              href: "/startup/imei-certificate-generation",
-            },
+            
           ],
         },
         {
           title: "Government Registration",
           links: [
-            { name: "MSME Registration", href: "/startup/msme" },
-            { name: "IEC Registration", href: "/startup/iec" },
-            { name: "EPF Registration", href: "/startup/epf" },
-            { name: "RERA Registration", href: "/startup/rera" },
-            { name: "NSIC Registration", href: "/startup/nsic" },
-            { name: "ESI Registration", href: "/startup/esi" },
-            { name: "FIEO Registration", href: "/startup/fieo" },
-            { name: "Building NOC", href: "/startup/building-noc" },
-            { name: "BOCW Act Registration", href: "/startup/bocw" },
-            {
-              name: "RERA Registration for Agents",
-              href: "/startup/rera-agent",
-            },
-            {
-              name: "RERA Registration For Promoters",
-              href: "/startup/rera-promoter",
-            },
-            { name: "APEDA Registration", href: "/startup/apeda" },
-            { name: "RNI Registration", href: "/startup/rni" },
-            { name: "Spice Board Registration", href: "/startup/spice-board" },
-            { name: "Guest House Registration", href: "/startup/guest-house" },
-            { name: "Barcode Registration", href: "/startup/barcode" },
-            {
-              name: "World Manufacturer Identifier (WMI) Code",
-              href: "/startup/wmi-code",
-            },
-            {
-              name: "Telemarketing Registration in India",
-              href: "/startup/telemarketing",
-            },
-            {
-              name: "Trusted Telecom Approval",
-              href: "/startup/trusted-telecom",
-            },
-            {
-              name: "Get Uplinking or Downlinking Channels Permission in India",
-              href: "/startup/uplink-downlink",
-            },
-            { name: "PM-WANI Registration", href: "/startup/pm-wani" },
-            {
-              name: "Flipkart Seller Registration",
-              href: "/startup/flipkart-seller",
-            },
-            {
-              name: "Sanitary Import Permit",
-              href: "/startup/sanitary-import",
-            },
-            { name: "NPOP Certification", href: "/startup/npop" },
-            {
-              name: "Coconut Board Registration",
-              href: "/startup/coconut-board",
-            },
-            { name: "Drone Registration", href: "/startup/drone" },
           ],
         },
         {
@@ -389,16 +142,13 @@ const Header = () => {
           title: "Trademark",
           description: "Protect your brand identity",
           links: [
-            { name: "Trademark Registration", href: "/ipr/trademark" },
-            { name: "Trademark Search", href: "/ipr/trademark-search" },
+           
           ],
         },
         {
           title: "Patent",
           description: "Secure your inventions",
           links: [
-            { name: "Patent Filing", href: "/ipr/patent" },
-            { name: "Patent Search", href: "/ipr/patent-search" },
           ],
         },
       ],
@@ -410,8 +160,6 @@ const Header = () => {
           title: "Income Tax",
           description: "Tax planning and filing services",
           links: [
-            { name: "ITR Filing", href: "/tax/itr" },
-            { name: "Tax Planning", href: "/tax/planning" },
           ],
         },
         {
@@ -419,7 +167,7 @@ const Header = () => {
           description: "Goods and Services Tax services",
           links: [
             { name: "GST Registration", href: "/second/gst-registration" },
-            { name: "GST Filing", href: "/tax/gst-filing" },
+            
           ],
         },
         {
@@ -449,16 +197,12 @@ const Header = () => {
           title: "Licenses",
           description: "Essential business licenses",
           links: [
-            { name: "FSSAI License", href: "/regulatory/fssai" },
-            { name: "IEC Code", href: "/regulatory/iec" },
           ],
         },
         {
           title: "Certifications",
           description: "Quality and recognition certificates",
           links: [
-            { name: "ISO Certification", href: "/regulatory/iso" },
-            { name: "Startup India", href: "/regulatory/startup-india" },
           ],
         },
         {
