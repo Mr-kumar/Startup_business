@@ -149,6 +149,10 @@ const Header = () => {
               name: "Renewable Energy Business",
               href: "/startup/renewable-energy",
             },
+            {
+              name: "Conversion of Pvt. Ltd. to Public Limited",
+              href: "/conversion-of-private-limited-to-public-limited",
+            },
           ],
         },
         {
@@ -220,8 +224,13 @@ const Header = () => {
           ],
         },
         {
+          title: "IT Services",
+          links: [{ name: "Web services", href: "/web-development-services" }],
+        },
+        {
           title: "Global Company Formation",
-          description: "Company Incorporation Services Across International Jurisdictions",
+          description:
+            "Company Incorporation Services Across International Jurisdictions",
           links: [
             {
               name: "Company Registration in USA",
@@ -250,9 +259,9 @@ const Header = () => {
             {
               name: "Company Registration in Hong Kong",
               href: "/startup/hong-kong-company-registration",
-            }
+            },
           ],
-        },        
+        },
         {
           title: "Government Licenses",
           links: [
@@ -260,7 +269,10 @@ const Header = () => {
               name: "Shop & Establishment License",
               href: "/shop-and-establishment-license",
             },
-            { name: "CE Certification", href: "/startup/ce-certification-compliance" },
+            {
+              name: "CE Certification",
+              href: "/startup/ce-certification-compliance",
+            },
             { name: "PSARA License", href: "/startup/psara-license" },
             { name: "Trade License", href: "/trade-license" },
             { name: "Music License", href: "/music-license" },
@@ -270,10 +282,19 @@ const Header = () => {
             { name: "GMP Certification", href: "/gmpCertification" },
             { name: "Liquor License", href: "/liquor-license" },
             { name: "AYUSH License", href: "/ayush-license" },
-            { name: "WPC Certification", href: "/startup/wpc-certification-compliance" },
-            { name: "PESO Certification", href: "/startup/peso-certification-compliance" },
+            {
+              name: "WPC Certification",
+              href: "/startup/wpc-certification-compliance",
+            },
+            {
+              name: "PESO Certification",
+              href: "/startup/peso-certification-compliance",
+            },
             { name: "CAPEXIL Certificate", href: "/capexil-registration" },
-            { name: "TEC Certification", href: "/startup/tec-certification-compliance" },
+            {
+              name: "TEC Certification",
+              href: "/startup/tec-certification-compliance",
+            },
             { name: "NASSCOM Membership", href: "/nasscom-membership" },
             { name: "MSO License", href: "/mso-license" },
             { name: "DOT OSP Compliance", href: "/dot-osp-compliance" },
@@ -312,8 +333,14 @@ const Header = () => {
         {
           title: "Government Registration",
           links: [
-            { name: "MSME Registration", href: "/startup/msme-registration-india" },
-            { name: "IEC Registration", href: "/startup/iec-code-registration" },
+            {
+              name: "MSME Registration",
+              href: "/startup/msme-registration-india",
+            },
+            {
+              name: "IEC Registration",
+              href: "/startup/iec-code-registration",
+            },
             { name: "EPF Registration", href: "/epf-registration" },
             { name: "RERA Registration", href: "/startup/rera-registration" },
             { name: "NSIC Registration", href: "/startup/nsic-registration" },
@@ -356,7 +383,10 @@ const Header = () => {
               name: "Get Uplinking or Downlinking Channels Permission in India",
               href: "/uplinking-downlinking-permission",
             },
-            { name: "PM-WANI Registration", href: "/startup/pm-wani-registration" },
+            {
+              name: "PM-WANI Registration",
+              href: "/startup/pm-wani-registration",
+            },
             {
               name: "Flipkart Seller Registration",
               href: "/flipkart-seller-registration",
@@ -371,6 +401,59 @@ const Header = () => {
               href: "/startup/coconut-board-registration",
             },
             { name: "Drone Registration", href: "/drone-registration" },
+          ],
+        },
+        {
+          title: "ISO",
+          links: [
+            { name: "ISO Registration", href: "/iso-registration" },
+            { name: "ISO 14001 EMS", href: "/iso-certification-14001-ems" },
+            { name: "ISO 22000 FSMS", href: "/iso-22000-certification-fsms" },
+            {
+              name: "ISO 9001 2015",
+              href: "/iso-9001-2015-certification-quality-management-systems",
+            },
+            {
+              name: "ISO 50001 Energy Management",
+              href: "/iso-50001-energy-management",
+            },
+            {
+              name: "ISO 45001 certification",
+              href: "/second/iso-45001-certification",
+            },
+            {
+              name: "ISO 20000 Certification",
+              href: "/iso-20000-certification",
+            },
+            {
+              name: "ISO 31000 Certification",
+              href: "/iso-31000-certification",
+            },
+            {
+              name: "ISO 13485 Certification",
+              href: "/iso-13485-certification",
+            },
+            {
+              name: "ISO 21101:2014 Certification",
+              href: "/iso-21101-2014-certification",
+            },
+            {
+              name: "ISO 37001:2016 Certification",
+              href: "/iso-37001-2016-certification",
+            },
+            {
+              name: "ISO 27001 ISMS Certification",
+              href: "/iso-27001-isms-certification",
+            },
+            {
+              name: "ISO 16001 Certification",
+              href: "/iso-16001-certification",
+            },
+            {
+              name: "ISO 39001 Certification",
+              href: "/iso-39001-certification",
+            },
+            { name: "ISO 2768-1 Certification", href: "/startup/iso-2768-1" },
           ],
         },
         {
@@ -391,7 +474,18 @@ const Header = () => {
               name: "Trust Annual Compliance",
               href: "/startup/trust-annual-compliance",
             },
-            { name: "NGO Darpan Registration", href: "/startup/ngo-darpan-registration" },
+            {
+              name: "NGO Darpan Registration",
+              href: "/startup/ngo-darpan-registration",
+            },
+            { name: "NGO CSR-1 Filing", href: "/ngo-csr-1-filing" },
+            { name: "NGO CSR Consultancy", href: "/ngo-csr-consultancy" },
+            {
+              name: "NGO Income Tax Advisory",
+              href: "/ngo-income-tax-advisory",
+            },
+            { name: "NGO Accounting", href: "/ngo-accounting" },
+            { name: "NGO Project Report", href: "/ngo-project-report" },
           ],
         },
       ],
@@ -463,7 +557,8 @@ const Header = () => {
         },
         {
           title: "Copyright",
-          description: "Copyright Registrations, Licensing, and Objection Handling",
+          description:
+            "Copyright Registrations, Licensing, and Objection Handling",
           links: [
             {
               name: "Copyright Registration",
@@ -484,7 +579,7 @@ const Header = () => {
             {
               name: "Copyright Assignment",
               href: "/startup/copyright-assignment",
-            }
+            },
           ],
         },
         {
@@ -506,10 +601,9 @@ const Header = () => {
             {
               name: "Patent Revocation",
               href: "/startup/patent-revocation",
-            }
+            },
           ],
-        }
-                
+        },
       ],
     },
     {
@@ -610,7 +704,10 @@ const Header = () => {
               href: "/public-interest-litigation",
             },
             { name: "Caveat Petition", href: "/caveat-petition" },
-            { name: "Legal Heir Certificate", href: "/startup/legal-heir-certificate" },
+            {
+              name: "Legal Heir Certificate",
+              href: "/startup/legal-heir-certificate",
+            },
             {
               name: "Section 8-Demand Notice",
               href: "/section-8-demand-notice",
@@ -659,6 +756,39 @@ const Header = () => {
             },
           ],
         },
+        {
+          title: "Advisory Services",
+          description: "Advisory Services by DOStartup",
+          links: [
+            {
+              name: "Professional Advisory Services",
+              href: "/second/gst-registration",
+            },
+            {
+              name: "Legal Advisory Services",
+              href: "/legal-advisory-services",
+            },
+            { name: "GST Advisory Services", href: "/gst-advisory-services" },
+            {
+              name: "Pharma Consultancy Services in India",
+              href: "/pharma-consultancy-services",
+            },
+          ],
+        },
+        {
+          title: "Business Templates",
+          description: "Business Templates",
+          links: [
+            {
+              name: "Premium Business Templates",
+              href: "/premium-business-templates",
+            },
+            {
+              name: "Human Resource Templates",
+              href: "/human-resource-templates",
+            },
+          ],
+        },
       ],
     },
     {
@@ -700,6 +830,45 @@ const Header = () => {
             {
               name: "Legal Metrology Compliance & Audit",
               href: "/legal-metrology-compliance-audit",
+            },
+          ],
+        },
+        {
+          title: "BIS",
+          description: "Quality and recognition certificates",
+          links: [
+            { name: "BIS Registration", href: "/bis-registration" },
+            {
+              name: "Eco Mark Scheme Certification",
+              href: "/eco-mark-scheme-certification",
+            },
+            {
+              name: "ISI Mark Certification",
+              href: "/second/isi-mark-certification",
+            },
+            { name: "BIS CRS Registration", href: "/bis-crs-registration" },
+            {
+              name: "BIS LAB Recognition Scheme",
+              href: "/bis-lab-recognition-scheme",
+            },
+            { name: "Hallmark Registration", href: "/hallmark-registration" },
+            {
+              name: "Assaying and Hallmarking Centre",
+              href: "/assaying-and-hallmarking-centre",
+            },
+            {
+              name: "BIS CRS Certification for Power Banks",
+              href: "/bis-crs-certification-for-power-banks",
+            },
+            { name: "AGMARK License", href: "/agmark-registration" },
+            {
+              name: "BIS Certification for Toys",
+              href: "/bis-certification-for-toys",
+            },
+            { name: "FMCS BIS Certification", href: "/fmcs-bis-certification" },
+            {
+              name: "Development, Planning & Implementation of CSR Strategy",
+              href: "/development-planning-implementation-of-csr-strategy",
             },
           ],
         },
@@ -779,12 +948,69 @@ const Header = () => {
             },
           ],
         },
-
+        {
+          title: "FEMA",
+          description: "FEMA",
+          links: [
+            { name: "FEMA Compliance", href: "/fema-compliance" },
+            {
+              name: "Liaison Office Registration",
+              href: "/liaison-office-registration-india",
+            },
+            {
+              name: "Branch Office Registration",
+              href: "/branch-office-registration-india",
+            },
+            {
+              name: "Project Office Registration",
+              href: "/project-office-registration",
+            },
+          ],
+        },
       ],
     },
     {
       title: "Environmental",
       subItems: [
+        {
+          title: "Pollution NOC",
+          description: "Pollution NOC",
+          links: [
+            {
+              name: "Fire Department NOC",
+              href: "/fire-department-noc-in-india",
+            },
+            {
+              name: "Delhi Pollution Control Committee",
+              href: "/delhi-pollution-control-committee-authorization",
+            },
+            {
+              name: "Uttar Pradesh Pollution Control Board",
+              href: "/uttar-pradesh-pollution-control-board",
+            },
+            {
+              name: "NOC Pollution Control Board",
+              href: "/NOC-Pollution-Control-Board",
+            },
+            { name: "CGWA-Water Boring", href: "/cgwa-noc-water-boring" },
+            {
+              name: "E-waste License for Dismantling",
+              href: "/e-waste-license-for-dismantling",
+            },
+            {
+              name: "License for charging station in UP",
+              href: "/license-for-charging-station-in-up",
+            },
+            {
+              name: "Phase II Soil and Groundwater Investigations",
+              href: "/phase-ii-soil-and-groundwater-investigations",
+            },
+            {
+              name: "Consent for Establishment (CFE) from SPCB",
+              href: "/consent-for-establishment-cfe-from-spcb",
+            },
+          ],
+        },
         {
           title: "E-Waste Management",
           description:
@@ -1007,6 +1233,123 @@ const Header = () => {
             },
           ],
         },
+        {
+          title: "EIA",
+          description: "EIA",
+          links: [
+            {
+              name: "State Pollution Control Board (SPCB) - NOC",
+              href: "/fire-department-noc-in-india",
+            },
+            {
+              name: "Environmental Auditing",
+              href: "/delhi-pollution-control-committee-authorization",
+            },
+            {
+              name: "Environmental Clearance",
+              href: "/second/environmental-clearance",
+            },
+            {
+              name: "Environmental Impact Assessment (EIA)",
+              href: "/environmental-impact-assessment-eia",
+            },
+            {
+              name: "Hydrogeological survey report",
+              href: "/hydrogeological-survey-report",
+            },
+            {
+              name: "Half-Yearly Environmental Compliance",
+              href: "/half-yearly-environmental-compliance",
+            },
+            {
+              name: "Social Impact Assessment",
+              href: "/second/social-impact-assessment",
+            },
+            {
+              name: "Wildlife Conservation Plan",
+              href: "/wildlife-conservation-plan",
+            },
+            {
+              name: "Environmental Management Plan Report",
+              href: "/consent-for-establishment-cfe-from-spcb",
+            },
+            {
+              name: "Consent for Operation (CFO)",
+              href: "/consent-for-operation-cfo",
+            },
+            {
+              name: "Extended Producer Responsibility",
+              href: "/extended-producer-responsibility",
+            },
+            {
+              name: "Soil Testing",
+              href: "/consent-for-establishment-cfe-from-spcb",
+            },
+          ],
+        },
+        {
+          title: "Environmental Licensing",
+          description: "Environmental Licensing",
+          links: [
+            {
+              name: "Authorized Vehicle Scrapping Facility (AVSF)",
+              href: "/authorized-vehicle-scrapping-facility-avsf",
+            },
+            {
+              name: "TSDF Facility Services",
+              href: "/how-to-start-treatment-storage-disposal-facility-tsdf",
+            },
+            { name: "iCAT Certification", href: "/icat-certification" },
+            {
+              name: "Environmental Auditing",
+              href: "/how-to-start-treatment-storage-disposal-facility-tsdf",
+            },
+            {
+              name: "Carbon Credit Accounting",
+              href: "/hydrogeological-survey-report",
+            },
+            {
+              name: "LEED Zero Carbon Certification",
+              href: "/leed-zero-carbon-certification",
+            },
+            {
+              name: "LEED Zero Water Certification",
+              href: "/leed-zero-water-certification",
+            },
+            {
+              name: "Green Building Certification",
+              href: "/green-building-certification",
+            },
+            { name: "PEFC Certification", href: "/pefc-certification" },
+            { name: "FSC Certification", href: "/consent-for-operation-cfo" },
+          ],
+        },
+        {
+          title: "Plastic Waste Management",
+          description: "Plastic Waste Management",
+          links: [
+            {
+              name: "EPR Authorization for Plastic waste Management",
+              href: "/epr-authorization-for-plastic-waste-management",
+            },
+            {
+              name: "EPR Post Compliance – Plastic Waste",
+              href: "/epr-post-compliance-plastic-waste",
+            },
+            {
+              name: "Plastic Waste Recycling Plant & PWM",
+              href: "/plastic-waste-recycling-plant-pwm-setup",
+            },
+            {
+              name: "Plastic Waste Processors Authorisation",
+              href: "/plastic-waste-processors-authorisation",
+            },
+            {
+              name: "EPR Fulfilment For Plastic Waste Management",
+              href: "/epr-fulfilment-plastic-waste-management",
+            },
+          ],
+        },
       ],
     },
     {
@@ -1018,9 +1361,15 @@ const Header = () => {
   return (
     <nav className="bg-slate-800 border-gray-200 text-white sticky top-0 z-50">
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+        {/* Logo and brand link */}
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
+          onClick={() => {
+            setIsMenuOpen(false);
+            setOpenMainItem(null);
+            setOpenSubItem(null);
+          }}
         >
           <Image
             src={Logo}
@@ -1072,13 +1421,21 @@ const Header = () => {
                   <Link
                     href={item.href}
                     className="block py-2 px-3 rounded cursor-pointer hover:bg-slate-700 md:hover:bg-transparent md:hover:text-emerald-300 md:p-0"
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setOpenMainItem(null);
+                      setOpenSubItem(null);
+                    }}
                   >
                     {item.title}
                   </Link>
                 ) : (
                   <>
                     <button
-                      onClick={() => toggleMainItem(item.title)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleMainItem(item.title);
+                      }}
                       className="flex items-center cursor-pointer justify-between w-full py-2 px-3 rounded hover:bg-slate-700 md:hover:bg-transparent md:border-0 md:hover:text-emerald-300 md:p-0 md:w-auto"
                     >
                       {item.title}
@@ -1101,10 +1458,16 @@ const Header = () => {
 
                     {/* Desktop Dropdown - First Level */}
                     {openMainItem === item.title && (
-                      <div className="fixed inset-0 z-20 pointer-events-none">
+                      <div
+                        className="fixed inset-0 z-20"
+                        onClick={() => {
+                          setOpenMainItem(null);
+                          setOpenSubItem(null);
+                        }}
+                      >
                         {/* Menu container */}
                         <div
-                          className="fixed inset-x-0 top-16 bg-slate-800 border-b border-gray-700 shadow-lg z-30 pointer-events-auto"
+                          className="fixed inset-x-0 top-16 bg-slate-800 border-b border-gray-700 shadow-lg z-30"
                           onClick={(e) => e.stopPropagation()}
                         >
                           <div className="container mx-auto flex h-[70vh]">
@@ -1114,11 +1477,12 @@ const Header = () => {
                                 {item.subItems?.map((subItem, subIndex) => (
                                   <li key={subIndex}>
                                     <button
-                                      onClick={() =>
+                                      onClick={(e) => {
+                                        e.stopPropagation();
                                         toggleSubItem(
                                           `${item.title}-${subItem.title}`
-                                        )
-                                      }
+                                        );
+                                      }}
                                       className={`flex justify-between cursor-pointer items-center w-full px-6 py-3 hover:bg-slate-700 hover:text-emerald-300 text-left ${
                                         openSubItem ===
                                         `${item.title}-${subItem.title}`
@@ -1169,13 +1533,15 @@ const Header = () => {
                                           <Link
                                             href={link.href}
                                             className="block"
+                                            onClick={() => {
+                                              setIsMenuOpen(false);
+                                              setOpenMainItem(null);
+                                              setOpenSubItem(null);
+                                            }}
                                           >
                                             <h4 className="font-medium text-emerald-400">
                                               {link.name}
                                             </h4>
-                                            {/* {link.description && (
-                                            <p className="text-sm text-gray-300 mt-2">{link.description}</p>
-                                          )} */}
                                           </Link>
                                         </div>
                                       ))}
@@ -1197,8 +1563,18 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden">
-          <div className="px-4 py-2 border-t border-gray-700 bg-slate-800">
+        <div
+          className="md:hidden fixed inset-0 z-40 mt-16 bg-black bg-opacity-50"
+          onClick={() => {
+            setIsMenuOpen(false);
+            setOpenMainItem(null);
+            setOpenSubItem(null);
+          }}
+        >
+          <div
+            className="px-4 py-2 border-t border-gray-700 bg-slate-800"
+            onClick={(e) => e.stopPropagation()}
+          >
             <ul className="space-y-1">
               {menuItems.map((item, index) => (
                 <li key={index}>
@@ -1206,14 +1582,21 @@ const Header = () => {
                     <Link
                       href={item.href}
                       className="block py-2 px-3 rounded hover:bg-slate-700"
-                      onClick={toggleMenu}
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setOpenMainItem(null);
+                        setOpenSubItem(null);
+                      }}
                     >
                       {item.title}
                     </Link>
                   ) : (
                     <>
                       <button
-                        onClick={() => toggleMainItem(item.title)}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          toggleMainItem(item.title);
+                        }}
                         className="flex items-center justify-between w-full py-2 px-3 rounded hover:bg-slate-700 text-left"
                       >
                         {item.title}
@@ -1242,11 +1625,12 @@ const Header = () => {
                           {item.subItems?.map((subItem, subIndex) => (
                             <div key={subIndex}>
                               <button
-                                onClick={() =>
+                                onClick={(e) => {
+                                  e.stopPropagation();
                                   toggleSubItem(
                                     `${item.title}-${subItem.title}`
-                                  )
-                                }
+                                  );
+                                }}
                                 className="flex items-center justify-between w-full px-3 py-2 rounded hover:bg-slate-700 text-left"
                               >
                                 {subItem.title}
@@ -1285,7 +1669,11 @@ const Header = () => {
                                           <Link
                                             href={link.href}
                                             className="block px-3 py-2 rounded hover:bg-slate-700 text-sm"
-                                            onClick={toggleMenu}
+                                            onClick={() => {
+                                              setIsMenuOpen(false);
+                                              setOpenMainItem(null);
+                                              setOpenSubItem(null);
+                                            }}
                                           >
                                             {link.name}
                                           </Link>
