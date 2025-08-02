@@ -65,7 +65,7 @@ const Header = () => {
             { name: "FSSAI License", href: "/" },
             {
               name: "FSSAI License Renewal",
-              href: "/second/fssai-license-renewal",
+              href: "/startup/fssai-license-renewal",
             },
             { name: "FSSAI State License", href: "fssai-state-license" },
             { name: "Eating House License", href: "/startup/eating-house" },
@@ -419,7 +419,7 @@ const Header = () => {
             },
             {
               name: "ISO 45001 certification",
-              href: "/second/iso-45001-certification",
+              href: "/startup/iso-45001-certification",
             },
             {
               name: "ISO 20000 Certification",
@@ -762,7 +762,7 @@ const Header = () => {
           links: [
             {
               name: "Professional Advisory Services",
-              href: "/second/gst-registration",
+              href: "/startup/gst-registration",
             },
             {
               name: "Legal Advisory Services",
@@ -844,7 +844,7 @@ const Header = () => {
             },
             {
               name: "ISI Mark Certification",
-              href: "/second/isi-mark-certification",
+              href: "/startup/isi-mark-certification",
             },
             { name: "BIS CRS Registration", href: "/bis-crs-registration" },
             {
@@ -1247,7 +1247,7 @@ const Header = () => {
             },
             {
               name: "Environmental Clearance",
-              href: "/second/environmental-clearance",
+              href: "/startup/environmental-clearance",
             },
             {
               name: "Environmental Impact Assessment (EIA)",
@@ -1263,7 +1263,7 @@ const Header = () => {
             },
             {
               name: "Social Impact Assessment",
-              href: "/second/social-impact-assessment",
+              href: "/startup/social-impact-assessment",
             },
             {
               name: "Wildlife Conservation Plan",
@@ -1383,6 +1383,31 @@ const Header = () => {
           </span>
         </Link>
 
+        {/* Mobile menu button */}
+        <button
+          onClick={toggleMenu}
+          type="button"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500"
+          aria-controls="mega-menu"
+          aria-expanded={isMenuOpen}
+        >
+          <span className="sr-only">Open main menu</span>
+          <svg
+            className="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
         {/* Mobile menu button */}
         <button
           onClick={toggleMenu}

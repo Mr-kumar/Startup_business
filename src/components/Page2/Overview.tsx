@@ -6,8 +6,27 @@ import FeeStructure from "./FeeStructure";
 import Registration from "./Registration";
 import Timeline from "./Timeline";
 import Why from "./Why";
+import Who from "./Who";
 import Listicles from "./Listicles";
+import Categories from "./Categories";
+import Challenges from "./Challenges";
+import ClassifiedIndustries from "./ClassifiedIndustries";
+import Guidelines from "./Guidelines";
+import Regulations from "./Regulation";
+import ProductRequire from "./ProductRequire";
+import Structure from "./Structure";
+import RoleOfHydrogeologist from "./RoleOfHydrogeologist";
+import Need from "./Need";
+import Process from "./Process";
+import Authority from "./Authority";
+import EPR from "./EPR";
+import Validity from "./Validity";
+import Business from "./Business";
+import Services from "./Services";
+import Productlist from './Productlist';
+import Clauses from "./Clauses";
 import Renewal from "./Renewal";
+import { section } from "framer-motion/client";
 
 interface OverviewProps {
   overview?: { heading: string; content: string }[];
@@ -26,14 +45,38 @@ interface OverviewProps {
     steps?: { title: string; duration: string; description: string }[];
     totalTime?: string;
   }[];
+  clauses?: { title: string; description: string }[];
   whyUs?: {
     heading?: string;
     description?: string[];
     points?: string[];
     footerText?: string;
   }[];
+  who?: {
+    heading?: string;
+    description?: string[];
+    points?: string[];
+    footerText?: string;
+  }[];
   faq?: { question: string; answer: string }[];
+  Categories?: { category: string; documents: string[] }[];
+  ChallengesData?: { category: string; documents: string[] }[];
+  CategoriesData?: { category: string; documents: string[] }[];
   listicles?: { category: string; documents: string[] }[];
+  classifiedIndustriesData?: { category: string; documents: string[] }[];
+  GuidelinesData?: { category: string; documents: string[] }[];
+  RegulationsData?: { category: string; documents: string[] }[];
+  ProductRequireData?: { category: string; documents: string[] }[];
+  StructureData?: { category: string; documents: string[] }[];
+  NeedData?: { category: string; documents: string[] }[];
+  ProcessData?: { category: string; documents: string[] }[];
+  AuthorityData?: { category: string; documents: string[] }[];
+  EPRData?: { category: string; documents: string[] }[];
+  ValidityData?: { category: string; documents: string[] }[];
+  BusinessData?: { category: string; documents: string[] }[];
+  RoleOfHydrogeologistData?: { category: string; documents: string[] }[];
+  services?: { category: string; documents: string[] }[];
+  productListData?: { category: string; documents: string[] }[];
   renewalData?: {
     renewal: { heading: string; content: string[] }[];
     duplicate: { heading: string; content: string[] }[];
@@ -48,9 +91,27 @@ const Overview: React.FC<OverviewProps> = ({
   feesStructure,
   registrationTimeline,
   whyUs,
+  who,
   faq,
   listicles,
+  CategoriesData,
+  ChallengesData,
+  classifiedIndustriesData,
+  GuidelinesData,
+  RegulationsData,
+  ProductRequireData,
+  StructureData,
+  RoleOfHydrogeologistData,
+  NeedData,
+  ProcessData,
+  AuthorityData,
+  EPRData,
+  ValidityData,
+  BusinessData,
+  services,
+  productListData,
   renewalData,
+  clauses,
 }) => {
   const [activeSection, setActiveSection] = useState("overview");
 
@@ -58,32 +119,50 @@ const Overview: React.FC<OverviewProps> = ({
   const sections = [
     overview && overview.length > 0 && { id: "overview", label: "Overview" },
     benefits &&
-      benefits.length > 0 && { id: "benefits", label: "Key Benefits" },
+    benefits.length > 0 && { id: "benefits", label: "Key Benefits" },
     documentsRequired &&
-      documentsRequired.length > 0 && {
-        id: "documents",
-        label: "Required Documents",
-      },
+    documentsRequired.length > 0 && {
+      id: "documents",
+      label: "Required Documents",
+    },
     registrationProcedure &&
-      registrationProcedure.length > 0 && {
-        id: "registration",
-        label: "Registration Steps",
-      },
+    registrationProcedure.length > 0 && {
+      id: "registration",
+      label: "Registration Steps",
+    },
     feesStructure &&
-      feesStructure.length > 0 && { id: "fees", label: "Pricing Plans" },
+    feesStructure.length > 0 && { id: "fees", label: "Pricing Plans" },
     registrationTimeline &&
-      registrationTimeline.length > 0 && {
-        id: "timeline",
-        label: "Process Timeline",
-      },
-      listicles &&
-    listicles.length > 0 && { id: "listicles", label: "Listicles" },
+    registrationTimeline.length > 0 && {
+      id: "timeline",
+      label: "Process Timeline",
+    },
+    listicles && listicles.length > 0 && { id: "listicles", label: "Listicles" },
+    CategoriesData && CategoriesData.length > 0 && { id: "Categories", label: "Categories" },
+    ChallengesData && ChallengesData.length > 0 && { id: "Challenges", label: "Challenges" },
+    classifiedIndustriesData && classifiedIndustriesData.length > 0 && { id: "ClassifiedIndustries", label: "ClassifiedIndustries" },
+    GuidelinesData && GuidelinesData.length > 0 && { id: "Guidelines", label: "Guidelines" },
+    RegulationsData && RegulationsData.length > 0 && { id: "Regulations", label: "Regulations" },
+    ProductRequireData && ProductRequireData.length > 0 && { id: "ProductRequire", label: "Project that Require" },
+    StructureData && StructureData.length > 0 && { id: "Structure", label: "Structure" },
+    RoleOfHydrogeologistData && RoleOfHydrogeologistData.length > 0 && { id: "RoleOfHydrogeologist", label: "Role Of Hydrogeologist" },
+    NeedData && NeedData.length > 0 && { id: "Need", label: "Need" },
+    ProcessData && ProcessData.length > 0 && { id: "Process", label: "Process" },
+    AuthorityData && AuthorityData.length > 0 && { id: "Authority", label: "Authority" },
+    EPRData && EPRData.length > 0 && { id: "EPR", label: "EPR" },
+    ValidityData && ValidityData.length > 0 && { id: "Validity", label: "Validity" },
+    BusinessData && BusinessData.length > 0 && { id: "Business", label: "Business" },
+    services &&
+    services.length > 0 && { id: "services", label: "services" },
+    productListData && productListData.length > 0 && { id: "Productlist", label: "Product List" },
     renewalData &&
     (renewalData.renewal.length > 0 || renewalData.duplicate.length > 0) && {
       id: "renewal",
       label: "Renewal & Duplicate",
     },
     whyUs && whyUs.length > 0 && { id: "whyus", label: "Why Choose Us" },
+    who && who.length > 0 && { id: "who", label: "Who" },
+    clauses && clauses.length > 0 && { id: "clauses", label: "Key Clauses" },
     faq && faq.length > 0 && { id: "faq", label: "FAQs" },
   ].filter(Boolean); // Remove undefined entries
 
@@ -123,8 +202,8 @@ const Overview: React.FC<OverviewProps> = ({
               key={id}
               onClick={() => scrollToSection(id)}
               className={`cursor-pointer px-4 py-3 rounded-lg ${activeSection === id
-                  ? "bg-[#1D293D]/10 text-[#1D293D] font-semibold border-l-4 border-[#7DD756]"
-                  : "text-gray-600 hover:bg-[#1D293D]/5 hover:text-[#1D293D]"
+                ? "bg-[#1D293D]/10 text-[#1D293D] font-semibold border-l-4 border-[#7DD756]"
+                : "text-gray-600 hover:bg-[#1D293D]/5 hover:text-[#1D293D]"
                 }`}
             >
               {label}
@@ -161,14 +240,14 @@ const Overview: React.FC<OverviewProps> = ({
             <div className="max-w-4xl mx-auto">
               <div className="space-y-8">
                 {benefits.map((item, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-                  <h2 className="text-2xl font-bold text-gray-800 mb-3">
-                    {item.heading}
-                  </h2>
-                  <p className="text-gray-600 leading-relaxed whitespace-pre-line">
-                    {item.content}
-                  </p>
-                </div>
+                  <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+                    <h2 className="text-2xl font-bold text-gray-800 mb-3">
+                      {item.heading}
+                    </h2>
+                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                      {item.content}
+                    </p>
+                  </div>
                 ))}
               </div>
             </div>
@@ -199,14 +278,99 @@ const Overview: React.FC<OverviewProps> = ({
             <Listicles listicles={listicles} />
           </section>
         )}
-        {renewalData && (
-          <section id="renewal">
-            <Renewal renewalData={renewalData} />
+        {Categories && (
+          <section id="Categories">
+            <Categories Categories={CategoriesData} />
+          </section>
+        )}
+        {Challenges && (
+          <section id="Challenges">
+            <Challenges Challenges={ChallengesData} />
+          </section>
+        )}
+        {classifiedIndustriesData && (
+          <section id="ClassifiedIndustries">
+            <ClassifiedIndustries ClassifiedIndustries={classifiedIndustriesData} />
+          </section>
+        )}
+        {GuidelinesData && (
+          <section id="Guidelines">
+            <Guidelines Guidelines={GuidelinesData} />
+          </section>
+        )}
+        {RegulationsData && (
+          <section id="Regulations">
+            <Regulations Regulations={RegulationsData} />
+          </section>
+        )}
+        {ProductRequireData && (
+          <section id="ProductRequire">
+            <ProductRequire ProductRequire={ProductRequireData} />
+          </section>
+        )}
+        {StructureData && (
+          <section id="Structure">
+            <Structure Structure={StructureData} />
+          </section>
+        )}
+        {RoleOfHydrogeologistData && (
+          <section id="RoleOfHydrogeologist">
+            <RoleOfHydrogeologist RoleOfHydrogeologist={RoleOfHydrogeologistData} />
+          </section>
+        )}
+        {NeedData && (
+          <section id="Need">
+            <Need Need={NeedData} />
+          </section>
+        )}
+        {ProcessData && (
+          <section id="Process">
+            <Process Process={ProcessData} />
+          </section>
+        )}
+        {AuthorityData && (
+          <section id="Authority">
+            <Authority Authority={AuthorityData} />
+          </section>
+        )}
+        {EPRData && (
+          <section id="EPR">
+            <EPR EPR={EPRData} />
+          </section>
+        )}
+        {ValidityData && (
+          <section id="Validity">
+            <Validity Validity={ValidityData} />
+          </section>
+        )}
+        {BusinessData && (
+          <section id="Business">
+            <Business Business={BusinessData} />
+          </section>
+        )}
+        {services && (
+          <section id="services">
+            <Services Services={services} />
+          </section>
+        )}
+        {productListData && productListData.length > 0 && (
+          <section id="Productlist">
+            <Productlist productListData={productListData} />
+          </section>
+        )}
+        {clauses && clauses.length > 0 && (
+          <section id="clauses">
+            <Clauses clauses={clauses} />
           </section>
         )}
         {whyUs && (
           <section id="whyus">
             <Why whyUs={whyUs} />
+          </section>
+        )}
+        {who && (
+          <section id="who">
+            <Who who={who} />
           </section>
         )}
         {faq && (
