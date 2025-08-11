@@ -14668,4 +14668,1979 @@ export const pageContent: Record<string, PageContentType> = {
       timelineFees: [],
     },
   },
+
+
+  "tpap-license": {
+    overview: {
+      heading: "TPAP License Registration in India",
+      paragraphs: [
+        "A TPAP (Third-Party Application Provider) License is issued by the National Payments Corporation of India (NPCI) to entities looking to offer services within the UPI ecosystem. It is essential for companies aiming to provide UPI-based digital payment services.",
+        "TPAPs operate in partnership with Payment Service Provider (PSP) banks to process secure and efficient UPI transactions. This license ensures strict adherence to UPI guidelines, enhancing trust, reliability, and regulatory compliance for all parties involved.",
+        "DoStartup offers professional TPAP licensing support — from documentation and application to regulatory liaison and ongoing compliance — ensuring a smooth path to entering India's UPI infrastructure.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Official Entry into the UPI Ecosystem",
+        description:
+          "Gain access to India's most popular real-time payment infrastructure regulated by NPCI.",
+      },
+      {
+        title: "Boosts Trust and Credibility",
+        description:
+          "TPAP registration enhances your company's reputation and assures users of secure digital payment operations.",
+      },
+      {
+        title: "Facilitates Smooth UPI Transactions",
+        description:
+          "Licensed TPAPs enjoy uninterrupted access to UPI services, ensuring fast and reliable transaction experiences.",
+      },
+      {
+        title: "Access to Dispute Resolution",
+        description:
+          "TPAPs benefit from NPCI's dispute handling mechanisms, simplifying grievance redressal for users.",
+      },
+      {
+        title: "Compliance and Market Stability",
+        description:
+          "Meet all legal obligations, assuring long-term business viability and protection from penalties.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Eligibility Confirmation",
+          desc: "Verify that your business is registered and meets NPCI's requirements for TPAP applicants.",
+        },
+        {
+          title: "Step 2: Application Preparation",
+          desc: "Gather required documents like incorporation proof, MoA, financials, and KYC details of directors.",
+        },
+        {
+          title: "Step 3: Online Application Submission",
+          desc: "Fill out FORM A on NPCI's portal with accurate business and contact information.",
+        },
+        {
+          title: "Step 4: Document Upload",
+          desc: "Submit all required documents for review including business plan and privacy policies.",
+        },
+        {
+          title: "Step 5: NPCI Review & Evaluation",
+          desc: "NPCI conducts verification, financial scrutiny, and compliance assessment.",
+        },
+        {
+          title: "Step 6: Approval and License Grant",
+          desc: "Once approved, NPCI issues the TPAP license allowing operation in the UPI ecosystem.",
+        },
+      ],
+      violations: [
+        "Exceeding UPI transaction market share cap of 30% without exemption.",
+        "Failure to follow NPCI's operational and data protection guidelines.",
+        "Non-compliance with dispute resolution and reporting obligations.",
+      ],
+      consequences: [
+        "Revocation of TPAP license.",
+        "NPCI-imposed penalties or suspension from UPI participation.",
+        "Compliance audits and scrutiny by regulators.",
+        "Merchant and user trust erosion, leading to business loss.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Who Can Apply for a TPAP License?",
+        items: [
+          "Companies registered under the Companies Act, 2013 or applicable laws.",
+          "Banks, NBFCs, or licensed financial institutions.",
+          "Payment Aggregators facilitating merchant transactions.",
+          "Entities with robust data privacy, security, and UPI compliance policies.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "End-to-End TPAP License Support",
+        desc: "From eligibility checks and FORM A filing to audit assistance and post-approval compliance, we handle the entire licensing process.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a TPAP License?",
+        answer:
+          "A TPAP (Third Party Application Provider) License is issued by NPCI to entities enabling UPI-based transactions via apps or platforms.",
+      },
+      {
+        question: "Is GPay a TPAP or PSP?",
+        answer:
+          "Google Pay is a TPAP that operates in partnership with a PSP bank to facilitate UPI transactions.",
+      },
+      {
+        question: "Is the TPAP License mandatory?",
+        answer:
+          "Yes, for any entity acting as a third-party application provider in the UPI network, this license is mandatory.",
+      },
+      {
+        question: "What is the cost of obtaining a TPAP license?",
+        answer:
+          "The license may cost between ₹7,00,000 to ₹50,00,000 including integration and compliance fees.",
+      },
+      {
+        question: "What is the role of NPCI?",
+        answer:
+          "NPCI is the governing body for UPI operations in India, managing transaction routing, licensing, dispute resolution, and platform integrity.",
+      },
+      {
+        question: "What is the TPAP market share cap?",
+        answer:
+          "TPAPs cannot exceed 30% of UPI transaction volume (based on a rolling 3-month average).",
+      },
+      {
+        question: "How long does it take to get a TPAP License?",
+        answer:
+          "Typically, the process takes 4 to 12 months depending on documentation and compliance checks.",
+      },
+      {
+        question: "What is FORM A in TPAP license registration?",
+        answer:
+          "FORM A is the application format required by NPCI for TPAP license submission online.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      // "differenceTable": [],
+      timelineFees: [
+        "Application via FORM A on NPCI's UPI portal.",
+        "License cost ranges between ₹7 lakh to ₹50 lakh based on entity type and scope.",
+        "Typical timeline for approval: 4 to 12 months.",
+        "Post-approval: Ongoing compliance reports and audits are mandatory.",
+      ],
+    },
+  },
+  "mobile-wallet-license": {
+    overview: {
+      heading: "Mobile Wallet (PPI) License in India",
+      paragraphs: [
+        "A Mobile Wallet License, also known as a Prepaid Payment Instrument (PPI) License, is issued by the Reserve Bank of India (RBI) under the Payment and Settlement Systems Act, 2007. It authorizes companies to offer digital wallets for secure electronic transactions.",
+        "PPIs allow users to make payments and remit funds using prepaid balances. These instruments include mobile wallets, smart cards, debit cards, and other digital formats. Any company planning to offer wallet-based payment solutions must acquire this license to operate legally.",
+        "DoStartup offers complete support for PPI/Mobile Wallet license application, compliance with RBI guidelines, anti-money laundering rules, and full regulatory documentation and processing.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Enables Secure Digital Transactions",
+        description:
+          "Mobile wallets offer instant, low-risk, and cashless transactions for daily use.",
+      },
+      {
+        title: "Supports Micro and Recurring Payments",
+        description:
+          "Allows seamless handling of small-value and scheduled payments such as subscriptions or EMIs.",
+      },
+      {
+        title: "Minimal Charges Compared to Banks",
+        description:
+          "Typically, mobile wallets come with no hidden fees or service charges, making them more cost-effective.",
+      },
+      {
+        title: "Reward Programs and Cashback",
+        description:
+          "Users benefit from promotional offers, referral bonuses, and cashbacks linked with wallet usage.",
+      },
+      {
+        title: "Automated Loan/Credit Repayments",
+        description:
+          "Prepaid wallets can be used for auto-debit and repayments to banks or financial service providers.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Company Incorporation",
+          desc: "Register your business under the Companies Act, 2013 as a private or public limited company.",
+        },
+        {
+          title: "Step 2: File Form A",
+          desc: "Download and fill Form A from RBI's official portal for PPI applications.",
+        },
+        {
+          title: "Step 3: Submit Documents",
+          desc: "Attach all necessary documents including audited financials, business plans, and identification proofs.",
+        },
+        {
+          title: "Step 4: RBI Due Diligence",
+          desc: "RBI conducts an initial review and grants in-principle approval post-inspection.",
+        },
+        {
+          title: "Step 5: Compliance & Final License",
+          desc: "Post satisfactory audit review, RBI grants the final PPI License for wallet operations.",
+        },
+      ],
+      violations: [
+        "Offering wallet services without RBI license.",
+        "Non-compliance with AML and KYC norms.",
+        "Unauthorized PPI brand usage or rebranding without informing RBI.",
+        "Issuing paper-voucher-based PPIs (prohibited in India).",
+      ],
+      consequences: [
+        "Suspension or revocation of license by RBI.",
+        "Penalties for non-compliance under PSS Act and AML guidelines.",
+        "Disqualification of directors or promoters.",
+        "Reputational damage and restricted access to financial partnerships.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Mobile Wallet License",
+        items: [
+          "Must be a company registered under the Companies Act, 1956 or 2013.",
+          "Non-NBFC entities must have a minimum net worth of ₹5 crores.",
+          "FEMA compliance is mandatory for foreign investment handling.",
+          "Banks and NBFCs require RBI approval but no specific net worth threshold.",
+          "Company must maintain financial and technical capability to issue and manage PPIs.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "End-to-End Wallet Licensing",
+        desc: "We manage RBI communication, compliance checks, documentation, audit preparation, and post-licensing reporting.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a PPI license?",
+        answer:
+          "It is a license issued by RBI under the PSS Act, 2007 allowing companies to offer prepaid digital wallets for transactions.",
+      },
+      {
+        question: "What is the validity of the PPI license?",
+        answer:
+          "The RBI grants a license with minimum validity of 1 year and renewable for up to 5 years depending on compliance.",
+      },
+      {
+        question: "Which application form is required for the license?",
+        answer:
+          "FORM A must be submitted to RBI along with supporting documentation.",
+      },
+      {
+        question: "What is the minimum capital for non-NBFC applicants?",
+        answer:
+          "Non-NBFCs must have at least ₹5 crore in net worth at the time of application.",
+      },
+      {
+        question: "What types of mobile wallets are allowed?",
+        answer:
+          "Closed, semi-closed, semi-open, open wallets, and instruments for cross-border transactions are permitted under PPI norms.",
+      },
+      {
+        question: "Are interest payments allowed on wallet balances?",
+        answer:
+          "No. PPI issuers are not allowed to offer interest on wallet balances.",
+      },
+      {
+        question: "Can PPI issuers appoint agents?",
+        answer:
+          "Yes, with board-approved policies, proper background checks, and annual monitoring by the issuer.",
+      },
+      {
+        question: "How are PPIs reloaded?",
+        answer:
+          "Via INR cash, bank transfers, debit/credit cards, or UPI — subject to RBI-defined monthly and overall limits.",
+      },
+      {
+        question: "What security measures are necessary?",
+        answer:
+          "Issuers must follow AML and KYC guidelines, report suspicious transactions to FIU-IND, and ensure strong data protection.",
+      },
+      {
+        question: "Who regulates mobile wallet services in India?",
+        answer:
+          "RBI's Department of Regulation (DoR) under the PSS Act and Money Laundering Act, 2002.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Closed Wallets",
+          shortText:
+            "Usable only for purchases within the issuing company's platform (e.g., Ola Money).",
+          backText: "",
+        },
+        {
+          title: "Semi-Closed Wallets",
+          shortText:
+            "Used with approved merchants/services in a restricted network but no cash withdrawal (e.g., Paytm).",
+          backText: "",
+        },
+        {
+          title: "Semi-Open Wallets",
+          shortText:
+            "Accepted at stores or websites with digital card infrastructure; cannot be used for cash withdrawal.",
+          backText: "",
+        },
+        {
+          title: "Open Wallets",
+          shortText:
+            "Offered by banks or authorized entities allowing both purchase and cash withdrawal (e.g., MobiKwik ICICI).",
+          backText: "",
+        },
+      ],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [
+        "Application via Form A submitted to RBI with detailed business plan.",
+        "Initial license valid for 1 year from last PPI load activity.",
+        "Renewable for 5 years based on compliance.",
+        "Minimum capital of ₹5 crore for non-NBFCs.",
+        "Audit inspections and agent monitoring mandatory during the validity.",
+      ],
+    },
+  },
+  "nbfc-registration": {
+    overview: {
+      heading: "NBFC Registration in India – A Complete Overview by DoStartup",
+      paragraphs: [
+        "Non-Banking Financial Companies (NBFCs) play a pivotal role in India's financial ecosystem by offering financial services without holding a traditional banking license. NBFCs registered with the Reserve Bank of India (RBI) are permitted to engage in financial activities such as acquiring stocks, bonds, debentures, government-issued securities, and more.",
+        "These institutions are incorporated under the Companies Act, 2013 and governed by the Reserve Bank of India Act, 1934. Under Section 45-I (c) of the RBI Act, any company engaged in financial activities—without being a bank—is categorized as an NBFC.",
+        "Facing challenges in NBFC registration? Connect with our consultants at DoStartup for expert-led guidance and simplified NBFC licensing services.",
+      ],
+      // imageUrl: "https://tse4.mm.bing.net/th/id/OIP.TTQXN6R8ZY7XpILqWea4rAHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      // buttonText: "",
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Legal Authorization",
+        // img: "https://images.unsplash.com/photo-1554224154-8e4e719180fe?w=400&h=300&fit=crop&crop=center",
+        description:
+          "An NBFC license allows companies to legally offer a wide range of financial services including loans, investments, and wealth management.",
+      },
+      {
+        title: "Efficient Fund Management",
+        // img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center",
+        description:
+          "NBFCs can manage liquidity efficiently by participating in short-term money market instruments and other financial instruments.",
+      },
+      {
+        title: "Wealth & Portfolio Management",
+        // img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center",
+        description:
+          "NBFCs can manage investment portfolios and engage in share and stock-related activities for wealth maximization.",
+      },
+      {
+        title: "Access to Investment Opportunities",
+        // img: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&crop=center",
+        description:
+          "NBFCs can explore diverse investment projects across India, expanding their business footprint and profitability.",
+      },
+      {
+        title: "Technology-Driven Operations",
+        // img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&crop=center",
+        description:
+          "NBFCs are more agile and digitally focused compared to traditional banks, offering modern, customer-friendly services.",
+      },
+      {
+        title: "Enhanced Market Reach and Reputation",
+        // img: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop&crop=center",
+        description:
+          "With faster loan disbursal, personalized services, and government collaborations, NBFCs build strong reputations and expand market reach.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Company Incorporation",
+          desc: "Register your company under the Companies Act, 2013 with a minimum paid-up capital of ₹10 Crores.",
+        },
+        {
+          title: "Step 2: Prepare a Business Plan",
+          desc: "Draft a 5-year business plan outlining your objectives, operations, financial goals, and public benefit.",
+        },
+        {
+          title: "Step 3: Document Collection & Scrutiny",
+          desc: "Compile all required documents including net worth certificates, credit reports, KYC, and financial projections.",
+        },
+        {
+          title: "Step 4: Online Application via COSMOS",
+          desc: "File the NBFC application through RBI's online COSMOS portal and obtain a reference number.",
+        },
+        {
+          title: "Step 5: Submission of Hard Copy",
+          desc: "Send physical copies of the application and annexures to the respective RBI regional office.",
+        },
+        {
+          title: "Step 6: Review and Certificate Issuance",
+          desc: "RBI verifies documents and issues NBFC Registration Certificate within 180 working days if all conditions are met.",
+        },
+      ],
+      violations: [
+        "Accepting demand deposits",
+        "Engaging in foreign exchange trading",
+        "Operating payment systems or issuing cheques",
+        "Offering banking-exclusive services without approval",
+      ],
+      consequences: [
+        "Operating without registration is illegal and can attract heavy penalties",
+        "Non-compliance with RBI norms may lead to cancellation of NBFC license",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for NBFC Registration",
+        items: [
+          "Must be registered as a Private or Public Limited Company under the Companies Act, 2013",
+          "Minimum Net Owned Fund (NOF) of ₹10 Crores",
+          "At least 1/3rd directors with 10+ years of financial services experience",
+          "Detailed 5-year business plan with risk assessment",
+          "No financial defaults by company, directors, or associated firms",
+        ],
+      },
+      {
+        heading: "Restricted Activities for NBFCs",
+        items: [
+          "Agriculture sector activities",
+          "Industrial manufacturing",
+          "Trading in goods (except securities)",
+          "Real estate construction and sales",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "DoStartup NBFC Registration Services",
+        desc: "DoStartup provides end-to-end consultancy for NBFC registration—from company incorporation and document preparation to RBI liaison and compliance.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How do I register an NBFC in India?",
+        answer:
+          "Register a company under Companies Act, prepare business plan, ensure ₹10 Crores NOF, file application on RBI's COSMOS portal, submit documents, and obtain the license upon approval.",
+      },
+      {
+        question: "Who regulates NBFCs in India?",
+        answer:
+          "The Reserve Bank of India (RBI) is the sole regulatory authority overseeing NBFC registration and compliance.",
+      },
+      {
+        question: "What is the minimum capital required for NBFC registration?",
+        answer:
+          "A minimum Net Owned Fund (NOF) of ₹10 Crores is mandatory as per latest RBI guidelines.",
+      },
+      {
+        question: "Can a foreign company register as an NBFC in India?",
+        answer:
+          "Yes, foreign companies can apply by forming an Indian entity, complying with FDI policies, and fulfilling RBI norms.",
+      },
+      {
+        question: "Can existing finance businesses apply for NBFC license?",
+        answer:
+          "Yes, but existing lending licenses must be surrendered before applying to avoid regulatory conflict.",
+      },
+      {
+        question: "Is hiring a consultant like DoStartup mandatory?",
+        answer:
+          "Not mandatory, but highly recommended to avoid errors, save time, and ensure successful registration.",
+      },
+      {
+        question: "How long does NBFC registration take?",
+        answer:
+          "The process typically takes 90 to 180 working days depending on documentation and RBI approvals.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [
+        "Company Incorporation: 1–2 weeks",
+        "Document Preparation & Business Plan: 2–4 weeks",
+        "Application Submission & Verification: 1–2 weeks",
+        "RBI Review & Approval: 3–6 months",
+        "Total Timeline: 90–180 working days",
+        "Government Fee: ₹3.5 Lakhs+ | Consultation Fee: Starting ₹6 Lakhs",
+      ],
+    },
+  },
+  "nbfc-takeover": {
+    overview: {
+      heading:
+        "NBFC Takeover – A Complete Guide (An Overview of NBFC Acquisition in India)",
+      paragraphs: [
+        "A Non-Banking Financial Company (NBFC) takeover refers to the acquisition of an existing RBI-registered NBFC by another entity instead of registering a new one. This allows businesses to enter the financial sector swiftly while retaining legal compliance and operational benefits.",
+        "This route, while faster than fresh registration, requires adherence to strict RBI regulations concerning ownership transfer, capital adequacy, and public disclosures. It involves acquiring control, management, and shareholding of the target NBFC.",
+        "DoStartup offers seamless support throughout the NBFC takeover journey with its team of 150+ legal, financial, and regulatory experts, helping clients achieve acquisition completion within 60 days, including post-takeover services like capital restructuring and financial planning.",
+      ],
+      // "imageUrl": "https://images.unsplash.com/photo-1554224154-8e4e719180fe?w=800&h=600&fit=crop&crop=center",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Faster Market Entry",
+        // "img": "https://images.unsplash.com/photo-1554224154-8e4e719180fe?w=400&h=300&fit=crop&crop=center",
+        description:
+          "Avoid delays of new registration by acquiring an existing licensed NBFC and begin financial operations almost immediately.",
+      },
+      {
+        title: "Existing Customer Base",
+        // "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center",
+        description:
+          "Gain access to the target company's existing customers, market relationships, and revenue streams.",
+      },
+      {
+        title: "Diversified Portfolio",
+        // "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center",
+        description:
+          "Expand your financial offerings by acquiring NBFCs operating in complementary domains.",
+      },
+      {
+        title: "Regulatory Advantage",
+        // "img": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&crop=center",
+        description:
+          "Operate under the existing Certificate of Registration (CoR) and leverage previous approvals and compliance records.",
+      },
+      {
+        title: "Operational Continuity",
+        // "img": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&crop=center",
+        description:
+          "Resume business activities without disruption by acquiring ongoing systems, SOPs, and teams.",
+      },
+      {
+        title: "Cost and Time Efficiency",
+        // "img": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop&crop=center",
+        description:
+          "Takeovers offer quicker returns and reduce regulatory burdens compared to fresh NBFC incorporation.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Sign Memorandum of Understanding (MoU)",
+          desc: "The acquiring and target entities sign an MoU and token consideration is exchanged.",
+        },
+        {
+          title: "Step 2: Obtain RBI Approval",
+          desc: "Seek RBI's prior approval for takeovers involving significant change in control or shareholding.",
+        },
+        {
+          title: "Step 3: Issue First Public Notice",
+          desc: "Publish a public notice in regional and English newspapers 30 days before transaction execution.",
+        },
+        {
+          title: "Step 4: Execute Formal Agreement",
+          desc: "Sign Share Purchase Agreement and relevant legal documentation between acquirer and target.",
+        },
+        {
+          title: "Step 5: Issue Second Public Notice",
+          desc: "Reiterate the transaction details in public to maintain transparency before final execution.",
+        },
+        {
+          title: "Step 6: Settle Liabilities and Liquidate Assets",
+          desc: "Target NBFC clears all outstanding liabilities and liquidates assets to determine net worth.",
+        },
+        {
+          title: "Step 7: Obtain NOC from Creditors",
+          desc: "Obtain necessary No Objection Certificates from creditors to proceed with acquisition.",
+        },
+        {
+          title: "Step 8: Asset Transfer and Valuation",
+          desc: "Complete asset transfer post-approval and determine value using Discounted Cash Flow (DCF) method.",
+        },
+      ],
+      violations: [],
+      consequences: [],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for NBFC Takeover",
+        items: [
+          "Both acquiring and target companies must be registered under the Companies Act.",
+          "Target NBFC must have a valid Certificate of Registration (CoR) from the RBI.",
+          "Acquirer must have a minimum Net Owned Fund (NOF) of ₹2 crore (recommended ₹5 crore).",
+          "Acquirer must fulfill RBI's Fit and Proper criteria.",
+          "Operational systems and compliance records of target NBFC must be satisfactory.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Complete Takeover Assistance",
+        desc: "Get expert-led support from DoStartup for documentation, RBI approval, legal due diligence, and post-acquisition services.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is an NBFC Takeover?",
+        answer:
+          "It is the process where one company acquires an existing RBI-licensed NBFC to gain market entry and financial operation capabilities without registering a new NBFC.",
+      },
+      {
+        question: "Is RBI approval mandatory for NBFC takeover?",
+        answer:
+          "Yes, RBI approval is required if there is a change in management (>30%) or shareholding (>26%).",
+      },
+      {
+        question: "What documents are needed for takeover?",
+        answer:
+          "PAN, DINs, KYC of shareholders/directors, financial reports, business plan, due diligence report, public notice proof, and RBI declarations.",
+      },
+      {
+        question: "What is the average timeline for NBFC takeover?",
+        answer:
+          "The complete process typically takes around 5 to 6 months, depending on documentation and RBI approvals.",
+      },
+      {
+        question: "What are the benefits of acquiring an NBFC?",
+        answer:
+          "It allows quick market entry, portfolio diversification, faster revenue generation, and bypassing initial registration delays.",
+      },
+      {
+        question: "What are the RBI's Fit and Proper norms?",
+        answer:
+          "Acquirers must have a clean financial history, professional qualifications, and no criminal or financial misconduct.",
+      },
+      {
+        question: "Is public notice mandatory for NBFC takeover?",
+        answer:
+          "Yes, a public notice must be published 30 days in advance in one English and one regional newspaper.",
+      },
+      {
+        question: "Can a company with foreign investment acquire an NBFC?",
+        answer: "Yes, subject to compliance with FDI guidelines and RBI norms.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [],
+    },
+  },
+  "microfinance-company-registration": {
+    overview: {
+      heading:
+        "Microfinance Company Registration – Complete Guide to Start Your MFI in India",
+      paragraphs: [
+        "A Microfinance Company (MFC) is an institution that delivers financial services to underserved populations, particularly in rural and semi-urban areas. It plays a pivotal role in empowering economically weaker sections by offering banking and credit services.",
+        "Microfinance Companies are classified as Non-Deposit Taking NBFCs and are governed under the RBI Act, 1934. They differ from Section 8 companies and require registration with the Reserve Bank of India (RBI) to operate legally.",
+        "DoStartup offers expert support throughout the Microfinance Company registration process, including company incorporation, compliance, RBI approval, and post-registration consulting.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Collateral-Free Lending",
+        description:
+          "Enable access to credit without the requirement of collateral security.",
+      },
+      {
+        title: "Promotes Employment",
+        description:
+          "Stimulates job creation and self-employment opportunities in rural and backward areas.",
+      },
+      {
+        title: "Supports Rural Development",
+        description:
+          "Accelerates financial inclusion and rural infrastructure through targeted lending.",
+      },
+      {
+        title: "Favorable Loan Terms",
+        description:
+          "Offers low-interest loans and flexible repayment terms aligned with RBI guidelines.",
+      },
+      {
+        title: "Empowers Low-Income Groups",
+        description:
+          "Provides necessary financial tools for economic self-reliance and entrepreneurial growth.",
+      },
+      {
+        title: "No Minimum Capital for Section 8",
+        description:
+          "Section 8 registered MFIs do not require mandatory minimum capital to operate.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Register a Company",
+          desc: "Incorporate a Private/Public Limited Company under Companies Act using the SPICe+ Form on the MCA portal.",
+        },
+        {
+          title: "Step 2: Use SPICe+ Services",
+          desc: "Utilize SPICe+ for integrated services like DIN, PAN, TAN, EPFO, ESIC, GST, and more.",
+        },
+        {
+          title: "Step 3: File SPICe+ Application",
+          desc: "Submit SPICe+ Part A and B with linked forms (AGILE-Pro, MOA, AOA) and obtain application number.",
+        },
+        {
+          title: "Step 4: Raise Required Capital",
+          desc: "Raise ₹2–5 crore depending on whether you're applying as an NBFC-MFI or a Section 8 company.",
+        },
+        {
+          title: "Step 5: Open a Bank Account",
+          desc: "Open a no-lien current account and obtain a banker's certificate.",
+        },
+        {
+          title: "Step 6: Apply to RBI for Registration",
+          desc: "Submit application with supporting documents such as CoI, MOA, AOA, and fixed deposit proof.",
+        },
+        {
+          title: "Step 7: File Online Application with RBI",
+          desc: "Apply on the RBI portal and obtain the Company Application Reference Number (CARN).",
+        },
+        {
+          title: "Step 8: Submit Hard Copies to RBI",
+          desc: "Send physical copies of all documents to the RBI regional office for review and approval.",
+        },
+      ],
+      violations: [],
+      consequences: [],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Microfinance Company Registration",
+        items: [
+          "Must be registered under Companies Act, 1956 or 2013.",
+          "Minimum Net Owned Fund (NOF) of ₹5 crores (not applicable for Section 8).",
+          "Loan range allowed: ₹50,000 to ₹1.25 lakhs.",
+          "Promoter details must be disclosed.",
+          "85% of NOF should be used as Qualifying Assets.",
+          "Permissible sectors: agriculture, small-scale trade, artisans, professionals, transport.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Complete MFI Setup Support",
+        desc: "Get expert-led assistance from DoStartup on documentation, RBI filing, company registration, and compliance.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a Microfinance Company?",
+        answer:
+          "Microfinance Companies provide small loans and financial services to low-income individuals and businesses lacking access to traditional banks.",
+      },
+      {
+        question: "How can I register a Microfinance Company in India?",
+        answer:
+          "You must incorporate a company, obtain DSC/DIN, apply for name reservation, raise capital, and apply for registration with the RBI.",
+      },
+      {
+        question:
+          "What are the basic documents required for Microfinance Company registration?",
+        answer:
+          "PAN, Aadhaar, address proof, passport-size photos, ownership proof, utility bills, NOC, MOA/AOA, banker's certificate, and CA-certified compliance.",
+      },
+      {
+        question:
+          "What are the benefits of registering a Microfinance Company through DoStartup?",
+        answer:
+          "Promotes entrepreneurship, simplifies funding access, ensures regulatory compliance, and speeds up approval process.",
+      },
+      {
+        question:
+          "What is the initial cost of registering a Microfinance Company?",
+        answer:
+          "Registration starts from ₹11,90,000. Contact DoStartup for a customized quote.",
+      },
+      {
+        question: "Can Microfinance Companies offer loans for personal use?",
+        answer:
+          "Yes, but personal-use loans must not exceed 30% of the total loan portfolio.",
+      },
+      {
+        question:
+          "Are Microfinance Companies allowed to charge a prepayment penalty?",
+        answer:
+          "No, RBI regulations prohibit prepayment penalties on microfinance loans.",
+      },
+      {
+        question:
+          "What are the limitations on interest rates and processing fees?",
+        answer:
+          "Interest rates cannot exceed 4% above benchmark, and processing fees are capped at 1% of the loan amount.",
+      },
+      {
+        question: "What is the procedure for loan recovery?",
+        answer:
+          "Recovery must follow Fair Practices Code – no coercion, collections at central locations, and fair practices.",
+      },
+      {
+        question: "What is meant by Net Assets?",
+        answer:
+          "Net Assets refer to the value of all assets excluding cash, bank balances, and market instruments.",
+      },
+      {
+        question: 'What are "Qualifying Assets" in microfinance?',
+        answer:
+          "Loans to households earning < ₹1,00,000 (rural) or < ₹1,60,000 (urban/semi-urban).",
+      },
+      {
+        question:
+          "Are there restrictions on the remaining 15% of NBFC-MFI assets?",
+        answer:
+          "No specific restrictions apply to the remaining 15% of the total assets.",
+      },
+      {
+        question:
+          "Can NBFC-MFIs lend for emergencies like education or medical needs?",
+        answer:
+          "Yes. Up to 50% of total loans can be used for non-income-generating purposes such as healthcare or education.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [],
+    },
+  },
+  "ffmc-license-registration": {
+    overview: {
+      heading:
+        "FFMC License Registration – Full Fledged Money Changer License in India",
+      paragraphs: [
+        "A Full Fledged Money Changer (FFMC) License is issued by the Reserve Bank of India (RBI) to companies enabling them to legally conduct foreign exchange and money-changing transactions. Businesses with this license can buy foreign currency from NRIs and sell it to Indian residents for travel or business.",
+        "As per Section 10 of FEMA, 1999, only Authorised Money Changers (AMCs) are allowed to perform money-changing functions. This license plays a vital role in enhancing India's forex infrastructure, particularly for tourists and international businesses.",
+        "DoStartup simplifies the FFMC license registration process, offering expert support from application to RBI approval, renewal, compliance, and audits.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Legal Foreign Exchange Services",
+        description:
+          "Legally purchase and sell foreign currency to both residents and non-residents.",
+      },
+      {
+        title: "Encashment Certificate Issuance",
+        description:
+          "Provide encashment certificates for forex transactions and traveller's cheques.",
+      },
+      {
+        title: "Enhanced Services for Tourists",
+        description:
+          "Offer convenient money exchange solutions at hotels and authorized outlets for international visitors.",
+      },
+      {
+        title: "Support for Cross-Border Trade",
+        description:
+          "Facilitate foreign exchange for travel, business, remittances, and education.",
+      },
+      {
+        title: "Prepaid Forex Cards",
+        description:
+          "Issue prepaid Forex cards for Indian nationals traveling abroad for business or leisure.",
+      },
+      {
+        title: "Revenue from Transaction Margins",
+        description:
+          "Earn revenue via margins on buy/sell transactions, commissions, and forex card services.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Fulfill Fit and Proper Criteria",
+          desc: "Ensure all directors meet RBI's fit and proper requirements including age, integrity, and professional background.",
+        },
+        {
+          title: "Step 2: Collect Documents",
+          desc: "Gather all documents including incorporation certificate, MoA, AoA, financials, and statutory auditor certificates.",
+        },
+        {
+          title: "Step 3: Submit Application to RBI",
+          desc: "Submit the FFMC license application to the RBI's regional office with required enclosures.",
+        },
+        {
+          title: "Step 4: RBI Review and Background Checks",
+          desc: "RBI scrutinizes submitted documents and conducts due diligence on company and promoters.",
+        },
+        {
+          title: "Step 5: Approval by Empowered Committee",
+          desc: "Company directors are evaluated and approved by the Empowered Committee for license issuance.",
+        },
+        {
+          title: "Step 6: License Issuance and Commencement",
+          desc: "Upon approval, FFMC license is granted. Operations must begin within six months of issuance.",
+        },
+      ],
+      violations: [
+        "Non-compliance with FEMA, 1999 provisions.",
+        "Failure to maintain Net Owned Funds (NOF).",
+        "Unauthorized money-changing or operations beyond license scope.",
+        "Late renewal or expired license usage.",
+        "Non-submission of audit reports or transaction records.",
+      ],
+      consequences: [
+        "RBI may revoke or suspend the FFMC license.",
+        "Imposition of penalties under FEMA, 1999.",
+        "Rejection of future applications and permanent disqualification.",
+        "Legal and regulatory scrutiny for non-compliant transactions.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for FFMC License Registration",
+        items: [
+          "Company must be incorporated under Companies Act, 1956 or 2013.",
+          "Net Owned Funds (NOF) of ₹25 lakhs for a single-branch license.",
+          "Net Owned Funds (NOF) of ₹50 lakhs for multiple branches.",
+          "No legal or regulatory investigations pending.",
+          "Memorandum of Association (MoA) must have money-changing clause.",
+          "Operations must commence within 6 months of license issuance.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Complete FFMC License Assistance",
+        desc: "DoStartup provides end-to-end consultation for FFMC registration, document filing, compliance, audit preparation, and renewals.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does FFMC stand for?",
+        answer: "FFMC stands for Full-Fledged Money Changer.",
+      },
+      {
+        question: "What is an FFMC?",
+        answer:
+          "An FFMC is an entity licensed by RBI to buy and sell foreign currency for personal, business, or tourism-related purposes.",
+      },
+      {
+        question: "Who is eligible to apply for an FFMC license?",
+        answer:
+          "Any company registered under the Companies Act with required Net Owned Funds and no legal proceedings can apply.",
+      },
+      {
+        question: "What is the validity of an FFMC license issued by RBI?",
+        answer:
+          "The FFMC license is valid for 3 years and must be renewed before expiry.",
+      },
+      {
+        question: "How many types of FFMC licenses are there?",
+        answer:
+          "There are four types: Authorised Dealer Category I, II, III, and Full-Fledged Money Changers (FFMCs).",
+      },
+      {
+        question: "How can I become a Forex dealer?",
+        answer:
+          "Pursue relevant finance education and apply for licensing via RBI or act as an FFMC franchisee.",
+      },
+      {
+        question: "Can FFMCs issue Forex cards?",
+        answer:
+          "Yes, FFMCs and their authorized agents can issue prepaid Forex cards to Indian nationals.",
+      },
+      {
+        question: "How do FFMCs earn revenue?",
+        answer:
+          "From commission, transaction spreads, service fees, and foreign currency exchange services.",
+      },
+      {
+        question: "Can the FFMC license be revoked?",
+        answer:
+          "Yes, RBI may revoke licenses for non-compliance with FEMA, AML, CFT, or RBI directions.",
+      },
+      {
+        question: "What is the franchise model in FFMC?",
+        answer:
+          "Businesses with NOF ≥ ₹10 lakhs can partner with FFMCs to operate under limited authorization for money-changing services.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [
+        "Typical RBI approval takes 2–3 months.",
+        "License valid for 3 years, annual renewal required.",
+        "Consultation fees for FFMC registration start at ₹15 lakhs.",
+        "Applications must be submitted one month prior to expiry for renewal.",
+      ],
+    },
+  },
+  "housing-finance-company-registration": {
+    overview: {
+      heading: "Housing Finance Company Registration in India",
+      paragraphs: [
+        "A Housing Finance Company (HFC) is a type of Non-Banking Financial Company (NBFC) focused on providing housing finance for construction, acquisition, or improvement of residential properties. It must be registered with the National Housing Bank (NHB), the apex authority governing housing finance institutions in India.",
+        "The NHB was established under the NHB Act, 1987 and is responsible for regulating, licensing, and supervising HFCs. Any company intending to engage in housing finance activities must obtain a Certificate of Registration (COR) from NHB before commencing operations.",
+        "DoStartup offers expert guidance and complete assistance in registering an HFC with NHB, ensuring compliance with all legal, financial, and operational prerequisites.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Affordable Housing Loans",
+        description:
+          "Offer housing finance to individuals at competitive interest rates.",
+      },
+      {
+        title: "Corporate Housing Development",
+        description:
+          "Support housing initiatives for companies and employee accommodation.",
+      },
+      {
+        title: "Rural and Urban Redevelopment",
+        description:
+          "Finance rural housing and slum redevelopment projects for sustainable growth.",
+      },
+      {
+        title: "Government Collaboration",
+        description:
+          "Participate in public-private partnership models for affordable housing.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Download Application Form",
+          desc: "Download the HFC registration form from the official NHB website.",
+        },
+        {
+          title: "Step 2: Document Preparation",
+          desc: "Compile all required documents including MOA, AOA, financials, board resolution, and business plan.",
+        },
+        {
+          title: "Step 3: Submit to NHB",
+          desc: "Submit the completed form, documents, and ₹10,000 DD to NHB's Head Office.",
+        },
+        {
+          title: "Step 4: Verification Process",
+          desc: "NHB will verify compliance with capital, object clause, and public interest norms.",
+        },
+        {
+          title: "Step 5: Certificate of Registration",
+          desc: "Once approved, the NHB issues a Certificate of Registration to operate as an HFC.",
+        },
+      ],
+      violations: [
+        "Failure to maintain minimum Net Owned Fund (NOF) of ₹20 Crores.",
+        "Non-compliance with NHB guidelines or reporting formats.",
+        "Failure to commence operations post-COR issuance.",
+        "Submission of incorrect or incomplete financial documents.",
+        "Deposit-taking in violation of NHB directives.",
+      ],
+      consequences: [
+        "Revocation or suspension of Certificate of Registration (COR).",
+        "Fines and penalties under the NHB Act, 1987.",
+        "Ineligibility for future financial services or regulatory licenses.",
+        "Reputational damage and legal consequences.",
+      ],
+    },
+    eligibility: [
+      {
+        heading:
+          "Eligibility Criteria for Housing Finance Company Registration",
+        items: [
+          "The applicant must be registered as a company under the Companies Act, 2013 or 1956.",
+          "Must be registered as an NBFC with the RBI.",
+          "Should have a minimum Net Owned Fund (NOF) of ₹20 Crores.",
+          "The MOA should state housing finance as the primary business objective.",
+          "Must operate in the public interest and have ethical practices.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Complete HFC Registration Assistance",
+        desc: "From eligibility verification, document preparation, and NHB filing to post-registration compliance, DoStartup offers end-to-end support for Housing Finance Company setup.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a Housing Finance Company?",
+        answer:
+          "A Housing Finance Company (HFC) is a non-banking financial institution that provides loans for the purchase, construction, or renovation of residential properties. It is regulated by the National Housing Bank (NHB).",
+      },
+      {
+        question: "Is a Housing Finance Company considered an NBFC?",
+        answer:
+          "Yes, an HFC is a type of NBFC, but it must be registered separately with NHB. It may be exempted from RBI registration under certain conditions as per the RBI Act.",
+      },
+      {
+        question: "Who regulates HFCs in India?",
+        answer:
+          "Housing Finance Companies are regulated by the National Housing Bank (NHB), while RBI oversees broader NBFC guidelines. Coordination among NHB, RBI, and MCA ensures sectoral regulation.",
+      },
+      {
+        question: "What documents are required for HFC registration?",
+        answer:
+          "MOA, AOA, ₹10,000 demand draft, board resolution, NOF compliance certificate, director profiles, business plan, and audited financials of the last 3 years.",
+      },
+      {
+        question: "What is the minimum capital required to register an HFC?",
+        answer:
+          "A minimum Net Owned Fund (NOF) of ₹20 Crores is mandatory for obtaining a Certificate of Registration from NHB.",
+      },
+      {
+        question: "Can a company apply for a housing loan?",
+        answer:
+          "Yes, companies are eligible for housing loans depending on their creditworthiness and compliance with lender norms.",
+      },
+      {
+        question: "Can HFC registration be cancelled?",
+        answer:
+          "Yes. NHB can cancel the registration if the HFC fails to maintain accounts, violates deposit norms, or doesn't comply with NHB inspections or filing obligations.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [],
+    },
+  },
+  "nbfc-account-aggregator-license": {
+    overview: {
+      heading: "NBFC Account Aggregator License in India",
+      paragraphs: [
+        "An NBFC Account Aggregator (NBFC AA) is a specialized non-banking financial company authorized by the Reserve Bank of India (RBI) to securely collect and share financial data between Financial Information Providers (FIPs) and Financial Information Users (FIUs) with customer consent.",
+        "NBFC AAs act as consent brokers, helping individuals and businesses aggregate their financial information from multiple sources in a secure, encrypted, and standardized format. They are crucial to India's evolving digital financial infrastructure, operating under RBI's Account Aggregator Directions, 2016.",
+        "DoStartup provides complete assistance for obtaining the NBFC Account Aggregator license, including consultation, documentation, and regulatory compliance management.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Improved Credit Access",
+        description:
+          "NBFC AAs allow users with limited credit history to access better financial services by aggregating their financial data.",
+      },
+      {
+        title: "Cost-Efficient Data Sharing",
+        description:
+          "Streamline the collection and transfer of financial data at lower operational costs.",
+      },
+      {
+        title: "Regulatory Compliance",
+        description:
+          "Ensure full adherence to RBI norms for data privacy, protection, and consent-based sharing.",
+      },
+      {
+        title: "Operational Risk Management",
+        description:
+          "Minimize operational and data-handling risks through secure infrastructure.",
+      },
+      {
+        title: "Encrypted IT Infrastructure",
+        description:
+          "Facilitate real-time, end-to-end encrypted data aggregation between FIPs and FIUs.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Application Filing",
+          desc: "Submit an online application to the RBI using the prescribed format (Annexure A).",
+        },
+        {
+          title: "Step 2: Document Submission",
+          desc: "Attach required documents such as net worth statements, business plans, and fit and proper declarations.",
+        },
+        {
+          title: "Step 3: RBI Due Diligence",
+          desc: "RBI conducts verification and compliance checks based on NBFC-AA Master Directions.",
+        },
+        {
+          title: "Step 4: In-Principle Approval",
+          desc: "RBI may grant an in-principle approval valid for 12 months upon satisfactory verification.",
+        },
+        {
+          title: "Step 5: Final License Issuance",
+          desc: "After meeting all conditions, RBI issues the Certificate of Registration (CoR) to operate as NBFC AA.",
+        },
+      ],
+      violations: [
+        "Failure to meet the minimum Net Owned Fund (₹2 Cr) requirement.",
+        "Sharing financial information without user consent.",
+        "Operating businesses other than account aggregation.",
+        "Accessing user credentials or using unauthorized third-party services.",
+        "Non-submission of audit reports or failure to implement grievance redressal mechanisms.",
+      ],
+      consequences: [
+        "Suspension or cancellation of NBFC AA license by the RBI.",
+        "Monetary penalties and regulatory action under RBI Directions, 2016.",
+        "Legal proceedings for breach of data privacy or customer rights.",
+        "Public trust loss and restricted access to AA framework.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for NBFC Account Aggregator License",
+        items: [
+          "Must be a company registered under the Companies Act, 2013.",
+          "Minimum Net Owned Fund (NOF) of ₹2 Crores.",
+          "Company name must include 'AA' indicating Account Aggregator activity.",
+          "Directors and promoters must meet RBI's 'fit and proper' criteria.",
+          "Detailed business plan outlining IT infrastructure, data policies, and risk controls.",
+          "Covenant Deed signed by directors/CEO/MD in accordance with RBI guidelines.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "End-to-End NBFC AA License Assistance",
+        desc: "We offer a comprehensive package that includes RBI consultation, application filing, document preparation, business planning, and post-approval compliance management.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is an NBFC Account Aggregator?",
+        answer:
+          "An NBFC Account Aggregator is a type of NBFC regulated by the RBI that collects, manages, and shares financial data securely with the user's consent, helping institutions and individuals better manage their financial profiles.",
+      },
+      {
+        question: "Who is eligible for an NBFC AA license?",
+        answer:
+          "Fintech companies, banks, NBFCs, investment platforms, insurance firms, loan providers, and credit rating agencies meeting the regulatory requirements can apply for an NBFC AA license.",
+      },
+      {
+        question:
+          "What is the capital requirement for an NBFC Account Aggregator license?",
+        answer:
+          "Applicants must have a minimum Net Owned Fund of ₹2 Crores as prescribed by the RBI.",
+      },
+      {
+        question: "Is the service only for individuals?",
+        answer:
+          "No, NBFC Account Aggregators serve both individuals and entities, including companies and small businesses registered under the Companies Act.",
+      },
+      {
+        question: "What documents are required for registration?",
+        answer:
+          "Key documents include Certificate of Incorporation, KYC details, net worth certificates, audited financials, banker's report, fit and proper declarations, and business plan.",
+      },
+      {
+        question: "What is the role of FIP and FIU in this framework?",
+        answer:
+          "FIPs (Financial Information Providers) hold data (like banks, NBFCs), while FIUs (Financial Information Users) use data (like lenders, regulators) via consented access provided by AAs.",
+      },
+      {
+        question: "What kind of data is included under financial information?",
+        answer:
+          "Data includes bank deposits, mutual funds, insurance, bonds, equity shares, NPS, AIF, SIPs, GST returns, and more as per RBI directions.",
+      },
+      {
+        question: "Can NBFC AAs engage in other business activities?",
+        answer:
+          "No, NBFC AAs are strictly prohibited from performing any business other than account aggregation.",
+      },
+    ],
+    types: {
+      cards: [],
+      roleBenefits: [],
+      differenceTable: { columns: [], rows: [] },
+      timelineFees: [],
+    },
+  },
+  "prepaid-wallet-license": {
+    overview: {
+      heading: "Prepaid Wallet License (PPI License) in India",
+      paragraphs: [
+        "A Prepaid Payment Instrument (PPI) License, also known as a Prepaid Wallet License, is issued by the Reserve Bank of India (RBI) under the Payment and Settlement Systems Act, 2007. It allows businesses to operate digital wallets for making purchases, fund transfers, and remittances using preloaded funds.",
+        "PPIs include digital wallets, prepaid cards, and mobile apps like Paytm, PhonePe, etc. To ensure customer safety, regulatory compliance, and smooth operations, businesses must obtain RBI authorization before offering such services.",
+        "At DoStartup, we provide complete support—from documentation and filing to audit assistance—to help you launch your digital payment wallet with ease.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Regulatory Compliance",
+        description:
+          "Ensures the wallet system meets RBI's Payment and Settlement guidelines for secure operations.",
+      },
+      {
+        title: "Customer Trust & Credibility",
+        description:
+          "Increases user confidence with RBI-backed legitimacy and operational transparency.",
+      },
+      {
+        title: "Revenue Opportunities",
+        description:
+          "Enables income from transaction fees, top-ups, value-added services, and brand partnerships.",
+      },
+      {
+        title: "Scalable Business Network",
+        description:
+          "Allows partnerships with banks and fintechs for broader service offerings.",
+      },
+      {
+        title: "Cross-Border Flexibility",
+        description:
+          "Supports limited foreign transactions under FEMA guidelines (up to ₹5,000).",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Application Submission",
+          desc: "File an application with required documents and fees under Regulation 3(2) of the Payment and Settlement Systems Regulations, 2008.",
+        },
+        {
+          title: "Step 2: Screening by RBI",
+          desc: "RBI evaluates the application for eligibility, infrastructure, cybersecurity readiness, and service capabilities.",
+        },
+        {
+          title: "Step 3: In-Principle Approval",
+          desc: "RBI may grant a 6-month in-principle approval. Extensions of another 6 months are possible upon request.",
+        },
+        {
+          title: "Step 4: Submit System Audit Report",
+          desc: "Applicants must submit a satisfactory SAR and audit report within the validity period.",
+        },
+        {
+          title: "Step 5: Final License Issuance",
+          desc: "On meeting all conditions, RBI issues the final license, authorizing prepaid wallet operations.",
+        },
+      ],
+      violations: [
+        "Failure to meet the net worth requirement of ₹15 crores.",
+        "Operating without RBI authorization.",
+        "Issuing wallets not aligned with MOA objectives.",
+        "Non-submission of audit or SAR within the approval period.",
+        "Security breaches in wallet operations.",
+      ],
+      consequences: [
+        "Revocation of license by RBI.",
+        "Financial penalties and compliance orders.",
+        "Reputational damage and operational suspension.",
+        "Legal proceedings under the Payment and Settlement Systems Act, 2007.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Prepaid Wallet License",
+        items: [
+          "Entity must be a company registered under the Companies Act, 2013.",
+          "The MOA must clearly include the objective to issue PPIs.",
+          "Minimum net worth of ₹15 crores is mandatory.",
+          "NBFCs and scheduled banks can issue mobile-based PPIs with RBI authorization.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "End-to-End PPI License Support",
+        desc: "We assist with documentation, project reports, regulatory filings, audit coordination, and compliance for launching your wallet business.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a Prepaid Payment Instrument (PPI)?",
+        answer:
+          "PPI is an RBI-authorized payment method allowing consumers to make purchases or transfer funds using preloaded amounts via wallets, cards, or mobile apps.",
+      },
+      {
+        question: "Who can apply for a PPI License?",
+        answer:
+          "Companies registered under the Companies Act, 2013 with a ₹15 crore net worth, as well as authorized NBFCs and scheduled banks.",
+      },
+      {
+        question: "What is the validity of the license?",
+        answer:
+          "The license is typically valid for 5 years, with periodic reviews and compliance evaluations by the RBI.",
+      },
+      {
+        question: "What is a closed wallet?",
+        answer:
+          "A closed wallet is used only for purchasing goods or services from the issuing entity and cannot be used at third-party merchants.",
+      },
+      {
+        question: "What is a semi-closed wallet?",
+        answer:
+          "Semi-closed wallets allow transactions at multiple merchants contracted with the issuer but prohibit cash withdrawal.",
+      },
+      {
+        question: "What is an open wallet?",
+        answer:
+          "Only banks can issue open wallets, which allow purchases, fund transfers, and cash withdrawals.",
+      },
+      {
+        question: "How do prepaid wallets generate income?",
+        answer:
+          "By charging merchants a transaction fee, earning interest on wallet balances, and partnering with brands for promotions.",
+      },
+      {
+        question: "What are the fees for PPI license?",
+        answer:
+          "The government license fee starts at ₹10,000. Consulting and compliance service charges are additional.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Closed PPI",
+          shortText:
+            "For use only with the issuing entity's products or services. RBI approval not required.",
+          backText: "Examples: Store gift cards, food vouchers.",
+        },
+        {
+          title: "Semi-Closed PPI",
+          shortText:
+            "Used at multiple merchant outlets under issuer agreements. RBI authorization is mandatory.",
+          backText: "Examples: Paytm Wallet, PhonePe.",
+        },
+        {
+          title: "Open PPI",
+          shortText:
+            "Issued only by banks. Allows full functionality including purchases, remittance, and cash withdrawal.",
+          backText: "Examples: Visa Prepaid Card, Mastercard Wallet.",
+        },
+      ],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: [],
+      },
+      timelineFees: [
+        "Typical application processing takes 6 months.",
+        "Government fees start from ₹10,000 depending on entity type.",
+        "The license is valid for 5 years subject to compliance and periodic review.",
+      ],
+    },
+  },
+  "p2p-lending-license": {
+    overview: {
+      heading: "Peer-to-Peer (P2P) Lending License in India",
+      paragraphs: [
+        "A Peer-to-Peer (P2P) Lending License is issued by the Reserve Bank of India (RBI) and allows companies to operate platforms that connect individual borrowers and lenders without traditional financial intermediaries. These platforms facilitate unsecured digital loans, fostering financial inclusion and innovation in the lending space.",
+        "With a P2P license, businesses can offer consumer, business, or property-based lending via a secure online interface. The license ensures transparency, legal compliance, and operational safety for users.",
+        "DoStartup offers expert assistance in filing, documentation, compliance, and IT readiness to help you launch a successful and RBI-compliant P2P lending platform.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Faster Loan Processing",
+        description:
+          "Enables quicker disbursal and approval without traditional banking delays.",
+      },
+      {
+        title: "Lower Interest Rates",
+        description:
+          "Borrowers often access credit at lower rates compared to banks.",
+      },
+      {
+        title: "Transparent Digital Ecosystem",
+        description:
+          "Both parties can view all terms, track transactions, and remain in full control.",
+      },
+      {
+        title: "Financial Inclusion",
+        description:
+          "Empowers underserved segments like MSMEs and individuals with limited banking access.",
+      },
+      {
+        title: "Increased Trust & Market Reputation",
+        description:
+          "Holding an RBI-approved license enhances credibility and user confidence.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: File Application",
+          desc: "Apply online via the RBI COSMOS portal or submit offline at RBI's Mumbai regional office.",
+        },
+        {
+          title: "Step 2: Submit Documents",
+          desc: "Send the required documents including business model, IT plan, and financials to the RBI.",
+        },
+        {
+          title: "Step 3: Receive In-Principle Approval",
+          desc: "Upon successful review, RBI issues a 12-month in-principle license.",
+        },
+        {
+          title: "Step 4: Setup Technology Platform",
+          desc: "Develop and launch your secure P2P tech infrastructure within 12 months.",
+        },
+        {
+          title: "Step 5: Obtain Final License",
+          desc: "After RBI's compliance review, the full P2P license is issued, allowing commercial operations.",
+        },
+      ],
+      violations: [
+        "Lending money from the platform's balance sheet.",
+        "Accepting public deposits or offering guarantees.",
+        "Failing to perform credit assessments and risk profiling.",
+        "Inadequate data protection policies or violation of user privacy.",
+        "Failure to disclose NPAs or provide mandatory transparency metrics.",
+      ],
+      consequences: [
+        "Cancellation of in-principle or final license by RBI.",
+        "Monetary penalties and legal liabilities.",
+        "Public listing of non-compliant entities.",
+        "Reputational harm and regulatory blacklisting.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for P2P Lending License",
+        items: [
+          "Must be a company registered under the Companies Act, 2013.",
+          "Net Owned Fund (NOF) of at least ₹2 crores.",
+          "Promoters and directors must be 'fit and proper' as per RBI norms.",
+          "Sound financial structure and viable business model.",
+          "Secure and scalable IT infrastructure.",
+          "Prior compliance if already operating in the P2P sector.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Complete P2P Licensing Support",
+        desc: "We help you prepare the application, submit documentation, build secure IT systems, and receive RBI approval for launching your P2P platform.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the validity of the P2P lending license?",
+        answer:
+          "The in-principle license is valid for 12 months. Final approval depends on compliance and platform setup within this period.",
+      },
+      {
+        question: "Is P2P lending legal in India?",
+        answer:
+          "Yes, it is regulated by the RBI under NBFC-P2P guidelines introduced in 2017.",
+      },
+      {
+        question: "What are the key benefits for borrowers?",
+        answer:
+          "Borrowers enjoy quick processing, flexible loan terms, and lower interest rates than traditional lenders.",
+      },
+      {
+        question: "How do P2P platforms earn revenue?",
+        answer:
+          "Through loan origination fees, subscription plans, transaction charges, and value-added services like credit scoring and financial tools.",
+      },
+      {
+        question: "What disclosures are mandatory?",
+        answer:
+          "Platforms must disclose credit assessments, borrower information, NPAs, grievance redressal processes, and data privacy policies.",
+      },
+      {
+        question: "Is cash allowed for lending transactions?",
+        answer:
+          "No. All P2P transactions must be digital and routed through approved channels for transparency and legal compliance.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Consumer Lending",
+          shortText:
+            "Loans for weddings, travel, education, or medical emergencies.",
+          backText:
+            "Offered to individuals seeking personal loans via digital platforms.",
+        },
+        {
+          title: "Small Business Lending",
+          shortText:
+            "Funding for MSMEs, working capital, or business expansion.",
+          backText:
+            "Ideal for startups and entrepreneurs needing capital support.",
+        },
+        {
+          title: "Commercial & Real Estate Lending",
+          shortText:
+            "Loans for residential/commercial projects, refinancing, or development.",
+          backText:
+            "Useful for real estate investors seeking alternative financing options.",
+        },
+      ],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: [],
+      },
+      timelineFees: [
+        "In-principle approval takes 3–6 months.",
+        "Final approval requires platform setup and audit within 12 months.",
+        "There are no fixed government fees, but RBI may charge processing fees.",
+        "Consultancy fees are additional based on scope of services offered.",
+      ],
+    },
+  },
+  "payment-bank-license": {
+    overview: {
+      heading: "Payment Bank License in India",
+      paragraphs: [
+        "Payment Banks are a special category of banks introduced by the Reserve Bank of India (RBI) in 2013 to drive financial inclusion by offering digital banking services like remittance, savings, and payments without lending or credit card issuance.",
+        "These banks serve the unbanked and underbanked populations, including migrant workers, low-income households, and small businesses, providing access to essential banking services in a cost-effective and secure manner.",
+        "DoStartup offers end-to-end guidance for obtaining a Payment Bank License — from company registration and compliance documentation to submission via the RBI's PRAVAAH portal and post-licensing support.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "Financial Inclusion",
+        description:
+          "Enable banking access for low-income groups, small businesses, and rural areas.",
+      },
+      {
+        title: "Zero Balance Accounts",
+        description:
+          "Offer savings accounts without requiring a minimum balance, often linked with mobile numbers.",
+      },
+      {
+        title: "Secure Digital Banking",
+        description:
+          "Provide safe and user-friendly banking via mobile, internet, and ATMs.",
+      },
+      {
+        title: "Regulatory Recognition",
+        description:
+          "Operate under RBI's regulatory framework, ensuring trust and compliance.",
+      },
+      {
+        title: "Agent Network Expansion",
+        description:
+          "Widen service reach through extensive agent or business correspondent networks.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Company Incorporation",
+          desc: "Register as a Public Limited Company under the Companies Act, 2013.",
+        },
+        {
+          title: "Step 2: File Form III",
+          desc: "Submit Form III (under Rule 11) with required documents to RBI.",
+        },
+        {
+          title: "Step 3: Evaluation by EAC",
+          desc: "RBI and the External Advisory Committee assess eligibility and business model.",
+        },
+        {
+          title: "Step 4: In-Principle Approval",
+          desc: "Receive in-principle approval valid for 18 months to establish infrastructure.",
+        },
+        {
+          title: "Step 5: Final License Grant",
+          desc: "After verifying compliance, RBI issues the Payment Bank license.",
+        },
+      ],
+      violations: [
+        "Engaging in lending or issuing credit cards.",
+        "Raising deposits beyond ₹2 lakh per customer.",
+        "Accepting cheque deposits or providing overdraft facilities.",
+        "Non-compliance with cybersecurity and KYC norms.",
+      ],
+      consequences: [
+        "License rejection or cancellation by RBI.",
+        "Penalties and legal action under banking laws.",
+        "Disqualification of directors/promoters from financial services.",
+        "Blacklist under RBI's regulatory list for non-compliance.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Payment Bank License",
+        items: [
+          "Registered as a Public Limited Company under the Companies Act, 2013.",
+          "Minimum paid-up equity capital of ₹100 crore.",
+          "40% promoter contribution locked in for at least 5 years.",
+          "Promoters must be 'fit and proper' with 5+ years of financial experience.",
+          "Maintain 15% Capital Adequacy Ratio (CAR), with 7.5% in Tier-I capital.",
+          "Clear plan for technology infrastructure and financial services delivery.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "Complete Payment Bank Licensing Support",
+        desc: "We handle everything from incorporation, compliance, and document drafting to filing with RBI via PRAVAAH portal.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who grants the Payment Bank License?",
+        answer:
+          "The Reserve Bank of India (RBI) under Section 22 of the Banking Regulation Act, 1949.",
+      },
+      {
+        question: "What is the capital requirement for a Payment Bank?",
+        answer:
+          "The minimum paid-up capital is ₹100 crore, with 40% promoter stake locked in for 5 years.",
+      },
+      {
+        question: "What are the permitted activities?",
+        answer:
+          "Accept deposits up to ₹2 lakh, issue debit cards, offer utility bill payments, remittance services, and act as business correspondents.",
+      },
+      {
+        question: "Are NRIs allowed to open accounts in Payment Banks?",
+        answer: "No, NRIs are not permitted to hold deposits in Payment Banks.",
+      },
+      {
+        question: "Is lending allowed under a Payment Bank License?",
+        answer:
+          "No, lending and issuance of credit cards are strictly prohibited.",
+      },
+      {
+        question: "What is the validity of in-principle approval?",
+        answer: "It is valid for 18 months from the date of issuance.",
+      },
+      {
+        question: "Are Payment Banks allowed to issue chequebooks?",
+        answer: "No, they are not permitted to issue chequebooks.",
+      },
+      {
+        question: "What is the project report requirement?",
+        answer:
+          "It must demonstrate financial viability, business objectives, and digital banking delivery model.",
+      },
+      {
+        question: "What is the role of the External Advisory Committee?",
+        answer:
+          "The EAC evaluates applicants' financial strength, promoter background, and operational plan before RBI approval.",
+      },
+      {
+        question: "Do I need legal assistance for this license?",
+        answer:
+          "Yes, legal experts help ensure compliance with RBI guidelines and proper documentation.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Remittance Services",
+          shortText:
+            "Domestic and cross-border personal remittance under FEMA.",
+          backText: "Useful for migrant workers and small remitters.",
+        },
+        {
+          title: "Savings Accounts",
+          shortText: "Provide zero balance savings and deposits up to ₹2 lakh.",
+          backText:
+            "Targeted at the underbanked population and small businesses.",
+        },
+        {
+          title: "Utility Payment & PPI",
+          shortText:
+            "Support bill payments, mobile recharge, and prepaid instruments.",
+          backText:
+            "Acts as a digital wallet alternative for small transactions.",
+        },
+      ],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: [],
+      },
+      timelineFees: [
+        "Processing usually takes 25–30 working days.",
+        "In-principle license is valid for 18 months for setup.",
+        "Final approval is based on compliance and infrastructure readiness.",
+        "Application is filed via RBI's PRAVAAH portal from May 1, 2025.",
+        "Government charges and consultancy fees vary based on scope of work.",
+      ],
+    },
+  },
+  "payment-gateway-license": {
+    overview: {
+      heading: "Payment Gateway License in India",
+      paragraphs: [
+        "A Payment Gateway License is issued by the Reserve Bank of India (RBI) under Section 5 of the Payment and Settlement Systems Act, 2007, allowing entities to securely transmit online transaction data between buyers, sellers, and financial institutions.",
+        "Payment gateways serve as digital intermediaries that ensure secure processing of payments for online purchases, supporting a broad array of services from card payments to mobile wallet integration.",
+        "DoStartup provides complete assistance in obtaining a Payment Gateway License — including documentation, RBI compliance, technical setup, and authorization — helping businesses expand their digital presence and accept secure online payments.",
+      ],
+      // "imageUrl": "/gst.jpg",
+      // "buttonText": ""
+    },
+    features: [],
+    benefits: [
+      {
+        title: "PCI-DSS Wallet Compliance",
+        description:
+          "Ensures data privacy and security for recurring payments in compliance with international security standards.",
+      },
+      {
+        title: "White-Label Wallet Support",
+        description:
+          "Allows integration of branded digital wallets within your own app or platform.",
+      },
+      {
+        title: "Fraud Detection Tools",
+        description:
+          "Integrates security measures like CVV, AVS, OTP, and AI-based fraud prevention systems.",
+      },
+      {
+        title: "Unified API Access",
+        description:
+          "Seamlessly connects with e-commerce platforms and other software via a single API.",
+      },
+      {
+        title: "International Payment Acceptance",
+        description:
+          "Facilitates cross-border transactions, enabling global business expansion.",
+      },
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Step 1: Submit Application",
+          desc: "Submit Form A to RBI's Department of Payment & Settlement Systems along with required documents.",
+        },
+        {
+          title: "Step 2: RBI Authentication",
+          desc: "RBI verifies business credentials, documents, and compliance requirements.",
+        },
+        {
+          title: "Step 3: Compliance Review",
+          desc: "RBI reviews applicant's conformity with Section 7 of the PSS Act, 2007.",
+        },
+        {
+          title: "Step 4: Issuance of Authorization",
+          desc: "Upon satisfactory compliance, RBI grants the Payment Gateway Authorization Certificate (Form B).",
+        },
+        {
+          title: "Step 5: Processing Time",
+          desc: "RBI processes applications within 6 months from submission as per the PSS Act.",
+        },
+      ],
+      violations: [
+        "Operating a payment gateway without RBI authorization.",
+        "Non-compliance with PCI-DSS or data security standards.",
+        "Failure to disclose financials or code audit reports.",
+        "Delayed settlement or mishandling of merchant funds.",
+      ],
+      consequences: [
+        "License cancellation by RBI under Section 8 of the PSS Act.",
+        "Legal action or monetary penalties under Indian banking laws.",
+        "Merchant blacklisting and reputational damage.",
+        "Restricted access to banking partnerships or API integrations.",
+      ],
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Payment Gateway License",
+        items: [
+          "Must be a company incorporated under the Companies Act, 1956 or 2013.",
+          "Minimum of 2 directors and 2 shareholders.",
+          "Net worth of ₹15 crores, to be increased to ₹25 crores within 3 years.",
+          "Current account in the company's name.",
+          "Registered office address proof.",
+          "5-year business and financial plan.",
+          "Code testing report from a certified software agency.",
+          "Service Tax Registration and PCI-DSS compliance.",
+        ],
+      },
+    ],
+    services: [
+      {
+        title: "End-to-End Payment Gateway Licensing",
+        desc: "We handle RBI filings, PCI-DSS compliance, code testing reports, and documentation for seamless authorization.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who grants the Payment Gateway License in India?",
+        answer:
+          "The Reserve Bank of India (RBI) under Section 5 of the Payment and Settlement Systems (PSS) Act, 2007.",
+      },
+      {
+        question:
+          "What is the minimum capital required for a Payment Gateway License?",
+        answer:
+          "A net worth of ₹15 crores initially, to be increased to ₹25 crores within 3 years.",
+      },
+      {
+        question: "How long does it take to get a Payment Gateway License?",
+        answer:
+          "RBI processes applications within 6 months as per Section 7(4) of the PSS Act, 2007.",
+      },
+      {
+        question: "Is PCI-DSS compliance mandatory?",
+        answer:
+          "Yes, PCI-DSS compliance is required to ensure secure handling of payment card data.",
+      },
+      {
+        question: "Can a startup apply for a Payment Gateway License?",
+        answer:
+          "Yes, if it meets all RBI criteria including capital, documentation, and technical compliance.",
+      },
+      {
+        question: "What documents are required to apply?",
+        answer:
+          "CoI, PAN, DIN, DSC, address proof, current account details, business plan, code audit report, and KYC of directors.",
+      },
+      {
+        question: "What are second-party vs third-party gateway providers?",
+        answer:
+          "Second-party providers are banks; third-party providers are fintech companies offering gateway services to merchants.",
+      },
+      {
+        question: "Is international payment acceptance allowed?",
+        answer:
+          "Yes, authorized gateways can enable cross-border payments with proper compliance.",
+      },
+      {
+        question: "What is the role of Form A and Form B?",
+        answer:
+          "Form A is for application submission; Form B is the RBI-issued Authorization Certificate.",
+      },
+      {
+        question: "Do I need a merchant agreement?",
+        answer:
+          "Yes, a legal agreement with merchants is essential for transaction processing and settlement responsibilities.",
+      },
+    ],
+    types: {
+      cards: [
+        {
+          title: "Second-Party Payment Gateways",
+          shortText:
+            "Bank-operated gateways with low TDR but high fixed costs.",
+          backText: "Best for high-volume enterprise-level merchants.",
+        },
+        {
+          title: "Third-Party Payment Gateways",
+          shortText:
+            "Fintech or non-bank aggregators offering cost-effective digital payment infrastructure.",
+          backText: "Popular among startups, MSMEs, and online retailers.",
+        },
+      ],
+      roleBenefits: [],
+      differenceTable: {
+        columns: [],
+        rows: [],
+      },
+      timelineFees: [
+        "Net worth requirement: ₹15 crores (to be increased to ₹25 crores in 3 years).",
+        "Application is filed via Form A to RBI's Payment & Settlement Systems Department.",
+        "Authorization is granted within 6 months as per Section 7(4) of the PSS Act.",
+        "PCI-DSS certification and code audit are mandatory before operations begin.",
+        "Legal, consultancy, and audit fees depend on company scale and complexity.",
+      ],
+    },
+  },
 };

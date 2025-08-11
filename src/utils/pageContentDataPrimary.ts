@@ -146,6 +146,46 @@ export type duplicate = {
   content: string[];
 };
 
+export type coreTasks = {
+  title?: string;
+  description?: string;
+};
+export type EngagementModelsSection = {
+  heading?: string;
+  content?: EngagementModel[];
+};
+export type EngagementModel = {
+  fractional?: string;
+  full_time?: string;
+  model?: string;
+  bestFor?: string;
+  scope?: string;
+};
+export type WhenToOutsource = {
+  heading?: string;
+  content?: string;
+};
+export type DeliveryService = {
+  serviceLayer: string;
+  deliverables: string;
+  tools: string;
+};
+
+export type HowWeDeliver = {
+  heading?: string;
+  content?: DeliveryService[];
+};
+export type ComparisonItem = {
+  aspect?: string;
+  bookkeeping?: string;
+  accounting?: string;
+};
+
+export type ComparisonTable = {
+  heading?: string;
+  table?: ComparisonItem[];
+};
+
 export type PageContentType = {
   title: string;
   description: string;
@@ -186,7 +226,13 @@ export type PageContentType = {
   eligibilityCriteria?: { heading: string; content: string }[];
   informationRequired?: { heading: string; content: string }[];
   applicationProcedure?: { heading: string; content: string }[];
+  coreTasks?: coreTasks[];
+  engagementModels?: EngagementModelsSection[];
+  whenToOutsource?: WhenToOutsource[];
+  howWeDeliver?: HowWeDeliver[];
+  comparison?: ComparisonTable[];
 };
+
 export const pageContent: Record<string, PageContentType> = {
   "eating-house-license": {
     title: "Eating House License Registration",
@@ -33741,6 +33787,5441 @@ Do Startup Assistance Process:
         question: "How do I get started with DoStartup.in?",
         answer:
           "Book a free call or fill out the contact form—our experts will guide you step-by-step!",
+      },
+    ],
+  },
+
+  "civil-law-overview": {
+    title: "Civil Law in India",
+    description:
+      "Understand how civil law governs private legal disputes and protects individual rights in India.",
+    overview: [
+      {
+        heading: "Civil Law - An Overview",
+        content: `Civil law, derived from the Latin term 'jus civile', governs legal rights and obligations between private individuals or entities. 
+                  Unlike criminal law, it addresses non-criminal disputes and is largely codified, offering structured remedies for resolving issues like contracts, property, and family matters.`,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Features of Civil Law",
+        content: `- Regulates private rights and relationships
+      - Codified structure ensures clarity and uniformity
+      - Provides remedies such as compensation and injunctions
+      - Imposes civil liability rather than punishment
+      - Jurisdiction-based variations in laws`,
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Common Documents in Civil Cases",
+        content: `- Identity and address proof
+      - Contracts, agreements, or legal notices
+      - Ownership or title documents
+      - Financial records or invoices
+      - Affidavits or statements`,
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Civil Litigation Process",
+        content: `- Hire a qualified civil lawyer
+      - Draft and file plaint/petition
+      - Court issues summons to the opposite party
+      - Submission of written statements
+      - Evidence presentation and arguments
+      - Final judgment and remedy`,
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Court Fee Structure in Civil Cases",
+        description:
+          "Fees are determined based on the subject matter and monetary value of the dispute.",
+        feeTable: [
+          {
+            category: "Disputes under ₹3 lakhs",
+            amount: "Typically 1%-3% of claim value",
+          },
+          {
+            category: "Disputes ₹3 lakhs – ₹20 lakhs",
+            amount: "₹1,000 – ₹10,000 depending on state rules",
+          },
+          {
+            category: "Above ₹20 lakhs",
+            amount: "₹10,000+ as per High Court or Supreme Court rules",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Resolving Civil Disputes",
+        description:
+          "Civil case timelines vary depending on complexity, jurisdiction, and court backlog. Here’s an estimated breakdown:",
+        steps: [
+          {
+            title: "1. Initial Consultation and Document Collection",
+            duration: "1 Week",
+            description:
+              "Gather all relevant legal documents and consult with a civil lawyer to assess the case.",
+          },
+          {
+            title: "2. Filing of Case",
+            duration: "Up to 1 Week",
+            description:
+              "Draft and file the plaint or petition with the appropriate civil court along with the applicable court fee.",
+          },
+          {
+            title: "3. Court Admission and Summons",
+            duration: "2–3 Weeks",
+            description:
+              "The court admits the case and issues summons to the defendant to appear and respond.",
+          },
+          {
+            title: "4. Evidence & Hearings",
+            duration: "3–6 Months",
+            description:
+              "Both parties present evidence and witnesses. Cross-examinations and arguments follow.",
+          },
+          {
+            title: "5. Final Judgment and Relief",
+            duration: "1–2 Months",
+            description:
+              "Court issues a decision and grants relief, which could be compensation, specific performance, or an injunction.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Civil Law Matters",
+        description: [
+          "We offer reliable legal support across all types of civil matters.",
+        ],
+        points: [
+          "Expert legal consultation",
+          "Transparent and affordable pricing",
+          "Dedicated support for court proceedings",
+          "High success rate in litigation",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is India a civil law country?",
+        answer:
+          "No, India follows the common law system, primarily based on judicial precedents and case laws.",
+      },
+      {
+        question: "What is the Civil Code?",
+        answer:
+          "A Civil Code is a comprehensive set of laws governing civil rights and obligations in areas like property, family, and contracts.",
+      },
+      {
+        question: "Is defamation a civil or criminal wrong in India?",
+        answer:
+          "Defamation can be both. Civil defamation allows monetary compensation under tort law, while criminal defamation is covered under IPC Sections 499 and 500.",
+      },
+      {
+        question: "How can a civil lawyer assist in litigation?",
+        answer:
+          "A civil lawyer provides legal advice, prepares and files necessary documents, represents clients in court, and helps secure remedies like compensation or injunctions.",
+      },
+      {
+        question: "What is a temporary injunction?",
+        answer:
+          "It’s an interim court order that prevents a party from doing something until the final decision is made. It’s governed under Order 39 of the Civil Procedure Code.",
+      },
+      {
+        question: "What is a permanent injunction?",
+        answer:
+          "A permanent injunction is granted after case resolution, permanently prohibiting a party from specific acts to protect legal rights.",
+      },
+      {
+        question: "What types of matters fall under civil law?",
+        answer:
+          "Civil law includes disputes related to property, marriage, contracts, tenancy, defamation, and more.",
+      },
+      {
+        question: "Is family law part of civil law?",
+        answer:
+          "Yes, family law is a key branch of civil law, covering divorce, custody, adoption, and maintenance.",
+      },
+      {
+        question: "Is there any punishment in civil law?",
+        answer:
+          "Civil law doesn’t impose imprisonment. It provides remedies like compensation, specific performance, or injunctions to resolve disputes.",
+      },
+    ],
+  },
+  "quashing-of-fir": {
+    title: "Quashing of FIR",
+    description:
+      "Get expert legal assistance in filing petitions for quashing false or baseless FIRs under Section 482 CrPC.",
+    overview: [
+      {
+        heading: "Overview of Quashing of FIR",
+        content: `Indian laws are structured to safeguard the rights of individuals and ensure fair justice. However, legal remedies are sometimes misused to harass innocent people. To counter such misuse, the law permits quashing of FIRs under Section 482 of the CrPC. The High Court can quash an FIR if it's proven false, frivolous, or malicious, ensuring justice prevails.`,
+      },
+    ],
+    benefits: [
+      {
+        heading: "When Can an FIR Be Quashed?",
+        content: `- When the FIR lacks substance or evidence\n- If allegations are vague or malicious\n- If statutory bar prevents prosecution\n- When the parties reach a legal settlement\n- To prevent misuse of judicial process`,
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for FIR Quashing",
+        content: `- Certified copy of the FIR\n- Typed set of supporting documents\n- Memo of appearance by advocate\n- Proof of compromise (if applicable)\n- Identity proofs of petitioner and complainant\n- Appropriate court fee and petition affidavit`,
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to File a Petition for FIR Quashing",
+        content: `- Consult a legal expert to draft the petition\n- Include FIR details, allegations, and grounds for quashing\n- Submit petition under Section 482 CrPC to the relevant High Court\n- Attend court hearings and provide supporting documents\n- Await High Court’s judgment`,
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure for FIR Quashing Petition",
+        description:
+          "The cost of quashing an FIR varies based on complexity and jurisdiction. Below is a general estimate:",
+        feeTable: [
+          {
+            category: "Simple compromise-based quashing",
+            amount: "₹15,000 – ₹25,000",
+          },
+          {
+            category: "Disputed matters or serious allegations",
+            amount: "₹30,000 – ₹60,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Quash an FIR",
+        description:
+          "The time taken to quash an FIR depends on the nature of the case and the court’s schedule. Here's a general timeline:",
+        steps: [
+          {
+            title: "1. Consultation and Drafting",
+            duration: "3–7 Days",
+            description:
+              "Collect case details, documents, and draft a petition with expert legal help.",
+          },
+          {
+            title: "2. Filing Petition in High Court",
+            duration: "2–5 Days",
+            description:
+              "File the Section 482 CrPC petition with supporting documents in the appropriate High Court.",
+          },
+          {
+            title: "3. Court Hearings & Reply",
+            duration: "2–4 Hearings",
+            description:
+              "Court issues notice to the opposite party and listens to arguments before passing judgment.",
+          },
+          {
+            title: "4. Final Judgment",
+            duration: "1–2 Weeks after last hearing",
+            description:
+              "If convinced, the High Court passes an order to quash the FIR and end the proceedings.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for FIR Quashing?",
+        description: [
+          "Our team ensures expert handling of your FIR quashing case from start to finish.",
+        ],
+        points: [
+          "High success rate in FIR quashing",
+          "Experienced criminal law advocates",
+          "Fast drafting and filing",
+          "Pan-India High Court support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are the conditions under which an FIR can be quashed?",
+        answer:
+          "FIR can be quashed if it lacks specific allegations, has no evidence, or is filed with malicious intent. Compromise between parties in non-heinous offences is also a valid ground.",
+      },
+      {
+        question: "How much time does it take to quash an FIR?",
+        answer:
+          "Typically, FIR quashing takes 10 days to 3 months depending on case complexity and number of hearings.",
+      },
+      {
+        question: "Which FIRs are not eligible for quashing?",
+        answer:
+          "FIRs involving serious or heinous offences like murder, rape, terrorism, etc., generally cannot be quashed under compromise or Section 482 CrPC.",
+      },
+      {
+        question: "Can a quashed case be reopened?",
+        answer:
+          "A quashed case can be reopened only if new and substantial evidence is found. It's legally rare and subject to strict scrutiny.",
+      },
+      {
+        question: "Is quashing an FIR a simple process?",
+        answer:
+          "With proper legal drafting and a valid reason like mutual compromise or lack of merit, the process can be straightforward. Legal assistance makes it easier.",
+      },
+      {
+        question: "Can a victim apply for FIR quashing?",
+        answer:
+          "Yes, a victim wrongly named in a false FIR can approach the High Court under Article 226 or Section 482 CrPC to seek justice.",
+      },
+      {
+        question:
+          "What happens if the High Court rejects the quashing petition?",
+        answer:
+          "The police must proceed with investigation and submit a chargesheet. The case continues through trial unless resolved otherwise.",
+      },
+      {
+        question: "Can an FIR be quashed without a mutual compromise?",
+        answer:
+          "Yes, but only if the FIR is false, lacks ingredients of an offence, or violates statutory/legal principles. Serious offences usually require court scrutiny.",
+      },
+      {
+        question: "Can an FIR be quashed after conviction?",
+        answer:
+          "Yes, in non-heinous cases where the parties settle and an appeal is filed, the court may quash even after conviction.",
+      },
+      {
+        question: "Can matrimonial FIRs be quashed?",
+        answer:
+          "Yes, matrimonial FIRs (like 498A, 406 IPC) are frequently quashed when the couple reconciles or reaches a mutual settlement.",
+      },
+      {
+        question: "What powers does the High Court have for FIR quashing?",
+        answer:
+          "Under Section 482 CrPC, the High Court can quash any FIR to prevent misuse of legal process or ensure justice.",
+      },
+      {
+        question: "Which court has the authority to quash an FIR?",
+        answer:
+          "Only the respective High Court (based on FIR jurisdiction) has the power to quash it under CrPC Section 482.",
+      },
+      {
+        question: "What types of offences cannot be quashed?",
+        answer:
+          "Offences like rape, murder, terrorism, and other crimes against society are rarely quashed, even if there's a compromise.",
+      },
+      {
+        question: "How can DoStartup help in FIR quashing?",
+        answer:
+          "We assist with drafting petitions, collecting required documents, legal representation, and fast-tracking your application for FIR quashing.",
+      },
+    ],
+  },
+  "asset-purchase-agreement": {
+    title: "Asset Purchase Agreement",
+    description:
+      "Get expert assistance from DoStartup for legally compliant and customized Asset Purchase Agreements.",
+    overview: [
+      {
+        heading: "Overview of Asset Purchase Agreement",
+        content:
+          "An Asset Purchase Agreement (APA) is a legally binding contract between a buyer and a seller for the sale and transfer of specific assets. It outlines terms under which the buyer pays a specified consideration and receives ownership of selected assets upon completion of the agreed conditions.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Advantages of an Asset Purchase Agreement",
+        content:
+          "- Buyer’s Freedom of Choice: Select only needed assets\n- Seller’s Pricing Control: Individually price each asset",
+      },
+      {
+        heading: "Disadvantages of an Asset Purchase Agreement",
+        content:
+          "- High Tax Burden on Seller\n- Need to Renegotiate Employment Terms",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for an Asset Purchase Agreement",
+        content:
+          "- Passport-sized photographs of both parties\n- Aadhaar and PAN cards\n- Utility bill and address proof\n- Any documents relevant to the deal\n- Final agreed terms and conditions",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Key Elements of an Asset Purchase Agreement",
+        content:
+          "- Sale and transfer of specified assets\n- Purchase price and payment method\n- Representations and warranties\n- Conditions precedent and pre-closing conduct\n- Closing obligations and documentation\n- Post-closing obligations and non-compete clauses\n- Indemnification terms\n- Termination conditions\n- Miscellaneous clauses including governing law and dispute resolution",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure for Asset Purchase Agreement Drafting",
+        description:
+          "Cost depends on asset complexity and legal clauses involved.",
+        feeTable: [
+          {
+            category: "Standard APA Drafting",
+            amount: "₹10,000 – ₹20,000",
+          },
+          {
+            category: "Customized APA with Legal Negotiations",
+            amount: "₹25,000 – ₹50,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Asset Purchase Agreement Execution",
+        description:
+          "APA execution involves preparation, negotiation, and finalization. General timeframe:",
+        steps: [
+          {
+            title: "1. Consultation and Drafting",
+            duration: "3–5 Days",
+            description:
+              "Drafting the agreement based on asset type and transaction structure.",
+          },
+          {
+            title: "2. Negotiation and Review",
+            duration: "5–7 Days",
+            description:
+              "Discussing terms, reviewing clauses, and making necessary changes.",
+          },
+          {
+            title: "3. Signing and Execution",
+            duration: "1–2 Days",
+            description:
+              "Final signing of the agreement and initiation of the asset transfer.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Your APA?",
+        description: [
+          "We offer end-to-end legal support for your asset purchase transactions.",
+        ],
+        points: [
+          "Legally robust documentation",
+          "Custom clauses and negotiation",
+          "Quick turnaround",
+          "Expert business law professionals",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is an asset transfer?",
+        answer:
+          "An asset transfer is when ownership of a specific asset is transferred from a seller to a buyer. It can be done individually or under an agreement like an APA.",
+      },
+      {
+        question:
+          "What is the difference between acquiring stock and acquiring assets?",
+        answer:
+          "In a stock acquisition, the buyer acquires the entire company. In an asset acquisition, only selected assets and associated liabilities are transferred.",
+      },
+      {
+        question: "Is an asset transfer agreement legally binding?",
+        answer:
+          "Yes, an APA is a legally binding contract, enforceable under Indian contract laws.",
+      },
+      {
+        question:
+          "How is the purchase of an asset recorded in accounting books?",
+        answer:
+          "The fixed asset account is debited and the payment source is credited by the asset’s purchase value.",
+      },
+      {
+        question: "What are the key clauses in an asset purchase agreement?",
+        answer:
+          "Key clauses include purchase price, representations and warranties, non-compete, indemnity, dispute resolution, and termination conditions.",
+      },
+      {
+        question: "How long does it take to complete an asset transfer?",
+        answer:
+          "Generally 2–3 weeks depending on the asset’s type, conditions, and agreement complexity.",
+      },
+      {
+        question:
+          "Does the purchase of a fixed asset impact the income statement?",
+        answer:
+          "No, it affects the balance sheet. Depreciation of the asset may impact future income statements.",
+      },
+      {
+        question: "Why is an earn-out clause important in an APA?",
+        answer:
+          "It provides additional compensation to the seller based on the asset’s future performance.",
+      },
+      {
+        question: "What is an Asset Purchase Agreement?",
+        answer:
+          "An APA is a legal contract that outlines the sale of specific business assets from a seller to a buyer under agreed conditions.",
+      },
+      {
+        question: "When should an Asset Purchase Agreement be used?",
+        answer:
+          "When parties wish to transfer selected assets instead of the whole business or company.",
+      },
+      {
+        question: "Which assets cannot be sold independently?",
+        answer:
+          "Goodwill often cannot be sold separately from the business. Other assets like licenses, patents can be sold individually.",
+      },
+      {
+        question: "What types of assets can be transferred under an APA?",
+        answer:
+          "Commonly transferred assets include plant and machinery, inventory, contracts, premises, technical know-how, and goodwill.",
+      },
+    ],
+  },
+  "writ-petition": {
+    title: "Writ Petition",
+    description:
+      "Safeguard your fundamental rights by filing a Writ Petition with expert legal assistance from DoStartup.",
+    overview: [
+      {
+        heading: "Overview of Writ Petition",
+        content:
+          "A writ is a formal written order issued by a court, usually the Supreme Court or a High Court, directing a lower court, public authority, or individual to act or refrain from acting in a certain way. Writ petitions help protect citizens’ rights and challenge unlawful actions or decisions. Article 32 of the Constitution empowers the Supreme Court, while Article 226 empowers the High Courts to issue writs.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why is it Necessary?",
+        content:
+          "- Ensures protection of fundamental rights\n- Offers judicial intervention for injustice\n- Serves as an alternative legal remedy for those falsely accused",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a Writ Petition",
+        content:
+          "- Identity proof\n- Passport-sized photograph\n- Detailed facts of the rights violation\n- Relevant supporting documents\n- Authorization if filing on behalf of someone else",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to File a Writ Petition",
+        content:
+          "- Consult a legal expert or firm like DoStartup\n- Share relevant facts and documents\n- Draft the writ petition including all necessary details\n- File the petition before the High Court or Supreme Court\n- The court schedules a hearing and notifies the opposing party\n- Upon review and hearing, the court grants relief if appropriate",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Fee Structure for Writ Petition Filing",
+        description:
+          "Legal fees may vary depending on court jurisdiction and case complexity.",
+        feeTable: [
+          {
+            category: "Drafting and Filing",
+            amount: "₹10,000 – ₹25,000",
+          },
+          {
+            category: "Representation in Hearings",
+            amount: "₹5,000 – ₹15,000 per hearing",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to File and Process a Writ Petition",
+        description:
+          "The timeline depends on court workload and case specifics. General estimate:",
+        steps: [
+          {
+            title: "1. Consultation & Drafting",
+            duration: "2–3 Days",
+            description:
+              "Initial legal consultation and preparation of the writ petition.",
+          },
+          {
+            title: "2. Filing the Petition",
+            duration: "1 Day",
+            description: "Filing the petition in the appropriate court.",
+          },
+          {
+            title: "3. Hearing & Court Orders",
+            duration: "1–3 Months",
+            description:
+              "Hearing dates are scheduled and judgment is passed depending on urgency and complexity.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Writ Petitions?",
+        description: [
+          "Our legal team ensures precision, speed, and compliance while protecting your constitutional rights.",
+        ],
+        points: [
+          "Expert constitutional lawyers",
+          "Transparent pricing",
+          "Prompt filing and tracking",
+          "Pan-India service",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who has the right to file a writ petition?",
+        answer:
+          "Any person whose legal or fundamental rights have been violated. Public-spirited individuals may also file PILs for collective rights.",
+      },
+      {
+        question: "What does the term 'writ' mean?",
+        answer:
+          "A writ is a formal legal order from a court directing action or inaction by an individual or authority.",
+      },
+      {
+        question: "Under which legal provisions do courts issue writs?",
+        answer:
+          "Article 32 (Supreme Court) and Article 226 (High Courts) of the Constitution of India empower courts to issue writs.",
+      },
+      {
+        question: "Against whom can a writ be issued?",
+        answer:
+          "Writs are generally issued against public authorities, judicial/quasi-judicial bodies, or persons performing public duties.",
+      },
+      {
+        question: "Can a writ be issued against a private individual?",
+        answer:
+          "Generally, no. However, in the case of habeas corpus or if a private party is performing public duties, writs may apply.",
+      },
+      {
+        question: "What is the limitation period for filing a writ petition?",
+        answer:
+          "There is no fixed limitation, but the petition should be filed within a reasonable time from when the cause arises.",
+      },
+      {
+        question:
+          "Can writ petitions override arbitration clauses in contracts?",
+        answer:
+          "In exceptional cases such as fundamental rights violations or lack of jurisdiction, writs may be entertained despite arbitration clauses.",
+      },
+      {
+        question:
+          "Can a writ petition be filed against an arbitrator’s decision?",
+        answer:
+          "Generally, no. However, in cases of malafide intent or procedural violations, courts may consider writs.",
+      },
+      {
+        question: "What is the difference between Articles 32 and 226?",
+        answer:
+          "Article 32 applies only for fundamental rights (Supreme Court), while Article 226 covers both fundamental and legal rights (High Court).",
+      },
+      {
+        question:
+          "What is the difference between Prohibition and Certiorari writs?",
+        answer:
+          "Prohibition prevents a lower court from acting outside its jurisdiction. Certiorari quashes decisions already made without jurisdiction.",
+      },
+      {
+        question: "What is the purpose of filing a writ petition?",
+        answer:
+          "To seek judicial remedy for the violation of legal or fundamental rights and ensure justice through constitutional means.",
+      },
+      {
+        question: "What is the significance of writ petitions?",
+        answer:
+          "They offer fast and effective relief for rights violations, helping uphold the rule of law and constitutional protections.",
+      },
+    ],
+  },
+  "domestic-violence": {
+    title: "Domestic Violence",
+    description:
+      "Legal protection and remedies for women facing abuse under the Domestic Violence Act, 2005. DoStartup provides expert assistance in filing and defending such cases.",
+    overview: [
+      {
+        heading: "Overview of Domestic Violence",
+        content:
+          "The Domestic Violence Act, 2005 was enacted to provide comprehensive legal protection to women suffering from domestic abuse. Earlier covered under Section 498-A IPC, the new Act expanded rights and remedies, including protection, residence, and maintenance for women living in domestic relationships facing physical, emotional, sexual, verbal, or financial abuse.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of the Domestic Violence Act",
+        content:
+          "- Protection for women in marriages and live-in relationships\n- Protection for children under 18 facing abuse\n- Covers multiple forms of abuse: physical, emotional, sexual, verbal, and financial\n- Right to residence, maintenance, and protection orders",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a Domestic Violence Complaint",
+        content:
+          "- Identity proof of complainant\n- Proof of relationship or residence\n- Medical or psychological reports (if applicable)\n- Audio, video, or documentary evidence\n- Witness details (if available)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Filing a Domestic Violence Complaint",
+        content:
+          "- Victim or witness approaches Protection Officer, Police Station, or Magistrate\n- Complaint must be acknowledged within 3 days\n- Court hearings scheduled within 2 days or a reasonable timeframe\n- Interim protection orders may be issued immediately\n- Final order passed within 60 days from first hearing",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Legal Fees for Domestic Violence Cases",
+        description:
+          "Costs vary depending on case complexity and legal services required.",
+        feeTable: [
+          {
+            category: "Consultation & Drafting",
+            amount: "₹5,000 – ₹15,000",
+          },
+          {
+            category: "Court Representation",
+            amount: "₹10,000 – ₹25,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Domestic Violence Proceedings",
+        description: "Estimated timeline based on procedural requirements:",
+        steps: [
+          {
+            title: "1. Consultation & Complaint Filing",
+            duration: "1–2 Days",
+            description:
+              "Initial meeting and document preparation with advocate or Protection Officer.",
+          },
+          {
+            title: "2. Court Hearing Scheduling",
+            duration: "Within 2–5 Days",
+            description:
+              "Court schedules a hearing upon receiving the complaint.",
+          },
+          {
+            title: "3. Final Order",
+            duration: "Up to 60 Days",
+            description:
+              "Court aims to resolve the matter within 60 days from the first hearing.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Domestic Violence Cases?",
+        description: [
+          "DoStartup’s experienced legal experts provide support, safety, and strategic legal action to protect victims’ rights under the Domestic Violence Act.",
+        ],
+        points: [
+          "Expert representation in Magistrate courts",
+          "Confidential consultation and support",
+          "Help with evidence collection and witness preparation",
+          "Protection and maintenance order filing",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is domestic violence?",
+        answer:
+          "Domestic violence includes physical, mental, sexual, emotional, verbal, and economic abuse inflicted by a male partner on a woman living in a domestic relationship.",
+      },
+      {
+        question: "Does filing a domestic violence case lead to divorce?",
+        answer:
+          "No, filing a domestic violence complaint does not automatically result in divorce. Legal separation or divorce must be filed separately.",
+      },
+      {
+        question:
+          "Is asking a wife to leave the matrimonial home considered domestic violence?",
+        answer:
+          "Yes, such action qualifies as domestic violence under the Act as it violates a woman's right to residence.",
+      },
+      {
+        question:
+          "Can a woman claim maintenance under the Domestic Violence Act?",
+        answer:
+          "Yes, women can claim maintenance as part of the relief sought under the Act.",
+      },
+      {
+        question:
+          "Is there a penalty for filing false domestic violence cases?",
+        answer:
+          "The Act does not prescribe penalties for false cases, but misuse can lead to legal consequences under other applicable laws.",
+      },
+      {
+        question: "Are a woman's residency rights protected under the Act?",
+        answer:
+          "Yes, Section 17 of the Act protects a woman’s right to reside in the shared household regardless of ownership or title.",
+      },
+      {
+        question: "Is the Act applicable to women in live-in relationships?",
+        answer:
+          "Yes, women in live-in relationships are covered under the Domestic Violence Act if the relationship qualifies as 'domestic' under the law.",
+      },
+      {
+        question: "What evidence is needed to prove domestic violence?",
+        answer:
+          "Documentary evidence, audio/video recordings, medical reports, and witness statements can be used to prove abuse.",
+      },
+      {
+        question: "Can men file domestic violence complaints under this Act?",
+        answer:
+          "No, the Act is specifically designed to protect women. However, men can seek other remedies under personal and criminal laws.",
+      },
+      {
+        question: "What can a man do if falsely accused?",
+        answer:
+          "He should seek legal advice and defend himself through counter complaints, evidence submission, or court representation.",
+      },
+      {
+        question: "What types of abuse are recognized under the Act?",
+        answer:
+          "The Act includes physical, emotional, sexual, economic, and verbal abuse.",
+      },
+      {
+        question: "Which law in India protects women from domestic violence?",
+        answer: "The Protection of Women from Domestic Violence Act, 2005.",
+      },
+    ],
+  },
+  defamation: {
+    title: "Defamation",
+    description:
+      "Legal action for protecting your reputation from false and malicious statements. DoStartup offers legal guidance in both civil and criminal defamation cases.",
+    overview: [
+      {
+        heading: "Overview of Defamation",
+        content:
+          "The Constitution of India guarantees the right to freedom of speech under Article 19(1)(a), but Article 19(2) allows reasonable restrictions in the interest of protecting individual reputation. Defamation laws provide remedies for those whose reputations are harmed through false, malicious, or damaging statements—either through a civil suit or criminal complaint under Sections 499 and 500 of the IPC.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why File a Defamation Case?",
+        content:
+          "- To restore personal or professional reputation\n- To receive compensation for loss or damage\n- To hold offenders accountable\n- To prevent further dissemination of false statements",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to File a Defamation Case",
+        content:
+          "- Identity proof of complainant\n- Evidence of the defamatory content (printed, published, spoken, or recorded)\n- Proof of harm caused (social, professional, emotional)\n- Witness list (if applicable)\n- Prior communications or notices (if any)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to File a Defamation Case",
+        content:
+          "- Step 1: Send a legal notice demanding apology, retraction, or compensation\n- Step 2: File either:\n   • Civil suit (Law of Torts – for monetary relief)\n   • Criminal complaint (IPC Sections 499 & 500 – for punishment)\n- Step 3: Appear before court; if admissible, summons will be issued to the accused\n- Step 4: Discovery, arguments, and evidence presentation\n- Step 5: Judgment: Compensation in civil cases, and/or imprisonment/fine in criminal cases",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Legal Fees for Defamation Cases",
+        description:
+          "Charges may vary depending on whether you pursue civil or criminal proceedings.",
+        feeTable: [
+          {
+            category: "Consultation and Legal Notice",
+            amount: "₹3,000 – ₹10,000",
+          },
+          {
+            category: "Civil Suit (Tort-based)",
+            amount: "₹10,000 – ₹25,000",
+          },
+          {
+            category: "Criminal Complaint (IPC 499/500)",
+            amount: "₹8,000 – ₹20,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Defamation Case Timeline",
+        description:
+          "The legal timeline depends on case complexity and court availability.",
+        steps: [
+          {
+            title: "1. Legal Notice & Consultation",
+            duration: "2–5 Days",
+            description: "Notify the accused and request remedial action.",
+          },
+          {
+            title: "2. Case Filing & Admission",
+            duration: "3–10 Days",
+            description:
+              "Petition filed and reviewed by the court for admissibility.",
+          },
+          {
+            title: "3. Hearings & Evidence",
+            duration: "2–6 Months",
+            description:
+              "Both parties present arguments, evidence, and witness statements.",
+          },
+          {
+            title: "4. Final Judgment",
+            duration: "6–12 Months",
+            description:
+              "Court may award compensation or pass criminal sentence.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Defamation Matters?",
+        description: [
+          "DoStartup ensures protection of your dignity through professional handling of defamation cases—both civil and criminal.",
+        ],
+        points: [
+          "Experienced civil and criminal advocates",
+          "Swift drafting of notices and court petitions",
+          "Detailed assessment of damage to reputation",
+          "Assistance with evidence collection and litigation strategy",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is defamation a civil or criminal offence in India?",
+        answer:
+          "Defamation is both a civil offence (under tort law) and a criminal offence (under Sections 499 and 500 of the Indian Penal Code).",
+      },
+      {
+        question: "What are the two types of defamation?",
+        answer:
+          "Libel – written or published defamation; Slander – spoken or gestural defamation.",
+      },
+      {
+        question: "What needs to be proven to establish defamation?",
+        answer:
+          "The statement must be false, published or communicated to others, and must cause harm to the complainant’s reputation.",
+      },
+      {
+        question: "Is defamation a bailable offence?",
+        answer:
+          "Yes, criminal defamation is a bailable and non-cognizable offence in India.",
+      },
+      {
+        question: "What are valid defences against defamation?",
+        answer:
+          "Truth in public interest, fair comment, and privileged communication are valid defences.",
+      },
+      {
+        question: "Is name-calling considered defamation?",
+        answer:
+          "Yes, if name-calling damages someone's reputation in the eyes of others, it may amount to defamation.",
+      },
+      {
+        question: "Can defamation happen without writing?",
+        answer:
+          "Yes. Spoken words, gestures, or even non-verbal communication that tarnish reputation can be considered slander.",
+      },
+      {
+        question: "What are examples of absolute and qualified privilege?",
+        answer:
+          "Statements made in Parliament or in court proceedings are protected by absolute privilege. Qualified privilege includes communications made in good faith like police reports or job references.",
+      },
+      {
+        question: "Can companies be defamed?",
+        answer:
+          "Yes, companies and organizations can be defamed if false statements affect their reputation or goodwill.",
+      },
+      {
+        question: "What happens if someone files a false defamation case?",
+        answer:
+          "If proven false, the accused may counter-sue for malicious prosecution or misuse of the judicial process.",
+      },
+      {
+        question: "Which laws govern defamation in India?",
+        answer:
+          "Civil defamation is governed under tort law. Criminal defamation is covered under Sections 499 and 500 of the Indian Penal Code.",
+      },
+    ],
+  },
+  legal_notice_non_payment: {
+    title: "Legal Notice for Non-Payment of Dues",
+    description:
+      "A formal legal communication demanding the repayment of unpaid dues before initiating court action. DoStartup offers expert drafting, delivery, and response services for legal notices.",
+    overview: [
+      {
+        heading: "Overview of Legal Notice for Non-Payment of Dues",
+        content:
+          "A legal notice is a formal intimation that a legal grievance exists due to non-payment of dues. It is sent to the defaulter as a final warning before initiating legal proceedings. This notice is often sufficient to prompt payment and avoid litigation. It can be sent by individuals or entities and must include key legal and factual details to be effective.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Send a Legal Notice for Recovery of Dues?",
+        content:
+          "- Avoids lengthy litigation\n- Serves as formal proof of attempted resolution\n- Often results in out-of-court settlements\n- Demonstrates legal seriousness of the claim",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required to Send a Legal Notice",
+        content:
+          "- Proof of transaction or loan\n- Affidavit or evidence of payment default\n- Written agreements (if any)\n- Communications such as emails or messages acknowledging the debt",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Issuing Legal Notice for Dues",
+        content:
+          "- Step 1: Drafting the legal notice by DoStartup’s legal team\n- Step 2: Review and approval by the client\n- Step 3: Dispatch via registered post or courier\n- Step 4: Retain copies for legal records\n- Step 5: Wait for a response within 15–30 days\n- Step 6: If no resolution, proceed to file a recovery suit",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Legal Fees for Issuing a Legal Notice",
+        description: "Fees vary based on case complexity and claim amount.",
+        feeTable: [
+          {
+            category: "Legal Notice Drafting",
+            amount: "₹1,500 – ₹4,000",
+          },
+          {
+            category: "Consultation Charges",
+            amount: "₹500 – ₹1,500",
+          },
+          {
+            category: "Follow-up / Reply Drafting (if needed)",
+            amount: "₹1,000 – ₹3,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Legal Notice Process",
+        description:
+          "Issuing a legal notice is a relatively fast legal remedy.",
+        steps: [
+          {
+            title: "1. Document Collection & Review",
+            duration: "1–2 Days",
+            description:
+              "Gather all necessary documents related to unpaid dues.",
+          },
+          {
+            title: "2. Drafting the Legal Notice",
+            duration: "1–3 Days",
+            description: "Professional drafting by DoStartup’s legal team.",
+          },
+          {
+            title: "3. Dispatch and Delivery",
+            duration: "1–2 Days",
+            description:
+              "Notice sent to the defaulter via registered post or courier.",
+          },
+          {
+            title: "4. Response Period",
+            duration: "15 Days (typical)",
+            description: "Wait for payment or formal reply from the defaulter.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Legal Notices?",
+        description: [
+          "DoStartup offers end-to-end support for issuing legal notices to recover dues efficiently and professionally.",
+        ],
+        points: [
+          "Experienced advocates in debt recovery cases",
+          "Fast, accurate drafting of notices",
+          "Clear communication with legal backing",
+          "Affordable and legally compliant processes",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a legal notice for recovery of dues?",
+        answer:
+          "It is a formal communication demanding the repayment of an outstanding amount. It warns the recipient of impending legal action if the amount is not paid within a stipulated period.",
+      },
+      {
+        question: "Is sending a legal notice mandatory before filing a case?",
+        answer:
+          "No, except for cases involving government bodies. However, it is highly advisable as it can help settle matters without litigation.",
+      },
+      {
+        question: "Which laws apply to recovery of dues in India?",
+        answer:
+          "Recovery can be pursued under Order 37 of CPC, Section 138 of the Negotiable Instruments Act, Section 73 of the Indian Contract Act, IPC provisions, and the Companies Act.",
+      },
+      {
+        question:
+          "What is the limitation period for filing a suit for unpaid dues?",
+        answer: "Three years from the date when the payment became due.",
+      },
+      {
+        question: "What if the legal notice is ignored?",
+        answer:
+          "Ignoring a notice is not illegal, but it may result in a court case being filed against the recipient.",
+      },
+      {
+        question: "Can a legal notice be sent to a friend or relative?",
+        answer:
+          "Yes. Legal notices can be sent to any individual who owes you money, regardless of the relationship.",
+      },
+      {
+        question: "How can an advocate help in this process?",
+        answer:
+          "An advocate ensures that the notice is legally sound, clearly states the claims, and is dispatched properly. This increases the chances of recovery and strengthens your legal position.",
+      },
+      {
+        question: "Does the advocate keep a copy of the legal notice?",
+        answer:
+          "Yes. A copy of the notice is retained for legal reference and future court filings.",
+      },
+      {
+        question: "What details must a legal notice contain?",
+        answer:
+          "Names and addresses of both parties, details of the debt, legal grounds for the claim, deadline for payment, and the advocate’s signature.",
+      },
+      {
+        question: "What to do after receiving a legal notice?",
+        answer:
+          "Read carefully, consult a lawyer, gather documents, and respond in writing through an advocate.",
+      },
+      {
+        question: "Is there a prescribed format for legal notices?",
+        answer:
+          "There’s no rigid format, but it must be legally precise and clearly drafted with all essential details.",
+      },
+    ],
+  },
+  secretarial_audit: {
+    title: "Secretarial Audit under Companies Act, 2013",
+    description:
+      "A secretarial audit is a compliance and governance appraisal conducted by a practising company secretary to assess whether a company adheres to legal and procedural regulations under the Companies Act and allied laws.",
+    overview: [
+      {
+        heading: "An Overview of Secretarial Audit",
+        content:
+          "A secretarial audit is an independent verification of a company’s records, filings, and compliance framework, ensuring adherence to the Companies Act, 2013 and allied laws. It highlights risk areas, assesses governance quality, and detects gaps in internal controls or statutory compliance.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of a Secretarial Audit",
+        content:
+          "- Ensures legal compliance, reducing penalties and regulatory risk\n- Enhances transparency and investor confidence\n- Protects interests of stakeholders including promoters, directors, lenders, and regulators\n- Reveals internal procedural or governance lapses\n- Strengthens credibility during mergers, fundraising, and regulatory scrutiny",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documents for Secretarial Audit",
+        content:
+          "- MOA and AOA of the company\n- Statutory registers (members, directors, share transfers, etc.)\n- Minutes of Board and General Meetings\n- ROC filings and audited financials\n- Last secretarial audit report\n- Notices, resolutions, CSR reports, SAST disclosures\n- ECB/FEMA documentation (if applicable)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Conducting a Secretarial Audit",
+        content:
+          "- Step 1: Board Resolution and e-Form MGT-14 filing\n- Step 2: Engagement letter sent to the PCS\n- Step 3: Preliminary meeting and audit plan preparation\n- Step 4: Collection and review of documents\n- Step 5: Verification of secretarial and regulatory compliance\n- Step 6: Drafting and finalization of MR-3 report\n- Step 7: Presentation to Board and submission with Annual Report",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Professional Fees for Secretarial Audit",
+        description:
+          "Fees depend on company size, complexity, and compliance status.",
+        feeTable: [
+          {
+            category: "Companies with Paid-Up Capital up to ₹5 Cr",
+            amount: "₹20,000 – ₹40,000",
+          },
+          {
+            category: "Companies with Paid-Up Capital ₹5 Cr – ₹50 Cr",
+            amount: "₹40,000 – ₹75,000",
+          },
+          {
+            category: "Large/Listed/Public Companies",
+            amount: "₹75,000 – ₹1,50,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline for Secretarial Audit",
+        description:
+          "The full audit process may take 2 to 4 weeks, depending on records availability and complexity.",
+        steps: [
+          {
+            title: "1. Appointment of PCS & Form MGT-14 Filing",
+            duration: "1–2 Days",
+            description: "Formal appointment and MCA filing.",
+          },
+          {
+            title: "2. Data Collection & Preliminary Discussion",
+            duration: "2–4 Days",
+            description:
+              "Engagement letter, checklists, and meetings with KMP.",
+          },
+          {
+            title: "3. Compliance Review & Examination",
+            duration: "5–10 Days",
+            description:
+              "Scrutiny of records, filings, and governance practices.",
+          },
+          {
+            title: "4. Drafting and Finalizing MR-3 Report",
+            duration: "3–5 Days",
+            description:
+              "Report with observations, qualifications, and suggestions.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Secretarial Audit?",
+        description: [
+          "DoStartup ensures efficient, thorough, and legally sound secretarial audits conducted by certified professionals.",
+        ],
+        points: [
+          "ICSI-certified PCS team with sectoral expertise",
+          "Audit planning tailored to your business structure",
+          "Proactive identification of non-compliance",
+          "Affordable and timeline-bound engagement",
+          "Post-audit support to resolve compliance gaps",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a secretarial audit?",
+        answer:
+          "It is an independent examination of a company’s compliance with corporate and allied laws by a practising company secretary.",
+      },
+      {
+        question: "Who can conduct a secretarial audit?",
+        answer:
+          "Only a practising company secretary (PCS) with a valid certificate of practice issued by ICSI.",
+      },
+      {
+        question: "Is the secretarial audit mandatory for all companies?",
+        answer:
+          "No. It is mandatory only for listed companies, large public companies, and those crossing thresholds under section 204 of the Companies Act, 2013.",
+      },
+      {
+        question: "What is the format of the Secretarial Audit Report?",
+        answer:
+          "It is prepared in Form MR-3 and annexed to the Board’s report in the company’s Annual Report.",
+      },
+      {
+        question: "How frequently is the secretarial audit conducted?",
+        answer:
+          "It is conducted annually, in alignment with the financial year-end compliance cycle.",
+      },
+      {
+        question: "Can fiscal laws be included in a secretarial audit?",
+        answer:
+          "Only to the extent they affect governance and secretarial compliance. A detailed tax audit is outside the scope.",
+      },
+      {
+        question: "What is the penalty for not conducting a secretarial audit?",
+        answer:
+          "Under Section 204(4), fines ranging from ₹1 lakh to ₹5 lakh may apply. In case of fraud or willful misstatements, criminal penalties may also apply under Sections 447 and 448.",
+      },
+      {
+        question: "How is the secretarial auditor appointed?",
+        answer:
+          "By a Board resolution, followed by filing e-Form MGT-14 with the ROC and formal acceptance by the PCS.",
+      },
+      {
+        question:
+          "What is the difference between statutory and secretarial audit?",
+        answer:
+          "Statutory audit examines financial statements, while secretarial audit assesses legal compliance with company law and governance regulations.",
+      },
+      {
+        question: "What is MGT-8?",
+        answer:
+          "It is a certification issued by a PCS confirming that an unlisted company has complied with relevant annual return provisions under the Companies Act.",
+      },
+      {
+        question:
+          "Are there limits on the number of audits a PCS can undertake?",
+        answer:
+          "Yes. As per ICSI guidelines, a PCS or firm may conduct up to 10 secretarial audits per financial year per partner.",
+      },
+      {
+        question: "What industries typically require secretarial audits?",
+        answer:
+          "Banking, insurance, pharmaceuticals, real estate, IT, manufacturing, public undertakings, and companies with large financial exposure often require it.",
+      },
+    ],
+  },
+  business_plan: {
+    title: "Business Plan Services – DoStartup",
+    description:
+      "A business plan is a structured document that outlines a company’s goals, market strategy, operations, and financial forecasts. It acts as a roadmap for founders, investors, and management, helping to guide decisions and attract funding.",
+    overview: [
+      {
+        heading: "Business Plan Overview",
+        content:
+          "A business plan articulates a company’s vision, mission, products or services, market opportunities, operations, and financial projections. It is a critical tool for launching a new venture, securing investment, managing growth, and evaluating business feasibility.",
+      },
+      {
+        heading: "Online Business Plan Definition",
+        content:
+          "An online business plan concisely presents the core idea, execution strategy, market analysis, and revenue model of a business in a digital format—ideal for startups or expansions. It is crucial for demonstrating viability to stakeholders and financial institutions.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Who Needs a Business Plan?",
+        content:
+          "- Startups: To convert a business idea into an executable roadmap and attract investors.\n- Established Businesses: For scaling operations, streamlining processes, or restructuring.\n- Investors & Lenders: For evaluating business potential, risks, and funding requirements.\n- Partners or Joint Ventures: For outlining responsibilities and shared goals.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Key Components of a Business Plan",
+        content:
+          "- Executive Summary\n- Business Description\n- Market Strategies\n- Competitive Analysis\n- Products and Services\n- Design and Development Plan\n- Operations and Management Plan\n- Financial Projections",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Ingredients of a Business Plan",
+        content:
+          "- Business Concept: Company mission, structure, and objectives.\n- Marketplace Analysis: Target audience, competitors, trends.\n- Financial Data: Capital needs, revenue model, forecasts.\n- Strategic Planning: Short- and long-term implementation roadmap.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Types of Business Plans and Their Purpose",
+        feeTable: [
+          {
+            category: "Start-Up Plan",
+            amount:
+              "To launch a new venture; includes market research, team bios, and funding needs.",
+          },
+          {
+            category: "Internal Plan",
+            amount:
+              "Used internally to assess ongoing projects; focuses on ROI and current performance.",
+          },
+          {
+            category: "Strategic Plan",
+            amount:
+              "Defines long-term goals and strategies; includes mission, milestones, and timelines.",
+          },
+          {
+            category: "Feasibility Plan",
+            amount:
+              "Assesses idea viability; focuses on demand, competition, and profitability.",
+          },
+          {
+            category: "Operational Plan",
+            amount:
+              "Day-to-day guidance document for roles, processes, and performance indicators.",
+          },
+          {
+            category: "Growth Plan",
+            amount:
+              "Designed for funding or expansion; includes sales, projections, and management strength.",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Prepare a Business Plan",
+        description:
+          "Depending on business complexity and detail, the process can take from 5 days to 3 weeks.",
+        steps: [
+          {
+            title: "1. Initial Consultation & Concept Understanding",
+            duration: "1–2 Days",
+            description:
+              "Understanding business model, goals, and target market.",
+          },
+          {
+            title: "2. Data Collection & Market Research",
+            duration: "2–4 Days",
+            description:
+              "Gathering financial, operational, and competitor data.",
+          },
+          {
+            title: "3. Drafting of Key Sections",
+            duration: "3–7 Days",
+            description:
+              "Preparing executive summary, marketing, operational, and financial sections.",
+          },
+          {
+            title: "4. Review and Finalisation",
+            duration: "2–3 Days",
+            description:
+              "Editing for accuracy, clarity, and presentation. Ready for investor or internal use.",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Business Planning?",
+        description: [
+          "DoStartup offers custom-built, investor-ready business plans tailored to your industry, stage, and goals.",
+        ],
+        points: [
+          "Experienced professionals across multiple industries",
+          "Investor-friendly formatting and structure",
+          "Support for financial modeling and projections",
+          "Custom pitch decks and strategy notes",
+          "Quick turnaround with professional review and feedback",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How do I make a business plan?",
+        answer:
+          "Start with market research, set achievable goals, outline marketing, operations, and financial strategies, and summarize everything in an executive summary.",
+      },
+      {
+        question: "Is a business plan necessary only for raising funds?",
+        answer:
+          "No. It is also used for strategy, operations, partnerships, and tracking performance.",
+      },
+      {
+        question: "What should a business plan look like?",
+        answer:
+          "It should be a 15–30 page document with structured sections, clear visuals, and appendices as needed.",
+      },
+      {
+        question: "Can I write a business plan on my own?",
+        answer:
+          "Yes, but professional assistance can refine your projections and add credibility, especially for investors.",
+      },
+      {
+        question: "Are business plans tailored for each business?",
+        answer:
+          "Yes. An effective plan is customized to reflect the company's industry, objectives, and available resources.",
+      },
+    ],
+  },
+  accounts_payable_services: {
+    title: "Accounts Payable (AP) Services – DoStartup",
+    description:
+      "DoStartup’s Accounts Payable Services streamline invoice management, ensure timely payments, and maintain accurate ledgers to enhance vendor trust and financial compliance.",
+    overview: [
+      {
+        heading: "Introduction to Accounts Payable Services",
+        content:
+          "Accounts Payable (AP) Services oversee an organisation’s short-term obligations to suppliers, ensuring every invoice is verified, recorded, and settled on time. By combining robust processes with automation, AP functions optimise cash-flow, reinforce policy compliance, and strengthen vendor relationships—allowing management to focus on core operations while financial commitments are handled by experts.",
+      },
+      {
+        heading: "What Is Accounts Payable?",
+        content:
+          "Accounts Payable represents the amounts a business owes for goods or services already received but not yet paid. Effective AP management records each invoice, schedules payments, maintains vendor data, and guarantees adherence to internal controls and statutory requirements.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Objectives of Managing Accounts Payable",
+        content:
+          "- Financial Accuracy – Maintain precise ledgers and error-free financial statements.\n- Process Automation – Deploy AP software to eliminate missed or late payments.\n- Efficient Operations – Streamline invoice intake, matching, and approval.\n- Vendor Relationship – Protect supply continuity by paying vendors promptly.",
+      },
+      {
+        heading: "Benefits of Accounts Payable Automation",
+        content:
+          "- Enhanced Productivity – Staff redirect time from data entry to analysis.\n- Minimized Errors – Automated matching reduces duplicate or incorrect payments.\n- Cost Reduction – Lower headcount and paper-processing expenses.\n- Improved Market Reputation – Consistent on-time payments build supplier trust.",
+      },
+      {
+        heading: "Why Accounts Payable Management Matters",
+        content:
+          "- Cash-Flow Control – Align payments with credit terms to optimise liquidity.\n- Vendor Satisfaction – Reliable settlements secure favourable pricing and priority service.\n- Regulatory Compliance – Timely disbursements avert fines and legal exposure.\n- Accurate Reporting – Clean data underpins sound strategic decisions.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "The P2P (Procure-to-Pay) Workflow",
+        content:
+          "- Requisition raised\n- Supplier shortlisted\n- Purchase order issued\n- Goods/services delivered\n- Invoice received and matched\n- Discrepancies resolved\n- Payment authorised\n- Funds disbursed",
+      },
+      {
+        heading: "Recording Accounts Payable",
+        content:
+          "In double-entry accounting, recognise a credit to Accounts Payable and a corresponding debit to the relevant expense or asset. Upon settlement, debit Accounts Payable and credit Cash or Bank.",
+      },
+      {
+        heading: "Automation in AP",
+        content:
+          "Cloud-based AP platforms capture invoices digitally, trigger rule-based approvals, and schedule electronic payments—cutting cycle time, reducing fraud risk, and offering real-time spend analytics.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "DoStartup’s Accounts Payable Solutions",
+        content:
+          "- GR/IR reconciliations and monthly AP ledgers\n- Payment-proposal drafting and execution\n- Vendor query help-desk and annual data refresh\n- Supplier statement matching and discrepancy resolution\n- AI-driven automation with no capital outlay for clients",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for AP Services?",
+        description: [
+          "We combine AI-powered automation, accounting best practices, and industry experience to deliver faster, error-free accounts payable operations.",
+        ],
+        points: [
+          "Reduces AP processing time by up to 60%",
+          "Improves accuracy and reduces fraud risk",
+          "No need for costly software—fully managed platform",
+          "Dedicated team for vendor communication and follow-ups",
+          "Real-time reporting and compliance ready",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are accounts payable?",
+        answer:
+          "They are short-term liabilities representing money a business owes suppliers for goods or services already received but not yet paid.",
+      },
+      {
+        question: "Why is accounts payable management important?",
+        answer:
+          "Efficient AP safeguards cash-flow, builds vendor trust, prevents penalties, and ensures reliable financial reporting.",
+      },
+      {
+        question: "What is the AP process in accounting?",
+        answer:
+          "It involves receiving invoices, three-way matching (PO, goods receipt, invoice), securing approvals, recording the liability, and scheduling payment.",
+      },
+      {
+        question: "How does the accounts payable process work?",
+        answer:
+          "Once an invoice matches purchase documents, it is queued for approval and posted to the ledger; after authorisation, payment is released via the agreed method.",
+      },
+      {
+        question: "How can duplicate payments be avoided?",
+        answer:
+          "Implement automated invoice capture with duplicate-detection rules, enforce PO requirements, and reconcile supplier statements regularly.",
+      },
+      {
+        question: "What are the four core functions of AP management?",
+        answer:
+          "Invoice intake, validation and matching, approval routing, and payment execution.",
+      },
+      {
+        question: "What is the role of the accounts payable team?",
+        answer:
+          "They verify invoices, maintain vendor records, schedule disbursements, and resolve discrepancies to protect cash and compliance.",
+      },
+      {
+        question: "Is accounts payable an asset or a liability?",
+        answer: "It is recorded as a current liability on the balance sheet.",
+      },
+      {
+        question: "How does automation improve AP?",
+        answer:
+          "Automation reduces manual effort, minimises errors, accelerates approvals, and delivers instant visibility into outstanding obligations.",
+      },
+      {
+        question: "Why outsource invoice processing?",
+        answer:
+          "Outsourcing lowers costs, leverages specialised expertise, accelerates turnaround times, and enables internal staff to concentrate on strategic finance tasks.",
+      },
+    ],
+  },
+
+  virtual_cfo_services: {
+    title: "Virtual CFO Services – DoStartup",
+    description:
+      "Virtual CFO services give small and medium enterprises access to expert-level financial planning, budgeting, and forecasting on a flexible, cost-efficient basis. DoStartup connects you with experienced CFOs to manage your business finances without the burden of full-time overhead.",
+    overview: [
+      {
+        heading: "Virtual CFO Overview",
+        content:
+          "Virtual CFO (VCFO) services provide strategic financial support—including planning, forecasting, and investor reporting—remotely. Delivered via cloud platforms, DoStartup’s VCFO model gives growing businesses affordable access to senior financial expertise.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of VCFO Services",
+        content:
+          "Accurate Records: Compliance with statutory accounting standards\nCost Efficiency: Pay as per usage, not a fixed salary\nBudget Discipline: Cash-flow forecasts and variance analysis\nData-Driven Decisions: Financial insights for strategic moves\nHigher Profitability: Margin improvement through expert planning\nRisk Control: Identify operational and compliance risks early.",
+      },
+      {
+        heading: "Why VCFOs Are Essential for Startups",
+        content:
+          "Startups often grow beyond basic bookkeeping but can’t yet afford a full-time CFO. A Virtual CFO offers strategic expertise in capital raising, KPI monitoring, and financial controls—without long-term commitment.",
+      },
+      {
+        heading: "Why Virtual CFO Firms Matter to All Businesses",
+        content:
+          "Tailored advisory based on industry metrics\nBreak-even and profitability analysis\nCash-flow forecasting and monitoring\nCost and spend management\nRegulatory compliance and audit handling\nDebt structuring and liability management\nCorporate governance policies",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Types of Virtual CFO Services",
+        content:
+          "Business-plan design \n Budget creation and tracking\nAccounting & bookkeeping\nCash-flow managemen\nScenario analysis and modellin\nRevenue-growth plannin\nKPI dashboards and board packs",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Engage VCFO Services from DoStartup",
+        content:
+          "Submit enquiry with business needs and challenges\nAttend a consultation with a matched CFO expert\nShare required documents securely\nReceive real-time updates via project ID\nGet access to reports, dashboards, and strategy inputs",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "VCFO Services vs. Traditional CFO",
+        feeTable: [
+          {
+            category: "Cost",
+            // "vcfo": "Pay-per-use / project fee",
+            amount: "Fixed salary + perks",
+          },
+          {
+            category: "Flexibility",
+            // "vcfo": "Scale up/down easily",
+            amount: "Rigid employment terms",
+          },
+          {
+            category: "Expertise Pool",
+            // "vcfo": "Access to 500+ specialists",
+            amount: "Limited to single hire",
+          },
+          {
+            category: "Location",
+            // "vcfo": "Remote, no boundaries",
+            amount: "Physical office required",
+          },
+          {
+            category: "Tech Adoption",
+            // "vcfo": "High (cloud-first)",
+            amount: "Variable",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline to Onboard a Virtual CFO",
+        description:
+          "Most clients are onboarded and receive a tailored plan within 2 weeks.",
+        steps: [
+          {
+            title: "1. Enquiry & Goal Submission",
+            duration: "Day 1",
+            description: "Client submits requirements via form",
+          },
+          {
+            title: "2. Initial Consultation",
+            duration: "1–2 Days",
+            description: "Free consultation with a DoStartup CFO expert",
+          },
+          {
+            title: "3. Document Sharing & Scoping",
+            duration: "3–5 Days",
+            description: "Client shares financials for scoping engagement",
+          },
+          {
+            title: "4. Project Kickoff & Deliverables",
+            duration: "Within 10–14 Days",
+            description: "Strategy, dashboards, and reporting begins",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for VCFO Services?",
+        description: [
+          "DoStartup’s nationwide network of 500+ vetted CFOs supports companies across industries with personalized, remote financial leadership.",
+        ],
+        points: [
+          "500+ CFOs on-call with sector expertise",
+          "2,000+ businesses supported across 100+ cities",
+          "30% average cash-flow improvement",
+          "10+ years of virtual CFO experience",
+          "Cost savings of over 2.5 million work-hours",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Are Virtual CFO services expensive?",
+        answer:
+          "No. They are 40–60% more affordable than hiring a full-time CFO, and pricing is flexible.",
+      },
+      {
+        question: "What are outsourced CFO services?",
+        answer:
+          "These are third-party CFO professionals managing financial strategy, compliance, and planning remotely.",
+      },
+      {
+        question: "Why choose Virtual CFO over hiring internally?",
+        answer:
+          "VCFOs offer a broader talent pool, lower costs, faster onboarding, and flexible engagement models.",
+      },
+      {
+        question: "Can a startup afford VCFO services?",
+        answer:
+          "Yes. Even early-stage companies can engage on a fractional or project basis to suit their budget.",
+      },
+      {
+        question: "What's the difference between a fractional and virtual CFO?",
+        answer:
+          "Fractional refers to part-time/time-based roles, while virtual refers to remote delivery. Most VCFOs are both.",
+      },
+      {
+        question: "How long does onboarding take?",
+        answer:
+          "A customized VCFO plan is usually provided within 2 weeks of engagement.",
+      },
+      {
+        question: "What is the full form of VCFO?",
+        answer: "Virtual Chief Financial Officer.",
+      },
+    ],
+  },
+
+  accounts_receivable_services: {
+    title: "Accounts Receivable (AR) Services – DoStartup",
+    description:
+      "Streamline your receivables with DoStartup's AR services, enabling faster collections, better cash-flow, and reduced overheads through automation and expert support.",
+    overview: [
+      {
+        heading: "Introduction to Accounts Receivable Services",
+        content:
+          "Accounts receivable (AR) services streamline the billing-to-collection cycle so that cash arrives predictably, ledgers stay current, and working-capital targets are met. Timely invoicing, rigorous follow-up, and data-driven collection strategies keep bad-debt risk low and unlock funds for growth.",
+      },
+      {
+        heading: "What Is Accounts Receivable?",
+        content:
+          "Accounts receivable is money due from customers for goods or services already delivered. Reported as a current asset, it represents the company’s legal claim to payment. Disciplined AR management—accurate billing, ageing reviews, and prompt collection—anchors liquidity and supports expansion.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Professional AR Services",
+        content:
+          "- Faster Collections & Better Time-Use: Automated reminders and customer portals shorten the payment cycle, freeing staff for higher-value tasks.\n- Smoother Cash-Flow Planning: Up-to-date ageing reports reveal future receipts, letting finance schedule purchases and debt obligations confidently.\n- Lower Overheads via Outsourcing: Engaging DoStartup’s AR team removes the fixed cost of an in-house department while delivering expert execution.\n- Reduced Disputes: Clear invoice data and proactive query resolution limit payment delays and preserve client relationships.\n- Credit-Risk Control: Ageing analysis and customer scoring flag chronic late payers so credit terms can be tightened or revoked.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Why Outsource Accounts Receivable?",
+        content:
+          "- Specialised Tools: Outsourced providers deploy encrypted, cloud-based AR software for secure, real-time visibility.\n- Scalability: Capacity flexes with sales volumes—no hiring lag or idle headcount.\n- Compliance: Professionals stay current with tax and data-privacy rules, reducing regulatory exposure.",
+      },
+      {
+        heading: "Choosing an AR Outsourcing Partner",
+        content:
+          "- Experience: Years in AR, sectors served, collection success rates\n- Expertise: Credentials in credit control, dispute management, and automation\n- Technology: Use of secure, integrated invoice and payment platforms\n- Cost: Savings versus in-house staffing and software licences\n- Reputation: Client testimonials and service-level adherence",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Typical AR Process",
+        content:
+          "- Credit Policy Set-Up – Define terms, limits, and approval workflow.\n- Invoice Issuance – Generate error-free invoices with due dates and tax details.\n- Ageing & Follow-Up – Track buckets (0-30, 31-60, 61-90 days) and send escalating reminders.\n- Dispute Resolution – Log, investigate, and close queries quickly.\n- Payment Application – Match receipts to invoices, update ledgers, and release orders.\n- Reporting – Provide weekly ageing, DSO (Days-Sales-Outstanding), and collection-effectiveness indices.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "DoStartup’s AR Service Suite",
+        description: [
+          "DoStartup provides a comprehensive AR management solution tailored to your business type and growth phase.",
+        ],
+        points: [
+          "Real-Estate AR Management – Rent invoicing, tenant ageing, and escrow tracking.",
+          "AR Factoring Support – Data prep for lenders, invoice validation, and remittance reconciliation.",
+          "Ageing-Report Design – Custom dashboards and action plans to shrink overdue balances.",
+          "Full-Cycle AR Administration – Ledger maintenance, billing, dispute handling, and cash application.",
+        ],
+      },
+      {
+        heading: "Reasons to Trust DoStartup",
+        description: [
+          "We bring process, platform, and performance to manage your receivables efficiently.",
+        ],
+        points: [
+          "Network of seasoned AR analysts fluent in global accounting standards.",
+          "24/7 client portal for live invoice status and cash-flow snapshots.",
+          "AI-powered reminder engine that lifts on-time payments by up to 30 percent.",
+          "Strict data-security protocols and NDA protection.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are the three categories of receivables?",
+        answer:
+          "Trade receivables (customer invoices), notes receivable (formal promissory notes), and other receivables (loans, advances, tax refunds).",
+      },
+      {
+        question: "What are the core duties in accounts receivable?",
+        answer:
+          "Issuing invoices, monitoring ageing, following up on past-due balances, resolving disputes, and accurately posting payments.",
+      },
+      {
+        question: "Which AR task benefits most from automation?",
+        answer:
+          "Recurring reminder sequences—automation ensures every invoice gets a timely nudge without manual effort.",
+      },
+      {
+        question: "What is 'full-cycle' AR?",
+        answer:
+          "The end-to-end process from credit approval and invoicing through collections, cash application, and reporting.",
+      },
+      {
+        question: "Can AR services be outsourced?",
+        answer:
+          "Yes. Many firms engage specialists like DoStartup to cut costs, speed collections, and gain real-time reporting without hiring an internal team.",
+      },
+      {
+        question: "Where can I find cost-effective AR solutions?",
+        answer:
+          "DoStartup offers flexible packages—project-based, fractional, or fully managed—tailored to start-ups and established enterprises.",
+      },
+    ],
+  },
+  tax_audit_services: {
+    title: "Tax Audit Services – DoStartup",
+    description:
+      "Ensure your tax compliance with expert-led Tax Audit services. DoStartup helps businesses meet audit obligations under Section 44AB of the Income-tax Act.",
+    overview: [
+      {
+        heading: "Overview of Tax Audit",
+        content:
+          "A tax audit is an independent examination of a taxpayer’s books and records to confirm that they comply with the Income-tax Act, 1961. Under section 44AB, taxpayers whose turnover or gross receipts exceed prescribed thresholds must have their accounts audited by a practising Chartered Accountant (CA). The audit culminates in a report—Form 3CA or 3CB with the detailed Annexure 3CD—filed electronically with the Income-tax Department.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Objectives of Tax Audit",
+        content:
+          "- Verify proper maintenance of books and adherence to section 44AA.\n- Report discrepancies or non-compliance detected during systematic checks.\n- Provide a standardised audit report (Forms 3CA/3CB & 3CD) that enables the tax authorities to assess income quickly and accurately.\n- Enhance credibility of financial information for stakeholders—investors, lenders, suppliers, and regulators.",
+      },
+      {
+        heading: "Types of Tax Audit (by mode)",
+        content:
+          "- Field Audit – Conducted at the taxpayer’s premises.\n- Office Audit – Conducted at the Income-tax office; taxpayer brings records.\n- Correspondence Audit – Taxpayer mails or uploads requested documents.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Essential Documentation for Tax Audit",
+        content:
+          "- Identity & Registration – PAN/Aadhaar, address, GSTIN\n- Financials – Trial balance, signed financial statements, ledgers, bank statements\n- Tax-Specific Schedules – Depreciation, section 43B liabilities, related-party transactions (40A 2(b)), ICDS adjustments, inventory valuation, MSME interest, brought-forward losses\n- Management Letters – Appointment letter, representation letter\n- Supporting Proofs – Sample invoices, inventory movement reports, bank-balance confirmations, contingent liability schedules",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Audit Procedure",
+        content:
+          "- Engage a Chartered Accountant and issue a formal appointment letter.\n- Upload engagement details on the income-tax portal and file the relevant audit form (3CA/3CB).\n- Submit books and documents to the auditor; respond to additional queries.\n- Field verification & analytical review by the auditor.\n- Draft and finalise the report in Form 3CD; auditor uploads and taxpayer accepts on the portal by 30 September (or the notified due date).",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Penalty for Non-Compliance",
+        description: "Higher of the following:",
+        feeTable: [
+          {
+            category: "Amount",
+            amount: "₹1,50,000",
+          },
+        ],
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Due Dates for Tax Audit Report Submission (FY 2023–24)",
+        description:
+          "Key deadlines for uploading tax audit reports as per audit applicability.",
+        steps: [
+          {
+            title: "30 September 2024",
+            duration: "Standard Tax Audit",
+            description: "For assessees not subject to Transfer Pricing audit",
+          },
+          {
+            title: "31 October 2024",
+            duration: "With Transfer Pricing",
+            description: "Where Form 3CEB is also applicable",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Tax-Audit Support?",
+        description: [
+          "DoStartup simplifies tax audit readiness with expert CA assistance, digital documentation, and deadline-oriented execution.",
+        ],
+        points: [
+          "Specialist CA network: sector-focused auditors with latest CBDT circular insights",
+          "End-to-end workflow: document checklists, ledger scrutiny, and e-filing",
+          "Value-added insights: GST reconciliations, MSME compliance review, control-gap alerts",
+          "Transparent fee model: fixed-scope pricing, no surprise costs",
+          "Book your free consultation within an hour and stay audit-ready",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the current audit threshold?",
+        answer:
+          "₹10 crore turnover for business (₹1 crore if cash transactions exceed 5%) and ₹50 lakh for professionals.",
+      },
+      {
+        question: "How many audits can one CA sign?",
+        answer:
+          "A CA may sign up to 60 tax-audit reports per financial year (as per ICAI limit).",
+      },
+      {
+        question: "What triggers a tax audit selection by the department?",
+        answer:
+          "Turnover thresholds, opting out of presumptive taxation, or risk factors in previous filings.",
+      },
+      {
+        question: "Is audit compulsory if there is a business loss?",
+        answer:
+          "Yes, if turnover exceeds the threshold or lower profits than deemed under presumptive schemes are declared.",
+      },
+      {
+        question: "Difference between statutory audit and tax audit?",
+        answer:
+          "Statutory audit validates financial statements under the Companies Act; tax audit checks Income-tax Act compliance.",
+      },
+    ],
+  },
+  forensic_audit_services: {
+    title: "Forensic Audit Services – DoStartup",
+    description:
+      "Uncover fraud, resolve disputes, and restore trust with DoStartup’s Forensic Audit Services—built for legal reliability and financial clarity.",
+    overview: [
+      {
+        heading: "Forensic Audit: A Concise Overview",
+        content:
+          "A forensic audit is a specialised examination of a person’s or organisation’s financial records to obtain evidence admissible in court. Unlike a statutory audit, a forensic audit focuses on uncovering misconduct—embezzlement, bribery, money-laundering—or resolving disputes in bankruptcy, litigation, or divorce.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Commission a Forensic Audit?",
+        content:
+          "- Corruption Detection – Identifies bribery and extortion risks.\n- Conflict-of-Interest Analysis – Flags abuse of authority.\n- Asset Misappropriation – Detects theft, ghost employees, and invoice fraud.\n- Financial Statement Fraud – Unmasks earnings manipulation and off-book liabilities.",
+      },
+      {
+        heading: "Key Benefits",
+        content:
+          "- Corruption & Fraud Uncovered—reinstates stakeholder confidence.\n- Sound Investment Decisions—accurate data for buyers and lenders.\n- Policy & Control Improvements—reduce recurrence risk.\n- Independent Credibility—objective, court-ready evidence.\n- Skilled Manpower—access to advanced forensic analytics and litigation support.",
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Legal Framework & Potential Consequences (India)",
+        content:
+          "- Companies Act 2013 (ss. 235, 237): Investigations into corporate misconduct.\n- Prevention of Money-Laundering Act 2002: Defines and penalises laundering of “proceeds of crime.”\n- SEBI Act 1992, Regulation 11C: Empowers SEBI to probe market-related fraud.\n- IT Act 2000 (ss. 43–44): Civil penalties for data theft and cybercrime.\n- Indian Penal Code: Criminal sanctions for cheating, forgery, breach of trust.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Five-Step Forensic Audit Methodology",
+        content:
+          "- Engagement Acceptance & KYC – Confirm scope and expertise.\n- Investigation Planning – Define objectives, targets, and timelines.\n- Evidence Collection – Apply control testing, interviews, data analytics.\n- Analysis & Reporting – Quantify fraud, assign responsibility, advise on remediation.\n- Litigation Support – Provide expert testimony and courtroom assistance.",
+      },
+    ],
+    feesStructure: [
+      {
+        heading: "Representative Penalties Upon Conviction",
+        description:
+          "Key statutes and their corresponding penalty ranges upon conviction.",
+        feeTable: [
+          {
+            category: "IPC § 405/420",
+            amount: "Criminal breach of trust / cheating",
+            // "penalty": "Imprisonment up to 7 years + fine"
+          },
+          {
+            category: "PMLA § 4",
+            amount: "Money-laundering",
+            // "penalty": "3–7 years imprisonment + fine"
+          },
+          {
+            category: "Companies Act § 447",
+            amount: "Fraud",
+            // "penalty": "6 months–10 years + up to 3× amount involved"
+          },
+          {
+            category: "IT Act § 43/44",
+            amount: "Unauthorised access, data theft",
+            // "penalty": "Compensation up to ₹1 crore per contravention"
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Forensic Audit?",
+        description: [
+          "DoStartup brings rapid response, forensic precision, and court-tested methodologies to your investigation.",
+        ],
+        points: [
+          "Confidential scoping within 24 hours",
+          "Data-analytics toolkit for anomaly detection and e-discovery",
+          "Clear, court-ready documentation and exhibits",
+          "Risk-mitigation advisory for future prevention",
+          "Litigation assistance through to final verdict",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What distinguishes a forensic audit from a statutory audit?",
+        answer:
+          "A statutory audit checks financial accuracy; a forensic audit investigates wrongdoing and produces legal evidence.",
+      },
+      {
+        question: "When should management order a forensic audit?",
+        answer:
+          "When there's suspected fraud, whistle-blower alerts, regulatory scrutiny, or disputes needing independent proof.",
+      },
+      {
+        question: "What should a forensic-audit report include?",
+        answer:
+          "Scope, methodology, factual findings, losses, implicated parties, and recommended preventive actions.",
+      },
+      {
+        question: "How long does the process take?",
+        answer:
+          "Depends on case complexity and data size—DoStartup provides an estimated timeline after initial planning.",
+      },
+      {
+        question: "Can evidence from a forensic audit stand up in court?",
+        answer:
+          "Yes—if proper protocols for documentation and expert-witness standards are followed. DoStartup ensures legal admissibility.",
+      },
+    ],
+  },
+  bookkeeping_services: {
+    title: "Bookkeeping Services – DoStartup",
+    description:
+      "Stay audit-ready and financially agile with DoStartup’s Bookkeeping Services—designed for SMEs, start-ups, and growing businesses across India.",
+    overview: [
+      {
+        heading: "Bookkeeping: A Concise Overview",
+        content:
+          "Bookkeeping is the structured recording of all business transactions—sales, purchases, payroll, receipts, and payments—ensuring accurate ledgers, trial balances, and financial statements. For SMEs and startups, outsourcing this function enables efficiency, compliance, and investor-readiness.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Outsource Bookkeeping?",
+        content:
+          "- Detailed, real-time records – Enable informed cash-flow and spending decisions.\n- Easy planning & budgeting – Support working capital forecasting and cost control.\n- Regulatory peace-of-mind – Stay compliant with GST, TDS, Companies Act & FEMA.\n- Faster investor & lender reporting – Provide timely and reliable financial reports.\n- Better tax estimates – Avoid year-end surprises with regular profit insights.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Core Bookkeeping Tasks Covered",
+        description:
+          "- Accounts Receivable: Invoicing, ageing analysis, collections.\n- Accounts Payable: Bill coding, payment scheduling, early-payment discounts.\n- Bank & Wallet Reconciliations: UPI/bank entries matched with ledgers.\n- Inventory & Cost of Sales: Stock tracking for accurate margins.\n- Payroll & TDS: Salary processing, PF/ESI filings, Form 16 generation.\n- Management Reports: Monthly P&L, balance sheet, cash flow, KPIs.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Popular Engagement Models",
+        content: [
+          {
+            model: "Virtual Bookkeeping",
+            bestFor: "Digital-first start-ups",
+            scope:
+              "Cloud ledger setup (Zoho, QuickBooks, Tally Cloud), weekly entries, GST/TDS returns.",
+          },
+          {
+            model: "CPA-led Bookkeeping",
+            bestFor: "Exporters, audit-compliant firms",
+            scope:
+              "IFRS/IND AS compliance, multi-currency books, audit-ready trails.",
+          },
+          {
+            model: "Full-Service F&A Outsourcing",
+            bestFor: "Growth-stage SMEs",
+            scope:
+              "Complete finance team: bookkeeping, MIS, budgeting, audit/banker liaison.",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Consider Outsourcing?",
+        content:
+          "- Founders are stuck with data entry at night.\n- Regular reporting to investors or banks is delayed.\n- Cross-border payments trigger complex FEMA compliance.\n- GST or TDS filings are late, incurring penalties.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers",
+        content: [
+          {
+            serviceLayer: "Bookkeeper",
+            deliverables: "Daily postings, invoice capture, bank feeds",
+            tools: "TallyPrime, Zoho Books, QuickBooks, SAP B1",
+          },
+          {
+            serviceLayer: "Controller",
+            deliverables:
+              "Month-end closings, variance analysis, MIS reporting",
+            tools: "Excel, Power BI, auto-reconciliations",
+          },
+          {
+            serviceLayer: "Compliance Desk",
+            deliverables: "GST, TDS, payroll, ROC, FEMA filings",
+            tools: "GSTN APIs, TRACES, MCA V3",
+          },
+          {
+            serviceLayer: "Advisory",
+            deliverables: "Budgeting, virtual CFO, audit liaison",
+            tools: "Custom templates, investor-ready decks",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Bookkeeping vs. Accounting – A Snapshot",
+        table: [
+          {
+            aspect: "Focus",
+            bookkeeping: "Daily transaction recording & classification",
+            accounting: "Analysis, interpretation & reporting",
+          },
+          {
+            aspect: "Output",
+            bookkeeping: "Ledgers, trial balance, basic reports",
+            accounting: "Financial statements, tax planning, budgets",
+          },
+          {
+            aspect: "Skills",
+            bookkeeping: "Attention to detail, software use",
+            accounting: "Strategic judgement, compliance expertise",
+          },
+          {
+            aspect: "Decision Support",
+            bookkeeping: "Limited (historical)",
+            accounting: "High (strategic)",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Bookkeeping?",
+        description: [
+          "DoStartup simplifies bookkeeping for founders, ensuring accuracy, compliance, and scalability from day one.",
+        ],
+        points: [
+          "400+ in-house bookkeepers and 1,200 partners across India",
+          "Cloud-based ledgers with real-time access",
+          "ISO-27001 data security and NDA-backed confidentiality",
+          "Integrated compliance with GST, TDS, and ROC",
+          "Tailored dashboards and audit-ready reporting",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is bookkeeping mandatory for every business?",
+        answer:
+          "Yes—for companies and LLPs under Indian laws; for others, mandatory if turnover crosses limits under the Income Tax Act.",
+      },
+      {
+        question: "Can my bookkeeper also file taxes?",
+        answer:
+          "Bookkeepers prepare data; tax returns are usually reviewed by a CA. DoStartup offers integrated services for seamless filing.",
+      },
+      {
+        question: "Which bookkeeping software should I use?",
+        answer:
+          "Startups benefit from Zoho Books or QuickBooks for cloud access. TallyPrime suits GST-heavy traders. We assess needs before setup.",
+      },
+      {
+        question: "What does 'three-pronged bookkeeping' mean?",
+        answer:
+          "It refers to a structure where: Bookkeeper → Controller → Cloud ledger—ensuring data integrity, oversight, and real-time access.",
+      },
+    ],
+  },
+  fund_raising_services: {
+    title: "Fund-Raising Services – DoStartup",
+    description:
+      "Secure the capital your business needs with DoStartup’s Fund-Raising Services—strategically designed for start-ups, SMEs, non-profits, and scaling ventures across India.",
+    overview: [
+      {
+        heading: "Fund-Raising Services: A Strategic Overview",
+        content:
+          "Every organisation—start-up or established—needs capital to grow, innovate and stay competitive. Fund-raising encompasses all activities aimed at securing that capital, whether through individual backers, corporations, foundations or government programmes. Modern technology has broadened the avenues available, turning fund-raising into both a financing mechanism and a brand-building platform.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Objectives of Fund-Raising",
+        content:
+          "- Seed & Scale: Inject start-up capital or finance expansion projects.\n- Bridge Working Capital Gaps: Support day-to-day operations and cash-flow management.\n- Corporate Social Impact: Enable non-profits to fulfil missions and meet compliance requirements.",
+      },
+      {
+        heading: "Why Organisations Raise Funds",
+        content:
+          "- Product Development & Market Entry\n- Operational Expenditure & Payroll\n- Marketing & Customer Acquisition\n- Regulatory Permits, Certifications, Compliance\n- Capital Projects & Asset Purchases",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Pre-Fund-Raising Checklist",
+        description:
+          "- Legal Structure: Is the entity type optimised for investment?\n- Market Analysis: What problem is solved and how large is the addressable market?\n- Competitive Landscape: How will the venture differentiate?\n- Growth Metrics: Are traction, KPIs and milestones clearly defined?\n- Business Model: Does the revenue strategy match investor expectations?\n- Cap Table & Valuation: Are equity allocations transparent and future-proof?\n- Investor Research: Which funds or angels align with sector and stage?",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Fund-Raising for Non-Profits",
+        content: [
+          {
+            model: "Mission Storytelling",
+            bestFor: "NGOs & social enterprises",
+            scope: "Demonstrate clear impact to earn trust and inspire giving.",
+          },
+          {
+            model: "Marketing Benefits for Sponsors",
+            bestFor: "CSR-focused corporations",
+            scope:
+              "Offer visibility at events, on websites, or naming rights for facilities.",
+          },
+          {
+            model: "Decision-Maker Outreach",
+            bestFor: "Corporate CSR alignment",
+            scope:
+              "Engage executives controlling CSR budgets for strategic partnerships.",
+          },
+          {
+            model: "Direct, Measurable Appeals",
+            bestFor: "Recurring donor campaigns",
+            scope:
+              "Specify programmes, budgets and expected outcomes to secure commitments.",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Step-by-Step Fund-Raising Procedure",
+        content:
+          "- Draft a Fund-Raising Plan – Define purpose, timeline and resource needs.\n- Set Quantifiable Goals – Establish target amounts and deployment strategies.\n- Identify Funding Sources – Individuals, foundations, corporations, government grants.\n- Prospect Research – Match potential backers with organisational mission and returns.\n- Craft the Pitch & Financial Model – Highlight ROI, impact metrics and exit options.\n- Execute & Track – Manage investor relations, due-diligence queries and close rounds.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Supports Your Fund-Raising Journey",
+        content: [
+          {
+            serviceLayer: "Strategic Road-Mapping",
+            deliverables: "Capital need assessment, milestone alignment",
+            tools: "Financial projections, Gantt charts",
+          },
+          {
+            serviceLayer: "Investor Pitch Decks",
+            deliverables: "Data-driven, compelling storytelling",
+            tools: "Pitch templates, Canva/PowerPoint, Infographics",
+          },
+          {
+            serviceLayer: "Market & Financial Analysis",
+            deliverables: "TAM validation, unit economics, projections",
+            tools: "Excel, industry reports, benchmarking tools",
+          },
+          {
+            serviceLayer: "Investor Connect",
+            deliverables:
+              "Introductions to aligned angels, VCs and impact funds",
+            tools: "VC lists, email campaigns, warm intros",
+          },
+          {
+            serviceLayer: "Deal Support",
+            deliverables:
+              "Term-sheet negotiation, due-diligence, compliance filings",
+            tools: "Legal templates, CA/CS advisory network",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Crowd-Funding vs. Traditional Fund-Raising",
+        table: [
+          {
+            aspect: "Source of Funds",
+            bookkeeping: "Numerous small backers",
+            accounting: "Banks, VCs, corporates, HNIs",
+          },
+          {
+            aspect: "Platform",
+            bookkeeping: "Mostly online portals",
+            accounting: "Mix of offline & online",
+          },
+          {
+            aspect: "Engagement",
+            bookkeeping: "Public campaign & rewards",
+            accounting: "Private negotiations; equity/debt",
+          },
+          {
+            aspect: "Regulatory Complexity",
+            bookkeeping:
+              "Lower for donations/rewards; higher for equity crowd-funding",
+            accounting: "High due-diligence and legal vetting",
+          },
+          {
+            aspect: "Typical Use-Case",
+            bookkeeping: "Creative projects, social causes, early MVP funding",
+            accounting:
+              "Scaling operations, large CapEx, strategic acquisitions",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Fund-Raising?",
+        description: [
+          "DoStartup helps you raise capital strategically—backed by data, design, and diligence from industry experts.",
+        ],
+        points: [
+          "Tailored support across seed, Series A, and CSR rounds",
+          "Investor-ready documents and models",
+          "Network of 500+ angel investors, 200+ VCs, and grant bodies",
+          "In-house financial analysts and legal advisors",
+          "Integrated support for pitch, compliance, and negotiations",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How long does fund-raising take?",
+        answer:
+          "Average seed rounds close in 3–6 months; later-stage rounds may take longer due to deeper due-diligence.",
+      },
+      {
+        question: "What are common funding stages?",
+        answer:
+          "Pre-seed → Seed → Series A/B/C → Mezzanine/PE → IPO or strategic exit.",
+      },
+      {
+        question: "Is online crowd-funding legal in India?",
+        answer:
+          "Donation/reward-based platforms operate under standard e-commerce rules; equity crowd-funding is restricted and subject to SEBI regulations.",
+      },
+      {
+        question: "What documents must a start-up prepare?",
+        answer:
+          "Pitch deck, detailed business plan, financial model, cap table, legal registrations, IP summaries, data-room with compliance certificates.",
+      },
+    ],
+  },
+  term_sheet_guide: {
+    title: "Term Sheet – Fast Facts & Practical Guide",
+    description:
+      "Understand and navigate the key elements of a term sheet before fundraising. DoStartup equips entrepreneurs and investors with practical insights and ready-to-use tools for successful deal-making.",
+    overview: [
+      {
+        heading: "What is it?",
+        content:
+          "A term sheet is a non-binding document that captures the headline economics and control terms of a proposed investment. Think of it as a blueprint: it sets the commercial rules that lawyers will later translate into definitive, binding agreements.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why It Matters",
+        content:
+          "- Entrepreneur: Clarifies valuation, dilution, board control, and exit terms before incurring heavy legal costs.\n- Investor: Locks in deal economics (price, liquidation preference, rights) while full diligence is still under way.\n- Both Parties: Reduces misunderstandings, flags deal-breakers early, accelerates legal drafting, and trims transaction costs.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Core Building Blocks",
+        description:
+          "- Valuation & Investment Amount: Pre/post-money valuation, % equity to be issued, option-pool provisions.\n- Security Type: Preferred shares, SAFE, convertible notes; dividend policy.\n- Liquidation Preference: 1× non-participating vs. participating; seniority structure.\n- Governance: Board seats, veto rights, observer access.\n- Anti-Dilution: Weighted-average or full-ratchet protection mechanisms.\n- Founder Vesting: Reverse vesting, good/bad leaver clauses.\n- Exit Provisions: Drag-along, tag-along, IPO conversion.\n- Inspection Rights: Access to MIS, audit reports, data-room.\n- Conditions Precedent: Diligence completion, IP assignment, ESOP pool.\n- Exclusivity: No-shop period for investor diligence (typically 30–60 days).",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Typical Flow: From Term Sheet to Closing",
+        content: [
+          {
+            model: "Initial Pitch",
+            bestFor: "Founders approaching investors",
+            scope: "Prepare pitch and preliminary valuation",
+          },
+          {
+            model: "Indicative Term Sheet",
+            bestFor: "Both parties",
+            scope: "Outline major commercial terms before diligence",
+          },
+          {
+            model: "Due Diligence",
+            bestFor: "Investors",
+            scope: "Conduct legal, financial, and technical review",
+          },
+          {
+            model: "Definitive Docs Negotiation",
+            bestFor: "Legal teams",
+            scope: "Draft and negotiate SHA/SSA, disclosures",
+          },
+          {
+            model: "Conditions Precedent",
+            bestFor: "Both parties",
+            scope: "Fulfill agreed milestones and pre-closing obligations",
+          },
+          {
+            model: "Fund Transfer & Share Allotment",
+            bestFor: "Company",
+            scope: "Receive investment and complete legal formalities",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Negotiation Tips",
+        content:
+          "- Know Your Walk-Away Points: Define lowest acceptable valuation and control terms.\n- Focus on Control: Don’t let high valuation mask poor governance rights.\n- Model Dilution Scenarios: Simulate future rounds and impacts of anti-dilution clauses.\n- Clarify Option Pool: Know if it’s pre- or post-money—it affects dilution.\n- Use Plain Language: Ensure every clause is understood before signing.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Helps You Navigate Term Sheets",
+        content: [
+          {
+            serviceLayer: "Drafting Support",
+            deliverables: "Founder- or investor-friendly term sheet templates",
+            tools: "Google Docs, Word, live collaboration",
+          },
+          {
+            serviceLayer: "Negotiation Aid",
+            deliverables:
+              "Clause-by-clause walkthrough with commercial insights",
+            tools: "Checklists, trackers, summary decks",
+          },
+          {
+            serviceLayer: "Cap Table Modeling",
+            deliverables: "Dilution scenarios and equity math validation",
+            tools: "Excel templates, waterfall models",
+          },
+          {
+            serviceLayer: "Legal Coordination",
+            deliverables: "Interface with lawyers for definitive docs",
+            tools: "SHA, SSA drafts, redline reviews",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Binding vs. Non-Binding Provisions",
+        table: [
+          {
+            aspect: "Valuation & Ownership",
+            bookkeeping: "Non-binding",
+            accounting: "Negotiable until final SHA",
+          },
+          {
+            aspect: "Exclusivity & No-Shop",
+            bookkeeping: "Binding",
+            accounting: "Typically 30–60 days",
+          },
+          {
+            aspect: "Confidentiality",
+            bookkeeping: "Binding",
+            accounting: "Survives negotiation and deal failure",
+          },
+          {
+            aspect: "Legal Enforceability",
+            bookkeeping: "Mostly non-binding",
+            accounting: "Final agreements (SHA/SSA) are binding",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Term-Sheet Advisory?",
+        description: [
+          "We simplify the deal process and help founders protect their stake—through expert insights, financial modeling, and legal alignment.",
+        ],
+        points: [
+          "Pre-vetted templates for founders and investors",
+          "Deal structure analysis and board-control planning",
+          "Cap-table, dilution and anti-dilution modeling tools",
+          "Hands-on negotiation support from start to close",
+          "Integrated advisory with legal, CA and due-diligence partners",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is a term sheet legally binding?",
+        answer:
+          "Generally no, except for confidentiality, exclusivity, and governing-law clauses.",
+      },
+      {
+        question: "Who drafts the term sheet?",
+        answer:
+          "Often the lead investor; but founders can also initiate to shape negotiation terms.",
+      },
+      {
+        question: "Can the term sheet be amended later?",
+        answer:
+          "Yes, all terms remain negotiable until definitive agreements are signed.",
+      },
+      {
+        question: "How long does exclusivity last?",
+        answer:
+          "Usually 30–60 days; longer periods may require milestones or break clauses.",
+      },
+      {
+        question: "What’s the total cost to close a deal?",
+        answer:
+          "₹5–30 lakh+ including legal fees and due-diligence—varies by deal size and complexity.",
+      },
+    ],
+  },
+  manufacturing_audit_services: {
+    title: "Manufacturing Audit – DoStartup",
+    description:
+      "Ensure supply-chain reliability and compliance with DoStartup’s Manufacturing Audit Services. Our factory audits validate capacity, quality systems, regulatory compliance and social standards—before costly risks materialise.",
+    overview: [
+      {
+        heading:
+          "Manufacturing Audit — Concise Guide for Supply-Chain Assurance",
+        content:
+          "A manufacturing audit is an on-site, systematic appraisal of a supplier’s facilities, processes and management systems. The audit verifies that the factory can deliver your required quality, capacity, cost, compliance and delivery standards before (or while) you place large orders.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why It Matters",
+        content:
+          "- Risk reduction: Flags quality, safety and ethical red-flags before they disrupt your supply chain\n- Cost & efficiency gains: Identifies process waste, downtime and over-spec materials\n- Regulatory & certification compliance: Confirms adherence to ISO 9001, ISO 45001, local labour laws, environmental norms\n- Supplier qualification: Confirms that new or existing factories have the capacity, equipment and controls promised\n- Continuous improvement: Creates a baseline for corrective-action plans (CAPs) and re-audits",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Typical Audit Scope",
+        description:
+          "- Factory Profile & Ownership: Business licences, export permits, legal standing, GPS location\n- Facilities & Equipment: Building integrity, machine list & maintenance logs, calibration records\n- Production Capability: Line layout, throughput, bottleneck analysis, peak capacity vs. forecast\n- Quality-Management System: Incoming/inline/outgoing QC, defect logs, ISO procedures, traceability\n- Workforce & HR Compliance: Headcount, skill matrix, working hours, wage records, health & safety\n- Environment, Health & Safety (EHS): Fire protection, PPE, hazardous-waste handling, ventilation, noise\n- Supply-Chain & Procurement Controls: Approved-vendor list, raw-material verification, inventory practices\n- Ethical & Social Responsibility (optional): Child labour, discrimination, freedom of association, dormitory review",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Quick Benefits at a Glance",
+        content: [
+          {
+            model: "Capacity Validation",
+            bestFor: "Buyers placing tooling or large-volume orders",
+            scope: "Ensure factory throughput matches demand forecasts",
+          },
+          {
+            model: "Compliance Assurance",
+            bestFor: "Exporters, global buyers",
+            scope: "Verify adherence to legal, safety and environmental norms",
+          },
+          {
+            model: "Cost Control",
+            bestFor: "Procurement & quality teams",
+            scope:
+              "Reduce rework, late-delivery, over-processing and freight premium risks",
+          },
+          {
+            model: "Stakeholder Reporting",
+            bestFor: "Investors, regulators, ESG officers",
+            scope: "Document due-diligence and audit findings with proof",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Audit Checklist (Sample)",
+        content:
+          "- Pre-audit prep: Have we defined critical process risks? Provided advance notice & documents?\n- Opening meeting: Management commitment? Latest production data shared?\n- Shop-floor tour: 5S / housekeeping status? Real-time quality boards?\n- Document review: SOPs current & signed? Corrective-action logs closed?\n- Worker interviews: Overtime within legal limits? PPE training received?\n- Closing meeting: Findings ranked (Major, Minor, Observation)? CAP deadlines agreed?",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup (Corpbiz) Adds Value",
+        content: [
+          {
+            serviceLayer: "Pre-audit Advisory",
+            deliverables:
+              "Risk mapping, customised checklist, audit scheduling",
+            tools: "Audit templates, risk register, stakeholder mapping",
+          },
+          {
+            serviceLayer: "On-site Assessment",
+            deliverables:
+              "ISO-9001-trained auditors, photo evidence, worker interviews",
+            tools: "Camera documentation, checklists, in-field tools",
+          },
+          {
+            serviceLayer: "Comprehensive Report",
+            deliverables:
+              "Scorecard, heat-map of risks, CAP template within 48 hrs",
+            tools: "PDF reports, risk matrix, cloud portal",
+          },
+          {
+            serviceLayer: "Remediation Support",
+            deliverables:
+              "Root-cause analysis, Lean/6σ toolkits, training sessions",
+            tools: "Ishikawa, Pareto, A3 reports",
+          },
+          {
+            serviceLayer: "Optional Add-Ons",
+            deliverables:
+              "Ethical/Social audit, Structural & Fire-safety study, Environmental EIA",
+            tools: "SA8000, SMETA, Fire safety checklist, EHS law compendium",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Process Flow & Timeline",
+        table: [
+          {
+            aspect: "Audit Kick-off",
+            bookkeeping: "Scope & Checklist",
+            accounting: "Client review, pre-audit documents",
+          },
+          {
+            aspect: "Factory Visit",
+            bookkeeping: "1–3 days on-site",
+            accounting: "Includes document review and worker interviews",
+          },
+          {
+            aspect: "Reporting",
+            bookkeeping: "Findings scoring + CAP draft",
+            accounting: "Report issued within 24–48 hours",
+          },
+          {
+            aspect: "Corrective Action",
+            bookkeeping: "Implementation & verification",
+            accounting: "30–60 days for major CAPs, re-audit optional",
+          },
+          {
+            aspect: "Total Cycle",
+            bookkeeping: "2–8 weeks",
+            accounting: "Depends on issue severity and CAP closure",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Manufacturing Audits?",
+        description: [
+          "We offer independent, trained audits that balance cost, compliance and confidence—whether you're onboarding a new vendor or scaling a global supply chain.",
+        ],
+        points: [
+          "ISO/SMETA/EHS-compliant audits across India and SEA",
+          "Customised scope based on risk and spend exposure",
+          "CAP assistance and re-audit verification built-in",
+          "Trained multilingual auditors with real sector experience",
+          "Audit tools, heat-maps and reports in 48 hours or less",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who conducts the audit?",
+        answer:
+          "Internal QC team or third-party specialists like DoStartup for neutrality and expertise.",
+      },
+      {
+        question: "How long does it take?",
+        answer:
+          "Small factory: 1 day; multi-building campus: up to 2 weeks including report.",
+      },
+      {
+        question: "Is it mandatory?",
+        answer:
+          "Not by law, but often required by brand-owner T&Cs, retailer codes, or ISO certification.",
+      },
+      {
+        question: "What if major non-conformities are found?",
+        answer:
+          "Supplier must implement CAP; buyer may pause orders until closure is verified.",
+      },
+      {
+        question: "Can audits be unannounced?",
+        answer:
+          "Yes—common for social & anti-bribery audits to gauge true conditions.",
+      },
+    ],
+  },
+  technical_audit_services: {
+    title: "Technical Audit – DoStartup",
+    description:
+      "Ensure technical reliability and project assurance with DoStartup’s Technical Audit services. We validate vendor capabilities, system compliance, and delivery risk—before you commit to critical work or complex contracts.",
+    overview: [
+      {
+        heading:
+          "Technical Audit — Compact Playbook for Vendor & Project Assurance",
+        content:
+          "A technical audit is an independent, on-site review of a supplier’s (or project’s) engineering, production and quality-control systems. Goal: verify that processes, equipment and people can consistently meet your technical, safety and regulatory requirements — before you entrust them with critical work.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Core Objectives",
+        content:
+          "- Capability: Do the plant, machinery and skills match our specification and capacity forecast?\n- Compliance: Are ISO, regulatory and in-house standards followed?\n- Risk Prevention: What could jeopardise product quality, timelines, safety or IP?\n- Continuous Improvement: Where are the quick wins and long-term upgrades?",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "What a Technical Auditor Does",
+        description:
+          "- Document Study: Drawings, SOPs, maintenance logs, licences.\n- On-site Inspection: Production lines, labs, utilities, EHS safeguards.\n- Personnel Interviews: Engineers, QA, operators, management.\n- Sampling & Testing: Spot-check incoming/raw, WIP and finished goods.\n- Gap Rating & CAP Creation: Classify findings (Critical / Major / Minor) and propose corrective-action plan.\n- Follow-up: Verify implementation and measure improvement KPIs.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Audit Focus Zones",
+        content: [
+          {
+            model: "Design & Planning",
+            bestFor: "OEMs, EPCs, project developers",
+            scope:
+              "Requirement specs, feasibility, QA plan, vendor selection criteria",
+          },
+          {
+            model: "Procurement",
+            bestFor: "Contract managers, buyers",
+            scope: "Bid evaluation fairness, material pedigree, contract terms",
+          },
+          {
+            model: "Implementation",
+            bestFor: "Project execution teams",
+            scope: "Milestone progress, change-control, acceptance tests",
+          },
+          {
+            model: "Post-Go-Live Impact",
+            bestFor: "QA and operations heads",
+            scope: "KPI uplift, cost/performance targets, O&M readiness",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Tangible Benefits",
+        content:
+          "- Confirms supplier competence — capacity, technology, workforce\n- Reduces hidden costs — catches design flaws and process waste early\n- Strengthens compliance shield — safety, environmental, labour laws\n- Drives process optimisation — data reveal bottlenecks and training gaps\n- Enhances brand reputation — shows investors and customers proactive governance",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "DoStartup (Corpbiz) Technical-Audit Suite",
+        content: [
+          {
+            serviceLayer: "Factory Capability Review",
+            deliverables:
+              "Factory profile, equipment list, capacity analysis, org chart",
+            tools: "Machine logs, utility analysis, floorplan study",
+          },
+          {
+            serviceLayer: "Quality-System Deep-Dive",
+            deliverables:
+              "ISO 9001 gap check, QC flow, inspection records, traceability",
+            tools: "Checklists, SOP scorecards, NCR logs",
+          },
+          {
+            serviceLayer: "EHS & Social Compliance",
+            deliverables:
+              "Fire safety, structural integrity, labour-law adherence",
+            tools: "Audit templates, visual inspections, legal references",
+          },
+          {
+            serviceLayer: "Procurement & Supply-Chain Check",
+            deliverables:
+              "Approved-vendor list, raw-material controls, inventory turns",
+            tools: "GRN logs, vendor KPIs, BOM traceability",
+          },
+          {
+            serviceLayer: "Data-Driven Report (≤72 h)",
+            deliverables:
+              "Risk scorecard, photos, root-cause analysis, prioritised CAP",
+            tools: "PDF report, heatmap, CAP matrix",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Why Outsource to a Third-Party Auditor",
+        table: [
+          {
+            aspect: "Audit Quality",
+            bookkeeping: "Potential blind spots; cultural bias",
+            accounting: "Fresh eyes, cross-industry benchmarks",
+          },
+          {
+            aspect: "Feedback Objectivity",
+            bookkeeping: "May hesitate to challenge past decisions",
+            accounting: "Independent, candid feedback",
+          },
+          {
+            aspect: "Operational Burden",
+            bookkeeping: "Added burden on staff schedules",
+            accounting: "Specialist team with fixed timeline",
+          },
+          {
+            aspect: "Knowledge Transfer",
+            bookkeeping: "Limited exposure to global best practices",
+            accounting: "Brings proven templates & CAP libraries",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Technical Audits?",
+        description: [
+          "We combine engineering expertise with quality frameworks to validate suppliers, flag hidden risks, and accelerate corrective actions.",
+        ],
+        points: [
+          "Certified auditors with 10+ years across manufacturing verticals",
+          "Detailed technical + compliance risk matrix with scorecards",
+          "Report and CAP delivery within 72 hours",
+          "On-ground audits pan India & SEA with sector-specific checklists",
+          "Add-on modules for social, fire-safety and EHS verification",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How long does a technical audit take?",
+        answer: "1 day to 2 weeks, depending on plant size and scope.",
+      },
+      {
+        question: "Who needs one?",
+        answer:
+          "OEMs, EPC projects, importers, investors, or any firm onboarding a new critical supplier.",
+      },
+      {
+        question: "Is it mandatory?",
+        answer:
+          "Not legally, but often required by customer quality agreements, ISO certification or investor due-diligence.",
+      },
+      {
+        question: "What if major gaps are found?",
+        answer:
+          "Supplier must implement CAP; buyer may withhold PO release until closure is verified.",
+      },
+      {
+        question: "Can we add social or structural checks?",
+        answer:
+          "Yes — ethical, environmental and building-safety add-ons are available.",
+      },
+    ],
+  },
+  m2m_registration_services: {
+    title: "M2M Communications Registration – DoStartup",
+    description:
+      "Launch your IoT-enabled service with full legal clearance via DoStartup’s M2M Registration Service. We help service providers get licensed through the DoT’s Saral Sanchar portal under India’s Digital Communications Policy.",
+    overview: [
+      {
+        heading:
+          "M2M Communications Registration — Quick Reference for Service Providers",
+        content:
+          "Under India’s National Digital Communications Policy 2018, every Machine-to-Machine (M2M) service provider must obtain registration through the DoT 'Saral Sanchar' portal. Registration validates your right to deploy SIM-based, LAN-based or LPWAN (LoRa, Sigfox, NB-IoT) solutions and ensures accountability for security, KYC and quality-of-service.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Register?",
+        content:
+          "- Enables lawful deployment of SIM-based, LAN-based or LPWAN devices.\n- Mandatory for IoT solution providers under DoT guidelines.\n- Ensures compliance with security, lawful interception and QoS.\n- Strengthens credibility when working with government or enterprise clients.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Key Compliance Checklist",
+        description:
+          "- General: Notify DoT of partner/AoA/MoA changes within 30 days; update IT-core location changes within 15 days.\n- Technical: Source telecom resources only from licensed TSPs; follow DoT KYC for SIM/numbering; keep device & custodian logs.\n- Quality of Service: Adhere to TRAI QoS metrics for latency, uptime etc.\n- Security: Use TEC-approved gear; retain tamper-proof system logs; decrypt data on lawful request; comply with IT Act 2000 & Telegraph Rules 2017.\n- Interference / Border Zones: Additional DoT nod required before commissioning near international borders.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Registration Flavours & Categories",
+        content: [
+          {
+            model: "M2MSP",
+            bestFor:
+              "Firms offering SIM-/LAN-based connectivity & platform services",
+            scope: "2G/3G/4G SIMs, Wi-Fi, Ethernet",
+          },
+          {
+            model: "UL / UL-VNO (M2M)",
+            bestFor: "LPWAN network builders (LoRa, NB-IoT, Sigfox)",
+            scope: "End-to-end private or shared LPWAN networks",
+          },
+        ],
+      },
+      {
+        heading: "Service Area Categories",
+        content: [
+          {
+            model: "Category A",
+            bestFor: "Pan-India roll-outs",
+            scope: "Nationwide smart meters, fleet tracking etc.",
+          },
+          {
+            model: "Category B",
+            bestFor: "State or metro projects",
+            scope: "Urban traffic networks, state-wide SCADA",
+          },
+          {
+            model: "Category C",
+            bestFor: "District/SSA deployments",
+            scope: "Agri-tech sensors, small-town IoT setups",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Basic Eligibility",
+        content:
+          "- Company incorporated under Companies Act 2013, or\n- LLP under LLP Act 2008, or\n- Partnership firm\n- (Start-ups generally incorporate before applying)",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers",
+        content: [
+          {
+            serviceLayer: "Pre-Filing Prep",
+            deliverables: "Checklist, eligibility review, document collation",
+            tools: "MoA/AoA scanner, legal templates, ID verification",
+          },
+          {
+            serviceLayer: "Portal Filing",
+            deliverables: "Online form fill-up, document upload, DSC e-sign",
+            tools: "Saral Sanchar portal, Class-3 DSC integration",
+          },
+          {
+            serviceLayer: "Scrutiny Handling",
+            deliverables:
+              "Query response, TERM coordination, site-visit support",
+            tools: "DoT workflow access, officer liaison",
+          },
+          {
+            serviceLayer: "Certificate Grant",
+            deliverables: "Digitally signed registration license",
+            tools: "Saral Sanchar digital download system",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "M2MSP vs UL-VNO Registration Snapshot",
+        table: [
+          {
+            aspect: "Scope",
+            bookkeeping: "SIM-based M2M platform operators",
+            accounting: "LPWAN builders & infrastructure deployers",
+          },
+          {
+            aspect: "Network",
+            bookkeeping: "Public telecom networks",
+            accounting: "Private or shared LPWAN infrastructure",
+          },
+          {
+            aspect: "Tech Involved",
+            bookkeeping: "2G/3G/4G SIMs, Wi-Fi, Ethernet",
+            accounting: "LoRa, Sigfox, NB-IoT, custom LPWAN",
+          },
+          {
+            aspect: "Example Use Case",
+            bookkeeping: "Fleet tracking platforms",
+            accounting: "Smart water meters via LoRa",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for M2M Licensing?",
+        description: [
+          "We simplify the complex DoT Saral Sanchar process with hands-on guidance and deep regulatory expertise.",
+        ],
+        points: [
+          "Handled 500+ successful telecom applications",
+          "Fast-tracked document review and compliance checks",
+          "Direct liaison with TERM cells across all states",
+          "End-to-end digital filing—no physical visits needed",
+          "Specialised desk for border-area, LPWAN and VNO filings",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is physical document submission needed?",
+        answer:
+          "No—entire process is digital on Saral Sanchar; however, originals may be reviewed during site visits.",
+      },
+      {
+        question: "Can I deploy in border areas?",
+        answer:
+          "Only after receiving additional clearance from DoT and security agencies.",
+      },
+      {
+        question: "Can I surrender my registration?",
+        answer:
+          "Yes—submit a 30-day notice on the portal and settle all obligations.",
+      },
+      {
+        question: "What’s the validity period?",
+        answer: "10 years; renewable 6 months before expiry.",
+      },
+      {
+        question: "How long does the registration take?",
+        answer:
+          "Typically 30–45 days, assuming all queries are responded to promptly.",
+      },
+    ],
+  },
+  factory_sanitation_audit_services: {
+    title: "Factory Sanitation Audit – DoStartup",
+    description:
+      "Ensure a safe, hygienic workplace and build customer trust with DoStartup’s Factory Sanitation Audit. Our expert-led hygiene checks help your facility meet ISO, WHO, and brand compliance standards.",
+    overview: [
+      {
+        heading:
+          "Factory Sanitation Audit — Pocket Guide for Safe, Hygienic Production",
+        content:
+          "A factory-sanitation audit is a third-party, on-site review that confirms workplaces meet rigorous hygiene, cleaning and disease-prevention standards. It assures buyers, brands and regulators that your facility can operate safely—even amid pandemics—without disrupting supply chains.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Bother?",
+        content:
+          "- Regulatory compliance: Verifies adherence to local/EU/FDA/ISO hygiene rules.\n- Worker well-being: Confirms safe canteens, restrooms, PPE and emergency protocols.\n- Business continuity: Minimises Covid-19 or flu outbreaks that could halt production.\n- Brand assurance: Provides evidence to customers & retailers that social-hygiene standards are in place.\n- Benchmarking: Reveals gaps vs. industry best practice; fuels continuous improvement.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Core Audit Pillars",
+        description:
+          "- Factory-wide Cleanliness: Floors, walls, ceilings, air-handling, waste zones.\n- Process & Equipment Hygiene: Sanitation SOPs, chemical use, cleaning records.\n- Worker Health & Safety: PPE, hand-washing stations, illness-reporting, distancing.\n- Communal Areas: Canteens, locker rooms, toilets, drinking-water points.\n- Epidemic Preparedness: Temperature checks, isolation rooms, visitor logs, traceability.\n- Emergency Measures: First-aid kits, evacuation plans, incident reporting.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Corpbiz Audit Package",
+        content: [
+          {
+            model: "On-Site Hygiene Audit",
+            bestFor: "Factories needing documented hygiene assurance",
+            scope: "150-point checklist, photo evidence, risk rating",
+          },
+          {
+            model: "Health & Safety Survey",
+            bestFor: "Worker-focused hygiene validation",
+            scope:
+              "Anonymous worker questionnaire on wages, OT, Covid protocols",
+          },
+          {
+            model: "Management Impact Review",
+            bestFor: "Top-level productivity and disruption review",
+            scope: "Assessment of productivity, labour-shortage, order backlog",
+          },
+          {
+            model: "CAP & Retest",
+            bestFor:
+              "Facilities with hygiene issues flagged during initial audit",
+            scope:
+              "Prioritised corrective-action plan + re-audit/desktop verification",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Common Red-Flag Areas",
+        content:
+          "- Master Sanitation Schedule: Missing records for non-routine tasks (HVAC, ceilings).\n- Plant Environment: Neglected perimeter zones; poor pest control; cluttered aisles.\n- Chemical Handling: Unlabelled containers; improper dilution logs.\n- Shared Facilities: Infrequent toilet cleaning; no soap/PPE restock.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers",
+        content: [
+          {
+            serviceLayer: "Pre-Audit Coordination",
+            deliverables:
+              "Document checklist, factory layout, advance guidance",
+            tools: "Email templates, intake forms, scheduling tools",
+          },
+          {
+            serviceLayer: "On-Site Walkthrough",
+            deliverables: "Photo evidence, interviews, hygiene scorecard",
+            tools: "Tablets, survey apps, scoring framework",
+          },
+          {
+            serviceLayer: "Report Generation",
+            deliverables:
+              "Risk categorisation, audit report, CAP within 72 hrs",
+            tools: "PDF generator, visual heatmap, summary decks",
+          },
+          {
+            serviceLayer: "Follow-Up & Re-Audit",
+            deliverables: "Corrective-action implementation verification",
+            tools: "Desktop or physical re-audit with CAP tracker",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Worker Impact vs. Management Assessment",
+        table: [
+          {
+            aspect: "Lens",
+            bookkeeping: "Worker Impact Survey",
+            accounting: "Management Assessment",
+          },
+          {
+            aspect: "Focus",
+            bookkeeping:
+              "On-ground compliance: PPE, illness disclosure, facilities",
+            accounting:
+              "Operational impact: absenteeism, backlog, ramp-up readiness",
+          },
+          {
+            aspect: "Method",
+            bookkeeping: "Anonymous questionnaires",
+            accounting: "Managerial interviews, data capture",
+          },
+          {
+            aspect: "Outcome",
+            bookkeeping: "Employee wellbeing metrics",
+            accounting: "Crisis recovery and compliance score",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Sanitation Audits?",
+        description: [
+          "We combine ISO-trained auditors with real-time scoring tools to deliver fast, objective hygiene validations.",
+        ],
+        points: [
+          "Auditors trained in ISO 45001, ISO 22000, and WHO standards",
+          "Audit reports delivered within 72 hours",
+          "Special focus on Covid-19 risk mitigation & compliance",
+          "CAP guidance and re-audit options available",
+          "Track record with global buyers and sourcing agents",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Why do I need a sanitation audit?",
+        answer:
+          "To prove safe conditions, cut outbreak risk and meet buyer/brand codes of conduct.",
+      },
+      {
+        question: "Who performs it?",
+        answer:
+          "Qualified EHS auditors; DoStartup deploys ISO-trained professionals.",
+      },
+      {
+        question: "How long does it take?",
+        answer: "One work-shift for most plants; report ready within 72 hours.",
+      },
+      {
+        question: "Is it mandatory?",
+        answer:
+          "Often required by international retailers or CSR programmes, though not always by law.",
+      },
+      {
+        question: "What if critical issues arise?",
+        answer:
+          "A corrective-action plan must be closed; buyers may pause orders until verified.",
+      },
+    ],
+  },
+  ethical_audit_services: {
+    title: "Ethical Audit Services – DoStartup",
+    description:
+      "Strengthen your company’s reputation and risk profile with DoStartup’s Ethical Audit Services. Our expert-led audits help validate ethical conduct, ESG claims, and social compliance across your operations and supply chains.",
+    overview: [
+      {
+        heading:
+          "Ethical Audit — Rapid Guide to Building a Values-Driven Organisation",
+        content:
+          "An ethical audit is an independent review of a company’s policies, systems and behaviours to verify whether day-to-day operations honour its own code of conduct and recognised external standards (labour, human-rights, anti-bribery, environmental). Unlike traditional audits that focus on numbers, ethical audits test culture and conduct.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Run an Ethical Audit?",
+        content:
+          "- Detect hidden misconduct: Uncovers wage violations, unsafe conditions, bribery, discrimination.\n- Validate culture claims: Confirms the company “walks the talk” of its value statement.\n- Strengthen stakeholder trust: Investors, regulators and customers demand ESG proof.\n- Drive continuous improvement: Findings become the roadmap for updated training, policies and controls.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "What Auditors Examine",
+        description:
+          "- Labour practices: Working hours, wages, child / forced labour, freedom of association\n- Health & safety: PPE, hazard controls, accident logs, emergency drills\n- Environment: Waste handling, emissions, spill response\n- Governance: Conflict-of-interest declarations, anti-corruption controls, tender processes\n- Data/privacy: IT access logs, breach response, GDPR/IT Act compliance\n- Community: Impact on local stakeholders, grievance mechanisms",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Corpbiz Ethical-Audit Offering",
+        content: [
+          {
+            model: "Pre-audit Scoping",
+            bestFor: "Custom audits aligned to your industry standards",
+            scope:
+              "Custom checklist aligned to ISO 9001, SA 8000, SMETA, or client code",
+          },
+          {
+            model: "On-site Assessment",
+            bestFor: "Mid-large factories or multi-location suppliers",
+            scope:
+              "GPS-verified factory tour, doc review, individual & group worker interviews",
+          },
+          {
+            model: "Scorecard & CAP",
+            bestFor: "Enterprises requiring measurable improvement",
+            scope:
+              "Risk grading (Critical / Major / Minor) + 30/60/90-day corrective-action plan",
+          },
+          {
+            model: "Training & Workshops",
+            bestFor: "Employee capacity-building",
+            scope:
+              "On-site or remote ethics refreshers for managers and line workers",
+          },
+          {
+            model: "Follow-up",
+            bestFor: "Compliance verification",
+            scope: "Phone/desktop verification or re-audit to close CAP items",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Detecting Unethical Practices",
+        content:
+          "- Metric-based KPIs: Safety incidents, overtime spikes, whistle-blower trends.\n- Surprise audits & mystery interviews: Expose coaching or paper-compliance.\n- Cross-functional audit team: HR + Legal + Compliance + External specialist.\n- Voice-stress / consistency checks: During worker interviews.\n- Benchmarking: Compare units, suppliers and industry peer data.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers",
+        content: [
+          {
+            serviceLayer: "Documentation Review",
+            deliverables: "Policy validation, training logs, grievance records",
+            tools: "ISO templates, compliance trackers",
+          },
+          {
+            serviceLayer: "On-site Observations",
+            deliverables:
+              "Workplace walkthroughs, PPE checks, signage validation",
+            tools: "Camera tools, visual checklists",
+          },
+          {
+            serviceLayer: "Interviews & Triangulation",
+            deliverables:
+              "Worker interviews cross-verified with documents and systems",
+            tools: "Audio recordings, payslip/timecard/CCTV matching",
+          },
+          {
+            serviceLayer: "CAP & Verification",
+            deliverables: "Risk-mapped plan with 30-60-90 day actions",
+            tools: "CAP templates, re-audit forms",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "9-Step Framework to Embed an Ethical Culture",
+        table: [
+          {
+            aspect: "Step",
+            bookkeeping: "Define Core Values",
+            accounting: "e.g., integrity, respect, safety, diversity",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Risk Assessment",
+            accounting:
+              "Identify high-exposure areas (bribery, harassment, data privacy)",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Speak-Up Channels",
+            accounting:
+              "Confidential hotline, whistle-blower email; zero-retaliation pledge",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Audit & Evaluation",
+            accounting: "Internal/external audits, pulse surveys, focus groups",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Tone at the Top",
+            accounting:
+              "CEO messages, ethics committee, direct board oversight",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Ethical Audits?",
+        description: [
+          "DoStartup helps you prove your ethical credibility with expert-led audits, robust CAPs, and custom-built training programs.",
+        ],
+        points: [
+          "Auditors trained in SA 8000, ISO 9001, and SMETA standards",
+          "72-hour audit report turnaround time",
+          "Multi-industry experience: apparel, electronics, agro, pharma, logistics",
+          "Culturally sensitive and multilingual interviewers",
+          "Corrective Action Plan (CAP) closure assistance included",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How long does an ethical audit take?",
+        answer:
+          "1–3 days on site, depending on plant size; report in 72 hours.",
+      },
+      {
+        question: "Internal vs. external audit?",
+        answer:
+          "External brings objectivity, industry benchmarks, and credibility.",
+      },
+      {
+        question: "Is it mandatory?",
+        answer:
+          "Often required by global buyers, ESG investors and CSR codes; not usually by statute.",
+      },
+      {
+        question: "What if major non-conformities appear?",
+        answer:
+          "Management implements CAP; DoStartup verifies closure; buyers may pause sourcing until resolved.",
+      },
+      {
+        question: "How often should we audit?",
+        answer:
+          "High-risk sites annually; others every 24–36 months or when red flags arise.",
+      },
+    ],
+  },
+  insurance_audit_services: {
+    title: "Insurance Audit Services – DoStartup",
+    description:
+      "Ensure financial transparency, regulatory compliance, and operational efficiency with DoStartup’s Insurance Audit Services—tailored for life, non-life, and health insurers across India.",
+    overview: [
+      {
+        heading: "Insurance Audit — Fast Reference for Indian Insurers",
+        content:
+          "Insurance audits are mandatory annual examinations of an insurer’s financials, operations, and compliance with IRDAI and Companies Act regulations. The audit helps verify proper premium accounting, claim provisioning, investment adherence, and solvency assurance.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why an Insurance Audit Matters",
+        content:
+          "- Legal compliance: Mandated under Insurance Act 1938 §12 and IRDAI norms.\n- Financial integrity: Verifies solvency, reserves, premium and claim accuracy.\n- Governance assurance: Supports Audit Committee oversight, statutory filings.\n- Operational accuracy: Aligns system-generated data with GL and policy admin modules.\n- Investor trust: Enhances transparency for foreign and domestic shareholders.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Audit Scope – Key Verification Areas",
+        description:
+          "- Premium income: Section 64VB compliance, KYC, cover-note series, GST linkage.\n- Claims: Reserve adequacy, surveyor reports, co-insurance splits, recoveries.\n- Commissions: Rate limits, TDS deductions, period cutoff, agent ledger tie-ups.\n- Operating expenses: Compliance with 1% cap, allocation accuracy.\n- Investments: Approved securities check, board ratification, exposure limits.\n- Cash & bank: Reconciliation, deposit terms, dual-signatory process.\n- Agents & premiums: Outstanding ageing, recovery provision, system matching.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Audit Actors & Governance Bodies",
+        content: [
+          {
+            model: "Statutory Auditor",
+            bestFor: "Primary audit responsibility for insurer accounts",
+            scope:
+              "Appointed at AGM (post C&AG nod for public insurers); max 3 audits concurrently",
+          },
+          {
+            model: "Branch Auditors",
+            bestFor: "Large insurers with multiple divisional offices",
+            scope:
+              "Certify trial balances; coordinate with statutory audit teams",
+          },
+          {
+            model: "Audit Committee (Sec 177)",
+            bestFor: "Oversight of audit, financials, control gaps",
+            scope:
+              "≥3 directors, majority independent; must include finance/audit expert",
+          },
+          {
+            model: "Mandatory Committees",
+            bestFor: "Internal governance and board compliance",
+            scope:
+              "Includes Investment, Risk, NRC, CSR, Policyholder Protection, Profits",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Consider Outsourcing Audit Coordination?",
+        content:
+          "- Your internal team lacks actuarial or risk-management bandwidth.\n- Coordinating multiple branch auditors becomes time-consuming.\n- You need help reconciling policy-admin and accounting systems.\n- IRDAI submissions or Board reports require refinement or structuring.\n- Pre-audit or interim audit support needed ahead of FY close.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers",
+        content: [
+          {
+            serviceLayer: "Pre-Audit Preparation",
+            deliverables:
+              "Checklist alignment, trial balance extraction, document index setup",
+            tools: "Audit workpapers, GL-scan tools, policy-admin data map",
+          },
+          {
+            serviceLayer: "Fieldwork Execution",
+            deliverables: "Premium, claim, investment, and expense sampling",
+            tools:
+              "IRDAI templates, actuarial projection sheets, sampling engine",
+          },
+          {
+            serviceLayer: "Branch Coordination",
+            deliverables:
+              "Branch report aggregation and statutory auditor inputs",
+            tools: "Email tracking dashboards, SLA timelines",
+          },
+          {
+            serviceLayer: "Final Report Support",
+            deliverables:
+              "Board audit pack, IRDAI submission file, C&AG compliance",
+            tools: "PDF audit binder, Excel macros for tie-outs",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Typical Audit Workflow – Annual Statutory Audit",
+        table: [
+          {
+            aspect: "Step",
+            bookkeeping: "Engagement & Planning",
+            accounting: "Define scope, team, and request initial data extract",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Data Download",
+            accounting: "Pull from policy-admin systems, GL, subledgers",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Fieldwork",
+            accounting: "Tests on premium, claims, commissions, investments",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Branch Consolidation",
+            accounting: "Pull certified reports to HO for review",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Statutory Finalization",
+            accounting: "Wrap-up report, C&AG review, Board sign-off",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Insurance Audits?",
+        description: [
+          "DoStartup combines audit expertise with actuarial and regulatory knowledge to deliver complete support across India’s insurance audit lifecycle.",
+        ],
+        points: [
+          "Cross-functional teams covering finance, actuarial, and IRDAI norms",
+          "Experience with life, non-life, and health insurance audits",
+          "Support for internal, statutory, and branch-audit workflows",
+          "Fast turnaround on C&AG-facing queries and filings",
+          "Digitized workpapers and dashboards for multi-branch coordination",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Who appoints auditors?",
+        answer:
+          "Shareholders at AGM; public insurers need C&AG nod; removal requires IRDAI approval.",
+      },
+      {
+        question: "Premium audit vs. statutory audit?",
+        answer:
+          "Premium audit is an internal check on underwriting; statutory audit covers full financials including claims, reserves, and solvency.",
+      },
+      {
+        question: "How long does the audit take?",
+        answer:
+          "Large insurers may take 8–12 weeks post-March 31 close, especially with multiple branches.",
+      },
+      {
+        question: "What about auto-insurance?",
+        answer:
+          "Audit includes checks on IDV calculation, rating compliance, IBNR provisioning, and claim patterns in third-party motor portfolios.",
+      },
+      {
+        question: "Is audit mandatory every year?",
+        answer:
+          "Yes—under Insurance Act §12, every Indian insurer must undergo statutory audit annually.",
+      },
+    ],
+  },
+  aif_license_registration: {
+    title: "AIF License Registration – DoStartup",
+    description:
+      "Navigate the complex world of Alternative Investment Fund (AIF) licensing with DoStartup’s expert-driven registration services. From structuring to SEBI compliance, we deliver seamless fund setup for HNIs and institutional investors.",
+    overview: [
+      {
+        heading: "AIF Registration – Gateway to Private Fund Opportunities",
+        content:
+          "Alternative Investment Funds (AIFs) offer access to high-yield, non-traditional investments like venture capital, private equity, hedge funds, and real estate. Regulated by SEBI under the AIF Regulations, 2012, AIFs are ideal for domestic and international HNIs seeking portfolio diversification.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Register an AIF?",
+        content:
+          "- High-return potential from exclusive assets like startups, real estate, and PE.\n - Risk diversification via sophisticated, multi-asset strategies\n- Flexibility in structuring and leverage for advanced investment play\n -Access to early-stage and pre-IPO investments\n -Regulatory recognition and investor confidence.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Key AIF Registration Structures & Categories",
+        description:
+          "- Structures: Trust (Trust Act 1882), Company (Companies Act 2013), LLP (LLP Act 2008). \n- Categories: \n- Category I: Startup-focused, social enterprises, SME & infra funds. \n- Category II: Private equity, debt, fund-of-funds. \n- Category III: Hedge funds using leverage, derivatives, arbitrage.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Legal & Operational Requirements",
+        content: [
+          {
+            model: "Eligibility Criteria",
+            bestFor: "Trusts, LLPs, Companies, or Body Corporates",
+            scope:
+              "Private placement only, clear investment strategy, qualified management team (CA/CFA/NISM certified), 500+ sq ft office, IT infra.",
+          },
+          {
+            model: "Corpus & Contribution",
+            bestFor: "Category I/II/III AIF sponsors",
+            scope:
+              "Min INR 10 Cr (Cat I/II), INR 20 Cr (Cat III); sponsor/fund manager to contribute 2.5% or threshold amount.",
+          },
+          {
+            model: "Foreign Investment",
+            bestFor: "Global investors, outbound fund vehicles",
+            scope:
+              "100% FDI allowed; AIFs can invest globally subject to RBI/SEBI norms.",
+          },
+          {
+            model: "Tax Structure",
+            bestFor: "Investors in Cat I/II/III",
+            scope:
+              "Pass-through for Cat I/II; fund-level tax for Cat III (10–30%).",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Consider AIF Registration Assistance?",
+        content:
+          "- You’re a first-time fund sponsor. \n- SEBI filings and documentation seem overwhelming.\n- You require support in structuring Trusts/LLPs with AIF clauses.\n- You want clarity on FDI compliance and leverage usage.\\n- Application tracking and SEBI liaisoning is time-sensitive.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers AIF Licensing",
+        content: [
+          {
+            serviceLayer: "Pre-Application Advisory",
+            deliverables:
+              "Legal structure analysis, Trust/LLP setup, investment strategy documentation",
+            tools:
+              "AIF clause templates, SEBI checklist, private placement memo toolkit",
+          },
+          {
+            serviceLayer: "Application Submission",
+            deliverables:
+              "Form A filing with SEBI, sponsor/manager profiles, PPM drafts",
+            tools:
+              "SEBI portal filing, investment team KYC pack, MoA/Deed validators",
+          },
+          {
+            serviceLayer: "Compliance Coordination",
+            deliverables:
+              "Post-registration filings, investor documentation, AIF launch support",
+            tools:
+              "Compliance calendar, investor register formats, NAV disclosure templates",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Category-wise AIF Snapshot",
+        table: [
+          {
+            aspect: "Category",
+            bookkeeping: "Category I",
+            accounting:
+              "Startups, social ventures, infra, SME; min corpus: INR 10 Cr",
+          },
+          {
+            aspect: "Category",
+            bookkeeping: "Category II",
+            accounting:
+              "PE, Debt, Fund of Funds; no leverage except for operations",
+          },
+          {
+            aspect: "Category",
+            bookkeeping: "Category III",
+            accounting: "Hedge funds, derivatives, arbitrage; leverage allowed",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for AIF Licensing?",
+        description: [
+          "With over 400 successful AIF registrations and a 99% success rate, DoStartup is the go-to partner for efficient, compliant, and expert AIF setup in India.",
+        ],
+        points: [
+          "Deep SEBI regulatory knowledge and compliance support",
+          "Tailored structuring for Trusts, LLPs, and Companies",
+          "Streamlined documentation and application filing",
+          "End-to-end support from application to SEBI approval",
+          "24/7 advisory for compliance, FDI, leverage, and fund operations",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is an AIF?",
+        answer:
+          "A privately pooled investment vehicle collecting funds from investors for sophisticated, high-return strategies.",
+      },
+      {
+        question: "Who regulates AIFs in India?",
+        answer:
+          "SEBI under the SEBI (Alternative Investment Funds) Regulations, 2012.",
+      },
+      {
+        question: "What’s the minimum investment required?",
+        answer:
+          "INR 1 crore for most AIFs; INR 25 lakhs for Angel Funds and AIF employees.",
+      },
+      {
+        question: "Can AIFs invest globally?",
+        answer: "Yes—subject to RBI and SEBI rules for overseas investments.",
+      },
+      {
+        question: "How long is the AIF license valid?",
+        answer:
+          "For the lifetime of the fund. Close-ended AIFs may extend tenure with 2/3rd investor approval.",
+      },
+    ],
+  },
+  fractional_cfo_services: {
+    title: "Fractional CFO Services – DoStartup",
+    description:
+      "Gain world-class financial leadership without the full-time cost. DoStartup’s Fractional CFO Services provide high-growth businesses with strategic finance support, cash-flow discipline, and investor-ready insights—at a startup-friendly budget.",
+    overview: [
+      {
+        heading: "Fractional CFO — Quick Guide for High-Growth Businesses",
+        content:
+          "A Fractional CFO is an outsourced, part-time finance executive engaged to manage budgets, funding, compliance, and board reporting—ideal for scaling companies that need CFO expertise without a ₹60–80 lakh annual commitment.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Advantages for Startups & SMEs",
+        content:
+          "- Cost-efficient: Pay for only 15–25 hours/month.\n- Budget discipline: Fixes cash leaks, enforces spending guardrails.\n- Profit booster: Optimises margins, cost structure, pricing.\n- KPI cockpit: Real-time dashboards for founders and investors.\n- Risk radar: Proactive compliance, funding, and tax alerts.\n- Investor magnet: Polished decks, VDR setup, pitch rehearsals.\n- Scalable systems: ERP selection, control design, team training.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Typical Mandate Menu",
+        description:
+          "- FP&A: 12-month budgets, 3-statement model, variance drilldowns\n- Cash-flow: Weekly forecast, burn-rate control\n- Strategic Finance: Equity/debt strategy, M&A screening\n- Fundraise Support: Deck prep, due diligence, investor connect\n- Board Reporting: Dashboards, covenant tracking, insights pack\n- Systems: ERP/processes setup, internal controls\n- Compliance: GST, TDS, PF, insurance, policy audit",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Fractional vs. Full-Time CFO — Comparison",
+        content: [
+          {
+            model: "Status",
+            fractional: "Part-time / contract-based",
+            full_time: "Full-time employee",
+          },
+          {
+            model: "Cost",
+            fractional: "₹0.5–2 lakh/month",
+            full_time: "₹50+ lakh CTC/year + perks",
+          },
+          {
+            model: "Hiring Lead Time",
+            fractional: "1–2 weeks",
+            full_time: "2–4 months",
+          },
+          {
+            model: "Flexibility",
+            fractional: "Hours scale with business needs",
+            full_time: "Fixed 40-hour/week",
+          },
+          {
+            model: "Risk",
+            fractional: "Low-risk (contractual, easy exit)",
+            full_time: "High (costly mis-hire)",
+          },
+          {
+            model: "Network Leverage",
+            fractional: "Cross-industry insights from other clients",
+            full_time: "Limited external exposure",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Engage a Fractional CFO?",
+        content:
+          "- Runway under 12 months and burn visibility unclear.\n- Fundraising prep for Series A or B.\n- Founders bogged down in finance admin and MIS.\n- Strategic events: M&A, product pivot, market expansion.\n- Need for investor-ready decks and board packs without full-time CFO cost.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "DoStartup’s CFO Engagement Workflow",
+        content: [
+          {
+            serviceLayer: "Discovery Call",
+            deliverables: "Understand needs, identify KPIs, choose scope",
+            tools: "CFO Questionnaire, current finance stack scan",
+          },
+          {
+            serviceLayer: "Onboarding",
+            deliverables: "15–25 hour/month model, team & access setup",
+            tools: "Retainer contract, reporting calendar, priority map",
+          },
+          {
+            serviceLayer: "Execution",
+            deliverables: "Monthly dashboards, strategy calls, review packs",
+            tools: "3-way financial model, investor pack, MIS tracker",
+          },
+          {
+            serviceLayer: "Reporting",
+            deliverables: "Flash dashboards, commentary, investor updates",
+            tools: "Board decks, dataroom setup, pitch feedback",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Cost Benchmarks (India)",
+        table: [
+          {
+            aspect: "Hourly (short-term)",
+            accounting: "₹3,000 – ₹8,000/hour",
+          },
+          {
+            aspect: "Monthly Retainer (15–25 hrs)",
+            accounting: "₹50,000 – ₹2,00,000",
+          },
+          {
+            aspect: "Project Basis (e.g., Fundraise, ERP)",
+            accounting: "Custom quote",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Fractional CFO Services?",
+        description: [
+          "DoStartup connects you with ex-Big 4 CFOs and startup veterans who bring proven frameworks, strategic thinking, and agile support for your business journey.",
+        ],
+        points: [
+          "Google-verified firm with pan-India footprint",
+          "Bench of CFOs across SaaS, D2C, Fintech, Manufacturing, etc.",
+          "Dedicated onboarding manager",
+          "Modular scope: bookkeeping → MIS → fundraising",
+          "Industry-ready pitch deck and dataroom templates",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What’s the minimum engagement?",
+        answer:
+          "Typically 15 hours/month; custom lower/higher models available.",
+      },
+      {
+        question: "How fast can a CFO start?",
+        answer: "Within 7–10 days, post scope finalisation and documentation.",
+      },
+      {
+        question: "Do you offer investor introductions?",
+        answer:
+          "Yes—our network spans angels, VCs, family offices, and debt lenders.",
+      },
+      {
+        question: "Can I hire full-time later?",
+        answer:
+          "Yes—your fractional CFO can help you hire and train their full-time successor.",
+      },
+      {
+        question: "Can one CFO serve multiple entities?",
+        answer:
+          "Yes—ideal for group structures, JV support or regional roll-outs.",
+      },
+    ],
+  },
+  mergers_and_acquisitions: {
+    title: "Mergers and Acquisitions – DoStartup",
+    description:
+      "Expand strategically with expert-led M&A support. DoStartup simplifies complex mergers, acquisitions, and joint ventures with full legal, financial, and regulatory assistance.",
+    overview: [
+      {
+        heading: "Overview of Mergers and Acquisitions",
+        content:
+          "Mergers and Acquisitions (M&A) are corporate strategies aimed at expanding market presence, improving efficiency, and enhancing competitiveness. Mergers combine companies into a new or existing entity, while acquisitions involve one company purchasing another. Amalgamations result in both companies dissolving to form a new one.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Companies Opt for M&A",
+        content:
+          "Expanding market reach\nDiversifying products and services\nAchieving operational efficiencies\nGaining competitive advantages\nEnhancing financial strength",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Types of Mergers and Acquisitions",
+        description:
+          "Horizontal Merger: Between firms in the same industry\nVertical Merger: Between companies in the same supply chain\nCo-Generic Merger: Involving related companies\nConglomerate Merger: Between unrelated businesses\nCash Merger: Shareholders receive cash\nForward Merger: Merge with buyers\nReverse Merger: Merge with suppliers\nAcquisition: Purchase of another company’s assets or shares\nJoint Venture: Collaboration between companies for a shared goal",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "M&A Process in India",
+        content: [
+          {
+            model: "Review MoA",
+            bestFor: "Ensuring legal eligibility to merge or acquire",
+            scope: "Examine if the company’s MoA authorizes M&A activities",
+          },
+          {
+            model: "Stock Exchange Notification",
+            bestFor: "Publicly listed companies",
+            scope: "Inform exchange with notices, resolutions, and disclosures",
+          },
+          {
+            model: "Draft Merger Proposal",
+            bestFor: "Company board-level approvals",
+            scope: "Prepare and approve merger plans and appoint officers",
+          },
+          {
+            model: "High Court Application",
+            bestFor: "Judicial approval",
+            scope: "File the merger plan with the respective state High Court",
+          },
+          {
+            model: "Notify Stakeholders",
+            bestFor: "Creditor and shareholder meetings",
+            scope: "Send meeting notices 21 days in advance via newspapers",
+          },
+          {
+            model: "Registrar Filings",
+            bestFor: "Regulatory registration",
+            scope:
+              "File certified court orders with the Registrar of Companies",
+          },
+          {
+            model: "Merge Assets and Liabilities",
+            bestFor: "Combining company resources",
+            scope:
+              "Transfer all assets and obligations to the new or surviving entity",
+          },
+          {
+            model: "Issue Securities",
+            bestFor: "Post-merger funding",
+            scope: "Issue shares and debentures under new company structure",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Why Choose M&A Advisory Services?",
+        content:
+          "Complexity of legal, regulatory, and financial compliance\nNeed for SEBI and Companies Act adherence\nRisk of litigation and tax missteps\nRequirement for deal valuation, negotiation, and documentation\nNecessity of post-merger integration planning",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Supports M&A",
+        content: [
+          {
+            serviceLayer: "Pre-Deal Strategy",
+            deliverables:
+              "MoA review, valuation insights, regulatory feasibility analysis",
+            tools: "Valuation models, legal templates, due diligence checklist",
+          },
+          {
+            serviceLayer: "Deal Structuring",
+            deliverables:
+              "Merger scheme drafting, share swap ratio, tax strategy",
+            tools: "Corporate law frameworks, financial planning sheets",
+          },
+          {
+            serviceLayer: "Regulatory Compliance",
+            deliverables:
+              "Stock exchange notification, High Court and ROC filings",
+            tools: "Compliance tracker, SEBI guidelines, filing templates",
+          },
+          {
+            serviceLayer: "Post-Transaction Execution",
+            deliverables:
+              "Asset transfer, securities issuance, integration planning",
+            tools:
+              "Integration playbooks, reporting dashboards, issue trackers",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "M&A vs Other Growth Strategies",
+        table: [
+          {
+            aspect: "Strategy",
+            bookkeeping: "Mergers and Acquisitions",
+            accounting:
+              "Quick market entry, synergy realization, complex execution",
+          },
+          {
+            aspect: "Strategy",
+            bookkeeping: "Joint Venture",
+            accounting:
+              "Shared risk and expertise, project-specific collaboration",
+          },
+          {
+            aspect: "Strategy",
+            bookkeeping: "Organic Growth",
+            accounting: "Slow expansion, internally driven, resource dependent",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for M&A Services?",
+        description: [
+          "Our M&A team combines legal, financial, and regulatory expertise to provide end-to-end support for seamless execution.",
+        ],
+        points: [
+          "Expert-led strategy formulation and feasibility analysis",
+          "Drafting and vetting of all M&A documents",
+          "Comprehensive due diligence and valuation support",
+          "Regulatory filing and litigation risk mitigation",
+          "Post-merger integration and advisory services",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are the main reasons for mergers and acquisitions?",
+        answer:
+          "To eliminate competition, grow market share, enhance brand value, reduce tax liabilities, and offset losses.",
+      },
+      {
+        question: "What are the different types of mergers in India?",
+        answer:
+          "Horizontal, vertical, co-generic, conglomerate, cash, forward, and reverse mergers.",
+      },
+      {
+        question: "Why do some acquisitions fail?",
+        answer:
+          "Common reasons include poor integration, cultural mismatch, or overestimation of value.",
+      },
+      {
+        question: "What happens when two companies merge?",
+        answer:
+          "They consolidate their assets, liabilities, and operations under one unified management structure.",
+      },
+      {
+        question: "What is a joint venture?",
+        answer:
+          "A collaboration between two or more companies for a specific business purpose or project.",
+      },
+      {
+        question: "What are the key steps for M&A in India?",
+        answer:
+          "Review MoA, notify stock exchange, draft proposal, file with court, inform stakeholders, file with Registrar, transfer assets, issue securities.",
+      },
+    ],
+  },
+  recovery_of_shares_from_iepf: {
+    title: "Recovery of Shares from IEPF – DoStartup",
+    description:
+      "Reclaim your lost investments with DoStartup’s expert support in recovering unclaimed shares transferred to the Investor Education and Protection Fund (IEPF).",
+    overview: [
+      {
+        heading: "What is Share Recovery from IEPF?",
+        content:
+          "Recovery of shares from IEPF involves reclaiming shares that were transferred to the Investor Education and Protection Fund after remaining unclaimed for seven consecutive years. The recovery process is initiated by filing IEPF Form-5 along with the required documents to both the concerned company and the IEPF Authority.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Recover Shares from IEPF?",
+        content:
+          "Asset reclamation, financial security, access to accumulated dividends, legal compliance, estate management for heirs, increased portfolio value, fraud protection, and a simplified, expert-guided process ensure rightful ownership is restored efficiently.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Essential Steps in IEPF Share Recovery",
+        description:
+          "Document collection including share certificates and PAN, filling Form IEPF-5, submitting the form to the company, forwarding by company to IEPF authority, and credit of shares to claimant’s Demat account upon approval.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Who Can Claim from IEPF?",
+        content: [
+          {
+            model: "Original Shareholder",
+            bestFor: "Individuals who directly owned the shares",
+            scope: "Must provide proof of identity and original investment",
+          },
+          {
+            model: "Legal Heirs/Successors",
+            bestFor: "Heirs of deceased shareholders",
+            scope:
+              "Must submit death certificate, succession certificate, and affidavit",
+          },
+          {
+            model: "Nominees",
+            bestFor: "Individuals nominated by the shareholder",
+            scope: "Must provide nominee declaration and ID proof",
+          },
+          {
+            model: "Authorized Representatives",
+            bestFor: "Professionals acting on behalf of claimants",
+            scope:
+              "Power of Attorney, identity, and authorization proof required",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Seek Professional Help?",
+        content:
+          "You lack clarity on required documentation, face delays due to errors, need legal validation, want faster recovery timelines, or require help with coordinating share transmission and nominee/heir verification.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Supports Your IEPF Recovery",
+        content: [
+          {
+            serviceLayer: "Consultation & Documentation",
+            deliverables:
+              "Document checklist, claim eligibility review, notarization guidance",
+            tools: "Document checklist, affidavit formats, will templates",
+          },
+          {
+            serviceLayer: "Application Preparation",
+            deliverables:
+              "Filing Form IEPF-5, indemnity bond, verification bundle",
+            tools: "Form assistance, claim tracker, affidavit generation tool",
+          },
+          {
+            serviceLayer: "Liaison with Company & IEPF",
+            deliverables:
+              "Company coordination, verification updates, follow-up",
+            tools: "Claim tracking dashboard, SRN status tool",
+          },
+          {
+            serviceLayer: "Final Credit & Compliance",
+            deliverables:
+              "Demat account update, ROC compliance, ownership confirmation",
+            tools: "Transfer confirmation pack, ROC filing templates",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Typical IEPF Recovery Timeline",
+        table: [
+          {
+            aspect: "Step",
+            bookkeeping: "Document Collection",
+            accounting:
+              "Gather PAN, address proof, certificates, affidavits, will copies",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Form Filing",
+            accounting: "Fill and submit IEPF Form-5 with supporting documents",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Company Submission",
+            accounting: "Submit claim to issuing company for verification",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Forwarding to IEPF",
+            accounting: "Company forwards verified documents to IEPF",
+          },
+          {
+            aspect: "Step",
+            bookkeeping: "Refund Processing",
+            accounting:
+              "IEPF credits shares to claimant’s Demat within 60 days",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for IEPF Recovery?",
+        description: [
+          "DoStartup ensures quick, secure, and compliant recovery of your IEPF-held shares with expert assistance and pan-India service delivery.",
+        ],
+        points: [
+          "99% success rate with reduced claim rejections",
+          "Professional IEPF agents and legal advisors",
+          "Expert filing of Form IEPF-5 and supporting paperwork",
+          "Liaison with company and IEPF authority on your behalf",
+          "Real-time status updates and transparent communication",
+          "End-to-end support from consultation to final transfer",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is IEPF?",
+        answer:
+          "It is a government fund for unclaimed shares, dividends, deposits, and matured debentures transferred after 7 years of inactivity.",
+      },
+      {
+        question: "Who can recover shares from IEPF?",
+        answer:
+          "Original shareholders, legal heirs, nominees, or authorized representatives with valid proof of ownership.",
+      },
+      {
+        question: "What is Form IEPF-5?",
+        answer:
+          "It is the official claim form for recovering shares from the IEPF authority.",
+      },
+      {
+        question: "How long does IEPF recovery take?",
+        answer:
+          "The IEPF authority processes approved claims within 60 days from company verification.",
+      },
+      {
+        question: "What documents are required?",
+        answer:
+          "PAN, address proof, share certificates, death and succession certificates, Form IEPF-5, affidavits, and entitlement letter.",
+      },
+      {
+        question: "Can I file more than one claim per year?",
+        answer:
+          "Only one consolidated claim per company per financial year is allowed.",
+      },
+      {
+        question: "How does DoStartup help?",
+        answer:
+          "We guide you through documentation, filing, verification, compliance, and follow-ups for seamless claim recovery.",
+      },
+      {
+        question: "What happens after shares are credited?",
+        answer:
+          "The company updates its register, notifies authorities, and issues confirmation while ensuring tax and regulatory compliance.",
+      },
+    ],
+  },
+  merchant_banker_license: {
+    title: "Merchant Banker License – DoStartup",
+    description:
+      "Navigate India’s financial services landscape by obtaining a SEBI-approved Merchant Banker License with DoStartup. Gain access to capital markets, advisory mandates, and portfolio management services legally and efficiently.",
+    overview: [
+      {
+        heading: "What is a Merchant Banker?",
+        content:
+          "As per SEBI Regulations, 1992, a merchant banker is defined as a person engaged in the business of issue management and financial advisory, including underwriting, corporate restructuring, and capital raising. Merchant bankers help businesses raise capital, manage public issues, and offer portfolio management and M&A advisory services.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Obtain a Merchant Banker License?",
+        content:
+          "Access to capital markets\nExpert advisory for mergers and acquisitions\nRegulatory compliance assurance\nEnhanced professional credibility\nPortfolio and investment management services\nDiverse revenue streams\nStronger client network and market insights\nStrategic participation in economic growth",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Merchant Banker Functions",
+        description:
+          "Issue management and underwriting\nProject financing and syndication\nCorporate restructuring and M&A advisory\nPortfolio and investment management\nEquity and debt placement\nLoan arrangement and offshore financing",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Categories of Merchant Bankers",
+        content: [
+          {
+            model: "Category I",
+            bestFor:
+              "Full-service merchant banking including issue management and portfolio advisory",
+            scope:
+              "Minimum net worth: ₹5 Crores; eligible for all merchant banking activities",
+          },
+          {
+            model: "Category II",
+            bestFor: "Advisory, underwriting, and co-management",
+            scope: "Minimum net worth: ₹50 Lakhs",
+          },
+          {
+            model: "Category III",
+            bestFor: "Advisory and underwriting services",
+            scope:
+              "Minimum net worth: ₹20 Lakhs; not eligible for issue management",
+          },
+          {
+            model: "Category IV",
+            bestFor: "Consulting and advisory only",
+            scope: "No minimum net worth required",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Hire a Merchant Banker Licensing Consultant?",
+        content:
+          "You lack in-house expertise on SEBI procedures\nYou require guidance on preparing Form A and supporting documents\nYou seek help in building a compliant financial and operational structure\nYou want to avoid rejections due to incomplete documentation\nYou need fast-track SEBI liaison and process tracking",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Delivers Merchant Banker License Support",
+        content: [
+          {
+            serviceLayer: "Initial Consultation",
+            deliverables:
+              "Requirement mapping, eligibility check, category selection",
+            tools: "Net worth calculator, regulatory checklist",
+          },
+          {
+            serviceLayer: "Documentation Preparation",
+            deliverables:
+              "Drafting MOA, AOA, declarations, and financial summaries",
+            tools: "Compliance templates, legal drafting toolkit",
+          },
+          {
+            serviceLayer: "SEBI Application Filing",
+            deliverables:
+              "Filing Form A with supporting documentation and application fee",
+            tools: "SEBI portal submission tracker, document checklist",
+          },
+          {
+            serviceLayer: "Follow-up and Compliance",
+            deliverables:
+              "SEBI liaison, clarification handling, registration fee support",
+            tools: "Response tracking dashboard, query resolution reports",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Merchant Banker License Categories",
+        table: [
+          {
+            aspect: "Category",
+            bookkeeping: "I",
+            accounting: "Full services; ₹5 Cr net worth",
+          },
+          {
+            aspect: "Category",
+            bookkeeping: "II",
+            accounting: "Underwriting & co-management; ₹50 Lakhs net worth",
+          },
+          {
+            aspect: "Category",
+            bookkeeping: "III",
+            accounting: "Advisory only; ₹20 Lakhs net worth",
+          },
+          {
+            aspect: "Category",
+            bookkeeping: "IV",
+            accounting: "Consulting only; no net worth requirement",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for Merchant Banker Licensing?",
+        description: [
+          "We simplify the regulatory maze through expert legal and financial consulting",
+        ],
+        points: [
+          "End-to-end SEBI documentation and compliance support",
+          "In-depth experience across all merchant banking categories",
+          "Dedicated relationship managers for continuous updates",
+          "Transparent pricing and fast turnaround time",
+          "99% success rate in license procurement",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Merchant Banker License?",
+        answer:
+          "It is SEBI’s authorization for individuals or entities to operate as merchant bankers offering issue management, underwriting, and advisory services.",
+      },
+      {
+        question: "Who regulates Merchant Bankers in India?",
+        answer:
+          "Merchant bankers are regulated by the Securities and Exchange Board of India (SEBI).",
+      },
+      {
+        question: "What are the capital requirements?",
+        answer:
+          "Category I requires ₹5 Cr, Category II ₹50 Lakhs, Category III ₹20 Lakhs, while Category IV has no requirement.",
+      },
+      {
+        question: "What is the license fee structure?",
+        answer:
+          "Application Fee: ₹50,000; Registration Fee: ₹20 Lakhs; Renewal Fee: ₹9 Lakhs for 3 years.",
+      },
+      {
+        question: "How long does it take to obtain the license?",
+        answer:
+          "The approval process typically takes 3–6 months based on SEBI response and application completeness.",
+      },
+      {
+        question: "Can foreign companies apply?",
+        answer:
+          "Yes, if they establish a registered office in India and meet SEBI’s operational and financial criteria.",
+      },
+      {
+        question: "Are merchant bankers allowed to take public deposits?",
+        answer:
+          "No, merchant bankers are prohibited from accepting public deposits under RBI regulations.",
+      },
+      {
+        question: "What happens after license approval?",
+        answer:
+          "The applicant must comply with SEBI’s post-approval terms and can then legally commence merchant banking operations.",
+      },
+    ],
+  },
+  collective_investment_scheme: {
+    title: "Collective Investment Scheme Registration – DoStartup",
+    description:
+      "Register your Collective Investment Scheme (CIS) with SEBI through DoStartup and unlock access to diversified investment opportunities under a compliant, regulated structure.",
+    overview: [
+      {
+        heading: "What is a Collective Investment Scheme?",
+        content:
+          "A Collective Investment Scheme (CIS) is a financial arrangement where multiple investors pool funds to invest in a shared portfolio of assets. The scheme is professionally managed, and profits are distributed proportionately. CIS operations are governed by SEBI to ensure investor protection and regulatory transparency.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of Collective Investment Schemes",
+        content:
+          "Diversification of investment portfolio\nAccess to professional fund management\nReduced individual transaction costs\nBroader market access\nPassive investment opportunity\nTax-optimized returns\nEfficient risk mitigation through pooled funds",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Core Features of a CIS",
+        description:
+          "Investor funds pooled into a common asset\nManaged by a SEBI-registered CIS manager\nReturns distributed based on contribution\nNo direct control by investors over management\nRegulated under SEBI CIS Regulations, 1999",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Types of Collective Investment Schemes",
+        content: [
+          {
+            model: "Exchange Traded Funds (ETFs)",
+            bestFor: "Index-based or theme-based investments",
+            scope: "Traded on stock exchanges; passive management",
+          },
+          {
+            model: "Hedge Funds",
+            bestFor: "High-risk high-return strategies",
+            scope: "Typically for institutional or HNI investors",
+          },
+          {
+            model: "Alternative Investment Funds (AIFs)",
+            bestFor: "Private equity, VC, and specialized investments",
+            scope: "Classified under SEBI AIF Regulations",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Hire a CIS Consultant?",
+        content:
+          "You lack clarity on SEBI CIS regulations\nYou need help drafting trust deeds and investment agreements\nYou are unsure about eligibility or net worth norms\nYou want to avoid delays due to compliance issues\nYou require expert SEBI coordination and documentation",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Assists with CIS Registration",
+        content: [
+          {
+            serviceLayer: "Preliminary Consultation",
+            deliverables:
+              "Eligibility check, structural planning, document list",
+            tools: "CIS regulatory checklist, net worth guide",
+          },
+          {
+            serviceLayer: "Documentation Drafting",
+            deliverables: "Drafting Trust Deed, IM Agreement, MOA, AOA",
+            tools: "SEBI-approved templates, legal review tools",
+          },
+          {
+            serviceLayer: "Application Filing",
+            deliverables: "Form A submission with ₹25,000 fee",
+            tools: "SEBI CIS portal and submission tracker",
+          },
+          {
+            serviceLayer: "SEBI Coordination",
+            deliverables:
+              "Query resolution, follow-ups, registration certificate issuance",
+            tools: "Liaison dashboard, compliance log",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "CIS vs AIF vs Mutual Fund",
+        table: [
+          {
+            aspect: "Asset Focus",
+            bookkeeping: "CIS",
+            accounting: "Real estate, pooled funds",
+          },
+          {
+            aspect: "Asset Focus",
+            bookkeeping: "AIF",
+            accounting: "Private equity, startups",
+          },
+          {
+            aspect: "Asset Focus",
+            bookkeeping: "Mutual Fund",
+            accounting: "Equity, debt, hybrid",
+          },
+          {
+            aspect: "Investor Type",
+            bookkeeping: "CIS",
+            accounting: "Retail Investors",
+          },
+          {
+            aspect: "Investor Type",
+            bookkeeping: "AIF",
+            accounting: "HNIs, Institutions",
+          },
+          {
+            aspect: "Investor Type",
+            bookkeeping: "Mutual Fund",
+            accounting: "Retail & Institutional",
+          },
+          {
+            aspect: "Regulation",
+            bookkeeping: "CIS",
+            accounting: "SEBI CIS Regulations",
+          },
+          {
+            aspect: "Regulation",
+            bookkeeping: "AIF",
+            accounting: "SEBI AIF Regulations",
+          },
+          {
+            aspect: "Regulation",
+            bookkeeping: "Mutual Fund",
+            accounting: "SEBI Mutual Fund Regulations",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for CIS Registration?",
+        description: [
+          "DoStartup simplifies CIS registration by offering end-to-end compliance and documentation support through expert consultants.",
+        ],
+        points: [
+          "Complete SEBI CIS registration assistance",
+          "Legal drafting of Trust Deed and Agreements",
+          "Compliance tracking and liaison support",
+          "Nationwide reach with 500+ SEBI professionals",
+          "24/7 customer support and advisory",
+          "High success rate and fast processing",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Collective Investment Scheme (CIS)?",
+        answer:
+          "A CIS is an investment model where funds are pooled from investors and managed professionally in shared assets with profits distributed accordingly.",
+      },
+      {
+        question: "Who regulates CIS in India?",
+        answer:
+          "The Securities and Exchange Board of India (SEBI) under the CIS Regulations, 1999.",
+      },
+      {
+        question: "What are the eligibility criteria for CIS registration?",
+        answer:
+          "Incorporation under Companies Act, ₹5 Cr net worth (within 3 years), fit-and-proper status, and infrastructure to manage CIS.",
+      },
+      {
+        question: "What is the registration process?",
+        answer:
+          "Form A submission with ₹25,000 fee, SEBI review, approval, ₹10 lakh registration fee payment, and certificate issuance.",
+      },
+      {
+        question: "Is a chit fund considered a CIS?",
+        answer:
+          "No, chit funds are excluded under the Chit Fund Act, 1982 and not regulated as CIS.",
+      },
+      {
+        question: "Can a CIS management company act as a trustee?",
+        answer:
+          "No, the management company and trustee must be separate entities.",
+      },
+      {
+        question: "What documents are required for CIS registration?",
+        answer:
+          "Trust Deed, Investment Management Agreement, Director KYC, MOA/AOA, Financials, and Incorporation Certificate.",
+      },
+      {
+        question: "What happens after registration?",
+        answer:
+          "The company must comply with SEBI norms, maintain transparency, and regularly report material changes and updates.",
+      },
+    ],
+  },
+  amfi_registration: {
+    title: "AMFI Registration in India – DoStartup",
+    description:
+      "Become a certified mutual fund distributor in India with DoStartup’s expert AMFI registration services. Get your ARN (AMFI Registration Number) seamlessly while ensuring full SEBI and AMFI compliance.",
+    overview: [
+      {
+        heading: "What is AMFI Registration?",
+        content:
+          "AMFI registration is a mandatory certification for individuals and entities intending to distribute mutual fund products in India. It is governed by the Association of Mutual Funds in India (AMFI), a SEBI-recognized self-regulatory body. To register, candidates must clear the NISM Series V-A examination and comply with documentation, ethical, and operational standards.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of AMFI Online Registration",
+        content:
+          "Regulatory compliance with SEBI\nBoosts distributor credibility\nAccess to a wide range of mutual funds\nEnables legal sales and advisory\nTraining and continuous professional education\nNetworking and partnership opportunities\nEnhanced client trust and retention",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Features of AMFI Distributor Registration",
+        description:
+          "Mandatory NISM certification\nReceipt of unique ARN (Registration Number)\nEligibility-based entry\nAccess to SEBI-compliant distributor network\nPeriodic renewals and updates\nAccess to industry training and resources",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Types of AMFI Registrations",
+        content: [
+          {
+            model: "Mutual Fund Distributor",
+            bestFor: "Individuals & firms selling mutual fund products",
+            scope: "NISM certification, ARN, periodic renewal",
+          },
+          {
+            model: "Investment Advisor",
+            bestFor: "Financial professionals advising on MF investments",
+            scope: "SEBI registered; fiduciary standards",
+          },
+          {
+            model: "Portfolio Manager",
+            bestFor: "Firms managing mutual fund portfolios",
+            scope: "SEBI governed; customized services",
+          },
+          {
+            model: "Research Analyst",
+            bestFor: "Market researchers and analysis providers",
+            scope: "SEBI registration; research publications",
+          },
+          {
+            model: "RTA",
+            bestFor: "Companies managing investor transactions",
+            scope: "Record management, compliance handling",
+          },
+          {
+            model: "Stockbroker / Sub-Broker",
+            bestFor: "Mutual fund execution and trading",
+            scope: "SEBI registration; compliance protocols",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Hire an AMFI Registration Consultant?",
+        content:
+          "You are unfamiliar with SEBI-AMFI regulations\nYou need guidance on NISM certification\nYou want to ensure error-free documentation\nYou need to fast-track ARN issuance\nYou require help with post-registration compliance and renewal",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Simplifies AMFI Registration",
+        content: [
+          {
+            serviceLayer: "Eligibility Assessment",
+            deliverables: "Qualification review and compliance check",
+            tools: "Eligibility checklist, readiness evaluation",
+          },
+          {
+            serviceLayer: "Documentation Assistance",
+            deliverables: "KYC, PAN, address proof, application forms",
+            tools: "Form templates, document tracking",
+          },
+          {
+            serviceLayer: "Exam Preparation Support",
+            deliverables: "NISM Series V-A registration and guidance",
+            tools: "Study material, exam mock tests",
+          },
+          {
+            serviceLayer: "Application Filing",
+            deliverables: "ARN registration form submission with documents",
+            tools: "AMFI portal integration, submission tracker",
+          },
+          {
+            serviceLayer: "Post-Registration Compliance",
+            deliverables:
+              "Renewal tracking, reporting support, ethics training",
+            tools: "Compliance calendar, update notification",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Types of Mutual Funds in India",
+        table: [
+          {
+            aspect: "Fund Type",
+            bookkeeping: "Equity Funds",
+            accounting: "High-risk, high-return; long-term capital growth",
+          },
+          {
+            aspect: "Fund Type",
+            bookkeeping: "Debt Funds",
+            accounting: "Low-risk, fixed-income securities",
+          },
+          {
+            aspect: "Fund Type",
+            bookkeeping: "Hybrid Funds",
+            accounting: "Balanced risk via equity and debt mix",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for AMFI Registration?",
+        description: [
+          "DoStartup streamlines the AMFI registration process through end-to-end support, compliance tools, and expert guidance tailored for mutual fund professionals.",
+        ],
+        points: [
+          "Fast-track ARN application with 10+ years of experience",
+          "Dedicated AMFI registration team and portal support",
+          "Paperwork and documentation handled seamlessly",
+          "End-to-end SEBI and AMFI compliance consulting",
+          "Affordable pricing and timely service delivery",
+          "Post-registration renewal and compliance assistance",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is AMFI Registration?",
+        answer:
+          "AMFI registration provides a unique ARN that allows individuals and entities to legally distribute mutual fund products in India.",
+      },
+      {
+        question:
+          "Is AMFI registration mandatory for mutual fund distributors?",
+        answer:
+          "Yes, it is required to distribute or advise on mutual fund products under Indian law.",
+      },
+      {
+        question: "What is the NISM Series V-A Exam?",
+        answer:
+          "It is the mandatory certification exam for all aspiring mutual fund distributors in India.",
+      },
+      {
+        question: "How long does it take to get ARN?",
+        answer:
+          "Typically, 15–30 days post submission of the application and successful verification.",
+      },
+      {
+        question: "What is the validity of the AMFI registration?",
+        answer: "ARN is valid for 3 years and must be renewed periodically.",
+      },
+      {
+        question: "Who regulates AMFI?",
+        answer:
+          "AMFI operates as a self-regulatory body under SEBI's oversight.",
+      },
+      {
+        question: "Can entities also apply for ARN?",
+        answer:
+          "Yes, entities such as companies and partnerships can register for ARN after meeting eligibility and compliance criteria.",
+      },
+      {
+        question: "What happens if a distributor violates AMFI guidelines?",
+        answer:
+          "They may face penalties, suspension, or cancellation of ARN depending on the severity of the violation.",
+      },
+    ],
+  },
+  underwriter_registration: {
+    title: "SEBI Underwriter Registration – DoStartup",
+    description:
+      "Obtain your SEBI-approved Underwriter Registration with DoStartup and legally participate in underwriting activities in India’s capital markets. Ensure regulatory compliance and build trust among issuers and investors.",
+    overview: [
+      {
+        heading: "Who is an Underwriter?",
+        content:
+          "An underwriter is a licensed individual or organization that guarantees the purchase of unsold securities during a public issue. They play a vital role in facilitating capital raising by absorbing market risk and ensuring full subscription of securities. Underwriters are recognized under Rule 2(f) of SEBI (Underwriters) Rules, 1993.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Key Benefits of SEBI Underwriter Registration",
+        content:
+          "Market credibility and recognition\nLegal authorization to underwrite securities\nIncreased business opportunities\nBoosts investor confidence and trust\nEnsures full regulatory compliance",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Roles and Responsibilities of an Underwriter",
+        description:
+          "Guarantee subscription of public issues\nAbsorb risk of unsold securities\nExecute agreements with issuers\nMaintain accurate records and disclosures\nSupport capital formation in the economy",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Types of Underwriters",
+        content: [
+          {
+            model: "Individual Underwriters",
+            bestFor: "Professionals underwriting securities independently",
+            scope: "Require SEBI license and underwriting experience",
+          },
+          {
+            model: "Corporate Underwriters",
+            bestFor: "Firms involved in underwriting public/private issues",
+            scope: "Registered entities with compliance infrastructure",
+          },
+          {
+            model: "Banks and Financial Institutions",
+            bestFor: "Diversified financial institutions offering underwriting",
+            scope: "Operate under broader financial service licenses",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Hire an Underwriter Registration Consultant?",
+        content:
+          "You are unfamiliar with SEBI regulations\nYou require help drafting and filing Form A\nYou lack underwriting experience or infrastructure\nYou want to avoid SEBI rejection or delays\nYou need assistance with agreement and compliance setup",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Simplifies Underwriter Registration",
+        content: [
+          {
+            serviceLayer: "Initial Consultation",
+            deliverables: "Eligibility evaluation and document checklist",
+            tools: "Net worth calculator, SEBI readiness tool",
+          },
+          {
+            serviceLayer: "Documentation and Filing",
+            deliverables: "Preparation of Form A, declarations, financials",
+            tools: "Application templates, digital filing system",
+          },
+          {
+            serviceLayer: "SEBI Liaison",
+            deliverables: "Query resolution and tracking post-submission",
+            tools: "SEBI correspondence dashboard, compliance reports",
+          },
+          {
+            serviceLayer: "Post-Registration Support",
+            deliverables: "Ongoing compliance tracking, renewal alerts",
+            tools: "Compliance calendar, audit readiness kit",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Fee Structure for SEBI Underwriter Registration",
+        table: [
+          {
+            aspect: "Fee Type",
+            bookkeeping: "Application Fee",
+            accounting: "₹1,00,000",
+          },
+          {
+            aspect: "Fee Type",
+            bookkeeping: "Registration Fee",
+            accounting: "₹10,00,000",
+          },
+          {
+            aspect: "Fee Type",
+            bookkeeping: "Renewal Fee",
+            accounting: "As per SEBI provisions",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup for SEBI Underwriter Registration?",
+        description: [
+          "DoStartup helps financial professionals become SEBI-registered underwriters with ease, offering legal clarity and full compliance services.",
+        ],
+        points: [
+          "100% compliance with SEBI Underwriter Rules",
+          "10+ years of underwriting registration experience",
+          "Streamlined documentation and application filing",
+          "Transparent pricing, no hidden charges",
+          "99% approval rate with full SEBI liaison support",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is SEBI’s role in underwriting?",
+        answer:
+          "SEBI regulates underwriters by setting codes of conduct, agreement norms, reporting obligations, and compliance requirements.",
+      },
+      {
+        question: "Who needs SEBI registration for underwriting?",
+        answer:
+          "Any individual or institution involved in underwriting public issues must register with SEBI.",
+      },
+      {
+        question: "What is the minimum capital requirement?",
+        answer: "Underwriters must maintain a minimum net worth of ₹20 lakhs.",
+      },
+      {
+        question: "Can foreign entities register as underwriters?",
+        answer:
+          "Yes, subject to SEBI approval and adherence to Indian regulatory norms.",
+      },
+      {
+        question: "What is the timeline for underwriter registration?",
+        answer:
+          "The SEBI registration process typically takes 3 to 6 months depending on application completeness.",
+      },
+      {
+        question: "How long is SEBI registration valid for underwriters?",
+        answer:
+          "SEBI registration is valid indefinitely unless revoked or suspended.",
+      },
+      {
+        question: "What penalties apply for non-compliance?",
+        answer:
+          "Penalties include fines, disqualification, deregistration, and legal actions as per SEBI regulations.",
+      },
+      {
+        question: "Are merchant bankers allowed to act as underwriters?",
+        answer:
+          "Yes, merchant bankers and stockbrokers may act as underwriters as per Rule 12 of SEBI regulations.",
+      },
+    ],
+  },
+  ul_vno_license: {
+    title: "UL VNO License – DoStartup",
+    description:
+      "Get your Unified License – Virtual Network Operator (UL VNO) with expert support from DoStartup. Legally enter the Indian telecom resale sector with a cost-efficient and fully compliant model.",
+    overview: [
+      {
+        heading: "UL VNO License – An Overview",
+        content:
+          "A Virtual Network Operator (VNO) delivers telecom services without owning physical infrastructure. Instead, VNOs lease bandwidth from licensed telecom providers at wholesale prices, allowing them to offer services like broadband, VoIP, or IPTV to customers across India. The Department of Telecommunications (DoT) issues the UL VNO License to companies registered under Indian law. This license allows businesses to operate legally as internet service providers without the burden of establishing physical telecom infrastructure.",
+      },
+      {
+        heading: "What is a VNO License?",
+        content:
+          "A VNO License is a legal permit allowing businesses to function as Virtual Network Operators. Unlike traditional ISPs, VNOs operate using leased bandwidth and infrastructure, creating a cost-efficient model for delivering internet services. They rely on agreements with telecom carriers to deliver their offerings to end customers under their own brand.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Securing a UL VNO License",
+        content:
+          "Cost-Effective Entry: No need to build or maintain physical infrastructure.\nAccess to the Latest Technology: VNOs benefit from network providers' constant upgrades.\nEnhanced Market Competition: Promotes improved services and pricing.\nFlexibility: Customizable offerings for niche markets, rural areas, and underserved regions.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Key Requirements for UL VNO License",
+        description:
+          "A network lease agreement with a licensed telecom operator\nCompliance with DoT service standards, including data protection, quality of service, and consumer rights\nTimely fee payments (application, licensing, regulatory)\nMaintain audit-ready records\nAdhere to all national tax and reporting obligations",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Categories of UL VNO License",
+        content: [
+          {
+            model: "Class A",
+            bestFor: "Nationwide coverage",
+            scope: "PAN India operations",
+          },
+          {
+            model: "Class B",
+            bestFor: "Metro cities or individual telecom circles",
+            scope: "State or Circle level operations",
+          },
+          {
+            model: "Class C",
+            bestFor: "Secondary Switching Areas like towns and districts",
+            scope: "District/SSA-level operations",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "When Should You Hire a VNO License Consultant?",
+        content:
+          "You are new to DoT regulatory norms\nYou require help preparing business and financial documentation\nYou want to avoid delays due to compliance errors\nYou need legal guidance and ongoing regulatory updates\nYou want seamless application handling and post-license support",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Helps You Secure a UL VNO License",
+        content: [
+          {
+            serviceLayer: "Eligibility Check",
+            deliverables:
+              "Business structure review and financial qualification",
+            tools: "Net worth verifier, financial health checker",
+          },
+          {
+            serviceLayer: "Documentation & Submission",
+            deliverables: "Form completion, annexure preparation, fee receipts",
+            tools: "Pre-filled templates, document checklist",
+          },
+          {
+            serviceLayer: "Regulatory Coordination",
+            deliverables: "Liaison with DoT/ TRAI and LoI follow-up",
+            tools: "Compliance dashboard, correspondence tracker",
+          },
+          {
+            serviceLayer: "Post-License Compliance",
+            deliverables: "Renewal alerts, compliance calendar",
+            tools: "Legal audit tools, reminder system",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Difference Between UL & UL VNO License",
+        table: [
+          {
+            aspect: "Scope",
+            bookkeeping: "Unified License (UL)",
+            accounting: "Full-fledged telecom ops",
+          },
+          {
+            aspect: "Scope",
+            bookkeeping: "UL VNO License",
+            accounting: "For virtual network resellers",
+          },
+          {
+            aspect: "Infrastructure Ownership",
+            bookkeeping: "UL",
+            accounting: "Owns infrastructure",
+          },
+          {
+            aspect: "Infrastructure Ownership",
+            bookkeeping: "UL VNO",
+            accounting: "Leases from other operators",
+          },
+          {
+            aspect: "Validity",
+            bookkeeping: "UL",
+            accounting: "20 years",
+          },
+          {
+            aspect: "Validity",
+            bookkeeping: "UL VNO",
+            accounting: "10 years",
+          },
+          {
+            aspect: "Bank Guarantee",
+            bookkeeping: "UL",
+            accounting: "Required",
+          },
+          {
+            aspect: "Bank Guarantee",
+            bookkeeping: "UL VNO",
+            accounting: "Not required",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust DoStartUp for Your UL VNO License?",
+        description: [
+          "DoStartUp streamlines your telecom entry with expert VNO licensing services, ensuring legal compliance and smooth regulatory navigation.",
+        ],
+        points: [
+          "100% Compliance Assurance",
+          "Support Across 25+ States",
+          "Dominant Market Share",
+          "Dedicated VNO Experts",
+          "99% Success Rate",
+          "Transparent, Real-Time Updates",
+          "Customized Licensing Strategy",
+          "Pan India Service Delivery",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How long does it take to obtain a UL VNO license?",
+        answer:
+          "It generally takes 3 to 6 months, depending on documentation readiness, DoT processing time, and regulatory approvals.",
+      },
+      {
+        question: "What is the cost of a VNO license?",
+        answer:
+          "The cost includes the application fee, license fee, and network lease costs. The entry fee varies by service area and class (A, B, or C).",
+      },
+      {
+        question: "Why is a VNO license required?",
+        answer:
+          "It is mandatory for entities reselling internet or telecom services using leased bandwidth. It ensures legal operations and regulatory compliance.",
+      },
+      {
+        question: "What is the full form of VNO?",
+        answer: "Virtual Network Operator",
+      },
+      {
+        question:
+          "What is the difference between a VNO license and an ISP license?",
+        answer:
+          "A VNO license is for resellers without infrastructure. An ISP license (under Unified License) is for operators with full infrastructure control.",
+      },
+      {
+        question: "Who is eligible for a UL VNO license?",
+        answer:
+          "Only a company registered under the Companies Act with ₹10 crore net worth and sound financials is eligible.",
+      },
+      {
+        question: "What does Unified License (UL) mean?",
+        answer:
+          "It is a single license framework under which multiple telecom services (ISP, NLD, ILD, etc.) can be offered with appropriate authorizations.",
+      },
+      {
+        question: "What is the validity of a UL VNO license in India?",
+        answer: "A UL VNO license is valid for 10 years and can be renewed.",
+      },
+      {
+        question: "What are the different categories of a UL VNO license?",
+        answer:
+          "Class A (PAN India), Class B (Metro/State Circle), Class C (District/SSA level)",
+      },
+      {
+        question: "Who grants a telecom license in India?",
+        answer:
+          "The Department of Telecommunications (DoT), Ministry of Communications.",
+      },
+      {
+        question: "Who is the regulatory authority for telecom in India?",
+        answer:
+          "The Telecom Regulatory Authority of India (TRAI) and DoT regulate licensing and service standards.",
+      },
+    ],
+  },
+  term_sheet: {
+    title: "Term Sheet — Fast Facts & Practical Guide",
+    description:
+      "Understand the key building blocks, benefits, and negotiation strategies involved in a startup term sheet. Learn how to navigate investment deals with clarity and confidence.",
+    overview: [
+      {
+        heading: "What is it?",
+        content:
+          "A term sheet is a non-binding document that captures the headline economics and control terms of a proposed investment. Think of it as a blueprint: it sets the commercial rules that lawyers will later translate into definitive, binding agreements.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why It Matters",
+        content:
+          "Entrepreneur: Clarifies valuation, dilution, board control, and exit terms before incurring heavy legal costs.\nInvestor: Locks in deal economics (price, liquidation preference, rights) while full diligence is still under way.\nBoth Parties: Reduces misunderstandings, flags deal-breakers early, accelerates legal drafting, and trims transaction costs.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Core Building Blocks",
+        description:
+          "Valuation & Investment Amount: Pre-money / post-money values; % equity to be issued; option-pool expansion (if any)\nSecurity Type: Preferred shares, convertible note, SAFE, etc.\nLiquidation Preference: 1× non-participating vs. participating; senior vs. pari-passu stack\nGovernance: Board seats, observer rights, veto matters (budget, new share issues, key hires)\nAnti-Dilution: Weighted-average vs. full-ratchet protection\nFounder Vesting & Claw-Back: Reverse vesting schedules; good-/bad-leaver definitions\nExit Provisions: Drag-along, tag-along, IPO conversion mechanics\nInformation & Inspection Rights: Quarterly MIS, audited accounts, data-room access\nConditions Precedent: Legal, financial, and commercial due-diligence, IP assignment, ESOP pool creation\nExclusivity & No-Shop: Typically 30- to 60-day window for investor to finish diligence",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Typical Flow: From Term Sheet to Closing",
+        content: [
+          {
+            model: "Step 1",
+            bestFor: "Initial Pitch",
+            scope: "Startup presents pitch and initial data",
+          },
+          {
+            model: "Step 2",
+            bestFor: "Indicative Term Sheet",
+            scope: "Investor proposes terms",
+          },
+          {
+            model: "Step 3",
+            bestFor: "Due Diligence",
+            scope: "Includes legal, financial, and tech review",
+          },
+          {
+            model: "Step 4",
+            bestFor: "Negotiate Definitive Docs",
+            scope: "SHA / SSA / Disclosure Letters",
+          },
+          {
+            model: "Step 5",
+            bestFor: "Conditions Precedent Satisfied",
+            scope: "All pre-close requirements completed",
+          },
+          {
+            model: "Step 6",
+            bestFor: "Fund Transfer & Share Allotment",
+            scope: "Final legal close",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Negotiation Tips",
+        content:
+          "Know Your Walk-Away Points: Pre-define the worst-case valuation, board seats, and preference stack you’ll accept.\nFocus on Control, Not Just Price: A higher valuation can be offset by restrictive veto rights or aggressive liquidation prefs.\nModel Dilution Scenarios: Simulate next-round anti-dilution impacts before signing.\nClarify Option Pool: Determine whether the pool is created pre- or post-money—this materially affects founder dilution.\nUse Plain-Language Summaries: Ensure every clause is understood by non-lawyers; ambiguity here becomes cost later.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "How DoStartup Supports Term Sheets",
+        content: [
+          {
+            serviceLayer: "Document Drafting",
+            deliverables:
+              "Investor-ready term sheets with founder-friendly terms",
+            tools: "Custom templates, legal checklist",
+          },
+          {
+            serviceLayer: "Financial Modelling",
+            deliverables: "Cap-table simulation, valuation reports",
+            tools: "Excel-based dilution models",
+          },
+          {
+            serviceLayer: "Negotiation Support",
+            deliverables: "Redline reviews, call support during negotiation",
+            tools: "Deal tracker, clause analyzer",
+          },
+        ],
+      },
+    ],
+    comparison: [],
+    whyUs: [
+      {
+        heading: "Need a bespoke term-sheet template or negotiation support?",
+        description: [
+          "DoStartup’s fund-raising desk can craft investor-ready documents, run cap-table models, and guide you from first draft to final closing.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Is a term sheet legally binding?",
+        answer:
+          "Generally no, except for confidentiality, exclusivity, and governing-law clauses.",
+      },
+      {
+        question: "Who drafts it?",
+        answer:
+          "Often the lead investor; but founders can table the first draft to shape the narrative.",
+      },
+      {
+        question: "Can it be amended?",
+        answer:
+          "Yes—until definitive docs are signed, all commercial points remain negotiable.",
+      },
+      {
+        question: "How long does exclusivity last?",
+        answer:
+          "Standard 30–60 days; longer periods may warrant milestones or break-fees.",
+      },
+      {
+        question: "What’s the cost to reach closing?",
+        answer:
+          "Legal + diligence can run ₹5–30 lakh+ depending on deal size and complexity.",
+      },
+    ],
+  },
+  factory_sanitation_audit: {
+    title:
+      "Factory Sanitation Audit — Pocket Guide for Safe, Hygienic Production",
+    description:
+      "Ensure safe, hygienic production environments with Corpbiz’s comprehensive Factory Sanitation Audit. From compliance checks to epidemic preparedness, our audits help protect workers, satisfy buyers, and keep your operations running smoothly.",
+    overview: [
+      {
+        heading: "Purpose",
+        content:
+          "A factory-sanitation audit is a third-party, on-site review that confirms workplaces meet rigorous hygiene, cleaning and disease-prevention standards. It assures buyers, brands and regulators that your facility can operate safely—even amid pandemics—without disrupting supply chains.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Why Bother?",
+        content:
+          "Regulatory compliance: Verifies adherence to local/EU/FDA/ISO hygiene rules.\nWorker well-being: Confirms safe canteens, restrooms, PPE and emergency protocols.\nBusiness continuity: Minimises Covid-19 or flu outbreaks that could halt production.\nBrand assurance: Provides evidence to customers & retailers that social-hygiene standards are in place.\nBenchmarking: Reveals gaps vs. industry best practice; fuels continuous improvement.",
+      },
+    ],
+    coreTasks: [
+      {
+        title: "Core Audit Pillars",
+        description:
+          "Factory-wide Cleanliness: Floors, walls, ceilings, air-handling, waste zones.\nProcess & Equipment Hygiene: Sanitation SOPs, chemical use, cleaning records.\nWorker Health & Safety: PPE, hand-washing stations, illness-reporting, distancing.\nCommunal Areas: Canteens, locker rooms, toilets, drinking-water points.\nEpidemic Preparedness: Temperature checks, isolation rooms, visitor logs, traceability.\nEmergency Measures: First-aid kits, evacuation plans, incident reporting.",
+      },
+    ],
+    engagementModels: [
+      {
+        heading: "Typical Audit Flow",
+        content: [
+          {
+            model: "Step 1",
+            bestFor: "Pre-Audit Document Request",
+            scope: "Collect facility hygiene records and policies",
+          },
+          {
+            model: "Step 2",
+            bestFor: "On-Site Walkthrough",
+            scope:
+              "Evaluate areas such as canteens, toilets, and equipment zones",
+          },
+          {
+            model: "Step 3",
+            bestFor: "Interviews & Photo Evidence",
+            scope: "Capture documentation and verify SOP implementation",
+          },
+          {
+            model: "Step 4",
+            bestFor: "Scoring: Critical/Major/Minor",
+            scope: "Rate severity of issues discovered",
+          },
+          {
+            model: "Step 5",
+            bestFor: "Closing Meeting & CAP Draft",
+            scope: "Discuss findings and suggest corrective actions",
+          },
+          {
+            model: "Step 6",
+            bestFor: "Audit Report <72h",
+            scope: "Deliver full report with evidence and scoring",
+          },
+          {
+            model: "Step 7",
+            bestFor: "Corrective-Action Follow-up",
+            scope: "Ensure fixes are implemented and reverified",
+          },
+        ],
+      },
+    ],
+    whenToOutsource: [
+      {
+        heading: "Common Red-Flag Areas",
+        content:
+          "Master Sanitation Schedule: Missing records for non-routine tasks (HVAC, ceilings).\nPlant Environment: Neglected perimeter zones; poor pest control; cluttered aisles.\nChemical Handling: Unlabelled containers; improper dilution logs.\nShared Facilities: Infrequent toilet cleaning; no soap/PPE restock.",
+      },
+    ],
+    howWeDeliver: [
+      {
+        heading: "Corpbiz Audit Package",
+        content: [
+          {
+            serviceLayer: "On-Site Hygiene Audit",
+            deliverables: "150-point checklist, photo evidence, risk rating",
+            tools: "Field evaluation sheet, hygiene benchmark map",
+          },
+          {
+            serviceLayer: "Health & Safety Survey",
+            deliverables:
+              "Anonymous worker questionnaire on wages, OT, Covid protocols",
+            tools: "Mobile survey app, anonymous feedback portal",
+          },
+          {
+            serviceLayer: "Management Impact Review",
+            deliverables:
+              "Assessment of productivity, labour-shortage, order backlog",
+            tools: "Interview format, crisis readiness checklist",
+          },
+          {
+            serviceLayer: "CAP & Retest",
+            deliverables:
+              "Prioritised corrective-action plan + re-audit/desktop verification",
+            tools: "CAP tracker, follow-up scoring template",
+          },
+        ],
+      },
+    ],
+    comparison: [
+      {
+        heading: "Worker-Impact vs. Management Assessment",
+        table: [
+          {
+            aspect: "Lens",
+            bookkeeping: "Worker Impact Survey",
+            accounting:
+              "Are hygiene rules followed on the line? How has Covid-19 affected wages, OT, mental health?",
+          },
+          {
+            aspect: "Lens",
+            bookkeeping: "Management Assessment",
+            accounting:
+              "How did crises affect orders, productivity, labour? What measures speed a full ramp-up?",
+          },
+        ],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Ready to demonstrate world-class hygiene?",
+        description: [
+          "Book a free consultation with Corpbiz and get a tailored factory-sanitation audit proposal in 24 hours.",
+        ],
+        points: [],
+      },
+    ],
+    faq: [
+      {
+        question: "Why do I need a sanitation audit?",
+        answer:
+          "To prove safe conditions, cut outbreak risk and meet buyer/brand codes of conduct.",
+      },
+      {
+        question: "Who performs it?",
+        answer:
+          "Qualified EHS auditors; Corpbiz deploys ISO-trained professionals.",
+      },
+      {
+        question: "How long does it take?",
+        answer: "One work-shift for most plants; report ready within 72 hours.",
+      },
+      {
+        question: "Is it mandatory?",
+        answer:
+          "Often required by international retailers or CSR programmes, though not always by law.",
+      },
+      {
+        question: "What if critical issues arise?",
+        answer:
+          "A corrective-action plan must be closed; buyers may pause orders until verified.",
       },
     ],
   },
