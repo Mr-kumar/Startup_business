@@ -8,6 +8,7 @@ import {
   Store,
   AppWindow
 } from 'lucide-react';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Navbar: React.FC = () => {
       <div className="flex items-center gap-6">
         {/* CRM Logo */}
         <div className="flex items-center gap-1 font-semibold text-white">
-          <img
+          <Image
             src="https://cdn-icons-png.flaticon.com/512/3844/3844724.png" // Placeholder CRM logo
             alt="CRM"
             className="w-5 h-5"
@@ -49,7 +50,7 @@ const Navbar: React.FC = () => {
         <Store className="cursor-pointer hover:text-gray-300" size={18} />
 
         {/* Profile Avatar */}
-        <img
+        <Image
           src="https://randomuser.me/api/portraits/men/32.jpg"
           alt="avatar"
           className="w-7 h-7 rounded-full object-cover"

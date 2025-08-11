@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const heroImages = ["/hero1.jpg", "/hero2.jpg", "/hero3.jpg"];
 
@@ -76,7 +77,7 @@ const faqs = [
   {
     question: "What documents are required for GST registration?",
     answer:
-      "For GST registration, you'll need PAN card, Aadhaar card, proof of business address (electricity bill, rent agreement, etc.), bank account details with statements, photographs, and business incorporation documents. Our team will guide you through the entire documentation process.",
+      "For GST registration, you&apos;ll need PAN card, Aadhaar card, proof of business address (electricity bill, rent agreement, etc.), bank account details with statements, photographs, and business incorporation documents. Our team will guide you through the entire documentation process.",
   },
   {
     question: "What are the benefits of MSME registration?",
@@ -142,7 +143,7 @@ export default function Home() {
         className="transition-all hover:scale-110"
       >
         <div className="fixed bottom-10 right-10 z-50 h-[60px] w-[60px] md:h-[70px] md:w-[70px] drop-shadow-lg">
-          <img src="/whatsapp2.png" alt="whatsapp" />
+          <Image src="/whatsapp2.png" alt="whatsapp" />
         </div>
       </a>
 
@@ -232,7 +233,7 @@ export default function Home() {
                 onClick={() => router.push(service.link)}
               >
                 <div className="relative overflow-hidden h-48">
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
@@ -362,7 +363,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
           <p className="text-gray-300 mb-12 max-w-3xl mx-auto">
-            Don't just take our word for it. See what our clients have to say
+            Don&apos;t just take our word for it. See what our clients have to say
             about our services.
           </p>
           <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
@@ -376,7 +377,7 @@ export default function Home() {
               },
               {
                 quote:
-                  "As a first-time entrepreneur, I was nervous about the legal requirements. DoStartup's experts simplified everything and got my MSME registration done in record time!",
+                  `As a first-time entrepreneur, I was nervous about the legal requirements. DoStartup&apos;s experts simplified everything and got my MSME registration done in record time!`,
                 name: "Priya Patel",
                 company: "Organic Foods Co.",
                 image: "/testimonial2.jpg",
@@ -420,13 +421,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-800 mb-6">Who We Are</h2>
           <p className="mt-4 text-lg text-gray-600">
-            At DoStartup, we're dedicated to simplifying legal compliance and
+            At DoStartup, we&apos;re dedicated to simplifying legal compliance and
             registration processes for startups and small businesses. Our
             platform offers expert guidance and seamless services to help you
             grow your business with confidence.
           </p>
           <p className="mt-4 text-lg text-gray-600">
-            With a team of experienced legal and business consultants, we've
+            With a team of experienced legal and business consultants, we&apos;ve
             helped over 2000 businesses navigate the complex world of
             regulations and compliance.
           </p>
@@ -443,7 +444,7 @@ export default function Home() {
               <div className="text-3xl text-emerald-500 mb-2">👁️</div>
               <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
               <p className="text-gray-600">
-                To become India's most trusted business compliance partner for
+                To become India&apos;s most trusted business compliance partner for
                 startups and SMEs.
               </p>
             </div>
@@ -845,7 +846,7 @@ export default function Home() {
                 "/partner3.jpg",
                 "/partner4.png",
               ].map((src, idx) => (
-                <img
+                <Image
                   key={idx}
                   src={src}
                   alt={`Partner ${idx + 1}`}
