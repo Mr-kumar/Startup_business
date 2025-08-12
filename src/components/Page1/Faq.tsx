@@ -17,12 +17,12 @@ export interface ServicesFaqProps {
 }
 
 export default function ServicesFaq({ services, faqs }: ServicesFaqProps) {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
   // If both services and faqs are empty or undefined, render nothing
   if ((!services || services.length === 0) && (!faqs || faqs.length === 0)) {
     return null;
   }
-
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
     <div className="bg-[#0F172A]">

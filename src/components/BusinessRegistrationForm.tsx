@@ -23,7 +23,6 @@ const registrationTypes = [
 ];
 
 const BusinessRegistrationForm: React.FC<Props> = ({ prefillType }) => {
-  const [selectedType, setSelectedType] = useState(prefillType || "");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -75,7 +74,6 @@ const BusinessRegistrationForm: React.FC<Props> = ({ prefillType }) => {
           <div>
             <Label>Registration Type</Label>
             <Select value={formData.registrationType} onValueChange={(val) => {
-              setSelectedType(val);
               handleChange("registrationType", val);
             }}>
               <SelectTrigger>

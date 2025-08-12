@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 export interface Step {
   title: string;
@@ -228,7 +229,7 @@ export default function Documents({ data }: DocumentsProps) {
             whileHover={{ scale: 1.01 }}
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           >
-            <img
+            <Image
               src="https://corpbiz.io/img/steps_img.webp"
               alt="Form Fill"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaPhoneAlt, FaWhatsapp} from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 const TalkToExpert: React.FC = () => {
   const [ref, inView] = useInView({
@@ -96,7 +97,7 @@ const TalkToExpert: React.FC = () => {
                 className="relative mb-6"
                 whileHover={{ scale: 1.05 }}
               >
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
                   alt="Expert"
                   className="rounded-full w-24 h-24 object-cover border-4 border-[#7DD756] shadow-md"

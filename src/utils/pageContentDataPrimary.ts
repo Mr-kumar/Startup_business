@@ -134,7 +134,6 @@ export type Productlist = {
   documents?: string[];
 };
 
-export type pentalies = {};
 
 export type renewal = {
   heading: string;

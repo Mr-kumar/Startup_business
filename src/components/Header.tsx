@@ -9,7 +9,6 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openMainItem, setOpenMainItem] = useState<string | null>(null);
   const [openSubItem, setOpenSubItem] = useState<string | null>(null);
-  const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -49,7 +48,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
+      // setScrolled(window.scrollY > 10); // This line was removed
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);

@@ -99,7 +99,7 @@ const Registration: React.FC<RegistrationProps> = ({ procedure = [] }) => {
           className="mb-8"
         >
           <h2 className="text-xl font-bold text-[#1D293D] mb-4 relative inline-block">
-            <span className="relative z-10">Penalty for Not Complying with FSSAI's Norms</span>
+            <span className="relative z-10">Penalty for Not Complying with FSSAI&apos;s Norms</span>
             <motion.span 
               initial={{ scaleX: 0 }}
               animate={inView ? { 

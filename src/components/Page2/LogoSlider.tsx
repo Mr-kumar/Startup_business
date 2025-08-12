@@ -1,13 +1,8 @@
 'use client';
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
-interface CompanyLogo {
-  id: number;
-  name: string;
-  logoUrl: string;
-}
+import Image from 'next/image';
 
 const logos = [
   "https://corpbiz.io/admin/style/images/builder/20180628020904_stripe.jpg",
@@ -85,7 +80,7 @@ const LogoSlider = () => {
               {/* Logo with subtle shadow and hover effect */}
               <div className="relative h-full w-full flex items-center justify-center p-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300" />
-                <img
+                <Image
                   src={logo}
                   alt="Partner logo"
                   className="relative z-10 max-h-12 w-auto object-contain filter  transition-all duration-500"

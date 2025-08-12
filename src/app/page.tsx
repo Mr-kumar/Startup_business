@@ -396,7 +396,7 @@ export default function Home() {
                 className="bg-gray-800 shadow-lg rounded-xl p-6 text-left relative"
               >
                 <div className="absolute -top-6 left-6 text-5xl text-emerald-500">
-                  "
+                  &quot;
                 </div>
                 <p className="text-gray-300 mb-6 pt-4">{testimonial.quote}</p>
                 <div className="flex items-center">

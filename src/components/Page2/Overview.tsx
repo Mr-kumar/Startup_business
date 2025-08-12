@@ -25,8 +25,6 @@ import Business from "./Business";
 import Services from "./Services";
 import Productlist from './Productlist';
 import Clauses from "./Clauses";
-import Renewal from "./Renewal";
-import { section } from "framer-motion/client";
 
 interface OverviewProps {
   overview?: { heading: string; content: string }[];
@@ -83,6 +81,11 @@ interface OverviewProps {
   };
 }
 
+interface SectionItem {
+  id: string;
+  label: string;
+}
+
 const Overview: React.FC<OverviewProps> = ({
   overview,
   benefits,
@@ -116,7 +119,7 @@ const Overview: React.FC<OverviewProps> = ({
   const [activeSection, setActiveSection] = useState("overview");
 
   // Dynamically generate the sections array based on available props
-  const sections = [
+  const sections: SectionItem[] = [
     overview && overview.length > 0 && { id: "overview", label: "Overview" },
     benefits &&
     benefits.length > 0 && { id: "benefits", label: "Key Benefits" },
@@ -164,7 +167,7 @@ const Overview: React.FC<OverviewProps> = ({
     who && who.length > 0 && { id: "who", label: "Who" },
     clauses && clauses.length > 0 && { id: "clauses", label: "Key Clauses" },
     faq && faq.length > 0 && { id: "faq", label: "FAQs" },
-  ].filter(Boolean); // Remove undefined entries
+  ].filter(Boolean) as SectionItem[]; // Remove undefined entries and type as SectionItem[]
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -176,7 +179,7 @@ const Overview: React.FC<OverviewProps> = ({
 
   useEffect(() => {
     const handleScroll = () => {
-      sections.forEach(({ id }: any) => {
+      sections.forEach(({ id }: SectionItem) => {
         const element = document.getElementById(id);
         if (element) {
           const rect = element.getBoundingClientRect();
@@ -197,7 +200,7 @@ const Overview: React.FC<OverviewProps> = ({
       <aside className="lg:w-1/5 sticky top-[120px] h-fit bg-white p-6 rounded-xl shadow-sm border border-gray-100">
         <h3 className="text-lg font-bold text-[#1D293D] mb-6">Navigation</h3>
         <ul className="space-y-2">
-          {sections.map(({ id, label }: any) => (
+          {sections.map(({ id, label }: SectionItem) => (
             <li
               key={id}
               onClick={() => scrollToSection(id)}

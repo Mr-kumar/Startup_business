@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { AiFillCheckCircle, AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillCheckCircle } from "react-icons/ai";
 import { FaWhatsapp, FaRegHandshake } from "react-icons/fa";
-import { FiCheck, FiChevronDown } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
 const WHATSAPP_NUMBER = "919999999999"; // Configurable WhatsApp number
@@ -16,7 +15,7 @@ const Registration: React.FC = () => {
   });
   const [whatsappConsent, setWhatsappConsent] = useState(true);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [activeFeature, setActiveFeature] = useState(0);
+  const [activeFeature] = useState(0);
 
   const features = [
     "Document Preparation",

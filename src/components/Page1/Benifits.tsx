@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 export interface BenefitItem {
   title: string;
@@ -13,11 +14,6 @@ export interface BenefitsProps {
 }
 
 export default function Benefits({ items }: BenefitsProps) {
-  // 🚫 Don't render anything if the items array is empty or undefined
-  if (!items || items.length === 0) {
-    return null;
-  }
-
   const controls = useAnimation();
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -64,6 +60,10 @@ export default function Benefits({ items }: BenefitsProps) {
     }
   };
 
+  if (!items || items.length === 0) {
+    return null;
+  }
+
   return (
     <section 
       ref={ref}
@@ -91,7 +91,7 @@ export default function Benefits({ items }: BenefitsProps) {
             <div className="sticky top-28">
               <div className="relative">
                 <div className="absolute -inset-4 bg-[#7AD955] rounded-2xl blur opacity-20"></div>
-                <img 
+                <Image
                   src="https://corpbiz.io/img/adv_icon1.webp" 
                   alt="Illustration" 
                   width={450} 
