@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { motion } from "framer-motion";
-import { FaPhoneAlt, FaWhatsapp} from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
@@ -54,7 +54,7 @@ const TalkToExpert: React.FC = () => {
       >
         {/* Section Header */}
         <div className="mb-12 text-center">
-          <motion.h2 
+          <motion.h2
             className="text-3xl md:text-4xl font-bold text-[#1D293D] mb-4 relative inline-block"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
@@ -63,14 +63,14 @@ const TalkToExpert: React.FC = () => {
             <span className="relative z-10 px-4">
               Talk to an Expert
             </span>
-            <motion.span 
+            <motion.span
               className="absolute bottom-0 left-0 w-full h-2 bg-[#7DD756]/30 z-0"
               initial={{ scaleX: 0 }}
               animate={inView ? { scaleX: 1 } : {}}
               transition={{ duration: 0.8, delay: 0.3 }}
             />
           </motion.h2>
-          <motion.p 
+          <motion.p
             className="text-gray-600 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
@@ -91,13 +91,15 @@ const TalkToExpert: React.FC = () => {
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-[#7DD756]/10 rounded-full -mr-16 -mt-16"></div>
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#7DD756]/5 rounded-full -ml-12 -mb-12"></div>
-            
+
             <div className="relative z-10 flex flex-col items-center">
-              <motion.div 
+              <motion.div
                 className="relative mb-6"
                 whileHover={{ scale: 1.05 }}
               >
                 <Image
+                  width={150}
+                  height={150}
                   src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
                   alt="Expert"
                   className="rounded-full w-24 h-24 object-cover border-4 border-[#7DD756] shadow-md"
@@ -110,24 +112,24 @@ const TalkToExpert: React.FC = () => {
               </motion.div>
 
               <div className="text-center">
-                
+
 
                 {/* Contact Buttons */}
                 <div className="flex flex-wrap gap-4 justify-center mt-8">
-                  <motion.button 
+                  <motion.button
                     className="bg-white text-[#1D293D] px-6 py-3 rounded-lg flex items-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all"
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    <FaPhoneAlt className="text-[#7DD756]" /> 
+                    <FaPhoneAlt className="text-[#7DD756]" />
                     <span>Call Now</span>
                   </motion.button>
-                  <motion.button 
+                  <motion.button
                     className="bg-[#7DD756] text-white px-6 py-3 rounded-lg flex items-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all"
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    <FaWhatsapp /> 
+                    <FaWhatsapp />
                     <span>Chat With Us</span>
                   </motion.button>
                 </div>

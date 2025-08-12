@@ -143,7 +143,7 @@ export default function Home() {
         className="transition-all hover:scale-110"
       >
         <div className="fixed bottom-10 right-10 z-50 h-[60px] w-[60px] md:h-[70px] md:w-[70px] drop-shadow-lg">
-          <Image src="/whatsapp2.png" alt="whatsapp" />
+          <Image src="/whatsapp2.png" alt="whatsapp" width={60} height={60} />
         </div>
       </a>
 
@@ -236,6 +236,8 @@ export default function Home() {
                   <Image
                     src={service.image}
                     alt={service.title}
+                    width={400}
+                    height={192}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -849,6 +851,8 @@ export default function Home() {
                 <Image
                   key={idx}
                   src={src}
+                  width={400}
+                  height={400}
                   alt={`Partner ${idx + 1}`}
                   className="h-16 sm:h-20 md:h-24 w-auto object-contain  transition-all duration-300"
                 />

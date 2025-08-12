@@ -74,11 +74,15 @@ const LogoSlider = dynamic(() => import("@/components/Page2/LogoSlider"));
 const TalkToExpert = dynamic(() => import("@/components/Page2/TalkToExpert"));
 const Overview = dynamic(() => import("@/components/Page2/Overview"));
 
-type Props = { params: { slug: string } };
+interface PageProps {
+  params?: Promise<{ slug: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+}
 
-export default function Page2({ params }: Props) {
-  const { slug } = params;
-  const pc = pageContent as Record<string, PageContentType>; // explicit cast for TS
+export default async function Page({ params }: PageProps) {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug ?? '';
+  const pc = pageContent as Record<string, PageContentType>;
   const currentPage = pc[slug];
 
   if (!currentPage) {
@@ -124,6 +128,5 @@ export default function Page2({ params }: Props) {
 }
 
 export function generateStaticParams() {
-  // pageContent is synchronous, so no await
   return Object.keys(pageContent).map((slug) => ({ slug }));
 }
