@@ -230,6 +230,8 @@ export default function Documents({ data }: DocumentsProps) {
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           >
             <Image
+            height={500}
+            width={500}
               src="https://corpbiz.io/img/steps_img.webp"
               alt="Form Fill"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

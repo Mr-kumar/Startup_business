@@ -81,6 +81,8 @@ const LogoSlider = () => {
               <div className="relative h-full w-full flex items-center justify-center p-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300" />
                 <Image
+                width={150}
+                height={50}
                   src={logo}
                   alt="Partner logo"
                   className="relative z-10 max-h-12 w-auto object-contain filter  transition-all duration-500"

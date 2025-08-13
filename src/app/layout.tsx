@@ -29,6 +29,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DoStartup",
   description: "DoStartup",
+  icons: {
+    icon: '/Logo.png',
+  },
 };
 
 export default function RootLayout({
@@ -37,15 +40,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-      <link rel="icon" type="image/x-icon" href="/Logo.png" />
-      </head>
-      <body
-        className={`${montserrat.variable} ${outfit.variable}  ${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${montserrat.variable} ${outfit.variable} ${geistSans.variable} ${geistMono.variable}`}>
+      <body suppressHydrationWarning className="antialiased">
         <Header />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

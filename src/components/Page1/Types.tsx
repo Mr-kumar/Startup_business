@@ -72,6 +72,8 @@ export default function Types({ data }: TypesProps) {
                 <div className="absolute -inset-4 bg-gradient-to-r from-[#7AD955] to-[#1D293D] rounded-3xl opacity-30 blur-xl group-hover:opacity-40 transition-all duration-500" />
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform group-hover:-translate-y-1 transition-transform duration-300">
                   <Image
+                  width={500}
+                  height={500}
                     src="https://corpbiz.io/img/feature_img.webp"
                     alt="FSSAI benefits"
                     className="w-full max-w-md object-cover transition-transform duration-500 group-hover:scale-105"
@@ -298,6 +300,8 @@ export default function Types({ data }: TypesProps) {
                 <div className="absolute -inset-4 bg-gradient-to-r from-[#7AD955] to-[#1D293D] rounded-3xl opacity-20 blur-xl group-hover:opacity-30 transition-all duration-500" />
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform group-hover:-translate-y-1 transition-transform duration-300">
                   <Image
+                  width={500}
+                  height={500}
                     src="https://corpbiz.io/img/img4.webp"
                     alt="Process illustration"
                     className="w-full max-w-md object-cover transition-transform duration-500 group-hover:scale-105"
