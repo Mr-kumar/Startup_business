@@ -143,7 +143,7 @@ export default function Home() {
         className="transition-all hover:scale-110"
       >
         <div className="fixed bottom-10 right-10 z-50 h-[60px] w-[60px] md:h-[70px] md:w-[70px] drop-shadow-lg">
-          <Image src="/whatsapp2.png" alt="whatsapp" />
+          <Image src="/whatsapp2.png" alt="whatsapp"/>
         </div>
       </a>
 
