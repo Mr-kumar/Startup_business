@@ -61,14 +61,14 @@ const Header = () => {
         {
           title: "FSSAI & Eating License",
           links: [
-            { name: "FSSAI License", href: "/" },
+            { name: "FSSAI License", href: "/startup/fssai-license-registration" },
             {
               name: "FSSAI License Renewal",
-              href: "/startup/fssai-license-renewal",
+              href: "/fssai-license-renewal",
             },
 
-            { name: "FSSAI State License", href: "fssai-state-license" },
-            { name: "Eating House License", href: "/startup/eating-house" },
+            { name: "FSSAI State License", href: "/fssai-state-license" },
+            { name: "Eating House License", href: "/eating-house-license" },
             { name: "Central FSSAI License", href: "/fssai-central-license" },
             {
               name: "FSSAI Annual Return",
@@ -1093,6 +1093,32 @@ const Header = () => {
           ],
         },
         {
+          title: "Plastic Waste Management",
+          description: "Plastic Waste Management",
+          links: [
+            {
+              name: "EPR Authorization for Plastic waste Management",
+              href: "/epr-authorization-for-plastic-waste-management",
+            },
+            {
+              name: "EPR Post Compliance – Plastic Waste",
+              href: "/epr-post-compliance-plastic-waste",
+            },
+            {
+              name: "Plastic Waste Recycling Plant & PWM",
+              href: "/plastic-waste-recycling-plant-pwm-setup",
+            },
+            {
+              name: "Plastic Waste Processors Authorisation",
+              href: "/plastic-waste-processors-authorisation",
+            },
+            {
+              name: "EPR Fulfilment For Plastic Waste Management",
+              href: "/epr-fulfilment-plastic-waste-management",
+            },
+          ],
+        },
+        {
           title: "Hazardous Waste Management",
           description:
             "Authorizations and Compliance for Hazardous, Biomedical, and Industrial Waste",
@@ -1245,11 +1271,11 @@ const Header = () => {
           links: [
             {
               name: "State Pollution Control Board (SPCB) - NOC",
-              href: "/fire-department-noc-in-india",
+              href: "/state-pollution-control-board-spcb-noc",
             },
             {
               name: "Environmental Auditing",
-              href: "/delhi-pollution-control-committee-authorization",
+              href: "/environmental-auditing",
             },
             {
               name: "Environmental Clearance",
@@ -1289,7 +1315,7 @@ const Header = () => {
             },
             {
               name: "Soil Testing",
-              href: "/consent-for-establishment-cfe-from-spcb",
+              href: "/soil-testing",
             },
           ],
         },
@@ -1327,33 +1353,7 @@ const Header = () => {
               href: "/green-building-certification",
             },
             { name: "PEFC Certification", href: "/pefc-certification" },
-            { name: "FSC Certification", href: "/consent-for-operation-cfo" },
-          ],
-        },
-        {
-          title: "Plastic Waste Management",
-          description: "Plastic Waste Management",
-          links: [
-            {
-              name: "EPR Authorization for Plastic waste Management",
-              href: "/epr-authorization-for-plastic-waste-management",
-            },
-            {
-              name: "EPR Post Compliance – Plastic Waste",
-              href: "/epr-post-compliance-plastic-waste",
-            },
-            {
-              name: "Plastic Waste Recycling Plant & PWM",
-              href: "/plastic-waste-recycling-plant-pwm-setup",
-            },
-            {
-              name: "Plastic Waste Processors Authorisation",
-              href: "/plastic-waste-processors-authorisation",
-            },
-            {
-              name: "EPR Fulfilment For Plastic Waste Management",
-              href: "/epr-fulfilment-plastic-waste-management",
-            },
+            { name: "FSC Certification", href: "/fsc-certification" },
           ],
         },
       ],
@@ -1514,12 +1514,11 @@ const Header = () => {
                                           `${item.title}-${subItem.title}`
                                         );
                                       }}
-                                      className={`flex justify-between cursor-pointer items-center w-full px-6 py-3 hover:bg-slate-700 hover:text-emerald-300 text-left ${
-                                        openSubItem ===
+                                      className={`flex justify-between cursor-pointer items-center w-full px-6 py-3 hover:bg-slate-700 hover:text-emerald-300 text-left ${openSubItem ===
                                         `${item.title}-${subItem.title}`
-                                          ? "bg-slate-700 text-emerald-300"
-                                          : ""
-                                      }`}
+                                        ? "bg-slate-700 text-emerald-300"
+                                        : ""
+                                        }`}
                                     >
                                       {subItem.title}
                                       {subItem.links && (
@@ -1550,7 +1549,7 @@ const Header = () => {
                               {item.subItems?.map(
                                 (subItem) =>
                                   openSubItem ===
-                                    `${item.title}-${subItem.title}` &&
+                                  `${item.title}-${subItem.title}` &&
                                   subItem.links && (
                                     <div
                                       key={subItem.title}
@@ -1632,9 +1631,8 @@ const Header = () => {
                       >
                         {item.title}
                         <svg
-                          className={`w-2.5 h-2.5 ms-2.5 transition-transform ${
-                            openMainItem === item.title ? "rotate-180" : ""
-                          }`}
+                          className={`w-2.5 h-2.5 ms-2.5 transition-transform ${openMainItem === item.title ? "rotate-180" : ""
+                            }`}
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -1667,12 +1665,11 @@ const Header = () => {
                                 {subItem.title}
                                 {subItem.links && (
                                   <svg
-                                    className={`w-2.5 h-2.5 ms-2.5 transition-transform ${
-                                      openSubItem ===
+                                    className={`w-2.5 h-2.5 ms-2.5 transition-transform ${openSubItem ===
                                       `${item.title}-${subItem.title}`
-                                        ? "rotate-180"
-                                        : ""
-                                    }`}
+                                      ? "rotate-180"
+                                      : ""
+                                      }`}
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"

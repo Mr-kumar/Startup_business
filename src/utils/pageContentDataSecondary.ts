@@ -7252,7 +7252,7 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
-
+  
   "legal-heir-certificate": {
     overview: {
       heading: "Legal Heir Certificate – An Overview",
