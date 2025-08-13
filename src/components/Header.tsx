@@ -66,9 +66,10 @@ const Header = () => {
               name: "FSSAI License Renewal",
               href: "/startup/fssai-license-renewal",
             },
+
             { name: "FSSAI State License", href: "fssai-state-license" },
             { name: "Eating House License", href: "/startup/eating-house" },
-            { name: "Central FSSAI License", href: "/startup/fssai-central" },
+            { name: "Central FSSAI License", href: "/fssai-central-license" },
             {
               name: "FSSAI Annual Return",
               href: "/startup/fssai-annual-return",
@@ -77,10 +78,11 @@ const Header = () => {
               name: "FSSAI Product Approval",
               href: "/startup/fssai-product-approval",
             },
-            { name: "Food Recycling License", href: "/startup/food-recycling" },
-            { name: "FPO Mark Certification", href: "/startup/fpo-mark" },
+            { name: "Food Recycling License", href: "/food-recycling-license" },
+            { name: "FPO Mark Certification", href: "/fpo-certification" },
           ],
         },
+        //main section of errors-himanshu
         {
           title: "Business Registration",
           links: [
@@ -143,10 +145,10 @@ const Header = () => {
               name: "Paper and Paperboard Packaging Industry",
               href: "/startup/paper-packaging",
             },
-            { name: "Fermentation Industry", href: "/startup/fermentation" },
+            { name: "Fermentation Industry", href: "/fermentation" },//not there
             {
-              name: "Renewable Energy Business",
-              href: "/startup/renewable-energy",
+              name: "Renewable Energy Business", // not there
+              href: "/renewable-energy",
             },
             {
               name: "Conversion of Pvt. Ltd. to Public Limited",
@@ -169,12 +171,12 @@ const Header = () => {
               name: "Annual Compliance of a Pvt. Ltd. Company",
               href: "/compliances-private-limited-company",
             },
-            { name: "Annual Filing for LLP", href: "/startup/llp-filing" },
+            { name: "Annual Filing for LLP", href: "/startup/llp-filing" }, //not there
             {
               name: "Event Based Compliances in a Company",
               href: "/event-based-compliances",
             },
-            { name: "Change in Object Clause", href: "/startup/change-object" },
+            { name: "Change in Object Clause", href: "/moa-memorandum-of-association" },
             {
               name: "Appointment and Resignation of Directors",
               href: "/director-appointment-resignation",
@@ -195,7 +197,7 @@ const Header = () => {
             { name: "NBFC Compliance", href: "/startup/nbfc-compliance" },
             {
               name: "Change in Registered Office",
-              href: "/change-registered-office",
+              href: "/startup/change-registered-office",
             },
             {
               name: "Change in Share Capital",
@@ -458,17 +460,17 @@ const Header = () => {
         {
           title: "NGO",
           links: [
-            { name: "NGO Registration", href: "/startup/ngo-registration" },
-            { name: "80G and 12A Registration", href: "/startup/80g-12a" },
+            { name: "NGO Registration", href: "/ngo-registration-india" },
+            { name: "80G and 12A Registration", href: "/12a-80g-registration" },
             {
               name: "Section 8 Company Registration",
-              href: "/startup/section-8",
+              href: "/section8-company-registration",
             },
-            { name: "Society Registration", href: "/startup/society" },
+            { name: "Society Registration", href: "/society-registration-india" },
             { name: "FCRA Registration", href: "/startup/fcra-registration" },
             { name: "12AA Registration", href: "/startup/12aa-registration" },
             { name: "Trust Registration", href: "/startup/trust-registration" },
-            { name: "12AB Registration", href: "/startup/12ab" },
+            { name: "12AB Registration", href: "/12ab-registration-india" },
             {
               name: "Trust Annual Compliance",
               href: "/startup/trust-annual-compliance",
@@ -552,6 +554,10 @@ const Header = () => {
               name: "Registration OF Geographical Indication (GI)",
               href: "/startup/gi-registration",
             },
+            {
+              name: "Wordmark Registration in India",
+              href: "/wordmark-registration-india",
+            },
           ],
         },
         {
@@ -614,11 +620,11 @@ const Header = () => {
           links: [
             {
               name: "GST Registration",
-              href: "/gst-registration",
+              href: "/startup/gst-registration",
             },
             {
               name: "GST Return Filing",
-              href: "/gst-return-filing",
+              href: "/startup/gst-return-filing",
             },
             {
               name: "TDS Return Filing",
@@ -690,6 +696,7 @@ const Header = () => {
             },
           ],
         },
+        //pages-verified till here-himanshu
         {
           title: "Legal Services",
           description: "Legal Services and Agreements",

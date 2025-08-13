@@ -232,6 +232,8 @@ export type PageContentType = {
   comparison?: ComparisonTable[];
 };
 
+
+
 export const pageContent: Record<string, PageContentType> = {
   "eating-house-license": {
     title: "Eating House License Registration",
@@ -39224,4 +39226,182 @@ Do Startup Assistance Process:
       },
     ],
   },
+  "wordmark-registration-india": {
+    title: "Wordmark Registration in India",
+    description: "Wordmark registration protects the words and letters of your brand name (not the font or design). Registering a wordmark gives exclusive rights to use the brand name for specified goods or services under the Trade Marks Act, 1999, safeguards goodwill, reduces legal risk and strengthens market and investor credibility.",
+    overview: [
+      {
+        heading: "Overview of Wordmark Registration in India",
+        content: "Wordmark registration is a category of trademark registration in India. In wordmark registration, only the words and letters can be trademarked. This means you can register the brand name of your business. The focus is on the name itself, not on the font or style. Once registered, the owner gets exclusive rights to use the trademark, and no other entity can use the same name for similar goods or services.\n\nTrademark registration helps protect the business from legal disputes and gives it a unique identity. It safeguards the company’s goodwill, products, and services. The Trade Marks Act, 1999, governs this process in India."
+      },
+      {
+        heading: "Types of Trademarks",
+        content: "India offers registration for various types of trademarks, including:\n\n1. Wordmark or Service Mark\n• Wordmark: Usually the brand name that identifies the goods/services.\n• Service Mark: Identifies services offered by a company.\n\n2. Product Mark\n• Used for product-based businesses.\n• Filed under trademark classes 1–34, depending on the product category.\n\n3. Logo (Device Mark)\n• A design or symbol representing the company’s vision, product, or name.\n\n4. Collective Marks\n• Used by a group or association to distinguish their goods/services from others.\n\n5. Certification Marks\n• Indicates that goods/services meet certain quality or safety standards."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Advantages of Wordmark Registration",
+        content: "1. Protection of Intellectual Property\n• Prevents others from using the same name.\n• Provides legal backing in case of disputes.\n\n2. Public Representation\n• Grants the right to represent your brand nationally.\n• No one else can register a similar trademark.\n\n3. Legal Remedies\n• The owner can restrict usage and claim damages if someone uses the registered mark unlawfully.\n\n4. Flexibility\n• A wordmark allows usage in any font or style.\n• However, accurate spelling is critical in the registration application."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Wordmark Registration",
+        content: "1. PAN Card – Proof of identity.\n2. Aadhar Card – Additional identity proof.\n3. Certificate of Incorporation – For companies/LLPs.\n4. Logo (optional) – If filing for a device mark.\n5. Form TM-48 – Authorises the trademark attorney to file on your behalf."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Important Points Before Submitting a Wordmark Application",
+        documents: [
+          "Decide whether to register a wordmark, logo, or both.",
+          "A wordmark offers broader protection and allows flexibility in changing the logo later.",
+          "If a logo is trademarked and later changed, the new logo won’t be protected under the old trademark.",
+          "Filing separate applications for the name and logo ensures wider coverage, though it can be more expensive."
+        ]
+      },
+      {
+        category: "Who Can Apply / Eligibility",
+        documents: [
+          "Individual — Even without a business, individuals can register a trademark for future use.",
+          "Partnership Firm — All partners (not exceeding 10) must be named. Minor partners must be represented by a guardian.",
+          "Joint Owners — Both names must be mentioned in the application.",
+          "Proprietorship Firm — Filed in the name of the proprietor, not the firm.",
+          "LLP — Filed in the name of the LLP, not the partners.",
+          "Trust and Society — Application filed in the name of the chairman, trustee, or secretary.",
+          "Indian Company — Registered in the name of the company, not directors or promoters.",
+          "Foreign Company — Registered under the name as it appears in the home country, along with details like nature and country of registration."
+        ]
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure of Wordmark Registration in India",
+        content: "Step 1: Trademark Search\n• Conduct a search on the official website of the Controller General of Patents, Designs & Trade Marks and other relevant databases.\n• Check if the selected mark is already in use, consider phonetic/visual similarities and related classes.\n\nStep 2: Filing the Trademark Application\n• Can be done online or offline. File in the appropriate class(es) with accurate applicant details, representation of the mark (if any), and goods/services specification.\n• On filing you receive an application number for tracking.\n\nStep 3: Examination by Trademark Office\n• Examiner verifies registrability — distinctiveness, descriptiveness, conflicts with earlier marks and compliance with formal requirements.\n• If accepted, the mark proceeds to publication. If objections arise (examination report), the applicant must respond within the specified time (usually 30 days) with arguments and evidence; a hearing may be granted if required.\n\nStep 4: Publication in the Trademark Journal\n• If the examiner accepts the mark after examination and replies, it is published in the Trademark Journal for four months to invite opposition from third parties.\n\nStep 5: Opposition and Disposal\n• Third parties may oppose during the publication period. If opposed, contested proceedings follow with evidence exchange, hearings and adjudication by the Registrar.\n\nStep 6: Registration Certificate\n• On successful completion of the opposition period (no opposition) or disposal in favour of the applicant, the Registrar issues a registration certificate.\n\nStep 7: Renewal\n• Registered trademarks are valid for ten years and renewable indefinitely in ten-year blocks by paying the prescribed renewal fee."
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Fees & Payment",
+        paymentMethods: [
+          "Online payment via IP India portal",
+          "Demand Draft (where applicable)",
+          "Bank transfer as per official instructions"
+        ],
+        description: "Government fees vary by applicant category (individual/startup/small entity get concessional rates) and by number of classes. Professional fees for searches, filing, prosecution and representation vary by service provider. Renewal fees apply every 10 years.",
+        feeTable: [
+          {
+            category: "Indicative government fee (per class for e-filing)",
+            amount: "Concessional rates for individuals/startups/small entities; standard rates for others (refer IP India fee schedule)"
+          }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline",
+        description: "Timelines vary with workload, objections, oppositions and speed of responses. Below is a typical flow assuming no complex opposition.",
+        steps: [
+          {
+            title: "Pre-filing search",
+            duration: "1–7 days",
+            description: "Clearance search across databases to identify conflicts and inform filing strategy."
+          },
+          {
+            title: "Filing",
+            duration: "1 day (online)",
+            description: "Submission of application and generation of application number."
+          },
+          {
+            title: "Examination",
+            duration: "2–9 months (varies)",
+            description: "Examination report issuance and time for applicant to respond to objections if any."
+          },
+          {
+            title: "Publication in Trademark Journal",
+            duration: "4 months",
+            description: "Statutory opposition period after advertisement."
+          },
+          {
+            title: "Registration issuance",
+            duration: "1–2 months after opposition period or disposal",
+            description: "Certificate issued if no opposition or if opposition resolved in applicant's favour."
+          }
+        ],
+        totalTime: "12–18 months (typical, subject to objections/oppositions)"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Expert Assistance with Dostatup",
+        description: [
+          "Dostatup provides end-to-end trademark support — from clearance searches and filing to handling objections, oppositions and renewals.",
+          "Our professionals have years of experience in handling trademark filings efficiently and legally, minimising procedural errors and rejections.",
+          "We guide on class selection, specification drafting, evidence of use, and enforcement strategy to maximise protection."
+        ],
+        points: [
+          "Comprehensive clearance search & risk assessment",
+          "Accurate application drafting and class planning",
+          "Timely responses to examination reports and opposition handling",
+          "Renewal reminders, portfolio management and enforcement support"
+        ],
+        footerText: "Dostatup assists businesses of all sizes to secure, enforce and commercialise brand assets efficiently."
+      }
+    ],
+    who: [
+      {
+        heading: "Who Can Apply / Eligibility",
+        description: [
+          "Multiple applicant types can apply — individuals, partnership firms, proprietors, LLPs, trusts, societies, Indian companies and foreign companies. The application must correctly identify applicant type and provide required documentary proof."
+        ],
+        points: [
+          "Individual — any natural person can apply even for future use.",
+          "Partnership Firm — application in the partnership name with partners listed.",
+          "Joint Owners — include names of all joint owners in the application.",
+          "Proprietorship — filed in the proprietor's name.",
+          "LLP — filed in the name of the LLP.",
+          "Trust / Society — filed in the name of the authorised office-bearer (e.g., chairman/secretary).",
+          "Indian Company — filed in the company name.",
+          "Foreign Company — filed in the name that appears in the home jurisdiction with supporting registration details."
+        ],
+        footerText: "Selecting the correct applicant entity and name at filing avoids procedural complications and potential rectification steps later."
+      }
+    ],
+    faq: [
+      {
+        question: "Should I register a logo trademark or a word trademark?",
+        answer: "You can register both separately (wordmark for the name and device mark for the logo). If you must choose one, pick the element that primarily identifies your brand to consumers. Wordmarks give flexibility to change visual style later; device marks protect a specific graphical treatment."
+      },
+      {
+        question: "What is the difference between trademark protection and copyright protection?",
+        answer: "Trademarks protect brand identifiers like names, logos and symbols used to distinguish goods/services. Copyright protects original literary, artistic and musical works. A logo may attract both types of protection, but the legal regimes and remedies differ."
+      },
+      {
+        question: "Is trademark registration mandatory?",
+        answer: "No, but it is strongly recommended. Registration confers statutory rights, easier enforcement, and evidentiary advantages in disputes compared to relying solely on unregistered/common law rights."
+      },
+      {
+        question: "How long is a trademark valid?",
+        answer: "A registered trademark is valid for ten years from the date of registration and can be renewed indefinitely for further ten-year periods by paying the prescribed renewal fee."
+      },
+      {
+        question: "How long does the registration process take?",
+        answer: "Typically 12–18 months in straightforward cases without objections or oppositions. Complex prosecutions, oppositions or litigation can extend timelines significantly."
+      },
+      {
+        question: "What if my application is rejected?",
+        answer: "You may file a reasoned response to the examination report within the prescribed time. If the examiner is not satisfied, a hearing may be listed. Appeals are available against adverse decisions before tribunals and courts. Professional assistance can greatly improve the chances of overcoming rejections."
+      },
+      {
+        question: "Who can oppose my application during publication?",
+        answer: "Any person or entity (individual, company or organisation) who believes the proposed mark conflicts with their prior rights or causes confusion can file an opposition within the four-month statutory window after publication."
+      },
+      {
+        question: "Under which law is wordmark registration governed?",
+        answer: "All trademark registrations in India, including wordmarks, are governed by the Trade Marks Act, 1999 and the rules framed thereunder; procedural practice follows the Controller General of Patents, Designs & Trade Marks (IP India)."
+      }
+    ]
+  }
+  
 };
