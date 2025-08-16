@@ -5194,7 +5194,7 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
       },
     ],
   },
-  gmpCertification: {
+  "gmpCertification": {
     title: "GMP Certification – A Complete Overview",
     description:
       "Good Manufacturing Practice (GMP) certification ensures that products are consistently produced and controlled according to quality standards to minimize risks involved in pharmaceutical manufacturing.",
@@ -21574,8 +21574,8 @@ Ensuring these steps prevents legal issues and maintains accurate ROC records.`,
     ],
   },
 
-  "esdd-environmental-social-due-diligence": {
-    title: "Environmental and Social Due Diligence (ESDD)",
+  "esdd-agricultural-equipment-industry": {
+    title: "Environmental & Social Due Diligence in the Agriculture Equipmnet Manufacturing Industry",
     description:
       "Ensure sustainable business practices with expert ESDD services tailored for the agricultural equipment and solar energy sectors.",
     overview: [
@@ -39786,6 +39786,2069 @@ Do Startup Assistance Process:
         answer: "All trademark registrations in India, including wordmarks, are governed by the Trade Marks Act, 1999 and the rules framed thereunder; procedural practice follows the Controller General of Patents, Designs & Trade Marks (IP India)."
       }
     ]
-  }
+  },
+
+  "solid-waste-management-authorisation": {
+    title: "Solid Waste Management Authorisation",
+    description: "Solid waste includes solid or semi-solid domestic refuse, sanitary waste, institutional and commercial refuse, horticultural and agricultural residues, bio-media waste, and any similar waste produced within the jurisdiction of local authorities. Solid Waste Management (SWM) oversees the generation, collection, storage, transport, processing and final disposal of such waste in a manner that protects public health while balancing engineering, economic, conservation and environmental concerns. Anyone who sets up or operates facilities for processing, treating, recycling or disposing of solid waste must obtain SWM Authorisation under the Solid Waste Management Rules from the relevant authority.",
+    overview: [
+      {
+        heading: "What is Solid Waste & SWM Authorisation?",
+        content: "Solid waste includes household refuse, sanitary waste, commercial and institutional waste, horticultural and agricultural residues, bio-media waste and similar categories defined in Rule 2. Solid Waste Management (SWM) is the discipline that manages generation, collection, storage, transport, processing and final disposal of such waste while protecting public health and balancing engineering, economic, conservation and environmental objectives. Any entity that sets up or operates facilities for processing, treatment, recycling or disposal of solid waste is required to obtain SWM Authorisation from the competent State Pollution Control Board (SPCB) or Pollution Control Committee (PCC) under the Solid Waste Management Rules."
+      },
+      {
+        heading: "Who is a Waste Generator?",
+        content: "A waste generator is any individual, household, organisation or group—whether occupying residential or non-residential premises (this includes Indian Railways and defence establishments)—that produces solid waste. Generators range from single households to bulk generators such as markets, large institutions, gated communities and commercial complexes."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Public Health & Environmental Benefits of Proper SWM Authorisation",
+        content: "Authorisation helps ensure that waste processing, treatment and disposal operations comply with environmental standards and operating conditions. Properly authorised facilities protect public health by preventing uncontrolled dumping and burning, reduce pollution of soil and water, ensure controlled handling of hazardous domestic fractions, and improve recovery, recycling and resource efficiency. Authorisation also clarifies roles and responsibilities—making service delivery predictable and enforceable."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for SWM Authorisation",
+        content: "Aadhaar card of the authorised signatory\nPAN card of the authorised signatory\nGST registration certificate (if applicable)\nProof of site ownership or rent/lease agreement\nFactory licence / trade licence (if applicable)\nRecent electricity bill\nSite layout plan showing waste processing/handling areas\nProcess flow chart describing steps of collection/processing/treatment/disposal\nList and specifications of installed machinery and equipment\nAny other documents requested by the SPCB/PCC (environmental statements, consent history, safety plans)"
+      }
+    ],
+    Listicles: [
+      {
+        category: "Key Responsibilities of Waste Generators",
+        documents: [
+          "Segregation at source – Keep biodegradable, non-biodegradable and domestic hazardous waste in separate bins and hand over each stream to authorised collectors.",
+          "Sanitary waste – Wrap used sanitary items in pouches supplied by the manufacturer (or use other suitable wrapping) and place them with dry/non-biodegradable waste.",
+          "Construction & demolition debris – Store this waste separately and hand it over as directed by the local authority.",
+          "Horticultural and garden waste – Keep and dispose of garden waste as directed by the local authority (composting, green waste collection, etc.).",
+          "No littering or burning – Do not dump, burn or bury waste in streets, public spaces, drains or waterbodies."
+        ]
+      },
+      {
+        category: "Principal Waste-Management Regulations in India",
+        documents: [
+          "Municipal Solid Waste (Management & Handling) Rules 2000 — Scope: collection, segregation, storage, transport, processing and disposal of municipal solid waste. Responsible entity: municipal authorities.",
+          "Bio-medical Waste (Management & Handling) Rules 1998 — Scope: generation, storage, transport, treatment and disposal of biomedical waste. Responsible entity: healthcare facilities & allied handlers.",
+          "E-Waste (Management & Handling) Rules 2010 — Scope: management of end-of-life electrical and electronic equipment. Responsible entities: producers, consumers & recyclers."
+        ]
+      },
+      {
+        category: "Salient Features of the Solid Waste Management Rules 2016",
+        documents: [
+          "Mandatory source segregation to enhance recovery, reuse and recycling.",
+          "Integration of waste pickers/rag-pickers into the formal system through state initiatives and self-help groups.",
+          "User fees & spot fines for littering and non-segregation.",
+          "Hotels and restaurants must segregate biodegradable waste and ensure composting or bio-methanation.",
+          "Bulk generators (RWAs, markets, gated communities, institutions ≥ 5,000 m²) must segregate waste on site and channel recyclables to authorised pickers or local bodies.",
+          "On-site processing of biodegradable waste via composting or bio-methanation; residuals to be handed to authorised collectors.",
+          "SEZs and industrial parks must reserve at least 5% of plot area for recovery and recycling infrastructure.",
+          "Producers of disposable products (tin, glass, plastics, etc.) must financially support local waste-management systems.",
+          "Industries within 100 km of an RDF plant must replace at least 5% of their fuel with refuse-derived fuel within six months of notification.",
+          "Special provisions for hilly areas to address terrain-specific challenges."
+        ]
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Applying for SWM Authorisation",
+        content: "Who needs it? Any entity engaged in waste processing, treatment, recycling or disposal must obtain SWM Authorisation from the SPCB/PCC.\n\nHow to apply:\n1. Prepare all required documents (identity of authorised signatory, site proof, licences, site layout plan, process flow chart, machinery list, utility bills and any other supporting documents).\n2. Submit Form I to the concerned State Pollution Control Board (SPCB) or Pollution Control Committee (PCC) along with required documents and fees (if any).\n3. The SPCB/PCC will review the application, may call for clarifications, and is empowered to conduct site inspections to verify details and assess compliance to prescribed standards.\n4. The SPCB/PCC must decide on the application within 60 days of receipt. If additional information or inspections are required, the timeline may include the period taken to respond to queries or complete inspections.\n5. If approved, the Board issues Form II which specifies environmental standards (refer Schedules I & II of the Rules if applicable) and may include additional operating conditions tailored to the site and technology.\n6. The authorised facility must operate strictly in accordance with the conditions stated in Form II. SPCBs/PCCs retain oversight powers to monitor compliance and may conduct periodic inspections, require reporting, or take action for non-compliance.\n\nNote: SPCBs/PCCs may attach site-specific conditions and monitoring requirements. Applicants should maintain records of waste receipts, processing rates, disposal records and monitoring data as prescribed."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal Timeline",
+        description: "Authorisation validity and renewal requirements are prescribed to ensure ongoing compliance and oversight.",
+        steps: [
+          {
+            title: "Initial grant of authorisation",
+            duration: "Up to 60 days for decision by SPCB/PCC (subject to completeness of application and inspections)",
+            description: "SPCB/PCC reviews Form I submission, conducts inspections if needed, and issues Form II on approval with prescribed standards and conditions."
+          },
+          {
+            title: "Initial validity period",
+            duration: "2 years",
+            description: "Authorisation issued initially for a period of 2 years; facility must meet conditions during this period and submit returns/reports as required by the Board."
+          },
+          {
+            title: "Renewal filing",
+            duration: "File at least 60 days before expiry",
+            description: "Submit Form IV and requisite compliance documentation at least 60 days before expiry. SPCB/PCC assesses compliance and may conduct inspections prior to renewal."
+          },
+          {
+            title: "Subsequent renewals",
+            duration: "5 years each",
+            description: "On satisfactory compliance assessment, subsequent renewals are typically granted for five-year periods."
+          }
+        ],
+        totalTime: "Decision timeline — normally 60 days for initial decision if application is complete; renewal subject to 60-day processing window prior to expiry and may vary with inspections and compliance verification."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Need Assistance?",
+        description: [
+          "The DoStartUp team comprises seasoned professionals ready to guide you through every step of obtaining Solid Waste Management Authorisation from your State Pollution Control Board.",
+          "We assist with document preparation, application filing (Form I), coordination during inspections, response to SPCB/PCC queries, compilation of site plans, process flow diagrams and machinery specifications, and submission of renewal Form IV."
+        ],
+        points: [
+          "End-to-end support from documentation to follow-up",
+          "Assistance with site layout, process flow charts and statutory forms",
+          "Guidance on operational conditions and compliance monitoring",
+          "Help preparing records and reports required by SPCB/PCCs"
+        ],
+        footerText: "Book a free consultation with DoStartUp — expert guidance to obtain and renew your SWM Authorisation efficiently."
+      }
+    ],
+    who: [
+      {
+        heading: "Who is Covered & Who Should Apply",
+        description: [
+          "The Solid Waste Management Rules apply to all urban local bodies, census towns, notified areas and industrial townships, railway premises, airports, ports, defence sites, SEZs, central and state government organisations, and locations of pilgrimage, religious or historical importance. They cover domestic, educational, commercial and other non-residential waste generators, except certain specialized categories governed by separate rules.",
+          "Note: Industrial hazardous waste, chemical wastes, biomedical waste, e-waste, lead-acid battery waste and radioactive waste are regulated under separate rules framed under the Environment (Protection) Act, 1986 and are NOT covered by the municipal SWM authorisation regime."
+        ],
+        points: [
+          "Urban local bodies / municipal authorities — responsible for municipal solid waste management across city/town limits.",
+          "Bulk generators — RWAs, markets, gated communities and institutions having large footprints (≥ 5,000 m²) have on-site segregation and channelisation obligations.",
+          "Commercial establishments, hotels, restaurants — required to segregate biodegradable waste and ensure composting or bio-methanation.",
+          "Operators / project proponents — any entity establishing processing, treatment, recycling or disposal facilities (RDF, composting, bio-methanation, recycling units) must obtain SWM Authorisation."
+        ],
+        footerText: "If you're setting up a waste processing or disposal facility, or are a recognised bulk generator, check with your SPCB/PCC for authorisation requirements and apply using Form I."
+      }
+    ],
+    faq: [
+      {
+        question: "Who must obtain SWM Authorisation?",
+        answer: "Any person or entity that sets up or operates facilities for processing, treating, recycling or disposing of solid waste must obtain SWM Authorisation under the Solid Waste Management Rules from the State Pollution Control Board (SPCB) or Pollution Control Committee (PCC)."
+      },
+      {
+        question: "How do I apply for SWM Authorisation?",
+        answer: "Prepare required documents (identity of authorised signatory, site proof, licences, electricity bill, site layout plan, process flow chart, machinery list, etc.) and submit Form I to the concerned SPCB/PCC. The Board reviews the application, may conduct inspections, and must decide within 60 days, subject to completeness of submission and inspections."
+      },
+      {
+        question: "What happens after approval?",
+        answer: "If approved, the SPCB/PCC issues Form II specifying environmental standards (Schedules I & II where applicable) and additional conditions tailored to the facility. The authorised entity must operate in accordance with Form II and comply with monitoring and reporting requirements."
+      },
+      {
+        question: "What documents are commonly required?",
+        answer: "Commonly required documents include Aadhaar and PAN of the authorised signatory, GST registration (if applicable), proof of site ownership or lease, factory/trade licence, recent electricity bill, site layout plan, process flow chart and a list of machinery and specifications."
+      },
+      {
+        question: "What is the validity of an SWM Authorisation?",
+        answer: "Initial authorisation is typically valid for 2 years. Subsequent renewals are generally granted for five years each. Renewal requires submission of Form IV at least 60 days before expiry and an SPCB/PCC compliance assessment."
+      },
+      {
+        question: "What enforcement or oversight powers do SPCBs/PCCs have?",
+        answer: "SPCBs/PCCs monitor compliance with prescribed standards, conduct inspections, request operational and monitoring records, and can take action for non-compliance, including suspension or cancellation of authorisation and imposition of penalties under applicable environmental laws."
+      },
+      {
+        question: "Are there exclusions to these rules?",
+        answer: "Yes. Industrial hazardous waste, chemical waste, biomedical waste, e-waste, lead-acid battery waste and radioactive waste are regulated under separate rules under the Environment (Protection) Act and therefore fall outside the municipal SWM authorisation provisions."
+      }
+    ]
+  },
+  "hazardous-waste-management-authorisation-domestic": {
+    title: "Hazardous Waste Management Authorisation (Domestic)",
+    description: "Modern households rely on a wide range of chemical products—many of them corrosive, explosive, flammable or toxic. These substances must be kept out of regular wet- and dry-waste streams because they pose serious threats to human health and the environment. To ensure safe handling and disposal, the State Pollution Control Board (SPCB) issues Hazardous Waste Management Authorisations for domestic hazardous wastes under the Solid Waste Management Rules 2016 and related regulations.",
+    overview: [
+      {
+        heading: "What counts as Domestic Hazardous Waste?",
+        content: "Under the Solid Waste Management Rules 2016, domestic hazardous waste includes items such as:\n\n• Empty paint, pesticide and solvent cans\n• Sanitary waste (e.g., disposable nappies and sanitary pads)\n• Expired or unused medicines, broken mercury thermometers, used syringes\n• E-waste like CFLs, tube-lights and small electronic devices\n• Spent batteries and button cells\n\nThese wastes often exhibit ignitable, reactive, corrosive or toxic properties and therefore demand specialised disposal methods. Householders and collectors must ensure these items do not enter normal wet/dry streams and are channelled to authorised collection/disposal systems."
+      },
+      {
+        heading: "Why is proper management critical?",
+        content: "Proper management of domestic hazardous waste is critical because of:\n\n• Public-health risks: Toxic metals and solvents can cause neurological, respiratory and developmental harm—young children are particularly vulnerable to lead exposure.\n• Environmental damage: Improper disposal contaminates soil and water, harms aquatic life and contributes to global warming.\n• Long-term impact: Persistent pollutants linger for decades, creating cumulative ecological and economic costs.\n\nSafe handling, segregation, and authorised disposal reduce immediate harm and long-term cumulative impacts on people and ecosystems."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Benefits of Authorisation & Proper Handling",
+        content: "Obtaining authorisation and following authorised collection/disposal processes ensures that hazardous fractions are treated or recycled using safe technologies, reduces uncontrolled burning or dumping, prevents contamination of soil and water, minimises exposure risks to sanitation workers and the public, and organises responsibility and accountability across the waste value chain. Authorisation also brings regulatory clarity for operators and builds public confidence in safe waste management."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Mandatory Documents for Hazardous Waste Management Authorisation (Domestic)",
+        content: "• Aadhaar and PAN of the authorised signatory\n• GST registration (if applicable)\n• Proof of site ownership or valid lease/rent agreement\n• Factory licence / trade licence (if applicable)\n• Latest electricity bill\n• Site layout / plant plan showing storage/collection/segregation areas\n• Certificate of Incorporation (for companies/LLPs) with MoA & AoA where applicable\n• Board resolution appointing the authorised person (for companies)\n• Any other documents requested by the SPCB/PCC such as environmental statements, safety plans or previous consents"
+      }
+    ],
+    Listicles: [
+      {
+        category: "Regulatory Framework",
+        documents: [
+          "Hazardous Waste Management Rules (1989; amended 2000, 2003; revamped 2016 as 'Hazardous and Other Wastes – Management & Transboundary Movement Rules') — covers industrial hazardous waste generation, storage, transport, treatment, recycling and disposal.",
+          "Solid Waste Management Rules 2016 — includes domestic hazardous waste provisions, segregation and authorised handling.",
+          "Bio-medical Waste Management Rules 2016 — governs healthcare facility wastes (separate from domestic hazardous waste).",
+          "E-waste Management Rules 2016 — covers end-of-life electrical and electronic goods (CFLs, small devices, etc.).",
+          "Batteries (Management & Handling) Rules 2001 — addresses lead–acid and other battery waste streams."
+        ]
+      },
+      {
+        category: "Representative Hazardous-Waste Categories (selected examples)",
+        documents: [
+          "Metal & Metal-bearing Wastes (B1/B1010): iron, steel, copper, aluminium, nickel, zinc, titanium, precious metal scraps.",
+          "Mixed non-ferrous metals (B1050).",
+          "E-waste assemblies (B1110).",
+          "Organics mixed with metals/inorganics (B3).",
+          "Paper-product waste categories (e.g., B3020) and selected recyclable hazardous wastes: brass dross, copper dross, copper-oxide mill scale, spent metal catalysts containing hazardous metals, used oil, spent batteries."
+        ]
+      },
+      {
+        category: "Consequences of Poor Management",
+        documents: [
+          "Soil & water contamination leading to bioaccumulation of toxic chemicals.",
+          "Air pollution from uncontrolled burning or evaporation of solvents.",
+          "Ecosystem disruption and loss of biodiversity.",
+          "Contribution to global warming through release of greenhouse gases and destruction of carbon sinks."
+        ]
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Authorisation Procedure",
+        content: "Application: Submit Form I to the State Pollution Control Board (SPCB) or Pollution Control Committee (PCC) within the statutory period (submit within 60 days of becoming subject to the Rules or as required by the Board).\n\nConsent clearances: Where applicable, include 'consent to establish' and 'consent to operate' documentation and ensure you meet any pre-existing environmental consents.\n\nDocumentation: Attach all required papers signed by the authorised signatory (identity, site proof, licences, layout plan, process flow, machinery list, safety plans and any other documents requested by the SPCB/PCC).\n\nReview & inspection: The SPCB/PCC reviews the application, may call for clarifications, and is empowered to conduct site inspections to verify details and assess compliance to prescribed standards and safety norms.\n\nGrant & conditions: If satisfied, the SPCB/PCC issues the authorisation and stipulates compliance conditions the operator must follow. The authorisation will typically specify monitoring, reporting and handling standards. SPCBs/PCCs retain oversight powers to monitor compliance and may take action for non-compliance."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity & Renewal Timeline",
+        description: "Timelines and validity are prescribed to ensure continuing compliance and oversight by SPCBs/PCCs.",
+        steps: [
+          {
+            title: "Application submission",
+            duration: "Submit Form I promptly (statutory timelines require submission within 60 days of becoming subject to the Rules or when setting up operations).",
+            description: "Ensure application completeness to avoid delays; include identity, site and consent documents as applicable."
+          },
+          {
+            title: "Review & inspection",
+            duration: "Board review and inspections — variable but SPCB/PCC technical review aims to complete within statutory/board timelines depending on the state.",
+            description: "Inspectors may verify site layout, segregation/storage arrangements, safety measures and documentation prior to grant."
+          },
+          {
+            title: "Initial validity",
+            duration: "5 years",
+            description: "Authorisation is typically granted for an initial period of five years (as prescribed for hazardous waste authorisations under relevant rules)."
+          },
+          {
+            title: "Renewal filing",
+            duration: "At least 120 days before expiry",
+            description: "Submit renewal application and supporting compliance records at least 120 days prior to expiry. SPCB/PCC will assess compliance history, may inspect, and decide on renewal."
+          }
+        ],
+        totalTime: "Decision and processing timelines vary by state SPCB/PCC workload and inspection schedules; initial grant time depends on completeness of application and time taken for any inspections or clarifications."
+      }
+    ],
+    who: [
+      {
+        heading: "Key Obligations & Principal Enforcement Bodies",
+        description: [
+          "Anyone involved in handling, generating, collecting, storing, packaging, transporting, recycling, recovering, treating or disposing hazardous/domestic hazardous waste must obtain authorisation from the SPCB/PCC and implement safe environment-friendly practices.",
+          "Principal enforcement and oversight bodies include the Central Pollution Control Board (CPCB), State Pollution Control Boards / Pollution Control Committees (SPCBs/PCCs), the Ministry of Environment, Forest & Climate Change (MoEFCC), and where applicable the Directorate General of Foreign Trade and Port/Customs authorities for transboundary movement."
+        ],
+        points: [
+          "Obtain SPCB/PCC authorisation before commencing activities that generate or handle hazardous/domestic hazardous waste.",
+          "Provide protective equipment, training and procedures for workers handling hazardous fractions.",
+          "Implement steps to prevent accidents and mitigate adverse environmental and health effects.",
+          "Maintain records, monitoring data and comply with reporting obligations specified by the authorisation."
+        ],
+        footerText: "Compliance is shared: generators, collectors, transporters, recyclers and disposal operators all have roles under the Rules and the SPCB/PCC enforces obligations through inspections and oversight."
+      }
+    ],
+    faq: [
+      {
+        question: "What counts as domestic hazardous waste?",
+        answer: "Domestic hazardous waste includes empty paint/pesticide/solvent cans, sanitary waste like nappies and pads, expired medicines, broken mercury thermometers, used syringes, e-waste such as CFLs and small electronic devices, and spent batteries and button cells—items that are ignitable, corrosive, reactive or toxic and need specialised disposal."
+      },
+      {
+        question: "Who must obtain authorisation for hazardous waste management (domestic)?",
+        answer: "Any person or entity involved in handling, generating, collecting, storing, packaging, transporting, recycling, recovering, treating or disposing hazardous/domestic hazardous waste must obtain authorisation from the SPCB or PCC as applicable."
+      },
+      {
+        question: "How do I apply for Hazardous Waste Management Authorisation (Domestic)?",
+        answer: "Prepare the required documents (Aadhaar & PAN of authorised signatory, GST if applicable, site proof, licences, electricity bill, site layout, process flow, machinery list, corporate documents where applicable), complete Form I and submit to the SPCB/PCC. The Board may inspect and will grant authorisation with conditions if satisfied."
+      },
+      {
+        question: "What supporting consents may be required with the application?",
+        answer: "Where applicable, include 'consent to establish' and 'consent to operate' or other environmental consents as required by the SPCB/PCC. Check state-specific requirements before filing."
+      },
+      {
+        question: "What is the initial validity of hazardous waste authorisation?",
+        answer: "Initial authorisation is typically valid for five years. Applicants must apply for renewal at least 120 days prior to expiry and demonstrate compliance for subsequent renewals."
+      },
+      {
+        question: "What enforcement powers do SPCBs/PCCs have?",
+        answer: "SPCBs/PCCs monitor compliance, conduct inspections, require submission of monitoring and operational records, and can suspend or cancel authorisations or impose penalties under applicable environmental laws for non-compliance."
+      },
+      {
+        question: "Why is proper domestic hazardous waste management necessary?",
+        answer: "Proper management prevents human health harm (neurological, respiratory and developmental issues), avoids soil and water contamination, reduces air pollution from burning/evaporation of hazardous substances, protects biodiversity and lowers long-term ecological and economic costs associated with persistent pollutants."
+      },
+      {
+        question: "What documentation should I keep after obtaining authorisation?",
+        answer: "Maintain site plans, process flow diagrams, records of waste receipts and dispatches, monitoring data, safety plans, training records for workers, consents and annual/environmental statements as required by the SPCB/PCC and the authorisation conditions."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Need Expert Support?",
+        description: [
+          "DoStartUp has a dedicated compliance team ready to secure your Hazardous Waste Management Authorisation smoothly and on time.",
+          "We assist with end-to-end documentation, Form I preparation and filing, coordination during inspections, responses to SPCB/PCC queries, and renewal filings."
+        ],
+        points: [
+          "Expert preparation of site layout plans, process flow charts and machinery specification lists",
+          "Assistance with consents, regulatory liaison and inspection coordination",
+          "Help drafting safety and emergency mitigation procedures and recordkeeping systems",
+          "Timely renewal reminders and compliance follow-up"
+        ],
+        footerText: "Book a consultation with DoStartUp to get professional support for obtaining and maintaining your hazardous waste management authorisation."
+      }
+    ],
+    renewal: [
+      {
+        heading: "Renewal Requirements",
+        content: [
+          "Submit renewal application at least 120 days before expiry with compliance documentation.",
+          "SPCB/PCC will assess compliance, may conduct inspection, and decide on renewal based on adherence to conditions."
+        ]
+      }
+    ]
+  },
+  "authorization-for-import-of-hazardous-waste": {
+    title: "Authorization for Import of Hazardous Waste",
+    description: "Hazardous waste poses serious risks to human health and the environment if not properly managed. These wastes are often non-biodegradable, toxic, persistent, and require stringent control during collection, treatment, recycling, transportation, and disposal. In India, the import of hazardous waste for purposes such as recycling, recovery, and reprocessing requires prior authorisation from the competent authorities.",
+    overview: [
+      {
+        heading: "What is Hazardous Waste?",
+        content: "Hazardous waste can exist in solid, liquid, or gaseous form and is typically generated by manufacturing, chemical processing, and related activities. Such waste may exhibit properties like toxicity, reactivity, ignitability, corrosiveness, radioactivity or infectiousness. These properties make hazardous waste unsuitable for regular disposal and demand proper handling through authorised channels and specialised technologies for treatment, recovery and safe disposal."
+      },
+      {
+        heading: "Legal Framework — Hazardous Waste Management Rules",
+        content: "The Hazardous Waste Management Rules (originally notified in 1989 and amended in 2000, 2003, and comprehensively revamped in 2016 as the 'Hazardous and Other Wastes – Management & Transboundary Movement Rules') govern every aspect of hazardous waste management in India. The regulatory framework covers generation, collection, treatment, storage, transportation, packaging, disposal as well as import and export controls. The Ministry of Environment, Forest & Climate Change (MoEFCC) is the nodal agency, assisted by the Central Pollution Control Board (CPCB), State Pollution Control Boards / Pollution Control Committees (SPCBs/PCCs), the Directorate General of Foreign Trade (DGFT), Port Authorities and Customs for transboundary movement and enforcement."
+      },
+      {
+        heading: "Import Requirement & Prohibition",
+        content: "Individuals or companies intending to import hazardous waste for recovery, recycling or reprocessing must obtain prior authorisation from the MoEFCC (or the competent authority designated by MoEFCC) and follow the prescribed procedure. Import for direct disposal in India is strictly prohibited. Authorisation is conditional on prior informed consent (PIC) and compliance with applicable environmental, customs and transboundary movement rules."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Why Prior Authorisation Matters",
+        content: "Prior authorisation ensures that imports are scrutinised for environmental soundness, technical capability of the importing facility, and legal compliance. It prevents indiscriminate dumping, ensures hazardous fractions are handled by capable recyclers/re-processors, protects local ecosystems and public health, and aligns imports with circular economy goals by enabling responsible recovery of valuable materials under controlled conditions."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical Documents Required for Import Authorisation",
+        content: "Application form and cover letter specifying nature and quantity of wastes to be imported, end-use/recovery route and consignee details.\nDetails of the importer: Certificate of Incorporation, GST registration, PAN, address proof, contact details.\nSite details: Plant/site layout, process flow chart, list and specifications of installed machinery/equipment, pollution control measures and capacity to handle the specified wastes safely.\nConsent/clearances: Any required 'consent to establish' or 'consent to operate' where applicable, local SPCB permissions and prior clearances.\nPrior Informed Consent (PIC) or equivalent export permission from the exporting country's competent authority (required for transboundary movement in many cases).\nSafety & compliance documents: Emergency response plans, safety procedures, hazardous materials handling SOPs, worker training and PPE arrangements.\nCustoms/port-related documents as required and any other state-specific documents requested by SPCB/MoEFCC."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Categories Permitted (examples, subject to PIC & conditions)",
+        documents: [
+          "Metal and metal-bearing wastes (e.g., cadmium, lead, antimony, tellurium compounds) for recovery/recycling.",
+          "Galvanic sludge and leaching residues from metal processing where recovery of metals is intended.",
+          "Used lead-acid batteries (whole or crushed) specifically for authorised recycling processes.",
+          "E-waste for repair, refurbishment, research or component recovery — often permitted with re-export conditions where applicable.",
+          "Clean, uncontaminated metal scrap (iron, steel, aluminium, copper and similar) intended for recycling in compliant facilities.",
+          "Waste electrical and electronic assemblies imported for repair, testing or research subject to conditions.",
+          "Paper, paperboard and used multifunction printers/copiers and precious metal-bearing residues where recovery routes exist."
+        ]
+      },
+      {
+        category: "Prohibited Imports (selected examples)",
+        documents: [
+          "Waste edible fats and oils — banned for import.",
+          "Household waste — prohibited from import.",
+          "Critical care medical equipment (for disposal) — prohibited.",
+          "Solid plastic waste — banned from import under specified notifications and policy changes.",
+          "Waste electrical and electronic assemblies intended for direct disposal rather than authorised recovery.",
+          "Certain chemical wastes explicitly listed as banned by MoEFCC/DGFT notifications."
+        ]
+      },
+      {
+        category: "Compliance Obligations & Recordkeeping",
+        documents: [
+          "E-waste importers may need Extended Producer Responsibility (EPR) authorisation under E-waste Management Rules where applicable.",
+          "Maintain detailed records of all imports in Form 3 or equivalent formats as required by the SPCB and produce these records during inspections.",
+          "File annual returns (e.g., Form 4) with the State Pollution Control Board as prescribed and retain proof of safe handling and final disposition.",
+          "Adhere to customs, DGFT and port authority requirements for transboundary movement and demonstrate PIC where necessary."
+        ]
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Import Authorisation Procedure — stepwise",
+        content: "1. Application to SPCB/State Authority: The applicant (recycler, processor or trader) prepares a detailed application with supporting documents, technical details of the recovery/recycling process, site capability and safety measures, and submits it to the concerned State Pollution Control Board (SPCB) or Pollution Control Committee (PCC) as directed by MoEFCC guidelines.\n\n2. SPCB Review & Recommendation: The SPCB/PCC examines the application for technical adequacy, environmental safeguards and local acceptability. The SPCB/PCC processes the application and, where appropriate, forwards its recommendation to the MoEFCC within 30 days with any safety stipulations, conditions or observations.\n\n3. Prior Informed Consent (PIC): For wastes governed by international transboundary movement rules, the importer must secure a Prior Informed Consent (PIC) or equivalent export permission from the exporting country's competent authority. The MoEFCC will generally require verification of PIC before granting import authorisation.\n\n4. MoEFCC NOC / Authorisation: The MoEFCC considers the SPCB recommendation and the PIC (where applicable). If satisfied, MoEFCC issues the No Objection Certificate (NOC) or import authorisation specifying permitted waste categories, quantities, conditions (transport, storage, treatment, reporting), validity period and monitoring obligations.\n\n5. Customs & Port Formalities: On grant of authorisation, the importer must comply with Customs import procedures, present the MoEFCC authorisation/NOC and PIC documents at port of entry, and ensure authorised routing to the nominated facility.\n\n6. Ongoing Compliance: The authorised importer/operator must maintain records, submit periodic returns, permit inspections, comply with monitoring and reporting conditions, and ensure environmentally sound management until final recovery or dispatch (if re-export is required)."
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Validity, Timelines & Renewals",
+        description: "Timelines set by authorities aim to ensure due diligence while providing clarity to applicants. SPCBs normally forward recommendations within defined windows and MoEFCC decisions depend on PIC verification and internal processing.",
+        steps: [
+          {
+            title: "SPCB processing & recommendation",
+            duration: "Up to 30 days (from receipt of a complete application)",
+            description: "SPCB reviews technical documents, conducts inspections if necessary, and forwards recommendations and safety stipulations to MoEFCC within the prescribed period."
+          },
+          {
+            title: "MoEFCC decision & NOC issuance",
+            duration: "Variable — depends on PIC verification and inter-agency checks",
+            description: "MoEFCC issues import authorisation / NOC once satisfied that PIC is in place (where required) and that the applicant meets all technical and environmental safeguards."
+          },
+          {
+            title: "Import authorisation validity",
+            duration: "5 years",
+            description: "Import authorisations are typically valid for five years unless otherwise specified in the authorisation conditions."
+          },
+          {
+            title: "Renewal",
+            duration: "Apply prior to expiry (timing per MoEFCC/SPCB guidance)",
+            description: "Renewal requires submission of a fresh application and compliance records before expiry; authorities will assess past compliance and may inspect before renewal is granted."
+          }
+        ],
+        totalTime: "Processing times vary: SPCB recommendation within ~30 days where application is complete; MoEFCC decision timing is variable and contingent on PIC and other checks; overall end-to-end time depends on completeness, inspections and inter-agency coordination."
+      }
+    ],
+    who: [
+      {
+        heading: "Who Can Apply & Eligibility",
+        description: [
+          "Both actual users (recyclers, re-processors, authorised recovery facilities) and traders/importers can apply for import authorisation, provided they meet regulatory requirements, demonstrate technical capability and have the necessary consents and infrastructure for environmentally sound management of the imported wastes.",
+          "Eligibility is conditional on demonstrating appropriate processing/recovery capability, compliance history, safety and emergency response systems, and the ability to comply with monitoring and recordkeeping obligations specified by SPCB/MoEFCC."
+        ],
+        points: [
+          "Recyclers and authorised recovery facilities with technical capacity and compliant infrastructure.",
+          "Traders who can demonstrate authorised downstream recovery or re-export arrangements and who secure PIC where required.",
+          "Applicants must obtain or show 'consent to establish'/'consent to operate' and any local SPCB permissions where applicable."
+        ],
+        footerText: "Authorities will evaluate the applicant's technical and institutional capacity during application processing to ensure environmentally sound management of imported hazardous wastes."
+      }
+    ],
+    faq: [
+      {
+        question: "Who must obtain authorisation for importing hazardous waste?",
+        answer: "Individuals, traders or companies intending to import hazardous waste for recovery, recycling or reprocessing must obtain prior authorisation from MoEFCC (with SPCB recommendations) and comply with PIC and customs requirements. Import for disposal is prohibited."
+      },
+      {
+        question: "What kinds of hazardous waste may be permitted for import?",
+        answer: "Examples (subject to PIC and conditions) include metal and metal-bearing wastes, galvanic sludge, used lead-acid batteries for authorised recycling, certain e-waste for repair/research/recovery, clean uncontaminated metal scrap and precious metal-bearing residues intended for recovery. Permitted categories are tightly controlled and conditional."
+      },
+      {
+        question: "What wastes are explicitly prohibited from import?",
+        answer: "Prohibited imports include household waste, waste edible fats and oils, solid plastic waste (as per notifications), critical care medical equipment intended for disposal, certain chemical wastes and electrical/electronic assemblies for direct disposal. Check the latest MoEFCC/DGFT notifications for updated banned lists."
+      },
+      {
+        question: "What is Prior Informed Consent (PIC)?",
+        answer: "PIC is the export country's official permission or consent confirming it agrees to the transboundary shipment of specific hazardous wastes. MoEFCC generally requires verification of PIC from the exporting country's competent authority before granting import authorisation for wastes covered by transboundary movement controls."
+      },
+      {
+        question: "What records and returns must importers maintain?",
+        answer: "Importers must maintain records of imports (quantities, sources, end-use), keep Form 3 style records if prescribed, and file annual returns (e.g., Form 4) with the State Pollution Control Board. These records must be available for inspection by regulatory authorities."
+      },
+      {
+        question: "How long is import authorisation valid?",
+        answer: "Authorisations are typically valid for five years. Renewal requires a fresh application and proof of compliance prior to expiry."
+      },
+      {
+        question: "Can e-waste be imported for recycling?",
+        answer: "E-waste may be permitted for import for repair, refurbishment, research or controlled recovery under strict conditions and often with re-export obligations if no domestic recovery route exists. Importers must also comply with EPR and E-waste rules where applicable."
+      },
+      {
+        question: "How can DoStartUp help with import authorisation?",
+        answer: "DoStartUp assists with preparing and filing the SPCB application, coordinating PIC documentation from exporting authorities, liaising with SPCBs and MoEFCC, compiling technical/process documents, ensuring customs/port compliance and advising on EPR and other sector-specific obligations to secure legally compliant import authorisation."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "How DoStartUp Supports Import Authorisation",
+        description: [
+          "Our compliance team helps prepare robust import authorisation applications with technically detailed process descriptions, site capability evidence and safety documentation.",
+          "We coordinate PIC verification with exporting-country authorities, compile SPCB submissions, follow up with MoEFCC and assist with customs/port documentation and post-import compliance reporting."
+        ],
+        points: [
+          "Application drafting and technical dossier preparation",
+          "Assistance securing and verifying PIC documentation",
+          "Regulatory liaison with SPCBs, MoEFCC, DGFT and Customs",
+          "Guidance on EPR, recordkeeping, Form 3/Form 4 filings and inspection preparedness"
+        ],
+        footerText: "Book a consultation with DoStartUp to streamline your hazardous waste import authorisation and ensure full regulatory compliance."
+      }
+    ],
+    renewal: [
+      {
+        heading: "Renewal & Post-Authorisation Compliance",
+        content: [
+          "Import authorisations are typically valid for five years; apply for renewal before expiry per MoEFCC/SPCB guidance and submit compliance records with the renewal application.",
+          "Maintain accurate import logs, demonstrate environmentally sound management of imported wastes, file annual returns and allow inspections as required by regulatory authorities."
+        ]
+      }
+    ]
+  },
+  "authorization-for-export-of-hazardous-waste": {
+    title: "Authorisation for Export of Hazardous Waste",
+    description: "Exporting hazardous waste from India requires prior authorisation to ensure environmental safety, compliance with international conventions (including the Basel Convention), and lawful transboundary movement. Exporters must obtain permissions from the Ministry of Environment, Forest & Climate Change (MoEFCC) or the relevant State Pollution Control Board (SPCB) and follow statutory procedures including Prior Informed Consent (PIC) where applicable.",
+    overview: [
+      {
+        heading: "What is Hazardous Waste and Why Export Controls Matter?",
+        content: "Hazardous waste may be found in solid, liquid or contained-gas forms and typically arises from chemical production, manufacturing activities and other industrial processes. Such wastes may possess hazardous properties including toxicity, corrosiveness, ignitability, infectiousness, reactivity or radioactivity. Because of their persistent and harmful nature, the international movement of hazardous wastes is tightly regulated to avoid environmental harm, illegal dumping and to ensure that the importing state is able and willing to manage the material in an environmentally sound manner."
+      },
+      {
+        heading: "Who is an Exporter?",
+        content: "An exporter is any individual, company or occupier within Indian jurisdiction that intends to export hazardous or other listed wastes. Exporters can include recyclers or actual users who will process the waste abroad as well as traders who arrange exports on behalf of clients. Both recyclers and traders are eligible to apply for authorisation, but they carry full responsibility for compliance during movement and final disposal or recovery abroad."
+      }
+    ],
+    benefits: [
+      {
+        heading: "Why Obtain Export Authorisation?",
+        content: "A valid export authorisation provides legal clarity, enables lawful cross-border trade in recyclable/metal scrap and other listed wastes, ensures that the export complies with the Basel Convention and national rules, and protects exporters from action for illicit shipment. Authorisation also requires transparency—movement documents, records and PIC/NOC correspondence are maintained—helping demonstrate environmental responsibility and strengthening business credibility in global supply chains."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Typical Documents Required for Export Authorisation",
+        content: "• Covering application to MoEFCC/SPCB with export details and applicant identification.\n• Company incorporation certificate / proof of legal entity and PAN.\n• GST registration (if applicable) and relevant trade licences.\n• Detailed description of waste consignment (type, quantity, composition), sample analysis reports where applicable.\n• Shipping & movement documentation (Form 6 – movement document) prepared as required by the Rules.\n• Records for Form 3 (export register) and commitment to maintain movement records.\n• Details of the foreign recipient including address, facilities and evidence of capability to handle the waste in an environmentally sound manner.\n• Prior Informed Consent (PIC) correspondence/authenticated PIC letter from the importing country (where Schedule III/PIC conditions apply).\n• Any 'consent to establish' / 'consent to operate' or other environmental consents if applicable to the consignor's operations.\n• Packaging, labelling and manifest details; proposed shipping route and port of exit; insurance and carrier details.\n• Any additional information requested by MoEFCC/SPCB for risk assessment and due diligence."
+      }
+    ],
+    Listicles: [
+      {
+        category: "Export-Eligible Hazardous Wastes (Representative Examples)",
+        documents: [
+          "Metal-bearing wastes: antimony, lead, cadmium, tellurium residues and similar metal-bearing scraps intended for recycling or recovery.",
+          "Used lead-acid batteries (whole or processed) destined for authorised recyclers with capacity to treat battery waste.",
+          "Electronic assemblies and components for recycling or recovery (selected e-waste assemblies).",
+          "Clean metal scrap: iron, steel, aluminium, copper, nickel, zinc — where non-dispersible and prepared for recycling.",
+          "Mixed non-ferrous scrap and galvanic sludge, zinc processing residues, calcium fluoride sludge and precious-metal residues.",
+          "Glass waste in non-dispersible form and certain paper & paper-product wastes specified under the Rules."
+        ]
+      },
+      {
+        category: "Key International & National Controls",
+        documents: [
+          "Basel Convention obligations — Prior Informed Consent (PIC) for transboundary movements where required.",
+          "Hazardous and Other Wastes (Management & Transboundary Movement) Rules — Indian legal framework for hazardous waste exports and imports.",
+          "Customs and port/authorities oversight — verification of shipment documents and compliance at ports of exit."
+        ]
+      },
+      {
+        category: "What Makes an Export Illegal?",
+        documents: [
+          "Export without proper authorisation from MoEFCC or without SPCB concurrence where required.",
+          "Authorisation obtained through misrepresentation or fraud.",
+          "Shipment details that do not match movement documents (Form 6) or Form 3 records.",
+          "Intentional dumping or export in contravention of Basel Convention obligations or national environmental law."
+        ]
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Procedure for Obtaining Export Authorisation",
+        content: "Application Submission: The exporter must apply to the MoEFCC or the concerned SPCB with full consignment details, recipient details, waste description, and supporting documents per the Rules. The application should be complete and accurate to facilitate timely assessment.\n\nPrior Informed Consent (PIC): For wastes listed under Schedule III or Schedule VI where PIC obligations apply, the exporter must obtain Prior Informed Consent from the importing country before shipment. PIC involves formal communication and acceptance by the importing authority that it consents to receive the specified waste under stated conditions.\n\nNo Objection Certificate (NOC) / Authorisation: On receipt of an authenticated PIC letter (if PIC applies) and after satisfying due diligence, MoEFCC may issue a No Objection Certificate (NOC) or export authorisation. The NOC typically references the authenticated PIC and sets conditions for shipment, handling and recovery.\n\nMovement Documents & Records: Each movement must be accompanied by the prescribed movement document (Form 6). Exporters must maintain export records using Form 3 or other registers as required and must produce these records for inspection when called upon by authorities.\n\nCompliance & Reporting: Exporters must ensure that shipments strictly follow the conditions set out in the authorisation and PIC. Annual returns, movement records and other reporting obligations must be filed with the relevant authority. Authorities may inspect facilities, shipment packaging and documentation to verify compliance.\n\nGrant & Validity: If satisfied, the Ministry/Board grants authorisation; the export authorisation is typically valid for 5 years from the date of issue, subject to any conditions specified in the authorisation."
+      },
+      {
+        heading: "Penalties & Illegal Export Consequences",
+        content: "Description: Illegal export of hazardous waste attracts strict legal consequences including seizure of consignments, prosecution, cancellation of licences/authorisations, monetary penalties and civil or criminal liability under Indian environmental laws and international obligations.",
+        penalties: {
+          description: "Penalties and enforcement actions vary depending on the nature of the violation and applicable statutes (Environment Protection Act, Hazardous Waste Rules, Customs Act and other laws). The table below summarises representative enforcement outcomes rather than specific fixed fines (actual penalties depend on statutory provisions and judicial outcomes):",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Export without requisite authorisation / PIC (where applicable)",
+              fine: "Prosecution under environmental law, seizure of shipment, administrative penalties and potential criminal proceedings; monetary penalties as per applicable statutes."
+            },
+            {
+              serialNumber: "2",
+              particulars: "Misrepresentation or fraud in authorisation application",
+              fine: "Cancellation of authorisation, fines, and criminal proceedings for fraud; civil liability for remediation costs."
+            },
+            {
+              serialNumber: "3",
+              particulars: "Shipment mismatch with movement documents (Form 6) or tampering of records",
+              fine: "Seizure, administrative sanctions, potential criminal liability and fines under Customs and environmental laws."
+            }
+          ]
+        }
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical Timeline & Validity for Export Authorisation",
+        description: "Processing times depend on application completeness, PIC procedures with the importing country and inter-agency clearances. Exporters should plan well ahead to allow for international PIC timelines and domestic scrutiny.",
+        steps: [
+          {
+            title: "Application preparation and submission",
+            duration: "Variable (days to weeks depending on document readiness)",
+            description: "Compile consignment specifications, recipient details, test reports and regulatory consents; submit application to MoEFCC/SPCB."
+          },
+          {
+            title: "Prior Informed Consent (PIC) process (if applicable)",
+            duration: "Weeks to months depending on importing country procedures",
+            description: "MoEFCC/SPCB transmits request and obtains authenticated PIC from the importing country; timeline varies with foreign authority response times."
+          },
+          {
+            title: "Grant of NOC / Authorisation",
+            duration: "Variable (weeks) after PIC and due diligence",
+            description: "On receipt of PIC and completion of domestic due diligence, MoEFCC may issue authorisation with conditions and validity."
+          },
+          {
+            title: "Validity period",
+            duration: "5 years",
+            description: "Export authorisation is typically valid for five years from date of issue unless shorter validity is specified in the authorisation."
+          }
+        ],
+        totalTime: "Highly variable — from a few weeks (if PIC not required and application is complete) to several months where PIC and international clearances are involved."
+      }
+    ],
+    who: [
+      {
+        heading: "Who Must Comply and Who Can Apply?",
+        description: [
+          "Exporters of hazardous or other listed wastes (both actual users/recyclers and traders) must comply with the export authorisation regime and obtain permissions before shipment.",
+          "Exporters should ensure the foreign recipient has the technical capacity and authorisations to manage, recover or recycle the waste in an environmentally sound manner."
+        ],
+        points: [
+          "Actual users/recyclers exporting for legitimate recycling or recovery abroad.",
+          "Traders arranging exports on behalf of generators or clients.",
+          "Occupiers who generate waste and arrange export under contractual arrangements."
+        ],
+        footerText: "Exporters share responsibility for due diligence, safe packaging, accurate documentation and verification that importing states consent to the movement under PIC where applicable."
+      }
+    ],
+    faq: [
+      {
+        question: "When is Prior Informed Consent (PIC) required for export?",
+        answer: "PIC is required for wastes listed under the schedules of the Hazardous Waste Rules that are subject to the Basel Convention-style controls. Where Schedule III/PIC conditions apply, the exporter must obtain formal acceptance from the importing country before shipment; MoEFCC will require authenticated PIC correspondence as part of the authorisation process."
+      },
+      {
+        question: "What forms are used for movement and record-keeping?",
+        answer: "Form 6 (Movement Document) must accompany shipments as the prescribed movement document. Form 3 or the relevant register must be maintained to record exports and must be produced for inspection by authorities on demand."
+      },
+      {
+        question: "Who issues the final authorisation for export?",
+        answer: "The Ministry of Environment, Forest & Climate Change (MoEFCC) issues authorisations for certain categories and is the primary authority for PIC-linked exports; SPCBs may also be involved for particular consignments and to confirm domestic compliance. Exporters must follow the instructions of the competent authority in each case."
+      },
+      {
+        question: "What is the validity of an export authorisation?",
+        answer: "Export authorisations are typically valid for five years from the date of issue, unless the authorisation specifies a different period or conditions that limit validity."
+      },
+      {
+        question: "Can both recyclers and traders apply for export authorisation?",
+        answer: "Yes. Both actual users/recyclers and traders can apply for authorisation. However, the exporter must demonstrate that the recipient and the end-management route abroad will be environmentally sound and compliant with applicable laws."
+      },
+      {
+        question: "What happens if I export without authorisation?",
+        answer: "Exporting hazardous waste without authorisation is illegal and may result in seizure of consignments, cancellation of authorisations, administrative penalties, criminal prosecution, civil liability for remediation and other enforcement actions under environmental and customs laws."
+      },
+      {
+        question: "Are customs and port authorities involved?",
+        answer: "Yes. Customs, port and related authorities verify movement documents and ensure that shipments leaving India match authorised consignments. Authorities coordinate with MoEFCC/SPCBs on clearance and inspection where necessary."
+      },
+      {
+        question: "What documentation should be retained post-shipment?",
+        answer: "Exporters must retain movement documents (Form 6), Form 3 records, PIC/NOC correspondence, shipping manifests, customs clearance records, recipient confirmations, testing/analysis reports and any correspondence with authorities to demonstrate compliance during audits or inspections."
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Need Help Securing Export Authorisation?",
+        description: [
+          "DoStartUp provides end-to-end support to exporters seeking authorisation for hazardous waste exports. Our services include application preparation, PIC coordination, documentation of recipient due-diligence, liaison with MoEFCC/SPCB, preparation of movement documents (Form 6) and assistance with customs and port formalities.",
+          "We help structure robust technical dossiers and present evidence that the recipient facility can manage the waste in an environmentally sound manner so your application is assessed efficiently."
+        ],
+        points: [
+          "Expert preparation of application dossiers and Form 6 movement documents",
+          "Assistance obtaining and authenticating PIC where required",
+          "Regulatory liaison with MoEFCC, SPCBs and customs authorities",
+          "Post-authorisation compliance support, recordkeeping systems and annual returns assistance"
+        ],
+        footerText: "Book a free consultation with DoStartUp to plan your export, manage PIC timelines and ensure full regulatory compliance — response within 1 hour."
+      }
+    ]
+  },
+  "hazardous-waste-export-authorisation": {
+  title: "Hazardous Waste Export Authorisation",
+  description:
+    "Authorisation process and compliance requirements for exporting hazardous waste from India under the Hazardous and Other Wastes (Management and Transboundary Movement) Rules and related laws.",
+  overview: [
+    {
+      heading: "Overview of Hazardous Waste Export Authorisation",
+      content:
+        "The Ministry of Environment, Forest and Climate Change (MoEFCC) is the designated authority for managing the transboundary movement of hazardous waste in India and is responsible for granting approvals for export. Only wastes listed in Schedule III (Parts A & B) and Schedule VI of the Hazardous Waste Management Rules may be exported, and certain exports—particularly those listed under Part A of Schedule III and Schedule VI—require Prior Informed Consent (PIC) from the importing country. India prohibits import of hazardous waste for disposal; export is permitted only where the destination country has facilities for environmentally sound management and only to actual users or authorised disposal operators."
+    },
+    {
+      heading: "Scope & Key Principles",
+      content:
+        "Export authorisation ensures that hazardous wastes leaving India are handled, transported and managed in a manner that protects human health and the environment and complies with domestic rules and international frameworks (e.g., the Basel Convention). Export is subject to MoEFCC review, approvals and conditions; SPCBs/PCCs and CPCB play supporting oversight and monitoring roles."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Resource Conservation",
+      content:
+        "Export authorisation supports Reduce, Reuse and Recycle (3Rs) principles by enabling recycling and resource recovery. Proper export pathways reduce disposal costs, dependence on virgin materials and contamination risks."
+    },
+    {
+      heading: "Energy Generation and Environmental Protection",
+      content:
+        "Certain hazardous wastes can be used as feedstock for energy recovery systems (e.g., biomass gasification, anaerobic digestion), recovering value while preventing environmental release of harmful constituents."
+    },
+    {
+      heading: "Fertilizer and Soil Conditioning",
+      content:
+        "Appropriately processed waste fractions can be repurposed as soil amendments or organic fertilizers, contributing nutrients to agricultural land and reducing demand for synthetic fertilizers."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Export Authorisation",
+      content:
+        "Importer-Exporter Code (IEC)\nMemorandum of Association (MoA)\nArticles of Association (AoA) or Partnership Deed\nPAN and Aadhaar of the authorised signatory\nPAN of the business unit\nGST registration certificate\nOperational permit of the unit\nValid authorisation from the relevant State Pollution Control Board (SPCB)\nLaboratory analysis report of the waste intended for export\nPrior Informed Consent (PIC) documentation from the importing country (where applicable)\nValid insurance coverage documents\nAny other documents requested by MoEFCC during processing."
+    }
+  ],
+  Listicles: [
+    {
+      category: "Key Information Required in Application",
+      documents: [
+        "Name and address of the foreign importer",
+        "Detailed waste description: quantity, Basel number, classification, chemical composition and physical state",
+        "Whether shipment is single or multiple consignments",
+        "Special handling or safety instructions",
+        "Details of Port of Entry/Exit",
+        "Written undertaking to re-import the consignment if the recipient country rejects it",
+        "Insurance coverage details and PIC documentation (where needed)."
+      ]
+    },
+    {
+      category: "Principal Regulations & International Instruments",
+      documents: [
+        "Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016",
+        "Environment (Protection) Act, 1986",
+        "Basel Convention (prior informed consent and transboundary movement obligations)",
+        "Any notifications or circulars issued by MoEFCC or CPCB relevant to export / handling of particular waste streams."
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Procedure for Hazardous Waste Export Authorisation",
+      content:
+        "1. Submission: File the prescribed application with MoEFCC disclosing full details of the intended transboundary movement (applicant details, foreign importer, waste particulars, shipment plan, handling instructions, port details, insurance and PIC documentation).\n\n2. Ministry review: MoEFCC reviews the application and may seek clarifications, technical reports or inspections as needed.\n\n3. NOC issuance: If satisfied, the Ministry may issue a No Objection Certificate (NOC) with conditions governing the export. Export must not proceed until the NOC is issued.\n\n4. Circulation: Copies of the NOC are forwarded to CPCB, the relevant SPCB and UT-level pollution control authorities to ensure oversight and safe handling at origin and transit.\n\n5. Trader registration & reporting: Traders involved in hazardous waste exports are provisionally registered with the SPCB. If no objections are raised within 30 days, registration is deemed valid. Registered traders must submit quarterly reports to the SPCB/PCC detailing consignments, actual users and quantities.\n\n6. Appeals: Any refusal, suspension or cancellation of registration or authorisation by SPCB/PCC may be appealed within 30 days of the order, including a copy of the decision.",
+      // penalties omitted because raw data contains no specific penalty table
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline & Key Milestones",
+      description:
+        "Timelines vary with application complexity and completeness of documentation. The steps below reflect milestones described in the source text.",
+      steps: [
+        {
+          title: "Application submission",
+          duration: "Varies — initial submission",
+          description:
+            "Applicant submits application (raw text references Form 5 in the requirements section; the procedure section references filing with MoEFCC). Ensure you confirm the correct prescribed form and submission portal with MoEFCC before filing."
+        },
+        {
+          title: "Ministry review and NOC issuance",
+          duration: "Varies (application-specific)",
+          description:
+            "MoEFCC reviews dossier and may issue NOC with conditions. Export cannot proceed until the NOC is issued; copies are circulated to CPCB and SPCBs for oversight."
+        },
+        {
+          title: "Provisional trader registration with SPCB",
+          duration: "30 days (objection window)",
+          description:
+            "Traders are provisionally registered with the SPCB; registration is deemed valid if no objections are raised within 30 days."
+        },
+        {
+          title: "Quarterly reporting & compliance monitoring",
+          duration: "Ongoing (quarterly)",
+          description:
+            "Registered traders must submit quarterly reports to SPCB/PCC listing imports, actual users and quantities handled."
+        },
+        {
+          title: "Appeal period for adverse SPCB orders",
+          duration: "30 days",
+          description:
+            "Any refusal, suspension or cancellation by the SPCB may be appealed within 30 days of issuance of the order."
+        }
+      ],
+      totalTime:
+        "Varies depending on review complexity. Note: the provided source references both 'Form 5' and 'Form 1' in different sections—confirm the correct application form and filing procedure with MoEFCC before submission."
+    }
+  ],
+  who: [
+    {
+      heading: "Who is Responsible?",
+      description: [
+        "MoEFCC — competent authority to grant authorisations for export and disposal of hazardous waste.",
+        "Occupier / Exporter — industries, traders and facilities handling hazardous waste are responsible for safe, compliant and environmentally sound disposal or export.",
+        "SPCB / PCC and CPCB — regional oversight, provisional trader registration and monitoring; CPCB and SPCBs receive NOC copies for oversight."
+      ],
+      points: [
+        "Exporters / traders — ensure documentation, safe packaging, insurance and compliance with MoEFCC conditions and importing country requirements.",
+        "Actual users / authorised disposal operators in the importing country — must have facilities for environmentally sound management.",
+        "Customs / Port authorities — ensure export does not proceed without valid NOC and compliance documentation."
+      ],
+      footerText:
+        "Confirm roles with applicable SPCB/PCC and MoEFCC guidance before initiating export operations."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Obtain Authorisation?",
+      description: [
+        "Ensure hazardous waste is handled, transported and disposed in ways that protect human health and the environment.",
+        "Fulfil domestic regulatory obligations and international commitments (e.g., Basel Convention).",
+        "Enable lawful resource recovery and recycling opportunities while preventing illicit or unsafe transboundary movements of hazardous waste."
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: "Which authority grants authorisation for hazardous waste export and disposal?",
+      answer:
+        "The Ministry of Environment, Forest and Climate Change (MoEFCC) is the competent authority responsible for issuing authorisations for export and disposal of hazardous waste in India."
+    },
+    {
+      question: "Who is responsible for the safe disposal of hazardous waste?",
+      answer:
+        "The occupier or exporter — including industries, traders and facilities that handle hazardous waste — is responsible for ensuring safe, compliant and environmentally sound disposal."
+    },
+    {
+      question: "What is the primary goal of hazardous waste export authorisation?",
+      answer:
+        "To ensure hazardous waste is handled, transported and disposed in a manner that does not harm human health or the environment, and that such actions comply with domestic regulations and international agreements like the Basel Convention."
+    },
+    {
+      question: "What are the steps involved in hazardous waste management?",
+      answer:
+        "Identification and classification; storage and labelling; transportation with necessary permits; treatment (recycling, incineration, chemical/biological/physical methods); disposal at authorised facilities; and monitoring and compliance reporting."
+    },
+    {
+      question: "What are the common methods for treating hazardous waste?",
+      answer:
+        "Incineration; chemical treatment and neutralization; solidification and stabilization; bioremediation; and physical treatment (e.g., filtration, separation)."
+    },
+    {
+      question: "What laws and regulations govern hazardous waste disposal in India?",
+      answer:
+        "Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016; Environment (Protection) Act, 1986; and international frameworks such as the Basel Convention."
+    },
+    {
+      question: "How is hazardous waste classified?",
+      answer:
+        "By characteristics and origin (e.g., ignitable, corrosive, reactive, toxic, infectious/pathological) and using Basel codes and national classification standards."
+    }
+  ]
+  },
+  "land-waste-management": {
+  title: "Land Waste Management — Need & Overview",
+  description:
+    "Land waste management aims to eliminate littering in public spaces, prevent land-derived pollution reaching marine and coastal environments, and restore ecosystem services by ensuring safe collection, treatment and disposal of wastes generated by households, industry, agriculture and other sources. The Solid Waste Management Rules, 2016 expand on previous municipal rules to broaden responsibilities across urban local bodies, industrial townships, railways, airports, SEZs and other public institutions.",
+  overview: [
+    {
+      heading: "Overview — Why Land Waste Management Matters",
+      content:
+        "Nearly 80% of marine pollution originates on land. Land waste management seeks to stop littering, reduce contamination of soils and water, and prevent pollutants from running into rivers and oceans via rainwater runoff and wind. Rapid population growth and industrial expansion have increased waste generation and environmental degradation; effective land waste management is therefore essential to protect ecosystems, public health and long-term economic uses of land."
+    },
+    {
+      heading: "Regulatory Context",
+      content:
+        "The Ministry of Environment, Forest & Climate Change (MoEFCC) introduced the Solid Waste Management Rules, 2016 which supersede the Municipal Solid Waste Rules, 2000. The SWM Rules extend obligations and responsibilities to census towns, urban local bodies (ULBs), industrial townships, railway zones, airports, SEZs, places of religious/historic importance, state & central organisations and areas beyond municipal jurisdiction."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Boost Productivity & Restore Ecosystem Services",
+      content:
+        "Proper land waste management reduces pollution loads, restores soil and water quality, and supports services such as pollination, water filtration and nutrient cycling that underpin productive landscapes."
+    },
+    {
+      heading: "Enhance Aesthetic & Recreational Value",
+      content:
+        "Cleaner, well-managed land increases the recreational and economic value of public spaces and encourages tourism and community wellbeing."
+    },
+    {
+      heading: "Improve Public Health & Living Conditions",
+      content:
+        "Controlled collection, treatment and disposal reduce disease vectors, odours and contamination of drinking water sources, improving health outcomes in communities."
+    },
+    {
+      heading: "Enable Reuse & Reduce Landfill Pressure",
+      content:
+        "Segregation, recycling and on-site processing (composting, bio-methanation) recover material and energy, extend landfill life and reduce demand for new disposal sites."
+    },
+    {
+      heading: "Conserve Natural Resources",
+      content:
+        "Resource recovery reduces dependence on virgin materials and promotes circularity in material flows."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Land Waste Management Authorisation",
+      content:
+        "Site map and layout plan\nAadhaar card copy of authorised signatory\nPAN card copy of authorised signatory\nGST registration certificate\nNo-objection / consent from relevant stakeholders (local bodies, landowners, agencies)\nSite clearance certificate (if applicable)\nSolid waste storage and treatment methodology (including photographs)\nConsent to Establish (if applicable) from the State Pollution Control Board\nConsent to Operate from the State Pollution Control Board\nDetailed process flow chart showing waste processing steps\nFor renewals: compliance report based on the prior authorisation"
+    }
+  ],
+  Listicles: [
+    {
+      category: "Principal Sources of Land Waste",
+      documents: [
+        "Household garbage and municipal refuse",
+        "Agricultural runoff and residues",
+        "Industrial by-products and process wastes",
+        "Construction and demolition debris",
+        "E-waste and discarded electrical/electronic items",
+        "Untreated sewage and sanitary waste"
+      ]
+    },
+    {
+      category: "Key Benefits at a Glance",
+      documents: [
+        "Reduces marine and freshwater pollution by stopping land-based discharges",
+        "Protects groundwater from leachate contamination",
+        "Improves urban liveability and public health",
+        "Supports recycling markets and resource recovery",
+        "Enables reuse of reclaimed land for social/economic uses"
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Procedure to Initiate Land Waste Management (example: MPCB Portal flow)",
+      content:
+        "1. Create a registration ID on the competent State Pollution Control Board portal (e.g., MPCB portal for Maharashtra).\n2. Complete the online application form with organisational and site details and log in to the portal.\n3. Upload supporting documents (site plan, process flow chart, identity documents, consents, clearances, treatment methodology and photos).\n4. The Board/portal will flag missing or discrepant documents via the document upload/status section; respond to any queries promptly.\n5. On acceptance, the Board publishes the authorisation letter and status on the user dashboard and its website. If rejected, reasons will be communicated through the portal.\n6. Maintain records and periodic returns as required by the SPCB/PCC; for renewals, include compliance reports and any monitoring data requested."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Requirement Timelines under SWM Rules, 2016",
+      description:
+        "The SWM Rules set phased targets to ensure municipalities and large urban local bodies put infrastructure and operational arrangements in place within defined timelines.",
+      steps: [
+        {
+          title: "ULBs with population ≥ 1 lakh — land waste processing facilities",
+          duration: "Within 2 years of notification",
+          description:
+            "ULBs with populations of one lakh or more must establish land waste processing facilities within two years as per the Rules."
+        },
+        {
+          title: "ULBs with population > 5 lakh — sanitary landfills",
+          duration: "Within 3 years of notification",
+          description:
+            "Larger ULBs (population exceeding five lakh) are required to start operating sanitary landfill facilities within three years."
+        },
+        {
+          title: "Legacy waste remediation",
+          duration: "Within 5 years of notification",
+          description:
+            "Existing legacy waste sites must be capped or bio-remediated within five years of the Rules’ implementation."
+        }
+      ],
+      totalTime:
+        "Implementation timeframes are rule-prescribed (2–5 years depending on ULB size and legacy issues). Administrative approval timelines for authorisation depend on the relevant SPCB/PCC processing times and completeness of submission."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Need Assistance?",
+      description: [
+        "Land waste projects require technical planning (site layout, leachate controls, process flow diagrams) and regulatory compliance. Expert support helps ensure correct documentation, appropriate technology choices and smooth interaction with SPCBs/PCCs.",
+        "We assist with application preparation, site mapping, process flow documentation, liaison during inspections and compiling compliance reports for renewals."
+      ],
+      points: [
+        "End-to-end support from documentation to regulatory follow-up",
+        "Assistance preparing site plans, process flow charts and treatment methodology",
+        "Guidance on segregation, on-site processing and landfill engineering requirements",
+        "Help compiling monitoring data and renewal compliance reports"
+      ],
+      footerText:
+        "If you are a ULB, bulk generator or project proponent, seek technical and regulatory help early to align design with SPCB/PCC expectations."
+    }
+  ],
+  who: [
+    {
+      heading: "Who is Covered & Who Should Apply",
+      description: [
+        "The Solid Waste Management Rules cover census towns, urban local bodies, notified industrial townships, railway zones, airports, SEZs, places of religious/historical/cultural importance, central and state organisations and areas beyond municipal jurisdiction.",
+        "Entities establishing waste processing, treatment, recycling or disposal facilities (e.g., composting, RDF, sanitary landfills, bio-methanation plants) must obtain authorisation or register as required by the relevant SPCB/PCC."
+      ],
+      points: [
+        "Urban local bodies / municipal authorities — responsible for municipal solid waste collection and processing.",
+        "Bulk generators — markets, large institutions, gated communities and commercial complexes with significant waste generation.",
+        "Commercial establishments, hotels and restaurants — must segregate and manage biodegradable fractions.",
+        "Project proponents / operators — any entity establishing processing, recycling or disposal infrastructure must obtain SPCB/PCC authorisation."
+      ],
+      footerText:
+        "Check specific state SPCB/PCC guidance for local submission portals, forms and any state-level additional requirements."
+    }
+  ],
+  faq: [
+    {
+      question: "How does waste affect the land?",
+      answer:
+        "Improper disposal contaminates soil, degrades habitats, disrupts ecosystems, pollutes groundwater, generates odours and can increase greenhouse gas emissions, all adversely affecting human and ecological health."
+    },
+    {
+      question: "What is the disadvantage of land disposal of waste?",
+      answer:
+        "Land disposal can result in leachate contaminating soil and groundwater, unpleasant odours, pest attraction, greenhouse gas emissions and long-term land-use loss if not engineered and managed correctly."
+    },
+    {
+      question: "What are the primary sources of land waste?",
+      answer:
+        "Household garbage, agricultural runoff, industrial by-products, construction & demolition debris, e-waste and untreated sewage are among the principal sources."
+    },
+    {
+      question: "How can reducing waste improve land use?",
+      answer:
+        "Waste reduction and recycling free up land currently used for disposal, improve soil health and allow land to be repurposed for public, recreational or economic uses."
+    },
+    {
+      question: "How should land waste be disposed?",
+      answer:
+        "Segregate at source; treat biodegradable waste via composting or bio-methanation; recycle recoverable materials; use engineered sanitary landfills for residuals; and ensure hazardous wastes are routed to authorised facilities."
+    },
+    {
+      question: "How is land pollution caused?",
+      answer:
+        "Land pollution arises from dumping untreated wastes, agricultural chemicals, industrial discharges, deforestation and mining activities that deposit contaminants into soils and surface/ground water."
+    },
+    {
+      question: "How to minimise land pollution?",
+      answer:
+        "Reduce single-use plastics, implement segregation and recycling, adopt safe hazardous-waste disposal, promote afforestation, deploy pollution-control technologies and run public awareness programmes."
+    }
+  ]
+  },
+  "hazardous-waste-management-and-compliance-assurance": { 
+  title: "Hazardous Waste Management and Compliance Assurance",
+  description:
+    "Regulatory practices, operational controls and technical measures to ensure hazardous wastes are handled, transported, treated and disposed of without causing harm to human health or the environment. The system emphasises safe storage, authorised transport, engineering controls at treatment and disposal facilities and ongoing compliance oversight.",
+  overview: [
+    {
+      heading: "What is Hazardous Waste Management & Compliance Assurance?",
+      content:
+        "Hazardous Waste Management covers regulatory practices and safety measures to handle hazardous materials so they do not harm people or the environment. The core objective is to ensure safe and sustainable storage, transport and disposal of hazardous wastes generated from industrial, commercial and service activities. Improper disposal (open dumping, uncontrolled incineration) can release particulate matter, toxic gases, odours and leachates that contaminate air, soil and water."
+    },
+    {
+      heading: "Scale & Significance",
+      content:
+        "According to available data (OECD/sectoral reporting), India generates an estimated 4.4 million tonnes of hazardous waste annually. Under older rule assessments, roughly 38.3% of this waste is potentially recyclable, about 4.3% may be suitable for incineration, and approximately 57.4% typically requires secure landfill disposal. Large shares of generation are concentrated in a few states (for example: Maharashtra, Gujarat, Tamil Nadu and Uttar Pradesh)."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Equity",
+      content:
+        "A regulated hazardous-waste framework protects communities and workers equitably by ensuring all generators, transporters and facility operators meet minimum safety and environmental standards."
+    },
+    {
+      heading: "Effectiveness",
+      content:
+        "Structured controls and authorised facilities ensure hazardous materials are removed, treated or disposed in ways that reduce acute and chronic environmental and health risks."
+    },
+    {
+      heading: "Efficiency",
+      content:
+        "Compliance systems and approved technologies optimise resource use, limit accidental releases and reduce long-term remediation costs for industry and society."
+    },
+    {
+      heading: "Sustainability",
+      content:
+        "By minimizing contamination and encouraging recovery where feasible, hazardous-waste management supports long-term industrial activity while protecting environmental and social assets."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Typical Documents & Records",
+      content:
+        "Generator identification and premises details; records of waste characterization (chemical composition, quantities, hazardous properties); safety data sheets (SDS) for commercial chemicals; packaging and labelling specifications; records of worker training and PPE issuance; transport permits and route authorisations; authorisation/consent documents for Treatment, Storage and Disposal Facilities (TSDFs); manifests and chain-of-custody records; insurance or liability coverage documents; monitoring and incident-response plans."
+    }
+  ],
+  Listicles: [
+    {
+      category: "Primary Industrial Generators",
+      documents: [
+        "Chemical manufacturing and processing units",
+        "Petroleum refining facilities",
+        "Pharmaceutical & bulk drug manufacturers",
+        "Metal processing and electroplating industries",
+        "Textile dyeing and finishing units"
+      ]
+    },
+    {
+      category: "Common Disposal & Treatment Options",
+      documents: [
+        "Secure landfill (engineered, lined with leachate collection and capping systems) — for stable solid residues",
+        "Incineration / high-temperature thermal treatment — for combustible, high-organic wastes where energy recovery is feasible and emissions are controlled",
+        "Deep well injection — for certain compatible liquid hazardous wastes injected into protected geological formations",
+        "Stabilization / solidification — to immobilise hazardous constituents before disposal",
+        "Physical/chemical treatments and neutralisation — to render wastes less hazardous prior to disposal or recovery"
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Operational Requirements & Liability",
+      content:
+        "Occupier’s responsibility: The person in charge of premises generating hazardous waste must supply required information to disposal facility operators and SPCB authorities, take preventive measures to avoid contamination and accidents, and provide safety equipment and training to workers.\n\nPackaging & labelling: Hazardous wastes must be packaged and labelled according to their chemical nature with durable, clearly visible labels meeting CPCB/SPCB guidance so handlers and transporters can manage risks.\n\nLiability: The occupier, transporter, facility operator and importer (where applicable) are jointly responsible for environmental damage caused by improper handling. Facility operators may be liable for penalties as determined by SPCBs with CPCB concurrence. Maintain manifests, chain-of-custody documentation, incident logs and insurance documentation to demonstrate due diligence."
+    },
+    {
+      heading: "Handling & Transportation",
+      content:
+        "Handling: Use appropriate PPE, engineering controls, segregation and containment to avoid exposure (skin, inhalation, ingestion). Train personnel in safe handling and emergency response.\n\nTransportation: Transport hazardous waste only in authorised vehicles and containers, following prescribed labelling, documentation and route/permit requirements. Ensure consignments move to a designated TSDF or authorised recycling/recovery facility under manifest systems and regulatory oversight."
+    },
+    {
+      heading: "Disposal Methods — Key Points",
+      content:
+        "Secure Landfill: Engineered cells with impermeable liners, leachate collection and gas management; used for stable solid hazardous residues.\n\nDeep Well Injection: Controlled subsurface disposal of compatible liquids into isolated geological formations; requires hydrogeological assessment and strict monitoring.\n\nBedrock Disposal: Encapsulation of solid wastes into geologic repositories with multiple engineered and natural barriers (still under research and used in specialised contexts)."
+    }
+  ],
+  who: [
+    {
+      heading: "Who is Responsible?",
+      description: [
+        "Occupiers / Generators — ensure on-site segregation, safe storage, accurate classification and lawful transfer to authorised handlers.",
+        "Transporters — comply with packaging, labelling and route & permit conditions and maintain manifests.",
+        "TSDF / Facility Operators — accept only authorised wastes, operate engineered systems (incinerators, secured landfills, treatment units) and monitor emissions and leachate.",
+        "Regulators (SPCB / CPCB / MoEFCC) — set standards, grant authorisations, monitor compliance and enforce corrective actions or penalties."
+      ],
+      points: [
+        "Generators: accurate characterisation & record-keeping",
+        "Operators: engineering controls, monitoring & reporting",
+        "Transporters: safe, documented chain-of-custody",
+        "Regulators: oversight, audits and enforcement"
+      ],
+      footerText:
+        "Clear assignment of responsibility across generator → transporter → facility is essential for legal compliance and environmental protection."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Implement Hazardous Waste Compliance Programs?",
+      description: [
+        "To protect worker and community health by minimising exposure pathways.",
+        "To reduce risk of environmental contamination and associated remediation costs.",
+        "To ensure legal compliance and avoid enforcement action or reputational damage.",
+        "To enable recovery and recycling where technically and economically feasible."
+      ]
+    }
+  ],
+  faq: [
+    {
+      question: "How many types of hazardous waste are there?",
+      answer:
+        "Classification systems vary: for example, the U.S. EPA uses lists such as the F-list (process wastes), K-list (industry-specific wastes), and P/U lists for discarded commercial chemical products. Many jurisdictions also classify wastes by hazardous characteristics (ignitability, corrosivity, reactivity, toxicity)."
+    },
+    {
+      question: "What are the primary goals of hazardous waste management and compliance assurance?",
+      answer:
+        "Protect human health, minimise environmental risks, ensure safe transport and disposal and promote long-term sustainability and resource efficiency."
+    },
+    {
+      question: "How can hazardous waste be managed?",
+      answer:
+        "Through segregation, containment, authorised transport to TSDFs, treatment (thermal, chemical, physical or biological where applicable), recovery/recycling where feasible, and disposal via engineered secure landfills or other approved technologies."
+    },
+    {
+      question: "What makes a waste hazardous?",
+      answer:
+        "A waste is hazardous if it exhibits properties such as ignitability, corrosiveness, reactivity or toxicity, or if it is specifically listed under hazardous waste regulations."
+    },
+    {
+      question: "Which industries produce the most hazardous waste?",
+      answer:
+        "Chemicals, petroleum refining, pharmaceuticals, metal processing and certain manufacturing sectors are typically among the largest generators of hazardous wastes."
+    },
+    {
+      question: "What are the typical pH ranges that indicate corrosive hazardous waste?",
+      answer:
+        "Wastes with pH less than about 2 (highly acidic) or greater than about 12.5 (highly alkaline) are generally considered corrosive and require special handling and treatment prior to disposal."
+    },
+    {
+      question: "What are the main methods for final disposal of hazardous waste?",
+      answer:
+        "Secure landfill disposal for solid residues and deep well injection for compatible liquid hazardous wastes are among the principal disposal routes; other methods include high-temperature thermal treatment (incineration) and immobilisation/stabilisation techniques."
+    }
+  ]
+  },
+  "e-waste-recycling-license": {
+  title: "E-Waste Recycling License",
+  description:
+    "Licensing, regulatory context and practical guidance for establishing and operating authorised e-waste recycling / dismantling facilities in India, including environmental risks, recycling practices, documentation and how DoStartup can assist with licensing and compliance.",
+  overview: [
+    {
+      heading: "Why E-Waste Management Matters",
+      content:
+        "Electronic waste (e-waste) is one of India’s fastest-growing waste streams due to rapid device turnover and growth in the ICT sector. When managed within the formal sector using approved processes, e-waste can be treated safely. However, unsafe informal recycling releases hazardous substances (heavy metals, brominated flame retardants, PVC residues, etc.) into air, water and soil, posing serious human-health and environmental risks. India’s e-waste is increasing at an estimated ~10% per year, and strengthening formal recycling is essential to reduce toxic exposure and recover valuable resources."
+    },
+    {
+      heading: "Hazardous Substances Commonly Found in E-Waste",
+      content:
+        "Lead and cadmium (in PCBs and batteries), mercury (in switches and certain lamps), polychlorinated biphenyls (in capacitors/transformers), brominated flame retardants and PVC sheathing in cables and casings — all of which require controlled handling and treatment to avoid environmental contamination."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Environmental Protection",
+      content:
+        "Licensed recycling ensures hazardous fractions are processed safely, preventing soil, air and water contamination and reducing occupational exposure in recycling facilities."
+    },
+    {
+      heading: "Resource Conservation",
+      content:
+        "Formal recycling recovers valuable metals and materials (gold, silver, copper, aluminium and trace e-metals), reducing demand for virgin mining and conserving natural resources."
+    },
+    {
+      heading: "Cost & Operational Efficiency",
+      content:
+        "Using recovered components and secondary materials can reduce manufacturing costs and create circular supply opportunities for producers and recyclers."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for E-Waste Recycling License",
+      content:
+        "Address proof; Company registration documents (producer/importer/brand owner); Certificate of Incorporation; Import Export Code (IEC) where applicable; Municipal certification / local clearances; Contact and PAN details; BIS licence copy (if applicable); Details of products handled and recycler information; Authorized personnel documentation and identity proofs; E-waste generation/management estimations (material flow); Hazardous substance compliance details; Any state/municipal consents or site clearances requested by the SPCB/CPCB."
+    }
+  ],
+  Listicles: [
+    {
+      category: "E-Waste Recycling Practices — Informal vs Formal",
+      documents: [
+        "Informal recycling (prevalent historically): ~95% of e-waste processed informally in earlier assessments — disassembly by small units, manual extraction of valuable parts and crude chemical treatments which release hazardous substances.",
+        "Formal recycling (limited but growing): licensed facilities perform safe separation, shredding, controlled size reduction, and downstream recovery (sometimes exporting shredded PCBs for specialised recovery). Formal units aim for zero-landfill strategies and better worker safety.",
+        "Challenge: material flow often bypasses formal recyclers due to collection channel fragmentation and higher informal supply."
+      ]
+    },
+    {
+      category: "Key Regulations & Frameworks",
+      documents: [
+        "E-Waste (Management) Rules, 2016 (and earlier 2011 rules) — establishes Extended Producer Responsibility (EPR) and obligations for producers, dismantlers and recyclers.",
+        "Environment (Protection) Act, 1986 and allied rules (Factories Act where applicable) — address pollutant limits and workplace safety.",
+        "CPCB and SPCB circulars / notifications — may provide procedural guidance, registration portals and state-specific requirements."
+      ]
+    },
+    {
+      category: "Hazardous Substances to Manage Carefully",
+      documents: [
+        "Lead (Pb), Cadmium (Cd) — PCBs, batteries",
+        "Mercury — some switches, CFLs and displays",
+        "Polychlorinated Biphenyls (PCBs) — capacitors, transformers",
+        "Brominated flame retardants and PVC — cables, casings"
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "How to Obtain an E-Waste Recycling License (practical steps)",
+      content:
+        "1. Pre-assessment & planning: evaluate feedstock, required machinery, site suitability and occupational safety measures; prepare material-flow estimates and technology selection (shredders, electrostatic separators, E-waste pretreatment systems).\n\n2. Documentation: compile company registration, incorporation certificate, IEC (if relevant), municipal/site clearances, PAN, authorised personnel details, hazardous substance compliance documents and E-waste management estimations.\n\n3. Application submission: submit the application and supporting documents to the relevant authority or via the CPCB/SPCB registration portal as prescribed by state rules.\n\n4. Technical inspection & verification: authorities or their authorised agencies may inspect the site, technology, pollution control measures, worker safety provisions and records.\n\n5. Licence issuance & conditions: on meeting technical and regulatory requirements, the competent authority issues authorisation / registration with conditions (waste handling, storage, recordkeeping, emissions limits, and EPR reporting).\n\n6. Post-licence obligations: maintain manifests, reporting to CPCB/SPCB, ensure safe worker practices, and comply with EPR target tracking if acting as a producer/brand owner.\n\nNote: DoStartup offers consultancy through the process — documentation, application filing, compliance planning and liaison with authorities."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Typical Timeline & Operational Notes",
+      description:
+        "Timelines depend on state procedures, completeness of documents and inspection scheduling. Formal registration and inspection cycles vary — plan for documentation, site readiness and possible iterative clarifications from the authority.",
+      steps: [
+        {
+          title: "Preparation & documentation",
+          duration: "2–6 weeks (depends on site readiness)",
+          description: "Compile corporate documents, site plans, process flow and hazardous substance compliance details."
+        },
+        {
+          title: "Application submission & review",
+          duration: "Varies by SPCB/CPCB (typically several weeks to a few months)",
+          description: "Authorities review submissions, request clarifications and schedule inspections as needed."
+        },
+        {
+          title: "Inspection & licence issuance",
+          duration: "Varies — inspection scheduling dependent",
+          description: "On successful inspection and compliance verification, the registration / licence is issued with operating conditions."
+        }
+      ],
+      totalTime:
+        "Overall time from preparation to licence issuance typically ranges from a few weeks (if site and documents are complete) to several months depending on local authority processes and inspection availability."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "How DoStartup Helps",
+      description: [
+        "Expert guidance on CPCB/SPCB registration requirements and the latest regulatory updates.",
+        "Assistance in preparing a customised action plan for collection, transport, recycling or refurbishment of EEE and in-house documentation.",
+        "Support with faster licence delivery via complete application packs and coordination with inspectors and authorities."
+      ],
+      points: [
+        "End-to-end application support and documentation",
+        "Technical advisory on recycling technology choices and zero-landfill strategies",
+        "EPR planning and reporting support for producers and brand owners"
+      ],
+      footerText:
+        "Contact DoStartup to streamline licensing, ensure regulatory compliance and adopt safer, more efficient e-waste processing practices."
+    }
+  ],
+  who: [
+    {
+      heading: "Who Should Apply & Who is Covered",
+      description: [
+        "Producers, importers and brand-owners (for EPR obligations); authorised dismantlers and recyclers seeking registration or authorisation; municipal bodies and large bulk collectors channelising e-waste to formal recyclers.",
+        "DoStartup’s services are suited for new recyclers, existing units transitioning from informal to formal operations, and producers seeking to meet EPR targets."
+      ],
+      points: [
+        "Producers/importers/brand owners — compliance with EPR and recovery targets",
+        "Dismantlers & recyclers — formal registration and technical compliance",
+        "Municipalities and aggregators — setting up collection channels for authorised recyclers"
+      ],
+      footerText:
+        "Confirm the local SPCB/CPCB portal and state-specific requirements before filing; DoStartup can assist with that liaison."
+    }
+  ],
+  faq: [
+    {
+      question: "What is Electrical and Electronic Equipment (EEE)?",
+      answer:
+        "EEE refers to equipment that depends on electric current or electromagnetic fields to operate and fulfil its intended function, as defined under the E-Waste (Management) Rules."
+    },
+    {
+      question: "Can a dismantler or recycler collect e-waste?",
+      answer:
+        "Yes. Dismantlers and authorised recyclers may collect e-waste, and they often form part of a producer’s EPR plan. Authorised units must comply with registration and operating conditions."
+    },
+    {
+      question: "How do I start an e-waste recycling business in India?",
+      answer:
+        "Assess required machinery and site, prepare technical and safety plans, register as an MSME if eligible, assemble compliance documents, and apply for authorisation with the SPCB/CPCB. DoStartup can guide through each step."
+    },
+    {
+      question: "Is e-waste recycling profitable in India?",
+      answer:
+        "Yes—when run with compliant processes, reliable feedstock and proper technology, e-waste recycling can be profitable due to recovery of valuable metals and components; however, profitability depends on collection channels and capex/opex for advanced processing."
+    },
+    {
+      question: "What percentage of India’s e-waste is formally recycled?",
+      answer:
+        "Reported figures vary by source and year. Some earlier assessments highlighted a large informal share (historically cited ~95% informal), while more recent official data (FY 2021–22) indicate roughly 32.9% of generated e-waste was formally recycled. These differences reflect evolving formalisation efforts and improvements in reporting and collection systems."
+    },
+    {
+      question: "What is India’s rank in global e-waste generation?",
+      answer:
+        "As of recent reporting included in this dataset, India ranks third globally in e-waste generation after the United States and China. FY 2021–22 generation was reported at approximately 1.6 million tonnes."
+    },
+    {
+      question: "Which are notable e-waste recycling companies in India?",
+      answer:
+        "Examples of established players include Cerebra Green (integrated recycling facility) and other authorised recyclers. DoStartup can advise on local authorised recyclers and partner options for processing or off-take."
+    },
+    {
+      question: "How can DoStartup assist with licensing?",
+      answer:
+        "DoStartup helps with documentation, application filing, technical planning, liaison with CPCB/SPCB, EPR planning and faster licence delivery through end-to-end support."
+    }
+  ]
+  },
+  "epr-registration-for-producers-and-brand-owners": {
+  title: "EPR Registration for Producers and Brand Owners",
+  description:
+    "Extended Producer Responsibility (EPR) places environmental accountability on producers, importers and brand owners for the full lifecycle of their products — including collection, recycling and final disposal of post-consumer waste. EPR registration on the CPCB portal is mandatory for covered product categories (plastic, e-waste, batteries, tyres, etc.) and helps meet recovery targets, regulatory reporting and compliance obligations.",
+  overview: [
+    {
+      heading: "What is EPR?",
+      content:
+        "Extended Producer Responsibility (EPR) makes producers and brand owners responsible for managing the end-of-life stage of their products — collection, recycling and safe disposal — to reduce environmental harm and promote circularity."
+    },
+    {
+      heading: "Who can register on the CPCB portal?",
+      content:
+        "Producers (P), Importers (I), Brand Owners (BO), and Plastic Waste Processors involved in recycling, waste-to-energy, waste-to-oil, or industrial composting can register on the CPCB centralised portal."
+    },
+    {
+      heading: "Producer vs Brand Owner",
+      content:
+        "Producer: manufacturer or entity that places products on the market and is responsible for take-back/recycling. Brand Owner (BO): an entity that sells products under its own registered brand/trademark (including marketplaces and retailers) and is responsible for ensuring proper end-of-life management under EPR rules."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Environmental Protection",
+      content:
+        "EPR promotes reduced hazardous content, improved collection and safer recycling practices that minimise pollution and health risks."
+    },
+    {
+      heading: "Cost Optimisation & Resource Conservation",
+      content:
+        "Shared recycling infrastructure and recovered secondary materials lower production costs and reduce dependence on virgin resources."
+    },
+    {
+      heading: "Legal Compliance & Brand Value",
+      content:
+        "Registration reduces regulatory risk, avoids penalties and demonstrates corporate responsibility, improving market and consumer trust."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for EPR Registration",
+      content:
+        "Company PAN, GST, CIN and IEC; PAN/Aadhaar of the authorised person; DIC registration (if applicable); manufacturing flow diagram (producers only); SPCB/PCC consents for production facilities; scanned signatures of authorised signatories; covering letter; supporting documents specific to the product category (EPR plan, waste estimates, etc.)."
+    }
+  ],
+  Listicles: [
+    {
+      category: "EPR by Waste Stream — Key Notes",
+      documents: [
+        "Plastic Waste: PIBOs must prepare Plastic Waste Management plans and coordinate with local bodies; register via Form I and submit Plastic Waste Action Plan on the CPCB/SPCB portal.",
+        "E-Waste: EPR covers all Electrical & Electronic Equipment (EEE) — producers must promote formal collection and recycling under E-Waste Rules.",
+        "Battery Waste: Batteries (primary/secondary/new/refurbished) are covered; register via CPCB portal using Form 1(A) and obtain Form 1(B) certification under Battery Waste Rules (2022).",
+        "Tyres: Covered under Hazardous & Other Wastes Amendment Rules, 2022 (Schedule IX) — manufacturers, importers and OEMs must obtain EPR certificates and comply with portal returns."
+      ]
+    },
+    {
+      category: "Common Registration Challenges",
+      documents: [
+        "Stakeholder awareness gaps and fragmented collection channels",
+        "Tracking and meeting recovery targets across geographies and product categories",
+        "Financial constraints for MSMEs to invest in recycling infrastructure",
+        "Inter-agency coordination and data reporting complexities"
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Application Processing & Practical Steps",
+      content:
+        "1. Prepare documents: corporate IDs (PAN/GST/CIN/IEC), authorised signatory IDs, DIC (if applicable), process flow (producers), SPCB consents (production units), scanned signatures and a covering letter.\n\n2. Choose the correct category and form on the CPCB centralised EPR portal (plastic/e-waste/battery/tyre-specific forms where applicable).\n\n3. Submit application and supporting documents through the CPCB portal. DoStartup or similar consultants can assist with form-filling and documentation to avoid delays.\n\n4. CPCB review & clarifications: CPCB examines applications and requests clarifications within 7 working days; relevant officers respond within 2 working days when clarifications are sought.\n\n5. Response & timelines: Applicants must respond to clarifications within 30 days or the application may be deemed withdrawn. If CPCB delays processing beyond one month, rules provide for automatic registration in certain circumstances (confirm current portal/notification specifics at time of filing).\n\n6. Post-registration obligations: Maintain records, file quarterly/annual returns on the CPCB portal, meet recovery targets and implement collection & recycling arrangements (tie-ups with authorised recyclers or collective systems)."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Processing Timelines & Validity",
+      description:
+        "Portal timelines are prescribed to ensure prompt processing; validity and renewals are specified per stream and regulatory updates.",
+      steps: [
+        {
+          title: "CPCB initial scrutiny",
+          duration: "7 working days (to request clarifications)",
+          description:
+            "CPCB examines the application and may ask for clarifications or missing information within 7 working days."
+        },
+        {
+          title: "CPCB officer response window",
+          duration: "2 working days (internal response SLA)",
+          description:
+            "Relevant CPCB officers respond to clarifications or escalate within 2 working days as per the stated internal process."
+        },
+        {
+          title: "Applicant reply & withdrawal condition",
+          duration: "30 days (applicant response window)",
+          description:
+            "If the applicant fails to respond to CPCB queries within 30 days, the application may be deemed withdrawn."
+        },
+        {
+          title: "Automatic grant condition",
+          duration: "If CPCB delay > 1 month",
+          description:
+            "If CPCB delays processing beyond one month, the application may be considered approved automatically — confirm this against current portal rules and notifications before relying on it."
+        }
+      ],
+      totalTime:
+        "EPR registration validity is typically five years from issuance. Processing time from submission to registration varies depending on completeness of documentation and CPCB/SPCB review cycles — often a few weeks to a few months in practice."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "How DoStartup Supports EPR Registration",
+      description: [
+        "Advising the correct authorisation category and form for your product stream.",
+        "Fast-tracking registration through complete application packs and proactive liaison with CPCB/SPCB.",
+        "Monthly compliance maintenance post-registration and support to meet EPR targets across plastic, e-waste, battery and tyre streams."
+      ],
+      points: [
+        "End-to-end application and documentation support",
+        "EPR target strategy and tie-ups with authorised recyclers/collectors",
+        "Ongoing reporting and compliance assistance to avoid penalties"
+      ],
+      footerText:
+        "DoStartup provides tailored support for producers and brand owners to meet regulatory obligations and achieve circularity goals."
+    }
+  ],
+  who: [
+    {
+      heading: "Who Must Register & Who is Covered",
+      description: [
+        "Producers, importers and brand owners who manufacture, import or sell covered products (plastic packaging, EEE, batteries, tyres, etc.) are required to register and meet EPR obligations. Plastic waste processors and authorised recyclers may also register for specific roles in the EPR ecosystem.",
+        "Brand owners include marketplaces and retailers that place products under their brand; they share legal responsibility for end-of-life management under EPR rules."
+      ],
+      points: [
+        "Producers / Importers — primary responsibility for EPR planning and target compliance",
+        "Brand Owners / Marketplaces — responsible for branded product lifecycle management",
+        "Recyclers / Dismantlers — authorised partners for collection and processing",
+        "Municipalities / Aggregators — collection partners and local coordination"
+      ],
+      footerText:
+        "Register on the CPCB portal in the applicable category and ensure ongoing reporting and operational arrangements to meet recovery targets."
+    }
+  ],
+  faq: [
+    {
+      question: "What is EPR Registration?",
+      answer:
+        "EPR Registration is the process by which producers, importers and brand owners obtain an EPR certificate from CPCB for covered product categories and commit to collection, recycling and disposal obligations under the relevant rules."
+    },
+    {
+      question: "Why is EPR Registration important?",
+      answer:
+        "It ensures producers and brand owners manage post-consumer waste responsibly, reduces environmental harm and helps organisations meet legal and sustainability obligations."
+    },
+    {
+      question: "How long is EPR registration valid?",
+      answer:
+        "EPR authorisation is typically valid for five years from the date of issuance; renewals require updated documentation and ongoing compliance reporting."
+    },
+    {
+      question: "What documents are needed?",
+      answer:
+        "Company PAN/GST/CIN/IEC, PAN/Aadhaar of authorised person, DIC registration (if applicable), manufacturing flow diagram (producers), SPCB consents (production units), scanned signature and covering letter, plus category-specific details such as EPR plan and waste estimates."
+    },
+    {
+      question: "What happens if I don’t respond to CPCB queries?",
+      answer:
+        "If the applicant fails to respond to CPCB clarifications within 30 days, the application may be deemed withdrawn. If CPCB delays processing beyond prescribed timelines, automatic grant provisions may apply in specific situations — verify current portal rules."
+    },
+    {
+      question: "Does EPR apply to e-waste and batteries?",
+      answer:
+        "Yes. EPR covers Electrical & Electronic Equipment (EEE) under E-Waste Rules and batteries under the Battery Waste Rules (2022). Producers/brand owners must register using stream-specific forms (e.g., Form 1(A) for batteries) on the CPCB portal."
+    },
+    {
+      question: "How does DoStartup help?",
+      answer:
+        "DoStartup advises on the correct EPR category, prepares documentation, fast-tracks registration, supports monthly compliance, EPR target planning and liaison with CPCB/SPCB to ensure timely and correct fulfilment of obligations."
+    }
+  ]
+  },
+  "epr-fullfillment-e-waste-management": {
+  title: "EPR Compliance for E-Waste Management",
+  description:
+    "Framework, obligations and practical guidance for Extended Producer Responsibility (EPR) compliance under the E-Waste (Management) Rules, 2022 — covering producers, importers, brand owners, refurbishers, dismantlers and authorised recyclers, and describing collection, reporting, licensing and post-compliance obligations.",
+  overview: [
+    {
+      heading: "Overview",
+      content:
+        "Rapid urbanisation, industrial growth and rising electronics demand have produced large volumes of e-waste. EPR Compliance for E-Waste mandates that producers and brand owners manage collection, recycling and disposal of end-of-life electrical and electronic equipment (EEE). The system reduces toxic releases, increases resource recovery and formalises recycling channels to protect public health and the environment."
+    },
+    {
+      heading: "Regulatory Context",
+      content:
+        "EPR compliance is governed primarily by the E-Waste (Management) Rules, 2022. Producers, refurbishers, recyclers and other stakeholders must register on the official EPR portal, implement take-back/collection systems, file periodic returns and ensure e-waste flows only to authorised dismantlers or recyclers."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Encourages Sustainable Business Models",
+      content:
+        "EPR incentivises eco-design, reuse and recycling and supports circular-economy business opportunities for producers and recyclers."
+    },
+    {
+      heading: "Reduces Resource Extraction",
+      content:
+        "Recovery of secondary raw materials (gold, silver, copper, trace e-metals) reduces dependence on virgin extraction and associated environmental impacts."
+    },
+    {
+      heading: "Promotes Eco-Friendly Design & Pollution Prevention",
+      content:
+        "Producers redesign products for easier recycling and reduced hazardous content, preventing soil, water and air contamination from informal processing."
+    },
+    {
+      heading: "Generates Employment & Formalises Recycling",
+      content:
+        "EPR-driven collection and authorised recycling create jobs across collection, dismantling, processing and logistics while improving worker safety."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for EPR Registration / Compliance",
+      content:
+        "Company name, contact details and email; Certificate of Incorporation; GST certificate; PAN (company and authorised person); Business address proof; Registrar of Companies / IEC documents; Agreements with authorised recyclers and dismantlers; Technical product documentation (specs, EEE categories); Licences required for marketing (if any); SPCB/PCC authorisations (where applicable); Detailed EPR Plan and awareness activities; Estimated EPR budget and resource-flow estimations; Any other category-specific documents requested on the CPCB portal."
+    }
+  ],
+  Listicles: [
+    {
+      category: "Key Aspects of EPR for E-Waste",
+      documents: [
+        "Registration on the CPCB EPR portal under applicable product streams.",
+        "Set up accessible collection/take-back systems and inform consumers (website, toll-free number).",
+        "Tie-ups with authorised dismantlers/recyclers for safe processing.",
+        "File quarterly and annual returns using prescribed formats by the due dates."
+      ]
+    },
+    {
+      category: "Post-Compliance Requirements",
+      documents: [
+        "Filing periodic (quarterly/annual) returns and operational documentation on the EPR portal.",
+        "Allowing CPCB/SPCB inspections to verify compliance with E-Waste Rules, 2022.",
+        "Maintaining records of collections, transfers to authorised recyclers, invoices and manifests.",
+        "Timely renewal of EPR authorisation before expiry to ensure uninterrupted operations."
+      ]
+    },
+    {
+      category: "Common Challenges",
+      documents: [
+        "High informal-sector diversion (cherry-picking of high-value items) reducing feedstock to formal recyclers.",
+        "Low consumer awareness and weak collection networks in some geographies.",
+        "Regulatory and reporting complexity for multi-jurisdictional producers and MSMEs.",
+        "Limited capacity of authorised recyclers relative to e-waste volumes in some areas."
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "How to Apply & Meet EPR Compliance",
+      content:
+        "1. Assessment & documentation: prepare company IDs, incorporation certificate, PAN/GST, product/EEE technical details, EPR plan, proposed collection network and awareness activities, and agreements with authorised dismantlers/recyclers.\n\n2. Portal registration & submission: register and submit your application via the official CPCB EPR portal in the relevant stream (e-waste). Attach the required documents and the detailed EPR Plan.\n\n3. Review & clarifications: CPCB reviews the submission and may request clarifications. Organisations must respond within the prescribed window to avoid withdrawal.\n\n4. Certificate issuance & implementation: on acceptance, CPCB issues the EPR certificate. The producer must implement the EPR plan, establish collection channels, and ensure e-waste flows only to authorised dismantlers/recyclers.\n\n5. Ongoing obligations: file quarterly/annual returns on the portal, maintain records, cooperate with inspections and renew the authorisation prior to expiry."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Processing Timeline & Validity",
+      description:
+        "Timelines depend on completeness of submission, CPCB processing load and inspection scheduling. The certificate validity and processing norms in this dataset are as follows.",
+      steps: [
+        {
+          title: "CPCB review & processing",
+          duration: "Up to 120 days from complete submission (typical guideline in provided text)",
+          description:
+            "CPCB reviews the application, may raise queries and schedules inspections if required. Timely submission of complete documentation speeds the process."
+        },
+        {
+          title: "Certificate validity",
+          duration: "5 years",
+          description:
+            "EPR certificates issued are typically valid for five years and must be renewed before expiry with updated documentation and compliance records."
+        }
+      ],
+      totalTime:
+        "From preparation to certificate issuance typically ranges from a few weeks (if documents and site arrangements are complete) to several months depending on CPCB review and inspection scheduling."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "How DoStartup Supports EPR Compliance",
+      description: [
+        "End-to-end EPR consultation: documentation, portal filing and liaison with CPCB/SPCB.",
+        "Design of effective collection networks and consumer awareness campaigns.",
+        "Tie-ups with authorised recyclers and dismantlers to ensure rightful off-take and traceability.",
+        "Post-certification support: periodic reporting, inspection readiness and renewal assistance."
+      ],
+      points: [
+        "Complete application preparation and submission",
+        "EPR plan drafting and budget estimates",
+        "Operational tie-ups for collection & recycling",
+        "Ongoing compliance & reporting support"
+      ],
+      footerText:
+        "Contact DoStartup to streamline EPR compliance, set up collection channels and meet statutory targets with minimal disruption."
+    }
+  ],
+  who: [
+    {
+      heading: "Who Needs EPR Registration for E-Waste?",
+      description: [
+        "Manufacturers, producers, importers, refurbishers, recyclers and brand owners of electrical and electronic equipment must register and follow EPR obligations under the E-Waste (Management) Rules, 2022.",
+        "Retailers/marketplaces that place products under their brand may also have responsibilities as brand owners under EPR provisions."
+      ],
+      points: [
+        "Producers / Importers / Brand Owners — primary responsibility for EPR plans, collection and reporting",
+        "Refurbishers & Recyclers — authorised partners for downstream processing and recovery",
+        "Municipalities & Aggregators — coordination for collection networks and awareness drives"
+      ],
+      footerText:
+        "Always confirm the latest portal instructions and format requirements on the CPCB EPR portal before submission."
+    }
+  ],
+  faq: [
+    {
+      question: "What is EPR compliance for e-waste management?",
+      answer:
+        "It is the legal obligation for producers to ensure collection, environmentally sound recycling and disposal of EEE, implemented via registration on the CPCB EPR portal, setting up collection systems and meeting reporting and recovery targets."
+    },
+    {
+      question: "Who issues the EPR certificate for e-waste?",
+      answer:
+        "The Central Pollution Control Board (CPCB) issues EPR certificates under the E-Waste (Management) Rules, 2022. State PCBs support enforcement and local oversight."
+    },
+    {
+      question: "What are the main post-certification obligations?",
+      answer:
+        "Filing quarterly and annual returns on the portal, maintaining collection records and manifests, facilitating inspections and renewing the EPR authorisation before expiry."
+    },
+    {
+      question: "How long does it take to get an EPR certificate?",
+      answer:
+        "Processing may take up to ~120 days from complete submission as a typical guideline; actual timelines vary by CPCB/SPCB processing and inspection scheduling."
+    },
+    {
+      question: "What are common barriers to EPR compliance?",
+      answer:
+        "Low formal collection rates (informal diversion), fragmented supply chains, limited authorised recycling capacity in some regions, and reporting/administrative complexity for multi-jurisdictional producers."
+    },
+    {
+      question: "How can producers improve compliance performance?",
+      answer:
+        "Invest in collection networks, partner with authorised recyclers/dismantlers, run consumer awareness campaigns, maintain accurate records and use consultants (e.g., DoStartup) for process design and reporting."
+    },
+    {
+      question: "Is EPR profitable?",
+      answer:
+        "EPR can deliver resource recovery value, cost optimisation through secondary materials and brand benefits; however profitability depends on collection efficiency, technology choice and scale."
+    }
+  ]
+  },
+  "need-for-epr-compliance-in-india": {
+  title: "Need for EPR Compliance in India",
+  description:
+    "Why Extended Producer Responsibility (EPR) is essential in India — aligning producers, importers and brand owners with circular-economy principles, ensuring traceability and accountability across product lifecycles, and strengthening national waste-management outcomes through regulatory compliance and formalised collection & recycling systems.",
+  overview: [
+    {
+      heading: "What is the Need for EPR Compliance?",
+      content:
+        "Extended Producer Responsibility (EPR) is a globally recognised policy tool that assigns producers and brand owners responsibility for the end-of-life management of their products. In India, EPR compliance ensures manufacturers, importers and brand owners set up collection systems, partner with recyclers, meet recovery targets and report performance to regulatory authorities. The approach operationalises the Polluter Pays Principle and drives circularity by making producers accountable for product design, take-back, recycling and responsible disposal."
+    },
+    {
+      heading: "Why India Requires EPR",
+      content:
+        "Rapid urbanisation, growing consumption and increasing waste streams (plastic, e-waste, batteries, tyres) make centralised producer accountability necessary. EPR strengthens infrastructure for collection and formal recycling, reduces environmental and health risks from informal disposal, and creates incentives for eco-design and material recovery."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Enhances Waste Management",
+      content:
+        "EPR strengthens collection, segregation, recycling and disposal systems across jurisdictions — improving operational efficiency and reducing pressure on municipal waste services."
+    },
+    {
+      heading: "Promotes Transparency & Accountability",
+      content:
+        "By requiring registration, reporting and tracking, EPR ensures traceability of waste flows and clarifies roles for producers, recyclers and regulators."
+    },
+    {
+      heading: "Drives the Circular Economy",
+      content:
+        "EPR encourages reuse and secondary-material use, reduces reliance on virgin raw materials and fosters eco-innovative product design."
+    },
+    {
+      heading: "Reduces Costs & Regulatory Risk",
+      content:
+        "Optimised collection and recycling networks can lower lifecycle costs for producers; compliance avoids fines and legal consequences and enhances brand reputation."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Typical Documents Required for EPR Registration",
+      content:
+        "Company PAN, GST and CIN; IEC/ROC documents; PAN/Aadhaar of authorised signatory; Certificate of Incorporation; Business address proof; DIC/MSME registration (if applicable); Technical product documentation and manufacturing/flow diagrams (for producers); Proposed EPR Plan and awareness strategy; Estimated EPR budget and collection targets; Agreements with authorised recyclers/dismantlers/PROs; SPCB/PCC consents where applicable; Scanned signatures and covering letter; Any category-specific records requested on the CPCB/SPCB portal."
+    }
+  ],
+  Listicles: [
+    {
+      category: "Key EPR Waste Categories in India",
+      documents: [
+        "Plastic waste (Plastic Waste Management Rules, 2016)",
+        "E-waste (E-Waste Rules, 2016 / 2022 updates)",
+        "Battery waste (Battery Waste Rules, 2022)",
+        "Tyre waste (Hazardous & Other Wastes Amendment Rules, 2022)"
+      ]
+    },
+    {
+      category: "Primary Stakeholders Under EPR",
+      documents: [
+        "Producers / Manufacturers — design products and implement take-back/recovery plans",
+        "Importers — report imports and meet EPR obligations for imported goods",
+        "Brand Owners / Marketplaces — responsible for branded product lifecycle management",
+        "PROs, recyclers & dismantlers — execute collection and authorised recycling",
+        "Municipalities & aggregators — collaborate on local collection systems and awareness"
+      ]
+    },
+    {
+      category: "Top Benefits for Businesses",
+      documents: [
+        "Compliance & reduced legal risk",
+        "Cost savings via material recovery and shared infrastructure",
+        "Brand value from sustainable practices",
+        "Access to circular-economy opportunities and new markets"
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "How EPR Compliance Works (High-Level Steps)",
+      content:
+        "1. Registration: Register on the CPCB centralised EPR portal (and SPCB portal where required) in the applicable waste stream.\n\n2. EPR Plan & Partnerships: Prepare a detailed EPR Plan covering collection networks, awareness activities, budget and recovery targets; enter tie-ups with authorised recyclers or PROs.\n\n3. Submission & Review: Submit application and documents. Respond promptly to any CPCB/SPCB clarifications to avoid withdrawal.\n\n4. Implementation: On approval, implement collection, take-back, transport, recycling and reporting systems in line with the EPR plan.\n\n5. Reporting & Renewal: File quarterly/annual returns, maintain records, allow inspections and renew authorisation before expiry."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline & Validity Considerations",
+      description:
+        "Processing timelines vary by portal, completeness of submission and inspection scheduling. EPR authorisations are typically valid for defined periods (commonly five years) and require timely renewal and continuous reporting.",
+      steps: [
+        {
+          title: "Portal submission & initial review",
+          duration: "Varies (days to weeks depending on completeness)",
+          description:
+            "Authorities perform initial scrutiny and may request clarifications — respond within the prescribed window to avoid delays or deemed withdrawal."
+        },
+        {
+          title: "Implementation & reporting start",
+          duration: "As per certificate conditions",
+          description:
+            "Begin collection, tie-ups and reporting as soon as authorisation is granted; file periodic returns per CPCB timelines."
+        }
+      ],
+      totalTime:
+        "Overall time from preparation to operational compliance commonly ranges from a few weeks to several months depending on organisation readiness, state-level processes and inspection scheduling."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "How DoStartup Helps with EPR Compliance",
+      description: [
+        "End-to-end support for registration, EPR plan drafting, PRO/recycler tie-ups and compliance reporting.",
+        "Legal and technical expertise to navigate varied sectoral guidelines and reduce administrative complexity.",
+        "Technology tools for data management, reporting and target tracking to meet CPCB/SPCB obligations."
+      ],
+      points: [
+        "Complete application and documentation support",
+        "EPR strategy and operational tie-ups with authorised recyclers/PROs",
+        "Compliance reporting, renewal reminders and inspection readiness"
+      ],
+      footerText:
+        "DoStartup supports businesses from registration through operations to help you meet legal obligations and unlock circular-economy benefits."
+    }
+  ],
+  who: [
+    {
+      heading: "Who Must Comply?",
+      description: [
+        "Producers, manufacturers, importers and brand owners of products falling under EPR rules (plastic packaging, EEE, batteries, tyres, etc.) are required to register and fulfil EPR obligations. Processors, authorised recyclers and PROs participate in implementation and may register as relevant."
+      ],
+      points: [
+        "Producers / Importers — primary legal responsibility for targets and reporting",
+        "Brand Owners / Marketplaces — responsible for branded product lifecycle compliance",
+        "Recyclers / Dismantlers / PROs — delivery partners for authorised recycling and collection"
+      ],
+      footerText:
+        "Confirm specific obligations and portal requirements with CPCB/SPCB for your product category before filing."
+    }
+  ],
+  faq: [
+    {
+      question: "What is EPR Compliance?",
+      answer:
+        "EPR Compliance requires producers and brand owners to manage end-of-life collection, recycling and disposal of their products and report performance to regulatory authorities under designated waste rules."
+    },
+    {
+      question: "Is EPR mandatory in India?",
+      answer:
+        "Yes — for covered product categories (plastic, e-waste, batteries, tyres etc.), EPR registration and compliance are mandatory under the respective rules and monitored via CPCB/SPCB portals."
+    },
+    {
+      question: "What are the consequences of non-compliance?",
+      answer:
+        "Non-compliance can result in penalties, legal action and reputational harm. Timely registration, accurate reporting and proper implementation reduce regulatory risk."
+    },
+    {
+      question: "How does EPR support a circular economy?",
+      answer:
+        "By incentivising reuse, recycling and eco-design, EPR reduces virgin material demand, recovers value from waste streams and integrates producers into sustainable material loops."
+    },
+    {
+      question: "How can DoStartup help me meet EPR obligations?",
+      answer:
+        "DoStartup offers consultancy, documentation, portal submission assistance, PRO/recycler tie-ups, technology tools for reporting and ongoing compliance support to ensure seamless EPR implementation."
+    }
+  ]
+  },
+  "fermentation-industry-setup": {
+  title: "Fermentation Industry Setup — Start Your Fermentation Business in India",
+  description:
+    "End-to-end guidance for establishing fermentation businesses in India (breweries, distilleries, enzyme / bio-product plants, biofuels and related industrial biotechnology units) including technical planning, environmental & excise compliance, licensing and operational readiness.",
+  overview: [
+    {
+      heading: "Overview of Fermentation Industry Business in India",
+      content:
+        "India’s fermentation sector is expanding across food & beverages, pharmaceuticals, biofuels, industrial enzymes and alcoholic beverages. Successful setup requires a mix of technical expertise (process design, strain/process optimisation, utility planning) and a structured compliance strategy covering environmental clearances, excise licensing, FSSAI approvals, ISO standards and other statutory permits. Corpbiz and similar consultants help translate technical ideas into legally compliant, scalable industrial operations."
+    }
+  ],
+  benefits: [
+    {
+      heading: "Eco-friendly & Sustainable Production",
+      content:
+        "Fermentation reduces reliance on petrochemical processes and can lower CO₂ footprints by producing bio-based alternatives and renewable fuels."
+    },
+    {
+      heading: "Cost-Effective Manufacturing",
+      content:
+        "Fermentation enables efficient production of value-added products (ethanol, enzymes, feed supplements) potentially lowering input costs versus chemical synthesis."
+    },
+    {
+      heading: "High Export & Market Potential",
+      content:
+        "Fermented products and bio-based raw materials have strong domestic and international demand, opening export opportunities."
+    },
+    {
+      heading: "Innovation & Biotech Growth",
+      content:
+        "Supports advances in synthetic biology, enzyme engineering and novel bio-products, creating R&D and commercialisation prospects."
+    },
+    {
+      heading: "Access to Government Incentives",
+      content:
+        "Projects in renewable energy and biotechnology may qualify for subsidies, tax benefits or state incentives—improving financial viability."
+    }
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Fermentation Plant Registration & Licensing",
+      content:
+        "Filled application form(s); Detailed site / building plan and three copies of plant blueprint; Project report including process flow diagram; Land ownership / lease documents; List of directors / partners; Memorandum & Articles of Association (MOA & AOA); PAN of company / owners; Utility bills (electricity, water); Quality assurance certificates from government-approved labs; Excise-related bonds and permits (Forms E-5, E-6, E-11 where applicable); Private Bonded Warehouse Permit (Form E-12) where required; Fire safety certificate; FSSAI registration/license (if applicable); Factory license and Shop & Establishment registration; NOCs from State Police, Labour Department, Inspector of Factories & Boilers and State Pollution Control Board (as applicable)."
+    }
+  ],
+  Listicles: [
+    {
+      category: "Key Permits & Licenses Often Required",
+      documents: [
+        "Environmental clearances / Consent to Establish & Operate (SPCB)",
+        "Excise licences (L-3 for distilleries, L-10 for breweries where applicable)",
+        "FSSAI registration or licence (food/beverage products)",
+        "Factory licence and Shop & Establishment registration",
+        "Fire safety NOC and local municipal approvals"
+      ]
+    }
+  ],
+  registrationProcedure: [
+    {
+      heading: "Typical Steps to Set Up a Fermentation Plant",
+      content:
+        "1. Feasibility & project planning: techno-economic feasibility, raw material sourcing, utilities (steam, chilled water, power) and effluent management planning.\n\n2. Detailed project report & drawings: process flow diagrams, equipment list, site layouts and Gantt for implementation.\n\n3. Apply for statutory licences: environmental consents (SPCB), factory licence, excise permits (bonded warehouse and excise bonds/forms), FSSAI (if producing food/beverage), and local municipal approvals.\n\n4. Compliance & safety systems: prepare SOPs, worker safety training, quality assurance plans and waste / effluent management plans (ETP/STP or zero-liquid discharge options where required).\n\n5. Commissioning & testing: install equipment, perform trial batches, validate product quality and obtain clearances/inspections from statutory authorities.\n\n6. Operational authorisations: obtain final Consent to Operate, excise authorisation and any manufacturing-specific clearances prior to commercial production."
+    }
+  ],
+  registrationTimeline: [
+    {
+      heading: "Typical Timeline & Milestones",
+      description:
+        "Timelines vary by project scale, location and state-level processing. The outline below gives typical milestones and expected durations.",
+      steps: [
+        {
+          title: "Feasibility, planning & DPR preparation",
+          duration: "4–12 weeks",
+          description:
+            "Site selection, feasibility, process selection and preparation of a detailed project report and equipment specifications."
+        },
+        {
+          title: "Statutory applications & clearances",
+          duration: "Variable — 4–20+ weeks depending on permissions",
+          description:
+            "Submission and processing of SPCB consents, factory license, excise bonds/permits and FSSAI (if applicable). Some approvals require inspections and iterative clarifications."
+        },
+        {
+          title: "Construction, installation & commissioning",
+          duration: "8–32 weeks (project-dependent)",
+          description:
+            "Civil works, utilities, equipment installation, piping, trial runs and quality validation prior to production."
+        },
+        {
+          title: "Operational approvals & production start",
+          duration: "Upon satisfactory inspections and documentation",
+          description:
+            "Obtain final consents/authorisations and commence commercial operations; schedule periodic compliance reporting and renewals as required."
+        }
+      ],
+      totalTime:
+        "End-to-end setup from planning to production typically ranges from several months to over a year depending on plant size, complexity and approval timelines."
+    }
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose Corpbiz for Fermentation Industry Setup?",
+      description: [
+        "Over a decade of experience advising fermentation and biotech projects, with a cross-functional team of legal, financial and compliance specialists.",
+        "Proven track record with regulatory filings, excise/licence management, FSSAI & environmental clearances and liaison with authorities.",
+        "Technical and compliance support across site planning, process documentation, statutory bonds (E-series), and inspection coordination."
+      ],
+      points: [
+        "10+ years industry experience and domain expertise",
+        "400+ in-house CAs, Company Secretaries and legal experts",
+        "SLA-driven service delivery and pan-India support (50+ offices)",
+        "End-to-end assistance from documentation to commissioning"
+      ],
+      footerText:
+        "Book a free consultation with Corpbiz to get a tailored project plan, licensing roadmap and compliance checklist for your fermentation venture."
+    }
+  ],
+  who: [
+    {
+      heading: "Who Should Consider a Fermentation Business?",
+      description: [
+        "Entrepreneurs and companies targeting sectors such as breweries, distilleries, industrial enzymes, biofuel production, nutraceuticals and specialty chemicals who require bioprocess expertise and regulatory compliance.",
+        "Existing food, pharma or chemical firms looking to diversify into bio-based production using fermentation technologies."
+      ],
+      points: [
+        "Startups and MSMEs seeking pilot-to-commercial scale fermentation projects",
+        "Established manufacturers expanding into bio-based products",
+        "Investors or JV partners evaluating turnkey fermentation plants"
+      ],
+      footerText:
+        "Corpbiz helps first-time founders and established players with site approvals, compliance matrices and operational readiness to accelerate time-to-market."
+    }
+  ],
+  faq: [
+    {
+      question: "What licences do I need to start a fermentation plant?",
+      answer:
+        "Common licences include SPCB environmental consents (Consent to Establish / Consent to Operate), factory licence, FSSAI (for food/beverage products), excise licences / bonded warehouse permits (where applicable), GST registration and local municipal approvals; specific needs vary by product and state."
+    },
+    {
+      question: "Does a fermentation plant require environmental clearance?",
+      answer:
+        "Many fermentation facilities require SPCB consents and, depending on scale and emissions/discharges, may need environmental clearances or prescribed consent conditions (effluent treatment, emission controls). Consult state SPCB guidelines for thresholds."
+    },
+    {
+      question: "How long does it take to get excise permissions and bonds?",
+      answer:
+        "Excise bond preparation and permissions (including Forms E-5, E-6, E-11 and E-12 for bonded warehouses) vary by jurisdiction; prepare documentation early—processing can take several weeks depending on verification and inspection schedules."
+    },
+    {
+      question: "Can I get financial incentives for a fermentation project?",
+      answer:
+        "Potential incentives depend on location, product type (e.g., biofuel projects) and state policies. Corpbiz can assess eligibility for subsidies, tax benefits or renewable energy incentives and help with applications."
+    },
+    {
+      question: "What technical documentation is critical for approval?",
+      answer:
+        "Detailed process flow diagrams, equipment specifications, site layout plans, effluent treatment designs, safety & SOP documents, and quality assurance test reports (from accredited labs) are commonly required for statutory approvals and inspections."
+    },
+    {
+      question: "How can Corpbiz assist with the setup?",
+      answer:
+        "Corpbiz provides end-to-end services: feasibility & DPR support, licensing and excise bond assistance, environmental & FSSAI filings, statutory liaison, process documentation support, and post-commissioning compliance management."
+    }
+  ]
+}
+
+
+
+
+
+
+
+  
+  
+  
+  
 
 };
