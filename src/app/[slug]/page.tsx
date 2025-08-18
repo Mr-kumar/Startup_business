@@ -92,7 +92,7 @@ export default async function Page({ params }: PageProps) {
   return (
     <div>
       <Hero title={currentPage.title} description={currentPage.description} />
-      <LogoSlider />
+      {/* <LogoSlider /> */}
       <TalkToExpert />
       <Overview
         overview={currentPage.overview}
