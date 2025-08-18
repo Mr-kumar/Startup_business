@@ -45,7 +45,7 @@ export const pageContent: Record<string, PageContentType> = {
         "If you are looking for GST registration to empower your business legally, you are at the right place.",
         "The Goods and Services Tax, popularly known as GST, was introduced on July 1, 2017, as a replacement for various central and state-level taxes, including Service Tax, Excise Duty, CST, Entertainment Tax, Luxury Tax, and VAT. GST has streamlined compliance, lowered tax evasions, and boosted the efficacy of the economy.",
         "GST has united multiple indirect taxes into a unified system, promoting the ease of doing business and eliminating cascading tax effects.",
-        "Talk to consultants at Corpbiz and enjoy easy and timely GST registration in India.",
+        "Talk to consultants at DoStartup and enjoy easy and timely GST registration in India.",
       ],
     },
     features: [
@@ -2186,7 +2186,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Establishing a company in France provides access to Europe’s third‑largest economy, with strong markets in finance, insurance, real estate, e‑commerce, and professional services.",
         "France offers 100% foreign ownership, tax benefits via double‑taxation treaties with 120+ countries, and a strategic EU location for trade expansion.",
-        "Corpbiz™ simplifies setting up an LLC in France—drafting MOA/AOA, securing SIRENE/SIRET numbers, handling corporate tax & VAT registrations, obtaining industry licenses, and providing ongoing accounting support.",
+        "DoStartup™ simplifies setting up an LLC in France—drafting MOA/AOA, securing SIRENE/SIRET numbers, handling corporate tax & VAT registrations, obtaining industry licenses, and providing ongoing accounting support.",
       ],
     },
 
@@ -2310,7 +2310,7 @@ export const pageContent: Record<string, PageContentType> = {
       {
         question: "Can I register a company in France from India?",
         answer:
-          "Yes—Corpbiz™ provides 100% online registration services for foreign entrepreneurs.",
+          "Yes—DoStartup™ provides 100% online registration services for foreign entrepreneurs.",
       },
       {
         question: "What’s the cheapest structure?",
@@ -2319,7 +2319,7 @@ export const pageContent: Record<string, PageContentType> = {
       },
       {
         question: "How long does incorporation take?",
-        answer: "Typically 2–4 weeks with Corpbiz™’s expedited services.",
+        answer: "Typically 2–4 weeks with DoStartup™’s expedited services.",
       },
     ],
 
@@ -2954,7 +2954,7 @@ export const pageContent: Record<string, PageContentType> = {
           "The Reserve Bank of India (RBI) for financial norms and the Ministry of Corporate Affairs (MCA) for company law obligations.",
       },
       {
-        question: "Can Corpbiz handle all NBFC compliance requirements?",
+        question: "Can DoStartup handle all NBFC compliance requirements?",
         answer:
           "Yes—we offer end‑to‑end support from registration to annual filings, KYC/AML, and ongoing legal advisory.",
       },
@@ -4192,7 +4192,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Obtaining the CE mark demonstrates that your product complies with EU health, safety, and environmental protection standards—mandatory for lawful distribution across the European Economic Area (EEA).",
         "The CE mark, or Conformité Européenne, acts as a passport allowing free movement of goods within the EEA and signifies conformity with all applicable EU directives and regulations.",
-        "Partner with Corpbiz™ to streamline the CE certification process and confidently enter one of the world’s most robust and business-friendly markets.",
+        "Partner with DoStartup™ to streamline the CE certification process and confidently enter one of the world’s most robust and business-friendly markets.",
       ],
     },
 
@@ -4474,7 +4474,7 @@ export const pageContent: Record<string, PageContentType> = {
       heading: "WPC Certification: Mandatory Wireless Compliance in India",
       paragraphs: [
         "To operate a wireless device business in India, securing WPC certification is mandatory. The Wireless Planning and Coordination (WPC) Wing under the DoT issues Equipment Type Approval (ETA) and import licenses to ensure all RF devices comply with national frequency standards.",
-        "Corpbiz™ assists manufacturers and importers with WPC licenses for Bluetooth, Wi‑Fi, and other wireless devices—handling Saral Sanchar portal filings, RF testing, technical documentation, and post‑compliance coordination.",
+        "DoStartup™ assists manufacturers and importers with WPC licenses for Bluetooth, Wi‑Fi, and other wireless devices—handling Saral Sanchar portal filings, RF testing, technical documentation, and post‑compliance coordination.",
         "With regional offices in New Delhi, Mumbai, Chennai, Kolkata, and Guwahati, the WPC Wing manages spectrum allocation, frequency testing, and certification for legal marketing of wireless products in India.",
       ],
     },
@@ -4525,7 +4525,7 @@ export const pageContent: Record<string, PageContentType> = {
       {
         title: "Regulatory Expertise",
         description:
-          "Corpbiz™ coordinates with designated Indian representatives for foreign applicants.",
+          "DoStartup™ coordinates with designated Indian representatives for foreign applicants.",
       },
     ],
 
@@ -4667,7 +4667,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "PESO Certification is mandatory in India for businesses handling hazardous materials—explosives, compressed gases, petroleum, and flammable substances—under the Explosives Act (1884) and Petroleum Act (1934).",
         "The Petroleum and Explosives Safety Organization (PESO) Wing issues licenses and Equipment Type Approval (ETA) to ensure safety standards for equipment, storage, and processes in industries like oil & gas, manufacturing, logistics, and more.",
-        "Corpbiz™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity.",
+        "DoStartup™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity.",
       ],
     },
 
@@ -4867,7 +4867,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "The Telecommunication Engineering Centre (TEC) under the Department of Telecommunications (DoT) mandates certification for telecom equipment before sale, import, or usage in India.",
         "TEC certification ensures compliance with national safety and quality standards. The process includes Mandatory Testing and Certification of Telecom Equipment (MTCTE) and CSC certification schemes.",
-        "Corpbiz™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management.",
+        "DoStartup™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management.",
       ],
     },
 
@@ -17035,7 +17035,12 @@ export const pageContent: Record<string, PageContentType> = {
         "CTO: Processing time ~45 days, fees depend on pollution load and size"
       ]
     }
-  }
+  },
+
+
+
+  
+  
   
   
 

@@ -128,22 +128,22 @@ const Header = () => {
             },
             {
               name: "Carbon Black Manufacturing",
-              href: "/startup/carbon-black",//not there
+              href: "/carbon-black-manufacturing-business",
             },
-            { name: "Green Hydrogen Plant", href: "/startup/green-hydrogen" },// not there
-            { name: "Green Ammonia Plant", href: "/startup/green-ammonia" },// not there
+            { name: "Green Hydrogen Plant", href: "/green-hydrogen-plant-setup" },
+            { name: "Green Ammonia Plant", href: "/green-ammonia" },
             {
               name: "Synthetic Rubber Business",
-              href: "/startup/synthetic-rubber",// not there
+              href: "/synthetic-rubber-manufacturing-business-complete-guide",
             },
             {
               name: "Paper and Paperboard Packaging Industry",
-              href: "/startup/paper-packaging",// not there
+              href: "/paper-paperboard-packaging-industry-setup-guide",
             },
             { name: "Fermentation Industry", href: "/fermentation-industry-setup" },
             {
-              name: "Renewable Energy Business", // not there
-              href: "/renewable-energy",
+              name: "Renewable Energy Business", 
+              href: "/start-your-renewable-energy-business-india",
             },
             {
               name: "Conversion of Pvt. Ltd. to Public Limited",
@@ -166,7 +166,6 @@ const Header = () => {
               name: "Annual Compliance of a Pvt. Ltd. Company",
               href: "/compliances-private-limited-company",
             },
-            { name: "Annual Filing for LLP", href: "/startup/llp-filing" }, //not there
             {
               name: "Event Based Compliances in a Company",
               href: "/event-based-compliances",
@@ -1332,7 +1331,7 @@ const Header = () => {
             },
             {
               name: "Carbon Credit Accounting",
-              href: "/hydrogeological-survey-report",
+              href: "/carbon-credit-accounting",
             },
             {
               name: "LEED Zero Carbon Certification",
