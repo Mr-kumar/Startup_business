@@ -235,6 +235,612 @@ export type PageContentType = {
 
 
 export const pageContent: Record<string, PageContentType> = {
+  "trademark-search-in-india": {
+    title: "Trademark Search in India",
+    description: "Protect Your Brand Before You Launch: Fast, Reliable Trademark Search Powered by AI",
+    overview: [
+      {
+        heading: "Protect Your Brand Before You Launch",
+        content:
+          "Worried that your brand name or logo might already be taken? At DoStartup.in, our AI-driven trademark search platform helps you quickly check the availability of your desired trademark. Benefit from our free search on up to 50 names and make your mark with confidence.",
+      },
+      {
+        heading: "Instant Online Trademark Search – How It Works",
+        content:
+          "Simply enter your desired name, logo, or slogan. Our system compares it across the Indian Trademark Registry and major international databases for similar or conflicting marks. In minutes, you’ll receive a report covering: Name & brand availability; Trademark class check (goods/services); Phonetic and visual similarity analysis; Existing applications & registration history; Recommendations for registration success.",
+      },
+      {
+        heading: "Purpose of Trademark Search",
+        content:
+          "Analyze your brand name, logo, or slogan for uniqueness; Compare against existing Indian and global trademarks; Avoid potential conflicts before filing a trademark registration; Identify your correct trademark class (as per NICE Classification); Maximize chances of a successful application and future protection.",
+      },
+    ],
+    benefits: [
+      {
+        heading: "Reduce Application Rejection",
+        content:
+          "Avoid wasting time and money by steering clear of already registered or conflicting trademarks.",
+      },
+      {
+        heading: "Prevent Infringement",
+        content:
+          "Early identification of similar marks helps you avoid legal disputes and future opposition.",
+      },
+      {
+        heading: "Build Trust",
+        content:
+          "Instill confidence in customers and investors by securing a unique, protected brand identity.",
+      },
+      {
+        heading: "Support Global Growth",
+        content:
+          "Check for international availability to facilitate smooth expansion and protection abroad.",
+      },
+      {
+        heading: "Protect Your IP",
+        content:
+          "Maintain exclusive rights and prevent copycats from using your brand elements.",
+      },
+      {
+        heading: "Boost Brand Value",
+        content:
+          "A clear, registrable trademark strengthens your long-term business position.",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Conduct an Online Trademark Search in India",
+        content:
+          "1) Identify Your Brand Element (name/logo/tagline).\n2) Select Relevant Trademark Class (NICE Classification).\n3) Enter Details in Our Search Tool on DoStartup.in.\n4) Get Your AI-Backed Report with conflicts and guidance.\n5) Proceed to Registration with our experts if clear.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why DoStartup.in for Trademark Search in India?",
+        points: [
+          "AI-Powered Search with rapid, comprehensive results",
+          "Expert Review by legal professionals",
+          "Multi-Class Search across 45 classes",
+          "International Coverage for global plans",
+          "End-to-End IP Services from search to enforcement",
+          "24/7 Support and consultations",
+        ],
+      },
+    ],
+    who: [
+      {
+        heading: "When Should You Perform a Trademark Search?",
+        points: [
+          "Before launching a new business, product, or service",
+          "Prior to investing in domain names or social media handles",
+          "Before rebranding, merging, or acquiring another business",
+          "When expanding into new markets or classes",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Why is it important to do a trademark search?",
+        answer:
+          "It helps prevent legal disputes, reduces rejection risk, and ensures your brand name/logo is unique.",
+      },
+      {
+        question: "How do I select a trademark?",
+        answer:
+          "Choose a distinctive, non-generic mark that is not confusingly similar to an existing trademark in your class.",
+      },
+      {
+        question: "Is it mandatory to hire a lawyer for a trademark search?",
+        answer:
+          "No, but professional expertise ensures a more thorough and accurate search, minimizing risks.",
+      },
+      {
+        question: "What if my trademark is already filed or registered?",
+        answer:
+          "You may need to choose a new name/brand or sufficiently modify your mark to avoid confusion.",
+      },
+      {
+        question: "How do I choose the correct class for my trademark?",
+        answer:
+          "Refer to the NICE Classification or consult our experts; correct class selection is vital for protection.",
+      },
+      {
+        question: "What is a preliminary trademark search?",
+        answer:
+          "An initial scan to check for obvious conflicts before conducting a full, comprehensive search.",
+      },
+      {
+        question: "Do I need to know the trademark class for a search?",
+        answer:
+          "Not mandatory, but it improves accuracy. Our tool can assist in identifying the best class.",
+      },
+      {
+        question: "What is the NICE Classification?",
+        answer:
+          "A standardized system of 45 classes covering goods and services for trademark registration.",
+      },
+      {
+        question: "What is a comprehensive trademark search?",
+        answer:
+          "An in-depth analysis covering phonetic, visual, and conceptual similarities across relevant classes and jurisdictions.",
+      },
+      {
+        question: "How are trademark symbols used in India?",
+        answer: "™ is used for unregistered marks; ® for trademarks that are officially registered.",
+      },
+      {
+        question: "What happens if my trademark is already taken?",
+        answer:
+          "You may need to rebrand or alter your application to avoid conflict and potential legal challenges.",
+      },
+      {
+        question: "What are the consequences of not doing a trademark search?",
+        answer:
+          "You risk legal notices, brand confusion, lost investments, and possibly having to rebrand after launch.",
+      },
+      {
+        question: "How soon should I do a trademark search?",
+        answer:
+          "Ideally before finalizing your brand name, logo, or product line—early checks save time and money.",
+      },
+      {
+        question: "Can DoStartup.in help with trademark registration after the search?",
+        answer:
+          "Yes. We offer full IP services: registration, objection handling, renewal, and enforcement support.",
+      },
+    ],
+    },
+  "brand-name-registration-in-india": {
+    title: "Brand Name Registration in India",
+    description: "Secure Your Brand. Build Your Legacy. Register Your Brand Name with DoStartup.in",
+    overview: [
+      {
+        heading: "Protect Your Identity. Strengthen Your Business.",
+        content:
+          "Worried about imitators stealing your brand identity? Protect your business name, logo, and reputation with DoStartup.in’s expert brand name registration service. Over 20,000+ brands trust us for safe, hassle-free registration across India’s business landscape.",
+      },
+      {
+        heading: "Why Register Your Brand Name?",
+        content:
+          "A brand name is more than just a word—it’s your identity, credibility, and the first impression your customers see. Official brand name registration protects your business from copycats, strengthens your legal position, and gives you exclusive rights across India.",
+      },
+      {
+        heading: "What is Brand Name Registration?",
+        content:
+          "Brand name registration is the process of legally securing your business name, logo, slogan, or symbol under the Indian Trade Marks Act, 1999. Once registered, you get exclusive rights to use, market, and defend your brand identity in India for 10 years (renewable indefinitely).",
+      },
+    ],
+    benefits: [
+      { heading: "Legal Protection", content: "Prevents unauthorized use or infringement of your name." },
+      { heading: "Business Credibility", content: "Builds trust and value among customers and investors." },
+      { heading: "Unique Identity", content: "Differentiates your products/services from competitors." },
+      { heading: "Asset Creation", content: "Turns your brand into an IP asset—can be licensed, sold, or franchised." },
+      { heading: "National & International Expansion", content: "Enables easier registration in other countries." },
+      { heading: "Long-term Value", content: "Enhances goodwill, valuation, and growth prospects." },
+    ],
+    Guidelines: [
+      {
+        category: "Conditions for an Effective Brand Name",
+        documents: [
+          "Unique and easily distinguishable",
+          "Not descriptive or generic",
+          "Not similar to existing trademarks",
+          "Memorable, adaptable, and legally protectable",
+        ],
+      },
+    ],
+    services: [
+      {
+        category: "Features of Brand Name Registration",
+        documents: [
+          "Covers all business types: Individuals, Startups, Companies, MSMEs, Trusts, NGOs, LLPs, etc.",
+          "Protects all types of marks: Name, logo, slogan, color, label, numerals, shape, and more.",
+          "Multi-class registration to protect your brand in multiple industries",
+          "Government recognition: use of ® after registration",
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Brand Name Registration",
+        content:
+          "- Applicant’s PAN Card\n- Aadhaar Card\n- Company Incorporation Certificate (if applicable)\n- GST Certificate (if applicable)\n- MSME Certificate (if applicable)\n- Logo/Brand Artwork (if any)\n- Power of Attorney (if filed by an agent)",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "How to Register a Brand Name in India: Step-by-Step",
+        content:
+          "1) Select a Unique Brand Name: Brainstorm a catchy, original name aligned to your offerings; choose the correct class (1–34 goods, 35–45 services).\n" +
+          "2) Trademark Search: Check Registry records; we provide in-depth search and legal opinion to avoid rejection.\n" +
+          "3) Prepare & File Application: File Form TM-A with documents; include multiple classes if needed.\n" +
+          "4) Government Examination: Registrar reviews; respond to any objections/requirements.\n" +
+          "5) Journal Publication: If accepted, mark is advertised for opposition (90–120 days).\n" +
+          "6) Opposition (if any): We manage responses, evidence, and hearings.\n" +
+          "7) Registration Certificate: On success, certificate issued; you may use the ® symbol.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Timeline",
+        description: "Typical end-to-end registration time depends on objections/opposition.",
+        steps: [
+          { title: "Examination", duration: "1–3 months", description: "Compliance and conflict checks" },
+          { title: "Journal Publication", duration: "3–4 months", description: "Public opposition window" },
+          { title: "Opposition (if any)", duration: "Varies", description: "Counter-statement, evidence, hearing" },
+          { title: "Registration & Certificate", duration: "After clearance", description: "Exclusive rights granted" },
+        ],
+        totalTime: "Usually 6–12 months",
+      },
+    ],
+    Validity: [
+      {
+        category: "Validity & Renewal",
+        documents: ["Valid for 10 years from registration", "Renewable indefinitely in 10-year blocks"],
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Choose DoStartup.in for Brand Name Registration?",
+        description: [
+          "Transparent, competitive fees with no hidden charges",
+          "End-to-end service: from name search to final certificate",
+        ],
+        points: [
+          "10+ Years of IPR Experience",
+          "400+ In-House Legal & IP Experts",
+          "99% Approval Rate for Trademark Applications",
+          "Network in 10,000+ Pin Codes Across India",
+          "24/7 Support – Online, Phone & WhatsApp",
+          "1 Lakh+ Happy Clients",
+          "Rated 4.9/5 by 40,000+ Clients on Google & Trustpilot",
+        ],
+      },
+    ],
+    who: [
+      {
+        heading: "Who Can Register?",
+        points: ["Individuals", "Startups", "Companies", "MSMEs", "Trusts & NGOs", "LLPs and other entities"],
+      },
+    ],
+    Listicles: [
+      {
+        category: "Types of Brand Registration Symbols",
+        documents: [
+          "™ (Trademark): Application filed and pending",
+          "® (Registered): Legal protection granted after registration",
+          "SM (Service Mark): Used for services before registration",
+          "© (Copyright): For creative works (not a brand name/trademark)",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is a brand name registration?",
+        answer:
+          "It’s the legal process of protecting your business name or logo under the Trade Marks Act, 1999, giving you exclusive usage rights.",
+      },
+      {
+        question: "Why is brand name registration important?",
+        answer:
+          "It prevents others from using or registering a similar name, builds trust, and creates a valuable business asset.",
+      },
+      {
+        question: "What is the difference between a business name and a brand name?",
+        answer:
+          "A business name is your company’s legal identity; a brand name is how your products/services are known in the market.",
+      },
+      { question: "Can an individual register a brand name?", answer: "Yes. Any person or entity can register in India." },
+      { question: "How long is my brand name registration valid?", answer: "10 years, renewable indefinitely." },
+      { question: "What’s the difference between ™, ®, and ©?", answer: "™/SM = pending, ® = registered, © = copyright." },
+      { question: "Do I need to search before applying?", answer: "Yes. A comprehensive search reduces rejection risk." },
+      {
+        question: "What happens if someone opposes my application?",
+        answer: "You can file a counter-statement and proceed with evidence and hearings.",
+      },
+      { question: "Is the process the same for a logo or slogan?", answer: "Yes. Logos, slogans, shapes can be filed." },
+      {
+        question: "Can I use my brand name internationally after Indian registration?",
+        answer: "Yes. Your Indian mark supports filings abroad, but you must apply in each country.",
+      },
+      {
+        question: "How long does it take to register a brand name?",
+        answer: "Usually 6–12 months depending on objections and workload.",
+      },
+      {
+        question: "What happens if I don’t renew my brand registration?",
+        answer: "Your exclusive rights lapse and others may claim the name.",
+      },
+      {
+        question: "Why trust DoStartup.in for brand name registration?",
+        answer: "We offer fast, transparent, and legally sound services with expert guidance at every step.",
+      },
+    ],
+  },
+  "logo-registration-in-india": {
+  title: "Logo Registration in India",
+  description: "Secure Your Business Identity. Register Your Logo with DoStartup.in",
+  overview: [
+    {
+      heading: "Why Logo Registration Matters",
+      content:
+        "Your logo isn’t just a picture—it’s your business’s visual signature. In a crowded marketplace, logo registration under the Trade Marks Act, 1999 ensures you have exclusive rights to use and defend your logo nationwide.",
+    },
+    {
+      heading: "What is Logo Registration?",
+      content:
+        "Logo registration is the process of legally protecting your brand’s symbol, design, or artwork as a trademark under Indian law. It gives you exclusive rights to use the logo for your business and to act against unauthorized use.",
+    },
+  ],
+  benefits: [
+    { heading: "Exclusive Rights", content: "Prevents others from using, imitating, or profiting from your brand image." },
+    { heading: "Legal Security", content: "Enables immediate legal recourse in case of misuse or infringement." },
+    { heading: "Boosted Brand Value", content: "Adds credibility and market value to your products or services." },
+    { heading: "Customer Trust", content: "Helps customers instantly recognize your genuine offerings." },
+    { heading: "Nationwide & Global Expansion", content: "Paves the way for protection in other countries." },
+    { heading: "Asset Creation", content: "A registered logo becomes a valuable, transferable business asset." },
+  ],
+  services: [
+    {
+      category: "Why Choose DoStartup.in for Logo Registration?",
+      documents: [
+        "Consult 1:1 with Logo Registration Experts",
+        "Logo application drafting & filing by 500+ IP professionals",
+        "Quick logo availability search",
+        "Swift handling of objections or queries",
+        "Over 1,20,000 logos registered since 2018",
+        "4.9/5 Google & Trustpilot rated",
+        "43,000+ happy clients | 3,500+ advisors | 50+ offices across India",
+        "Transparent fees – no hidden charges",
+        "24/7 support via phone, WhatsApp, and email",
+      ],
+    },
+  ],
+  who: [
+    {
+      heading: "Who Can Register a Logo in India?",
+      points: [
+        "Startups and Entrepreneurs",
+        "Private Limited Companies & LLPs",
+        "Individuals & Sole Proprietors",
+        "Partnerships & Joint Owners",
+        "NGOs, Trusts, and Societies",
+        "Indian & International Applicants",
+      ],
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for Logo Registration",
+      content:
+        "- Applicant’s Name & Address\n- Business Registration Certificate (if any)\n- PAN & Aadhaar Card\n- Trademark logo in JPEG/PNG format\n- List of products/services (trademark class)\n- Power of Attorney (if applicable)\n- Email ID & Mobile Number",
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "Logo Registration Process in India: Step-by-Step",
+      content:
+        "1) Trademark Search: Ensure your logo is unique and conflict-free.\n" +
+        "2) Drafting & Filing: Prepare and file Form TM-A (or TM-1) with required documents.\n" +
+        "3) Examination by Registrar: Respond to clarifications/objections if any.\n" +
+        "4) Journal Publication: Approved marks are published for 90 days for public opposition.\n" +
+        "5) Objections/Opposition Handling: Submit counter-statements, evidence, and attend hearings if needed.\n" +
+        "6) Registration & Certification: Receive the certificate and use the ® symbol with your logo.",
+    },
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline",
+      description: "Your trademark rights commence from the filing date.",
+      steps: [
+        { title: "Examination", duration: "1–3 months", description: "Compliance & conflict checks" },
+        { title: "Journal Publication", duration: "90 days", description: "Public opposition window" },
+        { title: "Opposition (if any)", duration: "Varies", description: "Counter-statement, evidence, hearing" },
+        { title: "Registration & Certificate", duration: "Post-clearance", description: "Exclusive rights granted" },
+      ],
+      totalTime: "Usually 8–12 months",
+    },
+  ],
+  Validity: [
+    {
+      category: "Validity & Renewal",
+      documents: [
+        "Valid for 10 years from the date of application",
+        "Renewable indefinitely every 10 years",
+      ],
+    },
+  ],
+  Regulations: [
+    {
+      category: "Key Rules & Regulations",
+      documents: [
+        "The Trade Marks Act, 1999",
+        "The Trade Marks Rules, 2017",
+        "International protection via the Madrid Protocol (for global filings)",
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "What can be registered as a logo in India?",
+      answer:
+        "Any distinctive word, symbol, design, color combination, or artwork used to identify your business or products.",
+    },
+    { question: "Can I register a logo as an individual?", answer: "Yes. Individuals and entities can register a logo." },
+    {
+      question: "Is it compulsory to register a logo in India?",
+      answer: "Not mandatory, but only registered logos enjoy legal protection and exclusive rights.",
+    },
+    { question: "How long is a logo registration valid?", answer: "10 years, renewable indefinitely." },
+    {
+      question: "Can a foreign entity register a logo in India?",
+      answer: "Yes, with proper documentation and a local address for service in India.",
+    },
+    { question: "Can I transfer a registered logo to another party?", answer: "Yes. Logos can be assigned or licensed." },
+    {
+      question: "What happens if my logo registration lapses?",
+      answer: "There is a grace period to renew; if not renewed, rights lapse and others may claim similar marks.",
+    },
+    {
+      question: "Is it possible to register my logo in multiple classes?",
+      answer: "Yes, file for multiple classes based on your goods/services.",
+    },
+    {
+      question: "Can my logo application be amended after filing?",
+      answer: "Minor changes may be allowed; major changes require a new application.",
+    },
+    {
+      question: "What if someone objects to my logo registration?",
+      answer: "You can file a counter-statement and be represented during hearings.",
+    },
+    {
+      question: "Is logo registration mandatory for using the ® symbol?",
+      answer: "Yes. You can use ® only after registration is granted.",
+    },
+    {
+      question: "Is my logo protected internationally after Indian registration?",
+      answer:
+        "No. You must apply in each country; however, Indian registration helps in international filings (Madrid Protocol).",
+    },
+  ],
+  },
+  "special-leave-petition-supreme-court": {
+    title: "Special Leave Petition (SLP) – File in Supreme Court of India",
+    description: "Expert Assistance for Filing SLP in India",
+    overview: [
+      {
+        heading: "Expert Assistance for Filing SLP in India",
+        content:
+          "Facing injustice or a substantial legal question after a High Court or Tribunal order? The Special Leave Petition (SLP) is your gateway to seek justice from the Supreme Court. Our seasoned experts offer strategic guidance for filing SLPs with accuracy, confidentiality, and speed. 10+ Years Experience | 400+ Legal Experts | 99% On-Time Delivery | Network Across 10,000+ Pincodes | 1,00,000+ Happy Clients.",
+      },
+      {
+        heading: "What is a Special Leave Petition (SLP)?",
+        content:
+          "An SLP is a constitutional remedy enabling an aggrieved party to approach the Supreme Court against any judgment, order, or decree of a High Court or Tribunal. Under Article 136, the Supreme Court may intervene for grave miscarriage of justice or substantial questions of law. SLPs are extraordinary remedies available in both civil and criminal matters.",
+      },
+      {
+        heading: "What Makes SLP “Special”?",
+        content:
+          "Flexible & broad jurisdiction (except military courts/tribunals); Available for civil and criminal matters; Covers interim and final orders; Admission is at the Supreme Court’s discretion based on merits and seriousness.",
+      },
+    ],
+    whyUs: [
+      {
+        heading: "Why Trust DoStartup.in for Special Leave Petition?",
+        points: [
+          "Comprehensive consultation by Supreme Court advocates",
+          "End-to-end drafting, filing & case management",
+          "Fast turnaround and timely updates",
+          "Detailed analysis of grounds for SLP",
+          "Support for interim relief, stay orders, or appeals",
+          "Confidential, ethical, and transparent process",
+          "50+ offices nationwide | 3,500+ advisors | 5-star rated service",
+        ],
+      },
+    ],
+    who: [
+      {
+        heading: "When Can You File a Special Leave Petition?",
+        points: [
+          "Substantial question of law or grave injustice in a High Court/Tribunal order",
+          "High Court refused certificate of fitness for appeal to Supreme Court",
+          "Order challenged is judicial (not administrative/executive) by a recognized Indian court/tribunal (except armed forces)",
+          "Within limitation: 90 days from order, or 60 days if certificate of fitness is refused",
+        ],
+      },
+      {
+        heading: "Common Circumstances for Filing SLP",
+        points: [
+          "After exhausting ordinary appeals/remedies",
+          "Against interim, interlocutory, or final judgments in civil/criminal matters",
+          "When ‘leave to appeal’ is refused by the High Court",
+        ],
+      },
+    ],
+    Guidelines: [
+      {
+        category: "Key Rules for SLP in India",
+        documents: [
+          "Filed in prescribed format (Supreme Court Form No. 28)",
+          "All material facts, grounds, and questions of law must be clearly stated",
+          "Must be signed by an Advocate-on-Record (AOR)",
+          "Filed with necessary documents, annexures, and fees",
+          "Attach copies of impugned order, lower court judgments, and relevant records",
+          "Admission is discretionary—SLP is not a right of appeal",
+        ],
+      },
+    ],
+    Regulations: [
+      {
+        category: "Powers of the Supreme Court under Article 136",
+        documents: [
+          "Grant special leave to appeal against any judgment, decree, or order (except military courts/tribunals)",
+          "Correct grave miscarriages of justice or interpret complex constitutional questions",
+          "Exercise residual appellate power as a safety net against injustice",
+        ],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required for Filing an SLP",
+        content:
+          "- Prescribed SLP format with statement of facts & grounds\n- Certified copies of judgments/orders challenged\n- List of dates/events\n- Affidavit & Vakalatnama (AOR)\n- All relevant annexures and records\n- Prescribed court fees & sets/copies as per rules",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-Step Procedure for Filing an SLP",
+        content:
+          "1) Case Assessment & Consultation: Analyze facts, merits, and grounds for SLP.\n" +
+          "2) Drafting the SLP: Prepare detailed petition with facts, questions of law, and prayer.\n" +
+          "3) Document Compilation: Collate annexures, affidavits, certified copies.\n" +
+          "4) Filing in Supreme Court: File with statutory fees and required sets.\n" +
+          "5) Supreme Court Review: Court considers admission (grant of leave).\n" +
+          "6) Hearing & Final Judgment: If admitted, heard as regular appeal and decided on merits.",
+      },
+    ],
+    registrationTimeline: [
+      {
+        heading: "Indicative Timeline",
+        description: "Timelines vary by case complexity and court schedule.",
+        steps: [
+          { title: "Consultation & Drafting", duration: "1–2 weeks", description: "Strategy and petition preparation" },
+          { title: "Filing & Listing", duration: "Varies", description: "Registry scrutiny and listing before Court" },
+          { title: "Admission Stage", duration: "Varies", description: "Grant or refusal of leave" },
+          { title: "Final Hearing (if admitted)", duration: "Varies", description: "Appeal heard and judgment delivered" },
+        ],
+        totalTime: "Varies case-to-case",
+      },
+    ],
+    services: [
+      {
+        category: "Our SLP Support Includes",
+        documents: [
+          "Supreme Court advocate consultation",
+          "Grounds framing & strategy",
+          "AOR-backed drafting & filing",
+          "Affidavits, annexures, and compliance",
+          "Interim relief/stay applications",
+          "Hearing preparation & representation",
+          "End-to-end case management",
+        ],
+      },
+    ],
+    faq: [
+      { question: "What is a Special Leave Petition (SLP)?", answer: "A constitutional remedy seeking special permission to appeal to the Supreme Court against judgments/orders of lower courts or tribunals." },
+      { question: "Who can file an SLP in India?", answer: "Any aggrieved party against a High Court or Tribunal judgment/order (excluding military courts) may file an SLP." },
+      { question: "What is the limitation period for filing SLP?", answer: "90 days from the impugned order, or 60 days if the High Court refused certificate of fitness for appeal." },
+      { question: "Can SLP be filed in both civil and criminal cases?", answer: "Yes. SLPs are available in both civil and criminal matters." },
+      { question: "Is an Advocate-on-Record (AOR) mandatory?", answer: "Yes. An AOR must sign and file the SLP in the Supreme Court." },
+      { question: "Can an SLP be withdrawn after filing?", answer: "Yes, it can be withdrawn before admission/hearing." },
+      { question: "Can a review be filed if SLP is dismissed?", answer: "Only in exceptional circumstances within a limited timeframe; review is discretionary." },
+      { question: "What grounds are required for SLP admission?", answer: "Substantial question of law, gross injustice, or manifest error in the impugned order." },
+      { question: "Are SLPs admitted as a matter of right?", answer: "No. Admission is at the Supreme Court’s discretion." },
+      { question: "Can SLP challenge interim orders?", answer: "Yes. Both interim and final orders can be challenged." },
+      { question: "What documents are required for filing an SLP?", answer: "SLP format, certified copies of orders, statement of facts, list of dates, affidavit, Vakalatnama, annexures, and fees." },
+      { question: "What happens after SLP is admitted?", answer: "It becomes a regular appeal, heard on merits, leading to a binding judgment." },
+    ],
+  },
   "eating-house-license": {
     title: "Eating House License Registration",
     description:
@@ -39319,6 +39925,1086 @@ Do Startup Assistance Process:
       },
     ],
   },
+  "wpc-import-license": {
+  title: "WPC Import License - An Overview",
+  description: "Importing wireless devices into India? Get your WPC import license fast with DoStartUp.",
+  overview: [
+    {
+      heading: "What Is WPC and Why It Matters",
+      content:
+        "The Wireless Planning & Coordination (WPC) Wing under the Department of Telecommunications regulates all wireless equipment in India—issuing licenses, managing spectrum, and enforcing proper use. Without a WPC license, imported wireless devices risk confiscation at customs.",
+    },
+    {
+      heading: "What is a WPC License for Import?",
+      content:
+        "A WPC import license is a government authorization allowing legal import of wireless devices into India, ensuring compliance with Indian frequency regulations and device safety for consumers.",
+    },
+    {
+      heading: "Process Snapshot",
+      content:
+        "The licensing process includes a WPC import application, ETA (if applicable), technical evaluation, RF testing, document verification, and final approval.",
+    },
+  ],
+  benefits: [
+    { heading: "Simplifies Customs Clearance", content: "Proves spectrum compliance and avoids customs delays." },
+    { heading: "Enhances National Security", content: "Devices are vetted for safety standards and non-interference." },
+    { heading: "Ensures Quality Imports", content: "Certified devices meet performance and durability expectations." },
+    { heading: "Builds Customer Trust", content: "Government approval assures customers of product legitimacy." },
+    { heading: "Reduces Signal Interference", content: "Certified devices operate in authorized bands." },
+    { heading: "Promotes Business Growth", content: "Adds brand credibility and enables access to larger markets." },
+  ],
+  who: [
+    {
+      heading: "Who Is Eligible?",
+      points: [
+        "Domestic manufacturers (can apply directly without an AIR)",
+        "Foreign manufacturers (must appoint an Authorized Indian Representative)",
+        "Importers of wireless devices (must secure WPC approval before import)",
+      ],
+    },
+  ],
+  Listicles: [
+    {
+      category: "Products That Require a WPC Import License",
+      documents: [
+        "Bluetooth devices, Wi‑Fi routers",
+        "Wireless terminals, transmitters, repeaters",
+        "Smart speakers, watches, TVs, bulbs",
+        "Wireless cameras, microphones, barcode scanners",
+        "Hotspot devices, POS terminals, nano USBs",
+        "Walkie‑talkies, RFID readers, wireless receivers, drones",
+      ],
+    },
+    {
+      category: "WPC Regional Licensing Offices",
+      documents: ["Delhi", "Mumbai", "Chennai", "Kolkata", "Guwahati"],
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for WPC Import License",
+      content:
+        "- Certificate of Incorporation\n- Copy of ETA Approval (if applicable)\n- Product Technical Details\n- GST Registration Certificate\n- Purchase Order for Equipment\n- Radio Frequency Test Report\n- Address Proof of Applicant\n- Letter authorizing the AIR (if applicable)\n- Online application fee receipt\n- Specifications of the wireless product",
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "How to Apply for a WPC Import License",
+      content:
+        "1) Application Submission: Register and apply via the Saral Sanchar portal.\n" +
+        "2) ETA Filing: Submit Equipment Type Approval (if required).\n" +
+        "3) RF Test Report: Provide accredited lab report showing spectrum compliance.\n" +
+        "4) Document Submission: Upload all required documents for verification.\n" +
+        "5) Government Fee Payment: Complete the payment process.\n" +
+        "6) WPC Approval: Upon verification, WPC issues the import license.",
+    },
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline",
+      description: "Typical end‑to‑end duration depends on accuracy and authority workload.",
+      steps: [
+        { title: "Portal Registration & Filing", duration: "1–3 days", description: "Account setup, form completion" },
+        { title: "ETA & RF Testing (if applicable)", duration: "5–10 days", description: "Lab report and ETA processing" },
+        { title: "Document Scrutiny", duration: "3–5 days", description: "Verification by WPC" },
+        { title: "Final Approval", duration: "1–3 days", description: "License issuance" },
+      ],
+      totalTime: "Usually 2–3 weeks",
+    },
+  ],
+  feesStructure: [
+    {
+      heading: "Fee Structure",
+      description: "Indicative cost—professional fee varies by scope and category.",
+      feeTable: [
+        { category: "Government Fee", amount: "₹10,000" },
+        { category: "Professional Fee (from)", amount: "₹7,000+" },
+        { category: "Estimated Total", amount: "₹17,000+" },
+      ],
+    },
+  ],
+  Validity: [
+    {
+      category: "Validity",
+      documents: ["Lifetime (no renewal needed)"],
+    },
+  ],
+  Categories: [
+    {
+      category: "Types of WPC Certifications in India",
+      documents: [
+        "Importer’s License: Permits importing and selling wireless equipment",
+        "ETA (Equipment Type Approval): Required for de‑licensed band devices (e.g., Wi‑Fi, Bluetooth)",
+        "Network License: For telecom providers offering wireless network services",
+      ],
+    },
+  ],
+  Guidelines: [
+    {
+      category: "Functions of the WPC Wing",
+      documents: [
+        "Frequency spectrum management",
+        "Granting product approvals",
+        "Allocating radio frequencies",
+        "Monitoring frequency usage",
+        "Enforcement on behalf of the Central Government",
+      ],
+    },
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose DoStartUp for WPC Import License",
+      points: [
+        "10+ Years of Industry Experience",
+        "99.9% Client Satisfaction Rate",
+        "75% Market Share in Telecom Licensing",
+        "Comprehensive Legal & Financial Compliance",
+        "100% Error‑Free Documentation Process",
+        "24/7 End‑to‑End Customer Support",
+        "Tailored Licensing Solutions",
+        "Up to 40% Reduction in Compliance Burden",
+        "Strong Liaison with Regulatory Authorities",
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "What is a WPC import license?",
+      answer:
+        "A government‑issued permit allowing individuals or businesses to import wireless devices into India legally.",
+    },
+    {
+      question: "How do I get WPC approval?",
+      answer:
+        "Apply on the Saral Sanchar portal, obtain ETA (if needed), and upload required RF test reports and documents.",
+    },
+    {
+      question: "Why is a WPC license required?",
+      answer:
+        "It ensures devices meet India’s frequency and safety standards, preventing interference and illegal usage.",
+    },
+    {
+      question: "What is the timeline to get a WPC import license?",
+      answer: "Typically 2–3 weeks, depending on document accuracy and regulatory workload.",
+    },
+    {
+      question: "How to track the WPC license application status?",
+      answer: "Track status on the Saral Sanchar portal from your applicant login.",
+    },
+    {
+      question: "What is a WPC RF Test Report?",
+      answer: "A lab‑issued report confirming the device operates within assigned frequency ranges.",
+    },
+    { question: "Is WPC registration mandatory?", answer: "Yes. It is legally mandatory for all wireless imports." },
+    {
+      question: "Which products commonly need a WPC license?",
+      answer: "Bluetooth, Wi‑Fi, RFID, smart home devices, wireless microphones, and similar RF products.",
+    },
+    {
+      question: "What documents are required for a WPC license?",
+      answer:
+        "ETA certificate, incorporation certificate, RF test report, GST, product specifications, and fee receipt.",
+    },
+    {
+      question: "Who issues the WPC license?",
+      answer: "The WPC Wing under the Department of Telecommunications, Government of India.",
+    },
+  ],
+  },
+  "iplc-license": {
+  title: "Get IPLC License Effortlessly with DoStartUp",
+  description: "End-to-end consulting for IPLC License in India: documentation, compliance, application guidance, and regulatory updates.",
+  overview: [
+    {
+      heading: "Why Choose IPLC Services?",
+      content:
+        "IPLCs offer secure, private communication lines with lower latency and enhanced data protection. For global operations, a dedicated channel like IPLC is essential for safe and uninterrupted data exchange.",
+    },
+    {
+      heading: "What is an IPLC License?",
+      content:
+        "An IPLC License is required to provide International Private Leased Circuits between India and other countries. It permits resale/provision of private international communication channels—typically via ILD operators—ensuring secure, compliant cross‑border connectivity.",
+    },
+    {
+      heading: "Need for IPLC License",
+      content:
+        "With the rise in IPLC-based communication, the government mandates legal monitoring mechanisms. The license ensures secure, accountable communication and enables lawful access to recorded/processed data for security reasons.",
+    },
+    {
+      heading: "Scope of IPLC License",
+      content:
+        "License enables interception/monitoring of voice/data on IPLCs; licensed entities may engage with ILD/NLD providers for bandwidth and support ISP gateway operations within the regulatory framework.",
+    },
+  ],
+  benefits: [
+    { heading: "Secure & Private Connectivity", content: "Dedicated lines for protected international data exchange." },
+    { heading: "Lower Latency", content: "Optimized routes for faster, reliable cross-border communication." },
+    { heading: "Enhanced Data Protection", content: "Stronger safeguards vs public internet pathways." },
+    { heading: "Regulatory Compliance", content: "Meets lawful interception and monitoring obligations." },
+    { heading: "Business Continuity", content: "Stable, uncontended links for mission‑critical traffic." },
+  ],
+  services: [
+    {
+      category: "IPLC License Consultant Services in India",
+      documents: [
+        "Documentation Assistance: Guided preparation for IPLC/Resale of IPLC License",
+        "Access to Experts: End‑to‑end assistance on DoT/technical/regulatory norms",
+        "Tailored Solutions: Compliance‑first plans aligned to business structure and goals",
+      ],
+    },
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose DoStartUp?",
+      points: [
+        "800+ experienced licensing professionals",
+        "50,000+ network of lawyers, CAs, and experts",
+        "Partnered with 40,000+ auditing and legal firms",
+        "AI‑powered platform for seamless service",
+        "30,000+ businesses successfully assisted",
+        "99.8% efficiency and high client satisfaction",
+      ],
+    },
+  ],
+  Listicles: [
+    {
+      category: "A Licensed Provider May",
+      documents: [
+        "Offer IPLC services to subscribers",
+        "Sell bandwidth (except to other IPLC resellers)",
+        "Build infrastructure for billing and bandwidth management",
+      ],
+    },
+  ],
+  Categories: [
+    {
+      category: "Resale of IPLC Services (Policy Highlights)",
+      documents: [
+        "Only one license per applicant",
+        "No resale to other IPLC license holders",
+        "Retail bandwidth directly to end users",
+        "Comply with all security and lawful interception conditions",
+        "Submit quarterly customer reports",
+        "License may be suspended in national interest",
+      ],
+    },
+  ],
+  who: [
+    {
+      heading: "Eligibility Criteria",
+      points: [
+        "Indian company under the Companies Act, 2013",
+        "Net worth: ₹2.5 crore; Paid‑up capital: ₹2.5 crore",
+        "FDI not exceeding 74% with required disclosures",
+        "Technical and security officers must be Indian residents",
+        "Full compliance with DoT rules and conditions",
+      ],
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required",
+      content:
+        "- Certificate of Incorporation\n- MoA and AoA\n- FDI Disclosure Certificate\n- Equity and Net Worth Statements\n- Audited Financial Statements\n- Director and Registered Office details\n- Technical details of IPLC\n- Processing and license fees\n",
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "Application Process",
+      content:
+        "1) Submit application and documentation\n" +
+        "2) Eligibility check by authority\n" +
+        "3) Letter of Intent (if approved)\n" +
+        "4) Pay entry fee and submit financial guarantees\n" +
+        "5) Sign license agreement within 3 months\n" +
+        "6) If rejected, re‑apply after addressing deficiencies",
+    },
+  ],
+  feesStructure: [
+    {
+      heading: "License Fee & Guarantee",
+      feeTable: [
+        { category: "One‑time Entry Fee", amount: "₹1 crore" },
+        { category: "Annual Fee", amount: "6% of AGR or ₹5 lakhs (whichever higher)" },
+        { category: "Financial Bank Guarantee (FBG)", amount: "₹1 crore" },
+      ],
+    },
+  ],
+  registrationTimeline: [
+    {
+      heading: "Indicative Timeline",
+      description: "Depends on eligibility, documentation accuracy, and DoT processing.",
+      steps: [
+        { title: "Filing & Eligibility Check", duration: "2–4 weeks", description: "Scrutiny and preliminary approval" },
+        { title: "LOI Compliance", duration: "1–2 weeks", description: "Entry fee & guarantees submission" },
+        { title: "Agreement Execution", duration: "Up to 3 months", description: "Sign license agreement" },
+      ],
+      totalTime: "Varies by case and authority workload",
+    },
+  ],
+  Regulations: [
+    {
+      category: "Guidelines & Scope Notes",
+      documents: [
+        "Legal monitoring and lawful interception mandatory",
+        "Engagement with ILD/NLD providers permitted as per license",
+        "Compliance with all DoT licensing and security terms",
+      ],
+    },
+  ],
+  faq: [
+    { question: "What is the full form of IPLC in telecom?", answer: "International Private Leased Circuit." },
+    {
+      question: "What is an IPLC License?",
+      answer: "A license to provide end‑to‑end international private leased circuits between India and other countries.",
+    },
+    {
+      question: "What are IPLC services?",
+      answer: "Dedicated, secure, private international communication lines for data and voice.",
+    },
+    {
+      question: "What are the benefits of IPLC?",
+      answer: "Dedicated bandwidth, lower latency, high security, and reliable international connectivity.",
+    },
+    {
+      question: "What are IPLC and DPLC?",
+      answer: "IPLC is for international links; DPLC is for domestic private leased circuits.",
+    },
+    {
+      question: "How to get an IPLC license in India?",
+      answer: "Apply to DoT with required documents, meet eligibility, pay fees, and execute the license agreement.",
+    },
+    {
+      question: "What is the net worth requirement for applying?",
+      answer: "Net worth of ₹2.5 crore and paid‑up capital of ₹2.5 crore.",
+    },
+  ],
+  },
+  "non-network-license-services": {
+  title: "Non-Network License Services with DoStartUp",
+  description: "Obtain your Non-Network License through DoStartUp’s expert-led services and hassle-free support.",
+  overview: [
+    {
+      heading: "Streamlined Non-Network Licensing",
+      content:
+        "DoStartUp simplifies regulatory compliance for wireless products and telecom imports. We secure the appropriate non-network licenses and authorizations while handling documentation, coordination, and advisory—so you stay compliant and focus on operations.",
+    },
+    {
+      heading: "What Is WPC?",
+      content:
+        "The Wireless Planning and Coordination (WPC) Wing under the Department of Telecommunications oversees frequency allocation, radio equipment imports, and licensing for both network and non-network operations in India—including GSM, radar, satellite devices, and more.",
+    },
+    {
+      heading: "Overview of a Non-Network License",
+      content:
+        "A non-network license allows import, possession, or usage of wireless equipment that does not operate on a connected network. Common among distributors and small service providers, each license is typically tied to a specific device or user.",
+    },
+  ],
+  Challenges: [
+    {
+      category: "Challenges Faced During Registration",
+      documents: [
+        "Application: Incorrect or delayed filing causes setbacks—accurate, timely submission is essential",
+        "Procedural: Multi-step processes are complex—expert handling reduces errors",
+        "Eligibility: Guidance needed to meet license-specific conditions",
+        "Compliance: Ongoing regulatory adherence requires monitoring and updates",
+      ],
+    },
+  ],
+  benefits: [
+    { heading: "Credibility", content: "WPC-issued non-network license validates legal authorization to import/use wireless equipment." },
+    { heading: "Cost-Effective", content: "Suitable for small-scale operations; more affordable than network licenses." },
+    { heading: "Simple to Manage", content: "No network servers or infrastructure required; easier to operate and maintain." },
+    { heading: "Flexible", content: "Often transferable or reactivatable depending on operational needs." },
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose DoStartUp for Non-Network License Services",
+      points: [
+        "Experienced specialists with deep knowledge of WPC regulations",
+        "Tech-driven delivery using automation and AI",
+        "Nationwide network: 10,000+ CAs and 9,000+ CSs",
+        "Client-first approach across all licensing services",
+        "4.5-star rating with 99.9% client satisfaction",
+      ],
+    },
+  ],
+  services: [
+    {
+      category: "Our Non-Network License Services",
+      documents: [
+        "Application Filing Services: Timely and accurate submissions aligned with WPC guidelines",
+        "Documentation Services: Preparation and verification of all required documents",
+        "Advisory Services: Custom guidance based on product, business model, and license type",
+        "Regulatory Compliance Services: Monitoring updates and ensuring continuous compliance",
+        "Procedural Support: Streamlined, efficient, and compliant process handling",
+      ],
+    },
+  ],
+  Categories: [
+    {
+      category: "Types of Non-Network Licenses",
+      documents: [
+        "Radio Paging (Captive) License",
+        "Maritime Mobile Station License",
+        "Aeronautical Mobile Station License",
+        "Import License",
+        "Short Range UHF Handheld Radio License",
+        "Experimental License",
+        "Demonstration License",
+      ],
+    },
+  ],
+  who: [
+    {
+      heading: "Eligibility Criteria",
+      points: [
+        "Company incorporated under the Companies Act",
+        "Employ qualified personnel as per equipment nature",
+      ],
+    },
+  ],
+  Guidelines: [
+    {
+      category: "Documents Required (Summary by License Type)",
+      documents: [
+        "Radio Paging (Captive): Decision letter, invoice, SACFA approval, fee proof",
+        "Maritime Mobile: Ship registration, demand draft, inspection report",
+        "Aeronautical Mobile: DGCA aircraft certificate, inspection certificate",
+        "Import License: Equipment specs, application, demand draft",
+        "Short Range UHF: Application, annexures, equipment invoice",
+        "Experimental: Project diagram, SACFA, license fee",
+        "Demonstration: Technical description, NDPL license, fee invoice",
+      ],
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "General Documentation Note",
+      content:
+        "Each license type has distinct documentation requirements. Ensure accurate, complete, and current documents per WPC’s latest guidelines.",
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "Registration Process",
+      content:
+        "1) Fill and submit the application\n" +
+        "2) Attach required documents\n" +
+        "3) Upload using DSC\n" +
+        "4) Respond to WPC queries (if any)\n" +
+        "5) License is granted upon approval",
+    },
+  ],
+  faq: [
+    {
+      question: "What function does WPC serve?",
+      answer: "WPC allocates spectrum, monitors radio frequencies, and issues licenses for wireless equipment in India.",
+    },
+    {
+      question: "What is a non-network license?",
+      answer: "A license that allows standalone usage of wireless/RF equipment without connecting to a broader network.",
+    },
+    {
+      question: "What papers are required for an import license?",
+      answer: "Application form, demand draft, product specifications, and port-specific details.",
+    },
+    {
+      question: "What types of licenses come under non-network?",
+      answer: "Seven main types: Radio Paging, Maritime Mobile, Aeronautical Mobile, Import, UHF Radio, Experimental, and Demonstration.",
+    },
+    {
+      question: "Difference between non-network and network license?",
+      answer: "Network licenses cover connected multi-device operations; non-network licenses are for standalone usage.",
+    },
+    {
+      question: "How to register for a non-network license?",
+      answer: "Submit application and documents to WPC; follow verification and approval steps.",
+    },
+    {
+      question: "Advantages of a non-network license?",
+      answer: "Cost-effective, flexible, easy to manage, and ideal for small-scale or specific-use equipment.",
+    },
+  ],
+  },
+  "network-license-india": {
+  title: "Get Your Network License in India with DoStartUp",
+  description: "Expert-led, end-to-end support to obtain your Network License from WPC/DoT with minimal delays and full compliance.",
+  overview: [
+    {
+      heading: "Why a Network License is Important",
+      content:
+        "A Network License, issued by the WPC wing under the DoT, legally permits companies to operate wireless networked equipment. It is essential for telecom operations, assures service quality, protects consumers, and enables compliant growth.",
+    },
+    {
+      heading: "Overview: Network License in India",
+      content:
+        "A network license is not for manufacturing/importing devices. It authorizes operation of networked telecom equipment on approved radio frequencies (e.g., mobile, broadcasting, trunking, paging, VSAT, satellite).",
+    },
+  ],
+  benefits: [
+    { heading: "Mandatory Legal Requirement", content: "Telecom services cannot operate without a valid network license." },
+    { heading: "Assurance of Service Quality", content: "Compliance with DoT standards ensures reliability and performance." },
+    { heading: "Consumer Protection", content: "Mandates data privacy, lawful interception, and transparent billing." },
+    { heading: "Revenue Growth", content: "Legally compliant operators can scale faster and offer premium services." },
+    { heading: "Competitive Edge", content: "Licensing improves trust, credibility, and market positioning." },
+  ],
+  whyUs: [
+    {
+      heading: "Why Choose DoStartUp for Network License Services",
+      points: [
+        "Industry experts with years of telecom licensing experience",
+        "Strong network of lawyers, CAs, CSs, and telecom consultants",
+        "Advanced automation with real-time status tracking",
+        "Client-centric approach and tailored strategies",
+        "End-to-end services: WPC registration, renewals, and compliance",
+      ],
+    },
+  ],
+  services: [
+    {
+      category: "Our Key Services",
+      documents: [
+        "Application Assistance: Drafting and filing the network license application accurately",
+        "Regulatory Coordination: Managing all communication with WPC for faster approvals",
+        "Customized Licensing: Solutions aligned to your product and business model",
+        "Renewal & Compliance: Ongoing compliance and timely license renewals",
+        "Regulatory Advisory: Up-to-date guidance on telecom regulatory changes",
+      ],
+    },
+  ],
+  Listicles: [
+    {
+      category: "Services Provided by a Network-Licensed Company",
+      documents: [
+        "Voice calls and messaging services",
+        "Internet access and broadband services",
+        "Cloud communication and enterprise telecom solutions",
+        "Digital payment gateways and mobile wallets",
+        "IoT and machine-to-machine solutions",
+        "Smart city services (fleet tracking, smart metering)",
+      ],
+    },
+    {
+      category: "Networked Products That Require a License",
+      documents: [
+        "Paging systems",
+        "Radio trunking (PMRTS)",
+        "Mobile (GSM, CDMA, VSAT)",
+        "Fixed landline (HF/VHF/UHF)",
+        "Terrestrial and satellite broadcasting",
+        "Radar, SCADA, remote controllers, IoT equipment",
+        "Experimental and short-range radios",
+      ],
+    },
+  ],
+  who: [
+    {
+      heading: "Who Can Apply for a Network License",
+      points: [
+        "Only companies registered under the Companies Act, 2013 are eligible",
+        "Individuals are not permitted to apply",
+      ],
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required",
+      content:
+        "- Certificate of Incorporation\n- Applicant’s ID proof\n- RF test report of the equipment\n- Qualification details\n- Product/technical specifications",
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "How to Apply for a Network License in India",
+      content:
+        "1) Fill the network license application form\n" +
+        "2) Attach supporting documents\n" +
+        "3) Sign and submit with Digital Signature (DSC)\n" +
+        "4) WPC reviews and may request clarifications\n" +
+        "5) Upon approval, DoT issues the network license",
+    },
+  ],
+  Regulations: [
+    {
+      category: "Regulatory Overview",
+      documents: [
+        "Issued by WPC (Wireless Planning & Coordination), DoT",
+        "Covers operation of networked wireless equipment on approved frequencies",
+        "Requires adherence to lawful interception, data privacy, and billing transparency norms",
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "What is a network license?",
+      answer: "A legal permit issued by the WPC to operate wireless networked equipment for telecom services.",
+    },
+    {
+      question: "What are the types of network licenses in India?",
+      answer: "Licenses for mobile, VSAT, paging, trunking, terrestrial broadcast, satellite communications, and IoT systems.",
+    },
+    {
+      question: "Who can apply for the Network License in India?",
+      answer: "Only companies registered under the Companies Act, 2013.",
+    },
+    {
+      question: "How to get a network license for your wireless products?",
+      answer: "Submit an application with required documents to WPC and follow the review/approval process.",
+    },
+    {
+      question: "What is the procedure for obtaining a Telecom Operator License in India?",
+      answer: "Apply to the DoT, meet financial and technical criteria, and comply with license conditions.",
+    },
+    {
+      question: "How can I apply for BIS certification?",
+      answer: "Submit an online application to BIS with product samples and test reports from approved labs.",
+    },
+    {
+      question: "What documents are required with a network license application?",
+      answer: "Certificate of Incorporation, ID proof, RF test report, technical specs, and qualification details.",
+    },
+    {
+      question: "What services can a network-licensed company offer?",
+      answer: "Mobile, internet, messaging, enterprise telecom, IoT, and digital payment services.",
+    },
+    {
+      question: "How can I obtain a Network License in India?",
+      answer: "Apply through WPC, attach documents, undergo review, and receive approval upon meeting all conditions.",
+    },
+  ],
+  },
+  "dpl-ndpl-license-services": {
+  title: "DPL/NDPL License Services with DoStartUp",
+  description: "Expert-driven DPL (Dealer Possession License) and NDPL (Non-Dealer Possession License) services—end-to-end documentation, filing, and compliance.",
+  overview: [
+    {
+      heading: "Simplify DPL/NDPL Licensing with DoStartUp",
+      content:
+        "We tailor DPL/NDPL licensing for India’s telecom sector with a transparent, client-first approach. From document prep to regulatory consultation, our experts reduce admin hassle and ensure swift, accurate approvals.",
+    },
+    {
+      heading: "What is a DPL License?",
+      content:
+        "Dealer Possession License (DPL) authorizes businesses to sell, stock, and distribute wireless/spectrum-based telecom devices. DPL holders cannot sell to unlicensed entities.",
+    },
+    {
+      heading: "What is an NDPL License?",
+      content:
+        "Non-Dealer Possession License (NDPL) allows entities that do not resell telecom equipment to legally possess and operate such devices—typically internal use (e.g., cable operators, broadcasters).",
+    },
+  ],
+  Challenges: [
+    {
+      category: "Common Challenges (and How We Solve Them)",
+      documents: [
+        "Complex Documentation: Accurate preparation, verification, and timely submission aligned with WPC/DoT",
+        "Regulatory Compliance: Up-to-date alignment with evolving DoT/WPC mandates",
+        "Eligibility Criteria: End-to-end checks and guidance on prerequisites",
+        "Approval Delays: Proactive follow-ups and error-free filings for faster turnaround",
+        "Policy Changes: Continuous monitoring and strategy adjustments for seamless submissions",
+      ],
+    },
+  ],
+  benefits: [
+    { heading: "Legal Authorization", content: "Confirms permission to sell or possess wireless telecom equipment." },
+    { heading: "Market Access", content: "Enables expansion into new markets and product lines." },
+    { heading: "Regulatory Compliance", content: "Aligns with DoT/WPC rules and reduces legal risks." },
+    { heading: "Business Growth", content: "Supports partnerships with OEMs and telecom providers." },
+    { heading: "Industry Credibility", content: "Builds trust and brand recognition in the telecom sector." },
+  ],
+  whyUs: [
+    {
+      heading: "Why DoStartUp is the Right Choice",
+      points: [
+        "10,000+ CAs, 9,000+ CSs, 4,500+ CMAs, and 5,000+ telecom experts",
+        "High-efficiency automation for faster processing",
+        "99.9% client satisfaction, 4.5+ star ratings",
+        "Ongoing compliance support and post-licensing services",
+        "Client-first approach focused on results, clarity, and simplicity",
+      ],
+    },
+  ],
+  services: [
+    {
+      category: "What Our DPL/NDPL License Services Include",
+      documents: [
+        "Application Assistance: We fill and submit your application",
+        "Compliance Monitoring: Meet pre- and post-licensing obligations",
+        "Consultation: Tailored legal and regulatory advisory",
+        "Documentation Services: Preparation, organization, and filing",
+        "Legal Guidance: Expert support on telecom rules",
+        "Post-Licensing Support: Renewal tracking and regulation updates",
+      ],
+    },
+  ],
+  Categories: [
+    {
+      category: "DPL/NDPL License in India: Key Information",
+      documents: [
+        "DPL: Sell, stock, distribute wireless/RF telecom devices (no sales to unlicensed entities)",
+        "NDPL: Possess and operate wireless devices for internal use (no resale)",
+      ],
+    },
+  ],
+  who: [
+    {
+      heading: "Eligibility Criteria",
+      points: [
+        "Registered as an incorporated company under MCA (Companies Act)",
+        "Engaged in telecom-related operations",
+        "Prepared to comply with DoT and WPC regulations",
+      ],
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for DPL/NDPL License",
+      content:
+        "- Certificate of Incorporation\n- Details/specifications of telecom equipment\n- Technical brochures or literature\n- Duly filled and signed license registration form\n- Any additional documents required by WPC",
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "Process to Obtain a DPL/NDPL License",
+      content:
+        "1) Document Collection: Compile and verify all required documents\n" +
+        "2) Application Drafting: Complete the form with accurate, compliant details\n" +
+        "3) Submission: Upload on Saral Sanchar portal and submit\n" +
+        "4) WPC Review: Respond to clarifications and track status\n" +
+        "5) License Grant: On approval, license is issued digitally",
+    },
+  ],
+  faq: [
+    {
+      question: "What is an NDPL licence?",
+      answer:
+        "NDPL permits organizations that do not trade in wireless devices to legally own and operate them for internal use (e.g., cable-TV networks).",
+    },
+    {
+      question: "What is the full form of DPL licence?",
+      answer:
+        "Dealer Possession Licence—WPC permit authorizing dealers to stock, sell, and distribute wireless/RF telecom equipment.",
+    },
+    {
+      question: "How should I apply for a DPL?",
+      answer:
+        "Gather incorporation papers and equipment specs, file the DPL form on Saral Sanchar, upload docs, pay fees, respond to WPC queries, and download the license upon approval.",
+    },
+    { question: "Who grants DPL and NDPL licences?", answer: "WPC Wing of the Department of Telecommunications (DoT)." },
+    {
+      question: "Who is eligible for DPL/NDPL?",
+      answer:
+        "DPL: Indian-registered companies intending to sell/store/distribute wireless equipment. NDPL: Indian entities using wireless devices internally without resale.",
+    },
+    {
+      question: "What are the steps to obtain DPL/NDPL?",
+      answer:
+        "Prepare documents, file online via Saral Sanchar, submit fees, respond to clarifications, receive license, and maintain records.",
+    },
+    {
+      question: "Are NGOs automatically exempt from GST?",
+      answer:
+        "No. Exempt only when activities are specifically charitable under GST; otherwise, supplies above the threshold attract GST unless a formal exemption applies.",
+    },
+  ],
+  },
+  "demonstration-license-services": {
+    title: "Demonstration Licence Services in India",
+    description: "End-to-end support to obtain a short-term WPC Demonstration Licence for importing and showcasing wireless devices.",
+    overview: [
+      {
+        heading: "Re‑phrased Overview",
+        content:
+          "DoStartUp helps Indian telecom and electronics firms secure a Demonstration Licence—short-term authorisation from the WPC (DoT) to import and showcase spectrum-based devices for sales demos, exhibitions, or customer trials. We handle paperwork and compliance so you can focus on impressing buyers.",
+      },
+    ],
+    Challenges: [
+      {
+        category: "Common Hurdles (and How We Solve Them)",
+        documents: [
+          "Application drafting & filing — Lengthy forms; a single error can delay weeks → Expert-prepared forms, pre-submission audits",
+          "Process navigation — Multiple WPC/DoT touchpoints → Dedicated liaison for all follow-ups",
+          "Eligibility checks — Misinterpreting rules → Early gap analysis to confirm you qualify",
+          "Ongoing compliance — Tracking conditions and records → Post-approval compliance calendar & reminders",
+        ],
+      },
+    ],
+    benefits: [
+      { heading: "Seamless Imports", content: "Customs recognise the licence as proof of legitimate wireless equipment." },
+      { heading: "Credibility Boost", content: "Prospects see you as an authorised, law-abiding supplier." },
+      { heading: "B2B Access", content: "Only DPL holders can apply, positioning you within the telecom value chain." },
+      { heading: "Low Cost", content: "Government fees are modest compared with other authorisations." },
+    ],
+    whyUs: [
+      {
+        heading: "Why Firms Choose DoStartUp",
+        points: [
+          "10,000+ CAs, 9,000+ CSs, 4,500+ CMAs, 5,000+ telecom specialists",
+          "99.9% client satisfaction, 4.5-star public rating",
+          "Tailored advice, rigorous documentation control",
+          "End-to-end compliance monitoring and liaison",
+        ],
+      },
+    ],
+    services: [
+      {
+        category: "Our Service Modules",
+        documents: [
+          "Documentation: Checklists, drafting, and vetting of every supporting file",
+          "Consulting: Strategy on licence scope (indoor vs outdoor) and spectrum bands",
+          "Application Filing: Online submission and real-time status tracking",
+          "Regulatory Liaison: Responding to any DoT/WPC query until grant",
+          "Process Optimisation: Compressed timelines via established WPC workflows",
+        ],
+      },
+    ],
+    Guidelines: [
+      {
+        category: "Essential Background",
+        documents: [
+          "What it is: Non-network, non-renewable 3‑month authorisation to import/display finished wireless products",
+          "Eligibility: Indian company holding a valid Dealer Possession Licence (DPL)",
+          "Categories: Indoor (low‑power), Outdoor (finished products on licensed/licence‑exempt spectrum)",
+          "Validity: Fixed 3 months; cannot be extended or renewed",
+          "Core Requirement: Product literature, tech specs, demo site plan, DPL, COI, MoA/AoA, fee & royalty (if applicable)",
+        ],
+      },
+    ],
+    Regulations: [
+      {
+        category: "Major Restrictions & Exemptions",
+        documents: [
+          "No commercial service; imported gear under this licence cannot be sold",
+          "Indoor licence limited to ultra‑low‑power operations",
+          "Outdoor demos only for finished goods",
+          "Exemptions: If you hold Experimental & Testing, Production & Testing, or relevant manufacturing/testing permissions covering public demos, a separate demonstration licence may not be needed",
+        ],
+      },
+    ],
+    Validity: [
+      {
+        category: "Validity",
+        documents: ["Fixed three months; not extendable or renewable"],
+      },
+    ],
+    who: [
+      {
+        heading: "Eligibility",
+        points: ["Indian‑registered entity with a valid DPL (Dealer Possession Licence)"],
+      },
+    ],
+    documentsRequired: [
+      {
+        heading: "Documents Required",
+        content:
+          "- Certificate of Incorporation\n- Memorandum of Association (MoA)\n- Articles of Association (AoA)\n- Copy of DPL (Dealer Possession Licence)\n- Technical specifications & product literature\n- Description and block diagram of demonstration setup\n- Any additional documents requested by WPC/DoT",
+      },
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step‑by‑Step Application Flow",
+        content:
+          "1) Collect documents (company records, DPL, tech specs, demo layout)\n" +
+          "2) Draft application on SaralSanchar portal\n" +
+          "3) Upload supporting files and pay prescribed fee\n" +
+          "4) Submit and await DoT decision letter (AIP)\n" +
+          "5) Pay any royalty (if spectrum is in licensed band)\n" +
+          "6) Receive licence and import/demo your equipment",
+      },
+    ],
+    faq: [
+      {
+        question: "Is it possible to renew a demonstration licence in India?",
+        answer: "No. It is valid for 3 months and cannot be renewed. Apply afresh if more time is needed.",
+      },
+      {
+        question: "What is a demonstration licence?",
+        answer:
+          "A short‑term WPC permit to import and showcase wireless devices for demos, exhibitions, or trials. It does not allow commercial service.",
+      },
+      { question: "Who is eligible to apply?", answer: "Indian‑registered entities holding a valid DPL." },
+      {
+        question: "What documents are required?",
+        answer:
+          "COI, MoA, AoA, DPL copy, technical specs & product literature, demo setup description/diagram, and any additional WPC/DoT requests.",
+      },
+      {
+        question: "Are any demonstrations exempt?",
+        answer:
+          "If covered by an existing DoT permit (Experimental & Testing or Production & Testing) that explicitly authorises showcasing the same devices, a separate licence may not be required.",
+      },
+      {
+        question: "What limitations apply?",
+        answer:
+          "Indoor demos must use ultra‑low‑power/licence‑exempt spectrum; outdoor demos cannot provide paid services; imported gear cannot be sold; maintain stock and usage records; no infringement of third‑party rights.",
+      },
+      {
+        question: "When is a separate demonstration licence unnecessary?",
+        answer:
+          "When an existing DoT authorisation already covers public demonstrations of the same equipment.",
+      },
+    ],
+  },
+  "fcc-certification-usa": {
+  title: "FCC Certification for Electronic Devices – Sell Legally in the USA",
+  description: "Expand your business globally with ease!",
+  overview: [
+    {
+      heading: "What is FCC Certification?",
+      content:
+        "FCC Certification is a mandatory US regulatory approval for most electronic products. The FCC mark shows your device meets strict limits on electromagnetic interference (EMI) and radiofrequency (RF) emissions. Without FCC approval, importing or selling electronics in the US is illegal and can lead to recalls, fines, or bans.",
+    },
+    {
+      heading: "Why It Matters for Indian Businesses",
+      content:
+        "FCC compliance is a federal law for market entry, boosts trust and credibility, reduces legal risks (import holds/recalls), and gives a competitive edge—unlocking major US sales channels, including Amazon.",
+    },
+  ],
+  benefits: [
+    { heading: "Legal Market Access", content: "Sell and distribute in the USA with full compliance." },
+    { heading: "Trust & Credibility", content: "The FCC mark assures buyers and partners of safety and quality." },
+    { heading: "Reduced Risk", content: "Avoid penalties, import holds, and costly recalls." },
+    { heading: "Faster Entry", content: "Streamlined, expert-led process to clear regulatory hurdles quickly." },
+    { heading: "Global Growth", content: "Open doors to the vast US electronics market." },
+    { heading: "Competitive Advantage", content: "Stand out on major channels with visible compliance." },
+  ],
+  whyUs: [
+    {
+      heading: "Why Trust DoStartup.in for FCC Certification?",
+      points: [
+        "10+ years industry experience",
+        "400+ qualified CAs, CS & legal experts",
+        "99% on-time success rate",
+        "100,000+ clients assisted; service across 10,000+ pin codes",
+        "50+ branch offices nationwide",
+        "Personalized free consultation; 4.9/5 rating",
+        "Instant support by compliance experts",
+      ],
+    },
+  ],
+  Listicles: [
+    {
+      category: "Which Products Require FCC Certification?",
+      documents: [
+        "Mobile phones and tablets; laptops, computers & servers",
+        "Bluetooth & Wi‑Fi devices; remote controls & walkie‑talkies",
+        "Routers & telecom hardware; IoT devices; wireless mics",
+        "Medical electronics; industrial and scientific instruments",
+        "Power adapters and IT accessories",
+        "Note: Both intentional and unintentional radiators need compliance",
+      ],
+    },
+    {
+      category: "Types of FCC Approval",
+      documents: [
+        "Verification: For basic digital devices—EMI compliance testing",
+        "Declaration of Conformity (DoC): Higher‑risk products—accredited lab testing",
+        "Full FCC Certification: Strictest requirements via TCB/FCC review",
+      ],
+    },
+  ],
+  registrationProcedure: [
+    {
+      heading: "Steps to Obtain FCC Certification – Our Process",
+      content:
+        "1) Initial Consultation & Product Assessment: Map standards and approval type\n" +
+        "2) Pre‑Compliance Testing & Documentation: Pre‑test RF/EMI; gather tech docs\n" +
+        "3) FCC Registration & Application: Obtain FRN (FCC Registration Number)\n" +
+        "4) Lab Testing with Accredited Partner: Formal compliance testing\n" +
+        "5) Technical Documentation & Submission: Specs, reports, manuals, artifacts\n" +
+        "6) Review & Approval: TCB/FCC technical review and grant\n" +
+        "7) FCC Marking & Market Entry: Label device and begin US sales",
+    },
+  ],
+  documentsRequired: [
+    {
+      heading: "Documents Required for FCC Certification",
+      content:
+        "- PAN of business/applicant\n- Address proof (Voter ID/Aadhaar/Utility Bill)\n- Product design schematics and technical specs\n- Manufacturing process details\n- Sales/purchase invoices\n- System manuals and test reports\n- Plant Master File; radiation measurement records\n- Any device‑specific technical documents as required",
+    },
+  ],
+  registrationTimeline: [
+    {
+      heading: "Timeline",
+      description: "Typical duration varies by device complexity and document readiness.",
+      steps: [
+        { title: "Assessment & Pre‑Compliance", duration: "1–2 weeks", description: "Gap analysis and pre‑tests" },
+        { title: "Accredited Lab Testing", duration: "1–3 weeks", description: "Formal compliance testing" },
+        { title: "TCB/FCC Review & Grant", duration: "1–3 weeks", description: "Technical review and certification" },
+      ],
+      totalTime: "Usually 4–8 weeks",
+    },
+  ],
+  services: [
+    {
+      category: "What You Get with DoStartup.in",
+      documents: [
+        "End‑to‑end project management and documentation support",
+        "Accredited lab coordination and test planning",
+        "Technical file preparation and submission",
+        "Regulatory advisory and label/marking guidance",
+        "Remediation and retest support if non‑conformities found",
+        "Transparent pricing; no hidden fees; 24/7 expert support",
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: "What is FCC Certification and why is it needed?",
+      answer:
+        "It verifies your electronics meet US EMI/RF emission limits. It’s legally required to sell most electronic devices in the USA.",
+    },
+    {
+      question: "Which products need FCC Certification?",
+      answer:
+        "Mobile devices, computers, wireless equipment, routers, IoT gadgets, medical electronics, industrial instruments, and more.",
+    },
+    {
+      question: "Is FCC certification recognized outside the USA?",
+      answer:
+        "It’s US‑mandatory; many countries consider FCC standards as benchmarks, but local approvals may still be required.",
+    },
+    {
+      question: "How long does the process take?",
+      answer: "Typically 4–8 weeks from application to approval, depending on complexity and document readiness.",
+    },
+    {
+      question: "Is FCC certification permanent?",
+      answer:
+        "Valid while the design remains unchanged. Significant modifications may require retesting/re‑certification.",
+    },
+    { question: "Who can apply?", answer: "Manufacturers, importers, and authorized agents." },
+    { question: "Can I sell without FCC certification?", answer: "No. Selling uncertified devices in the US is illegal." },
+    {
+      question: "What documents are required?",
+      answer:
+        "PAN, address proof, technical files, manufacturing details, invoices, manuals, and test reports; device‑specific docs as needed.",
+    },
+    {
+      question: "What are the costs involved?",
+      answer:
+        "Depend on device type, test scope, and consultancy. DoStartup.in offers competitive, all‑inclusive packages.",
+    },
+    {
+      question: "Which approval route applies to my device?",
+      answer:
+        "Our experts assess your product and advise the exact path: Verification, DoC, or full Certification.",
+    },
+    {
+      question: "What if my product fails testing?",
+      answer:
+        "We troubleshoot, recommend design changes, and coordinate retests to achieve compliance quickly.",
+    },
+    {
+      question: "Does FCC certification apply to refurbished/used products?",
+      answer:
+        "If substantive changes are made to a certified device, retesting and potential re‑certification may be required.",
+    },
+  ],
+  },
+  
+
   term_sheet: {
     title: "Term Sheet — Fast Facts & Practical Guide",
     description:
