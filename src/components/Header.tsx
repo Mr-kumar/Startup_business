@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Logo from "@/assets/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Description } from "@headlessui/react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -488,8 +489,32 @@ const Header = () => {
             { name: "NGO Project Report", href: "/ngo-project-report" },
           ],
         },
+        {
+          title : "Accounting & Book Keeping Services",
+          links:[
+            {name: "Secretarial Audit",href:"/secretarial_audit" },
+            {name: "Due Diligence",href:"/"},
+            {name: "Business Plan",href:"/business_plan"},
+            {name: "Virtual CFO Services",href:"/virtual_cfo_services"},
+            {name: "Accounts Payable Service",href:"/accounts_payable_services"},
+            {name: "Accounts Receivable Services",href:"/accounts_receivable_services"},
+            {name: "Tax Audit",href:"/tax_audit_services"},
+            {name: "Forensic Audit",href:"/forensic_audit_services"},
+            {name: "Bookkeeping Services",href:"/bookkeeping_services"},
+            {name: "Fundraising Services",href:"/fund_raising_services"},
+            {name: "Term sheet",href:"/term_sheet_guide"},
+            {name: "Manufacturing Audit",href:"/manufacturing_audit_services"},
+            {name: "Technical Audit",href:"/technical_audit_services"},
+            {name: "Factory Sanitation Audit",href:"/factory_sanitation_audit_services"},
+            {name: "M2M Communications",href:"/m2m_registration_services"},
+            {name: "Ethical Audits",href:"/ethical_audit_services"},
+            {name: "Insurance Audit",href:"/insurance_audit_services"},
+            {name: "Fractional CFO Services",href:"/fractional_cfo_services"},
+          ]
+        }
       ],
     },
+
     {
       title: "IPR",
       subItems: [
@@ -758,6 +783,17 @@ const Header = () => {
               name: "Legal Notice for Non-Payment of Salary",
               href: "/legal-notice-for-non-payment-of-salary",
             },
+            { name: "Trademark Search", href: "/trademark-search-in-india" },
+            { name: "Brand Name Registration", href: "/brand-name-registration-in-india" },
+            { name: "Logo Registration in India", href: "/logo-registration-in-india" },
+            { name: "Special Leave Petition", href: "/special-leave-petition-supreme-court" },
+            { name: "Civil Law", href: "/civil-law-overview" },
+            { name: "Quashing of FIR", href: "/quashing-of-fir" },
+            { name: "Asset Purchase Agreement", href: "/asset-purchase-agreement" },
+            { name: "Writ Petition", href: "/writ-petition" },
+            { name: "Domestic Violence", href: "/domestic-violence" },
+            { name: "Defamation Law in India", href: "/defamation" },
+            { name: "Legal Notice for Non-Payment of Dues", href: "/legal_notice_non_payment" },
           ],
         },
         {
@@ -953,6 +989,37 @@ const Header = () => {
           ],
         },
         {
+          title: "SEBI",
+          description: "SEBI",
+          links:[
+              { name: "Alternative Investment Fund Registration", href: "/aif_license_registration" },
+              { name: "Mergers and Acquisitions", href: "/mergers_and_acquisitions" },
+              { name: "Recovery of Shares", href: "/recovery_of_shares_from_iepf" },
+              { name: "Merchant Banker License", href: "/merchant_banker_license" },
+              { name: "AMFI Registration", href: "/amfi_registration" },
+              { name: "Collective Investment Scheme", href: "/collective_investment_scheme" },
+              { name: "Registration of Underwriters with SEBI", href: "/underwriter_registration" },
+          ]
+        },
+        {
+          title: "RBI",
+          description:"RBI",
+          links:[
+            { name: "NBFC Registration", href: "/startup/nbfc-registration" },
+            { name: "NBFC Takeover", href: "/startup/nbfc" },
+            { name: "FFMC License", href: "/startup/ffmc-license-registration" },
+            { name: "Microfinance Company Registration", href: "/startup/microfinance-company-registration" },
+            { name: "Housing Finance Company Registration", href: "/startup/housing-finance-company-registration" },
+            { name: "NBFC Account Aggregator License", href: "/startup/nbfc-account-aggregator-license" },
+            { name: "Prepaid Wallet License", href: "/startup/prepaid-wallet-license" },
+            { name: "Peer to Peer Lending License", href: "/startup/p2p-lending-license" },
+            { name: "Payment Bank License", href: "/startup/payment-bank-license" },
+            { name: "Payment Gateway License", href: "/startup/payment-gateway-license" },
+            { name: "Mobile Wallet License", href: "/startup/mobile-wallet-license" },
+            { name: "TPAP License", href: "/startup/tpap-license" },
+          ]
+        },
+        {
           title: "FEMA",
           description: "FEMA",
           links: [
@@ -971,6 +1038,21 @@ const Header = () => {
             },
           ],
         },
+        {
+          title : "Telecom",
+          Description: "Telecom",
+          links: [
+            { name: "UL VNO License", href: "/ul_vno_license" },
+            { name: "WPC Import License", href: "/wpc-import-license" },
+            { name: "IPLC License", href: "/iplc-license" },
+            { name: "Non-Network License Services", href: "/non-network-license-services" },
+            { name: "Network License", href: "/network-license-india" },
+            { name: "Access Service License Registration", href: "/" },
+            { name: "DPL/NDPL License", href: "/dpl-ndpl-license-services" },
+            { name: "Demonstration License", href: "/demonstration-license-services" },
+            { name: "FCC Certification", href: "/fcc-certification-usa" },
+          ]
+        }
       ],
     },
     {
