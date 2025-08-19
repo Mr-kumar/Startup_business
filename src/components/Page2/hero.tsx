@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -9,6 +9,16 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ title, description }) => {
+  // Form state
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+  });
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState('');
+
   // Animation controls
   const controls = useAnimation();
   const [ref, inView] = useInView({
@@ -57,6 +67,50 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
         ease: "backOut",
       },
     },
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setMessage('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          pageTitle: title // Adding the title from props
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to submit form');
+      }
+
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        service: '',
+      });
+      setMessage('Thank you! We will contact you shortly.');
+    } catch (error) {
+      console.error('Error:', error);
+      setMessage('Something went wrong. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -266,32 +320,50 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
               Free Consultation by Expert
             </h3>
 
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-4">
                 <input
                   type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleInputChange}
                   placeholder="Your Name"
+                  required
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                 />
                 <input
                   type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
                   placeholder="Email Address"
+                  required
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                 />
                 <div className="flex overflow-hidden rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-[#7DD756] focus-within:border-transparent transition-all duration-200">
                   <span className="px-4 py-3 bg-gray-100 text-gray-600">+91</span>
                   <input
                     type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleInputChange}
                     placeholder="Mobile Number"
+                    required
                     className="w-full px-4 py-3 bg-transparent focus:outline-none"
                   />
                 </div>
-                <select className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200">
-                  <option>Select State</option>
-                  <option>Delhi</option>
-                  <option>Maharashtra</option>
-                  <option>Karnataka</option>
-                  <option>Tamil Nadu</option>
+                <select
+                  name="service"
+                  value={formData.service}
+                  onChange={handleInputChange}
+                  required
+                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200"
+                >
+                  <option value="">Select Service</option>
+                  <option value="Business Registration">Business Registration</option>
+                  <option value="Legal Consultation">Legal Consultation</option>
+                  <option value="Tax Services">Tax Services</option>
+                  <option value="Compliance">Compliance</option>
                 </select>
               </div>
 
@@ -318,25 +390,20 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
 
               <button
                 type="submit"
-                className="w-full py-3 px-6 bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                disabled={loading}
+                className="w-full py-3 px-6 bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:transform-none"
               >
-                GET STARTED NOW
+                {loading ? "SUBMITTING..." : "GET STARTED NOW"}
               </button>
+              {message && (
+                <div className={`mt-2 text-sm text-center ${message.includes('error') ? 'text-red-600' : 'text-green-600'}`}>
+                  {message}
+                </div>
+              )}
             </form>
 
             <div className="mt-6 flex items-center justify-center">
-              <div className="flex items-center space-x-1">
-                {[...Array(5)].map((_, i) => (
-                  <svg
-                    key={i}
-                    className="w-5 h-5 text-yellow-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
+              
               <p className="ml-2 text-sm text-gray-600">
                 Rated 4.9 by 42,817+ Customers
               </p>

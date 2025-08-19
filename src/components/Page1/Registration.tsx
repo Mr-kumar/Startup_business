@@ -15,6 +15,7 @@ const Registration: React.FC = () => {
   });
   const [whatsappConsent, setWhatsappConsent] = useState(true);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [activeFeature] = useState(0);
 
   const features = [
@@ -33,7 +34,7 @@ const Registration: React.FC = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // Basic validation for phone number
@@ -42,10 +43,46 @@ const Registration: React.FC = () => {
       return;
     }
 
-    setIsSubmitted(true);
+    // Set loading state and prevent multiple submissions
+    setIsLoading(true);
 
-    // Simulate API call
-    setTimeout(() => setIsSubmitted(false), 3000);
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          pageTitle: "GST Registration Made Effortless",
+          service: "GST Registration"
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to submit form');
+      }
+
+      // On success
+      setIsSubmitted(true);
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        state: "",
+      });
+
+      // Reset form and loading state after 3 seconds
+      setTimeout(() => {
+        setIsSubmitted(false);
+        setIsLoading(false);
+      }, 3000);
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Something went wrong. Please try again.');
+      setIsSubmitted(false);
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -66,7 +103,7 @@ const Registration: React.FC = () => {
             className="lg:col-span-8 bg-white rounded-3xl shadow-2xl p-10 flex flex-col border border-gray-100/50 backdrop-blur-sm"
           >
             <h1 className="text-5xl font-bold text-gray-900 mb-4 leading-tight">
-              GST Registration Made Effortless
+              Registration Form 
             </h1>
             <p className="text-gray-600 mb-8 leading-relaxed text-lg">
               Let our CA-certified experts handle your GST registration while
@@ -235,9 +272,10 @@ const Registration: React.FC = () => {
                     </div>
                     <button
                       type="submit"
-                      className="w-full bg-gradient-to-r from-[#1D293D] to-[#3A4B6B] text-white font-bold py-4 rounded-xl"
+                      disabled={isLoading}
+                      className="w-full bg-gradient-to-r from-[#1D293D] to-[#3A4B6B] text-white font-bold py-4 rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                     >
-                      GET STARTED NOW
+                      {isLoading ? "SUBMITTING..." : "GET STARTED NOW"}
                     </button>
                   </form>
                 )}
