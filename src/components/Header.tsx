@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Logo from "@/assets/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
-import { Description } from "@headlessui/react";
+// import { Description } from "@headlessui/react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
