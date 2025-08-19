@@ -70,7 +70,6 @@ import dynamic from "next/dynamic";
 import { pageContent, PageContentType } from "@/utils/pageContentDataPrimary";
 
 const Hero = dynamic(() => import("@/components/Page2/hero"));
-const LogoSlider = dynamic(() => import("@/components/Page2/LogoSlider"));
 // const LogoSlider = dynamic(() => import("@/components/Page2/LogoSlider"));
 const TalkToExpert = dynamic(() => import("@/components/Page2/TalkToExpert"));
 const Overview = dynamic(() => import("@/components/Page2/Overview"));

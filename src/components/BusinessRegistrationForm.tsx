@@ -23,7 +23,7 @@ const registrationTypes = [
 ];
 
 const BusinessRegistrationForm: React.FC<Props> = ({ prefillType }) => {
-  const [selectedType, setSelectedType] = useState(prefillType || "");
+  // const [selectedType, setSelectedType] = useState(prefillType || "");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
