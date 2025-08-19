@@ -71,6 +71,7 @@ import { pageContent, PageContentType } from "@/utils/pageContentDataPrimary";
 
 const Hero = dynamic(() => import("@/components/Page2/hero"));
 const LogoSlider = dynamic(() => import("@/components/Page2/LogoSlider"));
+// const LogoSlider = dynamic(() => import("@/components/Page2/LogoSlider"));
 const TalkToExpert = dynamic(() => import("@/components/Page2/TalkToExpert"));
 const Overview = dynamic(() => import("@/components/Page2/Overview"));
 
@@ -92,7 +93,7 @@ export default async function Page({ params }: PageProps) {
   return (
     <div>
       <Hero title={currentPage.title} description={currentPage.description} />
-      <LogoSlider />
+      {/* <LogoSlider /> */}
       <TalkToExpert />
       <Overview
         overview={currentPage.overview}

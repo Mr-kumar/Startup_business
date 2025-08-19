@@ -45,7 +45,7 @@ export const pageContent: Record<string, PageContentType> = {
         "If you are looking for GST registration to empower your business legally, you are at the right place.",
         "The Goods and Services Tax, popularly known as GST, was introduced on July 1, 2017, as a replacement for various central and state-level taxes, including Service Tax, Excise Duty, CST, Entertainment Tax, Luxury Tax, and VAT. GST has streamlined compliance, lowered tax evasions, and boosted the efficacy of the economy.",
         "GST has united multiple indirect taxes into a unified system, promoting the ease of doing business and eliminating cascading tax effects.",
-        "Talk to consultants at Corpbiz and enjoy easy and timely GST registration in India.",
+        "Talk to consultants at DoStartup and enjoy easy and timely GST registration in India.",
       ],
     },
     features: [
@@ -2186,7 +2186,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Establishing a company in France provides access to Europe’s third‑largest economy, with strong markets in finance, insurance, real estate, e‑commerce, and professional services.",
         "France offers 100% foreign ownership, tax benefits via double‑taxation treaties with 120+ countries, and a strategic EU location for trade expansion.",
-        "Corpbiz™ simplifies setting up an LLC in France—drafting MOA/AOA, securing SIRENE/SIRET numbers, handling corporate tax & VAT registrations, obtaining industry licenses, and providing ongoing accounting support.",
+        "DoStartup™ simplifies setting up an LLC in France—drafting MOA/AOA, securing SIRENE/SIRET numbers, handling corporate tax & VAT registrations, obtaining industry licenses, and providing ongoing accounting support.",
       ],
     },
 
@@ -2310,7 +2310,7 @@ export const pageContent: Record<string, PageContentType> = {
       {
         question: "Can I register a company in France from India?",
         answer:
-          "Yes—Corpbiz™ provides 100% online registration services for foreign entrepreneurs.",
+          "Yes—DoStartup™ provides 100% online registration services for foreign entrepreneurs.",
       },
       {
         question: "What’s the cheapest structure?",
@@ -2319,7 +2319,7 @@ export const pageContent: Record<string, PageContentType> = {
       },
       {
         question: "How long does incorporation take?",
-        answer: "Typically 2–4 weeks with Corpbiz™’s expedited services.",
+        answer: "Typically 2–4 weeks with DoStartup™’s expedited services.",
       },
     ],
 
@@ -2954,7 +2954,7 @@ export const pageContent: Record<string, PageContentType> = {
           "The Reserve Bank of India (RBI) for financial norms and the Ministry of Corporate Affairs (MCA) for company law obligations.",
       },
       {
-        question: "Can Corpbiz handle all NBFC compliance requirements?",
+        question: "Can DoStartup handle all NBFC compliance requirements?",
         answer:
           "Yes—we offer end‑to‑end support from registration to annual filings, KYC/AML, and ongoing legal advisory.",
       },
@@ -4192,7 +4192,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Obtaining the CE mark demonstrates that your product complies with EU health, safety, and environmental protection standards—mandatory for lawful distribution across the European Economic Area (EEA).",
         "The CE mark, or Conformité Européenne, acts as a passport allowing free movement of goods within the EEA and signifies conformity with all applicable EU directives and regulations.",
-        "Partner with Corpbiz™ to streamline the CE certification process and confidently enter one of the world’s most robust and business-friendly markets.",
+        "Partner with DoStartup™ to streamline the CE certification process and confidently enter one of the world’s most robust and business-friendly markets.",
       ],
     },
 
@@ -4474,7 +4474,7 @@ export const pageContent: Record<string, PageContentType> = {
       heading: "WPC Certification: Mandatory Wireless Compliance in India",
       paragraphs: [
         "To operate a wireless device business in India, securing WPC certification is mandatory. The Wireless Planning and Coordination (WPC) Wing under the DoT issues Equipment Type Approval (ETA) and import licenses to ensure all RF devices comply with national frequency standards.",
-        "Corpbiz™ assists manufacturers and importers with WPC licenses for Bluetooth, Wi‑Fi, and other wireless devices—handling Saral Sanchar portal filings, RF testing, technical documentation, and post‑compliance coordination.",
+        "DoStartup™ assists manufacturers and importers with WPC licenses for Bluetooth, Wi‑Fi, and other wireless devices—handling Saral Sanchar portal filings, RF testing, technical documentation, and post‑compliance coordination.",
         "With regional offices in New Delhi, Mumbai, Chennai, Kolkata, and Guwahati, the WPC Wing manages spectrum allocation, frequency testing, and certification for legal marketing of wireless products in India.",
       ],
     },
@@ -4525,7 +4525,7 @@ export const pageContent: Record<string, PageContentType> = {
       {
         title: "Regulatory Expertise",
         description:
-          "Corpbiz™ coordinates with designated Indian representatives for foreign applicants.",
+          "DoStartup™ coordinates with designated Indian representatives for foreign applicants.",
       },
     ],
 
@@ -4667,7 +4667,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "PESO Certification is mandatory in India for businesses handling hazardous materials—explosives, compressed gases, petroleum, and flammable substances—under the Explosives Act (1884) and Petroleum Act (1934).",
         "The Petroleum and Explosives Safety Organization (PESO) Wing issues licenses and Equipment Type Approval (ETA) to ensure safety standards for equipment, storage, and processes in industries like oil & gas, manufacturing, logistics, and more.",
-        "Corpbiz™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity.",
+        "DoStartup™ guides you through the PESO certification process—application, technical review, factory audits, and post‑certification support—for seamless compliance and operational continuity.",
       ],
     },
 
@@ -4867,7 +4867,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "The Telecommunication Engineering Centre (TEC) under the Department of Telecommunications (DoT) mandates certification for telecom equipment before sale, import, or usage in India.",
         "TEC certification ensures compliance with national safety and quality standards. The process includes Mandatory Testing and Certification of Telecom Equipment (MTCTE) and CSC certification schemes.",
-        "Corpbiz™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management.",
+        "DoStartup™ simplifies TEC registration through expert assistance in document preparation, Conformity Assessment Body (CAB) coordination, variant submission, and fee management.",
       ],
     },
 
@@ -16645,4 +16645,404 @@ export const pageContent: Record<string, PageContentType> = {
       ],
     },
   },
+  "bio-medical-waste-treatment-plant": {
+    overview: {
+      heading: "Biomedical Waste Treatment Plant – Overview",
+      paragraphs: [
+        "India’s large population is driving a sharp rise in patients and healthcare activity, causing biomedical waste generation to increase rapidly. Establishing dedicated biomedical waste treatment and disposal facilities is essential to manage this hazardous waste safely and sustainably.",
+        "Biomedical waste originates from diagnosis, treatment, immunization, medical research, and health camps involving humans or animals. It includes blood-contaminated items, bodily fluids, used instruments, lab waste, plastics, and chemical residues — all of which pose serious health and environmental risks if not handled properly.",
+        "Approximately 15% of healthcare waste is biomedical and must be managed under the Biomedical Waste Management Rules, 2016, which prescribes segregation into color-coded categories (Yellow, Red, White, Blue) and specific treatment/disposal methods."
+      ]
+    },
+    features: [
+      {
+        icon: "🏭",
+        title: "Dedicated Treatment Infrastructure",
+        description: "High-temperature incinerators, autoclaves, microwave units, and plasma pyrolysis systems for safe destruction of hazardous waste."
+      },
+      {
+        icon: "⚙️",
+        title: "Automated Segregation & Storage",
+        description: "Automated segregation systems and secure storage units to reduce human exposure and improve compliance."
+      },
+      {
+        icon: "🔬",
+        title: "Multiple Treatment Methods",
+        description: "Options including incineration, autoclaving, microwave treatment, chemical disinfection and plasma pyrolysis depending on waste type."
+      },
+      {
+        icon: "🌬️",
+        title: "Emission Control & Monitoring",
+        description: "Advanced filtration and air quality control systems to meet pollution norms and protect surrounding communities."
+      },
+      {
+        icon: "🧯",
+        title: "Safety & Emergency Protocols",
+        description: "Comprehensive emergency response plans, worker PPE, and regular drills to handle spills and accidents."
+      },
+      {
+        icon: "📊",
+        title: "Regulatory Reporting Tools",
+        description: "Monitoring tools and documentation systems for reporting waste volumes, disposal methods and audit compliance."
+      }
+    ],
+    benefits: [
+      {
+        title: "Legal Compliance",
+        description: "Operate in accordance with Biomedical Waste Management Rules and environmental consents, avoiding penalties."
+      },
+      {
+        title: "Environmental Protection",
+        description: "Prevent soil, water and air contamination through controlled treatment and pollution control measures."
+      },
+      {
+        title: "Public Health Safeguarding",
+        description: "Reduce disease transmission risk by safe handling and disposal of infectious and hazardous waste."
+      },
+      {
+        title: "Worker Safety",
+        description: "Mandates PPE, training and safe workflows to protect staff who manage hazardous waste."
+      },
+      {
+        title: "Resource Efficiency",
+        description: "Enables recycling where appropriate, reduces disposal costs and supports sustainable waste workflows."
+      },
+      {
+        title: "Reputation & Trust",
+        description: "Demonstrates commitment to safety and sustainability, improving trust among clients and regulators."
+      },
+      {
+        title: "Operational Streamlining",
+        description: "Standardised segregation and treatment workflows increase efficiency across healthcare partners."
+      }
+    ],
+    documents: {
+      steps: [
+        {
+          title: "Project Report",
+          desc: "Detailed project report covering financials, operations, waste flow and processing capacity."
+        },
+        {
+          title: "Land Documents",
+          desc: "Proof of land ownership or valid lease for the facility site."
+        },
+        {
+          title: "Consent to Establish (CTE)",
+          desc: "CTE from the State Pollution Control Board for construction and setup."
+        },
+        {
+          title: "Consent to Operate (CTO)",
+          desc: "CTO from the SPCB to legally run treatment operations."
+        },
+        {
+          title: "Environmental Clearance",
+          desc: "Clearance from MoEFCC where applicable based on project scale and impact."
+        },
+        {
+          title: "Pollution Control Details",
+          desc: "Documentation of emission controls, effluent treatment, and monitoring plans."
+        },
+        {
+          title: "Company Registration",
+          desc: "CIN/LLP/Partnership deed, PAN and GST registration of the operator."
+        },
+        {
+          title: "Fire & Municipal Approvals",
+          desc: "Fire department NOC and local municipal permissions as required."
+        },
+        {
+          title: "Worker Safety Plans",
+          desc: "PPE policy, training records, emergency and occupational health plans."
+        }
+      ],
+      violations: [
+        "Operating without CTE/CTO or environmental clearance.",
+        "Improper segregation or mixing of biomedical and general waste.",
+        "Substandard incineration causing harmful emissions.",
+        "Failure to maintain records or submit regulatory reports.",
+        "Lack of PPE and training for waste handlers."
+      ],
+      consequences: [
+        "Fines and legal action under environmental laws.",
+        "Cancellation of consent to operate and forced shutdown.",
+        "Remediation orders and civil liabilities for contamination.",
+        "Criminal prosecution in severe negligence cases.",
+        "Reputational damage and loss of client contracts."
+      ]
+    },
+    eligibility: [
+      {
+        heading: "Eligibility Criteria for Operators / Manufacturers",
+        items: [
+          "Registered business entity (Company, LLP or Partnership).",
+          "Environmental clearances and SPCB consents (CTE/CTO) as applicable.",
+          "Adequate land and infrastructure for collection, segregation, treatment and storage.",
+          "Pollution control systems to meet emission standards.",
+          "Demonstrated financial viability and operational plan.",
+          "Willingness to undergo regular inspections and audits."
+        ]
+      },
+      {
+        heading: "Eligibility Criteria for Healthcare Facilities",
+        items: [
+          "Authorization under Biomedical Waste Management Rules for waste generation and handling.",
+          "Trained personnel assigned for segregation and handling.",
+          "Implementation of health, safety and emergency protocols.",
+          "Systems for recordkeeping and participation in audits and inspections."
+        ]
+      }
+    ],
+    services: [
+      {
+        title: "Market Research & Feasibility",
+        desc: "Analyze demand, competition and target healthcare clients in your region."
+      },
+      {
+        title: "Business Planning",
+        desc: "Prepare business model, investment estimates and operational roadmaps."
+      },
+      {
+        title: "Licensing & Permits Support",
+        desc: "End-to-end assistance for CTE, CTO, environmental clearances and biomedical authorizations."
+      },
+      {
+        title: "Facility Design & Setup",
+        desc: "Design plant layout, procure equipment (incinerators, autoclaves, microwaves) and install pollution control systems."
+      },
+      {
+        title: "Training & SOPs",
+        desc: "Train staff on segregation, PPE use, emergency response and regulatory compliance."
+      },
+      {
+        title: "Compliance & Monitoring",
+        desc: "Set up reporting systems, monitoring tools and conduct periodic audits."
+      },
+      {
+        title: "Partnerships & Client Acquisition",
+        desc: "Help build tie-ups with hospitals, clinics and diagnostic centres for waste collection contracts."
+      },
+      {
+        title: "Post-Grant Support",
+        desc: "Annual audit assistance, equipment maintenance planning and renewal guidance."
+      }
+    ],
+    postRegistration: {
+      heading: "Post-Registration Compliance Requirements",
+      paragraphs: [
+        "Submit reports on waste volume and disposal methods to local authorities.",
+        "Ensure pollution control through regular monitoring of air, water, and soil standards.",
+        "Train staff on safe handling and emergency response.",
+        "Implement emergency plans to deal with spills and accidents.",
+        "Maintain equipment regularly for optimal performance.",
+        "Undergo annual audits to verify legal compliance and keep records ready for inspections."
+      ]
+    },
+    faqs: [
+      {
+        question: "What is biomedical waste?",
+        answer: "Biomedical waste includes hazardous materials generated during medical care, diagnosis, treatment and research such as contaminated dressings, sharps, used instruments, lab reagents and expired medicines."
+      },
+      {
+        question: "Who needs a biomedical waste recycling plant?",
+        answer: "Hospitals, clinics, pathology labs, blood banks, pharmaceutical and veterinary facilities frequently need treatment options; entrepreneurs can set up centralised plants to service multiple healthcare units."
+      },
+      {
+        question: "What documents are required to start this business?",
+        answer: "Project report, land/lease proof, CTE/CTO from SPCB, environmental clearance (if applicable), company registration, PAN, GST, fire NOC, municipal approvals and worker safety plans."
+      },
+      {
+        question: "What are common treatment methods?",
+        answer: "Incineration, autoclaving (steam sterilization), microwave disinfection, chemical treatment for liquids, and advanced plasma pyrolysis for high-temperature destruction."
+      },
+      {
+        question: "What happens if biomedical waste is handled improperly?",
+        answer: "Improper handling can spread infections (Hepatitis, HIV), contaminate soil and groundwater, emit toxic pollutants, foster drug-resistant organisms and lead to heavy legal penalties."
+      },
+      {
+        question: "How long does regulatory approval take?",
+        answer: "Timelines vary: SPCB consents and environmental clearances depend on state authority workload and project size; planning for several weeks to months is prudent."
+      },
+      {
+        question: "Who can start this business in India?",
+        answer: "Any registered entity (Company/LLP/Partnership) with required environmental consents, infrastructure, trained staff and financial capacity can establish a treatment plant."
+      },
+      {
+        question: "What are penalties for non-compliance?",
+        answer: "Fines, closure orders, remediation directives and potential criminal prosecution under the Environment (Protection) Act and related regulations."
+      }
+    ],
+    types: {
+      cards: [
+        {
+          title: "Improper Incineration",
+          shortText: "Harmful emissions risk.",
+          backText: "Ensure high-standard incinerators and emission control systems to prevent toxic releases."
+        },
+        {
+          title: "Inadequate Segregation",
+          shortText: "Mixing hazardous and general waste.",
+          backText: "Implement training and colour-coded segregation at source to reduce cross-contamination."
+        },
+        {
+          title: "Lack of PPE & Training",
+          shortText: "Worker exposure risk.",
+          backText: "Provide PPE, SOPs and regular training to all waste-handling staff."
+        },
+        {
+          title: "Missing Consents",
+          shortText: "Operate without CTE/CTO.",
+          backText: "Obtain SPCB consents and environmental clearances before commencing operations."
+        }
+      ],
+      roleBenefits: [
+        "Ensures legal operation and avoids penalties",
+        "Protects public health and the environment",
+        "Enables service contracts with hospitals and clinics",
+        "Reduces liability through documented compliance",
+        "Supports sustainable and efficient waste management"
+      ],
+      differenceTable: {
+        columns: ["Aspect", "With Authorization & Proper Treatment", "Without Authorization / Improper Handling"],
+        rows: [
+          ["Legal Status", "Compliant with rules and consents", "Subject to fines, closure and prosecution"],
+          ["Environmental Impact", "Controlled emissions and safe disposal", "Soil, water and air contamination risks"],
+          ["Public Health", "Reduced infection and pathogen spread", "Higher disease transmission and outbreaks"],
+          ["Operational Continuity", "Eligibility for contracts and renewals", "Risk of shutdown and loss of clients"],
+          ["Financial Risk", "Predictable costs and access to clients", "Exposure to heavy remediation costs and liabilities"]
+        ]
+      },
+      timelineFees: [
+        "Project planning & market study: 2–6 weeks.",
+        "SPCB CTE/CTO processing: timelines vary by state (weeks to a few months).",
+        "Environmental clearance (MoEFCC) if applicable: several months depending on scale.",
+        "Equipment procurement & installation: 1–6 months depending on technology.",
+        "Annual audits and monitoring: recurring yearly requirement.",
+        "Professional fees and government charges vary by state and project complexity."
+      ]
+    }
+  },
+
+
+ "industrialWasteContent": {
+    overview: {
+      heading: "Introduction to Industrial Waste Management",
+      paragraphs: [
+        "Industrial waste management refers to the structured process of safely removing, treating, recycling, and disposing of unwanted waste generated from industrial processes. This includes emissions to air, discharges to water, and solid by-products.",
+        "Proper waste management is essential as it prevents environmental pollution and safeguards public health. Implementing an online industrial waste management system not only reduces the ecological footprint of a business but also lowers operational costs.",
+        "All manufacturing units that produce waste require Consent to Establish (CTE) and Consent to Operate (CTO) from the Central Pollution Control Board (CPCB). Authorization is also needed from State Pollution Control Boards (SPCBs).",
+        "Connect with environmental experts at DoStartUp to explore tailored online industrial waste management solutions for your business."
+      ]
+    },
+    features: [
+      { title: "Regulatory Compliance", description: "Obtain CTE and CTO approvals from CPCB and SPCB." },
+      { title: "Expert Consultation", description: "Get tailored industrial waste management strategies." },
+      { title: "Cost Savings", description: "Efficient waste handling reduces operational costs." },
+      { title: "Recycling Support", description: "Transform waste into reusable resources effectively." }
+    ],
+    benefits: [
+      { title: "Waste Minimization", description: "Advanced techniques reduce volume and raw material use." },
+      { title: "Recycling", description: "Common materials like glass, paper, and plastic can be recycled efficiently." },
+      { title: "Employment Generation", description: "Recycling creates more jobs than landfilling or incineration." },
+      { title: "Legal Compliance", description: "Ensures adherence to local, state, and national laws." },
+      { title: "Cost Savings", description: "Efficient processes reduce material and operational expenses." },
+      { title: "Enhanced Reputation", description: "Strong environmental strategy builds goodwill." }
+    ],
+    documents: {
+      steps: [
+        { title: "Consent to Establish (CTE)", desc: "Application, site plan, machinery list, project details, water use, GST, flow charts, and consent fees." },
+        { title: "Consent to Operate (CTO)", desc: "CA-certified balance sheet, CTE copy, lab reports, pollution control details, environmental clearance." },
+        { title: "Mandatory Compliance", desc: "Waste classification, tank cleaning schedules, disposal laws, hazardous thresholds, spill plans, emergency response." }
+      ],
+      violations: [
+        "Failure to obtain CTE/CTO authorizations",
+        "Improper segregation and disposal",
+        "Not maintaining pollution control equipment",
+        "Absence of spill or emergency response plans"
+      ],
+      consequences: [
+        "Regulatory fines and penalties",
+        "Legal action and business shutdown",
+        "Environmental pollution liabilities",
+        "Reputational damage and public backlash"
+      ]
+    },
+    eligibility: [
+      { heading: "Industries That Require Waste Management", items: [
+        "Manufacturing", "Pharmaceuticals", "Chemicals", "Mining", "Heavy Machinery", 
+        "Food Processing", "Electronics", "Paper and Pulp", "Agriculture and Livestock"
+      ]},
+      { heading: "Licenses and Approvals Needed", items: [
+        "Hazardous Waste Authorization from TSDFs",
+        "NOC Renewal from SPCBs",
+        "CGWA Clearance for groundwater use",
+        "Trademark & Environmental Compliance"
+      ]}
+    ],
+    services: [
+      { title: "Expert Consultation", desc: "Customized waste management strategies for industries." },
+      { title: "Waste-to-Energy Conversion", desc: "Convert 15–20% of waste into energy." },
+      { title: "Annual Waste Audits", desc: "Over 1500 audits performed for compliance." },
+      { title: "ETP Setup", desc: "Efficient Effluent Treatment Plant setup." },
+      { title: "Legal Assistance", desc: "End-to-end licensing and compliance support." },
+      { title: "24/7 Support", desc: "Continuous assistance across all stages." }
+    ],
+    postRegistration: {
+      heading: "Best Practices in Industrial Waste Management",
+      paragraphs: [
+        "Adopt the 3Rs: Reduce, Reuse, Recycle.",
+        "Conduct employee training on waste handling.",
+        "Use licensed transporters for safe waste movement.",
+        "Implement waste tracking and reporting systems.",
+        "Plan for minimization at the source."
+      ]
+    },
+    faqs: [
+      { question: "What is industrial waste?", answer: "Residual materials generated during manufacturing, mining, power generation, and other industrial activities." },
+      { question: "What is waste in industrial management?", answer: "Any by-product or material generated that has no immediate use and requires treatment, recycling, or disposal." },
+      { question: "What are the main types of industrial waste?", answer: "Hazardous, non-hazardous, chemical, radioactive, biodegradable, non-biodegradable, and organic." },
+      { question: "Why is industrial waste a problem?", answer: "It pollutes air, water, and soil, poses health risks, and contributes to climate change." },
+      { question: "What industries require industrial waste management?", answer: "Manufacturing, pharmaceuticals, chemicals, mining, electronics, food processing." },
+      { question: "Why is it essential to manage industrial waste?", answer: "To ensure compliance, conserve resources, reduce pollution, and protect health." },
+      { question: "What is zero waste?", answer: "A philosophy encouraging the reuse of all products so nothing goes to landfills or incinerators." },
+      { question: "How to manage industrial waste in India?", answer: "Segregate waste, obtain authorizations, use approved treatment methods, and partner with TSDFs." },
+      { question: "What causes industrial waste?", answer: "Excessive production, poor raw material use, outdated technology, lack of environmental awareness." },
+      { question: "What are the principles of industrial waste treatment?", answer: "Minimization, segregation, recycling, treatment, and safe disposal." }
+    ],
+    types: {
+      cards: [
+        { title: "Hazardous Waste", shortText: "Toxic, reactive, corrosive", backText: "Requires special handling, SPCB authorization, and strict disposal rules." },
+        { title: "Non-hazardous Waste", shortText: "General industrial residues", backText: "Can often be recycled or disposed of using conventional methods." },
+        { title: "Chemical Waste", shortText: "By-products of production", backText: "Includes solvents, acids, alkalis—needs neutralization or specialized disposal." },
+        { title: "Radioactive Waste", shortText: "From nuclear/medical industries", backText: "Highly regulated and requires shielding and containment." },
+        { title: "Biodegradable Waste", shortText: "Organic by-products", backText: "Can be composted or anaerobically digested." }
+      ],
+      roleBenefits: [
+        "Prevents pollution and health hazards",
+        "Ensures legal and regulatory compliance",
+        "Optimizes resource recovery",
+        "Improves corporate reputation"
+      ],
+      differenceTable: {
+        columns: ["Aspect", "Hazardous Waste", "Non-Hazardous Waste"],
+        rows: [
+          ["Definition", "Dangerous/toxic waste materials", "General non-toxic industrial by-products"],
+          ["Handling", "Special precautions, authorization required", "Standard handling and recycling possible"],
+          ["Examples", "Chemical residues, radioactive material", "Packaging waste, scrap metal, organic matter"]
+        ]
+      },
+      timelineFees: [
+        "CTE: Processing time ~60 days, fees vary by industry scale",
+        "CTO: Processing time ~45 days, fees depend on pollution load and size"
+      ]
+    }
+  },
+
+
+
+  
+  
+  
+  
+
+  
 };

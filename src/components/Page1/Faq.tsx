@@ -133,5 +133,3 @@ export default function ServicesFaq({ services, faqs }: ServicesFaqProps) {
     </div>
   );
 }
-
-         

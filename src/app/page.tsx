@@ -2,39 +2,39 @@
 import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
+const heroImages = ["/hero1.jpg", "/hero2.jpg", "/hero3.jpg"];
 
-const heroImages = ["/hero5.jpg", "/hero4.jpg", "/hero6.jpg"];
-
-// const services = [
-//   {
-//     title: "Private Limited Company Registration",
-//     description:
-//       "Get your company registered hassle-free with our expert guidance.",
-//     image: "/private.jpg",
-//     link: "/register/private-limited-company",
-//   },
-//   {
-//     title: "One Person Company Registration",
-//     description: "Register your OPC and enjoy limited liability benefits.",
-//     image: "/opc.jpg",
-//     link: "/register/one-person-company",
-//   },
-//   {
-//     title: "MSME Registration",
-//     description:
-//       "Boost your business with MSME registration and avail government benefits.",
-//     image: "/msme.jpg",
-//     link: "/register/msme",
-//   },
-//   {
-//     title: "GST Registration",
-//     description:
-//       "Get your GST number quickly and efficiently with our experts.",
-//     image: "/gst.jpg",
-//     link: "/register/gst",
-//   },
-// ];
+const services = [
+  {
+    title: "Private Limited Company Registration",
+    description:
+      "Get your company registered hassle-free with our expert guidance.",
+    image: "/private.jpg",
+    link: "/register/private-limited-company",
+  },
+  {
+    title: "One Person Company Registration",
+    description: "Register your OPC and enjoy limited liability benefits.",
+    image: "/opc.jpg",
+    link: "/register/one-person-company",
+  },
+  {
+    title: "MSME Registration",
+    description:
+      "Boost your business with MSME registration and avail government benefits.",
+    image: "/msme.jpg",
+    link: "/register/msme",
+  },
+  {
+    title: "GST Registration",
+    description:
+      "Get your GST number quickly and efficiently with our experts.",
+    image: "/gst.jpg",
+    link: "/register/gst",
+  },
+];
 
 const processSteps = [
   {
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: "What documents are required for GST registration?",
     answer:
-      "For GST registration, you'll need PAN card, Aadhaar card, proof of business address (electricity bill, rent agreement, etc.), bank account details with statements, photographs, and business incorporation documents. Our team will guide you through the entire documentation process.",
+      "For GST registration, you&apos;ll need PAN card, Aadhaar card, proof of business address (electricity bill, rent agreement, etc.), bank account details with statements, photographs, and business incorporation documents. Our team will guide you through the entire documentation process.",
   },
   {
     question: "What are the benefits of MSME registration?",
@@ -140,88 +140,68 @@ export default function Home() {
         href="https://api.whatsapp.com/send?phone=9999644807&text=Hello,%20DoStartup"
         target="_blank"
         rel="noopener noreferrer"
+        className="transition-all hover:scale-110"
       >
-        <div className="fixed bottom-10 right-10 z-50 h-[30px] w-[30px] md:h-[50px] md:w-[50px]">
-          <img src="/whatsapp2.png" alt="whatsapp" />
+        <div className="fixed bottom-10 right-10 z-50 h-[60px] w-[60px] md:h-[70px] md:w-[70px] drop-shadow-lg">
+          <Image src="/whatsapp2.png" alt="whatsapp" width={60} height={60} />
         </div>
       </a>
 
       {/* Hero Section */}
-      <section className="relative h-[91vh] bg-gray-900 flex items-center justify-center overflow-hidden">
+      <section className="relative h-[91vh] flex items-center justify-center overflow-hidden">
         <motion.div
           key={currentHero}
-          initial={{ opacity: 0, scale: 1.05 }}
-          animate={{ opacity: 0.7, scale: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{
-            duration: 1.5,
-            ease: [0.33, 1, 0.68, 1] // Smooth ease-in-out curve
-          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
             backgroundImage: `url(${heroImages[currentHero]})`,
+            filter: "brightness(0.5)",
           }}
         />
-
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeOut"
-          }}
-          className="relative z-10 text-center px-6 w-full"
-        >
-          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold drop-shadow-lg leading-tight">
-            Simplify Your Business <br />
-            <motion.span
-              className="text-emerald-400"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.8 }}
-            >
-              Compliance & Management
-            </motion.span>
-          </h1>
-
-          <motion.p
-            className="mt-6 text-white text-lg md:text-xl lg:text-2xl opacity-90"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.9 }}
-            transition={{ delay: 0.7, duration: 0.8 }}
-          >
-            Partner With Us.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
+        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.9, duration: 0.6 }}
-            className="mt-10 max-w-xl mx-auto"
+            transition={{ duration: 0.8 }}
+            className="text-white text-4xl sm:text-5xl md:text-6xl font-bold drop-shadow-lg"
           >
-            <form onSubmit={handleSearch}>
-              <div className="relative">
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search for compliance services..."
-                  spellCheck="false"
-                  className="w-full px-6 py-4 rounded-lg border-2 border-white bg-white bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-lg shadow-xl"
-                />
-                <button
-                  type="submit"
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-emerald-500 hover:bg-emerald-600 transition-colors p-2 rounded-md"
-                  aria-label="Search"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </motion.div>
+            Simplify Your Business <br />
+            <span className="text-emerald-400">Compliance & Management</span>
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="mt-4 text-white text-lg md:text-xl max-w-2xl mx-auto"
+          >
+            Trusted by 2000+ businesses across India for fast, reliable, and
+            cost-effective business registration and compliance services.
+          </motion.p>
+          <motion.form
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            onSubmit={handleSearch}
+            className="mt-8 max-w-xl mx-auto"
+          >
+            <div className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search for compliance services..."
+                className="w-full px-6 py-4 rounded-lg border-2 border-transparent bg-white bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-lg shadow-lg"
+              />
+              <button
+                type="submit"
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-emerald-600 text-white p-2 rounded-md hover:bg-emerald-700 transition"
+              >
+                🔍
+              </button>
+            </div>
+          </motion.form>
           <motion.button
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -231,11 +211,11 @@ export default function Home() {
           >
             Learn How It Works ↓
           </motion.button>
-        </motion.div>
+        </div>
       </section>
 
       {/* Services Section */}
-      {/* <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Our Top Services</h2>
@@ -253,9 +233,11 @@ export default function Home() {
                 onClick={() => router.push(service.link)}
               >
                 <div className="relative overflow-hidden h-48">
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
+                    width={400}
+                    height={192}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -293,7 +275,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Timeline / Process Section - Enhanced Version */}
       <section
@@ -397,7 +379,7 @@ export default function Home() {
               },
               {
                 quote:
-                  "As a first-time entrepreneur, I was nervous about the legal requirements. DoStartup's experts simplified everything and got my MSME registration done in record time!",
+                  `As a first-time entrepreneur, I was nervous about the legal requirements. DoStartup&apos;s experts simplified everything and got my MSME registration done in record time!`,
                 name: "Priya Patel",
                 company: "Organic Foods Co.",
                 image: "/testimonial2.jpg",
@@ -416,7 +398,7 @@ export default function Home() {
                 className="bg-gray-800 shadow-lg rounded-xl p-6 text-left relative"
               >
                 <div className="absolute -top-6 left-6 text-5xl text-emerald-500">
-                &quot;
+                  &quot;
                 </div>
                 <p className="text-gray-300 mb-6 pt-4">{testimonial.quote}</p>
                 <div className="flex items-center">
@@ -630,7 +612,7 @@ export default function Home() {
       </section>
 
       {/* Popular Registration Packages */}
-      {/* <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
@@ -722,7 +704,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* FAQs - Enhanced */}
       <section className="py-20 bg-gradient-to-b from-white to-emerald-50">
@@ -866,11 +848,13 @@ export default function Home() {
                 "/partner3.jpg",
                 "/partner4.png",
               ].map((src, idx) => (
-                <img
+                <Image
                   key={idx}
                   src={src}
+                  width={400}
+                  height={400}
                   alt={`Partner ${idx + 1}`}
-                  className="h-16 sm:h-20 md:h-24 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="h-16 sm:h-20 md:h-24 w-auto object-contain  transition-all duration-300"
                 />
               ))}
             </div>
@@ -879,7 +863,7 @@ export default function Home() {
       </section>
 
       {/* Newsletter Signup - Enhanced */}
-      {/* <section className="py-20 bg-gray-900 text-white text-center">
+      <section className="py-20 bg-gray-900 text-white text-center">
         <div className="max-w-xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
           <p className="mt-4 text-lg text-gray-300 mb-8">
@@ -905,7 +889,7 @@ export default function Home() {
             unsubscribe at any time.
           </p>
         </div>
-      </section> */}
+      </section>
 
       {/* Footer - Enhanced */}
       {/* <footer className="bg-gray-900 text-white py-16">

@@ -315,5 +315,3 @@ export default function Types({ data }: TypesProps) {
     </div>
   );
 }
-
-          

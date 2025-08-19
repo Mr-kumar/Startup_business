@@ -145,5 +145,3 @@ const FeatureCard = ({ item }: { item: FeatureItem }) => {
     </motion.div>
   );
 };
-
-      

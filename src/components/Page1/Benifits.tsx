@@ -123,5 +123,3 @@ export default function Benefits({ items }: BenefitsProps) {
     </section>
   );
 }
-
-          

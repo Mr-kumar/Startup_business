@@ -36,7 +36,6 @@ const BusinessRegistrationForm: React.FC<Props> = ({ prefillType }) => {
     if (prefillType) {
       setFormData((prev) => ({ ...prev, registrationType: prefillType }));
     }
-    console.log(selectedType);
   }, [prefillType]);
 
   const handleChange = (field: string, value: string) => {
@@ -76,7 +75,6 @@ const BusinessRegistrationForm: React.FC<Props> = ({ prefillType }) => {
           <div>
             <Label>Registration Type</Label>
             <Select value={formData.registrationType} onValueChange={(val) => {
-              setSelectedType(val);
               handleChange("registrationType", val);
             }}>
               <SelectTrigger>

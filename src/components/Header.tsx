@@ -90,10 +90,10 @@ const Header = () => {
               name: "Company Registration",
               href: "/startup/company-registration",
             },
-            { name: "LLP Registration", href: "/startup/llp-registration" },
+            { name: "LLP Registration", href: "/private-limited-company-registration" },
             {
               name: "Public Limited Company Registration",
-              href: "/startup/public-limited",
+              href: "/private-limited-company-registration",
             },
             {
               name: "One Person Company Registration",
@@ -133,22 +133,22 @@ const Header = () => {
             },
             {
               name: "Carbon Black Manufacturing",
-              href: "/startup/carbon-black",
+              href: "/carbon-black-manufacturing-business",
             },
-            { name: "Green Hydrogen Plant", href: "/startup/green-hydrogen" },
-            { name: "Green Ammonia Plant", href: "/startup/green-ammonia" },
+            { name: "Green Hydrogen Plant", href: "/green-hydrogen-plant-setup" },
+            { name: "Green Ammonia Plant", href: "/green-ammonia" },
             {
               name: "Synthetic Rubber Business",
-              href: "/startup/synthetic-rubber",
+              href: "/synthetic-rubber-manufacturing-business-complete-guide",
             },
             {
               name: "Paper and Paperboard Packaging Industry",
-              href: "/startup/paper-packaging",
+              href: "/paper-paperboard-packaging-industry-setup-guide",
             },
-            { name: "Fermentation Industry", href: "/fermentation" },//not there
+            { name: "Fermentation Industry", href: "/fermentation-industry-setup" },
             {
-              name: "Renewable Energy Business", // not there
-              href: "/renewable-energy",
+              name: "Renewable Energy Business", 
+              href: "/start-your-renewable-energy-business-india",
             },
             {
               name: "Conversion of Pvt. Ltd. to Public Limited",
@@ -171,7 +171,6 @@ const Header = () => {
               name: "Annual Compliance of a Pvt. Ltd. Company",
               href: "/compliances-private-limited-company",
             },
-            { name: "Annual Filing for LLP", href: "/startup/llp-filing" }, //not there
             {
               name: "Event Based Compliances in a Company",
               href: "/event-based-compliances",
@@ -696,7 +695,6 @@ const Header = () => {
             },
           ],
         },
-        //pages-verified till here-himanshu
         {
           title: "Legal Services",
           description: "Legal Services and Agreements",
@@ -747,7 +745,7 @@ const Header = () => {
             { name: "Hindu Marriage Act", href: "/hindu-marriage-act" },
             { name: "Bail Application", href: "/bail-application" },
             { name: "Judicial Separation", href: "/judicial-separation" },
-            { name: "Special Leave Petition", href: "/special-leave-petition" },
+            { name: "Special Leave Petition", href: "/startup/special-leave-petition" }, //ayush-code page
             { name: "Consulting Agreement", href: "/consulting-agreement" },
             { name: "Tenant Eviction Notice", href: "/tenant-eviction-notice" },
             { name: "Vendor Agreement", href: "/vendor-agreement" },
@@ -819,11 +817,11 @@ const Header = () => {
             },
             {
               name: "Legal Metrology Manufacturer License",
-              href: "/legal-metrology-manufacturer-license",
+              href: "/legal-metrology-manufacturer-licence",
             },
             {
               name: "Legal Metrology Repairer License",
-              href: "/legal-metrology-repairer-license",
+              href: "/legal-metrology-repairer-licence",
             },
             {
               name: "Packaged Commodity Registration",
@@ -831,7 +829,7 @@ const Header = () => {
             },
             {
               name: "Legal Metrology License Renewal",
-              href: "/legal-metrology-license-renewal",
+              href: "/legal-metrology-licence-renewal",
             },
             {
               name: "Legal Metrology Compliance & Audit",
@@ -843,7 +841,7 @@ const Header = () => {
           title: "BIS",
           description: "Quality and recognition certificates",
           links: [
-            { name: "BIS Registration", href: "/bis-registration" },
+            { name: "BIS Registration", href: "/startup/bis-registration" },
             {
               name: "Eco Mark Scheme Certification",
               href: "/eco-mark-scheme-certification",
@@ -900,7 +898,7 @@ const Header = () => {
             },
             {
               name: "CDSCO Medical Device Import License",
-              href: "/cdsco-medical-device-import-license",
+              href: "/cdsco-medical-device-import-registration",
             },
             {
               name: "Cosmetic Manufacturing License",
@@ -1052,7 +1050,7 @@ const Header = () => {
             },
             {
               name: "Authorization for Export of E-waste",
-              href: "/authorization-export-e-waste",
+              href: "/export-e-waste",
             },
             {
               name: "EPR Target Fulfilment",
@@ -1060,7 +1058,7 @@ const Header = () => {
             },
             {
               name: "EPR Authorization For Battery Waste",
-              href: "/epr-authorization-battery-waste",
+              href: "/epr-battery-waste",
             },
             {
               name: "EPR Credits From Plastic Waste Recyclers",
@@ -1080,15 +1078,15 @@ const Header = () => {
             },
             {
               name: "EPR Registration for Producers and Brand Owners",
-              href: "/epr-registration-producers-brand-owners",
+              href: "/epr-registration-for-producers-and-brand-owners",
             },
             {
               name: "EPR Fulfillment in E-Waste Management",
-              href: "/epr-fulfillment-e-waste-management",
+              href: "/epr-fullfillment-e-waste-management",
             },
             {
               name: "EPR Compliance",
-              href: "/epr-compliance",
+              href: "/need-for-epr-compliance-in-india",
             },
           ],
         },
@@ -1125,23 +1123,23 @@ const Header = () => {
           links: [
             {
               name: "Solid Waste Management Authorization",
-              href: "/solid-waste-management-authorization",
+              href: "/solid-waste-management-authorisation",
             },
             {
               name: "Hazardous Waste Management Authorization",
-              href: "/hazardous-waste-management-authorization",
+              href: "/hazardous-waste-management-authorisation-domestic",
             },
             {
               name: "Authorization for Import of Hazardous Waste",
-              href: "/authorization-import-hazardous-waste",
+              href: "/authorization-for-import-of-hazardous-waste",
             },
             {
               name: "Authorization for Export of Hazardous Waste",
-              href: "/authorization-export-hazardous-waste",
+              href: "/authorization-for-export-of-hazardous-waste",
             },
             {
               name: "Bio Medical Waste Recycling Plant",
-              href: "/bio-medical-waste-recycling-plant",
+              href: "/startup/bio-medical-waste-treatment-plant",
             },
             {
               name: "Hazardous Waste Export Authorisation",
@@ -1153,11 +1151,11 @@ const Header = () => {
             },
             {
               name: "Hazardous Waste Management and Compliance Assurance",
-              href: "/hazardous-waste-compliance-assurance",
+              href: "/hazardous-waste-management-and-compliance-assurance",
             },
             {
               name: "Industrial Waste Management",
-              href: "/industrial-waste-management",
+              href: "/startup/industrialWasteContent",
             },
           ],
         },
@@ -1338,7 +1336,7 @@ const Header = () => {
             },
             {
               name: "Carbon Credit Accounting",
-              href: "/hydrogeological-survey-report",
+              href: "/carbon-credit-accounting",
             },
             {
               name: "LEED Zero Carbon Certification",
