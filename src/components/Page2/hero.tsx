@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -11,13 +11,16 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ title, description }) => {
   // Form state
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    service: '',
+    name: "",
+    email: "",
+    phone: "",
+    service: "",
+    date: "",
+    time: ""
+  
   });
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
 
   // Animation controls
   const controls = useAnimation();
@@ -69,49 +72,55 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     },
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    setMessage('');
-
+    setMessage("");
+  
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
+      const response = await fetch("/api/contact", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           ...formData,
-          pageTitle: title // Adding the title from props
+          pageTitle: title, // Adding the title from props
         }),
       });
-
+  
       if (!response.ok) {
-        throw new Error('Failed to submit form');
+        throw new Error("Failed to submit form");
       }
-
+  
       setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        date: "",   // reset
+        time: "",   // reset
       });
-      setMessage('Thank you! We will contact you shortly.');
+  
+      setMessage("Thank you! We will contact you shortly.");
     } catch (error) {
-      console.error('Error:', error);
-      setMessage('Something went wrong. Please try again.');
+      console.error("Error:", error);
+      setMessage("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
     }
   };
+  
 
   return (
     <div
@@ -182,10 +191,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
             ))}
           </motion.div>
 
-          <motion.div
-            className="flex flex-wrap gap-4"
-            variants={itemVariants}
-          >
+          <motion.div className="flex flex-wrap gap-4" variants={itemVariants}>
             <button className="px-8 py-3 bg-[#1D293D] hover:bg-[#1D293D]/90 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
               Schedule Free Consultation
             </button>
@@ -322,6 +328,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-4">
+                {/* Name */}
                 <input
                   type="text"
                   name="name"
@@ -331,6 +338,8 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   required
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                 />
+
+                {/* Email */}
                 <input
                   type="email"
                   name="email"
@@ -340,8 +349,12 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   required
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                 />
+
+                {/* Phone */}
                 <div className="flex overflow-hidden rounded-lg border border-gray-200 focus-within:ring-2 focus-within:ring-[#7DD756] focus-within:border-transparent transition-all duration-200">
-                  <span className="px-4 py-3 bg-gray-100 text-gray-600">+91</span>
+                  <span className="px-4 py-3 bg-gray-100 text-gray-600">
+                    +91
+                  </span>
                   <input
                     type="tel"
                     name="phone"
@@ -352,6 +365,8 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                     className="w-full px-4 py-3 bg-transparent focus:outline-none"
                   />
                 </div>
+
+                {/* Service */}
                 <select
                   name="service"
                   value={formData.service}
@@ -360,13 +375,43 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200"
                 >
                   <option value="">Select Service</option>
-                  <option value="Business Registration">Business Registration</option>
+                  <option value="Business Registration">
+                    Business Registration
+                  </option>
                   <option value="Legal Consultation">Legal Consultation</option>
                   <option value="Tax Services">Tax Services</option>
                   <option value="Compliance">Compliance</option>
                 </select>
+
+                {/* Date + Time Row */}
+                <div className="flex space-x-4">
+                  {/* Date */}
+                  <div className="flex-1">
+                    <input
+                      type="date"
+                      name="date"
+                      value={formData.date}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
+                    />
+                  </div>
+
+                  {/* Time */}
+                  <div className="w-28 relative">
+                    <input
+                      type="time"
+                      name="time"
+                      value={formData.time}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-4 py-3 pr-4 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
+                    />
+                  </div>
+                </div>
               </div>
 
+              {/* WhatsApp Updates */}
               <div className="flex items-center">
                 <input
                   id="whatsapp-updates"
@@ -388,6 +433,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                 </label>
               </div>
 
+              {/* Submit Button */}
               <button
                 type="submit"
                 disabled={loading}
@@ -395,15 +441,21 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
               >
                 {loading ? "SUBMITTING..." : "GET STARTED NOW"}
               </button>
+
               {message && (
-                <div className={`mt-2 text-sm text-center ${message.includes('error') ? 'text-red-600' : 'text-green-600'}`}>
+                <div
+                  className={`mt-2 text-sm text-center ${
+                    message.includes("error")
+                      ? "text-red-600"
+                      : "text-green-600"
+                  }`}
+                >
                   {message}
                 </div>
               )}
             </form>
 
             <div className="mt-6 flex items-center justify-center">
-              
               <p className="ml-2 text-sm text-gray-600">
                 Rated 4.9 by 42,817+ Customers
               </p>

@@ -136,7 +136,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-800 scroll-smooth">
       {/* WhatsApp Icon */}
-      <a
+      {/* <a
         href="https://api.whatsapp.com/send?phone=9999644807&text=Hello,%20DoStartup"
         target="_blank"
         rel="noopener noreferrer"
@@ -145,7 +145,7 @@ export default function Home() {
         <div className="fixed bottom-10 right-10 z-50 h-[60px] w-[60px] md:h-[70px] md:w-[70px] drop-shadow-lg">
           <Image src="/whatsapp2.png" alt="whatsapp" width={60} height={60} />
         </div>
-      </a>
+      </a> */}
 
       {/* Hero Section */}
       <section className="relative h-[91vh] flex items-center justify-center overflow-hidden">
