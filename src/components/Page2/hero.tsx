@@ -14,10 +14,9 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     name: "",
     email: "",
     phone: "",
-    service: "",
+    state: "",
     date: "",
-    time: ""
-  
+    time: "",
   });
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
@@ -86,7 +85,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     e.preventDefault();
     setLoading(true);
     setMessage("");
-  
+
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -98,20 +97,20 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
           pageTitle: title, // Adding the title from props
         }),
       });
-  
+
       if (!response.ok) {
         throw new Error("Failed to submit form");
       }
-  
+
       setFormData({
         name: "",
         email: "",
         phone: "",
-        service: "",
-        date: "",   // reset
-        time: "",   // reset
+        state: "",
+        date: "", // reset
+        time: "", // reset
       });
-  
+
       setMessage("Thank you! We will contact you shortly.");
     } catch (error) {
       console.error("Error:", error);
@@ -120,7 +119,6 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       setLoading(false);
     }
   };
-  
 
   return (
     <div
@@ -366,24 +364,60 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   />
                 </div>
 
-                {/* Service */}
+                {/* State / UT */}
                 <select
-                  name="service"
-                  value={formData.service}
+                  name="state"
+                  value={formData.state}
                   onChange={handleInputChange}
                   required
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200"
                 >
-                  <option value="">Select Service</option>
-                  <option value="Business Registration">
-                    Business Registration
+                  <option value="">Select State / Union Territory</option>
+                  {/* States */}
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                  <option value="Assam">Assam</option>
+                  <option value="Bihar">Bihar</option>
+                  <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                  <option value="Jharkhand">Jharkhand</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Manipur">Manipur</option>
+                  <option value="Meghalaya">Meghalaya</option>
+                  <option value="Mizoram">Mizoram</option>
+                  <option value="Nagaland">Nagaland</option>
+                  <option value="Odisha">Odisha</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Sikkim">Sikkim</option>
+                  <option value="Tamil Nadu">Tamil Nadu</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="Tripura">Tripura</option>
+                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                  <option value="Uttarakhand">Uttarakhand</option>
+                  <option value="West Bengal">West Bengal</option>
+
+                  {/* Union Territories */}
+                  <option value="Andaman and Nicobar Islands">
+                    Andaman and Nicobar Islands
                   </option>
-                  <option value="Legal Consultation">Legal Consultation</option>
-                  <option value="Tax Services">Tax Services</option>
-                  <option value="Compliance">Compliance</option>
+                  <option value="Chandigarh">Chandigarh</option>
+                  <option value="Dadra and Nagar Haveli and Daman and Diu">
+                    Dadra and Nagar Haveli and Daman and Diu
+                  </option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                  <option value="Ladakh">Ladakh</option>
+                  <option value="Lakshadweep">Lakshadweep</option>
+                  <option value="Puducherry">Puducherry</option>
                 </select>
 
-                {/* Date + Time Row */}
                 <div className="flex space-x-4">
                   {/* Date */}
                   <div className="flex-1">
@@ -393,6 +427,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                       value={formData.date}
                       onChange={handleInputChange}
                       required
+                      min={new Date().toISOString().split("T")[0]} // ✅ Prevent past dates
                       className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                     />
                   </div>

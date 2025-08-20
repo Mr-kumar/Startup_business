@@ -27,8 +27,8 @@ export default async function GstPage({ params }: PageProps) {
     <div>
 
       <Overview data={currentPage.overview} />
-      <Registration />
-      <Features heading="" subheading="" items={currentPage.features} />
+      <Registration title={currentPage.overview.heading}/>
+      <Features items={currentPage.features} />
       <Benefits items={currentPage.benefits} />
       <Documents data={currentPage.documents} />
       <Eligibility sections={currentPage.eligibility} />
