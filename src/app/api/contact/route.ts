@@ -208,7 +208,7 @@ export async function POST(request:Request) {
     // Insert event: conferenceDataVersion=1 is required to create the Meet link.
     const insertRes = await calendar.events.insert({
       calendarId: process.env.OWNER_CALENDAR_ID || "primary",
-      resource: eventResource,
+      requestBody: eventResource,
       conferenceDataVersion: 1,
       sendUpdates: "none", // we control emails separately
     });
