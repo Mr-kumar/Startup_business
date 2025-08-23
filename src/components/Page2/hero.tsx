@@ -19,13 +19,19 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     time: "",
   });
   // OTP state
-  const [otpStep, setOtpStep] = useState<'form' | 'otp' | 'success'>('form');
-  const [otp, setOtp] = useState('');
+  const [otpStep, setOtpStep] = useState<"form" | "otp" | "success">("form");
+  const [otp, setOtp] = useState("");
   const [otpLoading, setOtpLoading] = useState(false);
   const [countdown, setCountdown] = useState(0);
 
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+  // add near your other useState lines
+  const MAX_OTP_ATTEMPTS = 3;
+  const LOCKOUT_SECONDS = 2 * 60; // 2 minutes lockout
+  const [otpAttempts, setOtpAttempts] = useState<number>(0);
+  const [lockedUntil, setLockedUntil] = useState<number | null>(null);
+  const [lockRemaining, setLockRemaining] = useState(0);
 
   // Animation controls
   const controls = useAnimation();
@@ -41,7 +47,6 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       controls.start("hidden");
     }
   }, [controls, inView]);
-
 
   // Countdown for OTP
   useEffect(() => {
@@ -87,6 +92,28 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     },
   };
 
+  useEffect(() => {
+    const v = localStorage.getItem("otpLockedUntil");
+    if (v) setLockedUntil(parseInt(v, 10));
+  }, []);
+
+  // Countdown timer for OTP resend
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    if (countdown > 0) {
+      timer = setTimeout(() => setCountdown(countdown - 1), 1000);
+    }
+    return () => clearTimeout(timer);
+  }, [countdown]);
+
+  useEffect(() => {
+    if (lockedUntil) {
+      localStorage.setItem("otpLockedUntil", String(lockedUntil));
+    } else {
+      localStorage.removeItem("otpLockedUntil");
+    }
+  }, [lockedUntil]);
+
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
@@ -102,74 +129,109 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       setMessage("Please enter your email address");
       return;
     }
-
     setOtpLoading(true);
     setMessage("");
-
     try {
-      const response = await fetch("/api/send-otp", {
+      const res = await fetch("/api/send-otp", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: formData.email }),
       });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || "Failed to send OTP");
-      }
-
-      setOtpStep('otp');
-      setCountdown(60); // 60 seconds countdown
+      if (!res.ok)
+        throw new Error((await res.json()).error || "Failed to send OTP");
+      setOtpStep("otp");
+      setCountdown(60);
       setMessage("OTP sent to your email address");
-    } catch (error: any) {
-      console.error("Error sending OTP:", error);
-      setMessage(error.message || "Failed to send OTP. Please try again.");
+      // reset client-side attempt state when a fresh OTP is issued
+      setOtpAttempts(0);
+      setLockedUntil(null);
+    } catch (err: any) {
+      setMessage(err.message || "Failed to send OTP. Please try again.");
     } finally {
       setOtpLoading(false);
     }
   };
+  // countdown updater
+  useEffect(() => {
+    if (!lockedUntil) {
+      setLockRemaining(0);
+      return;
+    }
+
+    const tick = () => {
+      const rem = Math.max(0, Math.ceil((lockedUntil - Date.now()) / 1000));
+      setLockRemaining(rem);
+
+      if (rem === 0) {
+        setLockedUntil(null);
+        setOtpAttempts(0); // reset attempts when lock expires
+      }
+    };
+
+    tick(); // run immediately
+    const id = setInterval(tick, 1000);
+    return () => clearInterval(id);
+  }, [lockedUntil]);
 
   const verifyOTP = async () => {
+    if (lockedUntil && Date.now() < lockedUntil) {
+      setMessage(`Too many failed attempts. Try again after ${lockRemaining}s`);
+      return;
+    }
+
     if (!otp || otp.length !== 6) {
       setMessage("Please enter a valid 6-digit OTP");
       return;
     }
 
+    if (otpAttempts >= MAX_OTP_ATTEMPTS) {
+      const until = Date.now() + LOCKOUT_SECONDS * 1000;
+      setLockedUntil(until);
+      setMessage(
+        `Too many failed attempts. Locked for ${LOCKOUT_SECONDS / 60} minutes.`
+      );
+      return;
+    }
+
     setOtpLoading(true);
     setMessage("");
-
     try {
       const response = await fetch("/api/send-otp", {
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: formData.email, otp }),
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || "Invalid OTP");
+        const errorData = await response
+          .json()
+          .catch(() => ({ error: "Invalid OTP" }));
+        setOtpAttempts((prev) => {
+          const next = prev + 1;
+          if (next >= MAX_OTP_ATTEMPTS) {
+            setLockedUntil(Date.now() + LOCKOUT_SECONDS * 1000);
+            setMessage(
+              `Too many failed attempts. Locked for ${
+                LOCKOUT_SECONDS / 60
+              } minutes.`
+            );
+          } else {
+            setMessage(errorData.error || "Invalid OTP. Please try again.");
+          }
+          return next;
+        });
+        return;
       }
 
-      // Mark email as verified in the contact API
+      // success path
       await fetch("/api/contact", {
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: formData.email }),
       });
-
       setMessage("Email verified successfully!");
-
-      // Proceed with form submission
       await submitForm();
-
     } catch (error: any) {
-      console.error("Error verifying OTP:", error);
       setMessage(error.message || "Invalid OTP. Please try again.");
     } finally {
       setOtpLoading(false);
@@ -205,8 +267,10 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
         time: "",
       });
 
-      setOtpStep('success');
-      setMessage("Thank you! Your consultation has been confirmed. Check your email for details.");
+      setOtpStep("success");
+      setMessage(
+        "Thank you! Your consultation has been confirmed. Check your email for details."
+      );
     } catch (error) {
       console.error("Error:", error);
       setMessage("Something went wrong. Please try again.");
@@ -222,13 +286,29 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
 
   const resendOTP = async () => {
     if (countdown > 0) return;
+    setOtp("");
+
     await sendOTP();
   };
 
   const goBackToForm = () => {
-    setOtpStep('form');
-    setOtp('');
-    setMessage('');
+    setOtpStep("form");
+    setOtp("");
+    setMessage("");
+  };
+
+  const resetToForm = () => {
+    setOtpStep("form");
+    setOtp("");
+    setMessage("");
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      state: "",
+      date: "",
+      time: "",
+    });
   };
 
   return (
@@ -412,7 +492,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
           }}
         >
           {/* Ribbon */}
-          <div className="absolute -top-4 -right-4 z-10">
+          {/* <div className="absolute -top-4 -right-4 z-10">
             <div className="relative bg-[#7DD756] text-white px-6 py-2 rounded-lg shadow-xl">
               <div className="text-center font-bold">
                 <p className="text-sm leading-tight">
@@ -422,7 +502,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
               </div>
               <div className="absolute -bottom-2 right-0 w-0 h-0 border-l-8 border-l-transparent border-t-8 border-t-[#7DD756] border-r-8 border-r-transparent"></div>
             </div>
-          </div>
+          </div> */}
 
           {/* Form Container */}
           <div className="bg-white rounded-xl shadow-xl p-6 border border-gray-100 relative overflow-hidden">
@@ -430,29 +510,42 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1D293D] to-[#7DD756]"></div>
             <div className="flex items-center justify-center mb-6">
               <div className="flex items-center">
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${otpStep === 'form' ? 'bg-[#7DD756] text-white' : 'bg-gray-200 text-gray-600'
-                  }`}>
+                <div
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
+                    otpStep === "form"
+                      ? "bg-[#7DD756] text-white"
+                      : "bg-gray-200 text-gray-600"
+                  }`}
+                >
                   1
                 </div>
                 <div className="w-12 h-1 bg-gray-200 mx-2"></div>
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${otpStep === 'otp' ? 'bg-[#7DD756] text-white' : 'bg-gray-200 text-gray-600'
-                  }`}>
+                <div
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
+                    otpStep === "otp"
+                      ? "bg-[#7DD756] text-white"
+                      : "bg-gray-200 text-gray-600"
+                  }`}
+                >
                   2
                 </div>
                 <div className="w-12 h-1 bg-gray-200 mx-2"></div>
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${otpStep === 'success' ? 'bg-[#7DD756] text-white' : 'bg-gray-200 text-gray-600'
-                  }`}>
+                <div
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
+                    otpStep === "success"
+                      ? "bg-[#7DD756] text-white"
+                      : "bg-gray-200 text-gray-600"
+                  }`}
+                >
                   ✓
                 </div>
               </div>
             </div>
 
-
-
             <div className="absolute top-4 right-4 w-16 h-16 rounded-full bg-[#7DD756]/10 -z-1"></div>
             <div className="absolute bottom-4 left-4 w-12 h-12 rounded-full bg-[#1D293D]/10 -z-1"></div>
 
-            {otpStep === 'form' && (
+            {otpStep === "form" && (
               <>
                 <h3 className="text-2xl font-bold text-center text-[#1D293D] mb-6">
                   Free Consultation by Expert
@@ -509,7 +602,9 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                       <option value="">Select State / Union Territory</option>
                       {/* States */}
                       <option value="Andhra Pradesh">Andhra Pradesh</option>
-                      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                      <option value="Arunachal Pradesh">
+                        Arunachal Pradesh
+                      </option>
                       <option value="Assam">Assam</option>
                       <option value="Bihar">Bihar</option>
                       <option value="Chhattisgarh">Chhattisgarh</option>
@@ -546,7 +641,9 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                         Dadra and Nagar Haveli and Daman and Diu
                       </option>
                       <option value="Delhi">Delhi</option>
-                      <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                      <option value="Jammu and Kashmir">
+                        Jammu and Kashmir
+                      </option>
                       <option value="Ladakh">Ladakh</option>
                       <option value="Lakshadweep">Lakshadweep</option>
                       <option value="Puducherry">Puducherry</option>
@@ -607,16 +704,15 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   <button
                     type="submit"
                     disabled={otpLoading}
-                    className="w-full py-3 px-6 bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:transform-none"
+                    className="w-full py-3 px-6 cursor-pointer bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:transform-none"
                   >
                     {otpLoading ? "SENDING OTP..." : "VERIFY EMAIL & PROCEED"}
                   </button>
-
                 </form>
               </>
             )}
 
-            {otpStep === 'otp' && (
+            {otpStep === "otp" && (
               <>
                 <h3 className="text-2xl font-bold text-center text-[#1D293D] mb-4">
                   Verify Your Email
@@ -629,7 +725,9 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   <input
                     type="text"
                     value={otp}
-                    onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                    onChange={(e) =>
+                      setOtp(e.target.value.replace(/\D/g, "").slice(0, 6))
+                    }
                     placeholder="Enter 6-digit OTP"
                     maxLength={6}
                     className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200 text-center text-2xl font-bold tracking-widest"
@@ -638,10 +736,18 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   <div className="flex space-x-3">
                     <button
                       onClick={verifyOTP}
-                      disabled={otpLoading || otp.length !== 6}
-                      className="flex-1 py-3 px-6 bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 disabled:opacity-50"
+                      disabled={
+                        otpLoading ||
+                        otp.length !== 6 ||
+                        (lockedUntil !== null && Date.now() < lockedUntil) // force boolean
+                      }
+                      className="flex-1 py-3 px-6 cursor-pointer bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 disabled:opacity-50"
                     >
-                      {otpLoading ? "VERIFYING..." : "VERIFY OTP"}
+                      {lockedUntil !== null && Date.now() < lockedUntil
+                        ? `Locked (${lockRemaining}s)`
+                        : otpLoading
+                        ? "VERIFYING..."
+                        : "VERIFY OTP"}
                     </button>
                   </div>
 
@@ -649,14 +755,16 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                     <button
                       onClick={resendOTP}
                       disabled={countdown > 0}
-                      className="text-[#1D293D] hover:text-[#7DD756] font-medium disabled:text-gray-400 disabled:cursor-not-allowed"
+                      className="text-[#1D293D] hover:text-[#7DD756] font-medium disabled:text-gray-400 disabled:cursor-not-allowed cursor-pointer"
                     >
-                      {countdown > 0 ? `Resend OTP in ${countdown}s` : "Resend OTP"}
+                      {countdown > 0
+                        ? `Resend OTP in ${countdown}s`
+                        : "Resend OTP"}
                     </button>
                     <br />
                     <button
                       onClick={goBackToForm}
-                      className="text-gray-600 hover:text-[#1D293D] text-sm"
+                      className="text-gray-600 hover:text-[#1D293D] text-sm cursor-pointer"
                     >
                       ← Change Email Address
                     </button>
@@ -665,22 +773,35 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
               </>
             )}
 
-            {otpStep === 'success' && (
+            {otpStep === "success" && (
               <div className="text-center space-y-4">
                 <div className="w-16 h-16 bg-[#7DD756] rounded-full flex items-center justify-center mx-auto">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  <svg
+                    className="w-8 h-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-[#1D293D]">Consultation Confirmed!</h3>
+                <h3 className="text-2xl font-bold text-[#1D293D]">
+                  Consultation Confirmed!
+                </h3>
                 <p className="text-gray-600">
-                  Your consultation has been booked successfully. Please check your email for the meeting details.
+                  Your consultation has been booked successfully. Please check
+                  your email for the meeting details.
                 </p>
                 <button
                   onClick={() => {
-                    setOtpStep('form');
-                    setOtp('');
-                    setMessage('');
+                    setOtpStep("form");
+                    setOtp("");
+                    setMessage("");
                   }}
                   className="mt-4 px-6 py-2 text-[#1D293D] border border-[#1D293D] rounded-lg hover:bg-[#1D293D] hover:text-white transition-all duration-300"
                 >
@@ -691,16 +812,19 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
 
             {message && (
               <div
-                className={`mt-4 text-sm text-center p-3 rounded-lg ${message.includes("error") || message.includes("Failed") || message.includes("Invalid")
+                className={`mt-4 text-sm text-center p-3 rounded-lg ${
+                  message.includes("error") ||
+                  message.includes("Failed") ||
+                  message.includes("Invalid")
                     ? "bg-red-50 text-red-600 border border-red-200"
                     : "bg-green-50 text-green-600 border border-green-200"
-                  }`}
+                }`}
               >
                 {message}
               </div>
             )}
 
-            {otpStep === 'form' && (
+            {otpStep === "form" && (
               <div className="mt-6 flex items-center justify-center">
                 <p className="ml-2 text-sm text-gray-600">
                   Rated 4.9 by 42,817+ Customers
