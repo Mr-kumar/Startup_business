@@ -289,7 +289,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "In India, all Food Business Operators (FBOs) holding an FSSAI license — including manufacturers, importers, packers, and labellers — are required to file an FSSAI Annual Return. This mandatory compliance ensures that businesses report crucial details regarding their food production, storage, handling, and distribution activities to the Food Safety and Standards Authority of India (FSSAI) every year.",
         "As per the latest FSSAI guidelines, filing the FSSAI Annual Return must be done online, promoting greater transparency and regulatory compliance across the food sector. Timely filing of the FSSAI return is not only a legal obligation but also a sign of a responsible and compliant food business.",
-        "Facing challenges in filing your FSSAI Annual Return? Connect with our experts at Ctax for professional assistance and seamless support in FSSAI Annual Return filing.",
+        "Facing challenges in filing your FSSAI Annual Return? Connect with our experts at DoStartup for professional assistance and seamless support in FSSAI Annual Return filing.",
       ],
     },
     features: [],
@@ -365,7 +365,7 @@ export const pageContent: Record<string, PageContentType> = {
     services: [
       {
         title: "Expert Assistance",
-        desc: "Connect with our experts at Ctax for professional assistance and seamless support in FSSAI Annual Return filing.",
+        desc: "Connect with our experts at DoStartup for professional assistance and seamless support in FSSAI Annual Return filing.",
       },
     ],
     faqs: [
@@ -1135,8 +1135,8 @@ export const pageContent: Record<string, PageContentType> = {
       heading: "Why Choose Mauritius for Company Registration?",
       paragraphs: [
         "Mauritius, a thriving island nation in the Indian Ocean near Africa’s southeastern coast, has emerged as a top destination not just for tourism but for international business ventures. With its pro-business policies, strategic location, and stable political environment, Mauritius offers an ideal setting for entrepreneurs looking to expand globally.",
-        "At Ctax, we simplify the process of company registration in Mauritius, helping you take advantage of its investor-friendly ecosystem, competitive tax rates, and well-developed financial infrastructure. The country’s transparent legal system and access to multiple international trade agreements make it a preferred gateway for businesses targeting African and Asian markets.",
-        "Registering a company in Mauritius enhances your global credibility while offering flexibility, tax efficiency, and ease of doing business. Let Ctax handle the complexities so you can focus on growing your business with confidence.",
+        "At DoStartup, we simplify the process of company registration in Mauritius, helping you take advantage of its investor-friendly ecosystem, competitive tax rates, and well-developed financial infrastructure. The country’s transparent legal system and access to multiple international trade agreements make it a preferred gateway for businesses targeting African and Asian markets.",
+        "Registering a company in Mauritius enhances your global credibility while offering flexibility, tax efficiency, and ease of doing business. Let DoStartup handle the complexities so you can focus on growing your business with confidence.",
       ],
     },
 
@@ -1409,7 +1409,7 @@ export const pageContent: Record<string, PageContentType> = {
       {
         question: "What support services are available?",
         answer:
-          "Business advisory, corporate service providers, banking partners, compliance consultants, virtual offices, and government investment incentives via Ctax.",
+          "Business advisory, corporate service providers, banking partners, compliance consultants, virtual offices, and government investment incentives via DoStartup.",
       },
     ],
 
@@ -1722,7 +1722,7 @@ export const pageContent: Record<string, PageContentType> = {
       paragraphs: [
         "Sri Lanka has emerged as a preferred destination for global entrepreneurs seeking to register a company in a strategically located and business‑friendly environment. Positioned in the heart of the Indian Ocean, the island offers seamless access to key regional and international markets, making it an ideal hub for international trade and investment.",
         "Beyond its natural beauty and appeal to tourists, Sri Lanka provides a thriving economic landscape supported by investor‑friendly policies, attractive tax incentives, sector‑specific exemptions, and investment holidays. These benefits make it easier for foreign investors to establish a cost‑effective and profitable presence.",
-        "Entrepreneurs also gain access to a well‑educated and skilled workforce, a growing consumer base, and several free trade agreements that streamline cross‑border business operations. With a straightforward incorporation process and the expert guidance of Ctax professionals, setting up a business in Sri Lanka becomes a smooth and rewarding journey.",
+        "Entrepreneurs also gain access to a well‑educated and skilled workforce, a growing consumer base, and several free trade agreements that streamline cross‑border business operations. With a straightforward incorporation process and the expert guidance of DoStartup professionals, setting up a business in Sri Lanka becomes a smooth and rewarding journey.",
       ],
     },
 
