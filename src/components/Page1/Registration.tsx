@@ -4,7 +4,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import { FaRegHandshake } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const WHATSAPP_NUMBER = "919999999999"; // Configurable WhatsApp number
+// const WHATSAPP_NUMBER = "919999999999"; 
 
 interface RegisterProps {
   title: string;
@@ -24,7 +24,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
   // const [whatsappConsent, setWhatsappConsent] = useState(true);
   // const [isSubmitted, setIsSubmitted] = useState(false);
   // const [isLoading, setIsLoading] = useState(false);
-  const [activeFeature] = useState(0);
+  // const [activeFeature] = useState(0);
 
   const features = [
     "Personalized Expert Guidance",
