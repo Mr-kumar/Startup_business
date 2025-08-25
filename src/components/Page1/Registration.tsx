@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
-import { FaWhatsapp, FaRegHandshake } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import { FaRegHandshake } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const WHATSAPP_NUMBER = "919999999999"; // Configurable WhatsApp number
 
@@ -21,9 +21,9 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
   });
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
-  const [whatsappConsent, setWhatsappConsent] = useState(true);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  // const [whatsappConsent, setWhatsappConsent] = useState(true);
+  // const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
   const [activeFeature] = useState(0);
 
   const features = [
