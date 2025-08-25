@@ -136,7 +136,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-800 scroll-smooth">
       {/* WhatsApp Icon */}
-      <a
+      {/* <a
         href="https://api.whatsapp.com/send?phone=9999644807&text=Hello,%20DoStartup"
         target="_blank"
         rel="noopener noreferrer"
@@ -145,7 +145,7 @@ export default function Home() {
         <div className="fixed bottom-10 right-10 z-50 h-[60px] w-[60px] md:h-[70px] md:w-[70px] drop-shadow-lg">
           <Image src="/whatsapp2.png" alt="whatsapp" width={60} height={60} />
         </div>
-      </a>
+      </a> */}
 
       {/* Hero Section */}
       <section className="relative h-[91vh] flex items-center justify-center overflow-hidden">
@@ -820,47 +820,7 @@ export default function Home() {
       </section>
 
       {/* Partners Section - Enhanced */}
-      <section className="py-20 bg-white text-center overflow-hidden">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Our Trusted Partners
-          </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto mb-10">
-            We collaborate with leading organizations to provide the best
-            services to our clients.
-          </p>
-          <div className="relative w-full overflow-hidden">
-            <div className="flex gap-16 animate-scroll whitespace-nowrap">
-              {[
-                "/partner1.jpg",
-                "/partner2.jpg",
-                "/partner3.jpg",
-                "/partner4.png",
-                "/partner5.jpg",
-                "/partner6.jpg",
-                "/partner7.jpg",
-                "/partner8.jpg",
-                "/partner9.jpg",
-                "/partner10.jpg",
-                // Repeating for seamless loop
-                "/partner1.jpg",
-                "/partner2.jpg",
-                "/partner3.jpg",
-                "/partner4.png",
-              ].map((src, idx) => (
-                <Image
-                  key={idx}
-                  src={src}
-                  width={400}
-                  height={400}
-                  alt={`Partner ${idx + 1}`}
-                  className="h-16 sm:h-20 md:h-24 w-auto object-contain  transition-all duration-300"
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Newsletter Signup - Enhanced */}
       <section className="py-20 bg-gray-900 text-white text-center">
