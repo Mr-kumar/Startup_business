@@ -219,7 +219,7 @@ export async function POST(request:Request) {
     let meetLink = null;
     if (returnedEvent.conferenceData && returnedEvent.conferenceData.entryPoints) {
       const videoEntry = returnedEvent.conferenceData.entryPoints.find(
-        (e:any) => e.entryPointType === "video"
+        (e) => e.entryPointType === "video"
       );
       meetLink = videoEntry?.uri || null;
     }
