@@ -232,7 +232,7 @@ export async function POST(request:Request) {
     let meetLink = null;
     if (returnedEvent.conferenceData && returnedEvent.conferenceData.entryPoints) {
       const videoEntry = returnedEvent.conferenceData.entryPoints.find(
-        (e:any) => e.entryPointType === "video"
+        (e) => e && typeof e.entryPointType === "string" && e.entryPointType === "video"
       );
       meetLink = videoEntry?.uri || null;
     }
@@ -341,7 +341,7 @@ export async function PUT(request: Request) {
     const { email } = await request.json();
     verifiedEmails.add(email);
     return NextResponse.json({ message: "Email marked as verified" }, { status: 200 });
-  } catch (error) {
-    return NextResponse.json({ error: "Failed to mark email as verified" }, { status: 500 });
+  } catch {
+  return NextResponse.json({ error: "Failed to mark email as verified" }, { status: 500 });
   }
 }

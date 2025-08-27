@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
-import { FaWhatsapp, FaRegHandshake } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import {  FaRegHandshake } from "react-icons/fa";
+import { motion } from "framer-motion";
 
-const WHATSAPP_NUMBER = "919999999999"; // Configurable WhatsApp number
+// const WHATSAPP_NUMBER = "919999999999"; // Configurable WhatsApp number
 
 interface RegisterProps {
   title: string;
@@ -28,6 +28,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
   const [countdown, setCountdown] = useState(0);
 
   const [loading, setLoading] = useState(false);
+  console.log(loading)
   const [message, setMessage] = useState("");
   // const [whatsappConsent, setWhatsappConsent] = useState(true);
   // const [isSubmitted, setIsSubmitted] = useState(false);
@@ -104,9 +105,13 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
       // reset client-side attempt state when a fresh OTP is issued
       setOtpAttempts(0);
       setLockedUntil(null);
-    } catch (err: any) {
-      setMessage(err.message || "Failed to send OTP. Please try again.");
-    } finally {
+    }catch (err: unknown) {
+      if (err instanceof Error) {
+        setMessage(err.message || "Failed to send OTP. Please try again.");
+      } else {
+        setMessage("Failed to send OTP. Please try again.");
+      }
+    }finally {
       setOtpLoading(false);
     }
   };
@@ -191,9 +196,13 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
       });
       setMessage("Email verified successfully!");
       await submitForm();
-    } catch (error: any) {
-      setMessage(error.message || "Invalid OTP. Please try again.");
-    } finally {
+        } catch (error: unknown) {
+      if (error instanceof Error) {
+        setMessage(error.message || "Invalid OTP. Please try again.");
+      } else {
+        setMessage("Invalid OTP. Please try again.");
+      }
+    }finally {
       setOtpLoading(false);
     }
   };
@@ -558,7 +567,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
                     Verify Your Email
                   </h3>
                   <p className="text-center text-gray-600 mb-6">
-                    We've sent a 6-digit OTP to{" "}
+                    We&apos;ve sent a 6-digit OTP to{" "}
                     <strong>{formData.email}</strong>
                   </p>
 
@@ -667,7 +676,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
               {otpStep === "form" && (
                 <div className="mt-6 flex items-center justify-center">
                   <p className="ml-2 text-sm text-gray-600">
-                    Rated 4.9 by 42,817+ Customers
+                    Rated 4.9 by 42,817&#43; Customers
                   </p>
                 </div>
               )}

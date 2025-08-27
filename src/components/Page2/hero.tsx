@@ -25,6 +25,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
   const [countdown, setCountdown] = useState(0);
 
   const [loading, setLoading] = useState(false);
+  console.log(loading)
   const [message, setMessage] = useState("");
   // add near your other useState lines
   const MAX_OTP_ATTEMPTS = 3;
@@ -145,9 +146,13 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       // reset client-side attempt state when a fresh OTP is issued
       setOtpAttempts(0);
       setLockedUntil(null);
-    } catch (err: any) {
-      setMessage(err.message || "Failed to send OTP. Please try again.");
-    } finally {
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        setMessage(err.message || "Failed to send OTP. Please try again.");
+      } else {
+        setMessage("Failed to send OTP. Please try again.");
+      }
+    }finally {
       setOtpLoading(false);
     }
   };
@@ -231,8 +236,12 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       });
       setMessage("Email verified successfully!");
       await submitForm();
-    } catch (error: any) {
-      setMessage(error.message || "Invalid OTP. Please try again.");
+    }catch (error: unknown) {
+      if (error instanceof Error) {
+        setMessage(error.message || "Invalid OTP. Please try again.");
+      } else {
+        setMessage("Invalid OTP. Please try again.");
+      }
     } finally {
       setOtpLoading(false);
     }
@@ -297,19 +306,19 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     setMessage("");
   };
 
-  const resetToForm = () => {
-    setOtpStep("form");
-    setOtp("");
-    setMessage("");
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      state: "",
-      date: "",
-      time: "",
-    });
-  };
+  // const resetToForm = () => {
+  //   setOtpStep("form");
+  //   setOtp("");
+  //   setMessage("");
+  //   setFormData({
+  //     name: "",
+  //     email: "",
+  //     phone: "",
+  //     state: "",
+  //     date: "",
+  //     time: "",
+  //   });
+  // };
 
   return (
     <div
@@ -718,7 +727,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                   Verify Your Email
                 </h3>
                 <p className="text-center text-gray-600 mb-6">
-                  We've sent a 6-digit OTP to <strong>{formData.email}</strong>
+                  We&#43;ve sent a 6-digit OTP to <strong>{formData.email}</strong>
                 </p>
 
                 <div className="space-y-4">
@@ -826,9 +835,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
 
             {otpStep === "form" && (
               <div className="mt-6 flex items-center justify-center">
-                <p className="ml-2 text-sm text-gray-600">
-                  Rated 4.9 by 42,817+ Customers
-                </p>
+                <p>Rated 4.9 by 42,817&#43; Customers</p>
               </div>
             )}
           </div>
