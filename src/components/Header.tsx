@@ -89,18 +89,18 @@ const Header = () => {
           links: [
             {
               name: "Company Registration",
-              href: "/startup/company-registration",
+              href: "/private-limited-company-registration",
             },
-            { name: "LLP Registration", href: "/private-limited-company-registration" },
+            { name: "LLP Registration", href: "/LLPRegistrationPage" },
             {
               name: "Public Limited Company Registration",
-              href: "/private-limited-company-registration",
+              href: "/PublicLimitedCompanyPage",
             },
             {
               name: "One Person Company Registration",
               href: "/startup/opc-registration",
             },
-            {
+            { 
               name: "Partnership Firm Registration",
               href: "/startup/partnership-firm-registration",
             },
@@ -110,7 +110,7 @@ const Header = () => {
             },
             {
               name: "Nidhi Company Registration",
-              href: "nidhi-company-registration",
+              href: "/nidhi-company-registration",
             },
             {
               name: "Producer Company Registration",

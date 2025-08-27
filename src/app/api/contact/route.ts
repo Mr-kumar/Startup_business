@@ -146,6 +146,7 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 import { google } from "googleapis";
 
+const verifiedEmails = new Set<string>();
 export async function POST(request:Request) {
   try {
     const {
@@ -156,8 +157,18 @@ export async function POST(request:Request) {
       date, // expected format: "YYYY-MM-DD"
       time, // expected format: "HH:mm" (24h)
       pageTitle,
-      durationMinutes // optional, number
+      durationMinutes, // optional, number
+      isEmailVerified
     } = await request.json();
+
+    if (!isEmailVerified || !verifiedEmails.has(email)) {
+      return NextResponse.json(
+        { error: "Email verification required" },
+        { status: 400 }
+      );
+    }
+
+    verifiedEmails.delete(email);
 
     // ---------- Build start/end datetimes ----------
     // We'll parse as local time and fallback to 30 minutes if duration not supplied.
@@ -215,11 +226,13 @@ export async function POST(request:Request) {
 
     const returnedEvent = insertRes.data;
 
+    
+
     // ---------- Extract Meet link ----------
     let meetLink = null;
     if (returnedEvent.conferenceData && returnedEvent.conferenceData.entryPoints) {
       const videoEntry = returnedEvent.conferenceData.entryPoints.find(
-        (e) => e.entryPointType === "video"
+        (e) => e && typeof e.entryPointType === "string" && e.entryPointType === "video"
       );
       meetLink = videoEntry?.uri || null;
     }
@@ -315,8 +328,20 @@ export async function POST(request:Request) {
       { message: "Email(s) sent successfully", meetLink, eventId: returnedEvent.id },
       { status: 200 }
     );
+
+    
   } catch (error) {
     console.error("Error sending email / creating event:", error);
     return NextResponse.json({ error: "Failed to send email or create Meet" }, { status: 500 });
+  }
+}
+
+export async function PUT(request: Request) {
+  try {
+    const { email } = await request.json();
+    verifiedEmails.add(email);
+    return NextResponse.json({ message: "Email marked as verified" }, { status: 200 });
+  } catch {
+  return NextResponse.json({ error: "Failed to mark email as verified" }, { status: 500 });
   }
 }

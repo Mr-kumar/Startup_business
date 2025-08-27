@@ -2840,7 +2840,7 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
     ],
     whyUs: [
       {
-        heading: "Why Trust Ctax for Closing Your LLP?",
+        heading: "Why Trust DoStartup for Closing Your LLP?",
         description: [
           "Expert guidance for drafting LLP closure resolutions and affidavits",
           "Over 10 years of proven experience in LLP closure services",
@@ -3093,7 +3093,7 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
     ],
     whyUs: [
       {
-        heading: "How Ctax Simplifies Event‑Based Compliances",
+        heading: "How DoStartup Simplifies Event‑Based Compliances",
         description: [
           "Choose a Compliance Plan tailored to your company’s needs",
           "Raise queries and share required documents securely",
@@ -3144,7 +3144,7 @@ Meeting these conditions is necessary to proceed with the strike‑off process u
           "LLPs have their own set of event‑based filings under the LLP Act, 2008 (e.g., LLP Form 3 for changes in partners or capital). Private Limited Company forms do not apply to LLPs.",
       },
       {
-        question: "Can Ctax handle multiple event‑based filings at once?",
+        question: "Can DoStartup handle multiple event‑based filings at once?",
         answer:
           "Yes. We provide end‑to‑end support for all event‑based ROC filings, from director changes to capital alterations, ensuring timely and accurate submissions.",
       },
@@ -43738,7 +43738,7 @@ Do Startup Assistance Process:
   "start-your-renewable-energy-business-india": {
     title: "Start Your Renewable Energy Business in India with Expert Guidance",
     description:
-      "Looking to launch a renewable energy business in India? Corpbiz provides complete legal, regulatory, and financial support to help you set up a sustainable and compliant clean energy venture. Whether you're investing in solar, wind, hydro, biomass, or tidal energy, our team of experts is here to assist you every step of the way.\n\n✅ 10+ Years of Industry Experience\n✅ 400+ In-House Legal, CA & CS Professionals\n✅ 99% On-Time Service Delivery (SLA-Based)\n✅ 50+ Regional Offices Across India\n✅ 1 Lakh+ Happy Clients Nationwide\n\n📞 Schedule a Free Consultation Today\n📲 WhatsApp: 9289379709\n📞 Call Now: 9121230280\n🌐 Visit Us Online",
+      "Looking to launch a renewable energy business in India? DoStartup provides complete legal, regulatory, and financial support to help you set up a sustainable and compliant clean energy venture. Whether you're investing in solar, wind, hydro, biomass, or tidal energy, our team of experts is here to assist you every step of the way.\n\n✅ 10+ Years of Industry Experience\n✅ 400+ In-House Legal, CA & CS Professionals\n✅ 99% On-Time Service Delivery (SLA-Based)\n✅ 50+ Regional Offices Across India\n✅ 1 Lakh+ Happy Clients Nationwide\n\n📞 Schedule a Free Consultation Today\n📲 WhatsApp: 9289379709\n📞 Call Now: 9121230280\n🌐 Visit Us Online",
     overview: [
       {
         heading: "What is a Renewable Energy Business?",
@@ -43758,14 +43758,14 @@ Do Startup Assistance Process:
       {
         heading: "Types of Renewable Energy Technologies in India",
         content:
-          "India supports a wide range of renewable energy technologies. Major categories include Solar, Wind, Hydro, Biomass, Geothermal and Tidal energy. Each technology has its own project structures, resource requirements, regulatory considerations and commercial models. Corpbiz assists across all technology types—from feasibility and licensing to financing and commissioning.",
+          "India supports a wide range of renewable energy technologies. Major categories include Solar, Wind, Hydro, Biomass, Geothermal and Tidal energy. Each technology has its own project structures, resource requirements, regulatory considerations and commercial models. DoStartup assists across all technology types—from feasibility and licensing to financing and commissioning.",
       },
     ],
     benefits: [
       {
         heading: "Why start now / Key advantages",
         content:
-          "India's ambitious targets, government schemes and improving technology economics create a strong investment case. Benefits include:\n\n● Large market opportunity driven by national targets (450 GW by 2030) and state-level procurement.\n● Policy support — subsidies, tax incentives, preferential tariffs and scheme funding (e.g., Solar Park Scheme, Wind Development Program).\n● Diverse technology options — utility scale, rooftop, captive, off-grid and hybrid models.\n● Access to international and domestic finance for ESG-compliant projects.\n\nCorpbiz helps you capture these advantages by providing regulatory facilitation, licensing, corporate structuring, and funding support.",
+          "India's ambitious targets, government schemes and improving technology economics create a strong investment case. Benefits include:\n\n● Large market opportunity driven by national targets (450 GW by 2030) and state-level procurement.\n● Policy support — subsidies, tax incentives, preferential tariffs and scheme funding (e.g., Solar Park Scheme, Wind Development Program).\n● Diverse technology options — utility scale, rooftop, captive, off-grid and hybrid models.\n● Access to international and domestic finance for ESG-compliant projects.\n\nDoStartup helps you capture these advantages by providing regulatory facilitation, licensing, corporate structuring, and funding support.",
       },
     ],
     documentsRequired: [
@@ -43884,9 +43884,9 @@ Do Startup Assistance Process:
     ],
     whyUs: [
       {
-        heading: "Partner with Corpbiz for Renewable Energy Business Setup",
+        heading: "Partner with DoStartup for Renewable Energy Business Setup",
         description: [
-          "From compliance and licensing to financial structuring and government liaison, Corpbiz offers end-to-end assistance for launching your renewable energy startup in India.",
+          "From compliance and licensing to financial structuring and government liaison, DoStartup offers end-to-end assistance for launching your renewable energy startup in India.",
           "We provide legal, regulatory and financial support across solar, wind, hydro, biomass, geothermal and tidal projects.",
         ],
         points: [
@@ -43898,7 +43898,7 @@ Do Startup Assistance Process:
           "Support for licensing, accreditation, REC registration, CEIG approvals and environmental compliance",
         ],
         footerText:
-          "🌿 Ready to Go Green? Start Your Clean Energy Business Today! Contact Corpbiz to talk to our experts.",
+          "🌿 Ready to Go Green? Start Your Clean Energy Business Today! Contact DoStartup to talk to our experts.",
       },
     ],
     who: [
@@ -43916,7 +43916,7 @@ Do Startup Assistance Process:
           "Off-grid and microgrid solution providers",
         ],
         footerText:
-          "Corpbiz provides tailored support for each category — from incorporation to commissioning and post-commissioning compliance.",
+          "DoStartup provides tailored support for each category — from incorporation to commissioning and post-commissioning compliance.",
       },
     ],
     faq: [
@@ -43948,9 +43948,9 @@ Do Startup Assistance Process:
           "Key statutes include the Electricity Act 2003, National Tariff Policy 2016, National Renewable Energy Policy 2022, Companies Act 2013, FEMA 1999, Environment Protection Act 1986 and relevant regulatory rules and state policies.",
       },
       {
-        question: "How can Corpbiz help me start my renewable energy business?",
+        question: "How can DoStartup help me start my renewable energy business?",
         answer:
-          "Corpbiz offers end-to-end support including company formation, regulatory compliance, licensing (CEIG, pollution NOC), REC registration assistance, financial structuring, government liaison, and post-commissioning compliance.",
+          "DoStartup offers end-to-end support including company formation, regulatory compliance, licensing (CEIG, pollution NOC), REC registration assistance, financial structuring, government liaison, and post-commissioning compliance.",
       },
     ],
   },
@@ -44123,7 +44123,7 @@ Do Startup Assistance Process:
       {
         heading: "Why Consult DoStartup?",
         description: [
-          "DoStartup (Corpbiz referenced in source content) is positioned to be a trusted partner for launching a paper and paperboard packaging venture in India. We provide end-to-end consulting from statutory compliance and subsidy facilitation to location scouting, machinery procurement and project execution.",
+          "DoStartup (DoStartup referenced in source content) is positioned to be a trusted partner for launching a paper and paperboard packaging venture in India. We provide end-to-end consulting from statutory compliance and subsidy facilitation to location scouting, machinery procurement and project execution.",
           "Our services include assistance with regulatory approvals, bank loan documentation, vendor selection, manpower hiring, product-market alignment and post-commissioning operational support.",
         ],
         points: [
@@ -44620,7 +44620,7 @@ Do Startup Assistance Process:
   "green-hydrogen-plant-setup": {
     title: "Green Hydrogen Plant Setup in India – A Complete Guide",
     description:
-      "End-to-end guidance for establishing green hydrogen production in India using electrolysis powered by renewable energy. Covers technology overview, regulatory approvals, documents, government incentives, timelines, costs and how Corpbiz can help accelerate project implementation.",
+      "End-to-end guidance for establishing green hydrogen production in India using electrolysis powered by renewable energy. Covers technology overview, regulatory approvals, documents, government incentives, timelines, costs and how DoStartup can help accelerate project implementation.",
     overview: [
       {
         heading: "Green Hydrogen — An Overview",
@@ -44778,7 +44778,7 @@ Do Startup Assistance Process:
     ],
     whyUs: [
       {
-        heading: "Why Choose Corpbiz for Green Hydrogen Projects",
+        heading: "Why Choose DoStartup for Green Hydrogen Projects",
         description: [
           "Expert consultation on regulatory clearance, project structuring and techno-commercial planning.",
           "Support in obtaining PESO, CTE/CTO, Environment Clearances and grid/power tie-ups.",
@@ -44790,7 +44790,7 @@ Do Startup Assistance Process:
           "Assistance with funding tie-ups, DPR preparation and cost-optimisation",
         ],
         footerText:
-          "Corpbiz helps investors and project developers reduce timeline risk and improve approval success through focussed technical and regulatory support.",
+          "DoStartup helps investors and project developers reduce timeline risk and improve approval success through focussed technical and regulatory support.",
       },
     ],
     who: [
@@ -44858,7 +44858,7 @@ Do Startup Assistance Process:
     title:
       "Carbon Black Manufacturing Business in India – A Comprehensive Guide",
     description:
-      "End-to-end guide for setting up a carbon black manufacturing plant in India: manufacturing processes, market opportunity, licences & approvals, documentation, project steps, technical inputs, and how Corpbiz can support your factory setup and regulatory compliance.",
+      "End-to-end guide for setting up a carbon black manufacturing plant in India: manufacturing processes, market opportunity, licences & approvals, documentation, project steps, technical inputs, and how DoStartup can support your factory setup and regulatory compliance.",
     overview: [
       {
         heading: "What is Carbon Black & Why It Matters",
@@ -44981,7 +44981,7 @@ Do Startup Assistance Process:
     ],
     whyUs: [
       {
-        heading: "Why Choose Corpbiz for Carbon Black Factory Setup",
+        heading: "Why Choose DoStartup for Carbon Black Factory Setup",
         description: [
           "End-to-end support from feasibility and DPR preparation to licences, factory registrations and pollution consents.",
           "Practical experience in handling SPCB/MoEFCC processes, hazardous-waste authorisations and factory safety compliance.",
@@ -44993,7 +44993,7 @@ Do Startup Assistance Process:
           "Technical advisory on process selection, pollution control and QC systems",
         ],
         footerText:
-          "Corpbiz helps reduce approval risk, optimise project timelines and improve application success through focused technical and regulatory support.",
+          "DoStartup helps reduce approval risk, optimise project timelines and improve application success through focused technical and regulatory support.",
       },
     ],
     faq: [
@@ -45034,4 +45034,656 @@ Do Startup Assistance Process:
       },
     ],
   },
+  "LLPRegistrationPage":{
+    title: "LLP Registration in India",
+    description:
+      "Register your LLP with dostartup.in — 10+ years of experience, 100k+ customers, 400+ in-house CAs/CS/Lawyers, nationwide coverage and end-to-end legal & compliance support. Fast turnarounds, transparent fees and investor-ready documentation.",
+    overview: [
+      {
+        heading: "Overview",
+        content:
+          "Limited Liability Partnership (LLP) combines the operational flexibility of a partnership with the liability protection of a corporate entity. Partners' personal assets remain protected beyond their capital contribution, making LLPs ideal for professionals, SMEs and early-stage ventures seeking a simple, compliant structure."
+      },
+      {
+        heading: "Who we are",
+        content:
+          "dostartup.in is a nationwide LLP registration and compliance consultancy with 10+ years of domain experience, 400+ in-house CAs/CS/lawyers, 50+ branch offices and coverage across 10,000+ pincodes. We provide end-to-end formation, post-incorporation compliance and advisory services tailored for enterprise and international clients."
+      },
+      {
+        heading: "Quick facts",
+        content:
+          "100,000+ happy customers • 4.9 average rating • Dedicated account managers • SLA-driven delivery • Enterprise-grade documentation"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Limited liability protection",
+        content:
+          "Partners are liable only up to their capital contribution — personal assets remain protected from business liabilities."
+      },
+      {
+        heading: "Flexible governance",
+        content:
+          "LLP Agreement lets partners define management roles, profit-sharing and decision rights, combining partnership agility with a formal legal structure."
+      },
+      {
+        heading: "Lower compliance burden",
+        content:
+          "Compared to private limited companies, LLPs face fewer board and meeting requirements while retaining corporate-level safeguards."
+      },
+      {
+        heading: "Perpetual succession",
+        content:
+          "LLPs continue despite partner exit or death, ensuring business continuity for investors and clients."
+      },
+      {
+        heading: "Cost-efficient & accessible",
+        content:
+          "No minimum capital requirement and straightforward filing make LLPs cost-effective for startups, professional firms and SMEs."
+      },
+      {
+        heading: "Tax clarity",
+        content:
+          "LLPs are taxed as partnerships with a clearly defined tax regime for profit distribution and compliance planning."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Identity proof (partners)",
+        content:
+          "PAN card is preferred for Indian partners; passport for foreign nationals. Alternate proofs: Aadhaar, voter ID, or driving licence."
+      },
+      {
+        heading: "Address proof (partners)",
+        content:
+          "Recent utility bill, bank statement or Aadhaar to confirm partner addresses."
+      },
+      {
+        heading: "Registered office proof",
+        content:
+          "Latest utility bill, rent agreement with NOC from owner or sale deed if self-owned. All documents must be current and notarized where specified."
+      },
+      {
+        heading: "Digital & photographic requirements",
+        content:
+          "Passport-sized photos and scanned signatures for each partner; DSC (Digital Signature Certificate) for designated partners."
+      },
+      {
+        heading: "LLP Agreement & supporting",
+        content:
+          "Drafted LLP deed (stamped/notarized as per state law), details of capital contribution and partner roles."
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "Step-by-step incorporation",
+        content:
+          "1) Free consultation & name availability check (RUN-LLP). 2) Obtain DSCs and DPINs for designated partners. 3) File FiLLiP / Form-2 for incorporation with the Registrar. 4) Submit LLP Agreement (Form-3) and register post-incorporation formalities (PAN, TAN, bank account). 5) Post-incorporation compliance guidance and annual filings.",
+        penalties: {
+          description:
+            "Common penalties for late or missing statutory filings (indicative — actual fines depend on MCA circulars and ROC rulings):",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Form-11 (Annual return) late filing",
+              fine: "INR 100 per day until filing (subject to ROC rules)"
+            },
+            {
+              serialNumber: "2",
+              particulars: "Form-8 (Statement of Accounts & Solvency) late filing",
+              fine: "INR 100 per day until filing (subject to ROC rules)"
+            },
+            {
+              serialNumber: "3",
+              particulars: "DIN/KYC non-compliance (example DIR-3 KYC)",
+              fine: "Deactivation/penalty up to INR 5,000 (varies by case)"
+            }
+          ]
+        }
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Transparent fees",
+        paymentMethods: ["Bank transfer", "UPI", "Card payments", "Netbanking"],
+        description:
+          "We charge clear, itemized fees: consultant charges, stamp duty (state-wise), government filing fees, and optional add-ons such as expedited processing or registered office services. A precise quote is provided after a free consult.",
+        feeTable: [
+          { category: "Consultation & name assistance", amount: "Free (initial)" },
+          { category: "End-to-end incorporation package", amount: "INR 7,499 – INR 12,499" },
+          { category: "Govt. filing fees (approx.)", amount: "Depends on contribution; government slab" },
+          { category: "Stamp duty & notarization", amount: "State-dependent (typ. up to INR 2,000)" }
+        ]
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why choose dostartup.in",
+        description: [
+          "We combine enterprise-grade documentation with quick turnarounds and local presence across India.",
+          "Dedicated account managers, SLA-driven processes, and highly experienced in-house CAs/CS/lawyers ensure predictable outcomes."
+        ],
+        points: [
+          "10+ years of specialist LLP experience",
+          "400+ in-house legal, tax and compliance experts",
+          "100k+ satisfied customers and enterprise clients",
+          "Transparent pricing and audit-ready documentation",
+          "Nationwide support — 50+ offices and 10,000+ pincodes"
+        ],
+        footerText:
+          "Book a free consultation to receive a personalized checklist and a transparent cost estimate."
+      }
+    ],
+    who: [
+      {
+        heading: "Who should register an LLP?",
+        description: [
+          "Professionals (lawyers, consultants, accountants), small and medium enterprises, and founders who want a private, low-compliance structure with limited liability.",
+          "Also suitable for professional services firms and startups seeking a simple, tax-efficient entity form before scaling to an investor-backed company."
+        ],
+        points: [
+          "Small teams or co-founders (minimum 2 partners)",
+          "Professional practices and independent practitioners",
+          "SMEs preferring partnership-style control with liability protection",
+          "Entrepreneurs seeking lower compliance overhead than a private limited company"
+        ],
+        footerText: "One resident partner in India is required among designated partners."
+      }
+    ],
+    faq: [
+      {
+        question: "What is the minimum number of partners for an LLP?",
+        answer: "Two partners are required, with at least one designated partner being a resident of India."
+      },
+      {
+        question: "Is there a minimum capital requirement?",
+        answer: "No mandatory minimum capital is required; partners decide their capital contribution as per the LLP agreement."
+      },
+      {
+        question: "How long does LLP registration take?",
+        answer: "Typically 15–30 working days depending on ROC processing and document readiness."
+      },
+      {
+        question: "What taxes apply to LLPs?",
+        answer:
+          "LLPs are taxed at a flat rate applicable to partnership entities. Additional surcharge and Health & Education Cess may apply as per tax rules. (We provide tax planning with incorporation.)"
+      },
+      {
+        question: "Do LLPs require audits?",
+        answer:
+          "An audit is required if turnover or contribution crosses statutory thresholds. We advise on audit triggers and coordinate statutory audits where needed."
+      },
+      {
+        question: "Can an NRI be a partner?",
+        answer:
+          "Yes — NRIs and foreign nationals can be partners, but they must provide valid identity documentation (passport) and comply with RBI/other approvals where applicable."
+      },
+      {
+        question: "Can partners withdraw money?",
+        answer:
+          "Partner withdrawals and profit distributions should be governed by the LLP Agreement and recorded in accounting records; consult us to structure distributions tax-efficiently."
+      },
+      {
+        question: "What post-incorporation filings are mandatory?",
+        answer:
+          "Key filings include Form-11 (annual return) and Form-8 (statement of accounts & solvency). Additional filings depend on turnover, audit triggers and regulatory needs."
+      }
+    ],
+    services: [
+      {
+        category: "End-to-end LLP Registration",
+        documents: [
+          "Name reservation & trademark checks",
+          "DSC & DPIN procurement",
+          "FiLLiP / Form-2 filing and incorporation",
+          "LLP Agreement drafting & Form-3 filing",
+          "PAN/TAN/GST assistance and bank account set-up",
+          "Annual compliance (Form-11, Form-8) and audit coordination"
+        ]
+      }
+    ],
+    registrationTimeline: [
+      // duplicate of registrationTimeline above but kept for schema compatibility
+      {
+        heading: "Registration timeline (concise)",
+        description: "From name reservation to post-incorporation formalities.",
+        steps: [
+          { title: "Name & checks", duration: "1–3 days", description: "RUN-LLP & trademark checks" },
+          { title: "DSC & DPIN", duration: "1–5 days", description: "Digital signatures & partner IDs" },
+          { title: "ROC processing", duration: "7–18 days", description: "Form-2 & certificate issuance" },
+          { title: "Post filings", duration: "3–7 days", description: "PAN/TAN/LLP agreement & bank account" }
+        ],
+        totalTime: "15–30 working days"
+      }
+    ],
+    clauses: [
+      {
+        title: "Confidentiality",
+        description:
+          "All client data and documents shared during registration are handled under strict confidentiality and used only for statutory filings and compliance."
+      },
+      {
+        title: "State variations",
+        description:
+          "Stamp duty and certain formalities vary by state; we provide state-wise estimates during the consult and include actions required for local compliance."
+      }
+    ],
+    renewal: [
+      {
+        heading: "Annual compliance reminders",
+        content: [
+          "We provide proactive reminders and filing support for Form-11 and Form-8 to avoid penalties.",
+          "Optional managed bookkeeping to simplify annual reporting and audit readiness."
+        ]
+      }
+    ],
+    duplicate: [
+      {
+        heading: "Duplicate certificate support",
+        content: [
+          "If Certificate of Incorporation or LLP agreement is misplaced, we assist in applying for certified copies and coordinate ROC interactions to obtain duplicates."
+        ]
+      }
+    ],
+    licensesRequired: [
+      {
+        heading: "Typical post-incorporation registrations",
+        content:
+          "PAN, TAN and GST (if turnover threshold met). Specific businesses may require additional industry-specific licences — we assess and advise during onboarding."
+      }
+    ],
+    engagementModels: [
+      {
+        heading: "Engagement models",
+        content: [
+          {
+            fractional: "Ad-hoc",
+            full_time: "",
+            model: "Per-service",
+            bestFor: "Clients needing one-off registration or discrete filings",
+            scope: "Name checks, incorporation and delivery of statutory documents"
+          },
+          {
+            fractional: "",
+            full_time: "Retainer",
+            model: "Ongoing compliance",
+            bestFor: "Enterprises and multi-entity groups",
+            scope: "Monthly bookkeeping, annual filings, audit coordination and statutory advisory"
+          }
+        ]
+      }
+    ],
+    whenToOutsource: [
+      {
+        heading: "When to outsource LLP registration",
+        content:
+          "Outsource when you want predictable timelines, audit-ready documentation, local statutory knowledge, or when scaling across multiple jurisdictions to avoid compliance pitfalls."
+      }
+    ],
+    howWeDeliver: [
+      {
+        heading: "How we deliver",
+        content: [
+          {
+            serviceLayer: "Onboarding & planning",
+            deliverables: "Personalised checklist, timeline and cost estimate",
+            tools: "Secure client portal, Docusign/DSC facilitation"
+          },
+          {
+            serviceLayer: "Incorporation & filings",
+            deliverables: "Certificate of Incorporation, LLP Agreement, PAN/TAN applications",
+            tools: "MCA portal filings, secure document storage"
+          },
+          {
+            serviceLayer: "Post-incorporation support",
+            deliverables: "Annual compliance calendar, bookkeeping handover, audit-ready packs",
+            tools: "Account manager, periodic status reports"
+          }
+        ]
+      }
+    ],
+    comparison: [
+      {
+        heading: "LLP vs Alternatives",
+        table: [
+          {
+            aspect: "Liability",
+            bookkeeping: "Limited to contribution (LLP)",
+            accounting: "Unlimited personal liability (Partnership Firm)"
+          },
+          {
+            aspect: "Compliance",
+            bookkeeping: "Moderate (LLP)",
+            accounting: "Higher (Private Limited Company)"
+          },
+          {
+            aspect: "Fundraising",
+            bookkeeping: "Less investor-friendly (LLP)",
+            accounting: "More investor-friendly (Private Limited)"
+          }
+        ]
+      }
+    ]
+  },  
+  "PublicLimitedCompanyPage":{
+    title: "Public Limited Company Registration in India",
+    description:
+      "Register your Public Limited Company (PLC) with dostartup.in — end-to-end SPICe+ incorporation, PAN/TAN/DIN/DSC, ESIC & PF onboarding, bank account opening and post-incorporation compliance. Enterprise-grade documentation and dedicated support. Typical turnaround: 1–2 weeks.",
+    overview: [
+      {
+        heading: "Overview",
+        content:
+          "A Public Limited Company (PLC) enables large-scale capital raising by issuing shares to the public. Using SPICe+ (modern MCA portal), a PLC can get name approval, PAN, TAN, DINs, EPFO/ESIC enrolment and bank account opening via a single integrated online filing."
+      },
+      {
+        heading: "Who we are",
+        content:
+          "dostartup.in delivers remote PLC incorporation and compliance services backed by experienced company secretaries, chartered accountants and corporate lawyers. We combine speed, legal accuracy and investor-grade documentation for businesses planning public fund-raising or large-scale growth."
+      },
+      {
+        heading: "Quick facts",
+        content:
+          "2500+ PLCs supported • SPICe+ expertise • 7+ documents pack included • 100% remote onboarding • Dedicated account manager"
+      }
+    ],
+    benefits: [
+      {
+        heading: "Access to public capital",
+        content:
+          "A PLC can raise funds through public share issuance or institutional placements — an ideal structure when you plan IPO or large-scale equity financing."
+      },
+      {
+        heading: "Strong credibility",
+        content:
+          "Listing ability and mandatory prospectus requirements increase public trust — useful for partnerships, institutional deals and vendor relationships."
+      },
+      {
+        heading: "Limited liability",
+        content:
+          "Shareholders' liability is limited to their paid-up capital, providing personal asset protection for investors and founders."
+      },
+      {
+        heading: "Perpetual succession & scale",
+        content:
+          "PLC continuity and an unlimited membership ceiling make it suitable for growing enterprises, conglomerates and publicly listed ambitions."
+      },
+      {
+        heading: "Unified statutory onboarding",
+        content:
+          "SPICe+ automates PAN, TAN, EPFO/ESIC registration and bank account steps — reducing manual coordination and time-to-market."
+      }
+    ],
+    documentsRequired: [
+      {
+        heading: "Identity & address proofs (directors & shareholders)",
+        content:
+          "PAN, Aadhaar (or passport for foreign nationals), driving licence or voter ID; recent utility bill or bank statement for address verification."
+      },
+      {
+        heading: "Registered office proof",
+        content:
+          "Commercial lease, rent agreement with NOC from owner, or sale deed; virtual office agreements accepted where permitted."
+      },
+      {
+        heading: "Corporate documents",
+        content:
+          "MOA (Memorandum of Association), AOA (Articles of Association), declaration by directors and statutory affidavits as per SPICe+ requirements."
+      },
+      {
+        heading: "Digital & supporting",
+        content:
+          "DSCs for directors, DINs (or DIN application via SPICe+), passport-size photos, scanned signatures and board/shareholder consent forms."
+      }
+    ],
+    registrationProcedure: [
+      {
+        heading: "End-to-end incorporation procedure",
+        content:
+          "1) Free consult & activity selection; 2) Name reservation via SPICe+ Part A; 3) DSC & DIN procurement for directors; 4) Draft MOA & AOA; 5) File SPICe+ (Part B) + AGILE-PRO for PAN/TAN/GST/EPFO/ESIC; 6) Receive Certificate of Incorporation and commence statutory onboarding.",
+        penalties: {
+          description:
+            "Typical penalties for non-compliance or late filings (illustrative — actual fines set by MCA/other regulators):",
+          penaltyTable: [
+            {
+              serialNumber: "1",
+              particulars: "Late filing of annual returns (MGT-7 / equivalent)",
+              fine: "Variable; daily fines / additional penalties as per MCA"
+            },
+            {
+              serialNumber: "2",
+              particulars: "DIR-3 KYC / DIR-3 non-compliance",
+              fine: "DIN deactivation or penalty (example up to INR 5,000)"
+            },
+            {
+              serialNumber: "3",
+              particulars: "Failure to hold AGM or file financials (AOC-4)",
+              fine: "Penalties + interest; escalation depending on delay length"
+            }
+          ]
+        }
+      }
+    ],
+    feesStructure: [
+      {
+        heading: "Transparent fee structure",
+        paymentMethods: ["Bank transfer", "UPI", "Cards", "Netbanking"],
+        description:
+          "Our quotes include consultant fees, statutory government fees and optional add-ons (expedited filings, virtual office, banker introductions). Exact government fees depend on authorized capital and e-filing charges.",
+        feeTable: [
+          { category: "Initial consultation", amount: "Free (30 minutes)" },
+          { category: "End-to-end PLC incorporation package", amount: "Custom quote — typically competitive for enterprise clients" },
+          { category: "Government & ROC fees", amount: "Charged per MCA slab (varies by authorized capital)" },
+          { category: "Stamp duty & notarization", amount: "State-dependent (charged as incurred)" }
+        ]
+      }
+    ],
+    registrationTimeline: [
+      {
+        heading: "Typical timeline",
+        description:
+          "When documents are ready and directors responsive, most PLC incorporations via SPICe+ complete quickly — time depends on MCA queue and document verification.",
+        steps: [
+          {
+            title: "Name reservation (SPICe+ Part A)",
+            duration: "1–3 working days",
+            description: "Name checks and reservation; trademark checks advised before finalization."
+          },
+          {
+            title: "DSC & DIN issuance",
+            duration: "1–3 working days",
+            description: "Digital signatures and DINs processed; foreign director timelines may vary."
+          },
+          {
+            title: "SPICe+ filing & approval",
+            duration: "4–10 working days",
+            description: "MCA review; PAN/TAN/EPFO/ESIC allocations typically pursued via AGILE-PRO automation."
+          },
+          {
+            title: "Post-incorporation formalities",
+            duration: "2–7 working days",
+            description: "Bank account opening, statutory registrations, and compliance onboarding."
+          }
+        ],
+        totalTime: "Usually 1–2 weeks (subject to document readiness and MCA processing)"
+      }
+    ],
+    whyUs: [
+      {
+        heading: "Why dostartup.in for PLC incorporation",
+        description: [
+          "Tailored onboarding for enterprises and scaling businesses — audit-grade MOA/AOA and investor-ready documentation.",
+          "Single-point coordination for DSC/DIN/PAN/TAN/EPFO/ESIC and banker introductions."
+        ],
+        points: [
+          "Experienced company secretaries and CA-led review",
+          "SPICe+ specialists for error-free filings",
+          "Dedicated account manager & SLA-backed delivery",
+          "Nationwide support and banker introductions for corporate accounts"
+        ],
+        footerText:
+          "Book a free enterprise consultation to get a custom incorporation plan and transparent cost estimate."
+      }
+    ],
+    who: [
+      {
+        heading: "Who should incorporate as a PLC?",
+        description: [
+          "Companies planning large-scale equity fundraising, listing aspirations, or operations requiring wide shareholder bases.",
+          "Manufacturers, listed-aspirant tech firms, large retail chains, healthcare chains, and financial services aiming for public capital access."
+        ],
+        points: [
+          "Enterprises planning IPOs or institutional fundraising",
+          "Businesses needing high public credibility and transparency",
+          "Large-scale operations requiring greater capital mobilization"
+        ],
+        footerText: "A PLC requires at least 7 members and 3 directors (one resident director minimum)."
+      }
+    ],
+    faq: [
+      {
+        question: "How many members are required for a Public Limited Company?",
+        answer: "A minimum of seven shareholders is required for a PLC; there is no statutory upper limit."
+      },
+      {
+        question: "How many directors are required?",
+        answer: "Minimum three directors are required; at least one director must be a resident Indian."
+      },
+      {
+        question: "Can incorporation be completed remotely?",
+        answer:
+          "Yes — SPICe+ supports fully online incorporation when certified documents and DSCs are available. We handle 100% remote filings and coordination."
+      },
+      {
+        question: "Is there a minimum capital requirement?",
+        answer:
+          "There is no statutory minimum paid-up capital after legislative revisions; we typically recommend a sensible starting capital (e.g., INR 1 lakh) to reflect business needs."
+      },
+      {
+        question: "What is SPICe+ and AGILE-PRO?",
+        answer:
+          "SPICe+ is the MCA's integrated incorporation form that bundles name reservation, incorporation and statutory registrations. AGILE-PRO is the linked module for PAN/TAN/EPFO/ESIC/GST automation."
+      },
+      {
+        question: "What ongoing compliance is required for a PLC?",
+        answer:
+          "Annual financial statements (AOC-4), annual return (MGT-7), DIR-3KYC for directors, audit appointment (ADT-1), AGMs, and periodic disclosures as mandated by MCA and SEBI (if listed)."
+      },
+      {
+        question: "Can foreign nationals be shareholders or directors?",
+        answer:
+          "Yes — foreign nationals can be shareholders. Foreign directors are permitted subject to regulatory checks; additional KYC and RBI approvals may apply for certain sectors."
+      },
+      {
+        question: "Do PLCs need a prospectus to raise public capital?",
+        answer:
+          "Yes — to issue shares to the public, a PLC must prepare and file a prospectus complying with Companies Act and SEBI rules before public offerings."
+      }
+    ],
+    services: [
+      {
+        category: "Comprehensive PLC incorporation services",
+        documents: [
+          "Name reservation (SPICe+ Part A) & trademark advisory",
+          "DSC & DIN procurement for directors",
+          "Drafting MOA & AOA (investor-ready)",
+          "SPICe+ + AGILE-PRO filing for PAN/TAN/EPFO/ESIC/GST",
+          "Bank account opening assistance & banker introductions",
+          "Post-incorporation compliance, AGM & audit coordination"
+        ]
+      }
+    ],
+    clauses: [
+      {
+        title: "Confidentiality",
+        description:
+          "All client documents and corporate information are treated with strict confidentiality and used solely for statutory filings and authorised advisory purposes."
+      },
+      {
+        title: "State & sectoral variations",
+        description:
+          "Certain sectors require sector-specific approvals (RBI, IRDA, DIPP/FDI conditionality). Stamp duty, notarization and local registrations vary by state and will be quoted separately."
+      }
+    ],
+    renewal: [
+      {
+        heading: "Annual statutory calendar",
+        content: [
+          "We set up compliance calendars for AOC-4, MGT-7, DIR-3KYC, tax filings and audit milestones with reminders and managed filing options."
+        ]
+      }
+    ],
+    duplicate: [
+      {
+        heading: "Certified copies & replacements",
+        content: [
+          "If incorporation documents are misplaced, we assist in obtaining certified copies from ROC and coordinate necessary affidavits and applications."
+        ]
+      }
+    ],
+    engagementModels: [
+      {
+        heading: "Engagement models",
+        content: [
+          {
+            fractional: "One-time",
+            full_time: "",
+            model: "Incorporation-only",
+            bestFor: "Clients needing only formation & basic registrations",
+            scope: "Name reservation, SPICe+ filing, PAN/TAN and Certificate of Incorporation"
+          },
+          {
+            fractional: "",
+            full_time: "Retainer",
+            model: "Ongoing compliance & finance support",
+            bestFor: "Large companies and groups",
+            scope: "Monthly bookkeeping, statutory filings, audit coordination and CFO advisory"
+          }
+        ]
+      }
+    ],
+    howWeDeliver: [
+      {
+        heading: "Delivery approach",
+        content: [
+          {
+            serviceLayer: "Onboarding",
+            deliverables: "Personalised incorporation checklist, timeline, documentation portal",
+            tools: "Secure client portal, e-sign/DSC facilitation"
+          },
+          {
+            serviceLayer: "Filing & approvals",
+            deliverables: "SPICe+ submission, incorporation certificate, PAN/TAN, ESIC/EPFO enrolments",
+            tools: "MCA & EPFO/ESIC portals, automated trackers"
+          },
+          {
+            serviceLayer: "Post-incorporation",
+            deliverables: "Compliance calendar, AGM support, audit-ready packs",
+            tools: "Account manager, periodic status reports"
+          }
+        ]
+      }
+    ],
+    comparison: [
+      {
+        heading: "Quick comparisons",
+        table: [
+          {
+            aspect: "Membership",
+            bookkeeping: "PLC: min 7, no upper cap",
+            accounting: "Private Co: 2–200 members"
+          },
+          {
+            aspect: "Capital raising",
+            bookkeeping: "PLC: can raise from public via IPO",
+            accounting: "Private Co: restricted from public issuance"
+          },
+          {
+            aspect: "Disclosure",
+            bookkeeping: "PLC: higher disclosure; prospectus for public offers",
+            accounting: "Private Co: relatively limited public disclosures"
+          }
+        ]
+      }
+    ]
+  }
 };
