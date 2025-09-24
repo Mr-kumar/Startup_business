@@ -6,6 +6,7 @@ const nextConfig = {
       'images.unsplash.com'
     ],
   },
+  output : "standalone",
 };
 
 module.exports = nextConfig;
