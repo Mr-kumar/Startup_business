@@ -1,16 +1,15 @@
 "use client";
 import React from "react";
-import { Mail, Phone, MapPin, Headphones } from "lucide-react";
+import { Mail, MapPin, Headphones } from "lucide-react";
 import { useState } from "react";
 
-export default function careers() {
+export default function Careers() {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [state, setState] = useState("");
     const [query, setQuery] = useState("");
-
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
 
@@ -30,7 +29,7 @@ export default function careers() {
             body: JSON.stringify(formData),
         });
 
-        const data = await res.json();
+        await res.json();
         if (res.ok) {
             alert("✅ Details submitted successfully. We will contact you Soon.");
         } else {

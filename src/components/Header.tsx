@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import Logo from "@/assets/Logo.png";
 import NewL from "../../public/NewL.png";
 import Image from "next/image";
 import Link from "next/link";

@@ -3,12 +3,12 @@ import { getPageData } from './data';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 
-interface PageProps {
-  params: { slug: string };
-}
-
-export default async function RegisterPage({ params }: PageProps) {
-  const { slug } = params;
+export default async function RegisterPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
   const pageData = await getPageData(slug);
 
   if (!pageData) return notFound();

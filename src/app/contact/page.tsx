@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Mail, Phone, MapPin, Headphones } from "lucide-react";
+import { Mail, MapPin, Headphones } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -28,11 +28,11 @@ export default function Contact() {
             body: JSON.stringify(formData),
         });
 
-        const data = await res.json();
-        if (res.ok) {
-            alert("✅ Query submitted successfully. Check your email.");
-        } else {
-            alert("❌ Failed to send. Please try again.");
+        await res.json();
+            if (res.ok) {
+                alert("✅ Query submitted successfully. Check your email.");
+            } else {
+                alert("❌ Failed to send. Please try again.");
         }
     };
 

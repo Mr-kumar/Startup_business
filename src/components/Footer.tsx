@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+
 
 // TypeScript interfaces for type safety
 interface FooterLink {
