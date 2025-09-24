@@ -36,7 +36,9 @@ jobs:
             
             # Pull the latest changes from the main branch of your repository
             echo "🚀 Pulling latest code from GitHub..."
-            git pull origin master
+            git fetch origin
+            git reset --hard origin/master
+
             
             # Stop the currently running containers, rebuild the images, and start them in detached mode
             echo "🐳 Rebuilding and restarting Docker containers..."
