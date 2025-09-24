@@ -390,8 +390,22 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
           </motion.div>
 
           <motion.div className="flex flex-wrap gap-4" variants={itemVariants}>
-            <button className="px-8 py-3 bg-[#1D293D] text-white font-semibold rounded-lg shadow-md transition-all duration-300 transform">
+            <button className="px-8 py-3 bg-[#1D293D] hover:bg-[#1D293D]/90 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
               Schedule Free Consultation
+            </button>
+            <button className="px-6 py-3 text-[#1D293D] font-semibold rounded-lg border-2 border-[#1D293D] hover:bg-[#1D293D]/5 transition-all duration-300 flex items-center">
+              <svg
+                className="w-5 h-5 mr-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              See How It Works
             </button>
           </motion.div>
 

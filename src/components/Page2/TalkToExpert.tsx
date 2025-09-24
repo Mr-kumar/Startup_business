@@ -63,12 +63,12 @@ const TalkToExpert: React.FC = () => {
             <span className="relative z-10 px-4">
               Talk to an Expert
             </span>
-            <motion.span
+            {/* <motion.span
               className="absolute bottom-0 left-0 w-full h-2 bg-[#7DD756]/30 z-0"
               initial={{ scaleX: 0 }}
               animate={inView ? { scaleX: 1 } : {}}
               transition={{ duration: 0.8, delay: 0.3 }}
-            />
+            /> */}
           </motion.h2>
           <motion.p
             className="text-gray-600 max-w-2xl mx-auto"

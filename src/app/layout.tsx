@@ -30,7 +30,16 @@ export const metadata: Metadata = {
   title: "DoStartup",
   description: "DoStartup",
   icons: {
-    icon: '/Logo.png',
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-32x32.png', sizes: '32x32' },
+      { url: '/favicon-16x16.png', sizes: '16x16' },
+    ],
+    apple: '/apple-touch-icon.png',
+    other: {
+      rel: 'icon',
+      url: '/NewL.png',
+    },
   },
 };
 

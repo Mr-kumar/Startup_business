@@ -60,7 +60,7 @@ const SectionHeader = ({
       variants={fadeIn}
       className="text-center mb-12"
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-3 text-[#1D293D] bg-clip-text bg-gradient-to-r from-[#1D293D] to-[#7AD955]">
+      <h2 className="text-3xl md:text-4xl font-bold mb-3 text-white">
         {title}
       </h2>
       <p className="text-lg text-gray-500 max-w-2xl mx-auto">{subtitle}</p>
@@ -135,11 +135,10 @@ const Card = ({
           },
         },
       }}
-      className={`p-8 rounded-2xl shadow-xl border border-opacity-10 ${
-        isDark
+      className={`p-8 rounded-2xl shadow-xl border border-opacity-10 ${isDark
           ? "bg-[#1D293D] text-white border-white"
           : "bg-white text-[#1D293D] border-[#1D293D]"
-      }`}
+        }`}
       whileHover={{
         y: -8,
         boxShadow:
@@ -148,11 +147,10 @@ const Card = ({
       }}
     >
       <h3
-        className={`text-2xl font-bold mb-6 pb-3 border-b ${
-          isDark
+        className={`text-2xl font-bold mb-6 pb-3 border-b ${isDark
             ? "text-[#7AD955] border-[#7AD955] border-opacity-30"
             : "text-[#1D293D] border-[#1D293D] border-opacity-20"
-        }`}
+          }`}
       >
         {title}
       </h3>
@@ -169,9 +167,8 @@ const Card = ({
             className="flex items-start gap-4 group"
           >
             <span
-              className={`mt-1 text-xl ${
-                isDark ? "text-[#7AD955]" : "text-[#1D293D]"
-              }`}
+              className={`mt-1 text-xl ${isDark ? "text-[#7AD955]" : "text-[#1D293D]"
+                }`}
             >
               <svg
                 width="20"
@@ -230,8 +227,8 @@ export default function Documents({ data }: DocumentsProps) {
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           >
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src="https://corpbiz.io/img/steps_img.webp"
               alt="Form Fill"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

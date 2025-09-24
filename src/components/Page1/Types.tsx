@@ -198,7 +198,7 @@ export default function Types({ data }: TypesProps) {
                     {differenceTable.columns.map((col, i) => (
                       <th
                         key={i}
-                        className={`p-6 font-semibold text-lg ${
+                        className={`p-6 font-semibold text-lg text-center ${
                           i === 0 ? "rounded-tl-3xl" : ""
                         } ${
                           i === differenceTable.columns.length - 1
@@ -220,7 +220,7 @@ export default function Types({ data }: TypesProps) {
                       }`}
                     >
                       {rowValues.map((cell, j) => (
-                        <td key={j} className="p-6 text-gray-700">
+                        <td key={j} className="p-6 text-gray-700 text-center">
                           {cell}
                         </td>
                       ))}
@@ -273,7 +273,7 @@ export default function Types({ data }: TypesProps) {
                 ))}
               </motion.ul>
 
-              <motion.button
+              {/* <motion.button
                 whileHover={{
                   scale: 1.03,
                   boxShadow: "0 10px 25px -5px rgba(122, 217, 85, 0.3)",
@@ -286,7 +286,7 @@ export default function Types({ data }: TypesProps) {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </span>
                 <span className="absolute inset-0 bg-gradient-to-r from-[#1D293D] to-[#7AD955] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </motion.button>
+              </motion.button> */}
             </motion.div>
 
             <motion.div

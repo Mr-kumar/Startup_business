@@ -34,7 +34,7 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
       animate={inView ? "visible" : "hidden"}
       variants={{
         hidden: { opacity: 0 },
-        visible: { 
+        visible: {
           opacity: 1,
           transition: { duration: 0.6, ease: "easeOut" }
         }
@@ -44,8 +44,8 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
       {/* Heading Section */}
       <motion.section
         initial={{ opacity: 0, y: 10 }}
-        animate={inView ? { 
-          opacity: 1, 
+        animate={inView ? {
+          opacity: 1,
           y: 0,
           transition: { delay: 0.2 }
         } : { opacity: 0, y: 10 }}
@@ -55,9 +55,9 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
           <span className="relative z-10">
             {timelineData.heading || "Timeline to Obtain FSSAI State License"}
           </span>
-          <motion.span 
+          <motion.span
             initial={{ scaleX: 0 }}
-            animate={inView ? { 
+            animate={inView ? {
               scaleX: 1,
               transition: { delay: 0.3, duration: 0.4 }
             } : { scaleX: 0 }}
@@ -70,8 +70,8 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
       {timelineData.description && (
         <motion.section
           initial={{ opacity: 0, y: 10 }}
-          animate={inView ? { 
-            opacity: 1, 
+          animate={inView ? {
+            opacity: 1,
             y: 0,
             transition: { delay: 0.3 }
           } : { opacity: 0, y: 10 }}
@@ -79,7 +79,7 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
         >
           <motion.p
             initial={{ opacity: 0 }}
-            animate={inView ? { 
+            animate={inView ? {
               opacity: 1,
               transition: { delay: 0.4 }
             } : { opacity: 0 }}
@@ -93,60 +93,63 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
       {/* Timeline Steps */}
       <motion.section
         initial={{ opacity: 0 }}
-        animate={inView ? { 
+        animate={inView ? {
           opacity: 1,
           transition: { delay: 0.4 }
         } : { opacity: 0 }}
         className="mt-12 space-y-6"
       >
+        <ol className="space-y-6">
         {timelineData?.steps?.map((step, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { 
-              opacity: 1, 
-              y: 0,
-              transition: { delay: 0.5 + index * 0.1 }
-            } : { opacity: 0, y: 20 }}
-            className="flex flex-col lg:flex-row bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden"
-          >
-            {/* Title box */}
-            <div className="lg:w-1/3 bg-[#1D293D] text-white p-5 flex flex-col justify-center">
-              <h3 className="text-xl font-bold">{step.title}</h3>
-              <motion.p 
-                initial={{ opacity: 0 }}
-                animate={inView ? { 
-                  opacity: 1,
-                  transition: { delay: 0.6 + index * 0.1 }
-                } : { opacity: 0 }}
-                className="text-sm italic mt-1 text-[#7DD756]"
-              >
-                {step.duration}
-              </motion.p>
-            </div>
+          <li key={index}>
+            <motion.div              
+              initial={{ opacity: 0, y: 20 }}
+              animate={inView ? {
+                opacity: 1,
+                y: 0,
+                transition: { delay: 0.5 + index * 0.1 }
+              } : { opacity: 0, y: 20 }}
+              className="flex flex-col lg:flex-row bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden"
+            >
+              {/* Title box */}
+              <div className="lg:w-1/3 bg-[#1D293D] text-white p-5 flex flex-col justify-center">
+                <h3 className="text-xl font-bold">{step.title}</h3>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={inView ? {
+                    opacity: 1,
+                    transition: { delay: 0.6 + index * 0.1 }
+                  } : { opacity: 0 }}
+                  className="text-sm italic mt-1 text-[#7DD756]"
+                >
+                  {step.duration}
+                </motion.p>
+              </div>
 
-            {/* Description */}
-            <div className="lg:w-2/3 p-5 bg-gray-50">
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={inView ? { 
-                  opacity: 1,
-                  transition: { delay: 0.7 + index * 0.1 }
-                } : { opacity: 0 }}
-                className="text-gray-700 leading-relaxed"
-              >
-                {step.description}
-              </motion.p>
-            </div>
-          </motion.div>
+              {/* Description */}
+              <div className="lg:w-2/3 p-5 bg-gray-50">
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={inView ? {
+                    opacity: 1,
+                    transition: { delay: 0.7 + index * 0.1 }
+                  } : { opacity: 0 }}
+                  className="text-gray-700 leading-relaxed"
+                >
+                  {step.description}
+                </motion.p>
+              </div>
+            </motion.div>
+          </li>
         ))}
+        </ol>
 
         {/* Total Time */}
         {timelineData.totalTime && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { 
-              opacity: 1, 
+            animate={inView ? {
+              opacity: 1,
               y: 0,
               transition: { delay: 0.5 + (timelineData.steps?.length || 0) * 0.1 }
             } : { opacity: 0, y: 20 }}
@@ -158,7 +161,7 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
             <div className="lg:w-2/3 p-5 flex items-center">
               <motion.p
                 initial={{ opacity: 0 }}
-                animate={inView ? { 
+                animate={inView ? {
                   opacity: 1,
                   transition: { delay: 0.6 + (timelineData.steps?.length || 0) * 0.1 }
                 } : { opacity: 0 }}
@@ -172,7 +175,7 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
       </motion.section>
 
       {/* Consultation Form */}
-      <motion.section
+      {/* <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={inView ? { 
           opacity: 1, 
@@ -285,7 +288,7 @@ const Timeline: React.FC<TimelineProps> = ({ timeline = [] }) => {
             </motion.p>
           </form>
         </div>
-      </motion.section>
+      </motion.section> */}
     </motion.div>
   );
 };

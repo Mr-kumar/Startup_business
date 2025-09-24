@@ -1447,7 +1447,7 @@ const Header = () => {
 
   return (
     <nav className="bg-slate-800 border-gray-200 text-white sticky top-0 z-50">
-  <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-8 p-4">
+      <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 ml-14 mr-14">
         {/* Logo and brand link */}
         <Link
           href="/"
@@ -1463,7 +1463,7 @@ const Header = () => {
             width={80}
             height={80}
             alt="DoStartup Logo"
-            className="w-16 md:w-24 h-auto"
+            className="w-20 md:w-24 h-auto"
           />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap">
             DoStartup
@@ -1474,7 +1474,7 @@ const Header = () => {
         <button
           onClick={toggleMenu}
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500 ml-auto z-50"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500"
           aria-controls="mega-menu"
           aria-expanded={isMenuOpen}
         >
@@ -1495,7 +1495,31 @@ const Header = () => {
             />
           </svg>
         </button>
-       
+        {/* Mobile menu button */}
+        <button
+          onClick={toggleMenu}
+          type="button"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500"
+          aria-controls="mega-menu"
+          aria-expanded={isMenuOpen}
+        >
+          <span className="sr-only">Open main menu</span>
+          <svg
+            className="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
 
         {/* Desktop Navigation */}
         <div

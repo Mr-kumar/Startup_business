@@ -1,0 +1,53 @@
+name: Deploy to VPS (Docker Compose)
+
+on:
+  push:
+    branches:
+      - main
+      - feature/**
+      - staging
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout code (optional if VPS is doing git pull)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Setup SSH to VPS
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.VPS_PRIVATE_KEY }}
+
+      # 3️⃣ Deploy via Docker Compose
+      - name: Deploy via Docker Compose
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          echo "🚀 Deploying branch: $BRANCH_NAME"
+
+          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} -p ${{ secrets.VPS_PORT }} "BRANCH_NAME=$BRANCH_NAME bash -s" << 'EOF'
+            set -e
+            cd /home/deployer/nextjs-apps/dostartup
+
+            echo "📂 Switching to safe directory..."
+            git config --global --add safe.directory /home/deployer/nextjs-apps/dostartup
+
+            echo "🔑 Using VPS deploy key for GitHub..."
+            export GIT_SSH_COMMAND="ssh -i ~/.ssh/github_actions_vps_key_ds -o StrictHostKeyChecking=no"
+
+            echo "🔄 Fetching latest code from $BRANCH_NAME..."
+            $GIT_SSH_COMMAND git fetch origin "$BRANCH_NAME"
+            $GIT_SSH_COMMAND git reset --hard "origin/$BRANCH_NAME"
+
+            echo "🐳 Rebuilding Docker containers..."
+            docker compose down --remove-orphans || true
+            docker system prune -f || true
+            docker compose up -d --build
+
+            echo "✅ Deployment completed successfully!"
+          EOF

@@ -1093,7 +1093,7 @@ Submitting these documents correctly and completely is crucial for a successful 
     ],
   },
   "fssai-license-renewal": {
-    title: "FSSAI State License",
+    title: "FSSAI State License Renewal",
     description: "Get your FSSAI state food license with our expert guidance.",
     overview: [
       {
@@ -1187,7 +1187,7 @@ Submitting these documents correctly and completely is crucial for a successful 
       {
         heading: "2. Application Submission",
         description: ["We provide expert guidance and support."],
-        points: ["99% success rate", "Affordable pricing"],
+        points: ["100% success rate", "Affordable pricing"],
       },
     ],
     faq: [

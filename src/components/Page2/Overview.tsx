@@ -218,7 +218,7 @@ const Overview: React.FC<OverviewProps> = ({
       {/* Main Content */}
       <main className="lg:w-4/5 space-y-12">
         {overview && (
-          <section id="overview" className="">
+          <section id="overview" className="scroll-mt-[120px]">
             <div className="max-w-4xl mx-auto">
               <div className="space-y-4 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                 {overview.map((item, index) => (
@@ -239,7 +239,7 @@ const Overview: React.FC<OverviewProps> = ({
           </section>
         )}
         {benefits && benefits.length > 0 && (
-          <section id="benefits" className="">
+          <section id="benefits" className="scroll-mt-[120px]">
             <div className="max-w-4xl mx-auto">
               <div className="space-y-8">
                 {benefits.map((item, index) => (
@@ -257,127 +257,127 @@ const Overview: React.FC<OverviewProps> = ({
           </section>
         )}
         {documentsRequired && (
-          <section id="documents">
+          <section id="documents" className="scroll-mt-[120px]">
             <Documentation documents={documentsRequired} />
           </section>
         )}
         {registrationProcedure && (
-          <section id="registration">
+          <section id="registration" className="scroll-mt-[120px]">
             <Registration procedure={registrationProcedure} />
           </section>
         )}
         {feesStructure && (
-          <section id="fees">
+          <section id="fees" className="scroll-mt-[120px]">
             <FeeStructure fees={feesStructure} />
           </section>
         )}
         {registrationTimeline && (
-          <section id="timeline">
+          <section id="timeline" className="scroll-mt-[120px]">
             <Timeline timeline={registrationTimeline} />
           </section>
         )}
         {listicles && (
-          <section id="listicles">
+          <section id="listicles" className="scroll-mt-[120px]">
             <Listicles listicles={listicles} />
           </section>
         )}
         {Categories && (
-          <section id="Categories">
+          <section id="Categories" className="scroll-mt-[120px]">
             <Categories Categories={CategoriesData} />
           </section>
         )}
         {Challenges && (
-          <section id="Challenges">
+          <section id="Challenges" className="scroll-mt-[120px]">
             <Challenges Challenges={ChallengesData} />
           </section>
         )}
         {classifiedIndustriesData && (
-          <section id="ClassifiedIndustries">
+          <section id="ClassifiedIndustries" className="scroll-mt-[120px]">
             <ClassifiedIndustries ClassifiedIndustries={classifiedIndustriesData} />
           </section>
         )}
         {GuidelinesData && (
-          <section id="Guidelines">
+          <section id="Guidelines" className="scroll-mt-[120px]">
             <Guidelines Guidelines={GuidelinesData} />
           </section>
         )}
         {RegulationsData && (
-          <section id="Regulations">
+          <section id="Regulations" className="scroll-mt-[120px]">
             <Regulations Regulations={RegulationsData} />
           </section>
         )}
         {ProductRequireData && (
-          <section id="ProductRequire">
+          <section id="ProductRequire" className="scroll-mt-[120px]">
             <ProductRequire ProductRequire={ProductRequireData} />
           </section>
         )}
         {StructureData && (
-          <section id="Structure">
+          <section id="Structure" className="scroll-mt-[120px]">
             <Structure Structure={StructureData} />
           </section>
         )}
         {RoleOfHydrogeologistData && (
-          <section id="RoleOfHydrogeologist">
+          <section id="RoleOfHydrogeologist" className="scroll-mt-[120px]">
             <RoleOfHydrogeologist RoleOfHydrogeologist={RoleOfHydrogeologistData} />
           </section>
         )}
         {NeedData && (
-          <section id="Need">
+          <section id="Need" className="scroll-mt-[120px]">
             <Need Need={NeedData} />
           </section>
         )}
         {ProcessData && (
-          <section id="Process">
+          <section id="Process" className="scroll-mt-[120px]">
             <Process Process={ProcessData} />
           </section>
         )}
         {AuthorityData && (
-          <section id="Authority">
+          <section id="Authority" className="scroll-mt-[120px]">
             <Authority Authority={AuthorityData} />
           </section>
         )}
         {EPRData && (
-          <section id="EPR">
+          <section id="EPR" className="scroll-mt-[120px]">
             <EPR EPR={EPRData} />
           </section>
         )}
         {ValidityData && (
-          <section id="Validity">
+          <section id="Validity" className="scroll-mt-[120px]">
             <Validity Validity={ValidityData} />
           </section>
         )}
         {BusinessData && (
-          <section id="Business">
+          <section id="Business" className="scroll-mt-[120px]">
             <Business Business={BusinessData} />
           </section>
         )}
         {services && (
-          <section id="services">
+          <section id="services" className="scroll-mt-[120px]">
             <Services Services={services} />
           </section>
         )}
         {productListData && productListData.length > 0 && (
-          <section id="Productlist">
+          <section id="Productlist" className="scroll-mt-[120px]">
             <Productlist productListData={productListData} />
           </section>
         )}
         {clauses && clauses.length > 0 && (
-          <section id="clauses">
+          <section id="clauses" className="scroll-mt-[120px]">
             <Clauses clauses={clauses} />
           </section>
         )}
         {whyUs && (
-          <section id="whyus">
+          <section id="whyus" className="scroll-mt-[120px]">
             <Why whyUs={whyUs} />
           </section>
         )}
         {who && (
-          <section id="who">
+          <section id="who" className="scroll-mt-[120px]">
             <Who who={who} />
           </section>
         )}
         {faq && (
-          <section id="faq">
+          <section id="faq" className="scroll-mt-[120px]">
             <FAQ faqs={faq} />
           </section>
         )}
