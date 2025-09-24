@@ -1,53 +1,52 @@
-name: Deploy to VPS (Docker Compose)
+# This is the name of the workflow, which will be displayed in the "Actions" tab of your GitHub repository.
+name: Deploy to VPS
 
+# This section defines the trigger for the workflow.
+# It runs on any push event to the 'main' branch.
 on:
   push:
     branches:
-      - main
-      - feature/**
-      - staging
-  workflow_dispatch:
+      - master  # Change this to 'master' if that's your default branch
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
   deploy:
+    # The type of runner that the job will run on. We use the latest version of Ubuntu.
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
-      # 1️⃣ Checkout code (optional if VPS is doing git pull)
-      - name: Checkout repository
+      # Step 1: Check out the repository code
+      # This action checks-out your repository under $GITHUB_WORKSPACE, so your job can access it.
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup SSH to VPS
-      - name: Setup SSH
-        uses: webfactory/ssh-agent@v0.9.0
+      # Step 2: Deploy to VPS via SSH
+      # This action uses a popular marketplace action to run commands on a remote server.
+      - name: Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.3
         with:
-          ssh-private-key: ${{ secrets.VPS_PRIVATE_KEY }}
+          host: ${{ secrets.SSH_HOST }}        # The IP address of your VPS from GitHub secrets
+          username: ${{ secrets.SSH_USER }}    # The username for your VPS from GitHub secrets
+          key: ${{ secrets.SSH_PRIVATE_KEY }}  # The private SSH key from GitHub secrets
+          port: 22                             # The SSH port, default is 22
+          script: |
+            # Navigate to the project directory on the VPS
+            cd ~/nextjs-apps/dostartup
+            
+            # Pull the latest changes from the main branch of your repository
+            echo "🚀 Pulling latest code from GitHub..."
+            git fetch origin
+            git reset --hard origin/master
 
-      # 3️⃣ Deploy via Docker Compose
-      - name: Deploy via Docker Compose
-        env:
-          BRANCH_NAME: ${{ github.ref_name }}
-        run: |
-          echo "🚀 Deploying branch: $BRANCH_NAME"
-
-          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} -p ${{ secrets.VPS_PORT }} "BRANCH_NAME=$BRANCH_NAME bash -s" << 'EOF'
-            set -e
-            cd /home/deployer/nextjs-apps/dostartup
-
-            echo "📂 Switching to safe directory..."
-            git config --global --add safe.directory /home/deployer/nextjs-apps/dostartup
-
-            echo "🔑 Using VPS deploy key for GitHub..."
-            export GIT_SSH_COMMAND="ssh -i ~/.ssh/github_actions_vps_key_ds -o StrictHostKeyChecking=no"
-
-            echo "🔄 Fetching latest code from $BRANCH_NAME..."
-            $GIT_SSH_COMMAND git fetch origin "$BRANCH_NAME"
-            $GIT_SSH_COMMAND git reset --hard "origin/$BRANCH_NAME"
-
-            echo "🐳 Rebuilding Docker containers..."
-            docker compose down --remove-orphans || true
-            docker system prune -f || true
-            docker compose up -d --build
-
-            echo "✅ Deployment completed successfully!"
-          EOF
+            
+            # Stop the currently running containers, rebuild the images, and start them in detached mode
+            echo "🐳 Rebuilding and restarting Docker containers..."
+            docker-compose down
+            docker-compose up -d --build
+            
+            # Clean up any unused Docker images to save disk space
+            echo "🧹 Pruning old Docker images..."
+            docker image prune -f
+            
+            echo "✅ Deployment successful!"
