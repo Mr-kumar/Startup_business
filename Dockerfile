@@ -1,6 +1,3 @@
-# syntax=docker/dockerfile:1
-
-# --- Base dependencies layer ---
 FROM node:20-alpine AS deps
 WORKDIR /app
 
@@ -14,7 +11,12 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 ENV NODE_ENV=production \
-    NEXT_TELEMETRY_DISABLED=1
+    NEXT_TELEMETRY_DISABLED=1 \
+    NEXT_PUBLIC_API_URL=https://your-api-url.com \
+    DB_USER=mydbuser \
+    DB_PASS=mydbpassword \
+    DB_HOST=mydbhost \
+    DB_NAME=mydbname
 
 # Install dependencies (copied from deps stage for reproducible builds)
 COPY --from=deps /app/node_modules ./node_modules
@@ -22,10 +24,6 @@ COPY package.json package-lock.json ./
 
 # Copy the rest of the application source
 COPY . .
-
-# If you rely on build-time env (e.g., NEXT_PUBLIC_*), pass them at build:
-# docker build --build-arg NEXT_PUBLIC_API_URL=... -t app .
-# ARG NEXT_PUBLIC_API_URL
 
 # Build the Next.js app with standalone output
 RUN npm run build
@@ -37,7 +35,12 @@ WORKDIR /app
 
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
-    PORT=3000
+    PORT=3000 \
+    NEXT_PUBLIC_API_URL=https://your-api-url.com \
+    DB_USER=mydbuser \
+    DB_PASS=mydbpassword \
+    DB_HOST=mydbhost \
+    DB_NAME=mydbname
 
 # Create non-root user for security
 RUN addgroup -S nextjs && adduser -S nextjs -G nextjs
@@ -53,10 +56,4 @@ COPY --from=builder /app/.next/static ./.next/static
 USER nextjs
 EXPOSE 3000
 
-# IMPORTANT: Provide env at runtime (preferred):
-#   docker run --env-file .env -p 3000:3000 image
-# Or with docker-compose using env_file.
-
 CMD ["node", "server.js"]
-
-

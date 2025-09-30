@@ -119,7 +119,11 @@ export default function Home() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
+      // Option 1: Go to search results page
       router.push(`/generate?query=${encodeURIComponent(searchQuery)}`);
+      
+      // Option 2: Alternative - redirect to services page
+      // router.push("/services");
     }
   };
 
