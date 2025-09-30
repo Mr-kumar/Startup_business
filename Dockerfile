@@ -12,11 +12,16 @@ WORKDIR /app
 
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
-    NEXT_PUBLIC_API_URL=https://your-api-url.com \
-    DB_USER=mydbuser \
-    DB_PASS=mydbpassword \
-    DB_HOST=mydbhost \
-    DB_NAME=mydbname
+    SMTP_HOST=smtp.gmail.com \
+    SMTP_PORT=465 \
+    SMTP_USER=office.dostartup@gmail.com \
+    SMTP_PASSWORD=ukbuiqwcrwqnjazz \
+    ADMIN_EMAIL=office.dostartup@gmail.com \
+    OWNER_CALENDAR_ID=primary \
+    TIMEZONE=Asia/Kolkata \
+    GOOGLE_CLIENT_ID=1063627471241-dbv2op4bgh1p4csmp6edsmqlhb4iccch.apps.googleusercontent.com \
+    GOOGLE_CLIENT_SECRET=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 \
+    GOOGLE_REFRESH_TOKEN=1//04gQai8z-jiI2CgYIARAAGAQSNgF-L9IrBP0vMvAwpwkwK6OGTi2G5WcwQYDG60BPiRx2xf1Fd3u-0p5T--yUVbo5_i1s8WD9eg
 
 # Install dependencies (copied from deps stage for reproducible builds)
 COPY --from=deps /app/node_modules ./node_modules
@@ -36,11 +41,16 @@ WORKDIR /app
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
     PORT=3000 \
-    NEXT_PUBLIC_API_URL=https://your-api-url.com \
-    DB_USER=mydbuser \
-    DB_PASS=mydbpassword \
-    DB_HOST=mydbhost \
-    DB_NAME=mydbname
+    SMTP_HOST=smtp.gmail.com \
+    SMTP_PORT=465 \
+    SMTP_USER=office.dostartup@gmail.com \
+    SMTP_PASSWORD=ukbuiqwcrwqnjazz \
+    ADMIN_EMAIL=office.dostartup@gmail.com \
+    OWNER_CALENDAR_ID=primary \
+    TIMEZONE=Asia/Kolkata \
+    GOOGLE_CLIENT_ID=1063627471241-dbv2op4bgh1p4csmp6edsmqlhb4iccch.apps.googleusercontent.com \
+    GOOGLE_CLIENT_SECRET=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 \
+    GOOGLE_REFRESH_TOKEN=1//04gQai8z-jiI2CgYIARAAGAQSNgF-L9IrBP0vMvAwpwkwK6OGTi2G5WcwQYDG60BPiRx2xf1Fd3u-0p5T--yUVbo5_i1s8WD9eg
 
 # Create non-root user for security
 RUN addgroup -S nextjs && adduser -S nextjs -G nextjs
@@ -49,9 +59,6 @@ RUN addgroup -S nextjs && adduser -S nextjs -G nextjs
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
-
-# If you use next/image with sharp, ensure the required packages are present
-# RUN apk add --no-cache vips vips-dev
 
 USER nextjs
 EXPOSE 3000
