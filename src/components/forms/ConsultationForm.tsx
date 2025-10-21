@@ -442,6 +442,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
                         value={formData.state}
                         onChange={handleInputChange}
                         required
+                        aria-label="Select State or Union Territory"
                         className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200"
                       >
                         <option value="">Select State / Union Territory</option>
@@ -505,6 +506,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
                             value={formData.date}
                             onChange={handleInputChange}
                             required
+                            aria-label="Select consultation date"
                             min={new Date().toISOString().split("T")[0]} // ✅ Prevent past dates
                             className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                           />
@@ -518,6 +520,7 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
                             value={formData.time}
                             onChange={handleInputChange}
                             required
+                            aria-label="Select consultation time"
                             className="w-full px-4 py-3 pr-4 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent transition-all duration-200"
                           />
                         </div>

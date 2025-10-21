@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 
 // TypeScript interfaces for type safety
 interface FooterLink {
@@ -23,48 +23,37 @@ const footerSections: FooterSection[] = [
     ],
   },
   {
-    title: "Startup",
+    title: "Startup Services",
     links: [
-      { name: "Fssai & Eating License", href: "/footer/fssai-eating-license" },
-      { name: "Business Registration", href: "/footer/business-registration" },
-      { name: "Secretarial Compliances", href: "/footer/secretarial-compliances" },
-      { name: "IT Services", href: "/footer/it-services" },
-      { name: "Global Company Formation", href: "/footer/global-company-formation" },
-      { name: "Government Licenses", href: "/footer/government-licenses" },
-      { name: "Government Registration", href: "/footer/government-registration" },
-      { name: "NGO", href: "/footer/ngo" },
-      { name: "ISO", href: "/footer/iso" },
+      { name: "FSSAI License Registration", href: "/fssai-license-registration" },
+      { name: "GST Registration", href: "/gst-registration" },
+      { name: "OPC Registration", href: "/opc-registration" },
+      { name: "Partnership Firm Registration", href: "/partnership-firm-registration" },
+      { name: "Sole Proprietorship", href: "/sole-proprietorship-registration" },
+      { name: "MSME Registration", href: "/msme-registration-india" },
+      { name: "IEC Code Registration", href: "/iec-code-registration" },
     ],
   },
   {
-    title: "TAX",
+    title: "Compliance",
     links: [
-      { name: "Tax Filing", href: "/footer/tax-filing" },
-      { name: "Service Related", href: "/footer/servicerelated" },
-      { name: "Property Related", href: "/footer/property-related" },
-      { name: "Legal Services", href: "/footer/legal-services" },
-      { name: "Advisory Service", href: "/footer/advisory-service" },
-      { name: "Business Templates", href: "/footer/business-document-templates" },
+      { name: "GST Return Filing", href: "/gst-return-filing" },
+      { name: "NBFC Compliance", href: "/nbfc-compliance" },
+      { name: "MCA Compliance", href: "/mca-compliance" },
+      { name: "MGT-7 Filing", href: "/mgt-7-compliance" },
+      { name: "SPICe+ Form", href: "/spice-plus-compliance" },
+      { name: "Change Registered Office", href: "/change-registered-office" },
     ],
   },
   {
-    title: "ENVIRONMENTAL",
+    title: "Intellectual Property",
     links: [
-      { name: "Pollution NOC", href: "/footer/pollution-noc" },
-      {
-        name: "E-Waste Management",
-        href: "/footer/e-waste",
-      },
-      {
-        name: "Plastic Waste Management",
-        href: "/footer/plastic-waste-management",
-      },
-      { name: "Hazardous Waste Management", href: "/footer/hazardous-waste-management" },
-      { name: "Battery Waste Management", href: "/footer/battery-waste-management" },
-      { name: "Environmental Licensing", href: "/footer/environmental-licensing" },
-      { name: "Environmental Advisory", href: "/footer/environmental-advisory" },
-      { name: "EIA", href: "/footer/eia" },
-      { name: "Environmental Industry", href: "/footer/environmental-industry" },
+      { name: "Trademark Registration", href: "/trademark-registration" },
+      { name: "Copyright Registration", href: "/copyright-registration" },
+      { name: "Patent Registration", href: "/patent-registration" },
+      { name: "Design Registration", href: "/design-registration" },
+      { name: "Trademark Rectification", href: "/trademark-rectification" },
+      { name: "International Trademark", href: "/international-trademark-registration" },
     ],
   },
 ];
@@ -121,12 +110,12 @@ const Footer: React.FC = () => {
               <ul className="space-y-3">
                 {section.links.map((link) => (
                   <li key={link.name}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-gray-300 hover:text-emerald-400 transition-colors"
                     >
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -170,12 +159,12 @@ const Footer: React.FC = () => {
           By continuing past this page, you agree to our{" "}
           {policyLinks.map((policy, idx) => (
             <span key={policy.text}>
-              <a
+              <Link
                 href={policy.href}
                 className="text-emerald-400 hover:text-emerald-300 underline"
               >
                 {policy.text}
-              </a>
+              </Link>
               {idx < policyLinks.length - 1 && ", "}
             </span>
           ))}

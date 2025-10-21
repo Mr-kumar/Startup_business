@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import Link from 'next/link';
 import { motion, useMotionTemplate, useMotionValue, animate, useTransform } from 'framer-motion';
 import { useRef } from 'react';
@@ -14,6 +14,7 @@ export interface OverviewProps {
 export default function Overview({ data }: OverviewProps) {
   const { heading, paragraphs} = data;
   const containerRef = useRef<HTMLDivElement>(null);
+  const [isMounted, setIsMounted] = useState(false);
   
   // Enhanced mouse tracking with smoother inertia
   const mouseX = useMotionValue(0);
@@ -22,6 +23,7 @@ export default function Overview({ data }: OverviewProps) {
   const smoothY = useMotionValue(0);
 
   useEffect(() => {
+    setIsMounted(true);
     const unsubscribeX = mouseX.on("change", (latest) => {
       animate(smoothX, latest, { duration: 0.5, ease: "easeOut" });
     });
@@ -34,29 +36,21 @@ export default function Overview({ data }: OverviewProps) {
     };
   }, [mouseX, mouseY, smoothX, smoothY]);
 
-  // Floating animation with more natural movement
-  const floatingVariants = {
-    float: {
-      y: [0, -20, 0],
-      x: [0, Math.random() * 20 - 10, 0],
-      transition: {
-        duration: 8 + Math.random() * 4,
-        repeat: Infinity,
-        ease: "easeInOut"
-      }
-    }
-  };
-
-  // Enhanced particle system with varied properties
-  const particles = Array(30).fill(0).map((_, i) => ({
-    id: i,
-    size: Math.random() * 6 + 2,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    delay: Math.random() * 3,
-    opacity: Math.random() * 0.4 + 0.2,
-    color: `hsl(${Math.random() * 60 + 100}, 80%, 70%)`
-  }));
+  // Enhanced particle system with varied properties - only generate on client
+  const particles = useMemo(() => {
+    if (!isMounted) return [];
+    return Array(30).fill(0).map((_, i) => ({
+      id: i,
+      size: Math.random() * 6 + 2,
+      x: Math.random() * 100,
+      y: Math.random() * 100,
+      delay: Math.random() * 3,
+      opacity: Math.random() * 0.4 + 0.2,
+      color: `hsl(${Math.random() * 60 + 100}, 80%, 70%)`,
+      floatY: Math.random() * 20 - 10,
+      duration: 8 + Math.random() * 4
+    }));
+  }, [isMounted]);
 
   // More refined 3D tilt effect
   const handleMouseMove = (e: React.MouseEvent) => {
@@ -114,10 +108,16 @@ export default function Overview({ data }: OverviewProps) {
               filter: 'blur(1px)',
               mixBlendMode: 'screen'
             }}
-            variants={floatingVariants}
-            initial="float"
-            animate="float"
-            transition={{ delay: particle.delay }}
+            animate={{
+              y: [0, -20, 0],
+              x: [0, particle.floatY, 0],
+            }}
+            transition={{
+              duration: particle.duration,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: particle.delay
+            }}
           />
         ))}
       </div>

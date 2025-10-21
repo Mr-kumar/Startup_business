@@ -61,7 +61,7 @@ const Header = () => {
         {
           title: "FSSAI & Eating License",
           links: [
-            { name: "FSSAI License", href: "/startup/fssai-license-registration" },
+            { name: "FSSAI License", href: "/fssai-license-registration" },
             {
               name: "FSSAI License Renewal",
               href: "/fssai-license-renewal",
@@ -72,7 +72,7 @@ const Header = () => {
             { name: "Central FSSAI License", href: "/fssai-central-license" },
             {
               name: "FSSAI Annual Return",
-              href: "/startup/fssai-annual-return",
+              href: "/fssai-annual-return",
             },
             {
               name: "FSSAI Product Approval",
@@ -97,15 +97,15 @@ const Header = () => {
             },
             {
               name: "One Person Company Registration",
-              href: "/startup/opc-registration",
+              href: "/opc-registration",
             },
             { 
               name: "Partnership Firm Registration",
-              href: "/startup/partnership-firm-registration",
+              href: "/partnership-firm-registration",
             },
             {
               name: "Sole Proprietorship Registration",
-              href: "/startup/sole-proprietorship-registration",
+              href: "/sole-proprietorship-registration",
             },
             {
               name: "Nidhi Company Registration",
@@ -193,10 +193,10 @@ const Header = () => {
               name: "Section 8 Company Compliance",
               href: "/section8-company-compliance",
             },
-            { name: "NBFC Compliance", href: "/startup/nbfc-compliance" },
+            { name: "NBFC Compliance", href: "/nbfc-compliance" },
             {
               name: "Change in Registered Office",
-              href: "/startup/change-registered-office",
+              href: "/change-registered-office",
             },
             {
               name: "Change in Share Capital",
@@ -206,7 +206,7 @@ const Header = () => {
               name: "Revival of Struck Off Companies",
               href: "/change-in-struck-off-companies",
             },
-            { name: "MCA Compliance", href: "/startup/mca-compliance" },
+            { name: "MCA Compliance", href: "/mca-compliance" },
             { name: "Change in Directors", href: "/change-in-directors" },
             {
               name: "Change in LLP Agreement",
@@ -218,9 +218,9 @@ const Header = () => {
             },
             { name: "AGR-Return Filing", href: "/agr-return-filing" },
             { name: "Form AOC-4", href: "/form-aoc-4" },
-            { name: "Form MGT-7", href: "/startup/mgt-7-compliance" },
-            { name: "SPICe+ Form", href: "/startup/spice-plus-compliance" },
-            { name: "AGILE PRO S", href: "/startup/agile-pro-s-compliance" },
+            { name: "Form MGT-7", href: "/mgt-7-compliance" },
+            { name: "SPICe+ Form", href: "/spice-plus-compliance" },
+            { name: "AGILE PRO S", href: "/agile-pro-s-compliance" },
           ],
         },
         {
@@ -234,31 +234,31 @@ const Header = () => {
           links: [
             {
               name: "Company Registration in USA",
-              href: "/startup/usa-company-registration",
+              href: "/usa-company-registration",
             },
             {
               name: "Company Registration in Mauritius",
-              href: "/startup/mauritius-company-registration",
+              href: "/mauritius-company-registration",
             },
             {
               name: "Company Registration in Dubai",
-              href: "/startup/dubai-company-registration",
+              href: "/dubai-company-registration",
             },
             {
               name: "Company Registration in Sri Lanka",
-              href: "/startup/sri-lanka-company-registration",
+              href: "/sri-lanka-company-registration",
             },
             {
               name: "Company Registration in France",
-              href: "/startup/france-company-registration",
+              href: "/france-company-registration",
             },
             {
               name: "Company Registration in Singapore",
-              href: "/startup/singapore-company-registration",
+              href: "/singapore-company-registration",
             },
             {
               name: "Company Registration in Hong Kong",
-              href: "/startup/hong-kong-company-registration",
+              href: "/hong-kong-company-registration",
             },
           ],
         },
@@ -271,9 +271,9 @@ const Header = () => {
             },
             {
               name: "CE Certification",
-              href: "/startup/ce-certification-compliance",
+              href: "/ce-certification-compliance",
             },
-            { name: "PSARA License", href: "/startup/psara-license" },
+            { name: "PSARA License", href: "/psara-license" },
             { name: "Trade License", href: "/trade-license" },
             { name: "Music License", href: "/music-license" },
             { name: "Health Trade License", href: "/health-trade-license" },
@@ -284,16 +284,16 @@ const Header = () => {
             { name: "AYUSH License", href: "/ayush-license" },
             {
               name: "WPC Certification",
-              href: "/startup/wpc-certification-compliance",
+              href: "/wpc-certification-compliance",
             },
             {
               name: "PESO Certification",
-              href: "/startup/peso-certification-compliance",
+              href: "/peso-certification-compliance",
             },
             { name: "CAPEXIL Certificate", href: "/capexil-registration" },
             {
               name: "TEC Certification",
-              href: "/startup/tec-certification-compliance",
+              href: "/tec-certification-compliance",
             },
             { name: "NASSCOM Membership", href: "/nasscom-membership" },
             { name: "MSO License", href: "/mso-license" },
@@ -335,15 +335,15 @@ const Header = () => {
           links: [
             {
               name: "MSME Registration",
-              href: "/startup/msme-registration-india",
+              href: "/msme-registration-india",
             },
             {
               name: "IEC Registration",
-              href: "/startup/iec-code-registration",
+              href: "/iec-code-registration",
             },
             { name: "EPF Registration", href: "/epf-registration" },
-            { name: "RERA Registration", href: "/startup/rera-registration" },
-            { name: "NSIC Registration", href: "/startup/nsic-registration" },
+            { name: "RERA Registration", href: "/rera-registration" },
+            { name: "NSIC Registration", href: "/nsic-registration" },
             { name: "ESI Registration", href: "/esi-registration" },
             { name: "FIEO Registration", href: "/fieo-registration" },
             { name: "Building NOC", href: "/building-noc" },
@@ -356,8 +356,8 @@ const Header = () => {
               name: "RERA Registration For Promoters",
               href: "/rera-registration-for-promoters",
             },
-            { name: "APEDA Registration", href: "/startup/apeda-registration" },
-            { name: "RNI Registration", href: "/startup/rni-registration" },
+            { name: "APEDA Registration", href: "/apeda-registration" },
+            { name: "RNI Registration", href: "/rni-registration" },
             {
               name: "Spice Board Registration",
               href: "/spice-board-registration",
@@ -385,7 +385,7 @@ const Header = () => {
             },
             {
               name: "PM-WANI Registration",
-              href: "/startup/pm-wani-registration",
+              href: "/pm-wani-registration",
             },
             {
               name: "Flipkart Seller Registration",
@@ -398,7 +398,7 @@ const Header = () => {
             { name: "NPOP Certification", href: "/npop-certification" },
             {
               name: "Coconut Board Registration",
-              href: "/startup/coconut-board-registration",
+              href: "/coconut-board-registration",
             },
             { name: "Drone Registration", href: "/drone-registration" },
           ],
@@ -419,7 +419,7 @@ const Header = () => {
             },
             {
               name: "ISO 45001 certification",
-              href: "/startup/iso-45001-certification",
+              href: "/iso-45001-certification",
             },
             {
               name: "ISO 20000 Certification",
@@ -453,7 +453,7 @@ const Header = () => {
               name: "ISO 39001 Certification",
               href: "/iso-39001-certification",
             },
-            { name: "ISO 2768-1 Certification", href: "/startup/iso-2768-1" },
+            { name: "ISO 2768-1 Certification", href: "/iso-2768-1" },
           ],
         },
         {
@@ -466,17 +466,17 @@ const Header = () => {
               href: "/section8-company-registration",
             },
             { name: "Society Registration", href: "/society-registration-india" },
-            { name: "FCRA Registration", href: "/startup/fcra-registration" },
-            { name: "12AA Registration", href: "/startup/12aa-registration" },
-            { name: "Trust Registration", href: "/startup/trust-registration" },
+            { name: "FCRA Registration", href: "/fcra-registration" },
+            { name: "12AA Registration", href: "/12aa-registration" },
+            { name: "Trust Registration", href: "/trust-registration" },
             { name: "12AB Registration", href: "/12ab-registration-india" },
             {
               name: "Trust Annual Compliance",
-              href: "/startup/trust-annual-compliance",
+              href: "/trust-annual-compliance",
             },
             {
               name: "NGO Darpan Registration",
-              href: "/startup/ngo-darpan-registration",
+              href: "/ngo-darpan-registration",
             },
             { name: "NGO CSR-1 Filing", href: "/ngo-csr-1-filing" },
             { name: "NGO CSR Consultancy", href: "/ngo-csr-consultancy" },
@@ -523,7 +523,7 @@ const Header = () => {
           links: [
             {
               name: "Trademark Registration",
-              href: "/startup/trademark-registration",
+              href: "/trademark-registration",
             },
             {
               name: "Trademark Objection",
@@ -535,11 +535,11 @@ const Header = () => {
             },
             {
               name: "Design Registration",
-              href: "/startup/design-registration",
+              href: "/design-registration",
             },
             {
               name: "Trademark Rectification",
-              href: "/startup/trademark-rectification",
+              href: "/trademark-rectification",
             },
             {
               name: "Intellectual Property Dispute",
@@ -547,7 +547,7 @@ const Header = () => {
             },
             {
               name: "International Trademark Registration",
-              href: "/startup/international-trademark-registration",
+              href: "/international-trademark-registration",
             },
             {
               name: "Trademark Renewal",
@@ -575,7 +575,7 @@ const Header = () => {
             },
             {
               name: "Registration OF Geographical Indication (GI)",
-              href: "/startup/gi-registration",
+              href: "/gi-registration",
             },
             {
               name: "Wordmark Registration in India",
@@ -590,23 +590,23 @@ const Header = () => {
           links: [
             {
               name: "Copyright Registration",
-              href: "/startup/copyright-registration",
+              href: "/copyright-registration",
             },
             {
               name: "Copyright Disclaimer",
-              href: "/startup/copyright-disclaimer",
+              href: "/copyright-disclaimer",
             },
             {
               name: "Copyright Licensing",
-              href: "/startup/copyright-licensing",
+              href: "/copyright-licensing",
             },
             {
               name: "Copyright Objection",
-              href: "/startup/copyright-objection",
+              href: "/copyright-objection",
             },
             {
               name: "Copyright Assignment",
-              href: "/startup/copyright-assignment",
+              href: "/copyright-assignment",
             },
           ],
         },
@@ -616,11 +616,11 @@ const Header = () => {
           links: [
             {
               name: "Patent Registration",
-              href: "/startup/patent-registration",
+              href: "/patent-registration",
             },
             {
               name: "Indian Patent Search",
-              href: "/startup/indian-patent-search",
+              href: "/indian-patent-search",
             },
             {
               name: "Patent Opposition",
@@ -628,7 +628,7 @@ const Header = () => {
             },
             {
               name: "Patent Revocation",
-              href: "/startup/patent-revocation",
+              href: "/patent-revocation",
             },
           ],
         },
@@ -643,11 +643,11 @@ const Header = () => {
           links: [
             {
               name: "GST Registration",
-              href: "/startup/gst-registration",
+              href: "/gst-registration",
             },
             {
               name: "GST Return Filing",
-              href: "/startup/gst-return-filing",
+              href: "/gst-return-filing",
             },
             {
               name: "TDS Return Filing",
@@ -734,7 +734,7 @@ const Header = () => {
             { name: "Caveat Petition", href: "/caveat-petition" },
             {
               name: "Legal Heir Certificate",
-              href: "/startup/legal-heir-certificate",
+              href: "/legal-heir-certificate",
             },
             {
               name: "Section 8-Demand Notice",
@@ -769,7 +769,7 @@ const Header = () => {
             { name: "Hindu Marriage Act", href: "/hindu-marriage-act" },
             { name: "Bail Application", href: "/bail-application" },
             { name: "Judicial Separation", href: "/judicial-separation" },
-            { name: "Special Leave Petition", href: "/startup/special-leave-petition" }, //ayush-code page
+            { name: "Special Leave Petition", href: "/special-leave-petition" }, //ayush-code page
             { name: "Consulting Agreement", href: "/consulting-agreement" },
             { name: "Tenant Eviction Notice", href: "/tenant-eviction-notice" },
             { name: "Vendor Agreement", href: "/vendor-agreement" },
@@ -801,7 +801,7 @@ const Header = () => {
           links: [
             {
               name: "Professional Advisory Services",
-              href: "/startup/gst-registration",
+              href: "/gst-registration",
             },
             {
               name: "Legal Advisory Services",
@@ -876,14 +876,14 @@ const Header = () => {
           title: "BIS",
           description: "Quality and recognition certificates",
           links: [
-            { name: "BIS Registration", href: "/startup/bis-registration" },
+            { name: "BIS Registration", href: "/bis-registration" },
             {
               name: "Eco Mark Scheme Certification",
               href: "/eco-mark-scheme-certification",
             },
             {
               name: "ISI Mark Certification",
-              href: "/startup/isi-mark-certification",
+              href: "/isi-mark-certification",
             },
             { name: "BIS CRS Registration", href: "/bis-crs-registration" },
             {
@@ -926,7 +926,7 @@ const Header = () => {
               name: "Medical Device Registration",
               href: "/cdsco-medical-device-registration",
             },
-            { name: "CDSCO Registration", href: "/startup/cdsco-registration" },
+            { name: "CDSCO Registration", href: "/cdsco-registration" },
             {
               name: "CDSCO Cosmetic Import Registration",
               href: "/cdsco-cosmetic-import-registration",
@@ -971,7 +971,7 @@ const Header = () => {
             },
             {
               name: "Insurance Broker License",
-              href: "/startup/insurance-broker-license",
+              href: "/insurance-broker-license",
             },
             {
               name: "Insurance Surveyors and Loss Assessors Registration",
@@ -1004,18 +1004,18 @@ const Header = () => {
           title: "RBI",
           description:"RBI",
           links:[
-            { name: "NBFC Registration", href: "/startup/nbfc-registration" },
-            { name: "NBFC Takeover", href: "/startup/nbfc" },
-            { name: "FFMC License", href: "/startup/ffmc-license-registration" },
-            { name: "Microfinance Company Registration", href: "/startup/microfinance-company-registration" },
-            { name: "Housing Finance Company Registration", href: "/startup/housing-finance-company-registration" },
-            { name: "NBFC Account Aggregator License", href: "/startup/nbfc-account-aggregator-license" },
-            { name: "Prepaid Wallet License", href: "/startup/prepaid-wallet-license" },
-            { name: "Peer to Peer Lending License", href: "/startup/p2p-lending-license" },
-            { name: "Payment Bank License", href: "/startup/payment-bank-license" },
-            { name: "Payment Gateway License", href: "/startup/payment-gateway-license" },
-            { name: "Mobile Wallet License", href: "/startup/mobile-wallet-license" },
-            { name: "TPAP License", href: "/startup/tpap-license" },
+            { name: "NBFC Registration", href: "/nbfc-registration" },
+            { name: "NBFC Takeover", href: "/nbfc" },
+            { name: "FFMC License", href: "/ffmc-license-registration" },
+            { name: "Microfinance Company Registration", href: "/microfinance-company-registration" },
+            { name: "Housing Finance Company Registration", href: "/housing-finance-company-registration" },
+            { name: "NBFC Account Aggregator License", href: "/nbfc-account-aggregator-license" },
+            { name: "Prepaid Wallet License", href: "/prepaid-wallet-license" },
+            { name: "Peer to Peer Lending License", href: "/p2p-lending-license" },
+            { name: "Payment Bank License", href: "/payment-bank-license" },
+            { name: "Payment Gateway License", href: "/payment-gateway-license" },
+            { name: "Mobile Wallet License", href: "/mobile-wallet-license" },
+            { name: "TPAP License", href: "/tpap-license" },
           ]
         },
         {
@@ -1103,7 +1103,7 @@ const Header = () => {
           links: [
             {
               name: "EPR Registration",
-              href: "/startup/epr-registration",
+              href: "/epr-registration",
             },
             {
               name: "Refurbisher Authorization and License",
@@ -1115,7 +1115,7 @@ const Header = () => {
             },
             {
               name: "Plastic Waste Authorization",
-              href: "/startup/plastic-waste-authorization",
+              href: "/plastic-waste-authorization",
             },
             {
               name: "E-Waste Recycling Authorization",
@@ -1220,7 +1220,7 @@ const Header = () => {
             },
             {
               name: "Bio Medical Waste Recycling Plant",
-              href: "/startup/bio-medical-waste-treatment-plant",
+              href: "/bio-medical-waste-treatment-plant",
             },
             {
               name: "Hazardous Waste Export Authorisation",
@@ -1236,7 +1236,7 @@ const Header = () => {
             },
             {
               name: "Industrial Waste Management",
-              href: "/startup/industrialWasteContent",
+              href: "/industrialWasteContent",
             },
           ],
         },
@@ -1274,7 +1274,7 @@ const Header = () => {
             },
             {
               name: "Construction and Demolition (C&D) Waste Recycling",
-              href: "/startup/cd-waste-recycling",
+              href: "/cd-waste-recycling",
             },
             {
               name: "Risk Assessment",
@@ -1286,7 +1286,7 @@ const Header = () => {
             },
             {
               name: "Carbon Credit Trading Scheme",
-              href: "/startup/carbon-credit-trading-scheme",
+              href: "/carbon-credit-trading-scheme",
             },
             {
               name: "Environmental Due Diligence Services",
@@ -1358,7 +1358,7 @@ const Header = () => {
             },
             {
               name: "Environmental Clearance",
-              href: "/startup/environmental-clearance",
+              href: "/environmental-clearance",
             },
             {
               name: "Environmental Impact Assessment (EIA)",
@@ -1374,7 +1374,7 @@ const Header = () => {
             },
             {
               name: "Social Impact Assessment",
-              href: "/startup/social-impact-assessment",
+              href: "/social-impact-assessment",
             },
             {
               name: "Wildlife Conservation Plan",
@@ -1474,7 +1474,7 @@ const Header = () => {
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500"
           aria-controls="mega-menu"
-          aria-expanded={isMenuOpen}
+          aria-expanded={isMenuOpen ? true : false}
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -1499,7 +1499,7 @@ const Header = () => {
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500"
           aria-controls="mega-menu"
-          aria-expanded={isMenuOpen}
+          aria-expanded={isMenuOpen ? true : false}
         >
           <span className="sr-only">Open main menu</span>
           <svg
