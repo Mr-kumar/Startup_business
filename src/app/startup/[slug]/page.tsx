@@ -1,16 +1,16 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
-import { pageContent, PageContentType } from '@/utils/pageContentDataSecondary';
-import Registration from '@/components/Page1/Registration';
+import { pageContent, PageContentType } from '@/content/pageData';
+import Registration from '@/components/forms/ConsultationForm';
 
 // Dynamic imports of your GST components
-const Overview = dynamic(() => import('@/components/Page1/Overview'));
-const Features = dynamic(() => import('@/components/Page1/Features'));
-const Benefits = dynamic(() => import('@/components/Page1/Benifits'));
-const Documents = dynamic(() => import('@/components/Page1/Documents'));
-const Eligibility = dynamic(() => import('@/components/Page1/Eligibility'));
-const ServicesFaq = dynamic(() => import('@/components/Page1/Faq'));
-const Types = dynamic(() => import('@/components/Page1/Types'));
+const Overview = dynamic(() => import('@/components/views/service/Overview'));
+const Features = dynamic(() => import('@/components/views/service/Features'));
+const Benefits = dynamic(() => import('@/components/views/service/Benefits'));
+const Documents = dynamic(() => import('@/components/views/service/RequiredDocuments'));
+const Eligibility = dynamic(() => import('@/components/views/service/Eligibility'));
+const ServicesFaq = dynamic(() => import('@/components/views/service/Faq'));
+const Types = dynamic(() => import('@/components/views/service/ServiceTypes'));
 
 type PageProps = {
   params: Promise<{ slug: string }>;

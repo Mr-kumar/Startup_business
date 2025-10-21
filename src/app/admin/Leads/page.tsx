@@ -17,7 +17,7 @@ import {
   DropdownMenu,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import Navbar from "../components/Navbar";
+import Navbar from "../(components)/AdminNavbar";
 
 const leadsData = Array.from({ length: 30 }, (_, i) => ({
   id: `lead-${i + 1}`,

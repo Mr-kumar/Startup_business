@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Button } from "@/components/ui/button"; // Adjust import based on your component setup
-import Navbar from "../components/Navbar";
+import Navbar from "../(components)/AdminNavbar";
 
 const steps = [
   {

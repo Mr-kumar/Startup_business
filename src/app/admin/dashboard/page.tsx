@@ -1,8 +1,8 @@
 'use client'; // if you're in a Next.js app directory structure
 
 import React from 'react';
-import Navbar from '../components/Navbar';
-import TaskCard from '../components/TaskCard';
+import Navbar from '../(components)/AdminNavbar';
+import TaskCard from '../(components)/TaskCard';
 import { HiOfficeBuilding } from 'react-icons/hi';
 
 const stats = [

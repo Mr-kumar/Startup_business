@@ -67,12 +67,12 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
-import { pageContent, PageContentType } from "@/utils/pageContentDataPrimary";
+import { pageContent, PageContentType } from "@/content/serviceData";
 
-const Hero = dynamic(() => import("@/components/Page2/hero"));
-// const LogoSlider = dynamic(() => import("@/components/Page2/LogoSlider"));
-const TalkToExpert = dynamic(() => import("@/components/Page2/TalkToExpert"));
-const Overview = dynamic(() => import("@/components/Page2/Overview"));
+const Hero = dynamic(() => import("@/components/views/home/HeroSection"));
+// const LogoSlider = dynamic(() => import("@/components/common/LogoSlider"));
+const TalkToExpert = dynamic(() => import("@/components/views/service/TalkToExpert"));
+const Overview = dynamic(() => import("@/components/views/service/OverviewSecondary"));
 
 interface PageProps {
   params?: Promise<{ slug: string }>;

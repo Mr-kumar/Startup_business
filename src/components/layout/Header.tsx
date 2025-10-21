@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import NewL from "../../public/NewL.png";
 import Image from "next/image";
 import Link from "next/link";
 // import { Description } from "@headlessui/react";
@@ -1458,7 +1457,7 @@ const Header = () => {
           }}
         >
           <Image
-            src={NewL}
+            src="/NewL.png"
             width={80}
             height={80}
             alt="DoStartup Logo"

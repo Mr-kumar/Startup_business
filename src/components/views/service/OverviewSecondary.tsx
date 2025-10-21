@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import Documentation from "./Documentation";
-import FAQ from "./FAQ";
+import FAQ from "./Faq";
 import FeeStructure from "./FeeStructure";
-import Registration from "./Registration";
+import Registration from "./ProcedureDetails";
 import Timeline from "./Timeline";
 import Why from "./Why";
 import Who from "./Who";

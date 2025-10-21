@@ -2,7 +2,7 @@
 // import '../styles/globals.css'
 import React from "react";
 import { CheckCircle2, AlertTriangle } from "lucide-react";
-import FlipCard from "@/components/FlipCard";
+import FlipCard from "@/components/common/FlipCard";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
