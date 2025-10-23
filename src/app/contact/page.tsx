@@ -189,9 +189,8 @@ export default function Contact() {
                                                 className="w-full border-2 border-neutral-200 rounded-xl px-4 py-3 bg-white text-neutral-800 focus:border-primary-500 focus:ring-4 focus:ring-primary-100 transition-all outline-none"
                                                 value={state}
                                                 onChange={(e) => setState(e.target.value)}
+                                                aria-label="Select State or Union Territory"
                                                 required
-                                                title="Select your state"
-                                                aria-label="Select your state"
                                             >
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">

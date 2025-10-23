@@ -12,9 +12,12 @@ export interface OverviewProps {
 }
 
 export default function Overview({ data }: OverviewProps) {
-  const { heading, paragraphs} = data;
+  const { heading, paragraphs = []} = data;
   const containerRef = useRef<HTMLDivElement>(null);
   const [isMounted, setIsMounted] = useState(false);
+  
+  // Safety check: ensure paragraphs is an array
+  const safeParagraphs = Array.isArray(paragraphs) ? paragraphs : [];
   
   // Enhanced mouse tracking with smoother inertia
   const mouseX = useMotionValue(0);
@@ -159,7 +162,7 @@ export default function Overview({ data }: OverviewProps) {
             </motion.h2>
             
             <div className="space-y-6 mb-12">
-              {paragraphs.map((p, idx) => (
+              {safeParagraphs.map((p, idx) => (
                 <motion.p 
                   key={idx} 
                   className="text-xl text-gray-300 leading-relaxed font-light"

@@ -25,14 +25,7 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
   const [countdown, setCountdown] = useState(0);
 
   const [loading, setLoading] = useState(false);
-  console.log(loading)
   const [message, setMessage] = useState("");
-  // add near your other useState lines
-  const MAX_OTP_ATTEMPTS = 3;
-  const LOCKOUT_SECONDS = 2 * 60; // 2 minutes lockout
-  const [otpAttempts, setOtpAttempts] = useState<number>(0);
-  const [lockedUntil, setLockedUntil] = useState<number | null>(null);
-  const [lockRemaining, setLockRemaining] = useState(0);
 
   // Animation controls
   const controls = useAnimation();
@@ -93,28 +86,6 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
     },
   };
 
-  useEffect(() => {
-    const v = localStorage.getItem("otpLockedUntil");
-    if (v) setLockedUntil(parseInt(v, 10));
-  }, []);
-
-  // Countdown timer for OTP resend
-  useEffect(() => {
-    let timer: NodeJS.Timeout;
-    if (countdown > 0) {
-      timer = setTimeout(() => setCountdown(countdown - 1), 1000);
-    }
-    return () => clearTimeout(timer);
-  }, [countdown]);
-
-  useEffect(() => {
-    if (lockedUntil) {
-      localStorage.setItem("otpLockedUntil", String(lockedUntil));
-    } else {
-      localStorage.removeItem("otpLockedUntil");
-    }
-  }, [lockedUntil]);
-
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
@@ -143,9 +114,6 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       setOtpStep("otp");
       setCountdown(60);
       setMessage("OTP sent to your email address");
-      // reset client-side attempt state when a fresh OTP is issued
-      setOtpAttempts(0);
-      setLockedUntil(null);
     } catch (err: unknown) {
       if (err instanceof Error) {
         setMessage(err.message || "Failed to send OTP. Please try again.");
@@ -153,96 +121,6 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
         setMessage("Failed to send OTP. Please try again.");
       }
     }finally {
-      setOtpLoading(false);
-    }
-  };
-  // countdown updater
-  useEffect(() => {
-    if (!lockedUntil) {
-      setLockRemaining(0);
-      return;
-    }
-
-    const tick = () => {
-      const rem = Math.max(0, Math.ceil((lockedUntil - Date.now()) / 1000));
-      setLockRemaining(rem);
-
-      if (rem === 0) {
-        setLockedUntil(null);
-        setOtpAttempts(0); // reset attempts when lock expires
-      }
-    };
-
-    tick(); // run immediately
-    const id = setInterval(tick, 1000);
-    return () => clearInterval(id);
-  }, [lockedUntil]);
-
-  const verifyOTP = async () => {
-    if (lockedUntil && Date.now() < lockedUntil) {
-      setMessage(`Too many failed attempts. Try again after ${lockRemaining}s`);
-      return;
-    }
-
-    if (!otp || otp.length !== 6) {
-      setMessage("Please enter a valid 6-digit OTP");
-      return;
-    }
-
-    if (otpAttempts >= MAX_OTP_ATTEMPTS) {
-      const until = Date.now() + LOCKOUT_SECONDS * 1000;
-      setLockedUntil(until);
-      setMessage(
-        `Too many failed attempts. Locked for ${LOCKOUT_SECONDS / 60} minutes.`
-      );
-      return;
-    }
-
-    setOtpLoading(true);
-    setMessage("");
-    try {
-      const response = await fetch("/api/send-otp", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: formData.email, otp }),
-      });
-
-      if (!response.ok) {
-        const errorData = await response
-          .json()
-          .catch(() => ({ error: "Invalid OTP" }));
-        setOtpAttempts((prev) => {
-          const next = prev + 1;
-          if (next >= MAX_OTP_ATTEMPTS) {
-            setLockedUntil(Date.now() + LOCKOUT_SECONDS * 1000);
-            setMessage(
-              `Too many failed attempts. Locked for ${
-                LOCKOUT_SECONDS / 60
-              } minutes.`
-            );
-          } else {
-            setMessage(errorData.error || "Invalid OTP. Please try again.");
-          }
-          return next;
-        });
-        return;
-      }
-
-      // success path
-      await fetch("/api/contact", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: formData.email }),
-      });
-      setMessage("Email verified successfully!");
-      await submitForm();
-    }catch (error: unknown) {
-      if (error instanceof Error) {
-        setMessage(error.message || "Invalid OTP. Please try again.");
-      } else {
-        setMessage("Invalid OTP. Please try again.");
-      }
-    } finally {
       setOtpLoading(false);
     }
   };
@@ -285,6 +163,46 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
       setMessage("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
+    }
+  };
+
+  const verifyOTP = async () => {
+    if (!otp || otp.length !== 6) {
+      setMessage("Please enter a valid 6-digit OTP");
+      return;
+    }
+
+    setOtpLoading(true);
+    setMessage("");
+    try {
+      const response = await fetch("/api/send-otp", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: formData.email, otp }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ error: "Invalid OTP" }));
+        setMessage(errorData.error || "Invalid OTP. Please try again.");
+        return;
+      }
+
+      // success path
+      await fetch("/api/contact", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: formData.email }),
+      });
+      setMessage("Email verified successfully!");
+      await submitForm();
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        setMessage(error.message || "Invalid OTP. Please try again.");
+      } else {
+        setMessage("Invalid OTP. Please try again.");
+      }
+    }finally {
+      setOtpLoading(false);
     }
   };
 
@@ -605,8 +523,8 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                       name="state"
                       value={formData.state}
                       onChange={handleInputChange}
-                      required
                       aria-label="Select State or Union Territory"
+                      required
                       className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200"
                     >
                       <option value="">Select State / Union Territory</option>
@@ -750,14 +668,11 @@ const Hero: React.FC<HeroProps> = ({ title, description }) => {
                       onClick={verifyOTP}
                       disabled={
                         otpLoading ||
-                        otp.length !== 6 ||
-                        (lockedUntil !== null && Date.now() < lockedUntil) // force boolean
+                        otp.length !== 6
                       }
                       className="flex-1 py-3 px-6 cursor-pointer bg-gradient-to-r from-[#1D293D] to-[#1D293D]/90 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 disabled:opacity-50"
                     >
-                      {lockedUntil !== null && Date.now() < lockedUntil
-                        ? `Locked (${lockRemaining}s)`
-                        : otpLoading
+                      {otpLoading
                         ? "VERIFYING..."
                         : "VERIFY OTP"}
                     </button>

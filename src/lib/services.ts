@@ -18,26 +18,138 @@ interface StrapiService {
   publishedAt: string;
 }
 
+// Comprehensive service data interface for components
+export interface ServiceData {
+  id: number;
+  slug: string;
+  title: string;
+  serviceCategory: string;
+  description?: string;
+  overview?: { heading: string; content: string }[];
+  benefits?: { heading: string; content: string }[];
+  features?: any[];
+  documents?: any[];
+  documentsRequired?: { heading: string; content: string }[];
+  registrationProcedure?: { heading: string; content: string }[];
+  feesStructure?: {
+    heading?: string;
+    paymentMethods?: string[];
+    description?: string;
+    feeTable?: { category: string; amount: string }[];
+  }[];
+  registrationTimeline?: {
+    heading: string;
+    description?: string;
+    steps?: { title: string; duration: string; description: string }[];
+    totalTime?: string;
+  }[];
+  eligibility?: any[];
+  types?: any[];
+  faqs?: { question: string; answer: string }[];
+  whyUs?: {
+    heading?: string;
+    description?: string[];
+    points?: string[];
+    footerText?: string;
+  }[];
+  who?: {
+    heading?: string;
+    description?: string[];
+    points?: string[];
+    footerText?: string;
+  }[];
+  clauses?: { title: string; description: string }[];
+  // List data properties (for categorized lists)
+  Listicles?: { category: string; documents: string[] }[];
+  Categories?: { category: string; documents: string[] }[];
+  Challenges?: { category: string; documents: string[] }[];
+  ClassifiedIndustries?: { category: string; documents: string[] }[];
+  Guidelines?: { category: string; documents: string[] }[];
+  Regulations?: { category: string; documents: string[] }[];
+  ProductRequire?: { category: string; documents: string[] }[];
+  Structure?: { category: string; documents: string[] }[];
+  RoleOfHydrogeologist?: { category: string; documents: string[] }[];
+  Need?: { category: string; documents: string[] }[];
+  Process?: { category: string; documents: string[] }[];
+  Authority?: { category: string; documents: string[] }[];
+  EPR?: { category: string; documents: string[] }[];
+  Validity?: { category: string; documents: string[] }[];
+  Business?: { category: string; documents: string[] }[];
+  services?: { category: string; documents: string[] }[];
+  Productlist?: { category: string; documents: string[] }[];
+  // Renewal data
+  renewalData?: {
+    renewal: { heading: string; content: string[] }[];
+    duplicate: { heading: string; content: string[] }[];
+  };
+  // Legacy properties (for backward compatibility)
+  createdAt?: string;
+  updatedAt?: string;
+  publishedAt?: string;
+}
+
+/**
+ * Deduplicate array items based on a key or stringified content
+ */
+function deduplicateArray<T>(arr: T[], key?: keyof T): T[] {
+  if (!Array.isArray(arr) || arr.length === 0) return arr;
+  
+  const seen = new Set<string>();
+  return arr.filter(item => {
+    const identifier = key && item[key] 
+      ? String(item[key]) 
+      : JSON.stringify(item);
+    
+    if (seen.has(identifier)) {
+      return false;
+    }
+    seen.add(identifier);
+    return true;
+  });
+}
+
 /**
  * Parse the JSON data field from Strapi response
  * Strapi v5 uses flat structure (no nested attributes)
+ * Also deduplicates any array fields to prevent repetition
  */
-function parseServiceData(service: StrapiService) {
+function parseServiceData(service: StrapiService): ServiceData {
   if (!service.data) {
-    return service;
+    return service as ServiceData;
   }
 
-  const parsedData = typeof service.data === 'string' 
+  const parsedData = typeof service.data === 'string'
     ? JSON.parse(service.data)
     : service.data;
 
-  return {
+  const baseData = {
     id: service.id,
     slug: service.slug,
     title: service.title || parsedData.title,
     serviceCategory: service.serviceCategory,
     ...parsedData
-  };
+  } as ServiceData;
+
+  // Deduplicate all array fields to prevent repetition
+  const arrayFields = [
+    'overview', 'benefits', 'features', 'documents', 'documentsRequired',
+    'registrationProcedure', 'feesStructure', 'registrationTimeline',
+    'eligibility', 'types', 'faqs', 'whyUs', 'who', 'clauses',
+    'Listicles', 'Categories', 'Challenges', 'ClassifiedIndustries',
+    'Guidelines', 'Regulations', 'ProductRequire', 'Structure',
+    'RoleOfHydrogeologist', 'Need', 'Process', 'Authority',
+    'EPR', 'Validity', 'Business', 'services', 'Productlist'
+  ] as const;
+
+  arrayFields.forEach(field => {
+    if (Array.isArray(baseData[field])) {
+      // Deduplicate based on 'question' for FAQs, 'heading' for others, or full object
+      const key = field === 'faqs' ? 'question' : 'heading';
+      baseData[field] = deduplicateArray(baseData[field] as any[], key as any) as any;
+    }
+  });
+
+  return baseData;
 }
 
 /**

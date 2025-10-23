@@ -441,8 +441,8 @@ const Registration: React.FC<RegisterProps> = ({ title }) => {
                         name="state"
                         value={formData.state}
                         onChange={handleInputChange}
-                        required
                         aria-label="Select State or Union Territory"
+                        required
                         className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#7DD756] focus:border-transparent appearance-none bg-white transition-all duration-200"
                       >
                         <option value="">Select State / Union Territory</option>

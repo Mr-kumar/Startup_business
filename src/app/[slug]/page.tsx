@@ -6,94 +6,61 @@ import Registration from '@/components/forms/ConsultationForm';
 
 const Hero = dynamic(() => import("@/components/views/home/HeroSection"));
 const TalkToExpert = dynamic(() => import("@/components/views/service/TalkToExpert"));
-const OverviewPrimary = dynamic(() => import("@/components/views/service/OverviewSecondary"));
-
-// Components for secondary page type (from old startup route)
-const OverviewSecondary = dynamic(() => import('@/components/views/service/Overview'));
-const Features = dynamic(() => import('@/components/views/service/Features'));
-const Benefits = dynamic(() => import('@/components/views/service/Benefits'));
-const Documents = dynamic(() => import('@/components/views/service/RequiredDocuments'));
-const Eligibility = dynamic(() => import('@/components/views/service/Eligibility'));
-const FAQ = dynamic(() => import('@/components/views/service/Faq'));
-const Types = dynamic(() => import('@/components/views/service/ServiceTypes'));
+const OverviewSecondary = dynamic(() => import("@/components/views/service/OverviewSecondary"));
+const OverviewPrimary = dynamic(() => import("@/components/views/service/Overview"));
+const Features = dynamic(() => import("@/components/views/service/Features"));
+const Benefits = dynamic(() => import("@/components/views/service/Benefits"));
+const Documents = dynamic(() => import("@/components/views/service/RequiredDocuments"));
+const Eligibility = dynamic(() => import("@/components/views/service/Eligibility"));
+const FAQ = dynamic(() => import("@/components/views/service/Faq"));
+const Types = dynamic(() => import("@/components/views/service/ServiceTypes"));
 
 interface PageProps {
   params?: Promise<{ slug: string }>;
   searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
-export default async function Page({ params }: PageProps) {
+export default async function ServicePage({ params }: PageProps) {
   const resolvedParams = await params;
   const slug = resolvedParams?.slug ?? '';
-  
+
   // Fetch data from Strapi using helper function
   const service = await getServiceBySlug(slug);
 
   if (!service) {
     return <div>Service not found</div>;
   }
-  
-  // Determine which page type based on available fields
-  const isPrimaryPage = 'documentsRequired' in service;
-  const isSecondaryPage = 'features' in service;
 
-  // Render primary page type (main serviceData structure)
-  if (isPrimaryPage) {
-    return (
-      <div>
-        <Hero title={service.title} description={service.description || ''} />
-        <TalkToExpert />
-        <OverviewPrimary
-          overview={service.overview || ''}
-          benefits={service.benefits || []}
-          documentsRequired={service.documentsRequired}
-          registrationProcedure={service.registrationProcedure}
-          feesStructure={service.feesStructure}
-          registrationTimeline={service.registrationTimeline}
-          whyUs={service.whyUs}
-          who={service.who}
-          faq={service.faq}
-          clauses={service.clauses}
-          listicles={service.Listicles as { category: string; documents: string[] }[]}
-          CategoriesData={service.Categories as { category: string; documents: string[] }[]}
-          ChallengesData={service.Challenges as { category: string; documents: string[] }[]}
-          classifiedIndustriesData={service.ClassifiedIndustries as { category: string; documents: string[] }[]}
-          GuidelinesData={service.Guidelines as { category: string; documents: string[] }[]}
-          RegulationsData={service.Regulations as { category: string; documents: string[] }[]}
-          ProductRequireData={service.ProductRequire as { category: string; documents: string[] }[]}
-          StructureData={service.Structure as { category: string; documents: string[] }[]}
-          RoleOfHydrogeologistData={service.RoleOfHydrogeologist as { category: string; documents: string[] }[]}
-          NeedData={service.Need as { category: string; documents: string[] }[]}
-          ProcessData={service.Process as { category: string; documents: string[] }[]}
-          AuthorityData={service.Authority as { category: string; documents: string[] }[]}
-          EPRData={service.EPR as { category: string; documents: string[] }[]}
-          ValidityData={service.Validity as { category: string; documents: string[] }[]}
-          BusinessData={service.Business as { category: string; documents: string[] }[]}
-          services={service.services as { category: string; documents: string[] }[]}
-          productListData={service.Productlist as { category: string; documents: string[] }[]}
-        />
-      </div>
-    );
-  }
+  // Determine if this is a primary or secondary service page
+  const isPrimaryService = service.documentsRequired && service.overview && 
+    typeof service.overview === 'object' && 'paragraphs' in service.overview && 
+    Array.isArray(service.overview.paragraphs);
 
-  // Render secondary page type (from old pageData/startup structure)
-  if (isSecondaryPage) {
-    return (
-      <div>
-        <OverviewSecondary data={service.overview} />
-        <Registration title={service.overview?.heading || service.title}/>
-        <Features items={service.features || []} />
-        <Benefits items={service.benefits || []} />
-        <Documents data={service.documents} />
-        <Eligibility sections={service.eligibility || []} />
-        <Types data={service.types} />
-        <FAQ faqs={service.faqs || []} />
-      </div>
-    );
-  }
+  // Render components based on service type (data-driven approach)
+  return (
+    <div>
+      <Hero title={service.title} description={service.description || ''} />
+      <TalkToExpert />
 
-  // Page not found
-  return <div>Service not found</div>;
+      {isPrimaryService ? (
+        // PRIMARY SERVICE: Render with OverviewPrimary + individual sections
+        <>
+          <OverviewPrimary data={service.overview as unknown as { heading: string; paragraphs: string[] }} />
+          {service.features && <Features items={service.features} />}
+          {service.benefits && <Benefits items={service.benefits as any} />}
+          {service.documents && <Documents data={service.documents as any} />}
+          {service.eligibility && <Eligibility sections={service.eligibility} />}
+          {service.types && <Types data={service.types as any} />}
+          {service.faqs && <FAQ faqs={service.faqs} />}
+        </>
+      ) : (
+        // SECONDARY SERVICE: OverviewSecondary handles ALL sections internally
+        <OverviewSecondary service={service} />
+      )}
+
+      <Registration title={service.title} />
+    </div>
+  );
 }
 
 // Generate static params for all services

@@ -1,4 +1,6 @@
 "use client";
+
+import { ServiceData } from "@/lib/services";
 import { useEffect, useState } from "react";
 import Documentation from "./Documentation";
 import FAQ from "./Faq";
@@ -7,82 +9,15 @@ import Registration from "./ProcedureDetails";
 import Timeline from "./Timeline";
 import Why from "./Why";
 import Who from "./Who";
-import Listicles from "./Listicles";
-import Categories from "./Categories";
-import Challenges from "./Challenges";
-import ClassifiedIndustries from "./ClassifiedIndustries";
-import Guidelines from "./Guidelines";
-import Regulations from "./Regulation";
-import ProductRequire from "./ProductRequire";
-import Structure from "./Structure";
-import RoleOfHydrogeologist from "./RoleOfHydrogeologist";
-import Need from "./Need";
-import Process from "./Process";
-import Authority from "./Authority";
-import EPR from "./EPR";
-import Validity from "./Validity";
-import Business from "./Business";
-import Services from "./Services";
-import Productlist from './Productlist';
 import Clauses from "./Clauses";
+import SectionList from "./SectionList";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 
 interface OverviewProps {
-  overview?: { heading: string; content: string }[];
-  benefits?: { heading: string; content: string }[];
-  documentsRequired?: { heading: string; content: string }[];
-  registrationProcedure?: { heading: string; content: string }[];
-  feesStructure?: {
-    heading?: string;
-    paymentMethods?: string[];
-    description?: string;
-    feeTable?: { category: string; amount: string }[];
-  }[];
-  registrationTimeline?: {
-    heading: string;
-    description?: string;
-    steps?: { title: string; duration: string; description: string }[];
-    totalTime?: string;
-  }[];
-  clauses?: { title: string; description: string }[];
-  whyUs?: {
-    heading?: string;
-    description?: string[];
-    points?: string[];
-    footerText?: string;
-  }[];
-  who?: {
-    heading?: string;
-    description?: string[];
-    points?: string[];
-    footerText?: string;
-  }[];
-  faq?: { question: string; answer: string }[];
-  Categories?: { category: string; documents: string[] }[];
-  ChallengesData?: { category: string; documents: string[] }[];
-  CategoriesData?: { category: string; documents: string[] }[];
-  listicles?: { category: string; documents: string[] }[];
-  classifiedIndustriesData?: { category: string; documents: string[] }[];
-  GuidelinesData?: { category: string; documents: string[] }[];
-  RegulationsData?: { category: string; documents: string[] }[];
-  ProductRequireData?: { category: string; documents: string[] }[];
-  StructureData?: { category: string; documents: string[] }[];
-  NeedData?: { category: string; documents: string[] }[];
-  ProcessData?: { category: string; documents: string[] }[];
-  AuthorityData?: { category: string; documents: string[] }[];
-  EPRData?: { category: string; documents: string[] }[];
-  ValidityData?: { category: string; documents: string[] }[];
-  BusinessData?: { category: string; documents: string[] }[];
-  RoleOfHydrogeologistData?: { category: string; documents: string[] }[];
-  services?: { category: string; documents: string[] }[];
-  productListData?: { category: string; documents: string[] }[];
-  renewalData?: {
-    renewal: { heading: string; content: string[] }[];
-    duplicate: { heading: string; content: string[] }[];
-  };
+  service: ServiceData;
 }
 
 interface SectionItem {
@@ -90,88 +25,55 @@ interface SectionItem {
   label: string;
 }
 
-const Overview: React.FC<OverviewProps> = ({
-  overview,
-  benefits,
-  documentsRequired,
-  registrationProcedure,
-  feesStructure,
-  registrationTimeline,
-  whyUs,
-  who,
-  faq,
-  listicles,
-  CategoriesData,
-  ChallengesData,
-  classifiedIndustriesData,
-  GuidelinesData,
-  RegulationsData,
-  ProductRequireData,
-  StructureData,
-  RoleOfHydrogeologistData,
-  NeedData,
-  ProcessData,
-  AuthorityData,
-  EPRData,
-  ValidityData,
-  BusinessData,
-  services,
-  productListData,
-  renewalData,
-  clauses,
-}) => {
+const Overview: React.FC<OverviewProps> = ({ service }) => {
   const [activeSection, setActiveSection] = useState("overview");
 
-  // Dynamically generate the sections array based on available props
+  // Safety check: ensure overview is an array
+  const safeOverview = Array.isArray(service.overview) ? service.overview : [];
+
+  // Dynamically generate the sections array based on available service data
   const sections: SectionItem[] = [
-    overview && overview.length > 0 && { id: "overview", label: "Overview" },
-    benefits &&
-    benefits.length > 0 && { id: "benefits", label: "Key Benefits" },
-    documentsRequired &&
-    documentsRequired.length > 0 && {
+    safeOverview.length > 0 && { id: "overview", label: "Overview" },
+    service.benefits && service.benefits.length > 0 && { id: "benefits", label: "Key Benefits" },
+    service.documentsRequired && service.documentsRequired.length > 0 && {
       id: "documents",
       label: "Required Documents",
     },
-    registrationProcedure &&
-    registrationProcedure.length > 0 && {
+    service.registrationProcedure && service.registrationProcedure.length > 0 && {
       id: "registration",
       label: "Registration Steps",
     },
-    feesStructure &&
-    feesStructure.length > 0 && { id: "fees", label: "Pricing Plans" },
-    registrationTimeline &&
-    registrationTimeline.length > 0 && {
+    service.feesStructure && service.feesStructure.length > 0 && { id: "fees", label: "Pricing Plans" },
+    service.registrationTimeline && service.registrationTimeline.length > 0 && {
       id: "timeline",
       label: "Process Timeline",
     },
-    listicles && listicles.length > 0 && { id: "listicles", label: "Listicles" },
-    CategoriesData && CategoriesData.length > 0 && { id: "Categories", label: "Categories" },
-    ChallengesData && ChallengesData.length > 0 && { id: "Challenges", label: "Challenges" },
-    classifiedIndustriesData && classifiedIndustriesData.length > 0 && { id: "ClassifiedIndustries", label: "ClassifiedIndustries" },
-    GuidelinesData && GuidelinesData.length > 0 && { id: "Guidelines", label: "Guidelines" },
-    RegulationsData && RegulationsData.length > 0 && { id: "Regulations", label: "Regulations" },
-    ProductRequireData && ProductRequireData.length > 0 && { id: "ProductRequire", label: "Project that Require" },
-    StructureData && StructureData.length > 0 && { id: "Structure", label: "Structure" },
-    RoleOfHydrogeologistData && RoleOfHydrogeologistData.length > 0 && { id: "RoleOfHydrogeologist", label: "Role Of Hydrogeologist" },
-    NeedData && NeedData.length > 0 && { id: "Need", label: "Need" },
-    ProcessData && ProcessData.length > 0 && { id: "Process", label: "Process" },
-    AuthorityData && AuthorityData.length > 0 && { id: "Authority", label: "Authority" },
-    EPRData && EPRData.length > 0 && { id: "EPR", label: "EPR" },
-    ValidityData && ValidityData.length > 0 && { id: "Validity", label: "Validity" },
-    BusinessData && BusinessData.length > 0 && { id: "Business", label: "Business" },
-    services &&
-    services.length > 0 && { id: "services", label: "services" },
-    productListData && productListData.length > 0 && { id: "Productlist", label: "Product List" },
-    renewalData &&
-    (renewalData.renewal.length > 0 || renewalData.duplicate.length > 0) && {
+    service.Listicles && service.Listicles.length > 0 && { id: "listicles", label: "Listicles" },
+    service.Categories && service.Categories.length > 0 && { id: "Categories", label: "Categories" },
+    service.Challenges && service.Challenges.length > 0 && { id: "Challenges", label: "Challenges" },
+    service.ClassifiedIndustries && service.ClassifiedIndustries.length > 0 && { id: "ClassifiedIndustries", label: "ClassifiedIndustries" },
+    service.Guidelines && service.Guidelines.length > 0 && { id: "Guidelines", label: "Guidelines" },
+    service.Regulations && service.Regulations.length > 0 && { id: "Regulations", label: "Regulations" },
+    service.ProductRequire && service.ProductRequire.length > 0 && { id: "ProductRequire", label: "Project that Require" },
+    service.Structure && service.Structure.length > 0 && { id: "Structure", label: "Structure" },
+    service.RoleOfHydrogeologist && service.RoleOfHydrogeologist.length > 0 && { id: "RoleOfHydrogeologist", label: "Role Of Hydrogeologist" },
+    service.Need && service.Need.length > 0 && { id: "Need", label: "Need" },
+    service.Process && service.Process.length > 0 && { id: "Process", label: "Process" },
+    service.Authority && service.Authority.length > 0 && { id: "Authority", label: "Authority" },
+    service.EPR && service.EPR.length > 0 && { id: "EPR", label: "EPR" },
+    service.Validity && service.Validity.length > 0 && { id: "Validity", label: "Validity" },
+    service.Business && service.Business.length > 0 && { id: "Business", label: "Business" },
+    service.services && service.services.length > 0 && { id: "services", label: "services" },
+    service.Productlist && service.Productlist.length > 0 && { id: "Productlist", label: "Product List" },
+    service.renewalData && (service.renewalData.renewal.length > 0 || service.renewalData.duplicate.length > 0) && {
       id: "renewal",
       label: "Renewal & Duplicate",
     },
-    whyUs && whyUs.length > 0 && { id: "whyus", label: "Why Choose Us" },
-    who && who.length > 0 && { id: "who", label: "Who" },
-    clauses && clauses.length > 0 && { id: "clauses", label: "Key Clauses" },
-    faq && faq.length > 0 && { id: "faq", label: "FAQs" },
-  ].filter(Boolean) as SectionItem[]; // Remove undefined entries and type as SectionItem[]
+    service.whyUs && service.whyUs.length > 0 && { id: "whyus", label: "Why Choose Us" },
+    service.who && service.who.length > 0 && { id: "who", label: "Who" },
+    service.clauses && service.clauses.length > 0 && { id: "clauses", label: "Key Clauses" },
+    service.faqs && service.faqs.length > 0 && { id: "faq", label: "FAQs" },
+  ].filter(Boolean) as SectionItem[];
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -232,7 +134,7 @@ const Overview: React.FC<OverviewProps> = ({
 
       {/* Main Content */}
       <main className="lg:w-4/5 space-y-8">
-        {overview && (
+        {safeOverview.length > 0 && (
           <section id="overview" className="scroll-mt-[120px]">
             <Card className="shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
@@ -242,7 +144,7 @@ const Overview: React.FC<OverviewProps> = ({
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                {overview.map((item, index) => (
+                {safeOverview.map((item: { heading: string; content: string }, index: number) => (
                   <div key={index} className="space-y-2">
                     {item.heading && (
                       <h3 className="text-xl font-bold text-foreground">
@@ -252,24 +154,24 @@ const Overview: React.FC<OverviewProps> = ({
                     <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                       {item.content}
                     </p>
-                    {index < overview.length - 1 && <Separator className="mt-4" />}
+                    {index < safeOverview.length - 1 && <Separator className="mt-4" />}
                   </div>
                 ))}
               </CardContent>
             </Card>
           </section>
         )}
-        {benefits && benefits.length > 0 && (
+        {service.benefits && Array.isArray(service.benefits) && service.benefits.length > 0 && (
           <section id="benefits" className="scroll-mt-[120px]">
             <Card className="shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
                 <div className="flex items-center gap-2">
-                  <Badge className="bg-gradient-to-r from-green-600 to-emerald-600">Benefits</Badge>
+                  <Badge className="bg-gradient-to-r from-green-600 to-teal-600">Benefits</Badge>
                   <CardTitle className="text-2xl">Key Benefits</CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                {benefits.map((item, index) => (
+                {service.benefits.map((item: { heading: string; content: string }, index: number) => (
                   <div key={index} className="space-y-2">
                     {item.heading && (
                       <h3 className="text-xl font-bold text-foreground">
@@ -279,136 +181,136 @@ const Overview: React.FC<OverviewProps> = ({
                     <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                       {item.content}
                     </p>
-                    {index < benefits.length - 1 && <Separator className="mt-4" />}
+                    {index < (service.benefits?.length ?? 0) - 1 && <Separator className="mt-4" />}
                   </div>
                 ))}
               </CardContent>
             </Card>
           </section>
         )}
-        {documentsRequired && (
+        {service.documentsRequired && (
           <section id="documents" className="scroll-mt-[120px]">
-            <Documentation documents={documentsRequired} />
+            <Documentation documents={service.documentsRequired} />
           </section>
         )}
-        {registrationProcedure && (
+        {service.registrationProcedure && (
           <section id="registration" className="scroll-mt-[120px]">
-            <Registration procedure={registrationProcedure} />
+            <Registration procedure={service.registrationProcedure} />
           </section>
         )}
-        {feesStructure && (
+        {service.feesStructure && (
           <section id="fees" className="scroll-mt-[120px]">
-            <FeeStructure fees={feesStructure} />
+            <FeeStructure fees={service.feesStructure} />
           </section>
         )}
-        {registrationTimeline && (
+        {service.registrationTimeline && (
           <section id="timeline" className="scroll-mt-[120px]">
-            <Timeline timeline={registrationTimeline} />
+            <Timeline timeline={service.registrationTimeline} />
           </section>
         )}
-        {listicles && (
+        {service.Listicles && (
           <section id="listicles" className="scroll-mt-[120px]">
-            <Listicles listicles={listicles} />
+            <SectionList data={service.Listicles} title="Listicles" />
           </section>
         )}
-        {Categories && (
+        {service.Categories && (
           <section id="Categories" className="scroll-mt-[120px]">
-            <Categories Categories={CategoriesData} />
+            <SectionList data={service.Categories} title="Categories" />
           </section>
         )}
-        {Challenges && (
+        {service.Challenges && (
           <section id="Challenges" className="scroll-mt-[120px]">
-            <Challenges Challenges={ChallengesData} />
+            <SectionList data={service.Challenges} title="Challenges" />
           </section>
         )}
-        {classifiedIndustriesData && (
+        {service.ClassifiedIndustries && (
           <section id="ClassifiedIndustries" className="scroll-mt-[120px]">
-            <ClassifiedIndustries ClassifiedIndustries={classifiedIndustriesData} />
+            <SectionList data={service.ClassifiedIndustries} title="Classified Industries" />
           </section>
         )}
-        {GuidelinesData && (
+        {service.Guidelines && (
           <section id="Guidelines" className="scroll-mt-[120px]">
-            <Guidelines Guidelines={GuidelinesData} />
+            <SectionList data={service.Guidelines} title="Guidelines" />
           </section>
         )}
-        {RegulationsData && (
+        {service.Regulations && (
           <section id="Regulations" className="scroll-mt-[120px]">
-            <Regulations Regulations={RegulationsData} />
+            <SectionList data={service.Regulations} title="Regulations" />
           </section>
         )}
-        {ProductRequireData && (
+        {service.ProductRequire && (
           <section id="ProductRequire" className="scroll-mt-[120px]">
-            <ProductRequire ProductRequire={ProductRequireData} />
+            <SectionList data={service.ProductRequire} title="Products that Require" />
           </section>
         )}
-        {StructureData && (
+        {service.Structure && (
           <section id="Structure" className="scroll-mt-[120px]">
-            <Structure Structure={StructureData} />
+            <SectionList data={service.Structure} title="Structure" />
           </section>
         )}
-        {RoleOfHydrogeologistData && (
+        {service.RoleOfHydrogeologist && (
           <section id="RoleOfHydrogeologist" className="scroll-mt-[120px]">
-            <RoleOfHydrogeologist RoleOfHydrogeologist={RoleOfHydrogeologistData} />
+            <SectionList data={service.RoleOfHydrogeologist} title="Role of Hydrogeologist" />
           </section>
         )}
-        {NeedData && (
+        {service.Need && (
           <section id="Need" className="scroll-mt-[120px]">
-            <Need Need={NeedData} />
+            <SectionList data={service.Need} title="Need" />
           </section>
         )}
-        {ProcessData && (
+        {service.Process && (
           <section id="Process" className="scroll-mt-[120px]">
-            <Process Process={ProcessData} />
+            <SectionList data={service.Process} title="Process" />
           </section>
         )}
-        {AuthorityData && (
+        {service.Authority && (
           <section id="Authority" className="scroll-mt-[120px]">
-            <Authority Authority={AuthorityData} />
+            <SectionList data={service.Authority} title="Authority" />
           </section>
         )}
-        {EPRData && (
+        {service.EPR && (
           <section id="EPR" className="scroll-mt-[120px]">
-            <EPR EPR={EPRData} />
+            <SectionList data={service.EPR} title="EPR" />
           </section>
         )}
-        {ValidityData && (
+        {service.Validity && (
           <section id="Validity" className="scroll-mt-[120px]">
-            <Validity Validity={ValidityData} />
+            <SectionList data={service.Validity} title="Validity" />
           </section>
         )}
-        {BusinessData && (
+        {service.Business && (
           <section id="Business" className="scroll-mt-[120px]">
-            <Business Business={BusinessData} />
+            <SectionList data={service.Business} title="Business" />
           </section>
         )}
-        {services && (
+        {service.services && (
           <section id="services" className="scroll-mt-[120px]">
-            <Services Services={services} />
+            <SectionList data={service.services} title="Services" />
           </section>
         )}
-        {productListData && productListData.length > 0 && (
+        {service.Productlist && service.Productlist.length > 0 && (
           <section id="Productlist" className="scroll-mt-[120px]">
-            <Productlist productListData={productListData} />
+            <SectionList data={service.Productlist} title="Product List" />
           </section>
         )}
-        {clauses && clauses.length > 0 && (
+        {service.clauses && service.clauses.length > 0 && (
           <section id="clauses" className="scroll-mt-[120px]">
-            <Clauses clauses={clauses} />
+            <Clauses clauses={service.clauses} />
           </section>
         )}
-        {whyUs && (
+        {service.whyUs && (
           <section id="whyus" className="scroll-mt-[120px]">
-            <Why whyUs={whyUs} />
+            <Why whyUs={service.whyUs} />
           </section>
         )}
-        {who && (
+        {service.who && (
           <section id="who" className="scroll-mt-[120px]">
-            <Who who={who} />
+            <Who who={service.who} />
           </section>
         )}
-        {faq && (
+        {service.faqs && (
           <section id="faq" className="scroll-mt-[120px]">
-            <FAQ faqs={faq} />
+            <FAQ faqs={service.faqs} />
           </section>
         )}
       </main>

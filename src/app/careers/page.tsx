@@ -84,6 +84,7 @@ export default function Careers() {
                                         className="w-full border border-gray-300 rounded-lg px-5 py-3 bg-white focus:ring-2 focus:ring-blue-400 transition shadow-sm outline-none"
                                         value={state}
                                         onChange={(e) => setState(e.target.value)}
+                                        aria-label="Select State or Union Territory"
                                     >
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">
