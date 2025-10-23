@@ -101,39 +101,46 @@ const Overview: React.FC<OverviewProps> = ({ service }) => {
   }, [sections]);
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8 p-4 lg:px-12 lg:py-8 max-w-7xl mx-auto bg-gradient-to-b from-background to-blue-50/30">
-      {/* Sidebar */}
-      <aside className="lg:w-1/5 sticky top-[120px] h-fit">
-        <Card className="shadow-lg">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Badge variant="secondary">Navigation</Badge>
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ScrollArea className="h-[600px] pr-4">
-              <ul className="space-y-2">
-                {sections.map(({ id, label }: SectionItem) => (
-                  <li
-                    key={id}
-                    onClick={() => scrollToSection(id)}
-                    className={`cursor-pointer px-4 py-3 rounded-lg transition-all ${
-                      activeSection === id
-                        ? "bg-primary text-primary-foreground font-semibold shadow-md"
-                        : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                    }`}
-                  >
-                    {label}
-                  </li>
-                ))}
-              </ul>
-            </ScrollArea>
-          </CardContent>
-        </Card>
-      </aside>
+    <div className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-blue-50/20">
+      <div className="flex flex-col lg:flex-row gap-8 p-6 lg:px-12 lg:py-16 max-w-7xl mx-auto">
+        {/* Sidebar Navigation */}
+        <aside className="lg:w-1/4 sticky top-24 h-fit">
+          <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
+            <CardHeader className="pb-4">
+              <div className="flex items-center gap-2">
+                <Badge className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+                  Quick Navigation
+                </Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <ScrollArea className="h-[calc(100vh-250px)] pr-4">
+                <nav aria-label="Service sections navigation">
+                  <ul className="space-y-1">
+                    {sections.map(({ id, label }: SectionItem) => (
+                      <li key={id}>
+                        <button
+                          onClick={() => scrollToSection(id)}
+                          className={`w-full text-left px-4 py-3 rounded-lg transition-all duration-200 ${
+                            activeSection === id
+                              ? "bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg scale-105"
+                              : "text-gray-700 hover:bg-blue-50 hover:text-blue-700 hover:translate-x-1"
+                          }`}
+                          aria-current={activeSection === id ? "true" : undefined}
+                        >
+                          {label}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </nav>
+              </ScrollArea>
+            </CardContent>
+          </Card>
+        </aside>
 
-      {/* Main Content */}
-      <main className="lg:w-4/5 space-y-8">
+        {/* Main Content Area */}
+        <main className="lg:w-3/4 space-y-12">
         {safeOverview.length > 0 && (
           <section id="overview" className="scroll-mt-[120px]">
             <Card className="shadow-lg hover:shadow-xl transition-shadow">
@@ -314,6 +321,7 @@ const Overview: React.FC<OverviewProps> = ({ service }) => {
           </section>
         )}
       </main>
+      </div>
     </div>
   );
 };

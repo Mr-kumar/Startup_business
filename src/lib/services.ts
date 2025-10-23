@@ -153,13 +153,25 @@ function parseServiceData(service: StrapiService): ServiceData {
 }
 
 /**
+ * Convert navbar slug to title search pattern
+ * Example: "trademark-objection" -> "Trademark Objection"
+ */
+function slugToTitlePattern(slug: string): string {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+/**
  * Get a single service by slug
  * @param slug - The service slug (e.g., 'gst-registration')
  * @returns Parsed service data or null if not found
  */
 export async function getServiceBySlug(slug: string) {
   try {
-    const response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
+    // First, try exact slug match
+    let response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
       '/api/services',
       {
         filters: {
@@ -172,6 +184,27 @@ export async function getServiceBySlug(slug: string) {
     );
 
     if (response?.data && response.data.length > 0) {
+      return parseServiceData(response.data[0]);
+    }
+
+    // If no exact match, try searching by title pattern
+    // Convert slug to title: "trademark-objection" -> "Trademark Objection"
+    const titlePattern = slugToTitlePattern(slug);
+    
+    response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
+      '/api/services',
+      {
+        filters: {
+          title: {
+            $containsi: titlePattern, // Case-insensitive contains
+          },
+        },
+        populate: '*',
+      }
+    );
+
+    if (response?.data && response.data.length > 0) {
+      // Return the first match
       return parseServiceData(response.data[0]);
     }
 
