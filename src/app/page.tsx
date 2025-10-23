@@ -70,7 +70,7 @@ export default function ColorfulHome() {
 
   const stats = [
     { number: "5000+", label: "Happy Clients", icon: Users, color: "text-blue-600" },
-    { number: "400+", label: "Services Offered", icon: Sparkles, color: "text-purple-600" },
+    { number: "406", label: "Services Offered", icon: Sparkles, color: "text-purple-600" },
     { number: "10+", label: "Years Experience", icon: TrendingUp, color: "text-orange-600" },
     { number: "24/7", label: "Support Available", icon: Clock, color: "text-green-600" },
   ];
@@ -103,7 +103,7 @@ export default function ColorfulHome() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-blue-50/30 to-background">
+    <div className="min-h-screen bg-gradient-to-b from-background via-blue-50/30 to-background overflow-x-hidden">
       {/* Hero Section - Colorful */}
       <section className="relative overflow-hidden pt-20 pb-32">
         {/* Animated Background Blobs */}
@@ -263,7 +263,7 @@ export default function ColorfulHome() {
               variant="outline"
               onClick={() => router.push("/services")}
             >
-              View All 400+ Services
+              View All 406 Services
             </Button>
           </div>
         </div>

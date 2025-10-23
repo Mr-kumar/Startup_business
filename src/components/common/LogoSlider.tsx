@@ -1,8 +1,8 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Image from 'next/image';
+import Image from "next/image";
 
 const logos = [
   "https://corpbiz.io/admin/style/images/builder/20180628020904_stripe.jpg",
@@ -28,7 +28,7 @@ const LogoSlider = () => {
       {/* Gradient fade effects on sides */}
       <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-10" />
       <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-10" />
-      
+
       {/* Title with decorative elements */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,8 @@ const LogoSlider = () => {
         </h2>
         <div className="w-20 h-1 bg-[#7DD756] mx-auto mb-6" />
         <p className="text-gray-600 max-w-2xl mx-auto">
-          We partner with the most innovative companies to deliver exceptional results
+          We partner with the most innovative companies to deliver exceptional
+          results
         </p>
       </motion.div>
 
@@ -63,8 +64,7 @@ const LogoSlider = () => {
         {duplicatedLogos.map((logo, index) => (
           <div
             key={`${logo}-${index}`}
-            className="flex-shrink-0 px-8 flex items-center justify-center"
-            style={{ width: `${100 / 4}%` }} // Show 4 logos at a time
+            className="flex-shrink-0 px-8 flex items-center justify-center w-1/4" // Show 4 logos at a time
           >
             <motion.div
               className="relative h-20 w-full"
@@ -81,8 +81,8 @@ const LogoSlider = () => {
               <div className="relative h-full w-full flex items-center justify-center p-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300" />
                 <Image
-                width={150}
-                height={50}
+                  width={150}
+                  height={50}
                   src={logo}
                   alt="Partner logo"
                   className="relative z-10 max-h-12 w-auto object-contain filter  transition-all duration-500"
