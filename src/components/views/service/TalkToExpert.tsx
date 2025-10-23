@@ -1,9 +1,12 @@
 'use client'
 import React from "react";
 import { motion } from "framer-motion";
-import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { Phone, MessageCircle, CheckCircle, Calendar, FileText } from "lucide-react";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 const TalkToExpert: React.FC = () => {
   const [ref, inView] = useInView({
@@ -45,7 +48,7 @@ const TalkToExpert: React.FC = () => {
   ];
 
   return (
-    <div ref={ref} className="bg-white py-16 px-4 md:px-8 lg:px-16">
+    <div ref={ref} className="bg-gradient-to-b from-background to-blue-50/30 py-16 px-4 md:px-8 lg:px-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -54,24 +57,17 @@ const TalkToExpert: React.FC = () => {
       >
         {/* Section Header */}
         <div className="mb-12 text-center">
+          <Badge className="mb-4" variant="secondary">Expert Consultation</Badge>
           <motion.h2
-            className="text-3xl md:text-4xl font-bold text-[#1D293D] mb-4 relative inline-block"
+            className="text-3xl md:text-4xl font-bold text-foreground mb-4"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
             transition={{ delay: 0.2 }}
           >
-            <span className="relative z-10 px-4">
-              Talk to an Expert
-            </span>
-            {/* <motion.span
-              className="absolute bottom-0 left-0 w-full h-2 bg-[#7DD756]/30 z-0"
-              initial={{ scaleX: 0 }}
-              animate={inView ? { scaleX: 1 } : {}}
-              transition={{ duration: 0.8, delay: 0.3 }}
-            /> */}
+            Talk to an Expert
           </motion.h2>
           <motion.p
-            className="text-gray-600 max-w-2xl mx-auto"
+            className="text-muted-foreground max-w-2xl mx-auto text-lg"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
             transition={{ delay: 0.4 }}
@@ -83,81 +79,86 @@ const TalkToExpert: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-10 items-center lg:items-start">
           {/* Expert Card */}
           <motion.div
-            className="bg-[#1D293D] text-white p-8 rounded-2xl w-full lg:w-1/3 shadow-xl relative overflow-hidden"
+            className="w-full lg:w-1/3"
             initial={{ opacity: 0, x: -20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {/* Decorative elements */}
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#7DD756]/10 rounded-full -mr-16 -mt-16"></div>
-            <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#7DD756]/5 rounded-full -ml-12 -mb-12"></div>
+            <Card className="bg-gradient-to-br from-blue-600 via-purple-600 to-orange-600 text-white border-0 shadow-xl relative overflow-hidden">
+              <CardContent className="p-8">
+                {/* Decorative elements */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
+                <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12"></div>
 
-            <div className="relative z-10 flex flex-col items-center">
-              <motion.div
-                className="relative mb-6"
-                whileHover={{ scale: 1.05 }}
-              >
-                <Image
-                  width={150}
-                  height={150}
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
-                  alt="Expert"
-                  className="rounded-full w-24 h-24 object-cover border-4 border-[#7DD756] shadow-md"
-                />
-                <div className="absolute -bottom-2 -right-2 bg-[#7DD756] text-white p-2 rounded-full">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-              </motion.div>
-
-              <div className="text-center">
-
-
-                {/* Contact Buttons */}
-                <div className="flex flex-wrap gap-4 justify-center mt-8">
-                  <motion.button
-                    className="bg-white text-[#1D293D] px-6 py-3 rounded-lg flex items-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all"
-                    whileHover={{ y: -2 }}
-                    whileTap={{ scale: 0.98 }}
+                <div className="relative z-10 flex flex-col items-center">
+                  <motion.div
+                    className="relative mb-6"
+                    whileHover={{ scale: 1.05 }}
                   >
-                    <FaPhoneAlt className="text-[#7DD756]" />
-                    <span>Call Now</span>
-                  </motion.button>
-                  <motion.button
-                    className="bg-[#7DD756] text-white px-6 py-3 rounded-lg flex items-center gap-2 font-semibold shadow-md hover:shadow-lg transition-all"
-                    whileHover={{ y: -2 }}
-                    whileTap={{ scale: 0.98 }}
-                  >
-                    <FaWhatsapp />
-                    <span>Chat With Us</span>
-                  </motion.button>
+                    <Image
+                      width={150}
+                      height={150}
+                      src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80"
+                      alt="Expert"
+                      className="rounded-full w-24 h-24 object-cover border-4 border-white shadow-lg"
+                    />
+                    <div className="absolute -bottom-2 -right-2 bg-green-500 text-white p-2 rounded-full">
+                      <CheckCircle className="w-5 h-5" />
+                    </div>
+                  </motion.div>
+
+                  <div className="text-center">
+                    {/* Contact Buttons */}
+                    <div className="flex flex-wrap gap-4 justify-center mt-8">
+                      <Button
+                        size="lg"
+                        variant="secondary"
+                        className="shadow-lg hover:shadow-xl"
+                        asChild
+                      >
+                        <a href="tel:+919911144807" className="flex items-center gap-2">
+                          <Phone className="w-5 h-5" />
+                          <span>Call Now</span>
+                        </a>
+                      </Button>
+                      <Button
+                        size="lg"
+                        className="bg-green-500 hover:bg-green-600 shadow-lg hover:shadow-xl"
+                        asChild
+                      >
+                        <a href="https://wa.me/919911144807" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                          <MessageCircle className="w-5 h-5" />
+                          <span>WhatsApp</span>
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </CardContent>
+            </Card>
           </motion.div>
 
           {/* Steps */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full lg:w-2/3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full lg:w-2/3">
             {steps.map(({ step, title, desc, icon }, index) => (
               <motion.div
                 key={step}
-                className="relative"
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
               >
-                <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all h-full flex flex-col items-center text-center border border-gray-100">
-                  <div className="relative mb-4">
-                    <div className="absolute inset-0 bg-[#7DD756]/10 rounded-full animate-ping opacity-75"></div>
-                    <div className="relative w-16 h-16 flex items-center justify-center bg-[#1D293D] text-white font-bold text-xl rounded-full border-4 border-white shadow-md">
-                      {icon}
+                <Card className="hover:shadow-lg transition-all h-full">
+                  <CardContent className="p-6 flex flex-col items-center text-center">
+                    <div className="relative mb-4">
+                      <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-full shadow-lg">
+                        {icon}
+                      </div>
                     </div>
-                  </div>
-                  <h3 className="font-bold text-[#1D293D] text-lg mb-2">{title}</h3>
-                  <p className="text-gray-600 text-sm flex-grow">{desc}</p>
-                  <div className="mt-4 w-12 h-1 bg-[#7DD756] rounded-full"></div>
-                </div>
+                    <Badge variant="outline" className="mb-2">Step {step}</Badge>
+                    <h3 className="font-bold text-foreground text-lg mb-2">{title}</h3>
+                    <p className="text-muted-foreground text-sm flex-grow">{desc}</p>
+                  </CardContent>
+                </Card>
               </motion.div>
             ))}
           </div>

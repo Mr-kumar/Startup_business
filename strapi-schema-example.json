@@ -1,0 +1,125 @@
+{
+  "contentType": "Service",
+  "description": "Example Strapi schema for your services",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "example": "Startup India Registration"
+    },
+    {
+      "name": "slug",
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "example": "startup-india-registration"
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "example": "Get your startup registered under Startup India scheme"
+    },
+    {
+      "name": "overview",
+      "type": "richtext",
+      "note": "Can be text or JSON depending on your needs"
+    },
+    {
+      "name": "benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": {
+        "name": "BenefitItem",
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string"
+          },
+          {
+            "name": "content",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "documentsRequired",
+      "type": "component",
+      "repeatable": true,
+      "component": {
+        "name": "DocumentItem",
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string"
+          },
+          {
+            "name": "content",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "faq",
+      "type": "component",
+      "repeatable": true,
+      "component": {
+        "name": "FaqItem",
+        "fields": [
+          {
+            "name": "question",
+            "type": "string"
+          },
+          {
+            "name": "answer",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "registrationProcedure",
+      "type": "json",
+      "note": "Use JSON field for complex nested structures"
+    },
+    {
+      "name": "feesStructure",
+      "type": "json"
+    },
+    {
+      "name": "registrationTimeline",
+      "type": "json"
+    },
+    {
+      "name": "whyUs",
+      "type": "json"
+    },
+    {
+      "name": "who",
+      "type": "json"
+    },
+    {
+      "name": "features",
+      "type": "json",
+      "note": "For secondary page type"
+    },
+    {
+      "name": "eligibility",
+      "type": "json",
+      "note": "For secondary page type"
+    },
+    {
+      "name": "types",
+      "type": "json",
+      "note": "For secondary page type"
+    }
+  ],
+  "notes": [
+    "Start with basic fields: title, slug, description, overview, benefits, documentsRequired, faq",
+    "Add complex fields (JSON) after testing basic integration",
+    "You can create separate content types for Primary and Secondary services if needed",
+    "Use JSON fields for flexibility during migration, refactor to components later"
+  ]
+}

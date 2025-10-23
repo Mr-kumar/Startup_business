@@ -1,34 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Montserrat, Outfit  } from "next/font/google";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import { Inter } from "next/font/google";
+import MegaMenuHeader from "@/components/layout/MegaMenuHeader";
+import ZincFooter from "@/components/layout/ZincFooter";
 import "./globals.css";
 
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-montserrat',
-});
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  variable: '--font-outfit',
-});
-
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "DoStartup",
-  description: "DoStartup",
+  title: "Ashtronx - Professional Business Services & Compliance Solutions",
+  description: "Expert business registration, compliance, legal, and consulting services. From GST registration to trademark filing, we help businesses grow with professional solutions in Patna and across India.",
+  keywords: "business services, GST registration, trademark registration, company registration, legal compliance, business consulting, Patna, India",
+  authors: [{ name: "Ashtronx" }],
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -41,6 +23,11 @@ export const metadata: Metadata = {
       url: '/NewL.png',
     },
   },
+  openGraph: {
+    title: "Ashtronx - Professional Business Services",
+    description: "Expert business registration, compliance, and consulting services",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -49,11 +36,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${outfit.variable} ${geistSans.variable} ${geistMono.variable}`}>
-      <body suppressHydrationWarning className="antialiased">
-        <Header />
+    <html lang="en" className={inter.variable}>
+      <body suppressHydrationWarning className="font-sans antialiased">
+        <MegaMenuHeader />
         <main>{children}</main>
-        <Footer />
+        <ZincFooter />
       </body>
     </html>
   );

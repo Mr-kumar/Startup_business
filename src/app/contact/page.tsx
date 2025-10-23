@@ -38,68 +38,161 @@ export default function Contact() {
 
 
     return (
-        <div>
-            <section className="bg-gray-50 py-12">
-                <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-10 gap-8">
-
-                    {/* Left Content */}
-                    <div className="md:col-span-2">
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                            Contact US
-                        </h2>
-                        <div className="w-16 h-1 bg-[#f0a52b] mb-6"></div>
-                        <p className="text-gray-700 leading-relaxed">
-                            At DostartUp, we aim to bestow the exquisite Environmental Compliance,
-                            financial, Legal Compliance, and secretarial services through the
-                            internet. However, if you are not satisfied with our services,
-                            please get in touch with us immediately. We will correct the
-                            situation and provide a refund or offer credit adjusted in future
-                            DostartUp orders.
+        <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-accent-50">
+            {/* Hero Section */}
+            <section className="relative bg-gradient-primary text-white py-20 overflow-hidden">
+                <div className="absolute inset-0 bg-black/10"></div>
+                <div className="container mx-auto px-6 relative z-10">
+                    <div className="max-w-3xl mx-auto text-center">
+                        <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">
+                            Get in Touch with Ashtronx
+                        </h1>
+                        <p className="text-xl text-primary-100 mb-2">
+                            Your Trusted Partner for Business Solutions
+                        </p>
+                        <p className="text-primary-200">
+                            We're here to help your business grow with expert compliance, legal, and consulting services
                         </p>
                     </div>
+                </div>
+            </section>
 
-                    {/* Middle Content */}
-                    <div className="md:col-span-5 bg-white p-8 rounded-2xl shadow-lg max-w-xl mx-auto">
-                        <h2 className="text-3xl font-extrabold text-blue-700 mb-8">Quick Support</h2>
-                        <form className="space-y-6" onSubmit={handleSubmit}>
-
-                            {/* Contact Details */}
-                            <div>
-                                <h3 className="text-lg font-semibold text-gray-700 mb-2">Contact Details</h3>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <input
-                                        type="text"
-                                        value={name}
-                                        onChange={(e) => setName(e.target.value)}
-                                        placeholder="Full Name*"
-                                        className="w-full border border-gray-300 rounded-lg px-5 py-3 placeholder-gray-400 focus:ring-2 focus:ring-blue-400 transition shadow-sm outline-none"
-                                    />
-                                    <input
-                                        type="email"
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
-                                        placeholder="Email*"
-                                        className="w-full border border-gray-300 rounded-lg px-5 py-3 placeholder-gray-400 focus:ring-2 focus:ring-blue-400 transition shadow-sm outline-none"
-                                    />
+            {/* Main Contact Section */}
+            <section className="py-16">
+                <div className="container mx-auto px-6 md:px-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        
+                        {/* Contact Info Cards - Left Side */}
+                        <div className="lg:col-span-1 space-y-6">
+                            <div className="bg-white rounded-2xl p-6 shadow-medium hover:shadow-large transition-shadow duration-300">
+                                <div className="flex items-start space-x-4">
+                                    <div className="bg-gradient-primary p-3 rounded-xl">
+                                        <MapPin className="w-6 h-6 text-white" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-lg text-neutral-800 mb-2">Our Office</h3>
+                                        <p className="text-neutral-600 text-sm leading-relaxed">
+                                            Patna, Bihar<br />
+                                            India
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
-                            {/* Mobile & State */}
-                            <div>
-                                <h3 className="text-lg font-semibold text-gray-700 mb-2">Additional Details</h3>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <input
-                                        type="tel"
-                                        value={phone}
-                                        onChange={(e) => setPhone(e.target.value)}
-                                        placeholder="Mobile Number*"
-                                        className="w-full border border-gray-300 rounded-lg px-5 py-3 placeholder-gray-400 focus:ring-2 focus:ring-blue-400 transition shadow-sm outline-none"
-                                    />
-                                    <select
-                                        className="w-full border border-gray-300 rounded-lg px-5 py-3 bg-white focus:ring-2 focus:ring-blue-400 transition shadow-sm outline-none"
-                                        value={state}
-                                        onChange={(e) => setState(e.target.value)}
-                                    >
+                            <div className="bg-white rounded-2xl p-6 shadow-medium hover:shadow-large transition-shadow duration-300">
+                                <div className="flex items-start space-x-4">
+                                    <div className="bg-gradient-accent p-3 rounded-xl">
+                                        <Mail className="w-6 h-6 text-white" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-lg text-neutral-800 mb-2">Email Us</h3>
+                                        <a href="mailto:ashtronx.ceo@gmail.com" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                                            ashtronx.ceo@gmail.com
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl p-6 shadow-medium hover:shadow-large transition-shadow duration-300">
+                                <div className="flex items-start space-x-4">
+                                    <div className="bg-gradient-secondary p-3 rounded-xl">
+                                        <Headphones className="w-6 h-6 text-white" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-lg text-neutral-800 mb-2">Call Us</h3>
+                                        <p className="text-neutral-600 text-sm">Available Mon-Sat</p>
+                                        <p className="text-primary-600 font-semibold mt-1">+91-9911144807</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Why Choose Us */}
+                            <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-6 text-white shadow-large">
+                                <h3 className="font-bold text-xl mb-4">Why Choose Ashtronx?</h3>
+                                <ul className="space-y-3 text-sm">
+                                    <li className="flex items-start">
+                                        <span className="text-accent-300 mr-2">✓</span>
+                                        <span>Expert team with 10+ years experience</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="text-accent-300 mr-2">✓</span>
+                                        <span>Fast & reliable service delivery</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="text-accent-300 mr-2">✓</span>
+                                        <span>Transparent pricing & processes</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="text-accent-300 mr-2">✓</span>
+                                        <span>24/7 customer support</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Contact Form - Center/Right */}
+                        <div className="lg:col-span-2">
+                            <div className="bg-white rounded-2xl p-8 md:p-10 shadow-large">
+                                <div className="mb-8">
+                                    <h2 className="text-3xl font-bold text-neutral-800 mb-2">Send Us a Message</h2>
+                                    <p className="text-neutral-600">Fill out the form below and we'll get back to you within 24 hours</p>
+                                </div>
+                                <form className="space-y-6" onSubmit={handleSubmit}>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div>
+                                            <label className="block text-sm font-semibold text-neutral-700 mb-2">
+                                                Full Name <span className="text-accent-500">*</span>
+                                            </label>
+                                            <input
+                                                type="text"
+                                                value={name}
+                                                onChange={(e) => setName(e.target.value)}
+                                                required
+                                                placeholder="Enter your full name"
+                                                className="w-full border-2 border-neutral-200 rounded-xl px-4 py-3 text-neutral-800 placeholder-neutral-400 focus:border-primary-500 focus:ring-4 focus:ring-primary-100 transition-all outline-none"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label className="block text-sm font-semibold text-neutral-700 mb-2">
+                                                Email Address <span className="text-accent-500">*</span>
+                                            </label>
+                                            <input
+                                                type="email"
+                                                value={email}
+                                                onChange={(e) => setEmail(e.target.value)}
+                                                required
+                                                placeholder="your.email@example.com"
+                                                className="w-full border-2 border-neutral-200 rounded-xl px-4 py-3 text-neutral-800 placeholder-neutral-400 focus:border-primary-500 focus:ring-4 focus:ring-primary-100 transition-all outline-none"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div>
+                                            <label className="block text-sm font-semibold text-neutral-700 mb-2">
+                                                Phone Number <span className="text-accent-500">*</span>
+                                            </label>
+                                            <input
+                                                type="tel"
+                                                value={phone}
+                                                onChange={(e) => setPhone(e.target.value)}
+                                                required
+                                                placeholder="+91 XXXXX XXXXX"
+                                                className="w-full border-2 border-neutral-200 rounded-xl px-4 py-3 text-neutral-800 placeholder-neutral-400 focus:border-primary-500 focus:ring-4 focus:ring-primary-100 transition-all outline-none"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label className="block text-sm font-semibold text-neutral-700 mb-2">
+                                                State <span className="text-accent-500">*</span>
+                                            </label>
+                                            <select
+                                                className="w-full border-2 border-neutral-200 rounded-xl px-4 py-3 bg-white text-neutral-800 focus:border-primary-500 focus:ring-4 focus:ring-primary-100 transition-all outline-none"
+                                                value={state}
+                                                onChange={(e) => setState(e.target.value)}
+                                                required
+                                                title="Select your state"
+                                                aria-label="Select your state"
+                                            >
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">
                                             Arunachal Pradesh
@@ -132,70 +225,63 @@ export default function Contact() {
                                         <option value="Uttar Pradesh">Uttar Pradesh</option>
                                         <option value="Uttarakhand">Uttarakhand</option>
                                         <option value="West Bengal">West Bengal</option>
-                                    </select>
-                                </div>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <label className="block text-sm font-semibold text-neutral-700 mb-2">
+                                            Your Message <span className="text-accent-500">*</span>
+                                        </label>
+                                        <textarea
+                                            placeholder="Tell us about your requirements or questions..."
+                                            value={query}
+                                            onChange={(e) => setQuery(e.target.value)}
+                                            required
+                                            rows={5}
+                                            className="w-full border-2 border-neutral-200 rounded-xl px-4 py-3 text-neutral-800 placeholder-neutral-400 focus:border-primary-500 focus:ring-4 focus:ring-primary-100 transition-all outline-none resize-none"
+                                        ></textarea>
+                                    </div>
+
+                                    <button
+                                        type="submit"
+                                        className="w-full bg-gradient-primary text-white px-8 py-4 rounded-xl shadow-medium hover:shadow-large transform hover:-translate-y-0.5 transition-all duration-300 font-bold text-lg flex items-center justify-center space-x-2 group"
+                                    >
+                                        <span>Send Message</span>
+                                        <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        </svg>
+                                    </button>
+                                </form>
                             </div>
+                        </div>
 
-                            {/* Query */}
-                            <div>
-                                <h3 className="text-lg font-semibold text-gray-700 mb-2">Your Query</h3>
-                                <textarea
-                                    placeholder="Type Your Query Here"
-                                    value={query}
-                                    onChange={(e) => setQuery(e.target.value)}
-                                    className="w-full border border-gray-300 rounded-lg px-5 py-3 min-h-[80px] placeholder-gray-400 focus:ring-2 focus:ring-blue-400 transition shadow-sm outline-none"
-                                ></textarea>
-                            </div>
-
-                            {/* Submit */}
-                            <button
-                                type="submit"
-                                className="w-full bg-blue-600 text-white px-7 py-3 rounded-lg shadow-lg hover:bg-blue-700 disabled:bg-blue-400 transition font-semibold text-lg"
-                            >
-                                Send Request
-                            </button>
-                        </form>
                     </div>
-
-                    {/* Right Info Boxes (30%) */}
-                    <div className="md:col-span-3 space-y-6">
-                        {/* Head Office */}
-                        <div className="p-5 bg-white rounded-lg shadow-md">
-                            <h3 className="flex items-center font-semibold text-lg text-gray-800 mb-2">
-                                <MapPin className="w-5 h-5 mr-2 text-blue-600" /> Head Office
-                            </h3>
-                            <p className="text-gray-600 text-sm">
-                                C-84, Sector 2 Noida Uttar Pradesh - 201301
-                            </p>
-                        </div>
-
-                        {/* Quick Inquiries */}
-                        <div className="p-5 bg-blue-50 rounded-lg shadow-md">
-                            <h3 className="flex items-center font-semibold text-lg text-gray-800 mb-2">
-                                <Headphones className="w-5 h-5 mr-2 text-blue-600" /> For Quick Inquiries
-                            </h3>
-                            <p className="text-gray-700 text-sm">+91-9911144807</p>
-                        </div>
-
-                        {/* Email Us */}
-                        <div className="p-5 bg-yellow-50 rounded-lg shadow-md">
-                            <h3 className="flex items-center font-semibold text-lg text-gray-800 mb-2">
-                                <Mail className="w-5 h-5 mr-2 text-yellow-600" /> Email us
-                            </h3>
-                            <p className="text-gray-700 text-sm">
-                                <a href="mailto:office.dostartup@gmail.com" className="text-blue-600">
-                                    office.dostartup@gmail.com
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
+            </section>
 
-
-
-                {/* Diagonal background shape */}
-                {/* <div className="absolute top-0 right-0 w-[60%] h-full bg-gradient-to-r from-white to-blue-200 clip-path-triangle hidden md:block"></div> */}
+            {/* Trust Indicators */}
+            <section className="py-12 bg-white">
+                <div className="container mx-auto px-6">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                        <div>
+                            <div className="text-4xl font-bold text-primary-600 mb-2">10+</div>
+                            <div className="text-neutral-600 text-sm">Years Experience</div>
+                        </div>
+                        <div>
+                            <div className="text-4xl font-bold text-secondary-600 mb-2">5000+</div>
+                            <div className="text-neutral-600 text-sm">Happy Clients</div>
+                        </div>
+                        <div>
+                            <div className="text-4xl font-bold text-accent-600 mb-2">400+</div>
+                            <div className="text-neutral-600 text-sm">Services Offered</div>
+                        </div>
+                        <div>
+                            <div className="text-4xl font-bold text-success-600 mb-2">24/7</div>
+                            <div className="text-neutral-600 text-sm">Support Available</div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </div>

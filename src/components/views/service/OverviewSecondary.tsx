@@ -25,6 +25,10 @@ import Business from "./Business";
 import Services from "./Services";
 import Productlist from './Productlist';
 import Clauses from "./Clauses";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Separator } from "@/components/ui/separator";
 
 interface OverviewProps {
   overview?: { heading: string; content: string }[];
@@ -195,65 +199,91 @@ const Overview: React.FC<OverviewProps> = ({
   }, [sections]);
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8 p-4 lg:px-12 lg:py-8 max-w-7xl mx-auto">
+    <div className="flex flex-col lg:flex-row gap-8 p-4 lg:px-12 lg:py-8 max-w-7xl mx-auto bg-gradient-to-b from-background to-blue-50/30">
       {/* Sidebar */}
-      <aside className="lg:w-1/5 sticky top-[120px] h-fit bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-        <h3 className="text-lg font-bold text-[#1D293D] mb-6">Navigation</h3>
-        <ul className="space-y-2">
-          {sections.map(({ id, label }: SectionItem) => (
-            <li
-              key={id}
-              onClick={() => scrollToSection(id)}
-              className={`cursor-pointer px-4 py-3 rounded-lg ${activeSection === id
-                ? "bg-[#1D293D]/10 text-[#1D293D] font-semibold border-l-4 border-[#7DD756]"
-                : "text-gray-600 hover:bg-[#1D293D]/5 hover:text-[#1D293D]"
-                }`}
-            >
-              {label}
-            </li>
-          ))}
-        </ul>
+      <aside className="lg:w-1/5 sticky top-[120px] h-fit">
+        <Card className="shadow-lg">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Badge variant="secondary">Navigation</Badge>
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ScrollArea className="h-[600px] pr-4">
+              <ul className="space-y-2">
+                {sections.map(({ id, label }: SectionItem) => (
+                  <li
+                    key={id}
+                    onClick={() => scrollToSection(id)}
+                    className={`cursor-pointer px-4 py-3 rounded-lg transition-all ${
+                      activeSection === id
+                        ? "bg-primary text-primary-foreground font-semibold shadow-md"
+                        : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                    }`}
+                  >
+                    {label}
+                  </li>
+                ))}
+              </ul>
+            </ScrollArea>
+          </CardContent>
+        </Card>
       </aside>
 
       {/* Main Content */}
-      <main className="lg:w-4/5 space-y-12">
+      <main className="lg:w-4/5 space-y-8">
         {overview && (
           <section id="overview" className="scroll-mt-[120px]">
-            <div className="max-w-4xl mx-auto">
-              <div className="space-y-4 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardHeader>
+                <div className="flex items-center gap-2">
+                  <Badge className="bg-gradient-to-r from-blue-600 to-purple-600">Overview</Badge>
+                  <CardTitle className="text-2xl">Service Overview</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-6">
                 {overview.map((item, index) => (
-                  <div
-                    key={index}
-                    className=""
-                  >
-                    <h2 className="text-2xl font-bold text-gray-800 mb-1">
-                      {item.heading}
-                    </h2>
-                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                  <div key={index} className="space-y-2">
+                    {item.heading && (
+                      <h3 className="text-xl font-bold text-foreground">
+                        {item.heading}
+                      </h3>
+                    )}
+                    <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                       {item.content}
                     </p>
+                    {index < overview.length - 1 && <Separator className="mt-4" />}
                   </div>
                 ))}
-              </div>
-            </div>
+              </CardContent>
+            </Card>
           </section>
         )}
         {benefits && benefits.length > 0 && (
           <section id="benefits" className="scroll-mt-[120px]">
-            <div className="max-w-4xl mx-auto">
-              <div className="space-y-8">
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardHeader>
+                <div className="flex items-center gap-2">
+                  <Badge className="bg-gradient-to-r from-green-600 to-emerald-600">Benefits</Badge>
+                  <CardTitle className="text-2xl">Key Benefits</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-6">
                 {benefits.map((item, index) => (
-                  <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-                    <h2 className="text-2xl font-bold text-gray-800 mb-3">
-                      {item.heading}
-                    </h2>
-                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                  <div key={index} className="space-y-2">
+                    {item.heading && (
+                      <h3 className="text-xl font-bold text-foreground">
+                        {item.heading}
+                      </h3>
+                    )}
+                    <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                       {item.content}
                     </p>
+                    {index < benefits.length - 1 && <Separator className="mt-4" />}
                   </div>
                 ))}
-              </div>
-            </div>
+              </CardContent>
+            </Card>
           </section>
         )}
         {documentsRequired && (
