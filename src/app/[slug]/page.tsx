@@ -1,7 +1,9 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
+import type { Metadata } from "next";
 import { getServiceBySlug, getAllServiceSlugs } from '@/lib/services';
+import { ServiceStructuredData, BreadcrumbStructuredData, FAQStructuredData } from '@/components/seo/StructuredData';
 
 const Hero = dynamic(() => import("@/components/views/home/HeroSection"));
 const TalkToExpert = dynamic(() => import("@/components/views/service/TalkToExpert"));
@@ -56,6 +58,27 @@ export default async function ServicePage({ params }: PageProps) {
   // Render components based on service type (data-driven approach)
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      {/* SEO Structured Data */}
+      <ServiceStructuredData 
+        serviceType={service.title}
+        description={service.description || ''}
+      />
+      <BreadcrumbStructuredData 
+        items={[
+          { name: 'Home', url: 'https://ashtronx.com' },
+          { name: 'Services', url: 'https://ashtronx.com/services' },
+          { name: service.title }
+        ]}
+      />
+      {service.faqs && service.faqs.length > 0 && (
+        <FAQStructuredData 
+          faqs={service.faqs.map((faq: any) => ({
+            question: faq.question,
+            answer: faq.answer
+          }))}
+        />
+      )}
+
       {/* Hero Section */}
       <Hero title={service.title} description={service.description || ''} />
       
@@ -143,4 +166,62 @@ export default async function ServicePage({ params }: PageProps) {
 export async function generateStaticParams() {
   const slugs = await getAllServiceSlugs();
   return slugs.map((slug) => ({ slug }));
+}
+
+// Generate dynamic metadata for SEO
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug ?? '';
+  const service = await getServiceBySlug(slug);
+
+  if (!service) {
+    return {
+      title: 'Service Not Found',
+      description: 'The requested service could not be found.',
+    };
+  }
+
+  const title = `${service.title} - Professional Services in India`;
+  const description = service.description || `Get expert ${service.title} services in India. Fast, reliable, and affordable solutions from Ashtronx.`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      service.title,
+      `${service.title} India`,
+      `${service.title} online`,
+      `${service.title} Patna`,
+      'business services',
+      'compliance services',
+      'legal services',
+    ],
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `https://ashtronx.com/${slug}`,
+      images: [
+        {
+          url: '/NewL.png',
+          width: 1200,
+          height: 630,
+          alt: service.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/NewL.png'],
+    },
+    alternates: {
+      canonical: `https://ashtronx.com/${slug}`,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }

@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import Head from "next/head";
 import {
   ArrowRight,
   CheckCircle2,
@@ -130,9 +131,14 @@ export default function ColorfulHome() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-blue-50/30 to-background overflow-x-hidden">
-      {/* Hero Section - Colorful */}
-      <section className="relative overflow-hidden pt-20 pb-32">
+    <>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-b from-background via-blue-50/30 to-background overflow-x-hidden">
+        {/* Hero Section - Colorful */}
+        <section className="relative overflow-hidden pt-20 pb-32" aria-label="Hero section">
         {/* Animated Background Blobs */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400/20 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
@@ -209,7 +215,7 @@ export default function ColorfulHome() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-white border-y">
+      <section className="py-16 bg-white border-y" aria-label="Company statistics">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, idx) => (
@@ -240,7 +246,7 @@ export default function ColorfulHome() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20">
+      <section className="py-20" aria-label="Our services">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -310,7 +316,7 @@ export default function ColorfulHome() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white" aria-label="Why choose us">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -360,7 +366,7 @@ export default function ColorfulHome() {
       </section>
 
       {/* Industry Leading Partnerships Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-20 bg-gradient-to-b from-gray-50 to-white" aria-label="Our partners">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -425,7 +431,7 @@ export default function ColorfulHome() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 text-white" aria-label="Call to action">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -462,6 +468,7 @@ export default function ColorfulHome() {
           </motion.div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }
