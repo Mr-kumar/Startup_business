@@ -111,7 +111,7 @@
 //         </a>
 //       </p>
 //       <p>If you have any questions, feel free to reply to this email.</p>
-//       <p>Best regards,<br><strong>DoStartup</strong></p>
+//       <p>Best regards,<br><strong>Ashtronx</strong></p>
 //     </div>
 //   </div>
 //   `,

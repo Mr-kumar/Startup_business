@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Privacy Policy | DoStartup',
-  description: 'Privacy Policy for DoStartup - Learn how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Ashtronx',
+  description: 'Privacy Policy for Ashtronx - Learn how we collect, use, and protect your personal information.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">1. Introduction</h2>
           <p className="text-gray-700 leading-relaxed">
-            Welcome to DoStartup Private Limited ("DoStartup," "we," "us," or "our"). 
+            Welcome to Ashtronx Private Limited ("Ashtronx," "we," "us," or "our"). 
             We are committed to protecting your privacy and ensuring the security of your personal information. 
             This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you 
             use our services and visit our website.
@@ -140,7 +140,7 @@ export default function PrivacyPolicyPage() {
             If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <p className="text-gray-700 mb-2"><strong>DoStartup Private Limited</strong></p>
+            <p className="text-gray-700 mb-2"><strong>Ashtronx Private Limited</strong></p>
             <p className="text-gray-700 mb-2">Email: privacy@dostartup.in</p>
             <p className="text-gray-700 mb-2">Phone: [Your Contact Number]</p>
             <p className="text-gray-700">Address: [Your Business Address]</p>

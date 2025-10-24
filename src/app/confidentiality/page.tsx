@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Confidentiality Policy | DoStartup',
-  description: 'Confidentiality and data protection policy for DoStartup services.',
+  title: 'Confidentiality Policy | Ashtronx',
+  description: 'Confidentiality and data protection policy for Ashtronx services.',
 };
 
 export default function ConfidentialityPage() {
@@ -18,7 +18,7 @@ export default function ConfidentialityPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">1. Our Commitment to Confidentiality</h2>
           <p className="text-gray-700 leading-relaxed">
-            DoStartup Private Limited is committed to maintaining the highest standards of confidentiality and 
+            Ashtronx Private Limited is committed to maintaining the highest standards of confidentiality and 
             protecting the sensitive information entrusted to us by our clients. This Confidentiality Policy 
             outlines how we safeguard your confidential information.
           </p>
@@ -57,7 +57,7 @@ export default function ConfidentialityPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">4. Employee and Contractor Obligations</h2>
           <p className="text-gray-700 leading-relaxed">
-            All DoStartup employees, contractors, and partners are bound by strict confidentiality agreements. 
+            All Ashtronx employees, contractors, and partners are bound by strict confidentiality agreements. 
             They are required to:
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
@@ -167,7 +167,7 @@ export default function ConfidentialityPage() {
             If you have questions about our confidentiality practices or wish to report a concern:
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <p className="text-gray-700 mb-2"><strong>DoStartup Private Limited</strong></p>
+            <p className="text-gray-700 mb-2"><strong>Ashtronx Private Limited</strong></p>
             <p className="text-gray-700 mb-2">Email: privacy@dostartup.in</p>
             <p className="text-gray-700 mb-2">Phone: [Your Contact Number]</p>
             <p className="text-gray-700">Address: [Your Business Address]</p>

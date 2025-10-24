@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Disclaimer | DoStartup',
-  description: 'Legal disclaimer for DoStartup services and website.',
+  title: 'Disclaimer | Ashtronx',
+  description: 'Legal disclaimer for Ashtronx services and website.',
 };
 
 export default function DisclaimerPage() {
@@ -18,7 +18,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">1. General Information</h2>
           <p className="text-gray-700 leading-relaxed">
-            The information provided on the DoStartup website and through our services is for general informational 
+            The information provided on the Ashtronx website and through our services is for general informational 
             purposes only. While we strive to provide accurate and up-to-date information, we make no representations 
             or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, 
             or availability of the information, products, services, or related graphics contained on the website.
@@ -38,7 +38,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">3. No Guarantee of Results</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            DoStartup does not guarantee:
+            Ashtronx does not guarantee:
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
             <li>Approval of any application submitted to government authorities</li>
@@ -76,7 +76,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">6. Limitation of Liability</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            To the fullest extent permitted by law, DoStartup shall not be liable for:
+            To the fullest extent permitted by law, Ashtronx shall not be liable for:
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
             <li>Any loss or damage arising from the use of our website or services</li>
@@ -105,7 +105,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">8. Government Authority Decisions</h2>
           <p className="text-gray-700 leading-relaxed">
-            DoStartup acts as a facilitator for various registrations, licenses, and compliance services. Final 
+            Ashtronx acts as a facilitator for various registrations, licenses, and compliance services. Final 
             decisions on applications rest with the relevant government authorities. We cannot influence or guarantee 
             the decisions of government departments, and we are not responsible for rejections, delays, or adverse 
             decisions made by such authorities.
@@ -124,7 +124,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">10. Intellectual Property</h2>
           <p className="text-gray-700 leading-relaxed">
-            All content on this website, including text, graphics, logos, and software, is the property of DoStartup 
+            All content on this website, including text, graphics, logos, and software, is the property of Ashtronx 
             or its licensors. Unauthorized use, reproduction, or distribution of this content is prohibited and may 
             violate copyright, trademark, and other laws.
           </p>
@@ -162,7 +162,7 @@ export default function DisclaimerPage() {
             For questions or concerns about this disclaimer:
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <p className="text-gray-700 mb-2"><strong>DoStartup Private Limited</strong></p>
+            <p className="text-gray-700 mb-2"><strong>Ashtronx Private Limited</strong></p>
             <p className="text-gray-700 mb-2">Email: support@dostartup.in</p>
             <p className="text-gray-700 mb-2">Phone: [Your Contact Number]</p>
             <p className="text-gray-700">Address: [Your Business Address]</p>

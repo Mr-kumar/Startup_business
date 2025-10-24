@@ -79,17 +79,17 @@ export default function About() {
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">About us</h2>
 
                         <p className="text-gray-700 mb-4">
-                            Welcome to DoStartup.in: India&apos;s premier platform for business registration, compliance, tax, and legal consulting. Powered by a robust network of over 10,000 Chartered Accountants, 15,000 Lawyers, 1,000 Company Secretaries, and 1,500 Engineers, we deliver integrated solutions trusted by startups, SMEs, and large enterprises alike.
+                            Welcome to Ashtronx.in: India&apos;s premier platform for business registration, compliance, tax, and legal consulting. Powered by a robust network of over 10,000 Chartered Accountants, 15,000 Lawyers, 1,000 Company Secretaries, and 1,500 Engineers, we deliver integrated solutions trusted by startups, SMEs, and large enterprises alike.
                         </p>
 
                         <h3 className="text-lg font-semibold mb-2">Client-First. Always Independent.</h3>
                         <p className="text-gray-700 mb-4">
-                            What sets us apart? At DoStartup.in, clients connect directly with verified experts across domains—ensuring unbiased, transparent, and personalized guidance every step of the way. Our professionals operate independently, free from third-party influence, guaranteeing genuine advice tailored to your business goals.
+                            What sets us apart? At Ashtronx.in, clients connect directly with verified experts across domains—ensuring unbiased, transparent, and personalized guidance every step of the way. Our professionals operate independently, free from third-party influence, guaranteeing genuine advice tailored to your business goals.
                         </p>
 
                         <h3 className="text-lg font-semibold mb-2">Nationwide Network. Tailored Expertise.</h3>
                         <p className="text-gray-700">
-                            Backed by 5,000+ legal and accounting firms and a dedicated team of management consultants, we offer unmatched reach across 10,000+ pin codes in India. Whether you&apos;re launching a startup or scaling a multinational, DoStartup.in delivers customized, end-to-end solutions to navigate every stage of your business lifecycle.
+                            Backed by 5,000+ legal and accounting firms and a dedicated team of management consultants, we offer unmatched reach across 10,000+ pin codes in India. Whether you&apos;re launching a startup or scaling a multinational, Ashtronx.in delivers customized, end-to-end solutions to navigate every stage of your business lifecycle.
                         </p>
                     </div>
 
@@ -117,7 +117,7 @@ export default function About() {
                             Streamlining Business in India: Your One-Stop Solution for Complex Regulatory Needs
                         </h2>
                         <p className="text-gray-700 mb-4">
-                            At DoStartup.in, we operate India&apos;s most comprehensive platform for managing compliance across 1,000+ business categories. Powered by AI-driven technology, our system simplifies even the most intricate legal and regulatory requirements—saving you time, cost, and effort.
+                            At Ashtronx.in, we operate India&apos;s most comprehensive platform for managing compliance across 1,000+ business categories. Powered by AI-driven technology, our system simplifies even the most intricate legal and regulatory requirements—saving you time, cost, and effort.
 
                             From BFSI and manufacturing to international trade, our unified platform consolidates all your compliance needs under one secure login, offering seamless access to expert-led solutions.
                         </p>
@@ -127,7 +127,7 @@ export default function About() {
                         <p className="text-gray-700 mb-6">
                             Our team is built for speed and precision. With a client-first approach, we deliver prompt responses and tailored advisory services to ensure you&apos;re always compliant, always ready.
 
-                            At DoStartup.in, client satisfaction isn&apos;t a metric—it&apos;s our mission. We make business simple, scalable, and future-ready.
+                            At Ashtronx.in, client satisfaction isn&apos;t a metric—it&apos;s our mission. We make business simple, scalable, and future-ready.
                         </p>
 
                         <button className="bg-[#1D293D] text-white px-6 py-2 rounded-md font-semibold shadow-md hover:bg-orange-600">

@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Terms & Conditions | DoStartup',
-  description: 'Terms and Conditions for using DoStartup services.',
+  title: 'Terms & Conditions | Ashtronx',
+  description: 'Terms and Conditions for using Ashtronx services.',
 };
 
 export default function TermsPage() {
@@ -18,7 +18,7 @@ export default function TermsPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">1. Acceptance of Terms</h2>
           <p className="text-gray-700 leading-relaxed">
-            By accessing and using the services provided by DoStartup Private Limited ("DoStartup," "we," "us," or "our"), 
+            By accessing and using the services provided by Ashtronx Private Limited ("Ashtronx," "we," "us," or "our"), 
             you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
           </p>
         </section>
@@ -26,7 +26,7 @@ export default function TermsPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">2. Services Provided</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            DoStartup provides business registration, compliance, licensing, and related professional services including but not limited to:
+            Ashtronx provides business registration, compliance, licensing, and related professional services including but not limited to:
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
             <li>Company registration and incorporation services</li>
@@ -80,7 +80,7 @@ export default function TermsPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">6. Intellectual Property</h2>
           <p className="text-gray-700 leading-relaxed">
-            All content on our website, including text, graphics, logos, and software, is the property of DoStartup 
+            All content on our website, including text, graphics, logos, and software, is the property of Ashtronx 
             or its licensors and is protected by intellectual property laws. You may not reproduce, distribute, or 
             create derivative works without our express written permission.
           </p>
@@ -148,7 +148,7 @@ export default function TermsPage() {
             For questions about these Terms and Conditions, please contact us:
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <p className="text-gray-700 mb-2"><strong>DoStartup Private Limited</strong></p>
+            <p className="text-gray-700 mb-2"><strong>Ashtronx Private Limited</strong></p>
             <p className="text-gray-700 mb-2">Email: support@dostartup.in</p>
             <p className="text-gray-700 mb-2">Phone: [Your Contact Number]</p>
             <p className="text-gray-700">Address: [Your Business Address]</p>

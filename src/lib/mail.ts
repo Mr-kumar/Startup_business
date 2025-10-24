@@ -61,10 +61,10 @@ export async function sendEmail({ to, subject, html, attachments }: EmailOptions
 
 // Admin notification email for contact form
 export async function sendContactAdminEmail(data: ContactFormData, meetLink?: string, eventId?: string) {
-  const subject = `📌 New Consultation Request - ${data.pageTitle || 'DoStartup'}`;
+  const subject = `📌 New Consultation Request - ${data.pageTitle || 'Ashtronx'}`;
   const html = `
     <div style="font-family: Arial, sans-serif; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-      <h2 style="color: #2c3e50; margin-bottom: 10px;">${data.pageTitle || 'DoStartup'}</h2>
+      <h2 style="color: #2c3e50; margin-bottom: 10px;">${data.pageTitle || 'Ashtronx'}</h2>
       <p style="font-size: 16px; margin-bottom: 20px;">
         A new consultation request has been submitted. Here are the details:
       </p>
@@ -92,7 +92,7 @@ export async function sendContactAdminEmail(data: ContactFormData, meetLink?: st
 
 // User confirmation email for contact form
 export async function sendContactUserEmail(data: ContactFormData, meetLink?: string) {
-  const subject = `Your Consultation Details - ${data.pageTitle || 'DoStartup'}`;
+  const subject = `Your Consultation Details - ${data.pageTitle || 'Ashtronx'}`;
   const html = `
     <div style="font-family: 'Arial', sans-serif; max-width: 600px; margin: auto; border: 1px solid #e8e8e8; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
     
@@ -100,13 +100,13 @@ export async function sendContactUserEmail(data: ContactFormData, meetLink?: str
     <div style="background: linear-gradient(135deg, #1D293D 0%, #2D3E5D 100%); color: #fff; padding: 20px 28px; display: flex; align-items: center; justify-content: space-between;">
       <!-- Left side (title) -->
       <div>
-        <h2 style="margin: 0; font-size: 24px; font-weight: 600;">${data.pageTitle || 'DoStartup'}</h2>
-        <p style="margin: 6px 0 0; opacity: 0.9; font-size: 14px;">DoStartup Consultation Confirmation</p>
+        <h2 style="margin: 0; font-size: 24px; font-weight: 600;">${data.pageTitle || 'Ashtronx'}</h2>
+        <p style="margin: 6px 0 0; opacity: 0.9; font-size: 14px;">Ashtronx Consultation Confirmation</p>
       </div>
       
       <!-- Right side (logo) -->
       <div>
-        <img src="cid:logo" alt="DoStartup Logo" width="48" height="48" style="border-radius: 6px;" />
+        <img src="cid:logo" alt="Ashtronx Logo" width="48" height="48" style="border-radius: 6px;" />
       </div>
     </div>
       
@@ -117,7 +117,7 @@ export async function sendContactUserEmail(data: ContactFormData, meetLink?: str
         </p>
         
         <p style="margin: 0 0 28px; color: #666; line-height: 1.6;">
-          Thank you for choosing DoStartup! We're excited to help you with your entrepreneurial journey. 
+          Thank you for choosing Ashtronx! We're excited to help you with your entrepreneurial journey. 
           Below are the details for your upcoming consultation:
         </p>
         
@@ -196,14 +196,14 @@ export async function sendContactUserEmail(data: ContactFormData, meetLink?: str
         
         <p style="margin: 0; color: #666;">
           Best regards,<br>
-          <strong style="color: #1D293D;">The DoStartup Team</strong>
+          <strong style="color: #1D293D;">The Ashtronx Team</strong>
         </p>
       </div>
       
       <!-- Footer -->
       <div style="background: #f5f7fb; padding: 20px; text-align: center; border-top: 1px solid #e8e8e8;">
         <p style="margin: 0; font-size: 12px; color: #8c8c8c;">
-          © ${new Date().getFullYear()} DoStartup. All rights reserved.<br>
+          © ${new Date().getFullYear()} Ashtronx. All rights reserved.<br>
           <a href="#" style="color: #1D293D; text-decoration: none; margin: 0 8px;">Privacy Policy</a> • 
           <a href="#" style="color: #1D293D; text-decoration: none; margin: 0 8px;">Terms of Service</a>
         </p>
@@ -275,13 +275,13 @@ export async function sendSupportUserEmail(data: SupportFormData) {
 
 // OTP email function
 export async function sendOTPEmail(email: string, otp: string) {
-  const subject = 'Verify Your Email - DoStartup Consultation';
+  const subject = 'Verify Your Email - Ashtronx Consultation';
   const html = `
     <div style="font-family: 'Arial', sans-serif; max-width: 600px; margin: auto; border: 1px solid #e8e8e8; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
 
     <!-- Header with logo -->
     <div style="background: #ffffff; padding: 20px; text-align: center; border-bottom: 1px solid #f0f0f0;">
-      <img src="cid:logo" alt="DoStartup Logo" style="height: 48px;" />
+      <img src="cid:logo" alt="Ashtronx Logo" style="height: 48px;" />
     </div>
 
     <!-- Main content -->
@@ -291,7 +291,7 @@ export async function sendOTPEmail(email: string, otp: string) {
       </h2>
 
       <p style="margin-bottom: 20px; color: #666; line-height: 1.6; text-align: center;">
-        Thank you for booking a consultation with DoStartup. To complete your registration, please use the following One-Time Password:
+        Thank you for booking a consultation with Ashtronx. To complete your registration, please use the following One-Time Password:
       </p>
 
       <!-- OTP Section -->
@@ -314,9 +314,9 @@ export async function sendOTPEmail(email: string, otp: string) {
     <!-- Footer -->
     <div style="background: #f5f7fb; padding: 20px; text-align: center; border-top: 1px solid #e8e8e8;">
       <p style="margin: 0 0 12px; color: #5a6575; font-size: 14px;">Best regards,</p>
-      <p style="margin: 0; color: #1D293D; font-weight: 600; font-size: 15px;">The DoStartup Team</p>
+      <p style="margin: 0; color: #1D293D; font-weight: 600; font-size: 15px;">The Ashtronx Team</p>
       <p style="margin: 20px 0 0; font-size: 12px; color: #8c8c8c;">
-        © ${new Date().getFullYear()} DoStartup. All rights reserved.
+        © ${new Date().getFullYear()} Ashtronx. All rights reserved.
       </p>
     </div>
   </div>

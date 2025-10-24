@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Refund Policy | DoStartup',
-  description: 'Refund and cancellation policy for DoStartup services.',
+  title: 'Refund Policy | Ashtronx',
+  description: 'Refund and cancellation policy for Ashtronx services.',
 };
 
 export default function RefundPolicyPage() {
@@ -18,7 +18,7 @@ export default function RefundPolicyPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">1. General Refund Policy</h2>
           <p className="text-gray-700 leading-relaxed">
-            At DoStartup Private Limited, we are committed to providing high-quality services. This Refund Policy 
+            At Ashtronx Private Limited, we are committed to providing high-quality services. This Refund Policy 
             outlines the circumstances under which refunds may be issued and the process for requesting a refund.
           </p>
         </section>
@@ -43,7 +43,7 @@ export default function RefundPolicyPage() {
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
             <li>Service cancellation after work has commenced but before submission to authorities</li>
-            <li>Significant delays caused solely by DoStartup (not government processing times)</li>
+            <li>Significant delays caused solely by Ashtronx (not government processing times)</li>
             <li>Service quality issues that cannot be resolved</li>
           </ul>
 
@@ -65,7 +65,7 @@ export default function RefundPolicyPage() {
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-800">3. Government and Third-Party Fees</h2>
           <p className="text-gray-700 leading-relaxed">
             Government fees, statutory charges, and third-party service fees are non-refundable once paid to 
-            the respective authorities or service providers. Only DoStartup's professional service fees may be 
+            the respective authorities or service providers. Only Ashtronx's professional service fees may be 
             eligible for refund as per this policy.
           </p>
         </section>
@@ -145,7 +145,7 @@ export default function RefundPolicyPage() {
             For questions about our Refund Policy or to request a refund, please contact us:
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <p className="text-gray-700 mb-2"><strong>DoStartup Private Limited</strong></p>
+            <p className="text-gray-700 mb-2"><strong>Ashtronx Private Limited</strong></p>
             <p className="text-gray-700 mb-2">Email: refunds@dostartup.in</p>
             <p className="text-gray-700 mb-2">Support: support@dostartup.in</p>
             <p className="text-gray-700 mb-2">Phone: [Your Contact Number]</p>

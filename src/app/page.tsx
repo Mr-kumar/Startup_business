@@ -2,22 +2,28 @@
 
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { 
-  ArrowRight, 
-  CheckCircle2, 
-  Star, 
-  TrendingUp, 
-  Shield, 
-  Clock, 
+import {
+  ArrowRight,
+  CheckCircle2,
+  Star,
+  TrendingUp,
+  Shield,
+  Clock,
   Users,
   Sparkles,
   Building2,
   FileText,
   Award,
-  Zap
+  Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export default function ColorfulHome() {
@@ -26,7 +32,8 @@ export default function ColorfulHome() {
   const services = [
     {
       title: "Company Registration",
-      description: "Register your Private Limited, LLP, or OPC with expert guidance",
+      description:
+        "Register your Private Limited, LLP, or OPC with expert guidance",
       icon: Building2,
       link: "/private-limited-company-registration",
       gradient: "from-blue-500 to-cyan-500",
@@ -69,10 +76,30 @@ export default function ColorfulHome() {
   ];
 
   const stats = [
-    { number: "5000+", label: "Happy Clients", icon: Users, color: "text-blue-600" },
-    { number: "406", label: "Services Offered", icon: Sparkles, color: "text-purple-600" },
-    { number: "10+", label: "Years Experience", icon: TrendingUp, color: "text-orange-600" },
-    { number: "24/7", label: "Support Available", icon: Clock, color: "text-green-600" },
+    {
+      number: "5000+",
+      label: "Happy Clients",
+      icon: Users,
+      color: "text-blue-600",
+    },
+    {
+      number: "406",
+      label: "Services Offered",
+      icon: Sparkles,
+      color: "text-purple-600",
+    },
+    {
+      number: "10+",
+      label: "Years Experience",
+      icon: TrendingUp,
+      color: "text-orange-600",
+    },
+    {
+      number: "24/7",
+      label: "Support Available",
+      icon: Clock,
+      color: "text-green-600",
+    },
   ];
 
   const features = [
@@ -80,25 +107,25 @@ export default function ColorfulHome() {
       icon: Shield,
       title: "100% Secure",
       description: "Your data is encrypted and completely secure with us",
-      color: "text-blue-600 bg-blue-50"
+      color: "text-blue-600 bg-blue-50",
     },
     {
       icon: Zap,
       title: "Fast Processing",
       description: "Quick turnaround time for all services",
-      color: "text-purple-600 bg-purple-50"
+      color: "text-purple-600 bg-purple-50",
     },
     {
       icon: CheckCircle2,
       title: "Expert Guidance",
       description: "Professional consultants to guide you at every step",
-      color: "text-orange-600 bg-orange-50"
+      color: "text-orange-600 bg-orange-50",
     },
     {
       icon: Star,
       title: "Best Prices",
       description: "Transparent pricing with no hidden charges",
-      color: "text-green-600 bg-green-50"
+      color: "text-green-600 bg-green-50",
     },
   ];
 
@@ -124,7 +151,7 @@ export default function ColorfulHome() {
               <Sparkles className="w-4 h-4 mr-2" />
               Trusted by 5000+ Businesses
             </Badge>
-            
+
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent">
                 Your Business,
@@ -132,23 +159,24 @@ export default function ColorfulHome() {
               <br />
               <span className="text-foreground">Simplified & Secured</span>
             </h1>
-            
+
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Professional business registration, compliance, and legal services in Patna and across India. Fast, reliable, and affordable.
+              Professional business registration, compliance, and legal services
+              in Patna and across India. Fast, reliable, and affordable.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 hover:opacity-90 text-lg px-8"
                 onClick={() => router.push("/contact")}
               >
                 Get Started Free
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
+              <Button
+                size="lg"
+                variant="outline"
                 className="text-lg px-8"
                 onClick={() => router.push("/services")}
               >
@@ -193,7 +221,12 @@ export default function ColorfulHome() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 ${stat.color.replace('text-', 'bg-')}/10`}>
+                <div
+                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 ${stat.color.replace(
+                    "text-",
+                    "bg-"
+                  )}/10`}
+                >
                   <stat.icon className={`w-6 h-6 ${stat.color}`} />
                 </div>
                 <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent mb-2">
@@ -216,9 +249,14 @@ export default function ColorfulHome() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <Badge variant="outline" className="mb-4">Popular Services</Badge>
+            <Badge variant="outline" className="mb-4">
+              Popular Services
+            </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Everything You Need to <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent">Grow</span>
+              Everything You Need to{" "}
+              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent">
+                Grow
+              </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Comprehensive solutions for your business needs
@@ -235,12 +273,14 @@ export default function ColorfulHome() {
                 viewport={{ once: true }}
                 whileHover={{ y: -8 }}
               >
-                <Card 
+                <Card
                   className="cursor-pointer hover:shadow-xl transition-all border-2 hover:border-primary/50 h-full"
                   onClick={() => router.push(service.link)}
                 >
                   <CardHeader>
-                    <div className={`w-14 h-14 bg-gradient-to-br ${service.gradient} rounded-xl flex items-center justify-center mb-4 shadow-lg`}>
+                    <div
+                      className={`w-14 h-14 bg-gradient-to-br ${service.gradient} rounded-xl flex items-center justify-center mb-4 shadow-lg`}
+                    >
                       <service.icon className="w-7 h-7 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -258,8 +298,8 @@ export default function ColorfulHome() {
           </div>
 
           <div className="text-center mt-12">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               variant="outline"
               onClick={() => router.push("/services")}
             >
@@ -279,9 +319,14 @@ export default function ColorfulHome() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <Badge variant="outline" className="mb-4">Why Choose Us</Badge>
+            <Badge variant="outline" className="mb-4">
+              Why Choose Us
+            </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Built for <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent">Success</span>
+              Built for{" "}
+              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent">
+                Success
+              </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We make business compliance simple, fast, and affordable
@@ -299,7 +344,9 @@ export default function ColorfulHome() {
               >
                 <Card className="text-center h-full hover:shadow-lg transition-shadow">
                   <CardHeader>
-                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-4 mx-auto ${feature.color}`}>
+                    <div
+                      className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-4 mx-auto ${feature.color}`}
+                    >
                       <feature.icon className="w-8 h-8" />
                     </div>
                     <CardTitle className="text-xl">{feature.title}</CardTitle>
@@ -309,6 +356,71 @@ export default function ColorfulHome() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Industry Leading Partnerships Section */}
+      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <Badge variant="outline" className="mb-4">
+              Trusted Partners
+            </Badge>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Industry Leading{" "}
+              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-orange-600 bg-clip-text text-transparent">
+                Partnerships
+              </span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              We work with top Indian Institutions to further our shared mission of improving ease of doing business and promoting Entrepreneurship in India.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center max-w-6xl mx-auto"
+          >
+            {[
+              { name: "ICICI Bank", logo: "/partners/icici-bank.png" },
+              { name: "Axis Bank", logo: "/partners/axis-bank.png" },
+              { name: "HDFC Bank", logo: "/partners/hdfc-bank.png" },
+              { name: "Kotak", logo: "/partners/kotak.png" },
+              { name: "Yes Bank", logo: "/partners/yes-bank.png" },
+              { name: "Small Finance Bank", logo: "/partners/small-finance-bank.png" },
+              { name: "South Indian Bank", logo: "/partners/south-indian-bank.png" },
+              { name: "DBS", logo: "/partners/dbs.png" },
+              { name: "Standard Chartered", logo: "/partners/standard-chartered.png" },
+              { name: "IndusInd Bank", logo: "/partners/indusind-bank.png" },
+              { name: "Shriram Finance", logo: "/partners/shriram-finance.png" },
+              { name: "Aditya Birla Finance", logo: "/partners/aditya-birla.png" },
+            ].map((partner, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: idx * 0.05 }}
+                viewport={{ once: true }}
+                className="flex items-center justify-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div className="relative w-full h-16 grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                  {/* Placeholder for partner logos - replace with actual images */}
+                  <div className="flex items-center justify-center h-full text-sm font-semibold text-gray-600">
+                    {partner.name}
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
 
@@ -326,19 +438,20 @@ export default function ColorfulHome() {
               Ready to Start Your Business Journey?
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Get expert guidance and fast processing for all your business needs
+              Get expert guidance and fast processing for all your business
+              needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="secondary"
                 className="text-lg px-8"
                 onClick={() => router.push("/contact")}
               >
                 Talk to an Expert
               </Button>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="outline"
                 className="text-lg px-8 border-white text-white hover:bg-white/10"
                 onClick={() => router.push("/services")}

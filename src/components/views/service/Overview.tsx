@@ -203,7 +203,7 @@ export default function Overview({ data }: OverviewProps) {
                 <span className="absolute inset-0.5 bg-[#0a0f1a] rounded-xl transition-all duration-500 group-hover:opacity-0"></span>
                 <span className="relative z-10 flex items-center">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 font-medium text-lg group-hover:bg-gradient-to-r group-hover:from-[#77DA5A] group-hover:to-[#4ECDC4] transition-all duration-500">
-                  Get started with DoStartup
+                  Get started with Ashtronx
                   </span>
                   <motion.span 
                     className="ml-4 inline-block"
