@@ -170,6 +170,8 @@ function slugToTitlePattern(slug: string): string {
  */
 export async function getServiceBySlug(slug: string) {
   try {
+    console.log(`🔍 Fetching service with slug: "${slug}"`);
+
     // First, try exact slug match
     let response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
       '/api/services',
@@ -183,14 +185,18 @@ export async function getServiceBySlug(slug: string) {
       }
     );
 
+    console.log(`📦 Exact slug match result: ${response?.data?.length || 0} services found`);
+
     if (response?.data && response.data.length > 0) {
+      console.log(`✅ Found service: ${response.data[0].title}`);
       return parseServiceData(response.data[0]);
     }
 
     // If no exact match, try searching by title pattern
     // Convert slug to title: "trademark-objection" -> "Trademark Objection"
     const titlePattern = slugToTitlePattern(slug);
-    
+    console.log(`🔄 Trying title pattern: "${titlePattern}"`);
+
     response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
       '/api/services',
       {
@@ -203,14 +209,18 @@ export async function getServiceBySlug(slug: string) {
       }
     );
 
+    console.log(`📦 Title pattern match result: ${response?.data?.length || 0} services found`);
+
     if (response?.data && response.data.length > 0) {
+      console.log(`✅ Found service by title: ${response.data[0].title} (slug: ${response.data[0].slug})`);
       // Return the first match
       return parseServiceData(response.data[0]);
     }
 
+    console.log(`❌ No service found for slug: "${slug}"`);
     return null;
   } catch (error) {
-    console.error(`Error fetching service with slug "${slug}":`, error);
+    console.error(`❌ Error fetching service with slug "${slug}":`, error);
     return null;
   }
 }
