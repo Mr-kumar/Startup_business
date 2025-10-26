@@ -4,19 +4,7 @@
  */
 
 import { fetchApi } from './strapi.api';
-import { StrapiCollectionResponse } from './strapi.types';
-
-interface StrapiService {
-  id: number;
-  documentId: string;
-  slug: string;
-  title: string;
-  serviceCategory: string;
-  data: string | any;
-  createdAt: string;
-  updatedAt: string;
-  publishedAt: string;
-}
+import { StrapiCollectionResponse, StrapiService } from './strapi.types';
 
 // Comprehensive service data interface for components
 export interface ServiceData {
@@ -174,7 +162,7 @@ export async function getServiceBySlug(slug: string) {
 
     // First, try exact slug match
     let response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         filters: {
           slug: {
@@ -198,7 +186,7 @@ export async function getServiceBySlug(slug: string) {
     console.log(`🔄 Trying title pattern: "${titlePattern}"`);
 
     response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         filters: {
           title: {
@@ -234,7 +222,7 @@ export async function getServiceBySlug(slug: string) {
 export async function getAllServices(page: number = 1, pageSize: number = 25) {
   try {
     const response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         pagination: {
           page,
@@ -266,7 +254,7 @@ export async function getAllServices(page: number = 1, pageSize: number = 25) {
 export async function getServicesByCategory(category: 'primary' | 'secondary') {
   try {
     const response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         filters: {
           serviceCategory: {
@@ -299,7 +287,7 @@ export async function getServicesByCategory(category: 'primary' | 'secondary') {
 export async function searchServices(searchTerm: string) {
   try {
     const response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         filters: {
           title: {
@@ -331,7 +319,7 @@ export async function searchServices(searchTerm: string) {
 export async function getAllServiceSlugs(): Promise<string[]> {
   try {
     const response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         fields: ['slug'], // Only fetch slug field
         pagination: {
@@ -358,7 +346,7 @@ export async function getAllServiceSlugs(): Promise<string[]> {
 export async function getServiceCount(): Promise<number> {
   try {
     const response = await fetchApi<StrapiCollectionResponse<StrapiService>>(
-      '/api/services',
+      '/services',
       {
         pagination: {
           limit: 1,

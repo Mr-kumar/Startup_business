@@ -18,79 +18,64 @@ export interface StrapiSingleResponse<T> {
   meta: {};
 }
 
-// Unified service attributes matching the unified PageContentType structure
-export interface ServiceAttributes {
-  // Basic metadata
+// Strapi v5 Service data (flat structure, no nested attributes)
+export interface StrapiService {
+  id: number;
+  documentId: string;
   title: string;
   slug: string;
-  description?: string;
-  
-  // Overview - supports both formats
-  overview?: string | any;
-  
-  // Features (from secondary)
-  features?: any[];
-  
-  // Benefits - supports both formats
-  benefits?: { heading: string; content: string }[] | any[];
-  
-  // Documents - supports both formats
-  documentsRequired?: { heading: string; content: string }[];
-  documents?: any;
-  
-  // Eligibility (from secondary)
-  eligibility?: any[];
-  eligibilityCriteria?: { heading: string; content: string }[];
-  
-  // Services - supports both formats
-  services?: { category: string; documents: string[] }[] | any[];
-  
-  // Post registration (from secondary)
-  postRegistration?: any;
-  
-  // FAQ - unified format
-  faq?: { question: string; answer: string }[];
-  faqs?: { question: string; answer: string }[];
-  
-  // Types (from secondary)
-  types?: any;
-  
-  // Registration and procedure fields
-  registrationProcedure?: any[];
-  feesStructure?: any;
-  registrationTimeline?: any;
-  
-  // Additional sections
-  whyUs?: any;
-  who?: any;
-  clauses?: any;
-  
-  // Category-based fields
-  Listicles?: { category: string; documents: string[] }[];
-  Categories?: { category: string; documents: string[] }[];
-  Challenges?: { category: string; documents: string[] }[];
-  ClassifiedIndustries?: { category: string; documents: string[] }[];
-  Guidelines?: { category: string; documents: string[] }[];
-  Regulations?: { category: string; documents: string[] }[];
-  ProductRequire?: { category: string; documents: string[] }[];
-  Structure?: { category: string; documents: string[] }[];
-  RoleOfHydrogeologist?: { category: string; documents: string[] }[];
-  Need?: { category: string; documents: string[] }[];
-  Process?: { category: string; documents: string[] }[];
-  Authority?: { category: string; documents: string[] }[];
-  EPR?: { category: string; documents: string[] }[];
-  Validity?: { category: string; documents: string[] }[];
-  Business?: { category: string; documents: string[] }[];
-  Productlist?: { category: string; documents: string[] }[];
+  serviceCategory: string;
+  data: string | any;
+  createdAt: string;
+  updatedAt: string;
+  publishedAt: string;
 }
 
 export interface ServiceData {
   id: number;
-  attributes: ServiceAttributes;
+  slug: string;
+  title: string;
+  serviceCategory: string;
+  description?: string;
+  overview?: { heading: string; content: string }[];
+  benefits?: { heading: string; content: string }[];
+  features?: any[];
+  documents?: any[];
+  documentsRequired?: { heading: string; content: string }[];
+  registrationProcedure?: { heading: string; content: string }[];
+  feesStructure?: {
+    heading?: string;
+    paymentMethods?: string[];
+    description?: string;
+    feeTable?: { category: string; amount: string }[];
+  }[];
+  registrationTimeline?: {
+    heading: string;
+    description?: string;
+    steps?: { title: string; duration: string; description: string }[];
+    totalTime?: string;
+  }[];
+  eligibility?: any[];
+  types?: any[];
+  faqs?: { question: string; answer: string }[];
+  whyUs?: {
+    heading?: string;
+    description?: string;
+    points?: string[];
+  };
+  who?: {
+    heading?: string;
+    description?: string[];
+    points?: string[];
+  };
+  clauses?: any;
+  createdAt: string;
+  updatedAt: string;
+  publishedAt: string;
 }
 
 // Legacy type aliases for backward compatibility (can be removed later)
-export type ServiceAttributesPrimary = ServiceAttributes;
-export type ServiceAttributesSecondary = ServiceAttributes;
+export type ServiceAttributesPrimary = ServiceData;
+export type ServiceAttributesSecondary = ServiceData;
 export type ServiceDataPrimary = ServiceData;
 export type ServiceDataSecondary = ServiceData;

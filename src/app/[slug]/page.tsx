@@ -51,8 +51,8 @@ export default async function ServicePage({ params }: PageProps) {
   }
 
   // Determine if this is a primary or secondary service page
-  const isPrimaryService = service.documentsRequired && service.overview && 
-    typeof service.overview === 'object' && 'paragraphs' in service.overview && 
+  const isPrimaryService = service.documentsRequired && service.overview &&
+    typeof service.overview === 'object' && 'paragraphs' in service.overview &&
     Array.isArray(service.overview.paragraphs);
 
   // Render components based on service type (data-driven approach)
