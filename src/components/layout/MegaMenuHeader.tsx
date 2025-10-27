@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ChevronDown, Menu, Search, Phone, Mail, Sparkles } from "lucide-react";
 import { menuItems } from "@/content/navigation";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Accordion,
@@ -319,10 +319,16 @@ const MegaMenuHeader = () => {
             <Menu className="h-5 w-5" />
           </button>
         </SheetTrigger>
-        <SheetContent side="right" className="w-[85vw] sm:w-[350px] p-0">
-          <ScrollArea className="h-[100vh] py-4">
-            <div className="px-4 py-4 space-y-4">
-              <div className="flex items-center justify-between mb-4">
+        <SheetContent side="right" className="w-[90vw] max-w-[320px] p-0">
+          <SheetHeader>
+            <SheetTitle>Navigation Menu</SheetTitle>
+            <SheetDescription>
+              Browse our business services and navigate to different sections of the website.
+            </SheetDescription>
+          </SheetHeader>
+          <ScrollArea className="h-[calc(100vh-2rem)] max-h-[calc(100vh-2rem)] py-2 overflow-y-auto mobile-menu-scroll">
+            <div className="px-3 py-3 space-y-3 mobile-menu-safe-area">
+              <div className="flex items-center justify-between mb-3">
                 <Link
                   href="/"
                   className="flex items-center space-x-2"
@@ -349,20 +355,20 @@ const MegaMenuHeader = () => {
                 </Link>
               </div>
 
-              <Accordion type="single" collapsible className="w-full">
+              <Accordion type="single" collapsible className="w-full space-y-1">
                 {menuItems.map((item) => (
                   <AccordionItem key={item.title} value={item.title}>
-                    <AccordionTrigger className="py-2 text-sm font-medium text-gray-700 hover:text-blue-600">
+                    <AccordionTrigger className="py-2 px-2 text-sm font-medium text-gray-700 hover:text-blue-600">
                       {item.title}
                     </AccordionTrigger>
-                    <AccordionContent>
-                      <div className="pl-3 space-y-2 py-2">
+                    <AccordionContent className="space-y-1">
+                      <div className="pl-2 space-y-1 py-1">
                         {(item.subItems ?? []).map((subItem) => (
                           <div key={subItem.title} className="space-y-1">
-                            <span className="block text-sm font-semibold text-gray-900">
+                            <span className="block text-sm font-semibold text-gray-900 py-1">
                               {subItem.title}
                             </span>
-                            <div className="pl-2 space-y-1 mt-1">
+                            <div className="pl-1 space-y-1 mt-1">
                               {subItem.links.map((link) => (
                                 <Link
                                   key={link.href}
@@ -387,7 +393,7 @@ const MegaMenuHeader = () => {
                 ))}
               </Accordion>
 
-              <div className="space-y-2 pt-3">
+              <div className="space-y-1 pt-2">
                 <Link
                   href="/pricing"
                   className="block py-2 px-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-all"
@@ -418,7 +424,7 @@ const MegaMenuHeader = () => {
                 </Link>
               </div>
 
-              <div className="pt-3 border-t border-gray-200 mt-3 space-y-2">
+              <div className="pt-2 border-t border-gray-200 mt-2 space-y-1">
                 <Link
                   href="/login"
                   className="block py-2 px-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-all"

@@ -106,10 +106,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <head>
-        <OrganizationStructuredData />
-        <LocalBusinessStructuredData />
-      </head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       <body suppressHydrationWarning className="font-sans antialiased">
         <MegaMenuHeader />
         <main>{children}</main>
